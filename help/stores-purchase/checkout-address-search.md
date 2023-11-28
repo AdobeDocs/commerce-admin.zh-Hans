@@ -1,0 +1,59 @@
+---
+title: 结账时的地址搜索
+description: 了解如何在商店结帐时包含地址搜索。
+exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
+feature: Checkout
+source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
+
+---
+
+# 结账时的地址搜索
+
+{{ee-feature}}
+
+您的客户在其通讯簿中可以有许多已保存的地址和信息，尤其是定期回头客户或输入多个订单和发运地点的公司。 显示多个地址可能会减慢结帐加载速度并显着影响流程，并导致负面购物体验。 为帮助提高签出的响应速度，建议激活并配置站点的地址搜索。
+
+>[!NOTE]
+>
+>默认情况下不启用地址搜索。 您可以将此功能配置为在站点上包含该功能。
+
+启用此功能后，如果客户的已保存地址数达到或超过配置限制，则 _配送_ 和 _审核与支付_ 步骤仅显示一个地址（默认）。 客户可以通过单击 **更改地址** 然后按城市、州/省、街道或邮政编码搜索正确的地址。 此功能还支持为礼品注册结帐选择地址。
+
+![显示已保存配送地址的结帐](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
+
+如果客户没有默认送货地址，则 _配送_ 页面显示 _未选择地址_. 在这种情况下，客户必须单击 **更改地址** 以选择保存的地址，或单击 **新建地址** 以添加并选择地址，然后再继续结帐。 如果客户没有默认帐单地址，则 _审核与支付_ 页面显示选定要发送的地址以及 _更改地址_ 选项。
+
+![签出时没有选择邮件的地址](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+
+## 锁定的询价地址搜索
+
+![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+
+启用地址搜索还会影响对从报价创建的订单的结帐，其中客户保存的地址数达到或超过配置的限制。 当报价完成并且客户进行结帐时，只显示选定的送货地址。 此页面还会显示一条消息，说明送货地址已锁定，只能在报价中进行更改。
+
+![为报价锁定送货地址](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
+
+## 启用地址搜索
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Checkout]**.
+
+1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Checkout Options]** 部分。
+
+   ![配置 — 签出选项](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+
+   有关每个配置设置的详细说明，请参阅 [签出选项](../configuration-reference/sales/checkout.md#checkout-options) 在 _配置参考指南_.
+
+1. 设置 **[!UICONTROL Enable Address Search]** 到 `Yes`.
+
+1. 要指定包含地址搜索功能的阈值，请设置 **[!UICONTROL Number of Customer Addresses Limit]** 选项。
+
+   如有必要，请清除 **[!UICONTROL Use system value]** 复选框以进行此更改。
+
+   当客户的已保存地址数达到或超过此限制时，页面将显示默认地址（如果客户有）或 _未选择地址_ 使用 _更改地址_ 选项。 默认限制为 `10`.
+
+1. 单击 **[!UICONTROL Save Config]**.

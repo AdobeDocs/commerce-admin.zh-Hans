@@ -1,0 +1,95 @@
+---
+title: 自动重定向
+description: 了解如何配置当产品或类别的URL密钥在Commerce商店中发生更改时生成的自动重定向。
+exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
+feature: Categories, Products, Configuration
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 0%
+
+---
+
+# 自动重定向
+
+您的商店可以配置为在产品或类别的URL密钥发生更改时自动生成永久重定向。 在“搜索引擎优化”部分中，URL键下方的复选框指示是否启用永久重定向。 如果您的存储已配置为自动重定向目录URL，则重定向是对URL键的简单更新。 产品和类别创建自动重定向的过程相同。
+
+>[!NOTE]
+>
+>启用自动重定向并保存类别后，所有产品和类别重写都将实时生成，并默认存储在数据库表中。 这可能会导致分配了许多产品的类别出现严重的性能问题。 解决方案是更改此默认设置并在类别保存时跳过为产品生成类别/产品URL重写。 在这种情况下，仅为规范产品URL生成产品重写。
+
+## 设置自动重定向
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+
+1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimization]** 部分。
+
+   ![目录配置 — 搜索引擎优化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+
+1. 设置 **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** 到 `Yes`.
+
+1. 完成后，单击 **[!UICONTROL Save Config]**.
+
+## 自动重定向产品URL
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+
+1. 在列表中查找产品，然后单击以打开记录。
+
+1. 展开 ![扩展选择器 ](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimization]** 部分。
+
+   ![产品搜索引擎优化 — 永久重定向](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+
+1. 对象 **[!UICONTROL URL Key]**，请执行以下操作：
+
+   - 确保 **[!UICONTROL Create Permanent Redirect for old URL]** 复选框处于选中状态。 如果不能，请按照说明 [启用自动重定向](url-rewrite.md#configure-url-rewrites).
+
+   - 更新 **[!UICONTROL URL Key]** 根据需要，在这些字符之间使用所有小写字符和非尾随连字符，而不是空格。
+
+1. 完成后，单击 **[!UICONTROL Save]**.
+
+1. 提示刷新缓存时，请按照工作区顶部消息中的链接操作。
+
+   永久重定向现在对产品和任何关联的类别URL有效。
+
+## 自动重定向类别URL
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+
+1. 在树中找到该类别，然后单击以打开记录。
+
+1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimization]** 部分。
+
+1. 对象 **[!UICONTROL URL Key]**，请执行以下操作：
+
+   - 确保 **[!UICONTROL Create Permanent Redirect for old URL]** 复选框处于选中状态。 如果不能，请按照说明 [启用自动重定向](url-rewrite.md#configure-url-rewrites).
+
+   - 更新 **[!UICONTROL URL Key]** 根据需要，在这些字符之间使用所有小写字符和非尾随连字符，而不是空格。
+
+1. 完成后，单击 **[!UICONTROL Save]**.
+
+1. 提示刷新缓存时，请按照工作区顶部消息中的链接操作。
+
+   永久重定向现在对类别和任何关联的产品URL有效。
+
+## 跳过为类别保存生成产品URL重写 {#skip-rewrite}
+
+>[!WARNING]
+>
+>关闭类别/产品URL重写的自动生成会导致永久删除所有现有类别/产品类型URL重写，并且无法恢复。 这可能会导致无法解决的类别/产品类型URL冲突，需要手动更新URL密钥才能解决。
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+
+1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimization]** 部分。
+
+1. 设置 **[!UICONTROL Generate "category/product" URL Rewrites]** 到 `No`.
+
+1. 在确认对话框中，单击 **[!UICONTROL OK]** 以确认更改和删除现有URL重写。
+
+   ![关闭类别/产品URL重写 — 确认](./assets/seo-rewrite-off.png){width="350"}
+
+1. 完成后，单击 **[!UICONTROL Save Config]**.

@@ -1,0 +1,32 @@
+---
+title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend]’
+description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend] 商务管理员页面。
+exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
+feature: Configuration, Communications
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL Catalog] > [!UICONTROL Email to a Friend]
+
+{{config}}
+
+## [!UICONTROL Email Templates]
+
+![电子邮件模板](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+
+<!-- [Email Templates](https://docs.magento.com/user-guide/marketing/email-template-configuration.html) -->
+
+| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | 商店视图 | 激活流程，使客户能够向朋友发送有关您商店中产品的电子邮件。 选项： `Yes` / `No` |
+| [!UICONTROL Select Email Template] | 商店视图 | 标识用于由生成的消息的电子邮件模板 _向朋友发送电子邮件_ 函数。 默认模板： `Send Product to Friend` |
+| [!UICONTROL Allow for Guests] | 商店视图 | 确定发件人是否必须是注册客户才能向朋友发送有关产品的电子邮件。 选项： `Yes` / `No` |
+| [!UICONTROL Max Recipients] | 商店视图 | 限制单个电子邮件可在通讯组列表中的人数。 |
+| [!UICONTROL Max Products Sent in 1  Hour] | 商店视图 | 限制单个用户在一小时内可以共享的产品数量。 |
+| [!UICONTROL Limit Sending By] | 商店视图 | 确定用于识别发件人的方法。 选项包括： <br/>**`IP Address`**— （推荐）根据用于发送产品电子邮件的计算机的IP地址标识发件人。<br/>**`Cookie (unsafe)`**  — 通过浏览器Cookie标识发件人。 此方法不安全，因为用户可以删除Cookie以避免限制。 |
+
+{：style=&quot;table-layout：auto&quot;}

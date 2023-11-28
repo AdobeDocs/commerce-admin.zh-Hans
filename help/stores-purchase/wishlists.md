@@ -1,0 +1,53 @@
+---
+title: 愿望清单
+description: 了解愿望清单以及如何将其添加到购物体验和促进更多销售。
+exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
+feature: Customers, Storefront
+source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
+
+---
+
+# 愿望清单
+
+愿望清单是注册客户可与好友共享或保存以便稍后转移到购物车的产品列表。 启用愿望清单后，添加到愿望清单链接会出现在商店中每个产品的类别和产品页面上。 根据主题，它可能是文本链接或图形图像。
+
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce支持每个客户帐户使用多个愿望清单。
+
+![Magento Open Source](../assets/open-source.svg) Magento Open Source支持每个客户账户使用一个愿望清单。
+
+共享愿望清单从商店电子邮件地址发送，但邮件正文包含来自客户的个性化注释。 您可以自定义在共享愿望清单时使用的电子邮件模板，并选择显示为发件人的商店联系人。
+
+可以从的仪表板更新愿望清单 [客户帐户](../customers/account-dashboard.md). 客户或商店管理员可以在愿望清单和购物车之间添加或转移商品。
+
+![示例店面 — 我的愿望清单](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
+
+将具有多个选项的产品添加到愿望列表时，客户选择的任何选项都包含在愿望列表项描述中。 例如，如果客户将同一对鞋以三种不同的颜色添加，则每对鞋都会显示为单独的愿望清单项目。 但是，如果客户将同一产品多次添加到希望列表，则该产品只会出现一次，但会更新数量，以反映添加该产品的次数。
+
+## 希望在管理员中提供列表帮助
+
+客户可以 [管理他们的愿望清单](wishlist-storefront.md) 登录店面的账户。 作为商店管理员，您还可以从管理员管理客户愿望清单。
+
+**_要更新管理员的愿望清单项目，请执行以下操作：_**
+
+1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. 在列表中找到客户并单击 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_列。
+
+1. 在左侧面板中，选择 **[!UICONTROL Wish List]** 并在列表中查找要编辑的项目。
+
+   为产品选择的任何选项都会显示在产品名称下方。
+
+   ![Commerce管理员 — 客户愿望列表](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+
+1. 要编辑产品选项，请执行以下操作：
+
+   - 在 **[!UICONTROL Action]** 列，单击 **[!UICONTROL Configure]**.
+
+   - 在产品页面上，更新选项和 **[!UICONTROL Quantity]** 根据需要。
+
+   - 单击 **[!UICONTROL OK]**.
+
+1. 完成后，单击 **[!UICONTROL Save Customer]** 或 **[!UICONTROL Save and Continue Edit]**.
