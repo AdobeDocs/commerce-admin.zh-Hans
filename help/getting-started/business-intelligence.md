@@ -3,9 +3,9 @@ title: ’[!DNL Commerce Intelligence] 工具'
 description: 了解Adobe Commerce和Magento Open Source商户如何使用Commerce Intelligence工具获得用于制定合理业务决策的见解。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Commerce Intelligence] 帐户使用内置报表，而不是 [!DNL Advanced Reporting] 功能。
+>由于与的兼容性问题 [!DNL Adobe Commerce Intelligence]，Commerce暂时无法支持使用AWS S3存储段作为中源数据文件的媒体的高级报表 [!DNL Commerce Intelligence].
 
 ![高级报告仪表板](./assets/reporting-advanced.png){width="700"}
 
