@@ -1,32 +1,32 @@
 ---
-title: ’[!DNL Business Intelligence] 工具'
-description: 了解Adobe Commerce和Magento Open Source商户如何使用商业智能工具来获得用于制定合理业务决策的见解。
+title: ’[!DNL Commerce Intelligence] 工具'
+description: 了解Adobe Commerce和Magento Open Source商户如何使用Commerce Intelligence工具获得用于制定合理业务决策的见解。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] 工具
+# [!DNL Commerce Intelligence] 工具
 
-使用业务智能工具获得用于制定合理业务决策的洞察力。
+使用Commerce Intelligence工具获取用于制定合理业务决策的见解。
 
-## [!DNL Business Intelligence] 帐户
+## [!DNL Commerce Intelligence] 帐户
 
-当您激活 [!DNL Business Intelligence] 通过Adobe，您可以访问五个包含大约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅 [MBI用户指南][1].
+当您激活 [!DNL Commerce Intelligence] 通过Adobe，您可以访问五个包含大约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅 [Commerce Intelligence用户指南][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] 包含在Adobe Commerce和Magento Open Source中。 通过此功能，您可以访问基于您的产品、订单和客户数据的一组动态报表，并根据您的业务需求定制个性化仪表板。 同时 [!DNL Advanced Reporting] 用途 [!DNL Business Intelligence] 对于analytics，您无需拥有Business Intelligence帐户即可使用 [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] 包含在Adobe Commerce和Magento Open Source中。 通过此功能，您可以访问基于您的产品、订单和客户数据的一组动态报表，并根据您的业务需求定制个性化仪表板。 同时 [!DNL Advanced Reporting] 用途 [!DNL Commerce Intelligence] 对于Analytics，您无需拥有Commerce Intelligence帐户即可使用 [!DNL Advanced Reporting].
 
 有关技术信息，请参见 [[!DNL Advanced Reporting]][2]开发人员文档中的{：target=&quot;_blank&quot;}主题。
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] 帐户使用内置报表，而不是 [!DNL Advanced Reporting] 功能。
+>[!DNL Commerce Intelligence] 帐户使用内置报表，而不是 [!DNL Advanced Reporting] 功能。
 
 ![高级报告仪表板](./assets/reporting-advanced.png){width="700"}
 
