@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL Content Management]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL Content Management] 商务管理员页面。
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL WYSIWYG Editor] | 网站 | 确定用于WYSIWYG编辑器的TinyMCE编辑器的版本。 选项： <br/>**`TinyMCE 5`**— （默认）使用TinyMCE版本5作为默认的WYSIWYG编辑器。<br><br>_**&#x200B;注意：**_对Adobe Commerce和Magento Open Source2.4.5中的TinyMCE 5.10库的更新解决了允许在更新使用某些类型URL的图像或链接时执行任意JavaScript的漏洞。 TinyMCE 3在2.4.0版本中被弃用，在2.4.3版本中被删除。 TinyMCE 4在2.4.4版本中被删除。 |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 全局 | 确定 [静态URL](../../content-design/catalog-urls-dynamic-media.md) 用于从WYSIWYG编辑器引用的媒体内容。 该设置适用于所有可用WYSIWYG编辑器的位置，包括产品、类别、页面和块。 选项： <br/>**`Yes`**— 对通过WYSIWYG编辑器插入的媒体内容使用静态URL。 静态URL为绝对路径，如果 [基本URL](../../stores-purchase/store-urls.md) ，表示存储区发生了更改。<br/>**`No`** （默认） — 对通过WYSIWYG编辑器插入的媒体内容使用动态URL，根据  `{{media url="..."}}` 指令。 动态URL是相对的，如果商店的基本URL发生更改，则不会中断。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Page Hierarchy]
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Hierarchy Metadata] | 全局 | 使您能够关联元数据与层级中的页面。 选项： `Yes` / `No` |
 | [!UICONTROL Default Layout for Hierarchy Menu] | 全局 | 确定默认菜单样式。 选项： `Content` / `Left Column` / `Right Column` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Content Tools]
 
@@ -60,10 +60,8 @@ ht-degree: 0%
 | [!UICONTROL Default Column Grid Size] | 全局 | 确定 [!DNL Page Builder] 网格。 |
 | [!UICONTROL Maximum Column Grid Size] | 全局 | 确定 [!DNL Page Builder] 网格。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 >[!TIP]
 >
 >通过Page Builder，可以轻松使用自定义版面创建内容丰富的页面，以增强您的视觉叙事能力，并提高客户参与度和忠诚度。 这些功能旨在提高质量，并减少制作自定义页面的时间和费用。 有关这些功能以及如何使用这些功能为您的Adobe Commerce或Magento Open Source商店创建吸引人的内容的更多信息，请参阅 [_Page Builder用户指南_](../../page-builder/guide-overview.md).
-
-{：style=&quot;table-layout：auto&quot;}

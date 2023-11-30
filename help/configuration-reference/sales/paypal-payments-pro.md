@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt； [!UICON
 description: 在中查看配置设置 [!UICONTROL PayPal Payments Pro] 部分，位于 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商务管理员页面。
 exl-id: 08363002-e1e6-4d5e-9303-44f5ee53ee0a
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | 网站 | 确定PayPal Payments Pro是否作为付款方式提供给您的客户。 |
 | [!UICONTROL Enable PayPal Credit] | 网站 | 确定客户是否可以将PayPal信用作为付款选项。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | 网站 | 确定 [!DNL PayPal Credit] 产品页面上的横幅。 选项： (与 [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 网站 | 确定 [!DNL PayPal Credit] 购物车页面上的横幅。 选项： (与 [!UICONTROL Home Page]) |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Pro]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | 网站 | 确定客户在结帐期间可用的信用卡。 选择每个受支持的卡片。 选项： `American Express` （需要额外协议）/ `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 | [!UICONTROL International AVS Indicator Does Not Match] | 网站 | 确定在地址验证服务确定国际指示符与系统中的信息不匹配时所采取的操作。 选项： `Yes` / `No` |
 | [!UICONTROL Card Security Code Does Not Match] | 网站 | 确定在客户输入的CVV安全代码与系统中的信息不匹配时所采取的操作。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | 全局 | 确定PayPal生成结算报表的频率。 选项： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 全局 | 确定生成结算报告的小时、分钟和秒。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | 商店视图 | 标头周围2像素边框的六字符十六进制颜色代码。 |
 | [!UICONTROL Page Background Color] | 商店视图 | 用于结账页面的背景颜色的六字符十六进制颜色代码，显示在页眉和付款表单后面。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 网站 | 确定PayPal在收到订单时执行的操作。 选项： <br/>**`Authorization`**— 批准购买，但保留资金。 该金额在商户将该金额“扣押”前不予提取。<br/>**`Sale`**  — 采购金额已获授权并立即从客户账户中提取。 <br/>**`Order`**— 表示与PayPal签订的协议，该协议允许商家在定义的时间段内从客户的买方帐户中获取一个或多个金额，最多可获取订购总额。 最长可为29天。 必须从Commerce Admin生成一个或多个发票才能获取资金。 |
 | [!UICONTROL URL Display on Product Details Page] | 商店视图 | 确定“使用PayPal结帐”按钮是否显示在产品页面上。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 显示PayPal网站上客户购物车中行项目的完整摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 网站 | 确定客户是否可以从PayPal网站完成交易，或者是否需要返回您的商店并在提交订单之前完成订单审核步骤。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Persistent Shopping Cart]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Persistent Shopping Cart] 商务管理员页面。
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)确定在会话结束时是否保留最近查看的产品的状态。 选项： <br/>**`Yes`**— 会话结束时保存最近查看的产品的状态。<br/>**`No`**  — 会话结束时，不会保存最近查看的产品的状态。 |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)确定在会话结束时是否保留客户的群组成员资格状态和分段标准。 选项： <br/>**`Yes`**— 会话结束时保存客户的组成员资格状态和分段数据。<br/>**`No`**  — 会话结束时，不会保存客户的组成员资格状态和分段数据。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

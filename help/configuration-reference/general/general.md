@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL General]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL General] 商务管理员页面。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL European Union Countries] | 全局 | 欧洲联盟成员国。 |
 | [!UICONTROL Top Destinations] | 商店视图 | 您定位销售的主要国家/地区。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL State is required for] | 全局 | 要求将地区或州包含在邮政地址中的国家/地区（您开展业务的国家/地区）。 |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | 全局 | 对于不需要的国家/地区，确定 _地区/州_ 字段包含在客户的邮政地址中。<br /> <br />**`Yes`**— 包括 _地区/州_ 客户地址中的字段，即使国家/地区不要求也是如此。<br />**`No`**  — 如果国家/地区不要求，则省略客户地址中的“地区/州”字段。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL First Day of Week] | 商店视图 | 该天被视为商店视图提供的一周中的第一天。 |
 | [!UICONTROL Weekend Days] | 商店视图 | 周末在商店景象所服务的市场里度过的日子。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!UICONTROL HTTP Response] | 网站 | 确定在网站关闭且机器人、爬虫程序或爬虫程序尝试连接时发送的HTTP响应。<br /> <br />**`503 Service unavailable`**— 页面不可用，但爬虫程序不应更新索引。<br />**`200 OK`**  — 登陆页面正确，爬虫程序应将登陆页面视为网站上的唯一页面。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 网站 | 确定 _登录_ 和 _忘记密码_ 表单会自动从先前的条目中填写。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 | [!UICONTROL VAT Number] | 网站 | Commerce安装所属业务的增值税号（如果适用）。 |
 | [!UICONTROL Validate VAT Number] |  | 验证增值税标识号。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，将隐藏配置范围框和相关字段标签选项： `Yes` / `No` <br/>**_注意：_**对于具有多个视图的商店，将忽略单商店模式。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods] 商务管理员页面。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 网站 | 如果统一费率不适用于购买，则确定在结帐期间是否显示为一个选项。 选项： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 网站 | 确定结帐期间与其他交货方法一起列出统一费率时显示的顺序的数字。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | 显示方法（如果不适用） | 网站 | 如果免费送货方法不适用于购买，则确定在结账期间是否显示免费送货选项。 选项： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，用于确定在结帐期间与其他交付方法一起列出免费送货时显示的顺序。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 网站 | 确定签出期间“表费率”是否显示为选项（如果该方法不适用于购买）。 选项： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，可确定在结账期间与其他交付方法一起列出表格费率时显示的顺序。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | 网站 | 搜索取车位置时使用的半径（以公里为单位）。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | 当客户选择店内提货时显示的消息，但交货方式不可用。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | 网站 | （仅限UPS XML）产品发运来源的国家/地区。 |
 | [!UICONTROL Password] | 商店视图 | 您的UPS发货人帐户密码。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS包信息](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
 | [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**如果键入百分比金额，请使用小数格式 `0.25` 25%。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS允许的方法](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 设置订单达到免费配送资格所需达到的最低总金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | 由于任何原因无法使用此配送方式时显示的错误消息。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS适用的国家/地区和其他设置](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 网站 | 指定系统是否记录存储和UPS之间的数据传输以进行调试。 除非存在必须跟踪和记录的问题，否则此选项应设置为 `No`. |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，用于在结账期间与其他交付方法一起列出UPS时确定其显示顺序。 输入 `0` ，在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | 网站 | 您的USPS发货人帐户密码。 |
 | [!UICONTROL Mode] | 网站 | 确定用于发送到USPS系统的数据的传输模式。 选项包括： <br/>**`Development`**- USPS不会验证从Commerce服务器接收的数据是否通过SSL发送。<br/>**`Live`** - USPS验证从Commerce服务器接收的数据是否通过安全套接字层(SSL)发送。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS打包设置](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | 网站 | 指定计算机是否可以处理包。 此选项会影响装运率的计算。 |
 | [!UICONTROL Maximum Package Weight] | 网站 | 设置包可以由USPS指定的最大重量。 如果订购的产品超出最大包装重量，则此选项不可用。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS处理费设置](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
 | [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**输入百分比金额时，请使用小数格式 `0.25` 25%。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS允许的方法](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 网站 | 设置符合免费配送资格所需的最低订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | USPS由于任何原因不可用时显示的错误消息。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS适用的国家/地区](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 网站 | 确定系统是否维护您的商店和USPS之间的数据传输日志以进行调试。 除非存在必须跟踪和记录的问题，否则此选项应设置为 `No`. |
 | [!UICONTROL Sort Order] | 网站 | 确定在结账期间与其他交付方法一起列出USPS时显示的顺序的数字。 输入 `0` ，在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | 网站 | 要在测试环境中运行FedEx事务，请将沙盒模式设置为 `Yes`. 选项： `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | 网站 | 所需的URL取决于沙盒模式设置。 选项： <br/>**`Production`**— 存储上线时用于访问FedEx Web服务的URL。<br/>**`Sandbox`**  — 用于访问FedEx Web服务的测试环境的URL。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx封装](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | 网站 | 从列表中选择选取方法： <br/>**`Regular Pickup`**— （默认）如果发运量很大，则安排定期提货可能具有成本效益。<br/>**`Request Courier`**  — 您必须致电并请求联邦快递快递取货。 <br/>**`Drop Box`**— 您必须在当地联邦快递托运箱中卸货。<br/>**`Business Service Center`**  — 您必须在当地联邦快递商务服务中心卸货。 <br/>**`Station`**— 您必须在当地联邦快递站卸货。 |
 | [!UICONTROL Maximum Package Weight] | 网站 | 联邦快递的默认价格为150磅。 有关支持的最大重量，请咨询您的承运商。 除非您与FedEx有特殊安排，否则建议使用默认值。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![联邦快递手续费](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 网站 | 确定如何处理手续费。 选项： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 网站 | 根据用于计算金额的方法，指定作为手续费收取的金额。 如果费用基于固定费用，请以小数形式输入金额，例如 `4.90`. 如果手续费基于订单的百分比，则按百分比输入金额。 例如，要收取订单的6%的费用，请输入以下值 `.06`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx投放方法](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 指定免费送货所需的最小订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | FedEx由于任何原因不可用时显示的消息。 您可以使用默认消息或输入其他消息。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx适用国家/地区](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 网站 | 确定在结账期间何时将FedEx显示为配送方式。 选项： <br/>**`Yes`**— 无论订单是否符合使用条件，FedEx发运选项都会显示在交货方式列表中。<br/>**`No`**  — 如果交货方法列表不适用于FedEx发运选项（例如，如果订单重量超过最大重量金额），则不会在该订单中显示该选项。 |
 | [!UICONTROL Sort Order] | 网站 | 确定在结账期间与其他投放方法一起列出时FedEx显示的顺序的数字。 输入 `0` ，在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | 网站 | 您的DHL托运人帐户密码。 |
 | [!UICONTROL Account Number] | 网站 | 您的DHL托运人帐号。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL包设置](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | 商店视图 | 确定在装运计算中使用的重量的度量单位。 选项： `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | 商店视图 | 确定包的大小。 选项： <br/>**`Regular`**— 发运的软件包符合DHL标准包装方法。 在 [!UICONTROL Allowed Methods] 列表，选择用于从商店发运产品的每种包装方法。<br/>**`Specific`**  — 如果发运的软件包具有自定义维度，请完成以下操作： [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL允许的方法](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | 网站 | 设置为以下任一项： <br/>**`Enable`**— 允许对达到最小数量的订单免费DHL装运。<br/>**`Disable`**  — 不提供最低订货量的免费DHL运输。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 网站 | 如果您启用 [!UICONTROL Free Shipping with Minimum Order]，在字段中输入最小订单金额值。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL适用的国家/地区](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 网站 | 创建包含错误信息的日志文件。 |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，它确定在结账期间与其他交付方法一起列出DHL时的显示顺序。 要将其放在列表顶部，请输入 `0`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

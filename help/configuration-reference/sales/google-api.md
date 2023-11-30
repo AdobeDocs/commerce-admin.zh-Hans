@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Google API]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Google API] 商务管理员页面。
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从显示于的IP地址中删除标识信息 [!DNL Google Analytics] 个结果。 |
 | [!UICONTROL Enable Content Experiments] | 商店视图 | 激活 [Google内容实验](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，可用于测试同一页面的最多十个不同版本。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | 商店视图 | 标识 [!DNL Google Tag Manager] 与搜索结果页面关联的属性。 默认值： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 商店视图 | 标识 [!DNL Google Tag Manager] 与内部促销的标签关联的属性。 默认值： `Label` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | 商店视图 | 指定用于 _[!UICONTROL Constant]_转化值类型。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从Google Analytics结果中显示的IP地址中删除标识信息。 |
 | [!UICONTROL Enable Content Experiments] | 商店视图 | 激活 [Google内容实验](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，可用于测试同一页面的最多十个不同版本。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | 商店视图 | 标识 [!DNL Google Tag Manager] 与搜索结果页面关联的属性。 默认值： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 商店视图 | 标识 [!DNL Google Tag Manager] 与内部促销的标签关联的属性。 默认值： `Label` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | 商店视图 | 指定用于 _[!UICONTROL Constant]_转化值类型。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

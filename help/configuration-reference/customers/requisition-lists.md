@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists] 商务管理员页面。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | 商店视图 | 确定每个客户帐户可以维护的申请列表的最大数量。 最小值为 `2`，最大数量为 `999`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

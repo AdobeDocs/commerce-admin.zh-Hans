@@ -2,9 +2,9 @@
 title: 配置范围
 description: 了解如何在Commerce管理员中设置配置设置的范围。
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Default Store View] | 与父存储关联的默认存储视图的名称。 |
 | [!UICONTROL Stores Configuration] | 跳转到“商店”网格，并且与选择 [!UICONTROL Stores] > [!UICONTROL All Stores] 从管理员侧边栏中。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![已选中“使用系统值”复选框](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Use Default] | 当配置范围设置为“主要”时，将出现此复选框 `Website`、和是指分配给网站的默认商店。 |
 | [!UICONTROL Use Website] | 当配置范围设置为特定存储视图时，将出现此复选框。 选中后，它会使用与商店视图关联的父网站的设置。 在这种情况下，将跳过存储级别，因为可以理解，存储级别适用于与网站关联的默认存储。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## 设置范围
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 | 语言 | 要支持多种语言，所有内容（包括产品描述）必须 [已翻译](../stores-purchase/store-localize.md#localize-products) 每个商店视图。 |
 | 显示货币 | 其他 [显示货币](../stores-purchase/currency-configuration.md) 可用于每个商店视图，不过交易是在网站级别使用基础货币处理的。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

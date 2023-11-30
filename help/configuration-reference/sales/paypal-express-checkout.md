@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt； [!UICON
 description: 在中查看配置设置 [!UICONTROL PayPal Express Checkout] 部分，位于 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商务管理员页面。
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable In-Context Checkout Experience] | 网站 | 激活简化的PayPal In-Context Checkout作为客户可用的付款方式。 选项： `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit] | 网站 | 启用PayPal点数功能，允许客户立即购买但稍后付款。 你可以提前付钱，但客户有更多时间付钱。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Express Checkout]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Proxy Host] | 网站 | 如果API使用代理，这会指定代理主机的IP地址。 |
 | [!UICONTROL Proxy Port] | 网站 | 如果API使用代理，这会指定代理主机使用的端口。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advertise PayPal Credit]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | 网站 | 确定 [!DNL PayPal Credit] 产品页面上的横幅。 选项： (与 [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 网站 | 确定 [!DNL PayPal Credit] 购物车页面上的横幅。 选项： (与 [!UICONTROL Home Page]) |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 网站 | 确定PayPal在收到订单时执行的操作。 选项： <br/>**`Authorization`**— 批准购买，但保留资金。 该金额在商户将该金额“扣押”前不予提取。<br/>**`Sale`**  — 采购金额已获授权并立即从客户账户中提取。 <br/>**`Order`**— 表示与PayPal签订的协议，该协议允许商家在定义的时间段内从客户的买方帐户中获取一个或多个金额，最多可获取订购总额。 最长可为29天。 必须从Commerce Admin生成一个或多个发票才能获取资金。 |
 | [!UICONTROL Display on Product Details Page] | 商店视图 | 确定“使用PayPal结帐”按钮是否显示在产品页面上。 选项包括： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | 网站 | 确定客户是否能够输入 [billing agreement（计费协议）](../../stores-purchase/paypal-billing-agreements.md) 你的店里。 选项： <br/>**`Auto`**— 客户可以在快速结帐期间注册账单协议。<br/>**`Ask Customer`**  — 询问客户是否希望注册计费协议。 <br/>**`Never`**— 不向客户提供注册计费协议的选项。 |
 | [!UICONTROL Skip Order Review Step] | 网站 | 确定客户是否可以从PayPal网站完成交易，或者是否需要返回您的商店并在提交订单之前完成订单审核步骤。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 启用后，会在PayPal支付页面上显示购物车中的行项目摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 网站 | 启用后，客户可以从其客户帐户的仪表板启动计费协议。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Settlement Report Settings]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | 网站 | 确定PayPal生成结算报表的频率。 选项： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 网站 | 确定生成结算报告的小时、分钟和秒。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Frontend Experience Settings]
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | 商店视图 | 六个字符 [十六进制颜色](https://en.wikipedia.org/wiki/Web_colors) 标题周围两像素边框的代码。 |
 | [!UICONTROL Page Background Color] | 商店视图 | 六个字符 [十六进制颜色](https://en.wikipedia.org/wiki/Web_colors) 显示在页眉和付款表单后面的结账页面背景颜色的代码。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 | [!UICONTROL Shape] | 商店视图 | 设置智能支付按钮的形状。 选项： `Pill` （默认） / `Rectangle` |
 | [!UICONTROL Color] | 商店视图 | 设置智能支付按钮的颜色。 选项： `Gold` （默认） / `Blue` / `Silver` / `Black` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
@@ -178,4 +178,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | 商店视图 | 确定“结帐”页面上显示的其他PayPal融资选项。 所选选项永远不会显示在“结帐”页面上。 仅当PayPal支持商店货币和买方地点时，才会显示未选定的选项。 选项： `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

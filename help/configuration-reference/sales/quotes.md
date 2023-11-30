@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Quotes]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Quotes] 商务管理员页面。
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | 商店视图 | 当客户尝试提交询价但未满足所需最小金额时购物车中显示的消息。 |
 | [!UICONTROL Default Expiration Period] | 网站 | 确定默认生命周期 [引用](../../b2b/quote-price-negotiation.md) 作为自提交报价请求日期起的时间段。 选项： `Days` / `Weeks` / `Months` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | 全局 | 确定可以附加到引号的文件格式。 支持的默认值： `doc`， `docx`， `xls`， `xlsx`， `pdf`， `txt`， `jpg`， `png`、和 `jpeg` |
 | [!UICONTROL Maximum file size] | 全局 | 确定附加到引号的文件的最大大小。 服务器配置可以覆盖此设置。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

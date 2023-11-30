@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Newsletter]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Newsletter] 商务管理员页面。
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 商店视图 | 确定是否为存储视图范围启用新闻稿。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | 商店视图 | 标识商店联系人，该联系人显示为发送给请求结束新闻稿订阅的用户的电子邮件的发件人。 |
 | [!UICONTROL Unsubscription Email Template] | 商店视图 | 确定用于通知的电子邮件模板，该通知发送给那些请求结束新闻稿订阅的用户。 默认模板： `Newsletter unsubscription success` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

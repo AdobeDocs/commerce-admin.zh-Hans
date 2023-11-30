@@ -3,9 +3,9 @@ title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser]’
 description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser] 商务管理员页面。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 1%
 | [!UICONTROL Color Attribute Code] | 全局 | 指定用于按颜色对产品进行排序的属性。 默认值： `color` |
 | [!UICONTROL Color Order] | 全局 | 确定产品按颜色排序时的排序顺序。 在单独的行中输入每种颜色。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

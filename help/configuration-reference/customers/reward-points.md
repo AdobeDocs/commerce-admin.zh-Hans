@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Reward Points]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Reward Points] 商务管理员页面。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 全局 | 确定是否从退款金额中自动扣减奖励积分。 选项： `Yes` / `No`. |
 | [!UICONTROL Landing Page] | 商店视图 | 指定说明您的奖励积分计划的CMS页面。 指向默认“奖励”页面的链接将显示在商店中可获得点数的位置。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | 网站 | 确定提交审核且已批准发布的客户获得的点数。 |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | 网站 | 限制可用于为每个客户获取点数的评论数量。 保留为空表示无限制。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | 商店视图 | 确定当达到一批点的到期警告限制时客户收到的电子邮件模板。 默认模板： `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | 全局 | 指定在点到期之前发送通知的天数。 留空将不发送过期通知。 如果输入的天数大于点的剩余生命周期，则不会发送通知。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

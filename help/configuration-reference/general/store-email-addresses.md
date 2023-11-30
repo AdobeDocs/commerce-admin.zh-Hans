@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL Store Email Addresses]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL Store Email Addresses] 商务管理员页面。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 商店视图 | 显示的名称，作为电子邮件发件人，由 `General Contact` 身份。 |
 | [!UICONTROL Sender Email] | 商店视图 | 与关联的电子邮件地址 `General Contact` 身份。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 商店视图 | 显示的名称，作为电子邮件发件人，由 `Sales Representative` 身份。 |
 | [!UICONTROL Sender Email] | 商店视图 | 与关联的电子邮件地址 `Sales Representative` 身份。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 商店视图 | 显示的名称，作为电子邮件发件人，由 `Customer Support` 身份。 |
 | [!UICONTROL Sender Email] | 商店视图 | 与关联的电子邮件地址 `Customer Support` 身份。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## 自定义电子邮件1
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 商店视图 | 显示的名称，作为电子邮件发件人，由 `Custom 1` 身份。 |
 | [!UICONTROL Sender Email] | 商店视图 | 与关联的电子邮件地址 `Custom 1` 身份。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## 自定义电子邮件2
 
@@ -69,4 +69,4 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 商店视图 | 显示的名称，作为电子邮件发件人，由 `Custom 2` 身份。 |
 | [!UICONTROL Sender Email] | 商店视图 | 与关联的电子邮件地址 `Custom 2` 身份。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

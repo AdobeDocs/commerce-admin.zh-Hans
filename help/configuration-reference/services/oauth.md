@@ -3,9 +3,9 @@ title: ’[!UICONTROL Services] &gt； [!UICONTROL OAuth]’
 description: 查看 [!UICONTROL Services] &gt； [!UICONTROL OAuth] 商务管理员页面。
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 | [!UICONTROL Customer Token Lifetime (hours]) | 全局 | 确定客户API令牌过期前的小时数。 如果字段为空，则客户令牌永不过期。 默认值： `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | 全局 | 确定管理员API令牌过期前的小时数。 如果字段为空，则管理令牌永不过期。 默认值： `4` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 | [!UICONTROL Cleanup Probability] | 全局 | 指定启动清理之前的OAuth请求数。 请勿输入 `0` 以禁用清理。 |
 | [!UICONTROL Enable WSDL Cache] | 全局 | 确定条目在清理之前的保留时间（以分钟为单位）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | 全局 | 指定与发布使用者凭据相关的最大重定向数。 |
 | [!UICONTROL Expiration Period] | 全局 | 确定OAuth令牌交换开始后，未使用的密钥/密钥过期前的秒数。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 1%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | 全局 | 指定锁定帐户的最大身份验证失败数。 |
 | [!UICONTROL Lockout Time (seconds)] | 全局 | 指定帐户解锁之前经过的时间段（以秒为单位）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Inventory]’
 description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Inventory] 商务管理员页面。
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | 全局 | 确定在购物车中加载产品时是否执行库存检查。 禁用此库存检查可以提高结账步骤的性能，尤其是购物车中有许多项目时。 但是，如果您跳过预验证，客户将看到 _缺货_ 稍后在结账过程中出现错误。 选项： `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | 全局 | 当设置为 `Yes`，库存数据根据目录变化（如产品移除、产品SKU变化以及产品类型变化）进行调整，并保持库存和目录之间的一致性。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | 全局 | 确定构成数量增量的产品数量。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | 全局 | 确定是否自动将贷项通知单中包含的物料退回库存。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | 全局 | 确定您是否为批量产品操作异步运行批量操作，包括 [批量](../../inventory-management/bulk-assignment.md) 分配源、取消分配源以及 [将库存转移到来源](../../inventory-management/inventory-transfer.md). 它会收集到 _[!UICONTROL Asynchronous batch size]_，然后运行这些操作。 默认情况下，此功能处于禁用状态。 我们建议在启用之前使用批量操作检查您的性能。 选项：<br/>**`Yes`**— 运行所有批量操作 [!DNL Inventory Management] 非同步。 要启用，必须配置异步队列管理器。<br/>**`No`**— 默认。 不会异步运行批量操作。 |
 | [!UICONTROL Asynchronous batch size] | 全局 | 设置 **[!UICONTROL Run asynchronously]** 到 `Yes` 输入值 _[!UICONTROL Asynchronous batch size]_字段。 <br/>默认批次大小为100。 当批量进程达到此数量时，即会执行。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | 全局 | 确定用于重新编制库存/来源索引的策略。 选项： `Synchronous` / `Asynchronous` （必须为异步模式配置异步队列管理器） |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > 由于订单相关活动的库存更新依赖关系，因此库存索引器也会在产品保存时触发，而不考虑 `Synchronous` 或 `Asynchronous` 设置。
 
-
-{：style=&quot;table-layout：auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | 全局 | 确定用于距离优先级源选择算法的提供程序。 此功能默认处于启用状态。 选项： <br/>**`Google MAP`**— 使用Google服务计算送货目标地址与来源位置（地址和GPS坐标）之间的距离和时间。 此选项需要Google API密钥，并且可能会通过Google产生费用。<br/>**`Offline Calculation`**  — 使用嵌入的数据库计算距离，以确定源地址与传送目标地址之间的最近距离。 要使用此选项，您可能需要开发人员帮助才能使用命令行首先下载您发送到的所有国家/地区的数据库位置内容。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | 全局 | 确定方向和路径，以计算距装运地址和分配给库存的所有源的距离。 默认情况下，计算使用驱动模式。 选项： <br/>**`Driving`**— 默认设置，使用道路网络请求标准行车方向。<br/>**`Walking`**  — 使用人行道和人行道（如果可用）请求步行路线。 <br/>**`Bicycling`**— 使用自行车道和首选街道要求自行车（目前仅在美国和加拿大一些城市提供）。 |
 | [!UICONTROL Value] | 全局 | 指示要计算的来源地点与发运目的地地址的距离和返回的时间。 距离优先级算法建议源与发运目的地地址之间的距离或时间最短，这样可以更快地完成发运，并且可能更便宜。 选项： <br/>**`Distance`**— 返回以公制（公里和米）或英制（英里和英尺）为单位的点之间的距离。<br/>**`Time to Destination`**  — 返回从源位置到送货地址所需的时间（以小时和分钟为单位）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

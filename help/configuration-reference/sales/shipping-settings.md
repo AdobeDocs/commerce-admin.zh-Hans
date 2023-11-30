@@ -3,10 +3,10 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Shipping Settings]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Shipping Settings] 商务管理员页面。
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Street Address] | 网站 | 原点街道地址。 |
 | [!UICONTROL Street Address Line 2] | 网站 | 如果需要，为原点街道地址增加一行。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ ht-degree: 1%
 | [!UICONTROL Apply Custom Shipping Policy] | 网站 | 确定在结帐期间是否显示送货策略。 选项： `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | 商店视图 | 包含你的配送政策文本。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

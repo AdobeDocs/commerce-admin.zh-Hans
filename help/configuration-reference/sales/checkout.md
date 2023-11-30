@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Checkout]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Checkout] 商务管理员页面。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)确定客户是否可以使用 [地址搜索](../../stores-purchase/checkout-address-search.md) 用于送货的功能以及“查看和付款”步骤。 启用此功能后，请使用“客户地址数限制”来设置结账期间激活此功能所需的已保存地址数。 选项： `Yes` / `No` |
 | 客户地址数限制 | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)启用地址搜索后，将确定在签出期间激活此功能所需的已保存地址数。 当客户的已保存地址数达到或超过此数量时，只有默认地址会呈现在 _配送_ 和 _审核与支付_ 步骤。 客户可以使用搜索功能更改所选地址。 默认为 `10`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | 商店视图 | 确定从购物车中预览报价时报价的最大保留时间（以分钟为单位）。 |
 | [!UICONTROL Enable Clear Shopping Cart] | 网站 | 确定购物车是否会在单次操作中为用户显示用于清除购物车内容的选项。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | 网站 | 确定“我的购物车”链接后括号中显示的值。 选项： `Display number of items in cart` / `Display item quantities` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## 迷你购物车
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | 商店视图 | 确定在触发滚动条之前可在迷你购物车中显示的项目数。 默认： `5` |
 | [!UICONTROL Maximum Number of Items to Display] | 商店视图 | 确定迷你购物车中可以显示的项目的最大数量。 默认： `10` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | 商店视图 | 提供接收付款失败电子邮件副本的任何人的电子邮件地址。 用逗号分隔多个地址。 |
 | [!UICONTROL Send Payment Failed Copy Method] | 商店视图 | 指示用于发送副本的电子邮件方法。 选项： <br />**`Bcc`**— 在发送给客户的同一电子邮件的标题中包含收件人，从而发送礼貌的密文。 客户看不到密件抄送收件人。<br />**`Separate Email`**  — 将副本作为单独的电子邮件发送。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

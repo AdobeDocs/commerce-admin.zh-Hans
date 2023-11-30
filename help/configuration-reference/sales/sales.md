@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Sales]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商务管理员页面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | 商店视图 | 确定订单、发票、发运和贷项通知单上是否显示客户IP地址。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Fixed Product Tax] | 网站 | 确定固定产品税何时与其他结帐总额相关的数字。 默认值： `50` |
 | [!UICONTROL Grand Total] | 网站 | 确定总计与其他结帐总计的计算时间的一个数字。 默认值： `100` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | 商店视图 | 确定客户是否可以从其帐户重新排序。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | 商店视图 | 确定创建总额为零的贷项通知单的可能性。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 | [!UICONTROL Logo for HTML Print View] | 商店视图 | 标识出现在发票和装箱单的HTML打印视图标题中的徽标文件。 允许的文件类型： <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | 商店视图 | 您希望显示在发票和装箱单上的商店地址。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 | [!UICONTROL Multi-address Description Message] | 商店视图 | 对于多地址订单，如果发送到某个地址的项目少于最小订单金额，则确定购物车中显示的消息。 |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | 商店视图 | 对于多地址订单，当订单金额小于所需的最小订单金额时，确定从迷你购物车或结帐链接显示的消息。 如果保留为空，则会显示默认消息。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | 全局 | 确定是否使用实时汇总的销售数据生成仪表板快照报表。 如果要处理的数据量很大，可以通过关闭实时数据的显示来提高性能。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | 网站 | 确定挂单生命周期（以分钟为单位）。 默认设置： `480` 分钟（8小时） |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)指定是否可以为订单添加打印卡。 |
 | [!UICONTROL Default Price for Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)指定打印卡的默认价格。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 | [!UICONTROL Default "What's This" Text Message] | 商店视图 | 客户单击“这是什么？”时显示的短信 产品查看页面中的链接。 |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | 全局 | 制造商建议的零售价(MSRP)。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | 网站 | 确定客户帐户控制面板中是否提供按SKU排序的功能。 选项： <br/>**`Yes, for Everyone`**— “按SKU排序”标签将显示在所有客户的帐户控制面板中。<br/>**`Yes, for Specified Customer Groups`**  — 指定组或共享目录成员的帐户信息板中将显示按SKU排序选项卡。 <br/>**`No`**— 客户帐户中没有“按SKU排序”标签。 |
 | [!UICONTROL Customer Groups] | 网站 | 确定客户组。 选项： `General` / `Retailer` / `Wholesale` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 | [!UICONTROL Enabled] | 商店视图 | 如果付款方式(如Braintree)启用了保险库，则为商店视图启用“即时购买”。 选项： `Yes` / `No` |
 | [!UICONTROL Button Text] | 商店视图 | 指定在“即时购买”按钮上显示的文本。 默认文本为 `Instant Purchase`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ ht-degree: 1%
 | [!UICONTROL Archive Orders Purchased] | 全局 | 确定已完成的订单存档之前的天数。 默认值： `30` |
 | [!UICONTROL Order  Statuses to be Archived] | 全局 | 确定 [状态](../../stores-purchase/order-status.md) 要存档的订单的数量。 默认情况下，系统会将状态为“完成”或“已关闭”的订单存档。 选项： `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ ht-degree: 1%
 | [!UICONTROL Enable RMA on Product Level] | 网站 | 确定产品信息中“启用RMA”字段的默认值。 |
 | [!UICONTROL Use Store Address] | 网站 | 确定用于退回商品装运的联系人姓名和地址。 选项： <br/>**`Yes`**— 使用 [原点](../../stores-purchase/shipping-settings.md#point-of-origin) 发货设置中的地址。<br/>**`No`**  — 打开地址表单，以便输入备用地址。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

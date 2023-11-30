@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Gift Cards]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Gift Cards] 商务管理员页面。
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | 商店视图 | 标识 [商店联系人](../../getting-started/store-details.md#store-email-addresses) 显示为礼品卡通知电子邮件的发件人。 默认值： `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | 商店视图 | 确定 [模板](../../systems/email-templates.md) 用于礼品卡通知电子邮件的。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | 商店视图 | 确定礼品卡消息中允许的最大字符数。 默认值：255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 全局 | 确定客户下订单时是否生成礼品卡帐户，或是否对订单开票。 选项： `Ordered` / `Invoiced` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | 商店视图 | 标识 [商店联系人](../../getting-started/store-details.md#store-email-addresses) 显示为礼品卡电子邮件的发件人。 默认值： `General Contact` |
 | [!UICONTROL Gift Card Template] | 商店视图 | 确定 [模板](../../systems/email-templates.md) 用于礼品卡电子邮件。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | 全局 | 确定代码池中触发需要补充池的警报的记录数。 |
 | [!UICONTROL Generate] | 全局 | 单击以生成礼品卡代码列表。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

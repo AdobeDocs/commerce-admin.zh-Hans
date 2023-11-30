@@ -3,9 +3,9 @@ title: ’[!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront]�
 description: 查看 [!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront] 商务管理员页面。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 网站 | 确定Google reCAPTCHA框的样式。 选项： `Light Theme` （默认） / `Dark Theme` |
 | [!UICONTROL Language Code] | 商店视图 | 此 [双字符代码](https://developers.google.com/recaptcha/docs/language) 指定用于Google reCAPTCHA文本和消息传递的语言。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 全局 | 确定Google reCAPTCHA框的样式。 选项： `Light Theme` （默认） / `Dark Theme` |
 | [!UICONTROL Language Code] | 商店视图 | A [双字符代码](https://developers.google.com/recaptcha/docs/language) 指定用于Google reCAPTCHA文本和消息传递的语言。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 网站 | 确定Google reCAPTCHA框的样式。 选项： `Light Theme` （默认） / `Dark Theme` |
 | [!UICONTROL Language Code] | 商店视图 | A [双字符代码](https://developers.google.com/recaptcha/docs/language) 指定用于Google reCAPTCHA文本和消息传递的语言。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL reCAPTCHA Validation Failure Message] | 商店视图 | 验证失败时显示在店面中的消息。 默认文本： `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | 商店视图 | 如果reCAPTCHA无法返回验证结果，则在店面中显示的消息。 默认文本： `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ ht-degree: 0%
 | [!UICONTROL Enable for Coupon Codes] | 网站 | 指定客户输入 [优惠券代码](../../merchandising-promotions/price-rules-cart-coupon.md). 选项：<br/>**`No`**— （默认）不验证优惠券代码提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | 网站 | 指定客户使用以下项目支付购买费用时使用的reCAPTCHA类型 [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). 选项：<br/>**`No`**— （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

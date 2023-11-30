@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Promotions]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Promotions] 商务管理员页面。
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | 全局 | 提醒尝试将通知发送到特定电子邮件地址并失败的次数。 将该值设置为0时，没有阈值，即使发生任何故障，仍将继续发送通知。 |
 | [!UICONTROL Reminder Email Sender] | 商店视图 | 显示为电子邮件发件人的商店标识。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | 全局 | 附加到所有代码末尾的值。 如果不想使用后缀，请将该字段留空。 |
 | [!UICONTROL Dash Every X Characters] | 全局 | 在所有优惠券代码中插入破折号(-)的间隔。 如果不想使用破折号，请将该字段留空。 <br/>_**注意：**_ 只有短划线不同的优惠券代码被视为不同的代码。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

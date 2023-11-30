@@ -3,9 +3,9 @@ title: 产品列表
 description: 了解如何修改产品列表配置，该配置确定每个页面显示的产品数量，以及使用哪个属性对列表进行排序。
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 | ![每页显示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page]  — 确定每个页面显示的产品数量。 |
 | ![分页链接](./assets/control-pagination.png) | 分页链接 — 导航到其他页面的链接。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### 配置分页控件
 

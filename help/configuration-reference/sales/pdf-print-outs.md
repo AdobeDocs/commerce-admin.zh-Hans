@@ -3,10 +3,10 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs] 商务管理员页面。
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在发票标题中包含订单ID以供参考。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在装运装箱单的题头中包含订单ID以供参考。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在贷项通知单标题中包含订单ID以供参考。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

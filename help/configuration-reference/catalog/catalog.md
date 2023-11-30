@@ -3,9 +3,9 @@ title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Catalog]’
 description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Catalog] 商务管理员页面。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | 全局 | 确定 _元关键字_ 基于其他字段中的占位符值和输入的任何其他文本的字段。 默认占位符： <br/>产品名称 —  `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | 全局 | 根据其他字段中的占位符值和输入的任何其他文本确定元描述字段的默认值。 默认占位符： <br/>产品名称 —  `{{name}}` <br/>描述 —  `{{description}}` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | 商店视图 | 启用产品审查。 选项： `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | 网站 | 确定客户是否必须在您的商店中开立帐户才能编写产品评论。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | 商店视图 | 确定色板是否显示在“产品列表”中。 选项： `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | 商店视图 | 确定是否显示样本工具提示。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | 商店视图 | 标识用于库存警报电子邮件通知的模板。 默认模板： `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | 商店视图 | 确定显示为产品警报电子邮件发件人的商店联系人。 选项： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | 全局 | 选择电子邮件的角色 `from`. |
 | [!UICONTROL Error Email Template] | 全局 | 选择用于产品警报错误通知的电子邮件模板。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | 商店视图 | 标识为缩略图选择的占位符文件。 |
 | [!UICONTROL Choose File] |  | 导航到文件并将其作为类型的占位符图像上传。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | 全局 | 确定已查看的产品在“最近查看的项目”列表中显示的时长（以秒为单位）。 |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | 全局 | 确定最近比较的列表中显示所比较产品的时间（以秒为单位）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | 商店视图 | 要显示相关视频，请将设置为 `Yes`. |
 | [!UICONTROL Auto restart video] | 商店视图 | 要启用自动重播视频，请将设置为 `Yes`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | 全局 | 确定基本货币的范围。 选项： `Global` / `Website` |
 | [!UICONTROL Default Product Price] | 全局 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)定义默认产品价格（如果适用）。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | 商店视图 | 确定每个步骤中包含的产品数量。 |
 | [!UICONTROL Maximum Number of Price Intervals] | 商店视图 | 建立对分层导航中显示的价格间隔数量的限制。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | 网站 | 确定谁可以从类别中购买产品。 选项： <br/>`Yes, for Everyone`  — 允许所有人将类别中的产品放入购物车。 <br/>`Yes, for Specified Customer Groups`  — 仅允许所选客户组的成员将产品从类别放入其购物车。 <br/>`No`  — 不允许任何人将该类别中的产品放入其购物车。 |
 | [!UICONTROL Disallow Catalog Search by] | 网站 | 标识不允许在类别中搜索产品的客户组。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 商店视图 | 如果有多个URL指向同一类别页面，则此选项使用规范meta标记来标识搜索引擎应索引的类别URL。 URL包含使用meta标记的类别的全名。 这减少了重复内容并改善了SEO。 选项： `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | 商店视图 | 如果有多个URL指向同一产品页面，则此选项使用规范meta标记来标识搜索引擎应索引的产品URL。 URL包含使用meta标记的产品全名。 这减少了重复内容并改善了SEO。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | 全局 | 确定顶部导航中的子类别级别数。 默认值 `0` 对级别数量没有限制。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Number of top search results to cache] | 商店视图 | 要缓存以加快响应的常用搜索词和结果的数量。 输入值 `0` 第二次输入时缓存所有搜索词和结果。 默认值： `100` |
 | [!UICONTROL Autocomplete Limit] | 商店视图 | 确定 [店面弹出框] 页面。 默认值可以在安装Live Search时更改，并稍后通过更改此配置设置进行更新。 默认值： `8` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### 带有Elasticsearch的Adobe Commerce
 
@@ -289,7 +289,7 @@ ht-degree: 0%
 | [!UICONTROL Show Results Count for Each Suggestion] | 商店视图 | 确定是否显示每个建议的搜索结果数。 根据主题，编号通常显示在建议后的括号中。 选项： `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 商店视图 | 指定一个值，该值对应于查询中搜索结果应匹配以便返回的术语数。 这可确保为购物者提供最佳结果相关性。 百分比值与数字相关，如果需要，可以向下舍入并用作查询中要匹配的最小术语数。 该值可以是负整数或正整数、负百分比或正百分比、两个值的组合或多个组合。 要了解更多信息，请参阅 [minimum_should_match参数](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) 在Elasticsearch文档中。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ ht-degree: 0%
 | [!UICONTROL Use Content Disposition] | 商店视图 | 确定指向可下载内容的链接在浏览器窗口中如何作为电子邮件附件或内联链接投放。 选项： <br/>**`Attachment`**— 下载链接以电子邮件附件的形式提供。<br/>**`Inline`**  — 下载链接作为网页上的内联链接提供。 |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 网站 | 确定购买可下载产品的来宾是否必须注册帐户并登录才能完成结帐过程。 选项： <br/>**`Yes`**— 如果购物车包含可下载的产品，则访客必须注册帐户或登录到现有帐户才能完成购买。<br/>**`No`**  — 下载链接作为电子邮件正文中的内联链接投放。  <br/> _**注意：**_ 仅当“可共享”设置为时，才能为下载的产品使用访客签出 `Yes`. |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Time Format] | 商店视图 | 将时间格式设置为12或24小时时钟。 选项： `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | 商店视图 | 定义在中出现的年份的开始和结束范围 _年_ 字段。 必须以YYYY格式输入值。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | 商店视图 | 确定在类别页面上的事件滑块构件中显示的事件数。 要覆盖，请使用 `limit="x"` 变量。 |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | 商店视图 | 确定CMS页面（如主页）上的事件滑块小部件中显示的事件数。 要覆盖，请使用 `scroll="x"` 变量。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ ht-degree: 0%
 | [!UICONTROL Show Upsell Products] | 全局 | 确定商店中显示的追加销售产品列表。 它可以是在“产品信息”中手动选择的列表、为响应产品关系规则而生成的列表，也可以是两者的组合。 选项： `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | 全局 | 确定追加销售产品列表中产品的显示顺序。 选项： `Do not rotate` / `Shuffle` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

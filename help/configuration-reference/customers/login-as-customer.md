@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Login As Customer]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Login As Customer] 商务管理员页面。
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 1%
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | 网站 | 为添加标题 `Login as customer` 复选框。 |
 | [!UICONTROL Login as Customer checkbox tooltip] | 网站 | 添加以下项的工具提示 `Log in as customer` 复选框。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

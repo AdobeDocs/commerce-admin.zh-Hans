@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Company Configuration] 商务管理员页面。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 网站 | 确定您商店的访客是否可以选择 [注册](../../customers/customer-sign-in.md) 用于公司帐户或个人帐户。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Copy Method] | 商店视图 | 用于发送注册电子邮件副本的电子邮件方法。 选项： `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | 商店视图 | 默认用于公司注册通知的电子邮件模板。 默认模板： `Company Registration Request` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Customer Status Active' Email] | 商店视图 | 客户状态变为活动时默认使用的电子邮件模板。 此电子邮件仅发送给客户。 默认模板： `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | 商店视图 | 客户状态变为不活动时默认使用的电子邮件模板。 此电子邮件仅发送给客户。 默认模板： `Customer Status Inactive` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | 商店视图 | 公司状态更改为时默认使用的电子邮件模板 _已阻止_. 默认模板： `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | 商店视图 | 公司状态更改为时默认使用的电子邮件模板 _未决批准_. 默认模板： `Company Status Pending Approval` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ ht-degree: 0%
 | [!UICONTROL Refunded Email Template] | 商店视图 | 将订单中的金额退回到公司贷项时默认使用的电子邮件模板。 此电子邮件将发送给公司管理员。 默认模板： `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | 商店视图 | 将订单还原为公司信用时默认使用的电子邮件模板。 此电子邮件将发送给公司管理员。 默认模板： `Order Reverted to Company Credit` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

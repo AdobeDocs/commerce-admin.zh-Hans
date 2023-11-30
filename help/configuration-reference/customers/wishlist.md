@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Wish List]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Wish List] 商务管理员页面。
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Multiple Wish Lists] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)当设置为 `Yes`，允许客户创建和维护多个愿望清单。 选项： `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg) (仅限Adobe Commerce)如果启用了多个愿望清单，则会确定客户可以与其帐户关联的最大愿望清单数量。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 | [!UICONTROL Max Emails Allowed to be Sent] | 商店视图 | 确定一个批次可以发送的最大电子邮件数量。 设置最大限制有助于减轻服务器的负载。 允许的最大数量为10,000。 默认值： `10` |
 | [!UICONTROL Email Text Length Limit] | 商店视图 | 确定消息中可包含的最大字符数。 允许的最大数量为10,000。 默认值： `255` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -58,4 +58,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | 网站 | 在客户帐户仪表板中配置希望列表摘要的显示。 选项： `Display number of items in wish list` / `Display item quantities` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

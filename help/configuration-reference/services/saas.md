@@ -3,9 +3,9 @@ title: ’[!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector]�
 description: 查看 [!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector] 商务管理员页面。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Sandbox public API key] | 全局 | 标识作者及其权利的API密钥（如果有）。 |
 | [!UICONTROL Sandbox private API key] | 全局 | 与API密钥关联的私钥。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Production Keys]
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 | [!UICONTROL Production public API key] | 全局 | 标识作者及其权利的API密钥（如果有）。 |
 | [!UICONTROL Production private API key] | 全局 | 与API密钥关联的私钥。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL SaaS Identifier]
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 | [!UICONTROL Project] | 全局 | 对所有SaaS数据空间进行分组的SaaS项目的名称。 A _创建项目_ 如果没有SaaS项目，则会显示按钮。 |
 | [!UICONTROL Data Space] | 全局 | 列出指定SaaS项目中的SaaS数据空间。 SaaS数据空间的数量取决于 [商业许可证](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)：<br />Adobe Commerce — 一个生产数据空间；两个测试数据空间；<br />Magento Open Source — 一个生产数据空间；无测试数据空间 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
@@ -57,4 +57,4 @@ ht-degree: 1%
 |--- |--- |
 | [!UICONTROL Sign in using Adobe ID] | 您的Adobe ID通常是您在启动会员资格或购买Adobe应用程序或服务时首先使用的电子邮件地址。 您的Adobe ID是访问Adobe帐户所需的密钥。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

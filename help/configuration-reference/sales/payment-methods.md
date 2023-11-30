@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商务管理员页面。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | 网站 | 标识商家注册开展业务的国家/地区。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## 推荐的解决方案
 
@@ -86,7 +86,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Maximum Order Total] | 网站 | 可以通过支票或汇票支付的最大订单金额。 <br/><br/>**_注意：_**订单符合合计在最小或最大订单合计之间或与最小或最大订单合计匹配的条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结账过程中与其他支付方式一起列出时，将按支票或汇票确定支付顺序的编号。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**订单符合合计在最小或最大订单合计之间或与最小或最大订单合计匹配的条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他支付方式一起列出时，确定按银行转帐支付的订单的编号。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Maximum Order Total] | 网站 | 可从公司帐户中扣除的最大订单金额。 <br/><br/>**_注意：_**订单符合合计在最小或最大订单合计之间或与最小或最大订单合计匹配的条件。 |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，它确定在结账过程中与其他支付方式一起列出时显示的分期付款订单。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**订单符合合计在最小或最大订单合计之间或与最小或最大订单合计匹配的条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他支付方式一起列出时，确定按银行转帐支付的订单的编号。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Payment from Specific Countries] | 网站 | 标识可以对其应用零小计结账的特定国家/地区。 |
 | [!UICONTROL Sort Order] | 网站 | 在结账过程中与其他支付方式一起列出时，将会显示一个数字，用于决定标题（如“无需支付信息”）的顺序。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Order] | 表示与PayPal签署的协议，该协议允许商家在定义的时间段（最多29天）内，从客户的买方帐户中获取一个或多个最高达订单总金额的金额。 |
 | [!UICONTROL Sale] | 采购金额已获授权并立即从客户帐户中提取。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Commerce中内置以下支付方法，不使用第三方支付提供商处理交
 | [!UICONTROL Maximum Order Total] | 网站 | PO可以支付的最大订单金额。 <br/><br/>**_注意：_**订单符合合计在最小或最大订单合计之间或与最小或最大订单合计匹配的条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他付款方法一起列出时，确定按PO付款的订单的编号。 输入 `0` ，以将其放在列表顶部。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

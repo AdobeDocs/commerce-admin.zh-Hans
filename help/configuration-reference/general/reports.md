@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL Reports]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL Reports] 商务管理员页面。
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Year-to-Date Starts] | 全局 | 指定年初至今计算所基于的月和日。 |
 | [!UICONTROL Current Month Starts] | 全局 | 指定用于计算以标记当月开头的日期。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 1%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | 全局 | 启用或禁用对添加到愿望清单的产品的统计信息的收集。 |
 | [!UICONTROL Enable "Share WishList" Report] | 全局 | 启用或禁用共享愿望清单统计信息的收集。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

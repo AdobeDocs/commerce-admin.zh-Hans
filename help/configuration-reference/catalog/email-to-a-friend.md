@@ -3,9 +3,9 @@ title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend]’
 description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend] 商务管理员页面。
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Max Products Sent in 1  Hour] | 商店视图 | 限制单个用户在一小时内可以共享的产品数量。 |
 | [!UICONTROL Limit Sending By] | 商店视图 | 确定用于识别发件人的方法。 选项包括： <br/>**`IP Address`**— （推荐）根据用于发送产品电子邮件的计算机的IP地址标识发件人。<br/>**`Cookie (unsafe)`**  — 通过浏览器Cookie标识发件人。 此方法不安全，因为用户可以删除Cookie以避免限制。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

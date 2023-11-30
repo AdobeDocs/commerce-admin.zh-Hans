@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales Channels] &gt； [!UICONTROL Global Settings]’
 description: 查看 [!UICONTROL Sales Channels] &gt； [!UICONTROL Global Settings] 商务管理员页面。
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ ht-degree: 0%
 | [!UICONTROL Enable Debug Logging] | 全局 | 选择 `Enabled` 在需要故障排除时收集其他同步数据。<br/><br/>此选项默认处于禁用状态，应仅在疑难解答需要时启用，因为继续日志记录会对性能产生负面影响。 如果为疑难解答启用，则应在完成时将其禁用。<br/><br/>**_注意&#x200B;_**：AmazonSales Channel日志记录将写入 `/var/log/channel_amazon.log` 文件并可在 [开发者模式](../systems/developer-tools.md#operation-modes). |
 | [!UICONTROL Read-Only Mode] | 全局 | 选择 `Enabled` 阻止所有传出状态更改的API请求。 在禁用只读模式之前，可能会保存更改，但不会发送更改。 要再次开始数据传输，请选择 `Disabled`.<br/><br/>当数据库迁移到实例的新副本时（当存储的URL在配置中更改时检测到），只读模式会自动启用。<br/><br/>这旨在用于生产实例的副本，例如 _暂存_ 或 _QA_、和不应在生产实例上使用。<br/><br/>**_注意&#x200B;_**：必须为清除配置缓存 [!UICONTROL Read-Only Mode] 以启用。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}

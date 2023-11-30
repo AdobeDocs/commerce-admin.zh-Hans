@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL B2B Features]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL B2B Features] 商务管理员页面。
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | 网站 | 启用后，允许客户和来宾根据SKU或产品名称快速下订单。 选项： `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | 网站 | 启用后，允许客户从其帐户信息板创建和管理申请列表。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ![启用公司和共享目录的B2B功能](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | 网站 | 当 _[!UICONTROL Enable Shared Catalog]_字段设置为 `Yes`中，此选项可用。 启用后，只有分配给共享目录的产品才会存储在价格指数中。 店面中不会显示未分配给共享目录的产品。 选项： `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 网站 | 启用后，允许公司购买者从购物车提交询价。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Payment Methods] | 全局 | 确定B2B买家可用的支付方式选择。 选项： `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | 全局 | 指定B2B购买者可用的每种支付方式。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Shipping Methods] | 全局 | 确定默认情况下可供B2B购买者使用的配送方法的选择。 选项： `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | 全局 | 指定B2B购买者默认可用的每种配送方式。 <br/>**_注意：_**您还可以限制特定的 [公司帐户](../../b2b/account-companies.md). |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ ht-degree: 1%
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | 网站 | 启用后，允许公司创建采购订单。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 

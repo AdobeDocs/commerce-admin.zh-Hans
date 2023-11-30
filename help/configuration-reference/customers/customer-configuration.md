@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers]  &gt； [!UICONTROL Customer Configuration]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration] 商务管理员页面。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | 全局 | 确定商店层次结构中客户帐户的范围。 选项： <br/>**`Global`**— 客户帐户信息与Commerce安装中的每个网站和商店共享。<br/>**`Per Website`**  — 客户帐户信息仅限于创建帐户的网站。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | 全局 | 确定管理员可访问客户在线活动的时长。 留空则使用15分钟的默认间隔。 |
 | [!UICONTROL Customer Data Lifetime] | 全局 | 确定客户输入的未保存数据过期之前经过的分钟数。 默认情况下，未保存的数据将在60分钟后过期。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | 商店视图 | 标识用于确认帐户后发送的欢迎消息的电子邮件模板。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全局 | 确定店面中是否显示用于输入和存储VAT ID号的字段。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | 全局 | 确定密码中允许的最小字符数。 数字必须大于零(`0`)。 |
 | [!UICONTROL Lockout Time (minutes)] | 全局 | 确定在尝试登录失败次数过多后客户帐户被锁定的分钟数。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | 商店视图 | 标识客户更改其电子邮件地址时使用的默认电子邮件模板。 |
 | [!UICONTROL Change Email and Password Template] | 商店视图 | 标识客户更改其电子邮件地址和密码时使用的默认电子邮件模板。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | 网站 | 确定名称和地址表单中是否包含客户的公司。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 网站 | 确定名称和地址表单中是否包含客户的传真号码。 选项： `No` / `Optional` / `Required` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce选项
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | 网站 | 确定名称和地址表单中是否包含客户的公司。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 网站 | 确定名称和地址表单中是否包含客户的传真号码。 选项： `No` / `Optional` / `Required` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | 商店视图 | 确定显示为发送给客户的信用更新通知发送者的商店标识。 |
 | [!UICONTROL Store Credit Update Email Template] | 商店视图 | 确定用于信用更新的电子邮件模板。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | 网站 | 确定客户登录其帐户后发生的情况。 要将客户重定向到其帐户仪表板，请选择 `Yes`. 选项： <br/>**`Yes`**— 当客户登录其帐户时，将显示帐户仪表板。<br/>**`No`**  — 客户在登录到其帐户后可以继续购物。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | 商店视图 | 此模板定义位于 _客户地址_ 区域([!UICONTROL Customers] > [!UICONTROL Manage Customers])。 此问题也会影响以下群体： _添加新地址_ 客户在其帐户页面上创建账单或送货地址时的页面。 |
 | [!UICONTROL PDF] | 商店视图 | 模板定义在打印的发票、发运和贷项通知单中显示的开单地址和发运地址。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | 全局 | 确定客户区段是否可用于创建目标促销活动。 选项： `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | 全局 | 确定是否实时验证客户区段。 选项： <br/>**[!UICONTROL Yes]**— 实时验证客户区段（默认值）。<br/>**[!UICONTROL No]**  — 客户区段通过单个组合条件SQL查询进行验证。 如果系统中存在许多客户区段，这会提高区段验证的性能。 但是，当拆分数据库或没有注册客户时，验证将不起作用。 |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | 网站 | 确定验证码中显示的字母（a-z和A-Z）和数字(0-9)。 难以与其他符号区分的符号，例如 `i`， `l`，或 `1`默认验证码符号集中不包含。 |
 | [!UICONTROL Case Sensitive] | 网站 | 确定验证码字符是否区分大小写。 选项： `Yes` / `No` |
 
-{：style=&quot;table-layout：auto&quot;}
+{style="table-layout:auto"}
