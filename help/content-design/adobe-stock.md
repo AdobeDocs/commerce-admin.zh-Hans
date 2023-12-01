@@ -3,7 +3,7 @@ title: Adobe Stock集成
 description: 将Adobe Stock与您的集成 [!DNL Commerce] 实例访问，以便在您的商店中使用的无数媒体资产。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 1. 单击 **[!UICONTROL Next]**.
 
-1. 查看可用的范围，然后单击 **[!UICONTROL Save configured API]**.
+1. 查看可用范围并单击 **[!UICONTROL Save configured API]**.
 
 1. 在后续页面上，复制 **[!UICONTROL Client ID]** （API密钥）和 **[!UICONTROL Client secret]**.
 
