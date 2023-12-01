@@ -3,9 +3,9 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >最小广告价(MAP)不适用于使用动态定价的捆绑销售产品。
+
+>[!NOTE]
+>
+>父捆绑产品始终自动显示为其所有子产品的追加销售产品。
 
 如果 [即时购买](../stores-purchase/checkout-instant-purchase.md) 可用， _即时购买_ 按钮显示在页面上 _添加到购物车_ 包中每个项目的按钮。
 
@@ -276,3 +280,5 @@ ht-degree: 0%
 ![复选框](../assets/checkbox.png) 量可以是预设值或用户定义的值。 但是，请勿将 _[!UICONTROL User Defined]_属性到复选框或多选输入类型。
 
 ![复选框](../assets/checkbox.png) 捆绑项目可以一起发运或单独发运。
+
+![复选框](../assets/checkbox.png) 父捆绑产品始终自动显示为其所有子产品的追加销售产品。

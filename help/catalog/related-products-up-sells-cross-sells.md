@@ -3,9 +3,9 @@ title: 产品设置 —  [!UICONTROL Related Products, Up-Sells, and Cross-Sells
 description: 对于产品， [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 设置在“产品”页面上定义简单的促销块，突出显示一系列其他产品。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 0%
    ![追加销售产品](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. 完成后，单击 **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>父捆绑产品始终自动显示为其所有子产品的追加销售产品。
 
 ## 交叉销售
 
