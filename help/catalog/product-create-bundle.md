@@ -3,9 +3,9 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
    - 要使价格反映客户选择的选项，请设置 **[!UICONTROL Dynamic Price]** 到 `Yes` 然后离开 **[!UICONTROL Price]** 空白。
 
    - 要对捆绑包收取固定价格，请设置 **[!UICONTROL Dynamic Price]** 到 `No` 并输入 **[!UICONTROL Price]** 你要为这包东西收费。
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] 和 [!UICONTROL Customer Group Price] （层价格）始终设置为所有捆绑产品类型的折扣百分比。
 
 1. 由于产品尚未准备好发布，请设置 **[!UICONTROL Enable Product]** 到 `No`.
 
@@ -282,3 +286,5 @@ ht-degree: 0%
 ![复选框](../assets/checkbox.png) 捆绑项目可以一起发运或单独发运。
 
 ![复选框](../assets/checkbox.png) 父捆绑产品始终自动显示为其所有子产品的追加销售产品。
+
+![复选框](../assets/checkbox.png) [!UICONTROL Special Price] 和 [!UICONTROL Customer Group Price] （层价格）始终设置为所有捆绑产品类型的折扣百分比。
