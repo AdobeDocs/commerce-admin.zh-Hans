@@ -3,9 +3,9 @@ title: 奖励和忠诚计划
 description: 了解可用于提高客户参与度和客户忠诚度的奖励积分系统。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![客户配置 — 按客户获取奖励分数的操作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. 要在购物车中显示包含购买获得的奖励积分和客户当前奖励积分余额的消息，请设置 **[!UICONTROL Purchase]** 到 `Yes`.
+1. 要允许根据配置的获得采购的奖励积分，请执行以下操作 [奖励汇率](reward-exchange-rates.md)，设置 **[!UICONTROL Purchase]** 到 `Yes`.
 
    >[!NOTE]
    >
