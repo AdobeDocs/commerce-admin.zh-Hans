@@ -3,9 +3,9 @@ title: 安全性
 description: 了解可用于保护存储和数据安全的工具，以及在检测到危害时制定安全行动计划的准则。
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 - 实施 [验证码](security-captcha.md) 或 [reCAPTCHA](security-google-recaptcha.md)
 - 设置 [安全扫描](security-scan.md) Adobe Commerce或Magento Open Source安装中的每个域。
 
-访问 [安全中心](https://helpx.adobe.com/security.html){：target=&quot;_blank&quot;}并加入安全警报注册表，了解有关潜在漏洞的最新新闻。 有关安全最佳实践的信息，请参阅 [保护您的Commerce网站和基础架构](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 在 _实施行动手册_.
-
 >[!NOTE]
 >
 >已启用存储 [!DNL Adobe Identity Management Services] (IMS)身份验证已禁用本机Adobe Commerce和Magento Open Source2FA。 使用Adobe凭据登录其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅 [[!DNL Adobe Identity Management Service] (IMS)集成概述](../getting-started/adobe-ims-integration-overview.md).
 
+访问 [安全中心](https://helpx.adobe.com/security.html){：target=&quot;_blank&quot;}以获取有关潜在漏洞的最新消息、注册Adobe安全通知并访问Adobe信任中心。
+
 ![安全中心](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+有关安全最佳实践的信息，请参阅 [保护您的Commerce网站和基础架构](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 在 _实施行动手册_.
 
 ## 安全行动计划
 

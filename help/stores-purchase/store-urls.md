@@ -3,9 +3,9 @@ title: 存储URL
 description: 了解商店URL以及如何配置基本URL和存储代码。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,8 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 1. 设置 **[!UICONTROL Add Store Code]** 根据您的喜好：
 
-   - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
-   - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
+   - **[!UICONTROL URL with Store Code]**： `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
+   - **[!UICONTROL URL without Store Code]**： `http://www.yourdomain.com/magento/index.php/url-identifier`
 
    ![常规配置 — Web URL选项](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
@@ -137,7 +137,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 ## 使用自定义管理员URL
 
-作为 [安全最佳实践](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)，Adobe建议您使用唯一的管理员URL，而不是默认URL _管理员_ 或常用术语，例如 _后端_. 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
+作为 [安全最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，Adobe建议您使用唯一的管理员URL，而不是默认URL _管理员_ 或常用术语，例如 _后端_. 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 >[!NOTE]
 >
->作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。
+>作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。 对于在云基础架构上部署的Adobe Commerce项目，请按照以下步骤更改管理员URL [说明](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) 在 *《云基础架构上的Adobe Commerce指南》*.
 
 ### 方法1：从管理员更改
 
