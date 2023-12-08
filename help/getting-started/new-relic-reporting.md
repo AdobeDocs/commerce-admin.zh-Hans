@@ -1,12 +1,12 @@
 ---
-title: " [!DNL New Relic] 报告"
-description: ' [!DNL New Relic] 了解在云架构上可用于 Adobe Systems 商务的帐户报告，其中包括新 RELIC APM 服务的软件。'
+title: ’[!DNL New Relic] 报告
+description: 了解 [!DNL New Relic] 适用于云基础架构上的Adobe Commerce客户，包括New Relic APM服务软件。
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
    | 选项 | 描述 |
    | ------ | ----------- |
    | 帐户 ID | 来自您的 [!DNL New Relic] account dashboard中，Account ID是URL中位于以下位置之后的数字： `/accounts` |
-   | 应用程序Id | 来自您的 [!DNL New Relic] 帐户仪表板，单击 **[!UICONTROL New Relic APM]**. 在菜单中，选择 **[!UICONTROL Applications]**. 然后，选择您的应用程序。 应用程序ID是URL中位于以下位置后的数字： `/applications/` |
-   | New Relic API密钥 | 来自您的 [!DNL New Relic] 帐户仪表板，单击 **[!UICONTROL Account Settings]**. 在左侧的“集成”下的菜单中，选择 **[!UICONTROL Data Sharing]**. 您可以在此页面创建、重新生成或删除您的API密钥。 |
+   | 应用程序Id | 来自您的 [!DNL New Relic] 帐户仪表板，单击 **[!UICONTROL New Relic APM]**. 在菜单中，选择 **[!UICONTROL Applications]**. 然后，选择您的应用程序。 应用程序 ID 是 URL 后的数字： `/applications/` |
+   | 新 Relic API 密钥 | 来自您的 [!DNL New Relic] 帐户仪表板，单击 **[!UICONTROL Account Settings]**. 在左侧的“集成”下的菜单中，选择 **[!UICONTROL Data Sharing]**. 您可以在此页面创建、重新生成或删除您的API密钥。 |
    | 分析API密钥 | 来自您的 [!DNL New Relic] 帐户仪表板，单击 **[!UICONTROL Insights]**. 在左侧的“管理”下的菜单中，选择 **[!UICONTROL API Keys]**. 您的分析API密钥将显示在此页面上。 如有必要，请单击加号(**+**)来生成密钥。 |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ ht-degree: 0%
    要了解更多信息，请参阅 [配置和运行cron][5] 在开发人员文档中。
 
 ## 步骤3：配置存储
+
+>[!NOTE]
+>这些配置选项不适用于云基础架构上的Adobe Commerce。
+>
+>如果您在Pro计划中，则New Relic已经在 [已预配置并默认启用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 如果您在入门计划中，则必须完成 [New Relic配置步骤](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) 这是设置过程的一部分。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 1. （可选）对于 **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**，选择 `Yes` 将店面和管理员的收集数据作为单独的应用程序发送到New Relic。
 
-   此选项要求输入 **[!UICONTROL New Relic Application Name]** 的名称。
+   此选项要求为输入名称 **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ ht-degree: 0%
 
 ## 步骤4：为启用Cron [!DNL New Relic] 报告
 
-1. 展开 ![ 区域选择器 ](../assets/icon-display-expand.png) **[!UICONTROL Cron]** 扩展。
+1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Cron]** 部分。
 
    ![New Relic Cron配置](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -108,10 +113,10 @@ ht-degree: 0%
 
 返回活动管理员用户的名称。
 
-    从事务 
-     中选择独特（AdminName） 
-     ，其中 appName = &#39;&lt;your_app_name>&#39; 自15分钟前 
- &lt;/your_app_name>
+    SELECT唯一值(AdminName)
+    FROM事务
+    其中appName=&#39;&lt;your_app_name>&#39;从15分钟前开始
+
 #### 最近的管理活动
 
 返回最近的管理员操作数。
@@ -133,7 +138,7 @@ ht-degree: 0%
 
 #### 类别计数
 
-返回指定时间段内按类别列出的应用程序事件数。
+返回指定时段中按类别的应用程序事件数。
 
     SELECT average(CatalogCategoryCount)
     来自Cron
@@ -144,13 +149,13 @@ ht-degree: 0%
 
 返回指定时间段内按类别列出的目录中的平均应用程序事件数。
 
-    SELECT average(CatalogCategoryCount)
-    来自Cron
-    其中CatalogCategoryCount不为空
-    AND CatalogCategoryCount > 0
-    和appName = &#39;&lt;your_app_name>&#39;自2分钟前限制1
-
-#### 活动的产品
+    从 Cron 选择 &quot;平均值&quot; （CatalogCategoryCount） 
+     ，其中 CATALOGCATEGORYCOUNT 不为 NULL 
+     ，并且 CatalogCategoryCount > 0 
+     和 appName = &#39;&lt;your_app_name>&quot;，因为2分钟前限制 1 
+ &lt;/your_app_name> 
+    
+#### 活动产品
 
 返回指定时间段内按产品划分的应用程序事件数。
 
@@ -281,12 +286,12 @@ ht-degree: 0%
 
 #### 活跃客户
 
-返回指定时段期间活动客户的名称。
+返回指定时间段内活跃客户的名称。
 
-    从事务 
-     中选择独特（CustomerName） 
-     ，其中 appName = &#39;&lt;your_app_name>&#39; 自15分钟前 
- &lt;/your_app_name>
+    SELECT uniques(CustomerName)
+    FROM事务
+    其中appName=&#39;&lt;your_app_name>&#39;从15分钟前开始
+
 #### 主要客户
 
 返回指定时间段内排名最前的客户。
@@ -297,7 +302,7 @@ ht-degree: 0%
 
 #### 最近的管理活动
 
-返回最近活动记录的定义数量，包括客户名称和访问的持续时间。
+返回近期活动的定义数量的记录，包括客户名称和访问持续时间。
 
     选择 CustomerName，duration，来自 appName = &#39;&lt;your_app_name>&#39; 
      且 CustomerName 不为 NULL 
@@ -311,19 +316,19 @@ ht-degree: 0%
 
 返回指定时段中的订购次数。
 
-    SELECT count(Order)
-    自1天前开始的FROM事务
+    从1天前的交易记录中选择计数（订单） 
+    
 
 #### 总订单值
 
 返回在指定时间段内订购的行项目总数。
 
-    SELECT sum(orderValue)
-    自1天前开始的FROM事务
+    从1天前的事务中选择 sum （orderValue） 
+    
 
 #### 订购的行项目总数
 
-返回在指定时间段内订购的行项目总数。
+返回指定时段中订购的行项目总数。
 
     SELECT sum(lineItemCount)
     自1天前开始的FROM事务
