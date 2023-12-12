@@ -3,16 +3,16 @@ title: 创建电子邮件提醒
 description: 了解如何设置使用现有购物车价格规则的电子邮件提醒规则。
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # 创建电子邮件提醒
 
-在设置电子邮件提醒规则之前，必须首先设置购物车价格规则以定义提供的促销。 触发电子邮件提醒的规则条件可以基于购物车属性、愿望清单属性或同时基于两者。
+在设置电子邮件提醒规则之前，必须首先 [设置购物车价格规则](price-rules-cart-create.md) 以定义所提供的促销。 触发电子邮件提醒的规则条件可以基于购物车属性、愿望清单属性或同时基于两者。
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用 _[!UICONTROL Repeat Schedule]_用于设置电子邮件间隔天数的字段。
+   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用 _[!UICONTROL Repeat Schedule]_用于设置电子邮件间隔天数的字段。 <br/>
+   >
+   >相同的电子邮件提醒是 **_未触发_** 针对同一客户的 **_新建_** 放弃的购物车和愿望清单 **_之后_** 该 _[!UICONTROL Repeat Schedule]_期限已过。
 
    完成条件以描述触发电子邮件提醒的情况。
 
