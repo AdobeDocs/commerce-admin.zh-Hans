@@ -3,10 +3,10 @@ title: 媒体集文件夹管理
 description: 了解如何使用文件夹组织您的媒体资产。
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 使用文件夹组织新文档中的图像 [媒体集](media-gallery.md). 随着媒体资源数量的增加，使用文件夹更容易找到和管理媒体集中的现有资源。
 
 ## 创建文件夹
+
+>[!NOTE]
+>
+>您只能在 `pub/media/wysywig` 和 `pub/media/catalog/category` 文件夹。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->删除文件夹会导致删除该文件夹中的所有图像。
+>删除文件夹会导致删除该文件夹中的所有图像。 您只能删除 `pub/media/wysywig` 和 `pub/media/catalog/category` 文件夹。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
