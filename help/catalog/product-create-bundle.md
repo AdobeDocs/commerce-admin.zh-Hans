@@ -3,9 +3,9 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 捆绑包是一个 _构建您自己的_，可自定义的产品。 捆绑包中的每个项目可以基于以下产品类型之一：
 
 - [简单产品](product-create-simple.md)
-- [虚拟产品](product-create-virtual.md)
-- [可下载的产品](product-create-downloadable.md)
 - [虚拟产品](product-create-virtual.md)
 
 ![捆绑产品](./assets/product-bundle.png){width="700" zoomable="yes"}
