@@ -3,9 +3,9 @@ title: 可配置产品
 description: 了解如何创建可配置的产品，以便为购物者提供用于选择的变体。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ ht-degree: 0%
 
 使用以下方法之一配置 **[!UICONTROL prices]**：
 
+>[!NOTE]
+>
+>可配置产品在目录中没有自己的价格。 可配置产品价格源自 [!UICONTROL In Stock] 子产品。
+
 **方法1：** 对所有SKU应用相同的价格
 
 1. 如果所有变体的价格相同，请选择 **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ _多源商家使用 [Inventory management](../inventory-management/introduction.
 - [库存状态](../inventory-management/sources-stocks.md) 对于可配置产品，其为半手动控制的设置。 它与简单产品的库存状态不同，在库存状态，产品库存是产品可用性的直接表示。 对于可配置产品，库存状态是多标准库存状态计算的一部分。
 
 - 可配置的子产品可以是简单或虚拟产品 **没有自定义选项**. 要使自定义子产品成为虚拟，您必须选择 `Тhis item has no weight` 对于 **[!UICONTROL Weight]** 逐一设置。
+
+- 可配置产品在目录中没有自己的价格。 可配置产品价格源自 [!UICONTROL In Stock] 子产品。
 
 - 用于产品变体的属性必须具有全局范围，并且必须要求客户选择一个值。 产品变体属性必须包含在用作可配置产品的模板的属性集中。
 

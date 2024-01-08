@@ -3,9 +3,9 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 要确定捆绑包的价格，请执行下列操作之一：
 
-   - 要使价格反映客户选择的选项，请设置 **[!UICONTROL Dynamic Price]** 到 `Yes` 然后离开 **[!UICONTROL Price]** 空白。
+   - 要使价格反映客户选择的选项，请设置 **[!UICONTROL Dynamic Price]** 到 `Yes` 然后离开 **[!UICONTROL Price]** 空白。 在这种情况下，捆绑产品在目录中没有自己的价格，产品价格是从捆绑中包含的单个产品的价格中派生出来的。
 
    - 要对捆绑包收取固定价格，请设置 **[!UICONTROL Dynamic Price]** 到 `No` 并输入 **[!UICONTROL Price]** 你要为这包东西收费。
 

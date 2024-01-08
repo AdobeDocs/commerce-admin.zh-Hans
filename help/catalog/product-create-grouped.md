@@ -3,9 +3,9 @@ title: 已分组的产品
 description: 了解如何创建由简单独立产品组成的分组产品，这些产品以组形式呈现。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 1. 接受默认值 **[!UICONTROL SKU]** 基于产品名称或输入其他名称。
 
    请注意 **[!UICONTROL Quantity]** 字段不可用，因为该值派生自组成该组的各个产品。
+
+   分组的产品在目录中没有自己的价格。 分类产品价格乃按本集团所包含个别产品之价格计算。
 
 1. 由于产品尚未准备好发布，请设置 **[!UICONTROL Enable Product]** 到 `No` ( ![切换否](../assets/toggle-no.png) )。
 
@@ -189,5 +191,7 @@ ht-degree: 0%
 - 分组的子产品可以是简单、可下载或虚拟产品 **[!UICONTROL without custom options]**.
 
 - 每个购买的项目单独出现在购物车中，而不是作为组的一部分出现。
+
+- 分组的产品在目录中没有自己的价格。 分类产品价格乃按本集团所包含个别产品之价格计算。
 
 - 可将购物车中的缩略图图像设置为显示来自分组的父产品或相关产品的图像。

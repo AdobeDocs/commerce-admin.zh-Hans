@@ -3,9 +3,9 @@ title: 礼品卡产品
 description: 了解如何创建礼品卡产品，该产品会生成一个唯一代码，以供收件人客户在结账时兑换。
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ ht-degree: 0%
    - 要定义最小和最大可接受值的范围，请输入 **[!UICONTROL Open Amount From]** 和 **[!UICONTROL To]** 值。
 
    您可以创建具有固定定价和/或未结金额定价的礼品卡。
+
+   >[!NOTE]
+   >
+   >礼品卡产品在目录中没有自己的价格。 礼品卡价格由采购期间选定的礼品卡金额得出。
 
    ![礼品卡金额](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ ht-degree: 0%
 - 礼品卡的存留期可以不受限制，也可以设置为指定的天数。
 
 - 礼品卡的值可以设置为固定金额，也可以设置为具有最小值和最大值的未结金额。
+
+- 礼品卡产品在目录中没有自己的价格。 礼品卡价格由采购期间选定的礼品卡金额得出。
 
 - 可以在下订单时或开票时为客户创建礼品卡帐户。
