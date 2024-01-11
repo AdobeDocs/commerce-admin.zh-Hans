@@ -3,9 +3,9 @@ title: 促销的类别规则
 description: 了解如何创建规则以根据一组条件动态更改产品选择。
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    ![自动排序](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   排序基于当前条件：
+   排序顺序选项是全局定义的，并根据当前条件应用。 无法为网站、商店或商店视图级别设置不同的排序顺序。
 
    | 排序选项 | 描述 |
    |-----------| -----------|
