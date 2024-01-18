@@ -4,9 +4,9 @@ description: 了解与公司帐户关联的客户如何提交询价。
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 1. 客户以购买者的身份登录到其用户帐户， [权限](account-company-roles-permissions.md) 以请求报价。
 
 1. 将他们希望包含在报价中的产品添加到购物车。
+
+   >[!TIP]
+   > 
+   >如果您有要订购的产品SKU列表，请使用更快地将其添加到购物车 [快速订购](quick-order.md).
 
 1. 选择 **[!UICONTROL Request a Quote]**.
 
