@@ -4,9 +4,9 @@ description: 了解与公司帐户关联的客户如何提交询价。
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 1. 客户以购买者的身份登录到其用户帐户， [权限](account-company-roles-permissions.md) 以请求报价。
 
-1. 将他们希望包含在报价中的产品添加到购物车。
+1. 将要包含在报价中的产品添加到购物车。
 
    >[!TIP]
    > 
-   >如果您有要订购的产品SKU列表，请使用更快地将其添加到购物车 [快速订购](quick-order.md).
+   >客户可以使用更快速地向购物车中添加产品SKU列表 [快速订购](quick-order.md).
 
 1. 选择 **[!UICONTROL Request a Quote]**.
 
    ![从购物车请求报价](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. 在 **[!UICONTROL Add your comment]** 框中，输入描述请求的简短说明。
+1. 在 **[!UICONTROL Add your comment]** 框中，客户输入简短的注释以描述请求。
 
 1. 输入 **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ ht-degree: 0%
    - 通过选择将报价发送给销售方 **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅供测试版计划参与者使用"}**[!UICONTROL Save as Draft]**.
 
-     如果买方将报价另存为草稿，则报价可在 [!UICONTROL My Quotes] 在 `Draft` 省/州。 在买方打开草稿报价并提交它之前，卖方看不到它。
+     如果买方将报价另存为草稿，则报价可在 [!UICONTROL My Quotes] 在 `Draft` 省/州。 在买方发送草稿报价以供复查之前，卖方看不到草稿报价。
