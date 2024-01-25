@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 _2023年8月15日_
 
-![修复](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 以简化筛选。
+![修复](../assets/fix.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 以简化筛选。
 
 _2023年6月27日_
 
@@ -49,6 +49,22 @@ _2023年5月30日_
 ![新建](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 在Adobe Commerce实例中包含对活动受众进行排序、搜索和过滤的功能。
 
 +++
+
+### 2.1.0
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+_2024年1月24日_
+
+![新建](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 以包含包含受众的网站，并指定将哪些动态块和购物车价格规则配置为使用这些受众。
+
+### 2.0.1
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+_2023年11月16_
+
+![修复](../assets/fix.svg)  — 提高了稳定性。
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ composer require magento/audiences
 
 1. 单击 **保存配置**.
 
-利用激活到Adobe Commerce实例的受众，您可以：
+## 在Commerce中的何处使用Real-Time CDP受众
+
+使用 [!DNL Audience Activation] 扩展已启用，您可以：
 
 - [创建购物车价格规则](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受众通知
 - [创建动态块](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受众通知
 
 ## Real-Time CDP受众功能板
 
-您可以使用查看可在Adobe Commerce实例中进行个性化的所有活动受众。 **Real-Time CDP受众** 仪表板。 您拥有的任何受众 [已激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 此仪表板中会显示在Real-Time CDP的Adobe Commerce目标中。
+您可以查看所有 [活动](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 可用于在Adobe Commerce实例中使用 **Real-Time CDP受众** 仪表板。
 
 要访问 **Real-Time CDP受众** 仪表板，转到 _管理员_ 侧栏，然后转到 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP受众功能板](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 仪表板包含以下字段：
 
@@ -156,9 +176,12 @@ composer require magento/audiences
 | `Search` | 允许您在Commerce实例中搜索活动受众。 |
 | `Name` | 在Real-Time CDP中提供给受众的名称。 |
 | `Origin` | 指示受众的来源，如 `Experience Platform`. |
+| `Websites` | 指示将哪些网站配置为使用受众。 |
+| `Dynamic Blocks` | 指示将哪些动态块配置为使用受众。 |
+| `Cart Price Rules` | 指示将哪些购物车价格规则配置为使用受众。 |
 | `Last updated` | 指示在Real-Time CDP中修改受众的时间。 |
 | `Sync now` | 从Real-Time CDP中检索新的或更新受众。 |
-| `Customize table` | 可让您显示或隐藏 `Origin` 和 `Last updated` 列。 |
+| `Customize table` | 可让您显示或隐藏 `Origin`， `Websites`， `Dynamic Blocks`， `Cart Price Rules`、和 `Last updated` 列。 |
 
 {style="table-layout:auto"}
 
