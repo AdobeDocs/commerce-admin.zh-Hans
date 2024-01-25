@@ -4,9 +4,9 @@ description: 查看 [!UICONTROL Advanced] &gt； [!UICONTROL System] 商务管�
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![高级配置 — 定时备份设置](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-有关更改这些设置的详细信息，请参阅 [系统备份](../../systems/backups.md) 在 _管理系统指南_.
+![高级配置 — 备份设置](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+有关更改这些设置的详细信息，请参阅 [系统备份](../../systems/backups.md) 在 _管理系统指南_.
+
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | 全局 | 确定是否定期自动备份Commerce实例。 选项： `Yes` / `No` |
-| [!UICONTROL Backup Type] | 全局 | 确定备份中包含的Commerce实例的元素。 选项： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 全局 | 指定计划备份开始的时间（小时、分钟和秒）。 |
-| [!UICONTROL Frequency] | 全局 | 确定定时备份的频率。 选项： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 全局 | 确定在定时备份期间是否将存储置于维护模式。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Backup] | 全局 | 确定Commerce实例是否允许备份。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 全局 | (显示时间 _[!UICONTROL Enable Backup]_设置为 `Yes`.) 确定是否定期自动备份Commerce实例。 选项： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 全局 | (显示时间 _[!UICONTROL Enable Scheduled Backup]_设置为 `Yes`.) 确定备份中包含的Commerce实例的元素。 选项： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 全局 | (显示时间 [!UICONTROL Enable Scheduled Backup] 设置为 `Yes`.) 指定计划备份开始的时间（小时、分钟和秒）。 |
+| [!UICONTROL Frequency] | 全局 | (显示时间 [!UICONTROL Enable Scheduled Backup] 设置为 `Yes`.) 确定定时备份的频率。 选项： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 全局 | (显示时间 [!UICONTROL Enable Scheduled Backup] 设置为 `Yes`.) 确定在定时备份期间是否将存储置于维护模式。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
