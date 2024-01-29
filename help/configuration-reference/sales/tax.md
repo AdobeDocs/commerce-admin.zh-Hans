@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Tax]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Tax] 商务管理员页面。
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -123,11 +123,10 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | 网站 | 确定FPT是否可用。 选项： `Yes` / `No` |
 | [!UICONTROL Display Prices in Product Lists] | 网站 | 控制产品列表中FPT的显示。 选项：<br/> **`Including FPT Only`**  — 显示的价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
-| 在产品查看页面上显示价格 | 网站 | 控制产品页面上FPT的显示。 选项：<br/> **`Including FPT Only`**  — 显示的价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
+| [!UICONTROL Display Prices On Product View Page] | 网站 | 控制产品页面上FPT的显示。 选项：<br/> **`Including FPT Only`**  — 显示的价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
 | [!UICONTROL Display Prices in Sales Modules] | 网站 | 控制购物车和结帐期间FPT的显示。 选项：<br/> **`Including FPT Only`**  — 显示的价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
 | [!UICONTROL Display Prices in Emails] | 网站 | 控制电子邮件中FPT的显示。 选项：<br/> **`Including FPT Only`**  — 显示的价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**&#x200B;不包括FPT。 包括FPT说明和最终价格&#x200B;**— 显示的价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**  — 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
-| [!UICONTROL Apply Discounts to FPT] | 网站 | 确定折扣是否可以应用于FPT金额。 选项： `Yes` / `No` |
-| [!UICONTROL FPT Tax Configuration] | 网站 | 确定FPT税的计算方式。 选项： <br/>**`Not Taxed`**— 如果您的税务管辖区不对FPT征税，请选择此选项。 （例如，加利福尼亚。）<br/>**`Taxed`**  — 如果您的税务管辖区对FPT征税，请选择此选项。 （例如，加拿大。） <br/>**`Loaded and Displayed with Tax`**— 如果在应用税之前将FPT添加到订单合计，请单击此选项。 （例如，欧盟国家。） |
+| [!UICONTROL Apply Tax to FPT] | 网站 | 确定是否对FPT金额应用税。 选项： `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | 网站 | 确定FPT是否包含在购物车小计中。 选项： <br/>**`Yes`**— 在购物车小计中包含FPT。<br/>**`No`** - FPT不包含在小计中，而是放置在购物车中的小计之后。 |
 
 {style="table-layout:auto"}
