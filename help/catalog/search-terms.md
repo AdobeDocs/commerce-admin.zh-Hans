@@ -3,9 +3,9 @@ title: 管理搜索词
 description: 了解如何管理商店的搜索词，以使用拼写错误或替换词重定向客户。
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 >[!NOTE]
 >
 >标准搜索同义词功能现成支持 `name` 和 `sku` 产品属性 **_仅限_**.
+
+>[!IMPORTANT]
+>
+>搜索同义词功能仅使用全文匹配搜索方法。
 
 ![示例店面 — 包含同义词的搜索结果](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
