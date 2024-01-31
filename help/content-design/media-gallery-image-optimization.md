@@ -3,9 +3,9 @@ title: 媒体集图像优化
 description: 了解如何为您的使用图像优化 [!DNL Commerce] 媒体资产。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ ht-degree: 0%
 当 _最大宽度_ 和 _最大高度_ 值在配置中发生更改，它会更新之前插入的所有现有优化图像。
 
 媒体集图像优化要求 `media.gallery.renditions.update` 当配置更改时，队列使用者正在运行以重新生成优化映像。 请参阅 [管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 在 _配置指南_ 以了解更多详细信息。
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}

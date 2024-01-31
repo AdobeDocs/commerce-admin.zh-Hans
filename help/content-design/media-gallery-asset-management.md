@@ -3,7 +3,7 @@ title: 媒体集资产管理
 description: 了解如何管理已上传的媒体文件以及通过Adobe Stock集成获取的资源。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ ht-degree: 0%
 1. 从允许您使用媒体资产的区域访问新的媒体集。
 
 1. 选择资源并单击 **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## 删除资源
 
