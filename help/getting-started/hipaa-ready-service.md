@@ -2,12 +2,10 @@
 title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加Adobe Commerce HIPAA就绪模块并获得附加功能，使您能够遵守HIPAA义务。
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,7 +104,7 @@ Adobe Commerce上的HIPAA准备工作具有与Adobe Commerce相同的系统要�
    - ***来源***：显示执行操作的位置。\
      值： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***客户端类型***：显示客户端类型。\
-     值：客户 |管理员 |集成
+     值：客户 | 管理员 | 集成
 
 
 2. 重命名 ***用户名*** 到 ***客户端标识符***
