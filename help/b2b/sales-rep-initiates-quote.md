@@ -4,9 +4,9 @@ description: 了解卖方如何为特定买方创建报价以开始洽谈流程�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 通过选择将项目添加到报价 **[!UICONTROL Add Product By SKU]**. 输入SKU编号和数量，然后选择 **[!UICONTROL Add Product]**.
 
-![卖方将项目添加到买方草稿报价](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![卖方将项目添加到买方草稿报价](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. 根据需要将行项目折扣应用于产品。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    - 在 [!UICONTROL Discount Line item] 表单，选择 **[!UICONTROL Discount Type]**.
 
-   ![将行项目折扣应用于报价](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![将行项目折扣应用于报价](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - 在 [!UICONTROL Discount] 字段中，输入折扣类型的值。 例如，如果您选择了百分比折扣，请输入10以将10%的折扣应用于行项目。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 为采购员添加附加信息。
 
-   在 [!UICONTROL Negotiation - Comments]，添加注释并在中附加购买者所需的任何支持文件 [!UICONTROL Negotiation - Comments]
+   在 **[!UICONTROL Negotiation - Comments]** 选项卡，添加注释并附加购买者所需的任何支持文件。
 
    ![卖方为买方添加信息](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ ht-degree: 0%
 
    将报价另存为草稿，或发送给买方。
 
-   - 如果将报价另存为草稿，则状态将更新为 `Draft` 并显示确认消息：
-
-     ![已提交给买方的确认草稿报价](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - 如果将报价另存为草稿，则状态将更新为 `Draft` 并显示确认消息。
 
    - 如果将报价发送给采购员，则状态将更改为 `Submitted`. 采购员收到电子邮件通知，要求复查报价。 报价单将被锁定，直到买方将其退回以进行进一步洽谈。 卖方可以从报价网格或客户网格查看报价。
 
