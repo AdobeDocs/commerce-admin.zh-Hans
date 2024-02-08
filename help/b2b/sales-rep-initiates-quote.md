@@ -4,9 +4,9 @@ description: 了解卖方如何为特定买方创建报价以开始洽谈流程�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ ht-degree: 0%
 
    将报价另存为草稿，或发送给买方。
 
-   如果将报价发送给采购员，则状态将更改为 `Submitted`，报价将被锁定，直到买方报价，状态将更新为草稿，并显示一条确认消息：
+   - 如果将报价另存为草稿，则状态将更新为 `Draft` 并显示确认消息：
 
-   ![已提交给买方的确认草稿报价](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![已提交给买方的确认草稿报价](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-采购员收到电子邮件通知，要求复查报价。 报价单将被锁定，直到买方将其退回以进行进一步洽谈。 卖方可以从报价网格或客户网格查看报价。
+   - 如果将报价发送给采购员，则状态将更改为 `Submitted`. 采购员收到电子邮件通知，要求复查报价。 报价单将被锁定，直到买方将其退回以进行进一步洽谈。 卖方可以从报价网格或客户网格查看报价。
 
 ## 从客户网格查看和创建报价
 
