@@ -6,9 +6,9 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
+source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
      bin/magento admin:adobe-ims:status
      ```
 
-   如果未启用该模块， [使用IMS集成项目的组织和凭据启用它](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). 如果你没有身份证明， [提交Adobe支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   如果未启用该模块， [使用IMS集成项目的组织和凭据启用它](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. 验证管理员用户是否可以使用其Adobe ID登录Commerce管理员。
 
