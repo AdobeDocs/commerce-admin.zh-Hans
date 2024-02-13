@@ -3,9 +3,9 @@ title: 适用于Commerce管理员的Adobe Experience Cloud集成
 description: 了解Admin Unified Experience扩展，该扩展将Commerce与Experience Cloud集成，以便客户可以从Experience Cloud主页访问Commerce项目。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 适用于Commerce的Adobe Experience Cloud集成
 
 {{ee-feature}}
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 通过启用Admin Unified Experience扩展，将Adobe Commerce项目与Experience Cloud集成。 当集成处于活动状态时，管理员可以从Adobe Experience Cloud访问Commerce项目。
 

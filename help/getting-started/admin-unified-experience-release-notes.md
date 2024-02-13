@@ -2,9 +2,9 @@
 title: ’[!DNL Admin Unified Experience for Adobe Commerce] 发行说明
 description: 有关最新版本的信息，请参阅发行说明 [!DNL Admin Unified Experience] Commerce的扩展。
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ ht-degree: 0%
 >[!NOTE]
 >
 >请参阅 [产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 有关Admin Unified Experience扩展相对于Adobe Commerce的发布状态的详细信息。
+
+## 1.0版本
+
+*2023年2月13日*
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+![新建](../assets/new.svg) Admin Unified Experience扩展的正式发布版，用于实现与Adobe Experience Cloud的集成。
+
+![新建](../assets/new.svg) 在Adobe Commerce项目上安装并启用Admin Unified Experience扩展后，管理员可以 [从Experience Cloud主页查看和访问Adobe Commerce实例](admin-unified-experience-integration-overview.md).
+
 
 ## 1.0版本（测试版）
 
