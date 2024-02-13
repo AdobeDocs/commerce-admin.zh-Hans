@@ -3,9 +3,9 @@ title: 目录和产品URL
 description: 了解目录产品的URL格式类型以及如何配置它们。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ URL键是描述产品或类别的静态URL的一部分。 创建产品或类别�
 
 >[!NOTE]
 >
->重音特殊字符在URL键中被自动替换为其常规非重音版本。 例如， `ñ` 自动替换为 `n`.
+>默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如， `ñ` 自动替换为 `n`. 可以通过设置 _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_配置选项到 `No`. 请参阅 [配置目录URL](#configure-catalog-urls).
 
 URL键应由小写字符组成，在这些字符之间使用非尾随连字符来分隔单词。 不允许在URL键的开头或结尾使用连字符。 设计良好的“搜索引擎友好”URL键可能包含产品名称和关键字，以改进搜索引擎索引产品的方式。 可以将URL键配置为在URL键发生更改时创建自动重定向。
 
