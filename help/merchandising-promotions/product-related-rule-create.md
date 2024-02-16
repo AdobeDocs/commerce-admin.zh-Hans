@@ -3,9 +3,9 @@ title: 创建相关的产品规则
 description: 了解如何创建可触发的相关产品规则以显示相关产品、追加销售和交叉销售。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 0%
    - 对象 **[!UICONTROL Result Limit]**，输入要显示在结果列表中的记录数。 最大数量为20。
 
    - 如果规则应用于特定 [客户区段](../customers/customer-segments.md)，设置 **[!UICONTROL Customer Segments]** 到 `Specified` 并从列表中选择客户区段。
+
+   - (**测试版**)如果规则适用于特定 [Real-Time CDP受众](../customers/audience-activation.md)，设置 **[!UICONTROL Real-Time CDP Audience]** 到 `Specified` 并从列表中选择Real-Time CDP受众。 此功能处于测试阶段。 如果您想加入Beta计划，请发送请求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![相关产品规则 — Real-Time CDP受众](./assets/rtcdp-related-products.png){width="500"}
 
 1. 在左侧面板中，选择 **[!UICONTROL Products to Match]** 并构建条件，就像您为 [目录价格规则](price-rules-catalog.md).
 
