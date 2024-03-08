@@ -3,9 +3,9 @@ title: 搜索结果
 description: 了解如何配置产品如何与在快速搜索框或高级搜索表单中输入的搜索条件相匹配。
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ ht-degree: 0%
 ## 加权搜索
 
 可以为为目录搜索启用的产品属性分配权重，以便在搜索结果中赋予它们较高的值。 较重属性的返回先于较轻属性的返回。 例如，如果系统中有两个属性， _颜色_ 搜索权重为3且 _描述_ 搜索权重为1。 搜索单词 _红色_ 返回颜色属性值为的产品列表 `red` 返回搜索结果顶部的产品，其中包含的描述包含单词 _红色_ 位于搜索结果底部。 在此示例中， `color` 属性的已定义权重大于 `description` 属性。
+
+>[!IMPORTANT]
+>
+>按相关性排序受影响 **_多个_** 标准和它们之间的关系 **_同时_**. [!UICONTROL Search Weight] 只是其中一个标准。 这意味着，有时搜索权重较低的属性可能仍比搜索权重较高的属性具有更大的相关性。 其他标准可以包括任何给定属性中的匹配数、找到的搜索词的位置以及搜索词之前和之后的整体文本结构。
 
 **_设置属性的搜索权重属性：_**
 
