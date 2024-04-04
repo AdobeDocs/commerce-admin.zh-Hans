@@ -3,20 +3,20 @@ title: 添加内容 — 产品Recommendations
 description: 了解产品Recommendations内容类型，用于向添加一系列推荐 [!DNL Page Builder] 暂存。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 添加内容 — 产品Recommendations
 
-使用 _产品Recommendations_ 内容类型，用于添加现有的、活动的 [推荐单位](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) 到 [[!DNL Page Builder] 阶段](workspace.md#stage) CMS页面、块或动态块。
+使用 _产品Recommendations_ 内容类型，用于添加现有的、活动的 [推荐单位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) 到 [[!DNL Page Builder] 阶段](workspace.md#stage) CMS页面、块或动态块。
 
 >[!NOTE]
 >
->此 [!DNL Page Builder] _产品Recommendations_ Adobe Commerce 2.4.4及更高版本支持内容类型，该内容类型可在 [产品Recommendations中继包版本3.0.x或更高版本](https://marketplace.magento.com/magento-product-recommendations.html). 添加 [!DNL Page Builder] 支持产品Recommendations， [请参阅安装信息](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **此内容类型不适用于Magento Open Source。**
+>此 [!DNL Page Builder] _产品Recommendations_ Adobe Commerce 2.4.4及更高版本支持内容类型，该内容类型可在 [产品Recommendations中继包版本3.0.x或更高版本](https://commercemarketplace.adobe.com/magento-product-recommendations.html). 添加 [!DNL Page Builder] 支持产品Recommendations， [请参阅安装信息](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **此内容类型不适用于Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 添加现有的推荐单位
 
-1. 确保您已拥有 [已创建推荐单位](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) 对于 [!DNL Page Builder] 页面类型。
+1. 确保您已拥有 [已创建推荐单位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) 对于 [!DNL Page Builder] 页面类型。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 执行以下操作之一：
 
    - 单击 **[!UICONTROL Edit Product Recommendation]**.
-   - 将鼠标悬停在空容器上以显示工具箱，然后单击 _设置_ (![“设置”图标](./assets/pb-icon-settings.png){width="20"} )图标。
+   - 将鼠标悬停在空容器上以显示工具箱，然后单击 _设置_ (![“设置”图标](./assets/pb-icon-settings.png))图标。
 
    ![编辑产品推荐](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 编辑推荐单元设置
 
-1. 将鼠标悬停在推荐单位容器上以显示工具箱，然后单击 _设置_ (![“设置”图标](./assets/pb-icon-settings.png){width="20"} )图标。
+1. 将鼠标悬停在推荐单位容器上以显示工具箱，然后单击 _设置_ (![“设置”图标](./assets/pb-icon-settings.png))图标。
 
    ![推荐工具箱](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 复制推荐单位
 
-1. 将鼠标悬停在推荐单位容器上以显示工具箱，然后单击 _复制_ ( ![复制ison](./assets/pb-icon-duplicate.png){width="20"} )图标。
+1. 将鼠标悬停在推荐单位容器上以显示工具箱，然后单击 _复制_ (![“复制”图标](./assets/pb-icon-duplicate.png))图标。
 
    副本会出现在原始文件的正下方。
 
-1. 要将重复的建议单位移动到新位置，请将鼠标悬停在容器上并单击 _移动_ ( ![“移动”图标](./assets/pb-icon-move.png){width="20"} )图标。
+1. 要将重复的建议单位移动到新位置，请将鼠标悬停在容器上并单击 _移动_ (![“移动”图标](./assets/pb-icon-move.png))图标。
 
 1. 选择并拖动推荐单位，直到红色准则出现在新位置。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 从阶段中删除推荐单位
 
-1. 将鼠标悬停在推荐单位容器上，然后单击 _移除_ ( ![“删除”图标](./assets/pb-icon-remove.png){width="20"} )图标。
+1. 将鼠标悬停在推荐单位容器上，然后单击 _移除_ ( ![“删除”图标](./assets/pb-icon-remove.png))图标。
 
 1. 提示确认时，单击 **[!UICONTROL OK]**.
 

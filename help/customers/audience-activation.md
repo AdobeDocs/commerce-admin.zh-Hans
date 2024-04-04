@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新建](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 在Adobe Commerce实例中包含对活动受众进行排序、搜索和过滤的功能。
 
 +++
+
+### 2.1.1
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+_2024年4月4日_
+
+![新建](../assets/new.svg)  — 添加了对PHP 8.3的支持。
 
 ### 2.2.0-beta1
 
@@ -295,7 +303,10 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ## 使用Adobe Experience Platform Mobile SDK检索受众
 
-在使用Adobe Experience Platform Mobile SDK检索Real-Time CDP受众之前，您必须 [为您的移动Commerce网站安装和配置SDK](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+您可以使用Adobe Experience Platform Mobile SDK检索Real-Time CDP受众。
+
+1. [安装](#install-the-extension) Audience Activation扩展。
+1. [为您的移动Commerce网站安装和配置SDK](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
