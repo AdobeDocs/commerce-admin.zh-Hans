@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Sales]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商务管理员页面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![多优惠券设置](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | 网站 | 确定每个订单允许的最大优惠券数量 |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 商店视图 | 如果付款方式(如Braintree)启用了保险库，则为商店视图启用“即时购买”。 选项： `Yes` / `No` |
 | [!UICONTROL Button Text] | 商店视图 | 指定在“即时购买”按钮上显示的文本。 默认文本为 `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![速率限制](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | 商店视图 | 确定是否使用费率限制从商店视图下订单(默认值为 `No`)。 选项： `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | 商店视图 | 经过身份验证的客户在时段内可以发出的购买请求数。 默认限制为 `10`. |
+| [!UICONTROL Requests limit per guest] | 商店视图 | 在指定时间段内，未经身份验证的客户可以发出的购买请求数。 默认值为 `50`. |
+| [!UICONTROL Counter resets in a ...] | 商店视图 | 经过身份验证/未经身份验证的客户可以提出一定数量的购买请求的时段(默认为 `Minute`)。 选项： `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

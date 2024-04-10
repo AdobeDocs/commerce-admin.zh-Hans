@@ -3,9 +3,9 @@ title: 愿望清单
 description: 了解愿望清单以及如何将其添加到购物体验和促进更多销售。
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![示例店面 — 我的愿望清单](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-将具有多个选项的产品添加到愿望列表时，客户选择的任何选项都包含在愿望列表项描述中。 例如，如果客户将同一对鞋以三种不同的颜色添加，则每对鞋都会显示为单独的愿望清单项目。 但是，如果客户将同一产品多次添加到希望列表，则该产品只会出现一次，但会更新数量，以反映添加该产品的次数。
+将具有多个选项的产品添加到愿望列表时，客户选择的任何选项都包含在愿望列表项描述中。 例如，如果客户将同一对鞋以三种不同的颜色添加，则每对鞋都会显示为单独的愿望清单项目。 但是，如果客户将同一产品多次添加到希望列表中，则该产品只会出现一次，但会从产品页面中选择数量。
 
 ## 希望在管理员中提供列表帮助
 

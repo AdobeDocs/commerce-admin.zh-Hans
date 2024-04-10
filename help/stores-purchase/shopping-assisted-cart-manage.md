@@ -3,10 +3,10 @@ title: 管理购物车
 description: 了解如何直接从管理员协助客户处理其购物车。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Add selections to my cart]**.
 
-1. 应用优惠券代码（如果可用）：
+1. 应用一个或多个优惠券代码（如果可用）：
 
    - 对象 **[!UICONTROL Apply Coupon Code]**，请输入有效的优惠券代码。
 

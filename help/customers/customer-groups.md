@@ -3,9 +3,9 @@ title: 客户组
 description: 您可以使用客户组来确定哪些折扣可供分配给组的客户以及与组关联的税分类。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ ht-degree: 0%
 1. 完成后，单击 **[!UICONTROL Apply Filters]**.
 
 ## 创建客户组
+
+>[!NOTE]
+>
+>无权访问所有网站的管理员用户（分配了具有“自定义”角色的用户） [!UICONTROL Role Scope])无法创建、修改或删除客户组。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

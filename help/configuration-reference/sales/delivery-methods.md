@@ -1,11 +1,11 @@
 ---
 title: ’[!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods]’
-description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods] 商务管理员页面。
+description: 查看上的配置设置 [!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods] 商务管理员页面。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '3812'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -106,28 +106,25 @@ ht-degree: 0%
 
 {{ups-api}}
 
-{{beta2-updates}}
+![UPS REST帐户设置](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![UPS XML帐户设置](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | 网站 | 确定客户在结帐期间是否可以将UPS作为配送方式使用。 选项： `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | 网站 | 确定UPS是否作为RMA的配送方式提供给客户。 选项： `Yes` / `No` |
-| [!UICONTROL UPS Type] | 商店视图 | 指定用于连接到UPS运输系统的方法。 选项： <br/>**`United Parcel Service XML`**— （默认）您的存储将包含数据的XML文件作为请求发送给UPS。<br/>**`United Parcel Service`**  — 您的存储将键值对作为请求发送到UPS。 <br/><br/>**_注意：_**标准联合包裹服务类型计划在Commerce中被弃用。 对于新配置，您应该使用 [!UICONTROL United Parcel Service XML] 类型。 |
 | _[!UICONTROL UPS Account Settings]_ |  |  |
 | [!UICONTROL Live Account] | 商店视图 | 指定United Parcel Service帐户处于活动状态。 选项： `Yes` / `No` |
-| [!UICONTROL Gateway URL] | 网站 | 连接到UPS系统以检索动态配送费率的URL。 UPS将停止支持HTTP。 默认值： `https://www.ups.com/using/services/rave/qcostcgi.cgi` |
 | [!UICONTROL Title] | 商店视图 | 结帐期间用于此配送方法的名称。 |
-| _[!UICONTROL UPS XML Account Settings]_ |  |  |
-| [!UICONTROL Access License Number] | 网站 | 您的UPS托运人帐户访问许可证编号。 |
-| [!UICONTROL Gateway XML URL] | 网站 | 对于UPS XML服务，显示传输XML数据所需的以下URL：网关XML URL、跟踪XML URL、发运确认XML URL、发运接受XML URL |
+| _[!UICONTROL UPS REST Account Settings]_ |  |  |
+| [!UICONTROL Gateway URL] | 网站 | 对于UPS REST服务，显示传输JSON数据所需的以下URL：网关URL、跟踪URL、传送URL |
 | [!UICONTROL Mode] | 网站 | 确定用于发送到UPS系统的数据的传输模式。 选项： <br/>**`Development`**- UPS不会验证从Commerce服务器接收的数据是否通过SSL发送。<br/>**`Live`** - UPS验证从Commerce服务器接收的数据是否通过安全套接字层(SSL)发送。 |
-| 用户标识 | 网站 | 您的UPS托运人帐户用户ID。 |
-| [!UICONTROL Origin of the Shipment] | 网站 | （仅限UPS XML）产品发运来源的国家/地区。 |
-| [!UICONTROL Password] | 商店视图 | 您的UPS发货人帐户密码。 |
+| 用户标识 | 网站 | 您的UPS托运人帐户客户端ID。 |
+| [!UICONTROL Origin of the Shipment] | 网站 | （仅限UPS REST）产品发运所在的国家或地区。 |
+| [!UICONTROL Password] | 商店视图 | 您的UPS托运人帐户客户端密钥。 |
 
 {style="table-layout:auto"}
 
@@ -138,12 +135,12 @@ ht-degree: 0%
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
-| [!UICONTROL Enable Negotiated Rates] | 网站 | （仅限UPS XML ）根据您与UPS的协议启用/禁用特殊费率。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Negotiated Rates] | 网站 | （仅限UPS REST）根据您与UPS的协议启用/禁用特殊费率。 选项： `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | 网站 | 确定如何计算具有多个包装的发运的重量。 选项： `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Shipper Number] | 网站 | （仅限UPS XML）要参考使用议定费率，需要六个字符的UPS发货人编号。 |
-| [!UICONTROL Container] | 网站 | 设置用于包装订单发运的集装箱类型。 选项： `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
+| [!UICONTROL Shipper Number] | 网站 | （仅限UPS REST）使用议定费率需要六个字符的UPS发货人编号。 |
+| [!UICONTROL Container] | 网站 | 设置用于包装装运的集装箱类型。 选项： `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | 网站 | 设置商店中产品重量的默认度量单位。 请参阅 [维度权重](../../stores-purchase/carriers.md#dimensional-weight) 以了解其他信息。 |
-| [!UICONTROL Tracking XML URL] | 网站 | （仅限UPS XML）用于跟踪包的UPS URL。 |
+| [!UICONTROL Tracking URL] | 网站 | （仅限UPS REST）用于跟踪包的UPS URL。 |
 | [!UICONTROL Destination Type] | 网站 | 设置默认发运目的地类型。 选项： `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | 网站 | 设置包可以由UPS指定的最大重量。 如果订购的产品超出最大包装重量，则此选项不可用。 根据 [UPS.com](https://www.ups.com/us/en/global.page)，包装不得超过150磅（70千克）请与您的承运商核实，以确认最大重量。 |
 | [!UICONTROL Pickup Method] | 网站 | 设置UPS拾取方法。 选项： `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
@@ -185,8 +182,6 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | 已启用签出 | 网站 | 确定客户在结帐期间是否可以将USPS作为配送方式使用。 选项： `Yes` / `No` |
@@ -208,7 +203,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | 网站 | 确定如何计算具有多个包装的发运的重量。 选项： `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Container] | 网站 | 设置用于包装订单发运的集装箱类型。 选项： `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` /非矩形 |
+| [!UICONTROL Container] | 网站 | 设置用于包装装运的集装箱类型。 选项： `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` /非矩形 |
 | [!UICONTROL Size] | 网站 | 将Size选项设置为典型装运包大小。 此选项会影响装运率的计算。 选项： `Regular` / `Large` / `Oversize` |
 | [!UICONTROL Machinable] | 网站 | 指定计算机是否可以处理包。 此选项会影响装运率的计算。 |
 | [!UICONTROL Maximum Package Weight] | 网站 | 设置包可以由USPS指定的最大重量。 如果订购的产品超出最大包装重量，则此选项不可用。 |
@@ -258,60 +253,56 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-{{beta2-updates}}
-
-![联邦快递帐户设置](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
+#### 联邦快递帐户设置
+
+![联邦快递帐户设置](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
-|--- |--- |--- |
-| _[!UICONTROL FedEx Account Settings]_ |  |  |
+|-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | 网站 | 确定客户在结账期间是否可以将FedEx作为配送方式使用。 选项： `Yes` / `No` |
 | [!UICONTROL Title] | 商店视图 | 此配送选项的标题，显示在购物车结帐中。 |
 | [!UICONTROL Account ID] | 网站 | 您的联邦快递帐户ID。 |
-| [!UICONTROL Meter Number] | 网站 | 你的FedEx表号。 |
-| [!UICONTROL Key] | 网站 | 您的联邦快递帐户密钥。 |
-| [!UICONTROL Password] | 网站 | 您的FedEx帐户密码。 |
+| [!UICONTROL Api Key] | 网站 | 您的联邦快递帐户API密钥。 |
+| [!UICONTROL Secret Key] | 网站 | 您的FedEx帐户API密钥。 |
 | [!UICONTROL Sandbox Mode] | 网站 | 要在测试环境中运行FedEx事务，请将沙盒模式设置为 `Yes`. 选项： `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | 网站 | 所需的URL取决于沙盒模式设置。 选项： <br/>**`Production`**— 存储上线时用于访问FedEx Web服务的URL。<br/>**`Sandbox`**  — 用于访问FedEx Web服务的测试环境的URL。 |
 
 {style="table-layout:auto"}
 
-![FedEx封装](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### FedEx打包设置
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx封装](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Packaging Settings]_ |  |  |
+| [!UICONTROL Pickup Type] | 网站 | 从列表中选择选取方法： <br/>**`DropOff at Fedex Location`**— （默认）表示您在本地FedEx站点卸货。<br/>**`Contact Fedex to Schedule`**  — 指示您联系FedEx请求取车。 <br/>**`Use Scheduled Pickup`**— 指示作为定期计划提货的一部分提货。<br/>**`On Call`**  — 指示通过调用FedEx安排接送。 <br/>**`Package Return Program`**— 表明货物已由FedEx Ground Package Returns计划接收。<br/>**`Regular Stop`**  — 指示按常规提货计划提货。 <br/>**`Tag`**— 指示装运取货特定于快速标签或地面呼叫标签取货请求。 这仅适用于退货运输标签。 |
 | [!UICONTROL Packages Request Type] | 网站 | 确定如何计算具有多个包装的发运的重量。 选项： `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | 网站 | 从列表中选择通常用于包装从商店中订购的产品的容器类型。 |
-| [!UICONTROL Dropoff] | 网站 | 从列表中选择选取方法： <br/>**`Regular Pickup`**— （默认）如果发运量很大，则安排定期提货可能具有成本效益。<br/>**`Request Courier`**  — 您必须致电并请求联邦快递快递取货。 <br/>**`Drop Box`**— 您必须在当地联邦快递托运箱中卸货。<br/>**`Business Service Center`**  — 您必须在当地联邦快递商务服务中心卸货。 <br/>**`Station`**— 您必须在当地联邦快递站卸货。 |
+| [!UICONTROL Weight Unit] | 网站 | 用于包装重量的单位。 选项： `Pounds` （默认） / `Kilograms` |
 | [!UICONTROL Maximum Package Weight] | 网站 | 联邦快递的默认价格为150磅。 有关支持的最大重量，请咨询您的承运商。 除非您与FedEx有特殊安排，否则建议使用默认值。 |
 
 {style="table-layout:auto"}
 
-![联邦快递手续费](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### FedEx处理费设置
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![联邦快递手续费](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Handling Fee Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 确定用于计算手续费的方法。 选项： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**手续费是可选的，显示为联邦快递运费中增加的额外费用。 |
 | [!UICONTROL Handling Applied] | 网站 | 确定如何处理手续费。 选项： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 网站 | 根据用于计算金额的方法，指定作为手续费收取的金额。 如果费用基于固定费用，请以小数形式输入金额，例如 `4.90`. 如果手续费基于订单的百分比，则按百分比输入金额。 例如，要收取订单的6%的费用，请输入以下值 `.06`. |
 
 {style="table-layout:auto"}
 
-![FedEx投放方法](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### FedEx投放方法
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx投放方法](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx delivery methods]_ |  |  |
 | [!UICONTROL Residential Delivery] | 网站 | 根据您销售的是企业对消费者(B2C)还是企业对企业(B2B)，设置为以下选项之一： <br/>**`Yes`**— 对于B2C投放<br/>**`No`**  — 对于B2B投放 |
 | [!UICONTROL Allowed Methods] | 网站 | 从列表中，选择您支持的装运方法。 具体方法取决于您的联邦快递账户、发货频率和规模，以及您是否允许国际发货。 作为商人，您可能决定只提供陆运。 |
 | [!UICONTROL Hub ID] | 网站 | 由FedEx提供的ID，用于 [!DNL Smart Post] 方法。 |
@@ -322,13 +313,12 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![FedEx适用国家/地区](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### 联邦快递适用的国家/地区设置
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx适用国家/地区](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Applicable Countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | 网站 | 指示客户可通过FedEx发货的国家/地区。 选项： <br/>**`All Allowed Countries`**— 来自所有客户的客户 [国家/地区](../../getting-started/store-details.md#country-options) 在商店配置中指定的可使用此配送方式。<br/>**`Specific Countries`**  — 选择此选项后， [!UICONTROL Ship to Specific Countries] 列表出现。 选择列表中可使用此配送方法的每个国家/地区。 |
 | [!UICONTROL Ship to Specific Countries] | 网站 | 指示客户可通过FedEx发货的特定国家/地区。 |
 | [!UICONTROL Debug] | 网站 | 确定系统是否维护您的商店和FedEx之间的数据传输日志以进行调试。 除非存在必须跟踪和记录的问题，否则此选项应设置为 `No`. |

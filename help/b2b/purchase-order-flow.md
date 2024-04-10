@@ -3,9 +3,9 @@ title: 公司的采购订单
 description: 了解允许公司跟踪和控制支出的采购订单工作流。
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 根据其角色和顺序，公司用户可能需要遵守多个批准规则。 而根据使用在线支付还是离线支付方式，支付流程会略有不同。 公司管理员可以绕过审批规则自动创建订单。 由于在审批过程中存储在线支付详细信息存在安全风险，所以这些详细信息在审批后添加，然后采购订单会转换为实际订单。
 
 ![采购订单流程](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>如果采购订单中的一个或多个产品当前已禁用或缺货，则无法下达订单。
 
 公司的采购订单工作流可能因以下几种情况而异：
 

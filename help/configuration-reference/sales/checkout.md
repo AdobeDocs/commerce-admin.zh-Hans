@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Checkout]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Checkout] 商务管理员页面。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Checkout Options]
 
->[!NOTE]
->
->[!BADGE 2.4.6-p1]{type=Informative tooltip="2.4.6-p1中的更新"}[!BADGE 2.4.7-beta1]{type=Informative tooltip="2.4.7-beta1中的更新"}[2.4.7-beta2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) 和 [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) 发行版本为所述功能提供了安全增强。 如果您使用的是任一版本或这些版本，请查看发行说明。
-
 ![签出选项](./assets/checkout-checkout-options.png)<!-- zoom -->
 
 <!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
-|--- |--- |--- |
+|------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable Guest Checkout Login] | 商店视图 | 启用此设置以允许未经身份验证的用户（店面和API）查询电子邮件地址是否已与客户帐户关联。 如果输入的电子邮件地址已注册到客户帐户，则可以使用此功能增强来宾的签出工作流，方法是显示登录提示，但代价是向未经身份验证的用户公开信息。  选项： `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | 商店视图 | 确定 [单页签出](../../stores-purchase/checkout-process.md#checkout-options) 是默认的签出格式。 选项： `Yes` / `No` |
 | [!UICONTROL Allow Guest Checkout] | 商店视图 | 确定来宾是否可以通过 [不注册即签出](../../stores-purchase/checkout-guest.md) 以取得你商店的帐户。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | 商店视图 | 确定是否要求客户同意 [条款和条件](../../stores-purchase/terms-and-conditions.md) 购买前完成销售。 选项： `Yes` / `No` |

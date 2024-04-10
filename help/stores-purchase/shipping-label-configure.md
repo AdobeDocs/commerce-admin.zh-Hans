@@ -3,9 +3,9 @@ title: 配置配送标签
 description: 了解如何配置商店以生成装运标签。
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 1. 单击 **[!UICONTROL Save]**.
 
 ## 步骤2验证存储信息
-
-{{beta2-updates}}
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

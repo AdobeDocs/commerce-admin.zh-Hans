@@ -3,9 +3,9 @@ title: ’[!UICONTROL General] &gt； [!UICONTROL General]’
 description: 查看 [!UICONTROL General] &gt； [!UICONTROL General] 商务管理员页面。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ ht-degree: 0%
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，将隐藏配置范围框和相关字段标签选项： `Yes` / `No` <br/>**_注意：_**对于具有多个视图的商店，将忽略单商店模式。 |
+| [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，将隐藏配置范围框和相关字段标签选项： `Yes` / `No` <br/>**_注意：_**对于具有多个视图的商店，将忽略单商店模式。<br/> 启用单商店模式会将所有目录和产品商店特定数据从默认商店视图复制到所有商店视图范围。 如果该商店只有一个商店审核，则它仅会复制目录和产品数据。 如果存储有一个禁用了的存储和一个启用的存储，则它将不会复制目录和产品数据。<br/> 启用单存储模式会忽略特定于内容的数据的存储特定配置设置。 而是使用在全局级别范围中定义的配置设置，以确保管理员UI与店面之间的一致性。 |
 
 {style="table-layout:auto"}

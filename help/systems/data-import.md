@@ -3,9 +3,9 @@ title: 导入数据
 description: 了解数据导入准则以及如何使用数据导入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 - 如果所有行都无效，则无法导入文件。
 - 在导入文件中指定了不存在的服务数据或复杂的数据名称，例如 `_<non-existing name>` 标题。
+
+Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BOM)的UTF-8编码的文件。 在导入过程中，包含BOM的文件可能会导致问题或失败。
 
 ## 导入操作
 

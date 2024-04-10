@@ -3,9 +3,9 @@ title: 配置目录搜索
 description: 了解如何为应用商店配置目录搜索。
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >由于 [!DNL Elasticsearch 7] 2023年8月终止支持公告，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅 [迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) 在 _升级指南_.
-
-{{beta2-updates}}
 
 ### 步骤1：配置常规搜索选项
 

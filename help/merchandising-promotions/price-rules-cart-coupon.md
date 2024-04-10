@@ -3,9 +3,9 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 - 为移动用户创建店内优惠券
 
 优惠券代码可以通过电子邮件发送，或包含在新闻稿、目录和广告中。 优惠券代码的列表可以导出并发送到商业打印机。 你还可以使用快速响应代码创建店内优惠券，购物者可以用智能手机扫描这些优惠券。 二维码可链接到您网站上的一个页面，其中包含有关促销活动的更多信息。
+
+从Commerce 2.4.7开始，购物者可以向购物车应用多个优惠券。 商家还可以使用购物辅助申请多张优惠券。
 
 ## 配置优惠券代码
 

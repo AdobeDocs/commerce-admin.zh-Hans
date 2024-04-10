@@ -3,9 +3,9 @@ title: 将属性添加到产品
 description: 了解如何将属性添加到目录中的产品。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ ht-degree: 0%
 
    - `Filterable (no results)`  — 分层导航包括所有可用属性值及其产品数的过滤器，其中包括产品匹配为零(0)的产品。 如果属性值是样本，则该值将显示为过滤器，但会被划掉。
 
-1. 要在搜索结果页面上的分层导航中使用，请设置 **[!UICONTROL Use in Search Results Navigation]** 到 `Yes` 并在 **[!UICONTROL Position]** 字段。
+   >[!NOTE]
+   >
+   >当 _[!UICONTROL Use in Search]_设置已设置为 `No`，_[!UICONTROL Use in Search Results Layered Navigation]_ 不会显示设置，并且产品属性不会在任何搜索中使用 [!UICONTROL Use in Layered Navigation] 设置值。
+
+1. 要在搜索结果页面的分层导航中使用属性，请设置 **[!UICONTROL Use in Search Results Layered Navigation]** 到 `Yes` 并在 **[!UICONTROL Position]** 字段。
 
    位置编号表示属性在分层导航块中的相对位置。
+
+   >[!NOTE]
+   >
+   >此 _[!UICONTROL Position]_字段默认呈灰显状态，您必须先保存该属性，然后才能修改此设置。
 
 1. 要在价格规则中使用属性，请设置 **[!UICONTROL Use for Promo Rule Conditions]** 到 `Yes`.
 

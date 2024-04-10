@@ -3,9 +3,9 @@ title: 店面订单管理
 description: 了解客户如何在Commerce店面查看和管理其订单历史记录。
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ ht-degree: 0%
 >[!TIP]
 >
 >如果购物车不为空且客户单击 **[!UICONTROL Reorder]** (来自 [!UICONTROL My Orders] 或 [!UICONTROL Order View] 页面)，现有产品会保留在购物车中，并添加重新排序的产品。
+
+## 取消订单
+
+取消适用于以下情况的客户： [_允许取消_](cancel-allow.md) 配置选项已启用。
+
+客户可以从以下三个页面为特定订单启动取消功能：
+
+- “我的订单”页
+- 订单查看页面
+- 我的帐户页面
+
+此 _[!UICONTROL Cancel Order]_链接显示在_[!UICONTROL Reorder]_ 链接。 如果无法取消订单，则不会显示链接。
+
+![我的订单页面上的取消链接](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+要执行取消，客户：
+
+1. 点击次数 **[!UICONTROL Cancel Order]**
+
+1. 提供取消原因
+
+   ![取消订单原因](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   您可以自定义取消原因 [_允许取消_](cancel-allow.md) 页面。
+
+1. 点击次数 **[!UICONTROL Confirm]**
+
+   ![在“我的订单”页面上取消](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   取消后，订单位于 _[!UICONTROL Pending]_状态，更改为_[!UICONTROL Canceled]_ 状态，订单所在的 _[!UICONTROL Processing]_状态，更改为_[!UICONTROL Closed]_ 将处理状态和退款。
+
+   取消完成后，会向客户发送电子邮件。
+
+   ![取消订单电子邮件](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   取消信息将添加到客户的订单历史记录中。 它显示在订单的注释内和“注释历史记录”选项卡中。
+
+   ![取消订单备注](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![取消评论历史记录](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   如果由于某种原因订单更改为无法取消的状态，且客户未刷新页面，则仍会显示取消订单的链接。 但是，当他们尝试取消时，会显示错误消息。
+
+   ![取消订单错误消息](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   刷新页面后，您可以看到订单已完成，这就是取消不起作用的原因。
+
+   ![刷新后取消订单](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

@@ -3,9 +3,9 @@ title: 店面是什么？
 description: 了解您的商店为支持客户的购物体验而提供的页面和功能元素。
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 0%
 1. 配送信息
 
    结账流程的第一步是让客户填写送货地址信息，并选择送货方式。 如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
+如果访客客户输入的电子邮件地址被识别为先前已注册，则 [!UICONTROL Enable Guest Checkout Login] 将存储配置中的字段设置为 `Yes` (请参阅 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 在 _配置参考指南_)。 但是，此设置可能会向未经身份验证的用户公开客户信息。
 
    ![示例storefront结帐页面](./assets/storefront-checkout-shipping-full.png){width="700"}
 

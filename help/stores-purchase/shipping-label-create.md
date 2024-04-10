@@ -3,9 +3,9 @@ title: 创建装运标签和包装
 description: 了解如何按订单打包项目并创建配送标签。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ ht-degree: 0%
 ### FedEx配置
 
 联邦快递在国内和国际上发货。 位于美国境外的商店只能为国际货运创建联邦快递标签。
-
-{{beta2-updates}}
 
 1. 在中继续 **[!UICONTROL Delivery Methods]** 配置，展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL FedEx]** 部分。
 

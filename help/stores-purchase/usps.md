@@ -3,7 +3,7 @@ title: 美国邮政局(USPS)
 description: 了解如何将USPS设置为商店的装运承运商。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ ht-degree: 0%
 您也可以打开 [USPS Web Tools][1] 帐户。 完成注册过程后，您将收到用户ID和USPS测试服务器的URL。 要了解有关USPS Web工具的更多信息，请参阅他们的 [技术文档][2].
 
 ## 步骤2：为存储启用USPS
-
-{{beta2-updates}}
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

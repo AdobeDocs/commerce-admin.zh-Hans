@@ -3,9 +3,9 @@ title: 创建单个客户帐户
 description: 访客可以轻松地创建单个客户帐户来管理他们的购买。
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 作为商店管理员，您还可以设置 [新帐户选项](../customers/account-options-new.md) 向新的注册客户发送确认电子邮件，这有助于确保注册帐户有效。
 
-{{beta-updates}}
+>[!NOTE]
+>
+>从版本2.4.7开始，客户必须重新输入其电子邮件和密码，以在电子邮件确认后登录到其帐户，而不考虑浏览器。
 
 ## 从店面创建帐户
 

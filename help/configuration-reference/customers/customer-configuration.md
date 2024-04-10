@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers]  &gt； [!UICONTROL Customer Configuration]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration] 商务管理员页面。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![创建新帐户选项](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![创建新帐户选项（增值税字段）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 商店视图 | 标识默认使用的电子邮件模板 _欢迎_ 电子邮件。 |
 | [!UICONTROL Default Welcome Email Without Password] | 商店视图 | 一个备用的欢迎电子邮件模板，用于管理员创建的新客户帐户，这些帐户尚未分配密码。 |
 | [!UICONTROL Email Sender] | 商店视图 | 标识显示为欢迎电子邮件发件人的商店联系人。 |
-| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`. <br/><br/> _**注意：**_ 从版本2.4.7开始，客户必须重新输入其电子邮件和密码，以在电子邮件确认后登录到其帐户，而不考虑浏览器。 |
 | [!UICONTROL Confirmation Link Email] | 商店视图 | 标识用于确认电子邮件的电子邮件模板。 默认模板： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 商店视图 | 标识用于确认帐户后发送的欢迎消息的电子邮件模板。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全局 | 确定店面中是否显示用于输入和存储VAT ID号的字段。 选项： `Yes` / `No` |

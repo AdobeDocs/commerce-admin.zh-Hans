@@ -3,9 +3,9 @@ title: 联合包裹服务(UPS)
 description: 了解如何将UPS设置为您商店的配送运营商。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 
 ## 步骤2：为您的存储启用UPS
 
-{{beta2-updates}}
-
 1. 在 _管理员侧栏_，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 在左侧的面板中，在 **[!UICONTROL Sales]**，选择 **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ ht-degree: 0%
 
 1. 设置 **[!UICONTROL Enabled for Checkout]** 到 `Yes`.
 
-1. 对于UPS XML帐户（默认），设置 **[!UICONTROL UPS Type]** 到 `United Parcel Service XML` 并执行以下操作：
+1. 对于UPS REST帐户（默认），请执行以下操作：
 
-   - 输入您的UPS凭据： **[!UICONTROL User ID]**， **[!UICONTROL Access License Number]** (16位UPS帐户 `Access Key`)，和 **[!UICONTROL Password]**
+   - 输入您的UPS凭据：UPS客户端ID **[!UICONTROL User ID]**，UPS客户端密钥为 **[!UICONTROL Password]**
 
    - 设置 **[!UICONTROL Mode]** 到 `Live` 通过安全连接将数据发送到UPS运输系统。 （开发模式不会通过安全连接发送数据。）
 
-   - 验证 **[!UICONTROL Gateway XML URL]** 通过XML文件发送请求时所需的文件。
+   - 验证 **[!UICONTROL Gateway URL]** 发送请求时所需的属性。 将沙盒URL用于测试模式，将生产URL用于实时请求。
+
+   - 验证 **[!UICONTROL Tracking URL]** 获取跟踪信息所必需的。 将沙盒URL用于测试模式，将生产URL用于实时请求。
 
    - 设置 **[!UICONTROL Origin of the Shipment]** 到发运所在的区域。
 
    - 如果您对UPS有特殊费率，请设置 **[!UICONTROL Enable Negotiated Rates]** 到 `Yes` 然后输入六位数字 **[!UICONTROL Shipper Number]** 由UPS分配给您。
-
-1. 对于标准UPS帐户，设置 **[!UICONTROL UPS Type]** 到 `United Parcel Service` 并执行以下操作：
-
-   >[!NOTE]
-   >
-   >标准联合包裹服务类型已计划弃用。 对于新配置，应使用默认值  `United Parcel Service XML` 类型。 还需要使用XML类型生成 [配送标签](shipping-labels.md).
 
    - 设置 **[!UICONTROL Live Account]** 更改为以下任一项：
 
       - `Yes`  — 在生产模式下运行UPS，并将UPS作为配送方式提供给您的客户。
       - `No`  — 在测试模式下运行UPS。
 
-   - 在 **[!UICONTROL Gateway URL]** 字段中，输入用于计算UPS运费的URL。
+   >[!NOTE]
+   >
+   >标准联合包裹服务类型已计划弃用。 对于新配置，使用默认值 `United Parcel Service REST` 类型。 还需要使用REST类型生成 [配送标签](shipping-labels.md).<br/>
+   >对于2.4.7版本， **[!UICONTROL UPS Type]**  已删除，因为 `UPS` 和 `UPS XML` 已计划弃用和 `UPS REST` 是默认值。 本机Adobe Commerce集成使用的United Parcel Service (UPS) API暂时被弃用，因为它当前不支持OAuth 2.0安全模型。
 
-     >[!IMPORTANT]
-     >
-     >UPS将停止支持HTTP，它用于当前默认值（系统值）。 清除 **[!UICONTROL Use system value]** 复选框，并修改URL以使用HTTPS。 示例： `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS将停止支持HTTP，它用于当前默认值（系统值）。 清除 **[!UICONTROL Use system value]** 复选框，并修改URL以使用HTTPS。 示例： `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. 对象 **[!UICONTROL Title]**，输入此送货选项的名称，以使其在结帐时显示。
 

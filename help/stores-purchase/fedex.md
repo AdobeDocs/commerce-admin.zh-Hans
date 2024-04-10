@@ -3,9 +3,9 @@ title: 联邦快递
 description: 了解如何将FedEx设置为您商店的运输运营商。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [联邦快递商家账户][1] 需要注册FedEx Web服务生产访问。 创�
 
 ## 步骤2：为您的存储启用FedEx
 
-{{beta2-updates}}
-
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [联邦快递商家账户][1] 需要注册FedEx Web服务生产访问。 创�
 1. 从联邦快递帐户输入以下信息：
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. 如果您已设置FedEx沙盒并希望在测试环境中工作，请设置 **[!UICONTROL Sandbox Mode]** 到 `Yes`.
 
@@ -57,26 +54,24 @@ A [联邦快递商家账户][1] 需要注册FedEx Web服务生产访问。 创�
 
    ![联邦快递帐户设置](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## 步骤3：包描述和处理费
+## 步骤3：包描述和处理费用
 
-1. 选择 **[!UICONTROL Packages Request Type]** 要将订单拆分为多个发运时，最能说明您的首选项的选项：
+1. 设置 **[!UICONTROL Pickup Type]** 发运所用的装货方法。
+
+   - `DropOff at Fedex Location`  — （默认）表示您在本地FedEx站点卸货。
+   - `Contact Fedex to Schedule`  — 指示您联系FedEx请求取车。
+   - `Use Scheduled Pickup`  — 指示作为定期计划提货的一部分提货。
+   - `On Call`  — 指示通过调用FedEx安排接送。
+   - `Package Return Program`  — 表明货物已由FedEx Ground Package Returns计划接收。
+   - `Regular Stop`  — 指示按常规提货计划提货。
+   - `Tag`  — 指示装运取货特定于快速标签或地面呼叫标签取货请求。 这仅适用于退货运输标签。
+
+1. 对象 **[!UICONTROL Packages Request Type]**，选择最能描述将订单拆分为多个发运时的偏好设置的请求类型：
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. 选择类型 **[!UICONTROL Packaging]** 通常用于从您的商店发运产品。
-
-1. 设置 **[!UICONTROL Dropoff]** 用于交货的提货方式。
-
-   - `Regular Pickup`  — 如果发货量很大，与联邦快递安排定期取货可能具有成本效益。
-
-   - `Request Courier`  — 您必须致电并请求联邦快递快递取货。
-
-   - `Drop Box`  — 您必须在附近的联邦快递托运箱卸货。
-
-   - `Business Service Center`  — 您必须在当地联邦快递商务服务中心卸货。
-
-   - `Station`  — 您必须在当地联邦快递站卸货。
+1. 对象 **[!UICONTROL Packaging]**，选择从商店中发运产品时通常使用的FedEx包装类型。
 
 1. 设置 **[!UICONTROL Weight Unit]** 到在区域设置中使用的度量单位。
 
