@@ -3,24 +3,26 @@ title: 适用于Commerce管理员的Adobe Experience Cloud集成
 description: 了解Admin Unified Experience扩展，该扩展将Commerce与Experience Cloud集成，以便客户可以从Experience Cloud主页访问Commerce项目。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # 适用于Commerce的Adobe Experience Cloud集成
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 仅在Adobe Commerce中独占的功能(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">了解详情</a>)</td></tr>
+</table>
 
 通过启用Admin Unified Experience扩展，将Adobe Commerce项目与Experience Cloud集成。 当集成处于活动状态时，管理员可以从Adobe Experience Cloud访问Commerce项目。
 
 ![从Experience Cloud主页访问Commerce](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-## 查看可用的商务项目
+## 查看可用的Commerce项目
 
-管理员可以通过选择查看他们有权访问的Commerce项目 **[!UICONTROL Commerce]** 从Experience Cloud主页访问。
+管理员可以通过选择，查看他们有权访问的Commerce项目 **[!UICONTROL Commerce]** 从Experience Cloud主页访问。
 
 ![Experience Cloud上的Commerce项目工作区](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 - **[店面URL](../stores-purchase/store-urls.md)** — 显示默认网站的基本URL。
 
-- **[环境类型](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — 使用标识部署到开发或暂存环境的商务实例 [!UICONTROL Development] 或 [!UICONTROL Staging] 标签。 将没有标签的实例部署到生产环境。
+- **[环境类型](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — 使用标识部署到开发或暂存环境的Commerce实例 [!UICONTROL Development] 或 [!UICONTROL Staging] 标签。 将没有标签的实例部署到生产环境。
 
 - **Commerce管理员访问权限** — 通过单击打开“管理员” **[!UICONTROL Open]**.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 ## 身份验证流程
 
-启用Experience Cloud集成后，管理员使用以下工作流验证和访问Commerce项目。
+启用Experience Cloud集成后，管理员使用以下工作流来验证和访问Commerce项目。
 
 1. 通过Experience Cloud登录页面登录。
 
@@ -70,11 +72,11 @@ ht-degree: 0%
 
    - Commerce Admin Unified Experience扩展(`magento/module-unified-experience`)
 
-     如果模块在商务实例上不可用，则可以使用编辑器进行安装。
+     如果该模块在Commerce实例中不可用，则可以使用编辑器进行安装。
 
-   - [Adobe I/O事件服务](https://developer.adobe.com/commerce/extensibility/events/) — 需要发送事件数据以管理管理员对Commerce项目的Experience Cloud访问权限。
+   - [Adobe I/O事件服务](https://developer.adobe.com/commerce/extensibility/events/) — 需要发送事件数据来管理管理员从Experience Cloud对Commerce项目的访问权限。
 
-     Adobe I/O事件与Commerce的集成由Commerce Event扩展(`magento/commerce-eventing`)，此版本随Adobe Commerce 2.4.4及更高版本提供。
+     Adobe I/O事件与Commerce的集成通过Commerce事件扩展(`magento/commerce-eventing`)，此版本随Adobe Commerce 2.4.4及更高版本提供。
 
 ## 启用集成
 
@@ -82,4 +84,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果已在商务实例上启用Experience Cloud集成，请参阅 [管理Experience Cloud集成](admin-unified-experience-integration-manage.md) 有关更改或更新配置、管理管理员访问权限和故障排除的详细信息。
+>如果已在Commerce实例上启用Experience Cloud集成，请参阅 [管理Experience Cloud集成](admin-unified-experience-integration-manage.md) 有关更改或更新配置、管理管理员访问权限和故障排除的详细信息。
