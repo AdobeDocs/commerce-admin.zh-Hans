@@ -3,9 +3,9 @@ title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Catalog]’
 description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Catalog] 商务管理员页面。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 商店视图 | 确定网格视图中默认每页显示的产品数。 |
 | [!UICONTROL Products per Page on List Allowed Values] | 商店视图 | 确定在列表视图中显示的产品数。 要提供选项选择，请输入多个值，值之间用逗号分隔。 |
 | [!UICONTROL Products per Page on List Default Value] | 商店视图 | 确定在列表视图中默认每页显示的产品数。 |
-| 产品列表排序方式 | 商店视图 | 确定搜索结果列表的排序顺序。 选项的选择由类别的“显示设置”和设置为的可用属性决定 `Used for Sorting in Product Listing`. 默认设置为 `Use All Available Attributes` 通常包括最佳价值、名称、价格 |
+| 产品列表排序方式 | 商店视图 | 确定搜索结果列表的排序顺序。 选项的选择由类别的“显示设置”和设置为的可用属性决定 `Used for Sorting in Product Listing`. 默认设置为 `Use All Available Attributes` 通常包括最佳价值、名称和价格。 此设置不适用于 [!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | 商店视图 | 如果设置为 `Yes`，包括 `ALL` “每页显示”控件中的选项。 |
 | [!UICONTROL Remember Category Pagination] | 全局 | 如果设置为 `Yes`，则当客户在中从一个类别浏览到另一个类别时，当前类别分页值将会保存 [产品列表](../../catalog/navigation-product-listings.md). 保存该值将使用更多缓存存储，并且可能会影响搜索引擎为页面编制索引的方式。 选项： `Yes` / `No` （默认） |
 | [!UICONTROL Use Flat Catalog Category] | 全局 | 启用 [扁平类别结构](../../catalog/catalog-flat.md) （不推荐）。 选项： `Yes` / `No` |

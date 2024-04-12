@@ -3,9 +3,9 @@ title: 创建类别
 description: 您可以根据配置中设置的最大菜单深度，根据需要创建任意数量的其他子类别。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 如果您希望类别页面包含 _`Filter by Attribute`_分层导航部分，设置&#x200B;**[!UICONTROL Anchor]**到 `Yes`.
 
-1. 对于 **[!UICONTROL Available Product Listing Sort By]** 选项中，选择一个或多个可供客户对列表进行排序的可用值。
+1. 对于 **[!UICONTROL Available Product Listing Sort By]** 选项中，选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于 [!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    默认情况下，将包含所有可用值。 取消选择 **[!UICONTROL Use All]** 复选框以更改选择。 例如，值可能包括：
 
@@ -122,7 +122,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 要设置类别的默认排序顺序，请选择 **[!UICONTROL Default Product Listing Sort By]** 值。
+1. 要设置类别的默认排序顺序，请选择 **[!UICONTROL Default Product Listing Sort By]** 值。 此设置不适用于 [!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. 更改默认的分层导航 [价格步骤](navigation-layered.md#configure-price-navigation) 设置，请执行以下操作：
 
