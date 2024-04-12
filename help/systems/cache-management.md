@@ -3,16 +3,16 @@ title: 缓存管理
 description: 了解如何使用缓存管理工具，这些工具提供了一种提高站点性能的简单方法。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # 缓存管理
 
-Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站点性能的简单方法。 每当缓存需要刷新时，都会在工作区顶部显示一条通知，其中包含指向 [!UICONTROL Cache Management] 可在其中查看和刷新缓存的页面。
+Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站点性能的简单方法。 每当缓存需要刷新时，都会显示一个通知，其中包含指向 [!UICONTROL Cache Management] 页面以完成刷新。
 
 ![保存产品属性 — 更新缓存消息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
 - 安装扩展/模块后，请始终刷新缓存。 您可以安装一个或多个扩展，然后刷新缓存。
 - 安装Commerce后刷新缓存。 对于全新安装，您还应重新编入索引。
 - 从一种开源版本或商业版本升级到另一种版本后刷新缓存。
-- 刷新缓存时，请考虑缓存类型并计划在非高峰期进行刷新。 例如，选择一个很少客户访问网站的时间，如深夜或清晨。 高峰期清除某些缓存类型会导致管理员负载过高，并可能导致站点停机，直到运行完毕。
-- 时间 [重新索引](index-management.md)，您无需同时执行刷新缓存。
+- 刷新缓存时，请考虑缓存类型并计划在非高峰期进行刷新。 例如，选择只有少数客户使用网站的时间，如深夜或清晨。 在需求高峰期清除缓存类型可能会增加管理员的负载，并导致站点停止运行，直到操作完成。
+- 时间 [重新索引](index-management.md)中，您无需刷新缓存。
 
 ## 缓存管理角色资源
 
-特定缓存维护操作的访问权限可以按角色分配给用户，包括查看、切换和刷新缓存的选项。 Adobe建议仅对管理员级别的用户启用刷新操作。 提供对所有缓存管理功能的访问可能会影响您店面的性能。
+您可以按角色向用户分配对特定缓存维护操作的访问权限，包括用于查看、切换和刷新缓存的选项。 Adobe建议仅对管理员级别的用户启用刷新操作。 提供对所有缓存管理功能的访问可能会影响您店面的性能。
 
 ![角色资源 — 缓存管理](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
    - `Select All`
    - `Select Visible`
 
-1. 选中操作要定位的每个缓存对应的复选框。
+1. 选中每个要刷新缓存的复选框。
 
 1. 设置 **[!UICONTROL Actions]** 到 `Refresh` 并单击 **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
 
 ## 刷新JavaScript/CSS缓存
 
-1. 下 _[!UICONTROL Additional Cache Management]_，单击&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**清除已合并到单个文件中的任何JavaScript和CSS文件。
+1. 下 _[!UICONTROL Additional Cache Management]_，通过单击清除已合并到单个文件中的Javascript和CSS文件&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    此 `The JavaScript/CSS cache has been cleaned` 消息显示在工作区顶部。
 
@@ -102,7 +102,7 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
 
 ## 使用命令行刷新
 
-有权访问Commerce应用程序服务器的系统管理员和开发人员还可以使用Commerce CLI从命令行管理缓存和缓存配置。 请参阅 [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) 在 _配置指南_.{：target=&quot;_blank&quot;}.
+有权访问Commerce应用程序服务器的系统管理员和开发人员还可以使用Commerce CLI从命令行管理缓存和缓存配置。 请参阅 [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){：target=&quot;_blank&quot;}在 _配置指南_.
 
 ## 控件
 
@@ -134,7 +134,7 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
 
 - `%CACHE_TYPE_TAG%` 定义要在缓存类型范围中使用的唯一标记。
 
-在自定义或与Adobe Commerce集成时(例如使用GraphQL API开发集成)，开发人员和系统集成商可以使用这些值配置和管理缓存。 此 `cache type id` 也用于使用Commerce CLI从应用程序服务器命令行进行缓存管理，例如 ` bin/magento cache:status config` 显示配置缓存的当前状态。
+在自定义或与Adobe Commerce集成时(例如使用GraphQL API开发集成)，开发人员和系统集成商可以使用这些值配置和管理缓存。 此 `cache type id` 也可以使用Commerce CLI从应用程序服务器命令行进行缓存管理。 例如， ` bin/magento cache:status config` 显示配置缓存的当前状态。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高站�
 | `Database DDL operations` | 数据库模式。 如有必要，Commerce会自动清理此缓存，但第三方开发人员可以将任何数据放入缓存的任何区段中。 在对数据库架构进行自定义更改后，清除或刷新此缓存类型。 （换言之，这些是Commerce本身不提供的更新。） 自动更新数据库架构的一种方法是使用magento设置:db-schema:升级命令。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | 代码编译的结果。 | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | 缓存对webhook请求的响应。 欲了解更多信息，请参见 [Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) 在Commerce开发人员文档中。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | 与EAV属性相关的元数据的实体类型声明缓存（例如，存储标签、指向相关PHP代码的链接、属性渲染、搜索设置等）。 您通常不需要清理或刷新此缓存类型。 | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | 缓存与实体属性值(EAV)属性相关的元数据的实体类型声明。 属性包括存储标签、指向相关PHP代码的链接、属性渲染、搜索设置等。 您通常不需要清理或刷新此缓存类型。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | 显示在用户界面中的临时通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 缓存来自客户、CMS页面、CMS块和产品媒体集实体的GraphQL查询解析器的结果。 启用此缓存可提高GraphQL性能。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 集成配置文件。 在更改或添加集成后，清理或刷新此缓存。 | `INTEGRATION` | `config_integration` |
@@ -178,8 +178,8 @@ Adobe Commerce和Magento Open Source使用服务器上的全页缓存快速显�
 缓存的内容可用于处理来自类似访问类型的请求。 因此，向临时访客显示的页面可能与向客户显示的页面不同。 对于缓存，每次访问属于以下三种类型之一：
 
 - `Non-sessioned`  — 在非会话访问期间，购物者会查看页面，但不会与商店进行交互。 系统缓存每个查看页面的内容，并将它们提供给其他无会话购物者。
-- `Sessioned`  — 在会话访问期间，会为通过比较产品或向购物车添加产品等活动与商店进行交互的购物者分配一个会话ID。 会话期间生成的缓存页面仅供该购物者在会话期间使用。
-- `Customer`  — 为已在您的商店和商店中注册了帐户并登录到其帐户的用户创建客户会话。 在该会议中，可以向客户显示基于其分配的客户组的特殊优惠、促销和价格。
+- `Sessioned`  — 在会话式访问期间，会为与商店互动的购物者分配一个会话ID。 交互包括诸如比较产品或向购物车添加产品等活动。 会话期间生成的缓存页面仅供该购物者在会话期间使用。
+- `Customer`  — 为使用注册帐户登录和购物的客户创建客户会话。 在该会议中，可以根据分配给客户的组向客户显示特殊优惠、促销和价格。
 
 有关技术信息，请参阅 [配置和使用清漆](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){：target=&quot;_blank&quot;}和 [将Redis用于Commerce页面和默认缓存](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){：target=&quot;_blank&quot;}在 _配置指南_.
 
