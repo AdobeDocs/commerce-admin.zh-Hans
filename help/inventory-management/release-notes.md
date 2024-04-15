@@ -3,9 +3,9 @@ title: ’[!DNL Inventory Management] 发行说明
 description: 查看发行说明，了解所有 [!DNL Inventory Management] 版本发布。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 [!DNL Inventory Management] 是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅 [GitHub项目](https://github.com/magento/inventory) 存储库和 [维客](https://github.com/magento/inventory/wiki) 以开始使用。 要讨论该项目，请加入 [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) 渠道([自我注册](https://opensource.magento.com/slack))。
 
 [发布计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} 支持版本和兼容版本。
+
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7发行说明包含在 [core 2.4.7发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,7 +112,7 @@ ht-degree: 0%
 
 Inventory management 1.2.4(模块版本： `magento/inventory-metapackage = 1.2.4`)在版本2.4.4中受支持，并且与Adobe Commerce版本2.4.0、Adobe Commerce on cloud infrastructure和Magento Open Source代码库兼容。
 
-![修复的问题](../assets/fix.svg) Commerce现在在管理员产品列表视图中为所有产品显示准确的可销售数量值。 以前，对于库存产品的可销售数量（包含特殊字符的SKU），它显示空白值。 <!--- MC-41936-->
+![修复的问题](../assets/fix.svg) Commerce现在在管理员产品列表视图中显示所有产品的准确可销售数量值。 以前，对于库存产品的可销售数量（包含特殊字符的SKU），它显示空白值。 <!--- MC-41936-->
 
 ![修复的问题](../assets/fix.svg) 提高了购物车和结账操作的性能，例如，在具有许多（大约10,000个）库存源的部署中将产品添加到购物车。 <!--- MC-42570-->
 
