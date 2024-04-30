@@ -5,9 +5,9 @@ breadcrumb-title: 快速入门
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 
 + [Adobe Commerce快速入门指南](guide-overview.md)
 + [什么是Adobe Commerce？](about.md)
-+ [发行信息](about-this-release.md)
 + [登录凭据和URL](login-urls.md)
 + Commerce帐户 {#commerce-account}
    + [创建和访问您的帐户](commerce-account-create.md)

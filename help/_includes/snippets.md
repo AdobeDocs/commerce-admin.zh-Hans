@@ -1,9 +1,9 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce Admin身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据（而非其Commerce帐户凭据）登录。 请参阅 [将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md).
+>具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce Admin身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据(而不是其Commerce帐户凭据)登录。 请参阅 [将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## GTag API注释 {#gtag-api-note}
 
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | 文档资源 | 描述 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4商家文档](../landing/home.md) | 适用于Adobe Commerce和Magento Open Source的以商家为中心的文档 |
+| [Adobe Commerce 2.4商家文档](../landing/home.md) | Adobe Commerce以商家为中心的文档 |
 | [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
-| [云基础架构上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
-| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关用于开发、部署和维护在Adobe Commerce和Magento Open Source平台上部署的项目所涉及的概念、流程、工具和最佳实践的系统文档。 |
-| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 用于构建和自定义Adobe Commerce或Magento Open Source的以开发人员为中心的文档 |
+| [《云基础架构上的Commerce指南》](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
+| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关开发、部署和维护Adobe Commerce项目的概念、流程、工具和最佳实践的系统文档。 |
+| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 以开发人员为中心的文档，用于自定义Adobe Commerce并与第三方系统集成 |
 
 {style="table-layout:auto"}
