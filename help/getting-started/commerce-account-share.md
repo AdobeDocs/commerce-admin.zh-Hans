@@ -3,9 +3,9 @@ title: 共享 [!DNL Commerce] 帐户
 description: 了解如何授予对的有限访问权限 [!DNL Commerce] 其他帐户 [!DNL Commerce] 账户持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 在开始之前，请从以下位置获取以下信息： [!DNL Commerce] 的帐户 **新建共享访问被授予者**：
 
    - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。
-   - 此 `Account ID` 左上角显示的 _[!UICONTROL Magento]_选项卡，在&#x200B;**注销**链接。
+   - 此 `MAGE ID/Account ID (MAG00XXXXXXX)` 的左上角显示 _[!UICONTROL Magento]_选项卡，在&#x200B;**注销**链接。
    - 此 `Email` 与帐户关联的地址。
 
 1. 登录 [[!DNL Commerce] 帐户](commerce-account-create.md).
