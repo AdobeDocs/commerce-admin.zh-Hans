@@ -2,13 +2,13 @@
 title: 什么是Adobe Commerce
 description: Adobe Commerce是一个企业电子商务平台。 了解推动全球电子商务团队增长的最新功能。
 mini-toc-levels: 1
-source-git-commit: f3bba921f180f0338722d0e29fef1c6f260837de
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
+source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3326'
 ht-degree: 0%
 
 ---
-
 
 # 什么是Adobe Commerce？
 
@@ -34,6 +34,8 @@ Adobe的愿景是提供一个以体验为导向、以数据为动力、以技术
 - [数据支持](#data-powered-commerce). Adobe Commerce可在您的营销技术栈栈中提供无缝的数据共享，使您能够将第一方商业数据投入使用，并在每个接触点和渠道之间个性化体验。
 
 - [启用技术](#tech-enabled-commerce). Adobe Commerce是一个可组合的电子商务平台，旨在更快地启动电子商务功能、在第三方系统之间轻松共享数据，并降低集成和自定义的拥有成本。
+
+![Adobe Commerce信息图](assets/about-commerce.png)
 
 ## Experience-led Commerce
 
