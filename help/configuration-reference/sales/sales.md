@@ -3,9 +3,9 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Sales]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商务管理员页面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1186'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | 网站 | 确定每个订单允许的最大优惠券数量 |
+| [!UICONTROL Maximum number of coupons per order] | 网站 | 确定每个订单允许的最大优惠券数量。 此功能仅在管理员、GraphQL和REST API中可用。 确实如此 **_不可用_** 在店面。 |
 
 {style="table-layout:auto"}
 
