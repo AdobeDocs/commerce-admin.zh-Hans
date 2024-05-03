@@ -3,9 +3,9 @@ title: 类别的计划更改
 description: 了解如何计划类别更改以支持营销活动和商店促销。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 类别更新可以按计划应用，并与其他内容更改分组。 您可以根据对类别的计划更改创建营销活动，或将更改应用于现有营销活动。 要了解更多信息，请参阅 [内容暂存](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>此 [!UICONTROL Schedule Design Update] 选项卡已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，并且无法直接在类别上修改。 您必须为这些激活创建计划的更新。
 
 >[!NOTE]
 >

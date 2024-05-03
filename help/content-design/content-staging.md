@@ -3,9 +3,9 @@ title: 内容暂存
 description: 内容暂存使您的业务团队能够直接从管理员轻松创建、预览和计划存储的各种内容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 术语 _营销活动_ 指计划更改的记录，或从“暂存功能板”管理的更改集合。 可以在日历或时间轴上查看更改。 术语 _计划的更改_ 和 _计划的更新_ 可互换，指单个更改。
 
 当您计划在特定时间段内进行内容更改时，当计划的更改过期时，内容将恢复到以前的版本。 您可以创建同一基线内容的多个版本以用于未来的更新。 您还可以回溯时间线以查看内容的早期版本。 要保存草稿版本，只需在时间轴上指定一个日期，该日期距离未来很远，并且绝不会投入生产。
+
+>[!NOTE]
+>
+>与开始日期和结束日期相关的字段已删除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce和不能直接在购物车价格规则、目录价格规则、产品、类别和CMS页面上修改。 您必须为这些激活创建计划的更新。
 
 ## 内容暂存对象和营销活动
 

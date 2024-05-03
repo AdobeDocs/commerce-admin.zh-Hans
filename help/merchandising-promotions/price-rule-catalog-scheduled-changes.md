@@ -3,9 +3,9 @@ title: 目录价格规则的计划更改
 description: 了解如何按计划应用目录价格规则作为营销活动的一部分并按照其他内容更改进行分组。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 保存或更新新价格规则后，“计划的更改”框将显示在页面顶部。 目录价格规则可以按计划作为促销活动的一部分应用，并与其他内容更改一起分组。 您可以根据对价格规则的计划更改创建促销活动，或将更改应用于现有促销活动。
+
+>[!NOTE]
+>
+>此 [!UICONTROL From] 和 [!UICONTROL To] 中的字段已删除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce和无法直接在目录价格规则中修改。 您必须为这些激活创建计划的更新。
 
 >[!NOTE]
 >
