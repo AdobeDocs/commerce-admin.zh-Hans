@@ -3,9 +3,9 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加Adobe Commerce HIPAA就绪模块并获得附加功能，使您能够遵守HIPAA义务。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe Commerce上的HIPAA准备工作具有与Adobe Commerce相同的系统要�
 
 ## 针对HIPAA准备工作的功能增强
 
-此 `magento/hipaa-ee` 包引入了基本Commerce产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
+此 `magento/hipaa-ee` 此包引入了对Commerce基本产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
 
 ### 操作日志
 
@@ -182,7 +182,7 @@ Adobe Commerce上的HIPAA准备工作具有与Adobe Commerce相同的系统要�
 ### 默认情况下禁用来宾签出
 
 - 访客结账会给HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和血统以及潜在的更多信息。
-- 在HIPAA就绪模块中，默认情况下会禁用访客签出，但可以自行承担风险启用我的商家。
+- 默认情况下，HIPAA就绪模块中禁用访客签出，但商家可能会自行承担启用风险。
 
 ### 默认情况下已禁用新闻稿功能
 
@@ -191,3 +191,7 @@ Adobe Commerce上的HIPAA准备工作具有与Adobe Commerce相同的系统要�
 ### 默认情况下禁用了高级报告服务设置
 
 默认情况下，“高级报告”服务设置处于禁用状态，以防止将PHI用于分析和报告，但商家可以自行承担启用该设置的风险。
+
+### 默认禁用Sendgrid服务
+
+默认情况下，Sendgrid服务处于禁用状态，因为应用程序不符合HIPAA标准。 商家可以提交支持请求以启用Sendgrid，但是他们必须承认他们将承担使用该服务的风险。
