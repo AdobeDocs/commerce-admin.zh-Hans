@@ -3,9 +3,9 @@ title: 创建购物车价格规则
 description: 了解如何根据购物车或产品属性创建购物车价格规则。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -328,7 +328,7 @@ ht-degree: 0%
 
 1. 测试规则以确保其正常工作。
 
-   价格规则每晚都会与其他系统规则一起自动处理。 在创建价格规则时，请留出足够的时间使其进入系统。 还要测试规则以确保其正确运行。 随着新规则的加入，Commerce会相应地重新计算价格和优先级。
+   价格规则每晚都会与其他系统规则一起自动处理。 在创建价格规则时，请留出足够的时间使其进入系统。 还要测试规则以确保其正确运行。 随着新规则的添加，Commerce会相应地重新计算价格和优先级。
 
 ## 购物车价格规则演示
 
@@ -360,6 +360,31 @@ ht-degree: 0%
 ### [!UICONTROL Conditions]
 
 指定在购物车价格规则生效之前必须满足的条件。 如果留空，该规则将应用于购物车中的所有产品。 条件可以基于购物车和产品属性的任意组合。 但是， [可自定义的选项](../catalog/settings-advanced-custom-options.md) 无法在购物车价格规则条件中引用。
+
+| 字段 | 描述 |
+|--- |--- |
+| [!UICONTROL **购物车项目属性**] |  |
+| [!UICONTROL Price in cart] | 产品价格。 如果满足购物车中的产品价格条件，则该规则适用。 |
+| [!UICONTROL Quantity in cart] | 产品数量。 如果满足购物车中的产品数量条件，则应用规则。 |
+| [!UICONTROL Row total in cart] | 产品行总计。 如果满足购物车中的产品行总计条件，则该规则适用。 |
+| [!UICONTROL **产品属性**] |  |
+| [!UICONTROL Attribute Set] | 产品属性集。 如果产品满足产品属性条件，则应用规则。 |
+| [!UICONTROL Category] | 产品类别。 如果产品本身或其子产品满足类别条件，则该规则适用。 |
+| [!UICONTROL Category (Children Only)] | 子产品类别。 如果只有产品子项符合类别条件（此处不选中产品本身），则该规则适用。 |
+| [!UICONTROL Category (Parent Only)] | 父产品类别。 如果仅产品本身满足类别条件（此处不选中子产品），则该规则适用。 |
+| [!UICONTROL **购物车属性**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | 购物车小计（不含税）。 如果购物车满足小计（不含税）条件，则该规则适用。 |
+| [!UICONTROL Subtotal (Incl. Tax)] | 购物车小计（包括税费）。 如果购物车满足小计（包括税费）条件，则该规则适用。 |
+| [!UICONTROL Subtotal] | 购物车小计。 如果购物车满足小计条件，则应用规则。 支票根据当前税务设置包含或排除税。 |
+| [!UICONTROL Total Items Quantity] | 购物车中所有产品的总数。 如果购物车满足项目总数量条件，则应用规则。 |
+| [!UICONTROL Total Weight] | 购物车中所有产品的总重量。 如果购物车满足总重量条件，则应用规则。 |
+| [!UICONTROL Payment Method] | 结账时选择的付款方式。 如果满足付款方式条件，则应用规则。 |
+| [!UICONTROL Shipping Method] | 结账时选择了配送方式。 如果满足配送方式条件，则应用规则。 |
+| [!UICONTROL Shipping Postcode] | 配送地址邮政编码。 如果送货地址符合邮政编码条件，则应用规则。 |
+| [!UICONTROL Shipping Region] | 配送地址区域。 如果送货地址符合区域条件，则应用规则。 |
+| [!UICONTROL Shipping State/Province] | 配送地址所在省/市/自治区。 如果配送地址满足省/市/自治区条件，则适用该规则。 |
+| [!UICONTROL Shipping Country] | 配送地址国家/地区。 如果装运地址满足国家/地区条件，则应用规则。 |
+| [!UICONTROL Customer Segment] | 如果注册客户或来宾客户满足客户细分条件，则该规则适用。 |
 
 ### [!UICONTROL Actions]
 
