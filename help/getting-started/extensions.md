@@ -3,9 +3,9 @@ title: 来自Adobe的扩展
 description: 查看由Adobe发布的Adobe Commerce扩展和Magento Open Source相关信息。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Google reCAPTCHA与标准CAPTCHA相比，为店面和管理员UI提供了更高�
 
 >[!NOTE]
 >
->为管理员启用了Identity Management服务(IMS)Adobe身份验证的Adobe Commerce商店已禁用本机Commerce 2FA。 使用Adobe凭据登录到管理员的用户不需要重新验证许多管理员任务。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅 [AdobeIdentity Management服务(IMS)集成概述](./adobe-ims-integration-overview.md).
+>为管理员启用了Identity Management服务(IMS)Adobe身份验证的Adobe Commerce存储已禁用本机Commerce 2FA。 使用Adobe凭据登录到管理员的用户不需要重新验证许多管理员任务。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅 [AdobeIdentity Management服务(IMS)集成概述](./adobe-ims-integration-overview.md).
 
 ## 要添加扩展
 
@@ -83,18 +83,13 @@ Google reCAPTCHA与标准CAPTCHA相比，为店面和管理员UI提供了更高�
 
 [!DNL Payment services] Adobe Commerce和Magento Open Source是完全集成的支付解决方案，它简化了管理支付的过程，并为您的客户提供按其方式付款的机会。 在Adobe Commerce Admin中安全地协调所有支付和交易数据 — 允许您在一个地方管理订单和支付，同时实现无缝结账。 请参阅 [[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) 以了解更多信息。
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] ，Adobe Commerce可提供无缝的结账体验，旨在将一次性访客购物者转化为忠诚的帐户持有者。
-请参阅 [[!DNL Quick Checkout] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) 以了解更多信息。
-
 ### [!DNL Store Fulfillment]
 
 适用于Adobe Commerce和Magento Open Source的商店履行功能可提供卓越的在线购买功能、店内取货(BOPIS)客户体验，并通过移动设备提供全面的履行工作流程，从而最大限度地提高员工的工作效率。 请参阅 [[!DNL Store Fulfillment] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) 以了解更多信息。
 
 ### [!DNL Amazon Sales Channel]
 
-此 [!DNL Amazon Sales Channel] for Adobe Commerce允许您将Amazon Seller Central列表数据库与 [!DNL Commerce] 在Commerce Admin中编入产品目录并管理Amazon列表和销售情况。 请参阅 [[!DNL Amazon Sales] 指南用户指南](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 以了解更多信息。
+此 [!DNL Amazon Sales Channel] for Adobe Commerce允许您将Amazon Seller Central列表数据库与 [!DNL Commerce] 在Amazon管理员中编录产品目录并管理您的Commerce列表和销售额。 请参阅 [[!DNL Amazon Sales] 指南用户指南](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 以了解更多信息。
 
 ### [!DNL Channel Manager]
 
