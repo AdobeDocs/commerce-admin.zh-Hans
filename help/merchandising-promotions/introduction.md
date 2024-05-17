@@ -1,10 +1,10 @@
 ---
 title: Commerce促销和促销简介
-description: 了解用于为客户参与创建定向促销和机会的商务工具。
+description: 了解用于创建针对性促销和客户参与机会的Commerce工具。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---

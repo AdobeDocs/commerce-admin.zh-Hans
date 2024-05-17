@@ -7,8 +7,8 @@ breadcrumb-title: 商家文档
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -119,7 +119,7 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
 
 >[!TIP]
 >
->您还可以查看 [Commerce Services文档的新增功能](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 和 [操作指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>您还可以查看 [Commerce Services文档中的新增功能](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 和 [操作指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | 描述 | 类型 | 日期 |
 | ----------- | ---- | ---- |
@@ -127,8 +127,8 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
 | **1.4.0 B2B版本** - [启动采购员报价](../b2b/sales-rep-initiates-quote.md) 该主题现已包含在 _Adobe Commerce的B2B指南_. 它描述了卖方如何为特定采购员创建报价以开始洽谈流程。 | 新建 | 06/13/23 |
 | **1.4.0 B2B版本** - [协商报价](../b2b/quote-price-negotiation.md)， [可转让报价](../b2b/quotes.md)、和 [启用B2B功能](../b2b/enable-basic-features.md) 将更新主题，以反映销售商启动的报价和默认功能的更改。 | 更新 | 06/13/23 |
 | **2.2.0 Adobe IMS集成版本** - [禁用Commerce管理员与Adobe ID的集成](../getting-started/adobe-ims-disable.md) 该主题现已包含在 _快速入门指南_. 它描述了用于禁用Adobe Commerce管理员与Adobe IMS集成的可选过程。 | 新建 | 06/13/23 |
-| **2.2.0 Adobe IMS集成版本**  — 中的更改 [AdobeIdentity Management服务(IMS)集成概述](../getting-started/adobe-ims-integration-overview.md) 和 [配置Commerce管理员与Adobe ID的集成](../getting-started/adobe-ims-config.md) 主题以反映更新的功能。 | 更新 | 06/13/23 |
-| **[!DNL Audience Activation]**  — 新的、更新的和改进的信息包含在 [[!DNL Audience Activation]](../customers/audience-activation.md) 反映 [!DNL Experience Platform Connector] 配置UI以及如何将Headless Commerce实例与购物车价格规则和动态块一起使用。 | 更新 | 06/13/23 |
+| **2.2.0 Adobe IMS集成版本**  — 中的更改 [AdobeIdentity Management服务(IMS)集成概述](../getting-started/adobe-ims-integration-overview.md) 和 [配置Commerce管理与Adobe ID的集成](../getting-started/adobe-ims-config.md) 主题以反映更新的功能。 | 更新 | 06/13/23 |
+| **[!DNL Audience Activation]**  — 新的、更新的和改进的信息包含在 [[!DNL Audience Activation]](../customers/audience-activation.md) 反映 [!DNL Experience Platform Connector] 配置UI以及如何将headless Commerce实例与购物车价格规则和动态块结合使用。 | 更新 | 06/13/23 |
 | **弃用UPS API**  — 已更新 [联合包裹服务(UPS)](../stores-purchase/ups.md) 主题和 [投放方法](../configuration-reference/sales/delivery-methods.md#ups) 配置参考页面，以反映用于生成新API密钥的UPS API的临时弃用。 | 更新 | 06/08/23 |
 | **2.4.6版本**  — 已更新 [产品列表](../catalog/products-list.md) 和 [管理员配置参考](../configuration-reference/advanced/admin.md) 主题中包括有关产品显示限制的信息，可用于提高大型目录的性能。 | 更新 | 03/14/23 |
 | **2.4.6版本**  — 已更新 [创建和删除客户区段](../customers/customer-segment-create.md) 和 [客户配置参考](../configuration-reference/customers/customer-configuration.md) 主题，以包含有关区段实时验证的信息。 | 更新 | 03/14/23 |
@@ -138,7 +138,7 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
 | **2.4.6版本**  — 已更新 [Inventory management发行说明](../inventory-management/release-notes.md) 最新捆绑的扩展版本(v1.2.6)中包含的描述性修复列表。 | 更新 | 03/14/23 |
 | **2.4.6版本**  — 已更新 [B2B发行说明](../b2b/release-notes.md) 最新扩展版本(v1.3.5)中包含的描述性修复列表。 | 更新 | 03/14/23 |
 | **新主题**  — 添加了 [Audience Activation](../getting-started/commerce-account-transfer.md) 主题至 _客户管理指南_，其中提供了有关在Adobe Commerce中激活Real-Time CDP受众的详细信息。 | 新建 | 03/13/23 |
-| **新主题**  — 添加了 [转移商务帐户](../getting-started/commerce-account-transfer.md) 主题至 _快速入门指南_. | 新建 | 02/27/23 |
+| **新主题**  — 添加了 [转移Commerce帐户](../getting-started/commerce-account-transfer.md) 主题至 _快速入门指南_. | 新建 | 02/27/23 |
 
 {style="table-layout:auto"}
 

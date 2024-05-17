@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe的愿景是提供一个以体验为导向、以数据为动力、以技术
 这个全新的高性能店面已经由数家Adobe Commerce商户成功试用，例如 [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world)，HanesBrands的一个资产。 结果本身就说明问题。 Maidenform页面始终提供Google Lighthouse分数 [100个和核心Web虚拟结果](https://treo.sh/sitespeed/www.maidenform.com) 远高于行业平均水平。
 
 ![网站速度结果](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![核心Web Vitals图表](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![核心Web Vitals图表](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Adobe Commerce提供了一组高性能软件即服务(SaaS)功能，以支持销
 
 Adobe还在Adobe Experience Platform中添加特定于Commerce的仪表板，以帮助营销人员分析其Commerce数据并确定个性化机会。
 
-![放弃的购物车营销活动的图表](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![放弃的购物车营销活动的图表](assets/use-case-playbook.png){zoomable="yes"}
 
 #### 使用AdobeReal-time CDP中的受众激活个性化
 

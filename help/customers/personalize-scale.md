@@ -2,7 +2,8 @@
 title: 大规模个性化
 description: 了解Adobe Commerce中的哪些功能允许您为购物者创建个性化体验。
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -105,11 +106,11 @@ Commerce中的客户和订单上下文数据可激发以下类型的个性化体
 | **优惠和营销活动** | 允许您根据区段数据部署个性化促销内容。 |
 | **测量** | 使用数据智能更好地了解您的业务，包括收入、渠道和商品表现、促销活动等。 |
 
-在接下来的两个部分中，您将了解如何使用此数据在中创建个性化体验 [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) 和 [本机Commerce功能](#using-commerce-data-in-native-commerce-features).
+在接下来的两个部分中，您将了解如何使用此数据在中创建个性化体验 [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) 和 [原生Commerce功能](#using-commerce-data-in-native-commerce-features).
 
 ## 在Adobe Experience Platform中使用Commerce数据
 
-要为所有渠道的购物者创建个性化体验，请使用将您的商务数据发送到Experience Platform边缘网络 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 扩展。
+要为所有渠道的购物者创建个性化体验，请使用将您的Commerce数据发送到Experience PlatformEdge Network [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 扩展。
 
 ![数据如何流向Experience Platform边缘](assets/commerce-edge.png){width="700" zoomable="yes"}
 
@@ -120,15 +121,15 @@ Commerce中的客户和订单上下文数据可激发以下类型的个性化体
 | 体验 | 应用程序 | 如何使用Commerce数据 |
 |---|---|---|
 | **网站内容** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce数据有助于建立统一的客户档案，Real-Time CDP可将来自不同来源(ERP、CRM、CMS、POS)的数据拼合到单个档案中。 Real-Time CDP还可以创建基于规则和基于人工智能的区段，以便在您的营销解决方案集中使用。 您还可以使用Real-Time CDP受众来个性化内容块、促销活动和相关产品规则。 请参阅 [[!DNL Audience Activation]](../customers/audience-activation.md) 以了解更多信息。&#x200B; |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce数据可在Adobe中激活 [!DNL Target] 用于测试、优化和创建动态登陆页面。 您可以根据发送的商务数据，个性化内容在页面上的显示顺序，例如描述、规范、审查和推荐产品。 |
+|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce数据可在Adobe中激活 [!DNL Target] 用于测试、优化和创建动态登陆页面。 您可以根据发送的Commerce数据，个性化设置内容在页面上的显示顺序，例如描述、规范、审查和推荐产品。 |
 | **优惠和营销活动** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce行为和后台数据可以触发个性化的全渠道历程，包括电子邮件营销活动、短信、推送通知等&#x200B;。 |
 | **测量** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 和 [客户 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce将店面和后台数据发送给客户 [!DNL Journey Analytics] (并且只要Adobe店面数据 [!DNL Analytics])，以允许在Adobe Commerce Intelligence中实现超出基本指标（如收入、商品和促销）的更丰富分析&#x200B;。 |
 
-要了解有关如何将Commerce数据发送到Experience Platform的更多信息，请参阅 [数据连接](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+要详细了解如何将Commerce数据发送到Experience Platform，请参阅 [数据连接](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
 ## 在本机Commerce功能中使用Commerce数据
 
-在以下部分中，您将了解如何使用本机Commerce功能(如Product Recommendations和Live Search)创建个性化的购物体验。 您还将了解名为的功能 [!DNL Audience Activation]，后者使用来自Experience Platform中可用的Real-Time CDP产品的数据，如前所述 [以前](#using-commerce-data-in-adobe-experience-platform). 虽然Real-Time CDP不是Commerce的原生版本，但可以通过将其信息摄取到Commerce中 [[!DNL Audience Activation]](../customers/audience-activation.md) 扩展。
+在以下部分中，您将了解如何使用本机Commerce功能(如产品Recommendations和Live Search)创建个性化的购物体验。 您还将了解名为的功能 [!DNL Audience Activation]，后者使用来自Experience Platform中可用的Real-Time CDP产品的数据，如前所述 [以前](#using-commerce-data-in-adobe-experience-platform). 虽然Real-Time CDP不是Commerce的原生版本，但可以通过将其信息摄取到Commerce [[!DNL Audience Activation]](../customers/audience-activation.md) 扩展。
 
 下表突出显示可用于将Commerce客户和订单上下文数据转换为可操作洞察的Commerce功能。
 
@@ -137,9 +138,9 @@ Commerce中的客户和订单上下文数据可激发以下类型的个性化体
 | **产品发现** | [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | 使用AI排名算法，根据购物者的网站行为操作对搜索结果进行个性化和优化，从而提高搜索相关性和转化率。 |
 |  | [产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | 根据购物者的行为、趋势、产品相似性等显示人工智能驱动的产品推荐。 与您的Adobe Commerce目录结合使用时，产品推荐可提供极具吸引力、相关性和个性化的体验。 |
 |  | [类别促销](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | 通过实时搜索管理员访问，类别促销使用人工智能自动重新排列每个类别页面上的产品序列，以提高每个购物者的相关性和转化率。 您可以创建和管理AI支持的规则，以根据购物者操作和相关性自动在类别页面上重新排列产品顺序。 |
-| **网站内容** | [由本机Commerce功能通知的动态块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 允许您根据在价格规则和客户区段中配置的逻辑提供个性化的网站内容。 |
+| **网站内容** | [受本机Commerce功能通知的动态块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 允许您根据在价格规则和客户区段中配置的逻辑提供个性化的网站内容。 |
 |  | [由Real-Time CDP受众通知的动态块](../customers/audience-activation.md) | 使商家能够根据Real-Time CDP中配置的受众提供个性化的网站内容。 |
 | **优惠和营销活动** | [购物车价格规则](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | 允许您根据一组条件将折扣应用于购物车中的商品。 |
-|  | [由本机Commerce功能通知的动态块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 允许您根据Commerce中本地配置的客户区段显示个性化的横幅促销活动。 |
+|  | [受本机Commerce功能通知的动态块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 允许您根据Commerce中本机配置的客户区段显示个性化的横幅促销活动。 |
 |  | [由Real-Time CDP受众通知的动态块](../customers/audience-activation.md) | 允许您根据Real-Time CDP中配置的受众显示个性化促销。 |
 | **测量** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (以前称为Magento Business Intelligence)是一个云平台，提供最佳实践见解，帮助您制定数据驱动型决策并采取清晰、知情的操作。 Adobe Commerce Intelligence可以分析您的数据，帮助您回答有关订单增长、客户行为和促销策略有效性的问题。 |
