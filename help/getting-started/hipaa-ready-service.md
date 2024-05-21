@@ -1,11 +1,11 @@
 ---
 title: Adobe Commerce上的HIPAA准备工作
-description: 了解如何添加Adobe Commerce HIPAA就绪模块并获得附加功能，使您能够遵守HIPAA义务。
+description: 了解如何添加Adobe Commerce HIPAA就绪扩展并获得附加功能，使您能够遵守HIPAA义务。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ ht-degree: 0%
 
 ## Adobe Commerce HIPAA就绪
 
-Adobe Commerce HIPAA-Ready具有附加特性和功能，允许商家遵守各自的HIPAA义务。
+Adobe Commerce HIPAA就绪扩展为Adobe Commerce安装添加了其他特性和功能，使商家能够遵守各自的HIPAA义务。
 
-Adobe Commerce HIPAA-Ready作为Adobe Commerce扩展提供， `magento/hipaa-ee` 这可用于Adobe Commerce on cloud基础架构或AdobeManaged Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅 [禁用的服务和功能](#disabled-services-and-features).
+Adobe Commerce HIPAA就绪扩展， `magento/hipaa-ee` 可用于Adobe Commerce云基础架构或AdobeManaged Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅 [禁用的服务和功能](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>仅已购买Adobe Commerce的医疗保健附加组件的商家方可访问符合HIPAA要求的特性和功能。
 
 *这些资料仅供参考。 提供此信息并不赋予收件人任何合同权利或其他权利。 虽然已努力确保资料在提供之日准确无误，但没有表示资料准确完整。 随着法律或Adobe产品的变化，Adobe不承担更新此信息的义务。 此外，未经Adobe书面同意，不得将此文档分发给目标收件人以外的任何一方。*
 
@@ -39,15 +43,16 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ## 安装
 
-安装最新版本的AdobeHIPAA就绪服务扩展(`magento/hipaa-ee`)在运行Adobe Commerce版本2.4.6-p3或更高版本的实例上。 该扩展将作为编辑器中继从提供。 [repo.magento.com](https://repo.magento.com) 存储库。
+**先决条件**
 
 >[!BEGINSHADEBOX]
 
-**先决条件**
-
-您必须有权访问 [repo.magento.com](https://repo.magento.com) 以安装扩展。 有关密钥生成和获取必要权限的信息，请参阅 [获取您的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Adobe已配置您的Adobe Commerce帐户以访问HIPAA Ready扩展。
+- 访问 [repo.magento.com](https://repo.magento.com) 以安装扩展。 有关密钥生成和获取必要权限的信息，请参阅 [获取您的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+安装最新版本的AdobeHIPAA就绪服务扩展(`magento/hipaa-ee`)在运行Adobe Commerce版本2.4.6-p3或更高版本的实例上。 该扩展将作为编辑器中继从提供。 [repo.magento.com](https://repo.magento.com) 存储库。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
@@ -120,7 +125,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ## 针对HIPAA准备工作的功能增强
 
-此 `magento/hipaa-ee` 此包引入了对Commerce基本产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
+此 `magento/hipaa-ee` 扩展引入了对基本Commerce产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
 
 ### 操作日志
 
@@ -210,9 +215,9 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
    - App Builder
    - 目录服务
 
-- **[SendGrid服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — 默认情况下禁用此服务，因为应用程序不符合HIPAA。 商家可以提交支持请求来启用Sendgrid，但是他们必须承认他们承担了使用该服务的风险。
+- **[SendGrid服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — 默认情况下禁用此服务，因为应用程序不符合HIPAA。
 
-### 默认禁用功能
+### 默认禁用的功能
 
 默认情况下，HIPAA就绪模块中禁用以下功能。 商家可以自行承担启用上述任何功能的风险。
 
