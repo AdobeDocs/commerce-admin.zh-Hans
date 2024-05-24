@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce商家文档
-description: 浏览Adobe Commerce产品文档
+description: 浏览 Adobe Commerce 产品文档
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 商家文档

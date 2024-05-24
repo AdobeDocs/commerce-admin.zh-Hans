@@ -1,12 +1,12 @@
 ---
 title: 简介 [!DNL B2B for Adobe Commerce]
-description: 了解如何使用集成的B2B功能来满足您对公司的客户的需求。
+description: 了解如何使用集成的 B2B 功能来满足公司客户的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

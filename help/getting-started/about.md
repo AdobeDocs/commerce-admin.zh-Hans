@@ -1,6 +1,6 @@
 ---
 title: 什么是Adobe Commerce
-description: Adobe Commerce是一个企业电子商务平台。 了解推动全球电子商务团队增长的最新功能。
+description: Adobe Commerce 是一个企业电子商务平台。了解推动全球电子商务团队增长的最新功能。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
