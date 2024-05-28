@@ -4,9 +4,9 @@ description: 了解如何运行增强的安全扫描并监控每个Adobe Commerc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 0%
 - 访问跟踪和监控站点进度的历史安全报告。
 - 访问显示成功和失败检查以及任何建议操作的扫描报告。
 
-安全扫描工具可从的仪表板中免费使用 [Commerce帐户](../getting-started/commerce-account-create.md). 有关技术信息，请参阅 [设置安全扫描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 在 _云基础架构上的Commerce指南_.
+安全扫描工具可从的仪表板中免费使用 [Commerce/Magento帐户](../getting-started/commerce-account-create.md). 有关技术信息，请参阅 [设置安全扫描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 在 _《云基础架构上的Commerce指南》_.
 
 ![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## 运行安全扫描
 
-1. 转到Commerce主页，然后登录到您的 [Commerce帐户](../getting-started/commerce-account-create.md) 并执行以下操作：
+1. 从Commerce主页，登录到您的 [Commerce/Magento帐户](../getting-started/commerce-account-create.md).
+
+1. 查看并接受使用安全扫描工具的条款。
 
    - 在左侧面板中，选择 **[!UICONTROL Security Scan]**.
    - 单击 **[!UICONTROL Go to Security Scan]**.
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Monitored Websites]_页面，单击&#x200B;**[!UICONTROL +Add Site]**.
 
-   如果您有多个具有不同域的站点，则必须为每个域配置单独的扫描。
+   如果您有多个具有不同域的站点，请为每个域配置单独的扫描。
 
    ![受监视的站点](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
         构建过程完成后，更改将部署到您的PWA存储前面。
 
-1. 返回到 _[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以确立您对该域的所有权。
+1. 返回到 _[!UICONTROL Security Scan]_Commerce页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**建立域的所有权。
 
 1. 成功确认后，配置 **[!UICONTROL Set Automatic Security Scan]** 下列类型之一的选项：
 
@@ -126,6 +128,6 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Submit]**.
 
-   验证域的所有权后，该网站会显示在您的Commerce帐户的“受监控网站”列表中。
+   验证域的所有权后，该站点将显示在Commerce帐户的“受监控网站”列表中。
 
 1. 如果您有多个网站使用不同的域，请重复此过程为每个网站设置安全扫描。
