@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ composer require magento/audiences
 
 1. 在 **[!UICONTROL Datastream ID]** 字段中，粘贴您创建的数据流的ID [已激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce作为Real-Time CDP中的目标。
 
-   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流， [创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) 一个Experience Platform， [添加](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 指向Real-Time CDP中的Commerce目标，并指向 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) 扩展。
+   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流， [创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) 一个Experience Platform， [添加](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 到Real-Time CDP中的Commerce目标，然后到 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) 扩展。
 
    >[!NOTE]
    >
@@ -173,6 +173,8 @@ composer require magento/audiences
 - [创建购物车价格规则](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受众通知
 - [创建动态块](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受众通知
 - [(**测试版**)创建相关的产品规则](../merchandising-promotions/product-related-rule-create.md) 由受众通知
+
+有关如何导出的完整端到端用例 [!DNL Commerce] 将数据发送到Real-Time CDP，构建受众，然后将该受众激活到 [!DNL Commerce]，请参见 [在Real-Time CDP中使用创建受众 [!DNL Commerce] 事件数据](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP受众功能板
 
@@ -306,7 +308,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 您可以使用Adobe Experience Platform Mobile SDK检索Real-Time CDP受众。
 
 1. [安装](#install-the-extension) Audience Activation扩展。
-1. [为您的移动Commerce网站安装和配置SDK](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [为您的移动设备Commerce站点安装和配置SDK](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -344,7 +346,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 ## 受众不显示在Commerce中
 
-如果Commerce中未显示Real-Time CDP受众，原因可能是：
+如果Real-Time CDP受众未显示在Commerce中，原因可能是：
 
 - 在中选择的身份验证类型不正确 **数据连接** 配置页面
 - 生成的令牌权限不足

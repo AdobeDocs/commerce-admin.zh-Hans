@@ -3,9 +3,9 @@ title: 大规模创建引人入胜的个性化体验
 description: 了解Adobe中的哪些功能 [!DNL Commerce] 可让您为购物者创建个性化体验。
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ Adobe [!DNL Commerce] 客户正在使用现成功能并将数据共享到Adobe E
 
 ## 示例用例
 
-了解如何使用Adobe Journey Optimizer来 [发送已放弃的购物车电子邮件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- 了解如何使用Adobe Journey Optimizer来 [发送已放弃的购物车电子邮件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- 了解如何 [在Real-Time CDP中创建受众](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) 在Adobe中通知购物车价格规则 [!DNL Commerce].
