@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists] 商务管理员页面。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->通过安装和启用Adobe Commerce的B2B，您可以利用公司特定的功能提供个性化的购买体验。 Adobe Commerce的B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参见 [_《 B2B for Adobe Commerce用户指南》_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参见 [_Adobe Commerce B2B用户指南_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >

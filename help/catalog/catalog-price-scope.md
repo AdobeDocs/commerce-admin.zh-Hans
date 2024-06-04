@@ -3,9 +3,9 @@ title: 价格范围
 description: 了解用于产品价格的范围，可以将其配置为在全球或网站级别应用。
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 不同的因素可能会影响同一产品在一个地点的价格，而不会影响另一个地点的价格。 例如，产品可能会产生额外的分销成本，以及影响特定商店中销售产品价格的其他注意事项。 下图显示了将基础货币设置为网站级别的多站点安装。 与每个网站关联的商店和商店视图反映在网站级别设置的产品定价。
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) 如果您使用共享目录，另请参阅 [设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md) 在 _Adobe Commerce的B2B指南_.
+![Adobe Commerce B2B](../assets/b2b.svg) 如果您使用共享目录，另请参阅 [设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md) 在 _Adobe Commerce B2B指南_.
 
 ![价格范围图](./assets/catalog-price-scope.svg){width="550"}
 

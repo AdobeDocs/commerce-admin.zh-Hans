@@ -1,18 +1,18 @@
 ---
-title: 简介 [!DNL B2B for Adobe Commerce]
+title: 简介 [!DNL Adobe Commerce B2B]
 description: 了解如何使用集成的 B2B 功能来满足公司客户的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
 
-# 简介 [!DNL B2B for Adobe Commerce]
+# 简介 [!DNL Adobe Commerce B2B]
 
-与标准的B2B(Business to Business)模式不同，集成B2B(Business to Business)功能旨在满足拥有企业客户的销售商(Adobe Commerce商家)的需求。 它可容纳组织结构复杂的公司和具有不同角色和购买权限级别的多个用户。 典型的B2B客户可能是零售店的经理，也可能是代表公司进行购买的买家。 在这两种情况下，交易都发生在您的企业与他们的企业之间。 您也可以将产品直接销售给消费者。 [!DNL B2B for Adobe Commerce] 是一个集成解决方案，可同时支持B2B和B2C模型。
+与标准的B2B(Business to Business)模式不同，集成B2B(Business to Business)功能旨在满足拥有企业客户的销售商(Adobe Commerce商家)的需求。 它可容纳组织结构复杂的公司和具有不同角色和购买权限级别的多个用户。 典型的B2B客户可能是零售店的经理，也可能是代表公司进行购买的买家。 在这两种情况下，交易都发生在您的企业与他们的企业之间。 您也可以将产品直接销售给消费者。 [!DNL Adobe Commerce B2B] 是一个支持B2B和B2C模型的集成解决方案。
 
 使用 [安装](install.md) 和 [启用](enable-basic-features.md) 通过Adobe Commerce商店中的B2B扩展，可以根据特定于客户的目录和定价以及有针对性的内容和促销活动，个性化购买体验。
 

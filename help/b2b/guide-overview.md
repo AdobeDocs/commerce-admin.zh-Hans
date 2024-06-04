@@ -1,19 +1,19 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] 指南'
-description: 全面的信息 [!DNL B2B for Adobe Commerce] 管理员，包括安装和配置。
+title: ’[!DNL Adobe Commerce B2B] 指南'
+description: 全面的信息 [!DNL Adobe Commerce B2B] 管理员，包括安装和配置。
 breadcrumb-title: 指南概述
-seo-title: '[!DNL B2B for Adobe Commerce] Guide'
+seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 4eb20fc8a52330976dd6f95ea45b9b32dc6fb1c1
+source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
-# Adobe Commerce的B2B指南
+# Adobe Commerce B2B指南
 
 本指南适用于Adobe Commerce管理员。 它提供了有关安装和启用此模块的详细信息，包括其功能的配置和管理。 它假定您对核心有基本的了解 [!DNL Commerce] 配置和功能。
 
@@ -26,12 +26,12 @@ ht-degree: 1%
 
 | 主题 | 描述 |
 | ------- | ----------- |
-| [介绍](introduction.md) | 有哪些功能可用 [!DNL B2B for Adobe Commerce]？ |
-| [发行说明](release-notes.md) | 查看每个页面中提供的更新 [!DNL B2B for Adobe Commerce] 模块版本。 |
-| [安装](install.md) | 安装 [!DNL B2B for Adobe Commerce] 扩展。 |
-| [启用基本B2B功能](enable-basic-features.md) | 安装之后 [!DNL B2B for Adobe Commerce]，您必须启用要为商店激活的功能。 |
+| [介绍](introduction.md) | 有哪些功能可用 [!DNL Adobe Commerce B2B]？ |
+| [发行说明](release-notes.md) | 查看每个页面中提供的更新 [!DNL Adobe Commerce B2B] 释放。 |
+| [安装](install.md) | 安装 [!DNL Adobe Commerce B2B] 扩展。 |
+| [启用基本B2B功能](enable-basic-features.md) | 安装之后 [!DNL Adobe Commerce B2B]，您必须启用要为商店激活的功能。 |
 | [公司帐户](account-companies.md) | 了解公司帐户，以及它们如何为您的商店中的B2B购买者提供支持的主要构建块。 |
-| [公司管理](manage-companies.md) | 了解B2B Commerce网站管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
+| [公司管理](manage-companies.md) | 了解B2B Commerce站点管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
 | [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 |
 | [快速订购](quick-order.md) | 了解快速订购功能并为您的客户启用。 |
 | [采购订单](purchase-order-flow.md) | 了解允许公司跟踪和控制其支出的采购订单工作流。 |

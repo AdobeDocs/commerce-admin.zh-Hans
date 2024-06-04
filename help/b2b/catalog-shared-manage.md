@@ -3,9 +3,9 @@ title: 管理共享目录
 description: 了解共享目录页面提供的信息和工具。
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Name] | 在整个管理员以及可用目录的客户帐户中标识共享目录。 目录名称应为描述性的，长度不超过32个字符。 不能有两个名称相同的共享目录。 最大字符数：32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]**  — 标识具有自定义定价的目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的已登录客户使用的共享目录。 安装B2B for Adobe Commerce时会创建“默认”公共共享目录，但必须由管理员配置。 一次只能存在一个公共共享目录。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]**  — 标识具有自定义定价的目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的已登录客户使用的共享目录。 安装Adobe Commerce B2B时会创建“默认”公共共享目录，但必须由管理员配置。 一次只能存在一个公共共享目录。 |
 | [!UICONTROL Customer Tax Class] | 确定用于从目录采购的税分类。 这些选项包括所有可用的税分类。 |
 | [!UICONTROL Description] | 有关如何使用目录的简要说明。 |
 

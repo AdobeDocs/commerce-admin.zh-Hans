@@ -1,20 +1,20 @@
 ---
-title: 安装 [!DNL B2B for Adobe Commerce] 扩展
-description: 了解如何安装 [!DNL B2B for Adobe Commerce] 暗喻。
+title: 安装 [!DNL Adobe Commerce B2B] 扩展
+description: 了解如何安装 [!DNL Adobe Commerce B2B] 暗喻。
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# 安装 [!DNL B2B for Adobe Commerce] 扩展
+# 安装 [!DNL Adobe Commerce B2B] 扩展
 
-B2B for Adobe Commerce扩展仅适用于Adobe Commerce v2.2.0或更高版本。 它会在安装Adobe Commerce之后安装。
+Adobe Commerce B2B扩展仅适用于Adobe Commerce v2.2.0或更高版本。 它会在安装Adobe Commerce之后安装。
 
 安装已部署的Adobe Commerce版本支持的最新版本的B2B扩展。
 
@@ -81,7 +81,7 @@ B2B for Adobe Commerce扩展仅适用于Adobe Commerce v2.2.0或更高版本。 
 
 ## 消息使用者
 
-B2B for Adobe Commerce扩展使用MySQL进行消息队列管理。 下表列出了支持B2B功能的消息使用者。 安装扩展后，启动消息使用者，以了解Commerce店面所需的B2B功能。
+Adobe Commerce B2B扩展使用MySQL进行消息队列管理。 下表列出了支持B2B功能的消息使用者。 安装该扩展后，启动消息消费者，了解Commerce店面所需的B2B功能。
 
 | 消费者 | 描述 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ B2B for Adobe Commerce扩展使用MySQL进行消息队列管理。 下表列出�
 
 ## 在管理员中启用B2B功能
 
-安装B2B for Adobe Commerce扩展并启动消息使用者后，您还必须 [在管理员中启用B2B功能](enable-basic-features.md).
+安装Adobe Commerce B2B扩展并启动消息使用者后，您还必须 [在管理员中启用B2B功能](enable-basic-features.md).

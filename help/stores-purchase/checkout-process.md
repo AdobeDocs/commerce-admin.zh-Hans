@@ -3,9 +3,9 @@ title: 结账流程和选项
 description: 了解Adobe Commerce和Magento Open Source结帐流程如何收集完成交易所需的信息，以及“结帐”页面如何引导客户完成流程的每个步骤。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->尽管Commerce允许配置多个优惠券代码，但客户只能将一个优惠券代码应用于购物车。 (请参阅 [优惠券代码](../merchandising-promotions/price-rules-cart-coupon.md) 以了解更多信息。)
+>虽然Commerce允许配置多个优惠券代码，但客户只能将一个优惠券代码应用于购物车。 (请参阅 [优惠券代码](../merchandising-promotions/price-rules-cart-coupon.md) 以了解更多信息。)
 
 ![结账时复查和支付页面](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### 复查和付款 — 采购订单
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
 当客户与已启用此功能的公司关联时 [采购订单](../b2b/purchase-order-flow.md)，则所有订单都将作为采购订单处理。 可用的支付方式由公司帐户设置决定。
 

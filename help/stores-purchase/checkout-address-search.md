@@ -3,9 +3,9 @@ title: 结账时的地址搜索
 description: 了解如何在商店结帐时包含地址搜索。
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 锁定的询价地址搜索
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
 启用地址搜索还会影响对从报价创建的订单的结帐，其中客户保存的地址数达到或超过配置的限制。 当报价完成并且客户进行结帐时，只显示选定的送货地址。 此页面还会显示一条消息，说明送货地址已锁定，只能在报价中进行更改。
 

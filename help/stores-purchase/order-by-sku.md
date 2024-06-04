@@ -3,9 +3,9 @@ title: 按SKU排序
 description: 了解如何配置您的商店，以便支持为方便客户而通过SKU进行订购。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _按SKU排序_ 是 [构件](../content-design/widgets.md) 这些商品可以在�
 
 1. 单击 **[!UICONTROL Save Config]**.
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (B2B仅适用于Adobe Commerce) _**要启用“按SKU排序”功能，请禁用“快速排序”功能：**_
+![Adobe Commerce B2B](../assets/b2b.svg) (仅限Adobe Commerce B2B) _**要启用“按SKU排序”功能，请禁用“快速排序”功能：**_
 
 1. 转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

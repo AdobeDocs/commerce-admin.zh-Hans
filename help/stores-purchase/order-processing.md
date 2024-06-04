@@ -3,9 +3,9 @@ title: 订单工作流和处理
 description: 了解订单工作流、在每个步骤应用的状态以及如何通过此流程移动订单。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 下订单的日期和时间。 |
 | [!UICONTROL Purchased From] | 指示下订单的网站、商店和商店视图。 |
 | [!UICONTROL Placed from IP] | 指示下达订单的计算机的IP地址。 |
-| [!UICONTROL Order Placed from Quote] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)指示 [引用](../b2b/quotes.md) 从中生成订单的位置（如果适用）。 报价名称与报价关联。 |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)指示 [引用](../b2b/quotes.md) 从中生成订单的位置（如果适用）。 报价名称与报价关联。 |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下订单的客户或购买者的名称。 客户名称链接到客户配置文件。 |
 | [!UICONTROL Email] | 客户或买方的电子邮件地址。 已链接电子邮件地址以打开新的电子邮件。 |
 | [!UICONTROL Customer Group] | 客户分配到的客户组或共享目录的名称。 |
-| [!UICONTROL Company Name] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)：与买方关联并代表其下达订单的公司的名称。 公司名称链接到 [公司配置文件](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)与买方关联并代表其下达订单的公司的名称。 公司名称链接到 [公司配置文件](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ ht-degree: 0%
 | [!UICONTROL Total Refunded] | 从订单中退款的总金额（如果适用）。 |
 | [!UICONTROL Total Due] | 到期的总金额。 |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)应用于订单的可用商店积分（如果适用）。 |
-| [!UICONTROL Catalog Total Price] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B提供)报价单中的项目总价（不含税），根据用作报价单基础的共享目录或标准目录中的定价确定。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
-| [!UICONTROL Negotiated Discount] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B产品)买方与卖方协商的报价所产生的折扣。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
-| [!UICONTROL Subtotal] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (Adobe CommerceB2B提供)目录总价减去议定折扣。 |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (在Adobe Commerce B2B中提供)报价单中的项目总价（不含税），根据用作报价单基础的共享目录或标准目录中的定价确定。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (在Adobe Commerce B2B中提供)买方和卖方之间协商的报价所产生的折扣。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B提供)目录总价减去议定折扣。 |
 
 {style="table-layout:auto"}
 

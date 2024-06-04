@@ -3,9 +3,9 @@ title: ’[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]’
 description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Company Configuration] 商务管理员页面。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->通过安装和启用Adobe Commerce的B2B，您可以利用公司特定的功能提供个性化的购买体验。 Adobe Commerce的B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参见 [《 B2B for Adobe Commerce用户指南》](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参见 [Adobe Commerce B2B用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >对B2B功能的这些配置选项的访问由 [角色资源](../../systems/permissions-user-roles.md#role-resources). 必须为分配给管理员用户的用户角色设置这些角色资源。
 
-有关配置这些设置的详细信息，请参阅 [启用基本B2B功能](../../b2b/enable-basic-features.md) 在 _《 B2B for Adobe Commerce用户指南》_.
+有关配置这些设置的详细信息，请参阅 [启用基本B2B功能](../../b2b/enable-basic-features.md) 在 _Adobe Commerce B2B用户指南_.
 
 ## [!UICONTROL General]
 

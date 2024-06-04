@@ -3,10 +3,10 @@ title: ’[!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings]’
 description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings] 商务管理员页面。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![适用于Adobe Commerce的B2B](../../assets/b2b.svg) (仅适用于Adobe Commerce的B2B)对于具有多个发运地址的订单，请 [分期付款](../../b2b/enable-basic-features.md#configure-payment-on-account) 付款方式即使已启用，在结帐期间也不可用。
+>![Adobe Commerce B2B](../../assets/b2b.svg) (仅适用于Adobe Commerce B2B)对于具有多个发运地址的订单，应 [分期付款](../../b2b/enable-basic-features.md#configure-payment-on-account) 付款方式即使已启用，在结帐期间也不可用。

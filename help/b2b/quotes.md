@@ -3,9 +3,9 @@ title: 可转让报价
 description: 了解报价工作流以及如何向公司客户提供此服务。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 可转让引号仅在Adobe Commerce具有以下配置设置时才可用：
 
-- [已安装B2B for Adobe Commerce扩展](install.md)
+- [已安装Adobe Commerce B2B扩展](install.md)
 - [配置的B2B功能](enable-basic-features.md)
    - 启用公司帐户
    - 启用B2B报价
@@ -134,7 +134,7 @@ ht-degree: 0%
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | 发送更新后的报价作为对买方查询的回复。 如果卖方正在等待买方的回复，则此按钮被禁用。 |
 | [!UICONTROL Back] | 返回到 _引号_ 页面，而不保存更改。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅供测试版计划参与者使用"}`<original quote name> (copy)`. 通过编辑中的值来更改名称 [!UICONTROL Name] 字段并将报价另存为草稿。 |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informational url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta版计划参与者&quot;}通过复制和重命名从当前报价创建新报价。 打开新报价时，默认名称为 `<original quote name> (copy)`. 通过编辑中的值来更改名称 [!UICONTROL Name] 字段并将报价另存为草稿。 |
 | [!UICONTROL Print] | 将报价发送至打印机或将其保存为PDF文件。 |
 | [!UICONTROL Create a copy] | 创建报价的副本，名为 `<original quote name> (copy)` 并打开它。 根据需要重命名并更新新报价，然后将其另存为草稿或发送给买方。 |
 | [!UICONTROL Save as Draft] | 保存对报价所做的任何更改，但不将其发送回购买者。 |

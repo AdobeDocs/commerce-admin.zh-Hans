@@ -1,9 +1,9 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 仅限B2B的功能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce的B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 独占功能仅适用于 <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">适用于Adobe Commerce的B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 独占功能仅适用于 <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## 仅限CE的功能 {#ce-feature}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce Admin身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据(而不是其Commerce帐户凭据)登录。 请参阅 [将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md).
+>具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce管理员身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据(而不是其Commerce帐户凭据)登录。 请参阅 [将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## GTag API注释 {#gtag-api-note}
 

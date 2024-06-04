@@ -3,9 +3,9 @@ title: 创建类别
 description: 您可以根据配置中设置的最大菜单深度，根据需要创建任意数量的其他子类别。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Customer Group]** 类别权限适用的位置。
 
-   ![适用于Adobe Commerce的B2B](../assets/b2b.svg) ([适用于Adobe Commerce的B2B](../b2b/introduction.md) （仅限）如果需要，您可以选择 **[!UICONTROL Shared Catalog]** 而是。
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) （仅限）如果需要，您可以选择 **[!UICONTROL Shared Catalog]** 而是。
 
 1. 根据需要设置以下权限：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 1. 根据需要设置设计设置：
 
-   - ([适用于Adobe Commerce的B2B](../b2b/introduction.md) （仅限）要将父类别设计设置应用于此类别，请设置 **[!UICONTROL Use Parent Category Settings]** 到 `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) （仅限）要将父类别设计设置应用于此类别，请设置 **[!UICONTROL Use Parent Category Settings]** 到 `Yes`.
 
    - 要更改类别页面的设计，请选择 **[!UICONTROL Theme]** 您想要申请的。
 

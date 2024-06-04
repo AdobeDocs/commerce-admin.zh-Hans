@@ -3,9 +3,9 @@ title: 配送设置
 description: 了解如何配置配送设置，以定义商店的原点和配送政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)对于具有多个发运地址的订单，应 [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 付款方式即使已启用，在结帐期间也不可用。
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B)对于具有多个发运地址的订单，应 [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 付款方式即使已启用，在结帐期间也不可用。

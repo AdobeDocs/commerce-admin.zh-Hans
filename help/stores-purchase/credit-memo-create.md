@@ -3,9 +3,9 @@ title: 发出贷项通知单
 description: 了解如何生成和打印已开票订单的贷项通知单。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 必须先为生成贷项通知单，然后才能打印贷项通知单 [已开票订单](invoices.md#create-an-invoice). 根据付款方式，您可以从未结贷项通知单中发放联机和脱机退款（部分或全部）。
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)退款可用于存储贷项。
-- ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)退款可用于公司信贷。
+- ![Adobe Commerce B2B](../assets/b2b.svg) (在Adobe Commerce B2B中提供)退款可用于公司信贷。
 - 信用卡购物可在线或离线退款。
 - 通过支票或汇票进行的购买必须离线退款。
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)要将金额退还给客户的商店积分，请选择 **[!UICONTROL Refund to Store Credit]** 复选框。
 
-   - ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)要退回客户的公司贷项金额，请选择 **[!UICONTROL Refund to Company Credit]** 复选框。
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (在Adobe Commerce B2B中提供)要退回客户的公司贷项金额，请选择 **[!UICONTROL Refund to Company Credit]** 复选框。
 
    - 要发出离线退款，请单击 **[!UICONTROL Refund Offline]**.
 
    - 要发出在线退款，请单击 **[!UICONTROL Refund]**.
 
-   - ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B提供)如果购买是以公司信用支付的，请单击 **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)如果购买是以公司信用支付的，请单击 **[!UICONTROL Refund to Company Credit]**.
 
    请参阅 [贷项通知单](credit-memos.md) 了解更多有关离线和在线退款的信息。
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下订单的客户或购买者的名称。 客户名称链接到客户个人资料。 |
 | [!UICONTROL Email] | 客户或买方的电子邮件地址。 已链接电子邮件地址以打开新的电子邮件。 |
 | [!UICONTROL Customer Group] | 客户分配到的客户组或共享目录的名称。 |
-| [!UICONTROL Company Name] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B提供)与买方关联并代表其下达订单的公司名称。 公司名称链接到公司配置文件。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)与买方关联并代表其下达订单的公司名称。 公司名称链接到公司配置文件。 |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Product] | 产品名称、SKU和选项（如果适用）。 |
-| [!UICONTROL Price] | 物料的采购价。 对于Adobe Commerce的B2B，此值反映应用于共享目录中的项目的任何折扣（如果适用）。 |
+| [!UICONTROL Price] | 物料的采购价。 对于Adobe Commerce B2B，此值反映从共享目录应用于项目的任何折扣（如果适用）。 |
 | [!UICONTROL Qty] | 订购的数量。 |
 | [!UICONTROL Return to Stock] | 指示是否将返回的项目退回Stock的复选框。 |
 | [!UICONTROL Qty to Refund] | 指示产品返回的单位数。 |
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Append Comments] | 确定贷项通知单中是否包括备注的复选框。 |
 | [!UICONTROL Email Copy of Credit Memo] | 确定是否已通过电子邮件发送贷项通知单副本的复选框。 |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)确定总计是否退款的复选框 [商店点数](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)要退款的所有行项目的合计。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (可与Adobe Commerce B2B配合使用)要退款的所有行项目的合计。 |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 如果原始购买是通过支付网关由信用卡支付的，则退款金额由支付处理器管理。 要管理退款，请参阅您的支付提供商提供的文档。 |
 | **[!UICONTROL Refund Offline]** | 如果最初购买是支票或汇票支付的，退款将直接支付给客户，如果您有实体店面，则通过签发支票、礼品卡或现金支付。 贷项通知单用作脱机事务处理的记录。 |
-| **[!UICONTROL Refund to Company Credit]** | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B)如果购买费用计入公司贷项，则退款将退还给 [公司帐户](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)如果购买费用计入公司贷项，则退款将退还给 [公司帐户](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

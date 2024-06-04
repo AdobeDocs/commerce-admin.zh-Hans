@@ -1,16 +1,16 @@
 ---
-title: ’[!DNL B2B for Adobe Commerce] 发行说明
-description: 查看发行说明以了解有关以下项的更改的信息： [!DNL B2B for Adobe Commerce] 扩展版本。
+title: ’[!DNL Adobe Commerce B2B] 发行说明
+description: 查看发行说明以了解有关以下项的更改的信息： [!DNL Adobe Commerce B2B] 版本发布。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] 发行说明
+# [!DNL Adobe Commerce B2B] 发行说明
 
 B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功能和修复，包括：
 

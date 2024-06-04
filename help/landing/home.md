@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 商家文档
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
   </tr>
 <tr>
   <td valign="top">
-      <img alt="适用于Adobe Commerce的B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>适用于Adobe Commerce的B2B</strong></a>
+      <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
     <div><em>此功能集旨在满足以公司为主的卖家（商家）的需求，这些商家可能具有复杂的组织结构以及具有不同角色和购买权限级别的多个员工。</em>
     <br></div>
   </td>
@@ -123,8 +123,8 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
 
 | 描述 | 类型 | 日期 |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B版本** - B2B for Adobe Commerce发行说明介绍了 [1.4.0发行版](../b2b/release-notes.md#b2b-v140). | 更新 | 06/13/23 |
-| **1.4.0 B2B版本** - [启动采购员报价](../b2b/sales-rep-initiates-quote.md) 该主题现已包含在 _Adobe Commerce的B2B指南_. 它描述了卖方如何为特定采购员创建报价以开始洽谈流程。 | 新建 | 06/13/23 |
+| **1.4.0 B2B版本** - Adobe Commerce B2B发行说明介绍了 [1.4.0发行版](../b2b/release-notes.md#b2b-v140). | 更新 | 06/13/23 |
+| **1.4.0 B2B版本** - [启动采购员报价](../b2b/sales-rep-initiates-quote.md) 该主题现已包含在 _Adobe Commerce B2B指南_. 它描述了卖方如何为特定采购员创建报价以开始洽谈流程。 | 新建 | 06/13/23 |
 | **1.4.0 B2B版本** - [协商报价](../b2b/quote-price-negotiation.md)， [可转让报价](../b2b/quotes.md)、和 [启用B2B功能](../b2b/enable-basic-features.md) 将更新主题，以反映销售商启动的报价和默认功能的更改。 | 更新 | 06/13/23 |
 | **2.2.0 Adobe IMS集成版本** - [禁用Commerce管理员与Adobe ID的集成](../getting-started/adobe-ims-disable.md) 该主题现已包含在 _快速入门指南_. 它描述了用于禁用Adobe Commerce管理员与Adobe IMS集成的可选过程。 | 新建 | 06/13/23 |
 | **2.2.0 Adobe IMS集成版本**  — 中的更改 [AdobeIdentity Management服务(IMS)集成概述](../getting-started/adobe-ims-integration-overview.md) 和 [配置Commerce管理与Adobe ID的集成](../getting-started/adobe-ims-config.md) 主题以反映更新的功能。 | 更新 | 06/13/23 |

@@ -3,9 +3,9 @@ title: ’[!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront]�
 description: 查看 [!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront] 商务管理员页面。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Enable for Forgot Password] | 网站 | 指定客户请求时使用的重新验证码类型 [密码重置](../../customers/password-reset.md). 选项：<br/>**`No`**— （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Create New Customer Account] | 网站 | 指定客户注册 [新帐户](../../customers/account-create.md). 选项：<br/>**`No`**— （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Edit Customer Account] | 网站 | 指定客户更改其属性时使用的reCAPTCHA类型 [帐户信息](../../customers/account-dashboard-account-information.md). 选项：<br/>**`No`**— （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
-| [!UICONTROL Enable for Create New Company Account] | 网站 | ![适用于Adobe Commerce的B2B](../../assets/b2b.svg) (仅在Adobe Commerce的B2B中可用)指定在新建报表包时使用的reCAPTCHA类型 [公司帐户](../../b2b/account-company-create.md) 创建。 选项：<br/>**`No`**— （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
+| [!UICONTROL Enable for Create New Company Account] | 网站 | ![Adobe Commerce B2B](../../assets/b2b.svg) (仅适用于Adobe Commerce B2B)指定在新建报表包时使用的reCAPTCHA类型 [公司帐户](../../b2b/account-company-create.md) 创建。 选项：<br/>**`No`**— （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Contact Us] | 网站 | 指定用于从发送消息的reCAPTCHA类型 [联系我们](../../getting-started/store-details.md#contact-us-form) 页面中列出的所有项目。 选项：<br/>**`No`**— （默认）不验证消息请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Product Review] | 网站 | 指定客户提交 [产品审查](../../merchandising-promotions/product-reviews.md). 选项：<br/>**`No`**— （默认）不验证产品审阅请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Newsletter Subscription] | 网站 | 指定客户注册时使用的不可见reCAPTCHA类型 [新闻稿订阅](../../merchandising-promotions/newsletter-subscribers.md). 选项：<br/>**`No`**— （默认）不验证新闻稿订阅请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选择 _我不是机器人_ 复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需根据得分进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |

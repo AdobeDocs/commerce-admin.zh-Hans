@@ -3,9 +3,9 @@ title: 客户帐户范围
 description: 客户帐户的范围可以限制为创建帐户的网站，或与商店层次结构中的所有网站和商店共享。
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 您商店中每一页的页眉邀请购物者前往 _登录或注册_ 以取得你商店的帐户。 开户的客户可享受一系列好处，包括：
 
 * **创建客户帐户**  — 访客可创建一个客户帐户，以便将该店面用作注册客户。
-* **创建公司帐户** 根据配置，您商店的访客可以选择创建公司帐户。 有关更多信息，请参阅 [适用于Adobe Commerce的B2B](../b2b/introduction.md).
+* **创建公司帐户** 根据配置，您商店的访客可以选择创建公司帐户。 有关更多信息，请参阅 [Adobe Commerce B2B](../b2b/introduction.md).
 * **更快速的结账**  — 注册客户结账速度更快，因为他们的帐户中已有许多信息。
 * **自助服务**  — 注册客户可以更新其信息，检查订单状态，甚至从其帐户重新订购。
 

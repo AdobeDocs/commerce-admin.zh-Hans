@@ -2,9 +2,9 @@
 title: ’[!UICONTROL Catalog] 菜单
 description: 使用 [!UICONTROL Catalog] 菜单访问产品创建、类别和库存管理工具。
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-对于已安装并启用了Adobe Commerce的B2B的商店， [共享目录](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 让您能够将自定义定价提供给不同的公司。
+对于已安装并启用Adobe Commerce B2B的商店， [共享目录](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 让您能够将自定义定价提供给不同的公司。
 
 ![共享目录产品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

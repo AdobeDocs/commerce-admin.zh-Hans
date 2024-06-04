@@ -2,16 +2,16 @@
 title: 商店和购买体验简介
 description: 了解用于构建和管理在线商店的功能以及客户的购买体验。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # 商店和购买体验简介
 
-Adobe Commerce和Magento Open Source提供了一系列全面的功能，用于构建和管理您的在线商店以及客户的购买体验。 在您的Commerce实例中，您可以管理网站、商店和视图的商店层次结构。 您还可以配置为多个区域设置运行商店所需的税和汇率，包括产品和客户组的税分类。
+Adobe Commerce和Magento Open Source提供了一系列全面的功能，用于构建和管理您的在线商店以及客户的购买体验。 在Commerce实例中，您可以管理网站、商店和视图的商店层次结构。 您还可以配置为多个区域设置运行商店所需的税和汇率，包括产品和客户组的税分类。
 
 ## 存储结构
 
@@ -25,7 +25,7 @@ Adobe Commerce和Magento Open Source通过在提交订单之前自动验证所�
 
 >[!TIP]
 >
->![适用于Adobe Commerce的B2B](../assets/b2b.svg) 通过安装和启用Adobe Commerce的B2B，您可以配置 _快速订购_ 适用于与公司帐户关联的客户。 当客户知道其要订购的产品的名称或SKU时，此函数会减少订单处理过程中的多次点击。 您还可以为公司帐户配置对可转让报价的支持。 有关B2B功能的详细信息，请参见 [《 B2B for Adobe Commerce用户指南》](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) 安装和启用Adobe Commerce B2B后，您可以 _快速订购_ 适用于与公司帐户关联的客户。 当客户知道其要订购的产品的名称或SKU时，此函数会减少订单处理过程中的多次点击。 您还可以为公司帐户配置对可转让报价的支持。 有关B2B功能的详细信息，请参见 [Adobe Commerce B2B用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## 购物帮助
 

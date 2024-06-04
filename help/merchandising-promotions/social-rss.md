@@ -3,9 +3,9 @@ title: 社交媒体和RSS源
 description: 了解如何添加社交媒体和其他RSS信息源集成以构建品牌和产品意识。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 在右上角，单击 **[!UICONTROL Add Widget]** 并执行以下操作：
 
-   - ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B)中) _设置_ 部分，设置 **[!UICONTROL Type]** 到 `CMS Static Block` 并单击 **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B) _设置_ 部分，设置 **[!UICONTROL Type]** 到 `CMS Static Block` 并单击 **[!UICONTROL Continue]**.
 
    - 验证 **[!UICONTROL Design Theme]** 设置为当前主题。
 

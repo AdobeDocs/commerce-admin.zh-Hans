@@ -3,9 +3,9 @@ title: 什么是Adobe Commerce
 description: Adobe Commerce 是一个企业电子商务平台。了解推动全球电子商务团队增长的最新功能。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Adobe很高兴告诉大家，新的报价和公司管理功能将于2024年下�
 >[!TIP]
 >要了解有关B2B Commerce功能的更多信息，请阅读我们的文档：
 >
->- [《 B2B for Adobe Commerce用户指南》](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [适用于Adobe Commerce的B2B开发人员指南](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Adobe Commerce B2B用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B开发人员指南](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Adobe Commerce支付服务
 

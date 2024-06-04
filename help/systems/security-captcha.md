@@ -4,9 +4,9 @@ description: 了解如何配置验证码以进行管理员访问和注册客户�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在右上角，设置 **[!UICONTROL Store View]** 到 `Default`.
 
-   如果 [范围](../getting-started/websites-stores-views.md#scope-settings) ，请选择您希望应用验证码配置的网站。
+   如果 [范围](../getting-started/websites-stores-views.md#scope-settings) Commerce ，请选择您希望应用验证码配置的网站。
 
 1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL CAPTCHA]** 部分。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    - 输入 **[!UICONTROL Font]** 用于CAPTCHA符号(默认： `LinLibertine`)。
 
-     要添加您自己的字体，字体文件必须与Commerce安装位于同一目录中，并且必须在 `config.xml` 验证码模块的文件，位于 `app/code/Magento/Captcha/etc`.
+     要添加您自己的字体，字体文件必须与Commerce安装位于同一目录中，并且必须在中声明 `config.xml` 验证码模块的文件，位于 `app/code/Magento/Captcha/etc`.
 
    - 选择以下任一项 **[!UICONTROL Forms]** 其中将使用CAPTCHA。 要选择多个表单，请按住Ctrl键(PC)或Command键(Mac)。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    - 输入 **[!UICONTROL Font]** 用于CAPTCHA符号(默认： `LinLibertine`)。
 
-     要添加您自己的字体，字体文件必须与Commerce安装位于同一目录中，并且必须在 `config.xml` 验证码模块的文件。
+     要添加您自己的字体，字体文件必须与Commerce安装位于同一目录中，并且必须在中声明 `config.xml` 验证码模块的文件。
 
    - 选择以下任一项 **[!UICONTROL Forms]** 其中将使用CAPTCHA。 要选择多个表单，请按住Ctrl键(PC)或Command键(Mac)。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
       - `Payflow Pro` (请参阅 [安全补丁](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _知识库_ article)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)
-      - `Create company` ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
    - 设置 **[!UICONTROL Displaying Mode]** 更改为以下任一项：
 

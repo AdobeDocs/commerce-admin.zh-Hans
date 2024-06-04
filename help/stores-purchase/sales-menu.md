@@ -1,10 +1,10 @@
 ---
 title: ’[!UICONTROL Sales] 菜单
-description: 商务管理员包括 [!UICONTROL Sales] 菜单，根据订单在工作流中的位置，提供对用于处理订单的工具的访问权限。
+description: Commerce管理员包括 [!UICONTROL Sales] 菜单，根据订单在工作流中的位置，提供对用于处理订单的工具的访问权限。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Quotes]
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B中提供)
+![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)
 
 授权购买者可以 [协商价格](../b2b/quotes.md) 与卖家联系，向其 [请求](../b2b/quote-request.md) 从购物车中。
 

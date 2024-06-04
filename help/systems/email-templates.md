@@ -3,7 +3,7 @@ title: 电子邮件模板
 description: 了解电子邮件模板以及如何使用它们支持与客户的通信并强化您的品牌。
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 电子邮件模板定义从应用商店发送的自动邮件的布局、内容和格式。 它们称为事务性电子邮件，因为每个电子邮件都与特定类型的事务或事件关联。
 
-Commerce包括一组响应式电子邮件模板，这些模板由在商店操作期间发生的各种事件触发。 每个模板都针对任意屏幕大小进行了优化，并且可以从桌面、平板电脑和移动设备上查看。 您可以准备各种与客户活动、销售、产品警报、管理员操作和系统消息相关的电子邮件模板 [自定义](email-template-custom.md) 以反映您的品牌。
+Commerce包括一组响应式电子邮件模板，这些模板由商店运营期间发生的各种事件触发。 每个模板都针对任意屏幕大小进行了优化，并且可以从桌面、平板电脑和移动设备上查看。 您可以准备各种与客户活动、销售、产品警报、管理员操作和系统消息相关的电子邮件模板 [自定义](email-template-custom.md) 以反映您的品牌。
 
-商业电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客户端之间对电子邮件的呈现方式可能存在一些差异。
+Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客户端之间对电子邮件的呈现方式可能存在一些差异。
 
 ## 准备您的电子邮件徽标
 
@@ -98,7 +98,7 @@ Commerce包括一组响应式电子邮件模板，这些模板由在商店操作
 
 ### [!DNL Magento_Company]
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
 | 模板 | 配置路径 |
 |--- |--- |
@@ -121,7 +121,7 @@ Commerce包括一组响应式电子邮件模板，这些模板由在商店操作
 
 ### [!DNL Magento_CompanyCredit]
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
 | 模板 | 配置路径 |
 |--- |--- |
@@ -233,7 +233,7 @@ Commerce包括一组响应式电子邮件模板，这些模板由在商店操作
 
 ### [!DNL Magento_NegotiableQuote]
 
-![适用于Adobe Commerce的B2B](../assets/b2b.svg) (仅适用于Adobe Commerce的B2B版本)
+![Adobe Commerce B2B](../assets/b2b.svg) (仅适用于Adobe Commerce B2B)
 
 | 模板 | 配置路径 |
 |--- |--- |

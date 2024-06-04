@@ -3,9 +3,9 @@ title: 购物车配置
 description: 了解您可以配置的购物车功能，以支持您商店中的购买体验。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ## 引用生命周期
 
-通过安装和启用Adobe Commerce的B2B，您可以添加对 _引号_ 功能。 此功能允许授权买方通过从购物车提交请求来启动价格洽谈流程。 此 _引号_ grid列出收到的每一份报价，并维护买卖双方之间的通信历史。 有关B2B功能的详细信息，请参阅 [议价报价](../b2b/quotes.md) 在 _《 B2B for Adobe Commerce用户指南》_.
+安装和启用Adobe Commerce B2B后，您可以添加对 _引号_ 功能。 此功能允许授权买方通过从购物车提交请求来启动价格洽谈流程。 此 _引号_ grid列出收到的每一份报价，并维护买卖双方之间的通信历史。 有关B2B功能的详细信息，请参阅 [议价报价](../b2b/quotes.md) 在 _Adobe Commerce B2B用户指南_.
 
 您可以通过设置配置中的购物车报价生命周期来确定价格的有效时间。 例如，如果购物者在几天后离开购物车无人看管，则某些商品的报价可能不再相同。 默认情况下，报价生命周期设置为30天。
 

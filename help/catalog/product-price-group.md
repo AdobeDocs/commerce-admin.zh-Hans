@@ -3,9 +3,9 @@ title: 组定价
 description: 了解如何使用组定价，根据商店中的客户组设置折扣产品的价格。
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Customer Group Price]_部分，单击&#x200B;**[!UICONTROL Add]**.
 
-   如果您的商店包括 [适用于Adobe Commerce的B2B](../b2b/introduction.md) 并且具有 [共享目录](../b2b/catalog-shared.md) 已启用，此部分被标记为 _[!UICONTROL Catalog and Tier Price]_.
+   如果您的商店包括 [Adobe Commerce B2B](../b2b/introduction.md) 并且具有 [共享目录](../b2b/catalog-shared.md) 已启用，此部分被标记为 _[!UICONTROL Catalog and Tier Price]_.
 
    ![高级定价](./assets/product-price-group.png){width="600" zoomable="yes"}
 

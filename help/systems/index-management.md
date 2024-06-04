@@ -3,20 +3,20 @@ title: 索引管理
 description: 了解索引管理，包括触发重新索引和最佳实践的操作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
 
 # 索引管理
 
-每当一个或多个项目发生更改时，Adobe Commerce和Magento Open Source会自动重新索引。 触发重新索引的操作包括价格更改、创建目录或购物车价格规则、添加新类别等。 为了优化性能，Commerce使用索引器将数据累积到特殊表中。 随着数据的变化，必须更新索引表，或重新编制索引。 Commerce会作为后台进程重新索引，并且在进程中您的存储仍可访问。
+每当一个或多个项目发生更改时，Adobe Commerce和Magento Open Source会自动重新索引。 触发重新索引的操作包括价格更改、创建目录或购物车价格规则、添加新类别等。 为了优化性能，Commerce使用索引器将数据累积到特殊表中。 随着数据的变化，必须更新索引表，或重新编制索引。 Commerce会作为后台进程重新索引，并且您的存储将在这些进程中保持可访问状态。
 
-重新索引数据可加快处理速度，并减少客户必须等待的时间。 例如，如果将某个项目的价格从$4.99更改为$3.99，Commerce会对数据重新编制索引以显示商店中的价格变化。 如果没有索引，Commerce必须动态计算每个产品的价格；处理购物车价格规则、捆绑定价、折扣、分层定价等。 加载产品价格可能需要比客户愿意等待的时间更长的时间。
+重新索引数据可加快处理速度，并减少客户必须等待的时间。 例如，如果您将某个项目的价格从$4.99更改为$3.99，Commerce会对数据进行重新索引以显示商店中的价格变化。 如果没有索引，Commerce将不得不动态计算每个产品的价格；处理购物车价格规则、捆绑定价、折扣、分层定价等。 加载产品价格可能需要比客户愿意等待的时间更长的时间。
 
-索引器可以设置为在保存时或按计划更新。 所有索引都可以使用任一选项，但Customer Grid除外，它仅在保存时支持。 在保存时索引时，Commerce在保存操作时开始重新索引。 “索引管理”页完成更新并刷新缓存，在一两分钟之内出现重新索引消息。 按照计划重新索引时，重新索引将按照计划作为cron作业运行。 如果出现以下情况，则会显示系统消息 [cron作业](cron.md) 不可用于更新任何失效的索引器。 在重新索引过程中，您的存储仍可访问。
+索引器可以设置为在保存时或按计划更新。 所有索引都可以使用任一选项，但Customer Grid除外，它仅在保存时支持。 在保存时索引时，Commerce会在保存操作时启动重新索引。 “索引管理”页完成更新并刷新缓存，在一两分钟之内出现重新索引消息。 按照计划重新索引时，重新索引将按照计划作为cron作业运行。 如果出现以下情况，则会显示系统消息 [cron作业](cron.md) 不可用于更新任何失效的索引器。 在重新索引过程中，您的存储仍可访问。
 
 >[!NOTE]
 > 使用Live Search、Catalog Service或Product Recommendations的Adobe Commerce商家可以选择使用 [基于SaaS的价格索引器](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 重新索引的最佳实践
 
-在Commerce中，重新索引和缓存具有不同的目的。 索引可以跟踪数据库信息，以提高搜索性能、加快存储前端的数据检索速度等等。 [缓存](cache-management.md) 保存加载的数据、图像、格式等，以提高加载和访问店面的性能。
+在Commerce中，重新索引和缓存有不同的用途。 索引可以跟踪数据库信息，以提高搜索性能、加快存储前端的数据检索速度等等。 [缓存](cache-management.md) 保存加载的数据、图像、格式等，以提高加载和访问店面的性能。
 
 - 通常，在Commerce中更新数据时想要重新索引。
 - 如果您有一个或多个商店，则可能需要将索引器（如类别和产品）设置为计划的cron作业，因为可能会重新索引循环。 您可能希望在非高峰时间按计划设置重新索引。
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->对于使用的商店 [适用于Adobe Commerce的B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) 并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
+>对于使用的商店 [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) 并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -103,7 +103,7 @@ Commerce使用命令行提供了其他重新索引选项。 有关完整的详�
 | 操作 | 结果 | 控件 |
 | ------ | ------ | -------- |
 | 创建商店、新客户组或中列出的任何操作 `Actions that Cause a Full Reindex` | 完全重新索引 | 完全重新索引按照您的Adobe Commerce或Magento Open Sourcecron作业确定的时间表执行。 |
-| 批量加载项目（Commerce导入/导出、直接SQL查询以及任何其他直接添加、更改或删除数据的方法） | 部分重新索引（仅对更改的项目重新索引） | 频率由您的Commerce cron作业决定。 |
+| 批量加载项目(Commerce导入/导出、直接SQL查询以及任何其他直接添加、更改或删除数据的方法) | 部分重新索引（仅对更改的项目重新索引） | 频率由您的Commerce cron作业决定。 |
 | 更改范围（例如，从全局更改为网站） | 部分重新索引（仅对更改的项目重新索引） | 频率由您的Commerce cron作业决定。 |
 
 {style="table-layout:auto"}

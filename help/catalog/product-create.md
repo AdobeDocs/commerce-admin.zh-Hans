@@ -3,9 +3,9 @@ title: 创建产品
 description: 了解可为目录创建的产品类型。
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | 根据商店层次结构确定每个可用产品的网站。 |
 | [[!UICONTROL Design]](settings-advanced-design.md) | 用于向产品页面应用不同的主题、更改列布局、确定产品选项出现的位置，以及输入自定义XML代码。 |
 | [[!UICONTROL Gift options]](product-gift-options.md) | 用于在产品级别结帐时启用或禁用礼品消息选项。 |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于 [适用于Adobe Commerce的B2B](../b2b/introduction.md) （仅限）支持使用自定义定价为不同公司维护共享目录。 |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于 [Adobe Commerce B2B](../b2b/introduction.md) （仅限）支持使用自定义定价为不同公司维护共享目录。 |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | 用于定义产品下载的参数。 |
 
 {style="table-layout:auto"}

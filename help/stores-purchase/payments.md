@@ -3,9 +3,9 @@ title: 付款概览
 description: 了解Adobe Commerce和Magento Open Source本机支持的支付方法和服务。
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce和Magento Open Source包括多种内置的离线支付方式，�
 - [银行转帐付款](bank-transfer.md)
 - [支票/汇票](check-money-order.md)
 - [采购订单](purchase-order.md)
-- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B中提供)
+- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)
 
 ## 在线支付方式
 
@@ -78,7 +78,7 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商家服务的�
 
 >[!NOTE]
 >
->为了支持安全合规性更新，从2.4.0版本开始，从Commerce中删除了显着欺诈防护。 如果您已在2.3.x或之前的版本中使用Signifyd集成，建议您转换为 [显着的欺诈和按存储容量使用计费保护扩展](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}. 请确保根据供应商指南维护扩展的更新。
+>为了支持安全合规性更新，从2.4.0版本开始，从Commerce中删除了显着防欺诈功能。 如果您已在2.3.x或之前的版本中使用Signifyd集成，建议您转换为 [显着的欺诈和按存储容量使用计费保护扩展](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}. 请确保根据供应商指南维护扩展的更新。
 
 ## 资源疑难解答
 

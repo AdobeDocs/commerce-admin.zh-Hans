@@ -3,9 +3,9 @@ title: 分层定价
 description: 了解如何使用层定价从产品列表或产品页面提供数量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 如果您的商店有多个网站，请选择 **[!UICONTROL Website]** 适用于分层定价。
 
-1. 如有必要，通过选择以下选项限制定价层的可用性 **[!UICONTROL Customer Group]** 或 **[!UICONTROL Shared Catalog]** (![适用于Adobe Commerce的B2B](../assets/b2b.svg) 提供方式 [适用于Adobe Commerce的B2B](./b2b/../introduction.md) 仅限)。
+1. 如有必要，通过选择以下选项限制定价层的可用性 **[!UICONTROL Customer Group]** 或 **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) 提供方式 [Adobe Commerce B2B](./b2b/../introduction.md) 仅限)。
 
 1. 对象 **[!UICONTROL Qty]**，输入必须订购才能获得折扣的数量。
 

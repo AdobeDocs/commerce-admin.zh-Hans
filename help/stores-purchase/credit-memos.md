@@ -3,9 +3,9 @@ title: 贷项通知单
 description: 了解贷项通知单以及如何使用它们签发部分或全部退款。
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ A _贷项通知单_ 是一个文档，它显示全部或部分退款应向客户
 
 - 帐户贷项 — 使用贷项帐户支付的订单可以作为帐户贷项退款：
    - ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce) [商店点数](../customers/store-credit-using.md)
-   - ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B中提供) [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) （脱机方法）
-   - ![适用于Adobe Commerce的B2B](../assets/b2b.svg) (适用于Adobe Commerce的B2B中提供) [公司信用](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B) [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) （脱机方法）
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B) [公司信用](../b2b/credit-company.md)
 - [在线退款](payments.md#online-payment-methods) — 通过支付网关(如PayPal或Braintree)以信用卡支付的订单将通过支付处理器在线退款。
 - [离线退款](payments.md#offline-payment-methods) — 交货时支付的订单([COD](cash-on-delivery.md))或由 [支票或汇票](check-money-order.md) 离线退款。
 

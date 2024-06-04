@@ -1,18 +1,18 @@
 ---
 title: 共享目录概述
-description: 了解B2B为Adobe Commerce提供的共享目录，以及如何使用它们为不同的公司帐户维护具有自定义定价的封闭目录。
+description: 了解Adobe Commerce B2B提供的共享目录，以及如何使用它们为不同的公司帐户维护具有自定义定价的封闭目录。
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # 共享目录概述
 
-适用于Adobe Commerce的B2B使您能够保持门禁 _共享_ 适用于不同公司的自定义定价目录。 除了标准， _主要_，它让客户能够访问具有不同定价结构的两种共享目录。
+Adobe Commerce B2B使您能够保持门禁 _共享_ 适用于不同公司的自定义定价目录。 除了标准， _主要_，它让客户能够访问具有不同定价结构的两种共享目录。
 
 如果 [共享目录功能](enable-basic-features.md) 在配置中处于启用状态时，原始主目录在管理员中仍然可见，但在店面中仅可见“默认（常规）”公共共享目录。 此外，可以创建仅对特定成员可见的自定义目录 [公司](account-companies.md) 帐户。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 | [!UICONTROL Select] | 选择要应用操作的共享目录记录。 标头中的控件可用于选择网格中的所有共享目录记录或取消选择网格中的所有共享目录记录。 要选择单个共享目录，请选中复选框。 |
 | [!UICONTROL ID] | 创建目录时按顺序分配的唯一数字标识符。 |
 | [!UICONTROL Name] | 共享目录的名称。 默认情况下，默认（常规）共享目录可用。 |
-| [!UICONTROL Type] | 将共享目录的类型标识为： <br/>**[!UICONTROL Public]**— 安装Adobe Commerce的B2B时，会自动创建默认的公共共享目录。 它最初分配给 `General` 和 `Not Logged In` 客户组，并对未与公司关联的来宾和个人登录客户可见。 系统一次仅支持一个公共共享目录。<br/>**[!UICONTROL Custom]**  — 自定义共享目录包含的定价仅对分配的公司帐户的登录关联可见。 您可以根据需要创建任意数量的自定义共享目录。 |
+| [!UICONTROL Type] | 将共享目录的类型标识为： <br/>**[!UICONTROL Public]**— 安装Adobe Commerce B2B时，会自动创建默认的公共共享目录。 它最初分配给 `General` 和 `Not Logged In` 客户组，并对未与公司关联的来宾和个人登录客户可见。 系统一次仅支持一个公共共享目录。<br/>**[!UICONTROL Custom]**  — 自定义共享目录包含的定价仅对分配的公司帐户的登录关联可见。 您可以根据需要创建任意数量的自定义共享目录。 |
 | [!UICONTROL Customer Tax Class] | 分配给相应客户组的税分类。 此列未显示在默认网格中，但可通过更改列布局进行添加。 |
 | [!UICONTROL Created At] | 创建共享目录的日期和时间。 |
 | [!UICONTROL Created By] | 创建共享目录的存储管理员的名字和姓氏。 |
