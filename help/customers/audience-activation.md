@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 1. 让系统管理员启动Adobe Experience Platform并转到 **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. 使用上面提供的技术帐户电子邮件，搜索要修改的凭据。
 1. 打开凭据，然后选择 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. 添加 **全部生产访问权限**.
+1. 添加包含 **[!UICONTROL Manage destinations]** 许可。
 1. 单击 **[!UICONTROL Save]**.
 1. [重新生成](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) 控制台中的访问令牌。
 1. 使用验证令牌是否提供有效响应 [Target连接API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
