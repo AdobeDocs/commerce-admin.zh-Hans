@@ -3,9 +3,9 @@ title: 大规模创建引人入胜的个性化体验
 description: 了解Adobe中的哪些功能 [!DNL Commerce] 可让您为购物者创建个性化体验。
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] 数据共享包括两个关键组件：
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)：使用 [!DNL Real-Time CDP] 受众可个性化Adobe上的动态内容块、促销活动和相关产品规则 [!DNL Commerce] 站点。
 
+### 跨任何渠道大规模个性化店面体验
+
+Adobe [!DNL Commerce] 可以利用高性能店面，称为 [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)，在所有渠道中提供个性化体验，以AI功能为核心，以速度为基础。
+
+通过Edge Delivery Services，您可以：
+
+- **制作个性化内容**：使用基于文档的创作、具有创作AI文本和图像变体的本机试验来大规模个性化体验。 使用资源和创作AI内容创建可大规模生成产品和营销图像。
+
+- **生成变体**：允许内容作者使用创作AI创建大量个性化的AI驱动 [文本内容和图像变量](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) Adobe Firefly。
+
+- **通过Edge Delivery Services店面部署**：Edge和Commerce功能上的内容，这些功能由下拉组件提供支持，可为您的受众创建定制的可购物体验。
+
+- **Commerce和Adobe Experience Manager Assets**：大规模创作AI产品资源创建和变体。 跨任何渠道创建、交付和监控内容交付。
+
+![下拉列表：产品详细信息页面](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### 开箱即用的个性化：本地Adobe入门 [!DNL Commerce] 功能
 
 Adobe [!DNL Commerce] 通过其原生开箱即用的功能提供强大的个性化功能。 下表介绍了 [!DNL Commerce] 可立即激活的功能以开始您的个性化历程。
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] 客户正在使用现成功能并将数据共享到Adobe E
 
 | 用例 | 解决方案 |
 |---|---|
-| **个性化网站内容**  — 根据购物者操作（如产品浏览和类别亲和度）个性化网站横幅和其他页面内容。 根据A/B测试的结果或业务目标部署最适合的内容。 | **Adobe [!DNL Commerce] 仅**：<br>部署特定于区段 [动态内容块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] 使用Real-Time CDP **：<br>使用 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) 用于部署特定于受众的动态内容块，这些内容块对实时操作和统一的客户个人资料数据做出响应，同时在Real-Time CDP中集中管理个人资料和受众。<br>**[!DNL Commerce] 替换为[!DNL Target]**：<br>使用Adobe将网站体验的每个部分个性化，包括内容、导航项目、完整页面布局等 [!DNL Commerce] Adobe中的数据 [!DNL Target]. A/B测试内容，为每个客户自动选择和部署入选内容。<br>**[!DNL Commerce] 使用AEM Assets **：<br>将您的所有内容存储在Adobe Experience Manager Assets中。 从Adobe Commerce中以本机方式访问该内容。 使用GenAI创建内容变体，为不同的区段或受众进行个性化。 |
+| **个性化网站内容**  — 根据购物者操作（如产品浏览和类别亲和度）个性化网站横幅和其他页面内容。 根据A/B测试的结果或业务目标部署最适合的内容。 | **Adobe [!DNL Commerce] 仅**：<br>部署特定于区段 [动态内容块](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] 使用Real-Time CDP **：<br>使用 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) 用于部署特定于受众的动态内容块，这些内容块对实时操作和统一的客户个人资料数据做出响应，同时在Real-Time CDP中集中管理个人资料和受众。<br>**[!DNL Commerce] 替换为[!DNL Target]**：<br>使用Adobe将网站体验的每个部分个性化，包括内容、导航项目、完整页面布局等 [!DNL Commerce] Adobe中的数据 [!DNL Target]. A/B测试内容，为每个客户自动选择和部署入选内容。<br>**[!DNL Commerce] 使用AEM Assets **：<br>将您的所有内容存储在Adobe Experience Manager Assets中。 从Adobe Commerce中以本机方式访问该内容。 使用创作AI创建内容变体以针对不同的区段或受众进行个性化。 |
 | **基于行为的个性化现场服务**  — 根据购物者操作（如产品浏览和类别亲和度）个性化促销活动。 根据A/B测试的结果或业务目标部署下一个最佳选件。 | **Adobe [!DNL Commerce] 仅**：<br>部署特定于区段的目录和 [购物车价格规则](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] 使用Real-Time CDP**：<br>使用 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) 以部署特定于受众的选件，同时在Real-Time CDP中集中管理用户档案/受众。<br>**Commerce与[!DNL Target]**：使用offer decisioning确定要部署的选件、A/B测试或设置业务目标以指导Adobe Commerce中部署的选件。 |
 
 ### 分析和见解
