@@ -4,9 +4,9 @@ description: 了解双重身份验证支持以确保系统和数据的安全。
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Adobe Commerce支持来自多个提供商的2FA方法。 有些客户要求安�
 
 要更改一次性密码(OTP)在登录期间可用的时间，请清除 **[!UICONTROL Use system value]** 复选框。 然后，输入所需的秒数 **[!UICONTROL OTP Window]** 才有效。
 
+![安全配置 — Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->在Adobe Commerce 2.4.7及更高版本中，OTP窗口配置设置控制系统接受管理员的一次性密码(OTP)过期后的时间（以秒为单位）。 此值必须小于30秒。 系统默认设置为 `1`.<br><br> 在版本2.4.6中， OTP窗口设置确定保持有效的过去和将来的OTP代码数。 值 `1` 指示当前OTP代码加上一个过去代码和一个将来代码在任何给定时间点都保持有效。
+>在Adobe Commerce 2.4.7及更高版本中，OTP窗口配置设置控制系统接受管理员的一次性密码(OTP)过期后的时间（以秒为单位）。 此值必须小于30秒。 系统默认设置为 `29`.<br><br> 在版本2.4.6中， OTP窗口设置确定保持有效的过去和将来的OTP代码数。 值 `1` 指示当前OTP代码加上一个过去代码和一个将来代码在任何给定时间点都保持有效。
 
 ### [!DNL Duo Security]
 

@@ -3,9 +3,9 @@ title: ’[!UICONTROL Security] &gt； [!UICONTROL 2FA]’
 description: 查看 [!UICONTROL Security] &gt； [!UICONTROL 2FA] 商务管理员页面。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 | 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | 全局 | Google Authenticator生成的每个一次性密码(OTP)的生命周期（以秒为单位）。 默认： `30` |
+| [!UICONTROL OTP Window] | 全局 | 确定系统在管理员的一次性密码(OTP)过期后接受多长时间（以秒为单位）。 不能超过单个OTP的生命周期（通常为30秒）。 默认： `29` |
 
 {style="table-layout:auto"}
 
