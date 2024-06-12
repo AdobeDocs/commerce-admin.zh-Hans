@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新建](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences功能板](#real-time-cdp-audiences-dashboard) 在Adobe Commerce实例中包含对活动受众进行排序、搜索和过滤的功能。
 
 +++
+
+### 2.2.0
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+_2024年6月12日_
+
+![新建](../assets/new.svg) - GA版本 [相关产品规则](../merchandising-promotions/product-related-rule-create.md) 由受众通知。
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ composer require magento/audiences
 
 - [创建购物车价格规则](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受众通知
 - [创建动态块](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受众通知
-- [(**测试版**)创建相关的产品规则](../merchandising-promotions/product-related-rule-create.md) 由受众通知
+- [创建相关的产品规则](../merchandising-promotions/product-related-rule-create.md) 由受众通知
 
-有关如何导出的完整端到端用例 [!DNL Commerce] 将数据发送到Real-Time CDP，构建受众，然后将该受众激活到 [!DNL Commerce]，请参见 [在Real-Time CDP中使用创建受众 [!DNL Commerce] 事件数据](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>有关如何导出的完整端到端用例 [!DNL Commerce] 将数据发送到Real-Time CDP，构建受众，然后将该受众激活到 [!DNL Commerce]，请参见 [在Real-Time CDP中使用创建受众 [!DNL Commerce] 事件数据](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP受众功能板
 
@@ -195,6 +205,7 @@ composer require magento/audiences
 | `Websites` | 指示将哪些网站配置为使用受众。 |
 | `Dynamic Blocks` | 指示将哪些动态块配置为使用受众。 |
 | `Cart Price Rules` | 指示将哪些购物车价格规则配置为使用受众。 |
+| `Related Product Rules` | 指示将哪些相关产品规则配置为使用受众。 |
 | `Last updated` | 指示在Real-Time CDP中修改受众的时间。 |
 | `Sync now` | 从Real-Time CDP中检索新的或更新受众。 |
 | `Customize table` | 可让您显示或隐藏 `Origin`， `Websites`， `Dynamic Blocks`， `Cart Price Rules`、和 `Last updated` 列。 |
