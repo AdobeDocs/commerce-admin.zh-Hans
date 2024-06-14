@@ -1,13 +1,13 @@
 ---
-user-guide-title: "[!DNL Inventory Management] 用户指南"
+user-guide-title: '"[!DNL Inventory Management] 用户指南”'
 user-guide-description: 了解如何使用 [!DNL Inventory Management] 用于维护销售数量和处理发运以完成的功能 [!DNL Commerce] 订单。
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 10%
+source-wordcount: '137'
+ht-degree: 5%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 10%
    - [来源选择和预留](selection-reservations.md)
    - [订单和预订状态](order-status.md)
    - [产品类型](product-types.md)
-- 开始使用 {#get-started}
-   - [商务升级](migrate.md)
+- 入门 {#get-started}
+   - [Commerce升级](migrate.md)
    - [安装和更新](install-update.md)
    - [商家采购](merchant-sourcing.md)
    - [扩展和重组库存](expand-restructure.md)
@@ -58,3 +58,5 @@ ht-degree: 10%
    - [概述](shipments.md)
    - [创建装运](shipments-create.md)
 - [CLI参考](cli.md)
+- [返回到《商户指南》](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

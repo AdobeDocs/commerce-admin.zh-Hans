@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder] 用户指南"
+user-guide-title: '"[!DNL Page Builder] 用户指南”'
 user-guide-description: 了解如何使用 [!DNL Page Builder] 这些功能使用自定义布局创建内容丰富的页面，以增强您的视觉叙事能力，并提高客户参与度和忠诚度。
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -46,3 +46,5 @@ ht-degree: 16%
    - [产品](products.md)
    - [产品Recommendations](recommendations.md)
 - [模板](templates.md)
+- [返回到《商户指南》](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
