@@ -1,20 +1,20 @@
 ---
-title: 转移商务帐户
+title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
-# 转移商务帐户
+# 转移Commerce帐户
 
 随着业务职责的变更，您可能需要将现有Commerce帐户的所有权转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对云帐户（云项目）所有权的更改。 有关云项目访问权限的更多信息，请参阅 [管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 _云基础架构上的Commerce指南_.
+以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的更多信息，请参阅 [管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 _《云基础架构上的Commerce指南》_.
 
 ## 识别您的传输类型
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->如果当前所有者或新所有者拥有与其他Adobe产品/服务相关联的Adobe登录帐户，则可以打开 [支持服务单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) 以获取有关将Commerce帐户转移到另一个Adobe ID的帮助。
+>如果当前所有者或新所有者拥有与其他Adobe产品/服务相关联的Adobe登录帐户，则可以打开 [支持服务单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) ，以获取有关将Commerce帐户转移到另一个Adobe ID的帮助。
 
 ## 新的Adobe ID和电子邮件更改
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Continue]**.
 
-   这将创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接， _[!UICONTROL Email]_字段被阻止进行任何更改。 关联的电子邮件地址由Adobe ID帐户管理。
+   这会创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接， _[!UICONTROL Email]_字段被阻止进行任何更改。 关联的电子邮件地址由Adobe ID帐户管理。
 
 1. 导航到 [account.adobe.com](https://account.adobe.com/).
 
