@@ -3,9 +3,9 @@ title: 数据管理功能板
 description: 了解如何访问有关数据流的见解 [!DNL Catalog Service]， [!DNL Live Search]、和 [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ ht-degree: 0%
 >完成同步所需的时间因目录大小和更新数据的数量而异。
 
 当处理的产品数与更新的产品数匹配时，表示同步已完成。
+
+>[!NOTE]
+>
+>Adobe还提供了命令行界面和系统日志，开发人员和系统集成人员可以使用它们来管理和跟踪Commerce SaaS服务的同步操作以及排除错误。 有关详细信息，请参见 [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### 已同步的产品列表
 
