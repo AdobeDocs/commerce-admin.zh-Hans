@@ -3,9 +3,9 @@ title: 共享 [!DNL Commerce] 帐户
 description: 了解如何授予对的有限访问权限 [!DNL Commerce] 其他帐户 [!DNL Commerce] 账户持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
    新的用户信息显示在 _[!UICONTROL Manage Permissions]_“共享访问”页面的部分，并且会向新用户发送一封电子邮件邀请，其中包含访问共享帐户的说明。
 
    ![管理共享访问的权限](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>无需共享对的访问权限 _[!UICONTROL Security Tool]_— 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需拥有必要的权限，便能更改站点并使用 [所需的方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan))。
 
 ## 访问共享帐户
 
