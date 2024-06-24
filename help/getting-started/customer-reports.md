@@ -3,9 +3,9 @@ title: 客户报表
 description: Adobe Commerce和Magento Open Source中提供的客户报表可让您深入了解指定时间段或日期范围内的客户活动。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 订单总计间隔，按 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 下订单的客户的名称。 |
 | [!UICONTROL Orders] | 指定间隔内的订单数。 |
-| [!UICONTROL Average] | 平均订单金额。 |
-| [!UICONTROL Total] | 该期间所有订单的总和。 |
+| [!UICONTROL Average] | 平均订单金额。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 订单计数间隔，按 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 下订单的客户。 |
 | [!UICONTROL Orders] | 指定间隔内的订单数。 |
-| [!UICONTROL Average] | 平均订单金额。 |
-| [!UICONTROL Total] | 该期间所有订单的总和。 |
+| [!UICONTROL Average] | 平均订单金额。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额包含该金额，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
 
 {style="table-layout:auto"}
 
