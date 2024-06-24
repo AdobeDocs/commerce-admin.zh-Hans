@@ -3,9 +3,9 @@ title: 客户组
 description: 您可以使用客户组来确定哪些折扣可供分配给组的客户以及与组关联的税分类。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
+source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
 1. 完成后，单击 **[!UICONTROL Save Customer Group]**.
 
 ## 将客户分配给其他组
+
+>[!NOTE]
+>
+>更改公司组后，公司用户必须注销并登录店面才能在目录中查看新价格。
 
 1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 

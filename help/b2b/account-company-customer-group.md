@@ -4,9 +4,9 @@ description: 了解如何在Adobe Commerce商店中将客户组分配给公司�
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
    >此 [!UICONTROL Customer Group] 列表包含所有现有的共享目录，即使配置中禁用了共享目录也是如此。
 
    更改分配给公司的客户组将更新所有公司成员的配置文件。
+
+   >[!NOTE]
+   >
+   >更改公司组后，公司用户必须注销并登录店面才能在目录中查看新价格。
 
    ![更改客户组或共享目录](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
