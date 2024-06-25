@@ -3,9 +3,9 @@ title: “配置 [!DNL Inventory Management] 产品选项”
 description: 了解如何配置 [!DNL Inventory Management] 产品配置选项。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ ht-degree: 0%
 
    例如，以6为增量销售的项目可以以6、12、18等数量购买。
 
+   **[!UICONTROL Qty Increments]** 字段设置作为单个产品以及可配置、分组和捆绑产品的子产品必须购买的产品项目数。
+
 1. 完成后，单击 **[!UICONTROL Done]** 然后 **[!UICONTROL Save]**.
 
 ### 字段描述
@@ -113,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Uses Decimals] | 全局 | 确定在输入订购数量时，客户是否可以使用小数值而不是整数。 选项：<br />`Yes`  — 允许以小数形式输入值，而不是整数。 小数点适合按重量、体积或长度销售的产品。<br />`No`  — 要求以整数输入数量值。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 全局 | 确定产品部件是否可以单独发运。 在以下情况下，此选项可见： **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | 全局 | 确定如何管理延交订单。 延交订单不会更改订单的处理状态。 无论产品是否有库存，在下单后仍会立即授权或获取资金。 产品在可用时即发运。 启用后，建议您为缺货阈值输入负值。 选项：<br/>`No Backorders`  — 当产品缺货时，不接受延交订单。<br />`Allow Qty Below 0`  — 在数量低于零时接受延交订单。<br />`Allow Qty Below 0 and Notify Customer`  — 在数量低于零时接受延交订单，但通知客户仍然可以下订单。 |
-| [!UICONTROL Enable Qty Increments] | 全局 | 确定产品是否可以按数量递增销售。 |
+| [!UICONTROL Enable Qty Increments] | 全局 | 确定产品是否可以按数量递增销售。 增量设置作为单个产品以及可配置、分组和捆绑产品的子产品必须购买的产品项目数。 |
 
 >[!NOTE]
 >

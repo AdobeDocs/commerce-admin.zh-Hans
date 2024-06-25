@@ -3,9 +3,9 @@ title: “配置 [!DNL Inventory Management]"
 description: 了解的配置 [!DNL Inventory Management] 用于确定来源可用性、店面产品和订单发运的选项。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 确定产品部件是否可以单独发运。 在以下情况下，此选项可见： **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | 指示是否允许延交订单。 在源级别指定，在库存级别上根据分配的源进行计算。 如果启用以允许延交订单，则为缺货阈值设置负值(请参阅 [配置延交订单](backorders.md))。 选项：<br />**[!UICONTROL No Backorders]**：当产品缺货时，不接受延交。<br />**[!UICONTROL Allow Qty Below 0]**：在数量降至零以下时接受延交订单。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在数量低于零时接受延交订单，但通知客户仍然可以下订单。 |
 | [!UICONTROL Notify for Quantity Below] | 设置触发“低于数量”通知（库存不足警告）的数量。 此金额从可销售数量中扣除，而不是从库存数量中扣除。 |
-| [!UICONTROL Enable Qty Increments] | 确定产品是否可以按数量递增销售。 如果启用，请输入增量步骤中必须购买的产品数量。 |
+| [!UICONTROL Enable Qty Increments] | 确定产品是否可以按数量递增销售。 如果启用，请输入增量步骤中必须购买的产品数量。 增量设置作为单个产品以及可配置、分组和捆绑产品的子产品必须购买的产品项目数。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] 不使用此值。 当您完成退货或贷项通知单时，产品数量会自动返回至受影响的来源数量。 请参阅 [配置产品选项](product-options.md). |
 
 ## 配置回退和继承
