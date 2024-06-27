@@ -3,9 +3,9 @@ title: 数据传输
 description: 了解对数据传输的支持，包括数据验证。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
+source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 0%
 
 例如，您可以向库存中添加新产品、更新产品数据和高级价格数据，以及用新产品替换一组现有产品。 导入和导出工具有助于更高效地管理大型产品目录，因为您可以导出数据、在电子表格中编辑该数据并将其导入回您的商店，而不是在管理员中执行多项操作。
 
-除了导入和导出工具之外，Adobe Commerce还包含以下流程 [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) 可将产品数据从Commerce服务器导出到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，包括 [产品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)， [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)， [目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)、和 [SaaS价格索引](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，包括 [产品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)， [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、和 [目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 有关详细信息，请参见 [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## 数据验证
 
