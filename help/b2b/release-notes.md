@@ -3,7 +3,7 @@ title: ’[!DNL Adobe Commerce B2B] 发行说明
 description: 查看发行说明以了解有关以下项的更改的信息： [!DNL Adobe Commerce B2B] 版本发布。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
+source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -68,7 +68,7 @@ B2B v1.5.0-beta版本包括新增功能、质量改进和错误修复。
 
 [!BADGE 支持]{type=Informative tooltip="支持"}
 
-![新建](../assets/new.svg) 添加了与Adobe Commerce 2.4.7-p1和2.4.6-p6安全修补程序版本的兼容性。
+![新建](../assets/new.svg) 添加了与Adobe Commerce 2.4.7-p1+和2.4.6-p6+安全修补程序版本的兼容性。
 
 
 ## B2B v1.4.2
