@@ -3,9 +3,9 @@ title: ’[!DNL Adobe Commerce B2B] 发行说明
 description: 查看发行说明以了解有关以下项的更改的信息： [!DNL Adobe Commerce B2B] 版本发布。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ B2B v1.5.0-beta版本包括新增功能、质量改进和错误修复。
 ![修复的问题](../assets/fix.svg) <!--ACP2E-1825-->公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
 
 ![修复的问题](../assets/fix.svg)<!--ACP2E-1933-->公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+![新建](../assets/new.svg) 添加了与Adobe Commerce 2.4.7-p1和2.4.6-p6安全修补程序版本的兼容性。
+
 
 ## B2B v1.4.2
 
