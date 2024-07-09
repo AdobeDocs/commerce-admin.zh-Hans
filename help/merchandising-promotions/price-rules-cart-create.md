@@ -3,9 +3,9 @@ title: 创建购物车价格规则
 description: 了解如何根据购物车或产品属性创建购物车价格规则。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ ht-degree: 0%
 | [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Percent of product price discount]**— 通过从原始价格中减去百分比来折扣物料。 例如：输入 `10` 在 _[!UICONTROL Discount Amount]_更新后的价格比原价低10%。<br/>**[!UICONTROL Fixed amount discount]**— 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：输入 `10` 在_[!UICONTROL Discount Amount]_ 更新后的价格比原价低10美元。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 通过从购物车小计中减去固定金额，对整个购物车进行折扣。 例如：输入 `10` 在 _[!UICONTROL Discount Amount]_从购物车小计中减去$10。 默认情况下，折扣仅适用于购物车小计。 要将折扣分别应用于小计和运费，请参阅_应用于装运金额&#x200B;_.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定义客户必须购买才能免费接收数量的数量。 (此_[!UICONTROL Discount Amount]_ 是Y。) |
 | [!UICONTROL Discount Amount] | （必需）提供的折扣金额。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 设置在同一购买中可以应用折扣的最大产品数。 |
-| [!UICONTROL Discount Qty Step (Buy X)] | 设置所表示的产品数量 `X` 在 `Buy X Get Y Free` 提升。 |
+| [!UICONTROL Discount Qty Step (Buy X)] | 设置所表示的产品数量 `X` 在 `Buy X Get Y Free` 提升。 此外，定义必须一起将多少个产品批量添加到购物车才能应用 `Fixed amount discount` 和 `Percent of product price discount` 促销活动。 |
 | [!UICONTROL Apply to Shipping Amount] | 确定是否将折扣单独应用于小计金额和装运金额。 否则，它仅应用于小计。 选项： `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | 确定当此购物车价格规则匹配时，是否可将较低优先级的规则（1为最高优先级）应用于产品。 启用此选项可防止将多个折扣应用于同一产品。 选项： `Yes` / `No` |
 | [!UICONTROL Free Shipping] | 确定促销中是否包含免运费，如果包含，则确定哪些项目。 选项： <br/>**[!UICONTROL No]**— 当前规则不提供免运费。<br/>**[!UICONTROL For matching items only]**  — 只有购物车中与规则匹配的特定项目才提供免运费。 <br/>**[!UICONTROL For shipment with matching items]**— 购物车中的所有项目均提供免运费。 此 [免费送货](../stores-purchase/shipping-free.md) 必须启用投放方法才能使用此选项。 |
