@@ -3,9 +3,9 @@ title: ’[!DNL Adobe Commerce Marketplace]’
 description: 了解 [!DNL Commerce Marketplace]，为商家提供精选的解决方案，并为符合条件的开发人员提供工具、平台和首选位置，以打造欣欣向荣的业务。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 0%
 - [Commerce App Builder概述](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [为Adobe Developer App Builder设置API网格](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [部署App Builder应用程序](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [App Builder应用程序的CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
-- App Builder/开发人员控制台快速入门
+- [适用于App Builder应用程序的CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- App Builder/Developer Console快速入门
    - [App Builder快速入门](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [了解项目和工作区](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 支持
 
-如果您在安装或使用扩展时需要帮助，请首先查看扩展随附的文档。 如果找不到问题的答案，请使用扩展列表中的联系信息直接联系开发人员。 如果您在Marketplace上购买的产品无法满足您的需求，您可以 [请求退款](#refund-requests) 二十五日内支付。 Adobe将复查所有退款请求，并（如果获得批准）发出相应的退款。 有关与Commerce Marketplace相关的支持问题，请参阅 [[!DNL Marketplace] 帮助中心][5].
+如果您在安装或使用扩展时需要帮助，请首先查看扩展随附的文档。 如果找不到问题的答案，请使用扩展列表中的联系信息直接联系开发人员。 如果您在Marketplace上购买的产品无法满足您的需求，您可以 [请求退款](#refund-requests) 二十五日内支付。 Adobe将复查所有退款请求，并（如果获得批准）发出相应的退款。 有关与Commerce Marketplace相关的问题，请联系 [支持](mailto:commercemarketplacesupport@adobe.com).
 
 ### 签出问题
 
@@ -139,5 +139,4 @@ Marketplace支持团队无法将购买转移到其他帐户。 您必须购买�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
