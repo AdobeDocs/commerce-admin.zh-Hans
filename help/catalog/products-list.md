@@ -1,22 +1,22 @@
 ---
 title: 产品列表
-description: 了解_[!UICONTROL Products]_页面，您可以在其中创建产品和编辑现有产品。
+description: 了解管理员中的_[!UICONTROL Products]_页面，您可以在其中创建产品和编辑现有产品。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # 产品列表
 
-目录中的所有产品都可从以下位置访问： _[!UICONTROL Products]_页面中，您可以在该页面中创建产品和编辑现有产品。 对于多站点安装，每个网站都可以从同一目录提供不同的产品选择以供销售。
+目录中的所有产品都可从管理员的&#x200B;_[!UICONTROL Products]_页面访问，您可以在该页面中创建产品和编辑现有产品。 对于多站点安装，每个网站都可以从同一目录提供不同的产品选择以供销售。
 
-此 _[!UICONTROL Products]_列表包括目录中的所有产品，指示可用产品的网站，以及当前是否启用销售功能。 在Adobe Commerce B2B安装中， [共享目录](../b2b/catalog-shared.md) 启用后，网格将包含一列，该列指示哪些产品在共享目录中具有替代折扣定价。
+_[!UICONTROL Products]_列表包括目录中的所有产品，指示这些产品所在的网站，以及这些产品当前是否允许销售。 在启用了[共享目录](../b2b/catalog-shared.md)的Adobe Commerce B2B安装中，网格包含一列，该列指示哪些产品在共享目录中具有替代折扣定价。
 
-您可以逐页浏览列表页面，或搜索特定产品。 使用标准 [控件](../getting-started/admin-grid-controls.md) 对列表进行排序和筛选，然后应用 [操作](../getting-started/admin-actions-control.md) 至选定的产品。
+您可以逐页浏览列表页面，或搜索特定产品。 使用标准[控件](../getting-started/admin-grid-controls.md)对列表进行排序和筛选，并将[操作](../getting-started/admin-actions-control.md)应用于所选产品。
 
 ![产品网格](./assets/products-grid.png){width="700" zoomable="yes"}
 
@@ -34,23 +34,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果不希望限制产品网格，请更准确地使用过滤器来生成项目数少于中指定数量的集合。 _[!UICONTROL Records Limit]_字段。
+>如果不希望限制产品网格，请更准确地使用筛选器来生成项目数少于&#x200B;_[!UICONTROL Records Limit]_字段中指定数量的集合。
 
-**_要配置产品显示限制，请执行以下操作：_**
+**_要配置产品显示限制：_**
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 展开 **[!UICONTROL Advanced]** 并选择 **[!UICONTROL Admin]**.
+1. 展开&#x200B;**[!UICONTROL Advanced]**&#x200B;并选择&#x200B;**[!UICONTROL Admin]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Admin Grids]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Admin Grids]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
-   - 设置 **[!UICONTROL Limit Number of Products in Grid]** 到 `Yes`.
+   - 将&#x200B;**[!UICONTROL Limit Number of Products in Grid]**&#x200B;设置为`Yes`。
 
-   - （可选）在 **[!UICONTROL Records Limit]** 用于将网格中的产品数限制为特定值的字段。 缺省最小值为 `20000`.
+   - （可选）在&#x200B;**[!UICONTROL Records Limit]**&#x200B;字段中输入一个值，以将网格中的产品数量限制为特定值。 默认最小值为`20000`。
 
    ![管理网格配置设置](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 页面控件
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 | 列 | 描述 |
 |--- |--- |
-| （复选框） | 选择要遵循某项操作的多个记录。 每个选定记录的第一列中的复选框都将被标记。 选项： <br/>**[!UICONTROL Select All]**— 选择匹配当前筛选器设置的所有找到的记录。<br/>**[!UICONTROL Select All on This Page]**  — 仅选择在当前页面上找到的与筛选器设置匹配的记录。 |
+| （复选框） | 选择要遵循某项操作的多个记录。 每个选定记录的第一列中的复选框都将被标记。 选项： <br/>**[!UICONTROL Select All]**— 选择找到的所有与当前筛选器设置匹配的记录。<br/>**[!UICONTROL Select All on This Page]** — 仅选择在当前页面上找到的与筛选器设置匹配的记录。 |
 | [!UICONTROL ID] | 首次保存新产品时分配的唯一序列号。 |
 | [!UICONTROL Thumbnail] | 显示主产品图像的缩略图。 |
 | [!UICONTROL Name] | 产品名称。 |
@@ -81,10 +81,11 @@ ht-degree: 0%
 | [!UICONTROL Quantity] | 有库存的数量。 |
 | [!UICONTROL Salable Quantity] | 此产品的所有可用单位的总和。 |
 | [!UICONTROL Visibility] | 指示产品在目录中的可见位置。 选项： `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
-| [!UICONTROL Status] | 指示产品的状态。 选项： `Enabled` 和 `Disabled` |
+| [!UICONTROL Status] | 指示产品的状态。 选项： `Enabled`和`Disabled` |
 | [!UICONTROL Websites] | 指示产品可用的网站。 |
+| [!UICONTROL Remote Media URL] | 如果使用[适用于Commerce的AEM Assets集成](../content-design/aem-assets.md)管理产品媒体资源，则此字段显示用于在AEM Assets数字资产管理存储（保留资源的集中存储库）中查看Commerce资源的URL。 仅当启用了AEM Assets集成时，才会显示此字段。 |
 | [!UICONTROL Action] | 在编辑模式下打开产品。 |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (适用于 [Adobe Commerce B2B](./b2b/../introduction.md) （仅限）指示包含产品的自定义定价的共享目录。 |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于[Adobe Commerce B2B](./b2b/../introduction.md))指示包含产品的自定义定价的共享目录。 |
 
 {style="table-layout:auto"}
 
