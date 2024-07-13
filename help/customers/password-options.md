@@ -16,56 +16,56 @@ ht-degree: 0%
 
 ## 配置客户密码选项
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Customers]** 并选择 **[!UICONTROL Customer Configuration]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展开 **[!UICONTROL Password Options]** 部分。
+1. 展开&#x200B;**[!UICONTROL Password Options]**&#x200B;部分。
 
    ![密码选项](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
-1. 设置 **[!UICONTROL Password Reset Protection Type]** 要用于检查密码重置请求的方法：
+1. 将&#x200B;**[!UICONTROL Password Reset Protection Type]**&#x200B;设置为要用于检查密码重置请求的方法：
 
-   - `By IP and Email`  — 检查以前是否尝试重置特定电子邮件或特定IP的密码。
-   - `By IP`  — 检查以前是否尝试从特定IP重置密码。
-   - `By Email`  — 检查以前是否尝试重置特定电子邮件的密码。
-   - `None`  — 已禁用保护（对重置密码没有限制）。
+   - `By IP and Email` — 检查以前是否尝试重置特定电子邮件或特定IP的密码。
+   - `By IP` — 检查以前是否尝试从特定IP重置密码。
+   - `By Email` — 检查以前是否尝试重置特定电子邮件的密码。
+   - `None` — 已禁用保护（对重置密码没有限制）。
 
-   此 **[!UICONTROL Max Number of Password Reset Requests]** 和 **[!UICONTROL Min Time Between Password Reset Requests]** 将基于此配置进行计算。
+   **[!UICONTROL Max Number of Password Reset Requests]**&#x200B;和&#x200B;**[!UICONTROL Min Time Between Password Reset Requests]**&#x200B;已基于此配置进行计算。
 
 1. 要限制每小时发送的密码重置请求数，请执行以下操作：
 
-   - 对象 **[!UICONTROL Max Number of Password Reset Requests]**，输入每小时可发送的最大密码重置请求数。
+   - 对于&#x200B;**[!UICONTROL Max Number of Password Reset Requests]**，输入每小时可发送的最大密码重置请求数。
 
-   - 对象 **[!UICONTROL Min Time Between Password Reset Requests]**，输入两次请求之间必须经过的最小分钟数。
+   - 对于&#x200B;**[!UICONTROL Min Time Between Password Reset Requests]**，输入两次请求之间必须经过的最小分钟数。
 
 1. 要配置密码重置电子邮件通知，请执行以下操作：
 
-   - 设置 **[!UICONTROL Forgot Email Template]** 用于发送给忘记密码的客户的电子邮件的模板。
+   - 将&#x200B;**[!UICONTROL Forgot Email Template]**&#x200B;设置为用于发送给忘记密码的客户的电子邮件的模板。
 
-   - 设置 **[!UICONTROL Remind Email Template]** 到管理员用户重置客户密码时使用的模板。
+   - 将&#x200B;**[!UICONTROL Remind Email Template]**&#x200B;设置为管理员用户重置客户密码时使用的模板。
 
-   - 设置 **[!UICONTROL Reset Password Template]** 更改为客户更改密码时使用的模板。
+   - 将&#x200B;**[!UICONTROL Reset Password Template]**&#x200B;设置为客户更改密码时使用的模板。
 
-   - 设置 **[!UICONTROL Password Template Email Sender]** 到 [商店联系人](../getting-started/store-details.md) 显示为密码相关通知的发送者。
+   - 将&#x200B;**[!UICONTROL Password Template Email Sender]**&#x200B;设置为显示为密码相关通知发送者的[存储联系人](../getting-started/store-details.md)。
 
 1. 完成以下密码重置安全选项：
 
-   - 对象 **[!UICONTROL Recovery Link Expiration Period (hours)]**，输入密码恢复链接过期的小时数。
+   - 对于&#x200B;**[!UICONTROL Recovery Link Expiration Period (hours)]**，请输入密码恢复链接到期前的小时数。
 
-   - 如果您希望客户登录和忘记密码表单中的字段自动填写以前条目中的字段，请设置 **[!UICONTROL Enable Autocomplete on login/forgot password forms]** 到 `Yes`.
+   - 如果您希望客户登录和忘记密码表单中的字段自动填写以前条目中的字段，请将&#x200B;**[!UICONTROL Enable Autocomplete on login/forgot password forms]**&#x200B;设置为`Yes`。
 
-   - 对象 **[!UICONTROL Number of Required Character Classes]**，根据以下字符类输入密码中必须包括的不同字符类型数：
+   - 对于&#x200B;**[!UICONTROL Number of Required Character Classes]**，根据以下字符类输入密码中必须包括的不同字符类型数：
 
       - `Lowercase`
       - `Uppercase`
       - `Numeric`
       - `Special Characters`
 
-   - 对象 **[!UICONTROL Maximum Login Failures to Lockout Account]**，输入在锁定客户帐户之前的失败登录尝试次数。 对于无限制的尝试，输入零(`0`)。
+   - 对于&#x200B;**[!UICONTROL Maximum Login Failures to Lockout Account]**，请输入锁定客户帐户之前的失败登录尝试次数。 对于无限制的尝试，输入零(`0`)。
 
-   - 对象 **[!UICONTROL Minimum Password Length]**，输入密码中可以使用的最小字符数。 数字必须大于零。
+   - 对于&#x200B;**[!UICONTROL Minimum Password Length]**，请输入密码中可以使用的最小字符数。 数字必须大于零。
 
-   - 对象 **[!UICONTROL Lockout Time (minutes)]**，输入客户帐户在尝试登录失败次数过多后锁定的分钟数。
+   - 对于&#x200B;**[!UICONTROL Lockout Time (minutes)]**，输入客户帐户在尝试登录失败次数过多之后被锁定的分钟数。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。

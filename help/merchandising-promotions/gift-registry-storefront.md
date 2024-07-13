@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-此 [礼品注册表](gift-registries.md) 客户帐户的部分列出了客户的当前礼品登记处和相关事件。 客户可以管理当前注册并添加新注册。
+客户帐户的[礼品注册表](gift-registries.md)部分列出了客户当前的礼品注册表和相关事件。 客户可以管理当前注册并添加新注册。
 
 ![礼品注册表](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 客户可以从其帐户创建和管理礼品登记册。 与每种注册表类型相关的所有信息均可从客户帐户获取。
 
-![示例店面 — 礼品注册信息](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![店面示例 — 礼品注册信息](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | 部分 | 描述 |
 |--- |--- |
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## 创建礼品注册表
 
-1. 客户选择 **[!UICONTROL Gift Registry]** 在他们的帐户信息板中。
+1. 客户在其帐户信息板中选择&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 在 _礼品注册表_ 页面，点击量 **[!UICONTROL Add New]**.
+1. 在&#x200B;_礼品注册表_&#x200B;页面上单击&#x200B;**[!UICONTROL Add New]**。
 
-1. 选择 **[!UICONTROL Gift Registry Type]**，例如：
+1. 选择&#x200B;**[!UICONTROL Gift Registry Type]**，例如：
 
    - 生日
 
@@ -52,58 +52,58 @@ ht-degree: 0%
 
    - 婚礼
 
-1. 点击次数 **[!UICONTROL Next]**.
+1. 单击&#x200B;**[!UICONTROL Next]**。
 
-1. 输入所需信息，然后单击 **[!UICONTROL Save]**.
+1. 输入所需信息，然后单击&#x200B;**[!UICONTROL Save]**。
 
 ## 将产品添加到注册表
 
 1. 客户打开要添加到礼品注册事件中的产品。
 
-1. 点击次数 **[!UICONTROL Add to Cart]**.
+1. 单击&#x200B;**[!UICONTROL Add to Cart]**。
 
-1. 点击次数 **[!UICONTROL View and Edit Cart]** 在迷你购物车上。
+1. 单击迷你购物车上的&#x200B;**[!UICONTROL View and Edit Cart]**。
 
-1. 在“购物车”页面上，选择所需的事件并点击/点按 **[!UICONTROL Add All To Gift Registry]**.
+1. 在“购物车”页面上，选择所需的事件并单击/点按&#x200B;**[!UICONTROL Add All To Gift Registry]**。
 
    项目将添加到所选事件的礼品注册表。
 
 ## 共享礼品注册表
 
-1. 在其帐户信息板中，客户转到 **[!UICONTROL Gift Registry]**.
+1. 客户从其帐户信息板转到&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 查找要管理的注册表事件，然后单击 **[!UICONTROL Share]**.
+1. 查找要管理的注册表事件，然后单击&#x200B;**[!UICONTROL Share]**。
 
-1. 输入所需信息并单击 **[!UICONTROL Share Gift Registry]**.
+1. 输入所需信息并单击&#x200B;**[!UICONTROL Share Gift Registry]**。
 
 ## 编辑礼品注册表
 
-1. 在其帐户信息板中，客户转到 **[!UICONTROL Gift Registry]**.
+1. 客户从其帐户信息板转到&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 查找要管理的注册表事件，然后单击 **[!UICONTROL Edit]**.
+1. 查找要管理的注册表事件，然后单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 根据需要更改任何选项。
 
-1. 编辑所需的选项并单击 **[!UICONTROL Save]**.
+1. 编辑所需的选项并单击&#x200B;**[!UICONTROL Save]**。
 
 ## 管理礼品注册物料
 
-1. 在其帐户信息板中，客户转到 **[!UICONTROL Gift Registry]**.
+1. 客户从其帐户信息板转到&#x200B;**[!UICONTROL Gift Registry]**。
 
    ![管理礼品注册物料](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. 查找注册表事件，选择要管理的项目，然后单击 **[!DNL Manage Items]**.
+1. 查找注册表事件，选择要管理的项目，然后单击&#x200B;**[!DNL Manage Items]**。
 
-1. 更改所需的选项，例如 **[!UICONTROL Note]** 和 **[!UICONTROL Qty]**.
+1. 更改必需选项，如&#x200B;**[!UICONTROL Note]**&#x200B;和&#x200B;**[!UICONTROL Qty]**。
 
-1. 如果需要，请选中复选框并单击，从礼品注册表中删除项目 **[!UICONTROL Delete]**.
+1. 如果需要，请选中该复选框并单击&#x200B;**[!UICONTROL Delete]**&#x200B;以从礼品注册表中删除项目。
 
-1. 点击次数 **[!UICONTROL Update Gift Registry]** 以保存更改。
+1. 单击&#x200B;**[!UICONTROL Update Gift Registry]**&#x200B;以保存更改。
 
 ## 删除礼品注册表
 
-1. 在其帐户信息板中，客户转到 **[!UICONTROL Gift Registry]**.
+1. 客户从其帐户信息板转到&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 查找要管理的注册表事件，然后单击 **[!UICONTROL Delete]**.
+1. 查找要管理的注册表事件，然后单击&#x200B;**[!UICONTROL Delete]**。
 
-1. 点击次数 **[!UICONTROL OK]** 以确认。
+1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;确认。

@@ -5,14 +5,14 @@ exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
 feature: Checkout, Invoices, Taxes, Products
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # 固定产品税(FPT)
 
-某些税务管辖区具有必须对某些类型产品添加的固定税。 您可以设置 _固定产品税_ (FPT)适用于您商店的纳税计算。 在某些国家，可利用废旧电气和电子设备税来征税。 此税也称为 _生态税_ 或 _eco税_，并收集某些类型的电子产品以抵消回收成本。 它是固定金额，而不是产品价格的百分比。
+某些税务管辖区具有必须对某些类型产品添加的固定税。 您可以根据需要为商店的税务计算设置&#x200B;_固定产品税_ (FPT)。 在某些国家，可利用废旧电气和电子设备税来征税。 此税也称为&#x200B;_生态税_&#x200B;或&#x200B;_生态税_，征收于特定类型的电子产品，以抵消回收成本。 它是固定金额，而不是产品价格的百分比。
 
 固定产品税基于产品在物料层应用。 在某些司法管辖区，这种税收需要额外计算%。 无论是否纳税，您的税务管辖区可能还有关于向客户显示产品价格的规则。 确保您了解规则并相应地设置FPT显示选项。
 
@@ -33,19 +33,19 @@ ht-degree: 0%
 
 ## 配置FPT
 
-固定产品税(FPT) [输入类型](../catalog/attributes-input-types.md) 创建用于管理每个区域的税的字段部分。
+固定产品税(FPT) [输入类型](../catalog/attributes-input-types.md)创建用于管理每个区域税款的字段部分。
 
-以下说明说明说明如何使用“eco tax”为例，为您的商店设置固定产品税。 在设置税范围以及税适用的国家（地区）和省（州）之后，根据您选择的选项，输入字段可以根据本地要求进行更改。 要了解更多信息，请参阅 [创建产品属性](../catalog/attribute-product-create.md).
+以下说明说明说明如何使用“eco tax”为例，为您的商店设置固定产品税。 在设置税范围以及税适用的国家（地区）和省（州）之后，根据您选择的选项，输入字段可以根据本地要求进行更改。 若要了解详细信息，请参阅[创建产品属性](../catalog/attribute-product-create.md)。
 
 ### 步骤1：启用固定产品税
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Tax]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Tax]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Fixed Product Taxes]** 部分。
+1. 展开&#x200B;**[!UICONTROL Fixed Product Taxes]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 设置 **[!UICONTROL Enable FPT]** 到 `Yes`.
+1. 将&#x200B;**[!UICONTROL Enable FPT]**&#x200B;设置为`Yes`。
 
 1. 要确定如何在商店价格中使用固定产品税，请选择以下每个价格显示位置的FPT设置：
 
@@ -61,82 +61,82 @@ ht-degree: 0%
    - `Excluding FPT. Including FPT description and final price`
    - `Excluding FPT`
 
-1. 设置 **[!UICONTROL Apply Tax to FPT]** 根据需要。
+1. 根据需要设置&#x200B;**[!UICONTROL Apply Tax to FPT]**。
 
-1. 设置 **[!UICONTROL Include FPT in Subtotal]** 根据需要。
+1. 根据需要设置&#x200B;**[!UICONTROL Include FPT in Subtotal]**。
 
    ![固定产品税](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
-   有关每个配置设置的详细说明，请参阅 [固定产品税](../configuration-reference/sales/tax.md#fixed-product-taxes) 在 _配置参考指南_.
+   有关每个配置设置的详细说明，请参阅&#x200B;_配置参考指南_&#x200B;中的[固定产品税](../configuration-reference/sales/tax.md#fixed-product-taxes)。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ### 步骤2：创建FPT属性
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
-1. 在右上角，单击 **[!UICONTROL Add New Attribute]** 并执行以下操作：
+1. 单击右上角的&#x200B;**[!UICONTROL Add New Attribute]**&#x200B;并执行以下操作：
 
-   - 对象 **[!UICONTROL Default Label]**，输入用于标识属性的标签。
+   - 对于&#x200B;**[!UICONTROL Default Label]**，请输入标识该属性的标签。
 
-   - 设置 **[!UICONTROL Catalog Input for Store Owner]** 到 `Fixed Product Tax`.
+   - 将&#x200B;**[!UICONTROL Catalog Input for Store Owner]**&#x200B;设置为`Fixed Product Tax`。
 
    ![属性属性](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Advanced Attribute Properties]** 并设置属性选项：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Attribute Properties]**&#x200B;部分并设置属性选项：
 
-   - **[!UICONTROL Attribute Code]**  — 以小写形式输入唯一标识符，且不含空格或特殊字符。 最大长度为30个字符。 您可以将“默认标签”字段中的文本保留为空。
+   - **[!UICONTROL Attribute Code]** — 以小写形式输入唯一标识符，不带空格或特殊字符。 最大长度为30个字符。 您可以将“默认标签”字段中的文本保留为空。
 
-   - **[!UICONTROL Add to Column Options]**  — 如果您希望FPT字段显示在 [产品列表](../catalog/products-list.md)，设置为 `Yes`.
+   - **[!UICONTROL Add to Column Options]** — 如果您希望FPT字段出现在[产品列表](../catalog/products-list.md)中，请设置为`Yes`。
 
-   - **[!UICONTROL Use in Filter Options]**  — 如果您希望能够 [筛选](../getting-started/admin-workspace.md) 网格中的产品基于FPT字段的值，设置为 `Yes`.
+   - **[!UICONTROL Use in Filter Options]** — 如果要能够根据FPT字段的值[筛选](../getting-started/admin-workspace.md)网格中的产品，请设置为`Yes`。
 
    ![高级属性属性](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-1. （可选）在左侧面板中，选择 **[!UICONTROL Manage Labels]** 并输入要使用的标签，而不是每个商店视图的默认标签。
+1. （可选）在左侧面板中，选择&#x200B;**[!UICONTROL Manage Labels]**&#x200B;并输入要使用的标签，而不是每个商店视图的默认标签。
 
    ![管理标签](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Attribute]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
 
-1. 出现提示时，刷新 [缓存](../systems/cache-management.md).
+1. 出现提示时，刷新[缓存](../systems/cache-management.md)。
 
 ### 步骤3：将FPT属性添加到属性集
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**。
 
 1. 在列表中，单击属性集以在编辑模式下打开记录。
 
    ![属性集列表](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
 
-1. 将FPT属性从列表中 **[!UICONTROL Unassigned Attributes]** 在右侧 **[!UICONTROL Groups]** 列表放在中心列中。
+1. 将FPT属性从右侧的&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;列表拖到中心列中的&#x200B;**[!UICONTROL Groups]**&#x200B;列表中。
 
    每个组文件夹对应于产品信息的一个部分。 当产品在编辑模式下打开时，您可以将属性放置到所需的任何位置。
 
    ![编辑属性集](./assets/tax-fpt-attribute-set-drag.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 1. 对每个应包括固定产品税的属性集重复此步骤。
 
 ### 步骤4：将FPT应用于特定产品
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
 1. 在编辑模式下打开需要固定产品税的产品。
 
-1. 查找 **[!UICONTROL FPT]** 添加到属性集并单击的字段的部分 **[!UICONTROL Add Tax]**.
+1. 查找您添加到属性集的字段的&#x200B;**[!UICONTROL FPT]**&#x200B;部分，然后单击&#x200B;**[!UICONTROL Add Tax]**。
 
 1. 指定产品的适用税：
 
-   ![加拿大的固定产品税](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
+   加拿大的![固定产品税](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
 
-   - 如果您的Commerce实例具有多个网站，请选择适当的 **[!UICONTROL Website]** 和基础货币。 在此示例中，字段默认设置为 `All Websites [USD]`.
+   - 如果您的Commerce实例具有多个网站，请选择适当的&#x200B;**[!UICONTROL Website]**&#x200B;和基本货币。 在此示例中，字段默认设置为`All Websites [USD]`。
 
-   - 设置 **[!UICONTROL Country/State]** 到固定产品税适用的区域。
+   - 将&#x200B;**[!UICONTROL Country/State]**&#x200B;设置为固定产品税适用的区域。
 
-   - 对象 **[!UICONTROL Tax]**，输入小数形式的固定产品税。
+   - 对于&#x200B;**[!UICONTROL Tax]**，输入小数形式的固定产品税。
 
-1. 要添加更多固定产品税，请单击 **[!UICONTROL Add Tax]** 然后重复这个过程。
+1. 要添加更多固定产品税，请单击&#x200B;**[!UICONTROL Add Tax]**&#x200B;并重复此过程。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。

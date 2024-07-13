@@ -14,21 +14,21 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-此 [奖励点数](rewards-loyalty.md) 部分，显示客户获得的奖励积分的当前余额及其奖励积分余额的历史记录。
+客户帐户的[奖励积分](rewards-loyalty.md)部分显示了客户获得的奖励积分的当前余额及其奖励积分余额的历史记录。
 
-![奖励点数](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![奖励积分](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## 在结账期间兑换奖励积分
 
-如果 [奖励汇率](reward-exchange-rates.md) 替换为 `Points to Currency` 配置方向，客户可以在结账时使用奖励积分。
+如果配置了[方向为`Points to Currency`的奖励汇率](reward-exchange-rates.md)，则客户可以在结帐期间使用奖励积分。
 
 1. 将所有必需的产品添加到购物车后，客户会导航到结帐。
 
-1. 输入所有必需的送货信息并导航到 _审核与支付_ 步骤。
+1. 输入所有必需的送货信息，并导航到&#x200B;_审核和付款_&#x200B;步骤。
 
-1. 在 _[!UICONTROL Reward points]_部分，检查可用点的数量及其货币值。
+1. 在&#x200B;_[!UICONTROL Reward points]_部分中，检查可用点数及其货币值。
 
-1. 点击次数 **[!UICONTROL Use reward points]**.
+1. 单击&#x200B;**[!UICONTROL Use reward points]**。
 
 ![结账时的奖励积分](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 

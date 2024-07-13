@@ -1,17 +1,17 @@
 ---
-title: 简介 [!DNL Page Builder]
-description: 了解 [!DNL Page Builder] Adobe Commerce和Magento Open Source中用于轻松创建内容的工具。
+title: ' [!DNL Page Builder]简介'
+description: 了解用于在Adobe Commerce和Magento Open Source中轻松创建内容的 [!DNL Page Builder] 工具。
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
 source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
-# 简介 [!DNL Page Builder]
+# [!DNL Page Builder]简介
 
-[!DNL Page Builder] 使您可以轻松使用自定义版面创建内容丰富的页面，以增强您的视觉叙事能力，并提高客户参与度和忠诚度。 以下只是众多体验中的一小部分 [!DNL Page Builder] 旨在提高质量，并减少生成自定义页面的时间和费用的功能：
+[!DNL Page Builder]使您可以轻松创建具有自定义版面的内容丰富的页面，以增强您的视觉叙事能力，并提高客户参与度和忠诚度。 以下是旨在提高质量，并减少生成自定义页面时间和开支的众多[!DNL Page Builder]功能中的几项：
 
 - 高级内容工具
 - CMS页面、产品和类别的全页布局
@@ -20,19 +20,19 @@ ht-degree: 0%
 - 丰富的内容类型分类
 - 自定义产品属性输入类型
 
-此 [!DNL Page Builder] Adobe Commerce 2.3.1版本中引入了高级内容工具。 从2.4.3版本开始，基本的 [!DNL Page Builder] 功能也在Magento Open Source中提供。 但是， [!DNL Page Builder] Adobe Commerce已增强功能，可以将 _体验管理_ 工具。 这些工具使商家能够提供引人入胜的个性化体验和促销活动：暂存和预览、个性化内容、产品Recommendations以及即将推出的其他功能。
+[!DNL Page Builder]高级内容工具已在Adobe Commerce 2.3.1版本中引入。 从2.4.3版本开始，Magento Open Source中还提供了基本[!DNL Page Builder]功能。 但是，Adobe Commerce中的[!DNL Page Builder]已增强了使用&#x200B;_体验管理_&#x200B;工具的其余功能的功能。 这些工具使商家能够提供引人入胜的个性化体验和促销活动：暂存和预览、个性化内容、产品Recommendations以及即将推出的其他功能。
 
-## 学习 [!DNL Page Builder]
+## 了解[!DNL Page Builder]
 
-您是否是新用户 [!DNL Commerce] 或经验丰富的用户，请完成以下操作 [!DNL Page Builder] 练习，以了解如何使用创建内容 [!DNL Page Builder]. 这些练习将演示如何使用 [!DNL Page Builder] 功能和帮助您发现完成熟悉任务的新方法。
+无论您是[!DNL Commerce]的新手还是经验丰富的用户，请完成以下[!DNL Page Builder]练习以了解如何使用[!DNL Page Builder]创建内容。 这些练习将演示如何使用基本[!DNL Page Builder]功能，并帮助您发现完成熟悉任务的新方法。
 
-- 演练第1部分： [简单页面](1-simple-page.md)
-- 演练第2部分： [个块](2-blocks.md)
-- 演练第3部分： [目录内容](3-catalog-content.md)
+- 演练第1部分：[简单页面](1-simple-page.md)
+- 演练第2部分：[块](2-blocks.md)
+- 演练第3部分：[目录内容](3-catalog-content.md)
 
 >[!NOTE]
 >
->这些演练经过更新，以反映对 [!DNL Page Builder] 2.4.x版本行中的workspace 。 如果您使用的是较低版本的Adobe Commerce，请使用 [!DNL Page Builder] 演练包含在 [[!DNL Commerce] 2.3用户指南](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>这些演练已更新，以反映2.4.x版本行中[!DNL Page Builder]工作区的重大更改。 如果您使用的是较早的Adobe Commerce版本，请使用[[!DNL Commerce] 2.3用户指南](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)中包含的[!DNL Page Builder]演练练习。
 
 ## Page Builder演示
 

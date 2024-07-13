@@ -27,9 +27,9 @@ ht-degree: 0%
 
 ## 第1步：核实制造国
 
-USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许多需要更新的产品，您可以 [导入](../systems/data-import.md) 更新，或使用“清单”网格更新多个记录。
+USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许多应更新的产品，您可以[导入](../systems/data-import.md)更新，或者使用清单网格更新多个记录。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
 1. 使用以下方法之一更新装运标签记录。
 
@@ -37,11 +37,11 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 
 1. 在网格中，找到要更新的产品，并以编辑模式打开。
 
-1. 更新 **生产国家/地区** 根据需要。
+1. 根据需要更新&#x200B;**制造国家/地区**。
 
-   ![生产国家/地区](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
+   ![制造国家/地区](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ### 方法2：更新多个记录
 
@@ -49,36 +49,36 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 
    例如，所有在中国生产的产品。
 
-1. 设置 **[!UICONTROL Actions]** 控制对象 `Update Attributes` 并单击 **[!UICONTROL Submit]**.
+1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Update Attributes`并单击&#x200B;**[!UICONTROL Submit]**。
 
-1. 在 _更新属性_ 表单，查找 **生产国家/地区** 字段并选择 **更改** 复选框。
+1. 在&#x200B;_更新属性_&#x200B;表单中，找到&#x200B;**制造国家/地区**&#x200B;字段并选择&#x200B;**更改**&#x200B;复选框。
 
 1. 选择国家。
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 步骤2验证存储信息
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Shipping Settings]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Shipping Settings]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Origin]** 部分，并验证以下字段是否完整：
+1. 展开&#x200B;**[!UICONTROL Origin]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
 
-   - **[!UICONTROL Street Address]**  — 发货地点的街道地址。 例如，公司或仓库的位置。 装运标签需要此字段。
-   - **[!UICONTROL Street Address Line 2]**  — 任何其他地址信息，如楼层或入口。 建议使用此字段。
+   - **[!UICONTROL Street Address]** — 发货地点的街道地址。 例如，公司或仓库的位置。 装运标签需要此字段。
+   - **[!UICONTROL Street Address Line 2]** — 任何其他地址信息，如楼层或入口。 建议使用此字段。
 
-   ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
+   ![来源](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. 在 _销售_ 部分，选择 **[!UICONTROL Delivery Methods]**.
+1. 在左侧面板的&#x200B;_Sales_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL USPS]** 部分，并验证以下字段是否完整：
+1. 展开&#x200B;**[!UICONTROL USPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
 
-   - **[!UICONTROL Secure Gateway URL]**  — 系统自动输入网关URL。
-   - **[!UICONTROL Password]**  — 密码由USPS提供，允许您通过Web服务访问其系统。
-   - **长、宽、高、围**  — 包的默认维度。 要显示这些字段，请设置 **[!UICONTROL Size]** 到 `Large`.
+   - **[!UICONTROL Secure Gateway URL]** — 系统自动进入网关URL。
+   - **[!UICONTROL Password]** — 密码由USPS提供，允许您通过Web服务访问其系统。
+   - **长度、宽度、高度、周长** — 包的默认尺寸。 若要显示这些字段，请将&#x200B;**[!UICONTROL Size]**&#x200B;设置为`Large`。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **联邦快递** 部分，并验证以下字段是否完整：
+1. 展开&#x200B;**FedEx**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
 
    - 计量器编号
    - 键
@@ -86,20 +86,20 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 
    此信息由运营商提供，通过Web服务访问其系统时需要此信息。
 
-1. 在左侧面板中，展开 **[!UICONTROL General]** 并选择 **[!UICONTROL General]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL General]**&#x200B;并在下面选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Store Information]** 部分，并验证以下字段是否完整：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Store Information]**&#x200B;部分，并验证以下字段是否已完成：
 
-   - **[!UICONTROL Store Name]**  — 存储或存储视图的名称。
-   - **[!UICONTROL Store Contact Telephone]**  — 商店或商店视图的主要联系人的电话号码。
-   - **[!UICONTROL Country]**  — 您的商店所在的国家/地区。
-   - **[!UICONTROL VAT Number]**  — 如果适用，您商店的增值税号。 （位于美国的商店不需要）
-   - **[!UICONTROL Store Contact Address]**  — 商店或商店视图的主要联系人的街道地址。
+   - **[!UICONTROL Store Name]** — 商店或商店视图的名称。
+   - **[!UICONTROL Store Contact Telephone]** — 商店或商店视图的主要联系人的电话号码。
+   - **[!UICONTROL Country]** — 您的商店所在的国家/地区。
+   - **[!UICONTROL VAT Number]** — 如果适用，为商店的增值税号。 （位于美国的商店不需要）
+   - **[!UICONTROL Store Contact Address]** — 商店或商店视图的主要联系人的街道地址。
 
-1. 如果您有多个商店，并且联系人信息与默认信息不同，请设置 **[!UICONTROL Store View]** ，并验证信息是否完整。
+1. 如果您有多个商店，并且联系人信息与默认信息不同，请为每个商店设置&#x200B;**[!UICONTROL Store View]**&#x200B;并验证信息是否完整。
 
    如果缺少信息，则在尝试打印标签时出现错误。
 
    ![存储信息](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Save Config]**.
+1. 单击&#x200B;**[!UICONTROL Save Config]**。

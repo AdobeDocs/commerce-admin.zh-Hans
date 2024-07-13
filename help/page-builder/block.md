@@ -1,6 +1,6 @@
 ---
 title: 添加内容 — 阻止
-description: 了解用于向添加可重用块的块内容类型 [!DNL Page Builder] 暂存。
+description: 了解用于向 [!DNL Page Builder] 阶段添加可重用块的块内容类型。
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 添加内容 — 阻止
 
-使用 _块_ 内容类型，用于添加现有的、活动的 [块](../content-design/blocks.md) 到 [[!DNL Page Builder] 阶段](workspace.md#stage). 在以下示例中，第一列包含带有页面侧菜单的块。 第二列包含图像。
+使用&#x200B;_块_&#x200B;内容类型将现有的活动[块](../content-design/blocks.md)添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 在以下示例中，第一列包含带有页面侧菜单的块。 第二列包含图像。
 
-![带有侧菜单的块](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![使用侧菜单阻止](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 | 工具 | 图标 | 描述 |
 | --------- | -------- | ------------- |
-| 移动 | ![“移动”图标](./assets/pb-icon-move.png) | 将块容器及其内容移动到舞台上的另一个位置。 |
-| 设置 | ![“设置”图标](./assets/pb-icon-settings.png) | 打开“编辑块”页面，您可以在此页面中选择块并更改容器的属性。 |
-| 隐藏 | ![“隐藏”图标](./assets/pb-icon-hide.png) | 隐藏当前块容器及其内容。 |
+| 移动 | ![移动图标](./assets/pb-icon-move.png) | 将块容器及其内容移动到舞台上的另一个位置。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png) | 打开“编辑块”页面，您可以在此页面中选择块并更改容器的属性。 |
+| 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png) | 隐藏当前块容器及其内容。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png) | 显示隐藏的块容器及其内容。 |
-| 复制 | ![“复制”图标](./assets/pb-icon-duplicate.png) | 制作块容器及其内容的副本。 |
-| 移除 | ![“删除”图标](./assets/pb-icon-remove.png) | 从阶段中删除块容器及其内容。 |
+| 复制 | ![图标重复](./assets/pb-icon-duplicate.png) | 制作块容器及其内容的副本。 |
+| 移除 | ![删除图标](./assets/pb-icon-remove.png) | 从阶段中删除块容器及其内容。 |
 
 {style="table-layout:auto"}
 
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 ## 添加现有块
 
-1. 导航至 [!DNL Page Builder] 目标页面、块、动态块、产品或类别上的工作区。
+1. 导航到目标页面、块、动态块、产品或类别上的[!DNL Page Builder]工作区。
 
-1. 在 [!DNL Page Builder] 面板，展开 **[!UICONTROL Add Content]** 并拖动 **[!UICONTROL Block]** 舞台占位符。
+1. 在[!DNL Page Builder]面板中，展开&#x200B;**[!UICONTROL Add Content]**&#x200B;并将&#x200B;**[!UICONTROL Block]**&#x200B;占位符拖到舞台上。
 
    ![将块拖到舞台上](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. 将鼠标悬停在空的块容器上以显示工具箱，然后选择 _设置_ ( ![“设置”图标](./assets/pb-icon-settings.png){width="25"} )图标。
+1. 将鼠标悬停在空的块容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="25"} ）图标。
 
-1. 单击 **[!UICONTROL Select Block]**.
+1. 单击&#x200B;**[!UICONTROL Select Block]**。
 
    ![选择块](./assets/pb-add-content-block-select.png){width="200"}
 
-1. 在要添加块的行中，单击 **[!UICONTROL Select]** 在最后一列。
+1. 在要添加块的行中，单击最后一列中的&#x200B;**[!UICONTROL Select]**。
 
    ![所选的块](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 1. 使用本页末尾的字段说明作为参考，根据需要完成其余设置。
 
-1. 完成后，单击 **[!UICONTROL Save]** 以应用设置并返回到 [!DNL Page Builder] 工作区。
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
 ### 高级设置
 
-1. 要控制块在父容器中的位置，请选择 **[!UICONTROL Alignment]**：
+1. 若要控制块在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
    | 选项 | 描述 |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 设置 **[!UICONTROL Border]** 应用于块容器所有四个边的样式：
+1. 设置应用于块容器所有四个边的&#x200B;**[!UICONTROL Border]**&#x200B;样式：
 
    | 选项 | 描述 |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 如果设置的边框样式不是 `None`，完成边框显示选项：
+1. 如果设置了除`None`之外的边框样式，请完成边框显示选项：
 
    | 选项 | 描述 |
    | ------ |------------ |
@@ -99,11 +99,11 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. （可选）指定以下项目的名称： **[!UICONTROL CSS classes]** 要应用于容器的当前样式表中。
+1. （可选）从当前样式表中指定要应用于容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 
    用空格分隔多个类名。
 
-1. 以像素为单位输入 **[!UICONTROL Margins and Padding]** 确定块容器的外边距和内边距。
+1. 输入&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;的值（以像素为单位）以确定块容器的外边距和内边距。
 
    在图表中输入相应的值。
 
@@ -116,26 +116,26 @@ ht-degree: 0%
 
 ## 编辑块设置
 
-1. 将鼠标悬停在块容器上并选择 _设置_ ( ![“设置”图标](./assets/pb-icon-settings.png){width="25"} )图标。
+1. 将鼠标悬停在块容器上，然后在工具箱中选择&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="25"} ）图标。
 
    ![块工具箱](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. 要选择其他块，请单击 **[!UICONTROL Select Block]**.
+1. 若要选择其他块，请单击&#x200B;**[!UICONTROL Select Block]**。
 
-   - 在活动块列表中，单击 **[!UICONTROL Select]** 要添加的块。
-   - 单击 **[!UICONTROL Add Selected]**.
+   - 在活动块列表中，单击&#x200B;**[!UICONTROL Select]**&#x200B;要添加的块。
+   - 单击&#x200B;**[!UICONTROL Add Selected]**。
 
 1. 根据需要更新其余设置，可使用此页末尾的字段描述作为参考。
 
-1. 完成后，单击 **[!UICONTROL Save]** 以应用设置并返回到 [!DNL Page Builder] 工作区。
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
 ## 复制块
 
-1. 将鼠标悬停在块容器上以显示工具箱，然后选择 _复制_ (![“复制”图标](./assets/pb-icon-duplicate.png))图标。
+1. 将鼠标悬停在块容器上以显示工具箱，然后选择&#x200B;_复制_ （![复制图标](./assets/pb-icon-duplicate.png)）图标。
 
    副本会出现在原始文件的正下方。
 
-1. 要将新块移动到新位置，请将鼠标悬停在容器上，然后单击 _移动_ (![“移动”图标](./assets/pb-icon-move.png))。
+1. 若要将新块移动到新位置，请将鼠标悬停在容器上，然后单击工具箱中的&#x200B;_移动_ （![移动图标](./assets/pb-icon-move.png)）。
 
 1. 选择并拖动块，直到红色指示线出现在新位置。
 
@@ -143,6 +143,6 @@ ht-degree: 0%
 
 ## 从舞台上删除块
 
-1. 将鼠标悬停在块容器上以显示工具箱，然后选择 _移除_ (![“删除”图标](./assets/pb-icon-remove.png))图标。
+1. 将鼠标悬停在块容器上以显示工具箱，然后选择&#x200B;_删除_ （![删除图标](./assets/pb-icon-remove.png)）图标。
 
-1. 提示确认时，单击 **[!UICONTROL OK]**.
+1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。

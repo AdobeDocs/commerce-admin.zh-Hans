@@ -1,5 +1,5 @@
 ---
-title: '"[!DNL Page Builder] 隐藏元素”'
+title: "[!DNL Page Builder]个隐藏元素"
 description: 重用有关隐藏元素的注释
 source-git-commit: d8eddb226843fe72449f1001bf4bbc8d545f3a6d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] 隐藏的元素
+# [!DNL Page Builder]个隐藏元素
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs]’
-description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs] 商务管理员页面。
+title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL PDF Print-outs]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL PDF Print-outs]页面上的配置设置。
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ![发票](./assets/pdf-print-invoice.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在发票标题中包含订单ID以供参考。 选项： `Yes` / `No` |
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ![装运](./assets/pdf-print-shipment.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在装运装箱单的题头中包含订单ID以供参考。 选项： `Yes` / `No` |
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 ![贷项通知单](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 商店视图 | 在贷项通知单标题中包含订单ID以供参考。 选项： `Yes` / `No` |
 

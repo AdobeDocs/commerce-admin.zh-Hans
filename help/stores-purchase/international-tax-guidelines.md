@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 | 选项 | 建议的设置 |
 |--- |--- |
-| [!UICONTROL Enable FPT] | `No`除了加利福尼亚。 |
+| [!UICONTROL Enable FPT] | `No`，加利福尼亚除外。 |
 
 {style="table-layout:auto"}
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 | 计税 | 在项目上 |
 | 运税？ | 是 |
 | 应用折扣 | 税前折扣，含税。 |
-| 注释 | 以便B2B商家提供更简单的增值税供应链注意事项。 行上的计税同样有效；但是，请与您的税务管辖区核实。 设置假定商户位于供应链中，并且销售的商品被其他供应商用于增值税退税等。 此定义使按项目识别税变得容易，从而更快地生成返点。 <br/><br/>**_注意：_**某些司法管辖区要求采用商业目前不支持的不同舍入策略，而且并非所有司法管辖区都允许对项目或行层征税。 |
+| 注释 | 以便B2B商家提供更简单的增值税供应链注意事项。 行上的计税同样有效；但是，请与您的税务管辖区核实。 设置假定商户位于供应链中，并且销售的商品被其他供应商用于增值税退税等。 此定义使按项目识别税变得容易，从而更快地生成返点。 <br/><br/>**_注意：_**某些管辖区需要Commerce当前不支持的各种舍入策略，并且并非所有管辖区都允许对项目或行级别征税。 |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->位于GST/PST省（蒙特利尔）的商家应创建一个税则并显示合并税额。 如有任何问题，请务必咨询符合条件的税务机关。 有关特定省份的纳税要求的信息，请参阅以下内容： [魁北克省][1]， [萨斯喀彻温政府][2]、和 [面向供应商的Manitoba信息][3]
+>位于GST/PST省（蒙特利尔）的商家应创建一个税则并显示合并税额。 如有任何问题，请务必咨询符合条件的税务机关。 有关特定省份的税务要求的信息，请参阅以下内容：[魁北克省收入][1]、[萨斯喀彻温政府][2]和[供应商的马尼托巴信息][3]
 
 | 税务期权 | 推荐 |
 |--- |--- |
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 ### 步骤1：完成计税设置
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 对于多站点配置，设置 **[!UICONTROL Store View]** 到作为配置目标的网站和商店。
+1. 对于多站点配置，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为配置目标的网站和商店。
 
-1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Tax]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Tax]**。
 
 1. 单击以展开页面上的每个部分，并完成以下设置：
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 | 字段 | 建议的设置 |
 |--- |--- |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` （运输需纳税） |
+| [!UICONTROL Tax Class for Shipping] | `Shipping` （已付运费） |
 
 {style="table-layout:auto"}
 
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 ### 步骤4：创建GST税则
 
-要避免复合税，并且要为GST和PST将已计算的税正确显示为单独的行项目，请为每个规则设置不同的优先级，然后选择 **仅计算小计** 复选框。 每项税均显示为单独的行项目，但税额并不复合。
+为避免复合税，并为GST和PST将已计算的税正确显示为单独的行项目，请为每个规则设置不同的优先级，并选中&#x200B;**仅计算小计**&#x200B;复选框。 每项税均显示为单独的行项目，但税额并不复合。
 
 #### 税则信息
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 ### 步骤5：为萨斯喀彻温省创建PST税则
 
-对于此税则，请确保将优先级设置为0，然后选择 **仅计算小计** 复选框。 每项税均显示为单独的行项目，但税额并不复合。
+对于此税则，请确保将优先级设置为0并选中&#x200B;**仅计算小计**&#x200B;复选框。 每项税均显示为单独的行项目，但税额并不复合。
 
 #### 税则信息
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 
 ### 步骤6：保存并测试结果
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 1. 返回到店面并创建一个示例订单来测试结果。
 
@@ -324,10 +324,10 @@ ht-degree: 0%
 
 | 税率 | 设置 |
 |--- |--- |
-| 法国 — StandardVAT | 国家/地区：法国 <br/>省/市/自治区/直辖市： * <br/>邮政编码：* <br/>比率：20% |
-| 法国 — 减少的增值税 | 国家/地区：法国 <br/>省/市/自治区/直辖市： * <br/>邮政编码：* <br/>比率：5% |
-| 德国 — 标准VAT | 国家：德国 <br/>省/市/自治区/直辖市： * <br/>邮政编码： *费率：19% |
-| 德国 — 削减的增值税 | 国家：德国 <br/>省/市/自治区/直辖市： * <br/>邮政编码：* <br/>比率：7% |
+| 法国 — StandardVAT | 国家/地区：法国<br/>州/地区： * <br/>邮政编码： * <br/>费率： 20% |
+| 法国 — 减少的增值税 | 国家/地区：法国<br/>州/地区： * <br/>邮政编码： * <br/>费率： 5% |
+| 德国 — 标准VAT | 国家/地区：德国<br/>州/地区： * <br/>邮政编码： *费率： 19% |
+| 德国 — 削减的增值税 | 国家/地区：德国<br/>州/地区： * <br/>邮政编码： * <br/>费率： 7% |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ ht-degree: 0%
 
 | 税则 | 设置 |
 |--- |--- |
-| Retail-France-StandardVAT | 客户类别：零售客户 <br/>税分类：VAT-Standard <br/>税率：France-StandardVAT <br/>优先级：0 <br/>排序顺序： 0 |
-| Retail-France-ReducedVAT | 客户类别：零售客户 <br/>税分类：减少增值税 <br/>税率：法国 — 减额增值税 <br/>优先级：0 <br/>排序顺序： 0 |
-| 零售 — 德国 — 标准增值税 | 客户类别：零售客户 <br/>税分类：VAT-Standard <br/>税率：德国 — 标准VAT <br/>优先级：0 <br/>排序顺序： 0 |
-| 零售 — 德国 — 增值税减少 | 客户类别：零售客户 <br/>税分类：减少增值税 <br/>税率：德国 — 减少的增值税 <br/>优先级：0 <br/>排序顺序： 0 |
+| Retail-France-StandardVAT | 客户分类：零售客户<br/>税类：增值税标准<br/>税率：法国 — 标准VAT <br/>优先级： 0 <br/>排序顺序： 0 |
+| Retail-France-ReducedVAT | 客户分类：零售客户<br/>税类：增值税减免<br/>税率：法国 — 减免VAT <br/>优先级： 0 <br/>排序顺序： 0 |
+| 零售 — 德国 — 标准增值税 | 客户分类：零售客户<br/>税类：增值税标准<br/>税率：德国 — 标准VAT <br/>优先级： 0 <br/>排序顺序： 0 |
+| 零售 — 德国 — 增值税减少 | 客户分类：零售客户<br/>税类：增值税减免<br/>税率：德国 — 减免VAT <br/>优先级： 0 <br/>排序顺序： 0 |
 
 {style="table-layout:auto"}
 
 ### 步骤4：设置德国的商店视图
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
 
-1. 在默认网站下，创建商店视图 **[!UICONTROL Germany]**.
+1. 在默认网站下，为&#x200B;**[!UICONTROL Germany]**&#x200B;创建商店视图。
 
 1. 接下来，执行以下操作：
 
-   - 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-   - 在左上角，设置 **[!UICONTROL Default Config]** 去法国商店。
+   - 在左上角，将&#x200B;**[!UICONTROL Default Config]**&#x200B;设置为法文商店。
 
-   - 在“一般信息”页上，展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Countries Options]** 部分，并将默认国家/地区设置为 `France`.
+   - 在“常规”页上，展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]**&#x200B;部分，并将默认国家/地区设置为`France`。
 
    - 根据需要完成区域设置选项。
 
-1. 选择左上角的德语 **[!UICONTROL Store View]**.
+1. 在左上角，选择德语&#x200B;**[!UICONTROL Store View]**。
 
-1. 在 _常规_ 页面，展开 ![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** 并将默认国家/地区设置为 `Germany`.
+1. 在&#x200B;_常规_&#x200B;页面上，展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]**，并将默认国家/地区设置为`Germany`。
 
 1. 根据需要完成区域设置选项。
 
@@ -373,7 +373,7 @@ ht-degree: 0%
 | 字段 | 建议的设置 |
 |--- |--- |
 | [[!UICONTROL Tax Classes]](../configuration-reference/sales/tax.md#tax-classes) |  |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` （运输需纳税） |
+| [!UICONTROL Tax Class for Shipping] | `Shipping` （已付运费） |
 | [[!UICONTROL Calculation Settings]](../configuration-reference/sales/tax.md#calculation-settings) |  |
 | [!UICONTROL Tax Calculation Method Based On] | `Total` |
 | [!UICONTROL Tax Calculation Based On] | `Shipping Address` |
@@ -397,27 +397,27 @@ ht-degree: 0%
 
 ### 步骤6：配置德国的税务设置
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在右上角，设置 **[!UICONTROL Store View]** 前往德国商店，然后单击 **[!UICONTROL OK]** 以确认。
+1. 在右上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为德语商店的视图，然后单击&#x200B;**[!UICONTROL OK]**&#x200B;进行确认。
 
-1. 在左侧面板中，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Tax]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Tax]**。
 
-1. 在 **[!UICONTROL Default Tax Destination Calculation]** 部分，执行以下操作：
+1. 在&#x200B;**[!UICONTROL Default Tax Destination Calculation]**&#x200B;部分中，执行以下操作：
 
-   - 清除 **[!UICONTROL Use Website]** 每个字段后面的复选框，
+   - 清除每个字段后面的&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框，
 
-   - 匹配您站点的配送设置 [原点](shipping-settings.md#point-of-origin)，请更新以下值：
+   - 要匹配您网站的送货设置[原点](shipping-settings.md#point-of-origin)，请更新以下值：
 
       - 默认国家/地区
       - 默认状态
-      - 默认邮政编码
+      - 默认Post代码
 
      此设置可确保当产品价格含税时正确计算税款。
 
      ![默认纳税目标计算](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

@@ -16,21 +16,21 @@ Adobe Commerce和Magento Open Source支持各种支付方法和服务，您可�
 
 >[!TIP]
 >
->适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要详细了解这个功能强大的工具集以及它如何为您提供所需的洞察信息和控制，以便为买家创造最佳体验，请参阅 [Payment Services用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供所需的洞察信息和控制力，以便为买家创造最佳体验，请参阅[支付服务用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
 
 >[!NOTE]
 >
->查看 [PCI合规性指南](../getting-started/compliance-pci.md) 该法规概述了支付卡行业(PCI)对通过互联网接受信用卡付款的企业提出的要求。
+>查看[PCI合规性准则](../getting-started/compliance-pci.md)，该准则概括了支付卡行业(PCI)为接受通过信用卡通过Internet付款的企业设定的要求。
 
 ## 2.4中的更改
 
-2.4.x版本中删除了一些支付集成和捆绑的扩展，并将其移至Commerce Marketplace。 您可以在以下位置找到最新的官方支付集成扩展： [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){：target=&quot;_blank&quot;}.
+2.4.x版本中删除了一些支付集成和捆绑的扩展，并将其移至Commerce Marketplace。 您可以在[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){：target=&quot;_blank&quot;}中找到最新的官方付款集成扩展。
 
-- **Amazon Pay** 和 **克拉尔纳**：Adobe Commerce和Magento Open Source版本2.4.0到2.4.3中包含这些供应商开发的扩展。 从2.4.4版本开始，核心版本不再捆绑这些扩展，必须从Commerce Marketplace安装和更新这些扩展。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
+- **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含这些供应商开发的扩展。 从2.4.4版本开始，核心版本不再捆绑这些扩展，必须从Commerce Marketplace安装和更新这些扩展。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
 
-  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 请参阅 [升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 在 _升级指南_ 以了解更多信息。
+  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
 
-- **Worldpay**， **Eway**， **网络资源**、和 **Authorize.Net**：有关从这些支付集成进行安全过渡的详细信息，请参阅 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){：target=&quot;_blank&quot;}.
+- **Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：有关从这些付款集成进行安全过渡的详细信息，请参阅[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){：target=&quot;_blank&quot;}。
 
 ## 离线支付方式
 
@@ -41,7 +41,7 @@ Adobe Commerce和Magento Open Source包括多种内置的离线支付方式，�
 - [银行转帐付款](bank-transfer.md)
 - [支票/汇票](check-money-order.md)
 - [采购订单](purchase-order.md)
-- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (适用于Adobe Commerce B2B)
+- [帐户付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg)(适用于Adobe Commerce B2B)
 
 ## 在线支付方式
 
@@ -49,13 +49,13 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商家服务的�
 
 ### 推荐的解决方案
 
-- [支付服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
 - [PayPal Express签出](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
 ### 其他PayPal支付解决方案
 
-请参阅 [PayPal支付解决方案](paypal.md) 有关PayPal支付方式选项的更多信息。
+有关PayPal付款方式选项的更多信息，请参阅[PayPal付款解决方案](paypal.md)。
 
 #### 多功能PayPal解决方案
 
@@ -74,14 +74,14 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商家服务的�
 
 - [PayPal欺诈管理过滤器](paypal.md#paypal-fraud-management-filters)
 
-- [Marketplace上的防欺诈解决方案][1]
+- [市场上的欺诈保护解决方案][1]
 
 >[!NOTE]
 >
->为了支持安全合规性更新，从2.4.0版本开始，从Commerce中删除了显着防欺诈功能。 如果您已在2.3.x或之前的版本中使用Signifyd集成，建议您转换为 [显着的欺诈和按存储容量使用计费保护扩展](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}. 请确保根据供应商指南维护扩展的更新。
+>为了支持安全合规性更新，从2.4.0版本开始，从Commerce中删除了显着防欺诈功能。 如果您在2.3.x或之前的版本中使用了Signifyd集成，建议您过渡到[Signifyd欺诈和按存储容量使用计费保护扩展](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}。 请确保根据供应商指南维护扩展的更新。
 
 ## 资源疑难解答
 
-如需排查付款问题的帮助，请参阅 [支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+有关解决付款问题的帮助，请参阅[支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en)。
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

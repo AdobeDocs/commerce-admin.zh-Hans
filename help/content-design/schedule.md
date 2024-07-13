@@ -17,36 +17,36 @@ ht-degree: 0%
 
 ## 添加计划的设计更改
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
-1. 单击 **[!UICONTROL Add Design Change]**.
+1. 单击&#x200B;**[!UICONTROL Add Design Change]**。
 
-   ![新建商店设计更改设置](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![新商店设计更改设置](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. 设置 **[!UICONTROL Store]** 到要应用更改的存储区视图。
+1. 将&#x200B;**[!UICONTROL Store]**&#x200B;设置为要应用更改的存储区视图。
 
-1. 设置 **[!UICONTROL Custom Design]** 主题或主题的变体。
+1. 将&#x200B;**[!UICONTROL Custom Design]**&#x200B;设置为要使用的主题或主题的变体。
 
-1. 对于 **[!UICONTROL Date From]** 和 **[!UICONTROL Date To]**，单击 _日历_ (![日历图标](../assets/icon-calendar.png))图标以选择更改生效时段的开始值和结束值。
+1. 对于&#x200B;**[!UICONTROL Date From]**&#x200B;和&#x200B;**[!UICONTROL Date To]**，单击&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png)）图标以选择更改生效时段的开始和结束值。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ## 编辑计划的设计更改
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
 1. 选择要编辑的项目。
 
 1. 进行必要的更改。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ## 删除计划的设计更改
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
 1. 选择要删除的项目。
 
-1. 在页面顶部的按钮栏中，单击 **[!UICONTROL Delete]**.
+1. 在页面顶部的按钮栏中，单击&#x200B;**[!UICONTROL Delete]**。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。

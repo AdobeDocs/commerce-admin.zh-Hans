@@ -1,12 +1,12 @@
 ---
-title: ’[!UICONTROL General] &gt； [!UICONTROL Advanced Reporting]’
-description: 查看 [!UICONTROL General] &gt； [!UICONTROL Advanced Reporting] 商务管理员页面。
+title: '[!UICONTROL General] &amp；gt； [!UICONTROL Advanced Reporting]'
+description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Advanced Reporting]页面上的配置设置。
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_是一项基于云的服务，由提供支持 [Adobe Commerce Intelligence][1]{：target=&quot;_blank&quot;}. 有关更多信息，请参阅 [高级报告][2]{：target=&quot;_blank&quot;}在_&#x200B;快速入门指南&#x200B;_.
+_[!DNL Advanced Reporting]_是一项基于云的服务，由[Adobe Commerce Intelligence][1]{：target=&quot;_blank&quot;}提供支持。 有关详细信息，请参阅_&#x200B;入门指南&#x200B;_中的[高级报告][2]{：target=&quot;_blank&quot;}。
 
 ![高级报告](./assets/advanced-reporting.png)<!-- zoom -->
 
 <!-- [Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Advanced Reporting Service] | 全局 | 支持集成 [!DNL Advanced Reporting] 用于您的Commerce安装。 |
-| [!UICONTROL Industry] | 网站 | 识别您的业务行业以进行个性化 [!DNL Advanced Reporting]. |
-| [!UICONTROL Time of day to send data] | 全局 | 确定每天将存储数据发送到的时间 [!DNL Advanced Reporting]. 时间基于24小时制，包括您时区中的分钟、小时和秒。 |
+| [!UICONTROL Advanced Reporting Service] | 全局 | 为您的Commerce安装启用[!DNL Advanced Reporting]的集成。 |
+| [!UICONTROL Industry] | 网站 | 识别您的行业以个性化[!DNL Advanced Reporting]。 |
+| [!UICONTROL Time of day to send data] | 全局 | 确定每天将存储数据发送到[!DNL Advanced Reporting]的时间。 时间基于24小时制，包括您时区中的分钟、小时和秒。 |
 
 {style="table-layout:auto"}
 

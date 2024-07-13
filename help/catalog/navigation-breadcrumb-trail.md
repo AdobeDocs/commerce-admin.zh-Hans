@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 痕迹导航跟踪
 
-A _痕迹导航路径_ 是一组链接，用于显示客户相对于商店中其他页面的位置。 他们可以单击痕迹导航跟踪中的任意链接以返回上一页。
+_痕迹导航路径_&#x200B;是一组链接，用于显示客户相对于商店中其他页面的位置。 他们可以单击痕迹导航跟踪中的任意链接以返回上一页。
 
 可以将痕迹导航跟踪配置为显示在内容页面和目录页面上。 痕迹导航轨迹的格式和位置因主题而异，但通常位于标题的正下方。 默认情况下，痕迹导航跟踪会显示在CMS页面上。
 
-![店面中显示的痕迹导航路径](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+店面中显示了![痕迹导航路径](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## 普通类型的面包屑
 
@@ -46,20 +46,20 @@ A _痕迹导航路径_ 是一组链接，用于显示客户相对于商店中其
 
 ## 在CMS页面中添加/删除痕迹导航
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的 _[!UICONTROL General]_，选择&#x200B;**[!UICONTROL Web]**.
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
    ![显示CMS页面的痕迹导航](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. 展开 _[!UICONTROL Default Pages]_部分。
+1. 展开&#x200B;_[!UICONTROL Default Pages]_部分。
 
-1. 取消选择 **[!UICONTROL Use system value]** 复选框。
+1. 取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框。
 
-1. 设置 **[!UICONTROL Show Breadcrumbs for CMS Pages]** 到 `No` 或 `Yes`.
+1. 将&#x200B;**[!UICONTROL Show Breadcrumbs for CMS Pages]**&#x200B;设置为`No`或`Yes`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 >[!NOTE]
 >
->父类别具有下列条件时，将不会显示在痕迹导航线索的子类别页面上 `Browsing Category`= `Deny` [类别权限](category-permissions.md) 设置。
+>当父类别具有`Browsing Category`= `Deny` [类别权限](category-permissions.md)设置时，父类别不会显示在子类别页面的痕迹导航线索中。

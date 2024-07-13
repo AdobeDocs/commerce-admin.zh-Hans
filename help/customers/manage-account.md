@@ -1,25 +1,25 @@
 ---
 title: 管理客户帐户
-description: 使用 [!UICONTROL Customers] 网格以查找任何客户帐户并访问单个客户帐户的信息。
+description: 使用[!UICONTROL Customers]网格查找任何客户帐户并访问单个客户帐户的信息。
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # 管理客户帐户
 
-使用 _[!UICONTROL Customers]_网格以查找任何客户帐户。 您可以使用标准 [工作区控件](../getting-started/admin-workspace.md) 要筛选列表，请更改 [列布局](../getting-started/admin-grid-controls.md)、保存视图和导出数据。 此 [操作控制](../getting-started/admin-actions-control.md) 网格上方可用于对多个客户记录应用操作。
+使用&#x200B;_[!UICONTROL Customers]_网格查找任何客户帐户。 您可以使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改[列布局](../getting-started/admin-grid-controls.md)、保存视图和导出数据。 网格上方的[操作控件](../getting-started/admin-actions-control.md)可用于将操作应用于多个客户记录。
 
 ![所有客户](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-请参阅 [更新客户配置文件](update-account.md) 有关对客户帐户进行手动更新的信息。
+有关对客户帐户进行手动更新的信息，请参阅[更新客户配置文件](update-account.md)。
 
 ## 客户帐户操作
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
 1. 在网格的第一列中，选中要更新的每个记录的复选框。
 
@@ -29,50 +29,50 @@ ht-degree: 0%
    >
    >以下操作可应用于单个或多个记录。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ### 订阅新闻稿
 
-在多商店和多站点设置中，使用全局 [客户帐户范围](../customers/customer-account-scope.md)，客户帐户可以在多个站点或商店订阅新闻稿。 如果您应用 _订阅_ 对客户帐户执行的操作，它仅为默认站点/商店视图激活新闻稿订阅。
+在具有全局[客户帐户范围](../customers/customer-account-scope.md)的多商店和多站点设置中，客户帐户可以订阅多个网站或商店的新闻稿。 如果将&#x200B;_订阅_&#x200B;操作应用于客户帐户，它将仅为默认网站/商店视图激活新闻稿订阅。
 
-* 设置 **[!UICONTROL Actions]** 控制对象 `Subscribe to newsletter`.
+* 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Subscribe to newsletter`。
 
-请参阅 [管理订阅者](../merchandising-promotions/newsletter-subscribers.md) 有关管理客户的新闻稿订阅的更多信息。
+有关管理客户的新闻稿订阅的详细信息，请参阅[管理订阅者](../merchandising-promotions/newsletter-subscribers.md)。
 
 ### 取消订阅新闻稿
 
-在多商店和多站点设置中，使用全局 [客户帐户范围](customer-account-scope.md)，客户帐户可以订阅多个站点/商店的新闻稿。 如果您应用 _取消订阅_ 对客户帐户执行操作，所有活动订阅都已取消订阅。
+在具有全局[客户帐户范围](customer-account-scope.md)的多商店和多站点设置中，客户帐户可以订阅多个网站/商店的新闻稿。 如果对客户帐户应用&#x200B;_取消订阅_&#x200B;操作，则所有活动订阅都将取消订阅。
 
-1. 设置 **[!UICONTROL Actions]** 控制对象 `Unsubscribe to newsletter`.
+1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Unsubscribe to newsletter`。
 
-1. 提示确认时，单击 **确定**.
+1. 提示确认时，单击&#x200B;**确定**。
 
 ### 分配客户组
 
-1. 设置 **[!UICONTROL Actions]** 控制对象 `Assign a customer group`.
+1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Assign a customer group`。
 
 1. 选择要将所有选定客户记录分配到的客户组。
 
-1. 提示确认时，单击 **[!UICONTROL OK]**.
+1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
 ### 删除客户帐户
 
 无法恢复已删除的客户帐户。 有关客户活动和交易的信息保留在系统中。
 
-1. 设置 **[!UICONTROL Actions]** 控制对象 `Delete`.
+1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Delete`。
 
-1. 提示确认时，单击 **[!UICONTROL OK]**.
+1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
 ## 导出客户帐户
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在“表标题”菜单中，单击 **[!UICONTROL Export]** 并选择所需的格式：
+1. 在“表标题”菜单中，单击&#x200B;**[!UICONTROL Export]**&#x200B;并选择所需的格式：
 
    * CSV
    * Excel XML
 
-1. 单击 **[!UICONTROL OK]**.
+1. 单击&#x200B;**[!UICONTROL OK]**。
 
    该文件将转到您的默认下载文件夹。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | **[!UICONTROL Confirmed Email]** | 指示是否需要确认电子邮件。 |
 | **[!UICONTROL Account Created In]** | 指示从中创建客户帐户的商店视图。 |
 | **[!UICONTROL Date of Birth]** | 客户的出生日期。 按照最新的安全和隐私最佳实践，了解将客户的完整出生日期（月、日、年）与其他个人标识符一起存储可能会带来的任何法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
-| **[!UICONTROL Tax / VAT Number]** | 如果适用，税号或 [增值税](../stores-purchase/vat.md) 分配给客户的编号。 <br/><br/> 此字段与增值税编号不同。 |
+| **[!UICONTROL Tax / VAT Number]** | 如果适用，为客户分配的税号或[增值税](../stores-purchase/vat.md)编号。 <br/><br/>此字段与增值税号不同。 |
 | **[!UICONTROL Gender]** | 客户的性别。 |
 | **[!UICONTROL Action]** | 编辑 — 在编辑模式下打开公司帐户。 |
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 其他列
 
-这些列可通过更改 [列布局](../getting-started/admin-grid-controls.md) 网格的URL。
+可通过更改网格的[列布局](../getting-started/admin-grid-controls.md)使用这些列。
 
 | 列 | 描述 |
 |--- |--- |
@@ -128,8 +128,8 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 客户帐单地址中的姓氏。 |
 | **[!UICONTROL Billing Address]** | 将发送账单信息的地址。 |
 | **[!UICONTROL Shipping Address]** | 将发送订单的地址。 |
-| **[!UICONTROL VAT Number]** | 与客户地址关联的增值税编号。 对象 [数字商品](../stores-purchase/taxes.md) 在欧盟销售，增值税基于客户的帐单地址。 <br/><br/> 此字段与税/增值税编号不同。 |
-| **[!UICONTROL Account Lock]** | 指示帐户的状态。 作为安全措施，客户帐户可以 [已锁定](../customers/password-options.md) 尝试登录次数过多后。 值： `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | 与客户地址关联的增值税编号。 对于在欧盟销售的[数字商品](../stores-purchase/taxes.md)，增值税基于客户的帐单地址。 <br/><br/>此字段与税务/增值税编号不同。 |
+| **[!UICONTROL Account Lock]** | 指示帐户的状态。 作为安全措施，如果登录尝试次数过多，则客户帐户可能被[锁定](../customers/password-options.md)。 值： `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | 当前用户状态。 选项： `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | 客户分类。 选项： `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | 被指定为公司帐户的联系人并接收与公司相关的所有自动电子邮件的销售代表。 |

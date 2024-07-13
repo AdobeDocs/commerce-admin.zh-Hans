@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Services] &gt； [!UICONTROL OAuth]’
-description: 查看 [!UICONTROL Services] &gt； [!UICONTROL OAuth] 商务管理员页面。
+title: '[!UICONTROL Services] &amp；gt； [!UICONTROL OAuth]'
+description: 查看Commerce管理员的[!UICONTROL Services] &amp；gt； [!UICONTROL OAuth]页面上的配置设置。
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![访问令牌过期](./assets/oauth-token-expire.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Customer Token Lifetime (hours]) | 全局 | 确定客户API令牌过期前的小时数。 如果字段为空，则客户令牌永不过期。 默认值： `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | 全局 | 确定管理员API令牌过期前的小时数。 如果字段为空，则管理令牌永不过期。 默认值： `4` |
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->持有者客户和管理员API令牌生命周期和加密算法由控制 [JWT身份验证](magento-web-api.md#jwt-authentication) 配置设置。
+>持有者客户和管理员API令牌生命周期和加密算法由[JWT身份验证](magento-web-api.md#jwt-authentication)配置设置控制。
 
 ## [!UICONTROL Cleanup Settings]
 
 ![清理设置](./assets/oauth-cleanup.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | 全局 | 指定启动清理之前的OAuth请求数。 请勿输入 `0` 以禁用清理。 |
+| [!UICONTROL Cleanup Probability] | 全局 | 指定启动清理之前的OAuth请求数。 请勿输入`0`以禁用清理。 |
 | [!UICONTROL Enable WSDL Cache] | 全局 | 确定条目在清理之前的保留时间（以分钟为单位）。 |
 
 {style="table-layout:auto"}
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ![使用者设置](./assets/oauth-consumer-settings.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL OAuth consumer credentials HTTP Post timeout] | 全局 | 指定客户发布凭据时系统超时所需的秒数。 |
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | 全局 | 指定与发布使用者凭据相关的最大重定向数。 |
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ![身份验证锁定](./assets/oauth-locks.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | 全局 | 指定锁定帐户的最大身份验证失败数。 |
 | [!UICONTROL Lockout Time (seconds)] | 全局 | 指定帐户解锁之前经过的时间段（以秒为单位）。 |

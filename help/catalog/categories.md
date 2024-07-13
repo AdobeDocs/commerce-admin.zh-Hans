@@ -5,14 +5,14 @@ exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # 类别概述
 
-在将产品添加到目录之前，您应该建立目录的基本类别结构。 可将产品分配到零个或多个类别。 通常，在将产品添加到目录之前，会预先创建类别。 但是，您还可以添加类别 _正在运行_ 创建产品时。 目录的类别结构会反映在主菜单中，或 [顶部导航](navigation-top.md)  — 店里的。
+在将产品添加到目录之前，您应该建立目录的基本类别结构。 可将产品分配到零个或多个类别。 通常，在将产品添加到目录之前，会预先创建类别。 但是，您也可以在创建产品时即时添加类别&#x200B;__。 目录的类别结构由存储的主菜单（或[顶部导航](navigation-top.md)）反映。
 
 ![类别树](./assets/category-selected.png){width="700" zoomable="yes"}
 
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 ## 资源疑难解答
 
-要获得有关排除类别问题的帮助，请参阅以下Commerce支持知识库文章：
+要获得有关类别问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
-- [未保存对类别所做的更改](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [启用Fastly的子页面上不显示主菜单（类别）](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [对类别的更改未保存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+- [主菜单（类别）未显示在启用了Fastly的子页面上](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
 - [类别中缺少产品，索引相关](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- [某些类别的内存不足](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [未显示产品和类别](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)
+- 某些类别上[内存不足](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
+- [产品和类别未显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

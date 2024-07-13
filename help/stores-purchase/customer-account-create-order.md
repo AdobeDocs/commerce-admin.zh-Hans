@@ -5,40 +5,40 @@ exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '364'
+ht-degree: 0%
 
 ---
 
 # 创建订单
 
-对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 此 _[!UICONTROL Create New Order]_表单包含正常结账流程所需的所有信息，以及客户帐户仪表板中的活动摘要。
+对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 _[!UICONTROL Create New Order]_表单包含正常结账流程所需的所有信息，以及客户帐户信息板中的活动摘要。
 
 ![为客户创建订单](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## 第1步：创建订单
 
-1. 在 _管理员_ 侧栏，单击 **[!UICONTROL Customers]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，单击&#x200B;**[!UICONTROL Customers]**。
 
 1. 在网格中查找客户。
 
-1. 在 _操作_ 列，单击 **[!UICONTROL Edit]**.
+1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 在工作区标题中，单击 **[!UICONTROL Create Order]**.
+1. 在工作区标题中，单击&#x200B;**[!UICONTROL Create Order]**。
 
-   ![工作区标题](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![Workspace标头](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   您还可以在以下位置创建订单 [订购工作区](orders.md#orders-workspace) 通过单击 **[!UICONTROL Create New Order]**.
+   您还可以通过单击&#x200B;**[!UICONTROL Create New Order]**&#x200B;在[订单工作区](orders.md#orders-workspace)中创建订单。
 
 ## 步骤2：添加产品
 
 如果您的商店有多个视图，请选择将要下订单的商店视图。
 
-### 从添加产品 [!UICONTROL Customer's Activities] 侧栏
+### 从[!UICONTROL Customer's Activities]侧栏添加产品
 
 您可以将客户的愿望清单或任何最近查看、比较或订购的商品中的商品传输到购物车。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 以下部分之一：
+1. 展开![扩展选择器](../assets/icon-display-expand.png)以下部分之一：
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 1. 选中左侧面板中每个产品的复选框。
 
-1. 向下滚动并单击 **[!UICONTROL Update Changes]**.
+1. 向下滚动并单击&#x200B;**[!UICONTROL Update Changes]**。
 
    项目会显示在订购单中。
 
@@ -56,11 +56,11 @@ ht-degree: 1%
 
 ### 从目录添加产品
 
-1. 单击 **[!UICONTROL Add Products]**.
+1. 单击&#x200B;**[!UICONTROL Add Products]**。
 
    ![添加产品](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
-1. 在网格中，选中要添加到购物车中的每个产品的复选框，然后输入 **[!UICONTROL Qty]** 要购买的项目。
+1. 在网格中，选中要添加到购物车的每个产品的复选框，然后输入要购买的&#x200B;**[!UICONTROL Qty]**。
 
    ![选择产品](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
@@ -70,21 +70,21 @@ ht-degree: 1%
 
 1. 配置可用的产品选项：
 
-   - 单击 **[!UICONTROL Configure]**.
+   - 单击&#x200B;**[!UICONTROL Configure]**。
 
    - 根据需要完成选项。
 
-   - 单击 **[!UICONTROL OK]**.
+   - 单击&#x200B;**[!UICONTROL OK]**。
 
-   - 单击 **[!UICONTROL Add Selected Product(s) to Order]** 以更新购物车。
+   - 单击&#x200B;**[!UICONTROL Add Selected Product(s) to Order]**&#x200B;以更新购物车。
 
-1. 如果产品配置为 [礼品选项](../catalog/product-gift-options.md)，根据需要设置选项。
+1. 如果为[礼品选项](../catalog/product-gift-options.md)配置了产品，请根据需要设置选项。
 
 1. 覆盖物料价格（如有必要）：
 
-   - 选择 **[!UICONTROL Custom Price]** 复选框，然后在下面的框中输入新价格。
+   - 选中&#x200B;**[!UICONTROL Custom Price]**&#x200B;复选框，然后在下面的框中输入新价格。
 
-   - 要更新购物车总计，请单击 **[!UICONTROL Update Items and Quantities]**.
+   - 要更新购物车总计，请单击&#x200B;**[!UICONTROL Update Items and Quantities]**。
 
    ![自定义价格](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
@@ -98,10 +98,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->请参阅 [支付服务指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) 有关在安装和配置Payment Services扩展时支持此功能的支付方法的更多信息。
+>有关安装和配置Payment Services扩展时支持此功能的付款方法的详细信息，请参阅[付款服务指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html)。
 
 ## 步骤3：提交订单
 
-单击 **[!UICONTROL Submit Order]**.
+单击&#x200B;**[!UICONTROL Submit Order]**。
 
 向客户发送确认，客户可以从其帐户查看订单详细信息。

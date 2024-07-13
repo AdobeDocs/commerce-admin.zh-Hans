@@ -5,7 +5,7 @@ exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ PayPal结算报告为商家提供有关影响资金结算的每项交易的信�
 
 在PayPal商户帐户中配置和启用结算报表后，Adobe Commerce和Magento Open Source将在以下24小时内开始生成报表。 管理员可查看可用结算报表的列表。
 
-**_要查看结算报表，请执行以下操作：_**
+**_要查看结算报告：_**
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**。
 
    ![PayPal结算报告](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
-1. 有关最新更新，请单击 **[!UICONTROL Fetch Updates]** 在右上角。
+1. 有关最新更新，请单击右上角的&#x200B;**[!UICONTROL Fetch Updates]**。
 
    系统连接到PayPal SFTP服务器以获取报表。 进程完成后，将显示一条消息，其中包含已获取的报告数。 此报表包含每个事务处理的以下信息：
 
    | 报表列 | 描述 |
    | ------------ | ----------- |
-   | [!UICONTROL PayPal Reference ID Type] | 以下参考代码之一：<br/> — 订单IDT<br/> — 交易ID<br/> — 订阅ID |
-   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]**  — 商家在PayPal上输入的交易文本。<br/>**[!UICONTROL Transaction Debit or Credit]**— 总额的货币流动方向。<br/>**[!UICONTROL Fee Debit or Credit]**  — 收费资金的流动方向。 |
+   | [!UICONTROL PayPal Reference ID Type] | 下列参考代码之一：<br/> — 订单IDT<br/> — 交易ID<br/> — 订阅ID |
+   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** — 商家在PayPal上交易时输入的文本。<br/>**[!UICONTROL Transaction Debit or Credit]**— 总额的货币流动方向。<br/>**[!UICONTROL Fee Debit or Credit]** — 费用的资金流动方向。 |
 
    {style="table-layout:auto"}

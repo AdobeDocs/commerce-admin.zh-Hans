@@ -1,20 +1,20 @@
 ---
 title: 媒体 — 地图
-description: 了解地图内容类型，用于从中添加地图 [!DNL Google Maps] 平台到 [!DNL Page Builder] 暂存。
+description: 了解用于将映射从 [!DNL Google Maps] 平台添加到 [!DNL Page Builder] 阶段的映射内容类型。
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # 媒体 — 地图
 
-使用 _地图_ 要添加映射的内容类型 [[!DNL Google Maps] 平台][1] 到 [[!DNL Page Builder] 阶段](workspace.md#stage). 例如，您可以向块添加映射，然后将该块添加到 [关于我们](../content-design/pages.md#about-us) 和 [联系我们](../getting-started/store-details.md#contact-us-form) 页数。
+使用&#x200B;_映射_&#x200B;内容类型将映射从[[!DNL Google Maps] 平台][1]添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 例如，您可以将地图添加到块，然后将该块添加到[关于我们](../content-design/pages.md#about-us)和[联系我们](../getting-started/store-details.md#contact-us-form)页面。
 
-充分利用 [!DNL Google Maps] 平台，您可以自定义地图，突出显示您的商店位置，并使用Google [地标][2] 向所有人添加有关您商店的丰富信息 [!DNL Google Maps].
+若要充分利用[!DNL Google Maps] Platform，您可以自定义地图、突出显示商店位置，并使用Google [Places][2]向所有[!DNL Google Maps]添加有关商店的丰富信息。
 
 ## 嵌入Google地图的好处
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 如果您有一连串实体店，那么在您的网站上添加Google地图有助于以高亮显示的商品的形式提高您的品牌知名度和可信度。
 
-![示例店面 — 带有位置的地图](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
+![店面示例 — 带有位置](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}的地图
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -36,99 +36,99 @@ ht-degree: 0%
 
 | 工具 | 图标 | 描述 |
 |--- |--- |--- |
-| 移动 | ![“移动”图标](./assets/pb-icon-move.png){width="25"} | 将地图移动到舞台上的另一个位置。 |
+| 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将地图移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Map] | 将当前内容容器标识为映射。 将鼠标悬停在地图容器上可查看工具箱。 |
-| 设置 | ![“设置”图标](./assets/pb-icon-settings.png){width="25"} | 打开“编辑映射”页面，您可以在此页面更改映射和容器的属性。 |
-| 隐藏 | ![“隐藏”图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前映射。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开“编辑映射”页面，您可以在此页面更改映射和容器的属性。 |
+| 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前映射。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的地图。 |
-| 复制 | ![“复制”图标](./assets/pb-icon-duplicate.png){width="25"} | 制作地图副本。 |
-| 移除 | ![“删除”图标](./assets/pb-icon-remove.png){width="25"} | 从舞台上删除映射。 |
+| 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作地图副本。 |
+| 移除 | ![删除图标](./assets/pb-icon-remove.png){width="25"} | 从舞台上删除映射。 |
 
 {style="table-layout:auto"}
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## 配置 [!DNL Google Maps] （管理员）
+## 为您的管理员配置[!DNL Google Maps]
 
-添加映射之前，必须首先打开 [帐户][3] 免费试用 [!DNL Google Maps] 平台。 免费试用期为12个月，包含300美元的点数。 如果您用完了信用，Google不会在未经您允许的情况下对您的帐户计费。
+在添加映射之前，必须首先打开[帐户][3]以免费试用[!DNL Google Maps]平台。 免费试用期为12个月，包含300美元的点数。 如果您用完了信用，Google不会在未经您允许的情况下对您的帐户计费。
 
-### 步骤1：获取 [!DNL Google Maps] API密钥
+### 步骤1：获取您的[!DNL Google Maps] API密钥
 
-根据您是否拥有 [!DNL Google Maps] 密钥，使用以下过程之一获取配置所需的API密钥。 要设置 [!DNL Google Maps] 密钥，您必须是获得授权可为帐户启用帐单的站点管理员。 如果您还没有准备好设置 [!DNL Google Maps] Platform帐户中，您可以跳过此步骤，暂时使用占位符映射。
+根据您是否已经拥有[!DNL Google Maps]密钥，使用以下过程之一获取配置所需的API密钥。 要设置[!DNL Google Maps]密钥，您必须是有权为您的帐户启用帐单的站点管理员。 如果您尚未准备好设置[!DNL Google Maps]平台帐户，则可以跳过此步骤，暂时使用占位符映射。
 
-1. 转到 [Google Cloud平台控制台](https://cloud.google.com/console/google/maps-apis/overview).
+1. 转到[Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview)。
 
 1. 单击项目下拉列表，然后选择或创建要为其添加API密钥的项目。
 
-1. 要配置API凭据，请按照 [说明][4] 在 [!DNL Google Maps] 文档。
+1. 要配置API凭据，请按照[!DNL Google Maps]文档中的[说明][4]操作。
 
 1. 将API密钥复制到剪贴板。
 
-### 步骤2：配置 [!DNL Google Maps] 在 [!DNL Commerce]
+### 步骤2：在[!DNL Commerce]中配置[!DNL Google Maps]
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的 _[!UICONTROL General]_，选择&#x200B;**[!UICONTROL Content Management]**.
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
    ![高级内容工具](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   有关内容管理高级工具配置选项的详细信息，请参见 [配置参考指南](../configuration-reference/general/content-management.md).
+   有关内容管理高级工具配置选项的详细信息，请参阅[配置参考指南](../configuration-reference/general/content-management.md)。
 
-1. 对象 **[!UICONTROL Google Maps API Key]**，粘贴您在步骤1中复制的密钥。
+1. 对于&#x200B;**[!UICONTROL Google Maps API Key]**，粘贴您在步骤1中复制的密钥。
 
-1. 单击 **[!UICONTROL Test Key]**.
+1. 单击&#x200B;**[!UICONTROL Test Key]**。
 
-   如果您的钥匙有问题，请返回 [!DNL Google Maps] Platform站点来解决问题。 然后，重试。
+   如果您的密钥有问题，请返回[!DNL Google Maps]平台网站以解决该问题。 然后，重试。
 
-1. 验证密钥后，单击 **[!UICONTROL Save Config]**.
+1. 验证密钥后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 将地图添加到舞台
 
-1. 打开页面、块或动态块以访问 [!DNL Page Builder] 工作区。
+1. 打开[!DNL Page Builder]工作区的页面、块或动态块。
 
-1. 在 [!DNL Page Builder] 面板，展开 **[!UICONTROL Media]** 并拖动 **[!UICONTROL Map]** 舞台占位符。
+1. 在[!DNL Page Builder]面板中，展开&#x200B;**[!UICONTROL Media]**&#x200B;并将&#x200B;**[!UICONTROL Map]**&#x200B;占位符拖到舞台上。
 
-   ![将地图拖到舞台上](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![将地图拖到舞台](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
-   如果 [!DNL Google Maps] 已为您的商店配置平台，将显示商店位置的地图。
+   如果为商店配置了[!DNL Google Maps]平台，则会显示商店位置的地图。
 
    ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
-   如果 [!DNL Google Maps] 尚未为您的存储配置平台，而是会显示一个占位符映射。
+   如果尚未为您的存储配置[!DNL Google Maps]平台，则会显示占位符映射。
 
-   ![[!DNL Google Maps] 占位符](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps]占位符](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## 添加自定义映射位置
 
-1. 将鼠标悬停在地图容器上以显示工具箱，然后选择 _设置_ ( ![“设置”图标](./assets/pb-icon-settings.png){width="20"} )图标。
+1. 将鼠标悬停在地图容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-1. 在右上角 _[!UICONTROL Edit Map]_页面，单击&#x200B;**[!UICONTROL Add Location]**.
+1. 在&#x200B;_[!UICONTROL Edit Map]_页面的右上角，单击&#x200B;**[!UICONTROL Add Location]**。
 
-1. 输入 **[!UICONTROL Location Name]** 要与地图上的pin相关联。
+1. 输入要与地图上的pin关联的&#x200B;**[!UICONTROL Location Name]**。
 
 1. 收集要用于自定义位置的位置坐标。
 
-   或者，在 **[!UICONTROL Position]** 框内，可在显示的图表中拖动图钉。
+   或者，在&#x200B;**[!UICONTROL Position]**&#x200B;框中，您可以拖动所显示地图中的图钉。
 
-   如有必要，请转到 [[!DNL Google Maps]][5] 在新的浏览器窗口中并使用以下方法之一获取坐标：
+   如有必要，请在新的浏览器窗口中转到[[!DNL Google Maps]][5]，然后使用以下方法之一获取坐标：
 
-   ![地图坐标](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
+   ![映射坐标](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
-   **方法1：** 从URL复制
+   **方法1：**&#x200B;从URL复制
 
-   - 在左上角的 **[!UICONTROL Search]** 框并单击 _Search_ ( ![“搜索”图标](../assets/icon-magnify-search.png){width="20"} )图标。
+   - 在左上角的&#x200B;**[!UICONTROL Search]**&#x200B;框中输入地址，然后单击&#x200B;_搜索_ （![搜索图标](../assets/icon-magnify-search.png){width="20"} ）图标。
 
    - 复制URL中的坐标并将其粘贴到记事本中。
 
-   **方法2：** 从“这是什么？”
+   **方法2：**&#x200B;从“此处是什么？”复制
 
-   - 右键单击在地图上标记位置的红色管脚，然后选择 **[!UICONTROL What's here?]** 在菜单中。
+   - 右键单击在地图上标记位置的红色图钉，然后在菜单中选择&#x200B;**[!UICONTROL What's here?]**。
 
    - 在显示的标签中，复制文本（包括坐标）并将文本粘贴到记事本中。
 
-1. 在每个URL中输入数字，不带逗号 **[!UICONTROL Coordinates]** 盒子。
+1. 在每个&#x200B;**[!UICONTROL Coordinates]**&#x200B;框中输入数字（不带逗号）。
 
    您还可以输入要在地图上可用的剩余信息。
 
@@ -146,47 +146,47 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新位置将显示在地图中，并显示在上的地图位置网格中。 _[!UICONTROL Edit Map]_页面。
+   新位置将显示在&#x200B;_[!UICONTROL Edit Map]_页上的地图和地图位置网格中。
 
-   ![[!DNL Page Builder]  — 映射位置网格](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] — 映射位置网格](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## 为地图设置样式 {#styling}
 
-使用 [!DNL Google Maps] 平台样式向导，用于应用六个预定义主题之一或创建自定义主题。 您可以生成包含映射样式属性或指向样式化映射的链接的JSON文件。
+使用[!DNL Google Maps]平台样式向导应用六个预定义主题之一或创建自定义主题。 您可以生成包含映射样式属性或指向样式化映射的链接的JSON文件。
 
 ### 更改映射样式
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的 _[!UICONTROL General]_，选择&#x200B;**[!UICONTROL Content Management]**.
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
-1. 在 **[!UICONTROL Google Maps Style]** 文本框，单击 [创建映射样式][6].
+1. 在&#x200B;**[!UICONTROL Google Maps Style]**&#x200B;文本框下，单击[创建映射样式][6]。
 
-   此操作将打开 [[!DNL Google Maps] 平台样式向导][6] 在单独的选项卡中，您可以为其定义样式 [!DNL Google Maps] 平台项目。
+   此操作将在单独的选项卡中打开[[!DNL Google Maps] 平台样式向导][6]，您可以在其中定义[!DNL Google Maps]平台项目的样式。
 
-1. 单击 **[!UICONTROL Create a Style]** 并按照提供的说明操作。
+1. 单击&#x200B;**[!UICONTROL Create a Style]**&#x200B;并按照提供的说明操作。
 
-   完成后，单击 **[!UICONTROL Finish]**.
+   完成后，单击&#x200B;**[!UICONTROL Finish]**。
 
-1. 将完成的样式导出为JSON代码或URL，以便将其添加到 [!DNL Commerce] 配置。
+1. 将完成的样式导出为JSON代码或URL，以便将其添加到[!DNL Commerce]配置。
 
-   - **JSON**：在包含生成的JSON代码的框下，单击 **[!UICONTROL Copy JSON]**.
+   - **JSON**：在包含生成的JSON代码的框下，单击&#x200B;**[!UICONTROL Copy JSON]**。
 
-   - **[!UICONTROL URL]**：在生成的URL所在的框下，单击 **[!UICONTROL Copy URL]**.
+   - **[!UICONTROL URL]**：在带有所生成URL的框下，单击&#x200B;**[!UICONTROL Copy URL]**。
 
-1. 返回您的管理员浏览器选项卡，并将生成的代码或URL粘贴到 **Google映射样式** 盒子。
+1. 返回到“管理员浏览器”选项卡，并将生成的代码或URL粘贴到&#x200B;**Google映射样式**&#x200B;框中。
 
-   如果您使用的是URL，请将 `YOUR_API_KEY` 占位符与您的 [!DNL Google Maps] API密钥。 此URL链接到您样式化的Google地图。
+   如果您使用的是URL，请将`YOUR_API_KEY`占位符替换为您的[!DNL Google Maps] API密钥。 此URL链接到您样式化的Google地图。
 
-1. 在右上角，单击 **[!UICONTROL Save Config]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Save Config]**。
 
 ### 更改映射设置
 
-1. 将鼠标悬停在地图容器上以显示工具框并选择 _设置_ ( ![“设置”图标](./assets/pb-icon-settings.png){width="20"} )图标。
+1. 将鼠标悬停在地图容器上以显示工具框，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
 1. 根据需要更改基本设置：
 
@@ -197,9 +197,9 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 修改 _[!UICONTROL Advanced]_根据需要进行设置：
+1. 根据需要修改&#x200B;_[!UICONTROL Advanced]_设置：
 
-   - 要控制添加到容器的地图内容的水平位置，请选择 **[!UICONTROL Alignment]**：
+   - 要控制添加到容器的地图内容的水平位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
      | 选项 | 描述 |
      | ------ | ----------- |
@@ -210,7 +210,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 设置 **[!UICONTROL Border]** 应用于地图容器所有四个边的样式：
+   - 设置应用于地图容器所有四面的&#x200B;**[!UICONTROL Border]**&#x200B;样式：
 
      | 选项 | 描述 |
      | ------ | ----------- |
@@ -227,7 +227,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 如果设置的边框样式不是 `None`，完成边框显示选项：
+   - 如果设置了除`None`之外的边框样式，请完成边框显示选项：
 
      ![边框颜色](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -239,11 +239,11 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - （可选）指定以下项目的名称： **[!UICONTROL CSS classes]** 要应用于映射容器的当前样式表中。
+   - （可选）从当前样式表中指定要应用于映射容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 
      用空格分隔多个类名。
 
-   - 以像素为单位输入 **[!UICONTROL Margins and Padding]** 指定地图容器的外边距和内边距。
+   - 输入&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;的值（以像素为单位）以指定地图容器的外边距和内边距。
 
      在映射容器图中输入每个相应的值。
 
@@ -258,31 +258,31 @@ ht-degree: 0%
      >
      >填充对映射内容类型不可用。
 
-1. 完成后，单击 **[!UICONTROL Save]** 以应用设置并返回到 [!DNL Page Builder] 工作区。
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
 ### 更改网格大小
 
-网格大小确定与关联的地图的大小 [列](column.md) 在 [!DNL Page Builder] 暂存。 默认情况下，映射的宽度为12列，最大为16列。
+网格大小确定与[!DNL Page Builder]阶段上的[列](column.md)相关的映射的大小。 默认情况下，映射的宽度为12列，最大为16列。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的 _[!UICONTROL General]_，选择&#x200B;**[!UICONTROL Content Management]**.
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
 1. 根据需要更新网格选项：
 
    >[!NOTE]
    >
-   >如有需要，清除 **[!UICONTROL Use system value]** 复选框，以修改这些设置。
+   >如果需要，请清除&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以修改这些设置。
 
-   - 对象 **[!UICONTROL Default Column Grid Size]**&#x200B;中，为网格的默认大小输入新值。
+   - 对于&#x200B;**[!UICONTROL Default Column Grid Size]**，为网格的默认大小输入新值。
 
-   - 对象 **[!UICONTROL Maximum Column Grid Size]**，输入新的默认最大网格大小值。
+   - 对于&#x200B;**[!UICONTROL Maximum Column Grid Size]**，输入新的默认最大网格大小值。
 
    ![列网格大小设置](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://cloud.google.com/maps-platform/places/

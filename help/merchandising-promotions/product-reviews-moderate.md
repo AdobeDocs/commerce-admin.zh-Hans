@@ -12,67 +12,67 @@ ht-degree: 0%
 
 # 审核产品审核
 
-对于Commerce产品审阅，提交的产品审阅必须获得批准才能显示。 这可确保审核适合公开展示您的商店。 已提交的审核位于 `Pending` 状态，直到它被批准或拒绝。
+对于Commerce产品审阅，提交的产品审阅必须获得批准才能显示。 这可确保审核适合公开展示您的商店。 已提交的审核处于`Pending`状态，直到被批准或拒绝。
 
 ## 在管理员中查看产品评论
 
 要在管理员中查看特定产品的所有审阅，请执行以下操作：
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 找到要查看的产品，然后单击 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_列。
+1. 找到要查看的产品，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在产品页面上，向下滚动并展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Product Reviews]** 部分。
+1. 在产品页面上，向下滚动并展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Product Reviews]**&#x200B;部分。
 
-   在此网格中，您还可以通过单击 **[!UICONTROL Edit]** 中的链接 _[!UICONTROL Action]_列。
+   在此网格中，您还可以通过单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**链接来更改特定审核。
 
 ## 审核的更新状态
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**。
 
 1. 在列表中，单击挂起的审阅以查看详细信息并在必要时进行编辑。
 
-1. 更改 **[!UICONTROL Status]** 根据您的评估：
+1. 根据您的评估更改&#x200B;**[!UICONTROL Status]**：
 
-   - 要批准待处理审阅，请选择 `Approved`.
+   - 要批准待处理审阅，请选择`Approved`。
 
-   - 要拒绝审核，请选择 `Not Approved`. 未批准的审阅从列表中消失 _[!UICONTROL Pending Reviews]_页面。
+   - 要拒绝审核，请选择`Not Approved`。 未批准的审阅从&#x200B;_[!UICONTROL Pending Reviews]_页面的列表中消失。
 
    >[!NOTE]
    >
-   >与一起审核 `Pending` 和 `Not Approved` 店面不会显示状态。
+   >具有`Pending`和`Not Approved`状态的审阅不会显示在店面上。
 
-1. 如果适用，请设置 **[!UICONTROL Visibility]** 出现在不同商店视图中的产品评论。
+1. 如果适用，请将产品评论的&#x200B;**[!UICONTROL Visibility]**&#x200B;设置为显示在不同的商店视图中。
 
-1. 如果需要，请更改 **[!UICONTROL Detailed Rating]**， **[!UICONTROL Nickname]**、和 **[!UICONTROL Summary of Review]**.
+1. 如果需要，请更改&#x200B;**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**&#x200B;和&#x200B;**[!UICONTROL Summary of Review]**&#x200B;的值。
 
-   要更改可查看的存储区视图，请在 _[!UICONTROL Visibility]_列。
+   要更改可查看的存储区视图，请在&#x200B;_[!UICONTROL Visibility]_列中选择所需的存储区视图。
 
-   ![编辑审阅页面](./assets/edit-review-page.png){width="600" zoomable="yes"}
+   ![编辑审核页面](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Review]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Review]**。
 
 ## 批量更新
 
 您可以同时更新或删除多个审阅：
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**。
 
 1. 选择要更新的审阅。
 
-1. 使用 _[!UICONTROL Action]_选择器来应用操作。
+1. 使用左上角的&#x200B;_[!UICONTROL Action]_选择器应用操作。
 
-1. 单击 **[!UICONTROL Submit]**
+1. 单击&#x200B;**[!UICONTROL Submit]**
 
 ## 删除产品评论
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**。
 
 1. 找到要删除的产品评论，然后在编辑模式下打开它。
 
-1. 在菜单栏中，单击 **[!UICONTROL Delete Review]** 按钮。
+1. 在菜单栏中，单击&#x200B;**[!UICONTROL Delete Review]**&#x200B;按钮。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
 ## 按钮栏
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 变量引用
 
-最多 [电子邮件模板](email-template-custom.md) 部分为 [预定义变量](variables-predefined.md) 模板的特定属性。 以下列表包含常用电子邮件模板及其关联变量的示例。
+大多数[电子邮件模板](email-template-custom.md)都有一个特定于该模板的[预定义变量](variables-predefined.md)部分。 以下列表包含常用电子邮件模板及其关联变量的示例。
 
 ## 电子邮件模板变量
 

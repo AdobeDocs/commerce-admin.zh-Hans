@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-通过将客户区段与关联，该客户区段可用于目标促销 [购物车价格规则](../merchandising-promotions/price-rules-cart.md).
+通过将客户区段与[购物车价格规则](../merchandising-promotions/price-rules-cart.md)相关联，可将其用于目标促销。
 
 ![购物车价格规则 — 目标客户区段](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
 _**要将区段与购物车价格规则关联，请执行以下操作：**_
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _促销活动_ > **[!UICONTROL Cart Price Rules]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _促销活动_ > **[!UICONTROL Cart Price Rules]**。
 
 1. 打开新规则或现有规则：
 
-   * 要使用新规则，请单击 **[!UICONTROL Add New Rule]** 在右上角。
+   * 要使用新规则，请单击右上角的&#x200B;**[!UICONTROL Add New Rule]**。
    * 要使用现有规则，请单击列表中的规则以在编辑模式下将其打开。
 
-1. 向下滚动并展开 **[!UICONTROL Conditions]** 部分。
+1. 向下滚动并展开&#x200B;**[!UICONTROL Conditions]**&#x200B;部分。
 
 1. 添加条件。
 
-   * 单击 _添加_ (![列表图标](../assets/icon-add-green-circle.png))图标，显示条件的列表。 然后，选择 **[!UICONTROL Customer Segment]**.
+   * 单击&#x200B;_添加_ （![列表图标](../assets/icon-add-green-circle.png)）图标，该图标显示条件列表。 然后选择&#x200B;**[!UICONTROL Customer Segment]**。
 
    ![购物车价格规则 — 添加客户区段条件](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
-   默认情况下，该条件设置为查找匹配条件。 如果需要，请单击 **[!UICONTROL matches]** 链接并将运算符更改为以下任一项：
+   默认情况下，该条件设置为查找匹配条件。 如果需要，请单击&#x200B;**[!UICONTROL matches]**&#x200B;链接，并将运算符更改为以下操作之一：
 
    * `does not match`
    * `is one of`
@@ -43,14 +43,14 @@ _**要将区段与购物车价格规则关联，请执行以下操作：**_
 
    ![条件运算符](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. 要定位特定区段，请单击更多 **...** 用于显示其他选项的链接。 然后，单击 _选择器_ (![列表图标](../assets/icon-list-chooser.png))图标，以显示客户区段的列表。
+1. 要定位特定区段，请单击“更多&#x200B;**...**”链接以显示其他选项。 然后，单击&#x200B;_选择器_ （![列表图标](../assets/icon-list-chooser.png)）图标以显示客户区段列表。
 
 1. 在列表中，选中要以条件定位的每个区段的复选框。
 
    ![购物车价格规则 — 条件选择器列表](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Select]** 将选定的客户区段置于条件中。
+1. 单击&#x200B;**[!UICONTROL Select]**&#x200B;将所选客户区段置于条件中。
 
 1. 根据需要完成价格规则的其余部分。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。

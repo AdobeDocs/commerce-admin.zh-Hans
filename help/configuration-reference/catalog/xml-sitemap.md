@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]’
-description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap] 商务管理员页面。
+title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]'
+description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]页面上的配置设置。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,10 +20,10 @@ ht-degree: 2%
 
 <!-- [Categories Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 商店视图 | 确定Sitemap类别的更新频率。 选项： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 商店视图 | 值介于 `0.0` 和 `1.0` 确定类别Sitemap更新相对于其他内容的优先级。 零(`0.0`)的优先级最低。 |
+| [!UICONTROL Priority] | 商店视图 | 介于`0.0`和`1.0`之间的值，该值确定类别站点地图更新相对于其他内容的优先级。 零(`0.0`)具有最低优先级。 |
 
 {style="table-layout:auto"}
 
@@ -33,10 +33,10 @@ ht-degree: 2%
 
 <!-- [Products Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 商店视图 | 确定Sitemap产品的更新频率。 选项： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 商店视图 | 值介于 `0.0` 和 `1.0` 确定产品站点地图更新相对于其他内容的优先级。 零(`0.0`)的优先级最低。 |
+| [!UICONTROL Priority] | 商店视图 | 介于`0.0`和`1.0`之间的值，该值确定产品站点地图更新相对于其他内容的优先级。 零(`0.0`)具有最低优先级。 |
 | [!UICONTROL Add Images into Sitemap] | 商店视图 | 确定图像在站点地图中的包含范围。 选项： `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -47,19 +47,19 @@ ht-degree: 2%
 
 <!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 商店视图 | 确定Sitemap CMS页面的更新频率。 选项： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 商店视图 | 值介于 `0.0` 和 `1.0` 确定CMS页面Sitemap更新相对于其他内容的优先级。 零(`0.0`)的优先级最低。 |
+| [!UICONTROL Priority] | 商店视图 | 一个介于`0.0`和`1.0`之间的值，它确定CMS页面Sitemap更新相对于其他内容的优先级。 零(`0.0`)具有最低优先级。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 商店视图 | 确定存储URL的更新频率。 选项： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 商店视图 | 值介于 `0.0` 和 `1.0` 确定存储URL更新相对于其他内容的优先级。 零(`0.0`)的优先级最低。 |
+| [!UICONTROL Priority] | 商店视图 | 介于`0.0`和`1.0`之间的值，该值确定存储URL更新相对于其他内容的优先级。 零(`0.0`)具有最低优先级。 |
 
 {style="table-layout:auto"}
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 <!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 商店视图 | 确定XML Sitemap是否可用于存储。 选项： `Yes` / `No` |
 | [!UICONTROL Start Time] | 商店视图 | 指定站点地图在一天中的小时、分钟和秒进行更新。 |
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 <!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Maximum No of URLs Per File] | 商店视图 | 确定单个站点地图中可以包含的最大URL数。 |
 | [!UICONTROL Maximum File Size] | 商店视图 | 确定生成的站点地图的最大大小（字节）。 |
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 <!-- [Search Engine Submission Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | 商店视图 | 允许为robots.txt文件提交指令。 选项： `Yes` / `No` |
 

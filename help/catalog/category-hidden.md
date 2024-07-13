@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ## 创建隐藏类别
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 在类别树中，选择要隐藏的类别，然后执行以下操作：
 
-   - 设置 **[!UICONTROL Is Active]** 到 `Yes`.
-   - 设置 **[!UICONTROL Include in Menu]** 到 `No`.
+   - 将&#x200B;**[!UICONTROL Is Active]**&#x200B;设置为`Yes`。
+   - 将&#x200B;**[!UICONTROL Include in Menu]**&#x200B;设置为`No`。
 
-1. 在 **[!UICONTROL Display Settings]** 部分，设置 **[!UICONTROL Anchor]** 到 `No`.
+1. 在&#x200B;**[!UICONTROL Display Settings]**&#x200B;部分中，将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`No`。
 
-   ![隐藏类别](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![隐藏的类别](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    隐藏类别处于活动状态，但不显示在顶部菜单或分层导航中。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
    >
    >尽管类别是隐藏的，但您可以在其下面创建子类别并使它们处于活动状态。
 
-   - 设置 **[!UICONTROL Enable Category]** 到 `Yes`.
-   - 在 **[!UICONTROL Display Settings]** 部分，设置 **[!UICONTROL Anchor]** 到 `Yes`.
+   - 将&#x200B;**[!UICONTROL Enable Category]**&#x200B;设置为`Yes`。
+   - 在&#x200B;**[!UICONTROL Display Settings]**&#x200B;部分中，将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
 
    作为活动类别，您现在可以从商店中的其他位置链接到它们，但它们不会显示在菜单中。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。

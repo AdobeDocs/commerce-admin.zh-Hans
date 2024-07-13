@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Customers] &gt； [!UICONTROL Newsletter]’
-description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Newsletter] 商务管理员页面。
+title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Newsletter]'
+description: 查看Commerce管理员的[!UICONTROL Customers] &amp；gt； [!UICONTROL Newsletter]页面上的配置设置。
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新闻稿是营销工具的一部分，允许向客户发送新闻、折扣和其他营销电子邮件。 注册客户可以从以下地址管理其订购： [帐户信息板](../../customers/account-dashboard-my-account.md).
+>新闻稿是营销工具的一部分，允许向客户发送新闻、折扣和其他营销电子邮件。 注册客户可以从其[帐户信息板](../../customers/account-dashboard-my-account.md)管理其订阅。
 
 ## [!UICONTROL General Options]
 
 ![常规选项](./assets/newsletter-general-options.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 商店视图 | 确定是否为存储视图范围启用新闻稿。 选项： `Yes` / `No` |
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Allow Guest Subscription] | 商店视图 | 确定未注册的来宾是否可以订阅新闻稿。 选项： `Yes` / `No` |
 | [!UICONTROL Need to Confirm] | 商店视图 | 确定是否必须确认订阅请求。 这种双重选择加入方法是一种验证措施，可防止未经用户同意而订阅用户。 选项： `Yes` / `No` |

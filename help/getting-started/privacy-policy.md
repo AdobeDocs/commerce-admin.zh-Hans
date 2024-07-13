@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 存储隐私策略
 
-您的商店包含必须使用您自己的信息更新的示例隐私策略。 您的隐私政策应描述贵公司收集的信息类型以及信息的使用方式。 它还应列出以下的文件名： [Cookie](compliance-cookie-law.md#default-cookies) 放在访问您商店的用户的电脑上。 与第三方扩展和加载项关联的任何其他Cookie都应包含在列表中。
+您的商店包含必须使用您自己的信息更新的示例隐私策略。 您的隐私政策应描述贵公司收集的信息类型以及信息的使用方式。 它还应列出访问您商店的用户计算机上放置的[Cookie](compliance-cookie-law.md#default-cookies)的文件名。 与第三方扩展和加载项关联的任何其他Cookie都应包含在列表中。
 
 ## 个人数据
 
@@ -34,18 +34,18 @@ ht-degree: 0%
 >
 >Luma示例数据包含一个示例隐私策略，您可以修改该策略以供使用。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，查找 **[!UICONTROL Privacy Policy]**. 然后，在 _[!UICONTROL Action]_列，单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**.
+1. 在网格中，查找&#x200B;**[!UICONTROL Privacy Policy]**。 然后，在&#x200B;_[!UICONTROL Action]_列中单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
    >[!NOTE]
    >
-   >如果更改隐私策略页面的URL密钥，则还必须创建 [自定义URL重写](../merchandising-promotions/url-rewrite-custom.md) 将流量重定向到新的URL密钥。 否则，页脚中的链接将返回 `404 Page Not Found`.
+   >如果更改隐私策略页面的URL密钥，则还必须创建[自定义URL重写](../merchandising-promotions/url-rewrite-custom.md)以将流量重定向到新的URL密钥。 否则，页脚中的链接返回`404 Page Not Found`。
 
-1. 展开 **[!UICONTROL Content]** 并对内容进行必要的更改。
+1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分并对内容进行必要的更改。
 
-   要了解有关使用页面内容工具的更多信息，请参阅 [完成内容](../content-design/page-add.md#step-2-complete-the-content) 在 _内容和设计指南_.
+   要了解有关使用页面内容工具的更多信息，请参阅&#x200B;_内容和设计指南_&#x200B;中的[完成内容](../content-design/page-add.md#step-2-complete-the-content)。
 
-   ![“隐私策略”页面 — 编辑内容](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![隐私策略页面 — 编辑内容](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Page]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Page]**。

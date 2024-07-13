@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 移动类别
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 要移动类别，请将该类别拖放到树中的新位置。
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 
    已删除的类别无法恢复，因此在继续之前请确保选择了正确的类别。
 
-1. 单击 **[!UICONTROL Delete Category]**.
+1. 单击&#x200B;**[!UICONTROL Delete Category]**。
 
-1. 提示确认时，单击 **[!UICONTROL OK]**.
+1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
-您还可以 [更新事件](../merchandising-promotions/event-create.md#create-and-update-events) 从以下任一位置与类别关联： **[!UICONTROL Events]** 页面或 **[!UICONTROL Category]** 页面。
+您还可以从&#x200B;**[!UICONTROL Events]**&#x200B;页面或&#x200B;**[!UICONTROL Category]**&#x200B;页面[更新与类别关联的事件](../merchandising-promotions/event-create.md#create-and-update-events)。

@@ -1,32 +1,32 @@
 ---
-title: ’[!DNL Commerce Intelligence] 工具'
-description: 了解Adobe Commerce和Magento Open Source商户如何使用Commerce Intelligence工具获得用于制定合理业务决策的见解。
+title: “[!DNL Commerce Intelligence]工具”
+description: 了解Adobe Commerce和Magento Open Source商家如何使用Commerce Intelligence工具获得用于制定合理业务决策的见解。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce Intelligence] 工具
+# [!DNL Commerce Intelligence]工具
 
-使用Commerce Intelligence工具获取用于制定合理业务决策的见解。
+使用Commerce Intelligence工具获得用于制定明智业务决策的见解。
 
-## [!DNL Commerce Intelligence] 帐户
+## [!DNL Commerce Intelligence]帐户
 
-当您激活 [!DNL Commerce Intelligence] 通过Adobe，您可以访问五个包含大约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅 [Commerce Intelligence用户指南][1].
+当您通过Adobe激活[!DNL Commerce Intelligence]帐户时，您将有权访问五个包含大约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅[Commerce Intelligence用户指南][1]。
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] 包含在Adobe Commerce和Magento Open Source中。 通过此功能，您可以访问基于您的产品、订单和客户数据的一组动态报表，并根据您的业务需求定制个性化仪表板。 同时 [!DNL Advanced Reporting] 用途 [!DNL Commerce Intelligence] 对于Analytics，您无需拥有Commerce Intelligence帐户即可使用 [!DNL Advanced Reporting].
+[!DNL Advanced Reporting]包含在Adobe Commerce和Magento Open Source中。 通过此功能，您可以访问基于您的产品、订单和客户数据的一组动态报表，并根据您的业务需求定制个性化仪表板。 当[!DNL Advanced Reporting]使用[!DNL Commerce Intelligence]进行Analytics时，您无需拥有Commerce Intelligence帐户即可使用[!DNL Advanced Reporting]。
 
-有关技术信息，请参见 [[!DNL Advanced Reporting]][2]开发人员文档中的{：target=&quot;_blank&quot;}主题。
+有关技术信息，请参阅开发人员文档中的[[!DNL Advanced Reporting]][2]{：target=&quot;_blank&quot;}主题。
 
 >[!NOTE]
 >
->由于与的兼容性问题 [!DNL Adobe Commerce Intelligence]，Commerce暂时无法支持使用AWS S3存储段作为中源数据文件的媒体的高级报表 [!DNL Commerce Intelligence].
+>由于与[!DNL Adobe Commerce Intelligence]的兼容性问题，Commerce暂时无法支持使用AWS S3存储段作为[!DNL Commerce Intelligence]中源数据文件的介质的高级报表。
 
 ![高级报告仪表板](./assets/reporting-advanced.png){width="700"}
 
@@ -36,94 +36,94 @@ ht-degree: 0%
 
 * 域必须具有有效的安全(SSL)证书。
 
-* [!DNL Commerce] 必须已成功安装或升级，并且没有错误。
+* [!DNL Commerce]必须安装或升级成功，并且没有错误。
 
-* 在 [!DNL Commerce] 配置 [存储URL](../stores-purchase/store-urls.md)， **[!UICONTROL Base URL (Secure)]** 存储视图的设置必须指向安全URL。 例如： `https://yourdomain.com`.
+* 在[存储URL](../stores-purchase/store-urls.md)的[!DNL Commerce]配置中，存储视图的&#x200B;**[!UICONTROL Base URL (Secure)]**&#x200B;设置必须指向安全URL。 例如： `https://yourdomain.com`。
 
-* 在 [!DNL Commerce] 存储URL的配置， **[!UICONTROL Use Secure URLs on Storefront]** 和 **[!UICONTROL Use Secure URLs in Admin]** 必须设置为 `Yes`.
+* 在存储URL的[!DNL Commerce]配置中，**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;和&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;必须设置为`Yes`。
 
-* [[!DNL Commerce] crontab][3] 创建了cron作业，且该作业正在已安装的服务器上运行。
+* 已创建[[!DNL Commerce] crontab][3]，且已安装的服务器上正在运行cron作业。
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] 只能用于 [!DNL Commerce] 已持续使用单个 [基础货币](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting]只能与已连续使用单个[基础货币](../stores-purchase/currency-configuration.md)的[!DNL Commerce]安装一起使用。
 
 
-### 步骤1：启用 [!DNL Advanced Reporting]
+### 步骤1：启用[!DNL Advanced Reporting]
 
-在 [!DNL Commerce] 配置， [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) 默认启用，如果cron为，则自动启动 [已配置](../configuration-reference/advanced/system.md) 然后逃跑。 在接下来的24小时内，每小时开始时都会开始尝试建立订阅，直到成功。 在成功建立订阅之前，订阅状态为“挂起”。
+在[!DNL Commerce]配置中，[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md)默认启用，如果cron为[已配置](../configuration-reference/advanced/system.md)且正在运行，则会自动启动。 在接下来的24小时内，每小时开始时都会开始尝试建立订阅，直到成功。 在成功建立订阅之前，订阅状态为“挂起”。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧导航面板中，其中 **[!UICONTROL General]** 已展开，请选择 **[!UICONTROL Advanced Reporting]** 并执行以下操作：
+1. 在展开&#x200B;**[!UICONTROL General]**&#x200B;的左侧导航面板中，选择&#x200B;**[!UICONTROL Advanced Reporting]**&#x200B;并执行以下操作：
 
-   * 验证 **[!UICONTROL Advanced Reporting Service]** 设置为 `Enable` （默认设置）。
+   * 验证&#x200B;**[!UICONTROL Advanced Reporting Service]**&#x200B;是否设置为`Enable` （默认设置）。
 
-   * 设置 **[!UICONTROL Time of day to send data]** 根据24小时制，您希望服务从您的商店接收更新数据的时间（小时、分钟和秒）。 默认情况下，数据在凌晨2:00发送。
+   * 根据24小时制将&#x200B;**[!UICONTROL Time of day to send data]**&#x200B;设置为希望服务从您的存储接收更新数据的小时、分钟和秒。 默认情况下，数据在凌晨2:00发送。
 
-   * 下 **[!UICONTROL Industry Data]**，选择 **[!UICONTROL Industry]** 最能描述您的业务的。
+   * 在&#x200B;**[!UICONTROL Industry Data]**&#x200B;下，选择最能描述您的业务的&#x200B;**[!UICONTROL Industry]**。
 
    ![高级报告配置](./assets/advanced-reporting-config.png){width="400"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-1. 出现提示时，单击 **[[!UICONTROL Cache Management]](../systems/cache-management.md)** 并刷新任何无效的缓存。
+1. 出现提示时，单击页面顶部消息中的&#x200B;**[[!UICONTROL Cache Management]](../systems/cache-management.md)**&#x200B;并刷新任何无效缓存。
 
-1. 整夜等待，或等到下次计划更新时再更新。 然后，检查您的订阅的状态。 如果状态仍为 _待处理_，确保您的安装满足所有要求。
+1. 整夜等待，或等到下次计划更新时再更新。 然后，检查您的订阅的状态。 如果状态仍为&#x200B;_挂起_，请确保您的安装满足所有要求。
 
-### 步骤2：访问 [!DNL Advanced Reporting]
+### 步骤2：访问[!DNL Advanced Reporting]
 
 1. 执行以下操作之一：
 
-   * 在 _管理员_ 侧栏，选择 **[!UICONTROL Dashboard]**. 然后，单击 **[!UICONTROL Go to Advanced Reporting]**.
-   * 在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**.
+   * 在&#x200B;_管理员_&#x200B;侧边栏上，选择&#x200B;**[!UICONTROL Dashboard]**。 然后，单击&#x200B;**[!UICONTROL Go to Advanced Reporting]**。
+   * 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**。
 
-   此 [!DNL Advanced Reporting] 仪表板提供订单、客户和产品的快速摘要。 确保向下滚动以查看完整的功能板。
+   [!DNL Advanced Reporting]仪表板可快速汇总您的订单、客户和产品。 确保向下滚动以查看完整的功能板。
 
-1. 为了更好地查看数据，请设置 **[!UICONTROL Filters]** ，其中显示要包含在报表中的时段和存储视图。 然后，执行以下操作：
+1. 要更好地查看数据，请将右上角的&#x200B;**[!UICONTROL Filters]**&#x200B;设置为时段并存储要包含在报告中的视图。 然后，执行以下操作：
 
    * 将鼠标悬停在任意数据点上以了解更多信息。
    * 要查看所有功能板报表，请单击每个选项卡。
 
    ![数据点](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
-## 访问 [!DNL Advanced Reporting] 数据资源
+## 访问[!DNL Advanced Reporting]数据资源
 
-在高级报告功能板的右上角，单击 **[!UICONTROL Additional Resources]**.
+在高级报告仪表板的右上角，单击&#x200B;**[!UICONTROL Additional Resources]**。
 
 ![高级报告数据资源](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## 故障排除
 
-如果您收到404“页面未找到”消息，请验证您的商店是否满足以下要求 [!DNL Advanced Reporting]. 然后，按照说明验证集成是否已安装。
+如果您收到404“页面未找到”消息，请验证您的商店是否符合[!DNL Advanced Reporting]的要求。 然后，按照说明验证集成是否已安装。
 
 ### 验证集成是否处于活动状态
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**。
 
-1. 验证 **[!UICONTROL Magento Analytics user]** 集成将显示在列表中，并且 **[!UICONTROL Status]** 是 `Active`.
+1. 验证&#x200B;**[!UICONTROL Magento Analytics user]**&#x200B;集成是否显示在列表中，**[!UICONTROL Status]**&#x200B;是否为`Active`。
 
-1. 要重新建立用户，请单击 **[!UICONTROL Reauthorize]** 并执行以下操作：
+1. 要重新建立用户，请单击&#x200B;**[!UICONTROL Reauthorize]**&#x200B;并执行以下操作：
 
    ![重新授权](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
-   * 出现提示时，单击 **[!UICONTROL Reauthorize]** 批准对API资源的访问。
+   * 出现提示时，单击&#x200B;**[!UICONTROL Reauthorize]**&#x200B;批准对API资源的访问。
 
      ![重新授权对API资源的访问](./assets/advanced-reporting-integration-api.png){width="600"}
 
-   * 验证扩展的集成令牌列表是否完整。 然后，单击 **完成**.
+   * 验证扩展的集成令牌列表是否完整。 然后，单击&#x200B;**完成**。
 
      ![集成令牌](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
-1. 查找指示集成的消息 `Magento Analytics user` 已重新授权。
+1. 查找指示集成`Magento Analytics user`已重新授权的消息。
 
 1. 整夜等待或等到下次计划更新时再进行。
 
 ### 验证单一基础货币
 
-[!DNL Advanced Reporting] 只能用于 [!DNL Commerce] 仅使用单个的安装 [基础货币](../stores-purchase/currency-configuration.md) 从安装时起。 结果是，在历史记录中，所有订单都使用相同的基准货币。 [!DNL Advanced Reporting] 如果您在任何时候更改了基础货币，并且历史记录中有使用不同基础货币处理的订单，则无法正常工作。
+[!DNL Advanced Reporting]只能与自安装以来仅使用单个[基础货币](../stores-purchase/currency-configuration.md)的[!DNL Commerce]安装一起使用。 结果是，在历史记录中，所有订单都使用相同的基准货币。 如果您在任何时候更改了您的基础货币，并且历史记录中有使用不同基础货币处理的订单，则[!DNL Advanced Reporting]不起作用。
 
-要确定您的商店是否具有多个基本货币，您可以查询 [!DNL Commerce] 数据库从命令行使用以下MySQL示例。 您可能需要更改表名以匹配数据结构：
+要确定存储是否具有多个基本货币，可以使用以下MySQL示例从命令行查询[!DNL Commerce]数据库。 您可能需要更改表名以匹配数据结构：
 
 ```sql
 select distinct base_currency_code from sales_order;
@@ -131,7 +131,7 @@ select distinct base_currency_code from sales_order;
 
 ### 数据差异
 
-如果您注意到 `Data last updated...` 题注显示的是昨天的日期，而不是今天的日期，高级报告更新中可能会延迟多达一天。 此延迟是由于队列大小大于预期所致。
+如果您注意到`Data last updated...`标题显示的是昨天的日期，而不是今天的日期，则高级报告更新中的延迟时间可能最多为一天。 此延迟是由于队列大小大于预期所致。
 
 ## 信息板报表
 

@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 您可以使用配置设置的组合来控制产品页面上的库存可用性消息和目录页面上的产品列表。
 
-![带有“缺货”消息的分组产品](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![已使用“缺货”消息将产品分组](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## 产品页面库存消息
 

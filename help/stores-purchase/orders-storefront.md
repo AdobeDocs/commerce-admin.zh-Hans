@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-您的初始 _[!UICONTROL My Orders]_结果还包含来自商业实例中所有网站的从属用户的匹配订单。 与公司帐户关联的客户可以筛选订单列表，以快速查找结果中的记录。 要显示过滤器选项，客户单击&#x200B;**[!UICONTROL Filter]**，和点击次数&#x200B;**[!UICONTROL Close]**以隐藏筛选器。
+您的初始&#x200B;_[!UICONTROL My Orders]_结果还包含来自商业实例中所有网站的从属用户的匹配订单。 与公司帐户关联的客户可以筛选订单列表，以快速查找结果中的记录。 要显示筛选器选项，客户单击&#x200B;**[!UICONTROL Filter]**，然后单击&#x200B;**[!UICONTROL Close]**以隐藏筛选器。
 
 ![我的订单](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -34,25 +34,25 @@ ht-degree: 0%
 
 ## 查看订单
 
-客户在列表中找到订单并单击 **[!UICONTROL View Order]**. 从未结订单中，他们可以执行以下任一操作：
+客户在列表中找到订单并单击&#x200B;**[!UICONTROL View Order]**。 从未结订单中，他们可以执行以下任一操作：
 
 ![查看订单](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### 查看最近订购的产品
 
-此 **[!UICONTROL Recent Orders]** 块显示在侧栏和 **[!UICONTROL My Account]** 页面上的访客，这些访客在下订单后登录。 它显示上次购买的五个产品。
+对于在下订单后登录的客户，**[!UICONTROL Recent Orders]**&#x200B;块会显示在侧边栏和&#x200B;**[!UICONTROL My Account]**&#x200B;页面上。 它显示上次购买的五个产品。
 
-客户可以通过选择产品并单击 **[!UICONTROL Add to Cart]**. 他们还可以通过单击 **[!UICONTROL View all]**，重定向到 _[!UICONTROL My Account]_页面和&#x200B;**[!UICONTROL Recent Orders]**封锁。
+客户可以通过选择产品并单击&#x200B;**[!UICONTROL Add to Cart]**&#x200B;将产品读入购物车。 他们还可以通过单击&#x200B;**[!UICONTROL View all]**&#x200B;查看最后的订单，该订单将重定向到&#x200B;_[!UICONTROL My Account]_页面和&#x200B;**[!UICONTROL Recent Orders]**块。
 
 ### 打印订单
 
-1. 客户点击 **[!UICONTROL Print Order]**.
+1. 客户单击&#x200B;**[!UICONTROL Print Order]**。
 
 1. 按照“打印”对话框中的说明完成打印。
 
 ### 打印发票
 
-1. 在 **[!UICONTROL Invoices]** 选项卡，客户单击以下任一选项：
+1. 在&#x200B;**[!UICONTROL Invoices]**&#x200B;选项卡上，客户单击以下任一项：
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 打印装运
 
-1. 在 **[!UICONTROL Order Shipments]** 选项卡，客户单击以下任一选项：
+1. 在&#x200B;**[!UICONTROL Order Shipments]**&#x200B;选项卡上，客户单击以下任一项：
 
    - **[!UICONTROL Print All Shipments]**
 
@@ -76,15 +76,15 @@ ht-degree: 0%
 
 ### 跟踪装运
 
-1. 在 **[!UICONTROL Order Shipments]** 选项卡，单击 **[!UICONTROL Track this Shipment]**.
+1. 在&#x200B;**[!UICONTROL Order Shipments]**&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Track this Shipment]**。
 
    任何可用的跟踪信息都会显示在弹出窗口中。
 
-1. 准备就绪后，客户单击 **[!UICONTROL Close Window]**.
+1. 准备就绪后，客户单击&#x200B;**[!UICONTROL Close Window]**。
 
 ### 打印退款
 
-1. 在 **退款** 选项卡，客户单击以下任一选项：
+1. 在&#x200B;**退款**&#x200B;选项卡上，客户单击以下任一项：
 
    - **打印所有退款**
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. 使用“打印”对话框完成打印。
 
-当客户符合以下条件时，其将可获得重新订购： [_允许重新排序_](reorders-allow.md) 配置选项已启用。
+启用&#x200B;[_允许重新排序_](reorders-allow.md)&#x200B;配置选项后，客户可以使用重新排序。
 
 客户可以从以下两个页面启动特定订单的重新订购功能：
 
@@ -103,31 +103,31 @@ ht-degree: 0%
 
 ## 重新排序
 
-此 _[!UICONTROL Reorder]_链接会显示在列表中，订单位于_[!UICONTROL View]_ 链接。
+_[!UICONTROL Reorder]_链接显示在列表中，订单位于_[!UICONTROL View]_&#x200B;链接附近。
 
-![重新排序“我的订单”页面上的链接](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![重新排序我的订单页面上的链接](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
-**用例1.** 该订单中的所有产品均可用于重新排序
+**案例1。**&#x200B;订单中的所有产品都可供重新订购
 
 客户将被重定向到购物车，并且所有产品都会添加到购物车。
 
-**案例2.** 订单中的部分/所有产品不可重新订购
+**案例2.**&#x200B;订单中的部分/所有产品不可重新订购
 
 >[!NOTE]
 >
->可以重新排序 `Not Visible Individually` 产品。
+>可以对`Not Visible Individually`产品重新排序。
 
-此 _[!UICONTROL Reorder]_链接未出现在_[!UICONTROL My Orders]_ 和 _[!UICONTROL View Order]_页数。
+_[!UICONTROL Reorder]_链接未出现在_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_页面上。
 
-![我的订单页面](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![我的订单页](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->如果购物车不为空且客户单击 **[!UICONTROL Reorder]** (来自 [!UICONTROL My Orders] 或 [!UICONTROL Order View] 页面)，现有产品会保留在购物车中，并添加重新排序的产品。
+>如果购物车不为空且客户单击&#x200B;**[!UICONTROL Reorder]** （从[!UICONTROL My Orders]或[!UICONTROL Order View]页面），则现有产品将保留在购物车中，并添加重新订购产品。
 
 ## 取消订单
 
-取消适用于以下情况的客户： [_允许取消_](cancel-allow.md) 配置选项已启用。
+启用&#x200B;[_允许取消_](cancel-allow.md)&#x200B;配置选项后，客户即可使用“取消”。
 
 客户可以从以下三个页面为特定订单启动取消功能：
 
@@ -135,25 +135,25 @@ ht-degree: 0%
 - 订单查看页面
 - 我的帐户页面
 
-此 _[!UICONTROL Cancel Order]_链接显示在_[!UICONTROL Reorder]_ 链接。 如果无法取消订单，则不会显示链接。
+_[!UICONTROL Cancel Order]_链接显示在_[!UICONTROL Reorder]_&#x200B;链接附近。 如果无法取消订单，则不会显示链接。
 
-![我的订单页面上的取消链接](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+在“我的订单”页面上![取消链接](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 要执行取消，客户：
 
-1. 点击次数 **[!UICONTROL Cancel Order]**
+1. 单击&#x200B;**[!UICONTROL Cancel Order]**
 
 1. 提供取消原因
 
    ![取消订单原因](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   您可以自定义取消原因 [_允许取消_](cancel-allow.md) 页面。
+   您可以在&#x200B;[_允许取消_](cancel-allow.md)&#x200B;页面上自定义取消原因。
 
-1. 点击次数 **[!UICONTROL Confirm]**
+1. 单击&#x200B;**[!UICONTROL Confirm]**
 
-   ![在“我的订单”页面上取消](./assets/cancel-order.png){width="700" zoomable="yes"}
+   在“我的订单”页面上![取消](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   取消后，订单位于 _[!UICONTROL Pending]_状态，更改为_[!UICONTROL Canceled]_ 状态，订单所在的 _[!UICONTROL Processing]_状态，更改为_[!UICONTROL Closed]_ 将处理状态和退款。
+   取消后，将处理处于&#x200B;_[!UICONTROL Pending]_状态、更改为_[!UICONTROL Canceled]_&#x200B;状态、处于&#x200B;_[!UICONTROL Processing]_状态、更改为_[!UICONTROL Closed]_&#x200B;状态以及退款的订单。
 
    取消完成后，会向客户发送电子邮件。
 

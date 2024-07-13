@@ -6,33 +6,33 @@ feature: CMS, Media
 source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 保存Adobe Stock图像预览
 
-图像预览是Adobe Stock资源的带水印版本。 图像预览是免费的，是一种在决定之前尝试不同图像的好方法 [购买许可证][stock-license] ，并在您的生产商店中使用它们。
+图像预览是Adobe Stock资源的带水印版本。 图像预览是免费的，在决定[为特定图像购买许可证][stock-license]并在生产商店中使用它们之前，可以尝试使用不同的图像。
 
-当您准备好许可图像时， [[!DNL Media Gallery]](media-gallery.md) 提供了与Adobe Stock的直接集成，从而能够轻松地直接从图库页面许可图像。
+当您准备好许可图像时，新的[[!DNL Media Gallery]](media-gallery.md)提供了与Adobe Stock的直接集成，从而能够轻松地直接从图片库页面许可图像。
 
 ## 先决条件
 
-此功能需要 [Adobe Stock集成][adobe-stock-integration] 模块和配置。
+此功能需要[Adobe Stock集成][adobe-stock-integration]模块和配置。
 
 ## 保存预览图像
 
-1. [访问Adobe Stock搜索网格][access-search].
+1. [访问Adobe Stock搜索网格][access-search]。
 
-1. 至 [查看图像详细信息][view-details]，单击搜索网格中的图像。
+1. 要[查看图像详细信息][view-details]，请单击搜索网格中的图像。
 
-1. 单击 **[!UICONTROL Save Preview]**.
+1. 单击&#x200B;**[!UICONTROL Save Preview]**。
 
-   此操作会显示一个提示，提示您指定用于将图像保存到的文件名 [媒体存储][media-storage]. 提供了默认的文件名，但可以根据您的首选项自定义名称。
+   此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区][media-storage]的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 
    ![保存Adobe Stock预览图像](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Confirm]**.
+1. 单击&#x200B;**[!UICONTROL Confirm]**。
 
    页面将重定向到媒体存储，并且会显示您保存的预览。
 

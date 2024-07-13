@@ -18,17 +18,17 @@ ht-degree: 0%
 
 ## 定义角色
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
-1. 在右上角，单击 **[!UICONTROL Add New Role]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Add New Role]**。
 
 1. 完成以下步骤以定义角色：
 
 ### 步骤1：添加角色名称
 
-1. 下 _[!UICONTROL Role Information]_，输入描述性&#x200B;**[!UICONTROL Role Name]**.
+1. 在&#x200B;_[!UICONTROL Role Information]_下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 下 _[!UICONTROL Current User Identity Verification]_，输入您的密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入您的密码。
 
    ![系统权限 — 角色信息](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -38,24 +38,24 @@ ht-degree: 0%
 >
 >在分配资源时，如果您限制给定角色的访问权限，请确保禁用对权限工具的访问权限。 否则，用户能够修改自己的权限。
 
-1. 设置 **[!UICONTROL Role Scopes]** 更改为以下任一项：
+1. 将&#x200B;**[!UICONTROL Role Scopes]**&#x200B;设置为以下项之一：
 
    - `All`
    - `Custom`
 
-   如果设置为 `Custom` 对于多站点安装，选中将使用该角色的网站和商店的复选框。
+   如果针对多站点安装设置为`Custom`，请选中将使用该角色的网站和商店的复选框。
 
    ![用户角色资源 — 自定义范围](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >具有的用户 `Custom` 角色范围无法创建网站和类别、将产品分配给类别或编辑产品 _[!UICONTROL All Store Views]_将它们分配给受限存储时的范围。 这些用户也无法执行其他操作_&#x200B;全局&#x200B;_影响他们无权访问的范围的操作。
+   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
 
-1. 下 _[!UICONTROL Roles Resources]_，设置&#x200B;**[!UICONTROL Resource Access]**到 `Custom`.
+1. 在&#x200B;_[!UICONTROL Roles Resources]_下，将&#x200B;**[!UICONTROL Resource Access]**设置为`Custom`。
 
-1. 在 **[!UICONTROL Resource]** 树结构中，选中角色可以访问的每个管理员功能的复选框。
+1. 在&#x200B;**[!UICONTROL Resource]**&#x200B;树结构中，选中角色可以访问的每个管理员功能的复选框。
 
-   要创建有权访问税设置的管理员角色，请选择销售/税和系统/税资源。 如果为不同于默认区域的区域设置网站 [装运原点](../stores-purchase/shipping-settings.md#point-of-origin)中，您必须允许角色访问系统/配送资源。 配送设置确定用于目录价格的商店税率。
+   要创建有权访问税设置的管理员角色，请选择销售/税和系统/税资源。 如果为与默认[送货地点](../stores-purchase/shipping-settings.md#point-of-origin)不同的区域设置网站，则必须允许该角色访问系统/送货资源。 配送设置确定用于目录价格的商店税率。
 
    ![已分配的用户角色资源](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
@@ -63,37 +63,37 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理员用户必须具有 **[!UICONTROL Sales / Archive]** 其角色作用域的权限，以查看 _[!UICONTROL Invoices]_，_[!UICONTROL Credit Memos]_、和 _[!UICONTROL Shipments]_订购 [选项卡](../stores-purchase/order-processing.md).
+   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_顺序[选项卡](../stores-purchase/order-processing.md)。
 
-1. 完成后，单击 **[!UICONTROL Save Role]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Role]**。
 
    该角色现在显示在网格中，可以分配给用户帐户。
 
 ## 向用户分配角色
 
-1. 从 _[!UICONTROL Roles]_网格，在编辑模式下打开记录。
+1. 从&#x200B;_[!UICONTROL Roles]_网格中，以编辑模式打开记录。
 
-1. 下 _[!UICONTROL Current User Identity Verification]_，输入您的用户帐户密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入用户帐户密码。
 
-1. 在左侧面板中，选择 **[!UICONTROL Role Users]**.
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL Role Users]**。
 
-   此 _[!UICONTROL Role Users]_选项仅在保存新角色后显示。
+   _[!UICONTROL Role Users]_选项仅在保存新角色后显示。
 
    ![分配给角色的用户帐户](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. 要搜索特定用户记录，请执行以下操作：
 
-   - 在列顶部的搜索过滤器中输入值，然后按 **输入**.
+   - 在列顶部的搜索筛选器中输入值，然后按&#x200B;**Enter**。
 
-   - 当您准备好返回完整列表时，请单击 **[!UICONTROL Reset Filter]**.
+   - 当您准备好返回完整列表时，请单击&#x200B;**[!UICONTROL Reset Filter]**。
 
 1. 选中要分配给角色的任何用户的复选框。
 
-1. 单击 **[!UICONTROL Save Role]**.
+1. 单击&#x200B;**[!UICONTROL Save Role]**。
 
 ## 编辑角色
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
 1. 使用网格上方的筛选器找到角色，然后单击角色名称。
 
@@ -103,17 +103,17 @@ ht-degree: 0%
 
 1. 出现提示时，输入密码以确认您的身份。
 
-1. 单击 **[!UICONTROL Save Role]**.
+1. 单击&#x200B;**[!UICONTROL Save Role]**。
 
 ## 删除角色
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
 1. 使用网格上方的筛选器找到角色，并在编辑模式下打开。
 
-1. 在右上角，单击 **[!UICONTROL Delete Role]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Delete Role]**。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
 ## 用户角色演示
 
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 可将对以下资源的访问权限分配给自定义角色。 请参阅链接的页面，了解有关与每个资源关联的功能的更多信息。
 
-![Adobe Commerce](../assets/adobe-logo.svg)  — 仅限Adobe Commerce
+![Adobe Commerce](../assets/adobe-logo.svg) — 仅Adobe Commerce
 
-![Adobe Commerce B2B](../assets/b2b.svg)  — 仅适用于Adobe Commerce B2B
+![Adobe Commerce B2B](../assets/b2b.svg) — 仅适用于Adobe Commerce B2B
 
 | 资源 |   |   |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ ht-degree: 0%
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [内容暂存](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [正在暂存内容](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

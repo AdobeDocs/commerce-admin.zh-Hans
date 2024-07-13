@@ -14,14 +14,14 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**法律声明**<br/>
+>**法律免责声明**<br/>
 >此信息旨在帮助Adobe客户回答他们有关AdobeHIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
 
-**健康保险流通与责任法案(HIPAA)**
+**健康保险便携性和责任法案(HIPAA)**
 
-健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于 _覆盖的实体_ （如医疗保健提供商、保险商和清算所）和 _商业伙伴_ （如向所涉实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务合作伙伴，这些产品被Adobe分类为“HIPAA就绪服务”。 受HIPAA监管的数据称为 _受保护的健康信息_ 或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关更多信息，请参阅 [HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-ready.html) 在Adobe托管中心。
+健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于&#x200B;_覆盖的实体_（如医疗保健提供商、保险公司和清算所）和&#x200B;_商业伙伴_（如向覆盖的实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务合作伙伴，这些产品被Adobe分类为“HIPAA就绪服务”。 受HIPAA监管的数据称为&#x200B;_受保护的健康信息_&#x200B;或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关详细信息，请参阅Adobe信任中心中的[HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-ready.html)。
 
 >[!ENDSHADEBOX]
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 Adobe Commerce HIPAA就绪扩展为Adobe Commerce安装添加了其他特性和功能，使商家能够遵守各自的HIPAA义务。
 
-Adobe Commerce HIPAA就绪扩展， `magento/hipaa-ee` 可用于Adobe Commerce云基础架构或AdobeManaged Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅 [禁用的服务和功能](#disabled-services-and-features).
+Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Cloud Infrastructure或AdobeManaged Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅[已禁用的服务和功能](#disabled-services-and-features)。
 
 >[!NOTE]
 >
@@ -43,22 +43,22 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ## 安装
 
-**先决条件**
+**预修课程**
 
 >[!BEGINSHADEBOX]
 
 - Adobe已配置您的Adobe Commerce帐户以访问HIPAA Ready扩展。
-- 访问 [repo.magento.com](https://repo.magento.com) 以安装扩展。 有关密钥生成和获取必要权限的信息，请参阅 [获取您的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
 
 >[!ENDSHADEBOX]
 
-安装最新版本的AdobeHIPAA就绪服务扩展(`magento/hipaa-ee`)在运行Adobe Commerce版本2.4.6-p3或更高版本的实例上。 该扩展将作为编辑器中继从提供。 [repo.magento.com](https://repo.magento.com) 存储库。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
+在运行Adobe Commerce版本2.4.6-p3或更高版本的实例上安装最新版本的Adobe HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅  [使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) 在 _《云基础架构上的Adobe Commerce用户指南》_.
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
 
 1. 使用Adobe Commerce Cloud CLI签出要更新的环境分支。
 
@@ -66,7 +66,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. 添加中继包 `magento/hipaa-ee` 到使用编辑器CLI的编辑器配置。
+1. 使用编辑器CLI将中继包`magento/hipaa-ee`添加到编辑器配置中。
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -86,11 +86,11 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
    git push origin <branch-name>
    ```
 
-   推送更新会启动 [Commerce云部署流程](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) 以应用更改。 从检查部署状态 [部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
 
 ### 验证安装
 
-部署更新后，请验证 `Hipaa*` 已安装扩展
+部署更新后，验证是否已安装`Hipaa*`扩展
 
 1. 使用SSH登录到远程云环境。
 
@@ -121,37 +121,37 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
    <truncated for brevity>
    ```
 
-   所有带有前缀的模块 `Magento_Hipaa` 必须在“启用的模块”部分中。
+   以`Magento_Hipaa`为前缀的所有模块都必须在“启用的模块”部分中。
 
 ## 针对HIPAA准备工作的功能增强
 
-此 `magento/hipaa-ee` 扩展引入了对基本Commerce产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
+`magento/hipaa-ee`扩展引入了对基本Commerce产品的一些更改和增强。 以下部分提供了有关这些更改以及它们如何更改基本产品的详细信息。
 
 ### 操作日志
 
-审核日志记录是HIPAA要求。 在Adobe Commerce中 [操作日志](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) 功能会记录您商店中的管理员用户所做的每项更改。 为了满足审核日志的HIPAA要求，已更新该功能，以记录通过管理员UI和API调用执行的所有管理员用户和客户操作。
+审核日志记录是HIPAA要求。 在Adobe Commerce中，[操作日志](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)功能会记录您的商店中工作的管理员用户所做的每项更改。 为了满足审核日志的HIPAA要求，已更新该功能，以记录通过管理员UI和API调用执行的所有管理员用户和客户操作。
 
 #### 操作日志报告
 
-此 _操作日志_ 报表网格(**[!UICONTROL System]** >操作日志>报表)进行了修改，以适应客户通过管理员UI和API执行的操作。
+已修改&#x200B;_操作日志_&#x200B;报表网格（**[!UICONTROL System]** >操作日志>报表），以适应客户通过管理员UI和API执行的操作。
 
 1. 添加了两列：
-   - ***来源***：显示执行操作的位置。
+   - ***Source***：显示执行操作的位置。
 值： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***客户端类型***：显示客户端类型。
 值：客户 | 管理员 | 集成
 
-2. 已重命名 ***用户名*** 列至 ***客户端标识符***
+2. 已将&#x200B;***用户名***&#x200B;列重命名为&#x200B;***客户端标识符***
    - ***客户端标识符***：显示执行操作的用户的登录ID。
 值：
       - 如果Client Type为Customer，则发送电子邮件
       - 如果Client Type为Admin，则为用户名
       - 如果客户端类型为集成，则为名称
 
-3. 已重命名 ***完整操作名称*** 列至 ***Target***
-   - ***Target***：显示操作名称。
+3. 已将&#x200B;***完整操作名称***&#x200B;列重命名为&#x200B;***目标***
+   - ***目标***：显示操作名称。
 值：
-      - 如果源是REST API或SOAP API，则为端点
+      - 如果Source是REST API或SOAP API，则为端点
       - 查询名或突变名(如果是GraphQL API)
       - 操作名称，如果是Admin UI或客户UI。
 
@@ -165,11 +165,11 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 >[!NOTE]
 >
->这些 ***增强功能不会更改导入和导出核心逻辑***；而是扩展功能以提供更全面的日志记录和改进的数据归因。 进出口的基本功能保持不变。 用户可以继续使用现有功能和工作流，而不会造成任何中断。
+>这些&#x200B;***增强不会更改导入和导出核心逻辑***；而是扩展了功能以提供更全面的日志记录和改进的数据归因。 进出口的基本功能保持不变。 用户可以继续使用现有功能和工作流，而不会造成任何中断。
 
 #### 管理操作日志记录
 
-导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了更深入探究与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在 **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**网格：
+导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了更深入探究与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在&#x200B;**[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**网格中：
 
 | 类型 | 操作 |
 | ---- | ------- |
@@ -183,24 +183,24 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 #### 导入历史记录([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- 已对所有列启用筛选，除以下列外 **[!UICONTROL Imported File]**， **[!UICONTROL Error File]**， **[!UICONTROL Execution Time]**、和 **[!UICONTROL Summary]**.
+- 已为&#x200B;**[!UICONTROL Imported File]**、**[!UICONTROL Error File]**、**[!UICONTROL Execution Time]**&#x200B;和&#x200B;**[!UICONTROL Summary]**&#x200B;以外的所有列启用筛选。
 
 #### 导出([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 
-- 添加了 **[!UICONTROL ID]** 列。
-- 添加了 **[!UICONTROL Requested At]** 列(_请求导出的日期和时间_)。
-- 添加了 **[!UICONTROL User]** 列(_执行请求的管理员的用户名_)。
-- 删除了 **[!UICONTROL Action]** 列。
-- 已移动 **[!UICONTROL Download]** 链接到 **[!UICONTROL File name]** 列(_类似“导入历史记录”网格_)。
-- 已禁用负责删除导出文件的操作(_改进跟踪_)。
-- 为除外的所有列启用排序 **[!UICONTROL File name]**.
+- 添加了&#x200B;**[!UICONTROL ID]**&#x200B;列。
+- 添加了&#x200B;**[!UICONTROL Requested At]**&#x200B;列（_请求导出的日期和时间_）。
+- 添加了&#x200B;**[!UICONTROL User]**&#x200B;列（_执行请求的管理员的用户名_）。
+- 删除了&#x200B;**[!UICONTROL Action]**&#x200B;列。
+- 已将&#x200B;**[!UICONTROL Download]**&#x200B;链接移动到&#x200B;**[!UICONTROL File name]**&#x200B;列（_如“导入历史记录”网格_）。
+- 已禁用负责删除导出文件的操作（_以改进跟踪_）。
+- 已为&#x200B;**[!UICONTROL File name]**&#x200B;以外的所有列启用排序。
 - 已为所有列启用筛选。
 
 #### 计划的导入和导出([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- 添加了 **[!UICONTROL ID]** 列。
-- 添加了 **[!UICONTROL Scheduled At]** 列( _计划导入或导出的日期和时间_)。
-- 添加了 **[!UICONTROL User]** 列( _计划导入或导出的管理员用户的用户名_)。
+- 添加了&#x200B;**[!UICONTROL ID]**&#x200B;列。
+- 添加了&#x200B;**[!UICONTROL Scheduled At]**&#x200B;列（计划导入或导出的&#x200B;_日期和时间_）。
+- 添加了&#x200B;**[!UICONTROL User]**&#x200B;列（计划导入或导出的管理员用户的&#x200B;_用户名_）。
 
 ## 禁用的服务和功能
 
@@ -208,7 +208,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ### 服务
 
-- **Adobe Commerce服务** — 在HIPAA就绪性服务中，没有一项Adobe Commerce服务或可扩展性服务可用。 这些服务包括但不限于：
+- **Adobe Commerce服务**—Adobe Commerce服务或可扩展性服务均不提供HIPAA就绪服务。 这些服务包括但不限于：
 
    - 实时搜索
    - API网格
@@ -221,8 +221,8 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 默认情况下，HIPAA就绪模块中禁用以下功能。 商家可以自行承担启用上述任何功能的风险。
 
-- **[来宾结帐](../stores-purchase/checkout-guest.md)** — 此功能给HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和族系，可能还包括更多方面。
+- **[访客签出](../stores-purchase/checkout-guest.md)** — 此功能对HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和谱系等等。
 
 - **[新闻稿功能](../merchandising-promotions/newsletters.md)** — 此功能已禁用，以防止在营销上下文中使用PHI。
 
-- **[高级报告服务设置](../getting-started/business-intelligence.md)** — 禁用此配置设置是为了防止将PHI用于分析和报告。
+- **[高级报告服务设置](../getting-started/business-intelligence.md)** — 此配置设置已禁用，以防止将PHI用于分析和报告。

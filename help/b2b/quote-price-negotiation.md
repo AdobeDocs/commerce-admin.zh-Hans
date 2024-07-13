@@ -5,18 +5,18 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
 
 # 协商报价
 
-如果 [B2B报价已启用](configure-quotes.md) 在配置中，价格洽谈可以由授权采购员从公司或销售代表启动。
+如果在配置中启用了[B2B报价](configure-quotes.md)，则价格洽谈可以由授权买方从公司或销售代表启动。
 
-采购员通过以下方式启动价格洽谈流程 [请求报价](quote-request.md) 从购物车中。 销售代表可以通过以下方式启动洽谈 [为采购员创建拟定报价](sales-rep-initiates-quote.md)，使用初始订单项目和定价更新报价，然后发送给买方。
+购买者通过[从购物车中请求报价](quote-request.md)来启动价格协商过程。 销售代表可以通过以下方式启动洽谈：[为采购员](sales-rep-initiates-quote.md)创建草稿报价，使用初始订单项目和定价更新报价，然后发送给采购员。
 
-当价格洽谈开始时，报价将列在 [引号](quotes.md) 网格。 买卖双方之间的所有协商均通过电子邮件进行，并且从报价的详细信息视图中启动和跟踪。
+当价格协商开始时，报价将列在[报价](quotes.md)网格中。 买卖双方之间的所有协商均通过电子邮件进行，并且从报价的详细信息视图中启动和跟踪。
 
 在协商过程中，卖方可以从管理员处执行以下操作：
 
@@ -27,29 +27,29 @@ ht-degree: 0%
 - 添加评论
 - 将更新后的报价发送给采购员，或另存为草稿
 
-采购员使用从店面管理报价议价流程 [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). 当报价单处于未结复查状态时，其在采购员帐户中的状态将设置为 `Pending`. 即使报价单被拒绝或过期，买方也可以更改并重新提交报价。
+采购员使用[[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)从店面管理报价协商过程。 当报价处于未结复查状态时，它在买方帐户中的状态设置为`Pending`。 即使报价单被拒绝或过期，买方也可以更改并重新提交报价。
 
 ## 第1步：查看请求
 
-1. 在管理员侧边栏上，转到 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. 在管理员侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
-   新请求将显示在 _[!UICONTROL Quotes]_网格。
+   新请求出现在&#x200B;_[!UICONTROL Quotes]_网格中。
 
-1. 在 _操作_ 列，单击 **[!UICONTROL View]**.
+1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
-   ![新建报价](./assets/quote-grid-new.png){width="700" zoomable="yes"}
+   ![新报价](./assets/quote-grid-new.png){width="700" zoomable="yes"}
 
 ## 第2步：修改报价
 
-1. 下 _[!UICONTROL Quote & Account Information]_，单击_&#x200B;日历&#x200B;_(![日历图标](../assets/icon-calendar.png))图标。
+1. 在&#x200B;_[!UICONTROL Quote & Account Information]_下，单击_&#x200B;日历&#x200B;_（![日历图标](../assets/icon-calendar.png)）图标。
 
    ![报价和帐户信息](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
-1. 选择一个 **[!UICONTROL Expiration Date]** 为报价单。
+1. 为报价选择一个&#x200B;**[!UICONTROL Expiration Date]**。
 
-1. 向下滚动到 _[!UICONTROL Quote Totals]_部分并更新&#x200B;**[!UICONTROL Negotiated Price]**根据需要。
+1. 向下滚动到&#x200B;_[!UICONTROL Quote Totals]_部分并根据需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
 
-   ![更新协议价格](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
+   ![更新议价](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
    如果采购员更改了报价中任何项目的数量，则报价顶部将显示一则通知，指明项目列表已更改，并且必须更新协议价格。
 
@@ -57,69 +57,70 @@ ht-degree: 0%
 
 ### 向报价中添加新产品
 
-1. 单击 **[!UICONTROL Add Products by SKU]**.
+1. 单击&#x200B;**[!UICONTROL Add Products by SKU]**。
 
-1. 输入 **[!UICONTROL SKU]** 和 **[!UICONTROL Qty]** 将添加。
+1. 输入要添加的&#x200B;**[!UICONTROL SKU]**&#x200B;和&#x200B;**[!UICONTROL Qty]**。
 
-   ![按SKU添加到报价](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
+   ![通过SKU添加到报价](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
 
 ### 应用行项目更新
 
-将行项目更改应用于 _[!UICONTROL Items Quoted]_部分（如果需要）。
+如果需要，在&#x200B;_[!UICONTROL Items Quoted]_部分中应用行项目更改。
 
 ![应用行项目更新](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
-- 更改 **[!UICONTROL Quantity]** 必须按建议价格购买。
+- 更改必须以建议价格购买的&#x200B;**[!UICONTROL Quantity]**。
 
-- 选择 **[!UICONTROL Configure]** 并更改产品选项。
+- 选择&#x200B;**[!UICONTROL Configure]**&#x200B;并更改产品选项。
 
-  此 [!UICONTROL Configure] 选项仅在可配置产品的行项目中可用
+  [!UICONTROL Configure]选项仅在可配置产品的行项上可用
 
-- 在 **[!UICONTROL Action]** 菜单，选择操作以更新项目：
-   - **折扣项目** 将折扣应用为百分比、固定金额或首选定价。
-（可选）您可以锁定折扣金额以防止进一步折扣。 如果未锁定折扣，则行项目折扣和任何报价级别折扣都将应用于产品价格。
-   - **给采购员留言** 向采购员提供有关物料的附加信息
-   - **移除** 以从报价中删除项目。
+- 在&#x200B;**[!UICONTROL Action]**&#x200B;菜单中，选择一个操作以更新该项：
+   - **折扣项目**以百分比、固定金额或首选定价形式应用折扣。
+（可选）您可以锁定折扣金额以防止进一步折扣。 如果未锁定折扣，
+行项目折扣和任何报价级别折扣都应用于产品价格。
+   - **给购买者留言**，以便向购买者提供有关物料的附加信息
+   - **删除**&#x200B;以从报价中删除项目。
 
 ### 应用更改并更新
 
-- 要应用更改，请单击 **[!UICONTROL Add to Quote]**.
+- 要应用更改，请单击&#x200B;**[!UICONTROL Add to Quote]**。
 
-- 要更新报价，请单击 **[!UICONTROL Recalculate the Quote]**.
+- 要更新报价，请单击&#x200B;**[!UICONTROL Recalculate the Quote]**。
 
-- 要应用更改并将报价更新到共享目录和价格规则，请单击 **[!UICONTROL Update Prices]** 然后单击 **[!UICONTROL Proceed]** 以确认更新。
+- 要应用更改并将报价更新到共享目录和价格规则，请单击&#x200B;**[!UICONTROL Update Prices]**，然后单击&#x200B;**[!UICONTROL Proceed]**&#x200B;以确认更新。
 
-  ![引用项](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
+  ![个项目被引用](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
 
 ### 更新配送信息
 
-1. 如果买方包括 _收货方_ 报价中的地址，请单击 **[!UICONTROL Get shipping methods and rates]**.
+1. 如果买方在报价单中包含&#x200B;_收货地址_，请单击&#x200B;**[!UICONTROL Get shipping methods and rates]**。
 
 1. 从可用选项中选择一种配送方式。
 
-1. 输入 **[!UICONTROL Proposed Shipping Price]**.
+1. 输入&#x200B;**[!UICONTROL Proposed Shipping Price]**。
 
-   此 _[!UICONTROL Quote Totals]_更新以反映建议的运费。
+   _[!UICONTROL Quote Totals]_已更新以反映建议的配送价格。
 
 ### 附加支持文档
 
-1. 在 _添加您的评论_ 框中，单击 **[!UICONTROL Attach file]**.
+1. 在&#x200B;_添加评论_&#x200B;框下，单击&#x200B;**[!UICONTROL Attach file]**。
 
-   默认情况下， [附加文件](../configuration-reference/sales/quotes.md) 采用以下任意文件格式时最大可达2 MB：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。
+   默认情况下，[附加文件](../configuration-reference/sales/quotes.md)在下列任何文件格式中最多可达2 MB：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。
 
 1. 从目录中选择文件。
 
 ## 第3步：更新报价级别信息，并发送回复
 
-1. 在 _[!UICONTROL Negotiation]_部分，位于_[!UICONTROL Comments]_ 选项卡，在 **[!UICONTROL Add your comment]** 部分。
+1. 在&#x200B;_[!UICONTROL Comments]_选项卡的_[!UICONTROL Negotiation]_&#x200B;部分中，在&#x200B;**[!UICONTROL Add your comment]**&#x200B;部分中输入您的回复。
 
-1. 要包含支持文档，请单击 **[!UICONTROL Attach file]** 并从目录中选择文件。
+1. 要包含支持文档，请单击&#x200B;**[!UICONTROL Attach file]**&#x200B;并从目录中选择文件。
 
    附件允许的最大文件大小为2 MB。
 
 1. 要将折扣应用到整个报价，请执行以下操作：
 
-   - 下 _[!UICONTROL Quote Totals]_在_[!UICONTROL Negotiated Price]_ 部分，选择以下折扣类型之一：
+   - 在&#x200B;_[!UICONTROL Negotiated Price]_部分的_[!UICONTROL Quote Totals]_&#x200B;下，选择以下折扣类型之一：
 
       - `Percentage Discount`
       - `Amount Discount`
@@ -127,13 +128,13 @@ ht-degree: 0%
 
    - 以百分比或统一价格输入金额。
 
-     ![洽谈备注](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+     ![协商备注](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
 
 1. 发送或保存报价：
 
-   - 如果报价已准备就绪，可以发回给采购员，请单击 **[!UICONTROL Send]**.
+   - 如果报价已准备就绪，可以发送给买方，请单击&#x200B;**[!UICONTROL Send]**。
 
-   - 要稍后继续处理报价，请单击 **[!UICONTROL Save as Draft]**.
+   - 要稍后继续处理报价，请单击&#x200B;**[!UICONTROL Save as Draft]**。
 
 ## 第4步：对报价进行跟进
 
@@ -149,9 +150,9 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 返回到 _[!UICONTROL Quotes]_页面，而不保存更改。 |
+| [!UICONTROL Back] | 返回到&#x200B;_[!UICONTROL Quotes]_页而不保存更改。 |
 | [!UICONTROL Print] | 将报价发送至打印机或将其保存为PDF文件。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅供测试版计划参与者使用"}`(copy)` 附加到原始名称之后。 通过编辑 [!UICONTROL Name] 字段。 将新报价另存为草稿或发送给客户来处理它。 |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta功能]{type=信息性url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta计划参与者&quot;}创建并打开当前报价的副本，并在原始名称后附加`(copy)`。 通过编辑[!UICONTROL Name]字段重命名新报价。 将新报价另存为草稿或发送给客户来处理它。 |
 | [!UICONTROL Save as Draft] | 保存对报价所做的任何更改，但不要将其发送回买方。 |
 | [!UICONTROL Decline] | 拒绝就价格进行谈判的要求，无论是在初步调查中还是在正在进行的谈判中。 当报价被拒绝时，卖方应添加评论来解释这一决定。 当报价被拒绝时，所有议价价格都将重置为原始值。 当卖方等待买方的回复时，此按钮被禁用。 |
 | [!UICONTROL Send] | 发送更新后的报价作为对买方查询的回复。 如果卖方正在等待买方的回复，则此按钮被禁用。 |
@@ -166,15 +167,15 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | 由分配给报价请求的名称 [购买者](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | 指示报价的当前状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 另请参阅 [状态设置](quotes.md) 来自管理员和 [买方帐户](account-dashboard-my-quotes.md). |
+| [!UICONTROL Name] | [购买者](account-company-roles-permissions.md)分配给报价请求的名称。 |
+| [!UICONTROL Status] | 指示报价的当前状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 另请查看管理员的[状态设置](quotes.md)和[购买者帐户](account-dashboard-my-quotes.md)。 |
 | [!UICONTROL Created] | 买方首次提交报价申请的日期和时间。 |
 | [!UICONTROL Created By] | 提交报价请求的公司买方的名字和姓氏。 |
-| [!UICONTROL Expiration Date] | 指示当前报价有效的最后一天。 在配置中，默认到期日设置为采购员提交报价请求后的30天。 <br/><br/>卖方可以通过输入不同的日期(YYYY MM DD )或从日历中选择日期来覆盖默认的到期日期。 如果将字段留空，报价将永不过期。 <br/><br/>对于未结报价，卖方将收到 [电子邮件通知](../systems/email-templates.md) 报价单预定过期前48小时。 买家将在到期日前24小时收到通知。 <br/><br/>报价的状态将更改为 _已过期_ 而买方则不能对报价单进行进一步的更改。 报价中的建议价格恢复为目录中的原始值。 <br/><br/>如果在报价设置为过期时开放供卖方复查的报价，则根据配置中设置的范围重置到期日期。 <br/><br/>“到期日期”是 _报价和帐户_ 可在审阅过程中编辑的部分。 |
-| [!UICONTROL Company] | 的法定名称 [公司](account-companies.md) 买家所代表的。 |
-| [!UICONTROL Company Admin Email] | 的电子邮件地址 [公司管理员](account-company-admin.md). |
-| [!UICONTROL Sales Rep] | 此 [销售代表](account-company-manage.md) 为卖方工作，并且是分配给公司帐户的主要联系人。 |
-| [!UICONTROL Shared Catalog (or Customer Group)] | 此 [共享目录](catalog-shared.md) 或 [客户组](account-company-customer-group.md) 公司分派到的用户。 报价可能包括共享目录中分配给公司的自定义价格。 |
+| [!UICONTROL Expiration Date] | 指示当前报价有效的最后一天。 在配置中，默认到期日设置为采购员提交报价请求后的30天。 <br/><br/>卖方可以通过输入其他日期(YYYY MM DD )或从日历中选择日期来覆盖默认到期日期。 如果将字段留空，报价将永不过期。 <br/><br/>对于未结报价，卖方会在报价计划到期前48小时收到[电子邮件通知](../systems/email-templates.md)。 买家将在到期日前24小时收到通知。 <br/><br/>报价的状态更改为&#x200B;_已过期_，买方无法进一步更改报价。 报价中的建议价格恢复为目录中的原始值。 <br/><br/>如果报价在设置为过期时开放供销售商复查，则根据配置中设置的范围重置过期日期。 <br/><br/>到期日期是&#x200B;_报价和帐户_&#x200B;部分中唯一可在审核过程中编辑的字段。 |
+| [!UICONTROL Company] | 买方代表的[公司](account-companies.md)的法定名称。 |
+| [!UICONTROL Company Admin Email] | [公司管理员](account-company-admin.md)的电子邮件地址。 |
+| [!UICONTROL Sales Rep] | 为卖方工作的[销售代表](account-company-manage.md)，是分配给公司帐户的主要联系人。 |
+| [!UICONTROL Shared Catalog (or Customer Group)] | 公司已分配到的[共享目录](catalog-shared.md)或[客户组](account-company-customer-group.md)。 报价可能包括共享目录中分配给公司的自定义价格。 |
 
 {style="table-layout:auto"}
 
@@ -214,7 +215,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Shipping Address] | 显示采购员帐户中指定的发运地址。 如果买方在提交请求之前未指定地址，则发运地址为空。 |
-| [!UICONTROL Shipping Method & Price] | 如果采购员包括 _收货方_ 报价中的地址。 |
+| [!UICONTROL Shipping Method & Price] | 如果买方在报价单中包含&#x200B;_收货地址_，则会显示“获取配送方式和运费”链接。 |
 
 {style="table-layout:auto"}
 
@@ -222,7 +223,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | “洽谈”部分的“备注”标签用于向采购员输入有关报价的消息。 <br/>**[!UICONTROL Add your comment]**— 在洽谈过程中使用备注与采购员沟通。 使用备注解释报价中提供的任何折扣，或报价请求被拒绝的原因。<br/>**[!UICONTROL Attach file]**  — 支持的最大文件大小和文件类型 [附加文件](configure-quotes.md) 由配置决定。 默认情况下，附加文件最大为2 MB，并且可以是以下任意文件类型：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。 |
+| [!UICONTROL Comments] | “洽谈”部分的“备注”标签用于向采购员输入有关报价的消息。 <br/>**[!UICONTROL Add your comment]**— 注释用于在协商过程中与采购员通信。 使用备注解释报价中提供的任何折扣，或报价请求被拒绝的原因。<br/>**[!UICONTROL Attach file]** - [附加文件](configure-quotes.md)的最大文件大小和支持的文件类型由配置决定。 默认情况下，附加文件最大为2 MB，并且可以是以下任意文件类型：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。 |
 | [!UICONTROL History Log] | 此标签页显示报价的完整历史记录，其中包括日期、报价状态和备注。 |
 
 {style="table-layout:auto"}
@@ -232,11 +233,11 @@ ht-degree: 0%
 | 字段 | 描述 |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | 向卖方提供的报价中所包含项目的总成本。 |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 报价单中的项目总价（不含税），根据作为报价单依据的共享目录或主目录中的价格确定。 展开部分以显示计算中使用的值，具体取决于 [显示小计](../configuration-reference/sales/tax.md) 在配置中设置。 选项： <br/>**[!UICONTROL Subtotal (Excl. Tax)]**— 目录总价（不含估计税）。<br/>**[!UICONTROL Subtotal (Incl. Tax)]**  — 目录总价（不含估计税）。 <br/>**[!UICONTROL Estimated Tax]**— 估计要应用于目录总价的税额。 |
-| 议定价格 | 提供给买方的折扣可基于以下任一项： <br/>**[!UICONTROL Percentage Discount]**— 以百分比表示的折扣。<br/>**[!UICONTROL Amount Discount]**  — 固定金额形式的折扣。 <br/>**[!UICONTROL Proposed Price]**— 卖方提出的价格。<p>如果报价中的所有项目都有锁定的项目折扣，则 [!UICONTROL Negotiated Price] 部分已禁用，因为无法应用其他折扣。</p><p>如果产品具有未锁定的行项目折扣，则行项目折扣和报价级别折扣都将应用于产品价格。</p> |
-| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 报价单中每个行项目的建议总价（含税或不含税），取决于 [计税](../configuration-reference/sales/tax.md) 配置中的设置。 |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 报价单中的项目总价（不含税），根据作为报价单依据的共享目录或主目录中的价格确定。 展开部分以显示计算中使用的值，具体取决于配置中的[显示小计](../configuration-reference/sales/tax.md)设置。 选项： <br/>**[!UICONTROL Subtotal (Excl. Tax)]**— 目录总价（不含估计税）。<br/>**[!UICONTROL Subtotal (Incl. Tax)]** — 目录总价（不含估计税）。 <br/>**[!UICONTROL Estimated Tax]**— 估计将应用于目录总价的税额。 |
+| 议定价格 | 提供给买方的折扣可以基于以下任意一项： <br/>**[!UICONTROL Percentage Discount]**— 折扣百分比。<br/>**[!UICONTROL Amount Discount]** — 固定金额形式的折扣。 <br/>**[!UICONTROL Proposed Price]**— 卖方提出的价格。<p>如果报价中的所有项目都有锁定的项目折扣，则[!UICONTROL Negotiated Price]部分将禁用，因为无法应用其他折扣。</p><p>如果产品具有未锁定的行项目折扣，则行项目折扣和报价级别折扣都将应用于产品价格。</p> |
+| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 报价单中每个行项目的建议总价（含税或不含税），具体取决于配置中的[计税](../configuration-reference/sales/tax.md)设置。 |
 | [!UICONTROL Shipping & Handling] | 卖方在报价单的Shipping Information部分的Proposed Shipping Price字段中输入的金额。 如果该字段为空，则金额基于所选的配送方式。 |
-| [!UICONTROL Estimated Tax] | 在配置中指定的预计到期的税额 [显示设置](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | 在配置[显示设置](../configuration-reference/sales/tax.md)中指定的估计到期的税额。 |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | 报价底部的最终合计，包括议定价格、预计税额、建议的装运和处理。 |
 
 {style="table-layout:auto"}

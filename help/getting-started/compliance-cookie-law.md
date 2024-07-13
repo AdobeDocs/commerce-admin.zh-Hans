@@ -5,18 +5,18 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
 
 # Cookie法律合规性
 
-Cookie是保存到网站每位访客的计算机中的小文件，用作信息的临时存放处。 保存在Cookie中的信息可用于个性化购物体验、将访客链接到其购物车、衡量流量模式以及提高促销效率。 为了跟上许多国家关于使用Cookie的法规，Adobe Commerce和Magento Open Source为商家提供了多种获取客户同意的方法。 要获取Adobe Commerce和Magento Open Source中的默认Cookie列表， [Cookie引用](#default-cookies).
+Cookie是保存到网站每位访客的计算机中的小文件，用作信息的临时存放处。 保存在Cookie中的信息可用于个性化购物体验、将访客链接到其购物车、衡量流量模式以及提高促销效率。 为了跟上许多国家关于使用Cookie的法规，Adobe Commerce和Magento Open Source为商家提供了多种获取客户同意的方法。 有关Adobe Commerce和Magento Open Source中的默认Cookie的列表，[Cookie引用](#default-cookies)。
 
 >[!NOTE]
 >
->如果修改缺省值 [Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings) 以遵守 [通用数据保护条例](compliance-gdpr.md)，则无需为使用Google AnalyticsCookie而获得用户同意。
+>如果您修改了默认[Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings)以符合[通用数据保护条例](compliance-gdpr.md)，则无需获取用户同意即可使用Google AnalyticsCookie。
 
 ## 方法1：默示同意
 
@@ -24,55 +24,55 @@ Cookie是保存到网站每位访客的计算机中的小文件，用作信息�
 
 ## 方法2：表示同意
 
-在中操作您的商店 _Cookie限制模式_ 要求访客先表达同意，然后才能将任何Cookie保存到其计算机。 除非获得同意，否则您应用商店的许多功能将不可用。 例如，如果Google Analytics可用于您的商店，则只有在访客授予使用Cookie的权限后，才能调用该商店。
+在&#x200B;_Cookie限制模式_&#x200B;下运行存储区需要访客先表达同意，然后才能将任何Cookie保存到其计算机。 除非获得同意，否则您应用商店的许多功能将不可用。 例如，如果Google Analytics可用于您的商店，则只有在访客授予使用Cookie的权限后，才能调用该商店。
 
 ## Cookie限制模式
 
 启用Cookie限制模式后，您商店的访客将收到通知，告知您需要Cookie才能执行全功能操作。 根据您的主题，消息可能会显示在页眉上方、页脚下方或页面上的其他位置。 该消息链接到您的隐私政策以获取更多信息，并鼓励访客单击允许按钮授予同意。 获得同意后，消息将消失。
 
-您的 [隐私政策](privacy-policy.md))应包括商店名称和联系信息，并解释商店使用的每个Cookie的用途。 要了解更多信息，请参阅 [Cookie引用](#default-cookies).
+您的[隐私政策](privacy-policy.md))应包含商店名称和联系信息，并解释商店使用的每个Cookie的用途。 若要了解详细信息，请参阅[Cookie引用](#default-cookies)。
 
 >[!NOTE]
 >
->如果您更改隐私策略的URL密钥，则还必须创建自定义URL重写以将流量重定向到新的URL密钥。 否则，Cookie限制模式消息中的链接将返回 `404 Page Not Found`.
+>如果您更改隐私策略的URL密钥，则还必须创建自定义URL重写以将流量重定向到新的URL密钥。 否则，Cookie限制模式消息中的链接将返回`404 Page Not Found`。
 
-![示例storefront - cookie限制声明](./assets/storefront-cookie-restriction-message.png){width="600"}
+![店面示例 — Cookie限制通知](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### 步骤1：启用Cookie限制模式
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧导航面板中的 **[!UICONTROL General]**，选择 **[!UICONTROL Web]**.
+1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
-1. 展开 **[!UICONTROL Default Cookie Settings]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Default Cookie Settings]**&#x200B;部分并执行以下操作：
 
    ![Web配置 — 默认Cookie设置](./assets/web-default-cookie-settings.png){width="600"}
 
-   - 输入 **[!UICONTROL Cookie Lifetime]** 以秒为单位。
+   - 输入&#x200B;**[!UICONTROL Cookie Lifetime]**（以秒为单位）。
 
-   - 如果要使Cookie对其他文件夹可用，请输入 **[!UICONTROL Cookie Path]**. 要使Cookie在站点中的任意位置可用，请输入正斜杠(`/`)。 此值只能包含Cookie路径，并且 **_无法_** 包含任何其他Cookie参数。
+   - 如果要使Cookie对其他文件夹可用，请输入&#x200B;**[!UICONTROL Cookie Path]**。 要使Cookie在网站的任何位置都可用，请输入正斜杠(`/`)。 此值只能包含Cookie路径，**_不能_**&#x200B;包含任何其他Cookie参数。
 
-   - 要使Cookie对子域可用，请在 **[!UICONTROL Cookie Domain]** 字段(`subdomain.yourdomain.com`)。 要使Cookie可用于所有子域，请输入前面有句点(`.yourdomain.com`)。 此值只能包含Cookie域，并且 **_无法_** 包含任何其他Cookie参数。
+   - 要使Cookie可用于子域，请在&#x200B;**[!UICONTROL Cookie Domain]**&#x200B;字段(`subdomain.yourdomain.com`)中输入子域名。 要使Cookie对所有子域都可用，请输入前面有句点(`.yourdomain.com`)的域名。 此值只能包含Cookie域，**_不能_**&#x200B;包含任何其他Cookie参数。
 
-   - 要阻止脚本语言（如JavaScript）访问Cookie，请确保 **仅使用HTTP** 设置为 `Yes`.
+   - 要阻止脚本语言(如JavaScript)访问Cookie，请确保&#x200B;**仅使用HTTP**&#x200B;设置为`Yes`。
 
-   - 设置 **[!UICONTROL Cookie Restriction Mode]** 到 `Yes`.
+   - 将&#x200B;**[!UICONTROL Cookie Restriction Mode]**&#x200B;设置为`Yes`。
 
-     如有必要，请清除复选框并单击 **[!UICONTROL OK]** 确认范围切换。
+     如有必要，请清除该复选框，然后单击&#x200B;**[!UICONTROL OK]**&#x200B;确认范围切换。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-1. 提示更新缓存时，单击 **[!UICONTROL Cache Management]** 系统消息中的链接。 然后，刷新每个无效缓存。
+1. 提示更新缓存时，单击系统消息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;链接。 然后，刷新每个无效缓存。
 
 ### 步骤2：更新您的隐私政策
 
-更新您的 [隐私政策](privacy-policy.md) 以便它反映贵公司收集的信息及其使用方式。
+更新您的[隐私策略](privacy-policy.md)，以便它反映贵公司收集的信息及其使用方式。
 
 ## 默认Cookie
 
-Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐免，以帮助商家满足隐私法规的要求，例如 [GDPR](compliance-gdpr.md). 商家应将此信息用作指南，并咨询法律顾问，以更新其隐私和Cookie政策，作为全面的隐私法规合规策略的一部分。
+Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐免，以帮助商家满足隐私法规的要求，例如[GDPR](compliance-gdpr.md)。 商家应将此信息用作指南，并咨询法律顾问，以更新其隐私和Cookie政策，作为全面的隐私法规合规策略的一部分。
 
-以下Cookie由以下用户使用 [!DNL Commerce] “开箱即用”，用于内部部署和云安装。 客户明确请求的功能可能需要这些Cookie。 要了解会话Cookie的生命周期，请参阅 [会话生命周期](../customers/customer-online-options.md).
+[!DNL Commerce]将以下Cookie用于“开箱即用”的内部部署和云安装。 客户明确请求的功能可能需要这些Cookie。 要了解会话Cookie的生命周期，请参阅[会话生命周期](../customers/customer-online-options.md)。
 
 其中一些Cookie可能会根据需要提供配置选项，包括启用/禁用。
 
@@ -81,11 +81,11 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)由Google Tag Manager使用。 捕获从购物车中移除的产品SKU、名称、价格和数量，并让该信息可供第三方脚本在将来的集成。
+Google标签管理器使用的![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)。 捕获从购物车中移除的产品SKU、名称、价格和数量，并让该信息可供第三方脚本在将来的集成。
 
 #### `guest-view`
 
-存储访客购物者用于检索其订单状态的订单ID。 来宾订单视图。 使用位置 _[!DNL Orders and Returns]_构件。
+存储访客购物者用于检索其订单状态的订单ID。 来宾订单视图。 在&#x200B;_[!DNL Orders and Returns]_小组件中使用。
 
 - 安全吗？ 否
 - 仅限HTTP：是
@@ -94,7 +94,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `login_redirect`
 
-保留在指引客户登录之前加载的目标页面。 登录重定向与微型购物车一起使用，适用于已登录的客户，如果 [显示迷你购物车](../stores-purchase/cart-configuration.md#mini-cart) 配置选项设置为 `Yes`.
+保留在指引客户登录之前加载的目标页面。 如果[Display Mini Cart](../stores-purchase/cart-configuration.md#mini-cart)配置选项设置为`Yes`，则登录重定向将与迷你购物车一起使用。
 
 - 安全吗？ 否
 - 仅限HTTP：否
@@ -103,7 +103,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)在本地存储横幅内容以提高性能。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)在本地存储横幅内容以提高性能。
 
 #### `mage-messages`
 
@@ -118,7 +118,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `mage-translation-storage` （本地存储）
 
-当购物者请求时，存储翻译的内容。 使用时间 [翻译策略](../configuration-reference/advanced/developer.md) 配置为“字典（店面翻译）”。
+当购物者请求时，存储翻译的内容。 在[翻译策略](../configuration-reference/advanced/developer.md)配置为“字典（店面翻译）”时使用。
 
 - 安全吗？ 否
 - 仅限HTTP：否
@@ -127,7 +127,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `mage-translation-file-version` （本地存储）
 
-跟踪本地存储中的翻译版本。 使用时间 [翻译策略](../configuration-reference/advanced/developer.md) 配置为 `Dictionary (Translation on Storefront side)`.
+跟踪本地存储中的翻译版本。 在[翻译策略](../configuration-reference/advanced/developer.md)配置为`Dictionary (Translation on Storefront side)`时使用。
 
 - 安全吗？ 否
 - 仅限HTTP：否
@@ -181,11 +181,11 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)使用者 [Google Tag Manager](../merchandising-promotions/google-tag-manager.md). 捕获添加到购物车的产品SKU、名称、价格和数量，并让该信息可供第三方脚本在将来集成。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)由[Google标签管理器](../merchandising-promotions/google-tag-manager.md)使用。 捕获添加到购物车的产品SKU、名称、价格和数量，并让该信息可供第三方脚本在将来集成。
 
 #### `stf`
 
-记录SendFriend发送消息的时间([向朋友发送电子邮件](../stores-purchase/email-a-friend.md))模块。
+记录SendFriend （[向Friend发送电子邮件](../stores-purchase/email-a-friend.md)）模块发送邮件的时间。
 
 - 安全吗？ 是
 - 仅限HTTP：是
@@ -214,7 +214,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 #### `mage-cache-sessid`
 
-此Cookie的值会触发本地缓存存储的清理。 当后端应用程序删除Cookie时，管理员会清理本地存储，并将Cookie值设置为 `true`.
+此Cookie的值会触发本地缓存存储的清理。 当后端应用程序删除Cookie时，管理员将清理本地存储，并将Cookie值设置为`true`。
 
 - 安全吗？ 否
 - 仅限HTTP：否
@@ -228,7 +228,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 - 安全吗？ 否
 - 仅限HTTP：否
 - 过期策略：会话
-- 模块： `Magento_Customer`， `Magento_Persistent`
+- 模块： `Magento_Customer`，`Magento_Persistent`
 
 #### `mage-cache-storage` （本地存储）
 
@@ -237,7 +237,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 - 安全吗？ 否
 - 仅限HTTP：否
 - 过期策略：会话
-- 模块： `Magento_Customer`， `Magento_Persistent`， `Magento_NegotiableQuote`
+- 模块： `Magento_Customer`，`Magento_Persistent`，`Magento_NegotiableQuote`
 
 #### `mage-cache-storage-section-invalidation` （本地存储）
 
@@ -254,7 +254,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 - 安全吗？ 是
 - 仅限HTTP：是
-- 过期策略：基于 [永久购物车](../stores-purchase/cart-persistent.md)  — 持久性生命周期（秒）配置
+- 到期策略：基于[持久购物车](../stores-purchase/cart-persistent.md) — 持久存留期（秒）配置
 - 模块： `Magento_Persistent`
 
 #### `private_content_version`
@@ -263,86 +263,86 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 它在多个位置设置：在PHP中，在JavaScript中设置为Cookie，在JavaScript中设置为本地存储。
 
-仅用于HTTP=`Yes` （根据请求），这意味着Cookie在HTTPS请求期间设置时是安全的，而在HTTP请求期间设置时是不安全的。
+对于HTTP Only=`Yes`（基于请求），这意味着如果在HTTPS请求期间设置了Cookie，那么它是安全的；如果在HTTP请求期间设置了，那么它是不安全的。
 
-- 安全吗？ `Yes` （根据请求）， `No`
+- 安全吗？ `Yes` （基于请求），`No`
 - 仅限HTTP： `No`
-- 过期策略：基于 [永久购物车](../stores-purchase/cart-persistent.md)  — 持久性生命周期（秒）配置
-   - PHP： `1` 年/ `315360000s` （十年）
-   - JS： `1` 天
+- 到期策略：基于[持久购物车](../stores-purchase/cart-persistent.md) — 持久存留期（秒）配置
+   - PHP： `1`年/ `315360000s` （十年）
+   - JS： `1`天
    - JS本地存储：每个本地存储规则（永久）
-- 模块： `Magento_PageCache`， `Magento_Customer`
+- 模块： `Magento_PageCache`，`Magento_Customer`
 
 #### `section_data_ids`
 
 存储与购物者启动的操作相关的客户特定信息，例如愿望清单显示和结帐信息。
 
-- 安全吗？ `No`
+- 安全吗？`No`
 - 仅限HTTP： `No`
-- 过期策略： `Session`
+- 到期策略： `Session`
 - 模块： `Magento_Customer`
 
 #### `store`
 
 跟踪购物者选择的特定商店视图/区域设置。
 
-- 安全吗？ `No`
+- 安全吗？`No`
 - 仅限HTTP： `Yes`
-- 过期策略： `1` 年
+- 过期策略：`1`年
 - 模块： `Magento_Store`
 
-#### `mage-banners-cache-storage`  — 本地存储
+#### `mage-banners-cache-storage` — 本地存储
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)用于Banner功能的本地存储。
+![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)用于横幅功能的本地存储。
 
-- 安全吗？ `No`
+- 安全吗？`No`
 - 仅限HTTP： `No`
 - 过期策略：每个本地存储规则
 - 模块： `Magento_Banner`
 
 ## Google AnalyticsCookie
 
-以下Cookie用于 [Google Analytics](../merchandising-promotions/google-analytics.md) 或者已完全为您的安装启用Google Universal Analytics。 要禁用这些Cookie以符合隐私法规，请参阅 [Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings). 要了解更多信息，请参阅 [网站上的Google AnalyticsCookie使用情况][1].
+在为您的安装完全启用[Google Analytics](../merchandising-promotions/google-analytics.md)或Google Universal Analytics时，将使用以下Cookie。 要禁用这些Cookie以符合隐私法规，请参阅[Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings)。 若要了解更多信息，请参阅[网站上的Google AnalyticsCookie使用情况][1]。
 
 ### Google Universal Analytics Cookie — 非劐免
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)JavaScript库： `gtag.js` 和 `analytics.js`
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)JavaScript库： `gtag.js`和`analytics.js`
 
-- `_ga`：区分网站的访客。
-- `_gid`：区分网站的访客。
+- `_ga`：区分您网站的访客。
+- `_gid`：区分您网站的访客。
 - `gat`：用于限制请求速率。
-- `dc_gtm_<property-id>`：使用部署Google Analytics时限制请求率 [Google Tag Manager](../merchandising-promotions/google-tag-manager.md).
+- `dc_gtm_<property-id>`：使用[Google Tag Manager](../merchandising-promotions/google-tag-manager.md)部署Google Analytics时限制请求速率。
 - `AMP_TOKEN`：包含可用于从AMP客户端ID服务检索客户端ID的令牌。 其他可能的值包括选择禁用、请求正在发送或从AMP客户端ID服务检索客户端ID时出错。
-- `_gac_<property-id>`：包含用户的促销活动相关信息。 如果Google Analytics已链接到您的，则Google AdWords转化标记会读取此Cookie [AdWords][2] 帐户。
+- `_gac_<property-id>`：包含用户的促销活动相关信息。 如果Google Analytics已链接到您的[AdWords][2]帐户，则Google AdWords转化标记会读取此Cookie。
 
 ### Google AnalyticsCookie — 非劐免
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)JavaScript库： `ga.js`
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)JavaScript库： `ga.js`
 
-- `__utma`：区分购物者和会话。 此Cookie在JavaScript库执行时创建，并且不存在任何现有 `__utma` Cookie。 每次向Google Analytics发送数据时，Cookie都会更新。
+- `__utma`：区分购物者和会话。 此Cookie在JavaScript库执行时创建，并且不存在现有的`__utma` Cookie。 每次向Google Analytics发送数据时，Cookie都会更新。
 - `__utmt`：用于限制请求速率。
-- `__utmb`：确定新会话/访问。 此Cookie在JavaScript库执行时创建，并且不存在任何现有 `__utmb` Cookie。 每次向Google Analytics发送数据时，Cookie都会更新。
-- `_utmz`：保存说明购物者如何访问您的网站的流量源或营销活动。 Cookie在JavaScript库执行时创建，并在每次向Google Analytics发送数据时更新。
-- `__utmv`：存储访客级别的自定义变量数据。 此Cookie是在开发人员使用 `_setCustomVar` 具有访客级别自定义变量的方法。 每次向Google Analytics发送数据时，此Cookie都会更新。
+- `__utmb`：确定新会话/访问。 此Cookie在JavaScript库执行时创建，并且不存在现有的`__utmb` Cookie。 每次向Google Analytics发送数据时，Cookie都会更新。
+- `_utmz`：保存说明购物者如何访问您网站的流量源或营销活动。 Cookie在JavaScript库执行时创建，并在每次向Google Analytics发送数据时更新。
+- `__utmv`：存储访客级别的自定义变量数据。 此Cookie是在开发人员将`_setCustomVar`方法与访客级别的自定义变量结合使用时创建的。 每次向Google Analytics发送数据时，此Cookie都会更新。
 
 ## 产品Recommendations Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)以下Cookie由产品Recommendations用于Adobe Commerce客户。 这些Cookie随 [数据服务模块](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)以下Cookie由产品Recommendations用于Adobe Commerce客户。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html)一起安装。
 
-- `mg_dnt`：允许您 [限制Adobe Commerce数据收集](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html) 如果您有用于管理网站上的Cookie同意的自定义代码。
-- `user_allowed_save_cookie`：用于 [Cookie限制模式](#cookie-restriction-mode).
-- `authentication_flag`：指示购物者是否已登录或注销。 此Cookie会与更新 `dataservices_customer_id` Cookie。
+- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html)。
+- `user_allowed_save_cookie`：用于[Cookie限制模式](#cookie-restriction-mode)。
+- `authentication_flag`：指示购物者是否已登录或注销。 此Cookie与`dataservices_customer_id` Cookie同时更新。
 - `dataservices_customer_id`：指示购物者是否已登录或注销。 此Cookie包含系统中客户的唯一ID。
-- `dataservices_customer_group`：表示客户的群组。 此Cookie存储为 [sha1](https://en.wikipedia.org/wiki/SHA-1) 客户组ID的校验和。
+- `dataservices_customer_group`：指示客户的组。 此Cookie存储为客户组ID的[sha1](https://en.wikipedia.org/wiki/SHA-1)校验和。
 - `dataservices_cart_id`：标识购物者的购物车操作。 此Cookie包含系统中客户的唯一购物车ID。
 - `dataservices_product_context`：标识购物者的产品交互。 此Cookie包含系统中客户的唯一报价ID。
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)为Adobe Commerce客户设置以下Cookie。 这些Cookie随 [数据服务模块](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html).
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html)一起安装。
 
-- `mg`：由Snowplow JavaScript跟踪器设置。 欲知更多信息，请参见 [Snowplow文档](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options).
-- `com.adobe.alloy.getTld`：根据当前网页的主机名，这是不是如https://publicsuffix.org中所述“公共后缀”的最顶部域。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是 [Alloy Web SDK](https://github.com/adobe/alloy).
+- `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options)。
+- `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

@@ -5,60 +5,60 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
 
 # 商店本地化
 
-通过更改视图的区域设置，可以立即将整个存储中页面上看起来为硬编码的大多数文本更改为其他语言。 更改区域设置实际上不会逐字翻译文本，而只是引用不同的翻译表，该表提供在整个存储区中使用的界面文本。 可以更改的文本包括导航标题、标签、按钮和链接，例如 _我的购物车_ 和 _我的帐户_. 您也可以使用 [内联翻译](../configuration-reference/advanced/developer.md) 工具，用于在界面中修饰文本。
+通过更改视图的区域设置，可以立即将整个存储中页面上看起来为硬编码的大多数文本更改为其他语言。 更改区域设置实际上不会逐字翻译文本，而只是引用不同的翻译表，该表提供在整个存储区中使用的界面文本。 可更改的文本包括导航标题、标签、按钮和链接，如&#x200B;_我的购物车_&#x200B;和&#x200B;_我的帐户_。 您还可以使用[内联翻译](../configuration-reference/advanced/developer.md)工具修剪界面中的文本。
 
-语言包位于 [翻译和本地化][1]Commerce Marketplace时{：target=&quot;_blank&quot;}。 Marketplace会不断添加新扩展，因此请经常回来查看。
+可在Commerce Marketplace上的[翻译和本地化][1]{：target=&quot;_blank&quot;}下找到语言包。 Marketplace会不断添加新扩展，因此请经常回来查看。
 
 ## 步骤1：安装语言包
 
-按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅 [常规CLI安装][2] 在 _扩展指南_.
+按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装][2]。
 
 ## 步骤2：创建该语言的存储视图
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
 
-1. 单击 **[!UICONTROL Create Store View]**.
+1. 单击&#x200B;**[!UICONTROL Create Store View]**。
 
 1. 设置新商店视图的选项：
 
-   - **[!UICONTROL Store]**  — 选择作为视图父级的存储。
+   - **[!UICONTROL Store]** — 选择作为视图父级的存储。
 
-   - **[!UICONTROL Name]**  — 输入存储视图的名称。 例如：葡萄牙语。
+   - **[!UICONTROL Name]** — 输入存储视图的名称。 例如：葡萄牙语。
 
-     在存储的标题中，该名称显示在 _语言选择器_.
+     在存储的标头中，该名称出现在&#x200B;_语言选择器_&#x200B;中。
 
-   - **[!UICONTROL Code]**  — 输入小写字符代码以标识视图。 例如： `portuguese`.
+   - **[!UICONTROL Code]** — 输入小写字符代码以标识视图。 例如： `portuguese`。
 
-   - **[!UICONTROL Status]**  — 要激活视图，请将设置为 `Enabled`.
+   - **[!UICONTROL Status]** — 要激活视图，请设置为`Enabled`。
 
-   - **[!UICONTROL Sort Order]**  — （可选）输入一个数字，以确定此视图与其他视图一起列出的顺序。
+   - **[!UICONTROL Sort Order]** — （可选）输入一个数字以确定此视图与其他视图一起列出的顺序。
 
-1. 完成后，单击 **[!UICONTROL Save Store View]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Store View]**。
 
 ## 步骤3：更改存储视图的区域设置
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左上角，设置 **[!UICONTROL Store View]** 到要应用配置的特定视图。
+1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为将应用配置的特定视图。
 
-1. 提示确认范围切换时，单击 **[!UICONTROL OK]**.
+1. 提示确认范围切换时，单击&#x200B;**[!UICONTROL OK]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Locale Options]** 部分。
+1. 展开&#x200B;**[!UICONTROL Locale Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 清除 **[!UICONTROL Use Website]** 复选框和设置 **[!UICONTROL Locale]** 指定给视图的语言。
+1. 清除&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框，并将&#x200B;**[!UICONTROL Locale]**&#x200B;设置为要分配给视图的语言。
 
    如果存在几种可用的语言变体，请确保为特定区域或方言选择一种变体。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-   更改区域设置的语言之后，您创建的其余内容，包括产品名称和说明、类别、 [CMS](../content-design/page-translate.md) 页和块必须为每个存储视图单独翻译。
+   更改区域设置的语言后，必须为每个商店视图单独翻译您创建的其余内容，包括产品名称和描述、类别、[CMS](../content-design/page-translate.md)页面和块。
 
 ## 将产品本地化
 
@@ -66,81 +66,81 @@ ht-degree: 0%
 
 ### 步骤1：翻译产品字段
 
-1. 在 _管理员_ 侧栏，转到  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
 1. 在网格中，找到要翻译的产品，并以编辑模式将其打开。
 
-1. 在左上角，设置 **[!UICONTROL Store View]** 到翻译视图，然后单击 **[!UICONTROL OK]** 提示确认时。
+1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为翻译的视图，并在提示确认时单击&#x200B;**[!UICONTROL OK]**。
 
 1. 对于要编辑的每个字段，执行以下操作：
 
-   - 取消选择 **[!UICONTROL Use Default Value]** 复选框。
+   - 取消选中字段右侧的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
 
    - 在字段中粘贴或键入已翻译文本。
 
-   确保翻译所有文本字段，包括 [图像](../catalog/catalog-images-video.md) 标签和替换文本， [搜索引擎优化](../catalog/product-search-engine-optimization.md) 字段和任意 [自定义选项](../catalog/settings-advanced-custom-options.md) 信息。
+   确保翻译所有文本字段，包括[图像](../catalog/catalog-images-video.md)标签和Alt文本、[搜索引擎优化](../catalog/product-search-engine-optimization.md)字段和任何[自定义选项](../catalog/settings-advanced-custom-options.md)信息。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ### 步骤2：翻译字段标签
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
 1. 在列表中，找到要翻译的属性，并在编辑模式下打开。
 
-1. 在左侧面板中，选择 **[!UICONTROL Manage Labels]**.
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在 _[!UICONTROL Manage Titles]_部分，为每个商店视图输入已翻译的标签。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_部分中，为每个商店视图输入一个已翻译的标签。
 
    ![输入翻译的标签](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Attribute]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
 
 ### 步骤3：翻译所有类别
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **类别**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **类别**。
 
-1. 在左上角，设置 **[!UICONTROL Store View]** 到翻译视图，然后单击 **[!UICONTROL OK]** 提示确认时。
+1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为翻译的视图，并在提示确认时单击&#x200B;**[!UICONTROL OK]**。
 
 1. 在树中，找到要翻译的类别，然后在编辑模式下打开该类别。
 
-1. 对象 _基本信息_，转换 **[!UICONTROL Category Name]**.
+1. 对于&#x200B;_基本信息_，请翻译&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 _[!UICONTROL Content]_部分并翻译&#x200B;**[!UICONTROL Description]**.
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_部分并翻译&#x200B;**[!UICONTROL Description]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimization Settings]** 部分并翻译以下字段：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;部分并翻译以下字段：
 
    - **[!UICONTROL Meta Title]**
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在 _[!UICONTROL Search Engine Optimization Settings]_部分，请执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
 
-   - 清除 **[!UICONTROL Use Default Value]** 复选框。
+   - 清除字段右侧的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
 
    - 输入已翻译文本。
 
-   - 确保 **[!UICONTROL Create Permanent Redirect for old URL]** 复选框处于选中状态。
+   - 确保选中&#x200B;**[!UICONTROL Create Permanent Redirect for old URL]**&#x200B;复选框。
 
    ![翻译URL键](./assets/category-translate-url-key.png)
 
-1. 完成后，单击 **[!UICONTROL Save Category]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Category]**。
 
 1. 对存储中使用的所有类别重复该过程。
 
 ### 步骤4：翻译产品属性和属性选项
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
 1. 选择要翻译的属性。
 
-1. 选择 **[!UICONTROL Manage Labels]** 左侧，并设置 **[!UICONTROL Managed Titles]** 用于定义属性标题翻译的选项。
+1. 选择左侧的&#x200B;**[!UICONTROL Manage Labels]**&#x200B;并设置&#x200B;**[!UICONTROL Managed Titles]**&#x200B;选项以定义属性标题转换。
 
-1. 选择 **[!UICONTROL Properties]** 在左侧输入已翻译的属性选项，该选项位于 **[!UICONTROL Manage Options]** 部分。
+1. 选择左侧的&#x200B;**[!UICONTROL Properties]**，然后在&#x200B;**[!UICONTROL Manage Options]**&#x200B;部分中输入已翻译的属性选项。
 
    ![管理选项](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Attribute]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
 
 
 [1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html

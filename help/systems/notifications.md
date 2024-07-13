@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # 系统通知
 
-此 _通知_ 页面按严重性列出所有消息，最新的消息排在顶部。 “操作”命令可用于将单个邮件标记为已读、查看更多详细信息或从收件箱中删除邮件。
+_通知_&#x200B;页面按严重性列出所有邮件，最新的邮件排在顶部。 “操作”命令可用于将单个邮件标记为已读、查看更多详细信息或从收件箱中删除邮件。
 
-1. 执行以下操作之一，打开 _[!UICONTROL Notifications]_页面：
+1. 执行以下操作之一以打开&#x200B;_[!UICONTROL Notifications]_页面：
 
-   - 单击 _通知_ 图标。 如果显示一条或多条新消息，请单击 **[!UICONTROL See All]**.
+   - 单击标题中的&#x200B;_通知_&#x200B;图标。 如果显示一个或多个新消息，请单击&#x200B;**[!UICONTROL See All]**。
 
-   - 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**。
 
-1. 在 **[!UICONTROL Action]** 列，执行以下任一操作：
+1. 在&#x200B;**[!UICONTROL Action]**&#x200B;列中，执行以下任一操作：
 
-   - 有关详细信息，请单击 **[!UICONTROL Read Details]** 在新窗口中打开链接的页面。
+   - 有关详细信息，请单击&#x200B;**[!UICONTROL Read Details]**&#x200B;以在新窗口中打开链接的页面。
 
-   - 要将邮件保留在收件箱中，请单击 **[!UICONTROL Mark As Read]**.
+   - 若要将邮件保留在收件箱中，请单击&#x200B;**[!UICONTROL Mark As Read]**。
 
      ![管理员 — 通知](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
-   - 要删除消息，请单击 **[!UICONTROL Remove]**.
+   - 若要删除邮件，请单击&#x200B;**[!UICONTROL Remove]**。
 
 1. 要将操作应用于多条消息，请执行以下操作之一：
 
    - 选中要管理的每个消息第一列中的复选框。
-   - 要选择多条消息，请设置 **[!UICONTROL Mass Actions]** 根据需要进行控制。
+   - 要选择多个消息，请根据需要设置&#x200B;**[!UICONTROL Mass Actions]**&#x200B;控件。
 
-1. 设置 **[!UICONTROL Actions]** 控制以下任一项：
+1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为以下项之一：
 
    - `Mark as Read`
    - `Remove`
 
-1. 单击 **[!UICONTROL Submit]** 以完成该过程。
+1. 单击&#x200B;**[!UICONTROL Submit]**&#x200B;以完成该过程。

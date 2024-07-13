@@ -1,18 +1,18 @@
 ---
-title: ’[!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector]’
-description: 查看 [!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector] 商务管理员页面。
+title: '[!UICONTROL Services] &amp；gt； [!UICONTROL Commerce Services Connector]'
+description: 查看Commerce管理员的[!UICONTROL Services] &amp；gt； [!UICONTROL Commerce Services Connector]页面上的配置设置。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-要了解如何将您的应用商店连接到Adobe Commerce服务，请参阅 [Commerce服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+若要了解如何将您的商店连接到Adobe Commerce服务，请参阅[Commerce服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)。
 
 {{config}}
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![沙盒API密钥](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sandbox public API key] | 全局 | 标识作者及其权利的API密钥（如果有）。 |
 | [!UICONTROL Sandbox private API key] | 全局 | 与API密钥关联的私钥。 |
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ![生产API密钥](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Production public API key] | 全局 | 标识作者及其权利的API密钥（如果有）。 |
 | [!UICONTROL Production private API key] | 全局 | 与API密钥关联的私钥。 |
@@ -42,10 +42,10 @@ ht-degree: 1%
 
 ![SaaS标识符](./assets/saas-identifier.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Project] | 全局 | 对所有SaaS数据空间进行分组的SaaS项目的名称。 A _创建项目_ 如果没有SaaS项目，则会显示按钮。 |
-| [!UICONTROL Data Space] | 全局 | 列出指定SaaS项目中的SaaS数据空间。 SaaS数据空间的数量取决于 [商业许可证](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)：<br />Adobe Commerce — 一个生产数据空间；两个测试数据空间；<br />Magento Open Source — 一个生产数据空间；无测试数据空间 |
+| [!UICONTROL Project] | 全局 | 对所有SaaS数据空间进行分组的SaaS项目的名称。 如果不存在SaaS项目，则会显示&#x200B;_创建项目_&#x200B;按钮。 |
+| [!UICONTROL Data Space] | 全局 | 列出指定SaaS项目中的SaaS数据空间。 SaaS数据空间的数量取决于您的[Commerce许可证](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)：<br />Adobe Commerce — 一个生产数据空间；两个测试数据空间；<br />Magento Open Source — 一个生产数据空间；无测试数据空间 |
 
 {style="table-layout:auto"}
 

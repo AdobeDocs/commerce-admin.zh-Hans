@@ -5,36 +5,36 @@ exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # 虚拟产品
 
-虚拟产品或数字商品是指无形项目，如会员资格、服务、保修或书籍、音乐、视频或其他产品的订阅和数字下载。 虚拟产品可以单独销售，也可以作为 [已分组的产品](product-create-grouped.md)， [可配置产品](product-create-configurable.md)，或 [捆绑产品](product-create-bundle.md) 产品类型。
+虚拟产品或数字商品是指无形项目，如会员资格、服务、保修或书籍、音乐、视频或其他产品的订阅和数字下载。 虚拟产品可以单独销售，也可以作为[分组产品](product-create-grouped.md)、[可配置产品](product-create-configurable.md)或[捆绑产品](product-create-bundle.md)产品类型的一部分包含在内。
 
-除了没有 _[!UICONTROL Weight]_字段，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用创建虚拟产品的过程 [产品模板](attribute-sets.md)、必填字段和基本设置。 完成基础知识后，您可以根据需要完成其他产品设置。
+除了缺少&#x200B;_[!UICONTROL Weight]_字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
 
 >[!NOTE]
 >
->PayPal不再支持通过PayPal Express Checkout销售数字商品。 他们建议您使用 [PayPal支付标准](../stores-purchase/paypal-payments-standard.md) 或任何其他PayPal支付网关，以处理包括虚拟产品的任何订单。
+>PayPal不再支持通过PayPal Express Checkout销售数字商品。 他们建议您使用[PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md)或任何其他PayPal支付网关来处理包含虚拟产品的任何订单。
 
 ![虚拟产品](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## 步骤1：选择产品类型
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在 _[!UICONTROL Add Product]_( ![菜单箭头](../assets/icon-menu-down-arrow-red.png){width="25"} )菜单，然后选择&#x200B;**[!UICONTROL Virtual Product]**.
+1. 在右上角的&#x200B;_[!UICONTROL Add Product]_（![菜单箭头](../assets/icon-menu-down-arrow-red.png){width="25"} ）菜单中，选择&#x200B;**[!UICONTROL Virtual Product]**。
 
    ![添加虚拟产品](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
 ## 步骤2：选择属性集
 
-选择 [属性集](attribute-sets.md) 作为产品的模板，执行以下操作之一：
+要选择用作产品模板的[属性集](attribute-sets.md)，请执行以下操作之一：
 
-- 单击 **[!UICONTROL Attribute Set]** 字段并输入属性集的全部或部分名称。
+- 单击&#x200B;**[!UICONTROL Attribute Set]**&#x200B;字段并输入属性集的全部或部分名称。
 
 - 在显示的列表中，选择要使用的属性集。
 
@@ -44,42 +44,42 @@ ht-degree: 0%
 
 ## 第3步：完成所需的设置
 
-1. 输入 **[!UICONTROL Product Name]**.
+1. 输入&#x200B;**[!UICONTROL Product Name]**。
 
-1. 接受默认值 **[!UICONTROL SKU]** 基于产品名称或输入其他名称。
+1. 接受基于产品名称的默认&#x200B;**[!UICONTROL SKU]**&#x200B;或输入其他名称。
 
-1. 输入产品 **[!UICONTROL Price]**.
+1. 输入产品&#x200B;**[!UICONTROL Price]**。
 
-1. 由于产品尚未准备好发布，请设置 **[!UICONTROL Enable Product]** 到 `No`.
+1. 由于产品尚未准备好发布，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;设置为`No`。
 
-1. 单击 **[!UICONTROL Save]** 并继续。
+1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;并继续。
 
-   保存产品后， [商店视图](introduction.md#product-scope) 选择器显示在左上角。
+   保存产品后，[商店视图](introduction.md#product-scope)选择器将显示在左上角。
 
-1. 选择 **[!UICONTROL Store View]** 在产品可用的位置。
+1. 选择要提供产品的&#x200B;**[!UICONTROL Store View]**。
 
    ![选择商店视图](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 步骤4：完成基本设置
 
-1. 设置 **[!UICONTROL Tax Class]** 更改为以下任一项：
+1. 将&#x200B;**[!UICONTROL Tax Class]**&#x200B;设置为以下项之一：
 
    - `None`
    - `Taxable Goods`
 
-1. 输入 **[!UICONTROL Quantity]** ，并执行以下操作：
+1. 输入有库存的产品的&#x200B;**[!UICONTROL Quantity]**，并执行以下操作：
 
-   - 接受默认值 **[!UICONTROL Stock Status]** 设置 `In Stock`.
+   - 接受`In Stock`的默认&#x200B;**[!UICONTROL Stock Status]**&#x200B;设置。
 
-     由于虚拟产品尚未发货，因此 **[!UICONTROL Weight]** 未使用字段。
+     由于虚拟产品未发货，因此未使用&#x200B;**[!UICONTROL Weight]**&#x200B;字段。
 
-   - 接受默认值 **[!UICONTROL Visibility]** 设置 `Catalog, Search`.
+   - 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
    >[!NOTE]
    >
-   >如果您启用 [Inventory management](../inventory-management/introduction.md)，单个来源商家可设置此部分中的数量。 多源商家在“来源”部分中添加来源和数量。 请参阅以下内容 _分配来源和数量(Inventory management)_ 部分。
+   >如果启用[Inventory management](../inventory-management/introduction.md)，则单个来源商家将设置此部分中的数量。 多源商家在“来源”部分中添加来源和数量。 请参阅以下&#x200B;_分配来源和数量(Inventory management)_&#x200B;部分。
 
-1. 要分配 **[!UICONTROL Categories]** 对于产品，单击 **[!UICONTROL Select…]** 框并执行以下任一操作：
+1. 要将&#x200B;**[!UICONTROL Categories]**&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
 
    **选择现有类别**：
 
@@ -89,11 +89,11 @@ ht-degree: 0%
 
    **创建类别**：
 
-   - 单击 **[!UICONTROL New Category]**.
+   - 单击&#x200B;**[!UICONTROL New Category]**。
 
-   - 输入 **[!UICONTROL Category Name]** 并选择 **[!UICONTROL Parent Category]**，确定其在菜单结构中的位置。
+   - 输入&#x200B;**[!UICONTROL Category Name]**&#x200B;并选择&#x200B;**[!UICONTROL Parent Category]**&#x200B;以确定其在菜单结构中的位置。
 
-   - 单击 **[!UICONTROL Create Category]**.
+   - 单击&#x200B;**[!UICONTROL Create Category]**。
 
    可能有其他单个属性用于描述产品。 选择因属性集而异，您可以稍后完成它们。
 
@@ -116,27 +116,27 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此 _[!UICONTROL Is this downloadable product?]_选项默认处于禁用状态。 为虚拟产品启用此功能会生成产品 [可下载](product-create-downloadable.md#downloadable-product).
+>默认情况下，_[!UICONTROL Is this downloadable product?]_选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
 
-## 步骤6：发布产品
+## 步骤6：Publish产品
 
-1. 如果您已准备好在目录中发布产品，请设置 **[!UICONTROL Enable Product]** 到 `Yes`.
+1. 如果您已准备好发布目录中的产品，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;设置为`Yes`。
 
 1. 执行以下操作之一：
 
-   - **方法1：** 保存并预览
+   - **方法1：**&#x200B;保存并预览
 
-      - 在右上角，单击 **[!UICONTROL Save]**.
+      - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请选择 **[!UICONTROL Customer View]** 在 _管理员_ ( ![菜单箭头](../assets/icon-menu-down-arrow-black.png) )菜单。
+      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
 
      该存储将在新的浏览器选项卡中打开。
 
      ![客户视图](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
-   - **方法2：** 保存并关闭
+   - **方法2：**&#x200B;保存并关闭
 
-     在 _[!UICONTROL Save]_(![菜单箭头](../assets/icon-menu-down-arrow-red.png){width="25"} )菜单，选择&#x200B;**[!UICONTROL Save & Close]**.
+     在&#x200B;_[!UICONTROL Save]_（![菜单箭头](../assets/icon-menu-down-arrow-red.png){width="25"} ）菜单中，选择&#x200B;**[!UICONTROL Save & Close]**。
 
 ## 注意事项
 

@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ ht-degree: 0%
 
 ## 打开公司详细信息页面
 
-1. 从 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. 从&#x200B;_管理员_&#x200B;侧边栏，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在母公司的“公司”网格中打开公司详细信息页面，方法是选择 **[!UICONTROL Edit]** 操作。
+1. 通过选择&#x200B;**[!UICONTROL Edit]**&#x200B;操作，在母公司的“公司”网格中打开公司详细信息页面。
 
-请参阅 [管理公司帐户](account-company-manage.md) 以了解有关“公司”网格的更多信息。
+有关公司网格的详细信息，请参阅[管理公司帐户](account-company-manage.md)。
 
 ## [!UICONTROL Company Hierarchy]
 
-在最初创建公司时， [!UICONTROL Company Hierarchy] 展开网格时，网格为空。 创建公司后，具有适当权限的管理员用户可以使用 [!UICONTROL Company Hierarchy] 通过编辑指定的母公司并分配相关公司来构建母公司组织。
+在初始创建公司时，展开[!UICONTROL Company Hierarchy]网格时它是空的。 创建公司后，具有相应权限的管理员用户可以使用[!UICONTROL Company Hierarchy]通过编辑指定的母公司并分配相关公司来构建母公司组织。
 
 ![公司层次结构网格](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-请参阅 [分配和取消分配公司](assign-companies.md) 有关中可用操作的更多信息，请参见 [!UICONTROL Company Hierarchy] 网格。
+有关[!UICONTROL Company Hierarchy]网格中可用操作的详细信息，请参阅[分配和取消分配公司](assign-companies.md)。

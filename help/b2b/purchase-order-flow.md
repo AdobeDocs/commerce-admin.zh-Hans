@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 公司的采购订单
 
-采购订单(PO)是公司跟踪和控制支出的常用方式。 [采购订单](../stores-purchase/purchase-order.md) 是Adobe Commerce和Magento Open Source中支持的标准离线支付方法之一。 安装Adobe Commerce的B2B并 [_启用采购订单_](account-company-manage.md#advanced-settings) 已为公司帐户激活，所有订单都会自动创建为采购订单(PO)。 公司用户具有所需的 [权限](account-company-roles-permissions.md) 可以创建、编辑和删除他们创建的PO以及下属用户创建的PO。
+采购订单(PO)是公司跟踪和控制支出的常用方式。 [采购订单](../stores-purchase/purchase-order.md)是Adobe Commerce和Magento Open Source中支持的标准离线付款方法之一。 安装Adobe Commerce的B2B并为公司帐户激活&#x200B;[_启用采购订单_](account-company-manage.md#advanced-settings)&#x200B;时，所有订单都会自动创建为采购订单(PO)。 具有所需[权限](account-company-roles-permissions.md)的公司用户可以创建、编辑和删除他们创建的PO以及下属用户创建的PO。
 
 ## 采购订单流程
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >默认情况下， `Purchase order has been submitted for approval` 即使未设置审批规则，也会始终向公司用户显示消息。 当不需要审批流程时，公司用户会自动收到一封电子邮件，通知他们订单已创建和批准。
+  >默认情况下，即使未设置审批规则，也始终向公司用户显示`Purchase order has been submitted for approval`消息。 当不需要审批流程时，公司用户会自动收到一封电子邮件，通知他们订单已创建和批准。
 
 - 如果批准规则由公司管理员定义，则用户将执行批准流程。
 - 在创建采购订单时输入脱机付款详细信息。
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->采购订单创建 _快照_ 创建订单时的物料价格、折扣和装运价格。 如果项目价格在创建PO后发生变化，则使用原始价格。
+>采购订单在创建订单时创建物料价格、折扣和装运价格的&#x200B;_快照_。 如果项目价格在创建PO后发生变化，则使用原始价格。
 
 ### 基本工作流示例
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 - 任何超过$1000的订单都需要经理和公司管理员的批准。
 - 任何具有30个以上唯一SKU的订单都需要公司管理员的批准。
 
-为公司制定这些规则后，公司用户可以在订单金额少于$100时立即完成订单。 要了解审批规则定义，请参阅 [批准规则](account-dashboard-approval-rules.md)
+为公司制定这些规则后，公司用户可以在订单金额少于$100时立即完成订单。 要了解审批规则定义，请参阅[审批规则](account-dashboard-approval-rules.md)
 
 ### 商店用户的类型
 
@@ -71,23 +71,23 @@ ht-degree: 0%
 
 ## [!UICONTROL My Purchase Orders]
 
-为公司启用采购订单时， **[!UICONTROL My Purchase Orders]** 对于登录到公司用户帐户的客户，项目会显示在左侧面板中。 有三个选项卡提供了不同的采购订单列表和功能：
+为公司启用采购订单后，对于登录到公司用户帐户的客户，**[!UICONTROL My Purchase Orders]**&#x200B;项目会显示在左侧面板中。 有三个选项卡提供了不同的采购订单列表和功能：
 
 - **[!UICONTROL My Purchase Orders]**：客户创建的PO。
-- **[!UICONTROL Company Purchase Orders]**：公司内下属用户制作的PO（取决于公司结构和角色）。
-- **[!UICONTROL Requires My Approval]**：（对指定的批准者可见）等待客户批准的PO。 计数器显示等待批准的订单数。
+- **[!UICONTROL Company Purchase Orders]**：公司内下属用户发出的PO（取决于公司结构和角色）。
+- **[!UICONTROL Requires My Approval]**： （对指定的批准者可见）等待客户批准的PO。 计数器显示等待批准的订单数。
 
 ![我的采购订单](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-有关可供店面中的公司用户使用的受支持采购订单功能的更多信息，请参阅 [我的采购订单](account-dashboard-my-purchase-orders.md).
+有关店面中公司用户可用的受支持采购订单功能的详细信息，请参阅[我的采购订单](account-dashboard-my-purchase-orders.md)。
 
 ## 离线与在线支付方式
 
-工作流可能因支付方式而异。 要了解有关Adobe Commerce支付方法的更多信息，请参阅 [支付方式](../stores-purchase/payments.md) 在 _销售和购买体验指南_.
+工作流可能因支付方式而异。 要了解有关Adobe Commerce付款方法的详细信息，请参阅&#x200B;_销售和购买体验指南_&#x200B;中的[付款方法](../stores-purchase/payments.md)。
 
 >[!IMPORTANT]
 >
->采购订单应使用 _In-context_ 结账体验。 _上下文外_ 不支持结帐，因为它们会绕过正常的结帐流程。 一般而言， _In-context_ 是指客户停留在您的商业网站上以完成该过程。 _上下文外_ 是指客户被带到其他地点完成购买的时间。
+>采购订单应使用&#x200B;_In-Context_&#x200B;签出体验。 不支持&#x200B;_上下文外_&#x200B;结帐，因为它们绕过正常的结帐流程。 通常，_In-Context_&#x200B;意味着客户停留在您的商务网站上以完成该过程。 _上下文外_&#x200B;是指客户被带到其他网站完成购买的时间。
 
 ### 在线支付
 

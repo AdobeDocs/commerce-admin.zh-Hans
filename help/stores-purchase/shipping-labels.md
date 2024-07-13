@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # 配送标签
 
-Commerce包括与主要航运运营商的高级集成，让您能够访问运营商航运系统以跟踪订单、创建航运标签等。 可为常规装运和获退货商品授权的产品创建装运标签。 除了航运承运人提供的信息外，标签还包括商务订单号、包裹编号和航运的包裹总数。
+Commerce包括与主要运输运营商的高级集成，让您能够访问运营商运输系统以跟踪订单、创建运输标签等。 可为常规装运和获退货商品授权的产品创建装运标签。 除了航运承运人提供的信息外，标签还包括Commerce订单号、包裹编号和航运的包裹总数。
 
 ![USPS优先送货标签](./assets/shipping-usps-priority-label.png){width="300"}
 
@@ -29,7 +29,7 @@ Commerce包括与主要航运运营商的高级集成，让您能够访问运营
 
 ### 步骤2：请求已发送到运营商
 
-Commerce联系装运承运人，并在承运人系统中创建订单。 系统会为每个已发运的包创建单独的订单。
+Commerce与装运承运人联系，并在该承运人的系统中创建订单。 系统会为每个已发运的包创建单独的订单。
 
 ### 步骤3：运营商发送标签和跟踪号
 

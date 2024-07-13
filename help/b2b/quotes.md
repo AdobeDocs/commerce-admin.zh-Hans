@@ -14,9 +14,9 @@ ht-degree: 0%
 
 买方和卖方使用报价单来管理订单添加项目、更新数量、请求和应用折扣等的洽谈流程，直到他们达成一致为止。 报价洽谈流程可以由授权的公司采购员启动，也可以由公司销售代表启动。
 
-报价可以由授权的公司买方或销售代表起始。 创建报价之后，当买方或卖方提交报价以供复查时，洽谈流程将开始。 此 _引号_ 此网格列出了所收到的每个报价，并维护了买卖双方之间的通信历史。 使用标准 [工作区控件](../getting-started/admin-workspace.md) 要筛选列表，请更改列布局、保存视图和导出数据。
+报价可以由授权的公司买方或销售代表起始。 创建报价之后，当买方或卖方提交报价以供复查时，洽谈流程将开始。 _报价_&#x200B;网格列出了收到的每个报价，并维护了买方与卖方之间的通信历史记录。 使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改列布局、保存视图和导出数据。
 
-- 在店面，购买者提交报价为 [请求协商](quote-price-negotiation.md) 购物车的价格。 在创建报价请求时，买方可以将报价另存为草稿，或直接将其提交给卖方。
+- 在店面，购买者提交报价作为[请求，以洽谈](quote-price-negotiation.md)购物车中的价格。 在创建报价请求时，买方可以将报价另存为草稿，或直接将其提交给卖方。
 
 - 在管理员中，销售代表可以代表公司买方创建报价。 在创建报价单时，卖方可以将报价单保存为草稿，或直接将其提交给买方以启动洽谈流程。
 
@@ -35,59 +35,59 @@ ht-degree: 0%
 
 报价可由买方或卖方发起。
 
-**步骤1：创建报价**
+**步骤1：报价单创建**
 
-- **买方请求报价**  — 买方 [请求报价](quote-request.md) 从购物车中。 该请求将显示在 _我的报价_ ，然后向分配给公司帐户的销售代表发送电子邮件通知。 在Admin中，请求显示在 _引号_ 网格，状态为 `New`. 在卖方打开报价之前，买方可以修改报价请求。
+- **买方请求报价** — 买方[从购物车中请求报价](quote-request.md)。 该请求显示在买方帐户仪表板的&#x200B;_我的报价_&#x200B;列表中，并会向分配给公司帐户的销售代表发送电子邮件通知。 在Admin中，请求显示在&#x200B;_引号_&#x200B;网格中，状态为`New`。 在卖方打开报价之前，买方可以修改报价请求。
 
   ![引号](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
 
-- **销售代表**  — 销售代表可以 [创建报价](sales-rep-initiates-quote.md) 管理员代表特定公司买方提供。 销售代表必须更新报价单以将产品和其他信息（如折扣和备注）添加到采购员。 销售代表可以将报价另存为 `draft` 或发送给买方以开始洽谈。 在草稿状态下，报价仅对卖方可见。 发送报价后，状态为 `Submitted`. 在买方将其发回之前，卖方不能对其进行修改。
+- **销售代表** — 销售代表可以代表特定公司购买者从管理员[创建报价](sales-rep-initiates-quote.md)。 销售代表必须更新报价单以将产品和其他信息（如折扣和备注）添加到采购员。 销售代表可以将报价另存为`draft`或发送给采购员以开始洽谈。 在草稿状态下，报价仅对卖方可见。 发送报价后，状态为`Submitted`。 在买方将其发回之前，卖方不能对其进行修改。
 
-  ![卖方从Admin中的Quotes网格启动买方报价](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+  ![卖方从Admin的Quotes网格中启动买方报价](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
 
-**步骤2：报价审核和洽谈**
+**步骤2：报价审核和协商**
 
-**卖方查看请求并发送回应**  — 在Admin中，卖方查看报价请求。 报价的状态将更改为 `Pending`，则购买者无法进行任何更改。 此 [卖方回复](quote-price-negotiation.md) 通过为报价中的产品提供折扣定价，输入备注，然后将报价发回给购买者。 通过电子邮件通知买方和销售代表，卖方已作出回应。
+**卖方查看请求并发送回复** — 在管理员中，卖方查看报价请求。 报价的状态更改为`Pending`，买方无法进行任何更改。 [卖方通过为报价中的产品提供折扣定价来回复](quote-price-negotiation.md)，输入注释并将报价发回给买方。 通过电子邮件通知买方和销售代表，卖方已作出回应。
 
-**买方查看来自卖方的报价并发送回应**  — 采购员单击电子邮件通知中的链接以打开报价，或从以下位置打开报价 _我的报价_ 帐户仪表板页面。 采购员可以在行项目或报价级别向卖方留下附注，并删除项目。
+**买方查看卖方的报价并发送回应** — 买方单击电子邮件通知中的链接打开报价，或从帐户仪表板的&#x200B;_我的报价_&#x200B;页打开报价。 采购员可以在行项目或报价级别向卖方留下附注，并删除项目。
 
 买方和卖方可以继续协商过程，直到达成协议或卖方拒绝报价。 如果采购员更改报价 — 添加或删除产品或更改产品数量 — 则必须将报价返回给卖方进行复查。
 
-**步骤4：买方接受报价**  — 买方接受提议的价格并继续结帐。 无法将附加折扣添加到协商的报价中。
+**步骤4：买方接受报价** — 买方接受提议的价格并继续结帐。 无法将附加折扣添加到协商的报价中。
 
 ## 商店报价的B2B角色资源
 
-报价的配置选项可通过以下方式控制 [角色资源](../systems/permissions-user-roles.md#role-resources). 必须为分配给商店管理员的管理员用户角色设置这些角色资源。
+使用[角色资源](../systems/permissions-user-roles.md#role-resources)控制报价的配置选项。 必须为分配给商店管理员的管理员用户角色设置这些角色资源。
 
-要授予对Admin中报价功能的访问权限，请转到 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**，选择角色，然后导航到 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] 在_&#x200B;角色资源&#x200B;_树。
+要授予对管理员中报价函数的访问权限，请转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**，选择角色，然后导航到_&#x200B;角色资源&#x200B;_树中的[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]。
 
 ## 应用操作
 
-在“管理员”中，B2B管理员和销售人员可以使用 [!UICONTROL Actions] 菜单。
+在“管理员”中，B2B管理员和销售人员可以使用[!UICONTROL Actions]菜单管理报价网格中的报价。
 
 ![引号](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
 1. 在网格的第一列中，选中要应用操作的每个记录的复选框。
 
-1. 在 **[!UICONTROL Actions]** 选择要应用的操作。
+1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;中，选择要应用的操作。
 
 ### 查看报价
 
-1. 在 **[!UICONTROL Actions]** 列中，单击 **[!UICONTROL View]**.
+1. 在记录的&#x200B;**[!UICONTROL Actions]**&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
-1. 要响应客户请求，请按照说明并开始 [议价](quote-price-negotiation.md) 进程。
+1. 要响应客户请求，请按照说明开始[价格洽谈](quote-price-negotiation.md)流程。
 
 ### 查看报价活动
 
-从查看洽谈时间线、通信和其他报价活动 [!UICONTROL Comments] 和 [!UICONTROL History Log] — 信息包括状态更改、对客户和发货信息的更新、商品和价格更新以及其他重要信息。
+从[!UICONTROL Comments]和[!UICONTROL History Log]中查看洽谈时间线、通信和其他报价活动 — 信息包括状态更改、客户和发运信息的更新、物料和价格更新以及其他重要信息。
 
 1. 打开报价。
 
-1. 通过滚动至，查看报价议价备注和历史记录 **[!UICONTROL Negotiation]**，并选择 **[!UICONTROL Comments]** 和 **[!UICONTROL History Log]**.
+1. 通过滚动到&#x200B;**[!UICONTROL Negotiation]**&#x200B;并选择&#x200B;**[!UICONTROL Comments]**&#x200B;和&#x200B;**[!UICONTROL History Log]**&#x200B;来查看报价议价备注和历史记录。
 
    ![查看历史记录](./assets/quote-view-history.png){width="400"}
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 ### 拒绝询价
 
-仅报价请求具有 `Open` 可以拒绝状态。
+只能拒绝具有`Open`状态的报价请求。
 
 1. 选择要拒绝的每个打开报价请求。
 
-1. 设置 _[!UICONTROL Actions]_控制对象 `Declined`.
+1. 将&#x200B;_[!UICONTROL Actions]_控件设置为`Declined`。
 
-1. 出现提示时，输入拒绝报价的原因，然后单击 **[!UICONTROL Confirm]**.
+1. 出现提示时，输入报价被拒绝的原因，然后单击&#x200B;**[!UICONTROL Confirm]**。
 
    ![拒绝报价？](./assets/quote-decline-confirm.png){width="400"}
 
@@ -123,8 +123,8 @@ ht-degree: 0%
 | [!UICONTROL Sales Rep] | 管理买方帐户的销售代表的名字和姓氏。 |
 | [!UICONTROL Quote Total (Base)] | 要基于原始报价购买的产品总价。 总金额以网站的基本货币和店面的货币显示。 |
 | [!UICONTROL Quote Total (Negotiated)] | 根据议定报价购买的产品总价。 此合计由系统自动计算，包括销售方应用的任何行项目或报价级别折扣。 总金额以网站的基本货币和店面的货币显示。 |
-| [!UICONTROL Status] | 表示报价请求的当前状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 另请参阅 [买方帐户](account-dashboard-my-quotes.md).<ul><li>**[!UICONTROL New]**  — 买方提交了询价，但卖方未查看询价。 买方可以更新该请求，直到卖方打开该请求为止。</li><li>**[!UICONTROL Draft]**  — 卖方为买方创建草稿报价。 在卖方添加优惠详细信息（项目、数量、折扣等）并将报价提交给买方之前，买方看不到报价。</li> <li>**[!UICONTROL Open]**  — 卖方开启了请求，正在审查请求并准备答复。 </li><li>**[!UICONTROL Submitted]**  — 卖方向买方发送了答复。 在洽谈过程中无法编辑报价记录。</li><li>**[!UICONTROL Client Reviewed]**  — 买方查看了卖方的答复，正在准备答复。</li><li>**[!UICONTROL Updated]**  — 买方提交了一份答复，但卖方并未查看该答复。</li><li>**[!UICONTROL Ordered]**  — 买方根据议定报价提交了订单。</li><li>**[!UICONTROL Closed]**  — 采购员已取消报价请求。</li><li>**[!UICONTROL Declined]**  — 卖方拒绝了询价的请求。 所有自定义定价都将从报价中删除，并且记录将被锁定，无法进一步编辑。</li><li>**[!UICONTROL Expired]**  — 买方在指定的期限内未对卖方的答复作出答复，报价不再有效。</li></ul> |
-| [!UICONTROL Actions] | **[!UICONTROL View]**  — 打开报价请求，并保留买卖双方之间的洽谈记录。 |
+| [!UICONTROL Status] | 表示报价请求的当前状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 另请参阅[购买者帐户](account-dashboard-my-quotes.md)中的状态设置。<ul><li>**[!UICONTROL New]** — 买方提交了询价，但卖方未查看该询价。 买方可以更新该请求，直到卖方打开该请求为止。</li><li>**[!UICONTROL Draft]** — 卖方为买方创建草稿报价。 在卖方添加优惠详细信息（项目、数量、折扣等）并将报价提交给买方之前，买方看不到报价。</li> <li>**[!UICONTROL Open]** — 卖方已打开请求，正在审查请求并准备回应。 </li><li>**[!UICONTROL Submitted]** — 卖方向买方发送了回复。 在洽谈过程中无法编辑报价记录。</li><li>**[!UICONTROL Client Reviewed]** — 买方查看了卖方的回复，正在准备回复。</li><li>**[!UICONTROL Updated]** — 买方提交了回复，但卖方未查看回复。</li><li>**[!UICONTROL Ordered]** — 买方基于协商报价提交了订单。</li><li>**[!UICONTROL Closed]** — 买方取消了报价请求。</li><li>**[!UICONTROL Declined]** — 卖方拒绝了询价。 所有自定义定价都将从报价中删除，并且记录将被锁定，无法进一步编辑。</li><li>**[!UICONTROL Expired]** — 买方在指定的时间段内未回复卖方的回复，报价不再有效。</li></ul> |
+| [!UICONTROL Actions] | **[!UICONTROL View]** — 打开报价请求并保留买卖双方协商的记录。 |
 
 {style="table-layout:auto"}
 
@@ -133,10 +133,10 @@ ht-degree: 0%
 | 按钮 | 描述 |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | 发送更新后的报价作为对买方查询的回复。 如果卖方正在等待买方的回复，则此按钮被禁用。 |
-| [!UICONTROL Back] | 返回到 _引号_ 页面，而不保存更改。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informational url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta版计划参与者&quot;}通过复制和重命名从当前报价创建新报价。 打开新报价时，默认名称为 `<original quote name> (copy)`. 通过编辑中的值来更改名称 [!UICONTROL Name] 字段并将报价另存为草稿。 |
+| [!UICONTROL Back] | 返回到&#x200B;_引号_&#x200B;页而不保存更改。 |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta功能]{type=信息性url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta计划参与者&quot;}通过复制和重命名从当前报价创建新报价。 打开新报价时，默认名称为`<original quote name> (copy)`。 通过编辑[!UICONTROL Name]字段中的值并将报价另存为草稿来更改名称。 |
 | [!UICONTROL Print] | 将报价发送至打印机或将其保存为PDF文件。 |
-| [!UICONTROL Create a copy] | 创建报价的副本，名为 `<original quote name> (copy)` 并打开它。 根据需要重命名并更新新报价，然后将其另存为草稿或发送给买方。 |
+| [!UICONTROL Create a copy] | 创建名为`<original quote name> (copy)`的报价的副本并将其打开。 根据需要重命名并更新新报价，然后将其另存为草稿或发送给买方。 |
 | [!UICONTROL Save as Draft] | 保存对报价所做的任何更改，但不将其发送回购买者。 |
 | [!UICONTROL Decline] | 拒绝就价格进行谈判的要求，无论是在初步调查中还是在正在进行的谈判中。 当报价被拒绝时，卖方应添加评论来解释这一决定。 当报价被拒绝时，所有议价价格都将重置为原始值。 当卖方等待买方的回复时，此按钮被禁用。 |
 
@@ -151,4 +151,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅供测试版计划参与者使用"}
+>[!BADGE 1.5.0-beta功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}

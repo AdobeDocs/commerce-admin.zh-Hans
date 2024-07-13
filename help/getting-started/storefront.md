@@ -14,13 +14,13 @@ ht-degree: 0%
 
 在您的Adobe Commerce或Magento Open Source实施中，店面是商店中面向公众的外部部分。 它提供客户用于购物和购买的内容和功能组件。
 
-客户进行销售的方式有时称为 _购买路径_，您的店面包括供客户完成此路径的组件。 以下部分概述了提供战略价值的基本页面类型，即客户在商店购物时通常会访问的位置。 在回顾这些功能时，请考虑可在客户历程的每个阶段使用的不同商店功能。
+客户进行销售的路径有时称为&#x200B;_购买路径_，您的店面包括供客户完成此路径的组件。 以下部分概述了提供战略价值的基本页面类型，即客户在商店购物时通常会访问的位置。 在回顾这些功能时，请考虑可在客户历程的每个阶段使用的不同商店功能。
 
 ## 主页
 
 您知道吗，大多数人在决定留下来或前往其他位置之前，只会在页面上停留几秒钟？ 给人留下印象用不了多久。 研究表明，人们也喜欢照片，尤其是其他人的照片。 无论您选择哪种设计，主页上的所有内容都应当让访客沿着销售过程的下一步前进。 他们的想法是从一个兴趣点到另一个兴趣点引导他们的注意力。
 
-![示例店面主页](./assets/storefront-homepage-full.png){width="700"}
+![店面主页示例](./assets/storefront-homepage-full.png){width="700"}
 
 ## 目录页面
 
@@ -28,21 +28,21 @@ ht-degree: 0%
 
 最初的产品描述通常为购物者提供了足够的信息，值得更仔细地观察。 知道自己需要什么的人可以将产品添加到购物车中并离开。 在登录到帐户期间购物的客户可享受个性化的购物体验。
 
-![店面上的收藏集页面](./assets/storefront-collection-page.png){width="700"}
+店面上的![收藏集页面](./assets/storefront-collection-page.png){width="700"}
 
 ## 搜索结果
 
-您知道吗？使用搜索功能的人购买产品的可能性几乎是仅依赖导航功能的人的两倍。 你可能会认为这些购物者 _预合格_.
+您知道吗？使用搜索功能的人购买产品的可能性几乎是仅依赖导航功能的人的两倍。 您可能会认为这些购物者是&#x200B;_预获资格_。
 
 ### [!DNL Live Search]
 
-替换为 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) 对于Adobe Commerce，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
 
-![实时搜索示例 — 键入内容时搜索](./assets/storefront-search-as-you-type.png){width="700"}
+![实时搜索示例 — 键入时搜索](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 标准目录搜索
 
-替换为 [标准目录搜索](../catalog/search.md)，您的商店在右上角有一个搜索框，并在页脚中提供一个指向高级搜索的链接。 购物者提交的所有搜索词都会被保存，这样您就可以准确地看到他们要查找的内容。 您可以提供建议，并输入同义词和常见拼写错误。 然后，在输入搜索词时显示特定页面。
+使用[标准目录搜索](../catalog/search.md)，您的商店在右上角包括一个搜索框，并在页脚中包含一个指向高级搜索的链接。 购物者提交的所有搜索词都会被保存，这样您就可以准确地看到他们要查找的内容。 您可以提供建议，并输入同义词和常见拼写错误。 然后，在输入搜索词时显示特定页面。
 
 ![标准目录搜索结果示例](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 配送信息
 
    结账流程的第一步是让客户填写送货地址信息，并选择送货方式。 如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
-如果访客客户输入的电子邮件地址被识别为先前已注册，则 [!UICONTROL Enable Guest Checkout Login] 将存储配置中的字段设置为 `Yes` (请参阅 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 在 _配置参考指南_)。 但是，此设置可能会向未经身份验证的用户公开客户信息。
+如果访客客户输入的电子邮件地址被识别为先前已注册，则当存储配置中的[!UICONTROL Enable Guest Checkout Login]字段设置为`Yes`时，将显示登录提示（请参阅&#x200B;_配置参考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。 但是，此设置可能会向未经身份验证的用户公开客户信息。
 
    ![示例storefront结帐页面](./assets/storefront-checkout-shipping-full.png){width="700"}
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >尽管 [!DNL Commerce] 允许配置多个优惠券代码，客户只能将一个优惠券代码应用于购物车。 (请参阅 [优惠券代码](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) 以了解更多信息。)
+   >虽然[!DNL Commerce]允许配置多个优惠券代码，但客户只能向购物车应用一个优惠券代码。 （有关详细信息，请参阅[优惠券代码](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes)。）
 
    ![示例storefront结帐页面](./assets/storefront-checkout-payment-full.png){width="700"}
 
-页面顶部的进度栏将遵循结账流程的每个步骤，并且 _订单摘要_ 显示截至此时输入的信息。
+页面顶部的进度栏跟踪结帐流程的每个步骤，_订单摘要_&#x200B;显示截至此阶段输入的信息。
 
 >[!NOTE]
 >

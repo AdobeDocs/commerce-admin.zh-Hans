@@ -16,13 +16,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Order Total Report]
 
-此 [!UICONTROL Order Total Report] 显示指定时间间隔或日期范围内的客户订单。 此报表包括每位客户的订单数、平均订单金额和总额。
+[!UICONTROL Order Total Report]显示指定时间间隔或日期范围内的客户订单。 此报表包括每位客户的订单数、平均订单金额和总额。
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**。
 
-![订单总额报表](./assets/customers-order-total.png){width="600"}
+![订单总计报表](./assets/customers-order-total.png){width="600"}
 
-### 工作区控件
+### Workspace控件
 
 | 控件 | 描述 |
 |--- |--- |
@@ -38,23 +38,23 @@ ht-degree: 1%
 
 | 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Interval] | 订单总计间隔，按 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | 订单总计间隔，按`Month` / `Day` / `Year`。 |
 | [!UICONTROL Customer] | 下订单的客户的名称。 |
 | [!UICONTROL Orders] | 指定间隔内的订单数。 |
-| [!UICONTROL Average] | 平均订单金额。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
-| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Average] | 平均订单金额。 此金额始终针对产品价格&#x200B;**计算（不含税**），即使目录产品价格、订单小计和订单总计含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终针对产品价格&#x200B;**计算（不含税**），即使目录产品价格、订单小计和订单总计含税。 因此，如果订单总额含税，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-此 [!UICONTROL Order Count Report] 显示指定时间间隔或日期范围内每个客户的订单数。 此报表包括每位客户的订单数、平均订单金额和总额。
+[!UICONTROL Order Count Report]显示指定时间间隔或日期范围内每个客户的订单数。 此报表包括每位客户的订单数、平均订单金额和总额。
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**。
 
-![订单数量报表](./assets/customer-order-count.png){width="600"}
+![订单计数报表](./assets/customer-order-count.png){width="600"}
 
-### 工作区控件
+### Workspace控件
 
 | 控件 | 描述 |
 |--- |--- |
@@ -70,23 +70,23 @@ ht-degree: 1%
 
 | 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Interval] | 订单计数间隔，按 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | 订单计数间隔，按`Month` / `Day` / `Year`。 |
 | [!UICONTROL Customer] | 下订单的客户。 |
 | [!UICONTROL Orders] | 指定间隔内的订单数。 |
-| [!UICONTROL Average] | 平均订单金额。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
-| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终根据产品价格计算 **不含税** 即使目录产品价格，订单小计和订单总额也包含税。 因此，如果订单总额包含该金额，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Average] | 平均订单金额。 此金额始终针对产品价格&#x200B;**计算（不含税**），即使目录产品价格、订单小计和订单总计含税。 因此，如果订单总额含税，则报表中显示的金额与订单详细信息中显示的金额会有所不同。 |
+| [!UICONTROL Total] | 该期间所有订单的总和。 此金额始终针对产品价格&#x200B;**计算（不含税**），即使目录产品价格、订单小计和订单总计含税。 因此，如果订单总额包含该金额，则报表中显示的总金额与订单详细信息中显示的金额会有所不同。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-此 [!UICONTROL New Accounts Report] 显示在指定的时间间隔或日期范围内打开的新客户帐户数。
+[!UICONTROL New Accounts Report]显示在指定的时间间隔或日期范围内打开的新客户帐户数。
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**。
 
-![新建帐户报表](./assets/customers-new-accounts.png){width="600"}
+![新帐户报表](./assets/customers-new-accounts.png){width="600"}
 
-### 工作区控件
+### Workspace控件
 
 | 控件 | 描述 |
 |--- |--- |
@@ -109,15 +109,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Customer Wish List Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
 
-此 [!UICONTROL Customer Wish List Report] 提供了有关客户愿望清单的信息。
+[!UICONTROL Customer Wish List Report]提供了有关客户愿望清单的信息。
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**。
 
 ![愿望清单报告](./assets/customer-wish-list.png){width="600"}
 
-### 工作区控件
+### Workspace控件
 
 | 控件 | 描述 |
 |--- |--- |
@@ -149,15 +149,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
 
-此 [!UICONTROL Customer Segment Report] 提供有关每个分部的客户数量的信息。
+[!UICONTROL Customer Segment Report]提供有关每个区段中的客户数的信息。
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**。
 
 ![区段报表](./assets/customers-segments.png){width="600"}
 
-### 工作区控件
+### Workspace控件
 
 | 控件 | 描述 |
 |--- |--- |

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 产品工作区
 
-所有产品类型的产品工作区基本上相同，尽管字段选择会根据使用的属性集而发生更改。 产品属性位于表单顶部，其后是产品信息的可展开部分。 首次保存新产品时， _[!UICONTROL Store View]_选择器显示在表单的左上角。
+所有产品类型的产品工作区基本上相同，尽管字段选择会根据使用的属性集而发生更改。 产品属性位于表单顶部，其后是产品信息的可展开部分。 首次保存新产品时，_[!UICONTROL Store View]_选择器将显示在表单的左上角。
 
 ![产品工作区](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
-## [!UICONTROL Enable Product] 设置
+## [!UICONTROL Enable Product]设置
 
-产品的在线状态由表单顶部的开关指示。 要更改联机状态，请设置 **[!UICONTROL Enable Product]** 切换到 `Yes` 或 `No`.
+产品的在线状态由表单顶部的开关指示。 若要更改联机状态，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;开关设置为`Yes`或`No`。
 
 | 控件 | 描述 |
 |-------- | ----------- |
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 ## 属性集
 
-的名称 [属性集](attribute-sets.md) 显示在左上角，可确定产品记录中显示的字段。 要选择其他属性集，请单击默认属性集名称旁边的向下箭头。
+[属性集](attribute-sets.md)的名称显示在左上角，它决定了产品记录中显示的字段。 要选择其他属性集，请单击默认属性集名称旁边的向下箭头。
 
 ![属性集](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## 展开/折叠
 
-要展开或折叠部分，请单击 ![扩展选择器](../assets/icon-display-expand.png) 或折叠 ![折叠选择器](../assets/icon-display-collapse.png) 图标。
+要展开或折叠部分，请单击展开![展开选择器](../assets/icon-display-expand.png)或折叠![折叠选择器](../assets/icon-display-collapse.png)图标。
 
-## [!UICONTROL Save] 菜单
+## [!UICONTROL Save]菜单
 
-此 _[!UICONTROL Save]_菜单包含多个选项，可让您保存并继续、保存并创建产品、保存并复制产品，或者保存并关闭。
+_[!UICONTROL Save]_菜单包含多个选项，可让您保存并继续、保存并创建产品、保存并复制产品，或者保存并关闭。
 
 ![保存菜单](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Save] | 保存当前产品并继续工作。 |
 | [!UICONTROL Save & New] | 保存并关闭当前产品，然后基于相同的产品类型和模板开始新产品。 |
 | [!UICONTROL Save & Duplicate] | 保存并关闭当前产品，然后打开新的重复副本。 |
-| [!UICONTROL Save & Close] | 保存当前产品并返回到 _[!UICONTROL Products]_工作区。 |
+| [!UICONTROL Save & Close] | 保存当前产品并返回&#x200B;_[!UICONTROL Products]_工作区。 |
 
 {style="table-layout:auto"}
 
@@ -65,19 +65,19 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-表示另一个字段值的占位符用双大括号括起来。 产品中包含的任何属性代码 [属性集](attribute-sets.md) 可用作占位符。
+表示另一个字段值的占位符用双大括号括起来。 产品[属性集](attribute-sets.md)中包含的任何属性代码都可以用作占位符。
 
 ![产品字段自动生成](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-有关这些设置的详细列表，请参阅 [产品字段自动生成](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) 在 _配置引用_.
+有关这些设置的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[产品字段自动生成](../configuration-reference/catalog/catalog.md#product-fields-auto-generation)。
 
 ### 编辑占位符值
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Product Fields Auto-Generation]** 部分，并对占位符值进行任何所需的更改。
+1. 展开&#x200B;**[!UICONTROL Product Fields Auto-Generation]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并对占位符值进行任何所需的更改。
 
    例如，如果您希望为每个产品包含一个特定的关键字，或者希望在每个元描述中包含一个短语，请直接在相应的字段中输入该值。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
    >
    >如果要保留现有的占位符值，请保留包含每个标记的双大括号。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ### 常用占位符
 

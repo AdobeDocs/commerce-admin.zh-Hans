@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，包括 [产品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)， [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、和 [目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 有关详细信息，请参见 [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，这些服务包括[产品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)、[实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
 
 ## 数据验证
 
-所有数据都必须通过验证，以确保这些值的质量、准确性和完整性，然后才能将其导入存储中。 单击后即开始验证 **[!UICONTROL Check Data]**. 在此过程中，会针对以下内容验证导入文件中的所有图元：
+所有数据都必须通过验证，以确保这些值的质量、准确性和完整性，然后才能将其导入存储中。 单击&#x200B;**[!UICONTROL Check Data]**&#x200B;后开始验证。 在此过程中，会针对以下内容验证导入文件中的所有图元：
 
-- **属性**  — 验证列标题名称，确保它们与系统数据库中的相应属性匹配。 检查每个属性的值以确保它满足数据类型（decimal、integer、varchar、text和datetime）的要求。
-- **复杂数据**  — 验证来自定义集的值（如下拉列表或多选输入类型），以确保定义集中的值存在。
-- **服务数据**  — 验证服务数据列中的值，以确保属性或复杂数据值与系统数据库中已定义的值一致。
-- **必需值**  — 对于新实体，将检查文件中是否存在所需的属性值。 对于现有实体，无需重新检查所需属性值的存在。
-- **分隔符**  — 虽然在电子表格中查看分隔符时不可见，但CSV文件中的数据值以逗号分隔，并且文本值使用双引号括起来。 在验证过程中，将验证分隔符的格式设置以及包含字符串的每组引号。
+- **属性** — 验证列标题名称，确保它们与系统数据库中的相应属性匹配。 检查每个属性的值以确保它满足数据类型（decimal、integer、varchar、text和datetime）的要求。
+- **复杂数据** — 验证来自定义集（如下拉列表或多选输入类型）的值，以确保定义集中存在这些值。
+- **服务数据** — 验证服务数据列中的值，以确保属性或复杂数据值与系统数据库中已定义的值一致。
+- **必需值** — 对于新实体，将检查文件中是否存在所需的属性值。 对于现有实体，无需重新检查所需属性值的存在。
+- **分隔符** — 虽然在电子表格中查看分隔符时不可见，但CSV文件中的数据值以逗号分隔，并且文本值会用双引号括起来。 在验证过程中，将验证分隔符的格式设置以及包含字符串的每组引号。
 
 验证结果显示在“验证结果”部分，其中包括以下信息：
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 - 无效行数
 - 找到的错误数
 
-如果数据有效，则 _导入成功_ 出现消息。
+如果数据有效，将显示&#x200B;_导入成功_&#x200B;消息。
 
 ![系统消息 — 文件有效](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

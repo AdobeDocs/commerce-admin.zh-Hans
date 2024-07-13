@@ -1,17 +1,17 @@
 ---
 title: 客户现已上线
-description: 上的_Now Online_选项 [!UICONTROL Customers ]菜单列出了您商店中当前在线的所有客户和访客。
+description: '[!UICONTROL Customers ]菜单上的_Now Online_选项列出了您商店中当前在线的所有客户和访客。'
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # 客户现已上线
 
-此 **[!UICONTROL Now Online]** 上的选项 [!DNL Customers] 菜单列出了您商店中当前在线的所有客户和访客。 在配置中设置客户显示为当前在线的时间间隔，并确定 [!DNL Customer's] 活动从管理员处可见。 默认情况下，间隔为15分钟。 如果在此期间未使用键盘，则会话结束，客户必须再次登录其帐户才能继续购物。 需要注意的是，购物车的内容会被保存以供以后访问。
+[!DNL Customers]菜单上的&#x200B;**[!UICONTROL Now Online]**&#x200B;选项列出了您商店中当前在线的所有客户和访客。 在配置中设置客户显示为当前在线的时间间隔，并确定[!DNL Customer's]活动从管理员那里可见的时长。 默认情况下，间隔为15分钟。 如果在此期间未使用键盘，则会话结束，客户必须再次登录其帐户才能继续购物。 需要注意的是，购物车的内容会被保存以供以后访问。
 
 ![在线客户](assets/customers-now-online.png){width="700" zoomable="yes"}
 
@@ -19,31 +19,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅页面访问不会更新客户的在线状态。 要收集此类信息，建议 [设置Google Analytics](../merchandising-promotions/google-analytics.md) (单独或与 [Google Tag Manager](../merchandising-promotions/google-tag-manager.md))或其他Analytics软件与Adobe Commerce配合使用。
+>仅页面访问不会更新客户的在线状态。 若要收集此类信息，建议[设置Google Analytics](../merchandising-promotions/google-analytics.md)(单独或与[Google Tag Manager](../merchandising-promotions/google-tag-manager.md)一起使用)，或将其他Analytics软件与Adobe Commerce一起使用。
 
 ## 查看当前在线的所有客户
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL Online Now]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Online Now]**。
 
 >[!TIP]
 >
->有关帮助在线客户完成购买的信息，请参阅 [购物帮助](../stores-purchase/introduction.md#shopping-assistance).
+>有关帮助在线客户完成购买的信息，请参阅[购物帮助](../stores-purchase/introduction.md#shopping-assistance)。
 
 ## 配置时间间隔
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Customers]** 并选择 **[!UICONTROL Customer Configuration]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展开 **[!UICONTROL Online Customers Options]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Online Customers Options]**&#x200B;部分并执行以下操作：
 
    ![在线客户选项](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
 
-   - 对象 **[!UICONTROL Online Minutes Interval]**&#x200B;中，输入管理员在客户会话中看到的分钟数。 将该字段留空以接受默认间隔15分钟。
+   - 对于&#x200B;**[!UICONTROL Online Minutes Interval]**，输入管理员看到的客户会话的分钟数。 将该字段留空以接受默认间隔15分钟。
 
-   - 对象 **[!UICONTROL Customer Data Lifetime]**，输入客户输入的任何未保存数据过期之前经过的分钟数。
+   - 对于&#x200B;**[!UICONTROL Customer Data Lifetime]**，请输入客户输入的任何未保存数据过期前的分钟数。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 列描述
 

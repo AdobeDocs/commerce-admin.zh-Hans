@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser]’
-description: 查看 [!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser] 商务管理员页面。
+title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Visual Merchandiser]'
+description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Visual Merchandiser]页面上的配置设置。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 <!-- [General Options](https://docs.magento.com/user-guide/marketing/visual-merchandiser-configuration.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Visible Attributes for Category Rules] | 全局 | 标识可与类别规则一起使用的其他属性。 使用多选（Ctrl或Command键）选择要使其可用的所有属性。 |
 | [!UICONTROL Minimum Stock Threshold] | 全局 | 确定按库存级别对产品进行排序的产品的最小库存阈值。 默认值： `1` |

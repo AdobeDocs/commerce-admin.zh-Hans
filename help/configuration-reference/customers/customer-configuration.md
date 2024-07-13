@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Customers]  &gt； [!UICONTROL Customer Configuration]’
-description: 查看 [!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration] 商务管理员页面。
+title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]'
+description: 查看Commerce管理员的[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]页面上的配置设置。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -20,19 +20,19 @@ ht-degree: 0%
 
 <!-- [Account Sharing Options](https://docs.magento.com/user-guide/customers/account-scope.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Share Customer Accounts] | 全局 | 确定商店层次结构中客户帐户的范围。 选项： <br/>**`Global`**— 客户帐户信息与Commerce安装中的每个网站和商店共享。<br/>**`Per Website`**  — 客户帐户信息仅限于创建帐户的网站。 |
+| [!UICONTROL Share Customer Accounts] | 全局 | 确定商店层次结构中客户帐户的范围。 选项： <br/>**`Global`**— 与Commerce安装中的每个网站和商店共享客户帐户信息。<br/>**`Per Website`** — 客户帐户信息仅限于创建帐户的网站。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
-![在线客户选项](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
+![联机客户选项](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
 <!-- [Online Customers Options](https://docs.magento.com/user-guide/customers/now-online.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Online Minutes Interval] | 全局 | 确定管理员可访问客户在线活动的时长。 留空则使用15分钟的默认间隔。 |
 | [!UICONTROL Customer Data Lifetime] | 全局 | 确定客户输入的未保存数据过期之前经过的分钟数。 默认情况下，未保存的数据将在60分钟后过期。 |
@@ -47,17 +47,17 @@ ht-degree: 0%
 
 <!-- [Create New Account Options (VAT Fields)](https://docs.magento.com/user-guide/customers/customer-account-configuration.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Automatic Assignment to Customer Group] | 商店视图 | 确定是否自动将客户分配给默认客户组。 要在店面中显示增值税编号，请在店面中设置显示增值税编号，然后选择 `Yes`. 选项： <br/>**`Yes`**— 系统不会自动验证客户VAT ID，也不会更改客户组。<br/>**`No`**  — 系统行为与往常一样，可以在“默认组”字段中设置默认客户组。 |
+| [!UICONTROL Enable Automatic Assignment to Customer Group] | 商店视图 | 确定是否自动将客户分配给默认客户组。 若要显示店面中的增值税编号，请设置店面中的显示增值税编号，选择`Yes`。 选项： <br/>**`Yes`**— 系统不会自动验证客户VAT ID，也不会更改客户组。<br/>**`No`** — 系统行为与往常一样，可以在“默认组”字段中设置默认客户组。 |
 | [!UICONTROL Default Group] | 商店视图 | 标识在创建帐户时分配的初始客户组。 |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全局 | (仅当当前配置范围设置为时才可用 `Default Group`.) 选择默认情况下是启用还是禁用根据增值税标识自动更改客户组。 可以在产品级别覆盖设置。 在以下情况下，设置会影响系统行为： <br/>  — 客户默认地址或整个默认地址的VAT ID发生更改。 <br/>  — 对于以前没有保存地址的注册客户或在结账期间注册的客户，在结账期间模拟客户组更改。 <br/>如果启用了自动组更改，则在第一种情况下，客户组会自动更改，而在第二种情况下，临时模拟的客户组将分配给客户。 如果禁用了自动组更改，则分配的客户组永远不会更改，除非管理员手动更改它。 |
-| [!UICONTROL Show VAT Number on Storefront] | 网站 | 确定商店中的客户是否看到增值税号。 选项： `Yes` / `No` <br/> 仅影响常规非B2B客户帐户。 公司帐户拥有自己的增值税编号字段。 |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全局 | （仅当当前配置范围设置为`Default Group`时可用。） 选择默认情况下是启用还是禁用根据增值税标识自动更改客户组。 可以在产品级别覆盖设置。 该设置会影响以下情况中的系统行为： <br/> — 客户默认地址或整个默认地址的VAT ID发生更改。 <br/> — 对于以前没有保存地址的注册客户或在结账期间注册的客户，在结账期间模拟客户组更改。 <br/>如果启用了自动组更改，则第一种情况下客户组会自动更改，第二种情况下将临时模拟的客户组分配给客户。 如果禁用了自动组更改，则分配的客户组永远不会更改，除非管理员手动更改它。 |
+| [!UICONTROL Show VAT Number on Storefront] | 网站 | 确定商店中的客户是否看到增值税号。 选项： `Yes` / `No` <br/>仅影响常规非B2B客户帐户。 公司帐户拥有自己的增值税编号字段。 |
 | [!UICONTROL Default Email Domain] | 商店视图 | 标识存储区的默认电子邮件域。 例如： `mystore.com` |
-| [!UICONTROL Default Welcome Email] | 商店视图 | 标识默认使用的电子邮件模板 _欢迎_ 电子邮件。 |
+| [!UICONTROL Default Welcome Email] | 商店视图 | 标识用于默认&#x200B;_欢迎_&#x200B;电子邮件的电子邮件模板。 |
 | [!UICONTROL Default Welcome Email Without Password] | 商店视图 | 一个备用的欢迎电子邮件模板，用于管理员创建的新客户帐户，这些帐户尚未分配密码。 |
 | [!UICONTROL Email Sender] | 商店视图 | 标识显示为欢迎电子邮件发件人的商店联系人。 |
-| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`. <br/><br/> _**注意：**_ 从版本2.4.7开始，客户必须重新输入其电子邮件和密码，以在电子邮件确认后登录到其帐户，而不考虑浏览器。 |
+| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`。<br/><br/> _**注意：**_&#x200B;从2.4.7版开始，客户必须在电子邮件确认后重新输入其电子邮件和密码以登录其帐户，而不考虑浏览器。 |
 | [!UICONTROL Confirmation Link Email] | 商店视图 | 标识用于确认电子邮件的电子邮件模板。 默认模板： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 商店视图 | 标识用于确认帐户后发送的欢迎消息的电子邮件模板。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全局 | 确定店面中是否显示用于输入和存储VAT ID号的字段。 选项： `Yes` / `No` |
@@ -70,9 +70,9 @@ ht-degree: 0%
 
 <!-- [Password Options](https://docs.magento.com/user-guide/customers/password-options.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于重置客户帐户密码的方法。 选项： <br/>**`By IP and Email`**— 从发送到与管理员帐户关联的电子邮件地址的重置通知收到响应后，可以联机重置密码。<br/>**`By IP`**  — 密码可以在线重置。 <br/>**`By Email`**— 可以通过响应发送到与管理员帐户关联的电子邮件地址的电子邮件通知来重置密码。<br/>**`None`**  — 密码只能由存储管理员重置。 |
+| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于重置客户帐户密码的方法。 选项： <br/>**`By IP and Email`**— 从发送到与管理员帐户关联的电子邮件地址的重置通知收到响应后，可以联机重置密码。<br/>**`By IP`** — 密码可以在线重置。 <br/>**`By Email`**— 可以通过响应发送到与管理员帐户关联的电子邮件地址的电子邮件通知来重置密码。<br/>**`None`** — 密码只能由存储管理员重置。 |
 | [!UICONTROL Max Number of Password Reset Requests] | 商店视图 | 限制每小时的密码重置请求数。 对于无限制的请求，输入零(0)。 |
 | [!UICONTROL Min Time Between Password Reset Requests] | 商店视图 | 确定密码重置请求之间的分钟数。 对于请求之间无延迟，请输入零(0)。 |
 | [!UICONTROL Forgot Email Template] | 商店视图 | 标识客户忘记密码时使用的电子邮件模板。 默认模板： `Forgot Password` |
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ![帐户信息选项](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Change Email Template] | 商店视图 | 标识客户更改其电子邮件地址时使用的默认电子邮件模板。 |
 | [!UICONTROL Change Email and Password Template] | 商店视图 | 标识客户更改其电子邮件地址和密码时使用的默认电子邮件模板。 |
@@ -105,20 +105,20 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-![名称和地址选项 — 开放源代码](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
+![名称和地址选项 — 打开Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Open Source](https://docs.magento.com/user-guide/customers/name-address-options.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Number of Lines in a Street Address] | 网站 | 确定街道地址中的行数。 街道地址由以下地址组成： `1` 到 `4` 行。 如果字段为空，则默认街道地址为三个(`3`)行。 |
+| [!UICONTROL Number of Lines in a Street Address] | 网站 | 确定街道地址中的行数。 街道地址由`1`到`4`行组成。 如果字段为空，则使用三行(`3`)的默认街道地址。 |
 | [!UICONTROL Show Prefix] | 网站 | 确定客户名称的开头是否包含前缀，例如Mr和Ms. Options： `No` / `Optional` / `Required` |
 | [!UICONTROL Prefix Dropdown Options] | 网站 | 定义前缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
 | [!UICONTROL Show Middle Name (initial)] | 网站 | 确定是否将中间首字母作为客户名称的一部分包括在内。 如果使用中间首字母，则为可选字段。 选项： `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 网站 | 确定客户名称在末尾是否包含后缀，例如Jr.、Sr.和III。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 网站 | 定义后缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
-| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required`  <br><br>**_重要提示：_**按照最新的安全和隐私最佳实践，了解将客户的完整出生日期（月、日、年）与其他个人标识符一起存储可能会带来的任何法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
-| [!UICONTROL Show Tax/VAT Number] | 网站 | 确定税或 [增值税号](../../stores-purchase/vat.md) 包含在名称和地址表单中。 选项： `No` / `Optional` / `Required` |
+| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required` <br><br>**_重要信息：_**为遵循当前安全和隐私最佳实践，请注意任何与客户的完整出生日期（月、日、年）和其他个人标识符的存储相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
+| [!UICONTROL Show Tax/VAT Number] | 网站 | 确定名称和地址表单中是否包含税或[VAT编号](../../stores-purchase/vat.md)。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 网站 | 确定名称和地址表单中是否包含性别。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 网站 | 确定名称和地址表单中是否包含客户的电话号码。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Company] | 网站 | 确定名称和地址表单中是否包含客户的公司。 选项： `No` / `Optional` / `Required` |
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![名称和地址选项 — 商务](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
+![名称和地址选项 — Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Commerce](https://docs.magento.com/user-guide/customers/name-address-options.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Prefix Dropdown Options] | 网站 | 定义前缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
 | [!UICONTROL Suffix Dropdown Options] | 网站 | 定义后缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
@@ -152,10 +152,10 @@ ht-degree: 0%
 
 <!-- [Store Credit Options](https://docs.magento.com/user-guide/customers/credit-configure.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Store Credit Functionality] | 全局 | 确定是否启用商店点数。 禁用它将会从客户帐户和“管理员管理客户”页面中删除“商店信用”。 选项： `Yes` / `No`. |
-| [!UICONTROL Show Store Credit History to Customers] | 网站 | 确定余额历史记录是否显示在客户帐户中。 选项： `Yes` / `No`. |
+| [!UICONTROL Enable Store Credit Functionality] | 全局 | 确定是否启用商店点数。 禁用它将会从客户帐户和“管理员管理客户”页面中删除“商店信用”。 选项： `Yes` / `No`。 |
+| [!UICONTROL Show Store Credit History to Customers] | 网站 | 确定余额历史记录是否显示在客户帐户中。 选项： `Yes` / `No`。 |
 | [!UICONTROL Refund Store Credit Automatically] | 全局 | 确定是否自动发放商店退款。 选项： `Yes` / `No` |
 | [!UICONTROL Store Credit Update Email Sender] | 商店视图 | 确定显示为发送给客户的信用更新通知发送者的商店标识。 |
 | [!UICONTROL Store Credit Update Email Template] | 商店视图 | 确定用于信用更新的电子邮件模板。 |
@@ -168,9 +168,9 @@ ht-degree: 0%
 
 <!-- [Login Options](https://docs.magento.com/user-guide/customers/login-landing-page.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | 网站 | 确定客户登录其帐户后发生的情况。 要将客户重定向到其帐户仪表板，请选择 `Yes`. 选项： <br/>**`Yes`**— 当客户登录其帐户时，将显示帐户仪表板。<br/>**`No`**  — 客户在登录到其帐户后可以继续购物。 |
+| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | 网站 | 确定客户登录其帐户后发生的情况。 要将客户重定向到他们的帐户信息板，请选择`Yes`。 选项： <br/>**`Yes`**— 客户登录其帐户时将显示帐户仪表板。<br/>**`No`** — 客户在登录到其帐户后可以继续购物。 |
 
 {style="table-layout:auto"}
 
@@ -180,11 +180,11 @@ ht-degree: 0%
 
 <!-- [Address Templates](https://docs.magento.com/user-guide/customers/address-templates.html) -->
 
-| 模板 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Text] | 商店视图 | 模板用于打印的所有地址。 |
 | [!UICONTROL Text One Line] | 商店视图 | 此模板定义客户购物车通讯簿列表中地址实体的顺序。 结账期间的进度。 |
-| [!UICONTROL HTML] | 商店视图 | 此模板定义位于 _客户地址_ 区域([!UICONTROL Customers] > [!UICONTROL Manage Customers])。 此问题也会影响以下群体： _添加新地址_ 客户在其帐户页面上创建账单或送货地址时的页面。 |
+| [!UICONTROL HTML] | 商店视图 | 此模板定义位于“管理”面板([!UICONTROL Customers] > [!UICONTROL Manage Customers])中&#x200B;_客户地址_&#x200B;区域下的地址字段的顺序。 当客户在其帐户页面上创建账单或送货地址时，这也会影响&#x200B;_添加新地址_&#x200B;页面上的那些地址。 |
 | [!UICONTROL PDF] | 商店视图 | 模板定义在打印的发票、发运和贷项通知单中显示的开单地址和发运地址。 |
 
 {style="table-layout:auto"}
@@ -197,10 +197,10 @@ ht-degree: 0%
 
 <!-- [Customer Segments](https://docs.magento.com/user-guide/marketing/customer-segments.html) -->
 
-| 模板 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Customer Segment Functionality] | 全局 | 确定客户区段是否可用于创建目标促销活动。 选项： `Yes` / `No` |
-| [!UICONTROL Real-time Check if Customer is Matched by Segment] | 全局 | 确定是否实时验证客户区段。 选项： <br/>**[!UICONTROL Yes]**— 实时验证客户区段（默认值）。<br/>**[!UICONTROL No]**  — 客户区段通过单个组合条件SQL查询进行验证。 如果系统中存在许多客户区段，这会提高区段验证的性能。 但是，当拆分数据库或没有注册客户时，验证将不起作用。 |
+| [!UICONTROL Real-time Check if Customer is Matched by Segment] | 全局 | 确定是否实时验证客户区段。 选项： <br/>**[!UICONTROL Yes]**— 实时验证客户区段（默认值）。<br/>**[!UICONTROL No]** — 客户区段由单个组合条件SQL查询验证。 如果系统中存在许多客户区段，这会提高区段验证的性能。 但是，当拆分数据库或没有注册客户时，验证将不起作用。 |
 
 {style="table-layout:auto"}
 
@@ -210,16 +210,16 @@ ht-degree: 0%
 
 <!-- [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 网站 | 在与Commerce网站关联的商店中启用验证码。 选项： `Yes` / `No` |
-| [!UICONTROL Font] | 网站 | 确定用于显示验证码的字体。 要添加您自己的字体，请将字体文件放在与Commerce安装相同的目录中，并将声明添加到 `config.xml` 文件位于 `app/code/Magento/Captcha/etc`. |
-| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (请参阅 [安全补丁](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br /><br />_**注意：**_ 选中时，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
-| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 始终需要验证码才能登录。<br/>**`After number of attempts to login`**  — 此选项仅适用于“管理员登录”表单。 选中后， _[!UICONTROL Number of Unsuccessful Attempts to Login]_字段。 输入要允许的登录尝试次数。 值 `0` （零）类似于设置 [!UICONTROL Displaying Mode] 到 `Always`.<br/>_**注意：**_为了跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计数。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
+| [!UICONTROL Font] | 网站 | 确定用于显示验证码的字体。 要添加您自己的字体，请将该字体文件放在与Commerce安装相同的目录中，并将声明添加到位于`app/code/Magento/Captcha/etc`的`config.xml`文件中。 |
+| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
+| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_字段。 输入要允许的登录尝试次数。 `0` （零）的值类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_**注意：**_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 网站 | 指定帐户锁定前客户可以尝试登录的次数。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 网站 | 确定当前CAPTCHA的生命周期。 验证码过期后，用户必须重新加载页面。 |
 | [!UICONTROL Number of Symbols] | 网站 | 确定验证码中显示的符号数（最多8个）。 您还可以指定范围，例如5-8。 |
-| [!UICONTROL Symbols Used in CAPTCHA] | 网站 | 确定验证码中显示的字母（a-z和A-Z）和数字(0-9)。 难以与其他符号区分的符号，例如 `i`， `l`，或 `1`默认验证码符号集中不包含。 |
+| [!UICONTROL Symbols Used in CAPTCHA] | 网站 | 确定验证码中显示的字母（a-z和A-Z）和数字(0-9)。 很难与其他符号（如`i`、`l`或`1`）区分的符号不包含在默认验证码符号集中。 |
 | [!UICONTROL Case Sensitive] | 网站 | 确定验证码字符是否区分大小写。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}

@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # 价格范围
 
-范围 [基础货币](../stores-purchase/currency-configuration.md) 可用于产品价格的区段，可以配置为在全球或网站级别应用。 如果应用到全局级别，则在整个商店层次结构中使用相同的价格。 如果应用到网站级别，则可以使用与不同网站关联的商店中的相同产品，但价格不同。 默认情况下，产品定价的范围是全球性的。
+可将用于产品价格的[基本货币](../stores-purchase/currency-configuration.md)的范围配置为在全局或网站级别应用。 如果应用到全局级别，则在整个商店层次结构中使用相同的价格。 如果应用到网站级别，则可以使用与不同网站关联的商店中的相同产品，但价格不同。 默认情况下，产品定价的范围是全球性的。
 
 不同的因素可能会影响同一产品在一个地点的价格，而不会影响另一个地点的价格。 例如，产品可能会产生额外的分销成本，以及影响特定商店中销售产品价格的其他注意事项。 下图显示了将基础货币设置为网站级别的多站点安装。 与每个网站关联的商店和商店视图反映在网站级别设置的产品定价。
 
-![Adobe Commerce B2B](../assets/b2b.svg) 如果您使用共享目录，另请参阅 [设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md) 在 _Adobe Commerce B2B指南_.
+![Adobe Commerce B2B](../assets/b2b.svg)如果您使用共享目录，另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md)。
 
 ![价格范围图](./assets/catalog-price-scope.svg){width="550"}
 
 ## 配置价格范围
 
-1. 在 _管理员_ 菜单，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;菜单上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 向下滚动到 **[!UICONTROL Price]** 分区和设置 **[!UICONTROL Catalog Price Scope]** 更改为以下任一项：
+1. 向下滚动到&#x200B;**[!UICONTROL Price]**&#x200B;部分，并将&#x200B;**[!UICONTROL Catalog Price Scope]**&#x200B;设置为以下项之一：
 
    - `Global`
    - `Website`
@@ -35,16 +35,16 @@ ht-degree: 0%
 
    ![目录价格范围](./assets/catalog-price.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 使用范围设置产品价格
 
 Commerce不允许为每个商店设置产品价格。 但您可以更改每个网站的价格：
 
-1. 在 _管理员_ 菜单，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;菜单上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 在 **[!UICONTROL Price]** 选项卡，将价格范围设置为 `Website` 而不是全球性的。
+1. 在&#x200B;**[!UICONTROL Price]**&#x200B;选项卡中，将价格范围设置为`Website`而不是全局。
 
 1. 通过打开产品编辑页面，选择左上角的范围，然后为每个网站输入新价格来设置价格。

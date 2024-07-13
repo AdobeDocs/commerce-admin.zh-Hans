@@ -12,45 +12,45 @@ ht-degree: 0%
 
 # 新闻稿队列
 
-为了管理服务器上的负载，在多个批次的队列中发送具有多个订阅者的新闻稿。 您可以定期检查新闻稿队列以检查状态，并查看已处理的新闻稿数量。 传输过程中出现的任何问题都将显示在 _新闻稿问题_ 报告。
+为了管理服务器上的负载，在多个批次的队列中发送具有多个订阅者的新闻稿。 您可以定期检查新闻稿队列以检查状态，并查看已处理的新闻稿数量。 传输期间发生的任何问题都会显示在&#x200B;_新闻稿问题_&#x200B;报告中。
 
 ## 发送新闻稿
 
-1. 在 _管理员_ 菜单，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. 在&#x200B;_管理员_&#x200B;菜单上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**。
 
-1. 在网格中，查找 [新闻稿模板](newsletter-template.md) ，并设置 **[!UICONTROL Action]** 列至 `Queue Newsletter`.
+1. 在网格中，查找要发送的[新闻稿模板](newsletter-template.md)，并将&#x200B;**[!UICONTROL Action]**&#x200B;列设置为`Queue Newsletter`。
 
-1. 对象 **[!UICONTROL Queue Date Start]**，选择传输从日历开始的日期(![日历图标](../assets/icon-calendar.png))。
+1. 对于&#x200B;**[!UICONTROL Queue Date Start]**，从日历中选择传输开始日期（![日历图标](../assets/icon-calendar.png)）。
 
-1. 对象 **[!UICONTROL Subscribers From]**，选择要包含在电子邮件爆炸中的每个商店视图。
+1. 对于&#x200B;**[!UICONTROL Subscribers From]**，请选择要包含在电子邮件爆炸中的每个商店视图。
 
 1. 填写电子邮件标头信息：
 
-   - 输入以下对象的新闻稿的简短说明： **[!UICONTROL Subject]** 电子邮件标头的行。
+   - 为电子邮件标头的&#x200B;**[!UICONTROL Subject]**&#x200B;行输入新闻稿的简短说明。
 
-   - 输入 **[!UICONTROL Sender Name]**.
+   - 输入&#x200B;**[!UICONTROL Sender Name]**。
 
-   - 对象 **[!UICONTROL Sender Email]**，输入发件人的电子邮件地址。
+   - 对于&#x200B;**[!UICONTROL Sender Email]**，输入发件人的电子邮件地址。
 
      发件人的默认名称和电子邮件地址在配置中指定。
 
      ![新闻稿队列信息](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
-1. 如果适用，请在 **[!UICONTROL Message]** 框中，取消订阅。
+1. 如果适用，请在说明上方的&#x200B;**[!UICONTROL Message]**&#x200B;框中输入注释以取消订阅。
 
    >[!NOTE]
    >
    >请勿删除这些指令，因为许多司法管辖区的法律都要求这样做。
 
-1. 要将自定义样式应用于新闻稿，请将其添加到 **[!UICONTROL Newsletter Styles]** 字段。
+1. 要将自定义样式应用于新闻稿，请将其添加到&#x200B;**[!UICONTROL Newsletter Styles]**&#x200B;字段。
 
-1. 完成后，单击 **[!UICONTROL Save and Resume]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save and Resume]**。
 
    新闻稿会显示在等待处理的队列中。
 
 ## 检查问题
 
-在 _管理员_ 菜单，转到 **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
+在&#x200B;_管理员_&#x200B;菜单上，转到&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**。
 
 ## 按钮栏
 
@@ -72,9 +72,9 @@ ht-degree: 0%
 | [!UICONTROL Queue Start] | 发送新闻稿的日期。 |
 | [!UICONTROL Queue End] | 新闻稿完成发送的日期。 |
 | [!UICONTROL Subject] | 新闻稿模板的主题。 |
-| [!UICONTROL Status] | 指示新闻稿邮件的状态。 可能的值： `Sent`， `Canceled`， `Not Sent`， `Sending`，或 `Paused`. |
+| [!UICONTROL Status] | 指示新闻稿邮件的状态。 可能的值： `Sent`、`Canceled`、`Not Sent`、`Sending`或`Paused`。 |
 | [!UICONTROL Processed] | 指示发送了多少新闻稿。 |
 | [!UICONTROL Recipients] | 指示订阅者已接收的新闻稿数量。 |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**：打开单独的窗口以预览模板。 |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]**：打开一个单独的窗口来预览模板。 |
 
 {style="table-layout:auto"}

@@ -16,35 +16,35 @@ ht-degree: 0%
 
 ![店面上的帐户信息](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-在您的帐户侧边栏中，客户可以选择 **[!UICONTROL Account Information]** 并执行以下任一操作以更新其帐户信息。
+在帐户的侧边栏中，客户可以选择&#x200B;**[!UICONTROL Account Information]**&#x200B;并执行以下任一操作来更新其帐户信息。
 
 ## 更新帐户名称的名称
 
-要更新帐户的名称，客户将更改 **[!UICONTROL First Name]** 和 **[!UICONTROL Last Name]** 字段。
+要更新帐户的名称，客户会根据需要更改&#x200B;**[!UICONTROL First Name]**&#x200B;和&#x200B;**[!UICONTROL Last Name]**&#x200B;字段中的值。
 
 >[!INFO]
 >
->如果符合以下条件，则其他字段将作为名称的一部分显示 [客户配置](../configuration-reference/customers/customer-configuration.md) 包括前缀、中间首字母和后缀。
+>如果[客户配置](../configuration-reference/customers/customer-configuration.md)包含前缀、中间首字母和后缀，则其他字段将显示为名称的一部分。
 
 ## 更改电子邮件地址
 
-1. 客户选择 **[!UICONTROL Change Email]** 复选框。
+1. 客户选择&#x200B;**[!UICONTROL Change Email]**&#x200B;复选框。
 
-1. 进入他们的新存储库 **[!UICONTROL Email]** 地址。
+1. 输入他们的新&#x200B;**[!UICONTROL Email]**&#x200B;地址。
 
-1. 进入他们的 **[!UICONTROL Current Password]**.
+1. 输入他们的&#x200B;**[!UICONTROL Current Password]**。
 
    ![更改电子邮件地址](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. 点击次数 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 更改密码
 
-1. 客户选择 **[!UICONTROL Change Password]** 复选框。
+1. 客户选择&#x200B;**[!UICONTROL Change Password]**&#x200B;复选框。
 
-1. 进入他们的 **[!UICONTROL Current Password]**.
+1. 输入他们的&#x200B;**[!UICONTROL Current Password]**。
 
-1. 进入他们的 **[!UICONTROL New Password]**.
+1. 输入他们的&#x200B;**[!UICONTROL New Password]**。
 
    >[!INFO]
    >

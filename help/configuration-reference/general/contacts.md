@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL General] &gt； [!UICONTROL Contacts]’
-description: 查看 [!UICONTROL General] &gt； [!UICONTROL Contacts] 商务管理员页面。
+title: '[!UICONTROL General] &amp；gt； [!UICONTROL Contacts]'
+description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Contacts]页面上的配置设置。
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 <!-- [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Contact Us] | 商店视图 | 启用 [_联系我们_](../../getting-started/store-details.md#contact-us-form) 页面并在页脚中放置链接。 |
+| [!UICONTROL Enable Contact Us] | 商店视图 | 启用&#x200B;[_联系我们_](../../getting-started/store-details.md#contact-us-form)&#x200B;页面并在页脚中放置链接。 |
 
 {style="table-layout:auto"}
 
@@ -32,10 +32,10 @@ ht-degree: 2%
 
 <!-- [Email Options](https://docs.magento.com/user-guide/stores/contact-us.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Send Emails To] | 商店视图 | 标识接收来自的所有响应的电子邮件地址 _联系我们_ 页面 |
-| [!UICONTROL Email Sender] | 商店视图 | 确定商店联系人，用于回复来自 _联系我们_ 页面。 默认发件人： `Custom Email 2` |
-| [!UICONTROL Email Template] | 商店视图 | 指定要用作对电子邮件查询的所有响应的基础的模板。 _联系我们_ 页面。 默认模板： `Contact Form` |
+| [!UICONTROL Send Emails To] | 商店视图 | 标识接收来自&#x200B;_联系我们_&#x200B;页面的所有响应的电子邮件地址 |
+| [!UICONTROL Email Sender] | 商店视图 | 标识用于从&#x200B;_联系我们_&#x200B;页面回复电子邮件查询的商店联系人。 默认发件人： `Custom Email 2` |
+| [!UICONTROL Email Template] | 商店视图 | 指定要用作来自&#x200B;_联系我们_&#x200B;页面的所有电子邮件查询回复的基础的模板。 默认模板： `Contact Form` |
 
 {style="table-layout:auto"}

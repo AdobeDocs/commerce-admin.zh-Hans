@@ -1,5 +1,5 @@
 ---
-title: 配置源优先级算法
+title: 配置Source优先级算法
 description: 了解如何配置用于库存中分配来源顺序的源优先级以提出建议。
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 配置源优先级算法
+# 配置Source优先级算法
 
 自定义库存包括指定的来源列表，这些来源通过您的店面销售和发运可用的产品库存。 此算法使用库存中的已分配源顺序进行推荐。
 
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 - 如果在列表中找到已禁用的源，则跳过该源
 
-要配置，请按照从上到下的优先级排列这些来源以完成订单。 来源选择算法(SSA)在确定发运和库存扣减额时使用此订单提供算法“优先级”。 请参阅 [设置库存来源的优先级](stocks-prioritize-sources.md).
+要配置，请按照从上到下的优先级排列这些来源以完成订单。 Source选择算法(SSA)在确定发运和库存扣减额时提供了使用此订单的算法“优先级”。 请参阅[优先处理股票的来源](stocks-prioritize-sources.md)。
 
 ## 配置源的优先级
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**。
 
-1. 在编辑模式下打开股票并导航到 _[!UICONTROL Sources]_区域。
+1. 在编辑模式下打开股票并导航到&#x200B;_[!UICONTROL Sources]_区域。
 
-1. 单击 **[!UICONTROL Assign Sources]**.
+1. 单击&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在 _[!UICONTROL Assign Sources]_视图，选中所需源的复选框，然后单击&#x200B;**[!UICONTROL Done]**为库存分配来源。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_视图中，选中所需源的复选框，然后单击&#x200B;**[!UICONTROL Done]**将源分配给库存。
 
 >[!NOTE]
 >
->使用时 [距离优先级](distance-priority-algorithm.md) 如果路由和数据没有针对所选路由返回，则使用配送算法 [计算模式](distance-priority-algorithm.md) （驾驶、骑车或行走）对于发运，SSA默认使用“来源优先级”。
+>在使用[距离优先级](distance-priority-algorithm.md)算法进行装运时，如果对于装运所选的[计算模式](distance-priority-algorithm.md)（驾驶、骑车或行走）未返回工艺路线和数据，则SSA默认使用Source优先级。
 
-![优先级排序后的源顺序](assets/inventory-stock-priority-after.png)
+在优先级设置后![Source订单](assets/inventory-stock-priority-after.png)
 
 | 图标 | 描述 |
 |----------------------------------------------|----------------------------------------------------------------|

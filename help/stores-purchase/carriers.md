@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->请参阅 [Commerce Marketplace](../getting-started/commerce-marketplace.md) 以获取Commerce安装的其他送货服务。
+>有关Commerce安装的其他送货服务，请参阅[Commerce Marketplace](../getting-started/commerce-marketplace.md)。
 
 您必须先完成以下步骤，然后才能为客户提供精选的海运公司：
 
-- 配置 [配送设置](shipping-settings.md) 为你的商店建立原点。
+- 配置[配送设置](shipping-settings.md)以建立商店的原点。
 
 - 为要提供的每个运营商服务配置设置。
 
-   - [**UPS**](ups.md)   — 联合包裹服务(UPS)向220多个国家提供陆路和空运的国内和国际航运服务。
-   - [**USPS**](usps.md)  — 美国邮政局(USPS)是美国政府独立的邮政服务。 USPS提供国内和国际的陆运和空运服务。
-   - [**联邦快递**](fedex.md) - FedEx向220多个国家提供陆运和空运的国内和国际航运服务。
-   - [**DHL**](dhl.md) - DHL提供综合国际服务和以客户为中心的定制解决方案，用于管理和传输信件、货物和信息。
+   - [**UPS**](ups.md) - United Parcel Service (UPS)通过陆运和空运向220多个国家/地区提供国内和国际运输服务。
+   - [**USPS**](usps.md) — 美国邮政服务(USPS)是美国政府的独立邮政服务。 USPS提供国内和国际的陆运和空运服务。
+   - [**联邦快递**](fedex.md) - FedEx向220多个国家/地区提供陆运和空运的国内和国际航运服务。
+   - [**DHL**](dhl.md) - DHL提供集成的国际服务和以客户为中心的定制解决方案，用于管理和传输信件、货物和信息。
 
 ## 维度权重
 

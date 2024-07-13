@@ -18,67 +18,67 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于要在目标规则中使用的属性， [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) 属性必须设置为 `Yes`.
+>对于要在目标规则中使用的属性，[_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md)属性必须设置为`Yes`。
 
 >[!NOTE]
 >
->此 `All Store Views` 范围值始终用于两者 [!UICONTROL Products to Match] 和 [!UICONTROL Products to Display] 所有产品属性的条件。 当产品属性对于不同的商店视图和网站具有不同的值时，这也适用。
+>对于所有产品属性，`All Store Views`范围值始终同时用于[!UICONTROL Products to Match]和[!UICONTROL Products to Display]条件。 当产品属性对于不同的商店视图和网站具有不同的值时，这也适用。
 
 ## 创建相关的产品规则
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**。
 
-1. 在右上角，单击 **[!UICONTROL Add Rule]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Add Rule]**。
 
    ![相关产品规则 — 信息](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
-1. 完成 **[!UICONTROL Rule Information]** 如下所示：
+1. 按如下方式完成&#x200B;**[!UICONTROL Rule Information]**：
 
-   - 输入 **[!UICONTROL Rule Name]** 以在管理员中工作时标识规则。
+   - 输入&#x200B;**[!UICONTROL Rule Name]**&#x200B;以标识在管理员中工作时的规则。
 
-   - 对象 **[!UICONTROL Priority]**，输入一个数字，以决定当其他规则的结果定位到同一位置时，结果在页面上的显示顺序。 数字 `1` 是头等大事。
+   - 对于&#x200B;**[!UICONTROL Priority]**，输入一个数字，以决定当其他规则的结果指向同一位置时，结果在页面上出现的顺序。 数字`1`是最高优先级。
 
-   - 要启用规则，请设置 **[!UICONTROL Status]** 到 `Active`.
+   - 要启用规则，请将&#x200B;**[!UICONTROL Status]**&#x200B;设置为`Active`。
 
-   - 设置 **[!UICONTROL Apply To]** 更改为以下任一项：
+   - 将&#x200B;**[!UICONTROL Apply To]**&#x200B;设置为以下项之一：
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-   - 如果规则在特定时间范围内处于活动状态，请输入 **[!UICONTROL From]** 和 **[!UICONTROL To]** 日期。
+   - 如果规则在特定时间范围内处于活动状态，请输入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期。
 
-   - 对象 **[!UICONTROL Result Limit]**，输入要显示在结果列表中的记录数。 最大数量为20。
+   - 对于&#x200B;**[!UICONTROL Result Limit]**，输入要显示在结果列表中的记录数。 最大数量为20。
 
-   - 如果规则应用于特定 [客户区段](../customers/customer-segments.md)，设置 **[!UICONTROL Customer Segments]** 到 `Specified` 并从列表中选择客户区段。
+   - 如果规则应用于特定的[客户区段](../customers/customer-segments.md)，请将&#x200B;**[!UICONTROL Customer Segments]**&#x200B;设置为`Specified`并从列表中选择客户区段。
 
-   - 如果规则应用于特定 [Real-Time CDP受众](../customers/audience-activation.md)，设置 **[!UICONTROL Real-Time CDP Audience]** 到 `Specified` 并从列表中选择Real-Time CDP受众。 此功能处于测试阶段。 如果您想加入Beta计划，请发送请求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - 如果规则应用于特定的[Real-Time CDP受众](../customers/audience-activation.md)，请将&#x200B;**[!UICONTROL Real-Time CDP Audience]**&#x200B;设置为`Specified`并从列表中选择Real-Time CDP受众。 此功能处于测试阶段。 如果要加入Beta版计划，请向[dataconnection@adobe.com](mailto:dataconnection@adobe.com)发送请求。
 
      ![相关产品规则 — Real-Time CDP受众](./assets/rtcdp-related-products.png){width="500"}
 
-1. 在左侧面板中，选择 **[!UICONTROL Products to Match]** 并构建条件，就像您为 [目录价格规则](price-rules-catalog.md).
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL Products to Match]**&#x200B;并生成条件，就像您生成[目录价格规则](price-rules-catalog.md)一样。
 
    ![相关产品规则 — 要匹配的产品](./assets/catalog-related-products-match.png){width="500"}
 
-1. 在左侧面板中，选择 **[!UICONTROL Products to Display]** 并构建结果条件，就像您对 [目录价格规则](price-rules-catalog.md).
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL Products to Display]**&#x200B;并生成与[目录价格规则](price-rules-catalog.md)相同的结果条件。
 
    ![相关产品规则 — 要显示的产品](./assets/catalog-related-products-to-display.png){width="500"}
 
    完成条件以描述要包含在显示结果中的产品。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ## 删除相关产品规则
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**。
 
 1. 查找要删除的相关产品规则。
 
 1. 单击规则以打开详细信息页面。
 
-1. 在右上角，单击 **[!UICONTROL Delete]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Delete]**。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
 ## 相关产品规则演示
 

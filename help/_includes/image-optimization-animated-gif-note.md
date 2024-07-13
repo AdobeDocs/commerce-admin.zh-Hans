@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->不支持优化动画GIF图像。 在图像优化过程之后，此类图像可能会丢失其动画。 要避免出现这种情况，请确保动画GIF图像大小低于由定义的最大宽度和高度 [[!UICONTROL Media Gallery Image Optimization] 配置设置](../content-design/media-gallery-image-optimization.md).
+>不支持优化动画GIF图像。 在图像优化过程之后，此类图像可能会丢失其动画。 要避免此问题，请确保动画GIF图像大小在[[!UICONTROL Media Gallery Image Optimization]配置设置](../content-design/media-gallery-image-optimization.md)定义的最大宽度和高度之下。

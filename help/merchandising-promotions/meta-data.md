@@ -1,11 +1,11 @@
 ---
 title: 元数据
-description: 了解如何输入关键词丰富的元数据，以改进搜索引擎索引您的Commerce网站的方式。
+description: 了解如何输入关键字丰富的元数据，以改进搜索引擎对Commerce网站编制索引的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 丰富的代码片段
 
-富代码片段为搜索结果列表和其他应用程序提供详细信息。 默认情况下，结构化数据标记基于 [schema.org][1] standard将会添加到您商店的产品模板中。 因此，搜索引擎可以包含更多信息作为 _富代码片段_ 在产品列表中。
+富代码片段为搜索结果列表和其他应用程序提供详细信息。 默认情况下，基于[schema.org][1]标准的结构化数据标记会添加到您商店的产品模板中。 因此，搜索引擎可以获得更多信息以作为&#x200B;_富代码片段_&#x200B;包含在产品列表中。
 
 ## 规范meta标记
 
-某些搜索引擎会惩罚具有指向同一内容的多个URL的网站。 当多个URL具有相同或相似的内容时，规范meta标记会告知搜索引擎要索引的页面。 使用canonical meta标记可以提高网站排名并汇总页面查看次数。 规范meta标记放在 `<head>` 产品或类别页面的块。 它提供一个指向您的首选URL的链接，因此搜索引擎会赋予它更大的权重。
+某些搜索引擎会惩罚具有指向同一内容的多个URL的网站。 当多个URL具有相同或相似的内容时，规范meta标记会告知搜索引擎要索引的页面。 使用canonical meta标记可以提高网站排名并汇总页面查看次数。 规范meta标记放置在产品或类别页面的`<head>`块中。 它提供一个指向您的首选URL的链接，因此搜索引擎会赋予它更大的权重。
 
 ### 示例1：类别路径创建重复的URL
 
@@ -59,35 +59,35 @@ ht-degree: 0%
 
     http://mystore.com/driven-backpack.html
 
-如果您还在product URL中包含类别路径，则canonical URL将保留domain-name/product-url-key。 但是，也可以使用其完整URL访问该产品，该URL包括类别。 例如，如果产品URL密钥为 `driven-backpack` 并分配给Gear > Bags类别，则可以使用任一URL访问产品。
+如果您还在product URL中包含类别路径，则canonical URL将保留domain-name/product-url-key。 但是，也可以使用其完整URL访问该产品，该URL包括类别。 例如，如果产品URL密钥为`driven-backpack`并且已分配给Gear > Bag类别，则可以使用任一URL访问该产品。
 
 您可以通过从URL中省略类别或使用canonical meta标记将搜索引擎定向到按产品或类别编制索引来避免受到搜索引擎的惩罚。 作为最佳实践，建议您为类别和产品启用canonical meta标记。
 
 ### 启用canonical meta标记
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **搜索引擎优化** 部分。
+1. 展开&#x200B;**搜索引擎优化**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-   要更改任何字段值，您必须先清除 **使用系统值** 复选框。
+   要更改任何字段值，您必须先清除每个字段后面的&#x200B;**使用系统值**&#x200B;复选框。
 
    ![目录配置 — 搜索引擎优化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. 如果您希望搜索引擎仅使用完整的类别路径索引类别页面，请执行以下操作：
 
-   - 设置 **对类别使用规范链接元标记** 到 `Yes`.
+   - 将&#x200B;**Use Canonical Link Meta Tag for Categories**&#x200B;设置为`Yes`。
 
-   - 设置 **对产品使用规范链接Meta标记** 到 `No`.
+   - 将&#x200B;**Use Canonical Link Meta Tag for Products**&#x200B;设置为`No`。
 
 1. 如果您希望搜索引擎仅使用域名/product-url-key格式索引产品页面，请执行以下操作：
 
-   - 设置 **对产品使用规范链接Meta标记** 到 `Yes`.
+   - 将&#x200B;**Use Canonical Link Meta Tag for Products**&#x200B;设置为`Yes`。
 
-   - 设置 **对类别使用规范链接元标记** 到 `No`.
+   - 将&#x200B;**Use Canonical Link Meta Tag for Categories**&#x200B;设置为`No`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 元数据演示
 

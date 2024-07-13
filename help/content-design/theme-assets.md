@@ -1,6 +1,6 @@
 ---
 title: 主题资产
-description: 了解如何管理主题资产，如CSS、字体、图像和JavaScript文件。
+description: 了解如何管理主题资源，如CSS、字体、图像和JavaScript文件。
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # 主题资产
 
-此 _静态文件_ 是主题使用的资产（如CSS、字体、图像和JavaScript）的集合。 静态文件的位置在 [基本URL](../stores-purchase/store-urls.md) 配置。 您可以向每个静态文件的URL添加数字签名，以便浏览器能够检测到较新版本何时可用。 如果签名与浏览器缓存中存储的签名不同，则使用较新版本的文件。
+_静态文件_&#x200B;是主题使用的资源(如CSS、字体、图像和JavaScript)的集合。 静态文件的位置在[基本URL](../stores-purchase/store-urls.md)配置中指定。 您可以向每个静态文件的URL添加数字签名，以便浏览器能够检测到较新版本何时可用。 如果签名与浏览器缓存中存储的签名不同，则使用较新版本的文件。
 
-对于标准安装，与主题关联的资产将整理在 `web` 文件夹，该文件夹位于 [!DNL Commerce] 根。
+对于标准安装，与主题关联的资产将在[!DNL Commerce]根目录下以下位置的`web`文件夹中进行组织。
 
 `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
 ## 向静态文件URL添加数字签名
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Advanced]** 并选择 **[!UICONTROL Developer]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Advanced]**&#x200B;并选择&#x200B;**[!UICONTROL Developer]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Static Files Settings]** 部分。
+1. 展开&#x200B;**[!UICONTROL Static Files Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![静态文件设置](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
-1. 设置 **[!UICONTROL Sign Static Files]** 到 `Yes`.
+1. 将&#x200B;**[!UICONTROL Sign Static Files]**&#x200B;设置为`Yes`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 | 文件类型 | 描述 |
 |--- |--- |
@@ -47,21 +47,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->CSS文件可合并自 _管理员_ 仅在使用时面板 [开发者模式](../systems/developer-tools.md#operation-modes).
+>只有在[开发人员模式](../systems/developer-tools.md#operation-modes)下工作时，才能从&#x200B;_管理员_&#x200B;面板中合并CSS文件。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中， **[!UICONTROL Advanced]** 并选择 **[!UICONTROL Developer]**.
+1. 在左侧面板&#x200B;**[!UICONTROL Advanced]**&#x200B;中选择&#x200B;**[!UICONTROL Developer]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL CSS Settings]** 部分。
+1. 展开&#x200B;**[!UICONTROL CSS Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![CSS设置](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
-   有关这些配置选项的详细说明，请参阅 [CSS设置](../configuration-reference/advanced/developer.md#css-settings) 在 _配置引用_.
+   有关这些配置选项的详细说明，请参阅&#x200B;_配置引用_&#x200B;中的[CSS设置](../configuration-reference/advanced/developer.md#css-settings)。
 
-1. 设置 **[!UICONTROL Merge CSS Files]** 到 `Yes`.
+1. 将&#x200B;**[!UICONTROL Merge CSS Files]**&#x200B;设置为`Yes`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 合并JavaScript文件
 
@@ -69,18 +69,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->JavaScript文件可以从 _管理员_ 仅在使用时面板 [开发人员模式](../systems/developer-tools.md#operation-modes).
+>只有在[开发人员模式](../systems/developer-tools.md#operation-modes)下工作时，才能从&#x200B;_管理员_&#x200B;面板中合并JavaScript文件。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中， **[!UICONTROL Advanced]** 并选择 **[!UICONTROL Developer]**.
+1. 在左侧面板&#x200B;**[!UICONTROL Advanced]**&#x200B;中选择&#x200B;**[!UICONTROL Developer]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL JavaScript Settings]** 部分。
+1. 展开&#x200B;**[!UICONTROL JavaScript Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![JavaScript设置](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   有关这些配置选项的详细说明，请参阅 [JavaScript设置](../configuration-reference/advanced/developer.md#javascript-settings) 在 _配置引用_.
+   有关这些配置选项的详细说明，请参阅&#x200B;_配置引用_&#x200B;中的[JavaScript设置](../configuration-reference/advanced/developer.md#javascript-settings)。
 
-1. 设置 **[!UICONTROL Merge JavaScript Files]** 到 `Yes`.
+1. 将&#x200B;**[!UICONTROL Merge JavaScript Files]**&#x200B;设置为`Yes`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。

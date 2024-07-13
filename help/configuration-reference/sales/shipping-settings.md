@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Sales] &gt； [!UICONTROL Shipping Settings]’
-description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Shipping Settings] 商务管理员页面。
+title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]页面上的配置设置。
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 {{config}}
 
-有关更改这些设置的详细信息，请参阅 [配送设置](../../stores-purchase/shipping-settings.md) 在 _存储和购买体验指南_.
+有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[送货设置](../../stores-purchase/shipping-settings.md)。
 
 ## [!UICONTROL Origin]
 
-![Origin](./assets/shipping-settings-origin.png)<!-- zoom -->
+![来源](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Country] | 网站 | 原点国家/地区。 |
 | [!UICONTROL Region/State] | 网站 | 原点区域或州。 |
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![配送政策参数](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![配送策略参数](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | 网站 | 确定在结帐期间是否显示送货策略。 选项： `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | 商店视图 | 包含你的配送政策文本。 |

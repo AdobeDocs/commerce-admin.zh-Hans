@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 创建共享目录
 
-当 [共享目录](catalog-shared.md) 创建，系统会自动创建 [客户组](account-company-customer-group.md) 同名。 例如，如果您创建共享目录，名为 _ABC目录_，则系统还会创建相应的 _ABC目录_ 客户组。 将公司分配给共享自定义目录与将公司分配给客户组大致相同。
+创建[共享目录](catalog-shared.md)时，系统自动创建具有相同名称的[客户组](account-company-customer-group.md)。 例如，如果您创建名为&#x200B;_ABC目录_&#x200B;的共享目录，则系统还会创建相应的&#x200B;_ABC目录_&#x200B;客户组。 将公司分配给共享自定义目录与将公司分配给客户组大致相同。
 
 新的共享目录不包括产品、自定义定价或公司关联。 公共目录（启用共享目录时创建的默认共享目录）会自动分配给来宾以及未与公司关联的客户。
 
@@ -28,21 +28,21 @@ ht-degree: 0%
 
 ## 价格范围
 
-如果您安装的是多站点，请确保在创建共享目录之前配置价格范围。 此 [价格范围](../catalog/catalog-price-scope.md) 可以设置为 `Global` 或 `Website`. 但是，只能在设置过程开始时设置它。 网站选择器将在的步骤2中显示 [共享目录设置](catalog-shared-pricing-structure.md).
+如果您安装的是多站点，请确保在创建共享目录之前配置价格范围。 [价格范围](../catalog/catalog-price-scope.md)可以设置为`Global`或`Website`。 但是，只能在设置过程开始时设置它。 网站选择器出现在[共享目录设置](catalog-shared-pricing-structure.md)的步骤2中。
 
 ![网站选择器](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **目录** 并选择 **目录** 下方。
+1. 在左侧面板中，展开&#x200B;**目录**&#x200B;并在下面选择&#x200B;**目录**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **价格** 部分。
+1. 展开&#x200B;**价格**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 设置 **目录价格范围** 到 `Website`.
+1. 将&#x200B;**目录价格范围**&#x200B;设置为`Website`。
 
    ![目录价格范围](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Save Config]**.
+1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 第1步：创建共享目录
 
@@ -50,43 +50,43 @@ ht-degree: 0%
 
 ### 方法1：添加新共享目录
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
-1. 在右上角，单击 **[!UICONTROL Add Shared Catalog]** 并执行以下操作：
+1. 单击右上角的&#x200B;**[!UICONTROL Add Shared Catalog]**&#x200B;并执行以下操作：
 
-   - 输入 **[!UICONTROL Name]** 共享目录下。
+   - 为共享目录输入&#x200B;**[!UICONTROL Name]**。
 
      您分配的名称将在管理员和客户控制面板中使用（如果适用）以引用共享目录。 它还会成为相应的客户组的名称。
 
-   - 选择 **[!UICONTROL Type]** ： `Custom` 或 `Public`.
+   - 选择&#x200B;**[!UICONTROL Type]** ： `Custom`或`Public`。
 
-   - 选择适当的 **[!UICONTROL Customer Tax Class]** 适用于从共享目录进行的购买。
+   - 选择适用于从共享目录进行的购买的相应&#x200B;**[!UICONTROL Customer Tax Class]**。
 
-     有关税分类设置和定义的详情，请参阅 [税种](../stores-purchase/tax-class.md).
+     有关税分类设置和定义的详细信息，请参阅[税分类](../stores-purchase/tax-class.md)。
 
      以下示例显示了一个适用于特定批发客户的新自定义目录。
 
-     ![新建共享目录](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
+     ![新共享目录](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
-   - 输入 **[!UICONTROL Description]**
+   - 输入&#x200B;**[!UICONTROL Description]**
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新目录将显示在 _[!UICONTROL Shared Catalogs]_网格。
+   新目录显示在&#x200B;_[!UICONTROL Shared Catalogs]_网格中。
 
 ### 方法2：复制现有的共享目录
 
-重复的自定义目录会保留原始目录的定价模型和结构，但不保留公司关联。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，将命名重复目录 _重复_ 原始目录。
+重复的自定义目录会保留原始目录的定价模型和结构，但不保留公司关联。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，重复的目录在原始目录中名为&#x200B;_Duplicate of_。
 
-如果公共共享目录重复，则重复目录的类型将更改为 `custom`.
+如果公共共享目录重复，则重复目录的类型将更改为`custom`。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
-1. 对于网格中要复制的共享目录，转到 **[!UICONTROL Action]** 列并选择 **[!UICONTROL General Settings]**.
+1. 对于网格中要复制的共享目录，转到&#x200B;**[!UICONTROL Action]**&#x200B;列并选择&#x200B;**[!UICONTROL General Settings]**。
 
-1. 在页面顶部的选项中，单击 **[!UICONTROL Duplicate]**.
+1. 在页面顶部的选项中，单击&#x200B;**[!UICONTROL Duplicate]**。
 
-   ![复制共享目录](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
+   ![重复的共享目录](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
 
 1. 为新目录更新以下字段：
 
@@ -95,17 +95,17 @@ ht-degree: 0%
    - **[!UICONTROL Customer Tax Class]**
    - **[!UICONTROL Description]**
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   重复项显示在 _[!UICONTROL Shared Catalogs]_网格，具有唯一ID。
+   此重复项显示在&#x200B;_[!UICONTROL Shared Catalogs]_网格中，具有唯一的ID。
 
 ## 第2步：完成设置
 
-创建新的共享目录后，必须为它配置适当的产品选择， [公司分配](catalog-shared-assign-companies.md)、和 [类别权限](../catalog/category-permissions.md). 要继续，请参阅 [设置定价和结构](catalog-shared-pricing-structure.md).
+创建新共享目录后，必须为它配置相应的产品选择、[公司分配](catalog-shared-assign-companies.md)和[类别权限](../catalog/category-permissions.md)。 若要继续，请参阅[设置定价和结构](catalog-shared-pricing-structure.md)。
 
 >[!NOTE]
 >
->**[B2B 1.3.0版](release-notes.md#b2b-v130) 及更高版本**  — 创建共享目录时，每个 [类别权限](../catalog/category-permissions.md) （对于目录），设置为 _[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_ 对于在目录权限设置中分配了此访问权限的客户组。 以前，这些设置自动设置为 `Deny` 即使将目录权限设置为 `Allow`.
+>**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，目录的每个[类别权限](../catalog/category-permissions.md)均设置为&#x200B;_[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
 
 ## 共享目录演示
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Name] | 在整个管理员以及可用目录的客户帐户中标识共享目录。 目录名称应为描述性的，长度不超过32个字符。 不能有两个名称相同的共享目录。 最大字符数：32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]**  — 标识具有自定义定价的目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的已登录客户使用的共享目录。 默认公共共享目录创建时间 [!DNL Adobe Commerce B2B] 已安装，但必须由存储管理员配置。 一次只能存在一个公共共享目录。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** — 标识具有自定义定价的目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的登录客户使用的共享目录。 安装[!DNL Adobe Commerce B2B]时创建默认公共共享目录，但必须由存储管理员配置。 一次只能存在一个公共共享目录。 |
 | [!UICONTROL Customer Tax Class] | 确定用于从目录采购的税分类。 这些选项包括所有可用的税分类。 |
 | [!UICONTROL Description] | 有关如何使用目录的简要说明。 |
 
@@ -143,9 +143,9 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 分配给共享目录实体的唯一数字标识符。 |
 | [!UICONTROL Name] | 共享目录的名称。 |
-| [!UICONTROL Type] | 指示共享目录的类型。 可以是 `Public` 或 `Custom`. |
+| [!UICONTROL Type] | 指示共享目录的类型。 可以是`Public`或`Custom`。 |
 | [!UICONTROL Created At] | 在系统中创建共享目录的日期。 |
 | [!UICONTROL Created By] | 创建共享目录的管理员用户的名称。 |
-| [!UICONTROL Action] | 操作列表。 选项： `Set Pricing and Structure`， `Assign Companies`， `General Settings`， `Delete`. |
+| [!UICONTROL Action] | 操作列表。 选项： `Set Pricing and Structure`、`Assign Companies`、`General Settings`、`Delete`。 |
 
 {style="table-layout:auto"}

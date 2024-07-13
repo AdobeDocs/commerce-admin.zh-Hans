@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # 客户帐户范围
 
-您商店中每一页的页眉邀请购物者前往 _登录或注册_ 以取得你商店的帐户。 开户的客户可享受一系列好处，包括：
+您商店中每个页面的页眉都会邀请购物者&#x200B;_登录或在您的商店中注册_&#x200B;帐户。 开户的客户可享受一系列好处，包括：
 
-* **创建客户帐户**  — 访客可创建一个客户帐户，以便将该店面用作注册客户。
-* **创建公司帐户** 根据配置，您商店的访客可以选择创建公司帐户。 有关更多信息，请参阅 [Adobe Commerce B2B](../b2b/introduction.md).
-* **更快速的结账**  — 注册客户结账速度更快，因为他们的帐户中已有许多信息。
-* **自助服务**  — 注册客户可以更新其信息，检查订单状态，甚至从其帐户重新订购。
+* **创建客户帐户** — 访客可以创建客户帐户，以便将该店面用作注册客户。
+* **创建公司帐户**&#x200B;根据配置，您商店的访客可以选择创建公司帐户。 有关详细信息，请参阅[Adobe Commerce B2B](../b2b/introduction.md)。
+* **更快结帐** — 注册客户在结帐过程中移动得更快，因为很多信息都已在他们的帐户中。
+* **自助服务** — 注册客户可以更新其信息、检查订单状态，甚至从其帐户重新订购。
 
-客户可以通过单击 **[!UICONTROL My Account]** 商店标题中的链接。 客户可以通过其帐户查看和修改信息，包括过去和当前地址、帐单和送货偏好设置、新闻稿订阅、愿望清单等。
+客户可以通过单击商店标题中的&#x200B;**[!UICONTROL My Account]**&#x200B;链接访问其帐户。 客户可以通过其帐户查看和修改信息，包括过去和当前地址、帐单和送货偏好设置、新闻稿订阅、愿望清单等。
 
 ![我的帐户](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果网站从客户组中排除，则当客户帐户的范围仅限于该网站或与所有网站共享时，不允许该客户登录该网站。 请参阅 [创建客户组](customer-groups.md#create-a-customer-group) 有关将网站从组中排除的更多信息。
+>如果网站从客户组中排除，则当客户帐户的范围仅限于该网站或与所有网站共享时，不允许该客户登录该网站。 有关将网站从群组中排除的详细信息，请参阅[创建客户群](customer-groups.md#create-a-customer-group)。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Customers]** 并选择 **[!UICONTROL Customer Configuration]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展开 **[!UICONTROL Account Sharing Options]** 部分。
+1. 展开&#x200B;**[!UICONTROL Account Sharing Options]**&#x200B;部分。
 
    ![帐户共享选项](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
 
-1. 设置 **[!UICONTROL Share Customer Accounts]** 更改为以下任一项：
+1. 将&#x200B;**[!UICONTROL Share Customer Accounts]**&#x200B;设置为以下项之一：
 
    | 选项 | 描述 |
    | --- | --- |
@@ -50,10 +50,10 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   > 如有必要，请清除 **[!UICONTROL User system value]** 复选框以进行更改。
+   > 如有必要，请清除&#x200B;**[!UICONTROL User system value]**&#x200B;复选框以进行更改。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
    >[!NOTE]
    >
-   >时间 `Global` 已选中中的客户信息 **我的帐户** （地址和帐户信息，如联系人详细信息）共享。
+   >当选择`Global`时，将共享&#x200B;**我的帐户**&#x200B;中的客户信息（地址和帐户信息，如联系人详细信息）。

@@ -16,40 +16,40 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要为您的商店启用申请列表，请参阅 [启用B2B功能](enable-basic-features.md). 它可以允许为每个客户帐户维护多达999个申请列表，具体取决于 [配置](configure-requisition-lists.md).
+>要为您的商店启用申请列表，请参阅[启用B2B功能](enable-basic-features.md)。 根据[配置](configure-requisition-lists.md)，它最多可以为每个客户帐户保留999个申请列表。
 
 申请列表功能与愿望列表功能类似，但存在以下差异：
 
 - 将物料发送到购物车后未清除申请列表。 它可多次使用。
 - 申请列表的用户界面使用精简视图显示许多物料。
 
-![店面中显示的申请列表](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+店面显示的![申购清单](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## 从帐户仪表板创建申请列表
 
 与公司帐户关联的已登录客户可以从其帐户信息板创建申请列表。
 
-1. 在他们账户的侧边栏中，选择 **[!UICONTROL My Requisition Lists]**.
+1. 在其帐户的侧栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在 _[!UICONTROL Requisition Lists]_页面，点击量&#x200B;**[!UICONTROL Create New Requisition List]**.
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_页面上，单击&#x200B;**[!UICONTROL Create New Requisition List]**。
 
-1. 进入 **[!UICONTROL Requisition List Name]** 和 **[!UICONTROL Description]**.
+1. 输入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
    ![创建申请列表](./assets/requisition-list-create.png){width="300"}
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ## 从产品页创建申请列表
 
 与公司帐户关联的登录客户可以从产品页面创建申请列表。 此方法提供了创建列表和添加产品的简单快捷方式。
 
-1. 在产品详细信息页面中，客户单击 **[!UICONTROL Add to Requisition List]**.
+1. 在产品详细信息页面中，客户单击&#x200B;**[!UICONTROL Add to Requisition List]**。
 
-1. 点击次数 **[!UICONTROL Create New Requisition List]**.
+1. 单击&#x200B;**[!UICONTROL Create New Requisition List]**。
 
-1. 进入 **[!UICONTROL Requisition List Name]** 和 **[!UICONTROL Description]**.
+1. 输入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-1. 完成后，单击 **[!UICONTROL Save]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
 ## 将产品添加到申请列表
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 从店面，客户转到要添加到申请列表中的产品的详细信息页面。
 
-1. 点击次数 **[!UICONTROL Add to Requisition List]** 并执行以下操作之一：
+1. 单击&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;并执行下列操作之一：
 
    - 选择现有申请列表。
    - 创建申请列表。
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 将鼠标悬停在产品上。
 
-1. 点击次数 **[!UICONTROL Add to Requisition List]** 并执行以下操作之一：
+1. 单击&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;并执行下列操作之一：
 
    - 选择现有申请列表。
    - 创建申请列表。
@@ -86,9 +86,9 @@ ht-degree: 0%
 
 ### 从现有订单
 
-1. 在其帐户仪表板的侧边栏中，客户选择 **[!UICONTROL My Orders]**.
+1. 在其帐户仪表板的侧边栏中，客户选择&#x200B;**[!UICONTROL My Orders]**。
 
-1. 在订单顶部，单击 **[!UICONTROL Add to Requisition List]** 并执行以下操作之一：
+1. 在订单顶部，单击&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;并执行下列操作之一：
 
    - 选择现有申请列表。
    - 创建申请列表。
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ### 从购物车
 
-1. 在项目下，客户单击 **[!UICONTROL Add to Requisition List]** 并执行以下操作之一：
+1. 在该项目下，客户单击&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;菜单并执行以下操作之一：
 
    - 选择现有申请列表。
    - 创建申请列表。
@@ -112,12 +112,12 @@ ht-degree: 0%
 
 ### 从帐户信息板
 
-1. 在其帐户仪表板的侧边栏中，选择 **[!UICONTROL My Requisition Lists]**.
+1. 在其帐户仪表板的侧边栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在申请列表列表中，单击 **[!UICONTROL View]** 在 _操作_ 列。
+1. 在申请列表列表中，单击&#x200B;_操作_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
 ### 从任何店面页面
 
 1. 在页面顶部的快速链接栏中，单击其用户名。
 
-1. 在菜单上，选择 **[!UICONTROL My Requisition Lists]**.
+1. 在菜单上，选择&#x200B;**[!UICONTROL My Requisition Lists]**。

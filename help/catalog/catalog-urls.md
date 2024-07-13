@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ### 动态URL
 
-创建动态URL _正在运行_ 并且可能包含一个查询字符串，其中包含产品ID变量、排序顺序变量以及发出请求的页面。 当客户在您的商店中搜索产品时，生成的URL可能如下所示：
+动态URL是&#x200B;_动态创建的_，其中可能包含查询字符串，其中包含产品ID、排序顺序以及发出请求的页面的变量。 当客户在您的商店中搜索产品时，生成的URL可能如下所示：
 
 - `http://mystore.com/catalogsearch/result/?q=racer+back`
 - `http://mystore.com/women/tops-women.html?style_general=135`
 
 ### 静态URL
 
-静态URL是特定页面的固定地址。 静态URL可以显示为搜索引擎友好的格式，也可以按ID引用产品和类别。 这些URL包含人们可能用来查找产品的词语，并需要启用Web服务器重写。 具有静态URL的文件通常用于产品和类别页面、内容页面和 [主题资产](../content-design/theme-assets.md).
+静态URL是特定页面的固定地址。 静态URL可以显示为搜索引擎友好的格式，也可以按ID引用产品和类别。 这些URL包含人们可能用来查找产品的词语，并需要启用Web服务器重写。 具有静态URL的文件通常用于产品和类别页面、内容页面以及[主题资产](../content-design/theme-assets.md)。
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -33,17 +33,17 @@ ht-degree: 0%
 
 ### URL键
 
-URL键是描述产品或类别的静态URL的一部分。 创建产品或类别时，将根据名称自动生成初始URL密钥。 要更改URL键，请参阅 [搜索引擎优化](product-search-engine-optimization.md) 产品信息的部分。
+URL键是描述产品或类别的静态URL的一部分。 创建产品或类别时，将根据名称自动生成初始URL密钥。 要更改URL密钥，请参阅产品信息的[搜索引擎优化](product-search-engine-optimization.md)部分。
 
 >[!NOTE]
 >
->默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如， `ñ` 自动替换为 `n`. 可以通过设置 _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_配置选项到 `No`. 请参阅 [配置目录URL](#configure-catalog-urls).
+>默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如，`ñ`自动替换为`n`。 通过将&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_配置选项设置为`No`，可禁用此行为。 请参阅[配置目录URL](#configure-catalog-urls)。
 
 URL键应由小写字符组成，在这些字符之间使用非尾随连字符来分隔单词。 不允许在URL键的开头或结尾使用连字符。 设计良好的“搜索引擎友好”URL键可能包含产品名称和关键字，以改进搜索引擎索引产品的方式。 可以将URL键配置为在URL键发生更改时创建自动重定向。
 
 >[!NOTE]
 >
->要扩展URL自定义，例如本地化的URL，请参阅 [URL重写](../merchandising-promotions/url-rewrite.md) 以了解更多信息。
+>要扩展URL自定义设置，如本地化的URL，请参阅[URL重写](../merchandising-promotions/url-rewrite.md)以了解更多信息。
 
 ### HTML后缀
 
@@ -76,44 +76,44 @@ URL键应由小写字符组成，在这些字符之间使用非尾随连字符�
 
 ## 配置目录URL
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Catalog]** 并选择 **[!UICONTROL Catalog]** 下方。
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Search Engine Optimizations]** 并设置以下选项：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimizations]**&#x200B;部分并设置选项：
 
-   - 设置 **[!UICONTROL Product URL Suffix]** 到 `html` 或 `htm`. 输入不带句点的后缀，因为它会自动应用。
+   - 将&#x200B;**[!UICONTROL Product URL Suffix]**&#x200B;设置为`html`或`htm`。 输入不带句点的后缀，因为它会自动应用。
 
-   - 设置 **[!UICONTROL Category URL Suffix]** 到 `html` 或 `htm`. 输入不带句点的后缀，因为它会自动应用。
+   - 将&#x200B;**[!UICONTROL Category URL Suffix]**&#x200B;设置为`html`或`htm`。 输入不带句点的后缀，因为它会自动应用。
 
-   - 设置 **[!UICONTROL Use Categories Path for Product URLs]** 按你的喜好去做。
+   - 将&#x200B;**[!UICONTROL Use Categories Path for Product URLs]**&#x200B;设置为您的首选项。
 
    ![搜索引擎优化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅 [搜索引擎优化](../configuration-reference/catalog/catalog.md#search-engine-optimization) 在 _配置引用_.
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[搜索引擎优化](../configuration-reference/catalog/catalog.md#search-engine-optimization)。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-1. 出现提示时，单击 **[!UICONTROL Cache Management]** 链接并刷新无效缓存。
+1. 出现提示时，单击系统消息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;链接并刷新无效缓存。
 
    ![刷新缓存](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   有关这些选项的详细信息，请参阅 [刷新缓存](../systems/cache-management.md#refresh-specific-caches).
+   有关这些选项的更多信息，请参阅[刷新缓存](../systems/cache-management.md#refresh-specific-caches)。
 
 ## 配置目录媒体URL格式
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL General]** 并选择 **[!UICONTROL Web]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL General]**&#x200B;并选择&#x200B;**[!UICONTROL Web]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Url Options]** 并设置以下选项：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Url Options]**&#x200B;部分并设置选项：
 
 ![Web >常规选项](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
-| 字段 | [范围](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全局 | 如果启用了Web服务器重写，则启用此设置会将当前视图的存储代码插入到URL中。 选项： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要提示！_**请勿将自动重定向到基本URL用于多存储设置。 |
-| [!UICONTROL Catalog media URL format] | 全局 | 定义分配给产品和类别的URL格式。 选项： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 将转换的文件名定义为唯一的哈希值。<br />**[!UICONTROL Image optimization based on query parameters]**  — 定义 [图像优化](../content-design/media-gallery-image-optimization.md) 根据查询参数进行处理。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要信息！_**请勿在多商店设置中使用自动重定向到基本URL。 |
+| [!UICONTROL Catalog media URL format] | 全局 | 定义分配给产品和类别的URL格式。 选项： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 将转换的文件名定义为唯一的哈希值。<br />**[!UICONTROL Image optimization based on query parameters]** — 根据查询参数定义[图像优化](../content-design/media-gallery-image-optimization.md)进程。 |
 
 {style="table-layout:auto"}

@@ -44,7 +44,7 @@ ht-degree: 0%
 ### 无效文件
 
 - 如果所有行都无效，则无法导入文件。
-- 在导入文件中指定了不存在的服务数据或复杂的数据名称，例如 `_<non-existing name>` 标题。
+- 在导入文件中指定了不存在的服务数据或复杂的数据名称，如具有`_<non-existing name>`标题的列。
 
 Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BOM)的UTF-8编码的文件。 在导入过程中，包含BOM的文件可能会导致问题或失败。
 
@@ -52,17 +52,17 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 | 操作 | 描述 |
 | --------- | ----------- |
-| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 除外的所有字段 `sku` 可以更新。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别会自动创建。<br><br>导入文件中指定的新SKU将自动创建&#x200B;<br><br>**_注意：_**对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要提示：_** 使用无法删除多个字段值，例如网站或类别 _添加/更新_ 导入行为。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
-| 替换 | 现有产品数据将被新数据替换。<br><br>**_重要提示：_**替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则会删除所有字段（包括SKU），并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
-| 删除 | 导入数据中存在于数据库中的任何实体都将从数据库中删除。<br><br>删除会忽略导入数据中的所有列（SKU除外）。 您可以忽略数据中的所有其他属性。<br><br>如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
+| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意：_**对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要提示：_**&#x200B;使用&#x200B;_添加/更新_&#x200B;导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
+| 替换 | 现有产品数据将被新数据替换。<br><br>**_重要信息：_**替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
+| 删除 | 导入数据中存在于数据库中的任何实体都将从数据库中删除。<br><br>Delete忽略导入数据中的所有列（SKU除外）。 您可以忽略数据中的所有其他属性。<br><br>如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 
 {style="table-layout:auto"}
 
 ## 导入流程
 
-导入文件的大小由 `php.ini` 文件中的文件。 上的系统消息 _导入_ 页面指示当前大小限制。 默认大小为2 MB。
+导入文件的大小由服务器上`php.ini`文件中的设置决定。 _导入_&#x200B;页上的系统消息指示当前的大小限制。 默认大小为2 MB。
 
-特殊字符（如等号、大于和小于符号、单引号和双引号、反斜杠、管道和&amp;符号）可能会导致数据传输过程中出现问题。 要确保此类特殊字符被正确解释，可以将它们标记为 _转义序列_. 例如，如果数据包含文本字符串，例如 `code="str"`， `code="str2"`，选择用双引号括住文本可确保原始双引号被视为数据的一部分。 当系统遇到双引号集时，它知道外双引号集将实际数据括起来。
+特殊字符（如等号、大于和小于符号、单引号和双引号、反斜杠、管道和&amp;符号）可能会导致数据传输过程中出现问题。 为确保正确解释此类特殊字符，可以将它们标记为&#x200B;_转义序列_。 例如，如果数据包含诸如`code="str"`、`code="str2"`之类的文本字符串，则选择用双引号将文本括起来可确保将原始双引号理解为数据的一部分。 当系统遇到双引号集时，它知道外双引号集将实际数据括起来。
 
 导入产品数据时，新产品数据将添加到数据库中的现有产品数据条目中。 除SKU外的所有字段均可通过导入进行更新。 所有现有产品数据都将被导入的新数据替换。 替换数据时请务必谨慎。 所有现有的产品数据都将被清除，并且系统中的所有引用都将丢失。
 
@@ -70,9 +70,9 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 ### 步骤1：准备数据
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 下 _导入设置_，设置 **[!UICONTROL Entity Type]** 更改为以下任一项：
+1. 在&#x200B;_导入设置_&#x200B;下，将&#x200B;**[!UICONTROL Entity Type]**&#x200B;设置为以下项之一：
 
    - `Advanced Pricing`
    - `Products`
@@ -82,13 +82,13 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
    - `Customer Addresses`
    - `Stock Sources`
 
-1. 单击 **[!UICONTROL Download Sample File]**.
+1. 单击&#x200B;**[!UICONTROL Download Sample File]**。
 
 1. 在Web浏览器的下载位置找到导出文件，然后打开该文件。
 
    样例文件包含列标题，其中带有产品类型的占位符数据。
 
-   ![导入数据示例文件](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![导入数据样本文件](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. 检查样例文件的结构，并使用它准备CSV导入文件，确保列标题拼写正确。
 
@@ -98,7 +98,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 1. 如果导入数据包含指向产品图像的路径，请确保已将图像文件上传到相应的位置。
 
-   Commerce服务器上的默认位置为： `pub/media/import`.
+   Commerce服务器上的默认位置为： `pub/media/import`。
 
    如果映像驻留在外部服务器上，请确保您具有包含映像的目录的完整URL。
 
@@ -106,9 +106,9 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 ![数据导入行为](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
-1. 设置 **[!UICONTROL Import Behavior]** 更改为以下任一项：
+1. 将&#x200B;**[!UICONTROL Import Behavior]**&#x200B;设置为以下项之一：
 
-   - `Add/Update` （对于产品，您可以通过导入来更新除SKU之外的所有字段。）
+   - `Add/Update` （对于产品，您可以通过导入更新除SKU之外的所有字段。）
    - `Replace`
    - `Delete`
 
@@ -117,41 +117,41 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
    - `Stop on Error`
    - `Skip error entries`
 
-1. 对象 **[!UICONTROL Allowed Errors Count]**，输入在取消导入之前可能发生的错误数。
+1. 对于&#x200B;**[!UICONTROL Allowed Errors Count]**，输入在取消导入之前可能发生的错误数。
 
    默认值为10。
 
-1. 接受逗号(`,`)用于 **[!UICONTROL Field separator]**.
+1. 接受&#x200B;**[!UICONTROL Field separator]**&#x200B;的逗号(`,`)默认值。
 
-1. 接受逗号(`,`)用于 **[!UICONTROL Multiple value separator]**.
+1. 接受&#x200B;**[!UICONTROL Multiple value separator]**&#x200B;的逗号(`,`)默认值。
 
    在CSV文件中，逗号是默认分隔符。 要使用其他字符，请确保CSV文件中的数据与您指定的字符匹配。
 
-1. 接受默认值 `_EMPTY_VALUE_` 对象 **[!UICONTROL Empty attribute value constant]**.
+1. 接受&#x200B;**[!UICONTROL Empty attribute value constant]**&#x200B;的默认值`_EMPTY_VALUE_`。
 
-1. 如果要将数据中可能存在的任何特殊字符作为 _转义序列_，选择 **[!UICONTROL Fields Enclosure]** 复选框。
+1. 如果要以&#x200B;_转义序列_&#x200B;形式包含数据中可能存在的任何特殊字符，请选中&#x200B;**[!UICONTROL Fields Enclosure]**&#x200B;复选框。
 
 ### 步骤3：标识导入文件
 
 ![数据导入文件](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. 单击 **[!UICONTROL Choose File]** 以选择要导入的文件。
+1. 单击&#x200B;**[!UICONTROL Choose File]**&#x200B;选择要导入的文件。
 
-1. 查找您准备导入的CSV文件，然后单击 **[!UICONTROL Open]**.
+1. 查找您准备导入的CSV文件，然后单击&#x200B;**[!UICONTROL Open]**。
 
-1. 对象 **[!UICONTROL Images File Directory]**，输入存储上传图像的Commerce服务器上位置的相对路径。
+1. 对于&#x200B;**[!UICONTROL Images File Directory]**，输入Commerce服务器上存储上载图像的位置的相对路径。
 
-   例如： `product_images`.
+   例如： `product_images`。
 
    >[!NOTE]
    >
-   >Adobe Commerce和Magento Open Source入门 `2.3.2` 版本，中指定的路径 _[!UICONTROL Images File Directory]_连接以导入到图像基目录： `<Magento-root-folder>/var/import/images`. 例如，将 `product_images` 中的文件 `<Magento-root-directory>/var/import/images/product_images` 文件夹。 导入映像基本目录可以在以下位置配置： `\Magento\ImportExport\etc\config.xml` 文件。 如果启用了远程存储模块，请将文件导入 `<remote-storage-root-directory>/var/import/images/product_images` 文件夹。
+   >从Adobe Commerce和Magento Open Source`2.3.2`版本开始，_[!UICONTROL Images File Directory]_中指定的路径将连接以导入到映像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
 
-   要了解有关导入产品图像的更多信息，请参阅 [导入产品图像](data-import-product-images.md).
+   要了解有关导入产品映像的详细信息，请参阅[导入产品映像](data-import-product-images.md)。
 
 ### 步骤4：检查导入数据
 
-1. 在右上角，单击 **[!UICONTROL Check Data]**.
+1. 单击右上角的&#x200B;**[!UICONTROL Check Data]**。
 
 1. 请稍等片刻，等待验证过程完成。
 
@@ -159,7 +159,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
    ![成功消息 — 文件有效](./assets/data-import-validation-message.png){width="600"}
 
-1. 如果文件有效，请单击 **[!UICONTROL Import]**.
+1. 如果文件有效，请单击&#x200B;**[!UICONTROL Import]**。
 
    否则，请纠正消息中列出的数据存在的每个问题，然后再次尝试导入文件。
 
@@ -173,17 +173,17 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 ## 导入历史记录
 
-Commerce会维护已导入商店的数据记录，包括开始日期和时间、用户、执行时间以及导入文件的链接。 此 _执行时间_ 是导入过程的持续时间。
+Commerce会保留已导入存储的数据记录，包括开始日期和时间、用户、执行时间以及导入文件的链接。 _执行时间_&#x200B;是导入过程的持续时间。
 
-**_要查看导入历史记录，请执行以下操作：_**
+**_要查看导入历史记录：_**
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**。
 
 ![数据导入历史记录](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->默认情况下，导入历史记录文件位于 `<Magento-root-directory>/var/import_history` 文件夹。 如果启用了远程存储模块，则导入历史记录文件位于 `<remote-storage-root-directory>/import_export/import_history` 文件夹。
+>默认情况下，导入历史记录文件位于`<Magento-root-directory>/var/import_history`文件夹中。 如果启用了远程存储模块，则导入历史记录文件位于`<remote-storage-root-directory>/import_export/import_history`文件夹中。
 
 | 字段 | 描述 |
 |--- |--- |
@@ -197,4 +197,4 @@ Commerce会维护已导入商店的数据记录，包括开始日期和时间、
 
 {style="table-layout:auto"}
 
-要下载 _已导入/出错_ 文件，单击 **[!UICONTROL Download]**.
+要下载&#x200B;_导入/错误_&#x200B;文件，请单击&#x200B;**[!UICONTROL Download]**。

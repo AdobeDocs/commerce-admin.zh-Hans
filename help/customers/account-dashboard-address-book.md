@@ -5,7 +5,7 @@ exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## 添加地址
 
-1. 在其客户帐户的左侧导航中，客户选择 **[!UICONTROL Address Book]**.
+1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
-1. 在 _[!UICONTROL Address Book]_页面位于_&#x200B;其他地址条目&#x200B;_，点击次数&#x200B;**[!UICONTROL Add New Address]**.
+1. 在&#x200B;_其他地址条目_&#x200B;下的&#x200B;_[!UICONTROL Address Book]_页面上，单击&#x200B;**[!UICONTROL Add New Address]**。
 
    ![添加新地址](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -39,51 +39,51 @@ ht-degree: 0%
    * [!UICONTROL Use as my default billing address]
    * [!UICONTROL Use as my default shipping address]
 
-1. 完成后，单击 **[!UICONTROL Save Address]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Address]**。
 
    >[!INFO]
    >
-   >新地址列在 [!UICONTROL Additional Address Entries].
+   >新地址列在[!UICONTROL Additional Address Entries]下。
 
    ![其他地址条目](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## 编辑地址
 
-1. 在其客户帐户的左侧导航中，客户选择 **[!UICONTROL Address Book]**.
+1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
 1. 查找要编辑的地址条目。
 
-1. 点击次数 **[!UICONTROL Edit]**.
+1. 单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 进行任何所需的更改。
 
    >[!INFO]
    >
-   >客户可将此地址设置为默认值 **[!UICONTROL Shipping or Billing]** 地址，选择 _使用作为我的默认帐单地址_ 复选框。
+   >客户可以通过选中&#x200B;_使用作为我的默认帐单地址_&#x200B;复选框，将此地址设置为默认&#x200B;**[!UICONTROL Shipping or Billing]**&#x200B;地址。
 
-1. 更改完成后，单击 **[!UICONTROL Save Address]**.
+1. 更改完成后，单击&#x200B;**[!UICONTROL Save Address]**。
 
 ## 更改默认地址
 
-1. 在其客户帐户的左侧导航中，客户选择 **[!UICONTROL Address Book]**.
+1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
 1. 选择下列编辑方法之一：
 
-   * 点击次数 **[!UICONTROL Change Billing/Shipping Address]** 在 _[!UICONTROL Default Addresses]_部分。
+   * 单击&#x200B;_[!UICONTROL Default Addresses]_部分中的&#x200B;**[!UICONTROL Change Billing/Shipping Address]**。
 
-   * 点击次数 **[!UICONTROL Edit]** 在 _[!UICONTROL Additional Address Entries]_网格。
+   * 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 进行必要的更改，然后单击 **[!UICONTROL Save Address]**.
+1. 进行必要的更改，然后单击&#x200B;**[!UICONTROL Save Address]**。
 
 ## 删除地址
 
-1. 在其客户帐户的左侧导航中，客户选择 **[!UICONTROL Address Book]**.
+1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
 1. 查找要删除的地址条目。
 
-1. 点击次数 **[!UICONTROL Delete]** 在 _[!UICONTROL Additional Address Entries]_网格。
+1. 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Delete]**。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
    >[!IMPORTANT]
    >

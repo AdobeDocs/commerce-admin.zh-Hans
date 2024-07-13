@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Adobe Commerce目录管理指南
 
-本指南面向在Adobe Commerce和Magento Open Source中工作的产品推销商和库存管理员。 它提供有关产品目录功能的详细信息，包括为目录构建导航结构。 它假定您对核心有基本的了解 [!DNL Commerce] 配置和功能。
+本指南面向在Adobe Commerce和Magento Open Source中工作的产品推销商和库存管理员。 它提供有关产品目录功能的详细信息，包括为目录构建导航结构。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
 
 本指南涵盖：
 
 | 主题 | 描述 |
 | ------- | ----------- |
-| [介绍](introduction.md) | 使用目录管理功能反映您希望客户如何在您的商店中查找产品的概述。 |
-| [目录菜单](catalog-menu.md) | 使用 [!UICONTROL Catalog] 菜单访问多项功能，用于管理商店的目录、类别和产品。 |
+| [简介](introduction.md) | 使用目录管理功能反映您希望客户如何在您的商店中查找产品的概述。 |
+| [目录菜单](catalog-menu.md) | 使用[!UICONTROL Catalog]菜单访问多项功能，以管理商店的目录、类别和产品。 |
 | [目录和产品URL](catalog-urls.md) | 查看基本URL类型以及如何设计URL以最大限度地优化搜索引擎。 |
 | [目录导航](navigation.md) | 使用导航工具定义购物者在您的商店中从一个页面移动到另一个页面的方式。 |
 | [目录搜索](search.md) | 查看客户可用于在店面中查找产品的工具，并根据您的产品目录配置搜索体验。 |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2B使您能够使用自定义定价为不同的公司维护封闭共享目录。 除了标准、主要产品目录之外，它还允许客户访问具有不同定价结构的两种共享目录。 有关共享目录功能的详细信息，请参见 [Adobe Commerce B2B用户指南](../b2b/catalog-shared.md).
+>Adobe Commerce B2B使您能够使用自定义定价为不同的公司维护封闭共享目录。 除了标准、主要产品目录之外，它还允许客户访问具有不同定价结构的两种共享目录。 有关共享目录功能的详细信息，请参阅[Adobe Commerce B2B用户指南](../b2b/catalog-shared.md)。
 
 ## 可用文档
 

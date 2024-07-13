@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->批准规则设置要求已定义 [公司结构](account-company-structure.md) 以便指定采购客户经理的审批。
+>批准规则设置需要定义的[公司结构](account-company-structure.md)以指定采购客户经理的批准。
 
 ## 支付方式
 
@@ -36,47 +36,47 @@ ht-degree: 0%
 
 ## 批准规则设置
 
-带有所需的 [其角色的权限](account-company-roles-permissions.md)，B2B客户可以通过单击来设置批准规则以强制实施公司策略 **[!UICONTROL Approval Rules]** （位于其客户帐户的左侧面板中）。
+具有其角色](account-company-roles-permissions.md)所需的[权限，B2B客户可以通过单击其客户帐户的左侧面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;来设置批准规则以强制执行公司策略。
 
 ![公司审批规则](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 要创建审批规则，客户必须完成以下步骤：
 
-1. 点击次数 **[!UICONTROL Add New Rule]** 以创建规则。
+1. 单击&#x200B;**[!UICONTROL Add New Rule]**&#x200B;以创建规则。
 
-1. 如果需要，可将规则从 **[!UICONTROL Enabled]** 到 **[!UICONTROL Disabled]**.
+1. 如果需要，将规则从&#x200B;**[!UICONTROL Enabled]**&#x200B;更改为&#x200B;**[!UICONTROL Disabled]**。
 
    该规则默认处于启用状态，但客户可以使用禁用的设置创建规则，然后在准备好强制执行该规则时稍后启用它。
 
-1. 对象 **[!UICONTROL Rule name]**，为规则输入简短但具有描述性的名称，例如 `Orders less than $100`.
+1. 对于&#x200B;**[!UICONTROL Rule name]**，为规则输入一个简短但具有描述性的名称，如`Orders less than $100`。
 
    规则名称必须唯一。
 
-1. 对象 **[!UICONTROL Description]**，输入对规则的更长解释。
+1. 对于&#x200B;**[!UICONTROL Description]**，请输入对规则的更长解释。
 
-1. 对象 **[!UICONTROL Applies to]**，选择用于应用规则的一个或多个公司角色。
+1. 对于&#x200B;**[!UICONTROL Applies to]**，选择用于应用规则的一个或多个公司角色。
 
-1. 选择 **[!UICONTROL Rule Type]** 并定义规则。
+1. 选择&#x200B;**[!UICONTROL Rule Type]**&#x200B;并定义规则。
 
    以下部分提供了每种规则类型的详细说明和示例。
 
    ![创建新的审批规则](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. 对象 **[!UICONTROL Requires approval from]**，根据审批类型选择一个或多个所需的审批者。
+1. 对于&#x200B;**[!UICONTROL Requires approval from]**，根据批准类型选择一个或多个所需的批准者。
 
    >[!NOTE]
    >
    >* 将角色指定为审批者时，请确保该角色中至少有一位用户。
-   >* 如果有两个或更多用户具有相同的审批者角色，则采购订单创建者无法审批该采购订单。 在这种情况下，具有此审批者角色的任何其他用户都需要手动审批。 但是，如果 `Auto-approve POs created within this role` 选项设置于 [角色权限](account-company-roles-permissions.md)，则会自动批准采购订单。
-   >* 如果只有一个用户具有审批者角色，并且该用户是创建者，则采购订单始终会自动获得批准 —  `Auto-approve POs created within this role` 权限设置被忽略。
+   >* 如果有两个或更多用户具有相同的审批者角色，则采购订单创建者无法审批该采购订单。 在这种情况下，具有此审批者角色的任何其他用户都需要手动审批。 但是，如果在[角色权限](account-company-roles-permissions.md)中设置了`Auto-approve POs created within this role`选项，则会自动批准采购订单。
+   >* 如果只有一个用户具有审批者角色，并且该用户是创建者，则采购订单始终会自动获得批准，而会忽略`Auto-approve POs created within this role`权限设置。
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ### [!UICONTROL Order Total]
 
 此规则类型用于根据订单总额（包括税）要求PO审批。
 
-1. 选择 **[!UICONTROL Order Total amount]** 选项：
+1. 选择&#x200B;**[!UICONTROL Order Total amount]**&#x200B;选项：
 
    * `is more than`
    * `is less than`
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 此规则类型用于根据发运成本要求PO审批，而许多公司都要求这样做。
 
-1. 设置 **[!UICONTROL Shipping cost value]**：
+1. 设置&#x200B;**[!UICONTROL Shipping cost value]**：
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 1. 设置所需的装运数量。
 
-![装运成本审批规则](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![运费审批规则](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 此示例指定了五个项目，但指定了两个不同的SKU。
 
-1. 设置 **[!UICONTROL Number of SKUs]** 值：
+1. 设置&#x200B;**[!UICONTROL Number of SKUs]**&#x200B;值：
 
    * `is more than`
    * `is less than`
@@ -120,31 +120,31 @@ ht-degree: 0%
 
 1. 设置SKU的数量。
 
-![SKU批准规则数量](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![SKU批准规则数](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## 编辑审批规则
 
 要修改现有审批规则，客户可以完成以下步骤：
 
-1. 在其帐户的侧边栏中，客户选择 **[!UICONTROL Approval Rules]**.
+1. 在其帐户的侧边栏中，客户选择&#x200B;**[!UICONTROL Approval Rules]**。
 
 1. 查找要编辑的批准规则条目。
 
-1. 点击次数 **[!UICONTROL Edit]**.
+1. 单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 进行所有需要的更改和点击 **[!UICONTROL Save]**.
+1. 进行所有需要的更改并单击&#x200B;**[!UICONTROL Save]**。
 
 ## 删除审批规则
 
 要删除现有审批规则，客户可以完成以下步骤：
 
-1. 在其帐户的侧栏中，选择 **[!UICONTROL Approval Rules]**.
+1. 在其帐户的侧栏中，选择&#x200B;**[!UICONTROL Approval Rules]**。
 
 1. 查找要删除的批准规则条目。
 
-1. 点击次数 **[!UICONTROL Delete]**.
+1. 单击&#x200B;**[!UICONTROL Delete]**。
 
-1. 要确认操作，请单击 **[!UICONTROL OK]**.
+1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
 ## 采购订单审批演示
 

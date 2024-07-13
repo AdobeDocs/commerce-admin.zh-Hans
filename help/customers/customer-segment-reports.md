@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 客户分部报告提供有关每个分部客户人数的资料。
 
-![客户区段报表](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![客户区段报告](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | 列 | 描述 |
 |--- |--- |
@@ -30,16 +30,16 @@ ht-degree: 1%
 
 您可以向下钻取到区段中的客户列表，并导出数据。
 
-![深入到客户数据](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![深入查看客户数据](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-为确保您拥有最新数据，必须刷新区段数据。 如果区段数据不可用或已过时，请单击 **[!UICONTROL Refresh Segment Data]** 按钮栏中更新。
+为确保您拥有最新数据，必须刷新区段数据。 如果区段数据不可用或已过期，请单击按钮栏中的&#x200B;**[!UICONTROL Refresh Segment Data]**&#x200B;进行更新。
 
-1. 对象 **[!UICONTROL Export to]**，选择导出格式：
+1. 对于&#x200B;**[!UICONTROL Export to]**，请选择导出格式：
 
    * CSV — 包含纯文本数据的逗号分隔值文件。
    * Excel XML — 一种基于XML的电子表格数据格式。
 
-1. 单击 **[!UICONTROL Export]**.
+1. 单击&#x200B;**[!UICONTROL Export]**。
 
    | 列 | 描述 |
    |--- |--- |

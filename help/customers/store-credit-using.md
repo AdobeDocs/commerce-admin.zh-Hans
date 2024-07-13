@@ -20,41 +20,41 @@ ht-degree: 0%
 
 ## 查看贷方余额
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
 1. 在网格中查找客户。
 
-1. 在 _操作_ 列，单击 **[!UICONTROL Edit]**.
+1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 滚动 _[!UICONTROL Customer View]_页面并查看&#x200B;**[!UICONTROL Store Credit Balance]**在底部。
+1. 滚动&#x200B;_[!UICONTROL Customer View]_页面并在底部查看&#x200B;**[!UICONTROL Store Credit Balance]**。
 
-![商店贷方余额](assets/store-credit-balance.png){width="600" zoomable="yes"}
+![存储信用余额](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## 更新商店贷方余额
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Customers]** > _操作_ > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > _操作_ > **[!UICONTROL All Customers]**。
 
 1. 在网格中查找客户。
 
-1. 在 _操作_ 列，单击 **[!UICONTROL Edit]**.
+1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 在左侧面板中，选择 **[!UICONTROL Store Credit]**.
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL Store Credit]**。
 
 1. 选择要与余额关联的网站（店面）。
 
-1. 对象 **[!UICONTROL Update Balance]**&#x200B;中，输入新值。
+1. 对于&#x200B;**[!UICONTROL Update Balance]**，输入新值。
 
-1. 要通知客户余额更新，请选择 **[!UICONTROL Notify Customer by Email]** 复选框，然后从中选择商店视图 **[!UICONTROL Send Email Notification From the Following Store View]**.
+1. 要通知客户余额更新，请选中&#x200B;**[!UICONTROL Notify Customer by Email]**&#x200B;复选框，然后从&#x200B;**[!UICONTROL Send Email Notification From the Following Store View]**&#x200B;中选择商店视图。
 
-1. 输入 **[!UICONTROL Comment]** 有关更改的信息。
+1. 输入有关更改的&#x200B;**[!UICONTROL Comment]**。
 
-1. 更新完成后，单击 **[!UICONTROL Save and Continue Edit]** 或 **[!UICONTROL Save Customer]**.
+1. 更新完成后，单击&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;或&#x200B;**[!UICONTROL Save Customer]**。
 
-更新的余额应显示在 **[!UICONTROL Balance History]**.
+更新的余额应显示在&#x200B;**[!UICONTROL Balance History]**&#x200B;中。
 
 ## 以商店管理员身份将贷方余额应用于订单
 
-作为商店管理员，您可以代表客户执行各种操作，包括提交订单。 当您 [创建订单](../stores-purchase/customer-account-create-order.md)，则可以申请应付给客户的商店贷方余额。 可用余额显示在 _付款和送货信息_ 部分。 选择 **[!UICONTROL Use Store Credit]** 复选框，以应用余额；如果订单总额较小，则应用余额的一部分。
+作为商店管理员，您可以代表客户执行各种操作，包括提交订单。 当您[创建订单](../stores-purchase/customer-account-create-order.md)时，您可以应用应付给客户的商店贷方余额。 可用余额显示在&#x200B;_付款和送货信息_&#x200B;部分。 选中&#x200B;**[!UICONTROL Use Store Credit]**&#x200B;复选框以应用余额，如果订单合计少于此值，则选择余额的一部分。
 
 ![将商店贷方余额应用于订单](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 1. 客户查看可用商店贷项的金额。
 
-   时段 _审核与支付_ 步骤，可用数量显示在 _[!UICONTROL Store Credit]_.
+   在&#x200B;_审核和付款_&#x200B;步骤中，可用金额显示在&#x200B;_[!UICONTROL Store Credit]_下。
 
-1. 要将金额应用于订单，请单击 **[!UICONTROL Use Store Credit]**.
+1. 要将金额应用于订单，请单击&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >订单总额会重新计算，并且应用的商店积分金额会显示在 _[!UICONTROL Order Summary]_.
+   >重新计算订单总计，应用的商店积分金额显示在&#x200B;_[!UICONTROL Order Summary]_中。
 
    ![存储应用于订单的贷方余额](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
-1. 准备就绪后，单击 **[!UICONTROL Place Order]**.
+1. 准备就绪后，单击&#x200B;**[!UICONTROL Place Order]**。

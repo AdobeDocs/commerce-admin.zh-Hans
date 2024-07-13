@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # 配置申请列表最大值
 
-启用申请列表功能后，客户可以创建多个经常采购的物料列表，并使用这些列表进行订单下单。 它同时适用于已登录的用户和来宾。 您可以在以下情况下启用申请列表： [配置B2B功能](enable-basic-features.md).
+启用申请列表功能后，客户可以创建多个经常采购的物料列表，并使用这些列表进行订单下单。 它同时适用于已登录的用户和来宾。 您可以在[配置B2B功能](enable-basic-features.md)时启用申请列表。
 
-客户可以有多个列表，重点关注来自不同供应商、购买者、团队、营销活动的产品，或简化常见工作流程的任何其他产品。 [申购单列表功能](requisition-lists.md) 与愿望清单类似，但存在以下差异：
+客户可以有多个列表，重点关注来自不同供应商、购买者、团队、营销活动的产品，或简化常见工作流程的任何其他产品。 [申购单列表功能](requisition-lists.md)与愿望列表类似，但有以下区别：
 
 - 将物料发送到购物车后未清除申请列表。 它可多次使用。
 - 申请列表的用户界面使用紧凑视图来显示许多物料。
 
 默认情况下，客户可以为其帐户维护多达999个申请列表。 但您可以修改配置并指定较低的数字以减轻存储上的负载。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Customers]** 并选择 **[!UICONTROL Requisition Lists]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Requisition Lists]**。
 
-   ![申购单列表 — 常规设置](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
+   ![申请列表 — 常规设置](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
 
-1. 对象 **[!UICONTROL Number of Requisition Lists]**，输入可为每个客户帐户维护的申请列表的最大数量。
+1. 对于&#x200B;**[!UICONTROL Number of Requisition Lists]**，输入每个客户帐户可维护的申请列表的最大数量。
 
-   最小值为 `2`，最大值为 `999`.
+   最小值为`2`，最大值为`999`。
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。

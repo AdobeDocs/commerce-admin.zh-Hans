@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # 配置公司电子邮件选项
 
-此 [销售代表](account-company-manage.md) 默认情况下，会将指定为公司的主要联系人的电子邮件配置为许多发送给公司的自动电子邮件的发件人。
+默认情况下，将指定为公司主要联系人的[销售代表](account-company-manage.md)配置为许多自动发送给公司的电子邮件的发件人。
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开 **[!UICONTROL Customers]** 并选择 **[!UICONTROL Company Configuration]**.
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Company Configuration]**。
 
-1. 如有必要，请设置 **[!UICONTROL Store View]** 到商店视图以定义 [范围](../getting-started/websites-stores-views.md#scope-settings) 配置中。
+1. 如有必要，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为存储视图以定义配置的[作用域](../getting-started/websites-stores-views.md#scope-settings)。
 
-1. 完成 **[!UICONTROL Company Registration]** 部分：
+1. 完成&#x200B;**[!UICONTROL Company Registration]**&#x200B;部分：
 
    >[!NOTE]
    >
-   >清除 **[!UICONTROL Use system value]** 复选框，使字段可编辑。
+   >清除&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以使字段可编辑。
 
-   - 设置 **[!UICONTROL Company Registration Email Recipient]** 到 [商店联系人](../getting-started/store-details.md#store-email-addresses) 在收到新的公司注册请求时，将通知谁。
+   - 将&#x200B;**[!UICONTROL Company Registration Email Recipient]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，在收到新的公司注册请求时会通知该联系人。
 
-   - 在 **[!UICONTROL Send Company Registration Email Copy To]** 字段中，输入要接收注册通知副本的每个人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Registration Email Copy To]**&#x200B;字段中，输入要接收注册通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。
 
-   - 要确定通知副本的发送方式，请设置 **[!UICONTROL Send Email Copy Method]** 更改为以下任一项：
+   - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc`  — 发送 _盲文提供_ 在发送给客户的同一电子邮件的标题中包含收件人。 客户看不到密件抄送收件人。
-      - `Separate Email`  — 将副本作为单独的电子邮件发送。
+      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+      - `Separate Email` — 将副本作为单独的电子邮件发送。
 
-   - 如果您已准备要使用的电子邮件模板而不是默认模板，请设置 **[!UICONTROL Default Company Registration Email]** 到模板的名称。 默认情况下， `Company Registration Request` 使用模板。
+   - 如果您已准备要使用的电子邮件模板而不是默认模板，请将&#x200B;**[!UICONTROL Default Company Registration Email]**&#x200B;设置为模板的名称。 默认情况下，使用`Company Registration Request`模板。
 
      ![客户配置 — 公司注册](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
-1. 完成 **[!UICONTROL Customer-Related Emails]** 部分：
+1. 完成&#x200B;**[!UICONTROL Customer-Related Emails]**&#x200B;部分：
 
    如果您已准备要使用的备用电子邮件模板而不是默认模板，请选择要用于以下各项的模板：
 
@@ -54,39 +54,39 @@ ht-degree: 0%
 
    ![客户配置 — 客户相关电子邮件](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
-1. 完成 **[!UICONTROL Company Status Change]** 部分：
+1. 完成&#x200B;**[!UICONTROL Company Status Change]**&#x200B;部分：
 
-   - 设置 **[!UICONTROL Company Status Change for Email Recipient]** 到 [商店联系人](../getting-started/store-details.md#store-email-addresses) 当公司的状态发生变化时，将通知谁。
+   - 将&#x200B;**[!UICONTROL Company Status Change for Email Recipient]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当公司状态发生变化时，将通知该联系人。
 
-   - 在 **[!UICONTROL Send Company Status Change Email Copy To]** 字段中，输入要接收状态更改通知副本的每个人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Status Change Email Copy To]**&#x200B;字段中，输入要接收状态更改通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。
 
-   - 要确定通知副本的发送方式，请设置 **[!UICONTROL Send Email Copy Method]** 更改为以下任一项：
+   - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc`  — 发送 _盲文提供_ 在发送给客户的同一电子邮件的标题中包含收件人。 客户看不到密件抄送收件人。
-      - `Separate Email`  — 将副本作为单独的电子邮件发送。
+      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+      - `Separate Email` — 将副本作为单独的电子邮件发送。
 
-   - 如果您有准备好的电子邮件模板，则在公司状态从更改时使用该模板，而不是默认模板 `Pending Approval` 到 `Active`，设置 **[!UICONTROL Default 'Company Status Change to Active 1' Email]** 到那个模板上。 默认情况下， `Company Status Active 1` 使用模板。
+   - 如果您的准备好的电子邮件模板将在公司状态从`Pending Approval`更改为`Active`时使用，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Active 1`模板。
 
-   - 如果您有准备好的电子邮件模板，则在公司状态从更改时使用该模板，而不是默认模板 `Rejected` 或 `Blocked` 到 `Active`，设置 **[!UICONTROL Default 'Company Status Change to Active 2' Email]** 到那个模板上。 默认情况下， `Company Status Active 2` 使用模板。
+   - 如果您有一个准备好的电子邮件模板，当公司状态从`Rejected`或`Blocked`更改为`Active`时，将使用该模板，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Active 2' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Active 2`模板。
 
-   - 如果您有准备好的电子邮件模板，当公司状态更改为时，将使用该模板，而不是默认模板 `Rejected`，设置 **[!UICONTROL Default 'Company Status Change to Rejected' Email]** 到那个模板上。 默认情况下， `Company Status Rejected` 使用模板。
+   - 如果您的准备好的电子邮件模板将在公司状态更改为`Rejected`时使用，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Rejected' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Rejected`模板。
 
-   - 如果您有准备好的电子邮件模板，当公司状态更改为时，将使用该模板，而不是默认模板 `Blocked`，设置 **[!UICONTROL Default 'Company Status Change to Blocked' Email]** 到那个模板上。 默认情况下， `Company Status Blocked` 使用模板。
+   - 如果您的准备好的电子邮件模板将在公司状态更改为`Blocked`时使用，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Blocked' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Blocked`模板。
 
-   - 如果您有准备好的电子邮件模板，当公司状态更改为时，将使用该模板，而不是默认模板 `Pending Approval`，设置 **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** 到那个模板上。 默认情况下， `Company Status Pending Approval` 使用模板。
+   - 如果您的准备好的电子邮件模板将在公司状态更改为`Pending Approval`时使用，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Pending Approval' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Pending Approval`模板。
 
      ![客户配置 — 公司状态更改](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
-1. 完成 **[!UICONTROL Company Credit Emails]** 部分：
+1. 完成&#x200B;**[!UICONTROL Company Credit Emails]**&#x200B;部分：
 
-   - 设置 **[!UICONTROL Company Credit Change Email Sender]** 到 [商店联系人](../getting-started/store-details.md#store-email-addresses) 指定给公司的信用额度发生更改时，将通知哪些人。 默认情况下，通知将发送至 _销售代表_.
+   - 将&#x200B;**[!UICONTROL Company Credit Change Email Sender]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当分配给公司的信用额度发生更改时，将通知该联系人。 默认情况下，该通知将发送给&#x200B;_销售代表_。
 
-   - 在 **[!UICONTROL Send Company Credit Change Email Copy To]** 字段中，输入接收信用更改通知副本的每个人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**&#x200B;字段中，输入要接收信用更改通知副本的每个人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
 
-   - 要确定通知副本的发送方式，请设置 **[!UICONTROL Send Email Copy Method]** 更改为以下任一项：
+   - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc`  — 发送 _盲文提供_ 在发送给客户的同一电子邮件的标题中包含收件人。 客户看不到密件抄送收件人。
-      - `Separate Email`  — 将副本作为单独的电子邮件发送。
+      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+      - `Separate Email` — 将副本作为单独的电子邮件发送。
 
    - 如果您已准备要使用的电子邮件模板而不是默认模板，请为发送给公司管理员的以下每个通知选择模板。
 
@@ -98,4 +98,4 @@ ht-degree: 0%
 
    ![客户配置 — 公司信用电子邮件](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
-1. 完成后，单击 **[!UICONTROL Save Config]**.
+1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。

@@ -1,6 +1,6 @@
 ---
-title: ’[!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings]’
-description: 查看 [!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings] 商务管理员页面。
+title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Multishipping Settings]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Multishipping Settings]页面上的配置设置。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{config}}
 
-有关为商店配置这些多送货设置的详细信息，请参阅 [多个地址](../../stores-purchase/shipping-settings.md#multiple-addresses).
+有关为商店配置这些多送货设置的详细信息，请参阅[多个地址](../../stores-purchase/shipping-settings.md#multiple-addresses)。
 
 ## [!UICONTROL Options]
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 <!-- [Options](https://docs.magento.com/user-guide/shipping/shipping-multiaddress.html) -->
 
-| 字段 | [范围](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Allow Shipping to Multiple Addresses] | 网站 | 确定是否允许将单个订单发运到多个地址（仅限注册客户）。 选项： `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | 网站 | 设置可发运到多个地址的产品单位数限制。 |
@@ -31,4 +31,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../../assets/b2b.svg) (仅适用于Adobe Commerce B2B)对于具有多个发运地址的订单，应 [分期付款](../../b2b/enable-basic-features.md#configure-payment-on-account) 付款方式即使已启用，在结帐期间也不可用。
+>![Adobe Commerce B2B](../../assets/b2b.svg)(仅适用于Adobe Commerce B2B)对于具有多个配送地址的订单，在结帐期间无法使用[帐户付款](../../b2b/enable-basic-features.md#configure-payment-on-account)付款方式（即使已启用）。

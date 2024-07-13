@@ -16,24 +16,24 @@ ht-degree: 0%
 
 默认情况下，将启用单页签出。 如果您正在实施自定义集成或签出扩展，则可能需要禁用单页签出。
 
-**_要禁用单页签出，请执行以下操作：_**
+**_禁用单页签出：_**
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板上，展开 **[!UICONTROL Sales]** 并选择 **[!UICONTROL Checkout]**.
+1. 在左侧面板上，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Checkout Options]** 部分。
+1. 展开&#x200B;**[!UICONTROL Checkout Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![配置 — 签出选项](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   有关每个配置设置的详细说明，请参阅 [签出选项](../configuration-reference/sales/checkout.md#checkout-options) 在 _配置参考指南_.
+   有关每个配置设置的详细说明，请参阅&#x200B;_配置参考指南_&#x200B;中的[签出选项](../configuration-reference/sales/checkout.md#checkout-options)。
 
-1. 如果设置适用于特定的商店视图， [选择商店视图](../configuration-reference/scope-change.md#set-the-scope) 配置适用的位置。
+1. 如果该设置针对特定的存储视图，[请选择应用该配置的存储视图](../configuration-reference/scope-change.md#set-the-scope)。
 
-   出现提示时，单击 **[!UICONTROL OK]** 以继续。
+   出现提示时，单击&#x200B;**[!UICONTROL OK]**&#x200B;继续。
 
-1. 设置 **[!UICONTROL Enable Onepage Checkout]** 到 `No`.
+1. 将&#x200B;**[!UICONTROL Enable Onepage Checkout]**&#x200B;设置为`No`。
 
-   如有必要，请清除 **[!UICONTROL Use system value]** 复选框以更改此设置。
+   如有必要，请清除&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以更改此设置。
 
-1. 单击 **[!UICONTROL Save Config]**.
+1. 单击&#x200B;**[!UICONTROL Save Config]**。

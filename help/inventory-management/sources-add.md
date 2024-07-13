@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,81 +14,81 @@ ht-degree: 0%
 
 使用自定义来源从多个位置管理库存和订单履行。 为每个位置（如仓库、实体店、配送中心和卸货托运人）创建来源。 按产品分配来源和更新数量
 
-如果编辑默认源，则可以编辑除名称和代码之外的所有配置。 建议单个来源商家添加与其位置匹配的信息。
+如果编辑默认Source，则可以编辑除名称和代码之外的所有配置。 建议单个来源商家添加与其位置匹配的信息。
 
 ## 添加库存来源
 
-1. 在 _管理员_ 侧栏，转到 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**。
 
-1. 单击 **[!UICONTROL Add New Source]**.
+1. 单击&#x200B;**[!UICONTROL Add New Source]**。
 
    ![管理源](assets/inventory-sources.png)
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL General]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL General]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
-   - 要标识库存来源，请输入唯一的 **[!UICONTROL Name]**.
+   - 要标识库存来源，请输入唯一的&#x200B;**[!UICONTROL Name]**。
 
-   - 输入唯一值 **[!UICONTROL Code]**.
+   - 输入唯一的&#x200B;**[!UICONTROL Code]**。
 
      该代码支持大小写字母、数字、破折号和下划线。 该代码是在分配给股票和导出 — 导入数据时使用的唯一ID。
 
-   - 如果此库存来源已准备就绪，请设置 **[!UICONTROL Is Enabled]** 到 `Yes`.
+   - 如果此清单源已准备就绪，请将&#x200B;**[!UICONTROL Is Enabled]**&#x200B;设置为`Yes`。
 
-   - 输入摘要 **[!UICONTROL Description]** 以了解此位置以供快速参考或其他详细信息。
+   - 输入此位置的简短&#x200B;**[!UICONTROL Description]**&#x200B;以快速参考或附加详细信息。
 
-   - 对象 **[!UICONTROL Latitude]** 和 **[!UICONTROL Longitude]**，输入设施位置的全球定位系统(GPS)坐标。
+   - 对于&#x200B;**[!UICONTROL Latitude]**&#x200B;和&#x200B;**[!UICONTROL Longitude]**，请输入协作室位置的全球定位系统(GPS)坐标。
 
-     查找GPS坐标 [Google地图][1]，请在搜索框中输入地址。 右键单击地图上的标记，然后选择 **[!UICONTROL What's here?]**. GPS坐标显示在街道地址下方的详细信息框中。
+     若要查找包含[Google地图][1]的GPS坐标，请在搜索框中输入地址。 右键单击地图上的标记并选择&#x200B;**[!UICONTROL What's here?]**。 GPS坐标显示在街道地址下方的详细信息框中。
 
      ![常规源选项](assets/inventory-source-general.png)
 
-   - 如果此库存来源是提货地点，请设置 **[!UICONTROL Use as Pickup Location]** 到 `Yes`.
+   - 如果此库存来源是提货地点，请将&#x200B;**[!UICONTROL Use as Pickup Location]**&#x200B;设置为`Yes`。
 
-     “默认来源”不能用作店内装货订单的装货地点。
+     默认Source不能用作店内装货订单的装货地点。
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Contact Info]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Contact Info]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
-   - 对象 **[!UICONTROL Contact Name]**，输入所在位置的主要联系人的全名。
+   - 对于&#x200B;**[!UICONTROL Contact Name]**，输入所在位置的主要联系人的全名。
 
-   - 输入 **[!UICONTROL Email]** 用于联系位置的地址。
+   - 输入用于联系位置的&#x200B;**[!UICONTROL Email]**&#x200B;地址。
 
-   - 对象 **[!UICONTROL Phone]**，输入区号和电话号码。
+   - 对于&#x200B;**[!UICONTROL Phone]**，输入区号和电话号码。
 
-   - 对象 **[!UICONTROL Fax]**，输入传真的区号和电话号码（如果可用）。
+   - 对于&#x200B;**[!UICONTROL Fax]**，输入传真的区号和电话号码（如果可用）。
 
      ![联系信息](assets/inventory-source-contact-info.png)
 
-1. 展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Address Data]** 部分并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Address Data]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
-   - 选择 **[!UICONTROL Country]**.
+   - 选择&#x200B;**[!UICONTROL Country]**。
 
-   - 对象 **[!UICONTROL State/Province]**，输入省/市/自治区对应的标准缩写。
+   - 对于&#x200B;**[!UICONTROL State/Province]**，输入省/市/自治区标准缩写。
 
-   - 输入 **[!UICONTROL City]**.
+   - 输入&#x200B;**[!UICONTROL City]**。
 
-   - 输入物理 **[!UICONTROL Street]** 地址。
+   - 输入物理&#x200B;**[!UICONTROL Street]**&#x200B;地址。
 
-   - 对象 **[!UICONTROL Postcode]**，输入邮政编码。
+   - 对于&#x200B;**[!UICONTROL Postcode]**，输入邮政编码。
 
      ![地址数据](assets/inventory-source-address.png)
 
-1. 如果在前一步骤中将来源设置为取车地点，请展开 ![扩展选择器](../assets/icon-display-expand.png) 该 **[!UICONTROL Pickup Location]** 部分，并提供有关位置的描述性信息：
+1. 如果在前一步骤中将源设置为接收位置，请展开&#x200B;**[!UICONTROL Pickup Location]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并提供有关该位置的描述性信息：
 
-   - 输入 **[!UICONTROL Frontend Name]** 取车地点。
+   - 输入取车地点的&#x200B;**[!UICONTROL Frontend Name]**。
 
-   - 输入 **[!UICONTROL Frontend Description]** 取车地点。 使用此文本框显示店内时间、相对于其他地标的位置，或其他有助于客户选择正确取车地点的有用信息。
+   - 输入取车地点的&#x200B;**[!UICONTROL Frontend Description]**。 使用此文本框显示店内时间、相对于其他地标的位置，或其他有助于客户选择正确取车地点的有用信息。
 
      ![取车地点](assets/inventory-pickup-location.png)
 
-   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅 [销售电子邮件](../configuration-reference/sales/sales-emails.md) 在 _配置参考指南_.
+   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅&#x200B;_配置参考指南_&#x200B;中的[销售电子邮件](../configuration-reference/sales/sales-emails.md)。
 
 1. 要保存您所做的工作，请执行以下操作之一：
 
-   - 要保存您的工作并继续编辑，请单击 **[!UICONTROL Save & Continue]**.
+   - 要保存您的工作并继续编辑，请单击&#x200B;**[!UICONTROL Save & Continue]**。
 
-   - 要保存所做的工作并返回到“管理源”页面，请单击向下箭头(![菜单箭头](../assets/icon-menu-down-arrow-red.png))并选择 **[!UICONTROL Save & Close]**.
+   - 若要保存您的工作并返回到“管理源”页面，请单击向下箭头（![菜单箭头](../assets/icon-menu-down-arrow-red.png)），然后选择&#x200B;**[!UICONTROL Save & Close]**。
 
-   - 要保存您对当前源记录所做的工作并输入新源，请选择 **[!UICONTROL Save & New]**.
+   - 若要保存您对当前源记录所做的工作并输入新的源，请选择&#x200B;**[!UICONTROL Save & New]**。
 
 ## 按钮栏
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Back] | 返回到“管理源”页。 |
 | [!UICONTROL Reset] | 将表单中的所有字段恢复为上次保存时的值。 |
-| [!UICONTROL Save & Continue] | 保存所有更改并保持表单处于打开状态以供进一步编辑。 单击向下箭头以获取其他选项：<br/>**[!UICONTROL Save & Close]**— 保存对当前记录所做的更改，关闭表单，然后返回到“管理源”页。<br/>**[!UICONTROL Save & New]**  — 保存更改，关闭当前记录，并打开一个新的空白表单。 |
+| [!UICONTROL Save & Continue] | 保存所有更改并保持表单处于打开状态以供进一步编辑。 单击向下箭头可获取其他选项： <br/>**[!UICONTROL Save & Close]**— 保存对当前记录所做的更改，关闭表单，并返回到“管理源”页。<br/>**[!UICONTROL Save & New]** — 保存更改，关闭当前记录，并打开一个新的空白表单。 |
 
 ## 字段描述
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | **[!UICONTROL Contact Info]** | |
 | [!UICONTROL Contact Name] | 库存来源地点的主要联系人的姓名。 |
 | [!UICONTROL Email] | 主要联系人的电子邮件。 |
-| [!UICONTROL Phone] | 主要联系人的区号和电话号码，使用您喜欢的格式。 例如： `(123) 456-7890` 或 `123-456-7890` |
+| [!UICONTROL Phone] | 主要联系人的区号和电话号码，使用您喜欢的格式。 例如： `(123) 456-7890`或`123-456-7890` |
 | [!UICONTROL Fax] | 主要联系人的区号和传真号。 |
 | **[!UICONTROL Address Data]** | |
 | [!UICONTROL Country] | （必需）库存来源所在的国家/地区。 |

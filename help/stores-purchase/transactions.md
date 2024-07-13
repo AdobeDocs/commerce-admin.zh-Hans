@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 交易
 
-此 _交易_ 页面列出了您的商店和支付系统之间发生的所有支付活动，并可访问更多详细信息。
+_交易_&#x200B;页面列出了您的商店与付款系统之间发生的所有付款活动，并提供了访问更多详细信息的权限。
 
 ## 查看交易记录
 
-在 _管理员_ 侧栏，转到 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**。
 
 ![事务网格](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 交易数据
 
-本节包含有关交易的信息，并提供了中订单页的链接。 **订单ID** 列。
+此部分包含有关交易的信息，并提供指向&#x200B;**订单ID**&#x200B;列中的订单页面的链接。
 
 | 列 | 描述 |
 |--- |--- |
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### 子交易记录
 
-在为创建发票之后，子事务处理会显示在网格中 [订单](orders.md). 此格式允许您跟踪事务历史记录，并遵循事务层次结构。
+创建[订单](orders.md)的发票后，网格中将显示子交易记录。 此格式允许您跟踪事务历史记录，并遵循事务层次结构。
 
 ### [!UICONTROL Transaction Details]
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果事务详细信息不可用或已过时，请单击 **[!UICONTROL Fetch]** 以更新它们。
+>如果事务详细信息不可用或已过期，请单击按钮栏中的&#x200B;**[!UICONTROL Fetch]**&#x200B;以更新它们。
