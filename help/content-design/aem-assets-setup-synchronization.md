@@ -2,7 +2,7 @@
 title: 设置同步服务
 description: “了解如何将您的Adobe Commerce和Experience Manager Assets项目连接到Assets规则引擎服务，以启用这两个系统之间的资源同步。”
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ ht-degree: 0%
 | 所需数据 | Source | 在何处查找它 |
 | ---------- | ------ | ------------- |
 | 来自Magento帐户的API密钥 | Commerce | 提供您正在使用的、暂存或生产环境的Commerce的公共API密钥。 您可以在[Commerce Service Connector设置](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)页面的管理员或[!UICONTROL My Account]页面的[!UICONTROL API Portal]部分中找到生产和暂存环境的API密钥。 |
-| Commerce SaaS项目标识符 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理员 | 这些值标识要连接到的Commerce环境和SaaS数据空间和项目。 值来自[Commerce服务连接器SaaS标识符配置]。(aem-assets-configure-commerce.md#configure-the-commerce-services-connector)。 |
-| AEM `programId`<br>`environmentId` | [AEM Assets创作环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | 打开AEM Sites页面，然后选择&#x200B;**[!UICONTROL Assets]**。  从URL复制项目和环境ID： `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS项目标识符 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理员 | 这些值标识要连接到的Commerce环境和SaaS数据空间和项目。 值来自[Commerce服务连接器SaaS标识符配置](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)。 |
+| AEM `programId`和<br>`environmentId` | [AEM Assets创作环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | 打开AEM Sites页面，然后选择&#x200B;**[!UICONTROL Assets]**。  从URL <br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`复制项目和环境ID |
 | 基本URL | Commerce店面 | Commerce店面的[基本URL](../stores-purchase/store-urls.md)。 |
 | 用于访问API的OAuth凭据 | Commerce管理员 | 您可以在Assets集成的Commerce [配置设置](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)中找到这些凭据。 |
 

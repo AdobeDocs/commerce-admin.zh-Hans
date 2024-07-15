@@ -2,9 +2,9 @@
 title: 适用于Commerce的Experience Manager Assets集成
 description: 了解如何将Experience Manager Assets与您的 [!DNL Commerce] 实例集成，以访问要在您的商店中使用的无数媒体资源。
 feature: CMS, Media, Configuration, Integration
-source-git-commit: fafe8d46931cc00e58d0888639fd8e739a170f8a
+source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Commerce与Adobe Experience Manager (AEM) Assets之间的集成将AEM as a Digit
    - **动态更新** — 使用资产管理系统中的最新更改保持产品图像最新。 这些自动更新可确保Commerce店面始终具有最新的产品信息。
    - **高效的目录管理** — 通过自动清理和刷新资产简化了产品目录的维护。
 
-## 启用集成后会发生什么变化
-
-产品列表 — 新字段[!UICONTROL Remote Media URL]
-
-产品详细信息页面 — 无更改，但显示的资产将来自AEM DAM
-
-
 ## 集成Commerce和Experience Manager Assets
 
 >[!BEGINSHADEBOX]
@@ -51,12 +44,10 @@ Commerce与Adobe Experience Manager (AEM) Assets之间的集成将AEM as a Digit
 
 >[!ENDSHADEBOX]
 
+通过完成以下任务启用Commerce与Experience Manager Assets的集成：
 
-启用Commerce与Experience Manager Assets的集成需要三个步骤：
+1. [配置您的Experience Manager Assets项目以管理Commerce资源](aem-assets-configure-aem.md)
 
-1. [配置您的Experience Manager Assets项目以管理Commerce资源](aem-assets-configure-aem.md)。
-
-1. [安装Experience Manager Assets集成扩展并配置Adobe Commerce](aem-assets-configure-aem.md)
+1. [安装Experience Manager Assets集成扩展并配置Adobe Commerce](aem-assets-configure-commerce.md)
 
 1. [设置同步服务](aem-assets-setup-synchronization.md)
-

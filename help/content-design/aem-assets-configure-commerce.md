@@ -2,7 +2,7 @@
 title: 安装和配置Experience Manager Assets集成
 description: “了解如何安装和配置 [!DNL AEM Assets Integration for Adobe Commerce]”
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
 设置需要以下步骤。
 
 1. 通过在应用程序服务器和管理员中配置Adobe I/O事件，启用Commerce事件框架。
-1. 通过使用Adobe Commerce规则引擎服务API配置连接，在Assets和AEM Assets之间启用数据同步
-1. 在管理员中启用AEM Assets集成
+1. 通过使用Adobe Commerce规则引擎服务API配置连接，在Assets和AEM Assets之间启用数据同步。
+1. 在管理员中启用AEM Assets集成。
 
 ### 启用Commerce事件框架
 
@@ -258,7 +258,7 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
 
    1. 从左侧面板中，单击&#x200B;**[!UICONTROL API]**。
 E
-   1. 选择外部媒体资源(**[!UICONTROL Catalog > Inventory > Products > External Media]**)。
+   1. 选择外部媒体资源&#x200B;**[!UICONTROL Catalog > Inventory > Products > External Media]**。
 
    API资源的![管理员集成配置](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ E
 >[!NOTE]
 >
 >您还可以使用Adobe Commerce API生成身份验证凭据。 有关此过程的详细信息，以及有关Adobe Commerce基于OAuth的身份验证的更多信息，请参阅Adobe Developer文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
-
-
-
-
-
-
-
-
-
-
-
-
