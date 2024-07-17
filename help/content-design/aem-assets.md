@@ -2,9 +2,9 @@
 title: 适用于Commerce的Experience Manager Assets集成
 description: 了解如何将Experience Manager Assets与您的 [!DNL Commerce] 实例集成，以访问要在您的商店中使用的无数媒体资源。
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -50,4 +50,4 @@ Commerce与Adobe Experience Manager (AEM) Assets之间的集成将AEM as a Digit
 
 1. [安装Experience Manager Assets集成扩展并配置Adobe Commerce](aem-assets-configure-commerce.md)
 
-1. [设置同步服务](aem-assets-setup-synchronization.md)
+1. [启用资源同步](aem-assets-setup-synchronization.md)
