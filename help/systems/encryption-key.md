@@ -4,9 +4,9 @@ description: 了解如何自动生成或添加您自己的加密密钥，应定�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
 
 有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[高级内部部署](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)。
 
-## 步骤1：使文件可写
+>[!IMPORTANT]
+>
+>在按照这些说明更改加密密钥之前，请确保以下文件可写： `[your store]/app/etc/env.php`
 
-要更改加密密钥，请确保以下文件可写： `[your store]/app/etc/env.php`
+**要更改加密密钥：**
 
-## 步骤2：更改加密密钥
+下面的说明需要访问终端。
+
+1. 启用[维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)。
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. 禁用cron作业。
+
+   _云基础架构项目：_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _内部部署项目_
+
+   ```bash
+   crontab -e
+   ```
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**。
 
@@ -36,6 +58,40 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
 
 1. 单击&#x200B;**[!UICONTROL Change Encryption Key]**。
 
-1. 将新密钥的记录保存在安全位置。
+   >[!NOTE]
+   >
+   >将新密钥的记录保存在安全位置。 如果文件发生任何问题，则需要解密数据。
 
-   如果文件发生任何问题，则需要解密数据。
+1. 刷新缓存。
+
+   _云基础架构项目：_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _内部部署项目：_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. 启用cron作业。
+
+   _云基础架构项目：_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _内部部署项目：_
+
+   ```bash
+   crontab -e
+   ```
+
+1. 禁用维护模式。
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
