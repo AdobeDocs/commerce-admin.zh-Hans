@@ -3,7 +3,7 @@ title: 存储URL
 description: 了解商店URL以及如何配置基本URL和存储代码。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
    - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。 然后，单击&#x200B;**[!UICONTROL Flush Magento Cache]**。
    - 在服务器上，执行以下命令：
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 您可以使用CLI `setup:config:set`命令更改管理路径。 以下示例使用`--backend-frontname`选项将路径从Commerce根更改为新的管理员路径：
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 要还原到默认的管理URL，请执行以下命令：
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. 要还原到默认管理路径（在`app/etc/env.php`中设置，如方法2中所述），请执行此命令：
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
    - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。 然后，单击&#x200B;**[!UICONTROL Flush Magento Cache]**。
    - 在服务器上，执行以下命令：
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 

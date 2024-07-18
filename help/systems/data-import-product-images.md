@@ -3,7 +3,7 @@ title: 产品图像导入
 description: 了解如何使用每个映像的路径和文件名导入产品映像。
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
 1. 在Commerce服务器上，将图像文件上传到`var/import/images`文件夹或子文件夹，如`var/import/images/product_images`。 这是用于导入产品映像的默认根文件夹。
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
 1. 选择要导入的文件后，输入&#x200B;**[!UICONTROL Images File Directory]**&#x200B;之后的相对路径。
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
 1. 在CSV数据中，按图像类型（`base_image`、`small_image`、`thumbnail_image`或`additional_images`）在正确的列中输入每个图像文件的完整URL。
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
 1. 在远程存储模块中，将图像文件上传到`var/import/images`文件夹或子文件夹，如`var/import/images/product_images`。 这是用于导入产品映像的默认根文件夹。
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
 1. 选择要导入的文件后，输入&#x200B;**[!UICONTROL Images File Directory]**&#x200B;之后的相对路径。
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 
