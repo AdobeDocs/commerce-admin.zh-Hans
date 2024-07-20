@@ -3,9 +3,9 @@ title: 表格费率运费
 description: 了解如何为您的商店设置表费率配送选项。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
    - 使用星号(*)作为通配符，表示任何类别中的所有可能值。
    - _[!UICONTROL Country]_列必须包含每行的[个有效的三字符代码][1]。
    - 按&#x200B;_[!UICONTROL Region/State]_对数据排序，使特定位置位于列表顶部，通配符位置位于底部。 使用此方法会先处理具有绝对值的规则，稍后再处理通配符值。
+   - 不支持邮政编码范围。 使用星号(*)可允许区域/状态中的所有代码，或者为&#x200B;_[!UICONTROL Zip/Postal Code]_列中的特定位置指定单个代码。
    - _[!UICONTROL Weight (and above)]_列中的值最多可以有四位小数（如`2.5075`）。 在数据中使用更多小数位会导致导入失败。
 
    ![重量与目标（澳大利亚）](./assets/table-rates-weight-destination-csv.png){width="500"}
