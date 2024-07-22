@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 如果Real-Time CDP受众未显示在Commerce中，原因可能是：
 
+- 连接无效
 - 在&#x200B;**数据连接**&#x200B;配置页面中选择的身份验证类型不正确
 - 生成的令牌权限不足
 
-以下两部分介绍了如何对这两种情况均进行故障排除。
+以下部分介绍了如何解决这些问题。
+
+### 验证连接
+
+要验证Adobe Experience Platform的凭据和响应，请运行以下命令：
+
+```bash
+bin/magento audiences:config:status
+```
+
+此命令返回连接状态。 添加`-v`标记以提供额外的详细程度：
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+例如：
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### 配置中选择的身份验证类型不正确
 
