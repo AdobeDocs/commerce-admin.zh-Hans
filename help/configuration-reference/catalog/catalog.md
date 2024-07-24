@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]'
 description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]页面上的配置设置。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-目录搜索配置有两个变体：安装[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)时可用的设置以及本机Adobe Commerce可用的设置。 按照安装说明操作。
+您可以使用Adobe Commerce支持的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)或第三方搜索引擎服务配置目录搜索。 按照安装说明操作。
 
 ### Adobe Commerce与[!DNL Live Search]
 
@@ -254,43 +254,40 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### 带有Elasticsearch的Adobe Commerce
+### 第三方搜索引擎
 
-带有Elasticsearch的本机Adobe Commerce包含以下配置设置：
-
-![目录搜索 — Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3、2.4.3-p2、2.4.4及更高版本支持OpenSearch服务。 云基础架构项目上的Adobe Commerce不支持Elasticsearch7.11及更高版本。 内部安装仍支持Elasticsearch。
 
 >[!IMPORTANT]
 >
->由于Elasticsearch7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 由于Elasticsearch7将于2023年8月宣布终止支持，Adobe建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 在版本2.4.4和2.4.3-p2中，所有标记为Elasticsearch的字段也适用于OpenSearch。 当版本2.4.6中引入对Elasticsearch8.x的支持时，创建了新标签以区分Elasticsearch配置和OpenSearch配置。 但是，两者的配置选项是相同的。
+
+![目录搜索配置选项](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | 商店视图 | 目录搜索中允许的最小字符数。 为此选项设置的值必须与Elasticsearch搜索引擎配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`2`，请更新搜索引擎中的值。 |
-| [!UICONTROL Maximum Query Length] | 商店视图 | 目录搜索中允许的最大字符数。 为此选项设置的值必须与Elasticsearch搜索引擎配置中设置的相应范围兼容。 例如，如果在Adobe Commerce中将此值设置为300，则更新搜索引擎中的值。 |
+| [!UICONTROL Minimal Query Length] | 商店视图 | 目录搜索中允许的最小字符数。 此选项的值集必须与OpenSearch或Elasticsearch配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`2`，则还必须更新搜索引擎配置中的值。 默认值： `3` |
+| [!UICONTROL Maximum Query Length] | 商店视图 | 目录搜索中允许的最大字符数。 为该选项设置的值必须与OpenSearch或Elasticsearch配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`300`，则必须更新搜索引擎配置中的值。 默认值： `128` |
 | [!UICONTROL Number of top search results to cache] | 商店视图 | 要缓存以加快响应的常用搜索词和结果的数量。 再次输入值`0`将缓存所有搜索词和结果。 默认值： `100` |
-| [!UICONTROL Enable EAV Indexer] | 全局 | 确定是否要启用或禁用Product EAV索引器。 此功能可提高索引速度并限制索引器不被第三方扩展使用。 此选项仅对Elasticsearch或Elasticsearch5.0及更高版本的搜索引擎显示。 默认选项： `Yes`已启用 |
+| [!UICONTROL Enable EAV Indexer] | 全局 | 确定是否启用或禁用Product EAV索引器。 此功能可提高索引速度并限制索引器不被第三方扩展使用。 默认选项： `Yes`已启用 |
 | [!UICONTROL Autocomplete Limit] | 商店视图 | 搜索自动完成的搜索字段下方显示的最大搜索查询数。 限制此数量可提高搜索性能并减小显示的列表大小。 默认值： `8` |
-| 搜索引擎 | 全局 | 标识处理目录数据请求所需的搜索引擎。 所有Adobe Commerce安装均需要Elasticsearch7.6.x。 选项： `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | 全局 | 指定Elasticsearch服务器的名称。 默认值： `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | 全局 | 指定Elasticsearch使用的服务器端口数。 默认值： `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | 全局 | 分配前缀以标识Elasticsearch索引。 默认值： `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | 全局 | 如果启用，在访问Elasticsearch服务器之前，会使用HTTP身份验证提示输入用户名和密码。 选项： `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定ElasticsearchHTTP身份验证的用户名。 |
-| [!UICONTROL Elasticsearch HTTP Password] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定ElasticsearchHTTP身份验证的密码。 |
-| [!UICONTROL Elasticsearch Server Timeout] | 全局 | 确定服务器超时前的秒数。 默认值： `15` |
-| [!UICONTROL Test Connection] |  | 验证Elasticsearch连接。 |
+| 搜索引擎 | 全局 | 标识处理目录数据请求所需的搜索引擎。 OpenSearch和Elasticsearch的搜索引擎配置选项相同。 选项： `OpenSearch`或`Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | 全局 | 指定OpenSearch或Elasticsearch主机服务器的名称。 |
+| [!UICONTROL OpenSearch Server Port] | 全局 | 指定OpenSearch或Elasticsearch使用的服务器端口数。 默认值： `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | 全局 | 分配前缀以标识OpenSearch或Elasticsearch索引。 默认值： `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | 全局 | 如果启用，在访问OpenSearch或Elasticsearch服务器之前，会使用HTTP身份验证提示输入用户名和密码。 选项： `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或ElasticsearchHTTP身份验证的用户名。 |
+| [!UICONTROL OpenSearch HTTP Password] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或ElasticsearchHTTP身份验证的密码。 |
+| [!UICONTROL OpenSearch Server Timeout] | 全局 | 确定向OpenSearch或Elasticsearch服务器发出的请求在超时之前的秒数。 默认值： `15` |
+| [!UICONTROL Test Connection] |  | 验证OpenSearch或Elasticsearch连接。 |
 | [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
 | [!UICONTROL Search Recommendations Count] | 商店视图 | 指定作为推荐提供的搜索词的数量。 默认情况下，显示的数量不超过5个。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 商店视图 | 当设置为`Yes`时，为建议的搜索推荐找到的产品数显示在括号中。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 商店视图 | 确定是否显示搜索建议以查找常见的拼写错误。 启用后，将针对未返回任何结果且显示在&#x200B;**搜索结果**&#x200B;页面的`Did you mean`部分下的任何请求提供搜索建议。 搜索建议可能会影响搜索的性能。 当设置为`Yes`时，将显示启用搜索Recommendations和相关字段的其他选项。 选项： `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 商店视图 | 确定提供的搜索建议数。 例如： `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 商店视图 | 确定是否显示每个建议的搜索结果数。 根据主题，编号通常显示在建议后的括号中。 选项： `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | 商店视图 | 指定一个值，该值对应于查询中搜索结果应匹配以便返回的术语数。 这可确保为购物者提供最佳结果相关性。 百分比值与数字相关，如果需要，可以向下舍入并用作查询中要匹配的最小术语数。 该值可以是负整数或正整数、负百分比或正百分比、两个值的组合或多个组合。 若要了解详细信息，请参阅Elasticsearch文档中的[minimum_should_match参数](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html)。 |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | 商店视图 | 指定一个值，该值对应于查询中搜索结果应匹配以便返回的术语数。 这可确保为购物者提供最佳结果相关性。 百分比值与数字相关，如果需要，可以向下舍入并用作查询中要匹配的最小术语数。 该值可以是负整数或正整数、负百分比或正百分比、两个值的组合或多个组合。 若要了解详细信息，请参阅OpenSearch文档中的[minimum_should_match参数](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)。 |
 
 ## [!UICONTROL Downloadable Product Options]
 
