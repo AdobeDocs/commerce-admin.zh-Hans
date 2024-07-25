@@ -3,16 +3,16 @@ title: 购物车持久性
 description: 了解永久性购物车如何跟踪未购买的购物车项目并保存信息以供客户下次访问。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # 购物车持久性
 
-持久购物车跟踪购物车中未购买的项目并保存信息。 此过程确保在登录会话过期时购物车的内容保持可访问状态。
+持久购物车在当前设备上保存对客户帐户的引用，确保在登录会话过期时购物车内容仍可访问。
 
 如果客户为&#x200B;_被记住_，则当登录会话过期时，其购物车的内容在当前设备上仍可访问。 会话过期后，可使用持久购物车会话访问客户的购物车。 如果同一客户登录另一台设备或浏览器，并在购物车中添加了一些东西，然后通过活动的永久会话返回该设备，则其购物车将更新为添加过的商品。
 
