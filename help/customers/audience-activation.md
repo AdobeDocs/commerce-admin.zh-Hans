@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新](../assets/new.svg) — 更新了[Real-Time CDP受众功能板](#real-time-cdp-audiences-dashboard)，使其包含对Adobe Commerce实例中的活动受众进行排序、搜索和过滤的功能。
 
 +++
+
+### 2.3.0
+
+[!BADGE 兼容性]{type=Informative tooltip="兼容性"}
+
+_2024年7月29日_
+
+![新](../assets/new.svg) — 添加了命令行语法，因此您可以[测试凭据](#validate-the-connection)以确定是否需要更新凭据以从Adobe Experience Platform提取受众数据。
 
 ### 2.2.0
 
