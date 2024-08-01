@@ -4,14 +4,18 @@ description: 了解如何自动生成或添加您自己的加密密钥，应定�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
+source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # 加密密钥
+
+>[!NOTE]
+>
+>如果您尝试完成这些步骤但遇到问题，请参阅[加密密钥轮换疑难解答： CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102)知识库文章。
 
 Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏感数据。 行业标准[!DNL ChaCha20-Poly1305]算法与256位密钥一起使用，以加密所有需要加密的数据。 这包括信用卡数据和集成（支付和配送模块）密码。 此外，使用强安全哈希算法(SHA-256)来哈希所有不需要解密的数据。
 
