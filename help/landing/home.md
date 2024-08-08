@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 商家文档
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Source是Adobe正式提供并确保与Adobe Commerce过渡的兼容
 | **新主题** — 已将[转移Commerce帐户](../getting-started/commerce-account-transfer.md)主题添加到&#x200B;_入门指南_。 | 新建 | 02/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x文档
-
-对于已签订延长支持合同的Adobe Commerce 2.3客户，[Adobe Commerce 2.3用户指南](https://docs.magento.com/user-guide/v2.3/)在`docs.magento.com`域中仍然可用。
