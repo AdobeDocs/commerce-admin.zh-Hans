@@ -3,10 +3,10 @@ user-guide-title: Adobe Commerce 商户文档
 user-guide-description: 在管理部门工作的 Adobe Commerce 和 Magento Open Source 商户的文档和资源。
 title: Adobe Commerce 商户文档
 feature: Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 38%
+source-wordcount: '69'
+ht-degree: 39%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 38%
 - [存储和购买体验](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [管理系统](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [配置参考指南](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- 适用于Commerce的[服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Commerce服务](services.md)
