@@ -3,9 +3,9 @@ title: 可配置产品
 description: 了解如何创建可配置的产品，以便为购物者提供用于选择的变体。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 - 可配置产品的[库存状态](../inventory-management/sources-stocks.md)是半手动控制的设置。 它与简单产品的库存状态不同，在库存状态，产品库存是产品可用性的直接表示。 对于可配置产品，库存状态是多标准库存状态计算的一部分。
 
 - 可配置的子产品可以是简单或虚拟产品&#x200B;**而无需自定义选项**。 若要使自定义子产品成为虚拟产品，您必须为每个产品的&#x200B;**[!UICONTROL Weight]**&#x200B;设置选择`Тhis item has no weight`。
+
+- 所有子产品同时从所有网站、商店和商店视图的可配置产品&#x200B;**_全局分配_**&#x200B;和取消分配。
 
 - 可配置产品在目录中没有自己的价格。 可配置产品价格派生自其[!UICONTROL In Stock]子产品。
 

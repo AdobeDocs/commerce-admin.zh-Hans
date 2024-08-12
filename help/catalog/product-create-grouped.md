@@ -3,9 +3,9 @@ title: 已分组的产品
 description: 了解如何创建由简单独立产品组成的分组产品，这些产品以组形式呈现。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ ht-degree: 0%
 ## 注意事项
 
 - 分组产品本质上是一组简单的关联产品。
+
+- 同时从所有网站、商店和商店视图的分组产品&#x200B;**_全局_**&#x200B;中分配和取消分配所有子产品。
 
 - 分组的子产品可以是简单、可下载或虚拟产品&#x200B;**[!UICONTROL without custom options]**。
 

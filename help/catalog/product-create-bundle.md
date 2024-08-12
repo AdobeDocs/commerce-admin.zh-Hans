@@ -3,9 +3,9 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ _[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型�
 ## 注意事项
 
 ![复选框](../assets/checkbox.png)客户可以&#x200B;_构建自己的_&#x200B;捆绑包产品。
+
+![复选框](../assets/checkbox.png)所有子产品同时从所有网站、商店和商店视图的捆绑包产品&#x200B;**_全局_**&#x200B;进行分配和取消分配。
 
 ![复选框](../assets/checkbox.png)捆绑包项目可以是简单产品或没有自定义选项的虚拟产品。
 
