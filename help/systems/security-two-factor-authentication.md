@@ -4,7 +4,7 @@ description: 了解双重身份验证支持以确保系统和数据的安全。
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Commerce支持来自多个提供商的2FA方法。 有些客户要求安�
 
    要选择多种方法，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
-1. 完成每个所需2FA方法的设置。
+1. 为每个必需的2FA方法完成[设置](../configuration-reference/security/2fa.md)。
 
    ![安全配置 — 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
