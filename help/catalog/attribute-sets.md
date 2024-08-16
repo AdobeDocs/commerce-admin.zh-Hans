@@ -3,9 +3,9 @@ title: 属性集
 description: 了解如何将属性组织到组中，这些组决定属性在产品记录中的显示位置。
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    - 页面中心列出了当前选择的属性组。
    - 右列列出了当前未分配给属性集的属性选择。
 
-1. 若要向集中添加属性，请将该属性从&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;列表拖到&#x200B;**[!UICONTROL Groups]**&#x200B;列中的相应文件夹中。
+1. 若要向集中添加属性，请将该属性从&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;列表拖到&#x200B;**[!UICONTROL Groups]**&#x200B;列中的相应文件夹中。 要从集中删除属性，请将其拖动到&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;列表。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 创建属性组
 
-1. 在&#x200B;_[!UICONTROL Groups]_列中属性集，单击&#x200B;**[!UICONTROL Add New]**。
+1. 在属性集的&#x200B;_[!UICONTROL Groups]_列中，单击&#x200B;**[!UICONTROL Add New]**。
 
 1. 为新组输入&#x200B;**[!UICONTROL Name]**，然后单击&#x200B;**[!UICONTROL OK]**。
 
@@ -58,6 +58,7 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;拖到新组中。
    - 将属性从任何其他组拖到新组中。
+   - 将不必要的属性拖动到&#x200B;**[!UICONTROL Unassigned Attributes]**。
 
    新组将成为任何基于属性集的产品中的属性部分。
 
