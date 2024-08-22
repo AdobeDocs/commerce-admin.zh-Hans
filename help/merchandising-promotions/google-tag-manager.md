@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: 了解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce网站中与营销活动活动相关的许多标记（代码片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager]可帮助您管理与营销活动活动相关的许多标记（代码片段）。 [!DNL Google Tag Manager]使您能够向网站添加跟踪标记以测量受众，或者个性化、重新定位或执行搜索引擎营销计划。
+[!DNL Google Tag Manager]是一个功能强大的工具，可帮助您高效地管理和部署与营销活动事件相关的各种标记（代码片段）。 [!DNL Google Tag Manager]使您能够向网站添加跟踪标记以测量受众，或者个性化、重新定位或执行搜索引擎营销计划。
 
 [!DNL Google Tag Manager]直接将数据和事件传输到[!DNL Google Analytics]、增强型电子商务和其他第三方分析解决方案，以清楚地了解您的网站、产品和促销活动的执行情况。
 
@@ -137,24 +137,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >每个容器均与一个网站关联，每个帐户只需一个容器。 如果您有多站点Commerce实例，则需要单独的容器。
-
-## 步骤4. 将GTM代码添加到Adobe Commerce应用商店
-
-1. 要复制GTM代码，请转到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**。
-
-   有两个GTM代码段要添加到Commerce网站： `<head>`标记的第一个，以及`<body>`标记的第二个。
-
-1. 在Commerce Admin中，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**，并以编辑模式打开商店视图。
-
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL HTML Head]**并将您从GTM为&#x200B;**[!UICONTROL Scripts and Style Sheets]**字段中的`<head>`标记复制的代码粘贴到字段中。
-
-   ![在HTML标头中插入代码](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. 展开&#x200B;**[!UICONTROL Footer]**&#x200B;并在&#x200B;**[!UICONTROL Miscellaneous HTML]**&#x200B;字段中粘贴`<body>`的GTM代码。
-
-   ![在页脚中插入代码](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. 完成后，单击&#x200B;**[!UICONTROL Save Configuration]**。
 
 ## 字段描述
 

@@ -2,9 +2,9 @@
 title: 页面设置
 description: 了解如何为商店页面的主要部分配置默认值。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
    - **[!UICONTROL Default Meta Keywords]**
 
 1. 根据需要输入任意&#x200B;**[!UICONTROL Scripts and Style Sheets]**。
+
+   >[!NOTE]
+   >
+   >在[!UICONTROL Scripts and Style Sheets]字段中输入的所有JavaScript都必须在内容安全策略(CSP)设置中列入白名单，否则它不会在“结帐”页面上执行。 有关详细信息，请参阅[内容安全策略](https://developer.adobe.com/commerce/php/development/security/content-security-policies)。
+
 
 1. 根据需要启用或禁用[演示存储通知](../getting-started/storefront-branding.md#set-the-store-demo-notice)。
 
@@ -118,6 +123,10 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL Footer]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 对&#x200B;**[!UICONTROL Copyright]**&#x200B;和&#x200B;**[!UICONTROL Miscellaneous HTML]**&#x200B;设置进行任何必要的更改。
+
+   >[!NOTE]
+   >
+   >在[!UICONTROL Miscellaneous HTML]字段中输入的所有JavaScript都必须在内容安全策略(CSP)设置中列入白名单，否则它不会在“结帐”页面上执行。 有关详细信息，请参阅[内容安全策略](https://developer.adobe.com/commerce/php/development/security/content-security-policies)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Configuration]**。
 
