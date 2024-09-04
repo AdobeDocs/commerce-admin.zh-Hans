@@ -3,9 +3,9 @@ title: 创建购物车价格规则
 description: 了解如何根据购物车或产品属性创建购物车价格规则。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >具有相同优先级的购物车价格规则不会产生合并折扣。 每个规则逐个应用于匹配产品。
+   >具有相同优先级的购物车价格规则不会产生合并折扣。 根据数据库中的购物车价格规则ID，每个规则（优惠券）逐个应用于匹配产品。 为了控制应用折扣的顺序，Adobe建议为每个添加的购物车价格规则设置不同的优先级。
 
 1. 若要将规则应用于已发布的[RSS源](social-rss.md#rss-feeds)，请将RSS源&#x200B;**中的**&#x200B;公共设置为`Yes`。
 

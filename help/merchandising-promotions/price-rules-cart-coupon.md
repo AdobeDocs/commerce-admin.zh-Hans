@@ -3,9 +3,9 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 优惠券代码可以通过电子邮件发送，或包含在新闻稿、目录和广告中。 优惠券代码的列表可以导出并发送到商业打印机。 你还可以使用快速响应代码创建店内优惠券，购物者可以用智能手机扫描这些优惠券。 二维码可链接到您网站上的一个页面，其中包含有关促销活动的更多信息。
 
 从Commerce 2.4.7开始，购物者可以向购物车应用多个优惠券。 商家还可以使用购物辅助申请多张优惠券。
+
+>[!NOTE]
+>
+>具有相同优先级的购物车价格规则不会产生合并折扣。 根据数据库中的购物车价格规则ID，每个规则（优惠券）逐个应用于匹配产品。 为了控制应用折扣的顺序，Adobe建议为每个添加的购物车价格规则设置不同的优先级。
 
 ## 配置优惠券代码
 
