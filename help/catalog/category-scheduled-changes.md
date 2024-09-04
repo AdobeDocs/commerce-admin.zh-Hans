@@ -3,9 +3,9 @@ title: 类别的计划更改
 description: 了解如何计划类别更改以支持营销活动和商店促销。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ ht-degree: 0%
 1. 对计划更新进行必要的更改。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
+
+   >[!NOTE]
+   >
+   >如果营销活动链接到多个类别，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。

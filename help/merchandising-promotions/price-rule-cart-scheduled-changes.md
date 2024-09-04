@@ -3,9 +3,9 @@ title: 购物车价格规则的计划更改
 description: 了解如何在营销活动中按计划应用购物车价格规则，并将其与其他内容更改分组。
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 >所有计划的更新将连续应用。 这意味着任何实体都只能在一个时间点进行一次计划更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，实体无法同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
 
 如果同一促销活动中运行了多个价格规则，则价格规则的&#x200B;_[!UICONTROL Priority]_设置将确定哪条规则优先。 若要了解详细信息，请参阅[内容暂存](../content-design/content-staging.md)。
+
+>[!NOTE]
+>
+>如果某个营销活动链接到多个购物车价格规则，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑该营销活动。
 
 请牢记以下注意事项：
 

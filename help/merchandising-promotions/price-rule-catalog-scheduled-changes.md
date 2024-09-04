@@ -3,9 +3,9 @@ title: 目录价格规则的计划更改
 description: 了解如何按计划应用目录价格规则作为营销活动的一部分并按照其他内容更改进行分组。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 0%
 1. 在页面顶部的&#x200B;**[!UICONTROL Scheduled Changes]**&#x200B;框中，单击&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 对计划更新进行任何必要的更改。
+
+   >[!NOTE]
+   >
+   >如果营销活动链接到多个目录价格规则，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 

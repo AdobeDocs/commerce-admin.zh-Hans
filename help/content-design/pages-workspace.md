@@ -3,9 +3,9 @@ title: 页面工作区控件
 description: 了解用于查找和更新内容页面的工作区工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ _[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定
 {{ee-feature}}
 
 页面更改可以按计划应用，并与其他内容更改一起分组。 您可以基于对页面的计划更改创建营销活动，或将更改应用于现有营销活动。 有关详细信息，请参阅[内容暂存](content-staging.md)。
+
+>[!NOTE]
+>
+>如果营销活动链接到多个页面，则只能从[内容暂存仪表板](content-staging-dashboard.md)编辑营销活动。
 
 >[!NOTE]
 >
