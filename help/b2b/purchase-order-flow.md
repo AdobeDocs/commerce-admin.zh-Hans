@@ -3,9 +3,9 @@ title: 公司的采购订单
 description: 了解允许公司跟踪和控制支出的采购订单工作流。
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
   >默认情况下，即使未设置审批规则，也始终向公司用户显示`Purchase order has been submitted for approval`消息。 当不需要审批流程时，公司用户会自动收到一封电子邮件，通知他们订单已创建和批准。
 
 - 如果批准规则由公司管理员定义，则用户将执行批准流程。
+- 如果采购订单应用了多个审批规则，则必须由所有唯一的必需审批人审批。
 - 在创建采购订单时输入脱机付款详细信息。
 - 联机付款详细信息在采购订单获得批准后输入。
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 - 任何超过$1000的订单都需要经理和公司管理员的批准。
 - 任何具有30个以上唯一SKU的订单都需要公司管理员的批准。
 
-为公司制定这些规则后，公司用户可以在订单金额少于$100时立即完成订单。 要了解审批规则定义，请参阅[审批规则](account-dashboard-approval-rules.md)
+为公司制定这些规则后，公司用户可以在订单金额少于$100时立即完成订单。 要了解审批规则定义，请参阅[审批规则](account-dashboard-approval-rules.md)。
 
 ### 商店用户的类型
 
