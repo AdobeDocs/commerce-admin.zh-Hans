@@ -3,9 +3,9 @@ title: 安装和配置Experience Manager Assets集成
 description: 了解如何在Adobe Commerce实例上安装和配置 [!DNL AEM Assets Integration for Adobe Commerce] 。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: c9dd925faf8396251a79b8326b11187ede61d2a7
+source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -144,13 +144,13 @@ Commerce服务连接器支持在Commerce实例、资产规则引擎服务和其�
 
 要在您的Adobe Commerce实例与支持AEM Assets集成的服务之间传输数据，请使用以下内容配置Commerce服务连接器：
 
-- 使用用于身份验证的生产和沙盒API密钥配置Commerce实例。
-- 指定用于安全云存储的数据空间（SaaS标识符）。
-- 登录用于访问AEM Assets的同一IMS组织，以建立数据集与Adobe Experience Platform之间的连接。
+- 用于身份验证的生产和沙盒API密钥。
+- 设置用于安全云存储的数据空间（SaaS标识符）。
+- 提供用于配置Commerce和AEM Assets环境的IMS组织ID。
 
 有关详细说明，请参阅[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid)。
 
-配置Commerce服务连接器时，系统会生成SaaS项目和数据库ID。 在租户新用户引导过程中，您需要这些ID。
+配置Commerce服务连接器后，系统会生成SaaS项目和数据库ID，以标识Commerce服务的安全云存储环境，并在管理员配置中显示ID。 需要这些值才能完成资产同步的新用户引导流程。
 
 用于AEM Assets集成的![SaaS项目和数据空间ID](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -165,8 +165,11 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
 - 确保已启用RabbitMQ并监听事件。
    - [本地Adobe Commerce的RabbitMQ设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - 云基础架构上Adobe Commerce的[RabbitMQ设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - 验证是否已启用[cron作业](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 AEM Assets集成的通信和工作流需要Cron作业。
 
-- 对于Commerce版本2.4.5上的项目，您必须[安装Adobe I/O模块](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)。 在Commerce版本2.4.6+中，这些模块会自动加载。
+>[!NOTE]
+>
+> 对于Commerce版本2.4.5上的项目，您必须[安装Adobe I/O模块](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)。 在Commerce版本2.4.6+中，这些模块会自动加载。 对于Commerce的AEM Assets集成，您只需要安装模块。 不需要App Builder设置。
 
 >[!ENDSHADEBOX]
 
@@ -182,9 +185,7 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
 
    ![Adobe I/O事件Commerce管理员配置 — 启用Commerce事件](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   >[!NOTE]
-   >
-   >验证是否已启用[cron作业](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 Commerce需要Cron作业才能管理AEM Assets与Commerce之间的通信和工作流。
+1. 在&#x200B;**[!UICONTROL Merchant ID]**&#x200B;字段中输入商家公司名称，在&#x200B;**[!UICONTROL Environment ID]**&#x200B;字段中输入环境名称。 设置这些值时只能使用字母数字字符和下划线。
 
 ## 获取API访问的身份验证凭据
 
@@ -233,4 +234,3 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
 >[!NOTE]
 >
 >您还可以使用Adobe Commerce API生成身份验证凭据。 有关此过程的详细信息，以及有关Adobe Commerce基于OAuth的身份验证的更多信息，请参阅Adobe Developer文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
-
