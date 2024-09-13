@@ -3,9 +3,9 @@ title: 联合包裹服务(UPS)
 description: 了解如何将UPS设置为您商店的配送运营商。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Mode]**&#x200B;设置为`Live`以通过安全连接将数据发送到UPS配送系统。 （开发模式不会通过安全连接发送数据。）
 
-   - 验证发送请求所需的&#x200B;**[!UICONTROL Gateway URL]**。 将沙盒URL用于测试模式，将生产URL用于实时请求。
+   - 验证发送请求所需的&#x200B;**[!UICONTROL Gateway URL]**。 将沙盒URL (`https://wwwcie.ups.com/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com`)。 请确保对给定主机中的每个请求都使用各自的端点。
 
-   - 验证获取跟踪信息所需的&#x200B;**[!UICONTROL Tracking URL]**。 将沙盒URL用于测试模式，将生产URL用于实时请求。
+   - 验证获取跟踪信息所需的&#x200B;**[!UICONTROL Tracking URL]**。 将沙盒URL (`https://wwwcie.ups.com/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com`)。 请确保对给定主机中的每个请求都使用各自的端点。
 
    - 将&#x200B;**[!UICONTROL Origin of the Shipment]**&#x200B;设置为装运来源区域。
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Live Account]**&#x200B;设置为以下项之一：
 
-      - `Yes` — 在生产模式下运行UPS，并将UPS作为配送方式提供给您的客户。
-      - `No` — 在测试模式下运行UPS。
+      - `Yes` — 在生产模式下运行UPS，并将UPS作为配送方式提供给您的客户。 请确保在网关URL和跟踪URL下使用正确的端点。
+      - `No` — 在测试模式下运行UPS。 请确保在网关URL和跟踪URL下使用正确的端点。
 
    >[!NOTE]
    >

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]页面上的配置设置。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | 商店视图 | 指定United Parcel Service帐户处于活动状态。 选项： `Yes` / `No` |
 | [!UICONTROL Title] | 商店视图 | 结帐期间用于此配送方法的名称。 |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | 网站 | 对于UPS REST服务，显示传输JSON数据所需的以下URL：网关URL、跟踪URL、传送URL |
+| [!UICONTROL Gateway URL] | 网站 | 对于UPS REST服务，显示传输JSON数据所需的以下URL：网关URL、跟踪URL、传送URL。 根据Live帐户设置使用沙盒或生产端点。 |
 | [!UICONTROL Mode] | 网站 | 确定用于发送到UPS系统的数据的传输模式。 选项： <br/>**`Development`**- UPS不验证从Commerce服务器接收的数据是否通过SSL发送。<br/>**`Live`** - UPS验证从Commerce服务器接收的数据是否通过安全套接字层(SSL)发送。 |
 | 用户标识 | 网站 | 您的UPS托运人帐户客户端ID。 |
 | [!UICONTROL Origin of the Shipment] | 网站 | （仅限UPS REST）产品发运所在的国家或地区。 |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | 网站 | （仅限UPS REST）使用议定费率需要六个字符的UPS发货人编号。 |
 | [!UICONTROL Container] | 网站 | 设置用于包装装运的集装箱类型。 选项： `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | 网站 | 设置商店中产品重量的默认度量单位。 请参阅[维度权重](../../stores-purchase/carriers.md#dimensional-weight)以获取更多信息。 |
-| [!UICONTROL Tracking URL] | 网站 | （仅限UPS REST）用于跟踪包的UPS URL。 |
+| [!UICONTROL Tracking URL] | 网站 | （仅限UPS REST）用于跟踪包的UPS URL。 将`https://onlinetools.ups.com/api/track`用于生产，或将`https://wwwcie.ups.com/api/track`用于沙盒设置。 |
 | [!UICONTROL Destination Type] | 网站 | 设置默认发运目的地类型。 选项： `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | 网站 | 设置包可以由UPS指定的最大重量。 如果订购的产品超出最大包装重量，则此选项不可用。 根据[UPS.com](https://www.ups.com/us/en/global.page)，包装不能超过150磅（70千克）。请与您的运输承运人确认最大重量。 |
 | [!UICONTROL Pickup Method] | 网站 | 设置UPS拾取方法。 选项： `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
