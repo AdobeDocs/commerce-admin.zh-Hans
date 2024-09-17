@@ -3,9 +3,9 @@ title: 创建目录价格规则
 description: 了解如何创建目录价格规则，该规则可在满足一组条件时将折扣应用于特定产品。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >当同一目录产品满足为多个价格规则设置的条件时，_[!UICONTROL Priority]_设置很重要。 具有最高优先级设置（1表示最高）的规则将对产品变为活动状态。
+   >当同一目录产品满足为多个价格规则设置的条件时，_[!UICONTROL Priority]_设置很重要。 具有最高优先级设置（优先级从最高到最低依次为0、1、2、3...）的规则将对该产品激活。
 
 ## 第2步：定义条件
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 | [!UICONTROL Description] | 规则的描述应包括规则的用途并解释其使用方式。 |
 | [!UICONTROL Websites] | （必需）标识可以使用规则的网站。 |
 | [!UICONTROL Customer Groups] | （必需）标识应用规则的客户组。 |
-| [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 最高优先级是数字1。 |
+| [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)确定存储中的规则是否处于活动状态。 选项： `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)指定价格规则生效的第一天。 如果留空，价格规则将在保存后生效。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)指定价格规则生效的最后一天。 如果留空，价格规则将无限期地继续。 |

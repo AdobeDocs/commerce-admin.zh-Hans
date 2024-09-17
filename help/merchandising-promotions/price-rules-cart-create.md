@@ -3,9 +3,9 @@ title: 创建购物车价格规则
 description: 了解如何根据购物车或产品属性创建购物车价格规则。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >当两个购物车规则/优惠券代码同时对同一产品有效时，优先级设置很重要。 具有最高优先级设置（`1`是最高优先级设置）的规则控制购物车操作。 请参阅&#x200B;_定义操作_&#x200B;步骤中的&#x200B;_放弃后续价格规则_。
+   >当两个购物车规则或优惠券代码同时对同一产品有效时，_[!UICONTROL Priority]_设置很重要。 控制购物车操作且具有最高[!UICONTROL Priority]设置的规则。  从最高到最低的优先级为`0,1,2,3...`。 请参阅_[&#x200B;定义操作&#x200B;](#step-3-define-the-actions)_步骤中的_&#x200B;放弃后续价格规则&#x200B;_。
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ ht-degree: 0%
 | [!UICONTROL Coupon] | （必需）指示优惠券是否与规则关联。 选项： <br/>**[!UICONTROL No Coupon]**— 没有与规则关联的优惠券。<br/>**[!UICONTROL Specific Coupon]** — 特定优惠券与规则关联。 <br/>**[!UICONTROL Coupon Code]**— 出现提示时，输入客户必须输入才能利用促销的优惠券代码。<br/>**[!UICONTROL Use Auto Generation]** — 选中此复选框可自动生成多个可用于促销的优惠券代码。 <br/>**[!UICONTROL Auto]**— 显示&#x200B;_[!UICONTROL Manage Coupon Codes]_部分以定义要生成的优惠券代码的格式。 |
 | [!UICONTROL Uses per Coupon] | 确定优惠券代码的使用次数。 如果没有限制，请将该字段留空。 |
 | [!UICONTROL Uses per Customer] | 确定属于任何选定客户组的同一注册客户可以使用购物车价格规则的次数。 不适用于属于NOT LOGGED IN客户组的访客购物者，或者不适用于未登录到其帐户进行购买的客户。 对于无限制，请留空。 |
-| [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 最高优先级是数字`1`。 |
+| [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | 确定促销活动是否包含在商店的公共RSS信息源中。 选项：  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)可以使用优惠券的第一个日期。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)可使用优惠券的最后日期。 |
