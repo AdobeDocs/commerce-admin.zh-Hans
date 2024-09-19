@@ -3,9 +3,9 @@ title: 许可Adobe Stock图像
 description: 要确保您具有合法访问权限并消除Adobe Stock水印，请许可您的Adobe Stock图像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 新[[!DNL Media Gallery]](media-gallery.md)提供了与Adobe Stock的直接集成，从而能够轻松地直接从图片库页面许可您的图像。
 
-## 先决条件
+>[!BEGINSHADEBOX]
 
-此功能需要[Adobe Stock集成][adobe-stock-integration]模块和配置。 许可[Adobe Stock][adobe-stock]图像需要付费Adobe Stock计划和[Adobe帐户][adobe-signin]。
+**先决条件**
+
+Adobe Stock授权功能仅在安装和配置[Adobe Stock集成][adobe-stock-integration]时可用。 许可[Adobe Stock][adobe-stock]图像需要付费Adobe Stock计划和[Adobe帐户][adobe-signin]。
+
+>[!ENDSHADEBOX]
 
 ## 从新[!DNL Media Gallery]许可图像
 
