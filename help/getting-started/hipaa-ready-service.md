@@ -1,21 +1,21 @@
 ---
-title: Adobe Commerce上的HIPAA就绪状态
+title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: bce0e581e89139875e09b671038a21976eccebca
+source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1599'
 ht-degree: 1%
 
 ---
 
-# Adobe Commerce上的HIPAA就绪状态
+# Adobe Commerce上的HIPAA准备工作
 
 >[!IMPORTANT]
 >
 >**法律免责声明**<br/>
->这些信息旨在帮助Adobe客户回答其有关AdobeHIPAA就绪服务的问题。 不构成法律意见。 商家应咨询自己的法律顾问，了解其在HIPAA下的义务以及对Adobe产品的适当使用和配置。
+>此信息旨在帮助Adobe客户回答他们有关AdobeHIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
 
@@ -33,9 +33,9 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 >[!NOTE]
 >
->只有为Adobe Commerce购买了Health Care插件的商家才能访问为HIPAA就绪的特性和功能。
+>仅已购买Adobe Commerce的医疗保健附加组件的商家方可访问符合HIPAA要求的特性和功能。
 
-*这些材料仅供参考。 提供这些信息并不赋予接收者任何合同权利或其他权利。 虽然已努力确保资料在提供之日准确无误，但没有表示资料准确完整。 随着法律或Adobe产品的变化，Adobe不承担更新此信息的义务。 此外，未经Adobe书面同意，不得将此文档分发给目标收件人以外的任何一方。*
+*这些资料仅供参考。 提供此信息并不赋予收件人任何合同权利或其他权利。 虽然已努力确保资料在提供之日准确无误，但没有表示资料准确完整。 随着法律或Adobe产品的变化，Adobe不承担更新此信息的义务。 此外，未经Adobe书面同意，不得将此文档分发给目标收件人以外的任何一方。*
 
 ## 系统要求
 
@@ -58,21 +58,21 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅&#x200B;_Cloud Infrastructure上的Adobe Commerce用户指南_&#x200B;中的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
 
-1. 签出环境分支，以使用Adobe Commerce Cloud CLI进行更新。
+1. 使用Adobe Commerce Cloud CLI签出要更新的环境分支。
 
    ```shell
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. 使用composer CLI将metapackage `magento/hipaa-ee`添加到composer配置。
+1. 使用编辑器CLI将中继包`magento/hipaa-ee`添加到编辑器配置中。
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
    ```
 
-1. 更新包依赖项。
+1. 更新包依赖关系。
 
    ```shell
    composer update "magento/hipaa-ee"
@@ -86,7 +86,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
    git push origin <branch-name>
    ```
 
-   推送更新将启动[Commerce云部署进程](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
+   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
 
 ### 验证安装
 
@@ -129,37 +129,37 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ### 操作日志
 
-审核日志记录是HIPAA要求。 在Adobe Commerce中，[操作日志](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)功能记录了在您的商店中工作的管理员用户所做的所有更改。 为满足HIPAA对审核日志的要求，已更新该功能，以记录通过管理员UI和API调用执行的所有管理员用户和客户操作。
+审核日志记录是HIPAA要求。 在Adobe Commerce中，[操作日志](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en)功能会记录您的商店中工作的管理员用户所做的每项更改。 为了满足审核日志的HIPAA要求，已更新该功能，以记录通过管理员UI和API调用执行的所有管理员用户和客户操作。
 
 #### 操作日志报告
 
-已修改&#x200B;_操作日志_&#x200B;报告网格（**[!UICONTROL System]** >操作日志>报告），以适应通过管理UI和API执行的客户操作。
+已修改&#x200B;_操作日志_&#x200B;报表网格（**[!UICONTROL System]** >操作日志>报表），以适应客户通过管理员UI和API执行的操作。
 
 1. 添加了两列：
-   - ***源***：显示执行操作的位置。
+   - ***Source***：显示执行操作的位置。
 值： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***客户端类型***：显示客户端类型。
 值：客户 | 管理员 | 集成
 
 2. 已将&#x200B;***用户名***&#x200B;列重命名为&#x200B;***客户端标识符***
-   - ***客户端标识符***：显示执行该操作的用户的登录ID。
+   - ***客户端标识符***：显示执行操作的用户的登录ID。
 值：
       - 如果Client Type为Customer，则发送电子邮件
-      - 客户端类型为Admin时的用户名
-      - 如果客户端类型为“集成”，则为名称
+      - 如果Client Type为Admin，则为用户名
+      - 如果客户端类型为集成，则为名称
 
 3. 已将&#x200B;***完整操作名称***&#x200B;列重命名为&#x200B;***目标***
    - ***目标***：显示操作名称。
 值：
-      - 如果源是REST API或SOAP API，则为端点
-      - 查询或变异名称(如果GraphQL API)
-      - 管理员UI或客户UI中的操作名称。
+      - 如果Source是REST API或SOAP API，则为端点
+      - 查询名或突变名(如果是GraphQL API)
+      - 操作名称，如果是Admin UI或客户UI。
 
-#### 配置用于日志记录的管理员操作
+#### 配置用于日志记录的管理操作
 
 此功能不可用，因为默认情况下必须记录所有操作。
 
-### 导入和导出功能
+### 导入和导出特征
 
 对导入和导出功能的增强侧重于改进管理体验以及更好地显示用户操作。
 
@@ -169,17 +169,17 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 #### 管理操作日志记录
 
-导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了深入探索与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在&#x200B;**[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**网格中：
+导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了更深入探究与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在&#x200B;**[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**网格中：
 
 | 类型 | 操作 |
 | ---- | ------- |
 | 导入 | <ul><li>管理员用户执行导入<li>管理员用户下载导入的文件<li>管理员用户下载错误文件<ul/> |
 | 导出 | <ul><li>管理员用户请求<li>管理员用户下载导出的文件<ul/> |
-| 计划的导入/导出 | <ul><li>管理员用户计划导出<li>管理员用户编辑计划导出<li>管理员用户运行计划的导出<li>管理员用户删除计划的导出<li>管理员用户计划导入<li>管理员用户编辑计划导入<li>管理员用户运行计划的导入<li>管理员用户删除计划的导入<li>管理员用户执行导入/导出操作的批量删除<ul/> |
+| 计划的导入/导出 | <ul><li>管理员用户计划导出<li>管理员用户编辑计划导出<li>管理员用户运行计划的导出<li>管理员用户删除计划的导出<li>管理员用户计划导入<li>管理员用户编辑计划导入<li>管理员用户运行计划导入<li>管理员用户删除计划的导入<li>管理员用户执行导入/导出操作的批量删除<ul/> |
 
-### 显示增强和改进的过滤和排序
+### 显示增强功能以及改进的过滤和排序
 
-为了给管理员用户提供更多信息网格，HIPAA就绪服务提供了几种显示、筛选和排序数据的增强功能。
+为了让管理员用户拥有更多信息网格，HIPAA就绪服务提供了几项增强功能，用于显示、过滤和排序数据。
 
 #### 导入历史记录([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
@@ -198,9 +198,9 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 #### 计划的导入和导出([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- 已添加&#x200B;**[!UICONTROL ID]**&#x200B;列。
-- 添加了一个&#x200B;**[!UICONTROL Scheduled At]**&#x200B;列（_计划导入或导出的日期和时间_）。
-- 添加了一个&#x200B;**[!UICONTROL User]**&#x200B;列（计划导入或导出的管理员用户的&#x200B;_用户名_）。
+- 添加了&#x200B;**[!UICONTROL ID]**&#x200B;列。
+- 添加了&#x200B;**[!UICONTROL Scheduled At]**&#x200B;列（计划导入或导出的&#x200B;_日期和时间_）。
+- 添加了&#x200B;**[!UICONTROL User]**&#x200B;列（计划导入或导出的管理员用户的&#x200B;_用户名_）。
 
 ## 禁用的服务和功能
 
@@ -208,20 +208,20 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 ### 服务
 
-- **Adobe Commerce服务** — 在HIPAA就绪性产品中，任何Adobe Commerce服务或可扩展性服务都不可用。 这些服务包括但不限于：
+- **Adobe Commerce服务**—Adobe Commerce服务或可扩展性服务均不提供HIPAA就绪服务。 这些服务包括但不限于：
 
    - 实时搜索
    - API网格
    - App Builder
 
-- **[SendGrid服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — 此服务默认处于禁用状态，因为该应用程序不符合HIPAA。
+- 默认情况下已禁用&#x200B;**事务性电子邮件**—[SendGrid](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)，因为该服务不符合HIPAA要求。 Adobe Commerce提供了一个集成选项，您可以将其用于您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帐户。 有关配置详细信息，请联系您的客户技术客户经理或Adobe Commerce支持。
 
-### 默认情况下禁用的功能
+### 默认禁用的功能
 
-在HIPAA就绪模块中，以下功能默认处于禁用状态。 商家可以自行承担启用这些功能的任何风险。
+默认情况下，HIPAA就绪模块中禁用以下功能。 商家可以自行承担启用上述任何功能的风险。
 
-- **[来宾结帐](../stores-purchase/checkout-guest.md)** — 此功能会对HIPAA的各个方面造成潜在风险，包括记录、访问控制、PHI卫生和血统，以及潜在的其他方面。
+- **[访客签出](../stores-purchase/checkout-guest.md)** — 此功能对HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和谱系等等。
 
 - **[新闻稿功能](../merchandising-promotions/newsletters.md)** — 此功能已禁用，以防止在营销上下文中使用PHI。
 
-- **[高级报告服务设置](../getting-started/business-intelligence.md)** — 此配置设置被禁用，以防止使用PHI进行分析和报告。
+- **[高级报告服务设置](../getting-started/business-intelligence.md)** — 此配置设置已禁用，以防止将PHI用于分析和报告。
