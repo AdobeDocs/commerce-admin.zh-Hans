@@ -3,10 +3,10 @@ user-guide-title: 内容和设计指南
 user-guide-description: 面向Adobe Commerce和Magento Open Source管理员以及电子商务营销人员的有关内容和设计功能的全面信息。
 breadcrumb-title: 内容和设计
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '238'
+ht-degree: 4%
 
 ---
 
@@ -51,25 +51,17 @@ ht-degree: 3%
       - [新产品列表构件](widget-new-products-list.md)
       - [订单和退货小组件](widget-orders-returns.md)
       - [目录事件轮播小组件](widget-event-carousel.md)
-- 所见即所得编辑器{#wysiwyg}
+- WYSIWYG编辑器{#wysiwyg}
    - [概述](editor.md)
    - [插入链接](editor-insert-link.md)
    - [插入图像](editor-insert-image.md)
    - [插入构件](editor-widget.md)
    - [插入变量](editor-insert-variable.md)
-- 媒体{#media}
    - 媒体存储{#storage}
       - [概述](media-storage.md)
       - [使用媒体数据库](media-storage-database.md)
       - [使用内容交付网络](media-storage-content-delivery-network.md)
       - [Dynamic media URL](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Assets集成](aem-assets.md)
-      - 载入{#onboarding}
-         - [配置AEM Assets](aem-assets-configure-aem.md)
-         - [配置Adobe Commerce](aem-assets-configure-commerce.md)
-         - [启用资源同步](aem-assets-setup-synchronization.md)
-      - [使用AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock集成](adobe-stock.md)
       - [使用Adobe Stock图像](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 3%
       - [资产管理](media-gallery-asset-management.md)
       - [文件夹管理](media-gallery-folder-management.md)
       - [图像优化](media-gallery-image-optimization.md)
+- 高级资产管理{#aem-assets}
+   - [适用于Commerce的AEM Assets集成](aem-assets.md)
+   - 设置集成{#onboarding}
+      - [概述](aem-assets-setup.md)
+      - [配置AEM Assets](aem-assets-configure-aem.md)
+      - [配置Adobe Commerce](aem-assets-configure-commerce.md)
+      - [启用资源同步](aem-assets-setup-synchronization.md)
+   - [使用AEM Assets](aem-assets-manage.md)
+- 媒体{#media}
 - 内容暂存{#staging}
    - [概述](content-staging.md)
    - [计划更新](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 3%
    - [添加营销活动项目](content-staging-add-item.md)
    - [预览营销活动](content-staging-preview.md)
 - [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-

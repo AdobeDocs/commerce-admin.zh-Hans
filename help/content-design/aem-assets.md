@@ -2,18 +2,19 @@
 title: 适用于Commerce的Experience Manager Assets集成
 description: 了解如何将Experience Manager Assets与您的 [!DNL Commerce] 实例集成，以访问要在您的商店中使用的无数媒体资源。
 feature: CMS, Media, Configuration, Integration
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
+source-git-commit: 98181692df99ab4beaa232f1662a29b16a053210
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# 适用于Commerce的Experience Manager Assets集成
+# Commerce高级资产管理
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Commerce与Adobe Experience Manager (AEM) Assets之间的集成将AEM as a Digital Asset Management (DAM)系统的强大功能与Adobe Commerce整合在一起，以增强电子商务体验。 此集成利用AEM强大的资产管理功能，提供无缝、可扩展且高效的方式来跨商业商店管理和交付资产。
+Commerce的高级资产管理将AEM as a Digital Asset Management (DAM)系统的强大功能与Adobe Commerce相结合，可增强电子商务体验。 要提供这些功能，需要将Commerce项目连接到AEM强大的资产管理环境，以便提供一种无缝、可扩展且高效的方式来跨商业商店管理和交付资产。
 
 **主要功能**
 
@@ -28,26 +29,7 @@ Commerce与Adobe Experience Manager (AEM) Assets之间的集成将AEM as a Digit
 - **自动资源匹配** — 该集成包括规则引擎服务，该服务基于SKU或其他关键属性自动将AEM中的资源与Adobe Commerce中的产品匹配。 该服务可确保最新的产品资产和变体始终在电子商务商店中可用。 它还减少了管理资产所需的手动工作，为更具战略意义的活动腾出了时间。
 
 - **简化的流程**
+
    - **从Commerce启用并配置集成** — 管理员和开发人员可以使用熟悉的工具和流程从Adobe Commerce安装和配置集成。
    - **动态更新** — 使用资产管理系统中的最新更改保持产品图像最新。 这些自动更新可确保Commerce店面始终具有最新的产品信息。
    - **高效的目录管理** — 通过自动清理和刷新资产简化了产品目录的维护。
-
-## 集成Commerce和Experience Manager Assets
-
->[!BEGINSHADEBOX]
-
-**先决条件**
-
-- 必须将Adobe Commerce配置为具有分配的组织ID的[Commerce管理员与Adobe ID](/help/getting-started/adobe-ims-config.md)的集成。
-- 必须将Experience Manager Assets作为产品分配给相同的组织ID。
-- 配置集成的用户必须在同一组织中拥有一个帐户，该帐户具有访问Adobe Commerce和Experience Manager Assets的管理权限。
-
->[!ENDSHADEBOX]
-
-通过完成以下任务启用Commerce与Experience Manager Assets的集成：
-
-1. [配置您的Experience Manager Assets项目以管理Commerce资源](aem-assets-configure-aem.md)
-
-1. [安装Experience Manager Assets集成扩展并配置Adobe Commerce](aem-assets-configure-commerce.md)
-
-1. [启用资源同步](aem-assets-setup-synchronization.md)
