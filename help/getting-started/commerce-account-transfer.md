@@ -3,7 +3,7 @@ title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -69,6 +69,8 @@ ht-degree: 0%
 1. 输入发送到新电子邮件地址的确认代码。
 
 1. 单击&#x200B;**[!UICONTROL Verify]**。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 电子邮件更改
 
