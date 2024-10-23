@@ -3,9 +3,9 @@ title: 内容暂存
 description: 内容暂存使您的业务团队能够直接从管理员轻松创建、预览和计划存储的各种内容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **还原基线内容**
 
    如果所有营销活动都有结束日期，则当所有活动的营销活动结束时，将恢复基线内容。
+
+   >[!NOTE]
+   >
+   >如果活动营销活动最初创建时没有结束日期，则以后无法编辑活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
 
 >[!NOTE]
 >

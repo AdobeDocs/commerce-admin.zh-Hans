@@ -3,9 +3,9 @@ title: 目录价格规则的计划更改
 description: 了解如何按计划应用目录价格规则作为营销活动的一部分并按照其他内容更改进行分组。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果包含价格规则的促销活动最初创建时没有结束日期，则以后无法编辑该促销活动以包含结束日期。 建议您在创建营销策划时添加结束日期，或创建现有营销策划的重复版本，并根据需要在重复版本中添加结束日期。
+>如果活动营销活动最初创建时没有结束日期，则以后无法编辑活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
 
 ![目录价格规则 — 计划的更改](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

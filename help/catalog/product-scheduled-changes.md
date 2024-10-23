@@ -3,9 +3,9 @@ title: 计划的产品更新
 description: 了解如何安排对产品清单的更改，以支持活动和促销计划。
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 产品更新可以按计划应用，并与其他内容更改分组。 您可以使用[内容暂存](../content-design/content-staging.md)来根据对产品的计划更改创建营销活动，或将更改应用于现有营销活动。
 
+在配置产品更新和编辑营销活动的计划时，请牢记以下几点：
+
+- 所有计划的更新都连续应用，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，实体无法同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
+
+- 计划更新的暂存预览始终从&#x200B;**默认**&#x200B;存储视图开始，该视图模拟客户在暂存更新营销活动中导航的体验。
+
+- 如果营销活动链接到多个产品，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。
+
+- 如果活动营销活动最初创建时没有结束日期，则以后无法编辑活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
+
+
 >[!NOTE]
 >
 >[!UICONTROL Set Product as New From]和[!UICONTROL To]字段以及[!UICONTROL Schedule Design Update]选项卡已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，无法直接在产品上修改。 您必须为这些激活创建计划的更新。
-
->[!NOTE]
->
->所有计划的更新都连续应用，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，实体无法同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
-
->[!NOTE]
->
->计划更新的暂存预览始终从&#x200B;**默认**&#x200B;存储视图开始，该视图模拟客户在暂存更新营销活动中导航的体验。
 
 ## 创建计划的更新
 
@@ -86,10 +89,6 @@ ht-degree: 0%
 
 1. 对计划更新进行任何必要的更改。
 
->[!NOTE]
->
->如果营销活动链接到多个产品，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。
-
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
 ## 删除计划的更改
@@ -102,9 +101,7 @@ ht-degree: 0%
 
 1. 在对话框中，选择&#x200B;**[!UICONTROL Delete the Update]**&#x200B;并单击&#x200B;**[!UICONTROL Done]**。
 
-   >[!NOTE]
-   >
-   >产品将从更新中删除，并且所有计划的更改都将丢失。
+   产品将从更新中删除，并且所有计划的更改都将丢失。
 
 ## 计划设计更新
 

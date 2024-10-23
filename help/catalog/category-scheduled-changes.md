@@ -3,9 +3,9 @@ title: 类别的计划更改
 description: 了解如何计划类别更改以支持营销活动和商店促销。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 类别更新可以按计划应用，并与其他内容更改分组。 您可以根据对类别的计划更改创建营销活动，或将更改应用于现有营销活动。 若要了解详细信息，请参阅[内容暂存](../content-design/content-staging.md)。
 
->[!NOTE]
->
->[!UICONTROL Schedule Design Update]选项卡已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，无法直接在类别上修改。 您必须为这些激活创建计划的更新。
+在计划更改类别时，请牢记以下几点：
+
+- 所有计划的更新都连续应用，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，一个实体无法同时对不同存储视图进行多次计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
+
+- 如果营销活动链接到多个类别，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。
+
+- 如果营销活动链接到多个类别，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。
 
 >[!NOTE]
 >
->所有计划的更新都连续应用，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，一个实体无法同时对不同存储视图进行多次计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
+>[!UICONTROL Schedule Design Update]选项卡已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，无法直接在类别上修改。 您必须为这些激活创建计划的更新。
 
 ## 计划类别的更新
 
@@ -69,7 +73,3 @@ ht-degree: 0%
 1. 对计划更新进行必要的更改。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
-
-   >[!NOTE]
-   >
-   >如果营销活动链接到多个类别，则只能从[内容暂存仪表板](../content-design/content-staging-dashboard.md)编辑营销活动。

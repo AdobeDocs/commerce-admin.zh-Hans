@@ -3,9 +3,9 @@ title: 内容暂存仪表板
 description: 使用内容暂存仪表板可访问所有活动和即将开展的活动的概述。
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果包含价格规则的促销活动最初创建时没有结束日期，则以后无法编辑该促销活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
+>如果活动营销活动最初创建时没有结束日期，则以后无法编辑活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
 
 ![营销活动详细信息](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

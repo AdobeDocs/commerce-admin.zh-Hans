@@ -3,9 +3,9 @@ title: 页面工作区控件
 description: 了解用于查找和更新内容页面的工作区工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ _[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定
 
 页面更改可以按计划应用，并与其他内容更改一起分组。 您可以基于对页面的计划更改创建营销活动，或将更改应用于现有营销活动。 有关详细信息，请参阅[内容暂存](content-staging.md)。
 
->[!NOTE]
->
->如果营销活动链接到多个页面，则只能从[内容暂存仪表板](content-staging-dashboard.md)编辑营销活动。
+在配置页面更改和编辑营销活动的计划时，请牢记以下几点：
+
+- 所有计划的更新都是连续应用的，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，一个实体不能同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
+
+- 如果营销活动链接到多个页面，则只能从[内容暂存仪表板](content-staging-dashboard.md)编辑营销活动。
+
+- 如果活动营销活动最初创建时没有结束日期，则以后无法编辑活动以包含结束日期。 在这种情况下，需要创建一个重复的市场活动并输入所需的结束日期。
+
+- 营销活动开始日期和结束日期必须使用&#x200B;**_default_**&#x200B;管理时区定义，该时区从每个网站的本地时区进行转换。 请考虑以下示例：您有多个位于不同时区的网站，但您希望基于美国时区启动营销活动。 在这种情况下，您必须为每个本地时区计划单独的更新，并将&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;设置为从每个本地网站时区转换为默认管理时区。
+
+- 您可以计划和预览产品更新的更改。 有关详细信息，请参阅[计划更新](content-staging-scheduled-update.md)。
 
 >[!NOTE]
 >
 >[!UICONTROL Custom Design Update]选项卡已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，无法直接在页面上修改。 您必须为这些激活创建计划的更新。
 
->[!NOTE]
->
->所有计划的更新都是连续应用的，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，一个实体不能同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
-
 ![主页在顶部](./assets/page-scheduled-change.png){width="600" zoomable="yes"}显示计划的更改
 
->[!NOTE]
->
->营销活动开始日期和结束日期必须使用&#x200B;**_default_**&#x200B;管理时区定义，该时区从每个网站的本地时区进行转换。 请考虑以下示例：您有多个位于不同时区的网站，但您希望基于美国时区启动营销活动。 在这种情况下，您必须为每个本地时区计划单独的更新，并将&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;设置为从每个本地网站时区转换为默认管理时区。
-
-此外，您还可以计划和预览产品更新的更改。 有关详细信息，请参阅[计划更新](content-staging-scheduled-update.md)。
