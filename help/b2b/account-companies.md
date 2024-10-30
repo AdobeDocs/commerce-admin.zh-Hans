@@ -3,7 +3,7 @@ title: 公司帐户
 description: 了解在Adobe Commerce商店中管理的公司帐户如何允许将属于同一公司的多个购买者加入单个公司帐户。
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # 公司帐户
 
-当您在商店中合并B2B公司帐户时，您可以让公司根据其组织中的用户角色创建多个具有灵活权限的子帐户，从而简化公司购物体验。 根据公司的具体情况，店铺管理员可以调整促销活动和价格以满足他们的需求，并创建高度定制的优惠，以满足购物者的需求并增加订单。 将公司帐户关联添加到标准[个人](../customers/account-create.md)允许客户使用为公司定义的特定购买工作流。
+当您在商店中合并B2B公司帐户时，您可以让公司根据其组织中的用户角色创建多个具有灵活权限的子帐户，从而简化公司购物体验。
+
+根据公司的具体情况，店铺管理员可以调整促销活动和价格以满足他们的需求，并创建高度定制的优惠，以满足购物者的需求并增加订单。
+
+将公司帐户关联添加到标准[个人](../customers/account-create.md)允许客户使用为公司定义的特定购买工作流。
 
 公司帐户的优势：
 
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 - 通过提供[公司商店积分](credit-company.md)作为付款方式，为商家提供增加收入的机制。
 
-- 支持管理员中所有公司帐户的[管理](account-company-manage.md)。
+- 支持管理员对所有公司帐户的[管理](account-company-manage.md)。
 
 ## 查看公司帐户
 
@@ -34,7 +38,7 @@ _公司_&#x200B;网格列出了所有活动的公司帐户和挂起的请求，�
 
 ![公司网格](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies]网格列出了所有公司，无论其状态如何。 显示的示例显示了两个公司的帐户：“ACME”公司和“Vandelay”公司。
+[!UICONTROL Companies]网格列出了所有公司，无论其状态如何。 公司列表指示公司是否与[公司层次结构](manage-company-hierarchy.md)关联，并提供有关公司的[详细信息](/help/b2b/account-company-manage.md#company-options-and-columns)、公司管理员及其他信息。 使用[管理网格控件](../getting-started/admin-grid-controls.md)自定义视图，以设置筛选器、列视图选项等。
 
 ## 公司管理员
 
@@ -42,7 +46,7 @@ _公司_&#x200B;网格列出了所有活动的公司帐户和挂起的请求，�
 
 使用公司管理员帐户的![客户网格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-担任公司管理员的人员可能在公司内拥有多个角色。 如果为公司管理员输入了单独的电子邮件地址，则初始公司结构包括公司管理员以及公司管理员名下的个人用户帐户。 在这种情况下，公司管理员可以以公司或个人用户的身份登录帐户。
+每个公司都有一个由帐户电子邮件地址以及管理员的名字和姓氏标识的公司管理员。 管理员可以作为用户分配给其他公司，但他们只能作为一家公司的管理员。
 
 创建帐户后，公司管理员定义[团队](account-company-structure.md)的公司结构，设置[公司用户](account-company-users.md)，并为每个用户建立[角色和权限](account-company-roles-permissions.md)。
 
@@ -58,7 +62,7 @@ _公司_&#x200B;网格列出了所有活动的公司帐户和挂起的请求，�
 
 1. 按照说明进行操作，然后单击&#x200B;[!UICONTROL **链接**]&#x200B;设置其密码。
 
-1. 为其帐户输入&#x200B;[!UICONTROL **新密码**]&#x200B;并再次进行确认。
+1. 为其帐户输入&#x200B;[!UICONTROL **新密码**]&#x200B;和密码确认。
 
    密码必须至少包括以下字符类型中的三种：
 

@@ -3,22 +3,26 @@ title: 管理公司帐户
 description: 了解如何使用公司页面和网格中可用的工具管理Adobe Commerce商店的公司帐户。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # 管理公司帐户
 
-_[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。 标准[工作区控件](../getting-started/admin-workspace.md)可用于筛选列表、更改[列布局](../getting-started/admin-grid-controls.md)、保存视图或导出数据。
-
-网格上方的&#x200B;_[!UICONTROL Actions]_控件可用于将操作应用于多个公司记录。 例如，您可以选择多个请求，并在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
-
-使用&#x200B;_[!UICONTROL Search]_函数按关键字在&#x200B;**公司**网格中查找公司。 搜索索引&#x200B;**公司名称**和&#x200B;**父项**列中的关键字。 您可以按&#x200B;**公司类型**进行筛选，以仅显示单个公司、仅显示父公司或仅显示子公司。
+_[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
 
 ![公司网格](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+使用&#x200B;*[!UICONTROL Columns]*&#x200B;控件自定义网格中显示的列。 使用搜索和筛选功能自定义视图中显示的公司。
+
+- 使用&#x200B;_[!UICONTROL Search]_在&#x200B;**公司**网格中查找公司。 搜索对&#x200B;**公司名称**和&#x200B;**父项**列编制索引。
+
+- 使用[!UICONTROL Filter]自定义视图以包含符合特定条件的记录。 例如，如果B2B站点配置为同时管理单个公司帐户和[公司层次结构](manage-companies.md)，则可以按`[!UICONTROL Company Type - Company]`进行筛选以仅显示单个公司，或按`[!UICONTROL Company Type - Parent]`进行筛选以仅显示每个层次结构的父公司。
+
+使用网格上方的&#x200B;_[!UICONTROL Actions]_控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
 
 ## 公司角色资源
 
@@ -31,13 +35,21 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 必须为分配给管理员用户帐户的[用户角色](../systems/permissions-user-roles.md)设置这些角色资源。
 
-## 应用操作
+## 从“公司”网格管理公司帐户
 
-以下操作可应用于单个或多个记录。
+通过选择&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;以打开&#x200B;*[!UICONTROL Companies]*&#x200B;页面，从“管理员”菜单中查看和管理公司的用户帐户。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
+您可以单独管理帐户，也可以按组管理帐户。
 
-1. 在网格的第一列中，选中要更新的每个记录的复选框，然后按照要应用的操作的说明进行操作：
+- 通过在公司帐户记录的&#x200B;**[!UICONTROL Action]**&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**，查看或更改单个公司帐户的配置设置。
+
+  ![选择要应用于选定公司的操作](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- 使用网格上方的[!UICONTROL Actions]控件中的可用选项查看或更改一组选定的公司帐户**
+
+  ![选择要应用于选定公司的操作](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+有关应用每个操作的说明，请参阅以下部分。
 
 ### 激活公司帐户
 
@@ -90,6 +102,30 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
+### 更改公司设置
+
+更新[高级设置](account-company-create.md#advanced-settings)配置以将相同的设置应用到&#x200B;*公司网格*&#x200B;上选择的多个公司。
+
+>[!NOTE]
+>
+>从[公司层次结构视图](manage-company-hierarchy.md#change-company-settings)管理具有父公司和关联子公司的公司组织的高级设置配置。
+
+1. 从&#x200B;**[!UICONTROL Actions]**&#x200B;控件中选择&#x200B;**[!UICONTROL Change company settings]**。
+
+   在&#x200B;*[!UICONTROL Change company settings]*&#x200B;窗体上，初始配置设置设为默认值。
+
+1. 对于每个要更改的配置设置，选中&#x200B;**[!UICONTROL Change]**&#x200B;复选框以启用该设置。 然后，根据需要更新设置。
+
+   ![更改多个公司的公司设置](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. 更新配置设置后，选择&#x200B;**[!UICONTROL Apply Changes]**。
+
+1. 出现提示时，选择&#x200B;**[!UICONTROL Change settings]**&#x200B;以更新所选公司的配置。
+
+>[!TIP]
+>
+>您可以通过选择公司帐户记录的&#x200B;**[!UICONTROL Action]**&#x200B;列中的&#x200B;**[!UICONTROL Edit]**&#x200B;来更改单个公司的高级设置配置。
+
 ### 转换贷方货币
 
 所选公司帐户中的贷项将转换为所选货币的当前汇率。
@@ -114,7 +150,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
    每个可更新的值都会显示在文本框中。
 
-   公司帐户![快速编辑](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   公司帐户![快速编辑](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. 根据需要更新以下任意值：
 
@@ -134,7 +170,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 1. 对公司信息进行必要的更改。
 
-有关字段说明，请参阅[创建公司帐户](account-company-create.md)。
+   有关字段说明，请参阅[创建公司帐户](account-company-create.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -176,13 +212,11 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 ## 公司管理
 
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}
-
 创建公司后，具有相应权限的管理员用户可以使用[!UICONTROL Company Hierarchy]部分通过编辑指定的母公司并分配相关公司来构建母公司组织。
 
 如果已将公司添加到层次结构，则[!UICONTROL Company Hierarchy]网格将显示父公司和网格中所有分配的公司。
 
-有关详细信息，请参阅[管理公司层次结构](assign-companies.md)。
+有关详细信息，请参阅[管理公司层次结构](manage-company-hierarchy.md)。
 
 ## 公司选项和列
 
@@ -191,11 +225,12 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 ### 操作控制选项
 
 | 选项 | 描述 |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | 将所有选定公司记录的状态设置为`Active`。 公司管理员将收到设置密码的说明，这样他们就可以从店面访问帐户和管理公司。 |
 | [!UICONTROL Block] | 限制信誉不佳的公司帐户，同时保留帐户。 公司成员可以登录并访问目录，但不能代表公司下订单。 |
 | [!UICONTROL Delete] | 删除所选的公司帐户。 与已删除的公司关联的用户帐户状态设置为`Inactive`，并且公司ID将从用户帐户的配置文件中删除。 有关公司活动和交易的信息保留在系统中。 |
 | [!UICONTROL Edit] | 允许从网格编辑所选公司记录的某些值。 默认情况下，公司名称、公司电子邮件和电话号码值可用于快速编辑。 |
+| [!UICONTROL Change company settings] | 打开&#x200B;*更改公司设置*&#x200B;表单以更新[高级设置](account-company-create.md#advanced-settings)配置并将更改应用于所选公司。 |
 | [!UICONTROL Convert Credit] | 根据指定货币的汇率换算所选公司的记帐贷项。 |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 | 按钮 | 描述 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | 返回到“公司”页而不保存更改。 |
-| [!UICONTROL Login as Customer] | 允许管理员用户以客户](../customers/login-as-customer.md)身份[登录店面，并帮助处理他们的订单。 |
 | [!DNL Delete Company] | 删除公司帐户。 与公司关联的用户帐户状态设置为`Inactive`，并且公司ID将从用户帐户的配置文件中删除。 有关公司活动和交易的信息保留在系统中。 |
 | [!DNL Reset] | 将原始值还原到具有未保存更改的任何字段。 |
 | [!DNL Reimburse Balance] | 允许管理员根据采购单编号偿还商店贷项的余额。 |
@@ -278,19 +312,10 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 | [!UICONTROL VAT / TAX ID] | 为报税目的而分配给公司的税或[增值税](../stores-purchase/vat.md)编号。 |
 | [!UICONTROL Reseller ID] | 为纳税申报目的而分配给公司的转售编号。 |
 | [!UICONTROL Comment] | 有关公司帐户的这些注释仅供管理员参考和查看。 |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | 公司开展业务的注册街道地址。 |
-| [!UICONTROL City] | 公司注册地城市，开展业务。 |
-| [!UICONTROL Country] | 公司注册经营的国家/地区。 |
-| [!UICONTROL State/Province] | 公司注册地所在国家或省。 |
-| [!UICONTROL ZIP/Postal Code] | 公司注册开展业务的邮政编码。 |
-| [!UICONTROL Phone Number] | 公司的主要电话号码。 |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}
 
 | 列 | 描述 |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| 列 | 描述 |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | 公司开展业务的注册街道地址。 |
+| [!UICONTROL City] | 公司注册地城市，开展业务。 |
+| [!UICONTROL Country] | 公司注册经营的国家/地区。 |
+| [!UICONTROL State/Province] | 公司注册地所在国家或省。 |
+| [!UICONTROL ZIP/Postal Code] | 公司注册开展业务的邮政编码。 |
+| [!UICONTROL Phone Number] | 公司的主要电话号码。 |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | 字段 | 描述 |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | 为公司帐户设置[网站范围](../getting-started/websites-stores-views.md)。 默认为&#x200B;*[!UICONTROL Main Website]*。 |
 | [!UICONTROL Job Title] | 管理公司帐户的公司管理员的职务。 |
 | [!UICONTROL Email] | 公司管理员的电子邮件地址可以与公司电子邮件地址相同。 如果输入了不同的电子邮件地址，则除了公司帐户外，还会为公司管理员创建单独的个人帐户。 |
 | [!UICONTROL Prefix] | 如果适用，与公司管理员的姓名关联的前缀（如`Mr.`、`Ms.`、`Mrs.`或`Dr.`）。 根据配置，输入字段可能是文本字段或列表。 |
@@ -318,6 +357,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 | [!UICONTROL Last Name] | 公司管理员的姓氏。 |
 | [!UICONTROL Suffix] | 如果适用，则为与公司管理员的姓名关联的后缀（如`Jr.`、`Sr.`或`III`）。 根据配置，输入字段可能是文本字段或列表。 |
 | [!UICONTROL Gender] | 公司管理员的性别。 选项： `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | 设置向新公司管理员发送欢迎电子邮件时要使用的存储审阅（如果您不想使用&#x200B;*[!UICONTROL Default Store View]*）。 |
 
 {style="table-layout:auto"}
 

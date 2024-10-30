@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功
 >
 >有关可用Adobe Commerce版本支持的B2B Commerce扩展版本的信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
 
-## B2B 1.5.0测试版
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*2023年11月13日*
+*2024年10月30日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"}
+与Adobe Commerce版本2.4.8-beta1、2.4.7到2.4.7-p2、2.4.6到2.4.6-p7兼容
 
-B2B v1.5.0-beta版本包括新增功能、质量改进和错误修复。
+B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
-![对报价功能的新](../assets/new.svg)改进可帮助买方和卖方更有效地管理报价和报价洽谈。
+### 公司管理
 
-- **将报价另存为草稿**<!--B2B-2566--> — 从购物车创建[报价请求](quote-request.md)时，购买者现在可以通过选择[!UICONTROL Request a Quote]表单上的&#x200B;**[!UICONTROL Save as Draft]**&#x200B;将报价另存为草稿。
+![新](../assets/new.svg) **公司管理**<!--B2B-2901--> — 商户现在可以将公司分配给指定的母公司，以层次结构形式查看和管理Adobe Commerce公司。 将公司分配给父公司后，父公司管理员可以管理公司帐户。 只有授权管理员用户可以添加和管理公司分配。 有关详细信息，请参阅[管理公司层次结构](manage-company-hierarchy.md)。
 
-  草稿报价没有到期日期。 购买者可以从其帐户仪表板的[!UICONTROL My Quotes]部分查看和更新草稿报价。
+- 从管理员的&#x200B;*[!UICONTROL Company Account]*&#x200B;页面上的新&#x200B;*[!UICONTROL Company Hierarchy]*&#x200B;部分添加和管理公司分配。
+
+- 按新的&#x200B;*[!UICONTROL Company Type]*&#x200B;设置对公司进行排序和筛选。 在公司网格中，*[!UICONTROL Company Type]*&#x200B;列指示公司是单个公司还是组织层次结构（父项或子项）的一部分。
+
+![新建](../assets/new.svg) **大规模管理公司配置**<!--B2B-2849--> — 现在从&#x200B;*[!UICONTROL Companies]*&#x200B;或&#x200B;*[!UICONTROL Company Hierarchy]*&#x200B;网格管理公司时，可使用&#x200B;*[!UICONTROL Change company setting]*&#x200B;批量操作快速更改选定公司的公司配置设置。 例如，如果您为一组公司创建新的共享目录，则可以在单个操作中更改共享目录配置，而不是单独编辑每个公司。
+
+![新](../assets/new.svg) API开发人员可以使用新的公司关系REST API终结点`/V1/company/{parentId}/relations`创建、查看和移除公司分配。 请参阅&#x200B;*Web API开发人员指南*&#x200B;中的[管理公司对象](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)。
+
+### 公司帐户
+
+![新建](../assets/new.svg)<!--B2B-2828--> **多公司分配** — 通过将用户分配给多个公司来简化公司用户的公司帐户访问权限。 例如，如果您的一个采购员从多个公司地点订购，请创建一个帐户，并将与该采购员合作的所有公司分配给该帐户。 然后，买家可以一次性登录，并通过从店面中选择公司来切换公司帐户。
+
+>[!NOTE]
+>
+>可以将一个公司用户分配给多个公司，但他们只能是一个公司的公司管理员。
+
+![新建](../assets/new.svg)<!--B2B-2747--> **公司范围选择器** — 为分配到多个公司的公司用户提供更改店面公司的功能。 当范围被切换时，数据会更新以根据新的公司上下文显示信息。 例如，如果新公司使用不同的共享目录，则公司用户会根据新的共享目录查看产品、价格和其他信息。 与订单、报价和报价模板相关的内容也会根据所选公司的上下文进行更新。
+
+>[!NOTE]
+>
+>如果公司用户将购物车中具有商品的公司切换为其他公司，请更新购物车，以根据新的公司上下文反映产品分类、定价和促销折扣。
+
+![已修复问题](../assets/fix.svg)<!--ACP2E-1933-->公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
+
+### 报价和报价模板
+
+报价功能的改进有助于买方和卖方更有效地管理报价和报价洽谈。
+
+![新](../assets/new.svg) **报价模板**—<!--B2B-3367-->买方和卖方现在可以通过创建可重复使用且可自定义的报价模板来简化报价流程。 使用报价模板，报价洽谈流程可以完成一次，采购员可以为经常性订单生成预批准的链接报价，而不是针对每张订单完成报价洽谈流程。 报价模板通过添加以下高级功能来扩展现有报价功能：
+
+- **订单阈值**&#x200B;允许卖方设置最小和最大订单承诺，确保买方遵守商定的购买量。
+- **设置最小和最大物料订单数量**&#x200B;使采购员能够灵活地调整链接报价上的订单数量，而无需新模板或进一步洽谈。
+- **跟踪已生成并成功完成订单的链接报价单数**，以了解协议协议的履行情况。
+- **链接报价**&#x200B;是预批准的报价，采购员通过有效报价模板生成这些报价，以根据报价模板中协商的条款提交重复订单。
+
+![新](../assets/new.svg) **对现有报价功能的改进**
+
+- **更新的Commerce访问控制列表(ACL)规则**&#x200B;允许B2B管理员和主管管理下属用户的报价和报价模板。 单独的规则支持用于查看、编辑和删除访问权限的粒度配置。
+
+- **将报价另存为草稿**<!--B2B-2566--> — 从购物车创建[报价请求](quote-request.md)时，购买者现在可以将报价另存为草稿，以便在启动与卖方的报价洽谈过程之前对其进行复查和更新。 草稿报价没有到期日期。 购买者可以从其帐户仪表板的[!UICONTROL My Quotes]部分查看和更新草稿报价。
 
 - **重命名报价**<!--B2B-2596--> — 购买者现在可以通过选择&#x200B;**[!UICONTROL Rename]**&#x200B;选项从[报价详细信息](account-dashboard-my-quotes.md#quote-actions)页面更改报价名称。 授权购买者在编辑报价时可以使用此选项。 名称更改事件记录在报价历史记录日志中。
 
 - **重复报价**<!--B2B-2701--> — 买方和卖方现在可以通过复制现有报价创建新的报价。 通过在Admin或[店面](account-dashboard-my-quotes.md#quote-actions)的[报价详细信息视图](quote-price-negotiation.md#button-bar)中选择&#x200B;**[!UICONTROL Create Copy]**，从“报价详细信息”视图中创建了一个副本。
 
-- **行项目折扣锁定**<!--B2B-2597--> — 在报价洽谈期间，销售商可以使用行项目折扣锁定以获得更大的灵活性。 例如，卖方可以对物品应用特殊行物品折扣，并锁定该物品以防止进一步折扣。 锁定项目时，如果应用报价级别折扣，则无法更新项目价格。 请参阅[为购买者](sales-rep-initiates-quote.md)启动报价。
+- **将报价项移至请购单列表**<!--B2B-2755--> — 采购员现在可以灵活地从报价中删除产品，并将其保存到请购单列表中（如果他们决定不将其包含在报价洽谈流程中）。
 
-![新&#x200B;](../assets/new.svg)**公司管理**<!--B2B-2901--> — 商户现在可以将公司分配给指定的母公司，以层次结构形式查看和管理Adobe Commerce公司。 将公司分配给父公司后，父公司管理员可以管理公司帐户。 只有授权管理员用户可以添加和管理公司分配。 有关详细信息，请参阅[管理公司层次结构](assign-companies.md)。
+- **从报价中删除多个产品**<!--B2B-2881--> — 在包含大量产品的报价上，购买者现在可以通过选择多个产品并使用报价详细信息页面上&#x200B;*[!UICONTROL Actions]*&#x200B;控件中的&#x200B;*[!UICONTROL Remove]*&#x200B;选项从报价中删除多个产品。 在以前的版本中，购买者必须一次删除一个产品。
 
-- 在公司页面上，新的&#x200B;**[!UICONTROL Company Type]**&#x200B;字段标识了父公司和子公司。 商家可以按公司类型筛选公司视图，并使用行项目或批量操作管理公司。
+- **行项目折扣锁定**<!--B2B-2597--> — 在报价洽谈期间，销售商可以使用行项目折扣锁定以在报价洽谈过程中应用折扣时获得更大的灵活性。 例如，卖方可以对物品应用特殊行物品折扣，并锁定该物品以防止进一步折扣。 锁定项目时，如果应用报价级别折扣，则无法更新项目价格。 请参阅[为购买者](sales-rep-initiates-quote.md)启动报价。
 
-- 商家可以从[!UICONTROL Company Account]页面上的新&#x200B;**[!UICONTROL Company Hierarchy]**&#x200B;部分添加和管理公司分派。
+![已修复问题](../assets/fix.svg)**现有报价功能的修复**
 
-- API开发人员可以使用新的公司关系REST API端点`/V1/company/{parentId}/relations`创建、查看和移除公司分配。 请参阅&#x200B;*Web API开发人员指南*&#x200B;中的[管理公司对象](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)。
+- 现在，系统会提示商家在Admin的Quote detail视图中单击&#x200B;*[!UICONTROL Print]*&#x200B;按钮以将报价另存为PDF。 以前，商家会被重定向到包含报价详细信息的页面。<!--ACP2E-1984-->
 
-![已修复问题](../assets/fix.svg)<!--ACP2E-1984-->现在，系统会提示商家在Admin的Quote detail视图中单击&#x200B;**[!UICONTROL Print]**&#x200B;按钮以将报价另存为PDF。 以前，商家会被重定向到包含报价详细信息的页面。
+- 以前，在发送具有`0`百分比的客户报价并更改数量时，管理员会引发异常但保存了数量。 进行此修复后，将引发包含消息的`0 percentage`相应异常。<!--ACP2E-1742-->
 
-![已修复问题](../assets/fix.svg) <!--ACP2E-1742-->以前，在发送百分比为0的客户报价并更改数量时，管理员会引发异常但保存了数量。 进行此修复后，将引发包含消息的`0 percentage`相应异常。
+- 在报价洽谈期间，卖方现在可以在“洽谈报价报价”折扣字段中指定`0%`折扣，然后将报价发回给买方。 以前，如果卖方输入0%的折扣并将报价发回给买方，管理员会返回`Exception occurred during quote sending`错误消息。<!--ACP2E-1742-->
 
-![已修复问题](../assets/fix.svg) <!--ACP2E-1742-->在报价洽谈期间，卖方现在可以在“洽谈报价折扣”字段中指定`0%`折扣，并将报价发回给买方。 以前，如果卖方输入0%的折扣并将报价发回给买方，管理员会返回`Exception occurred during quote sending`错误消息。
+- 现在，当将ReCaptcha V3配置为店面结账时，ReCaptcha验证在B2B报价的结账过程中可正常工作。 以前，验证失败并显示`recaptcha validation failed, please try again`错误消息。 <!--ACP2E-2097-->
 
-![修复了问题](../assets/fix.svg) <!--ACP2E-2097-->在将ReCaptcha V3配置为店面结账时，ReCaptcha验证现在可在B2B报价的结账过程中正常工作。 以前，验证失败并显示`recaptcha validation failed, please try again`错误消息。
+### 采购订单
 
 ![修复了问题](../assets/fix.svg) <!--ACP2E-1825-->在公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
-
-![已修复问题](../assets/fix.svg)<!--ACP2E-1933-->公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
 
 ## B2B v1.4.2-p3
 

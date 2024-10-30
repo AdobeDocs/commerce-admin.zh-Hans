@@ -4,9 +4,9 @@ description: 了解卖方如何为特定买方创建报价以开始洽谈流程�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ ht-degree: 0%
 
    - 在[!UICONTROL Discount]字段中，输入折扣类型的值。 例如，如果您选择了百分比折扣，请输入10以将10%的折扣应用于行项目。
 
-   - [!BADGE 1.5.0-beta功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}
+   - （可选）锁定行项目折扣值，以便产品价格不会因在报价层应用的任何折扣而进一步降低。
 
      确认更改后，产品网格中的行项目属性将更新以显示应用的折扣金额。 如果折扣已锁定，则会显示锁图标。
+
+   销售代表可以从报价中的特定行项目请求折扣。
+
+   >[!NOTE]
+   >
+   >有关行项目折扣如何工作的视频演示，请参阅&#x200B;_Commerce视频和Tutorials_&#x200B;中的[销售代表将折扣应用于报价行项目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)。
 
 1. 根据需要应用报价级别折扣：
 
@@ -90,6 +96,14 @@ ht-degree: 0%
    ![卖方添加买方](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}的信息
 
    默认情况下，[附加文件](configure-quotes.md)最大为2 MB，采用以下任何文件格式：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。
+
+1. 在洽谈期间添加送货地址。
+
+   一旦采购员向报价单添加了送货地址，销售代表就可以选择送货和交货。
+
+   结帐时锁定送货选项。
+
+   有关详细信息，请参阅[我的引号](account-dashboard-my-quotes.md#adding-a-shipping-address)。
 
 1. 处理报价。
 

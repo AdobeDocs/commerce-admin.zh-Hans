@@ -4,9 +4,9 @@ description: 了解如何在Adobe Commerce管理员和店面中创建公司帐�
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->要支持此方法（允许客户从店面注册其公司），请确保将[B2B功能](enable-basic-features.md)配置为将&#x200B;**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;设置为`Yes`。
+>要支持此方法（允许客户从店面注册其公司），请确保已启用[B2B功能](enable-basic-features.md)。
 
 1. 在店面标题的右上角，客户单击&#x200B;**[!UICONTROL Create an Account]**&#x200B;并选择&#x200B;**[!UICONTROL Create New Company Account]**。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**来创建公司帐户。 创建公司帐户后，客户帐户将被分配为主要联系人。 否则，系统会创建一个客户，该客户会收到一封用于设置密码的电子邮件。
+   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**来创建公司帐户。
 
 1. 在&#x200B;_[!UICONTROL Company Information]_部分中，客户执行以下操作：
 
@@ -297,6 +297,6 @@ ht-degree: 0%
 | 适用的支付方式 | （仅限管理员）指示可用于公司购买的付款方法。 选项： `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | （仅限管理员）如果激活了特定支付方式，则变为活动状态。 要使公司帐户可以使用多种支付方式，请按住Ctrl键(PC)或命令键(Mac)并选择每个选项。 |
 | [!UICONTROL Applicable Shipping Methods] | （仅限管理员）指示可用于公司购买的配送方式。 选项： `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | （仅限管理员）如果激活了特定配送方式，则变为活动状态。 要使公司帐户可以使用多种支付方式，请按住Ctrl键(PC)或命令键(Mac)并选择每个选项。 |
+| [!UICONTROL Shipping Methods] | （仅限管理员）如果激活了特定的运送方式，则变为活动状态。 要为公司帐户提供多种付款方式，请按住Ctrl键(PC)或Command键(Mac)并选择每个选项。 |
 
 {style="table-layout:auto"}

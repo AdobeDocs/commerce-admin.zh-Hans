@@ -6,16 +6,14 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
 # 公司管理
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}
 
 公司管理简化了具有复杂组织结构的公司的业务运营。 管理员用户可以通过将公司分配给指定的母公司来构建公司层次结构以镜像B2B组织。 此分配允许父公司管理员查看和管理组织内的公司。
 
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 ![B2B管理公司网格](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-在&#x200B;*[!UICONTROL Companies grid]*&#x200B;中，*[!UICONTROL Company Type]*&#x200B;列指示公司是作为组织的一部分进行管理，还是作为单独的公司管理。
+*[!UICONTROL Company Type]*&#x200B;列指示公司是作为组织的一部分进行管理，还是作为单独的公司管理。
 
 - `Parent`是一个拥有一个或多个已分配公司的业务组织。 不能将母公司分配为其他公司的子公司。
 
@@ -35,16 +33,18 @@ ht-degree: 0%
 
 ![B2B公司层次结构网格](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-
 ## 查看和配置[!UICONTROL Company Hierarchy]
 
-在初始公司创建时，[!UICONTROL Company Hierarchy]网格为空。 如果公司是单一公司，则此区域也是空的。
+在初始公司创建时，*[!UICONTROL Company Hierarchy]*&#x200B;网格为空。 如果公司是单一公司，则此区域也是空的。
 
 ![B2B公司层次结构网格](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-对于母公司，具有适当权限的管理员用户可以完成以下任务：
+如果公司是组织的母公司，并且组织中其他公司的公司帐户已在Adobe Commerce中配置，则具有相应权限的管理员用户可以分配公司并使用&#x200B;*[!UICONTROL Company Hierarchy]*&#x200B;网格完成其他公司管理任务：
 
-- 通过创建新父组织或更新现有组织来构建公司层次结构。
-- 管理现有组织以添加或删除公司。
+- 查看与母公司关联的所有公司。
+- 从父公司详细信息页面，为组织分配更多公司。
+- 使用&#x200B;*[!UICONTROL Unassign from parent]*&#x200B;操作从组织中删除公司。
+- 更新&#x200B;*[!UICONTROL Advanced Settings]*&#x200B;配置以将相同的设置应用于多个公司。
 
-有关详细信息，请参阅[管理公司层次结构](assign-companies.md)。
+有关详细说明，请参阅[管理公司层次结构](manage-company-hierarchy.md)。
+

@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: 了解客户在报价方面的体验，可在他们的帐户信息板中找到该体验。
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ ht-degree: 0%
 
 买方通过[提交购物车报价请求](quote-request.md)开始此过程。 在[协商过程](quote-price-negotiation.md)中，买卖双方交换了电子邮件。 对于买方而言，[!UICONTROL My Quotes]页面是谈判过程中买方与卖方之间所有通信的焦点。 接受卖方提供的议定价格的买方可以直接从报价进入结账页。 无法将附加折扣添加到协商的报价中。
 
-在洽谈报价单时，采购员可以完成以下活动：
+在谈判报价时，采购员有几个选项可以管理报价或更新报价详细信息。
 
-* 复查项目定价和更新
-* 从[!UICONTROL Comments]和[!UICONTROL History]部分跟踪协商进程
-* 修改报价以删除项目
-* 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商
-* 将报价发送给卖方以供审查
-* 如果条款可接受，则将报价转换为订单
-* 关闭报价
-* 删除报价
-* [!BADGE 1.5.0-beta功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="仅适用于Beta计划参与者"}
+* 与管理报价相关的操作：
+
+   * 创建报价的副本
+   * 关闭报价
+   * 删除报价
+   * 重命名报价
+   * 打印报价
+   * 创建模板
+
+* 用于更新报价详细信息的操作：
+
+   * 复查项目定价和更新
+   * 从[!UICONTROL Comments]和[!UICONTROL History]部分跟踪协商进程
+   * 修改报价以删除项目
+   * 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商
+   * 添加送货地址
+   * 将行项目移动到申请列表
+   * 如果条款可接受，则将报价转换为订单
+
+* 协商过程中的常规操作：
+
+   * 将报价发送给卖方以供审查
+   * 继续操作直到进入结账流程
 
 以下示例显示了一个由买方更新并发送回卖方以供复查的报价。
 
 
-![报价的买方视图](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![报价的买方视图](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 状态为`Updated`的报价将被锁定，直到卖方返回报价。
 
 ## 显示引号
 
-具有其角色](account-company-roles-permissions.md)所需的[权限，与公司帐户关联的客户可以看到[下属用户](account-company-structure.md)请求的报价。 公司管理员可以查看公司帐户的所有报价。
+具有其角色](account-company-roles-permissions.md)所需的[权限，与公司帐户关联的购买者可以看到[下属用户](account-company-structure.md)请求的报价。 公司管理员可以查看公司帐户的所有报价。
 
-1. 客户登录到店面的帐户。
+1. 买家登录了店面的帐户。
 
 1. 单击左侧导航中的&#x200B;**[!UICONTROL My Quotes]**。
 
@@ -52,15 +66,89 @@ ht-degree: 0%
 
 ## 查看报价
 
-1. 客户登录到其帐户。
+1. 购买者登录到他们的帐户。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
 
 1. 在列表中查找引号并单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View]**。
 
+## 复制报价
+
+1. 买家登录到他们在店面的公司帐户。
+
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
+
+1. 在列表中查找并访问所需的报价，然后单击原始报价中的&#x200B;**[!UICONTROL Create Copy]**。
+
+## 创建模板
+
+1. 购买者登录到他们的帐户。
+
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quote Templates]**。
+
+1. 在&#x200B;**[!UICONTROL My Quotes]**&#x200B;列表中查找引号，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Create Quote Template]**。
+
+## 将行项目从报价单移动到申购单列表
+
+1. 购买者登录到他们的帐户。
+
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
+
+1. 在列表中查找并访问所需的报价。
+
+1. 选择行项目。
+
+1. 在&#x200B;_[!UICONTROL Actions]_下拉菜单中单击&#x200B;**[!UICONTROL Move to Requisition list]**。
+
+1. 选择现有申请列表以移动所选物料。
+
+1. 单击&#x200B;**[!UICONTROL Move item]**。
+
+请参阅[将产品添加到申购单列表](requisition-lists.md)，了解有关此过程的详细信息。
+
+>[!NOTE]
+>
+> 移动物料时，不能创建新的申请列表。 只能将物料移至现有申请列表。
+
+## 将行项目移动到新报价
+
+1. 购买者登录到他们的帐户。
+
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
+
+1. 在列表中查找并访问所需的报价。
+
+1. 选择行项目。
+
+1. 在&#x200B;_[!UICONTROL Actions]_下拉菜单中单击&#x200B;**[!UICONTROL Move item to new quote]**。
+
+1. 在模式窗口中命名新报价。
+
+1. 选择&#x200B;**[!UICONTROL Move to quote]**&#x200B;将选定项目移动到新报价。
+
+>[!NOTE]
+>
+> 选择多个项目时，模式显示为&#x200B;**[!UICONTROL Move selected items to new quote]**。
+
+## 添加送货地址
+
+1. 购买者登录到他们的帐户。
+
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
+
+1. 选择所需的引号。
+
+1. 在&#x200B;**[!UICONTROL Shipping Information]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add New Address]**。
+
+1. 填写新地址的详细信息。
+
+1. 单击&#x200B;**[!UICONTROL Save Address]**。
+
+当买方添加地址时，卖方提供运输和交货选项。 这些更新可能会影响议定报价的定价。 结账时将锁定送货选项。
+
 ## 打印报价
 
-1. 在&#x200B;_[!UICONTROL Items Quoted]_部分右侧的未结引号中，客户单击&#x200B;**[!UICONTROL Print]**。
+1. 在&#x200B;_[!UICONTROL Items Quoted]_部分右侧的未结引号中，购买者单击&#x200B;**[!UICONTROL Print]**。
 
 1. 验证&#x200B;**[!UICONTROL Destination]**&#x200B;是否为打印机或PDF。
 
@@ -82,9 +170,10 @@ ht-degree: 0%
 
 | 操作 | 描述 |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 重命名 | [!BADGE 1.5.0-beta功能]{type=信息性url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta计划参与者&quot;}更改报价的名称 |
-| 创建副本 | [!BADGE 1.5.0-beta功能]{type=Informational url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;仅适用于Beta计划参与者&quot;}购买者可以通过复制和重命名从当前报价创建新报价。 |
+| 重命名 | 更改报价单的名称 |
+| 创建副本 | 采购员可以通过复制和重命名当前报价单来创建报价。 |
 | 关闭报价 | 采购员关闭报价单后，将无法重新打开它。 如果需要，购买者可以使用[!UICONTROL Create Copy]操作重新创建它。 如果报价状态为`Draft`，则此选项不可用。 |
+| 创建模板 | 根据当前报价创建报价模板。 报价模板通过允许买方和卖方就可应用于多个报价的合同和定价条款达成一致来简化报价洽谈。  根据协议，采购员可以从模板为后续订单生成预批准链接报价，而不是重新启动询价(RFQ)流程。 |
 | 删除报价 | 当采购员删除报价单时，报价单将从系统中删除，并且不再可用。 |
 | 打印 | 打开打印表单，将报价保存为PDF、文件，或将其打印到配置的打印机。 |
 

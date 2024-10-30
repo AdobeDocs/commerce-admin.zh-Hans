@@ -4,9 +4,9 @@ description: 了解公司结构以及公司管理员如何定义它以支持其�
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ ht-degree: 0%
 
 ![公司结构（含部门）](./assets/company-structure-diagram.svg){width="500"}
 
-在公司管理员帐户仪表板中，公司结构表示为树，最初仅由公司管理员组成。
+在店面的公司管理员帐户仪表板中，公司结构表示为树，最初仅由公司管理员组成。
 
-![公司结构，公司管理员为](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![公司结构，公司管理员为](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-创建并批准帐户后，公司管理员可以使用公司电子邮件地址或分配不同的电子邮件地址。
-
-担任公司管理员的人员可能在公司内拥有多个角色。 如果为公司管理员输入了单独的电子邮件地址，则初始公司结构包括公司管理员以及公司管理员名下的个人用户帐户。 在这种情况下，公司管理员可以以公司或个人用户的身份登录帐户。
-
-具有管理员和用户帐户的![公司结构](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-对于商家，完整的公司结构反映在管理员中的&#x200B;_公司_&#x200B;和&#x200B;_客户_&#x200B;网格中。 “公司”网格会列出所有公司，而不管其状态如何。 以下示例显示了两个公司的帐户：_ACME_&#x200B;公司和&#x200B;_Vendelay_&#x200B;公司。
+对于商家，完整的公司结构反映在管理员中的&#x200B;_公司_&#x200B;和&#x200B;_客户_&#x200B;网格中。 “公司”网格会列出所有公司，而不管其状态如何。
 
 ![公司网格](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-以下示例显示具有这些公司的初始公司管理员帐户的[!UICONTROL Customers]网格。
+以下示例显示带有每个公司的初始公司管理员帐户的[!UICONTROL Customers]网格。
 
-使用公司管理员帐户的![客户网格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![具有公司管理员帐户的客户网格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-创建帐户后，公司管理员必须定义[团队](account-company-structure.md)的公司结构，设置[公司用户](account-company-users.md)，并为每个用户建立[角色和权限](account-company-roles-permissions.md)。
+创建帐户后，公司管理员可以定义包含[团队](account-company-structure.md)的公司结构，设置[公司用户](account-company-users.md)，并为每个用户建立[角色和权限](account-company-roles-permissions.md)。
+
+>[!NOTE]
+>
+>添加公司用户后，公司用户最初会添加到根公司结构中，从属于公司管理员。 如果公司管理员在公司内执行多个角色，请创建单独的公司用户帐户，并为每个角色使用不同的电子邮件地址。
 
 ## 公司结构图标
 
@@ -74,9 +72,7 @@ ht-degree: 0%
 
    - 根据需要创建任意数量的团队。
 
-     ![包含团队的公司结构](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. 要创建团队层次结构，请执行以下操作：
+1. 要创建团队层次结构，管理员执行以下操作：
 
    - 选择父团队，然后单击&#x200B;**[!UICONTROL Add Team]**。
 
@@ -129,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Collapse All / Expand All] | 折叠或展开业务结构树 |
 | [!UICONTROL Add User] | 在当前团队下创建用户 |
 | [!UICONTROL Add Team] | 创建团队 |
-| [!UICONTROL Edit Selected / Delete Selected] | 从业务树中编辑或删除用户 |
+| [!UICONTROL Edit Selected / Remove from Structure] | 编辑用户信息或从业务树中删除用户。 有关详细信息，请参阅[管理公司用户帐户](account-company-users.md)。 |
 
 {style="table-layout:auto"}
 

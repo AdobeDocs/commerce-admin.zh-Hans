@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [定义公司结构](account-company-structure.md)
 + 公司管理{#company-management}
    + [概述](manage-companies.md)
-   + [管理公司层次结构](assign-companies.md)
+   + [管理公司层次结构](manage-company-hierarchy.md)
 + 共享目录{#shared-catalogs}
    + [概述](catalog-shared.md)
    + 定义共享目录{#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [询价](quote-request.md)
    + [启动采购员报价](sales-rep-initiates-quote.md)
    + [协商报价](quote-price-negotiation.md)
+   + [创建报价模板](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ 报价模板{#templates}
+   + [用例和工作流](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + 申购单列表{#requisition-lists}
    + [概述](requisition-lists.md)
    + [配置列表最大值](configure-requisition-lists.md)

@@ -4,20 +4,20 @@ description: 了解如何为Adobe Commerce商店启用B2B功能，包括公司�
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
 
 # 启用B2B功能
 
-默认情况下，所有B2B功能最初都处于禁用状态。 商店管理员可以根据需要启用或禁用Commerce商店的B2B功能。 有关B2B配置设置的完整列表，请参阅[B2B功能配置参考](../configuration-reference/general/b2b-features.md)。
+默认情况下，所有B2B功能最初都被禁用。 商店管理员可以根据需要启用或禁用Commerce商店的B2B功能。 有关B2B配置设置的完整列表，请参阅[B2B功能配置参考](../configuration-reference/general/b2b-features.md)。
 
 启用对客户公司的支持时，会自动启用其他B2B功能：
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   支持不同公司的自定义定价配置，还支持所有商店的类别权限。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
   通过在价格索引中仅存储分配给共享目录的产品来提高网站性能。 对于拥有许多共享目录的商家来说，启用此功能是管理不同公司的自定义定价的最佳实践。
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   让卖家和公司买家能够协商价格。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 仅当[!DNL Enable Company]设置为`Yes`时，这些功能的配置设置才可见。
 
-可以单独启用和禁用B2B [!DNL Quick Order]和[!DNL Requisition List]功能。
+可以单独启用和禁用B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition-lists.md)功能。
 
 ## 配置B2B功能
 
@@ -43,15 +43,17 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-   如果您有多站点安装，请将左上角的&#x200B;**[!UICONTROL Store View]**&#x200B;控件设置为应用配置的网站。
+   如果具有多站点安装，请将左上角的&#x200B;**[!UICONTROL Store View]**&#x200B;控件设置为应用配置的网站。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL B2B Features]**：
+1. 在&#x200B;_[!UICONTROL General]_下的左侧面板中，选择&#x200B;**[!UICONTROL B2B Features]**：
 
    ![B2B配置 — 常规](./assets/b2b-features.png){width="600"}
 
-   - 通过将&#x200B;**[!UICONTROL Enable Company]**&#x200B;设置为`Yes`，允许客户管理自己的公司帐户并支持其他B2B功能。
+   - 允许客户管理自己的公司帐户，并通过将&#x200B;**[!UICONTROL Enable Company]**&#x200B;设置为`Yes`来启用对其他B2B功能的支持。
 
-     启用公司支持后，将自动启用“共享目录”、“B2B报价”、“B2B付款方法”和“B2B发运方法”。
+     启用公司支持后，将自动启用共享目录、B2B报价、B2B付款方式和B2B发运方式。
+
+     ![B2B配置 — 公司功能](assets/b2b-additional-features.png){width="600"}
 
    - 若要允许客户和来宾根据SKU或产品名称快速下订单，请将&#x200B;**[!UICONTROL Enable Quick Order]**&#x200B;设置为`Yes`。
 
@@ -105,13 +107,13 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Company Configuration]**。
 
-1. 如有必要，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为存储视图以定义配置的[作用域](../getting-started/websites-stores-views.md#scope-settings)。
+1. 如有必要，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为存储视图以定义配置的[作用域](../getting-started/websites-stores-views.md#scope-settings)。
 
 1. 完成&#x200B;**[!UICONTROL Company Registration]**&#x200B;部分：
 
    >[!NOTE]
    >
-   >清除&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以使字段可编辑。
+   >清除“**[!UICONTROL Use system value]**”复选框以使字段可编辑。
 
    - 将&#x200B;**[!UICONTROL Company Registration Email Recipient]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，在收到新的公司注册请求时会通知该联系人。
 
@@ -144,9 +146,9 @@ ht-degree: 0%
 
    - 对于&#x200B;**[!UICONTROL Send Company Status Change Email Copy To]**，输入每个要接收状态更改通知副本的人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
 
-   - 要确定通知副本的发送方式，请将&#x200B;**发送电子邮件副本方法**&#x200B;设置为以下项之一：
+   - 若要确定通知副本的发送方式，请将&#x200B;**发送电子邮件副本方法**&#x200B;设置为以下项之一：
 
-      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+      - `Bcc` — 通过将收件人包含在发送给客户的同一电子邮件的标头中来发送&#x200B;_盲目礼貌副本_。 客户看不到BCC收件人。
       - `Separate Email` — 将副本作为单独的电子邮件发送。
 
    - 如果您准备了一个电子邮件模板，当公司状态从`Pending Approval`更改为`Active`时，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;设置为模板的名称。 默认情况下，使用`Company Status Active 1`模板。
@@ -163,11 +165,11 @@ ht-degree: 0%
 
 1. 完成&#x200B;**[!UICONTROL Company Credit Emails]**&#x200B;部分：
 
-   - 将&#x200B;**[!UICONTROL Company Credit Change Email Sender]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当分配给公司的信用额度发生更改时，将通知该联系人。 默认情况下，该通知将发送给&#x200B;_销售代表_。
+   - 将&#x200B;**[!UICONTROL Company Credit Change Email Sender]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当对分配给公司的信用额度进行更改时，将通知该联系人。 默认情况下，通知将发送给&#x200B;_销售代表_。
 
-   - 对于&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**，输入每个要接收信用更改通知副本的人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 对于&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**，请输入要接收信用变更通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。
 
-   - 要确定通知副本的发送方式，请将&#x200B;**发送电子邮件副本方法**&#x200B;设置为以下项之一：
+   - 若要确定通知副本的发送方式，请将&#x200B;**发送电子邮件副本方法**&#x200B;设置为以下项之一：
 
       - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
       - `Separate Email` — 将副本作为单独的电子邮件发送。
@@ -261,8 +263,8 @@ ht-degree: 0%
    >
    >如果合计在最小或最大合计值之间，或者与最小或最大合计值完全匹配，则订单合格。
 
-1. 输入一个&#x200B;**[!UICONTROL Sort Order]**&#x200B;数字，该数字设置此项目在结帐期间显示的付款方法列表中的位置。
+1. 输入&#x200B;**[!UICONTROL Sort Order]**&#x200B;数字，以设置此项目在结帐期间显示的付款方式列表中的位置。
 
-   该值相对于其他支付方式。 （`0` =第一，`1` =第二，`2` =第三，依此类推。）
+   该值与其他付款方式相关。 （`0` =第一个，`1` =第二个，`2` =第三个等等。）
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。

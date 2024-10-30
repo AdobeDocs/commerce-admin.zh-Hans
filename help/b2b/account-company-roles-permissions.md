@@ -4,9 +4,9 @@ description: 了解公司管理员可应用于公司用户的角色和权限，�
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ ht-degree: 0%
 
 ## 角色权限
 
-- 全部
-   - 销售
-      - 允许结帐（下单）
-         - 使用分期付款方法
-      - 查看订单
-         - 查看下属用户的订单
-- 引号
-   - 视图
-      - 请求、编辑、删除
-      - 使用引号结帐
-      - 查看下属用户的引号
-- 订单审批
-   - 查看我的采购订单
-      - 下属视图
-      - 查看所有公司
-   - 自动批准在此角色中创建的PO
-   - 审批没有其他审批的采购订单
-   - 查看审批规则
-      - 创建、编辑和删除
-- 公司配置文件
-   - 帐户信息（视图）
-      - 编辑
-   - 合法地址
-      - 编辑
-   - 联系人（查看）
-   - 付款信息（查看）
-   - 送货信息（视图）
-- 公司用户管理
-   - 查看角色和权限
-      - 管理角色和权限
-   - 查看用户和团队
-      - 管理用户和团队
-- 公司信用
-   - 视图
+公司管理员可以通过选择[!UICONTROL Edit action]，然后在&#x200B;**角色权限**&#x200B;列表中选择或删除权限来更新角色的权限配置。
+
+![角色和权限列表](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## 将角色分配给公司用户
 
