@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Reward Points]'
 description: 查看Commerce管理员的[!UICONTROL Customers] &amp；gt； [!UICONTROL Reward Points]页面上的配置设置。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![奖励积分](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Calculation] | 网站 | 确定用于确定奖励积分何时过期的方法。 选项： <br/>**`Static`**— 根据配置中设置的天数确定奖励积分的剩余生命周期。 如果配置中的到期限制更改，则现有点的到期日期不会更改。<br/>**`Dynamic`** — 计算奖励点余额增加时剩余的天数。 如果配置中的到期限制发生更改，则将相应地更新所有现有点的到期计算。 |
 | [!UICONTROL Refund Reward Points Automatically] | 全局 | 确定是否自动退款可用的奖励积分。 选项： `Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 全局 | 此功能可确定在启用此功能后，通过采购获得的奖励积分在订单退款时是否全部或部分失效。 只有获得奖励的订单中的奖励积分在该订单退款时才会受到影响。 选项： `Yes` / `No`。 |
-| [!UICONTROL Landing Page] | 商店视图 | 指定说明您的奖励积分计划的CMS页面。 指向默认“奖励”页面的链接将显示在商店中可获得点数的位置。 |
+| [!UICONTROL Landing Page] | 商店视图 | 指定用于说明您的奖励积分计划的CMS页面。 指向默认“奖励”页面的链接将显示在商店中可获得点数的位置。 |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![客户获取奖励积分的操作](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![电子邮件通知设置](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

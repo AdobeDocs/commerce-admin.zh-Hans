@@ -2,9 +2,9 @@
 title: ' [!DNL Page Builder]简介'
 description: 了解用于在Adobe Commerce和Magento Open Source中轻松创建内容的 [!DNL Page Builder] 工具。
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些演练已更新，以反映2.4.x版本行中[!DNL Page Builder]工作区的重大更改。 如果您使用的是较早的Adobe Commerce版本，请使用[[!DNL Commerce] 2.3用户指南](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)中包含的[!DNL Page Builder]演练练习。
+>这些演练已更新，以反映2.4.x版本行中[!DNL Page Builder]工作区的重大更改。
 
 ## Page Builder演示
 

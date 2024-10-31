@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Web]'
 description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Web]页面上的配置设置。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Web >常规选项](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 字段 | 范围 | 描述 |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web >搜索引擎优化](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web >基本URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web >基本URL（安全）](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -79,14 +79,14 @@ ht-degree: 0%
 
 ![网页>默认页面](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Default Web URL] | 商店视图 | 指示与基本URL关联的登陆页面。 默认情况下，此参数设置为“cms”，表示来自Commerce内容管理系统(CMS)的页面。 您还可以使用其他类型的登陆页面，如博客。 例如，如果在`magento/blog`处的服务器上安装了博客，则可以输入“blog”文件夹的名称，作为选择页面的相对路径。 |
-| [!UICONTROL CMS Home Page] | 商店视图 | 要选择商店的主页，只需从列表中选择CMS页面即可。 默认情况下，CMS主页会列出您商店可用的全部CMS页面选择。 |
+| [!UICONTROL CMS Home Page] | 商店视图 | 要选择商店的主页，只需从列表中选择CMS页面即可。 默认情况下，CMS主页会列出您商店可用的所有CMS页面选择。 |
 | [!UICONTROL Default No-route URL] | 商店视图 | 包含发生`404 Page not Found`错误时要显示的默认页面的URL。 默认值为`cms/noroute/index`。 |
-| [!UICONTROL CMS No Route Page] | 商店视图 | 标识在出现“404页面未找到”错误时要显示的特定CMS页面。 默认页面为404 Not Found。 |
+| [!UICONTROL CMS No Route Page] | 商店视图 | 标识您希望在出现404页面未找到错误时显示的特定CMS页面。 默认页面为404 Not Found。 |
 | [!UICONTROL CMS No Cookies Page] | 商店视图 | 标识未为浏览器启用Cookie时显示的特定CMS页面。 本页介绍了为何使用Cookie，以及如何为每个浏览器启用它们。 默认页面为启用Cookie。 |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | 商店视图 | 确定是否在目录中的所有CMS页面上显示痕迹导航路径。 选项： `Yes` / `No` |
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![默认布局](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | 全局 | 确定默认用于产品页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于产品页面。<br/>**`Empty`** — 默认情况下，产品页面使用空白布局。 <br/>**`1 column`**— 默认情况下，产品页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于产品页面，使用左侧带有侧栏的双列布局。 <br/>**`2 columns with right bar`**— 默认情况下，对产品页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，产品页面使用左边栏和右边栏的三列布局。<br/>**`Page -- Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用产品页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用产品页面的“类别 — 全宽”布局。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用产品页面的“产品 — 全宽”布局。 |
 | [!UICONTROL Default Category Layout] | 全局 | 确定默认情况下用于类别页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于类别页面。<br/>**`Empty`** — 默认情况下，类别页面使用空白布局。 <br/>**`1 column`**— 默认情况下，对类别页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于类别页面，使用左侧带有侧栏的双列布局。 <br/>**`2 columns with right bar`**— 默认情况下，对类别页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于类别页面，使用左边栏和右边栏的三列布局。<br/>**`Page - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用类别页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用类别页面的类别 — 全宽布局。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用类别页面的“产品 — 全宽”布局。 |
-| 默认页面布局 | 全局 | 确定CMS页面默认使用的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不适用于CMS页面。<br/>**`Empty`** — 默认情况下，对CMS页面使用空白布局。 <br/>**`1 column`**— 默认情况下，对CMS页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于CMS页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对于CMS页面，使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于CMS页面，使用左边栏和右边栏的三列布局。<br/>**`Page - Full Width`**- （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的类别 — 全宽布局。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用CMS页面的“产品 — 全宽”布局。 |
+| 默认页面布局 | 全局 | 确定CMS页面默认使用的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不适用于CMS页面。<br/>**`Empty`** — 默认情况下，CMS页面使用空白布局。 <br/>**`1 column`**— 默认情况下，对CMS页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于CMS页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对于CMS页面，使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于CMS页面，使用左右两侧带有侧栏的三列布局。<br/>**`Page - Full Width`**— （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** — （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“类别 — 全宽”布局。 <br/>**`Product - Full Width`**— （需要[!DNL Page Builder]）默认情况下，使用CMS页面的“产品 — 全宽”布局。 |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web >默认Cookie设置](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web >会话验证](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Web >浏览器功能检测](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

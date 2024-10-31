@@ -3,9 +3,9 @@ title: '[!DNL Page Builder]演练第2部分：块'
 description: 了解使用 [!DNL Page Builder]时简单块和动态块之间的区别。
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些演练已更新，以反映对2.4.1版本中[!DNL Page Builder]工作区的近期更改。 如果您使用的是较早的Adobe Commerce版本，请使用[[!DNL Commerce] 2.3用户指南](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)中包含的[!DNL Page Builder]练习。
+>这些演练已更新，以反映对2.4.1版本中[!DNL Page Builder]工作区的近期更改。
 
 ## 第1部分：创建简单块
 

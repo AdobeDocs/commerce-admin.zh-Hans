@@ -3,9 +3,9 @@ title: '[!DNL Page Builder]演练第1部分：简单页面'
 description: 使用示例文件并按照以下步骤在 [!DNL Page Builder] 界面中创建简单页面。
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些演练已更新，以反映对2.4.1版本中[!DNL Page Builder]工作区的近期更改。 如果您使用的是较早的Adobe Commerce版本，请使用[[!DNL Commerce] 2.3用户指南](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)中包含的[!DNL Page Builder]演练练习。
+>这些演练已更新，以反映对2.4.1版本中[!DNL Page Builder]工作区的近期更改。
 
 ## 开始之前
 
