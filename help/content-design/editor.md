@@ -1,21 +1,17 @@
 ---
-title: 所见即所得编辑器
-description: 了解如何使用编辑器并在_What You See Is What You Get_ (WYSIWYG)视图中处理内容。
+title: WYSIWYG编辑器
+description: 了解如何在_What You See Is What You Get_ (WYSIWYG)视图中使用编辑器和处理内容。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# 所见即所得编辑器
+# WYSIWYG编辑器
 
-该编辑器允许您在内容的&#x200B;_所见即所得_ (WYSIWYG)视图中工作时输入和设置格式。 如果您希望直接使用基础HTML代码，则可以轻松更改模式。 编辑器可用于创建[页面](pages.md)、[块](blocks.md)和[产品描述](../catalog/product-content.md)的内容。 处理产品详细信息时，单击&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以访问编辑器。
-
->[!NOTE]
->
->TinyMCE 5是默认的WYSIWYG编辑器。 对Adobe Commerce和Magento Open Source2.4.5中的TinyMCE 5.10库的更新解决了允许在使用某些类型的URL更新图像或链接时执行任意JavaScript的漏洞。 TinyMCE 3在2.4.0版本中被弃用，在2.4.3版本中被删除。 TinyMCE 4在2.4.4版本中被删除。
+使用该编辑器，您可以在内容的&#x200B;_What You See Is What You Get_ (WYSIWYG)视图中输入内容并设置其格式。 如果您希望直接使用基础HTML代码，则可以轻松更改模式。 编辑器可用于创建[页面](pages.md)、[块](blocks.md)和[产品描述](../catalog/product-content.md)的内容。 处理产品详细信息时，单击&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以访问编辑器。
 
 ![编辑器工具栏](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -28,7 +24,7 @@ ht-degree: 0%
 
 ## 配置编辑器
 
-所见即所得编辑器默认处于启用状态，可用于编辑CMS页面和块以及产品和类别中的内容。 从配置中，您可以激活或停用编辑器，并选择在产品和类别描述中使用静态而不是[动态](../catalog/catalog-urls.md#dynamic-url)的媒体内容URL。
+默认情况下，将启用WYSIWYG编辑器，该编辑器可用于编辑CMS页面和块以及产品和类别中的内容。 从配置中，您可以激活或停用编辑器，并选择在产品和类别描述中使用静态而不是[动态](../catalog/catalog-urls.md#dynamic-url)的媒体内容URL。
 
 ![WYSIWYG选项](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
@@ -44,6 +40,6 @@ ht-degree: 0%
 
    默认情况下，该编辑器处于启用状态。
 
-1. 对于使用WYSIWYG编辑器输入的所有[媒体内容](../catalog/catalog-urls.md#static-url)，将&#x200B;**[!UICONTROL Static URLs for Media Content in WYSIWYG]**&#x200B;设置为您的首选项。
+1. 对于使用WYSIWYG编辑器输入的所有[媒体内容](../catalog/catalog-urls.md#static-url)，请将&#x200B;**[!UICONTROL Static URLs for Media Content in WYSIWYG]**&#x200B;设置为您的首选项。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
