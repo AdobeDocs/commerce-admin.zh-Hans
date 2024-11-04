@@ -3,9 +3,9 @@ title: 商店本地化
 description: 了解如何将商店或商店视图本地化。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 通过更改视图的区域设置，可以立即将整个存储中页面上看起来为硬编码的大多数文本更改为其他语言。 更改区域设置实际上不会逐字翻译文本，而只是引用不同的翻译表，该表提供在整个存储区中使用的界面文本。 可更改的文本包括导航标题、标签、按钮和链接，如&#x200B;_我的购物车_&#x200B;和&#x200B;_我的帐户_。 您还可以使用[内联翻译](../configuration-reference/advanced/developer.md)工具修剪界面中的文本。
 
-可在Commerce Marketplace上的[翻译和本地化][1]{：target=&quot;_blank&quot;}下找到语言包。 Marketplace会不断添加新扩展，因此请经常回来查看。
+可以在Commerce Marketplace上的[翻译和本地化][1]{:target="_blank"}下找到语言包。 Marketplace会不断添加新扩展，因此请经常回来查看。
 
 ## 步骤1：安装语言包
 
@@ -46,11 +46,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为将应用配置的特定视图。
+1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉列表中，选择要配置的商店视图，然后在出现提示时单击&#x200B;**[!UICONTROL OK]**。
 
-1. 提示确认范围切换时，单击&#x200B;**[!UICONTROL OK]**。
-
-1. 展开&#x200B;**[!UICONTROL Locale Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;*[!UICONTROL General]*&#x200B;配置页面上，展开&#x200B;**[!UICONTROL Locale Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 清除&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框，并将&#x200B;**[!UICONTROL Locale]**&#x200B;设置为要分配给视图的语言。
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-   更改区域设置的语言后，必须为每个商店视图单独翻译您创建的其余内容，包括产品名称和描述、类别、[CMS](../content-design/page-translate.md)页面和块。
+   更改区域设置的语言后，必须为每个商店视图单独翻译您创建的其余内容，包括产品名称和描述、类别、[CMS](../content-design/page-translate.md)页面以及块。
 
 ## 将产品本地化
 
