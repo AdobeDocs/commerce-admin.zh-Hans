@@ -4,9 +4,9 @@ description: 了解如何在Adobe Commerce管理员和店面中创建公司帐�
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
+source-git-commit: 5312aa3f483399ecc4e9491b39f8300d8616e9e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 0%
    - （可选）完成以下字段：
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![公司管理员](./assets/company-administrator-account-storefront.png)
@@ -142,6 +143,7 @@ ht-degree: 0%
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -265,6 +267,7 @@ ht-degree: 0%
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | 确定公司管理员所属的网站。 |
 | [!UICONTROL Job Title] | 管理公司帐户的公司管理员的职务。 |
+| [!UICONTROL Work Phone Number] | 管理公司帐户的公司管理员的电话号码。 |
 | [!UICONTROL Email] | 公司管理员的电子邮件地址可以与公司电子邮件地址相同。 如果输入了不同的电子邮件地址，则除了公司帐户外，还会为公司管理员创建单独的个人帐户。 |
 | [!UICONTROL Prefix] | 如果适用，与公司管理员的姓名关联的前缀（如`Mr.`、`Ms.`、`Mrs.`或`Dr.`）。 根据配置，输入字段可能是文本字段或列表。 |
 | [!UICONTROL First Name] | 公司管理员的名字。 |
@@ -297,6 +300,6 @@ ht-degree: 0%
 | 适用的支付方式 | （仅限管理员）指示可用于公司购买的付款方法。 选项： `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | （仅限管理员）如果激活了特定支付方式，则变为活动状态。 要使公司帐户可以使用多种支付方式，请按住Ctrl键(PC)或命令键(Mac)并选择每个选项。 |
 | [!UICONTROL Applicable Shipping Methods] | （仅限管理员）指示可用于公司购买的配送方式。 选项： `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | （仅限管理员）如果激活了特定的运送方式，则变为活动状态。 要为公司帐户提供多种付款方式，请按住Ctrl键(PC)或Command键(Mac)并选择每个选项。 |
+| [!UICONTROL Shipping Methods] | （仅限管理员）如果激活了特定配送方式，则变为活动状态。 要使公司帐户可以使用多种支付方式，请按住Ctrl键(PC)或命令键(Mac)并选择每个选项。 |
 
 {style="table-layout:auto"}
