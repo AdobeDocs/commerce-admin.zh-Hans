@@ -3,9 +3,9 @@ title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Verify]**。
 
-1. **提交支持请求**，通知支持团队您已更新帐户所有者的电子邮件地址。 在您的请求中包含以前帐户所有者的电子邮件地址。
-
-支持部门还需要执行其他步骤，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件上的电子邮件地址。
+>[!IMPORTANT]
+>
+>提交支持请求，通知支持团队您已更新帐户所有者的电子邮件地址。 团队必须执行其他步骤以完成更新，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件上的电子邮件地址。 在您的请求中包含以前帐户所有者的电子邮件地址。
