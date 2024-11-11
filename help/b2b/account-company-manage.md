@@ -3,9 +3,9 @@ title: 管理公司帐户
 description: 了解如何使用公司页面和网格中可用的工具管理Adobe Commerce商店的公司帐户。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -256,6 +256,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 | [!UICONTROL Outstanding Balance] | 公司帐户中的未清余额。 如果公司没有信用记录，并且信用限额为零，则该列为空。 |
 | [!UICONTROL Company Admin] | 公司管理员的名字和姓氏。 |
 | [!UICONTROL Job Title] | 公司管理员的职务。 |
+| [!UICONTROL Work Phone Number] | 公司管理员的工作电话号码。 |
 | [!UICONTROL Email] | 公司管理员的电子邮件地址。 |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** — 在编辑模式下打开公司帐户。 |
 
@@ -347,9 +348,10 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 #### [!UICONTROL Company Admin]
 
 | 字段 | 描述 |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | 为公司帐户设置[网站范围](../getting-started/websites-stores-views.md)。 默认为&#x200B;*[!UICONTROL Main Website]*。 |
 | [!UICONTROL Job Title] | 管理公司帐户的公司管理员的职务。 |
+| [!UICONTROL Work Phone Number] | 管理公司帐户的公司管理员的电话号码。 |
 | [!UICONTROL Email] | 公司管理员的电子邮件地址可以与公司电子邮件地址相同。 如果输入了不同的电子邮件地址，则除了公司帐户外，还会为公司管理员创建单独的个人帐户。 |
 | [!UICONTROL Prefix] | 如果适用，与公司管理员的姓名关联的前缀（如`Mr.`、`Ms.`、`Mrs.`或`Dr.`）。 根据配置，输入字段可能是文本字段或列表。 |
 | [!UICONTROL First Name] | 公司管理员的名字。 |
