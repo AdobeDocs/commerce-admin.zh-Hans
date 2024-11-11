@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功
 与Adobe Commerce版本2.4.8-beta1、2.4.7到2.4.7-p2、2.4.6到2.4.6-p7兼容
 
 B2B v1.5.0版本包括新增功能、质量改进和错误修复。
+
+>[!NOTE]
+>
+> 通过查看[向后不兼容的更改](backward-incompatible-changes.md)主题中的亮点和参考信息，了解B2B 1.5.0版本中引入的向后不兼容更改(BIC)。
 
 ### 公司管理
 
