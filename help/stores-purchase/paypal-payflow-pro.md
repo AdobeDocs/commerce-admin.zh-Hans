@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: 了解如何在您的商店中将PayPal Payflow Pro设置为在线支付解决方案。
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 1. 输入以下凭据之一，用于登录到PayPal商家帐户：
 
    - **[!UICONTROL Partner]** — 您的PayPal合作伙伴ID。
-   - **[!UICONTROL User]** — 在您的PayPal帐户中设置的另一个用户的ID。
-   - **[!UICONTROL Vendor]** — 您的PayPal用户登录名。
+   - **[!UICONTROL User]** — 如果您在帐户中设置了一个或多个其他用户，则此值是有权处理交易的用户的ID。 但是，如果尚未设置其他用户，**[!UICONTROL USER]**&#x200B;与&#x200B;**[!UICONTROL Vendor]**&#x200B;的值相同。
+   - **[!UICONTROL Vendor]** — 您在注册帐户时创建的商家登录ID。
 
 1. 输入与您的PayPal帐户关联的&#x200B;**[!UICONTROL Password]**。
 
