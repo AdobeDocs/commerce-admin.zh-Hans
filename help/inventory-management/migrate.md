@@ -3,7 +3,7 @@ title: “[!DNL Commerce]升级”
 description: 了解Adobe Commerce和Magento Open Source升级如何影响目录和 [!DNL Inventory Management] 配置。
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -72,5 +72,5 @@ MCOM为高级全渠道订单管理、全球库存和多源、从商店到仓库�
 
 有关完整的详细信息，请参阅[安装和更新](install-update.md)。
 
-[1]: https://omsdocs.magento.com/
-[2]: https://omsdocs.magento.com/en/getting-started/feature-list/
+[1]: https://commerce-docs.github.io/oms-documentation-archive/
+[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/
