@@ -2,7 +2,7 @@
 title: 库存和来源
 description: 了解产品、来源和库存之间的关系。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Sales Channel表示销售您的库存的实体，包括网站、商店视图、B
 
 观看此视频，了解Inventory management资源和库存：
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

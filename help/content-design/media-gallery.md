@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: 使用介质集来组织和管理服务器上的介质文件。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -64,13 +64,13 @@ ht-degree: 0%
 
      ![将图像拖到舞台](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - 如果您启用了[WYSIWYG编辑器](/help/content-design/editor.md)，请单击&#x200B;**[!UICONTROL Show/Hide Editor]**，然后单击&#x200B;**[!UICONTROL Insert Image]**。
+   - 如果您已启用[WYSIWYG编辑器](/help/content-design/editor.md)，请单击&#x200B;**[!UICONTROL Show/Hide Editor]**，然后单击&#x200B;**[!UICONTROL Insert Image]**。
 
 ## [!DNL Media Gallery]演示
 
 要了解有关[!DNL Media Gallery]的更多信息，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

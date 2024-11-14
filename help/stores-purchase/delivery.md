@@ -3,9 +3,9 @@ title: 运输和交付
 description: 了解您可以向客户提供的对各种交付方法和运输公司的支持。
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于Temando关闭，2.4.0中移除了对[!DNL Magento Shipping]的支持。有关Commerce中新配送实施的详细状态信息和建议，请参阅[产品信息](https://business.adobe.com/products/magento/shipping.html){：target=&quot;_blank&quot;}页面。
+>由于Temando关闭，2.4.0中移除了对[!DNL Magento Shipping]的支持。有关Commerce中新配送实施的详细状态信息和建议，请参阅[产品信息](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}页面。
 
 ## 基本投放方法
 
@@ -40,4 +40,4 @@ Adobe Commerce和Magento Open Source支持多种交付方法和航运运营商�
 
 您可以通过观看以下视频了解配送和交货方法：
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

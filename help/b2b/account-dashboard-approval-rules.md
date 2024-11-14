@@ -4,7 +4,7 @@ description: 了解采购订单审批规则以及公司管理员如何在店面�
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -150,4 +150,4 @@ ht-degree: 0%
 
 观看以下视频，了解采购订单的批准：
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)

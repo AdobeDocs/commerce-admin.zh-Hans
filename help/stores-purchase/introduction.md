@@ -2,7 +2,7 @@
 title: 商店和购买体验简介
 description: 了解用于构建和管理在线商店的功能以及客户的购买体验。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Commerce和Magento Open Source通过在提交订单之前自动验证所�
 
 通过观看以下视频了解卖家辅助购物：
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## 订单管理和操作
 

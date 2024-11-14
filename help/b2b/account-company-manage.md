@@ -3,7 +3,7 @@ title: 管理公司帐户
 description: 了解如何使用公司页面和网格中可用的工具管理Adobe Commerce商店的公司帐户。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 通过观看以下视频，您可以了解有关管理公司帐户的信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 公司管理
 

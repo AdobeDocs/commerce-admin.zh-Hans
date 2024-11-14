@@ -3,7 +3,7 @@ title: “[!DNL Page Builder]模板”
 description: 了解如何将现有 [!DNL Page Builder] 内容另存为模板，然后将该模板应用于其他区域。
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ _应用模板_&#x200B;网格和&#x200B;_模板_&#x200B;页面网格提供了两�
 
 观看以下视频，了解页面生成器内容模板：
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

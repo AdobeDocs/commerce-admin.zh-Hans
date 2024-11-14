@@ -3,7 +3,7 @@ title: 内容暂存
 description: 内容暂存使您的业务团队能够直接从管理员轻松创建、预览和计划存储的各种内容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 要了解内容暂存，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## 资源疑难解答
 

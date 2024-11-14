@@ -3,7 +3,7 @@ title: 布局 — 列
 description: 了解“列”内容类型，该内容类型用于将页面在 [!DNL Page Builder] 阶段划分为多个列。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用[!DNL Columns]容器优化页面布局：
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## 列工具箱
 

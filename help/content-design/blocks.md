@@ -2,7 +2,7 @@
 title: 内容块
 description: 块可用于显示固定信息（如文本、图像和嵌入的视频）和动态信息。
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -21,6 +21,6 @@ _块_&#x200B;是内容的一个模块化单元，可以放置在页面上最接�
 
 通过观看此视频了解静态和[动态块](dynamic-blocks.md)：
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/
