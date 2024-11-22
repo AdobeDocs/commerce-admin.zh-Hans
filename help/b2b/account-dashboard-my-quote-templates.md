@@ -1,28 +1,28 @@
 ---
-title: “[!UICONTROL My Quote Templates]”
-description: 了解报价模板的客户体验，该体验可在店面帐户信息板中获取。
+title: '[!UICONTROL My Quote Templates]'
+description: 了解店面客户仪表板中提供的客户报价模板体验。
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
 
-
 # [!UICONTROL My Quote Templates]
 
-如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes Template]_部分将列出与客户帐户关联的所有报价模板。 根据他们的权限，只有代表公司进行采购的采购员才能请求报价模板，并协商报价定价和重复订单条款。
+如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes Template]_部分将列出与客户帐户关联的所有报价模板。 根据他们的权限，只有代表公司进行购买的购买者才能请求报价模板并协商重复订单的报价定价和条款。
 
 ![我的报价模板](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
 报价模板列表按状态组织模板。
 
-- **[!UICONTROL Active Quote Templates]**&#x200B;列出了已协商并批准使用的模板。 信息包括最小报价总额和下达的订单（如果在洽谈流程中配置了这些选项）。 买方可以从模板生成链接报价，以根据报价条款提交订单。
+- **[!UICONTROL Active Quote Templates]**&#x200B;列出了已协商并批准使用的模板。 此信息包括最小报价总额和订购单（如果这些选项是在洽谈过程中配置的）。 采购员可以从模板生成链接报价，以根据报价条款提交订单。
 
-- **[!UICONTROL In Review]**&#x200B;在协商过程中列出模板，显示当前状态并提供链接以打开模板。
+- **[!UICONTROL In Review]**&#x200B;列出协商过程中的模板，显示当前状态并提供打开模板的链接。
 
-- **[!UICONTROL Inactive]**&#x200B;列出了已过期、已取消或因买方已用完允许的承诺订单数而不再有效的模板。
+- **[!UICONTROL Inactive]**&#x200B;列出了已过期、已取消或由于采购员已用完允许的已提交订单数而不再有效的模板。
 
 对于买方而言，*[!UICONTROL My Quotes Templates]*&#x200B;页面是谈判过程中买方与卖方之间所有通信的焦点。
 
@@ -41,10 +41,10 @@ ht-degree: 0%
    - 复查项目定价和更新。
    - 如果报价模板上配置了数量阈值，请调整最小值和最大值。
    - 跟踪来自[!UICONTROL Comments]和[!UICONTROL History]部分的协商进程。
-   - 对于仍在审阅的模板，买方可以通过删除项目来修改报价模板。
+   - 对于仍在审核的模板，采购员可以通过删除项目来修改报价模板。
    - 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商。
 
-  进行更改后，买方将模板退回给卖方进行审阅。
+  进行更改后，买方将模板返回给卖方进行复查。
 
 - 协商过程中的常规操作：
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 以下示例显示了一个报价模板，该模板已由买方更新并发送回卖方以供审阅。
 
-![报价模板的买方视图](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
+![报价模板采购员视图](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
 
-状态为`Submitted`的模板将被锁定，直到卖家审阅并更新模板并将其返回给买家。
+状态为`Submitted`的模板将被锁定，直到卖方审核并更新该模板并将其退回给买方为止。
 
 ## 创建报价模板
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save Address]**。
 
-买方添加地址后，他们将模板发回卖方进行审阅。 卖方提供运输和交货选项。 这些更新可能会影响协商报价的定价。 结账时将锁定送货选项。
+买方添加地址后，他们将模板发回卖方进行审阅。 卖方提供运输和交货选项。 这些更新可能会影响议定报价的定价。 结账时将锁定送货选项。
 
 ## 生成链接报价
 
@@ -113,8 +113,4 @@ ht-degree: 0%
 
 在报价模板页面中，单击&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
-报价模板已取消，报价状态更改为`Closed`。 已关闭的引号将保留在您的&#x200B;*[!UICONTROL Inactive]*&#x200B;引号列表中，并且仍然列在管理员的&#x200B;_[!UICONTROL Quote Templates]_网格中。
-
-
-
-
+报价模板已取消，报价状态更改为`Closed`。 已关闭的引号仍保留在&#x200B;*[!UICONTROL Inactive]*&#x200B;引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_网格中。
