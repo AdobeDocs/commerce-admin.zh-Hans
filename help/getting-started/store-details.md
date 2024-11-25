@@ -3,9 +3,9 @@ title: 商店详细信息
 description: 了解如何更新商店的基本信息。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ _[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通
 要获得有关排查国家/地区配置问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
 - [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [提供的国家/地区ID不存在](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -256,7 +255,7 @@ _[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通
 
 商店页脚中的&#x200B;_联系我们_&#x200B;链接是客户与您保持联系的简便方法。 客户可以填写表单以向您的商店发送消息。 标准[!DNL Commerce]安装显示默认的&#x200B;_联系我们_&#x200B;表单。 提交表单后，会显示感谢消息
 
-请务必了解，默认的“联系我们”表单是直接从代码而不是CMS页面呈现的。
+请务必了解，默认的“联系我们”表单是直接从代码而不是CMS页面渲染的。
 
 ![默认联系我们页面](./assets/page-contact-us-default.png){width="700"}
 

@@ -3,7 +3,8 @@ title: Commerce SaaS服务
 description: 了解可用于扩展Commerce店面功能的Commerce SaaS服务
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe提供Commerce服务、集成服务和数据工具的集合，以帮助商�
 
 ![搜索](../landing/assets/icon-magnify.svg){width="40"}**[实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**— 实施由AI支持的搜索工具，为B2C购物者提供更智能、更快和更相关的结果。
 
-![Thumbs-up](../landing/assets/icon-thumbs-up.svg){width="40"}**[产品Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**— 根据购物者行为、流行趋势、产品相似性等添加人工智能驱动的推荐。
+![Thumbs-up](../landing/assets/icon-thumbs-up.svg){width="40"}**[产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**— 根据购物者行为、流行趋势、产品相似性等添加人工智能驱动的推荐。
 
 ![连接的服务的目录数据](../landing/assets/icon-data-book.svg){width="40"}**[目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**— 为客户提供优化的产品体验，同时提高性能、改善可扩展性和提高转化率。
 

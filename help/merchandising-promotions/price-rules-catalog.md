@@ -3,9 +3,9 @@ title: 目录价格规则
 description: 了解目录价格规则，这些规则可用于根据一组定义的条件以折扣价格向买方提供产品。
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ ht-degree: 0%
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用此选项根据规则状态（`Active`或`Inactive`）筛选列表。 |
 
 {style="table-layout:auto"}
-
-## 资源疑难解答
-
-有关目录价格规则问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
-
-- 执行目录价格规则计划更新后，[404商店前端出错](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [通过相关产品和目标规则改进了产品页面的性能](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [目录价格规则不起作用](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQL价格计算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

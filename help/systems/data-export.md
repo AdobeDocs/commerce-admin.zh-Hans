@@ -3,9 +3,9 @@ title: 导出数据
 description: 了解数据导出筛选器和属性，以及如何从存储导出数据。
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -93,5 +93,3 @@ ht-degree: 0%
 有关排查数据导出问题的帮助，请参阅以下Commerce支持知识库文章：
 
 - [导出的产品.csv文件未显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
-- [产品导出文件未显示在管理员中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
-- [以CSV格式导出订单时出现问题](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)

@@ -3,9 +3,9 @@ title: 联邦快递
 description: 了解如何将FedEx设置为您商店的运输运营商。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 步骤1：注册FedEx Web服务生产
 
-需要[FedEx商家帐户][1]并注册FedEx Web服务生产访问。 创建FedEx帐户后，阅读生产帐户信息页面，然后单击页面底部的&#x200B;_获取生产密钥_&#x200B;链接以注册并获取密钥。
+需要FedEx商家帐户并注册FedEx Web服务生产访问。 创建FedEx帐户后，阅读生产帐户信息页面，然后单击页面底部的&#x200B;_获取生产密钥_&#x200B;链接以注册并获取密钥。
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ ht-degree: 0%
    - 国内期权 — Express Saver、Ground、First、Onight、Home Delivery、Standard Onight
    - 国际选择 — 国际经济、国际经济货运、国际优先、国际地面、国际、优先国际
    - 优先级选项 — 运费，优先级隔夜
-   - Smart Post-If提供Smart Post方法（输入&#x200B;**中心ID**）
+   - 智能帖子提供智能帖子方法（输入&#x200B;**中心ID**）
    - 运费选项 — 运费，国家运费
 
 1. 如果要通过FedEx提供[免运费](shipping-free.md)选项，请设置免运费选项。
@@ -159,5 +159,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >在计算运费时，Commerce始终会向联邦快递申报全部订单价格。 此行为无法更改。
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

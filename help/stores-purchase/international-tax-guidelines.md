@@ -3,9 +3,9 @@ title: 按国家/地区列出的税务指南
 description: 根据国家/地区审核建议的税务设置。
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->位于GST/PST省（蒙特利尔）的商家应创建一个税则并显示合并税额。 如有任何问题，请务必咨询符合条件的税务机关。 有关特定省份的税务要求的信息，请参阅以下内容：[魁北克省收入][1]、[萨斯喀彻温政府][2]和[供应商的马尼托巴信息][3]
+>位于GST/PST省（蒙特利尔）的商家应创建一个税则并显示合并税额。 如有任何问题，请务必咨询符合条件的税务机关。
 
 | 税务期权 | 推荐 |
 |--- |--- |
@@ -411,14 +411,10 @@ ht-degree: 0%
 
       - 默认国家/地区
       - 默认状态
-      - 默认Post代码
+      - 默认邮政编码
 
      此设置可确保当产品价格含税时正确计算税款。
 
      ![默认纳税目标计算](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

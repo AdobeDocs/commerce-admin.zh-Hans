@@ -3,9 +3,9 @@ title: 类别概述
 description: 在将产品添加到商店之前，请定义目录的基本类别结构。
 exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,3 @@ ht-degree: 0%
 
 - [对类别的更改未保存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
 - [主菜单（类别）未显示在启用了Fastly的子页面上](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [类别中缺少产品，索引相关](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- 某些类别上[内存不足](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [产品和类别未显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

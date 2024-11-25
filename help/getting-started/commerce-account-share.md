@@ -3,7 +3,7 @@ title: 共享 [!DNL Commerce] 帐户
 description: 了解如何为其他 [!DNL Commerce] 帐户持有人授予您 [!DNL Commerce] 帐户的有限访问权限。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![支持](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   您可以使用共享帐户中的[Adobe Commerce帮助中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)来搜索文章和疑难解答信息、查找已知问题的修补程序以及创建支持工单。
+   您可以使用共享帐户中的[Adobe Commerce帮助中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)来搜索文章和疑难解答信息、查找已知问题的修补程序以及创建支持工单。
 
    >[!NOTE]
    >
-   >收到共享访问权限后，用户必须登录到其[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login)，导航到&#x200B;_共享访问权限_，然后单击&#x200B;**[!UICONTROL Support]**&#x200B;选项卡。 第一次需要执行此操作只是为了确保通过`SSO`调用正确配置了[Adobe Commerce支持知识库](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)。
+   >收到共享访问权限后，用户必须登录到其[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login)，导航到&#x200B;_共享访问权限_，然后单击&#x200B;**[!UICONTROL Support]**&#x200B;选项卡。 第一次需要执行此操作只是为了确保通过`SSO`调用正确配置了[Adobe Commerce支持知识库](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)。
 
 1. 若要返回您自己的帐户，请在浏览器控件中单击&#x200B;**返回**，并将&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;设置为`My Account`。
 
@@ -113,11 +113,11 @@ ht-degree: 0%
    > 
    > 如果是这样，请要求帐户所有者修改共享访问帐户以清除帐户权限。 在该更新之后，用户无法访问任何帐户资源。
    >
-   > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL Delete User]**。
 
 >[!NOTE]
 >
->您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users)。
+>您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。

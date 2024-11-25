@@ -3,9 +3,9 @@ title: 订购
 description: 了解订单工作区和用于在Admin中查找订单的搜索功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-process
 有关排查订单问题的帮助，请参阅以下Commerce支持知识库文章：
 
 - [订单显示错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal重复订单10415错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [新订单已发送到存档](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [订单未显示在Admin的“订单”网格中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [订单状态 — 通过REST API创建的装运不正确](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

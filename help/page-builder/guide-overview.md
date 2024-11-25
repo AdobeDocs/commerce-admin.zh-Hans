@@ -4,9 +4,9 @@ description: 有关Adobe Commerce和Magento Open Source管理员的 [!DNL Page B
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: fa4030d391fc9a3b21cf8fb6f681df9e9165157d
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,3 @@ ht-degree: 0%
 有关对[!DNL Page Builder]问题进行故障排除的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
 - 保存DotDigital [!DNL Page Builder] 表单时[页面为空](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
-- [[!DNL Page Builder] 未加载媒体集](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-12/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.html)
-- [[!DNL Page Builder] 预览折扣产品价格因网站而异](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.html)
-- [无法保存术语页](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.html)
