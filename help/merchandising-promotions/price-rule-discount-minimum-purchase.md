@@ -1,20 +1,20 @@
 ---
-title: 购物车价格规则示例 — 具有最小购买量的折扣
-description: 查看使用购物车价格规则提供最低购买折扣的示例。
+title: 购物车价格规则示例 — 具有最低产品价格的折扣
+description: 查看使用购物车价格规则提供具有最低产品价格的折扣的示例。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 购物车价格规则示例 — 具有最小购买量的折扣
 
-可使用购物车价格规则根据最低购买提供百分比折扣。 在以下示例中，25%的折扣适用于特定类别中超过$200.00的所有购买。 折扣格式如下：
+可使用购物车价格规则根据购物车中的最低产品价格提供百分比折扣。 在以下示例中，当至少将一个指定类别中价格超过$30.00的产品添加到购物车时，会将10%的折扣应用于整个购物车中的所有产品。 折扣格式如下：
 
-所有Y（类别）在Z美元以上有X%优惠
+当至少1件产品来自Y类别时，可享有X%的购物车折扣，且价格超过Z美元。
 
 ## 步骤1. 创建购物车规则
 
