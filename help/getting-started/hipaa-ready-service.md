@@ -3,9 +3,9 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 ## 系统要求
 
-Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Commerce Managed Services的2.4.6-p3或更高版本（无测试版）上。
+Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Commerce Managed Services的2.4.6-p3 - 2.4.6-p8版本（无测试版）上。
 
 ## 安装
 
