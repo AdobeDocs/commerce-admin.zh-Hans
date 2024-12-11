@@ -3,9 +3,9 @@ title: 目录图像和视频
 description: 了解如何使用数字媒体增强目录产品页面并为客户提供可视化图表。
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,5 @@ ht-degree: 0%
 要获得有关图像和视频问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
 - [安装后，不加载图像和样式表；只显示文本，不加载图形](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [尽管具有“产品编辑”图像角色，产品图像仍不会显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [部署后未显示存储映像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

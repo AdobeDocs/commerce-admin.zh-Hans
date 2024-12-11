@@ -3,7 +3,7 @@ title: Adobe Stock集成
 description: 将Adobe Stock与您的 [!DNL Commerce] 实例集成，以访问要在商店中使用的无数媒体资源。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![Adobe Stock搜索结果](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的照片、矢量、插图、视频、模板和3D资产，供其所有创意项目使用。 [!DNL Commerce]用户能够快速查找、预览和许可Adobe Stock资源。 用户还可以将它们保存到[媒体存储][media-storage]，所有这些操作无需离开管理员工作区。
+Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的照片、矢量、插图、视频、模板和3D资产，供其所有创意项目使用。 [!DNL Commerce]用户能够快速查找、预览和许可Adobe Stock资源。 用户还可以将它们保存到[媒体存储](./media-storage.md)，所有这些操作无需离开管理员工作区。
 
 ## 先决条件
 
@@ -97,6 +97,5 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
