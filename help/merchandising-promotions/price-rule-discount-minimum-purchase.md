@@ -3,14 +3,14 @@ title: 购物车价格规则示例 — 具有最低产品价格的折扣
 description: 查看使用购物车价格规则提供具有最低产品价格的折扣的示例。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 购物车价格规则示例 — 具有最小购买量的折扣
+# 购物车价格规则示例 — 具有最低产品价格的折扣
 
 可使用购物车价格规则根据购物车中的最低产品价格提供百分比折扣。 在以下示例中，当至少将一个指定类别中价格超过$30.00的产品添加到购物车时，会将10%的折扣应用于整个购物车中的所有产品。 折扣格式如下：
 
