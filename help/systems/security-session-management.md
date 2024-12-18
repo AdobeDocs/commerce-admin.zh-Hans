@@ -4,9 +4,9 @@ description: 了解如何配置会话管理以保护管理员和店面。
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Adobe Commerce和Magento Open Source允许您验证会话变量，作为防止�
 
 1. 单击&#x200B;**[!UICONTROL Admin]**。
 
-1. 展开&#x200B;_[!UICONTROL Security]_部分的![扩展选择器](../assets/icon-display-expand.png)。
-
-1. 对于&#x200B;**[!UICONTROL Admin Session Lifetime (seconds)]**，输入会话在超时之前保持活动状态的秒数。
-
-   ![高级配置 — 管理员安全设置](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。##管理员会话生命周期
-
-作为安全措施，_管理员_&#x200B;最初设置为在键盘不活动达900秒（15分钟）后超时。 您可以调整会话的生命周期以适合您的工作方式。
-
-**_要调整管理员会话生命周期：_**
-
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
-
-1. 在左侧面板中向下滚动并展开&#x200B;**[!UICONTROL Advanced]**。
-
-1. 单击&#x200B;**[!UICONTROL Admin]**。
-
-1. 展开&#x200B;_安全性_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;**[!UICONTROL Security]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 对于&#x200B;**[!UICONTROL Admin Session Lifetime (seconds)]**，输入会话在超时之前保持活动状态的秒数。
 
