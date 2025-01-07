@@ -3,9 +3,9 @@ title: 您的管理员用户帐户
 description: 了解您的管理员帐户以及如何使用双重身份验证登录到管理员。
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ _[!UICONTROL Sign In]_页面显示您已注销的消息。 无论何时让计算
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## 维护对管理员的安全访问
+
+为确保管理员的安全，请定期对具有管理员访问权限的用户和角色进行审核。
+
+此外，考虑[更新Admin Base URL配置](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)以将默认`/admin`端点更改为自定义路径。 配置自定义路径具有以下安全优势：
+
+**增强的安全性**：默认“管理员”路径广为人知，且经常被恶意行为者以暴力攻击为目标。 通过将其更改为唯一的自定义值，您可以显着降低未经授权访问尝试的风险。
+
+**漏洞减少**：自动机器人经常扫描常见路径（如“管理员”）以利用漏洞。 自定义路径使这些机器人更难找到您的管理员登录页面，从而降低受到攻击的可能性。
+
+**已改进隐私**：自定义管理员路径添加了一个额外的遮蔽层，使潜在攻击者更难识别和定位您的管理员登录页面。
+
+**遵循最佳实践**：遵循安全最佳实践（如自定义管理员路径）可展示一种主动保护电子商务网站和客户数据的方法。
+
+>[!NOTE]
+>
+>如果怀疑存在入侵，请确保删除所有未知的管理员用户，并重置所有管理员密码，然后查看[安全行动计划](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)以了解后续步骤。
