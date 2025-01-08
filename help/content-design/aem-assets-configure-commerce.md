@@ -3,9 +3,9 @@ title: 安装和配置Experience Manager Assets集成
 description: 了解如何在Adobe Commerce实例上安装和配置 [!DNL AEM Assets Integration for Adobe Commerce] 。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ ht-degree: 0%
 
 **配置要求**
 
-- 必须将Adobe Commerce配置为使用[Adobe IMS身份验证](/help/getting-started/adobe-ims-config.md)。
 - 帐户配置和权限
    - [Commerce cloud项目管理员](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) — 安装所需的扩展，并通过管理员或命令行配置Commerce应用程序服务器
    - [Commerce管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) — 更新商店配置并管理Commerce用户帐户
+
+>[!TIP]
+>
+> Adobe Commerce可以配置为使用[Adobe IMS身份验证](/help/getting-started/adobe-ims-config.md)。
 
 ## 配置概述
 
@@ -186,6 +189,44 @@ AEM Assets集成使用Adobe I/O事件服务在Commerce实例和Experience Cloud�
    ![Adobe I/O事件Commerce管理员配置 — 启用Commerce事件](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. 在&#x200B;**[!UICONTROL Merchant ID]**&#x200B;字段中输入商家公司名称，在&#x200B;**[!UICONTROL Environment ID]**&#x200B;字段中输入环境名称。 设置这些值时只能使用字母数字字符和下划线。
+
+>[!BEGINSHADEBOX]
+
+**配置自定义VCL以阻止请求**
+
+如果使用自定义VCL代码片段阻止未知传入请求，则可能需要包含HTTP标头`X-Ims-Org-Idheader`，以允许来自Commerce的AEM Assets集成的传入连接。
+
+>[!TIP]
+>
+> 您可以使用Fastly CDN模块创建一个包含要阻止的IP地址列表的Edge ACL。
+
+以下自定义VCL代码片段（JSON格式）显示了`X-Ims-Org-Id`请求标头的示例。
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+在基于此示例创建代码片段之前，请查看值以确定是否需要进行任何更改：
+
+- `name`： VCL代码片段的名称。 在此示例中，我们使用了名称`blockbyuseragent`。
+
+- `dynamic`：设置代码片段版本。 在此示例中，我们使用了`0`。 有关详细的数据模型信息，请参阅[Fastly VCL代码片段](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)。
+
+- `type`：指定VCL代码片段的类型，该类型确定代码片段在生成的VCL代码中的位置。 在本例中，我们使用了`recv`，请查看代码片段类型列表的[Fastly VCL代码片段引用](https://docs.fastly.com/api/config#api-section-snippet)。
+
+- `priority`：确定VCL代码片段的运行时间。 此示例使用优先级`5`立即运行并检查管理员请求是否来自允许的IP地址。
+
+- `content`：要运行的VCL代码片段，用于检查客户端IP地址。 如果IP位于Edge ACL中，则会阻止其访问，并显示整个网站的`405 Not allowed`错误。 允许访问所有其他客户端IP地址。
+
+有关使用VCL代码段阻止传入请求的详细信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于阻止请求的自定义VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)。
+
+>[!ENDSHADEBOX]
 
 ## 获取API访问的身份验证凭据
 
