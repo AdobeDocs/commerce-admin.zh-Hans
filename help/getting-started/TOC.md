@@ -5,9 +5,9 @@ breadcrumb-title: 快速入门
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [共享您的帐户](commerce-account-share.md)
    + [转移帐户](commerce-account-transfer.md)
 + 网站合规性{#compliance}
-   + [Adobe Commerce上的HIPAA准备工作](hipaa-ready-service.md)
+   + Adobe Commerce{#hipaa-ready-service}上的HIPAA准备就绪
+      + [概述](hipaa/overview.md)
+      + [作战指南](hipaa/operations.md)
    + 隐私{#privacy}
       + [存储隐私策略](privacy-policy.md)
       + [CCPA合规性](compliance-ccpa.md)

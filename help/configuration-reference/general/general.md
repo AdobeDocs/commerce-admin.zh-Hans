@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL General]'
 description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL General]页面上的配置设置。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ ht-degree: 0%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，将隐藏配置作用域框和相关字段标签选项： `Yes` / `No` <br/>**_注意：_**对于具有多个视图的存储区，将忽略单存储模式。<br/>启用单商店模式会将所有目录和产品商店特定数据从默认商店视图复制到所有商店视图范围。 如果该商店只有一个商店审核，则它仅会复制目录和产品数据。 如果存储有一个禁用了的存储和一个启用的存储，则它将不会复制目录和产品数据。<br/>启用单存储模式会忽略特定于内容的数据的存储审核特定配置设置。 而是使用在全局级别范围中定义的配置设置，以确保管理员UI与店面之间的一致性。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![常规>数据服务](./assets/general-data-services.png)<!-- zoom -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | 全局 | 如果您是医疗保健客户，并且安装了[数据服务HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation)扩展，则默认情况下会关闭此配置。 因此，将不再捕获Live Search和产品Recommendations使用的店面事件数据。 这是因为店面事件数据是在客户端生成的。 要继续捕获和发送店面事件数据以供[实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)服务使用，请将&#x200B;**已启用Commerce事件**&#x200B;设置为`Yes`。 |
 
 {style="table-layout:auto"}
