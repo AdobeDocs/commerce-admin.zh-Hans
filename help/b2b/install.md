@@ -4,9 +4,9 @@ description: 了解如何安装 [!DNL Adobe Commerce B2B] 中继包。
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
+source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Commerce B2B扩展`magento/extension-b2b`适用于所有受支持的Adobe 
 ## 要求
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)，所有支持的版本
-- PHP 8.1和8.2
+- PHP 8.1、8.2和8.3（需要B2B 1.5.0）
 - [!DNL Composer]
 
 >[!IMPORTANT]
@@ -187,7 +187,7 @@ Adobe Commerce B2B扩展使用MySQL进行消息队列管理。 下表列出了�
 
 - `--max-messages <value>` — 指定每个使用者在终止前必须处理的最大消息数(默认值= 10000)。 虽然Adobe不建议这样做，但您可以使用0来阻止使用者终止。 PHP应用程序的最佳做法是重新启动长时间运行的进程，以防止可能的内存泄漏。
 
-- `--batch-size <value>` — 允许您限制使用者使用的系统资源（CPU、内存）。 使用较小的批会减少资源用量，因此会导致处理速度变慢。  如果指定，则队列中的消息将以`<value>`批次（每批）使用。 此选项仅适用于批处理消费者。 如果未定义`--batch-size`，则批处理使用者将接收队列中的所有可用消息。
+- `--batch-size <value>` — 允许您限制使用者使用的系统资源(CPU、内存)。 使用较小的批会减少资源用量，因此会导致处理速度变慢。  如果指定，则队列中的消息将以`<value>`批次（每批）使用。 此选项仅适用于批处理消费者。 如果未定义`--batch-size`，则批处理使用者将接收队列中的所有可用消息。
 
 有关其他配置选项的信息，请参阅[特定配置](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration)。
 

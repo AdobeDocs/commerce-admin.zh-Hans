@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
+source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
 workflow-type: tm+mt
-source-wordcount: '7801'
+source-wordcount: '7820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功
 *2024年10月30日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"}
-与Adobe Commerce版本2.4.8-beta1、2.4.7到2.4.7-p2、2.4.6到2.4.6-p7兼容
+与Adobe Commerce版本2.4.8-beta1、2.4.7到2.4.7-p2、2.4.6到2.4.6-p7兼容。
+
+Adobe Commerce B2B版本1.5.0也与PHP 8.3兼容，并支持[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
