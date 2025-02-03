@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 ![新建](../assets/new.svg)<!--B2B-2747--> **公司范围选择器** — 为分配到多个公司的公司用户提供更改店面公司的功能。 当范围被切换时，数据会更新以根据新的公司上下文显示信息。 例如，如果新公司使用不同的共享目录，则公司用户会根据新的共享目录查看产品、价格和其他信息。 与订单、报价和报价模板相关的内容也会根据所选公司的上下文进行更新。
 
 >[!NOTE]
->
->如果公司用户将购物车中具有商品的公司切换为其他公司，请更新购物车，以根据新的公司上下文反映产品分类、定价和促销折扣。
+>购物车内容反映当前客户选择的项目。 如果客户拥有活动的购物车并选择不同的公司，系统会提示他们更新购物车，以反映基于新公司上下文的产品分类、定价和促销折扣。 将从购物车中删除与新公司关联的目录中不可用的产品。 如果产品具有不同的价格或可用性，购物车将更新以反映所选公司上下文中的可用数据。<!--B2B-4222-->
 
 ![已修复问题](../assets/fix.svg)<!--ACP2E-1933-->公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
 
