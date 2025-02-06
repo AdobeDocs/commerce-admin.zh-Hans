@@ -3,7 +3,7 @@ title: 安装和配置Experience Manager Assets集成
 description: 了解如何在Adobe Commerce实例上安装和配置 [!DNL AEM Assets Integration for Adobe Commerce] 。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # 安装和配置适用于Commerce的AEM Assets集成
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 通过安装`aem-assets-integration` PHP扩展，准备Commerce环境以使用适用于Commerce的AEM Assets集成。 然后，更新管理员配置以启用Adobe Commerce和AEM Assets之间的通信和工作流。
 

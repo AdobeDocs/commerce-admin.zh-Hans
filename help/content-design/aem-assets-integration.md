@@ -3,7 +3,7 @@ title: 适用于Commerce的Experience Manager Assets集成
 description: 了解如何将Experience Manager Assets与您的 [!DNL Commerce] 实例集成，以访问要在您的商店中使用的无数媒体资源。
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # 适用于Commerce的Experience Manager Assets集成
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Commerce的Experience Manager Assets集成将AEM as a Digital Asset Management (DAM)系统的强大功能与Adobe Commerce整合在一起，以增强电子商务体验。 要提供这些功能，需要将Commerce项目连接到AEM强大的资产管理环境，以便提供一种无缝、可扩展且高效的方式来跨商业商店管理和交付资产。
 

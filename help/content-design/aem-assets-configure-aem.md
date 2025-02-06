@@ -3,7 +3,7 @@ title: 配置Experience Manager Assets
 description: 添加启用Commerce的AEM Assets集成所需的资源元数据，以便在Adobe Commerce和Experience Manager Assets项目之间同步资源。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # 配置Experience Manager Assets
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 通过更新环境配置并配置AEM as a Cloud Service元数据来标识和管理Commerce资源，从而准备Assets环境以管理Commerce资源。
 
