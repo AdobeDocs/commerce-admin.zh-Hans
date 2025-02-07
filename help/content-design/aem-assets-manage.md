@@ -3,9 +3,9 @@ title: 使用AEM Assets
 description: 使用AEM Assets管理您的商店媒体资源。
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,19 @@ ht-degree: 0%
 - [正在重新处理数字资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
 - [批准资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+
+## 管理类别
+
+启用和配置AEM Assets集成后，您可以将资源添加到目录类别内容中：
+
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，导航到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
+
+1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)。
+
+   ![类别内容](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+
+1. 要在页面顶部显示&#x200B;**[!UICONTROL Category Image]**，请单击&#x200B;**[!UICONTROL Select from Assets]**&#x200B;以使用您的AEM Assets文件夹中的图像。
+
+1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;并继续。
+
+   有关创建类别的详细信息，请参阅[完成类别内容](../catalog/category-create.md#step-3-complete-the-category-content)。

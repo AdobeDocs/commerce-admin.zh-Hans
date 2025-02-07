@@ -3,9 +3,9 @@ title: 创建类别
 description: 您可以根据配置中设置的最大菜单深度，根据需要创建任意数量的其他子类别。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 0%
 
    - 若要使用媒体存储中的图像，请单击&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;并选择要表示该类别的图像。
 
+   在媒体集内，您还可以通过单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;使用[Adobe Stock集成](../content-design/adobe-stock.md)来查找合适的图像。
+
    >[!NOTE]
    >
-   >在媒体集内，您还可以通过单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;使用[Adobe Stock集成](../content-design/adobe-stock.md)来查找合适的图像。
+   > 如果您已启用AEM Assets，请参阅[管理类别](../content-design/aem-assets-manage.md)以了解更多信息。
 
 1. 对于&#x200B;**[!UICONTROL Description]**，输入要显示在类别登录页面上的文本或其他内容。
 
