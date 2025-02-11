@@ -3,16 +3,16 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Commerce B2B]发行说明
 
-B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功能和修复，包括：
+这些B2B扩展发行说明捕获了Adobe在发行周期中添加的额外功能和修复，包括：
 
 ![新](../assets/new.svg)新功能
 ![已修复问题](../assets/fix.svg)修复和改进
@@ -22,6 +22,34 @@ B2B扩展的这些发行说明捕获了Adobe在发行周期中添加的额外功
 >
 >有关可用Adobe Commerce版本支持的B2B Commerce扩展版本的信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
 
+## B2B 1.5.1
+
+*2025年2月11日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+与Adobe Commerce版本2.4.8-beta1到2.4.8-beta2、2.4.7到2.4.7-p3、2.4.6到2.4.9-p8兼容
+
+B2B v1.5.1版本包括质量改进和错误修复。
+
+### 公司
+
+![已修复问题](../assets/fix.svg)<!-- B2B-4422 -->如果客户尝试在Quote Details页面上切换公司，系统现在会将客户重定向到&#x200B;*访问被拒绝*&#x200B;页面，以确保为一家公司创建的报价不能用于根据另一家公司的价格下订单。 以前，用户可以使用一家公司的价格创建报价，然后切换到另一家公司，以不同的价格下订单。
+
+### 行项目折扣
+
+![修复了问题](../assets/fix.svg)<!-- B2B-2938 -->通过解决报价重新计算方案中出现的性能下降问题提高了系统效率。 以前，向每个购物车行项目添加两个新实体，这会显着增加数据库请求，导致性能变慢。
+
+### 可协商的报价
+
+![修复了问题](../assets/fix.svg)<!-- B2B-3820 -->在将JavaScript验证应用于Luma Storefront报价模板页面上的&#x200B;*[!UICONTROL min/max qty]*&#x200B;字段时，系统现在会保留UI元素的位置。 以前，将JavaScript验证应用于这些字段会导致页面上的其他UI元素发生偏移。
+
+### 购物车
+
+![已修复问题](../assets/fix.svg)<!-- B2B-4222 -->引入了新的购物车管理系统，旨在为管理多个公司帐户的用户简化购物体验。 新系统将购物车与单个公司而不是客户帐户关联起来，以简化购物体验并通过支持以下功能改进工作流程。
+
+- **特定于公司的购物车：** — 购物车现在链接到各个公司，以支持特定于公司的定价和产品选项。
+- **无缝切换** — 用户可以轻松地在不同公司帐户之间切换，而不会影响每个公司的购物车内容。
+- **上下文完整性** — 所有购物车详细信息都保留在各自公司的上下文中，从而提供一致可靠的购物体验。
 
 ## B2B 1.5.0
 
@@ -192,7 +220,7 @@ B2B v1.4.1版本包括质量改进和错误修复。
 
 ![修复了问题](../assets/fix.svg)在启用“采购订单”选项并选择使用PayPal付款选项创建的虚拟报价单后，Adobe Commerce现在会在付款期间显示正确的详细信息。 以前，在这些条件下，总数显示为零。
 
-![修复了问题](../assets/fix.svg) <!--ACP2E-1504-->当您尝试保存信用额度超过999的公司时，不会再出现验证错误。 以前，对于大于999的公司信用限制，Adobe商务插入逗号分隔符，这会导致验证错误，阻止保存更新。
+![修复了问题](../assets/fix.svg) <!--ACP2E-1504-->当您尝试保存信用额度超过999的公司时，不会再出现验证错误。 以前，对于大于999的公司信用限制，Adobe Commerce插入逗号分隔符，这会导致验证错误，进而阻止保存更新。
 
 ![已修复问题](../assets/fix.svg) <!--ACP2E-1474-->现在，当您使用可转让报价下订单时，所选的送货地址保持不变。 以前，在您下订单时，选定的送货地址已更改为默认送货地址。
 
@@ -328,7 +356,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg) <!--- MC-41985-->在具有100,000多个公司角色的部署中，从Adobe Commerce 2.3.x升级到Adobe Commerce 2.4.x所需的时间已大大减少。
 
-![已修复问题](../assets/fix.svg) <!--- MC-42153-->启用&#x200B;**[!UICONTROL Payment on Account]**&#x200B;付款方法后，POST`V1/order/:orderId/invoice`请求现在支持创建部分发票。 以前，Adobe Commerce引发此错误： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![已修复问题](../assets/fix.svg) <!--- MC-42153-->启用&#x200B;**[!UICONTROL Payment on Account]**&#x200B;付款方式后，POST `V1/order/:orderId/invoice`请求现在支持创建部分发票。 以前，Adobe Commerce引发此错误： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![已修复问题](../assets/fix.svg) <!--- MC-41975-->当客户的购物车包含其他产品时，PayPal Payflow Pro现在可与B2B可协商报价一起按预期工作。 Adobe Commerce现在可成功处理订单，并按预期向客户发送电子邮件。 以前，Adobe Commerce会引发致命错误，并向客户发送一封包含零值的确认电子邮件。
 
@@ -438,7 +466,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ### 申请列表
 
-![已修复问题](../assets/fix.svg) <!--- MC-40426-->商户现在可以使用POST`rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
+![已修复问题](../assets/fix.svg) <!--- MC-40426-->商家现在可以使用POST `rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
 
 ![已修复问题](../assets/fix.svg) <!--- MC-41123-->当购物车还包含缺货产品时，购物车的缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_按钮。
 
@@ -458,7 +486,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg) <!--- MC-41337-->分层导航结果现在包含具有过滤属性的产品的准确计数，购物者现在可以应用多个过滤器。 以前，只能应用一个过滤器，因此Adobe Commerce在分层导航中显示不准确的产品计数。
 
-![已修复问题](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce现在在搜索结果中的分层导航筛选器中正确显示产品计数。 以前，“搜索结果”页的插件不使用Elasticsearch，而是向数据库发出新查询。
+![已修复问题](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce现在在搜索结果中的分层导航筛选器中正确显示产品计数。 以前，“搜索结果”页面的插件不使用Elasticsearch，而是向数据库发出新查询。
 
 ![修复了问题](../assets/fix.svg) <!--- MC-39978-->当商家从默认共享目录中删除所有产品时，Adobe Commerce不再删除层价。
 
@@ -582,7 +610,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg) B2B功能配置选项卡现在可正确打开。 <!--- MC-35458-->来宾现在可以使用QuickOrder将产品添加到购物车，然后成功删除项目。 以前，当购物者使用QuickOrder将多个产品添加到购物车，然后移除产品时，产品未被移除。<!--- MC-35327-->
 
-![已修复问题](../assets/fix.svg)现在可以使用REST APIPUT`/V1/company/:companyId`请求更新公司，而无需在状态配置为&#x200B;**不需要**&#x200B;时指定`region_id`。 以前，即使不需要`region_id`，如果未指定，Adobe Commerce也会引发错误。<!--- MC-35304-->
+![已修复问题](../assets/fix.svg)当状态配置为&#x200B;**不需要**&#x200B;时，现在可以使用REST API PUT `/V1/company/:companyId`请求更新公司，而无需指定`region_id`。 以前，即使不需要`region_id`，如果未指定，Adobe Commerce也会引发错误。<!--- MC-35304-->
 
 ![修复了问题](../assets/fix.svg)当您使用REST API （`http://magento.local/rest/V1/company/2`，其中`2`表示公司ID）创建或更新B2B公司时，响应现在按预期包含`applicable_payment_method`或`available_payment_methods`的设置。<!--- MC-35248-->
 
@@ -590,7 +618,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg)将新产品分配给公共共享目录后，类别权限不再更改。 以前，类别权限是重复的。<!--- MC-34386-->
 
-![修复了问题](../assets/fix.svg)用于更新公司电子邮件的REST API终结点PUT`rest/default/V1/company/{id}`不再区分大小写。<!--- MC-34308-->
+![修复了问题](../assets/fix.svg)用于更新公司电子邮件的REST API端点PUT `rest/default/V1/company/{id}`不再区分大小写。<!--- MC-34308-->
 
 ![已修复问题](../assets/fix.svg)禁用奖励模块不再影响客户帐户上的B2B功能。 以前，在禁用奖励模块时，不会显示以下与B2B相关的选项卡：公司配置文件、公司用户以及角色和权限。<!--- MC-34191-->
 
@@ -632,7 +660,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 默认情况下，Adobe Commerce现在包括![New](../assets/new.svg)客户登录信息。 此功能允许站点员工通过以客户身份登录来协助客户查看他们看到的内容。
 
-![修复了问题](../assets/fix.svg)对于具有Elasticsearch的分层导航，属性聚合现在可以正常工作
+![修复了问题](../assets/fix.svg)属性聚合现在可以正确用于Elasticsearch的分层导航
 
 ![修复了问题](../assets/fix.svg)按特殊字符搜索订单现在可正常工作。
 
