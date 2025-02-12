@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
+source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
 workflow-type: tm+mt
-source-wordcount: '8177'
+source-wordcount: '8313'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,21 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 ![修复了问题](../assets/fix.svg) <!--ACP2E-1825-->在公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
 
+## B2B v1.4.2-p4
+
+*2025年2月11日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+![新](../assets/new.svg)添加了与Adobe Commerce 2.4.7-p4+和2.4.6-p9+安全修补程序版本的兼容性。
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B版本1.4.2+与PHP 8.2兼容。如果将Commerce实例升级到版本2.4.7+，请确保该实例使用PHP版本8.2来保持与Adobe Commerce B2B版本的兼容性。 此外，B2B 1.4.2+版本不支持[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+
+
 ## B2B v1.4.2-p3
 
 *2024年10月8日*
@@ -248,6 +263,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手动依赖项，可以为B2B安全包添加手动依赖项来解决此问题。 有关说明，请参阅[Adobe Commerce知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
 
+## B2B v1.3.5-p9
+
+*2025年2月11日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+![新](../assets/new.svg)添加了与Adobe Commerce 2.4.6-p9安全修补程序版本的兼容性。
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
+
 ## B2B v1.3.5-p8
 
 *2024年10月8日*
@@ -301,6 +326,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 ![已修复问题](../assets/fix.svg) <!--- ACP2E-2456-->当查询的类别没有明确设置的类别权限时，类别查询现在会根据商店配置设置返回产品价格。
 
 ![修复了问题](../assets/fix.svg) <!--- ACP2E-6829-->在用批准的报价请求完成购买时，**[!UICONTROL Place Order]**&#x200B;按钮现在可按预期工作。 可协商的报价`negotiableQuoteCheckoutSessionPlugin`插件的问题已得到解决。
+
+## B2B v1.3.4-p11
+
+*2025年2月11日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p11的支持。
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
 
 ## B2B v1.3.4-p10
 
