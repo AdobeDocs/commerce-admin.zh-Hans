@@ -3,7 +3,7 @@ title: 产品数据属性参考
 description: 在处理产品数据导入和导出时，请使用此产品数据属性的引用。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,10 +24,10 @@ ht-degree: 0%
 | `store_view_code` | 标识产品可用的特定商店视图。 如果留空，则产品在默认商店视图中可用。 例如： `storeview1`，`english`，`spanish` |
 | `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 创建产品后，便无法更改属性集。 例如： `default` |
 | `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单个单位或以固定数量出售的有形项目。<br/>`grouped` — 作为集合销售的一组单独产品。<br/>`configurable` — 客户在购买之前必须选择具有多个选项的产品。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小的组合与目录中的特定SKU相关联。<br/>`virtual` — 一种不需要装运且未保留在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle` — 可自定义的产品集，其中包含一起销售的简单产品。 |
-| `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道分隔每个路径 | 符号。 例如： `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道分隔每个路径\| 符号。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 提供产品的每个网站的网站代码。 单个产品可以分配给多个网站，也可以仅分配给一个网站。 如果指定多个网站，请用逗号分隔每个网站，不带空格。 例如： `base`或`base,website2` |
 | `name` | 产品名称出现在所有产品列表中，是客户用于标识产品的名称。 |
-| `description` | 产品描述提供了有关产品的详细信息，并且可能包括简单的HTML标签。 |
+| `description` | 产品描述提供了有关产品的详细信息，并且可能包括简单的HTML标记。 |
 | `short_description` | 简短的产品描述的使用取决于主题。 它可能会出现在产品列表中，有时用于发送到购物网站的RSS馈送列表。 |
 | `weight` | 单个产品的重量。 实际产品重量由承运人在发运时确定。 |
 | product_line | 确定产品是否可在商店中销售。 值： <br/>`1` — （是）产品已启用，可供销售。<br/>`2` — （否）该产品已禁用，不可销售。 |
