@@ -3,9 +3,9 @@ title: 创建和删除产品属性
 description: 了解如何创建和删除产品属性，这些属性用于描述目录中产品的特定特征。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
    | 属性 | 描述 |
    |--- |--- |
    | `Text Field` | 单行输入文本字段。 |
-   | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器设置带有HTML标记的文本格式，或者直接在文本中输入标记。 |
+   | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
    | `Text Editor` | 属性位置处具有完整功能的文本编辑器。 |
    | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意：_**根据您的系统配置，_管理员&#x200B;_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
@@ -63,6 +63,10 @@ ht-degree: 0%
 ## 步骤2：描述高级属性（如果需要）
 
 1. 以小写字符输入唯一&#x200B;**[!UICONTROL Attribute Code]**，且不含空格。
+
+   >[!NOTE]
+   >
+   >不建议在[!UICONTROL Attribute Code]字段中使用`type`值。 这可能会导致错误，因为`type`值已保留供系统使用。
 
    ![产品属性 — 高级属性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -126,7 +130,7 @@ ht-degree: 0%
 
 1. 要在价格规则中使用属性，请将&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;设置为`Yes`。
 
-1. 若要允许使用HTML设置文本格式，请将&#x200B;**[!UICONTROL Allow HTML Tags on Frontend]**&#x200B;设置为`Yes`。
+1. 若要允许使用HTML格式化文本，请将&#x200B;**[!UICONTROL Allow HTML Tags on Frontend]**&#x200B;设置为`Yes`。
 
    此设置使WYSIWYG编辑器可用于字段。
 
