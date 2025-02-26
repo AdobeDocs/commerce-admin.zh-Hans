@@ -3,9 +3,9 @@ title: 产品数据属性参考
 description: 在处理产品数据导入和导出时，请使用此产品数据属性的引用。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 |--- |--- |
 | `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_注意：_**超过64个字符的SKU会导致导入失败。 |
 | `store_view_code` | 标识产品可用的特定商店视图。 如果留空，则产品在默认商店视图中可用。 例如： `storeview1`，`english`，`spanish` |
-| `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 创建产品后，便无法更改属性集。 例如： `default` |
+| `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 例如： `default`<br><br>创建产品后，无法使用导入功能更改属性集。 但是，您可以从管理员更改属性集，并重新导出产品以更新CSV文件。 |
 | `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单个单位或以固定数量出售的有形项目。<br/>`grouped` — 作为集合销售的一组单独产品。<br/>`configurable` — 客户在购买之前必须选择具有多个选项的产品。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小的组合与目录中的特定SKU相关联。<br/>`virtual` — 一种不需要装运且未保留在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle` — 可自定义的产品集，其中包含一起销售的简单产品。 |
 | `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道分隔每个路径\| 符号。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 提供产品的每个网站的网站代码。 单个产品可以分配给多个网站，也可以仅分配给一个网站。 如果指定多个网站，请用逗号分隔每个网站，不带空格。 例如： `base`或`base,website2` |

@@ -3,9 +3,9 @@ title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
+source-git-commit: 9daf227e52c8f225e957ee5009d0d0a02815d835
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,19 @@ ht-degree: 0%
 
 以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)_。
 
+>[!IMPORTANT]
+>
+>如果新的帐户所有者最初使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
+
 ## 识别您的传输类型
 
 完成此转移的方式取决于以下哪些情况描述了您作为帐户的当前所有者和要向其转移帐户的新所有者（电子邮件地址）的情况：
 
 | 传输类型 | 当前所有者 | 新所有者 |
 | ------------- | ------------- | --------- |
-| [新Adobe ID和电子邮件更改](#new-adobe-id-and-email-change) | 具有&#x200B;**_未连接_**&#x200B;的MAGEID和Adobe的登录帐户。 | 没有MAGEID，并且未连接到Adobe登录帐户。 |
-| [电子邮件更改](#email-change) | MAGEID为&#x200B;**_已连接_**，登录帐户Adobe。 | 没有MAGEID，并且未连接到Adobe登录帐户。 |
-| [Adobe ID开关](#adobe-id-account-switch) | MAGEID为&#x200B;**_已连接_**，登录帐户Adobe。 | 具有MAGEID，并且已连接到Adobe登录帐户，而无其他Adobe产品/服务关联。 |
+| [新Adobe ID和电子邮件更改](#new-adobe-id-and-email-change) | MAGEID为&#x200B;**_未与Adobe登录帐户连接_**。 | 没有MAGEID，并且未连接到Adobe登录帐户。 |
+| [电子邮件更改](#email-change) | 具有&#x200B;**_已连接_**&#x200B;且具有Adobe登录帐户的MAGEID。 | 没有MAGEID，并且未连接到Adobe登录帐户。 |
+| [Adobe ID开关](#adobe-id-account-switch) | 具有&#x200B;**_已连接_**&#x200B;且具有Adobe登录帐户的MAGEID。 | 具有MAGEID，并且已连接到Adobe登录帐户，而没有关联的其他Adobe产品/服务。 |
 
 {style="table-layout:auto"}
 
@@ -94,7 +98,7 @@ ht-degree: 0%
 >
 >查看[传输类型](#identify-your-transfer-type)，并确保您满足此步骤序列的前提条件。
 
-如果当前所有者和新所有者具有现有的AdobeID，则两个帐户都应保留，但电子邮件地址需要在它们之间切换。 这需要使用有效的&#x200B;_临时_&#x200B;电子邮件地址，该地址与和Adobe ID无关联。
+如果当前所有者和新所有者拥有现有的Adobe ID，则两个帐户都应保留，但电子邮件地址需要在它们之间切换。 这需要使用有效的&#x200B;_临时_&#x200B;电子邮件地址，该地址与和Adobe ID无关联。
 
 ### 更改为临时帐户
 
@@ -140,7 +144,7 @@ ht-degree: 0%
 
 ### 后续步骤
 
-新所有者成功将其Adobe帐户转移给当前（当前为上一位）所有者后，请完成这些步骤以转移所有权。
+新所有者成功将其Adobe帐户转移给当前（现在是以前的）所有者后，请完成这些步骤以转移所有权。
 
 1. 导航到[account.adobe.com](https://account.adobe.com/) （一系列步骤中使用的第一个帐户）并完成Adobe登录。
 
