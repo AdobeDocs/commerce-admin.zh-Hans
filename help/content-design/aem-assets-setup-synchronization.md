@@ -3,9 +3,9 @@ title: 启用资源同步
 description: 了解如何连接Adobe Commerce和Experience Manager Assets项目，以启用这两个系统之间的资源同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Custom match]** — 匹配规则，用于需要自定义匹配逻辑的更复杂方案或特定业务要求。 实施自定义匹配需要在Adobe Developer App Builder中开发自定义代码以定义资源与产品的匹配方式。 更多详细信息即将推出……
 
-对于初始载入，使用默认的&#x200B;*按产品SKU匹配*&#x200B;规则。
+对于初始设置，使用默认的&#x200B;*按产品SKU匹配*&#x200B;规则。
 
 ## 先决条件
 
