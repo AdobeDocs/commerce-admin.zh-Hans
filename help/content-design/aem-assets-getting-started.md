@@ -1,17 +1,18 @@
 ---
 title: 为Commerce设置AEM Assets集成
-description: 了解如何使用您的 [!DNL Commerce] 实例载入Experience Manager Assets，以访问要在您的商店中使用的无数媒体资源。
+description: 了解如何设置和配置您的Experience Manager Assets环境，以管理您商店的Commerce资源。
 feature: CMS, Media, Configuration
-source-git-commit: c109edc9d9277baafd61da1df0f1917f07089353
+exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
+source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # 为Commerce设置AEM Assets集成
 
-设置AEM Assets集成需要管理权限来自定义应用程序和环境配置。
+为Commerce设置Adobe Experience Manager Assets集成需要管理权限来自定义应用程序和环境配置。
 
 - 对配置Cloud Manager as a Cloud Service环境的AEM Assets程序的管理访问权限。
 
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 要利用此集成，企业必须满足以下要求：
 
-- Adobe Commerce、AEM Assets和[AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)的活动许可证。
+- Adobe Commerce、Adobe Experience Manager Assets和[AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)的活动许可证。
 
 - Adobe Commerce 2.4.5+
 
@@ -38,14 +39,14 @@ ht-degree: 0%
 
 - **官方Adobe解决方案** — 由Adobe开发、维护和完全支持，确保稳定性并与未来的平台增强功能保持一致。
 
-- **Adobe托管支持模型** — 协助和故障排除直接由Adobe处理，可让您高枕无忧并简化问题解决。
+- **Adobe托管支持模型** — Adobe可处理协助和疑难解答，让您高枕无忧并简化问题解决。
 
 ## 后续步骤
 
 启用Commerce与Experience Manager Assets的集成需要三个步骤：
 
-1. [配置您的AEM资源项目以管理Adobe Commerce资源](aem-assets-configure-aem.md)。
+1. [配置您的Adobe Experience Manager资源项目以管理Adobe Commerce资源](aem-assets-configure-aem.md)。
 
-1. [安装AEM资产集成扩展并配置Adobe Commerce](aem-assets-configure-aem.md)。
+1. [安装适用于Commerce扩展的Adobe Experience Manager Assets集成并配置Adobe Commerce](aem-assets-configure-aem.md)。
 
 1. [启用资源同步](aem-assets-setup-synchronization.md)。
