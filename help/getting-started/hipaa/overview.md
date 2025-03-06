@@ -3,7 +3,7 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b380977e74c7f49c4d179e633242e3d7e6b1e1e7
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**法律免责声明**<br/>
->此信息旨在帮助Adobe客户回答他们有关AdobeHIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
+>此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
 
 **健康保险便携性和责任法案(HIPAA)**
 
-健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于&#x200B;_覆盖的实体_（如医疗保健提供商、保险公司和清算所）和&#x200B;_商业伙伴_（如向覆盖的实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务合作伙伴，这些产品被Adobe分类为“HIPAA就绪服务”。 受HIPAA监管的数据称为&#x200B;_受保护的健康信息_&#x200B;或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关详细信息，请参阅Adobe信任中心中的[HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-ready.html)。
+健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于&#x200B;_覆盖的实体_（如医疗保健提供商、保险公司和清算所）和&#x200B;_商业伙伴_（如向覆盖的实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务联系人，Adobe将这些产品归类为“HIPAA就绪服务”。 受HIPAA监管的数据称为&#x200B;_受保护的健康信息_&#x200B;或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关详细信息，请参阅Adobe信任中心中的[HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-ready.html)。
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ ht-degree: 1%
 
 Adobe Commerce HIPAA就绪扩展为Adobe Commerce安装添加了其他特性和功能，使商家能够遵守各自的HIPAA义务。
 
-Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Cloud Infrastructure或AdobeManaged Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅[已禁用的服务和功能](#disabled-services-and-features)。
+Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Cloud Infrastructure或Adobe Managed Services项目。 Adobe Commerce HIPAA就绪安装过程会禁用某些本机服务和功能以符合HIPAA要求。 请参阅[已禁用的服务和功能](#disabled-services-and-features)。
 
 >[!NOTE]
 >
 >仅已购买Adobe Commerce的医疗保健附加组件的商家方可访问符合HIPAA要求的特性和功能。
 
-*这些资料仅供参考。 提供此信息并不赋予收件人任何合同权利或其他权利。 虽然已努力确保资料在提供之日准确无误，但没有表示资料准确完整。 随着法律或Adobe产品的变化，Adobe不承担更新此信息的义务。 此外，未经Adobe书面同意，不得将此文档分发给目标收件人以外的任何一方。*
+*这些资料仅供参考。 提供此信息并不赋予收件人任何合同权利或其他权利。 虽然已努力确保资料在提供之日准确无误，但没有表示资料准确完整。 随着法律或Adobe产品的变更，Adobe不承担更新此信息的义务。 此外，未经Adobe书面同意，不得将此文档分发给目标收件人以外的任何一方。*
 
 ## 系统要求
 
@@ -52,11 +52,11 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 >[!ENDSHADEBOX]
 
-在运行Adobe Commerce版本2.4.6-p3 - 2.4.6-p8的实例上安装最新版本的Adobe HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
+在运行Adobe 2.4.6-p3 - 2.4.6-p8版的实例上安装最新版本的Adobe Commerce HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
 
 >[!NOTE]
 >
->要确保发送到Experience Platform的后台事件数据已就绪，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
@@ -265,8 +265,8 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 是 | 是 |
 | 适用于Adobe Developer App Builder的[API网格](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
 | [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | 是 | 是 |
-| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 否 | 否 |
-| [产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 否 | 否 |
+| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 否 | 否 |
+| [产品推荐](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 否 | 否 |
 | [付款服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | 否 | 否 |
 | [数据连接后台事件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
 | [数据连接店面事件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
