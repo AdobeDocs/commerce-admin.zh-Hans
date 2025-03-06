@@ -1,20 +1,20 @@
 ---
-title: 启用资源同步
+title: 配置集成
 description: 了解如何连接Adobe Commerce和Experience Manager Assets项目，以启用这两个系统之间的资源同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# 启用资源同步
+# 配置集成
 
-通过更新Commerce环境配置以将Commerce连接到AEM Assets实例来启用资源同步。 该集成支持在Commerce和AEM Assets之间同步资源，确保产品图像和其他资源始终保持最新。
+通过将Commerce连接到AEM Assets实例并选择资源同步的匹配策略来配置集成。
 
-识别AEM资源项目后，选择用于在Adobe Commerce和AEM Assets之间同步资源的匹配规则。
+识别AEM Assets项目后，选择用于在Adobe Commerce和AEM Assets之间同步资产的匹配规则。
 
 - **[!UICONTROL Match by product SKU]** — 将资源元数据中的SKU与[Commerce产品SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku)匹配的默认规则，以确保资源与正确的产品关联。
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 先决条件
 
-- [配置AEM Assets以管理Commerce资源](aem-assets-configure-aem.md)
+- [安装AEM Assets包](aem-assets-configure-aem.md)
 
-- [安装并配置Commerce的AEM Assets集成](aem-assets-configure-commerce.md)以添加该扩展并生成使用该扩展所需的凭据和连接。
+- [安装Adobe Commerce包](aem-assets-configure-commerce.md)以添加该扩展并生成使用该扩展所需的凭据和连接。
 
-- 创建支持工单以请求启用AEM Assets集成。 您必须为要连接到Commerce的AEM Assets创作环境提供&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
+- 创建支持工单以请求启用AEM Assets以进行Commerce集成。 在票证中，包含要连接到Commerce的AEM Assets创作环境的&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL Save Config]**&#x200B;以应用更新并启动资产同步。
 
-   配置更新会触发初始同步过程，从而允许Commerce接受来自AEM Assets的传入更新。同步所需的时间取决于资源量和特定配置。 该集成利用自动化流程来最大限度地减少同步所需的时间。
+   配置更新会触发初始同步过程，从而允许Commerce接受来自AEM Assets的传入更新。 同步所需的时间取决于资产量和特定配置。 该集成利用自动化流程来最大限度地减少同步所需的时间。
 
 ## 下一步
 

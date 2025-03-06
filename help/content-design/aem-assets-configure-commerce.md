@@ -1,22 +1,24 @@
 ---
-title: 安装和配置Experience Manager Assets集成
-description: 了解如何在Adobe Commerce实例上安装和配置 [!DNL AEM Assets Integration for Adobe Commerce] 。
+title: 安装Adobe Commerce包
+description: 了解如何在Adobe Commerce实例上安装 [!DNL AEM Assets Integration for Adobe Commerce] 扩展和。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# 安装和配置适用于Commerce的AEM Assets集成
+# 安装Adobe Commerce包
 
-通过安装`aem-assets-integration` PHP扩展，准备Commerce环境以使用适用于Commerce的AEM Assets集成。 然后，更新管理员配置以启用Adobe Commerce和AEM Assets之间的通信和工作流。
+适用于Commerce的AEM Assets集成扩展(`aem-assets-integration`)支持在Adobe Commerce和Adobe Experience Manager Assets之间同步资源。 扩展提供了一系列工具和服务，用于跨两个平台管理资产，包括产品图像、视频和其他媒体资产。
+
+通过安装`aem-assets-integration` PHP扩展将此扩展添加到Commerce环境中。 您还需要启用适用于Commerce的Adobe I/O Events，并生成Adobe Commerce与Adobe Experience Manager Assets之间的通信和工作流程所需的凭据。
 
 ## 系统要求
 
-适用于Commerce的AEM Assets集成具有以下系统和配置要求。
+AEM Assets Integration for Commerce扩展具有以下系统和配置要求。
 
 **软件要求**
 
@@ -24,38 +26,32 @@ ht-degree: 0%
 - PHP 8.1、8.2和8.3
 - Composer： 2.x
 
-**配置要求**
+**访问要求**
 
-- 帐户设置和权限：
+您需要以下角色和权限才能设置集成。
 
-   - [Commerce cloud项目管理员](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) — 安装所需的扩展，并通过管理员或命令行配置Commerce应用程序服务器
+- [Commerce cloud项目管理员](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) — 安装所需的扩展，并通过管理员或命令行配置Commerce应用程序服务器。
 
-   - [Commerce管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) — 更新商店配置并管理Commerce用户帐户
+   - 访问[repo.magento.com](https://repo.magento.com/admin/dashboard)以安装扩展。
+
+     有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[云基础架构上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [Commerce管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) — 更新商店配置并管理Commerce用户帐户。
 
 >[!TIP]
 >
 > Adobe Commerce可以配置为使用[Adobe IMS身份验证](/help/getting-started/adobe-ims-config.md)。
 
-## 配置工作流
+## 安装和配置工作流
 
-通过完成以下任务启用集成：
+安装Adobe Commerce包，并通过完成以下任务来准备Commerce环境：
 
-1. [安装AEM Assets集成扩展(`aem-assets-integration`)](#install-the-aem-assets-integration-extension)。
+1. [安装AEM Assets与Commerce的集成(`aem-assets-integration`)](#install-the-aem-assets-integration-extension)。
 1. [配置Commerce Services Connector](#configure-the-commerce-services-connector)，以连接您的Adobe Commerce实例，并使用支持在Adobe Commerce和AEM Assets之间传输数据的服务。
 1. [为Commerce配置Adobe I/O Events](#configure-adobe-io-events-for-commerce)
 1. [获取API访问的身份验证凭据](#get-authentication-credentials-for-api-access)
 
 ## 安装`aem-assets-integration`扩展
-
-安装扩展需要以下权限：
-
-- 访问[repo.magento.com](https://repo.magento.com/admin/dashboard)以安装扩展。
-
-  有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[云基础架构上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- 访问Adobe Commerce应用程序服务器的命令行。
-
-### 将扩展添加到Commerce环境
 
 在版本为Adobe Commerce 2.4.5+的AEM Assets实例上安装最新版本的Adobe Commerce集成扩展(`aem-assets-integration`)。 AEM资产集成是作为[repo.magento.com](https://repo.magento.com/admin/dashboard)存储库中的编辑器中继包提供的。
 
@@ -159,7 +155,7 @@ AEM Assets集成的![SaaS项目和数据空间ID](assets/aem-saas-project-config
 
 AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud之间发送自定义事件数据。 事件数据用于协调AEM Assets集成的工作流。
 
-在配置Adobe I/O事件之前，请验证您的Commerce项目的RabbitMQ和cron作业配置：
+在配置Adobe I/O Events之前，请验证您的Commerce项目的RabbitMQ和cron作业配置：
 
 - 确保已启用RabbitMQ并侦听事件。
    - 本地Adobe Commerce的[RabbitMQ设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -174,6 +170,10 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 ### 启用Commerce事件框架
 
 从Commerce管理员中启用事件框架。
+
+>[!NOTE]
+>
+>仅当您计划使用自定义匹配策略在App Builder和Commerce之间同步资源时，才需要AEM Assets设置。
 
 1. 从管理员转到&#x200B;**[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**。
 
@@ -209,11 +209,11 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 
 在基于此示例创建代码片段之前，请查看值以确定是否需要进行任何更改：
 
-- `name`： VCL代码片段的名称。 在此示例中，我们使用了名称`blockbyuseragent`。
+- `name`： VCL代码片段的名称。 此示例使用名称`blockbyuseragent`。
 
-- `dynamic`：设置代码片段版本。 在此示例中，我们使用了`0`。 有关详细的数据模型信息，请参阅[Fastly VCL代码片段](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)。
+- `dynamic`：设置代码片段版本。 此示例使用`0`。 有关详细的数据模型信息，请参阅[Fastly VCL代码片段](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)。
 
-- `type`：指定VCL代码片段的类型，该类型确定代码片段在生成的VCL代码中的位置。 在本例中，我们使用了`recv`，请查看代码片段类型列表的[Fastly VCL代码片段引用](https://docs.fastly.com/api/config#api-section-snippet)。
+- `type`：指定VCL代码片段的类型，该类型确定代码片段在生成的VCL代码中的位置。 此示例使用`recv`。 有关代码片段类型的列表，请参阅[Fastly VCL代码片段引用](https://www.fastly.com/documentation/reference/api/#api-section-snippet)。
 
 - `priority`：确定VCL代码片段的运行时间。 此示例使用优先级`5`立即运行并检查管理员请求是否来自允许的IP地址。
 
@@ -253,7 +253,7 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-### 生成凭据
+### 生成OAuth凭据
 
 在“集成”页面上，通过单击Assets集成的&#x200B;**激活**&#x200B;来生成OAuth身份验证凭据。 您需要这些凭据才能在Assets规则引擎服务中注册Commerce项目，并提交API请求以管理Adobe Commerce和AEM Assets之间的资源。
 
@@ -273,4 +273,4 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 
 ## 下一步
 
-[启用资源同步以在Adobe Commerce项目环境和AEM Assets项目环境之间传输资源](aem-assets-setup-synchronization.md)
+[连接Adobe Commerce和AEM Assets项目环境，然后选择用于同步资产的匹配策略](aem-assets-setup-synchronization.md)

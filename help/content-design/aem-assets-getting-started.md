@@ -3,9 +3,9 @@ title: 为Commerce设置AEM Assets集成
 description: 了解如何设置和配置您的Experience Manager Assets环境，以管理您商店的Commerce资源。
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
+source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ ht-degree: 0%
 
 启用Commerce与Experience Manager Assets的集成需要三个步骤：
 
-1. [配置您的Adobe Experience Manager资源项目以管理Adobe Commerce资源](aem-assets-configure-aem.md)。
+1. [安装AEM Assets包](aem-assets-configure-aem.md)。
 
-1. [安装适用于Commerce扩展的Adobe Experience Manager Assets集成并配置Adobe Commerce](aem-assets-configure-aem.md)。
+1. [安装Adobe Commerce包](aem-assets-configure-aem.md)。
 
-1. [启用资源同步](aem-assets-setup-synchronization.md)。
+1. [配置集成资源](aem-assets-setup-synchronization.md)。
