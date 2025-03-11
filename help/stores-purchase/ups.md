@@ -3,9 +3,9 @@ title: 联合包裹服务(UPS)
 description: 了解如何将UPS设置为您商店的配送运营商。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ ht-degree: 0%
 
 ## 步骤1：打开UPS发运帐户
 
-要向客户提供此配送方式，您必须首先使用UPS开立帐户。
+要为客户提供此配送方式，您必须首先打开UPS帐户，并完成申请以获取发货人帐号。 请参阅[打开一个免费的UPS帐户](https://www.ups.com/us/en/business-solutions/open-an-account)。
 
-## 步骤2：为您的存储启用UPS
+## 步骤2：获取UPS OAUTH凭据
+
+按照[UPS API快速入门指南](https://developer.ups.com/get-started)中的步骤获取API凭据（客户端ID和客户端密钥）以启用UPS集成。 必须创建UPS应用程序才能获取凭据。
+
+当您在Admin中配置UPS设置时，请使用`username`和`password`的凭据值。
+
+## 步骤3：为您的存储启用UPS
 
 1. 在&#x200B;_管理员侧栏_&#x200B;上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 1. 对于UPS REST帐户（默认），请执行以下操作：
 
-   - 输入您的UPS凭据： UPS客户端ID为&#x200B;**[!UICONTROL User ID]**，UPS客户端密钥为&#x200B;**[!UICONTROL Password]**
+   - 输入您的UPS凭据： UPS客户端ID为&#x200B;**[!UICONTROL User ID]**，UPS客户端密钥为&#x200B;**[!UICONTROL Password]**。
 
    - 将&#x200B;**[!UICONTROL Mode]**&#x200B;设置为`Live`以通过安全连接将数据发送到UPS配送系统。 （开发模式不会通过安全连接发送数据。）
 
@@ -116,7 +122,7 @@ ht-degree: 0%
 
    ![容器说明](./assets/ups2.png){width="600" zoomable="yes"}
 
-## 第4步：设置手续费
+## 步骤5：设置手续费
 
 处理费是可选的，显示为额外费用，将添加到UPS运输成本中。 如果要包括手续费，请执行以下操作：
 
@@ -136,7 +142,7 @@ ht-degree: 0%
 
    ![手续费](./assets/ups3.png){width="600" zoomable="yes"}
 
-## 步骤5：指定允许的方法和适用的国家/地区
+## 步骤6：指定允许的方法和适用的国家/地区
 
 1. 对于&#x200B;**[!UICONTROL Allowed Methods]**，请选择客户可用的每种UPS配送方式。
 
@@ -174,7 +180,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
-## 步骤6：设置发运来源地址
+## 步骤7：设置发运来源地址
 
 1. 确保您的[存储信息](../getting-started/store-details.md#store-information)已完成。
 

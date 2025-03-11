@@ -1,9 +1,9 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce管理员身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据(而不是其Commerce帐户凭据)登录。 请参阅[将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md)。
+>拥有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce管理员身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据(而不是其Commerce帐户凭据)登录。 请参阅[将Adobe Commerce与Adobe IMS集成概述](/help/getting-started/adobe-ims-integration-overview.md)。
 
 ## GTag API注释 {#gtag-api-note}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->从2024年6月开始，Adobe Commerce商户无法再使用当前的UPS集成进行交易。 这是因为本机Adobe Commerce集成使用的United Parcel Service (UPS) API当前不支持所需的OAuth 2.0安全模型。 要了解有关此更改的更多信息，请参阅&#x200B;[_开发人员门户访问密钥迁移指南_](https://developer.ups.com/oauth-developer-guide)。<br/>
+>从2024年6月开始，Adobe Commerce商户无法再使用当前的UPS集成进行交易。 这是因为本机Adobe Commerce集成使用的United Parcel Service (UPS) API当前不支持所需的OAuth 2.0安全模型。 要启用集成，请[在UPS开发人员平台](https://developer.ups.com/get-started)上创建应用程序以获取OAuth 2.0所需的凭据。在Commerce UPS配送配置中将新凭据用作`username`和`password`。 若要了解有关安全模型更改的详细信息，请参阅[开发人员门户访问密钥迁移指南_](https://developer.ups.com/oauth-developer-guide)。<br/>
 >
 >商家应在其存储中[应用质量修补程序更新](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html)，以便从SOAP API迁移到支持OAuth 2.0身份验证协议的RESTful API。
 
