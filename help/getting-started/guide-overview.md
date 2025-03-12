@@ -1,26 +1,25 @@
 ---
-title: Adobe Commerce快速入门指南
-description: 为刚接触 Adobe Commerce 的商家提供全面的信息。
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Adobe Commerce管理员快速入门指南
+description: 面向不熟悉Adobe Commerce管理员的商户的综合信息。
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Adobe Commerce快速入门指南
 
-本指南面向不熟悉Adobe Commerce的商家和系统管理员。 文章从他们的角度概述了该平台，并提供了一些关于启用正常存储的基本功能的详细信息。
+本指南面向不熟悉Adobe Commerce管理员的商家和系统管理员。 文章从他们的角度概述了该平台，并提供了一些关于启用正常存储的基本功能的详细信息。
 
 本指南涵盖：
 
 | 主题 | 描述 |
 | ------- | ----------- |
-| [关于Commerce](about.md) | 了解当前的Adobe Commerce版本。 |
 | [登录凭据和URL](login-urls.md) | 了解用于获取管理员和店面访问权限的[!DNL Commerce] URL和帐户凭据。 |
 | [[!DNL Commerce] 帐户](commerce-account-create.md) | 了解[!DNL Commerce]帐户，这些帐户管理您购买的产品和服务。 |
 | [管理员](admin.md) | 了解[!DNL Commerce]管理员，商家可以在这个位置设置产品和促销活动、管理订单以及执行其他管理任务。 |
