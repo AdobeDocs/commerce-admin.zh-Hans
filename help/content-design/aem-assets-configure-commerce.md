@@ -3,7 +3,7 @@ title: 安装Adobe Commerce包
 description: 了解如何在Adobe Commerce实例上安装 [!DNL AEM Assets Integration for Adobe Commerce] 扩展和。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ AEM Assets Integration for Commerce扩展具有以下系统和配置要求。
 
 >[!NOTE]
 >
->Commerce服务连接器设置是使用[Adobe Commerce SaaS服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices)所需的一次性进程。 如果您已经为其他服务配置了连接器，则可以通过选择&#x200B;**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;从Commerce管理员中查看现有配置。
+>Commerce服务连接器设置是使用[Adobe Commerce SaaS服务](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices)所需的一次性进程。 如果您已经为其他服务配置了连接器，则可以通过选择&#x200B;**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;从Commerce管理员中查看现有配置。
 
 要在您的Adobe Commerce实例与启用AEM Assets集成的服务之间传输数据，请从管理员(**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**)配置Commerce服务连接器。
 
@@ -147,7 +147,7 @@ AEM Assets集成的![SaaS项目和数据空间ID](assets/aem-saas-project-config
 - 安全云存储的数据空间名称（SaaS标识符）
 - 配置Commerce和AEM Assets环境的IMS组织ID
 
-有关详细说明，请观看[Commerce服务连接器配置视频](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)，共[Commerce服务连接器](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid)文档。
+有关详细说明，请观看[Commerce服务连接器配置视频](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)，共[Commerce服务连接器](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)文档。
 
 在保存配置时，系统会为您的环境生成SaaS项目和数据库ID。 在Adobe Commerce和AEM Assets之间启用资源同步时需要这些值。
 

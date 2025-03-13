@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]'
 description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]页面上的配置设置。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 商店视图 | 确定网格视图中默认每页显示的产品数。 |
 | [!UICONTROL Products per Page on List Allowed Values] | 商店视图 | 确定在列表视图中显示的产品数。 要提供选项选择，请输入多个值，值之间用逗号分隔。 |
 | [!UICONTROL Products per Page on List Default Value] | 商店视图 | 确定在列表视图中默认每页显示的产品数。 |
-| 产品列表排序方式 | 商店视图 | 确定搜索结果列表的排序顺序。 选项的选择由类别的显示设置以及设置为`Used for Sorting in Product Listing`的可用属性决定。 默认值设置为`Use All Available Attributes`，通常包括最佳值、名称和价格。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling)。 |
+| 产品列表排序方式 | 商店视图 | 确定搜索结果列表的排序顺序。 选项的选择由类别的显示设置以及设置为`Used for Sorting in Product Listing`的可用属性决定。 默认值设置为`Use All Available Attributes`，通常包括最佳值、名称和价格。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
 | [!UICONTROL Allow All Products per Page] | 商店视图 | 如果设置为`Yes`，则在“每页显示”控件中包含`ALL`选项。 |
 | [!UICONTROL Remember Category Pagination] | 全局 | 如果设置为`Yes`，则保存当前类别分页值，因为客户在[产品列表](../../catalog/navigation-product-listings.md)中从一个类别浏览到另一个类别。 保存该值将使用更多缓存存储，并且可能会影响搜索引擎为页面编制索引的方式。 选项： `Yes` / `No` （默认） |
 | [!UICONTROL Use Flat Catalog Category] | 全局 | 启用[平面类别结构](../../catalog/catalog-flat.md)（不推荐）。 选项： `Yes` / `No` |
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此部分中描述的标准搜索配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)不同。
+>此部分中描述的标准搜索配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | 商店视图 | 确定存储中是否实施了&#x200B;_常用搜索词_。 此设置不适用于使用[实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)的商店。 选项： `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | 商店视图 | 确定存储中是否实施了&#x200B;_常用搜索词_。 此设置不适用于使用[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)的商店。 选项： `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 商店视图 | 确定是否将后缀（如html或htm）应用于产品URL。 如果使用后缀，请不要在后缀前添加句点，因为它会自动应用。 |
 | [!UICONTROL Category URL Suffix] | 商店视图 | 确定是否将后缀（如html或htm）应用于类别URL。 如果使用后缀，请不要在后缀前添加句点，因为它会自动应用。 |
 | [!UICONTROL Use Categories Path for Product URLs] | 商店视图 | 确定产品URL中是否包含类别路径。 这样做会导致多个URL指向同一页面，这可能会影响搜索排名。 若要了解更多信息，请参阅[Canonical meta标记](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-您可以使用Adobe Commerce支持的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)或第三方搜索引擎服务配置目录搜索。 按照安装说明操作。
+您可以使用Adobe Commerce支持的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)或第三方搜索引擎服务配置目录搜索。 按照安装说明操作。
 
 ### Adobe Commerce与[!DNL Live Search]
 
@@ -256,35 +256,35 @@ ht-degree: 0%
 
 ### 第三方搜索引擎
 
-Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3、2.4.3-p2、2.4.4及更高版本支持OpenSearch服务。 云基础架构项目上的Adobe Commerce不支持Elasticsearch7.11及更高版本。 内部安装仍支持Elasticsearch。
+Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3、2.4.3-p2、2.4.4及更高版本支持OpenSearch服务。 云基础架构项目上的Adobe Commerce不支持Elasticsearch 7.11及更高版本。 内部安装仍支持Elasticsearch。
 
 >[!IMPORTANT]
 >
->- 由于Elasticsearch7将于2023年8月宣布终止支持，Adobe建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
->- 在版本2.4.4和2.4.3-p2中，所有标记为Elasticsearch的字段也适用于OpenSearch。 当版本2.4.6中引入对Elasticsearch8.x的支持时，创建了新标签以区分Elasticsearch配置和OpenSearch配置。 但是，两者的配置选项是相同的。
+>- 由于Elasticsearch 7将于2023年8月宣布终止支持，Adobe建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 在版本2.4.4和2.4.3-p2中，所有标记为Elasticsearch的字段也适用于OpenSearch。 当版本2.4.6中引入对Elasticsearch 8.x的支持时，创建了新标签以区分Elasticsearch和OpenSearch配置。 但是，两者的配置选项是相同的。
 
 ![目录搜索配置选项](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | 商店视图 | 目录搜索中允许的最小字符数。 此选项的值集必须与OpenSearch或Elasticsearch配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`2`，则还必须更新搜索引擎配置中的值。 默认值： `3` |
+| [!UICONTROL Minimal Query Length] | 商店视图 | 目录搜索中允许的最小字符数。 为该选项设置的值必须与OpenSearch或Elasticsearch配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`2`，则还必须更新搜索引擎配置中的值。 默认值： `3` |
 | [!UICONTROL Maximum Query Length] | 商店视图 | 目录搜索中允许的最大字符数。 为该选项设置的值必须与OpenSearch或Elasticsearch配置中设置的相应范围兼容。 例如，如果您在Adobe Commerce中将此值设置为`300`，则必须更新搜索引擎配置中的值。 默认值： `128` |
 | [!UICONTROL Number of top search results to cache] | 商店视图 | 要缓存以加快响应的常用搜索词和结果的数量。 再次输入值`0`将缓存所有搜索词和结果。 默认值： `100` |
 | [!UICONTROL Enable EAV Indexer] | 全局 | 确定是否启用或禁用Product EAV索引器。 此功能可提高索引速度并限制索引器不被第三方扩展使用。 默认选项： `Yes`已启用 |
 | [!UICONTROL Autocomplete Limit] | 商店视图 | 搜索自动完成的搜索字段下方显示的最大搜索查询数。 限制此数量可提高搜索性能并减小显示的列表大小。 默认值： `8` |
 | 搜索引擎 | 全局 | 标识处理目录数据请求所需的搜索引擎。 OpenSearch和Elasticsearch的搜索引擎配置选项相同。 选项： `OpenSearch`或`Elasticsearch` |
 | [!UICONTROL OpenSearch Server Hostname] | 全局 | 指定OpenSearch或Elasticsearch主机服务器的名称。 |
-| [!UICONTROL OpenSearch Server Port] | 全局 | 指定OpenSearch或Elasticsearch使用的服务器端口数。 默认值： `9200` |
+| [!UICONTROL OpenSearch Server Port] | 全局 | 指定OpenSearch或Elasticsearch使用的服务器端口号。 默认值： `9200` |
 | [!UICONTROL OpenSearch Index Prefix] | 全局 | 分配前缀以标识OpenSearch或Elasticsearch索引。 默认值： `magento2` |
 | [!UICONTROL Enable OpenSearch HTTP Auth] | 全局 | 如果启用，在访问OpenSearch或Elasticsearch服务器之前，会使用HTTP身份验证提示输入用户名和密码。 选项： `Yes` / `No` |
-| [!UICONTROL OpenSearch HTTP Username] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或ElasticsearchHTTP身份验证的用户名。 |
-| [!UICONTROL OpenSearch HTTP Password] | 全局 | 当&#x200B;_启用ElasticsearchHTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或ElasticsearchHTTP身份验证的密码。 |
-| [!UICONTROL OpenSearch Server Timeout] | 全局 | 确定向OpenSearch或Elasticsearch服务器发出的请求在超时之前的秒数。 默认值： `15` |
+| [!UICONTROL OpenSearch HTTP Username] | 全局 | 当&#x200B;_启用Elasticsearch HTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或Elasticsearch HTTP身份验证的用户名。 |
+| [!UICONTROL OpenSearch HTTP Password] | 全局 | 当&#x200B;_启用Elasticsearch HTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或Elasticsearch HTTP身份验证的密码。 |
+| [!UICONTROL OpenSearch Server Timeout] | 全局 | 确定对OpenSearch或Elasticsearch服务器的请求超时之前的秒数。 默认值： `15` |
 | [!UICONTROL Test Connection] |  | 验证OpenSearch或Elasticsearch连接。 |
 | [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
 | [!UICONTROL Search Recommendations Count] | 商店视图 | 指定作为推荐提供的搜索词的数量。 默认情况下，显示的数量不超过5个。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 商店视图 | 当设置为`Yes`时，为建议的搜索推荐找到的产品数显示在括号中。 选项： `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | 商店视图 | 确定是否显示搜索建议以查找常见的拼写错误。 启用后，将针对未返回任何结果且显示在&#x200B;**搜索结果**&#x200B;页面的`Did you mean`部分下的任何请求提供搜索建议。 搜索建议可能会影响搜索的性能。 当设置为`Yes`时，将显示启用搜索Recommendations和相关字段的其他选项。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | 商店视图 | 确定是否显示搜索建议以查找常见的拼写错误。 启用后，将针对未返回任何结果且显示在&#x200B;**搜索结果**&#x200B;页面的`Did you mean`部分下的任何请求提供搜索建议。 搜索建议可能会影响搜索的性能。 当设置为`Yes`时，为“启用搜索推荐”和相关字段显示其他选项。 选项： `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 商店视图 | 确定提供的搜索建议数。 例如： `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 商店视图 | 确定是否显示每个建议的搜索结果数。 根据主题，编号通常显示在建议后的括号中。 选项： `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 商店视图 | 指定一个值，该值对应于查询中搜索结果应匹配以便返回的术语数。 这可确保为购物者提供最佳结果相关性。 百分比值与数字相关，如果需要，可以向下舍入并用作查询中要匹配的最小术语数。 该值可以是负整数或正整数、负百分比或正百分比、两个值的组合或多个组合。 若要了解详细信息，请参阅OpenSearch文档中的[minimum_should_match参数](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)。 |

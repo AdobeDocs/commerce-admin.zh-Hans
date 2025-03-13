@@ -3,7 +3,7 @@ title: 管理搜索词
 description: 了解如何管理商店的搜索词，以使用拼写错误或替换词重定向客户。
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ _[!UICONTROL Edit a Search Term]_页面上的&#x200B;**方法2：**
 
 Adobe Commerce支持两种不同的同义词管理解决方案：
 
-- Live Search [同义词](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html)功能可用于已安装Live Search的Adobe Commerce安装。
+- Live Search [同义词](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html)功能可用于已安装Live Search的Adobe Commerce安装。
 - 所有Adobe Commerce安装均可现成使用标准搜索同义词功能（如本页所述）。
 
 >[!NOTE]

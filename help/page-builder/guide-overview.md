@@ -4,16 +4,16 @@ description: 有关Adobe Commerce和Magento Open Source管理员的 [!DNL Page B
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder]用户指南
 
-本指南适用于Adobe Commerce和Magento Open Source的管理员。 它提供了有关[!DNL Page Builder]功能的详细信息，包括用于构建基本内容组件的三步演练。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
+本指南面向在Adobe Commerce和Magento Open Source管理员中工作的管理员。 它提供了有关[!DNL Page Builder]功能的详细信息，包括用于构建基本内容组件的三步演练。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
 
 [!DNL Page Builder]有两个存储管理员区域：
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 | 演练 | 如果您刚刚开始使用[!DNL Page Builder]，可以通过完成演练来快速上手：<br>[1 — 示例页面](1-simple-page.md)<br>[2 — 可重用内容块](2-blocks.md)<br>[3 — 产品清单的目录页面](3-catalog-content.md) |
 | [Workspace](workspace.md) | 在创建基本页面、产品和目录页面、块和动态块时，浏览[!DNL Page Builder]工作区中可用的工具。 |
 | 布局 | 探索[!DNL Page Builder]面板的&#x200B;_布局_&#x200B;部分，以及如何使用这些工具将布局组件添加到[!DNL Page Builder]阶段： <br>[行](row.md)<br>[列](column.md)<br>[选项卡](tabs.md) |
-| 元素 | 探索[!DNL Page Builder]面板的&#x200B;_元素_&#x200B;部分，以及如何使用这些工具将基本元素添加到[!DNL Page Builder]阶段上的任何布局容器中： <br>[文本](text.md)<br>[标题](heading.md)<br>[按钮](buttons.md)<br>[分隔符](divider.md)<br>[HTML代码](html-code.md) |
+| 元素 | 探索[!DNL Page Builder]面板的&#x200B;_元素_&#x200B;部分，以及如何使用这些工具将基本元素添加到[!DNL Page Builder]阶段上的任何布局容器中： <br>[文本](text.md)<br>[标题](heading.md)<br>[按钮](buttons.md)<br>[分隔条](divider.md)<br>[HTML代码](html-code.md) |
 | 媒体 | 探索[!DNL Page Builder]面板的&#x200B;_媒体_&#x200B;部分，以及如何使用这些工具将媒体项目添加到[!DNL Page Builder]舞台上的任何布局容器中： <br>[图像](image.md)<br>[视频](video.md)<br>[横幅](banner.md)<br>[滑块](slider.md)<br>[[!DNL Google Maps]](map.md) |
-| 添加内容 | 探索[!DNL Page Builder]面板的&#x200B;_添加内容_&#x200B;部分，以及如何将内容组件添加到[!DNL Page Builder]阶段： <br>[块](block.md)<br>[动态块](dynamic-block.md)<br>[产品](products.md)<br>[产品Recommendations](recommendations.md)(仅限Adobe Commerce) |
+| 添加内容 | 探索[!DNL Page Builder]面板的&#x200B;_添加内容_&#x200B;部分，以及如何将内容组件添加到[!DNL Page Builder]阶段： <br>[块](block.md)<br>[动态块](dynamic-block.md)<br>[产品](products.md)<br>[产品推荐](recommendations.md)(仅限Adobe Commerce) |
 | [模板](templates.md) | 将现有[!DNL Page Builder]内容另存为模板，然后将该模板应用于其他区域以快速创建一致的内容。 |
 
 {style="table-layout:auto"}
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## [!DNL Page Builder]开发人员信息
 
-[!DNL Page Builder]随Adobe Commerce 2.4.x以及Magento Open Source2.4.3及更高版本一起安装，并且默认情况下启用所有功能。 有关模块版本中包含的更改的信息，请参阅[[!DNL Page Builder] 发行说明](release-notes.md)。 [[!DNL Page Builder] 开发人员指南](https://developer.adobe.com/commerce/frontend-core/page-builder/)提供了有关模块体系结构和自定义的详细信息。
+[!DNL Page Builder]随Adobe Commerce 2.4.x以及Magento Open Source 2.4.3及更高版本一起安装，并且默认情况下启用所有功能。 有关模块版本中包含的更改的信息，请参阅[[!DNL Page Builder] 发行说明](release-notes.md)。 [[!DNL Page Builder] 开发人员指南](https://developer.adobe.com/commerce/frontend-core/page-builder/)提供了有关模块体系结构和自定义的详细信息。
 
 ## 资源疑难解答
 

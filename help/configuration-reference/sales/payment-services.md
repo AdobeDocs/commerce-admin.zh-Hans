@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods] &amp；gt�
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]页面上[!UICONTROL Payment Services]部分中的配置设置。
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Payment Services提供了一个全包式自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 若要了解详细信息，请参阅&#x200B;[_Payment Services用户指南_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
+Payment Services提供了一个全包式自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 若要了解详细信息，请参阅&#x200B;[_Payment Services用户指南_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
 
 要访问付款服务的配置设置，请在&#x200B;_管理员_&#x200B;侧边栏中转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**，然后单击&#x200B;**[!UICONTROL Settings]**。
 
@@ -22,7 +22,7 @@ Payment Services提供了一个全包式自助服务解决方案，包括沙盒�
 
 >[!NOTE]
 >
->若要使用旧版配置而不是[设置](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html)，请参阅[旧版配置](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)。
+>若要使用旧版配置而不是[设置](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html)，请参阅[旧版配置](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html)。
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Payment Services提供了一个全包式自助服务解决方案，包括沙盒�
 |---|---|---|
 | [!UICONTROL Title] | 商店视图 | 在结帐期间在“付款方式”视图中添加文本，以显示此付款选项的标题。 |
 | [!UICONTROL Payment Action] | 网站 | 指定付款方式的[付款操作](payment-methods.md#payment-actions)。 选项： [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | 网站 | 启用或禁用[3DS安全身份验证](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds)。 选项： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | 网站 | 启用或禁用[3DS安全身份验证](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds)。 选项： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 网站 | 启用或禁用要在结账页面上显示的信用卡字段。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | 商店视图 | 启用或禁用[信用卡保险存储](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html)。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 商店视图 | 启用或禁用使用保管库付款方式](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html)为管理员[中的客户完成订单的功能。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | 商店视图 | 启用或禁用[信用卡保险存储](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 商店视图 | 启用或禁用使用保管库付款方式](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)为管理员[中的客户完成订单的功能。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 网站 | 启用或禁用调试模式。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

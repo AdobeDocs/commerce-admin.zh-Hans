@@ -2,7 +2,7 @@
 title: Commerce促销和促销简介
 description: 了解 Commerce 工具，创建有针对性的促销活动和吸引客户的机会。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 
 >[!TIP]
 >
->要了解产品Recommendations以及它们如何提供您为购买者创造最佳体验所需的洞察信息和控制，请参阅[产品Recommendations用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)。
+>要了解产品推荐，以及它们如何提供您为购买者创造最佳体验所需的洞察信息和控制，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
 
 ## 促销活动
 

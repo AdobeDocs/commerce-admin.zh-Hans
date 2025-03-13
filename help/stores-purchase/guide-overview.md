@@ -3,16 +3,16 @@ title: 存储和购买体验指南
 description: 有关在Adobe Commerce和Magento Open Source管理员中工作的客户服务代理和销售经理的商店定义和销售处理功能的综合信息。
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce商店和购买体验指南
 
-本指南面向在Adobe Commerce和Magento Open Source工作的客户服务代理和销售经理。 它提供有关订单管理和购买功能的详细信息，包括如何配置购物车以帮助客户和提升销售。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
+本指南面向使用Adobe Commerce和Magento Open Source Admin的客户服务代理和销售经理。 它提供有关订单管理和购买功能的详细信息，包括如何配置购物车以帮助客户和提升销售。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
 
 本指南涵盖：
 

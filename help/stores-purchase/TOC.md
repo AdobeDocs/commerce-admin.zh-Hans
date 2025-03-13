@@ -1,13 +1,13 @@
 ---
 user-guide-title: 存储和购买体验指南
-user-guide-description: 供在Adobe Commerce和Magento Open Source工作的站点管理员、客户服务代理以及销售经理使用的全面信息。
+user-guide-description: 供在Adobe Commerce和Magento Open Source中工作的站点管理员、客户服务代理以及销售经理使用的全面信息。
 breadcrumb-title: 商店和购买体验
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [送货标签概述](shipping-labels.md)
       + [配置配送标签](shipping-label-configure.md)
       + [创建配送标签](shipping-label-create.md)
-+ [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

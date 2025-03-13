@@ -3,7 +3,7 @@ title: Cookie法律合规性
 description: 为了跟上许多国家关于使用Cookie的法规，Adobe Commerce和Magento Open Source为商家提供了多种获取客户同意的方法。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Cookie是保存到网站每位访客的计算机中的小文件，用作信息�
 
 >[!NOTE]
 >
->如果您修改了默认[Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings)以符合[通用数据保护条例](compliance-gdpr.md)，则无需获取用户同意即可使用Google AnalyticsCookie。
+>如果您修改了默认[Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings)以符合[通用数据保护条例](compliance-gdpr.md)，则无需获取用户同意即可使用Google Analytics Cookie。
 
 ## Cookie限制模式
 
@@ -62,7 +62,7 @@ Cookie是保存到网站每位访客的计算机中的小文件，用作信息�
 
 ## 默认Cookie
 
-Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐免，以帮助商家满足隐私法规的要求，例如[GDPR](compliance-gdpr.md)。 商家应将此信息用作指南，并咨询法律顾问，以更新其隐私和Cookie政策，作为全面的隐私法规合规策略的一部分。
+Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐免，以帮助商家满足隐私法规的要求，例如[GDPR](compliance-gdpr.md)。 商家应将此信息用作指南，并咨询法律顾问，以更新其隐私和Cookie政策，作为全面的隐私法规合规策略的一部分。
 
 [!DNL Commerce]将以下Cookie用于“开箱即用”的内部部署和云安装。 客户明确请求的功能可能需要这些Cookie。 要了解有关会话Cookie生命周期的更多信息，请参阅[会话生命周期](../customers/customer-online-options.md)。
 
@@ -72,7 +72,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐�
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)捕获从购物车中移除的产品SKU、名称、价格和数量。 允许Google Analytics知道产品何时添加到购物车。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)捕获从购物车中移除的产品SKU、名称、价格和数量。 允许Google Analytics知道产品何时已添加到购物车。
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐�
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)允许Google Analytics知道产品何时从购物车中移除。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)允许Google Analytics知道产品何时从购物车中删除。
 
 #### `stf`
 
@@ -210,11 +210,11 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐�
 
 仅在存储的管理区域中用作选项卡功能实施的一部分。 不适用于购物者。
 
-## 产品Recommendations Cookie
+## 产品推荐Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)以下Cookie由产品Recommendations用于Adobe Commerce客户。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
-- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用于[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指示购物者是否已登录或注销。 此Cookie与`dataservices_customer_id` Cookie同时更新。
 - `dataservices_customer_id`：指示购物者是否已登录或注销。 此Cookie包含系统中客户的唯一ID。
@@ -224,7 +224,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/非劐�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
 - `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options)。
 - `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。

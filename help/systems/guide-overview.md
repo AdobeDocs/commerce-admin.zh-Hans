@@ -2,16 +2,16 @@
 title: 管理系统指南
 description: 了解最佳安全实践，以保护您的Commerce存储和管理权限，以及如何导入和导出数据、管理集成和扩展以及处理日常维护。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce管理系统指南
 
-本指南面向在Adobe Commerce和Magento Open Source中工作的系统管理员和集成人员。 它提供关于管理员安全、维护操作和系统范围资源的详细信息，这些资源支持您的电子商务业务的多个组织职能中的活动。 它假定您对核心Commerce配置和功能有基本的了解。
+本指南面向使用Adobe Commerce和Magento Open Source Admin的系统管理员和集成人员。 它提供关于管理员安全、维护操作和系统范围资源的详细信息，这些资源支持您的电子商务业务的多个组织职能中的活动。 它假定您对核心Commerce配置和功能有基本的了解。
 
 本指南涵盖：
 

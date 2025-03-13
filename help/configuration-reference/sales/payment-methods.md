@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]页面上的配置设置。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供所需的洞察信息和控制力，以便为买家创造最佳体验，请参阅&#x200B;[_支付服务用户指南_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
+>适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供所需的洞察信息和控制力，以便为买家创造最佳体验，请参阅&#x200B;[_支付服务用户指南_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
 
 {{config}}
 

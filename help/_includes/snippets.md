@@ -1,9 +1,9 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | 文档资源 | 描述 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4商家文档](../landing/home.md) | Adobe Commerce以商家为中心的文档 |
-| [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支持服务集合的文档，可帮助商家将其业务的关键组件与商店集成。 |
+| [Adobe Commerce 2.4管理员用户指南](../landing/home.md) | 在管理员中工作的商户的文档和资源。 |
+| [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 支持一系列促销服务的文档，可帮助商家将其业务的关键组件与商店集成。 |
 | 云基础架构上的[Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
-| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关开发、部署和维护Adobe Commerce项目的概念、流程、工具和最佳实践的系统文档。 |
-| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 以开发人员为中心的文档，用于自定义Adobe Commerce并与第三方系统集成 |
+| [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有关在Cloud和内部部署项目中开发、部署和维护Adobe Commerce的概念、流程、工具和最佳实践的系统文档。 |
+| [Adobe Commerce 2.4开发人员文档](https://developer.adobe.com/commerce/docs) | 以开发人员为中心的文档，用于自定义Adobe Commerce并与第三方系统集成。 |
 
 {style="table-layout:auto"}

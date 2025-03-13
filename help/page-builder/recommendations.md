@@ -1,26 +1,26 @@
 ---
-title: 添加内容 — 产品Recommendations
-description: 了解Product Recommendations内容类型，该内容类型用于向 [!DNL Page Builder] 阶段添加推荐列表。
+title: 添加内容 — 产品推荐
+description: 了解“产品推荐”内容类型，该内容类型用于向 [!DNL Page Builder] 阶段添加推荐列表。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# 添加内容 — 产品Recommendations
+# 添加内容 — 产品推荐
 
-使用&#x200B;_产品Recommendations_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
+使用&#x200B;_产品推荐_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
 
 >[!NOTE]
 >
->Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品Recommendations_&#x200B;内容类型，该内容类型可在[产品Recommendations元包版本3.0.x或更高版本](https://commercemarketplace.adobe.com/magento-product-recommendations.html)中使用。 要添加[!DNL Page Builder]对产品Recommendations的支持，[请查看安装信息](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。 **此内容类型不可用于Magento Open Source。**
+>Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品推荐_&#x200B;内容类型，该内容类型可在[产品推荐中继包版本3.0.x或更高版本中找到](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 要添加[!DNL Page Builder]对产品推荐的支持，[请查看安装信息](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此内容类型不适用于Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## 产品Recommendations工具箱
+## 产品推荐工具箱
 
 | 工具 | 图标 | 描述 |
 | --- | --| --- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 添加现有的推荐单位
 
-1. 确保您已[为[!DNL Page Builder]页面类型创建了推荐单元](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)。
+1. 确保您已[为[!DNL Page Builder]页面类型创建了推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ## 高级设置
 
-1. 要控制Product Recommendations单元在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
+1. 要控制“产品推荐”单元在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
    | 选项 | 描述 |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 设置应用于Product Recommendations单元所有四个方面的&#x200B;**[!UICONTROL Border]**&#x200B;样式：
+1. 设置应用于产品推荐单元所有四个方面的&#x200B;**[!UICONTROL Border]**&#x200B;样式：
 
    | 选项 | 描述 |
    | ------ | ----------- |

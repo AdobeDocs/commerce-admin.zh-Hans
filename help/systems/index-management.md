@@ -3,9 +3,9 @@ title: 索引管理
 description: 了解索引管理，包括触发重新索引和最佳实践的操作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 索引器可以设置为在保存时或按计划更新。 所有索引都可以使用任一选项，但Customer Grid除外，它仅在保存时支持。 在保存时索引时，Commerce会在保存操作时启动重新索引。 “索引管理”页完成更新并刷新缓存，在一两分钟之内出现重新索引消息。 按照计划重新索引时，重新索引将按照计划作为cron作业运行。 如果[cron作业](cron.md)不可用于更新任何变为无效的索引器，则会显示系统消息。 在重新索引过程中，您的存储仍可访问。
 
 >[!NOTE]
-> 使用Live Search、目录服务或产品Recommendations的Adobe Commerce商家可以选择使用基于[SaaS的价格索引器](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html)。
+> 使用实时搜索、目录服务或产品推荐的Adobe Commerce商家可以选择使用基于[SaaS的价格索引器](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html)。
 
 当需要重新索引时，将在页面顶部显示通知。 根据重新索引模式和您执行的潜在操作，将清除索引和消息。 有关索引的更多详细信息，请参阅&#x200B;_PHP开发人员指南_&#x200B;中的[应用程序如何实现索引](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 使用命令行重新索引
 
-Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅&#x200B;_配置指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){：target=&quot;blank&quot;}。
+Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅&#x200B;_配置指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}。
 
 ## 索引触发事件
 
@@ -102,7 +102,7 @@ Commerce使用命令行提供了其他重新索引选项。 有关完整的详�
 
 | 操作 | 结果 | 控件 |
 | ------ | ------ | -------- |
-| 创建商店、新客户组或`Actions that Cause a Full Reindex`中列出的任何操作 | 完全重新索引 | 完全重新索引按照您的Adobe Commerce或Magento Open Sourcecron作业确定的时间表执行。 |
+| 创建商店、新客户组或`Actions that Cause a Full Reindex`中列出的任何操作 | 完全重新索引 | 完全重新索引按照您的Adobe Commerce或Magento Open Source cron作业确定的时间表执行。 |
 | 批量加载项目(Commerce导入/导出、直接SQL查询以及任何其他直接添加、更改或删除数据的方法) | 部分重新索引（仅对更改的项目重新索引） | 频率由您的Commerce cron作业决定。 |
 | 更改范围（例如，从全局更改为网站） | 部分重新索引（仅对更改的项目重新索引） | 频率由您的Commerce cron作业决定。 |
 

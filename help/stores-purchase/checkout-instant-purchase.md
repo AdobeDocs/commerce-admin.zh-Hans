@@ -3,7 +3,7 @@ title: 即时购买
 description: 了解即时购买，以及它如何快速结帐给注册的客户帐户。
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,8 +28,8 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 
   以下支付方式可用于提供对已保存信用卡信息的安全访问：
 
-   - [Braintree信用卡](braintree.md) (如果启用了3D Secure，则即时购买不能与Braintree信用卡一起使用。)
-   - [已启用PayPal的Braintree](braintree.md)
+   - [Braintree信用卡](braintree.md) (如果启用了3D Secure，即时购买不能与Braintree信用卡一起使用。)
+   - [启用了PayPal的Braintree](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## 店面即时购买
@@ -52,12 +52,12 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 
 ### 步骤2：配置支付方式保管库
 
-您可以将即时购买功能与Adobe Commerce和Magento Open Source的Braintree或支付服务结合使用。 必须启用保险存储，购物者才能使用“即时购买”功能。
+您可以将即时购买功能与Braintree结合使用，也可以将支付服务用于Adobe Commerce和Magento Open Source。 必须启用保险存储，购物者才能使用“即时购买”功能。
 
-了解如何配置支付方式并为Braintree或支付服务启用保险存储：
+了解如何为Braintree或支付服务配置支付方式并启用保险存储：
 
 - [Braintree](braintree.md)
-- [付款服务文档](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [付款服务文档](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### 步骤3：启用即时购买
 

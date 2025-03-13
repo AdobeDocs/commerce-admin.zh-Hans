@@ -3,7 +3,7 @@ title: 创建订单
 description: 了解如何在Commerce管理员中为客户创建订单。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关安装和配置Payment Services扩展时支持此功能的付款方法的详细信息，请参阅[付款服务指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)。
+>有关安装和配置Payment Services扩展时支持此功能的付款方法的详细信息，请参阅[付款服务指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)。
 
 ## 步骤3：提交订单
 

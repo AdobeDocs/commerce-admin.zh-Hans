@@ -3,7 +3,7 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 >[!NOTE]
 >
->要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
@@ -264,12 +264,12 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 是 | 是 |
 | 适用于Adobe Developer App Builder的[API网格](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
-| [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | 是 | 是 |
-| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 否 | 否 |
-| [产品推荐](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 否 | 否 |
-| [付款服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | 否 | 否 |
-| [数据连接后台事件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
-| [数据连接店面事件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
+| [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 是 | 是 |
+| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 否 | 否 |
+| [产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 否 | 否 |
+| [付款服务](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 否 | 否 |
+| [数据连接后台事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
+| [数据连接店面事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
 
 ### 工具

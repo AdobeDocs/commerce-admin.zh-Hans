@@ -1,18 +1,18 @@
 ---
-title: 来自Adobe的扩展
-description: 查看由Adobe发布的Adobe Commerce扩展和Magento Open Source相关信息。
+title: Adobe中的扩展
+description: 查看由Adobe发布的Adobe Commerce和Magento Open Source扩展信息。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# 来自Adobe的扩展
+# Adobe中的扩展
 
-本主题介绍由Adobe发布的Adobe Commerce扩展和Magento Open Source扩展的相关信息。 扩展为管理员和店面添加了功能、功能、服务和集成。 其中一些扩展是通过Magento Open Source社区贡献开发的。 某些扩展需要单独安装，而其他扩展则默认安装。
+本主题介绍由Adobe发布的Adobe Commerce和Magento Open Source扩展的相关信息。 扩展为管理员和店面添加了功能、功能、服务和集成。 其中一些扩展是通过Magento Open Source社区贡献开发的。 某些扩展需要单独安装，而其他扩展则默认安装。
 
 ## 已安装的扩展
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ### Braintree
 
-PayPal和Gene Commerce共同开发了Commerce 2.4.x商店的官方Braintree扩展。 这些更新包括了PayLater选项，改善了旨在促进转化的结账体验，这些选项可在购物和结账期间自动向消费者显示相关的PayLater消息和按钮。
+PayPal和Gene Commerce共同为Commerce 2.4.x商店开发了官方的Braintree扩展。 这些更新包括了PayLater选项，改善了旨在促进转化的结账体验，这些选项可在购物和结账期间自动向消费者显示相关的PayLater消息和按钮。
 
-默认情况下已安装此扩展，但需要为你的存储启用[Braintree帐户](https://www.braintreepayments.com/)和Admin中的配置。 要确定使用Braintree处理交易时适用的费用，请检查[Braintree定价](https://www.braintreepayments.com/braintree-pricing)。
+此扩展默认已安装，但需要为你的存储启用[Braintree帐户](https://www.braintreepayments.com/)以及管理员中的配置。 要确定使用Braintree处理交易时适用的费用，请检查[Braintree定价](https://www.braintreepayments.com/braintree-pricing)。
 
-有关Admin中Braintree配置的信息，请参阅&#x200B;_Braintree和购买体验指南_&#x200B;中的[体验](../stores-purchase/braintree.md)主题。
+有关管理员中Braintree配置的信息，请参阅&#x200B;_销售和购买体验指南_&#x200B;中的[Braintree](../stores-purchase/braintree.md)主题。
 
 ### Google reCAPTCHA
 
@@ -53,7 +53,7 @@ Google reCAPTCHA与标准CAPTCHA相比，为店面和管理员UI提供了更高�
 
 >[!NOTE]
 >
->为管理员启用了Identity Management服务(IMS)Adobe身份验证的Adobe Commerce存储已禁用本机Commerce 2FA。 使用Adobe凭据登录到管理员的用户不需要重新验证许多管理员任务。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[AdobeIdentity Management服务(IMS)集成概述](./adobe-ims-integration-overview.md)。
+>为管理员启用了Adobe Identity Management Services (IMS)身份验证的Adobe Commerce存储已禁用本机Commerce 2FA。 使用其Adobe凭据登录到管理员的用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[Adobe Identity Management Service (IMS)集成概述](./adobe-ims-integration-overview.md)。
 
 ## 要添加扩展
 
@@ -65,27 +65,27 @@ Google reCAPTCHA与标准CAPTCHA相比，为店面和管理员UI提供了更高�
 
 [!DNL Live Search]扩展将您的商店连接到Live Search服务，该服务是Adobe Commerce的一个免费搜索平台，可无缝地使销售商能够为客户提供人工智能增强的搜索体验。 Intelligent Faceting采用Adobe的人工智能Adobe Sensei构建，通过删除有关分面/过滤的手动操作，帮助商家事半功倍。
 
-有关详细信息，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)。
+有关详细信息，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)。
 
 ### [!DNL Product Recommendations]
 
 仅![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerce
 
-[!DNL Product Recommendations]扩展将您的商店连接到Product Recommendations服务，这是一个功能强大的营销工具，可用于提高转化率、收入和参与度。 [!DNL Product Recommendations]由Adobe Commerce构建，并由经过战场测试的人工智能Adobe Sensei驱动，因此您可以放心地提高参与度和转化率。 此功能免除了向每位购物者提供相关产品推荐所需的手动工作。
+[!DNL Product Recommendations]扩展将您的商店连接到产品推荐服务，这是一个功能强大的营销工具，可用于提高转化率、收入和参与度。 [!DNL Product Recommendations]由Adobe Commerce构建，并由经过战场测试的人工智能Adobe Sensei驱动，因此您可以放心地提高参与度和转化率。 此功能免除了向每位购物者提供相关产品推荐所需的手动工作。
 
-有关详细信息，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en)。
+有关详细信息，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en)。
 
 ### [!DNL Catalog Service]
 
-[!DNL Catalog Service]使您能够为客户提供优化的产品体验，同时提高性能、改进可扩展性和提高转化率。 有关详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)。
+[!DNL Catalog Service]使您能够为客户提供优化的产品体验，同时提高性能、改进可扩展性和提高转化率。 有关详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)。
 
 ### [!DNL Payment Services]
 
-Adobe Commerce和Magento Open Source的[!DNL Payment services]是一个完全集成的支付解决方案，它简化了管理支付的过程，并为您的客户提供按其方式付款的机会。 在Adobe Commerce Admin中安全地协调所有支付和交易数据 — 允许您在一个地方管理订单和支付，同时实现无缝结账。 有关详细信息，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
+Adobe Commerce和Magento Open Source的[!DNL Payment services]是一个完全集成的支付解决方案，它简化了管理支付的过程，并为您的客户提供按其方式付款的机会。 在Adobe Commerce Admin中安全地协调所有支付和交易数据 — 允许您在一个地方管理订单和支付，同时实现无缝结账。 有关详细信息，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
 
 ### [!DNL Store Fulfillment]
 
-适用于Adobe Commerce和Magento Open Source的商店履行功能可提供卓越的在线购买功能、店内取货(BOPIS)客户体验，并通过移动设备提供全面的履行工作流程，从而最大限度地提高员工的工作效率。 有关详细信息，请参阅[[!DNL Store Fulfillment] 用户指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html)。
+适用于Adobe Commerce和Magento Open Source的商店履行功能可提供卓越的在线购买功能、店内取货(BOPIS)客户体验，并通过移动设备提供全面的履行工作流程，从而最大限度地提高员工的工作效率。 有关详细信息，请参阅[[!DNL Store Fulfillment] 用户指南](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html)。
 
 ### [!DNL Amazon Sales Channel]
 

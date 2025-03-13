@@ -5,9 +5,9 @@ breadcrumb-title: 配置引用
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
    - [销售](./sales/sales.md)
    - [销售电子邮件](./sales/sales-emails.md)
    - [引号](./sales/quotes.md)
-   - [PDF打印](./sales/pdf-print-outs.md)
+   - [PDF打印输出](./sales/pdf-print-outs.md)
    - [税金](./sales/tax.md)
    - [结帐](./sales/checkout.md)
    - [配送设置](./sales/shipping-settings.md)
@@ -75,7 +75,7 @@ ht-degree: 1%
       - [PayPal支付标准](./sales/paypal-payments-standard.md)
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal Payflow链接](./sales/paypal-payflow-link.md)
-- [Sales Channel](./sales-channels.md)
+- [销售渠道](./sales-channels.md)
 - 服务{#services}
    - [Web API](./services/magento-web-api.md)
    - [Commerce服务](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [管理员](./advanced/admin.md)
    - [系统](./advanced/system.md)
    - [开发人员](./advanced/developer.md)
-- [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,21 +1,21 @@
 ---
-title: '[!DNL Adobe Commerce B2B]指南'
+title: '[!DNL Adobe Commerce B2B] 指南'
 description: 有关 [!DNL Adobe Commerce B2B] 管理员的全面信息，包括安装和配置。
 breadcrumb-title: 指南概述
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
+source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 0%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
 # Adobe Commerce B2B指南
 
-本指南适用于Adobe Commerce管理员。 它提供了有关安装和启用此模块的详细信息，包括其功能的配置和管理。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
+本指南面向在Adobe Commerce管理员中工作的管理员。 它提供了有关安装和启用此模块的详细信息，包括其功能的配置和管理。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
 
 存储管理员有两个区域：
 

@@ -3,7 +3,7 @@ title: 数据传输
 description: 了解对数据传输的支持，包括数据验证。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，这些服务包括[产品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)、[实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[目录服务](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
+>Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，这些服务包括[产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[目录服务](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
 
 ## 数据验证
 

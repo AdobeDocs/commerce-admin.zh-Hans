@@ -5,10 +5,10 @@ breadcrumb-title: 管理系统指南
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [会话管理](security-session-management.md)
    - [浏览器功能检测](security-browser-capabilities-detection.md)
    - [安全问题报告](security-issue-reporting.md)
-- [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

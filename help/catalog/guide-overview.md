@@ -4,16 +4,16 @@ description: 有关Adobe Commerce和Magento Open Source管理员以及电子商�
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce目录管理指南
 
-本指南面向在Adobe Commerce和Magento Open Source中工作的产品推销商和库存管理员。 它提供有关产品目录功能的详细信息，包括为目录构建导航结构。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
+本指南面向使用Adobe Commerce和Magento Open Source Admin的产品推销员和库存管理员。 它提供有关产品目录功能的详细信息，包括为目录构建导航结构。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
 
 本指南涵盖：
 

@@ -4,9 +4,9 @@ description: 有关Adobe Commerce和Magento Open Source管理员的客户帐户�
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Commerce客户管理指南
 
-本指南面向在Adobe Commerce和Magento Open Source工作的客户服务人员。 它提供有关Commerce管理员中的客户管理功能和店面中的客户帐户体验的详细信息。 它假定您对核心Commerce配置和功能有基本的了解。
+本指南面向在Adobe Commerce和Magento Open Source管理员中工作的客户服务人员。 它提供有关Commerce管理员中的客户管理功能和店面中的客户帐户体验的详细信息。 它假定您对核心Commerce配置和功能有基本的了解。
 
 | 主题 | 描述 |
 | ------- | ----------- |

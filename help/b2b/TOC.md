@@ -1,13 +1,13 @@
 ---
-user-guide-title: “[!DNL Adobe Commerce B2B] 指南”
+user-guide-title: '[!DNL Adobe Commerce B2B] 指南'
 user-guide-description: 了解如何使用为Adobe Commerce提供的集成B2B功能，
-breadcrumb-title: "[!DNL Adobe Commerce B2B]"
+breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 6%
 
 ---
@@ -68,4 +68,4 @@ ht-degree: 6%
 + 引用{#reference}
    + [向后不兼容的更改](backward-incompatible-changes.md)
    + [包](packages.md)
-+ [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

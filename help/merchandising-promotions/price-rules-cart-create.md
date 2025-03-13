@@ -3,7 +3,7 @@ title: 创建购物车价格规则
 description: 了解如何根据购物车或产品属性创建购物车价格规则。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
      ![购物车价格规则 — 优惠券设置](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png)）为促销选择&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期范围。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)使用&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png)）为促销选择&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期范围。
 
 1. 输入一个数字，以定义与此同时处于活动状态的其他价格规则的“操作”设置相关的此价格规则的&#x200B;**[!UICONTROL Priority]**。
 
@@ -219,7 +219,7 @@ ht-degree: 0%
    | `Name` | 受众的名称，如`Orders over $50` |
    | `Description` | 受众的描述，如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指示受众的来源，如`Experience Platform`。 |
-   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
+   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
 
    {style="table-layout:auto"}
 
@@ -352,8 +352,8 @@ ht-degree: 0%
 | [!UICONTROL Uses per Customer] | 确定属于任何选定客户组的同一注册客户可以使用购物车价格规则的次数。 不适用于属于NOT LOGGED IN客户组的访客购物者，或者不适用于未登录到其帐户进行购买的客户。 对于无限制，请留空。 |
 | [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | 确定促销活动是否包含在商店的公共RSS信息源中。 选项：  `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)可以使用优惠券的第一个日期。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)可使用优惠券的最后日期。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)可以使用优惠券的第一个日期。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)可使用优惠券的最后日期。 |
 
 {style="table-layout:auto"}
 

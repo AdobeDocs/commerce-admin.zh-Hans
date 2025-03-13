@@ -1,12 +1,12 @@
 ---
 user-guide-title: 目录管理指南
-user-guide-description: 有关Adobe Commerce和Magento Open Source管理员以及电子商务营销人员的目录管理功能的综合信息。
+user-guide-description: 有关Adobe Commerce、Magento Open Source管理员和电子商务营销人员的目录管理功能的综合信息。
 breadcrumb-title: 目录管理
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
@@ -99,5 +99,5 @@ ht-degree: 1%
       + [创建和删除属性](attribute-product-create.md)
       + [批量更新](bulk-product-attribute-update.md)
       + [属性集](attribute-sets.md)
-+ [返回商家指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,18 +3,63 @@ title: 店面是什么？
 description: 了解您的商店为支持客户的购物体验而提供的页面和功能元素。
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
 
 # 店面是什么？
 
-在您的Adobe Commerce或Magento Open Source实施中，店面是商店中面向公众的外部部分。 它提供客户用于购物和购买的内容和功能组件。
+在您的Adobe Commerce或Magento Open Source实施中，店面是您的商店中面向公众的外部部分。 它提供客户用于购物和购买的内容和功能组件。
 
 客户进行销售的路径有时称为&#x200B;_购买路径_，您的店面包括供客户完成此路径的组件。 以下部分概述了提供战略价值的基本页面类型，即客户在商店购物时通常会访问的位置。 在回顾这些功能时，请考虑可在客户历程的每个阶段使用的不同商店功能。
+
+## Commerce店面
+
+通过推出由Edge Delivery Services **]提供支持的[!DNL ** Commerce店面，Adobe提供了高性能、可扩展且可靠的店面，该店面利用尖端技术提供卓越的速度和用户体验。
+
+- **增强的性能**：在Edge Delivery Services上托管店面可确保更快的加载时间和改进的网站性能，从而带来更高的转化率和更好的SEO排名。
+
+- **可扩展性**：体系结构支持无缝扩展，以便在不影响性能的情况下处理增加的流量和更大的产品目录。
+
+- **灵活性**：店面高度可自定义，允许企业根据独特需求定制购物体验。
+
+- **改进的用户体验**：高级缓存、实时更新和个性化内容投放等功能，有助于提供更顺畅、更吸引人的购物体验。
+
+### 主要功能
+
+由Edge Delivery Services提供支持的Commerce店面提供了多项对商家和开发人员都有利的关键功能。 这些功能使企业能够创造引人入胜的购物体验，同时保持灵活性，以根据自己的需求定制和扩展店面。
+
+有关设置和优化Commerce店面的更多详细信息和指导，请参阅[Adobe Commerce店面文档](https://experienceleague.adobe.com/en/docs/commerce)。
+
+>[!BEGINTABS]
+
+>[!TAB 商家]
+
+由Edge Delivery Services提供支持的Commerce Storefront提供了基于文档的直观创作体验，使商家能够轻松创建和管理内容。 使用熟悉的工具(如Microsoft Word或Google Docs)，商家可以创建丰富的内容，同时保持版本控制并与团队成员协作。
+
+- **简化的内容创建**：使用熟悉的基于文档的创作工具(如Microsoft Word或Google Docs)创建和编辑内容。
+- **实时预览**：在发布之前通过实时预览功能立即查看更改。
+- **版本控制**：跟踪内容更改并轻松回滚到以前的版本。
+- **协作工作流**：多个团队成员可以使用内置审核流程同时处理内容。
+- **内容重用**：创建可跨多个页面重用的内容块以保持一致性。
+
+>[!TAB 开发人员]
+
+Headless实施使开发人员能够将前端展示层与后端商务功能分离，从而允许使用现代技术构建的灵活自定义店面，同时利用Commerce强大的后端服务。
+
+- **API优先架构**：在利用Commerce后端服务的同时，使用现代框架构建自定义前端体验。
+- **可组合组件**：创建并部署可组合到不同页面布局的模块化、可重用的组件。
+- **可扩展平台**：通过API和Webhook添加自定义功能，而无需修改核心代码。
+- **现代开发工具**：使用行业标准开发工具和工作流程加快实施和部署。
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>虽然Commerce店面具有众多优势，但Adobe仍继续支持基于Luma的原始店面。 目前使用Luma的企业可以在不中断的情况下继续运营，并可以选择按照自己的速度转移到新店面。 此页面上的其他部分基于Luma示例。
 
 ## 主页
 
@@ -36,7 +81,7 @@ ht-degree: 0%
 
 ### [!DNL Live Search]
 
-使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
 
 ![实时搜索示例 — 键入时搜索](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,13 +99,13 @@ ht-degree: 0%
 
 ## 购物车
 
-在购物车中，您可以确定订单总额、折扣券以及预计的运费和税金，还可以在购物车中显示您的信托徽章和印章。 这也是提供最后一个项目的理想机会。 作为交叉销售，您可以选择特定商品在购物车中出现时作为冲动购买提供。
+购物车显示订单总计，包括任何折扣券、预计运费和税金。 这些功能使其成为展示信任徽章和印章的绝佳场所。 您还可以将购物车页面用作一个最终优惠的机会。 例如，您可以设置交叉销售项目，当购物车中有特定产品时，这些项目会显示为冲量购买选项。
 
 ![店面购物车页面示例](./assets/storefront-cart-full.png){width="700"}
 
 ## 签出页面
 
-结账流程包括两个步骤：
+结账过程包括两个步骤：
 
 1. 配送信息
 
@@ -83,4 +128,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->两步结账的例外情况适用于虚拟和/或可下载的产品。 如果购物车中只有这些类型的产品，则结帐会自动转换为单步流程，因为不需要提供送货信息。
+>两步结账的例外情况适用于虚拟和/或可下载的产品。 如果购物车中只有这些类型的产品，则结帐会自动转换为单步过程，因为不需要提供送货信息。

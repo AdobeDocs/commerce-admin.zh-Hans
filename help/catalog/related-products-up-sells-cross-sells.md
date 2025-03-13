@@ -3,7 +3,7 @@ title: 产品设置 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 对于产品，[!UICONTROL Related Products, Up-Sells, and Cross-Sells]设置在产品页面上定义简单的促销块，突出显示所选的其他产品。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)**由Adobe Sensei提供支持的Product Recommendations**通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+>![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)**由Adobe Sensei提供支持的产品推荐**通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
 ><br/>
->有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品Recommendations指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_。
+>有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
 
 ## 相关产品
 
