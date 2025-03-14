@@ -3,20 +3,38 @@ title: Adobe中的扩展
 description: 查看由Adobe发布的Adobe Commerce和Magento Open Source扩展信息。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: e37ca150c72bb46066690524a35de52d6db6d56a
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
 
 # Adobe中的扩展
 
-本主题介绍由Adobe发布的Adobe Commerce和Magento Open Source扩展的相关信息。 扩展为管理员和店面添加了功能、功能、服务和集成。 其中一些扩展是通过Magento Open Source社区贡献开发的。 某些扩展需要单独安装，而其他扩展则默认安装。
+本主题介绍由Adobe发布的Adobe Commerce和Magento Open Source的PHP扩展信息。
 
-## 已安装的扩展
+扩展为管理员和店面添加了功能、功能、服务和集成。 其中一些扩展是通过Magento Open Source社区贡献开发的。 默认情况下，会安装某些扩展，而其他扩展则需要单独安装。
 
-有一些扩展会自动与Adobe Commerce或Magento Open Source一起安装。
++++了解有关扩展Adobe Commerce的更多信息
+
+Adobe提供了两种主要方法来扩展或自定义您的Adobe Commerce项目：
+
+- 进程内可扩展性：使用在Adobe Commerce应用程序进程（如PHP扩展）中运行的自定义代码和扩展。 这种传统方法允许深度集成，但在升级期间需要仔细管理。
+
+- 进程外可扩展性：使用独立于核心软件的自定义代码和应用程序。 此现代方法有助于通过以下方式降低总拥有成本：
+
+   - 由于扩展与核心分离，因此简化了升级
+   - 使开发人员能够更好地控制实施时间和方法
+   - 实现扩展组件的独立扩展和维护
+
+Adobe Commerce提供了策略和工具来支持这两种类型的可扩展性。 要了解更多信息，请参阅[Adobe Commerce可扩展性](https://developer.adobe.com/commerce/extensibility/)。
+
++++
+
+## 默认安装的Adobe扩展
+
+Adobe Commerce附带以下Adobe扩展，并随Adobe Commerce应用程序自动安装。 某些扩展需要在管理员中进行进一步配置或启用，如扩展描述中所述。
 
 ### [!DNL Inventory Management]
 
@@ -55,42 +73,74 @@ Google reCAPTCHA与标准CAPTCHA相比，为店面和管理员UI提供了更高�
 >
 >为管理员启用了Adobe Identity Management Services (IMS)身份验证的Adobe Commerce存储已禁用本机Commerce 2FA。 使用其Adobe凭据登录到管理员的用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[Adobe Identity Management Service (IMS)集成概述](./adobe-ims-integration-overview.md)。
 
-## 要添加扩展
+## 需要安装的Adobe扩展
 
-[[!DNL Commerce Marketplace]](https://marketplace.magento.com/)是应用程序和服务的全局电子商务资源，这些应用程序和服务扩展了具有强大新特性和功能的[!DNL Commerce]解决方案。 Adobe通过[!DNL Marketplace]发布多个扩展，这些扩展可在Adobe Commerce或Magento Open Source存储中安装和配置，以提供增强的集成和功能。
+Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展可通过不同的渠道使用：
+
+- 存储库访问(repo.magento.com)
+
+  要安装以下扩展，需要设置帐户和凭据。 请联系您的Adobe客户代表寻求帮助。
+
+   - [Adobe Commerce B2B](#adobe-commerce-b2b)
+   - [适用于Commerce的AEM Assets集成](#assets-integration-for-commerce)
+
+- Adobe Commerce市场
+
+  以下Adobe扩展可在[marketplace.magento.com](https://marketplace.magento.com)中公开访问。 这些扩展无需额外付费。
+
+   - [实时搜索](#live-search)
+   - [产品推荐](#product-recommendations)
+   - [目录服务](#catalog-service)
+   - [支付服务](#payment-services)
+
+### [!DNL Adobe Commerce B2B]
+
+仅![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce，需要单独的许可证。
+
+[!DNL Adobe Commerce B2B]是一个集成的扩展，可将标准Commerce存储区转换为全面的企业对企业平台。 它使公司能够在统一的公司帐户下管理具有多个购买者、自定义角色和购买权限的复杂组织结构。 关键功能包括特定于公司的目录和定价、可协商的报价、采购订单管理、申购单和快速订购功能。 该解决方案在单个实例上同时支持B2B和B2C模型，使其能够灵活地满足各种业务需求。 该扩展需要单独的许可证并与Adobe Commerce的核心功能无缝集成，以提供完整的B2B电子商务解决方案。
+
+要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL B2B for Adobe Commerce] 用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+
+### [!DNL AEM Assets Integration for Commerce]
+
+仅![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce还需要Adobe Experience Manager (AEM) Assets和AEM Dynamic Media的许可证。
+
+[!DNL AEM Assets Integration for Commerce]将Adobe Commerce与Adobe Experience Manager的数字资产管理(DAM)系统连接起来，以集中控制所有数字资产。 此集成支持跨商业存储场的自动资产同步、实时更新和高效的内容重用。 通过将AEM强大的资产管理功能与Commerce相结合，企业可以从简化的工作流、一致的品牌体验以及通过基于云的基础架构优化的媒体投放中受益。
+
+要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL Assets Integration] 用户指南](../content-design/aem-assets-integration.md)。
 
 ### [!DNL Live Search]
 
 仅![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerce
 
-[!DNL Live Search]扩展将您的商店连接到Live Search服务，该服务是Adobe Commerce的一个免费搜索平台，可无缝地使销售商能够为客户提供人工智能增强的搜索体验。 Intelligent Faceting采用Adobe的人工智能Adobe Sensei构建，通过删除有关分面/过滤的手动操作，帮助商家事半功倍。
+Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方案提供了实时“随类型搜索”功能。 它可以在购物者键入内容时，通过产品缩览图提供快速的相关结果，同时还可以根据购物行为自动调整过滤器的智能分面。 该解决方案包括用于产品提升和掩藏、同义词管理和搜索分析的推销功能。 随Adobe Commerce一起提供，[!DNL Live Search]免费使用更复杂、基于SaaS的搜索体验来替换默认搜索功能。 它需要最少的配置才能开始。
 
-有关详细信息，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)。
+有关实施详细信息和技术要求，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)。
 
 ### [!DNL Product Recommendations]
 
 仅![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerce
 
-[!DNL Product Recommendations]扩展将您的商店连接到产品推荐服务，这是一个功能强大的营销工具，可用于提高转化率、收入和参与度。 [!DNL Product Recommendations]由Adobe Commerce构建，并由经过战场测试的人工智能Adobe Sensei驱动，因此您可以放心地提高参与度和转化率。 此功能免除了向每位购物者提供相关产品推荐所需的手动工作。
+[!DNL Product Recommendations]是Adobe Commerce独有的功能，由Adobe Sensei AI技术提供支持，可在整个客户购物历程中提供个性化的产品建议。 该解决方案可实时分析购物者行为和产品关系，以自动生成相关推荐，无需手动促销规则。 这种人工智能驱动的方法有助于提高转化率和收入潜力，同时为购物者创造更吸引人的产品发现体验。
 
-有关详细信息，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en)。
+有关实施详细信息和最佳实践，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)。
 
 ### [!DNL Catalog Service]
 
-[!DNL Catalog Service]使您能够为客户提供优化的产品体验，同时提高性能、改进可扩展性和提高转化率。 有关详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)。
+[!BADGE 支持]{type=Informative tooltip="支持"}
+
+[!DNL Catalog Service]是Adobe Commerce和Magento Open Source的高性能解决方案，它通过GraphQL端点提供对目录数据的优化访问。 它维护一个单独的同步数据库，用于存放产品详细信息和相关信息，从而绕过直接的应用程序通信来加快页面加载时间。 此服务对于产品详细信息页面、类别列表和搜索结果页面尤其有用，因此非常适合传统和Headless商务实施。
+
+有关设置说明和技术详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)。
+
+>[!NOTE]
+>
+>启用实时搜索或产品推荐后，将自动安装目录服务。 不需要手动安装。
 
 ### [!DNL Payment Services]
 
-Adobe Commerce和Magento Open Source的[!DNL Payment services]是一个完全集成的支付解决方案，它简化了管理支付的过程，并为您的客户提供按其方式付款的机会。 在Adobe Commerce Admin中安全地协调所有支付和交易数据 — 允许您在一个地方管理订单和支付，同时实现无缝结账。 有关详细信息，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
+[!BADGE 支持]{type=Informative tooltip="支持"}
 
-### [!DNL Store Fulfillment]
+[!DNL Payment Services]是适用于Adobe Commerce和Magento Open Source商店的全包支付解决方案，可提供全面的支付处理功能。 该服务将安全支付网关功能与内置的欺诈保护功能集成，同时提供多种支付选项，包括信用卡/借记卡、PayPal、Venmo (US)和PayLater计划。 它通过Commerce管理界面提供统一的交易报告和订单管理，使得商家能够轻松地在一个地方跟踪支付、管理现金流和对账财务数据。
 
-适用于Adobe Commerce和Magento Open Source的商店履行功能可提供卓越的在线购买功能、店内取货(BOPIS)客户体验，并通过移动设备提供全面的履行工作流程，从而最大限度地提高员工的工作效率。 有关详细信息，请参阅[[!DNL Store Fulfillment] 用户指南](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html)。
-
-### [!DNL Amazon Sales Channel]
-
-通过Adobe Commerce的[!DNL Amazon Sales Channel]，您可以将Amazon Seller Central列表数据库与[!DNL Commerce]产品目录集成，并在Commerce管理员中管理Amazon列表和销售情况。 有关详细信息，请参阅[[!DNL Amazon Sales] 指南](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html)。
-
-### [!DNL Channel Manager]
-
-[!DNL Channel Manager]使您能够通过将Adobe Commerce或Magento Open Source产品目录与沃尔玛市场集成来提高销售额、接触新客户、简化运营并节省时间。 安装和配置扩展后，您的员工可以从[!DNL Commerce Admin]中无缝地管理Walmart Marketplace列表、库存、订单、退货和退款。 有关详细信息，请参阅[[!DNL Channel Manager] 用户指南](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html)。
+有关详细配置步骤和付款选项，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview)。
