@@ -3,25 +3,29 @@ title: Braintree
 description: 了解如何在您的商店中将Braintree设置为在线支付解决方案。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: fcd08ea5d8c3bd498eb4beae41bdf2f078a89f55
+source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
 
 # Braintree
 
-Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账体验。 它支持[!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo和本地支付方式。 Braintree减轻了商家的PCI合规负担，因为交易发生在Braintree系统上。 Braintree支付集成由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)开发。
+>[!IMPORTANT]
+>
+>如果您需要有关卡上意外费用的帮助，请访问[取消订阅](https://helpx.adobe.com/manage-account/using/cancel-subscription.html)页面以获得帮助。
+
+Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体验。 它支持[!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo和本地支付方式。 Braintree减轻了商家的PCI合规性负担，因为交易发生在Braintree系统上。 Braintree Payments集成由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)开发。
 
 >[!NOTE]
 >
->如果您从早期版本的Adobe Commerce升级到2.4.x，或者从安装了Commerce Marketplace的Magento Open Source升级到Braintree扩展，请参阅本页末尾的[2.4升级说明](#24-upgrade-notes)。
+>如果您从早期版本的Adobe Commerce或Magento Open Source升级到2.4.x，并且安装了来自Commerce Marketplace的Braintree扩展，请参阅本页末尾的[2.4升级说明](#24-upgrade-notes)。
 
 
 ## 步骤1：获取Braintree凭据
 
-转到[Braintree付款][1]并注册帐户。
+转到[Braintree Payments][1]并注册帐户。
 
 ## 第2步：完成基本设置
 
@@ -37,11 +41,11 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
    ![配置Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
-1. 对于&#x200B;**[!UICONTROL Title]**，输入在结账期间将Braintree标识为付款选项的标题。
+1. 对于&#x200B;**[!UICONTROL Title]**，请输入在结账期间将Braintree标识为付款选项的标题。
 
 1. 将Braintree交易记录的当前操作&#x200B;**[!UICONTROL Environment]**&#x200B;设置为`Sandbox`或`Production`
 
-   在沙盒中测试配置时，仅使用Braintree推荐的[信用卡号][2]。 当您准备好使用Braintree进入生产时，将&#x200B;**[!UICONTROL Environment]**&#x200B;设置为`Production`。
+   在沙盒中测试配置时，请仅使用Braintree推荐的[信用卡号][2]。 当您准备好使用Braintree进入生产阶段时，将&#x200B;**[!UICONTROL Environment]**&#x200B;设置为`Production`。
 
    ![基本凭据设置](./assets/braintree-settings1.png){width="600" zoomable="yes"}
 
@@ -50,7 +54,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
    - `Authorize Only` — 批准购买并暂停资金。 在商户捕获&#x200B;__&#x200B;销售之前，不会从客户的银行帐户提取此金额。|
    - `Intent Sale` — 已授权并立即从客户帐户中收回购买金额。 **_注意：_**&#x200B;在2.3.x及更早版本中，此值是&#x200B;_Authorize and Capture_。|
 
-1. 输入Braintree帐户中的&#x200B;**[!UICONTROL Sandbox Merchant ID / Merchant ID]**。
+1. 输入您的Braintree帐户中的&#x200B;**[!UICONTROL Sandbox Merchant ID / Merchant ID]**。
 
 1. 从您的Braintree帐户输入以下凭据：
 
@@ -77,9 +81,9 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 1. 对于&#x200B;**[!UICONTROL Vault Title]**，请输入参考的描述性标题，以标识存储客户卡信息的保管库。
 
-1. 输入Braintree帐户中的&#x200B;**[!UICONTROL Merchant Account ID]**。
+1. 输入您的Braintree帐户中的&#x200B;**[!UICONTROL Merchant Account ID]**。
 
-   如果未指定要使用的贸易商帐户，则Braintree将使用默认贸易商帐户处理事务处理。
+   如果您没有指定要使用的商家帐户，Braintree将使用您的默认商家帐户处理此交易记录。
 
 1. 要在结账流程开始时使用“快速付款”选项(包括PayPal、PayLater、Apple Pay和Google Pay)提供更快的结账体验，请将&#x200B;**[!UICONTROL Enable Checkout Express Payments]**&#x200B;设置为`Yes`。
 
@@ -89,7 +93,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
    将此字段留空将禁用此选项。
 
-1. 如果希望系统保存存储与Braintree之间交互的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
+1. 如果希望系统保存商店与Braintree之间交互的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
 
 1. 若要要求客户从信用卡背面提供三位数的安全代码，请将&#x200B;**[!UICONTROL CVV Verification]**&#x200B;设置为`Yes`。
 
@@ -97,19 +101,19 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 1. 若要发送所有付款方法的购物车行项目，请将&#x200B;**[!UICONTROL Send Card Line Items]**&#x200B;设置为`Yes`。
 
-1. 对于&#x200B;**[!UICONTROL Credit Card Types]**，请选择商店接受的每个通过Braintree付款的信用卡。
+1. 对于&#x200B;**[!UICONTROL Credit Card Types]**，请选择您的商店接受通过Braintree付款的每个信用卡。
 
    要选择多种卡类型，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
-1. 对于&#x200B;**[!UICONTROL Sort Order]**，请输入一个数字以确定在结账过程中与其他付款方法一起列出Braintree时显示的顺序。
+1. 对于&#x200B;**[!UICONTROL Sort Order]**，请输入数字以确定Braintree在结账过程中与其他付款方法一起列出时的显示顺序。
 
-## 步骤4：完成Braintreewebhook设置
+## 步骤4：完成Braintree webhook设置
 
-![BraintreeWebhook设置](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![Braintree Webhook设置](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. 将&#x200B;**[!UICONTROL Enable Webhook]**&#x200B;设置为`Yes`以启用webhook功能以防止欺诈、ACH付款和本地付款方法。
 
-1. 复制&#x200B;**[!UICONTROL Fraud Protection URL]**&#x200B;字段中的URL并将其作为&#x200B;_[!UICONTROL Webhook Destination URL]_添加到您的Braintree帐户。
+1. 复制&#x200B;**[!UICONTROL Fraud Protection URL]**&#x200B;字段中的URL，并将其作为&#x200B;_[!UICONTROL Webhook Destination URL]_添加到您的Braintree帐户。
 
    >[!IMPORTANT]
    >
@@ -140,23 +144,23 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
    - 重复以上步骤以标识从每个国家/地区接受的信用卡。
 
-## 步骤6：通过Braintree设置完成ACH
+## 步骤6：通过Braintree设置完成自动清算行
 
-![通过Braintree](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}进行ACH
+通过Braintree进行![ACH](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
 
-1. 若要将ACH作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable ACH Direct Debit]**&#x200B;设置为`Yes`。
+1. 要将ACH作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable ACH Direct Debit]**&#x200B;设置为`Yes`。
 
 1. 客户可以保存其单次使用的ACH直接借记支付方法并将其存储以供将来使用。 保险存储完成后，如果将&#x200B;**[!UICONTROL Enable Vault for ACH Direct Debit]**&#x200B;设置为`Yes`，客户可以重用ACH直接借记，而无需重新输入或验证其付款信息。
 
-1. 对于&#x200B;**[!UICONTROL Sort Order]**，输入一个数字，以确定在结帐期间与其他付款选项一起列出时，BraintreeACH付款选项出现的顺序。
+1. 对于&#x200B;**[!UICONTROL Sort Order]**，请输入一个数字以确定在结账过程中与其他付款选项一起列出时Braintree ACH付款选项出现的顺序。
 
 ## 步骤7：通过Braintree设置完成[!UICONTROL Apple Pay]
 
 通过Braintree设置![ApplePay](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
 
-1. 若要将[!DNL Apple Pay]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable ApplePay through Braintree]**&#x200B;设置为`Yes`。
+1. 要将[!DNL Apple Pay]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable ApplePay through Braintree]**&#x200B;设置为`Yes`。
 
-   确保首先在你的Braintree帐户中[验证你的域名](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)。
+   确保首先[在您的Braintree帐户中验证您的域名](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)。
 
 1. 如果您希望能够安全地存储客户信息，以便客户在每次使用Apple Pay购买时都不需要重新输入该信息，请将&#x200B;**[!UICONTROL Enable Vault for ApplePay]**&#x200B;设置为`Yes`。
 
@@ -171,11 +175,11 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 ## 步骤8：完成本地支付方法的设置
 
-1. 若要将本地付款方法作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable Local Payment Methods]**&#x200B;设置为`Yes`。
+1. 要将本地付款方式作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable Local Payment Methods]**&#x200B;设置为`Yes`。
 
 1. 对于&#x200B;**[!UICONTROL Title]**，输入要用于显示在结帐付款方式部分上的标签的文本（默认值： `Local Payments`）。
 
-1. 对于&#x200B;**[!UICONTROL Fallback Button Text]**，输入要用于后备Braintree页面上显示的按钮的文本，以将客户带回网站（例如，`Complete Checkout`）。
+1. 对于&#x200B;**[!UICONTROL Fallback Button Text]**，输入要用于Braintree回退页面上显示的按钮的文本，以将客户带回网站（例如，`Complete Checkout`）。
 
 1. 对于&#x200B;**[!UICONTROL Redirect on Fail]**，输入URL，当本地付款方式交易被取消、失败或遇到错误时，应将客户重定向到该位置。 它应该是结帐付款页面（例如，`https://www.domain.com/checkout#payment`）。
 
@@ -195,7 +199,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 ![Google通过Braintree支付](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
 
-1. 若要将[!DNL Google Pay]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable GooglePay Through Braintree]**&#x200B;设置为`Yes`。
+1. 要将[!DNL Google Pay]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable GooglePay Through Braintree]**&#x200B;设置为`Yes`。
 
 1. 如果您希望能够安全地存储客户信息，以便客户在每次使用Google Pay购买时都不需要重新输入该信息，请将&#x200B;**[!UICONTROL Enable Vault for GooglePay]**&#x200B;设置为`Yes`。
 
@@ -220,7 +224,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 1. 将&#x200B;**[!UICONTROL Enable Vault for Venmo]**&#x200B;设置为`Yes`可允许使用安全保管库存储客户的Venmo帐户，这样客户就无需再次登录到其Venmo帐户即可进行将来交易。
 
-   ![通过Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}的Venmo
+   通过Braintree进行![Venmo](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
 1. 将&#x200B;**[!UICONTROL Payment Action]**&#x200B;设置为以下项之一：
 
@@ -235,13 +239,13 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 1. 若要将PayPal作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal through Braintree]**&#x200B;设置为`Yes`。
 
-1. 通过Braintree付款方式指定您的PayPal：
+1. 通过Braintree支付方式指定您的PayPal：
 
    >[!NOTE]
    >
    >可以启用&#x200B;**[!DNL PayPal Credit]**&#x200B;或&#x200B;**[!DNL PayPal PayLater]**。 无法同时启用这两种方法。
 
-   - 若要将[!DNL PayPal Credit]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal Credit through Braintree]**&#x200B;设置为`Yes`。
+   - 要将[!DNL PayPal Credit]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal Credit through Braintree]**&#x200B;设置为`Yes`。
 
      当&#x200B;**通过Braintree启用PayPal**&#x200B;设置为`Yes`时，仅显示此字段。
 
@@ -249,19 +253,19 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
      >
      >PayPal信用仅在美国和英国可用。 如果&#x200B;_[!UICONTROL Merchant Country]_字段的选定值不是`US`或`UK`，则PayPal点数已禁用。
 
-   - 若要将[!DNL PayPal PayLater]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;设置为`Yes`。
+   - 要将[!DNL PayPal PayLater]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;设置为`Yes`。
 
      当&#x200B;**[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;设置为`Yes`时，仅出现此字段。
 
      您可以在您的网站上显示PayLater消息以提供各种优惠，例如&#x200B;_在3_&#x200B;内付款，客户可按月支付三笔免息款项。 Braintree集成可以在您的网站上显示消息以推广此功能。 您不能将PayLater选件与任何其他内容、营销或材料一起促销。
 
-1. 对于&#x200B;**[!UICONTROL Title]**，输入在结账期间通过PayPal选项标识Braintree付款的标题。
+1. 对于&#x200B;**[!UICONTROL Title]**，请输入一个标题，以在结账期间标识按PayPal选项进行的Braintree付款。
 
 1. 将&#x200B;**[!UICONTROL Vault Enabled]**&#x200B;设置为`Yes`以允许使用安全保管库存储客户的PayPal帐户。 保管式PayPal帐户可用于未来交易，从而减少客户的步骤数。
 
 1. 将&#x200B;**[!UICONTROL Send Cart Line Items for PayPal]**&#x200B;设置为`Yes`以将行项目（订单项目）与礼品卡、项目礼品包装、订单礼品包装、商店退款、配送和税作为行项目发送到PayPal。
 
-1. 对于&#x200B;**[!UICONTROL Sort Order]**，输入一个数字，以确定BraintreePayPal付款选项在结帐期间与其他付款选项一起列出时的显示顺序。
+1. 对于&#x200B;**[!UICONTROL Sort Order]**，请输入一个数字以确定在结帐期间与其他付款选项一起列出时Braintree PayPal付款选项出现的顺序。
 
 1. 要以不同于[存储配置](../getting-started/store-details.md#store-information)中定义的形式显示商家名称，请在&#x200B;**[!UICONTROL Override Merchant Name]**&#x200B;字段中输入您希望其显示的名称。
 
@@ -281,7 +285,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
    >
    >必须由PayPal技术支持为您的帐户启用此功能。
 
-1. 要保存通过Braintree存储存储区与PayPal之间交互的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
+1. 要通过Braintree保存商店与PayPal之间交互的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
 
 1. 要在迷你购物车和购物车页面上同时显示PayPal按钮，请将&#x200B;**[!UICONTROL Display on Shopping Cart]**&#x200B;设置为`Yes`。
 
@@ -356,7 +360,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 ## 步骤14：设置Braintree动态描述符
 
-以下描述符用于识别客户信用卡对账单上的购买情况。 您可以通过明确识别与每次购买关联的公司来减少回扣次数。 如果没有为您的帐户启用动态描述符，请联系Braintree支持部门。
+以下描述符用于识别客户信用卡对账单上的购买情况。 您可以通过明确识别与每次购买关联的公司来减少回扣次数。 如果您的帐户未启用动态描述符，请联系Braintree支持部门。
 
 ![动态描述符](../configuration-reference/sales/assets/payment-methods-braintree-dynamic-config.png){width="600" zoomable="yes"}
 
@@ -392,7 +396,7 @@ Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账�
 
 ## 2.4升级说明
 
-从Adobe Commerce和Magento Open Source2.4.0开始，此版本中包含了Braintree扩展。 如果您从安装了MarketplaceBraintree扩展的2.4.0之前的版本迁移到Commerce 2.4.x，则必须卸载该扩展（`paypal/module-braintree`或`gene/module-braintree`），并更新任何代码自定义以使用`PayPal_Braintree`命名空间而不是`Magento_Braintree`。 核心CommerceBraintree支付捆绑扩展和分发到Commerce Marketplace的扩展中的配置设置将保留，并且仍可以正常捕获、撤消或退款与这些先前版本一起进行的支付。
+从Adobe Commerce和Magento Open Source 2.4.0开始，此版本中包含了Braintree扩展。 如果您从安装了Marketplace Braintree扩展的2.4.0之前的版本迁移到Commerce 2.4.x，则必须卸载该扩展（`paypal/module-braintree`或`gene/module-braintree`），并更新任何代码自定义以使用`PayPal_Braintree`命名空间而不是`Magento_Braintree`。 会保留核心Commerce Braintree Payments捆绑扩展和Commerce Marketplace上分发的扩展中的配置设置，并且仍可以正常捕获、撤消或退款与这些先前版本一起进行的支付。
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php
