@@ -3,7 +3,7 @@ title: 使用ID配置Commerce管理集成
 description: 请按照以下可选过程操作，以将Adobe Commerce管理员用户帐户的登录与Adobe ID集成。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-此集成支持具有Adobe ID且想要简化登录Commerce和Adobe业务产品的管理员用户的Adobe Commerce商家。 它是可选的，并且会按实例启用。 启用后，只有管理员用户工作流受影响。 
+此集成支持那些拥有Adobe ID并想要简化登录到Commerce和Adobe商业产品的管理员用户的Adobe Commerce商家。 它是可选的，并且会按实例启用。 启用后，只有管理员用户工作流受影响。 
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 
 ### 步骤1：获取Adobe组织ID
 
-要启用此功能，需要至少拥有一个IMS组织的成员资格。 如果您拥有Adobe ID，则默认情况下您至少属于一个Adobe组织。 登录到[Adobe Admin Console](https://adminconsole.adobe.com/)以检索您的组织ID。
+要启用此功能，需要至少拥有一个IMS组织的成员资格。 如果您拥有Adobe ID，则默认情况下至少属于一个Adobe组织。 登录到[Adobe Admin Console](https://adminconsole.adobe.com/)以检索您的组织ID。
 
 ### 步骤2：生成新项目、IMS API密钥和密码
 
@@ -61,8 +61,8 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 1. 在新创建的项目页面上单击&#x200B;**[!UICONTROL Add API]**。
 1. 选择&#x200B;**[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**。
 1. 选择&#x200B;**[!UICONTROL Oauth 2.0 Web]**。
-1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<commerce_base_url>/`
+1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<commerce_base_url>/.*`
 
    通过在带有`\\`的点之前转义主机名中的任何点。 在URL末尾添加通配符可支持Adobe Commerce管理员密钥。
 
