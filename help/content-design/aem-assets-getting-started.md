@@ -3,9 +3,9 @@ title: 为Commerce设置AEM Assets集成
 description: 了解如何设置和配置您的Experience Manager Assets环境，以管理您商店的Commerce资源。
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
+source-git-commit: f64975793edc88a34d75965c8fae4967fae801c7
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 0%
 - Adobe Commerce、Adobe Experience Manager Assets和[AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)的活动许可证。
 
 - Adobe Commerce 2.4.5+
-
-   - PHP 8.1、8.2和8.3
-   - Composer： 2.x
 
 - Adobe Experience Manager已配置[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/overview)
 
