@@ -3,9 +3,9 @@ title: 配置集成
 description: 了解如何连接Adobe Commerce和Experience Manager Assets项目，以启用这两个系统之间的资源同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ ht-degree: 0%
 1. 选择&#x200B;**[!UICONTROL Save Config]**&#x200B;以应用更新并启动资产同步。
 
    配置更新会触发初始同步过程，从而允许Commerce接受来自AEM Assets的传入更新。 同步所需的时间取决于资产量和特定配置。 该集成利用自动化流程来最大限度地减少同步所需的时间。
+
+### 配置自定义域URL
+
+如果商家在其AEM功能板中设置了[自定义域名](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}，则需要在Commerce中添加此&#x200B;**自定义域名URL**，以便AEM Assets集成可以使用该域名。
+
+1. 导航到&#x200B;**[!UICONTROL Store]** >配置> **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**。
+
+   ![AEM Assets集成启用该集成](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. 将&#x200B;**自定义域URL**&#x200B;添加到&#x200B;**[!UICONTROL Asset Custom Domain]**&#x200B;字段。
+
+1. 单击&#x200B;**[!UICONTROL Save Config]**&#x200B;以应用更新并启动资产同步。
 
 ## 下一步
 
