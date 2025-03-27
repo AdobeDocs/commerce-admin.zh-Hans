@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]'
 description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]页面上的配置设置。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,9 @@ ht-degree: 0%
 | [!UICONTROL Popular Search Terms] | 商店视图 | 确定存储中是否实施了&#x200B;_常用搜索词_。 此设置不适用于使用[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)的商店。 选项： `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 商店视图 | 确定是否将后缀（如html或htm）应用于产品URL。 如果使用后缀，请不要在后缀前添加句点，因为它会自动应用。 |
 | [!UICONTROL Category URL Suffix] | 商店视图 | 确定是否将后缀（如html或htm）应用于类别URL。 如果使用后缀，请不要在后缀前添加句点，因为它会自动应用。 |
-| [!UICONTROL Use Categories Path for Product URLs] | 商店视图 | 确定产品URL中是否包含类别路径。 这样做会导致多个URL指向同一页面，这可能会影响搜索排名。 若要了解更多信息，请参阅[Canonical meta标记](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
+| [!UICONTROL Use Categories Path for Product URLs] | 商店视图 | 确定店面的产品URL中是否包含类别路径。 这样做会导致多个URL指向同一页面，这可能会影响搜索排名。 若要了解更多信息，请参阅[Canonical meta标记](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 商店视图 | 确定每当URL键发生更改时是否自动创建永久重定向。 实施后，默认情况下会选中产品URL密钥字段下方的创建旧URL的自定义重定向复选框。 选项： `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 全局 | 确定Adobe Commerce在保存包含许多已分配产品的类别时，是否生成数据并将其保存到重写表中。 选项： `Yes` / `No` <br/><br/>**_重要信息：_**将此生成的数据保存到URL重写表中可能会降低性能。 有关详细信息，请参阅[自动产品重定向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 全局 | 确定Adobe Commerce在保存包含许多已分配产品的类别时，是否生成数据并将其保存到重写表中。  <br/><br/>更改此选项不会影响Adobe Commerce中产品URL的解析方式，因为无论此设置如何，系统都会自动解析产品URL。 <br/><br/>选项： `Yes` / `No` <br/><br/>**_重要信息：_**将此生成的数据保存到URL重写表中可能会降低性能。 有关详细信息，请参阅[自动产品重定向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
 | [!UICONTROL Apply transliteration for product URL] | 商店视图 | 确定在创建或更新产品URL时是否应用音译。 选项： `Yes` / `No`。 默认设置为`Yes`。 <br/><br/>对于某些用例，应禁用音译。 例如，如果您以中文经营在线商店，SEO最佳实践建议产品URL与产品名称匹配。 将选项设置为`No`可允许在产品URL中使用中文字符，而不是ASCII等效字符。 |
 | [!UICONTROL Page Title Separator] | 商店视图 | 标识用于分隔浏览器标题栏中类别名称和子类别的字符。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 商店视图 | 如果有多个URL指向同一类别页面，则此选项使用规范meta标记来标识搜索引擎应索引的类别URL。 URL包含使用meta标记的类别的全名。 这减少了重复内容并改善了SEO。 选项： `Yes` / `No` |

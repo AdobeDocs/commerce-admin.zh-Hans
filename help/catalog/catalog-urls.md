@@ -3,9 +3,9 @@ title: 目录和产品URL
 description: 了解目录产品的URL格式类型以及如何配置它们。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ URL键应由小写字符组成，在这些字符之间使用非尾随连字符�
 
 由于后缀由系统配置控制，因此切勿在类别或产品的URL密钥中直接键入该后缀。 （这样做会导致URL末尾出现双后缀。） 无论您是否决定使用后缀，请保持一致并对所有产品和类别页面使用相同的设置。 以下是带有后缀和不带有后缀的URL示例。
 
-#### 带HTML后缀的URL
+#### 带有HTML后缀的URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
@@ -62,13 +62,13 @@ URL键应由小写字符组成，在这些字符之间使用非尾随连字符�
 
 ### 类别路径
 
-您可以将URL配置为包含或排除类别路径。 默认情况下，类别路径包含在所有类别和产品页面中。 以下示例显示了包含和不包含类别路径的相同产品URL。
+您可以根据自己的偏好将产品URL配置为包含或排除类别路径。 默认情况下，产品URL中不包含类别路径。 但是，嵌套类别将始终在其URL中的店面显示完整的类别路径，以确保类别导航的清晰性和一致性。 以下示例显示了包含和不包含类别路径的相同产品URL。
 
-#### 具有类别路径的URL
+#### 带类别路径的产品URL
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### 没有类别路径的URL
+#### 没有类别路径的产品URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
