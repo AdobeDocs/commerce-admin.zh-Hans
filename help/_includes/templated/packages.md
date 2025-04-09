@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e1777aad33e743340c7fdf90cbdb473b6c23689
+source-git-commit: fefaf699dda58e9c908c6b85b0cc16432edb90b6
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -23,59 +23,75 @@ Adobe Commerce B2B使用Composer管理PHP包。
 
 `composer.json`文件声明了包的列表，而`composer.lock`文件存储了用于构建Adobe Commerce B2B安装的包的完整列表（每个包的完整版本及其依赖项）。
 
-以下参考文档是从`composer.lock`文件生成的，它涵盖了Adobe Commerce B2B 1.4.2中包含的必需包。
+以下参考文档是从`composer.lock`文件生成的，它涵盖了Adobe Commerce B2B 1.5.2中包含的必需包。
 
 ## 依赖关系
 
-`magento/extension-b2b 1.4.2`具有以下依赖项：
+`magento/extension-b2b 1.5.2`具有以下依赖项：
 
 ```config
-magento/framework: >=103.0.6 <=103.0.7
-magento/magento2-b2b-base: 1.4.2
-magento/module-b2b: 100.4.1
-magento/module-bundle-negotiable-quote: 100.4.0
-magento/module-bundle-requisition-list: 100.4.0
-magento/module-bundle-requisition-list-graph-ql: 1.4.0
-magento/module-bundle-shared-catalog: 100.4.0
-magento/module-checkout-address-search-negotiable-quote: 100.4.1
-magento/module-checkout-agreements-negotiable-quote: 100.4.0
-magento/module-checkout-agreements-purchase-order: 1.4.0
-magento/module-company: 101.2.1
-magento/module-company-credit: 100.4.0
-magento/module-company-credit-graph-ql: 1.4.0
-magento/module-company-graph-ql: 1.4.0
-magento/module-company-payment: 100.4.0
-magento/module-company-shipping: 1.4.0
-magento/module-configurable-negotiable-quote: 100.4.0
-magento/module-configurable-requisition-list: 100.4.1
-magento/module-configurable-requisition-list-graph-ql: 1.4.0
-magento/module-configurable-shared-catalog: 100.4.0
-magento/module-downloadable-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-negotiable-quote: 100.4.0
-magento/module-gift-card-requisition-list: 100.4.0
-magento/module-gift-card-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-shared-catalog: 100.4.0
-magento/module-grouped-requisition-list: 100.4.0
-magento/module-grouped-shared-catalog: 100.4.0
-magento/module-negotiable-quote: 100.4.2
-magento/module-negotiable-quote-async-order: 1.4.1
-magento/module-negotiable-quote-graph-ql: 1.4.0
-magento/module-negotiable-quote-shared-catalog: 100.4.1
-magento/module-negotiable-quote-weee: 100.4.1
-magento/module-order-history-search: 100.4.2
-magento/module-paypal-negotiable-quote: 1.4.1
-magento/module-paypal-purchase-order: 1.4.0
-magento/module-purchase-order: 100.4.1
-magento/module-purchase-order-graph-ql: 1.4.0
-magento/module-purchase-order-rule: 100.4.0
-magento/module-purchase-order-rule-graph-ql: 1.4.0
-magento/module-quick-order: 100.4.0
-magento/module-quick-order-graph-ql: 1.4.0
-magento/module-requisition-list: 100.4.1
-magento/module-requisition-list-graph-ql: 1.4.0
-magento/module-shared-catalog: 100.4.1
-magento/module-shared-catalog-graph-ql: 1.4.0
-magento/security-package-b2b: 1.0.4
+magento/framework: >=103.0.6 <103.0.9
+magento/magento2-b2b-base: 1.5.2
+magento/module-b2b: 100.5.2
+magento/module-bundle-negotiable-quote: 100.5.1
+magento/module-bundle-requisition-list: 100.5.1
+magento/module-bundle-requisition-list-graph-ql: 1.5.1
+magento/module-bundle-shared-catalog: 100.5.1
+magento/module-checkout-address-search-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-purchase-order: 1.5.1
+magento/module-company: 102.0.2
+magento/module-company-asynchronous-operations: 1.5.1
+magento/module-company-credit: 100.5.2
+magento/module-company-credit-graph-ql: 1.5.1
+magento/module-company-customer-import-export: 1.5.0
+magento/module-company-graph-ql: 1.5.2
+magento/module-company-negotiable-quote: 1.5.1
+magento/module-company-negotiable-quote-template: 1.5.1
+magento/module-company-payment: 100.5.1
+magento/module-company-quote: 1.5.2
+magento/module-company-quote-graph-ql: 1.5.2
+magento/module-company-relation: 1.5.2
+magento/module-company-relation-shared-catalog: 1.5.1
+magento/module-company-shipping: 1.5.1
+magento/module-configurable-negotiable-quote: 100.5.1
+magento/module-configurable-requisition-list: 100.5.1
+magento/module-configurable-requisition-list-graph-ql: 1.5.1
+magento/module-configurable-shared-catalog: 100.5.1
+magento/module-downloadable-company: 1.5.1
+magento/module-downloadable-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-negotiable-quote: 100.5.1
+magento/module-gift-card-requisition-list: 100.5.1
+magento/module-gift-card-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-shared-catalog: 100.5.1
+magento/module-grouped-requisition-list: 100.5.1
+magento/module-grouped-shared-catalog: 100.5.1
+magento/module-negotiable-quote: 101.0.2
+magento/module-negotiable-quote-async-order: 1.5.1
+magento/module-negotiable-quote-duplicate: 1.5.2
+magento/module-negotiable-quote-duplicate-graph-ql: 1.5.1
+magento/module-negotiable-quote-graph-ql: 1.5.1
+magento/module-negotiable-quote-requisition-list: 1.5.1
+magento/module-negotiable-quote-requisition-list-graph-ql: 1.5.1
+magento/module-negotiable-quote-shared-catalog: 100.5.1
+magento/module-negotiable-quote-template: 1.5.2
+magento/module-negotiable-quote-template-graph-ql: 1.5.2
+magento/module-negotiable-quote-template-shared-catalog: 1.5.1
+magento/module-negotiable-quote-weee: 100.5.1
+magento/module-order-history-search: 100.5.2
+magento/module-paypal-negotiable-quote: 1.5.1
+magento/module-paypal-purchase-order: 1.5.1
+magento/module-purchase-order: 100.5.2
+magento/module-purchase-order-graph-ql: 1.5.1
+magento/module-purchase-order-rule: 100.5.2
+magento/module-purchase-order-rule-graph-ql: 1.5.1
+magento/module-quick-order: 100.5.1
+magento/module-quick-order-graph-ql: 1.5.1
+magento/module-requisition-list: 100.5.2
+magento/module-requisition-list-graph-ql: 1.5.1
+magento/module-shared-catalog: 100.5.2
+magento/module-shared-catalog-graph-ql: 1.5.1
+magento/security-package-b2b: 1.0.6
 ```
 
 ## 第三方许可证
@@ -91,13 +107,6 @@ magento/security-package-b2b: 1.0.4
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
-    </td>
-    <td>库</td>
-    <td>用于Elasticsearch的PHP客户端</td>
-  </tr>
   <tr>
     <td>
       <a href="https://github.com/opensearch-project/opensearch-php.git">opensearch-project/opensearch-php</a>
@@ -142,10 +151,24 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opentelemetry-php/api.git">开放遥测/api</a>
+    </td>
+    <td>库</td>
+    <td>适用于OpenTelemetry PHP的API。</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opentelemetry-php/context.git">开放遥测/上下文</a>
+    </td>
+    <td>库</td>
+    <td>OpenTelemetry PHP的上下文实现。</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree
     </td>
     <td>中继</td>
-    <td>BraintreeMagento</td>
+    <td>Braintree Magento</td>
   </tr>
   <tr>
     <td>
@@ -157,7 +180,7 @@ magento/security-package-b2b: 1.0.4
   </tbody>
 </table>
 
-### BSD-2子句
+### BSD-2 — 子句
 
 <table>
   <thead>
@@ -219,24 +242,24 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/firebase/php-jwt.git">firebase/php-jwt</a>
+      <a href="https://github.com/duosecurity/duo_universal_php.git">duosecurity/duo_universal_php</a>
     </td>
     <td>库</td>
-    <td>在PHP中编码和解码JSON Web令牌(JWT)的简单库。 应符合当前规范。</td>
+    <td>Duo Universal SDK的PHP实现。</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/google/recaptcha.git">google/recaptcha</a>
+      <a href="https://github.com/firebase/php-jwt.git">firebase/php-jwt</a>
     </td>
     <td>库</td>
-    <td>Client Library for reCAPTCHA，这是一种保护网站抵御垃圾邮件和滥用的免费服务。</td>
+    <td>一个在PHP中对JSON Web令牌(JWT)进行编码和解码的简单库。 应符合当前规范。</td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/laminas/laminas-captcha.git">laminas/laminas-captcha</a>
     </td>
     <td>库</td>
-    <td>使用Figlet、图像、ReCaptcha等生成和验证CAPTCHA</td>
+    <td>使用小图、图像、验证验证码等生成和验证验证验证码</td>
   </tr>
   <tr>
     <td>
@@ -251,20 +274,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>库</td>
     <td>提供了基于嵌套对象属性的用户界面，用于访问应用程序代码中的此配置数据</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-crypt.git">laminas/laminas-crypt</a>
-    </td>
-    <td>库</td>
-    <td>强大的加密工具和密码散列</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-db.git">laminas/laminas-db</a>
-    </td>
-    <td>库</td>
-    <td>数据库抽象层、SQL抽象、结果集抽象，以及RowDataGateway和TableDataGateway实现</td>
   </tr>
   <tr>
     <td>
@@ -293,13 +302,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>库</td>
     <td>提供创建和使用RSS和Atom馈送的功能</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-file.git">laminas/laminas-file</a>
-    </td>
-    <td>库</td>
-    <td>查找PHP类文件</td>
   </tr>
   <tr>
     <td>
@@ -338,27 +340,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mail.git">laminas/laminas邮件</a>
-    </td>
-    <td>库</td>
-    <td>提供通用功能，用于撰写和发送文本以及符合MIME的多部分电子邮件</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-math.git">laminas/laminas-math</a>
-    </td>
-    <td>库</td>
-    <td>创建加密安全的伪随机数，并管理大整数</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-mime.git">laminas/laminas-mime</a>
-    </td>
-    <td>库</td>
-    <td>创建和解析MIME消息和部件</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-modulemanager.git">laminas/laminas-modulemanager</a>
     </td>
     <td>库</td>
@@ -373,17 +354,10 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-oauth.git">laminas/laminas-oauth</a>
-    </td>
-    <td>库</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-permissions-acl.git">laminas/laminas-permissions-acl</a>
     </td>
     <td>库</td>
-    <td>为权限管理提供轻量级和灵活的访问控制列表(ACL)实施</td>
+    <td>为权限管理提供轻量级和灵活的访问控制列表(ACL)实现</td>
   </tr>
   <tr>
     <td>
@@ -443,6 +417,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/laminas/laminas-translator.git">laminas/laminas-translator</a>
+    </td>
+    <td>库</td>
+    <td>laminas-i18n的Translator组件的接口</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/laminas/laminas-uri.git">laminas/laminas-uri</a>
     </td>
     <td>库</td>
@@ -464,10 +445,24 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/marc-mabe/php-enum.git">marc-mabe/php-enum</a>
+    </td>
+    <td>库</td>
+    <td>使用本机PHP简单、快速地实施枚举</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/nikic/PHP-Parser.git">nikic/php-parser</a>
     </td>
     <td>库</td>
     <td>用PHP编写的PHP解析器</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/phpfui/recaptcha.git">phpfui/recaptcha</a>
+    </td>
+    <td>库</td>
+    <td>适用于Google的reCAPTCHA for PHP 8.4及更高版本的客户端库</td>
   </tr>
   <tr>
     <td>
@@ -551,7 +546,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/php-amqplib/php-amqplib.git">php-amqplib/php-amqplib</a>
     </td>
     <td>库</td>
-    <td>以前称为videlalvaro/php-amqplib。  此库是AMQP协议的纯PHP实现。 它已经过针对RabbitMQ的测试。</td>
+    <td>以前称为videlalvaro/php-amqplib。  此库是AMQP协议的纯PHP实现。 已经通过RabbitMQ的测试。</td>
   </tr>
   </tbody>
 </table>
@@ -572,7 +567,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/braintree/braintree_php.git">braintree/braintree_php</a>
     </td>
     <td>库</td>
-    <td>PHP客户端库Braintree</td>
+    <td>Braintree PHP客户端库</td>
   </tr>
   <tr>
     <td>
@@ -660,6 +655,34 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/doctrine/lexer.git">理论/词法分析器</a>
+    </td>
+    <td>库</td>
+    <td>PHP Doctrine Lexer分析器库，可在自上而下的递归后代分析器中使用。</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/egulias/EmailValidator.git">egulias/email-validator</a>
+    </td>
+    <td>库</td>
+    <td>用于针对多个RFC验证电子邮件的库</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elastic-transport-php.git">弹性/传输</a>
+    </td>
+    <td>库</td>
+    <td>用于弹性产品的HTTP传输PHP库</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
+    </td>
+    <td>库</td>
+    <td>适用于Elasticsearch的PHP客户端</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/endroid/qr-code.git">endroid/qr-code</a>
     </td>
     <td>库</td>
@@ -702,7 +725,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/justinrainbow/json-schema.git">justinrainbow/json-schema</a>
+      <a href="https://github.com/jsonrainbow/json-schema.git">justinrainbow/json-schema</a>
     </td>
     <td>库</td>
     <td>用于验证json架构的库。</td>
@@ -720,6 +743,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>库</td>
     <td>适用于Flysystem的AWS S3文件系统适配器。</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thephpleague/flysystem-local.git">league/flysystem-local</a>
+    </td>
+    <td>库</td>
+    <td>用于Flysystem的本地文件系统适配器。</td>
   </tr>
   <tr>
     <td>
@@ -762,6 +792,27 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>库</td>
     <td>将CSS样式转换为HTML代码中的内联样式属性</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/discovery.git">php-http/discovery</a>
+    </td>
+    <td>composer-plugin</td>
+    <td>查找并安装PSR-7、PSR-17、PSR-18和HTTPlug实施</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/httplug.git">php-http/httplug</a>
+    </td>
+    <td>库</td>
+    <td>HTTPlug，PHP的HTTP客户端抽象</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/promise.git">php-http/promise</a>
+    </td>
+    <td>库</td>
+    <td>用于异步HTTP请求的Promise</td>
   </tr>
   <tr>
     <td>
@@ -838,7 +889,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/php-fig/http-factory.git">psr/http-factory</a>
     </td>
     <td>库</td>
-    <td>PSR-7 HTTP消息工厂的通用接口</td>
+    <td>PSR-17：PSR-7 HTTP消息工厂的通用接口</td>
   </tr>
   <tr>
     <td>
@@ -887,7 +938,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/MyIntervals/PHP-CSS-Parser.git">sabberworm/php-css-parser</a>
     </td>
     <td>库</td>
-    <td>以PHP编写的CSS文件的解析器</td>
+    <td>用于以PHP编写的CSS文件的解析器</td>
   </tr>
   <tr>
     <td>
@@ -961,7 +1012,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/deprecation-contracts.git">symfony/弃用合同</a>
+      <a href="https://github.com/symfony/deprecation-contracts.git">symfony/deprecation-contract</a>
     </td>
     <td>库</td>
     <td>用于触发弃用通知的通用函数和约定</td>
@@ -1006,7 +1057,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/symfony/http-client.git">symfony/http-client</a>
     </td>
     <td>库</td>
-    <td>提供功能强大的方法来同步或异步获取HTTP资源</td>
+    <td>提供同步或异步获取HTTP资源的强大方法</td>
   </tr>
   <tr>
     <td>
@@ -1038,6 +1089,20 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/mailer.git">symfony/mailer</a>
+    </td>
+    <td>库</td>
+    <td>帮助发送电子邮件</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/mime.git">symfony/mime</a>
+    </td>
+    <td>库</td>
+    <td>允许处理MIME消息</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/polyfill-ctype.git">symfony/polyfill-ctype</a>
     </td>
     <td>库</td>
@@ -1055,14 +1120,14 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/symfony/polyfill-intl-idn.git">symfony/polyfill-intl-idn</a>
     </td>
     <td>库</td>
-    <td>用于intl的idn_to_ascii和idn_to_utf8函数的Symfony Polyfill</td>
+    <td>国际标准的idn_to_ascii和idn_to_utf8函数的Symfony多边形填充</td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/symfony/polyfill-intl-normalizer.git">symfony/polyfill-intl-normalizer</a>
     </td>
     <td>库</td>
-    <td>Intl的Normalizer类和相关函数的Symfony Polyfill</td>
+    <td>用于intel的Normalizer类和相关函数的Symfony多边形填充</td>
   </tr>
   <tr>
     <td>
@@ -1070,13 +1135,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>库</td>
     <td>Mbstring扩展的Symfony Polyfill</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/symfony/polyfill-php72.git">symfony/polyfill-php72</a>
-    </td>
-    <td>库</td>
-    <td>Symfony polyfill将一些PHP 7.2+功能回移植到较低的PHP版本</td>
   </tr>
   <tr>
     <td>
@@ -1101,6 +1159,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/polyfill-php82.git">symfony/polyfill-php82</a>
+    </td>
+    <td>库</td>
+    <td>Symfony polyfill将一些PHP 8.2+功能回移植到较低的PHP版本</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/polyfill-php83.git">symfony/polyfill-php83</a>
     </td>
     <td>库</td>
@@ -1108,14 +1173,14 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/process.git">symfony/进程</a>
+      <a href="https://github.com/symfony/process.git">符号/进程</a>
     </td>
     <td>库</td>
-    <td>执行子进程中的命令</td>
+    <td>在子进程中执行命令</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/service-contracts.git">交响曲/服务合同</a>
+      <a href="https://github.com/symfony/service-contracts.git">交响/服务合同</a>
     </td>
     <td>库</td>
     <td>与写入服务相关的一般抽象</td>
@@ -1143,6 +1208,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/yaml.git">symfony/yaml</a>
+    </td>
+    <td>库</td>
+    <td>加载和转储YAML文件</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/web-token/jwt-framework.git">web-token/jwt-framework</a>
     </td>
     <td>symfony-bundle</td>
@@ -1150,17 +1222,10 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/webmozarts/assert.git">webmozart/assert</a>
-    </td>
-    <td>库</td>
-    <td>用于验证方法输入/输出的断言，带有很好的错误消息。</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/webonyx/graphql-php.git">webonyx/graphql-php</a>
     </td>
     <td>库</td>
-    <td>GraphQL参考实现的PHP端口</td>
+    <td>GraphQL引用实现的PHP端口</td>
   </tr>
   </tbody>
 </table>
@@ -1185,6 +1250,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      paypal/module-braintree-gift-card
+    </td>
+    <td>magento2模块</td>
+    <td>不适用</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree-gift-card-account
     </td>
     <td>magento2模块</td>
@@ -1200,6 +1272,13 @@ magento/security-package-b2b: 1.0.4
   <tr>
     <td>
       paypal/module-braintree-graph-ql
+    </td>
+    <td>magento2模块</td>
+    <td>不适用</td>
+  </tr>
+  <tr>
+    <td>
+      paypal/module-braintree-reward
     </td>
     <td>magento2模块</td>
     <td>不适用</td>
@@ -1272,7 +1351,7 @@ magento/security-package-b2b: 1.0.4
       paypal/module-braintree-core
     </td>
     <td>magento2模块</td>
-    <td>从Gene Commerce为PayPal提供的MagentoBraintree2.2.0模块创建分支。</td>
+    <td>从Gene Commerce为PayPal撰写的Magento Braintree 2.2.0模块创建分支。</td>
   </tr>
   </tbody>
 </table>

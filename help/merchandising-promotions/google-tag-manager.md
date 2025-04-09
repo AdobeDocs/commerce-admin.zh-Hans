@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: 了解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce网站中与营销活动活动相关的许多标记（代码片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 步骤1. 配置您的[!DNL Google Analytics]帐户
 
-有关入门所需的基础知识，请参阅Google帮助中的[设置网站搜索](https://support.google.com/analytics/answer/1012264)。 另请参阅[Google Analytics](https://support.google.com/analytics/answer/9304153)和[Google Tag Manager](https://support.google.com/tagmanager/answer/6102821)的Google指南。
+有关入门所需的基础知识，请参阅Google帮助中的[设置网站搜索](https://support.google.com/analytics/answer/1012264)。 另请参阅[Google](https://support.google.com/analytics/answer/9304153)和[Google Analytics Tag Manager](https://support.google.com/tagmanager/answer/6102821)的Google指南。
 
 1. 登录到您的[!DNL Google Analytics]帐户。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 | 字段 | 范围 | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable] | 商店视图 | 确定是否可以使用Google Analytics Enhanced E-commerce分析商店中的活动。 选项： `Yes` / `No` |
+| [!UICONTROL Enable] | 商店视图 | 确定Google Analytics Enhanced E-commerce是否可用于分析商店中的活动。 选项： `Yes` / `No` |
 | [!UICONTROL Account type] | 商店视图 | 确定用于监视商店活动和流量的Google跟踪代码。 选项： `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从Google Analytics结果中显示的IP地址中删除标识信息。 |
 | [!UICONTROL Enable Content Experiments] | 商店视图 | 激活Google内容实验，该实验可用于测试同一页面的最多十个不同版本。 选项： `Yes` / `No` |
@@ -210,3 +210,55 @@ ht-degree: 0%
 ### 步骤3. 预览和发布
 
 该过程的下一步是预览标记。 每次预览标记时，都会保存版本的快照。 如果对结果满意，请转到要使用的版本，然后单击&#x200B;**[!UICONTROL Publish]**。
+
+## 使用JavaScript自定义HTML标记
+
+本节介绍如何将CSP Nonce添加到自定义HTML标记JavaScript以在签出页面上执行，确保符合内容安全策略(CSP)要求。 此新增功能通过阻止执行未经授权的脚本来增强站点安全性。 有关详细信息，请参阅[内容安全策略](https://developer.adobe.com/commerce/php/development/security/content-security-policies)文档。
+
+>[!NOTE]
+>
+>仅在Adobe Commerce版本2.4.8及更高版本上支持将`cspNonce`全局变量导入Google Tag Manager。
+
+>[!WARNING]
+>
+>向存储中添加不熟悉的脚本可能会危及数据安全。 在结账页面上授权的脚本可能会窃取敏感的客户信息，包括付款详细信息。 务必采取预防措施来保护Google Tag Manager帐户。 仅添加可信脚本，定期审查和审核您的标记，并实施强大的安全措施，如双重身份验证(2FA)和访问控制。
+
+### 步骤1. 创建CSP Nonce变量
+
+您可以创建一个CSP Nonce变量，该变量可通过导入变量配置或手动配置在Google Tag Manager中使用。
+
+#### 导入变量配置
+
+CSP Nonce变量包含在示例容器[GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)中。 您可以通过将此代码导入工作区来创建变量。
+
+#### 手动创建变量
+
+如果无法导入变量配置，请完成以下步骤以创建该配置。
+
+1. 在工作区中，导航到侧栏中的&#x200B;**变量**&#x200B;部分。
+1. 单击&#x200B;**用户定义的变量**&#x200B;部分页面底部的&#x200B;**新建**&#x200B;按钮。
+1. 命名变量`gtmNonce`。
+1. 单击铅笔图标以编辑变量。
+1. 从&#x200B;**页面变量**&#x200B;部分中选择&#x200B;**JavaScript变量**。
+1. 在&#x200B;**全局变量名称**&#x200B;字段中，输入`window.cspNonce`。
+1. 保存变量。
+
+要了解有关[Google Tag Manager变量](https://support.google.com/tagmanager/answer/7683056?hl=en)的更多信息，请参阅Google文档中的[Web的用户定义变量类型](https://support.google.com/tagmanager/answer/7683362?hl=en)。 该文档提供了有关创建和管理自定义变量的详细指导，以便根据特定的营销和分析需求定制标记管理。
+
+### 步骤2. 创建自定义HTML标记
+
+1. 在工作区中，导航到侧栏中的&#x200B;**标记**&#x200B;部分。
+1. 单击&#x200B;**新建**&#x200B;按钮。
+1. 在&#x200B;**标记配置**&#x200B;部分中，选择&#x200B;**自定义HTML标记**。
+1. 在文本区域中输入所需的JavaScript，然后向开头`<script>`标记添加一个nonce属性，该属性指向您在上一步中创建的变量。 例如：
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. 选择&#x200B;**Support document.write**。
+1. 在&#x200B;**正在触发**&#x200B;部分中，选择所需的触发器。 例如，**同意初始化 — 所有页面**。
+
+有关Google Tag Manager中[标记](https://support.google.com/tagmanager/answer/3281060)的更多信息，请参阅Google文档中的[自定义标记](https://support.google.com/tagmanager/answer/6107167)。

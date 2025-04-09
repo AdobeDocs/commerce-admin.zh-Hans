@@ -3,9 +3,9 @@ title: 购物车持久性
 description: 了解永久性购物车如何跟踪未购买的购物车项目并保存信息以供客户下次访问。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### “记住我”复选框行为
 
-客户可以在登录页面上或创建新帐户时选中&#x200B;_[!UICONTROL Remember Me]_复选框，以便在登录会话过期时，将购物车的内容保留在当前设备上可访问。
+客户可以在登录页面上选中&#x200B;_[!UICONTROL Remember Me]_复选框、身份验证弹出窗口、签出登录，或在创建新帐户时选中此复选框，以便在登录会话过期时，将购物车的内容保留在当前设备上可访问。
 
 | 还记得我吗？ | 结果 |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ ht-degree: 0%
 | 未选择 | 登录会话过期时，不创建永久性Cookie，也不在当前设备上保持购物车的内容可访问性。 请注意，购物车内容仍会保存在客户的帐户中，并在客户下次登录时重新加载。 |
 
 {style="table-layout:auto"}
+
+![记住我的客户登录信息](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![记住我的身份验证弹出窗口](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![记住我签出登录](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### 清除注销行为上的持久性
 

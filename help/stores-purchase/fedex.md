@@ -3,9 +3,9 @@ title: 联邦快递
 description: 了解如何将FedEx设置为您商店的运输运营商。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,15 @@ ht-degree: 0%
    - **[!UICONTROL Account ID]**
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
+
+1. 如果您有单独的跟踪API凭据，请启用以下配置：
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. 从联邦快递帐户输入以下信息：
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
 
 1. 如果已设置FedEx沙盒并希望在测试环境中工作，请将&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;设置为`Yes`。
 

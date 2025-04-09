@@ -3,9 +3,9 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,21 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 ## 系统要求
 
-Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Commerce Managed Services的2.4.6-p3 - 2.4.6-p8版本（无测试版）上。
+下表显示了Adobe Commerce版本与HIPAA就绪扩展之间的兼容性：
+
+| Adobe Commerce | 支持 | 注释 |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4支持需要[修补程序](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | 1.1.0中引入了对[数据服务](#adobe-commerce-services)的支持 |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- HIPAA就绪扩展仅适用于Adobe Commerce on Cloud或Adobe Commerce Managed Services项目。
+>- 该扩展可用作`repo.magento.com`中的Composer中继。
+>- 要访问支持HIPAA的特性和功能，需要Adobe Commerce的医疗保健附加产品。
+>- 不支持Adobe Commerce测试版。
 
 ## 安装
 
@@ -52,7 +66,7 @@ Adobe Commerce必须部署在Adobe Commerce on cloud infrastructure或Adobe Comm
 
 >[!ENDSHADEBOX]
 
-在运行Adobe 2.4.6-p3 - 2.4.6-p8版的实例上安装最新版本的Adobe Commerce HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
+在运行Adobe版本2.4.7-p5或2.4.6-p3到2.4.6-p8的实例上安装最新版本的Adobe Commerce HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
 
 >[!NOTE]
 >

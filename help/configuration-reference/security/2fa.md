@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL 2FA]'
 description: 查看Commerce管理员的[!UICONTROL Security] &amp；gt； [!UICONTROL 2FA]页面上的配置设置。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->启用了AdobeIdentity Management服务(IMS)身份验证的存储已禁用本地Adobe Commerce和Magento Open Source双重身份验证(2FA)。 使用Adobe凭据登录到其Adobe Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[将Adobe Commerce与Adobe IMS集成概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
+>启用了Adobe Identity Management Services (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source双重身份验证(2FA)。 使用其Adobe凭据登录到其Adobe Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[将Adobe Commerce与Adobe IMS集成概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
 
 {{config}}
 
@@ -49,8 +49,10 @@ ht-degree: 1%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | 全局 | [!DNL Duo Security]帐户中的集成密钥。 |
-| [!UICONTROL Secret Key] | 全局 | [!DNL Duo Security]帐户的密钥。 |
+| [!UICONTROL Client Id] | 全局 | [!DNL Duo Security]帐户中的客户端ID。 |
+| [!UICONTROL Client Secret] | 全局 | [!DNL Duo Security]帐户中的客户端密钥。 |
+| [!UICONTROL Integration Key] | 全局 | [!DNL Duo Security] API帐户中的集成密钥。 |
+| [!UICONTROL Secret Key] | 全局 | [!DNL Duo Security] API帐户中的密钥。 |
 | [!UICONTROL API Hostname] | 全局 | [!DNL Duo Security]帐户中的API主机名。 |
 
 {style="table-layout:auto"}

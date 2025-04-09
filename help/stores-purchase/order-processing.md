@@ -3,7 +3,7 @@ title: 订单工作流和处理
 description: 了解订单工作流、在每个步骤应用的状态以及如何通过此流程移动订单。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -205,7 +205,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Status] | 显示销售订单的状态。 |
-| [!UICONTROL Comment] | 一个文本框，用于输入订单附带的客户注释。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果要将评论作为单独的电子邮件发送给客户，请选中复选框。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望评论从客户的帐户中可见，请选中复选框。 <br/>**[!UICONTROL Submit Comment]**— 提交评论并通过电子邮件发送（如果适用）。 |
+| [!UICONTROL Comment] | 一个文本框，用于输入订单附带的客户注释。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果要将评论作为单独的电子邮件发送给客户，请选中复选框。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望评论从客户的帐户中可见，请选中复选框。 <br/>**[!UICONTROL Update]**— 添加评论并发送电子邮件（如果适用）。 |
 
 {style="table-layout:auto"}
 

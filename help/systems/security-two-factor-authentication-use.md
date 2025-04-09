@@ -4,9 +4,9 @@ description: 了解如何在管理员初始登录期间设置双重身份验证�
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->已启用[!DNL Adobe Identity Management Services] (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source2FA。 使用Adobe凭据登录到其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[[!DNL Adobe Identity Management Service] (IMS)集成概述](../getting-started/adobe-ims-integration-overview.md)。
+>已启用[!DNL Adobe Identity Management Services] (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source 2FA。 使用其Adobe凭据登录到其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[[!DNL Adobe Identity Management Service] (IMS)集成概述](../getting-started/adobe-ims-integration-overview.md)。
 
 ## [!DNL Google Authenticator]
 
@@ -59,27 +59,23 @@ ht-degree: 0%
 
 1. 输入帐户凭据并登录到&#x200B;_管理员_。
 
-1. 显示[!DNL Duo]设置页面时，单击&#x200B;**[!UICONTROL Start setup]**&#x200B;并执行以下操作：
+1. 显示[!DNL Duo]设置页面时，单击&#x200B;**[!UICONTROL Get Started]**&#x200B;并执行以下操作：
 
-   ![店面示例 — Duo设置](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![店面示例 — Duo设置](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. 选择您的设备。
+1. 选择您的选项。 您可以选择触控ID、双核Mobile、安全密钥或电话号码。 此示例显示了Duo手机或电话号码选项。
 
 1. 出现提示时，输入您的电话号码并单击&#x200B;**[!UICONTROL Continue]**。
 
-   此示例会请求您的电话号码，因为我们使用的是移动设备。
+   通过发送并验证电话号码上的密码来确认所有权。
 
 1. 当提示您为电话类型安装[!DNL Duo Mobile]时，单击&#x200B;**[!UICONTROL I have Duo Mobile]**。
 
 1. 打开[!DNL Duo Mobile]并扫描此二维码以将验证器与Adobe Commerce同步。 激活完成后，会出现复选标记。
 
-1. 要配置设备的设置，请选择登录时要执行的操作。
+1. 您可以添加更多设备（如有必要）或跳过。 您的设置现已完成，您可以使用Duo登录。
 
-   - `Ask me to choose an authenticator method` — 允许用户在&#x200B;_管理员_&#x200B;中登录并进行身份验证时进行选择。
-   - `Automatically send this device a Duo Push` — 向您的设备发送消息以接受或拒绝访问。
-   - `Automatically call this device` — 调用并提供密码以输入进行访问。
-
-   ![Duo验证操作](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Duo验证操作](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### 步骤2：使用[!DNL Duo Security]登录
 
@@ -89,13 +85,11 @@ ht-degree: 0%
 
    ![双核 — 登录](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. 选择要用于验证的方法：
+1. 选择“使用Duo登录”以在Duo移动设备应用程序上获取推送通知，或者使用Touch ID登录，或者继续使用您在设置期间配置的其他选项。
 
-   - `Send Me a Push` — 单击以接收发送至[!DNL Duo Mobile]的推送通知。 接受以进行身份验证。
-   - `Call Me` — 单击此选项，接收带有代码的呼叫，然后输入密码。
-   - `Enter a Passcode` — 单击此选项接收并输入密码。
+1. 批准来自双核app/触控ID/短信的请求，您将成功登录。
 
-1. 完成推送或代码以完全登录到&#x200B;_管理员_。
+   ![双核 — 登录](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 

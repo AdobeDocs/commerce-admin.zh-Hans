@@ -2,12 +2,13 @@
 title: 管理员是什么？
 description: 了解 [!DNL Commerce] 管理员，商家可以在这个位置设置产品和促销活动、管理订单以及执行其他管理任务。
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # 管理员是什么？
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ![管理员侧边栏和仪表板](./assets/admin-dashboard.png){width="700" zoomable="yes"}
 
-在Adobe Commerce或Magento Open Source安装期间设置了初始[登录](admin-signin.md)凭据。 如果您忘记了密码，则会将临时密码发送到与帐户关联的电子邮件地址。 为了提高安全性，请将存储配置为需要区分大小写的用户名和强密码。
+您的[初始登录](admin-signin.md)凭据是在Adobe Commerce或Magento Open Source安装期间设置的。 如果您忘记了密码，则会将临时密码发送到与帐户关联的电子邮件地址。 为了提高安全性，请将存储配置为需要区分大小写的用户名和强密码。
 
 除了默认的Admin用户帐户外，您的企业还可以创建管理商店和支持客户帐户所需的最多[个其他帐户](../systems/permissions-users-all.md)。 每个帐户都可以与特定的[角色](../systems/permissions-user-roles.md)和访问级别相关联，具体取决于业务&#x200B;_需要知道_。 与每个管理员用户帐户关联的电子邮件地址必须是唯一的。
 

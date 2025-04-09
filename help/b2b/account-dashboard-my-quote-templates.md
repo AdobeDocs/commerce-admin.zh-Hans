@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quote Templates]'
 description: 了解店面客户仪表板中提供的客户报价模板体验。
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
    - 接受报价模板
    - 更改报价单模板到期日期
    - 添加送货地址
+   - 管理参考文档链接
 
 - 在洽谈过程中更新报价模板详细信息的活动：
 
@@ -43,6 +44,7 @@ ht-degree: 0%
    - 跟踪来自[!UICONTROL Comments]和[!UICONTROL History]部分的协商进程。
    - 对于仍在审核的模板，采购员可以通过删除项目来修改报价模板。
    - 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商。
+   - 添加、编辑或删除指向外部合同和协议的参考文档链接。
 
   进行更改后，买方将模板返回给卖方进行复查。
 
@@ -114,3 +116,57 @@ ht-degree: 0%
 在报价模板页面中，单击&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
 报价模板已取消，报价状态更改为`Closed`。 已关闭的引号仍保留在&#x200B;*[!UICONTROL Inactive]*&#x200B;引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_网格中。
+
+## 管理参考文档链接
+
+参考文档链接功能允许买方和卖方在报价模板流程中添加、编辑和管理外部文档（如合同、协议或规范）的链接。
+
+### 添加参考文档链接
+
+1. 打开报价模板。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+
+1. 在文档信息对话框中：
+   - 输入&#x200B;**[!UICONTROL Document Name]**（必需）
+   - 输入&#x200B;**[!UICONTROL Document Identifier]**（可选）
+   - 输入&#x200B;**[!UICONTROL Reference Document URL]**（必需）
+
+1. 单击&#x200B;**[!UICONTROL Add to Quote Template]**。
+
+   参考文档链接将以下列格式添加到报价模板中：
+   `Document Name, Document Identifier https://document-url`
+
+### 编辑参考文档链接
+
+1. 打开报价模板。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;部分中，单击要修改的文档链接旁边的&#x200B;**[!UICONTROL Edit]**。
+
+1. 更新对话框中的文档信息：
+   - 文档名称
+   - 文档标识符
+   - 参考文档URL
+
+1. 单击&#x200B;**[!UICONTROL Add to Quote Template]**。
+
+### 删除参考文档链接
+
+1. 打开报价模板。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;部分中，单击要删除的文档链接旁边的&#x200B;**[!UICONTROL Remove]**。
+
+### 查看参考文档
+
+1. 打开报价模板。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;部分中，单击文档名称链接。
+
+   文档将在新的浏览器窗口中打开。
+
+### 参考文档链接限制
+
+- 只有当报价模板处于可编辑状态时，才能添加、编辑或删除参考文档链接。
+- 发送报价模板以供审阅或接受后，参考文档链接将变为只读。
+- 添加或编辑参考文档链接时，需要文档名称字段。
+- 即使报价模板被接受或完成，参考文档链接仍可访问。

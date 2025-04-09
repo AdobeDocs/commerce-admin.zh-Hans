@@ -3,9 +3,9 @@ title: Braintree
 description: 了解如何在您的商店中将Braintree设置为在线支付解决方案。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2873'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
    - 在&#x200B;_[!UICONTROL Merchant Location]_部分中，验证&#x200B;**[!UICONTROL Merchant Country]**是否设置为您公司的位置。
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [发行说明](https://support.gene.co.uk/support/solutions/articles/35000228529)_部分，单击&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [发行说明](https://support.gene.co.uk/support/solutions/articles/35000278668)_部分中，单击&#x200B;**[!UICONTROL Configure]**。
 
    ![配置Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
    在沙盒中测试配置时，请仅使用Braintree推荐的[信用卡号][2]。 当您准备好使用Braintree进入生产阶段时，将&#x200B;**[!UICONTROL Environment]**&#x200B;设置为`Production`。
 
-   ![基本凭据设置](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![基本凭据设置](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. 将&#x200B;**[!UICONTROL Payment Action]**&#x200B;设置为以下项之一：
 
@@ -69,9 +69,9 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
 1. 将&#x200B;**[!UICONTROL Enable Card Payments]**&#x200B;设置为`Yes`。
 
-   ![基本设置](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. 如果您希望能够安全地存储客户信息，以便客户不必在每次购买时都重新输入该信息，请将&#x200B;**[!UICONTROL Enable Vault for Card Payments]**&#x200B;设置为`Yes`。
 
-   如果您希望能够安全地存储客户信息，以便客户不必在每次购买时都重新输入该信息，请将&#x200B;**[!UICONTROL Enable Vault for Card Payments]**&#x200B;设置为`Yes`。
+1. 如果您希望客户在每次购买时验证其保险存储卡的CVV号码，请将&#x200B;**[!UICONTROL Enable Vault CVV Re-verification]**&#x200B;设置为`Yes`。
 
 ## 步骤3：完成高级设置
 
@@ -235,7 +235,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
 ## 步骤11：通过Braintree设置完成PayPal
 
-通过Braintree设置![PayPal](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+通过Braintree设置![PayPal 1](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. 若要将PayPal作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal through Braintree]**&#x200B;设置为`Yes`。
 
@@ -279,15 +279,27 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
    - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
 
+   通过Braintree设置![PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+
 1. 若要要求客户提供帐单地址，请将&#x200B;**[!UICONTROL Require Customer's Billing Address]**&#x200B;设置为`Yes`。
 
    >[!NOTE]
    >
    >必须由PayPal技术支持为您的帐户启用此功能。
 
+1. 要跳过PayPal Express的订单审核页面，请将&#x200B;**[!UICONTROL Skip Order Review Step]**&#x200B;设置为`Yes`。
+
+   对于使用PayPal Express付款的客户：如果您希望客户在完成付款之前重定向到审核页面，请将此参数设置为`No`。 如果您希望客户跳过审阅页面，请将其设置为`Yes`。
+
 1. 要通过Braintree保存商店与PayPal之间交互的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
 
 1. 要在迷你购物车和购物车页面上同时显示PayPal按钮，请将&#x200B;**[!UICONTROL Display on Shopping Cart]**&#x200B;设置为`Yes`。
+
+1. 若要将包跟踪信息发送到PayPal，请将&#x200B;**[!UICONTROL Send Package Tracking]**&#x200B;设置为`Yes`。
+
+   包跟踪信息将仅针对PayPal交易/订单发送到PayPal。 必须启用[!UICONTROL Send Cart Line Items for PayPal]配置字段才能使[!UICONTROL Package Tracking]功能正常工作。
+
+1. 若要通过PayPal通知购买者或付款者有关包跟踪更新，请将&#x200B;**[!UICONTROL Use PayPal's "Notify Payer" functionality]**&#x200B;设置为`Yes`。
 
 ## 步骤12：设置样式设置
 
@@ -319,21 +331,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 >
 >**[!DNL Size(Deprecated)]**&#x200B;配置字段已弃用，未用于设置PayPal按钮的样式。
 
-**[!UICONTROL PayLater Messaging]**
-
-1. 要在所选位置的店面上显示[!DNL PayLater]消息，请将&#x200B;**[!UICONTROL Show PayLater Messaging]**&#x200B;设置为`Yes`。
-
-   此消息包括显示可用优惠的[!DNL PayLater]消息（[限制适用](https://developer.paypal.com/docs/checkout/pay-later/us/)）。
-
-1. 对于&#x200B;**[!UICONTROL Message Layout]**，选择[!DNL PayLater]消息布局： `Text`或`Flex`
-
-1. 对于&#x200B;**[!UICONTROL Logo]**，选择PayPal徽标类型： `Inline`、`Primary`、`Alternative`或`None`
-
-1. 对于&#x200B;**[!UICONTROL Logo Position]**，选择PayPal徽标位置： `Left`、`Right`或`Top`
-
-1. 对于&#x200B;**[!UICONTROL Text Color]**，选择[!DNL PayLater]消息文本颜色： `Black`、`White`、`Monochrome`或`Grayscale`
-
-设置这些选项后，您可以看到PayPal按钮和PayLater消息的预览。 可以使用以下控件来应用设置或重置值：
+设置这些选项后，您可以看到PayPal按钮的预览。 可以使用以下控件来应用设置或重置值：
 
 - 要存储按钮和PayLater消息传递的选定样式设置并将它们应用到当前位置和当前按钮类型，请单击&#x200B;**[!UICONTROL Apply]**。
 
@@ -341,7 +339,53 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
 - 要将样式设置返回到按钮和PayLater消息传递的推荐默认值，并将它们应用于所有按钮类型和位置，请单击&#x200B;**[!UICONTROL Reset to Recommended Defaults]**。
 
-## 步骤13：完成3D验证设置
+## 步骤13：稍后付款消息传送
+
+**[!UICONTROL Product Page]**
+
+![稍后付费消息 — 产品页面设置](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
+
+1. 若要在产品页面的店面上显示[!DNL Pay Later]消息，请将&#x200B;**[!UICONTROL Show PayLater Messaging]**&#x200B;设置为`Yes`。
+
+   显示可用优惠的稍后付费消息。 限制适用。 请参阅[PayPal的文档](https://developer.paypal.com/studio/checkout/pay-later/us)。
+
+1. 对于&#x200B;**[!UICONTROL Message Layout]**，选择[!DNL Pay Later]消息布局： `Text`或`Flex`
+
+1. 对于&#x200B;**[!UICONTROL Logo]**，选择PayPal徽标类型： `Inline`、`Primary`、`Alternative`或`None`
+
+1. 对于&#x200B;**[!UICONTROL Logo Position]**，选择PayPal徽标位置： `Left`、`Right`或`Top`
+
+1. 对于&#x200B;**[!UICONTROL Text Color]**，选择[!DNL PayLater]消息文本颜色： `Black`、`White`、`Monochrome`或`Grayscale`
+
+**[!UICONTROL Cart]**
+
+![稍后付费消息 — 购物车页面设置](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
+
+1. 要在迷你购物车或购物车页面的店面上显示[!DNL Pay Later]消息，请将&#x200B;**[!UICONTROL Show PayLater Messaging]**&#x200B;设置为`Yes`。
+
+   显示可用优惠的稍后付费消息。 限制适用。 请参阅[PayPal的文档](https://developer.paypal.com/studio/checkout/pay-later/us)。
+
+1. 对于&#x200B;**[!UICONTROL Message Layout]**，选择[!DNL Pay Later]消息布局： `Text`或`Flex`
+
+1. 对于&#x200B;**[!UICONTROL Logo]**，选择PayPal徽标类型： `Inline`、`Primary`、`Alternative`或`None`
+
+1. 对于&#x200B;**[!UICONTROL Logo Position]**，选择PayPal徽标位置： `Left`、`Right`或`Top`
+
+1. 对于&#x200B;**[!UICONTROL Text Color]**，选择[!DNL PayLater]消息文本颜色： `Black`、`White`、`Monochrome`或`Grayscale`
+
+**[!UICONTROL Checkout]**
+
+![稍后付费消息 — 结帐页面设置](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+
+1. 要在结帐时在店面显示[!DNL Pay Later]消息，请将&#x200B;**[!UICONTROL Show PayLater Messaging]**&#x200B;设置为`Yes`。
+
+   显示可用优惠的稍后付费消息。 限制适用。 请参阅[PayPal的文档](https://developer.paypal.com/studio/checkout/pay-later/us)。
+
+1. 对于&#x200B;**[!UICONTROL Text Align]**，为[!DNL Pay Later]消息选择文本对齐： `Text`、`Center`或`Right`
+
+1. 对于&#x200B;**[!UICONTROL Text Color]**，选择[!DNL Pay Later]消息文本颜色： `Black`，`White`
+
+## 步骤14：完成3D验证设置
 
 1. 如果要为使用已注册验证计划（如&#x200B;_由VISA验证_）的信用卡的客户添加验证步骤，请将&#x200B;**[!UICONTROL 3D Secure Verification]**&#x200B;设置为`Yes`。
 
@@ -358,7 +402,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
    ![3D验证设置](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## 步骤14：设置Braintree动态描述符
+## 步骤15：设置Braintree动态描述符
 
 以下描述符用于识别客户信用卡对账单上的购买情况。 您可以通过明确识别与每次购买关联的公司来减少回扣次数。 如果您的帐户未启用动态描述符，请联系Braintree支持部门。
 

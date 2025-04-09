@@ -3,7 +3,7 @@ title: 发送订单
 description: 了解如何填写处理订单的配送信息，以及查看配送和跟踪信息。
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 要在客户的帐户中发布评论，请选中&#x200B;**[!UICONTROL Visible on Frontend]**&#x200B;复选框。
 
-1. 单击&#x200B;**[!UICONTROL Submit Comment]**。
+1. 单击&#x200B;**[!UICONTROL Update]**。
 
 ## 跟踪装运
 
