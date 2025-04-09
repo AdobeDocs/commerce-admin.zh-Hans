@@ -3,9 +3,9 @@ title: 安装适用于Commerce的AEM Assets包
 description: 添加启用Commerce的AEM Assets集成所需的资源元数据，以便在Adobe Commerce和Experience Manager Assets项目之间同步资源。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,8 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 ## 配置元数据配置文件
 
 在AEM Assets创作环境中，通过创建元数据配置文件来设置Commerce资源元数据的默认值。 然后，将新配置文件应用到AEM Asset文件夹以自动使用这些默认值。 此配置通过减少手动步骤来简化资产处理。
+
+1. 登录到Adobe Experience Manager创作环境。
 
 1. 在Adobe Experience Manager工作区中，单击Adobe Experience Manager图标以转到为AEM Assets创作内容管理工作区。
 
