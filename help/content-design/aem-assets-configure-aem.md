@@ -3,9 +3,9 @@ title: 安装适用于Commerce的AEM Assets包
 description: 添加启用Commerce的AEM Assets集成所需的资源元数据，以便在Adobe Commerce和Experience Manager Assets项目之间同步资源。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
   ![自定义产品数据UI控件](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- 具有Commerce选项卡的元数据架构表单，包括用于标记Commerce资源的`Does it exist in Adobe Commerce?`和`Product Data`字段。 该表单还提供了在AEM Assets UI中显示或隐藏`roles`和`order`（位置）字段的选项。
+- 具有Commerce选项卡的元数据架构表单，包括用于标记Commerce资源的`Eligible for Commerce?`和`Product Data`字段。 该表单还提供了在AEM Assets UI中显示或隐藏`roles`和`order`（位置）字段的选项。
 
   AEM Assets元数据架构表单的![Commerce选项卡](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 在AEM Assets创作环境中，通过创建元数据配置文件来设置Commerce资源元数据的默认值。 然后，将新配置文件应用到AEM Asset文件夹以自动使用这些默认值。 此配置通过减少手动步骤来简化资产处理。
 
+配置元数据配置文件时，您只需配置以下组件：
+
+- 添加Commerce选项卡。 此选项卡启用由模板添加的特定于Commerce的配置设置
+- 将`Eligible for Commerce`字段添加到Commerce选项卡。
+
+产品数据UI组件会根据模板自动添加。
+
+### 设置元数据配置文件
+
 1. 登录到Adobe Experience Manager创作环境。
 
 1. 在Adobe Experience Manager工作区中，单击Adobe Experience Manager图标以转到为AEM Assets创作内容管理工作区。
@@ -81,27 +90,41 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
    1. 在选项卡部分中单击&#x200B;**[!UICONTROL +]**，然后指定&#x200B;**[!UICONTROL Tab Name]**、`Commerce`。
 
-1. 将`Does it exist in Commerce?`字段添加到表单，并将默认值设置为`yes`。
+1. 将`Eligible for Commerce`字段添加到表单。
 
    ![AEM作者管理员将元数据字段添加到配置文件](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - 单击&#x200B;**[!UICONTROL Build form]**。
+
+   - 将`Single Line text`字段拖到表单中。
+
+   - 通过单击&#x200B;**[!UICONTROL Field Label]**&#x200B;为标签添加`Eligible for Commerce`文本。
+
+   - 在“设置”选项卡上，将标签文本添加到&#x200B;**字段标签**。
+
+   - 将占位符文本设置为`yes`。
+
+   - 在&#x200B;**[!UICONTROL Map to Property]**&#x200B;字段中，复制并粘贴以下值
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. 可选。 要在已批准的Commerce资源上传到AEM Assets环境时自动对其进行同步，请将`Basic`选项卡上&#x200B;_[!UICONTROL Review Status]_字段的默认值设置为`approved`。
+
 1. 保存更新。
 
-1. 将`Commerce integration`元数据配置文件应用到存储Commerce资源的文件夹。
+#### 将元数据配置文件应用到Commerce资源源文件夹
 
-   1. 从[!UICONTROL  Metadata Profiles]页面中，选择Commerce集成配置文件。
+1. 从[!UICONTROL  Metadata Profiles]页面中，选择Commerce集成配置文件。
 
-   1. 从操作菜单中选择&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
+1. 从操作菜单中选择&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
 
-   1. 选择包含Commerce资源的文件夹。
+1. 选择包含Commerce资源的文件夹。
 
-      创建不存在的Commerce文件夹。
+   创建不存在的Commerce文件夹。
 
-   1. 单击&#x200B;**[!UICONTROL Apply]**。
-
->[!TIP]
->
->您可以通过更新元数据配置文件将&#x200B;_[!UICONTROL Review Status]_字段的默认值设置为`Approved`，在上传到Commerce环境时自动同步AEM Assets资源。 `Review Status`字段的属性类型为`./jcr:content/metadata/dam:status`。
+1. 单击&#x200B;**[!UICONTROL Apply]**。
 
 ## 下一步
 
