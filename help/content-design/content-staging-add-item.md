@@ -3,9 +3,10 @@ title: 向营销活动添加项目
 description: 查看此促销活动示例，用于在促销活动期间将促销图像添加到类别页面。
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-以下示例在营销活动期间将促销图像添加到类别页面。 您也可以对产品页面或CMS页面执行相同的操作。
+以下示例在营销活动期间将促销图像添加到类别页面。 您还可以对产品页面或CMS页面执行相同操作。
 
 ## 为类别添加营销活动项目
 

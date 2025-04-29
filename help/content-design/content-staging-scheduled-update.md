@@ -3,9 +3,10 @@ title: 计划内容更新
 description: 请查看此促销活动示例，以安排产品的临时价格变更。
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-以下示例说明如何计划产品的临时价格更改。 其中包括计划和预览更改，以及查看日历中的计划更新。 尽管此示例仅包括一项更改，但营销活动可能包括对产品、价格规则、CMS页面和其他计划同时发生的实体的多项更改。 按照类似的方法指定[!UICONTROL Set Product As New]属性的起始/截止日期。
+以下示例说明如何计划产品的临时价格更改。 其中包括计划和预览更改，以及查看日历中的计划更新。 尽管此示例只包括一项更改，但营销策划可能包括对产品、价格规则、CMS页面和其他计划同时发生的实体的多项更改。 按照类似的方法指定[!UICONTROL Set Product As New]属性的起始/截止日期。
 
 >[!NOTE]
 >您必须创建计划的更新以指定[!UICONTROL Set Product As New]的开始（和结束）日期。 对于[!UICONTROL Special Price]和[!UICONTROL Design Change]，从Adobe Commerce中删除了起始/截止日期字段，这些字段仅在Magento Open Source中可用。
