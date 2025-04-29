@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 存储管理员有两个区域：
 
 - 管理员：使用此区域可访问配置UI和报表。
-- 命令行界面：使用此工具执行安装和后端配置任务。
+- 命令行界面：使用此工具执行安装和后端配置任务。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 本指南涵盖：
 
@@ -28,11 +28,11 @@ ht-degree: 1%
 | ------- | ----------- |
 | [简介](introduction.md) | [!DNL Adobe Commerce B2B]有哪些可用功能？ |
 | [发行说明](release-notes.md) | 查看每个[!DNL Adobe Commerce B2B]版本中提供的更新。 |
-| [安装](install.md) | 安装[!DNL Adobe Commerce B2B]扩展。 |
+| [安装](install.md) | 安装[!DNL Adobe Commerce B2B]扩展。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} |
 | [启用基本B2B功能](enable-basic-features.md) | 安装[!DNL Adobe Commerce B2B]后，必须启用要为存储激活的功能。 |
 | [公司帐户](account-companies.md) | 了解公司帐户，以及它们如何为您的商店中的B2B购买者提供支持的主要构建块。 |
 | [公司管理](manage-companies.md) | 了解B2B Commerce站点管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
-| [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 |
+| [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} |
 | [快速订单](quick-order.md) | 了解快速订购功能并为您的客户启用。 |
 | [个采购订单](purchase-order-flow.md) | 了解允许公司跟踪和控制其支出的采购订单工作流。 |
 | [引号](quotes.md) | 了解报价工作流以及如何向公司客户提供此服务。 |
