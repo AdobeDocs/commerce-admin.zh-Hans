@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
+source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 | [启用基本B2B功能](enable-basic-features.md) | 安装[!DNL Adobe Commerce B2B]后，必须启用要为存储激活的功能。 |
 | [公司帐户](account-companies.md) | 了解公司帐户，以及它们如何为您的商店中的B2B购买者提供支持的主要构建块。 |
 | [公司管理](manage-companies.md) | 了解B2B Commerce站点管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
-| [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} |
+| [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 |
 | [快速订单](quick-order.md) | 了解快速订购功能并为您的客户启用。 |
 | [个采购订单](purchase-order-flow.md) | 了解允许公司跟踪和控制其支出的采购订单工作流。 |
 | [引号](quotes.md) | 了解报价工作流以及如何向公司客户提供此服务。 |
