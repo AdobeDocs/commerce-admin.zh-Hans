@@ -2,13 +2,13 @@
 title: Commerce的AEM Assets集成发行说明
 description: 有关所有AEM Assets集成版本的信息，请参阅发行说明。
 feature: CMS, Media, Release Notes
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
+source-git-commit: b104e504eea70d931233a880c2d52043d48346c5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Commerce的AEM Assets集成发行说明
 
@@ -34,10 +34,28 @@ _2025年2月11日_
 
 +++
 
+## v1.1.0
+
+_2025年4月23日_
+
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.5及更高版本。
+
+![新问题](../assets/new.svg)<!-- Issue ACAP-955 -->现在，可以使用[自定义域URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)而不是AEM投放URL。 如果商家在其AEM功能板中设置了&#x200B;**自定义域名**，则需要在Commerce中添加此&#x200B;**自定义域URL**。
+
+![修复了问题](../assets/fix.svg)<!-- Issue ACAP-987 -->改进了AEM Assets同步过程的整体日志。
+
+## v1.0.22
+
+_2025年3月12日_
+
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.5及更高版本。
+
+![新问题](../assets/new.svg)<!-- Issue ACAP-xx -->现在，Assets选择器需要[Assets选择器IMS客户端ID](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)，才能将AEM Assets图像映射到产品类别和页面生成器生成的内容。
+
 ## v1.0.20
 
 _2025年2月11日_
 
-[!BADGE 支持]{type=Informative tooltip="支持"}
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.5及更高版本。
 
-![新](../assets/new.svg)一般可用性版本。
+![新](../assets/new.svg)<!-- Issue ACAP-xx -->一般可用性版本。
