@@ -3,16 +3,17 @@ title: URL重写
 description: 了解URL重写以及使用Commerce URL重写工具更改与产品、类别或CMS页面关联的URL。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # URL重写
 
-利用URL重写工具，可更改与产品、类别或CMS页面关联的任何URL。 重写生效后，指向上一个URL的任何链接都会被重定向到新地址。
+通过URL重写工具，可更改与产品、类别或CMS页面关联的任何URL。 重写生效后，指向上一个URL的任何链接都会被重定向到新地址。
 
 >[!NOTE]
 >
@@ -74,7 +75,7 @@ ht-degree: 0%
 
 您可以使用URL重写工具创建产品和类别重写，以及商店中任何页面的自定义重写。 重写生效后，指向上一个URL的任何现有链接都会被无缝重定向到新地址。
 
-URL重写可用于添加高值关键字，以改进搜索引擎为产品编制索引的方式。 您还可以使用重写为临时季节性更改或永久更改创建其他URL。 可以为任何有效路径（包括CMS内容页面）创建重写。 在内部，系统始终通过ID引用产品和类别。 无论URL更改的频率如何，ID都保持不变。 以下是您可以使用URL重写的一些方法：
+URL重写可用于添加高值关键字，以改进搜索引擎为产品编制索引的方式。 您还可以使用重写为临时季节性更改或永久更改创建其他URL。 可以为任何有效路径(包括CMS内容页面)创建重写。 在内部，系统始终通过ID引用产品和类别。 无论URL更改的频率如何，ID都保持不变。 以下是您可以使用URL重写的一些方法：
 
 系统URL
 

@@ -3,9 +3,10 @@ title: 内容页面URL重写
 description: 了解如何使用内容页面URL重写将链接重定向到Commerce商店中其他内容页面的URL。
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---

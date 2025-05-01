@@ -3,9 +3,10 @@ title: 自定义URL重写
 description: 了解如何使用自定义URL重写来管理Commerce商店中的其他重定向。
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---

@@ -2,9 +2,9 @@
 title: Commerce促销和促销简介
 description: 了解 Commerce 工具，创建有针对性的促销活动和吸引客户的机会。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和产品展示的艺术和科学。 您可以将[基于类别的导航](../catalog/navigation-top.md)视为商店的平面图，将产品的动态展示视为可应用于商店中产品列表的条件。 此外，您还可以实施可促进更多产品销售的程序：
 
-- [可视促销机](visual-merchandiser.md) — 一组高级工具，允许您定位产品并应用条件来确定哪些产品出现在类别列表中。
+- [!BADGE 仅限于PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} [可视化促销活动](visual-merchandiser.md) — 一组高级工具，允许您定位产品并应用条件来确定哪些产品出现在类别列表中。
 
 - [礼品登记簿](gift-registries.md) — 让您的客户能够创建特殊场合的礼品登记簿，并邀请朋友和家人从礼品登记簿购买礼品。
 
@@ -27,7 +27,7 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 
 >[!TIP]
 >
->要了解产品推荐，以及它们如何提供您为购买者创造最佳体验所需的洞察信息和控制，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
+>要了解产品推荐，以及它们如何为您提供insight和控制您为购买者创建最佳体验所需的功能，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
 
 ## 促销活动
 
