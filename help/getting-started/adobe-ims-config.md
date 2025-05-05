@@ -3,9 +3,10 @@ title: 使用ID配置Commerce管理集成
 description: 请按照以下可选过程操作，以将Adobe Commerce管理员用户帐户的登录与Adobe ID集成。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -27,8 +28,8 @@ ht-degree: 0%
 
 配置此集成的管理员在启用模块期间需要以下凭据：
 
-* 组织ID(从[Adobe Admin Console](https://adminconsole.adobe.com/)获取)，其长度必须至少为24个字符。 经过身份验证的用户必须属于此IMS组织。 有关查找组织ID的信息，请参阅[Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
-* 应在Adobe Admin Console中的组织级别强制执行2FA以启用该模块。 检查[身份验证设置](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html#two-step-verification)。
+* 组织ID(从[Adobe Admin Console](https://adminconsole.adobe.com/)获取)，其长度必须至少为24个字符。 经过身份验证的用户必须属于此IMS组织。 有关查找组织ID的信息，请参阅[Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)。
+* 应在Adobe Admin Console中的组织级别强制执行2FA以启用该模块。 检查[身份验证设置](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)。
 * 客户端ID
 * 客户端密码
 * 从[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/)检索API密钥后，可以使用客户端ID和客户端密钥。
@@ -46,7 +47,7 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 
 ## 配置集成
 
-具有系统访问权限的管理员或开发人员完成以下步骤后，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;按钮会在所有管理员用户的Commerce管理员登录页面中显示。
+具有系统访问权限的管理员或开发人员完成以下步骤后，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_按钮会在所有管理员用户的Commerce管理员登录页面中显示。
 
 ### 步骤1：获取Adobe组织ID
 
@@ -75,7 +76,7 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 
 >[!TIP]
 >
->您可以通过从CSV文件上传用户信息来创建多个用户帐户。 请参阅[管理多个用户](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>您可以通过从CSV文件上传用户信息来创建多个用户帐户。 请参阅[管理多个用户](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
 1. 在[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)中，导航到&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
 

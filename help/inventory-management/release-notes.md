@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management]发行说明'
 description: 查看发行说明，了解所有 [!DNL Inventory Management] 发行版本的信息。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3462'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅[GitHub项目](https://github.com/magento/inventory)存储库和[wiki](https://github.com/magento/inventory/wiki)以开始操作。 若要讨论此项目，请加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)渠道（[自注册](https://opensource.magento.com/slack)）。
 
-[发行计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans){target="_blank"}，适用于受支持和兼容的发行版。
+支持版本和兼容版本的发行计划[](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
-版本2.4.6支持[!DNL Inventory Management] 1.2.6（模块版本：`magento/inventory-metapackage = 1.2.6`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
+版本2.4.6支持[!DNL Inventory Management] 1.2.6（模块版本： `magento/inventory-metapackage = 1.2.6`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
 ![已修复问题](../assets/fix.svg)当已售出的子产品返回到库存中时，店面现在将组合产品（可配置、捆绑和分组）显示为库存。 之前，店面显示复合产品在这些条件下缺货。<!-- ACP2E-1106-->
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)存储现在已根据单个或多个存储ID进行过滤。 `event`产品属性代码已添加到保留的属性代码列表中。 以前，当安装了Inventory模块时， Low Stock报表会引发异常。<!-- ACP2E-1017-->
 
-![已修复问题](../assets/fix.svg)分层导航筛选器现在按预期工作，缺货产品现在已附加到店面类别产品列表。 新的`is_out_of_stock`排序属性使用Elasticsearch的动态字段映射器作为店面产品集合。<!-- ACP2E-748-->
+![已修复问题](../assets/fix.svg)分层导航筛选器现在按预期工作，缺货产品现在已附加到店面类别产品列表。 新的`is_out_of_stock`排序属性使用Elasticsearch动态字段映射器作为店面产品集合。<!-- ACP2E-748-->
 
 ![修复了问题](../assets/fix.svg)当子产品库存状态通过REST `POST /rest/V1/inventory/source-items`调用更改时，复合产品（捆绑包、已分组和可配置）库存状态将按预期更新。<!-- ACP2E-1209-->
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ![修复了问题](../assets/fix.svg) <!--- ACP2E-274-->在启用&#x200B;**[!UICONTROL Display Out-Of-Stock Products]**&#x200B;设置的情况下使用库存单源模式时，类别列表产品计数现在是正确的。 新插件现在使用`AreProductsSalableInterface`和`StockConfigurationInterface`来确定产品总数。 以前，类别产品列表返回错误的产品数量。
 
-![修复的问题](../assets/fix.svg) <!--- ACP2E-322-->启用&#x200B;**[!UICONTROL Move out of stock to the bottom]**&#x200B;设置后，库存更新后，可配置产品现在移至产品列表中的最后一个位置。 实施新的自定义数据库查询以使Elasticsearch索引排序顺序无效，这忽视了启用管理员的排序顺序。 以前，启用此设置时，可配置产品及其子产品不会移到列表的底部。
+![修复的问题](../assets/fix.svg) <!--- ACP2E-322-->启用&#x200B;**[!UICONTROL Move out of stock to the bottom]**&#x200B;设置后，库存更新后，可配置产品现在移至产品列表中的最后一个位置。 实施新的自定义数据库查询以取消Elasticsearch索引排序顺序，该顺序忽略启用管理员的排序顺序。 以前，启用此设置时，可配置产品及其子产品不会移到列表的底部。
 
 ## v1.2.4
 
@@ -116,7 +116,8 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)购物车和结账操作的性能已得到改进，例如，在具有许多（大约10,000个）库存源的部署中将产品添加到购物车。<!--- MC-42570-->
 
-![修复了问题](../assets/fix.svg) `bin/magento inventory:reservation:list-inconsistencies`命令现在可以正确处理具有部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
+![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
+
 
 ![修复了问题](../assets/fix.svg)在共享子项时，对分组产品子产品的增量索引不再导致其他分组产品索引不正确。<!--- MC-41963-->
 
@@ -126,11 +127,11 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)已改进对超过10,000个项目的库存库存库存的管理。 以前，性能问题有时会阻止商家在启动其网站之前编辑管理员中的库存。<!--- MC-42643-->
 
-![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_&#x200B;部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修复问题](../assets/fix.svg) Adobe Commerce在贷项通知单由API更新后不再创建重复的产品预订。<!--- MC-41757-->
 
-![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;选项卡切换到&#x200B;_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
+![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_选项卡切换到_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
 
 ![已修复问题](../assets/fix.svg)可销售产品数量和库存产品数量现已正确同步。 以前，不会为已取消的订单重新创建库存预留补偿。<!--- MC-42485-->
 
@@ -138,7 +139,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ## 1.2.3
 
-版本2.4.3支持[!DNL Inventory Management] 1.2.3（模块版本：`magento/inventory-metapackage = 1.2.3`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
+版本2.4.3支持[!DNL Inventory Management] 1.2.3（模块版本： `magento/inventory-metapackage = 1.2.3`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
 ![修复了问题](../assets/fix.svg)修复了多个与前端上的复合产品可见性相关的问题。
 
@@ -154,7 +155,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ## 1.2.2
 
-版本2.4.2支持[!DNL Inventory Management] 1.2.2（模块版本：`magento/inventory-metapackage = 1.2.2`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
+版本2.4.2支持[!DNL Inventory Management] 1.2.2（模块版本： `magento/inventory-metapackage = 1.2.2`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
 ![修复了问题](../assets/fix.svg)修复了多个与前端上的复合产品可见性相关的问题。
 
@@ -166,7 +167,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ## 1.2.1
 
-版本2.4.1支持[!DNL Inventory Management] 1.2.1（模块版本：`magento/inventory-metapackage = 1.2.1`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
+版本2.4.1支持[!DNL Inventory Management] 1.2.1（模块版本： `magento/inventory-metapackage = 1.2.1`），并且与Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
 ![修复了问题](../assets/fix.svg)修复了与`inventory_cleanup_reservations` cron作业相关的已知问题，并解决了与捆绑产品的店内代答功能相关的问题。 此更新还包括对库存计算、捆绑产品支持和延交功能的常规改进。
 
@@ -174,7 +175,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ## 1.2.0
 
-Adobe Commerce版本2.4.0、云基础架构上的Adobe Commerce和Magento Open Source代码库支持[!DNL Inventory Management] 1.2.0（模块版本：`magento/inventory-metapackage = 1.2.0`）。
+版本2.4.0的Adobe Commerce、云基础架构上的Adobe Commerce和Magento Open Source代码库支持[!DNL Inventory Management] 1.2.0（模块版本：`magento/inventory-metapackage = 1.2.0`）。
 
 ![修复了问题](../assets/fix.svg)修复了许多问题，以解决源分配问题、可扩展环境功能支持问题以及与PHP 7.4、MySQL 8和PHPUNIT 9的兼容性问题。
 
@@ -199,7 +200,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.6
 
-版本2.3.6支持[!DNL Inventory Management] 1.1.6（模块版本： `inventory-composer-metapackage = 1.1.6`），并且与Adobe Commerce的版本2.3.5、2.3.4、2.3.3、2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
+[!DNL Inventory Management] 1.1.6（模块版本： `inventory-composer-metapackage = 1.1.6`）受版本2.3.6支持，并与Adobe Commerce的版本2.3.5、2.3.4、2.3.3、2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
 ![修复了问题](../assets/fix.svg)修复了以下问题：延期交货、贷项通知单、低库存报表网格、连接到“解决不一致”CLI工具的修复以及一般改进。
 
@@ -227,7 +228,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.3
 
-版本2.3.3支持[!DNL Inventory Management] 1.1.3（模块版本： `inventory-composer-metapackage = 1.1.3`），并且与Adobe Commerce的版本2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
+版本2.3.3支持[!DNL Inventory Management] 1.1.3（模块版本： `inventory-composer-metapackage = 1.1.3`），并且与Adobe Commerce版本2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
 ![已修复问题&#x200B;](../assets/fix.svg)**更好地与Adobe Commerce和B2B功能集成。对于使用非默认库存源和库存的网站，** [!DNL Inventory Management]现在可以使用以下功能正常工作：
 
@@ -243,7 +244,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 版本2.3.2支持[!DNL Inventory Management] 1.1.2（模块版本： `inventory-composer-metapackage = 1.1.2`），并且与Adobe Commerce版本2.3.1、2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
-![修复了问题](../assets/fix.svg)已将`source_code`添加到GET`/V1/shipments` REST终结点的响应中。<!-- https://github.com/magento/inventory/pull/2142 -->
+![修复了问题](../assets/fix.svg)已将`source_code`添加到GET `/V1/shipments` REST终结点的响应中。<!-- https://github.com/magento/inventory/pull/2142 -->
 
 ![已修复问题](../assets/fix.svg)已解决在签发未发运订单的贷项通知单后正确清除保留和更新产品数量的问题。 当您选择<!-- https://github.com/magento/inventory/pull/2179 -->的选项时
 
@@ -270,13 +271,13 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![新](../assets/new.svg) **简化的已分配源UI** — 产品页面中的“已分配源”表简化了内容，以便更轻松地更新，并且在显示多个源时提高了性能。 按源名称列出所有源（将鼠标悬停在`source_code`上）。
 
-![新](../assets/new.svg) **导出汇总库存服务** — 此版本提供了新的导出汇总库存服务（保留系统中的预留）以支持外部Sales Channel，如Amazon、eBay和Google购物广告。 <!-- https://github.com/magento/inventory/pull/2067 -->
+![新](../assets/new.svg) **导出汇总库存服务** — 此版本提供了新的导出汇总库存服务（保留系统中的预留）以支持外部销售渠道，如Amazon、eBay和Google购物广告。 <!-- https://github.com/magento/inventory/pull/2067 -->
 
 ## 1.1.0
 
 [!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。 [!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
-![已修复问题](../assets/fix.svg) **已添加对单源模式和多源模式Elasticsearch的支持** — 您现在可以将Elasticsearch配置用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修复问题](../assets/fix.svg)解决了默认库存的性能问题，从而通过大量操作显着提高性能。 改进提高了单一来源模式、“将库存转移到Source”、“店面类别”页面和“可销售数量”计算的性能。
 
@@ -290,4 +291,4 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![新](../assets/new.svg) **扩展源数量列表** — 具有大量源的商家可以通过产品网格轻松移动和查看每个产品的所有源。 每个产品至少会显示五个来源和匹配数量。 将鼠标悬停在源上时，可以滚动浏览源与当前量的整个列表。
 
-![已知问题](../assets/bug.svg)Magento Open Source和Adobe Commerce v2.3.1的已知问题 — 由于异步API中的主题名称反映了PHP类和方法名称，因此在源之间的异步数据迁移遇到问题。 建议使用同步操作，将&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;设置为`No`。
+![已知问题](../assets/bug.svg) Magento Open Source和Adobe Commerce v2.3.1的已知问题 — 由于异步API中的主题名称反映了PHP类和方法名称，因此在源之间的异步数据迁移遇到问题。 建议使用同步操作，将&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;设置为`No`。

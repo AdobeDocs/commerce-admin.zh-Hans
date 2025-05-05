@@ -6,7 +6,7 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 09e1ef6be9eed9bcf1d562f0490dfb7d28b18171
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 存储管理员有两个区域：
 
 - 管理员：使用此区域可访问配置UI和报表。
-- 命令行界面：使用此工具执行安装和后端配置任务。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+- [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}命令行接口：使用此工具执行安装和后端配置任务。
 
 本指南涵盖：
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 | ------- | ----------- |
 | [简介](introduction.md) | [!DNL Adobe Commerce B2B]有哪些可用功能？ |
 | [发行说明](release-notes.md) | 查看每个[!DNL Adobe Commerce B2B]版本中提供的更新。 |
-| [安装](install.md) | 安装[!DNL Adobe Commerce B2B]扩展。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} |
+| [安装](install.md) | 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}安装[!DNL Adobe Commerce B2B]扩展。 |
 | [启用基本B2B功能](enable-basic-features.md) | 安装[!DNL Adobe Commerce B2B]后，必须启用要为存储激活的功能。 |
 | [公司帐户](account-companies.md) | 了解公司帐户，以及它们如何为您的商店中的B2B购买者提供支持的主要构建块。 |
 | [公司管理](manage-companies.md) | 了解B2B Commerce站点管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
@@ -52,5 +52,5 @@ ht-degree: 1%
 
 如果您需要本指南中未涉及的信息或问题，请使用以下资源：
 
-- [Adobe Commerce支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=zh-Hans)
-- [支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket) — 提交票证以接收其他帮助。
+- [Adobe Commerce支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) — 提交票证以接收其他帮助。

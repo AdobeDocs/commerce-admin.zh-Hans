@@ -3,9 +3,9 @@ title: 计划的导入和导出
 description: 了解如何管理计划的数据导入和导出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
    - [添加计划导出](#schedule-an-export)
    - [添加计划导入](#schedule-an-import)
 
-1. 保存记录后，作业将出现在&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;网格中。
+1. 保存记录后，作业将出现在&#x200B;_[!UICONTROL Scheduled Import/Export]_网格中。
 
    >[!NOTE]
    >
    >创建或更新计划的导入/导出时，会导致系统配置发生更改。 保存后，请确保您解决了显示在管理员页面顶部的缓存失效通知，并刷新缓存以应用新的或更新后的计划。
 
-1. 在每个计划作业后，该文件副本将放在Adobe Commerce本地服务器上的`var/log/import_export`目录中。
+1. [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在每个计划作业后，该文件副本将放在Adobe Commerce本地服务器上的`var/log/import_export`目录中。
 
    每个操作的详细信息不会写入日志。 如果发生错误，则会发送有关失败的导入/导出作业的通知，并附上错误描述。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 每个导入操作的详细信息不会写入日志，但当发生失败时，您会收到一封包含错误描述的&#x200B;_导入失败_&#x200B;电子邮件。 上次计划导入作业的结果显示在“计划的导入/导出”页面的“上次结果”列中。
 
-每次导入操作后，导入文件的副本将放置在部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录中。 时间戳、导入实体（产品或客户）的标记以及操作类型（在本例中为“导入”）将添加到导入文件名中。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导入操作后，导入文件的副本将放置在部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录中。 时间戳、导入实体（产品或客户）的标记以及操作类型（在本例中为“导入”）将添加到导入文件名中。
 
 在每个计划的导入作业之后，将自动执行重新索引操作。 前端，更新后的数据进入数据库后，描述等文字信息的变化才会反映出来，价格的变化只反映在重新索引操作之后。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
+     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_和_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
 
    - **[!UICONTROL Start Time]** — 设置为计划开始导入的小时、分钟和秒。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新的计划导入作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;页面上的列表。 在此页面中，可以立即运行它以进行测试和编辑。 在执行每个导入作业之前，将验证导入文件。
+   新的计划导入作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_页面上的列表。 在此页面中，可以立即运行它以进行测试和编辑。 在执行每个导入作业之前，将验证导入文件。
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 每次导出的详细信息不会写入日志，但如果失败，您将收到一封导出失败电子邮件，其中包含错误说明。 上次导出作业的结果显示在“计划的导入/导出”页面的“上次结果”列中。
 
-每次导出后，导出文件都会放置在用户定义的位置，并在部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录中提供一个副本。 导出实体（产品或客户）的时间戳和标记以及操作类型（在本例中为“导出”）将添加到导出文件名中。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导出后，导出文件将置于用户定义的位置，并复制到部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录下。 导出实体（产品或客户）的时间戳和标记以及操作类型（在本例中为“导出”）将添加到导出文件名中。
 
 ### 步骤1：完成导出设置
 
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     页面底部的&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;部分已更新以反映所选的实体类型。
+     页面底部的&#x200B;_[!UICONTROL Entity Attributes]_部分已更新以反映所选的实体类型。
 
    - 将&#x200B;**[!UICONTROL Start Time]**&#x200B;设置为计划开始导出的小时、分钟和秒。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - 对于&#x200B;**[!UICONTROL Local Server]**，输入Commerce安装中的相对路径，如`var/export`。 如果已配置远程存储模块，请使用`import_export/export`。
    - 对于&#x200B;**[!UICONTROL Remote FTP server]**，输入目标服务器上的目标文件夹的完整URL和路径。
 
-1. 如果选择&#x200B;_[!UICONTROL Remote FTP]_&#x200B;服务器，请输入服务器的连接凭据并选择其他设置：
+1. 如果选择&#x200B;_[!UICONTROL Remote FTP]_服务器，请输入服务器的连接凭据并选择其他设置：
 
    - 对于&#x200B;**[!UICONTROL FTP Host[:Port]]**，输入远程FTP主机地址。
    - 对于&#x200B;**[!UICONTROL User Name]**，输入用于访问远程服务器的用户名。
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 步骤4：选择实体属性
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;部分中，选择要包含在导出数据中的属性。
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_部分中，选择要包含在导出数据中的属性。
 
-   - 要按属性值筛选导出数据，请在&#x200B;_[!UICONTROL Filter]_&#x200B;列中输入属性值。
+   - 要按属性值筛选导出数据，请在&#x200B;_[!UICONTROL Filter]_列中输入属性值。
    - 要排除具有特定属性值的产品或客户，请输入要排除的属性的值，并在“跳过”列中选中复选框。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新的计划导出作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;页面上的列表。 在此页面中，可以立即运行该程序以进行测试和编辑。
+   新的计划导出作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_页面上的列表。 在此页面中，可以立即运行该程序以进行测试和编辑。
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 确定导出文件的位置。 选项：<br>**本地服务器** — 将导出文件放在部署Commerce的同一服务器上。 如果启用了远程存储模块，`Local Server`将切换到`Remote Storage`。<br>**远程FTP** — 将导出文件放在远程服务器上。 将显示凭据和文件传输设置的其他选项。 |
-| [!UICONTROL File Directory] | 指定放置导出文件的目录。 如果&#x200B;_[!UICONTROL Server Type]_&#x200B;设置为`Local Server`，请指定相对于Commerce安装路径的路径。 例如，`var/export`或远程存储的`import_export/export`。 |
+| [!UICONTROL File Directory] | 指定放置导出文件的目录。 如果&#x200B;_[!UICONTROL Server Type]_设置为`Local Server`，请指定相对于Commerce安装路径的路径。 例如，`var/export`或远程存储的`import_export/export`。 |
 
 {style="table-layout:auto"}
 

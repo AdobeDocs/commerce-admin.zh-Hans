@@ -3,9 +3,9 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)运行cron 。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)运行cron [。
 
 ### 方法1：创建特定优惠券
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 要使优惠券在某个时间段内有效，请执行以下操作：
 
-   - ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)完成&#x200B;**从**&#x200B;到&#x200B;**和**&#x200B;的日期。 要选择日期，请单击每个字段旁边的&#x200B;**日历** （![日历图标](../assets/icon-calendar.png)）图标。 如果将日期范围留空，则该规则不会过期。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)完成&#x200B;**从**&#x200B;和&#x200B;**到**&#x200B;的日期。 要选择日期，请单击每个字段旁边的&#x200B;**日历** （![日历图标](../assets/icon-calendar.png)）图标。 如果将日期范围留空，则该规则不会过期。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)执行以下操作之一：
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->虽然Commerce允许配置多个优惠券代码，但客户在购物车中只能使用一个优惠券代码。 若要允许同时在购物车中使用多个优惠券代码，可以考虑使用[Commerce Marketplace](https://marketplace.magento.com/)中的相应扩展。
+>虽然Commerce允许配置多个优惠券代码，但客户在购物车中只能使用一个优惠券代码。 要允许在购物车中同时使用多个优惠券代码，您可以考虑使用[Commerce Marketplace](https://marketplace.magento.com/)中的相应扩展。
 
 ## 优惠券报告
 
