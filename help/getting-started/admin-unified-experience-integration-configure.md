@@ -6,7 +6,7 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '1028'
@@ -22,11 +22,11 @@ ht-degree: 0%
 ## 先决条件
 
 - 必须将Adobe Commerce配置为使用[Adobe IMS身份验证](../getting-started/adobe-ims-config.md)
-- 帐户设置和权限 — 管理员必须具有[Adobe业务配置文件](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)，并且有权访问以下资源来配置Experience Cloud集成：
-   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) — 为组织添加和管理Adobe用户和开发人员帐户
+- 帐户设置和权限 — 管理员必须具有[Adobe业务配置文件](https://helpx.adobe.com/cn/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)，并且有权访问以下资源来配置Experience Cloud集成：
+   - [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/admin-guide.html) — 为组织添加和管理Adobe用户和开发人员帐户
    - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) — 具有开发人员或系统管理员访问权限，可创建App Builder项目并生成连接凭据和项目配置以使用Adobe I/O Events服务
-   - [云基础架构项目上的Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) — 使用Adobe Commerce CLI安装所需模块并配置Commerce应用程序服务器
-   - [Commerce管理员](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) — 更新商店配置并管理Commerce用户帐户
+   - [云基础架构项目上的Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=zh-Hans#get-started-with-the-project-web-interface) — 使用Adobe Commerce CLI安装所需模块并配置Commerce应用程序服务器
+   - [Commerce管理员](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=zh-Hans) — 更新商店配置并管理Commerce用户帐户
 
 ## 配置概述
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. 验证是否已启用Adobe IMS。
 
-   - 使用环境的[SSH访问URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)连接到Commerce应用程序服务器。
+   - 使用环境的[SSH访问URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)连接到Commerce应用程序服务器。
 
    - 在命令行中，使用Adobe Commerce CLI检查IMS模块状态。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 >
 >这些说明显示了Commerce Cloud项目管理员如何使用Adobe Commerce CLI启用该扩展。 Commerce管理员用户还可以通过更新[Commerce商店配置设置](admin-unified-experience-integration-manage.md#from-the-commerce-admin)来启用该扩展。
 
-1. 从本地工作站上云项目环境的根目录中，使用[magento-cloud CLI工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)登录到Commerce应用程序服务器。
+1. 从本地工作站上云项目环境的根目录中，使用[magento-cloud CLI工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=zh-Hans)登录到Commerce应用程序服务器。
 
    ```bash
    magento-cloud ssh
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->有关使用`.magento.env.yaml`文件配置和管理环境变量的详细信息，请参阅[为部署配置环境变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)。
+>有关使用`.magento.env.yaml`文件配置和管理环境变量的详细信息，请参阅[为部署配置环境变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)。
 
 ### 配置Commerce事件集成
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 1. 要建立连接，请通过事件提供程序向使用者发送事件。
 
-   - 从本地云项目目录中的命令行，[使用SSH连接到Commerce应用程序服务器](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)。
+   - 从本地云项目目录中的命令行，[使用SSH连接到Commerce应用程序服务器](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans#connect-to-a-remote-environment)。
 
      ```bash
      magento-cloud ssh
@@ -199,6 +199,6 @@ ht-degree: 0%
 
 1. 验证您是否可以按预期执行管理任务。
 
-   Commerce管理员中的工作流应遵循相同的流程。 如果在启用Experience Cloud集成后遇到工作流更改或错误，请联系您的Commerce系统管理员或[提交Adobe支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)。
+   Commerce管理员中的工作流应遵循相同的流程。 如果在启用Experience Cloud集成后遇到工作流更改或错误，请联系您的Commerce系统管理员或[提交Adobe支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket)。
 
 配置Experience Cloud集成后，请验证是否正确配置了管理员帐户，以通过Experience Cloud访问Commerce项目。 请参阅[管理管理员用户](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts)。

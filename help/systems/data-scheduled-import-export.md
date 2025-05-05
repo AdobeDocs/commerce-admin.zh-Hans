@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >创建或更新计划的导入/导出时，会导致系统配置发生更改。 保存后，请确保您解决了显示在管理员页面顶部的缓存失效通知，并刷新缓存以应用新的或更新后的计划。
 
-1. [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在每个计划作业后，该文件副本将放在Adobe Commerce本地服务器上的`var/log/import_export`目录中。
+1. [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在每个计划作业后，该文件副本将放在Adobe Commerce本地服务器上的`var/log/import_export`目录中。
 
    每个操作的详细信息不会写入日志。 如果发生错误，则会发送有关失败的导入/导出作业的通知，并附上错误描述。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 每个导入操作的详细信息不会写入日志，但当发生失败时，您会收到一封包含错误描述的&#x200B;_导入失败_&#x200B;电子邮件。 上次计划导入作业的结果显示在“计划的导入/导出”页面的“上次结果”列中。
 
-[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导入操作后，导入文件的副本将放置在部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录中。 时间戳、导入实体（产品或客户）的标记以及操作类型（在本例中为“导入”）将添加到导入文件名中。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导入操作后，导入文件的副本将放置在部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录中。 时间戳、导入实体（产品或客户）的标记以及操作类型（在本例中为“导入”）将添加到导入文件名中。
 
 在每个计划的导入作业之后，将自动执行重新索引操作。 前端，更新后的数据进入数据库后，描述等文字信息的变化才会反映出来，价格的变化只反映在重新索引操作之后。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 每次导出的详细信息不会写入日志，但如果失败，您将收到一封导出失败电子邮件，其中包含错误说明。 上次导出作业的结果显示在“计划的导入/导出”页面的“上次结果”列中。
 
-[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导出后，导出文件将置于用户定义的位置，并复制到部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录下。 导出实体（产品或客户）的时间戳和标记以及操作类型（在本例中为“导出”）将添加到导出文件名中。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}每次导出后，导出文件将置于用户定义的位置，并复制到部署Adobe Commerce或Magento Open Source的服务器的`var/log/import_export`目录下。 导出实体（产品或客户）的时间戳和标记以及操作类型（在本例中为“导出”）将添加到导出文件名中。
 
 ### 步骤1：完成导出设置
 

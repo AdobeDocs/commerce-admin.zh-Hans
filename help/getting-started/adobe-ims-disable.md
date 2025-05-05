@@ -3,7 +3,7 @@ title: 禁用Commerce管理员与Adobe ID的集成
 description: 请按照以下可选过程禁用与Adobe IMS的Adobe Commerce管理集成。
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '319'
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 在禁用IMS集成后，Commerce部署将还原为默认的Commerce身份验证工作流和密码策略。 如果启用或禁用此集成，则只有管理员用户工作流受影响。
 
-有关Commerce管理员登录的概述，请参阅[您的管理员帐户](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)。
+有关Commerce管理员登录的概述，请参阅[您的管理员帐户](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans)。
 
 ## 步骤1：禁用集成
 
@@ -43,7 +43,7 @@ Admin Adobe IMS integration is disabled.
 
 * 记住预先存在的Commerce密码的Commerce管理员用户(即在IMS集成之前创建的Commerce密码)可以使用该密码登录到管理员。
 
-* 不具有预先存在的Commerce密码或忘记密码的Commerce管理员用户必须创建新密码。 要创建新密码，管理员用户可以使用Commerce登录页面上的[!UICONTROL Forgot your password?]功能创建新密码。 请参阅[重置客户密码](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html)。 Commerce不接受空密码字段。
+* 不具有预先存在的Commerce密码或忘记密码的Commerce管理员用户必须创建新密码。 要创建新密码，管理员用户可以使用Commerce登录页面上的[!UICONTROL Forgot your password?]功能创建新密码。 请参阅[重置客户密码](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=zh-Hans)。 Commerce不接受空密码字段。
 
 ## 禁用集成后
 

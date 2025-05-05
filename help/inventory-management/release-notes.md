@@ -20,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅[GitHub项目](https://github.com/magento/inventory)存储库和[wiki](https://github.com/magento/inventory/wiki)以开始操作。 若要讨论此项目，请加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)渠道（[自注册](https://opensource.magento.com/slack)）。
 
-支持版本和兼容版本的发行计划[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
+支持版本和兼容版本的发行计划[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -116,7 +116,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)购物车和结账操作的性能已得到改进，例如，在具有许多（大约10,000个）库存源的部署中将产品添加到购物车。<!--- MC-42570-->
 
-![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
+![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
 
 
 ![修复了问题](../assets/fix.svg)在共享子项时，对分组产品子产品的增量索引不再导致其他分组产品索引不正确。<!--- MC-41963-->
@@ -277,7 +277,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。 [!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
-![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修复问题](../assets/fix.svg)解决了默认库存的性能问题，从而通过大量操作显着提高性能。 改进提高了单一来源模式、“将库存转移到Source”、“店面类别”页面和“可销售数量”计算的性能。
 
