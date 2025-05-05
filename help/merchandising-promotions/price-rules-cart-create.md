@@ -334,7 +334,7 @@ ht-degree: 0%
 
 观看以下视频，了解如何创建购物车价格规则：
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410802?quality=12&learn=on&captions=chi_hans)
 
 ## 字段描述
 

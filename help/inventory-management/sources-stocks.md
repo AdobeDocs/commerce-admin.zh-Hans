@@ -65,4 +65,4 @@ Sales Channel表示销售您的库存的实体，包括网站、商店视图、B
 
 观看此视频，了解Inventory management资源和库存：
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410195?quality=12&learn=on&captions=chi_hans)

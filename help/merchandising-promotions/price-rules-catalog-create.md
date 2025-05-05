@@ -224,7 +224,7 @@ ht-degree: 0%
 
 观看本视频，了解如何创建目录价格规则：
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410846?quality=12&learn=on&captions=chi_hans)
 
 ## 字段描述
 

@@ -91,4 +91,4 @@ _应用模板_&#x200B;网格和&#x200B;_模板_&#x200B;页面网格提供了两�
 
 观看以下视频，了解页面生成器内容模板：
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410840?quality=12&learn=on&captions=chi_hans)

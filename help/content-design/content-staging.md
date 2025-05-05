@@ -80,7 +80,7 @@ ht-degree: 0%
 
 要了解内容暂存，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410852?quality=12&learn=on&captions=chi_hans)
 
 ## 资源疑难解答
 

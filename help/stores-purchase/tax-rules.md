@@ -96,4 +96,4 @@ ht-degree: 0%
 
 通过观看以下视频，了解如何管理货币和税则：
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410210/?quality=12&learn=on&captions=chi_hans)

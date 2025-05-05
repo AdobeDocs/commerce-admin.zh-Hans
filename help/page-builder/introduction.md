@@ -38,4 +38,4 @@ ht-degree: 0%
 
 观看以下视频，了解页面生成器功能：
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447904?quality=12&learn=on&captions=chi_hans)

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 观看本视频，了解Adobe Commerce和AEM Assets如何协作以简化内容工作流：
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447898?captions=chi_hans)
 
 ## 下一步
 

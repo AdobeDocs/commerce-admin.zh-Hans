@@ -39,7 +39,7 @@ Adobe Commerce和Magento Open Source通过在提交订单之前自动验证所�
 
 通过观看以下视频了解卖家辅助购物：
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410200/?quality=12&learn=on&captions=chi_hans)
 
 ## 订单管理和操作
 

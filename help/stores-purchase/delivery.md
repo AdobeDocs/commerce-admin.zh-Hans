@@ -40,4 +40,4 @@ Adobe Commerce和Magento Open Source支持多种交付方法和航运运营商�
 
 您可以通过观看以下视频了解配送和交货方法：
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410205/?quality=12&learn=on&captions=chi_hans)
