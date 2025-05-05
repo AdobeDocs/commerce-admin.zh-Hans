@@ -29,9 +29,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**来创建公司帐户。
+   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;来创建公司帐户。
 
-1. 在&#x200B;_[!UICONTROL Company Information]_部分中，客户执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Information]_&#x200B;部分中，客户执行以下操作：
 
    - 填写必填字段：
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ![公司信息](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. 完成&#x200B;_[!UICONTROL Legal Address]_部分中的必填字段。
+1. 完成&#x200B;_[!UICONTROL Legal Address]_&#x200B;部分中的必填字段。
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City]**
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![合法地址](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Administrator]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Administrator]_&#x200B;部分中，执行以下操作：
 
    - 为公司管理员输入&#x200B;**[!UICONTROL Email address]**。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    - 如果适用，请选择将管理该帐户的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理员帐户。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;部分中，执行以下操作：
 
    - 根据情况填写以下字段：
 
@@ -116,16 +116,16 @@ ht-degree: 0%
 
    ![帐户信息](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 在初始创建公司时，展开&#x200B;_[!UICONTROL Company Hierarchy]_网格时它是空的。 保存公司后，您可以将其包含在公司层次结构中。 查看[公司管理](manage-companies.md)。
+1. 在初始创建公司时，展开&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;网格时它是空的。 保存公司后，您可以将其包含在公司层次结构中。 查看[公司管理](manage-companies.md)。
 
-1. 在&#x200B;_[!UICONTROL Legal Address]_部分中，完成以下必填字段：
+1. 在&#x200B;_[!UICONTROL Legal Address]_&#x200B;部分中，完成以下必填字段：
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City Country]**
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
-1. 在&#x200B;_[!UICONTROL Company Admin]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Admin]_&#x200B;部分中，执行以下操作：
 
    - 填写以下必填字段：
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    ![公司管理员](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 在显示客户信用活动摘要的&#x200B;_[!UICONTROL Company Credit]_部分中，完成部分下半部分中的任意多个字段：
+1. 在显示客户信用活动摘要的&#x200B;_[!UICONTROL Company Credit]_&#x200B;部分中，完成部分下半部分中的任意多个字段：
 
    - **[!UICONTROL Credit Currency]**
    - **[!UICONTROL Credit Limit]**
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    ![公司信用](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Advanced Settings]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Advanced Settings]_&#x200B;部分中，执行以下操作：
 
    >[!NOTE]
    >
@@ -176,7 +176,7 @@ ht-degree: 0%
 
      | 选项 | 描述 |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | （默认）为B2B订单启用设置为默认](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有[付款方法。 |
+     | `B2B Payment Methods` | （默认）为B2B订单启用设置为默认[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有付款方法。 |
      | `All Enabled Payment Methods` | 使所有[启用的付款方法](../configuration-reference/sales/payment-methods.md)可用于与公司帐户关联的客户帐户。 |
      | `Selected Payment Methods` | 允许您选择与公司帐户关联的客户帐户可用的付款方法。 要选择多种支付方式，请按住Ctrl键(PC)或Command键(Mac)并选择每个选项。 |
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
      | 选项 | 描述 |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | （默认）为B2B订单启用设置为默认](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有[配送方式。 |
+     | `B2B Shipping Methods` | （默认）为B2B订单启用设置为默认[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有配送方式。 |
      | `All Enabled Shipping Methods` | 使所有[启用的配送方式](../configuration-reference/sales/delivery-methods.md)都可供与公司帐户关联的客户帐户使用。 |
      | `Selected Shipping Methods` | 允许您选择与公司帐户关联的客户帐户可用的配送方式。 要选择多种配送方式，请按住Ctrl键(PC)或Command键(Mac)并选择每个选项。 |
 

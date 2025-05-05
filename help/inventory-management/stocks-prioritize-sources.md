@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 以&#x200B;_编辑_&#x200B;模式打开库存。
 
-1. 根据需要展开&#x200B;_[!UICONTROL Sources]_选项卡。
+1. 根据需要展开&#x200B;_[!UICONTROL Sources]_&#x200B;选项卡。
 
 1. 使用![排序图标](assets/icon-sort.png)将源拖放到从上（第一个）到下（最后一个）的优先级中。
 

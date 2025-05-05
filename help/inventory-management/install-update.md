@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 启用[!DNL Inventory Management]功能
 
-安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
+安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
 
 有关配置的详细信息，请参阅[配置Inventory management](configuration.md)。
 

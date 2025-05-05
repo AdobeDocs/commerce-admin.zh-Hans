@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_部分根据[商店层次结构](../stores-purchase/stores.md)标识每个可用产品的网站。
+_[!UICONTROL Product in Websites]_&#x200B;部分根据[商店层次结构](../stores-purchase/stores.md)标识每个可用产品的网站。
 
 ![产品网站范围图](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ _[!UICONTROL Product in Websites]_部分根据[商店层次结构](../stores-pur
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Product in Websites]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Product in Websites]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    网站中的![产品](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 

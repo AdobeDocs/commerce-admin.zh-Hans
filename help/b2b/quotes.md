@@ -14,7 +14,7 @@ ht-degree: 0%
 
 买方和卖方使用报价单来管理订单添加项目、更新数量、请求和应用折扣等的洽谈流程，直到他们达成一致为止。 报价洽谈流程可以由授权的公司采购员启动，也可以由公司销售代表启动。
 
-在Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中引用![列表视图
+在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中引用列表视图
 
 创建报价之后，当买方或卖方提交报价以供复查时，洽谈流程将开始。 _报价_&#x200B;网格列出了收到的每个报价，并维护了买方与卖方之间的通信历史记录。 使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改列布局、保存视图和导出数据。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 选择要拒绝的每个未结报价请求。
 
-1. 将&#x200B;_[!UICONTROL Actions]_控件设置为`Declined`。
+1. 将&#x200B;_[!UICONTROL Actions]_&#x200B;控件设置为`Declined`。
 
 1. 出现提示时，输入报价被拒绝的原因，然后单击“**[!UICONTROL Confirm]**”。
 

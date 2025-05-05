@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Product Reviews]
 
-_[!UICONTROL Product Reviews]_部分列出了客户提交的所有有关产品的评论。 仅当首次保存新产品后，此部分才会与其他产品信息一起显示。 有关详细信息，请参阅[产品评论](../merchandising-promotions/product-reviews.md)。
+_[!UICONTROL Product Reviews]_&#x200B;部分列出了客户提交的所有有关产品的评论。 仅当首次保存新产品后，此部分才会与其他产品信息一起显示。 有关详细信息，请参阅[产品评论](../merchandising-promotions/product-reviews.md)。
 
 ![产品评论](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ _[!UICONTROL Product Reviews]_部分列出了客户提交的所有有关产品�
 
 1. 找到产品并在编辑模式下将其打开。
 
-1. 滚动到&#x200B;_[!UICONTROL Product Reviews]_部分。
+1. 滚动到&#x200B;_[!UICONTROL Product Reviews]_&#x200B;部分。
 
 1. 单击&#x200B;**[!UICONTROL Edit]**&#x200B;查看状态为`Pending`的产品审阅以查看和编辑详细信息。
 

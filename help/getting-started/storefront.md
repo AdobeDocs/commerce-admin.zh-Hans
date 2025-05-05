@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Commerce店面
 
-通过推出由Edge Delivery Services **]提供支持的[!DNL ** Commerce店面，Adobe提供了高性能、可扩展且可靠的店面，该店面利用尖端技术提供卓越的速度和用户体验。
+通过推出由Edge Delivery Services **提供支持的** Commerce店面，Adobe提供了高性能、可扩展且可靠的店面，该店面利用尖端技术提供卓越的速度和用户体验。
 
 - **增强的性能**：在Edge Delivery Services上托管店面可确保更快的加载时间和改进的网站性能，从而带来更高的转化率和更好的SEO排名。
 

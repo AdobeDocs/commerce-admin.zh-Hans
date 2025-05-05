@@ -52,8 +52,8 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 | 操作 | 描述 |
 | --------- | ----------- |
-| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意：_**对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要提示：_**&#x200B;使用&#x200B;_添加/更新_&#x200B;导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
-| 替换 | 现有产品数据将被新数据替换。<br><br>**_重要信息：_**替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
+| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意：_**&#x200B;对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要提示：_**&#x200B;使用&#x200B;_添加/更新_&#x200B;导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
+| 替换 | 现有产品数据将被新数据替换。<br><br>**_重要信息：_**&#x200B;替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 | 删除 | 导入数据中存在于数据库中的任何实体都将从数据库中删除。<br><br>Delete忽略导入数据中的所有列（SKU除外）。 您可以忽略数据中的所有其他属性。<br><br>如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 
 {style="table-layout:auto"}
@@ -145,7 +145,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
    >[!NOTE]
    >
-   >从Adobe Commerce和Magento Open Source`2.3.2`版本开始，_[!UICONTROL Images File Directory]_中指定的路径将连接以导入到映像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
+   >从Adobe Commerce和Magento Open Source`2.3.2`版本开始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路径将连接以导入到映像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
 
    要了解有关导入产品映像的详细信息，请参阅[导入产品映像](data-import-product-images.md)。
 

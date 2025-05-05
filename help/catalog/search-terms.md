@@ -48,7 +48,7 @@ ht-degree: 0%
 
    ![搜索词常规信息](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Search Query]**&#x200B;框中的&#x200B;_[!UICONTROL General Information]_下，输入要作为新搜索词添加的词或短语。
+1. 在&#x200B;**[!UICONTROL Search Query]**&#x200B;框中的&#x200B;_[!UICONTROL General Information]_&#x200B;下，输入要作为新搜索词添加的词或短语。
 
 1. 如果您的商店以多种语言提供，请选择适用的&#x200B;**[!UICONTROL Store]**&#x200B;视图。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 编辑搜索词
 
-1. 在&#x200B;_[!UICONTROL Search Terms]_网格中，单击任何记录的行以在编辑模式下打开搜索项。
+1. 在&#x200B;_[!UICONTROL Search Terms]_&#x200B;网格中，单击任何记录的行以在编辑模式下打开搜索项。
 
 1. 进行必要的更改。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 有两种删除搜索词的方法 — 从网格中删除和在“编辑”页面上删除。
 
-_[!UICONTROL Search Terms]_网格中的&#x200B;**方法1：**
+_[!UICONTROL Search Terms]_&#x200B;网格中的&#x200B;**方法1：**
 
 1. 在列表中，选中要删除的术语的复选框。
 
@@ -78,7 +78,7 @@ _[!UICONTROL Search Terms]_网格中的&#x200B;**方法1：**
 
 1. 完成后，单击&#x200B;**[!UICONTROL Submit]**。
 
-_[!UICONTROL Edit a Search Term]_页面上的&#x200B;**方法2：**
+_[!UICONTROL Edit a Search Term]_&#x200B;页面上的&#x200B;**方法2：**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**。
 
@@ -141,7 +141,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**。
 
-   出现&#x200B;_[!UICONTROL Search Synonyms]_网格。 如果这是您第一次使用搜索同义词，则网格为空。
+   出现&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格。 如果这是您第一次使用搜索同义词，则网格为空。
 
    ![搜索同义词网格](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +164,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 ### 编辑同义词组
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_网格中，单击任何记录的行以在编辑模式下打开同义词组。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格中，单击任何记录的行以在编辑模式下打开同义词组。
 
 1. 进行必要的更改。
 
@@ -176,7 +176,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 搜索同义词网格中的&#x200B;**方法1：**
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_网格中，选中要删除的组的复选框。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格中，选中要删除的组的复选框。
 
 1. 在列表的左上角，将&#x200B;**[!UICONTROL Actions]**&#x200B;设置为`Delete`。
 

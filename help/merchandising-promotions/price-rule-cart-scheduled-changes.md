@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >所有计划的更新将连续应用。 这意味着任何实体都只能在一个时间点进行一次计划更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，实体无法同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
 
-如果同一促销活动中运行了多个价格规则，则价格规则的&#x200B;_[!UICONTROL Priority]_设置将确定哪条规则优先。 若要了解详细信息，请参阅[内容暂存](../content-design/content-staging.md)。
+如果同一促销活动中运行了多个价格规则，则价格规则的&#x200B;_[!UICONTROL Priority]_&#x200B;设置将确定哪条规则优先。 若要了解详细信息，请参阅[内容暂存](../content-design/content-staging.md)。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 - 如果包含价格规则的促销活动最初创建时没有结束日期，则以后无法编辑该促销活动以包含结束日期。 建议您在创建营销活动时添加结束日期，或创建现有营销活动的重复版本，并根据需要向重复版本添加结束日期。
 - 使用计划更新启用带有结束日期的购物车价格规则时，请确保将规则设置为最初禁用。 已生效的规则不遵循结束日期。
-- 优惠券未关联到购物车价格规则。 计划更新不提供对&#x200B;_[!UICONTROL Rule Information]_选项卡上的_[!UICONTROL Coupon]_、_[!UICONTROL Coupon Code]_、_[!UICONTROL Uses per Coupon]_&#x200B;和&#x200B;_[!UICONTROL Uses per Customer]_字段的访问权限。 另外，_[!UICONTROL Manage Coupon Codes]_&#x200B;选项卡中的所有设置均不可用。
+- 优惠券未关联到购物车价格规则。 计划更新不提供对&#x200B;_[!UICONTROL Rule Information]_&#x200B;选项卡上的&#x200B;_[!UICONTROL Coupon]_、_[!UICONTROL Coupon Code]_、_[!UICONTROL Uses per Coupon]_&#x200B;和&#x200B;_[!UICONTROL Uses per Customer]_&#x200B;字段的访问权限。 另外，_[!UICONTROL Manage Coupon Codes]_&#x200B;选项卡中的所有设置均不可用。
 
 >[!IMPORTANT]
 >

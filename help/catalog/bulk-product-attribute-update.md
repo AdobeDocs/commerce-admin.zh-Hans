@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 批量更新产品属性
 
-使用&#x200B;_[!UICONTROL Update Attributes]_工具更改产品中的一个或多个属性。 此工具允许您对大量产品应用重大更改。
+使用&#x200B;_[!UICONTROL Update Attributes]_&#x200B;工具更改产品中的一个或多个属性。 此工具允许您对大量产品应用重大更改。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 

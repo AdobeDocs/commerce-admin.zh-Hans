@@ -53,9 +53,9 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL Transactional Emails]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 要上传准备好的&#x200B;**[!UICONTROL Logo Image]**，请单击&#x200B;**[!UICONTROL Upload]**&#x200B;并从系统中选择文件。
 
@@ -208,9 +208,9 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `New Registry` | **页面：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Owner Notification]<br/>**字段：** [!UICONTROL Email Template] |
-| `Registry Sharing` | **页面：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Gift Registry Sharing]<br/>**字段：** [!UICONTROL Email Template] |
-| `Registry Update` | **页面：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Gift Registry Update]<br/>**字段：** [!UICONTROL Email Template] |
+| `New Registry` | **页面：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Owner Notification]<br/>**字段：** [!UICONTROL Email Template] |
+| `Registry Sharing` | **页面：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Gift Registry Sharing]<br/>**字段：** [!UICONTROL Email Template] |
+| `Registry Update` | **页面：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**节：** [!UICONTROL Gift Registry Update]<br/>**字段：** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -218,8 +218,8 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `Order is Ready for Pickup` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Order Ready For Pickup in Store]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Order Ready For Pickup in Store]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
+| `Order is Ready for Pickup` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Order Ready For Pickup in Store]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Order Ready For Pickup in Store]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -237,12 +237,12 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `Declined Quote` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Expiration Date Reset] | **页面：** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Expiration Date Reset] | **页面：** [!UICONTROL Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Quote]<br/>**字段：** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -250,9 +250,9 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `Subscription Confirmation` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL  Subscription Options]<br/>**字段：** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL  Subscription Options]<br/>**字段：** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL  Subscription Options]<br/>**字段：** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL &#x200B; Subscription Options]<br/>**字段：** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL &#x200B; Subscription Options]<br/>**字段：** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **页面：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**节：** [!UICONTROL &#x200B; Subscription Options]<br/>**字段：** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -270,15 +270,15 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `Approved Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Approved Purchase Order] |
-| `Approved, requires payment` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Approved, requires payment details (to Buyer)] |
-| `Comment added to Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Comment added to Purchase Order] |
-| `Created and Auto-approved Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-| `Created and automatically approved, requires payment details` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-| `Created and requires Approval Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-| `Error creating Order from Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-| `Purchase Order requires Approval` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-| `Rejected Purchase Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+| `Approved Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Approved Purchase Order] |
+| `Approved, requires payment` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Approved, requires payment details (to Buyer)] |
+| `Comment added to Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Comment added to Purchase Order] |
+| `Created and Auto-approved Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+| `Created and automatically approved, requires payment details` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+| `Created and requires Approval Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+| `Error creating Order from Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+| `Purchase Order requires Approval` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+| `Rejected Purchase Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL Purchase Order Approval]<br/>**字段：** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -309,13 +309,13 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `New RMA` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA]<br/>**字段：** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA]<br/>**字段：** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA Admin Comments]<br/>**字段：** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA Admin Comments]<br/>**字段：** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA Authorization]<br/>**字段：** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL  RMA Authorization]<br/>**字段：** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL RMA Customer Comments]<br/>**字段：** [!DNL RMA Comment Email Template] |
+| `New RMA` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA]<br/>**字段：** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA]<br/>**字段：** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**字段：** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**字段：** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA Authorization]<br/>**字段：** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL &#x200B; RMA Authorization]<br/>**字段：** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**节：** [!UICONTROL RMA Customer Comments]<br/>**字段：** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -323,38 +323,38 @@ Commerce电子邮件可以由HTML和纯文本电子邮件客户端渲染。 客�
 
 | 模板 | 配置路径 |
 |--- |--- |
-| `Credit Memo Update` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Contents]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **页面：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Contents]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo Comments]<br/>**字段：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice Comments]<br/>**字段：** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Credit Memo]<br/>**字段：** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Invoice]<br/>**字段：** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order]<br/>**字段：** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment]<br/>**字段：** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Order Comments]<br/>**字段：** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **页面：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**节：** [!UICONTROL Shipment Comments]<br/>**字段：** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 

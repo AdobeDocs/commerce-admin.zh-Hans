@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Images and Videos]
 
-从&#x200B;_[!UICONTROL Images and Videos]_部分，您可以执行基本的图像管理任务，例如上传多个图像、重新排列图像以及控制每个图像的使用方式。 若要进一步控制各个图像，您可以在_&#x200B;详细信息视图&#x200B;_中打开每个图像。 有关详细信息，请参阅[目录图像和视频](catalog-images-video.md)。
+从&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分，您可以执行基本的图像管理任务，例如上传多个图像、重新排列图像以及控制每个图像的使用方式。 若要进一步控制各个图像，您可以在_&#x200B;详细信息视图&#x200B;_中打开每个图像。 有关详细信息，请参阅[目录图像和视频](catalog-images-video.md)。
 
 ## 上传新图像
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![图像和视频](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 图像详细信息
 
-添加产品图像时，可以自定义&#x200B;_[!UICONTROL Image Detail]_窗口中的图像显示。
+添加产品图像时，可以自定义&#x200B;_[!UICONTROL Image Detail]_&#x200B;窗口中的图像显示。
 
 ![产品图像](./assets/image-video.png){width="600" zoomable="yes"}
 

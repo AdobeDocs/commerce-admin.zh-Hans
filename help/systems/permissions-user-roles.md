@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### 步骤1：添加角色名称
 
-1. 在&#x200B;_[!UICONTROL Role Information]_下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
+1. 在&#x200B;_[!UICONTROL Role Information]_&#x200B;下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入您的密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入您的密码。
 
    ![系统权限 — 角色信息](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
+   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_&#x200B;作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
 
-1. 在&#x200B;_[!UICONTROL Roles Resources]_下，将&#x200B;**[!UICONTROL Resource Access]**设置为`Custom`。
+1. 在&#x200B;_[!UICONTROL Roles Resources]_&#x200B;下，将&#x200B;**[!UICONTROL Resource Access]**&#x200B;设置为`Custom`。
 
 1. 在&#x200B;**[!UICONTROL Resource]**&#x200B;树结构中，选中角色可以访问的每个管理员功能的复选框。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_顺序[选项卡](../stores-purchase/order-processing.md)。
+   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_&#x200B;顺序[选项卡](../stores-purchase/order-processing.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Role]**。
 
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 ## 向用户分配角色
 
-1. 从&#x200B;_[!UICONTROL Roles]_网格中，以编辑模式打开记录。
+1. 从&#x200B;_[!UICONTROL Roles]_&#x200B;网格中，以编辑模式打开记录。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入用户帐户密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入用户帐户密码。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Role Users]**。
 
-   _[!UICONTROL Role Users]_选项仅在保存新角色后显示。
+   _[!UICONTROL Role Users]_&#x200B;选项仅在保存新角色后显示。
 
    ![分配给角色的用户帐户](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

@@ -32,7 +32,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 | [!UICONTROL Insert Variable] | 在模板中光标位置处插入变量。 |
 | [!UICONTROL Template Subject] | 模板主题将显示在“主题”列中，可用于对列表中的模板进行排序和过滤。 |
 | [!UICONTROL Template Content] | HTML中模板的内容。 |
-| [!UICONTROL Template Styles] | 模板格式所需的任何CSS样式声明都可以在&#x200B;_[!UICONTROL Template Styles]_框中输入。 |
+| [!UICONTROL Template Styles] | 模板格式所需的任何CSS样式声明都可以在&#x200B;_[!UICONTROL Template Styles]_&#x200B;框中输入。 |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 输入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以帮助组织模板。
 
-   在网格中，模板列表可以按&#x200B;_[!UICONTROL Subject]_列进行排序和过滤。
+   在网格中，模板列表可以按&#x200B;_[!UICONTROL Subject]_&#x200B;列进行排序和过滤。
 
    ![电子邮件模板标题信息](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -126,7 +126,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 输入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以帮助组织模板。
 
-   在网格中，可以按&#x200B;_[!UICONTROL Subject]_列对模板进行排序和筛选。
+   在网格中，可以按&#x200B;_[!UICONTROL Subject]_&#x200B;列对模板进行排序和筛选。
 
    ![电子邮件模板页脚 — 信息](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -150,7 +150,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -214,11 +214,11 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
    >[!NOTE]
    >
-   >仅当&#x200B;_[!UICONTROL Template Styles]_中存在`{{template config_path="design/email/header_template"}}`时，自定义样式才会应用于电子邮件。 要在没有默认页眉模板的情况下使用自定义CSS，您必须在`<style>`HTML标记中在此处提供它们。
+   >仅当&#x200B;_[!UICONTROL Template Styles]_&#x200B;中存在`{{template config_path="design/email/header_template"}}`时，自定义样式才会应用于电子邮件。 要在没有默认页眉模板的情况下使用自定义CSS，您必须在`<style>`HTML标记中在此处提供它们。
 
 ### 步骤3. 更新配置
 
-_[!UICONTROL Currently Used For]_痕迹导航跟踪显示模板的使用位置。 在此示例中，模板配置位于_[!UICONTROL Customer Configuration]_&#x200B;页面、_[!UICONTROL Create New Account Options]_部分和_[!UICONTROL Default Welcome Email]_&#x200B;字段中。
+_[!UICONTROL Currently Used For]_&#x200B;痕迹导航跟踪显示模板的使用位置。 在此示例中，模板配置位于&#x200B;_[!UICONTROL Customer Configuration]_&#x200B;页面、_[!UICONTROL Create New Account Options]_&#x200B;部分和&#x200B;_[!UICONTROL Default Welcome Email]_&#x200B;字段中。
 
 - 页面 — [!UICONTROL Customer Configuration]
 - 分区 — [!UICONTROL Create New Account Options]

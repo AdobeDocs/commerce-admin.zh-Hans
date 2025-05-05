@@ -48,9 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Priority] | 自由文本字段，用于根据为规则定义的优先级筛选列表。 |
 | [!UICONTROL Status] | 使用此选项可根据规则状态（`Active`或`Inactive`）筛选列表。 |
 | [!UICONTROL Web Site] | 使用此选项可根据为规则定义的网站筛选列表。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_页面并更新规则设置（与创建规则类似）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页面并更新规则设置（与创建规则类似）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
 
 {style="table-layout:auto"}
 

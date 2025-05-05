@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 输入所有必需的送货信息，并导航到&#x200B;_审核和付款_&#x200B;步骤。
 
-1. 在&#x200B;_[!UICONTROL Reward points]_部分中，检查可用点数及其货币值。
+1. 在&#x200B;_[!UICONTROL Reward points]_&#x200B;部分中，检查可用点数及其货币值。
 
 1. 单击&#x200B;**[!UICONTROL Use reward points]**。
 

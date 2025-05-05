@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-启用后，客户可以从店面提交RMA请求。 仅当订单中存在可用于退货的项目时，才能生成RMA。 返回单个项目的请求由每个产品记录中的&#x200B;_启用RMA_&#x200B;属性管理。 默认情况下，配置设置将应用于产品（已选择&#x200B;_[!UICONTROL Use Config Settings]_）。 如果_[!UICONTROL Enable RMA]_&#x200B;设置为`No`，则该产品不会出现在可返回的项目列表中。 如果更改&#x200B;_启用RMA_&#x200B;设置，它将同时应用于新订单和现有订单。
+启用后，客户可以从店面提交RMA请求。 仅当订单中存在可用于退货的项目时，才能生成RMA。 返回单个项目的请求由每个产品记录中的&#x200B;_启用RMA_&#x200B;属性管理。 默认情况下，配置设置将应用于产品（已选择&#x200B;_[!UICONTROL Use Config Settings]_）。 如果&#x200B;_[!UICONTROL Enable RMA]_&#x200B;设置为`No`，则该产品不会出现在可返回的项目列表中。 如果更改&#x200B;_启用RMA_&#x200B;设置，它将同时应用于新订单和现有订单。
 
 ## 为您的存储启用RMA
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    此设置确定店面中各个产品的&#x200B;_启用RMA_&#x200B;属性的行为：
 
-   - 当[!UICONTROL Enable RMA on Product Level]设置为`Yes`时，店面上的客户可以返回所有单个产品。 它包括&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和_[!UICONTROL Enable RMA]_ = `No`产品属性值。
+   - 当[!UICONTROL Enable RMA on Product Level]设置为`Yes`时，店面上的客户可以返回所有单个产品。 它包括&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和&#x200B;_[!UICONTROL Enable RMA]_ = `No`产品属性值。
    - 当[!UICONTROL Enable RMA on Product Level]设置为`No`时，店面上的客户只能返回具有&#x200B;_[!UICONTROL Enable RMA]_= `Yes`产品属性值的产品。
 
 1. 将&#x200B;**[!UICONTROL Use Store Address]**&#x200B;设置为以下值之一：

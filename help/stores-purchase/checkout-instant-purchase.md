@@ -61,7 +61,7 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 
 ### 步骤3：启用即时购买
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分下，选择&#x200B;**[!UICONTROL Sales]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分下，选择&#x200B;**[!UICONTROL Sales]**。
 
 1. 展开&#x200B;**[!UICONTROL Instant Purchase]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

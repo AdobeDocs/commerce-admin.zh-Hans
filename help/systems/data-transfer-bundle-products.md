@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 向下滚动到部分的底部，然后单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL File name]_网格的_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择`Download`。
+1. 在&#x200B;_[!UICONTROL File name]_&#x200B;网格的&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择`Download`。
 
    该文件显示在浏览器使用的下载位置。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_下，将&#x200B;**[!UICONTROL Entity Type]**设置为`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;下，将&#x200B;**[!UICONTROL Entity Type]**&#x200B;设置为`Products`。
 
 1. 将&#x200B;**[!UICONTROL Import Behavior]**&#x200B;设置为`Replace`。
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 1. 如果文件有效，请单击&#x200B;**[!UICONTROL Import]**。
 
-1. 进程完成后，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**并单击&#x200B;**[!UICONTROL Flush Cache Storage]**。
+1. 进程完成后，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;并单击&#x200B;**[!UICONTROL Flush Cache Storage]**。
 
    这可确保更新的产品立即在店面中可用。

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![登录用户看到“收藏集”类别](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-启用后，“类别”页面上将显示一个新的&#x200B;_[!UICONTROL Category Permissions]_部分，通过该部分，您可以对每个类别应用所需的访问权限。 您可以为不同的网站和客户组向每个类别添加多个权限规则。
+启用后，“类别”页面上将显示一个新的&#x200B;_[!UICONTROL Category Permissions]_&#x200B;部分，通过该部分，您可以对每个类别应用所需的访问权限。 您可以为不同的网站和客户组向每个类别添加多个权限规则。
 
 ## 步骤1：配置类别权限
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >虽然&#x200B;_[!UICONTROL Allow Browsing Category]_设置适用于网站中的所有类别，但您可以为每个商店视图配置不同的登陆页面。
+   >虽然&#x200B;_[!UICONTROL Allow Browsing Category]_&#x200B;设置适用于网站中的所有类别，但您可以为每个商店视图配置不同的登陆页面。
 
 ### [!UICONTROL Display Product Prices]
 

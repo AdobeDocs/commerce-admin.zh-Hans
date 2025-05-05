@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ![管理员 — 传入邮件](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_页列出了按日期排序的所有邮件。_[!UICONTROL Action]_&#x200B;命令可用于将单个邮件标记为已读、查看更多详细信息或从收件箱中删除邮件。
+_[!UICONTROL Notifications]_&#x200B;页列出了按日期排序的所有邮件。_[!UICONTROL Action]_&#x200B;命令可用于将单个邮件标记为已读、查看更多详细信息或从收件箱中删除邮件。
 
 该配置决定收件箱更新的频率以及邮件的投放方式。 如果您的商店管理员具有安全URL，则必须通过HTTPS传送通知。
 

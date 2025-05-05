@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 分配给每个相关产品规则的唯一数字标识符 |
 | [!UICONTROL Rule] | 相关产品规则的名称 |
-| [!UICONTROL Start] | 使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
-| [!UICONTROL End] | 使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
+| [!UICONTROL Start] | 使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
+| [!UICONTROL End] | 使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
 | [!UICONTROL Priority] | 在此字段中输入文本以根据为规则定义的优先级筛选列表。 |
 | [!UICONTROL Applies To] | 此选项筛选应用于`Related Products`、`Up-sells`和`Cross-sells`的规则列表。 |
 | [!UICONTROL Status] | 使用此选项可根据规则状态（`Active`或`Inactive`）筛选列表。 |
@@ -47,7 +47,7 @@ ht-degree: 0%
 例如，假设您有三个规则，其优先级为`1`、`2`和`3`。
 
 - 为&#x200B;_规则1_&#x200B;返回了两个匹配产品，为&#x200B;_规则2_&#x200B;返回了六个匹配产品，为&#x200B;_规则3_&#x200B;返回了20个匹配产品。
-- 在配置中，_[!UICONTROL Maximum Number of Products for Related Products List]_设置为`6`。
+- 在配置中，_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;设置为`6`。
 
   | 规则 | 优先级 | 匹配产品 |
   |---|---|-----|

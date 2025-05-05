@@ -72,7 +72,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Payment Applicable From] | 网站 | 确定适用的国家/地区选择的范围。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | 网站 | 标识接受付款的每个国家/地区。 只有帐单地址在选定国家/地区的客户才能使用此付款方法进行购买。 |
-| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
+| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
 | [!UICONTROL Enable SSL Verification] | 网站 | 确定是否在事务发生之前验证主机上的安全通道。 选项： `Yes` / `No` |
 | [!UICONTROL CVV Entry is Editable] | 网站 | 确定客户在输入CVV后是否可以对其进行编辑。 选项： `Yes` / `No` |
 | [!UICONTROL Require CVV Entry] | 网站 | 确定是否要求客户输入其信用卡背面的CVV代码。 选项： `Yes` / `No` |
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL PayPal Product Logo] | 商店视图 | 确定您商店中显示的PayPal徽标。 两种尺寸共有四种基本样式。 选项： `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | 商店视图 | 确定PayPal商家页面的外观。 允许的值： <br/>**`paypal`**— 使用PayPal页面样式。<br/>**`primary`** — 使用您在帐户配置文件中标识为“primary”样式的页面样式。 <br/>**`your_custom_value`**— 使用在您的帐户配置文件中指定的自定义付款页面样式。 |
-| [!UICONTROL Header Image URL] | 商店视图 | 出现在签出页面左上角的图像的URL。 最大大小为750 x 90像素。 <br/><br/>**_注意：_**PayPal建议将映像存储在安全(https)服务器上。 否则，客户的浏览器可能会警告“页面包含安全和非安全项目。” |
+| [!UICONTROL Header Image URL] | 商店视图 | 出现在签出页面左上角的图像的URL。 最大大小为750 x 90像素。 <br/><br/>**_注意：_**&#x200B;PayPal建议将映像存储在安全(https)服务器上。 否则，客户的浏览器可能会警告“页面包含安全和非安全项目。” |
 | [!UICONTROL Header Image Background Color] | 商店视图 | 签出页面上页眉的背景颜色的六字符[十六进制颜色](https://en.wikipedia.org/wiki/Web_colors)代码。 您可以使用大写和小写字符输入代码。 |
 | [!UICONTROL Header Image Border Color] | 商店视图 | 标头周围两像素边框的六字符十六进制颜色代码。 |
 | [!UICONTROL Page Background Color] | 商店视图 | 用于结账页面的背景颜色的六字符十六进制颜色代码，显示在页眉和付款表单后面。 |
@@ -138,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 商店视图 | 确定PayPal Express结帐在购物车中是否显示为付款选项。 选项： `Yes` （推荐） / `No` |
 | [!UICONTROL Payment Action Applicable From] | 网站 | 确定适用的国家/地区选择的范围。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | 网站 | 标识接受付款的每个国家/地区。 只有帐单地址在选定国家/地区的客户才能使用此付款方法进行购买。 |
-| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
+| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
 | [!UICONTROL Enable SSL Verification] | 网站 | 启用主机安全证书的验证。 选项： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 显示PayPal网站上客户购物车中行项目的完整摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 网站 | 确定客户是否可以从PayPal网站完成交易，或者是否需要返回您的商店并在提交订单之前完成订单审核步骤。 选项： `Yes` / `No` |

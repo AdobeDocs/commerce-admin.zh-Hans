@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | 网站 | 设置包可以由UPS指定的最小重量。 如果订购的产品重量小于最小包装重量，则此发运选项不可用。 要验证最小重量，请与您的运输公司核实。 |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 设置表费率发运的处理费计算方法。 选项： <br>**`Fixed`**— 手续费是固定费率。<br>**`Percent`** — 按订单金额的百分比收取手续费。 |
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
-| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**如果键入百分比金额，请使用25%的小数格式`0.25`。 |
+| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**&#x200B;如果键入百分比金额，请使用25%的小数格式`0.25`。 |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 网站 | 指定提供给客户的UPS配送允许的方法。 根据所选配送方式计算配送费率。 |
-| [!UICONTROL Free Method] | 网站 | 标识用于通过UPS免费配送的方法。 要禁用免费送货，请选择“无”。 <br/><br/>**_注意：_**此方法类似于基本的[免运费](../../stores-purchase/shipping-free.md)，但它在结帐期间显示为UPS送货选项。 |
+| [!UICONTROL Free Method] | 网站 | 标识用于通过UPS免费配送的方法。 要禁用免费送货，请选择“无”。 <br/><br/>**_注意：_**&#x200B;此方法类似于基本的[免运费](../../stores-purchase/shipping-free.md)，但它在结帐期间显示为UPS送货选项。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定当订单金额满足免运费阈值时是否应用免运费。 选项： `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 设置订单达到免费配送资格所需达到的最低总金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | 由于任何原因无法使用此配送方式时显示的错误消息。 |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 设置表费率发运的处理费计算方法。 选项： <br/>**`Fixed`**— 手续费是固定费率。<br/>**`Percent`** — 按订单金额的百分比收取手续费。 |
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
-| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**在键入百分比金额时，请使用小数格式`0.25`表示25%。 |
+| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**&#x200B;在键入百分比金额时，请使用小数格式`0.25`表示25%。 |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 网站 | 指定提供给客户的USPS装运的允许方法。 根据所选配送方式计算配送费率。 |
-| [!UICONTROL Free Method] | 网站 | 通过USPS设置免费配送方式，或通过选择`None`禁用。 <br/><br/>**_注意：_**此配送方式类似于您商店的免运费方式，但它列为USPS配送方式并标识为USPS配送。 |
+| [!UICONTROL Free Method] | 网站 | 通过USPS设置免费配送方式，或通过选择`None`禁用。 <br/><br/>**_注意：_**&#x200B;此配送方式类似于您商店的免运费方式，但它列为USPS配送方式并标识为USPS配送。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 网站 | 设置符合免费配送资格所需的最低订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | USPS由于任何原因不可用时显示的错误消息。 |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | 网站 | 确定用于计算手续费的方法。 选项： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**手续费是可选的，显示为附加费用，已添加到FedEx运费中。 |
+| [!UICONTROL Calculate Handling Fee] | 网站 | 确定用于计算手续费的方法。 选项： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**&#x200B;手续费是可选的，显示为附加费用，已添加到FedEx运费中。 |
 | [!UICONTROL Handling Applied] | 网站 | 确定如何处理手续费。 选项： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 网站 | 根据用于计算金额的方法，指定作为手续费收取的金额。 如果费用基于固定费用，请以小数形式输入金额，如`4.90`。 如果手续费基于订单的百分比，则按百分比输入金额。 例如，要收取订单的6%的费用，请输入值为`.06`。 |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | 网站 | 根据您销售的是企业对消费者(B2C)还是企业对企业(B2B)，设置为以下选项之一： <br/>**`Yes`**— 对于B2C投放<br/>**`No`** — 对于B2B投放 |
 | [!UICONTROL Allowed Methods] | 网站 | 从列表中，选择您支持的装运方法。 具体方法取决于您的联邦快递账户、发货频率和规模，以及您是否允许国际发货。 作为商人，您可能决定只提供陆运。 |
 | [!UICONTROL Hub ID] | 网站 | FedEx提供的ID与[!DNL Smart Post]方法一起使用。 |
-| [!UICONTROL Free Method] | 网站 | 从列表中，选择您喜欢用于免费送货的送货方式。 <br/><br/>**_注意：_**此配送方式类似于常规免运费方式，但它列在FedEx配送选项中，标识为FedEx配送。 |
+| [!UICONTROL Free Method] | 网站 | 从列表中，选择您喜欢用于免费送货的送货方式。 <br/><br/>**_注意：_**&#x200B;此配送方式类似于常规免运费方式，但它列在FedEx配送选项中，标识为FedEx配送。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定免运费是否需要最小订单金额。 选项： <br/>**`Enable`**— 为达到最小金额的订单启用免费FedEx装运。<br/>**`Disable`** — 禁用带有最低订单的免费FedEx运输。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 指定免费送货所需的最小订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | FedEx由于任何原因不可用时显示的消息。 您可以使用默认消息或输入其他消息。 |

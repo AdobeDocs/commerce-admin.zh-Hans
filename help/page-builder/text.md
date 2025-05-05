@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 根据需要更新内容。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 若要控制文本在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

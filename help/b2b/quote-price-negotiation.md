@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 在管理员侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
-   新请求出现在&#x200B;_[!UICONTROL Quotes]_网格中。
+   新请求出现在&#x200B;_[!UICONTROL Quotes]_&#x200B;网格中。
 
 1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## 第2步：修改报价
 
-1. 在&#x200B;_[!UICONTROL Quote & Account Information]_下，单击_&#x200B;日历&#x200B;_（![日历图标](../assets/icon-calendar.png)）图标。
+1. 在&#x200B;_[!UICONTROL Quote & Account Information]_&#x200B;下，单击_&#x200B;日历&#x200B;_（![日历图标](../assets/icon-calendar.png)）图标。
 
    ![报价和帐户信息](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. 为报价选择一个&#x200B;**[!UICONTROL Expiration Date]**。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Quote Totals]_部分并根据需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Quote Totals]_&#x200B;部分并根据需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
 
    ![更新议价](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ### 应用行项目更新
 
-如果需要，在&#x200B;_[!UICONTROL Items Quoted]_部分中应用行项目更改。
+如果需要，在&#x200B;_[!UICONTROL Items Quoted]_&#x200B;部分中应用行项目更改。
 
 ![应用行项目更新](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
   [!UICONTROL Configure]选项仅在可配置产品的行项上可用
 
 - 在&#x200B;**[!UICONTROL Action]**&#x200B;菜单中，选择一个操作以更新该项：
-   - **折扣项目**以百分比、固定金额或首选定价形式应用折扣。
+   - **折扣项目**&#x200B;以百分比、固定金额或首选定价形式应用折扣。
 （可选）您可以锁定折扣金额以防止进一步折扣。 如果未锁定折扣，
 行项目折扣和任何报价级别折扣都应用于产品价格。
    - **给购买者留言**，以便向购买者提供有关物料的附加信息
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 1. 输入&#x200B;**[!UICONTROL Proposed Shipping Price]**。
 
-   _[!UICONTROL Quote Totals]_已更新以反映建议的配送价格。
+   _[!UICONTROL Quote Totals]_&#x200B;已更新以反映建议的配送价格。
 
 ### 附加支持文档
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ## 第3步：更新报价级别信息，并发送回复
 
-1. 在&#x200B;_[!UICONTROL Comments]_选项卡的_[!UICONTROL Negotiation]_&#x200B;部分中，在&#x200B;**[!UICONTROL Add your comment]**&#x200B;部分中输入您的回复。
+1. 在&#x200B;_[!UICONTROL Comments]_&#x200B;选项卡的&#x200B;_[!UICONTROL Negotiation]_&#x200B;部分中，在&#x200B;**[!UICONTROL Add your comment]**&#x200B;部分中输入您的回复。
 
 1. 要包含支持文档，请单击&#x200B;**[!UICONTROL Attach file]**&#x200B;并从目录中选择文件。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. 要对报价应用折扣，请执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Negotiated Price]_部分的_[!UICONTROL Quote Totals]_&#x200B;下，选择以下折扣类型之一：
+   - 在&#x200B;_[!UICONTROL Negotiated Price]_&#x200B;部分的&#x200B;_[!UICONTROL Quote Totals]_&#x200B;下，选择以下折扣类型之一：
 
       - `Percentage Discount`：百分比折扣按特定百分比降低原始价格。
       - `Amount Discount`：金额折扣适用于固定价格折扣。
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 返回到&#x200B;_[!UICONTROL Quotes]_页而不保存更改。 |
+| [!UICONTROL Back] | 返回到&#x200B;_[!UICONTROL Quotes]_&#x200B;页而不保存更改。 |
 | [!UICONTROL Print] | 将报价发送至打印机或将其保存为PDF文件。 |
 | [!UICONTROL Create Copy] | 创建并打开当前报价的副本，并在原始名称后面附加`(copy)`。 通过编辑[!UICONTROL Name]字段重命名新报价。 将新报价另存为草稿或发送给客户来处理它。 |
 | 创建模板 | 根据当前报价创建报价模板。 报价模板通过允许买方和卖方就可应用于多个报价的合同和定价条款达成一致来简化报价洽谈。. 根据协议，采购员可以从模板为后续订单生成预批准链接报价，而不是重新启动询价(RFQ)流程。 |

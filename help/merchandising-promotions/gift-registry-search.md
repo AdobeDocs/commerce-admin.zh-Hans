@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![礼品注册表 — 搜索设置](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
 
    - 输入&#x200B;**[!UICONTROL Widget Title]**&#x200B;供内部引用。
 

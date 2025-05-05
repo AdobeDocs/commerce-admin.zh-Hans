@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 类别 — 内容设置
 
-_[!UICONTROL Content]_设置确定类别页面上出现的任何其他内容。 除了类别产品列表之外，该页面还可以包括图像、描述和CMS块。 您可以使用[[!DNL Page Builder]](../page-builder/introduction.md)内容工具来定义类别描述。
+_[!UICONTROL Content]_&#x200B;设置确定类别页面上出现的任何其他内容。 除了类别产品列表之外，该页面还可以包括图像、描述和CMS块。 您可以使用[[!DNL Page Builder]](../page-builder/introduction.md)内容工具来定义类别描述。
 
 ## 在[!DNL Page Builder]中添加类别描述
 

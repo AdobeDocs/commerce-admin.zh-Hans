@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ![客户区段列表](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]网格&#x200B;**_
+_&#x200B;**[!UICONTROL Customer Segments]网格&#x200B;**&#x200B;_
 
 | 列 | 描述 |
 |--- |--- |
 | **[!UICONTROL ID]** | 客户区段的唯一ID。 |
 | **[!UICONTROL Segment]** | 客户区段的名称。 |
-| **[!UICONTROL Status]** | 指示客户区段是&#x200B;_[!UICONTROL Active]_还是_[!UICONTROL Inactive]_。 |
+| **[!UICONTROL Status]** | 指示客户区段是&#x200B;_[!UICONTROL Active]_&#x200B;还是&#x200B;_[!UICONTROL Inactive]_。 |
 | **[!UICONTROL Website]** | 指示客户区段所属的网站。 |
 
 {style="table-layout:auto"}
@@ -82,7 +82,7 @@ _**[!UICONTROL Customer Segments]网格&#x200B;**_
 
 1. 单击&#x200B;**[!UICONTROL Save and Continue Edit]**。
 
-   保存区段&#x200B;_[!UICONTROL General Properties]_后，左侧面板中会显示其他选项。
+   保存区段&#x200B;_[!UICONTROL General Properties]_&#x200B;后，左侧面板中会显示其他选项。
 
    ![区段属性](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -107,7 +107,7 @@ _**[!UICONTROL Customer Segments]网格&#x200B;**_
 
 1. 在左窗格中，单击&#x200B;**[!UICONTROL Conditions]**。
 
-   页面上的默认条件以&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_开头。
+   页面上的默认条件以&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;开头。
 
    ![条件](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +153,7 @@ _**[!UICONTROL Customer Segments]网格&#x200B;**_
 
 1. 客户区段现在可用于定位促销活动、内容和邮件。
 
-_**[!UICONTROL Matched Customers]网格&#x200B;**_
+_&#x200B;**[!UICONTROL Matched Customers]网格&#x200B;**&#x200B;_
 
 | 列 | 描述 |
 |--- |--- |
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]网格&#x200B;**_
 
 | 按钮 | 描述 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customer Segments]_页而不保存更改。 |
+| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customer Segments]_&#x200B;页而不保存更改。 |
 | **[!UICONTROL Delete]** | 删除当前客户区段。 不会移除分部中与客户关联的客户或已完成的订单。 |
 | **[!UICONTROL Reset]** | 将客户区段表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Refresh Segment Data]** | 将区段数据刷新为最近保存的值。 如果任何区段数据不可用或已过期，则此项相关。 |

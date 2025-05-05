@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新目录显示在&#x200B;_[!UICONTROL Shared Catalogs]_网格中。
+   新目录显示在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;网格中。
 
 ### 方法2：复制现有的共享目录
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   此重复项显示在&#x200B;_[!UICONTROL Shared Catalogs]_网格中，具有唯一的ID。
+   此重复项显示在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;网格中，具有唯一的ID。
 
 ## 第2步：完成设置
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，目录的每个[类别权限](../catalog/category-permissions.md)均设置为&#x200B;_[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，目录的每个[类别权限](../catalog/category-permissions.md)均设置为&#x200B;_[!UICONTROL Allow for the Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
 
 ## 共享目录演示
 

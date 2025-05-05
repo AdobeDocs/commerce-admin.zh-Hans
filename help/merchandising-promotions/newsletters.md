@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 要为存储视图范围启用新闻稿，请将&#x200B;**[!UICONTROL Enabled]**&#x200B;设置为`Yes`。
 
-启用新闻稿功能后，将显示&#x200B;_[!UICONTROL Subscription Options]_部分。
+启用新闻稿功能后，将显示&#x200B;_[!UICONTROL Subscription Options]_&#x200B;部分。
 
 ## 配置订阅选项
 

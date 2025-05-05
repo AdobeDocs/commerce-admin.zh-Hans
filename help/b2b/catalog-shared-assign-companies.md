@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 将公司分配给共享目录
 
-可使用以下两种方法将公司分配给共享目录。 您可以从&#x200B;_[!UICONTROL Shared Catalogs]_网格中进行分配，或编辑公司并分配共享目录，就像选择客户组一样。
+可使用以下两种方法将公司分配给共享目录。 您可以从&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;网格中进行分配，或编辑公司并分配共享目录，就像选择客户组一样。
 
 ![分配公司](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

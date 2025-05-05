@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes]_部分将列出客户提交的所有报价。 根据他们的权限，只有代表公司进行购买的买方才能提交议定购买价格的请求。
+如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes]_&#x200B;部分将列出客户提交的所有报价。 根据他们的权限，只有代表公司进行购买的买方才能提交议定购买价格的请求。
 
 ![我的引号](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 显示引号
 
-具有其角色](account-company-roles-permissions.md)所需的[权限，与公司帐户关联的购买者可以看到[下属用户](account-company-structure.md)请求的报价。 公司管理员可以查看公司帐户的所有报价。
+具有其角色[&#128279;](account-company-roles-permissions.md)所需的权限，与公司帐户关联的购买者可以看到[下属用户](account-company-structure.md)请求的报价。 公司管理员可以查看公司帐户的所有报价。
 
 1. 买家登录了店面的帐户。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quotes]**。
 
-1. 在列表中查找引号并单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View]**。
+1. 在列表中查找引号并单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
 ## 复制报价
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quote Templates]**。
 
-1. 在&#x200B;**[!UICONTROL My Quotes]**&#x200B;列表中查找引号，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Create Quote Template]**。
+1. 在&#x200B;**[!UICONTROL My Quotes]**&#x200B;列表中查找引号，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Create Quote Template]**。
 
 ## 将行项目从报价单移动到申购单列表
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 选择行项目。
 
-1. 在&#x200B;_[!UICONTROL Actions]_下拉菜单中单击&#x200B;**[!UICONTROL Move to Requisition list]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下拉菜单中单击&#x200B;**[!UICONTROL Move to Requisition list]**。
 
 1. 选择现有申请列表以移动所选物料。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. 选择行项目。
 
-1. 在&#x200B;_[!UICONTROL Actions]_下拉菜单中单击&#x200B;**[!UICONTROL Move item to new quote]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下拉菜单中单击&#x200B;**[!UICONTROL Move item to new quote]**。
 
 1. 在模式窗口中命名新报价。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ## 打印报价
 
-1. 在&#x200B;_[!UICONTROL Items Quoted]_部分右侧的未结引号中，购买者单击&#x200B;**[!UICONTROL Print]**。
+1. 在&#x200B;_[!UICONTROL Items Quoted]_&#x200B;部分右侧的未结引号中，购买者单击&#x200B;**[!UICONTROL Print]**。
 
 1. 验证&#x200B;**[!UICONTROL Destination]**&#x200B;是否为打印机或PDF。
 
@@ -158,13 +158,13 @@ ht-degree: 0%
 
 1. 在Items Quoted部分正上方的打开报价中，单击&#x200B;**[!UICONTROL Close quote]**。
 
-   请求已取消，报价状态更改为`Closed`。 已关闭的引号将保留在您的引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quotes]_网格中。
+   请求已取消，报价状态更改为`Closed`。 已关闭的引号将保留在您的引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quotes]_&#x200B;网格中。
 
 1. 要从报价单列表中删除已取消的报价，请单击&#x200B;**[!UICONTROL Delete]**。
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
-   已关闭的报价将从其报价列表中删除。 但是，它仍列在管理员的&#x200B;_[!UICONTROL Quotes]_网格中，状态为`Closed`。
+   已关闭的报价将从其报价列表中删除。 但是，它仍列在管理员的&#x200B;_[!UICONTROL Quotes]_&#x200B;网格中，状态为`Closed`。
 
 ## 报价操作
 
@@ -184,6 +184,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 买方分配给报价请求的名称。 |
 | [!UICONTROL Created] | 首次提交报价请求的日期。 |
 | [!UICONTROL Created By] | 提交报价请求的买方的名字和姓氏。 |
-| [!UICONTROL Status] | 指示报价的状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 <br/>**[!UICONTROL Submitted]**— 买方询价尚未由卖方打开。 在此状态下，买方仍可以修改报价请求。 可用操作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 卖方已打开请求，正在审阅请求并准备回应。 可用操作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 卖方已向买方发送了响应，并启用了&#x200B;_[!UICONTROL Proceed to Checkout]_按钮。 在此状态下，买方可以继续修改报价。 可用操作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 购买者仍在更新报价，并且_[!UICONTROL Proceed to Checkout]_&#x200B;按钮已禁用。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 买方已基于协商的报价提交订单。 报价已锁定，无法编辑。 可用操作：查看<br/>**[!UICONTROL Closed]** — 采购员已结束洽谈并取消报价。 报价已锁定，买方或卖方均无法编辑。 可用操作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 卖方已拒绝询价，或在洽谈过程中提出更改。 可在工作流程的任何阶段拒绝报价。 任何自定义定价都将从报价中删除。 采购员可以继续编辑报价单并重新提交，或者使用标准目录价格进行采购。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 报价的生命周期已过期。 任何提议的价格都会被重置。 买方可以按照标准目录价格完成采购，也可以启动另一轮谈判。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 指示报价的状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 <br/>**[!UICONTROL Submitted]**— 买方询价尚未由卖方打开。 在此状态下，买方仍可以修改报价请求。 可用操作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 卖方已打开请求，正在审阅请求并准备回应。 可用操作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 卖方已向买方发送了响应，并启用了&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮。 在此状态下，买方可以继续修改报价。 可用操作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 购买者仍在更新报价，并且&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮已禁用。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 买方已基于协商的报价提交订单。 报价已锁定，无法编辑。 可用操作：查看<br/>**[!UICONTROL Closed]** — 采购员已结束洽谈并取消报价。 报价已锁定，买方或卖方均无法编辑。 可用操作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 卖方已拒绝询价，或在洽谈过程中提出更改。 可在工作流程的任何阶段拒绝报价。 任何自定义定价都将从报价中删除。 采购员可以继续编辑报价单并重新提交，或者使用标准目录价格进行采购。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 报价的生命周期已过期。 任何提议的价格都会被重置。 买方可以按照标准目录价格完成采购，也可以启动另一轮谈判。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 管理客户帐户
 
-使用&#x200B;_[!UICONTROL Customers]_网格查找任何客户帐户。 您可以使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改[列布局](../getting-started/admin-grid-controls.md)、保存视图和导出数据。 网格上方的[操作控件](../getting-started/admin-actions-control.md)可用于将操作应用于多个客户记录。
+使用&#x200B;_[!UICONTROL Customers]_&#x200B;网格查找任何客户帐户。 您可以使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改[列布局](../getting-started/admin-grid-controls.md)、保存视图和导出数据。 网格上方的[操作控件](../getting-started/admin-actions-control.md)可用于将操作应用于多个客户记录。
 
 ![所有客户](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

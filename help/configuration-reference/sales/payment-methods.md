@@ -83,7 +83,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 | [!UICONTROL Make Check Payable to] | 商店视图 | 应向其支付支票和汇票的实体的名称。 |
 | [!UICONTROL Send Check to] | 商店视图 | 应发送支票和汇票的街道地址或邮政信箱。 |
 | [!UICONTROL Minimum Order Total] | 网站 | 可以通过支票或汇票支付的最小订单金额。 |
-| [!UICONTROL Maximum Order Total] | 网站 | 可以通过支票或汇票支付的最大订单金额。 <br/><br/>**_注意：_**如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
+| [!UICONTROL Maximum Order Total] | 网站 | 可以通过支票或汇票支付的最大订单金额。 <br/><br/>**_注意：_**&#x200B;如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结账过程中与其他支付方式一起列出时，将按支票或汇票确定支付顺序的编号。 输入`0`以将其放在列表顶部。 |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 | [!UICONTROL Payment from Applicable Countries] | 网站 | 确定接受银行转帐付款的国家/地区。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 网站 | 标识接受银行转帐付款的特定国家/地区。 |
 | [!UICONTROL Minimum Order Total] | 网站 | 银行转帐可支付的最小订单金额。 |
-| [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
+| [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**&#x200B;如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他支付方式一起列出时，确定按银行转帐支付的订单的编号。 输入`0`以将其放在列表顶部。 |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 | [!UICONTROL Payment from Applicable Countries] | 网站 | 确定允许公司将购买费用计入其帐户的国家/地区。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 网站 | 确定公司可以将购买费用计入其帐户的特定国家/地区。 |
 | [!UICONTROL Minimum Order Total] | 网站 | 指定可从公司帐户中扣除的最小订单金额。 |
-| [!UICONTROL Maximum Order Total] | 网站 | 可从公司帐户中扣除的最大订单金额。 <br/><br/>**_注意：_**如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
+| [!UICONTROL Maximum Order Total] | 网站 | 可从公司帐户中扣除的最大订单金额。 <br/><br/>**_注意：_**&#x200B;如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，它确定在结账过程中与其他支付方式一起列出时显示的分期付款订单。 输入`0`以将其放在列表顶部。 |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 | [!UICONTROL Payment from Applicable Countries] | 网站 | 确定接受银行转帐付款的国家/地区。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 网站 | 标识接受银行转帐付款的特定国家/地区。 |
 | [!UICONTROL Minimum Order Total] | 网站 | 指定银行转帐可支付的最小订单金额。 |
-| [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
+| [!UICONTROL Maximum Order Total] | 网站 | 银行转帐可以支付的最大订单金额。 <br/><br/>**_注意：_**&#x200B;如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他支付方式一起列出时，确定按银行转帐支付的订单的编号。 输入`0`以将其放在列表顶部。 |
 
 {style="table-layout:auto"}
@@ -189,7 +189,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 
 >[!NOTE]
 >
->请勿选择&#x200B;_[!UICONTROL Not Capture]_选项，除非您确定稍后将通过Commerce捕获付款。 在使用“捕获”按钮捕获付款之前，您无法创建贷项通知单。
+>请勿选择&#x200B;_[!UICONTROL Not Capture]_&#x200B;选项，除非您确定稍后将通过Commerce捕获付款。 在使用“捕获”按钮捕获付款之前，您无法创建贷项通知单。
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +205,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 | [!UICONTROL Payment from Applicable Countries] | 网站 | 确定接受PO付款的国家/地区。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 网站 | 确定您接受PO付款的特定国家/地区。 |
 | [!UICONTROL Minimum Order Total] | 网站 | PO可以支付的最小订单金额。 |
-| [!UICONTROL Maximum Order Total] | 网站 | PO可以支付的最大订单金额。 <br/><br/>**_注意：_**如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
+| [!UICONTROL Maximum Order Total] | 网站 | PO可以支付的最大订单金额。 <br/><br/>**_注意：_**&#x200B;如果订单总计在最小或最大订单总计之间，或者与最小或最大订单总计匹配，则订单符合条件。 |
 | [!UICONTROL Sort Order] | 网站 | 在结帐期间与其他付款方法一起列出时，确定按PO付款的订单的编号。 输入`0`以将其放在列表顶部。 |
 
 {style="table-layout:auto"}

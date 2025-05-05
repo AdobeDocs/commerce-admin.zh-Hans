@@ -114,7 +114,7 @@ ht-degree: 0%
    - `Static Block Only`
    - `Static Block and Products`
 
-1. 如果希望类别页面包含分层导航的&#x200B;_`Filter by Attribute`_部分，请将&#x200B;**[!UICONTROL Anchor]**设置为`Yes`。
+1. 如果希望类别页面包含分层导航的&#x200B;_`Filter by Attribute`_部分，请将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
 
 1. 对于&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;选项，请选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)要计划在特定时间段进行设计更新，请执行以下操作：
 
-   - 展开&#x200B;_[!UICONTROL Schedule Design Update]_部分。
+   - 展开&#x200B;_[!UICONTROL Schedule Design Update]_&#x200B;部分。
 
    - 使用日历（![日历图标](../assets/icon-calendar.png)）选择计划更新&#x200B;**[!UICONTROL from]**&#x200B;和&#x200B;**[!UICONTROL to]**&#x200B;日期。
 

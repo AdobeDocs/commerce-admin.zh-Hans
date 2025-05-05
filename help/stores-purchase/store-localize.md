@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_部分中，为每个商店视图输入一个已翻译的标签。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;部分中，为每个商店视图输入一个已翻译的标签。
 
    ![输入翻译的标签](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 对于&#x200B;_基本信息_，请翻译&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_部分并翻译&#x200B;**[!UICONTROL Description]**。
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;部分并翻译&#x200B;**[!UICONTROL Description]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;部分并翻译以下字段：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除字段右侧的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
 

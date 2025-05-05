@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 滚动&#x200B;_[!UICONTROL Customer View]_页面并在底部查看&#x200B;**[!UICONTROL Store Credit Balance]**。
+1. 滚动&#x200B;_[!UICONTROL Customer View]_&#x200B;页面并在底部查看&#x200B;**[!UICONTROL Store Credit Balance]**。
 
 ![存储信用余额](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. 客户查看可用商店贷项的金额。
 
-   在&#x200B;_审核和付款_&#x200B;步骤中，可用金额显示在&#x200B;_[!UICONTROL Store Credit]_下。
+   在&#x200B;_审核和付款_&#x200B;步骤中，可用金额显示在&#x200B;_[!UICONTROL Store Credit]_&#x200B;下。
 
 1. 要将金额应用于订单，请单击&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >重新计算订单总计，应用的商店积分金额显示在&#x200B;_[!UICONTROL Order Summary]_中。
+   >重新计算订单总计，应用的商店积分金额显示在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
 
    ![存储应用于订单的贷方余额](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

@@ -42,7 +42,7 @@ ht-degree: 1%
       + [搜索引擎优化设置](categories-search-engine-optimization.md)
       + [设计设置](categories-custom-design.md)
       + [修改类别](category-modify.md)
-   + 类别{#products-in-category}中的产品
+   + 类别中的产品{#products-in-category}
       + [产品分配](categories-product-assignments.md)
       + [对类别产品排序](category-products-sort.md)
       + [添加和删除类别产品](category-products-add.md)

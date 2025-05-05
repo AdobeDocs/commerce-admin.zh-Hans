@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_部分并粘贴您的&#x200B;**[!UICONTROL YouTube API key]**。
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_&#x200B;部分并粘贴您的&#x200B;**[!UICONTROL YouTube API key]**。
 
    ![产品视频配置](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 滚动到并展开&#x200B;_[!UICONTROL Images and Videos]_部分。
+1. 滚动到并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分。
 
    ![图像和视频](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL Autostart base video]_配置选项设置为`Yes`，但视频未开始自动播放，则可能是由于浏览器强制实施且无法由Adobe Commerce控制的自动播放策略所导致。 每个受支持的浏览器都有自己的自动播放策略，这些策略会随着时间的推移而改变，并且您的视频将来可能不会自动播放。 作为建议的最佳实践，您不应依赖自动播放来实现业务关键功能，而应使用每个受支持的浏览器在您的存储中测试视频自动播放行为。
+   >如果&#x200B;_[!UICONTROL Autostart base video]_&#x200B;配置选项设置为`Yes`，但视频未开始自动播放，则可能是由于浏览器强制实施且无法由Adobe Commerce控制的自动播放策略所导致。 每个受支持的浏览器都有自己的自动播放策略，这些策略会随着时间的推移而改变，并且您的视频将来可能不会自动播放。 作为建议的最佳实践，您不应依赖自动播放来实现业务关键功能，而应使用每个受支持的浏览器在您的存储中测试视频自动播放行为。
 
 ## 维护API访问
 

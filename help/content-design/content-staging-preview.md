@@ -26,7 +26,7 @@ ht-degree: 0%
 
    - _从任何有计划更改的页面_
 
-      - 打开任何顶部有&#x200B;_[!UICONTROL Scheduled Changes]_框的页面。
+      - 打开任何顶部有&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框的页面。
       - 单击&#x200B;**[!UICONTROL Preview]**。
 
    预览会在新的浏览器选项卡中打开，并显示产品在计划的营销活动期间的显示方式。

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
 
 欢迎来到世界领先的下一代数字商务平台。 Adobe Commerce为在线商户提供了无与伦比的灵活性，让他们可以控制在线商店的外观、内容和功能。 管理员具有强大的营销、搜索引擎优化和产品管理工具，使您能够创建针对独特业务需求定制的站点。
 
@@ -124,7 +124,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 | 描述 | 类型 | 日期 |
 | ----------- | ---- | ---- |
 | **1.4.0 B2B版本** - Adobe Commerce B2B发行说明介绍了[1.4.0版本](../b2b/release-notes.md#b2b-v140)的更改和添加内容。 | 更新 | 06/13/23 |
-| **1.4.0 B2B版本** - _Adobe Commerce B2B指南_&#x200B;中现在包含购买者](../b2b/sales-rep-initiates-quote.md)主题的[Initiate报价。 它描述了卖方如何为特定采购员创建报价以开始洽谈流程。 | 新建 | 06/13/23 |
+| **1.4.0 B2B版本** - _Adobe Commerce B2B指南_&#x200B;中现在包含购买者[&#128279;](../b2b/sales-rep-initiates-quote.md)主题的Initiate报价。 它描述了卖方如何为特定采购员创建报价以开始洽谈流程。 | 新建 | 06/13/23 |
 | **1.4.0 B2B版本** - [协商报价](../b2b/quote-price-negotiation.md)、[可协商报价](../b2b/quotes.md)和[启用B2B功能](../b2b/enable-basic-features.md)主题已更新，以反映卖方发起的报价和默认功能的更改。 | 更新 | 06/13/23 |
 | **2.2.0 Adobe IMS集成版本** - _快速入门指南_&#x200B;现已包含[禁用Commerce与Adobe ID的管理员集成](../getting-started/adobe-ims-disable.md)主题。 它描述了用于禁用Adobe Commerce管理员与Adobe IMS集成的可选过程。 | 新建 | 06/13/23 |
 | **2.2.0 Adobe IMS集成版本** - [Adobe Identity Management服务(IMS)集成概述](../getting-started/adobe-ims-integration-overview.md)和[配置Commerce与Adobe ID的管理员集成](../getting-started/adobe-ims-config.md)主题中的更改以反映更新的功能。 | 更新 | 06/13/23 |

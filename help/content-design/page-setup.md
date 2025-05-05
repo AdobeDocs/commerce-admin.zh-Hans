@@ -27,7 +27,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL HTML Head]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -84,7 +84,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL Header]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -118,7 +118,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL Footer]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

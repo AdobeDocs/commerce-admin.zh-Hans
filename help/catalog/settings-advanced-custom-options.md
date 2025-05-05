@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Customizable Options]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Customizable Options]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;**[!UICONTROL Add Option]**。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    - （可选）为选项输入&#x200B;**[!UICONTROL SKU]**。 选项SKU是添加到产品SKU的后缀。
 
-   - 如果&#x200B;_[!UICONTROL Option Type]_是`File`，请设置文件的参数。 对于&#x200B;**[!UICONTROL Compatible File Extensions]**，请以逗号分隔值（如`png, jpg, gif`）的形式输入有效的扩展名。 对于&#x200B;**[!UICONTROL Maximum Image Size]**，输入最大图像大小（以像素为单位）。 如果是文本条目，请输入&#x200B;**[!UICONTROL Maximum Characters]**的最大值。
+   - 如果&#x200B;_[!UICONTROL Option Type]_&#x200B;是`File`，请设置文件的参数。 对于&#x200B;**[!UICONTROL Compatible File Extensions]**，请以逗号分隔值（如`png, jpg, gif`）的形式输入有效的扩展名。 对于&#x200B;**[!UICONTROL Maximum Image Size]**，输入最大图像大小（以像素为单位）。 如果是文本条目，请输入&#x200B;**[!UICONTROL Maximum Characters]**&#x200B;的最大值。
 
    ![添加自定义选项的值](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes Template]_部分将列出与客户帐户关联的所有报价模板。 根据他们的权限，只有代表公司进行购买的购买者才能请求报价模板并协商重复订单的报价定价和条款。
+如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes Template]_&#x200B;部分将列出与客户帐户关联的所有报价模板。 根据他们的权限，只有代表公司进行购买的购买者才能请求报价模板并协商重复订单的报价定价和条款。
 
 ![我的报价模板](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL My Quote Templates]**。
 
-1. 在列表中查找报价模板，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View]**。
+1. 在列表中查找报价模板，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
 ## 添加送货地址
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 在报价模板页面中，单击&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
-报价模板已取消，报价状态更改为`Closed`。 已关闭的引号仍保留在&#x200B;*[!UICONTROL Inactive]*&#x200B;引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_网格中。
+报价模板已取消，报价状态更改为`Closed`。 已关闭的引号仍保留在&#x200B;*[!UICONTROL Inactive]*&#x200B;引号列表中，并保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_&#x200B;网格中。
 
 ## 管理参考文档链接
 

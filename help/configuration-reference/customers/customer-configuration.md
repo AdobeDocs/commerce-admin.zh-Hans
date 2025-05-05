@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 商店视图 | 标识用于默认&#x200B;_欢迎_&#x200B;电子邮件的电子邮件模板。 |
 | [!UICONTROL Default Welcome Email Without Password] | 商店视图 | 一个备用的欢迎电子邮件模板，用于管理员创建的新客户帐户，这些帐户尚未分配密码。 |
 | [!UICONTROL Email Sender] | 商店视图 | 标识显示为欢迎电子邮件发件人的商店联系人。 |
-| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`。<br/><br/> _**注意：**_&#x200B;从2.4.7版开始，客户必须在电子邮件确认后重新输入其电子邮件和密码以登录其帐户，而不考虑浏览器。 |
+| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`。<br/><br/> _&#x200B;**注意：**&#x200B;_&#x200B;从2.4.7版开始，客户必须在电子邮件确认后重新输入其电子邮件和密码以登录其帐户，而不考虑浏览器。 |
 | [!UICONTROL Confirmation Link Email] | 商店视图 | 标识用于确认电子邮件的电子邮件模板。 默认模板： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 商店视图 | 标识用于确认帐户后发送的欢迎消息的电子邮件模板。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全局 | 确定店面中是否显示用于输入和存储VAT ID号的字段。 选项： `Yes` / `No` |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 网站 | 确定是否将中间首字母作为客户名称的一部分包括在内。 如果使用中间首字母，则为可选字段。 选项： `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 网站 | 确定客户名称在末尾是否包含后缀，例如Jr.、Sr.和III。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 网站 | 定义后缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
-| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required` <br><br>**_重要信息：_**为遵循当前安全和隐私最佳实践，请注意任何与客户的完整出生日期（月、日、年）和其他个人标识符的存储相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
+| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required` <br><br>**_重要信息：_**&#x200B;为遵循当前安全和隐私最佳实践，请注意任何与客户的完整出生日期（月、日、年）和其他个人标识符的存储相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
 | [!UICONTROL Show Tax/VAT Number] | 网站 | 确定名称和地址表单中是否包含税或[VAT编号](../../stores-purchase/vat.md)。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 网站 | 确定名称和地址表单中是否包含性别。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 网站 | 确定名称和地址表单中是否包含客户的电话号码。 选项： `No` / `Optional` / `Required` |
@@ -214,8 +214,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 网站 | 在与Commerce网站关联的商店中启用验证码。 选项： `Yes` / `No` |
 | [!UICONTROL Font] | 网站 | 确定用于显示验证码的字体。 要添加您自己的字体，请将该字体文件放在与Commerce安装相同的目录中，并将声明添加到位于`app/code/Magento/Captcha/etc`的`config.xml`文件中。 |
-| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
-| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_字段。 输入要允许的登录尝试次数。 `0` （零）的值类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_**注意：**_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
+| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
+| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;字段。 输入要允许的登录尝试次数。 `0` （零）的值类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_&#x200B;**注意：**&#x200B;_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 网站 | 指定帐户锁定前客户可以尝试登录的次数。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 网站 | 确定当前CAPTCHA的生命周期。 验证码过期后，用户必须重新加载页面。 |
 | [!UICONTROL Number of Symbols] | 网站 | 确定验证码中显示的符号数（最多8个）。 您还可以指定范围，例如5-8。 |

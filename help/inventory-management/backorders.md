@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->当客户使用&#x200B;_[!UICONTROL backorder qty]_下达订单时，[!DNL Inventory Management]会自动从可销售数量中减去该数量。 如果订单未发运并且被取消，则数量将返回至汇总的虚拟可销售数量。**_取消的订单数量未分配给任何来源_**，而是返回到可供销售的产品总数（“产品”网格上的_[!UICONTROL Salable Quantity]_&#x200B;列）。
+>当客户使用&#x200B;_[!UICONTROL backorder qty]_&#x200B;下达订单时，[!DNL Inventory Management]会自动从可销售数量中减去该数量。 如果订单未发运并且被取消，则数量将返回至汇总的虚拟可销售数量。**_取消的订单数量未分配给任何来源_**，而是返回到可供销售的产品总数（“产品”网格上的&#x200B;_[!UICONTROL Salable Quantity]_&#x200B;列）。
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -93,9 +93,9 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在&#x200B;**[!UICONTROL Edit]**&#x200B;模式下打开产品，然后向下滚动页面至&#x200B;_[!UICONTROL Sources]_区域。
+1. 在&#x200B;**[!UICONTROL Edit]**&#x200B;模式下打开产品，然后向下滚动页面至&#x200B;_[!UICONTROL Sources]_&#x200B;区域。
 
-   对于未配置[!DNL Inventory Management]的产品，该选项卡不会显示。 `Advanced Inventory`按钮显示在&#x200B;_[!UICONTROL Quantity]_字段下方。
+   对于未配置[!DNL Inventory Management]的产品，该选项卡不会显示。 `Advanced Inventory`按钮显示在&#x200B;_[!UICONTROL Quantity]_&#x200B;字段下方。
 
 1. 单击&#x200B;**[!UICONTROL Advanced Inventory]**。
 

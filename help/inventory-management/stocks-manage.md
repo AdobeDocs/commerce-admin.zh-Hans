@@ -43,7 +43,7 @@ Sales Channel是指销售库存的实体。 默认情况下，[!DNL Commerce]将
 
 | 按钮 | 描述 |
 |--|--|
-| [!UICONTROL Add New Stock] | 打开&#x200B;_[!UICONTROL New Stock]_表单，该表单用于输入新的库存库存，以将库存映射到销售渠道。 |
+| [!UICONTROL Add New Stock] | 打开&#x200B;_[!UICONTROL New Stock]_&#x200B;表单，该表单用于输入新的库存库存，以将库存映射到销售渠道。 |
 
 ## 管理Stock列描述
 

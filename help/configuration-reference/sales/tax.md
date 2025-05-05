@@ -41,14 +41,14 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。 <br/>**`Total`**— 税费计算基于订单总额。<br/><br/>_**&#x200B;注意：**_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
+| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。 <br/>**`Total`**— 税费计算基于订单总额。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
 | [!UICONTROL Tax Calculation Based On] | 网站 | 确定税额计算是基于发运地址、帐单地址还是发运来源。 选项： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 网站 | 确定目录价格是否包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 网站 | 确定装运价格中包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Customer Tax] | 网站 | 确定税在折扣之前或之后应用。 选项： `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | 网站 | 确定折扣价是否包括或不包括税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | 网站 | 确定税额是应用于原始价格还是自定义价格（如果可用）。 选项： `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | 网站 | 启用后，会跨具有不同税率的区域应用一致的定价。 选项： `Yes` / `No` <br/><br/>**_注意：_**使用跨境贸易将按税率调整利润率。 |
+| [!UICONTROL Enable Cross Border Trade] | 网站 | 启用后，会跨具有不同税率的区域应用一致的定价。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;使用跨境贸易将按税率调整利润率。 |
 
 {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | 商店视图 | 确定目录中所发布的产品价格是包含还是排除税，或显示两个版本价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**如果将“显示产品价格”字段设置为`Including Tax`，则仅当存在与税源匹配的税则或存在与税则匹配的客户地址时，才会显示税。 可触发匹配的事件包括客户帐户创建、登录，或购物车中使用税务和运输估计工具。 |
+| [!UICONTROL Display Product Prices in Catalog] | 商店视图 | 确定目录中所发布的产品价格是包含还是排除税，或显示两个版本价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**&#x200B;如果将“显示产品价格”字段设置为`Including Tax`，则仅当存在与税源匹配的税则或存在与税则匹配的客户地址时，才会显示税。 可触发匹配的事件包括客户帐户创建、登录，或购物车中使用税务和运输估计工具。 |
 | [!UICONTROL Display Shipping Prices] | 商店视图 | 确定配送价格是否包含税或不含税，或显示两个版本的配送价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}

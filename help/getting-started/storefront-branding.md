@@ -48,7 +48,7 @@ ht-degree: 0%
 
    ![设计配置页](./assets/design-configuration.png){width="700"}
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Header]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -92,9 +92,9 @@ Favicon通常为16 x 16像素或32 x 32像素。 [!DNL Commerce]接受ICO、PNG�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL HTML Head]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开&#x200B;**[!UICONTROL HTML Head]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![HTML头设置](./assets/configuration-html-head.png){width="600"}
 
@@ -124,9 +124,9 @@ Favicon通常为16 x 16像素或32 x 32像素。 [!DNL Commerce]接受ICO、PNG�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL Header]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开&#x200B;**[!UICONTROL Header]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 对于&#x200B;**[!UICONTROL Welcome Text]**，输入要显示在商店标题中的欢迎消息文本。
 
@@ -156,7 +156,7 @@ Favicon通常为16 x 16像素或32 x 32像素。 [!DNL Commerce]接受ICO、PNG�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开![扩展选择器](../assets/icon-display-expand.png)**[!UICONTROL Footer]**&#x200B;部分。
 
@@ -176,9 +176,9 @@ Favicon通常为16 x 16像素或32 x 32像素。 [!DNL Commerce]接受ICO、PNG�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL HTML Head]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开&#x200B;**[!UICONTROL HTML Head]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![HTML标头](./assets/configuration-html-head.png){width="600"}
 

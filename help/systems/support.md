@@ -27,11 +27,11 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL New Backup]**。
 
-   生成备份需要几分钟的时间。 您可以通过单击&#x200B;**[!UICONTROL Refresh Status]**&#x200B;来监视处理结果。 完成后，备份将显示在&#x200B;_[!UICONTROL Data Collector]_网格中。
+   生成备份需要几分钟的时间。 您可以通过单击&#x200B;**[!UICONTROL Refresh Status]**&#x200B;来监视处理结果。 完成后，备份将显示在&#x200B;_[!UICONTROL Data Collector]_&#x200B;网格中。
 
 1. 要查看包含备份详细信息的日志，请执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Action]_列中，选择&#x200B;**[!UICONTROL Show Log]**。
+   - 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，选择&#x200B;**[!UICONTROL Show Log]**。
 
    - 单击&#x200B;**[!UICONTROL Back]**&#x200B;返回网格。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 确保它具有`Complete`状态。
 
-1. 单击&#x200B;_[!UICONTROL Code Dump]_或_[!UICONTROL DB Dump]_&#x200B;列中的实体名称。
+1. 单击&#x200B;_[!UICONTROL Code Dump]_&#x200B;或_[!UICONTROL DB Dump]_&#x200B;列中的实体名称。
 
 下载过程应自动启动。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 查找并选择要删除的备份数据。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL Delete]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Delete]**。
 
 1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 查看系统报告详细信息
 
-1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_列中选择&#x200B;**[!UICONTROL View]**。
+1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 在左侧面板中，展开报表的每个部分![扩展选择器](../assets/icon-display-expand.png)以查看详细信息。
 

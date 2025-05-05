@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. 登录到您的[!DNL Commerce]帐户。
 
-1. 在&#x200B;_[!UICONTROL My Account]_页面上，选择&#x200B;**[!UICONTROL Marketplace]**选项卡。
+1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;页面上，选择&#x200B;**[!UICONTROL Marketplace]**&#x200B;选项卡。
 
 1. 在名称旁边的右上角，单击向下箭头并选择&#x200B;**[!UICONTROL My Profile]**。
 
    ![您的[!DNL Marketplace]配置文件](./assets/marketplace-profile.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL My Products]_下的_[!UICONTROL Marketplace]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
+1. 在&#x200B;_[!UICONTROL My Products]_&#x200B;下的&#x200B;_[!UICONTROL Marketplace]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
 
    - 查看您是否已经拥有一组用于您的市场购买的访问密钥。 您可以为不同目的创建多组访问键。
 

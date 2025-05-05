@@ -26,15 +26,15 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 对于网格中要添加的产品，请转到&#x200B;_[!UICONTROL Action]_列并单击&#x200B;**[!UICONTROL Edit]**。
+1. 对于网格中要添加的产品，请转到&#x200B;_[!UICONTROL Action]_&#x200B;列并单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 向下滚动，展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product in Shared Catalogs]_部分，然后执行以下操作：
+1. 向下滚动，展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product in Shared Catalogs]_&#x200B;部分，然后执行以下操作：
 
    - 选中产品应出现的每个共享目录的复选框。 要选择所有目录，请单击&#x200B;**[!UICONTROL Select all]**。
 
      ![共享目录中的产品](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
-     每个选定目录的名称将出现在&#x200B;_[!UICONTROL Shared Catalogs]_字段中。
+     每个选定目录的名称将出现在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;字段中。
 
      ![已分配的共享目录](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
-1. 对于网格中的共享目录，转到&#x200B;_[!UICONTROL Action]_列并选择&#x200B;**[!UICONTROL Set Pricing and Structure]**。
+1. 对于网格中的共享目录，转到&#x200B;_[!UICONTROL Action]_&#x200B;列并选择&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
 1. 在类别树中，执行以下任一操作：
 

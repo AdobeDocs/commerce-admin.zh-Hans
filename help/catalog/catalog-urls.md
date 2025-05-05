@@ -37,7 +37,7 @@ URL键是描述产品或类别的静态URL的一部分。 创建产品或类别�
 
 >[!NOTE]
 >
->默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如，`ñ`自动替换为`n`。 通过将&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_配置选项设置为`No`，可禁用此行为。 请参阅[配置目录URL](#configure-catalog-urls)。
+>默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如，`ñ`自动替换为`n`。 通过将&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;配置选项设置为`No`，可禁用此行为。 请参阅[配置目录URL](#configure-catalog-urls)。
 
 URL键应由小写字符组成，在这些字符之间使用非尾随连字符来分隔单词。 不允许在URL键的开头或结尾使用连字符。 设计良好的“搜索引擎友好”URL键可能包含产品名称和关键字，以改进搜索引擎索引产品的方式。 可以将URL键配置为在URL键发生更改时创建自动重定向。
 
@@ -113,7 +113,7 @@ URL键应由小写字符组成，在这些字符之间使用非尾随连字符�
 | 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全局 | 如果启用了Web服务器重写，则启用此设置会将当前视图的存储代码插入到URL中。 选项： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要信息！_**请勿在多商店设置中使用自动重定向到基本URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要信息！_**&#x200B;请勿在多商店设置中使用自动重定向到基本URL。 |
 | [!UICONTROL Catalog media URL format] | 全局 | 定义分配给产品和类别的URL格式。 选项： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 将转换的文件名定义为唯一的哈希值。<br />**[!UICONTROL Image optimization based on query parameters]** — 根据查询参数定义[图像优化](../content-design/media-gallery-image-optimization.md)进程。 |
 
 {style="table-layout:auto"}

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 配置[!DNL Inventory Management]产品选项
 
-这些配置仅适用于已编辑的产品，并覆盖全局网站级别的所有配置。 在编辑产品时，通过&#x200B;_[!UICONTROL Sources]_部分和_[!UICONTROL Advanced Inventory]_&#x200B;页面修改这些设置。
+这些配置仅适用于已编辑的产品，并覆盖全局网站级别的所有配置。 在编辑产品时，通过&#x200B;_[!UICONTROL Sources]_&#x200B;部分和&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;页面修改这些设置。
 
 - 按源配置产品选项
 - 配置高级清单的产品选项
@@ -51,8 +51,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 全局 | 在目录中启用或禁用产品。 |
 | [!UICONTROL Source Item Status] | 全局 | 确定产品的当前可用性。 选项： <br />`In Stock` — 使产品可供购买。<br />`Out of Stock` — 除非激活延交订单，否则将阻止产品可供购买，并从目录中删除列表。 |
 | [!UICONTROL Qty] | 全局 | 每个来源或地点的现有库存量。 |
-| [!UICONTROL Notify Quantity] | 全局 | 如果未选择&#x200B;_[!UICONTROL Notify Quantity Use Default]_，则此特定源的_[!UICONTROL Notify for Quantity Below]_&#x200B;金额。 |
-| [!UICONTROL Notify Quantity Use Default] | 全局 | 指示使用产品&#x200B;_[!UICONTROL Advanced Inventory]_中_[!UICONTROL Notify for Quantity Below]_&#x200B;的默认设置或存储配置中的全局设置。 |
+| [!UICONTROL Notify Quantity] | 全局 | 如果未选择&#x200B;_[!UICONTROL Notify Quantity Use Default]_，则此特定源的&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;金额。 |
+| [!UICONTROL Notify Quantity Use Default] | 全局 | 指示使用产品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;中_[!UICONTROL Notify for Quantity Below]_&#x200B;的默认设置或存储配置中的全局设置。 |
 
 ## 高级产品选项
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
    | 值 | 描述 |
    | ----- | ----- |
-   | 正数 | 禁用&#x200B;_[!UICONTROL Backorders]_后，请输入正值。 |
-   | 零 | 启用&#x200B;_[!UICONTROL Backorders]_后，输入`0`将允许无限延交订单。 |
-   | 负金额 | 启用&#x200B;_[!UICONTROL Backorders]_后，建议输入负值。 该金额将添加到可销售数量。 例如，输入`-50`以允许订单数量不超过此金额。 |
+   | 正数 | 禁用&#x200B;_[!UICONTROL Backorders]_&#x200B;后，请输入正值。 |
+   | 零 | 启用&#x200B;_[!UICONTROL Backorders]_&#x200B;后，输入`0`将允许无限延交订单。 |
+   | 负金额 | 启用&#x200B;_[!UICONTROL Backorders]_&#x200B;后，建议输入负值。 该金额将添加到可销售数量。 例如，输入`-50`以允许订单数量不超过此金额。 |
 
 1. 输入&#x200B;**[!UICONTROL Minimum Qty Allowed in Shopping Cart]**。
 

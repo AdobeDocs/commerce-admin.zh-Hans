@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-在&#x200B;_[!UICONTROL Customer Segments]_网格中创建并显示客户区段。
+在&#x200B;_[!UICONTROL Customer Segments]_&#x200B;网格中创建并显示客户区段。
 
 >[!TIP]
 >

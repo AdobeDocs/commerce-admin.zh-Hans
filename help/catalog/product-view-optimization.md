@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Product View Optimization]
 
-使用[Google内容实验](../merchandising-promotions/google-content-experiments.md)设置一系列A/B测试后，使用&#x200B;_[!UICONTROL Product View Optimization]_部分将Google中的代码片段粘贴到要测试的原始产品中。
+使用[Google内容实验](../merchandising-promotions/google-content-experiments.md)设置一系列A/B测试后，使用&#x200B;_[!UICONTROL Product View Optimization]_&#x200B;部分将Google中的代码片段粘贴到要测试的原始产品中。
 
 仅当[Google Analytics](../merchandising-promotions/google-analytics.md) Google API配置中启用了&#x200B;**[!UICONTROL Google Content Experiments]**&#x200B;时，此部分才会显示。
 

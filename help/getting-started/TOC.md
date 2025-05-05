@@ -23,7 +23,7 @@ ht-degree: 1%
    + [共享您的帐户](commerce-account-share.md)
    + [转移帐户](commerce-account-transfer.md)
 + 网站合规性{#compliance}
-   + Adobe Commerce{#hipaa-ready-service}上的HIPAA准备就绪
+   + Adobe Commerce上的HIPAA准备就绪{#hipaa-ready-service}
       + [概述](hipaa/overview.md)
       + [作战指南](hipaa/operations.md)
    + 隐私{#privacy}

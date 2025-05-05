@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![搜索所有产品选项卡](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Assign]_列中，将您要添加的每个产品的选项切换为`Yes`。
+1. 在&#x200B;_[!UICONTROL Assign]_&#x200B;列中，将您要添加的每个产品的选项切换为`Yes`。
 
    如果要包含所有显示的产品，可单击列标题中的菜单箭头，然后选择&#x200B;**[!UICONTROL Select All]**。
 
@@ -67,10 +67,10 @@ ht-degree: 0%
 
 1. 在左侧的类别树中，选择要编辑的类别。
 
-1. 展开&#x200B;_[!UICONTROL Products in Category]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Products in Category]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 查找要删除的产品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_列中，单击&#x200B;**[!UICONTROL Unassign]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;列中，单击&#x200B;**[!UICONTROL Unassign]**。
 
 1. 要应用更改，请单击&#x200B;**[!UICONTROL Save]**。

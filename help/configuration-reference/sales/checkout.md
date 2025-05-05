@@ -24,7 +24,7 @@ ht-degree: 0%
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Guest Checkout Login] | 商店视图 | 启用此设置以允许未经身份验证的用户（店面和API）查询电子邮件地址是否已与客户帐户关联。 如果输入的电子邮件地址已注册到客户帐户，则可以使用此功能增强来宾的签出工作流，方法是显示登录提示，但代价是向未经身份验证的用户公开信息。  选项： `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | 商店视图 | 确定[单页签出](../../stores-purchase/checkout-process.md#checkout-options)是否为默认签出格式。 选项： `Yes` / `No` |
-| [!UICONTROL Allow Guest Checkout] | 商店视图 | 确定访客是否可以在未向应用商店注册](../../stores-purchase/checkout-guest.md)帐户的情况下进行[签出。 选项： `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | 商店视图 | 确定访客是否可以在未向应用商店注册[&#128279;](../../stores-purchase/checkout-guest.md)帐户的情况下进行签出。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | 商店视图 | 确定客户在购买之前是否需要同意销售的[条款和条件](../../stores-purchase/terms-and-conditions.md)。 选项： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 商店视图 | 确定结帐时帐单地址的位置。 选项： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 商店视图 | 确定结帐期间可在&#x200B;_订单摘要_&#x200B;中显示的最大项目数。 默认值为`10`。 |
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Quote Lifetime (days)] | 网站 | 确定报价价格](../../stores-purchase/cart-configuration.md#quote-lifetime)的[生命周期（以天为单位）。 |
+| [!UICONTROL Quote Lifetime (days)] | 网站 | 确定报价价格[&#128279;](../../stores-purchase/cart-configuration.md#quote-lifetime)的生命周期（以天为单位）。 |
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | 商店视图 | 确定将产品添加到购物车后是否立即显示[购物车页面](../../stores-purchase/cart-configuration.md#redirect-to-cart)。 选项： `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | 商店视图 | 确定在触发寻呼机之前购物车中的项目数。 默认值： `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | 商店视图 | 指示购物车中是否显示[交叉销售项目](../../catalog/related-products-up-sells-cross-sells.md#cross-sells)，从而为客户提供额外的销售选项。 选项： `Yes` （默认） / `No` |

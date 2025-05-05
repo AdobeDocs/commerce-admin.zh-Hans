@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add a New Page]**。
 
-   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_列单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
+   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_&#x200B;列单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    如果要将图像添加到现有类别，请单击左侧列表中的类别名称。
 
-1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_下单击&#x200B;**[!UICONTROL Select from Gallery]**。
+1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_&#x200B;下单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
 1. 单击&#x200B;**[!UICONTROL Search Adobe Stock]**。
 

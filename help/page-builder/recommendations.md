@@ -45,11 +45,11 @@ ht-degree: 0%
 
 1. 在编辑模式下打开页面、块或动态块。
 
-1. 展开&#x200B;_[!UICONTROL Content]_部分并单击&#x200B;**[!UICONTROL Edit with Page Builder]**或在内容预览区域中打开[!DNL Page Builder]工作区。
+1. 展开&#x200B;_[!UICONTROL Content]_&#x200B;部分并单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或在内容预览区域中打开[!DNL Page Builder]工作区。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**占位符拖到舞台上。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**&#x200B;占位符拖到舞台上。
 
-1. 在&#x200B;_[!UICONTROL Add Content]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Product Recommendation]**占位符拖到行中。
+1. 在&#x200B;_[!UICONTROL Add Content]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;占位符拖到行中。
 
    ![正在添加产品推荐内容类型](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    ![编辑产品推荐](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Selection]_部分中，单击&#x200B;**[!UICONTROL Select]**。
+1. 在&#x200B;_[!UICONTROL Selection]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Select]**。
 
 1. 在活动产品推荐列表中，找到包含要添加的推荐单元的行，然后单击最后一列中的&#x200B;**[!UICONTROL Select]**。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Selected]**。
 
-   所选产品推荐的名称显示在&#x200B;_[!UICONTROL Edit Product Recommendation]_页面的_[!UICONTROL Selection]_&#x200B;部分中。
+   所选产品推荐的名称显示在&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;页面的&#x200B;_[!UICONTROL Selection]_&#x200B;部分中。
 
 1. 对[高级设置](#advanced-settings)进行任何必要的更改。
 

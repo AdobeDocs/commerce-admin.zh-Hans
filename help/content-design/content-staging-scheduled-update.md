@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## 计划产品更新
 
-1. 从&#x200B;_[!UICONTROL Products]_网格中，以编辑模式打开产品。
+1. 从&#x200B;_[!UICONTROL Products]_&#x200B;网格中，以编辑模式打开产品。
 
-1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_框中，单击&#x200B;**[!UICONTROL Schedule New Update]**。
+1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框中，单击&#x200B;**[!UICONTROL Schedule New Update]**。
 
    ![计划新更新](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
      >
      >营销活动开始日期和结束日期必须使用&#x200B;**_default_**&#x200B;管理时区来定义，该时区从每个网站的本地时区进行转换。 例如，如果您有多个网站位于不同时区，但希望根据美国（默认）时区启动促销活动，则必须为每个本地时区计划单独的更新。 在这种情况下，将&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;设置为从每个本地网站时区转换为默认管理时区。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Price]_并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Price]_&#x200B;并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在计划的营销活动期间输入产品的&#x200B;**[!UICONTROL Special Price]**，然后单击&#x200B;**[!UICONTROL Done]**。
 

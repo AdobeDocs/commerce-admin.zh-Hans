@@ -24,7 +24,7 @@ ht-degree: 0%
 
 - 多来源商家可以为每个地点（仓库、商店、卸货发货人等）为每个产品分配多个来源和数量。 建议您在设置产品库存量之前添加源。
 
-向产品添加来源和数量时，可以通过Product Grid查看金额。 如果源数太多，请将鼠标悬停在&#x200B;_[!UICONTROL Quantity per Source]_上以查看包含当前数量的源的可滚动完整列表。
+向产品添加来源和数量时，可以通过Product Grid查看金额。 如果源数太多，请将鼠标悬停在&#x200B;_[!UICONTROL Quantity per Source]_&#x200B;上以查看包含当前数量的源的可滚动完整列表。
 
 每个源的![产品数量](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

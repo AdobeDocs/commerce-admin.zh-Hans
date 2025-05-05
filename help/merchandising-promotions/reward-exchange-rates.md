@@ -51,12 +51,12 @@ ht-degree: 0%
 
    对于任一方向设置，金额均以网站的基本货币表示。
 
-1. 根据&#x200B;_[!UICONTROL Direction]_设置输入&#x200B;**[!UICONTROL Rate]**值。
+1. 根据&#x200B;_[!UICONTROL Direction]_&#x200B;设置输入&#x200B;**[!UICONTROL Rate]**&#x200B;值。
 
    | 方向 | 费率设置 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_字段中，输入点数。 在第二个_[!UICONTROL Rate]_&#x200B;字段中，输入点的货币值。 |
-   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_字段中，输入货币值。 在第二个_[!UICONTROL Rate]_&#x200B;字段中，输入由货币值表示的点数。 |
+   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入点数。 在第二个&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入点的货币值。 |
+   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入货币值。 在第二个&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入由货币值表示的点数。 |
 
    将点数转换为货币时，无法划分点数。 例如，如果10点转换为2.00美元，则必须以10点为一组兑换点。 因此，25点可兑换4.00美元，客户余额还剩5点。
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 适用奖励率的网站。 |
 | [!UICONTROL Customer Group] | 奖励率适用的客户组。 |
-| [!UICONTROL Direction] | 确定汇率定义的事务处理类型。 选项： <br/>**[!UICONTROL Points to Currency]**— 定义作为订单金额的点数可以应用的点数。 在前&#x200B;_[!UICONTROL Rate]_字段中，输入点数。 在第二个_[!UICONTROL Rate]_字段中，输入点的货币值。<br/>**[!UICONTROL Currency to Points]** — 定义可以获得客户积分的订单金额。 在前&#x200B;_[!UICONTROL Rate]_字段中，输入货币值。 在第二个_[!UICONTROL Rate]_&#x200B;字段中，输入由货币值表示的点数。 |
+| [!UICONTROL Direction] | 确定汇率定义的事务处理类型。 选项： <br/>**[!UICONTROL Points to Currency]**— 定义作为订单金额的点数可以应用的点数。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入点数。 在第二个&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入点的货币值。<br/>**[!UICONTROL Currency to Points]** — 定义可以获得客户积分的订单金额。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入货币值。 在第二个&#x200B;_[!UICONTROL Rate]_&#x200B;字段中，输入由货币值表示的点数。 |

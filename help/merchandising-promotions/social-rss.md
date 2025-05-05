@@ -95,7 +95,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Sort Order]**&#x200B;字段中输入数字以确定块的顺序（如果块被分配在页面上与其他内容元素相同的位置出现）。 顶部的位置是零。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**并将&#x200B;**[!UICONTROL Display On]**设置为您希望块出现的类别、产品或页面。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;并将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望块出现的类别、产品或页面。
 
    例如，如果选择`All Pages`并将块放置在页眉或页脚中，则该块会出现在商店每个页面的同一位置。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. 出现提示时，按照工作区顶部的说明更新索引和页面缓存。
 
-   构件现在显示在&#x200B;_[!UICONTROL Widgets]_列表中。
+   构件现在显示在&#x200B;_[!UICONTROL Widgets]_&#x200B;列表中。
 
 ### 步骤4. 验证存储中的位置
 

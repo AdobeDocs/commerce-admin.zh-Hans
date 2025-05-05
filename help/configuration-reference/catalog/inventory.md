@@ -69,8 +69,8 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | 全局 | 确定您是否为批量产品操作异步运行批量操作，包括[批量](../../inventory-management/bulk-assignment.md)分配源、取消分配源以及[将库存转移到源](../../inventory-management/inventory-transfer.md)。 它将收集到&#x200B;_[!UICONTROL Asynchronous batch size]_的批量操作，然后运行这些操作。 默认情况下，此功能处于禁用状态。 我们建议在启用之前使用批量操作检查您的性能。 选项：<br/>**`Yes`**— 异步运行[!DNL Inventory Management]的所有批量操作。 要启用，必须配置异步队列管理器。<br/>**`No`**— 默认。 不会异步运行批量操作。 |
-| [!UICONTROL Asynchronous batch size] | 全局 | 将&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;设置为`Yes`以输入&#x200B;_[!UICONTROL Asynchronous batch size]_字段的值。 <br/>默认批次大小为100。 当批量进程达到此数量时，即会执行。 |
+| [!UICONTROL Run asynchronously] | 全局 | 确定您是否为批量产品操作异步运行批量操作，包括[批量](../../inventory-management/bulk-assignment.md)分配源、取消分配源以及[将库存转移到源](../../inventory-management/inventory-transfer.md)。 它将收集到&#x200B;_[!UICONTROL Asynchronous batch size]_&#x200B;的批量操作，然后运行这些操作。 默认情况下，此功能处于禁用状态。 我们建议在启用之前使用批量操作检查您的性能。 选项：<br/>**`Yes`**— 异步运行[!DNL Inventory Management]的所有批量操作。 要启用，必须配置异步队列管理器。<br/>**`No`**— 默认。 不会异步运行批量操作。 |
+| [!UICONTROL Asynchronous batch size] | 全局 | 将&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;设置为`Yes`以输入&#x200B;_[!UICONTROL Asynchronous batch size]_&#x200B;字段的值。 <br/>默认批次大小为100。 当批量进程达到此数量时，即会执行。 |
 
 {style="table-layout:auto"}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 以客户身份登录时执行的任何操作将应用于实际客户的帐户。
 
-为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_按钮后，该按钮会显示在多个页面中：
+为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_&#x200B;按钮后，该按钮会显示在多个页面中：
 
 * [客户编辑页面](../customers/update-account.md)
 * [订单查看页面](../stores-purchase/order-processing.md)
@@ -116,7 +116,7 @@ _以客户身份登录_&#x200B;允许您查看站点（与客户一样），并�
 
 >[!WARNING]
 >
->以客户&#x200B;_]身份登录[!UICONTROL _&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
+>以客户&#x200B;_身份登录_&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
 
 ## 以客户日志记录身份登录
 

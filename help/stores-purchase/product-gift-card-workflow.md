@@ -66,7 +66,7 @@ ht-degree: 0%
 
 - 创建礼品代码的帐户以跟踪特定优惠券的余额。 商店管理员可以手动调整余额。
 
-接收客户可以使用其帐户仪表板的&#x200B;_[!UICONTROL Gift Card]_部分来检查其[礼品卡帐户](product-gift-card-accounts.md)的余额并兑换[商店点数](../customers/store-credit-using.md)的礼品卡。
+接收客户可以使用其帐户仪表板的&#x200B;_[!UICONTROL Gift Card]_&#x200B;部分来检查其[礼品卡帐户](product-gift-card-accounts.md)的余额并兑换[商店点数](../customers/store-credit-using.md)的礼品卡。
 
 ![礼品卡](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 礼品卡激活
 
-1. 在&#x200B;_[!UICONTROL Gift Card]_页面上，客户输入礼品卡代码。
+1. 在&#x200B;_[!UICONTROL Gift Card]_&#x200B;页面上，客户输入礼品卡代码。
 
 1. 客户单击&#x200B;**[!UICONTROL Redeem Gift Card]**。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![存储信用余额](./assets/store-credit.png){width="700" zoomable="yes"}
 
-可在&#x200B;_[!UICONTROL Store Credit]_页面上找到礼品卡余额的所有操作。
+可在&#x200B;_[!UICONTROL Store Credit]_&#x200B;页面上找到礼品卡余额的所有操作。
 
 ### 在结账时应用礼品卡
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
 1. 输入礼品卡代码，然后单击&#x200B;**[!UICONTROL Apply]**。
 
-   折扣应反映在&#x200B;_[!UICONTROL Order Summary]_中。
+   折扣应反映在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
 
 1. 单击&#x200B;**[!UICONTROL Place Order]**&#x200B;以完成订单。

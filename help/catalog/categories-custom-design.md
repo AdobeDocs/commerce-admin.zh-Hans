@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 类别 — 设计设置
 
-通过&#x200B;_[!UICONTROL Design]_部分，您可以控制类别、所有相关产品页面和页面布局的外观。 您可以为促销自定义类别页面及其关联产品，或区分类别。 例如，您可以为某个品牌或某个特定系列的产品开发一种独特的设计，或者针对特定的时间段应用更新。
+通过&#x200B;_[!UICONTROL Design]_&#x200B;部分，您可以控制类别、所有相关产品页面和页面布局的外观。 您可以为促销自定义类别页面及其关联产品，或区分类别。 例如，您可以为某个品牌或某个特定系列的产品开发一种独特的设计，或者针对特定的时间段应用更新。
 
 ![类别的设计设置](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->当同一产品被分配给多个类别，每个类别的设计设置不同时，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**为产品URL使用类别路径** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**并在左侧面板中选择&#x200B;**目录**，然后展开页面上的&#x200B;**搜索引擎优化**部分。
+>当同一产品被分配给多个类别，每个类别的设计设置不同时，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**为产品URL使用类别路径** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在左侧面板中选择&#x200B;**目录**，然后展开页面上的&#x200B;**搜索引擎优化**&#x200B;部分。
 
 | 字段 | 描述 |
 |--- |--- |
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_部分确定将自定义设计应用于类别页面时的日期范围。
+_[!UICONTROL Scheduled Design Update]_&#x200B;部分确定将自定义设计应用于类别页面时的日期范围。
 
 | 字段 | 描述 |
 |--- |--- |

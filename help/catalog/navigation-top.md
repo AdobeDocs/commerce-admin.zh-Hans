@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![类别顶部导航](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   由于顶部导航的深度具有全局[配置范围](../getting-started/websites-stores-views.md#scope-settings)，因此该设置适用于Commerce安装中的所有网站、商店和商店视图。 仅当左上角的&#x200B;_[!UICONTROL Store View]_设置为`Default Config`时，_[!UICONTROL Category Top Navigation]_&#x200B;配置部分才可用。
+   由于顶部导航的深度具有全局[配置范围](../getting-started/websites-stores-views.md#scope-settings)，因此该设置适用于Commerce安装中的所有网站、商店和商店视图。 仅当左上角的&#x200B;_[!UICONTROL Store View]_&#x200B;设置为`Default Config`时，_[!UICONTROL Category Top Navigation]_&#x200B;配置部分才可用。
 
    有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[类别顶部导航](../configuration-reference/catalog/catalog.md#layered-navigation)。
 

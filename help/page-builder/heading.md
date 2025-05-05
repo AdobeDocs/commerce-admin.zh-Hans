@@ -14,7 +14,7 @@ ht-degree: 0%
 
 标题级别建立一个层次结构，用于组织内容并帮助搜索引擎为每个页面编制索引。 使用[[!DNL Page Builder] 阶段](workspace.md#stage)中的&#x200B;_标题_&#x200B;内容类型将标题级别为H1到H6的文本容器添加到阶段。 根据与当前主题关联的样式表设置标题的格式。
 
-_[!UICONTROL Content]_部分中的[内容标题](workspace.md)字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
+_[!UICONTROL Content]_&#x200B;部分中的[内容标题](workspace.md)字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
 
 以下示例显示了使用Luma主题设置格式时，内容标题和标题内容类型的显示方式。
 
@@ -74,7 +74,7 @@ _[!UICONTROL Content]_部分中的[内容标题](workspace.md)字段可用于将
 
    您还可以在标题编辑器中更新此内容。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 要控制标题在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

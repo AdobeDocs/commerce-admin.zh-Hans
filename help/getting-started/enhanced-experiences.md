@@ -56,7 +56,7 @@ Adobe Commerce和Magento Open Source提供丰富的工具，可根据客户活�
 
 - **自定义目录和价目表** — 为特定公司提供具有自定义[定价的策划产品选择](../b2b/catalog-shared-pricing-structure.md)，同时继续为一般客户提供具有常规定价的标准目录。
 
-- **目标市场细分** — 根据属性](../customers/customer-segments.md)（如客户地址、订单历史记录和购物车内容），使用动态内容、促销和横幅[优化营销计划。
+- **目标市场细分** — 根据属性[&#128279;](../customers/customer-segments.md)（如客户地址、订单历史记录和购物车内容），使用动态内容、促销和横幅优化营销计划。
 
 - **智能购物规则** — 使用在产品或购物车级别触发的价格规则和[促销活动](../merchandising-promotions/introduction.md#promotions)自定义购物体验。
 
@@ -86,7 +86,7 @@ Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制�
 
 - **[!DNL Advanced Reporting]** — 通过由[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en)提供支持的动态产品、订单和客户报告，快速获得有价值的见解。
 
-- **仪表板快照** — 了解您网站上的相关内容对于最大限度地提高营销预算至关重要。 使用仪表板](admin-dashboard.md)上的此[信息来确定应向忠诚客户交叉销售和追加销售哪些产品，或销售哪些产品。
+- **仪表板快照** — 了解您网站上的相关内容对于最大限度地提高营销预算至关重要。 使用仪表板[&#128279;](admin-dashboard.md)上的此信息来确定应向忠诚客户交叉销售和追加销售哪些产品，或销售哪些产品。
 
 - **税费** — 使用本机工具管理您的[税费](../stores-purchase/taxes.md)，或从[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){：target=&quot;_blank&quot;}添加第三方扩展。
 

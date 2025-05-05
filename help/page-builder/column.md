@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.4.5版本中的更新
 
-2.4.5版本中更新了页面生成器功能，以便用户现在使用&#x200B;_[!DNL Columns]_作为各个列的父容器。 此新容器还支持背景属性，并且无需将列换行。 它减少了不必要的标记，并对店面显示和体验提供了更精细的控制。
+2.4.5版本中更新了页面生成器功能，以便用户现在使用&#x200B;_[!DNL Columns]_&#x200B;作为各个列的父容器。 此新容器还支持背景属性，并且无需将列换行。 它减少了不必要的标记，并对店面显示和体验提供了更精细的控制。
 
 您可以更改[!DNL Columns]容器的布局，方法是在组中其他列的上方或下方拖动一列，然后栈叠这些列。 这打开了各种新的可能布局组合，无需开发人员自定义即可实现这些组合。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 添加列
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**拖到舞台上。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**&#x200B;拖到舞台上。
 
    ![将列拖到舞台上](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
    - 将鼠标悬停在该列上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-   - 向下滚动到&#x200B;_[!UICONTROL Advanced]_部分，并将所有四个&#x200B;**[!UICONTROL Padding]**值设置为`0`。
+   - 向下滚动到&#x200B;_[!UICONTROL Advanced]_&#x200B;部分，并将所有四个&#x200B;**[!UICONTROL Padding]**&#x200B;值设置为`0`。
 
      ![使用零内边距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Column]_页面。
+   - 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Column]_&#x200B;页面。
 
 1. 单击工作区右上角的&#x200B;_关闭全屏_（![关闭全屏图标](./assets/pb-icon-reduce.png){width="20"}）图标，然后单击右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Background Repeat]** — 如果要重复背景图像以填充空间，请更改此设置`Yes`。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 要控制添加到列的内容容器的水平位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

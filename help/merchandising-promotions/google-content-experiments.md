@@ -49,7 +49,7 @@ ht-degree: 0%
 
    **方法1：**&#x200B;选择现有视图
 
-   在&#x200B;_[!UICONTROL View]_列的标题中，单击向下箭头，然后选择要为试验提供数据的视图。
+   在&#x200B;_[!UICONTROL View]_&#x200B;列的标题中，单击向下箭头，然后选择要为试验提供数据的视图。
 
    **方法2：**&#x200B;创建新报表视图
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    - 完成后，单击&#x200B;**[!UICONTROL Create View]**，然后单击“上一步”箭头返回上一页。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Reports]_下，选择&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Reports]_&#x200B;下，选择&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**。
 
 1. 单击&#x200B;**[!UICONTROL Create experiment]**&#x200B;并执行以下操作：
 

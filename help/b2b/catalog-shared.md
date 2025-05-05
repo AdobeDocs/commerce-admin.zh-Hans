@@ -20,13 +20,13 @@ Adobe Commerce B2B允许您为不同的公司维护带自定义定价的门控&#
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，目录的每个[类别权限](../catalog/category-permissions.md)均设置为&#x200B;_[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，目录的每个[类别权限](../catalog/category-permissions.md)均设置为&#x200B;_[!UICONTROL Allow for the Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
 
 >[!IMPORTANT]
 >
 >启用&#x200B;**_[!UICONTROL Shared Catalog]_**&#x200B;功能后，目录中的&#x200B;**_所有_**&#x200B;类别将忽略所有现有[组权限设置](../configuration-reference/catalog/catalog.md#category-permissions)。 [!UICONTROL Shared Catalog]在启用时完全控制目录中的所有类别权限。
 
-_[!UICONTROL Shared Catalogs]_页提供对用于管理共享目录的工具的访问权限。 该页面类似于标准[管理员工作区](../getting-started/admin-workspace.md)，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
+_[!UICONTROL Shared Catalogs]_&#x200B;页提供对用于管理共享目录的工具的访问权限。 该页面类似于标准[管理员工作区](../getting-started/admin-workspace.md)，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
 
 ![共享目录](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ _[!UICONTROL Shared Catalogs]_页提供对用于管理共享目录的工具的�
 
 ## 操作控件
 
-左上角的[操作控件](../getting-started/admin-actions-control.md)可与批量操作控件一起使用，以删除不再需要的所选共享目录。 在网格中，_[!UICONTROL Actions]_列包含用于管理共享目录的完整工具选择。
+左上角的[操作控件](../getting-started/admin-actions-control.md)可与批量操作控件一起使用，以删除不再需要的所选共享目录。 在网格中，_[!UICONTROL Actions]_&#x200B;列包含用于管理共享目录的完整工具选择。
 
 ![共享目录操作](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

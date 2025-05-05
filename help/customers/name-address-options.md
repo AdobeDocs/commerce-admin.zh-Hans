@@ -41,7 +41,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_部分未出现。
+   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_&#x200B;部分未出现。
 
    ![配置作用域](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

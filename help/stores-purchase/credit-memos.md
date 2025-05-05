@@ -39,7 +39,7 @@ _贷项通知单_&#x200B;是显示客户全部或部分退款的应付金额的�
 
 1. **生成发票** - [为订单创建发票](invoices.md#create-an-invoice)，以便您可以通过贷项通知单向客户发送退款。
 
-1. **创建贷项通知单** - [在管理员中为[信用购买](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或为[支票或汇票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)签发贷项通知单](credit-memo-create.md)。
+1. **创建贷项通知单** - [&#128279;](credit-memo-create.md)在管理员中为[信用购买](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或为[支票或汇票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)签发贷项通知单。
 
 ## 列描述
 

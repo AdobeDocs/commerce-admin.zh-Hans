@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | 网站 | 一个URL，指向安全研究人员可用于发送加密通信的加密密钥的位置。 _**请勿在此字段中输入加密密钥。**_ <br/><br/>研究人员有责任验证密钥是否来自可信来源。 研究人员不能假定密钥与用于生成数字签名的密钥相同。 示例：<br />来自Web服务器的OpenPGP密钥 — `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | 网站 | 一个URL，指向安全研究人员可用于发送加密通信的加密密钥的位置。 _&#x200B;**请勿在此字段中输入加密密钥。**&#x200B;_ <br/><br/>研究人员有责任验证密钥是否来自可信来源。 研究人员不能假定密钥与用于生成数字签名的密钥相同。 示例：<br />来自Web服务器的OpenPGP密钥 — `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | 网站 | 指向存储中确认安全研究人员的页面的URL，如`https://mystore.com/hall-of-fame.html`。 为了防止将来的攻击，请仅提供一般性描述，而不显示有关漏洞问题的特定信息。 示例：<br />我们要感谢以下研究人员：<br />(yyyy/mm/dd) Justin Thyme - SQL注入 |
 | [!UICONTROL Preferred Languages] | 网站 | 指定至少一种首选安全报告语言。 用逗号分隔多个双字符[语言代码](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)。 所有指定语言都具有相同的优先级。 例如，要指定英语、西班牙语和法语，请输入`en, es, fr`。 |
 | [!UICONTROL Hiring] | 网站 | 网站上列出安全相关职位的URL。 示例： `https://mystore.com/jobs.html` |

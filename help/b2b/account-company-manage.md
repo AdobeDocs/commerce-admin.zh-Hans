@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 管理公司帐户
 
-_[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
+_[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
 
 ![公司网格](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 使用&#x200B;*[!UICONTROL Columns]*&#x200B;控件自定义网格中显示的列。 使用搜索和筛选功能自定义视图中显示的公司。
 
-- 使用&#x200B;_[!UICONTROL Search]_在&#x200B;**公司**网格中查找公司。 搜索对&#x200B;**公司名称**和&#x200B;**父项**列编制索引。
+- 使用&#x200B;_[!UICONTROL Search]_&#x200B;在&#x200B;**公司**&#x200B;网格中查找公司。 搜索对&#x200B;**公司名称**&#x200B;和&#x200B;**父项**&#x200B;列编制索引。
 
 - 使用[!UICONTROL Filter]自定义视图以包含符合特定条件的记录。 例如，如果B2B站点配置为同时管理单个公司帐户和[公司层次结构](manage-companies.md)，则可以按`[!UICONTROL Company Type - Company]`进行筛选以仅显示单个公司，或按`[!UICONTROL Company Type - Parent]`进行筛选以仅显示每个层次结构的父公司。
 
-使用网格上方的&#x200B;_[!UICONTROL Actions]_控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
+使用网格上方的&#x200B;_[!UICONTROL Actions]_&#x200B;控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
 
 ## 公司角色资源
 
@@ -166,7 +166,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 1. 在网格中，查找要编辑的公司记录。
 
-1. 从&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 从&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 对公司信息进行必要的更改。
 
@@ -198,7 +198,7 @@ _[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 使用字段描述根据需要更新每个部分中的字段值，以供参考。
 

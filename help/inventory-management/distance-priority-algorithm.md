@@ -77,11 +77,11 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Provider]**设置为`Google MAP`。
+1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Provider]**&#x200B;设置为`Google MAP`。
 
    基于距离的SSA的![提供程序](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_部分并配置设置：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_&#x200B;部分并配置设置：
 
    - 对于&#x200B;**[!UICONTROL Google API Key]**，输入从您的Google帐户复制的密钥。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >在使用此算法处理发运时，如果对于发运的选定计算模式（驾驶、骑车或行走），工艺路线和数据未返回，则SSA将默认使用“Source优先级”。 建议为每Stock](stocks-prioritize-sources.md)的源设置[优先级。
+     >在使用此算法处理发运时，如果对于发运的选定计算模式（驾驶、骑车或行走），工艺路线和数据未返回，则SSA将默认使用“Source优先级”。 建议为每Stock[&#128279;](stocks-prioritize-sources.md)的源设置优先级。
 
      | 选项 | 描述 |
      | ----- | ----- |
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框并将&#x200B;**[!UICONTROL Provider]**&#x200B;设置为`Offline Calculation`。
 

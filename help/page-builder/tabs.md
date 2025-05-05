@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 添加单个选项卡
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Tabs]**占位符直接拖到舞台上，或拖到舞台上的行或列上。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Tabs]**&#x200B;占位符直接拖到舞台上，或拖到舞台上的行或列上。
 
    ![将制表符拖到行](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 
   以下示例中的行的边框半径为15。
 
-  边框半径为15](./assets/pb-settings-border-radius-15.png){width="500"}的![行
+  边框半径为15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的行
 
 - （可选）从当前样式表中指定要应用于列容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 

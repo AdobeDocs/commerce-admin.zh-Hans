@@ -22,7 +22,7 @@ Commerce Admin IMS集成所需的模块打包到`adobe-ims-metapackage`中，该
 
 ## 与IMS集成后对管理员工作流和界面所做的更改
 
-启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 启用模块需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
+启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 启用模块需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_&#x200B;按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
 
 ## 管理员与IMS集成如何影响Commerce密码
 

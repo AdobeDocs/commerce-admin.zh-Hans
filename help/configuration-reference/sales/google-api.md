@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 商店视图 | 确定转换标签的颜色。 使用[拾色器](https://www.w3schools.com/colors/colors_picker.asp)选择十六进制值。 此十六进制值已分配给AdWords脚本中的`google_conversion_color`变量。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 商店视图 | 随[!DNL Google Site Stats]通知一起显示的文本标签。 此文本字符串已分配给AdWords脚本中的`~`变量。 例如：“感谢您购物！” |
 | [!UICONTROL Conversion Value Type] | 商店视图 | 指定用于确定何时进行转换的值类型。 选项： <br/>**`Dynamic`**— 根据动态订单金额确定已发生转换。<br/>**`Constant`** — 根据输入的值确定已发生转换。 |
-| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_转换值类型的值。 |
+| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_&#x200B;转换值类型的值。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 商店视图 | 确定转换标签的颜色。 使用[拾色器](https://www.w3schools.com/colors/colors_picker.asp)选择十六进制值。 此十六进制值已分配给AdWords脚本中的`google_conversion_color`变量。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 商店视图 | 随Google站点统计信息通知一起显示的文本标签。 此文本字符串已分配给AdWords脚本中的`~`变量。 例如：“感谢您购物！” |
 | [!UICONTROL Conversion Value Type] | 商店视图 | 指定用于确定何时进行转换的值类型。 选项： <br/>**`Dynamic`**— 根据动态订单金额确定已发生转换。<br/>**`Constant`** — 根据输入的值确定已发生转换。 |
-| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_转换值类型的值。 |
+| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_&#x200B;转换值类型的值。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
 {style="table-layout:auto"}

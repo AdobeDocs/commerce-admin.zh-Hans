@@ -119,9 +119,9 @@ ht-degree: 0%
 
 取消订单会将其状态从`Pending`更改为`Canceled`。
 
-1. 在&#x200B;_[!UICONTROL Orders]_网格中，找到要取消的待处理订单。
+1. 在&#x200B;_[!UICONTROL Orders]_&#x200B;网格中，找到要取消的待处理订单。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
 1. 单击&#x200B;**[!UICONTROL Cancel]**&#x200B;取消订单。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL General]_部分中，选择&#x200B;**[!UICONTROL B2B Features]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL General]_&#x200B;部分中，选择&#x200B;**[!UICONTROL B2B Features]**。
 
 1. 将&#x200B;**[!UICONTROL Enable Quick Order]**&#x200B;设置为`Yes`。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 ### 方法3：上传产品列表
 
-1. 在&#x200B;_[!UICONTROL Add from File]_部分中，单击&#x200B;**[!UICONTROL Download Sample]**以下载订单模板。
+1. 在&#x200B;_[!UICONTROL Add from File]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Download Sample]**&#x200B;以下载订单模板。
 
    ![从文件添加](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

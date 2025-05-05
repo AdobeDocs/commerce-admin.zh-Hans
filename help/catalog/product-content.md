@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Content]
 
-_[!UICONTROL Content]_部分用于输入和编辑产品页面上显示的主要产品说明。 简短描述可用于大多数RSS源，也可能出现在目录列表中，具体取决于[主题](../content-design/themes.md)。
+_[!UICONTROL Content]_&#x200B;部分用于输入和编辑产品页面上显示的主要产品说明。 简短描述可用于大多数RSS源，也可能出现在目录列表中，具体取决于[主题](../content-design/themes.md)。
 
 ## 在[!DNL Page Builder]中添加产品说明
 
@@ -30,7 +30,7 @@ _[!UICONTROL Content]_部分用于输入和编辑产品页面上显示的主要�
 
 ## [!DNL Page Builder]预览
 
-当您展开现有产品的&#x200B;_[!UICONTROL Content]_部分时，其中存在使用[!DNL Page Builder]创建的内容，它将显示&#x200B;**[!UICONTROL Description]**内容的预览，就像在产品页面中一样。 单击&#x200B;**[!UICONTROL Edit with Page Builder]**打开[!DNL Page Builder]工作区，您可以在其中进行任何需要的更新。
+当您展开现有产品的&#x200B;_[!UICONTROL Content]_&#x200B;部分时，其中存在使用[!DNL Page Builder]创建的内容，它将显示&#x200B;**[!UICONTROL Description]**&#x200B;内容的预览，就像在产品页面中一样。 单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;打开[!DNL Page Builder]工作区，您可以在其中进行任何需要的更新。
 
 ![描述预览](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

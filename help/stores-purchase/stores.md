@@ -85,7 +85,7 @@ Adobe Commerce或Magento Open Source的单次安装可以有多个共享管理�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，单击&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为您为新商店创建的视图。
 

@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在其帐户的侧栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在&#x200B;_[!UICONTROL Requisition Lists]_页面上，单击&#x200B;**[!UICONTROL Create New Requisition List]**。
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Create New Requisition List]**。
 
 1. 输入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 

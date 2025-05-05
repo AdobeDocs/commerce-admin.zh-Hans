@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Gift Cards]**。
 
-1. 展开&#x200B;_[!UICONTROL Gift Card Email Settings]_部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开&#x200B;_[!UICONTROL Gift Card Email Settings]_&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Gift Card Notification Email Sender]**&#x200B;设置为显示为礼品卡通知发送者的商店标识。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![礼品卡电子邮件设置](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;_[!UICONTROL Email Sent from Gift Card Account Management]_部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开&#x200B;_[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Gift Card Email Sender]**&#x200B;设置为要显示为礼品卡发送者的商店标识。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 第2步：完成常规设置
 
-1. 展开&#x200B;_[!UICONTROL Gift Card General Settings]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Gift Card General Settings]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 若要允许客户兑换卡上的值以换取现金，请将&#x200B;**[!UICONTROL Redeemable]**&#x200B;设置为`Yes`。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### 步骤3：建立礼品卡代码池
 
-1. 展开&#x200B;_[!UICONTROL Gift Card Account General Settings]_部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开&#x200B;_[!UICONTROL Gift Card Account General Settings]_&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    ![礼品卡帐户常规设置](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
    - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
 
-   - 在列表中查找该顺序，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View]**。
+   - 在列表中查找该顺序，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
-   - 向下滚动到&#x200B;_[!UICONTROL Items Ordered]_部分。
+   - 向下滚动到&#x200B;_[!UICONTROL Items Ordered]_&#x200B;部分。
 
-   该数字位于&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;下的&#x200B;_[!UICONTROL Product]_列中。
+   该数字位于&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;下的&#x200B;_[!UICONTROL Product]_&#x200B;列中。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Gift Card Account]**。
 
-1. 在&#x200B;_[!UICONTROL Information]_部分中，将&#x200B;**[!UICONTROL Active]**设置为`Yes`并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Information]_&#x200B;部分中，将&#x200B;**[!UICONTROL Active]**&#x200B;设置为`Yes`并执行以下操作：
 
    - 若要使卡余额可在结账时兑换或转移到客户的商店贷方，请将&#x200B;**[!UICONTROL Redeemable]**&#x200B;设置为`Yes`。
 

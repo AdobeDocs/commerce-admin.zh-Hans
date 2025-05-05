@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Import]**。
 
-   更新的费率显示在&#x200B;_[!UICONTROL Currency Rates]_列表中。 如果自上次更新以来费率已发生更改，则旧费率将显示在下方以供参考。
+   更新的费率显示在&#x200B;_[!UICONTROL Currency Rates]_&#x200B;列表中。 如果自上次更新以来费率已发生更改，则旧费率将显示在下方以供参考。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Currency Rates]**。
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 1. 要指定您接受的货币并建立导入连接和计划，请完成[货币汇率设置](currency-configuration.md)。
 
-1. 要验证费率是否按计划导入，请检查&#x200B;_[!UICONTROL Currency Rates]_列表。
+1. 要验证费率是否按计划导入，请检查&#x200B;_[!UICONTROL Currency Rates]_&#x200B;列表。
 
 1. 等待为计划建立的频率设置的时间段，然后再次检查速率。

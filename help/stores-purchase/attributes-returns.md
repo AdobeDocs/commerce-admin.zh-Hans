@@ -63,7 +63,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 若要使该属性对客户可见，请在&#x200B;_[!UICONTROL Storefront Properties]_部分中将&#x200B;**[!UICONTROL Show on Storefront]**设置为`Yes`。
+1. 若要使该属性对客户可见，请在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中将&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;设置为`Yes`。
 
 1. （可选）为&#x200B;**[!UICONTROL Sort Order]**&#x200B;输入一个数字，以确定该属性在页面的同一部分中相对于其他属性的显示位置。 （`0` =第一，`1` =第二，`2` =第三，依此类推。）
 

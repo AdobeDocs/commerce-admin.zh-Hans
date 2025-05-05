@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![注销](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_页面显示您已注销的消息。 无论何时让计算机处于无人值守状态，请注销_&#x200B;管理员&#x200B;_。
+_[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时让计算机处于无人值守状态，请注销_&#x200B;管理员&#x200B;_。
 
 ## 编辑帐户信息
 

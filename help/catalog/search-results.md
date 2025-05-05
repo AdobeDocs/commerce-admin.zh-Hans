@@ -45,7 +45,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 ### 步骤1：创建属性
 
-1. 在&#x200B;_[!UICONTROL Products]_列表中，以编辑模式打开`Montana Wind Jacket` (MJ03)。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中，以编辑模式打开`Montana Wind Jacket` (MJ03)。
 1. 单击右上角的&#x200B;**[!UICONTROL Add Attribute]**。
 1. 在&#x200B;_选择属性_&#x200B;页面上，单击&#x200B;**[!UICONTROL Create New Attribute]**。
 1. 按如下方式填写属性属性：
@@ -72,7 +72,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 ### 步骤2：映射第一个产品
 
-1. 在产品设置页面上，向下滚动并展开&#x200B;_[!UICONTROL Attributes]_部分。
+1. 在产品设置页面上，向下滚动并展开&#x200B;_[!UICONTROL Attributes]_&#x200B;部分。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;字段中，输入要映射到此产品的SKU `MH01`。
 
    您可以在Search Keywords字段中输入多个以空格分隔的SKU。 在此示例中，只输入一个。
@@ -80,15 +80,15 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
    具有搜索关键字的![Attributes部分](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
-1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**并刷新&#x200B;**[!UICONTROL Page Cache]**。
+1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;并刷新&#x200B;**[!UICONTROL Page Cache]**。
 
 ### 步骤3：映射第二个产品
 
-1. 在&#x200B;_[!UICONTROL Products]_列表中，以编辑模式打开`Chaz Kangaroo Hoodie` (MH01)。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中，以编辑模式打开`Chaz Kangaroo Hoodie` (MH01)。
 1. 向下滚动并展开&#x200B;**[!UICONTROL Attributes]**&#x200B;部分。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;字段中，输入另一个产品`MJ03`的SKU。
 1. 单击&#x200B;**[!UICONTROL Save]**。
-1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**并刷新&#x200B;**[!UICONTROL Page Cache]**。
+1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;并刷新&#x200B;**[!UICONTROL Page Cache]**。
 
 ### 步骤4：在店面中测试
 

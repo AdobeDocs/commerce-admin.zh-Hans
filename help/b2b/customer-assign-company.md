@@ -59,13 +59,13 @@ ht-degree: 0%
 
 [!UICONTROL Customers grid]针对用户所分配到的每个公司显示单独的行。 将更新以下列。
 
-- _[!UICONTROL Customer Type]_列更新以显示分配给用户的角色。
+- _[!UICONTROL Customer Type]_&#x200B;列更新以显示分配给用户的角色。
 
-  如果这是首次将客户分配给公司，则&#x200B;_[!UICONTROL Customer Type]_列将从_[!UICONTROL Individual user]_&#x200B;更新为&#x200B;_[!UICONTROL Company User]_。
+  如果这是首次将客户分配给公司，则&#x200B;_[!UICONTROL Customer Type]_&#x200B;列将从&#x200B;_[!UICONTROL Individual user]_&#x200B;更新为&#x200B;_[!UICONTROL Company User]_。
 
-- _[!UICONTROL Group]_列将更改为分配给公司的客户组（或共享目录）的名称。
+- _[!UICONTROL Group]_&#x200B;列将更改为分配给公司的客户组（或共享目录）的名称。
 
-- _[!UICONTROL Company]_列显示现在与客户配置文件关联的公司的名称。
+- _[!UICONTROL Company]_&#x200B;列显示现在与客户配置文件关联的公司的名称。
 
 ## 将用户分配给一个或多个公司帐户
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Account Information]**。
 
@@ -83,11 +83,11 @@ ht-degree: 0%
 
 ## 从用户帐户中删除公司分配
 
-从用户配置文件中移除公司会撤销用户对该公司的访问权限。 用户数据仍可在Admin中访问。 如果删除所有公司分配，_[!UICONTROL Customer Type]_将更改为&#x200B;*[!UICONTROL Individual user]*禁用帐户的B2B功能。
+从用户配置文件中移除公司会撤销用户对该公司的访问权限。 用户数据仍可在Admin中访问。 如果删除所有公司分配，_[!UICONTROL Customer Type]_&#x200B;将更改为&#x200B;*[!UICONTROL Individual user]*&#x200B;禁用帐户的B2B功能。
 
 1. 在“管理员”的“客户”网格中，编辑要更新的客户配置文件。
 
-1. 在*[!UICONTROL Account Information]部分中，通过单击公司名称标签中的&#x200B;**[!UICONTROL X]**，从&#x200B;**[!UICONTROL Associate to Company]**&#x200B;字段中移除分配的公司。
+1. 在&#x200B;*[!UICONTROL Account Information]部分中，通过单击公司名称标签中的&#x200B;**[!UICONTROL X]**，从&#x200B;**[!UICONTROL Associate to Company]**&#x200B;字段中移除分配的公司。
 
 1. 单击&#x200B;**[!UICONTROL Save Customer]**&#x200B;应用更改。
 

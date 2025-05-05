@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 单击左侧面板中的&#x200B;**[!UICONTROL Newsletter]**。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    >
    >要批量取消订阅，请选中要取消的每个订阅者的复选框。
 
-1. 将&#x200B;_[!UICONTROL Action]_控件设置为&#x200B;**[!UICONTROL Unsubscribe]**并单击&#x200B;**[!UICONTROL Submit]**。
+1. 将&#x200B;_[!UICONTROL Action]_&#x200B;控件设置为&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;并单击&#x200B;**[!UICONTROL Submit]**。
 
    ![取消订阅新闻稿](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 导出订阅者列表
 
-1. 从&#x200B;_[!UICONTROL Newsletter Subscribers]_列表中，使用筛选器控件以仅包含_&#x200B;状态&#x200B;_为`Subscribed`的记录，以及相应的网站、商店或商店视图。
+1. 从&#x200B;_[!UICONTROL Newsletter Subscribers]_&#x200B;列表中，使用筛选器控件以仅包含_&#x200B;状态&#x200B;_为`Subscribed`的记录，以及相应的网站、商店或商店视图。
 
 1. 将&#x200B;**[!UICONTROL Export to]**&#x200B;控件设置为以下项之一：
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 
 1. 在网格中查找订户，然后选中第一列中的复选框。
 
-1. 将&#x200B;_[!UICONTROL Action]_控件设置为&#x200B;**[!UICONTROL Delete]**并单击&#x200B;**[!UICONTROL Submit]**。
+1. 将&#x200B;_[!UICONTROL Action]_&#x200B;控件设置为&#x200B;**[!UICONTROL Delete]**&#x200B;并单击&#x200B;**[!UICONTROL Submit]**。
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。

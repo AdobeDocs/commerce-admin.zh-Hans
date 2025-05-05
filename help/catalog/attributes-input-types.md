@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | 单行输入文本字段。 |
 | [!UICONTROL Text Area] | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器设置带有HTML标记的文本格式，或者直接在文本中输入标记。 |
 | [!UICONTROL Text Editor] | 属性位置处具有完整功能的文本编辑器。 |
-| [!UICONTROL Date] | 以[首选格式](#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意：_**根据您的系统配置，_管理员&#x200B;_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](#date-and-time-options)。 |
+| [!UICONTROL Date] | 以[首选格式](#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意：_**&#x200B;根据您的系统配置，_管理员&#x200B;_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](#date-and-time-options)。 |
 | [!UICONTROL Date and Time] | 以[首选格式](#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期和时间值。 日期和时间可以手动输入，也可以从日历中选择。 示例格式： MM/DD/YYYY HH：MM |
 | [!UICONTROL Yes/No] | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
 | 下拉列表 | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](../catalog/product-create-configurable.md)的关键组件。 |

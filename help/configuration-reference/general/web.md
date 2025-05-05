@@ -23,7 +23,7 @@ ht-degree: 0%
 | 字段 | 范围 | 描述 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | 全局 | 如果启用了Web服务器重写，则在URL中插入当前视图的存储代码。 选项： `Yes` / `No`。 <br />当此字段设置为`Yes`时，必须在浏览器URL中包含存储代码，以确保URL重写正确映射并且所有页面都成功打开。 这可避免&#x200B;_404页面未找到_&#x200B;错误。 |
-| [!UICONTROL Auto-redirect to Base URL] | 商店视图 | （对于单商店设置）如果您的网站上存在断开的链接，会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要提示：_**请勿在多商店设置中使用自动重定向到基本URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 商店视图 | （对于单商店设置）如果您的网站上存在断开的链接，会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要提示：_**&#x200B;请勿在多商店设置中使用自动重定向到基本URL。 |
 | [!UICONTROL Catalog media URL format] | 全局 | 定义分配给产品和类别的[URL格式](../../catalog/catalog-urls.md)。 选项：每个图像变体的唯一哈希值（旧模式）将转换的文件名定义为唯一哈希值。 基于查询参数的图像优化根据查询参数定义了[图像优化](../../content-design/media-gallery-image-optimization.md)进程。 |
 
 {style="table-layout:auto"}

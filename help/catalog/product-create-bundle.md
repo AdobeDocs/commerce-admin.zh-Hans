@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
 
    **选择现有类别：**
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ## 步骤5：添加捆绑项目
 
-_[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
+_[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
 
 为产品定义了![捆绑包项目](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ _[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型�
 
      >[!NOTE]
      >
-     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
+     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
 
      默认情况下，客户不能更改捆绑项目中包含的“默认数量”。 但是，客户可以输入要包括在捆绑中的物料数量。
 
@@ -283,7 +283,7 @@ _[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型�
 
 ![复选框](../assets/checkbox.png) SKU和权重可以是`Fixed`或`Dynamic`。
 
-![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
+![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
 
 ![复选框](../assets/checkbox.png)捆绑包项目可以一起发运或单独发运。
 

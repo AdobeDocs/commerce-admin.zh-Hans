@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 客户管理简介
 
-_[!UICONTROL Customers]_菜单提供对客户帐户管理工具的访问，并让您能够查看商店中的在线人员。
+_[!UICONTROL Customers]_&#x200B;菜单提供对客户帐户管理工具的访问，并让您能够查看商店中的在线人员。
 
 ![客户菜单](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 

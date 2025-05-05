@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 配置仪表板
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**并完成以下任何设置。
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;并完成以下任何设置。
 
 1. 配置完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 仪表板是管理员的默认[启动页面](../configuration-reference/advanced/admin.md)，但您可以配置其他启动页面。
 
-1. 如果尚未打开管理员配置选项，请在左侧导航面板的&#x200B;_[!UICONTROL Advanced]_下选择&#x200B;**[!UICONTROL Admin]**。
+1. 如果尚未打开管理员配置选项，请在左侧导航面板的&#x200B;_[!UICONTROL Advanced]_&#x200B;下选择&#x200B;**[!UICONTROL Admin]**。
 
 1. 单击以展开&#x200B;**启动页面**&#x200B;部分。
 

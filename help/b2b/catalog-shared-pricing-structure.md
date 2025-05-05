@@ -15,7 +15,7 @@ ht-degree: 0%
 
 设置共享目录的定价和结构需要两个步骤。 您在流程中的当前位置在页面顶部的进度条中以数字突出显示。 您可以随时通过单击进度条查看进程中的其他步骤。 例如，如果您正在处理自定义定价，则可能需要返回到产品选择页面以供参考。 只需单击页面顶部进度栏中的&#x200B;**[!UICONTROL Products]**，然后单击&#x200B;**[!UICONTROL Pricing]**&#x200B;即可返回自定义定价页面。 在此过程中，您的工作不会丢失。
 
-目录](./assets/shared-catalog-products-workspace.png){width="700" zoomable="yes"}中的![产品
+目录![&#128279;](./assets/shared-catalog-products-workspace.png){width="700" zoomable="yes"}中的产品
 
 在标准类别树中，根类别是最顶层的容器，在示例数据中称为&#x200B;_默认类别_。 但是，如果启用了共享目录，则类别树具有名为&#x200B;_根目录_&#x200B;的外部容器。 根目录包含系统中存在的所有其他类别结构。 有关详细信息，请参阅[目录范围](../catalog/introduction.md#catalog-scope)。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. 对于网格中的共享目录，转到&#x200B;_[!UICONTROL Action]_列并单击&#x200B;**[!UICONTROL Set Pricing and Structure]**。
+1. 对于网格中的共享目录，转到&#x200B;_[!UICONTROL Action]_&#x200B;列并单击&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
    ![设置共享目录的定价和结构](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 步骤3：设置自定义价格
 
-您可以单独为每个产品设置自定义定价，也可以使用&#x200B;_[!UICONTROL Action]_控件将自定义定价设置为多个产品记录的固定金额或百分比。
+您可以单独为每个产品设置自定义定价，也可以使用&#x200B;_[!UICONTROL Action]_&#x200B;控件将自定义定价设置为多个产品记录的固定金额或百分比。
 
 - **[!UICONTROL Fixed]**：指定最终产品价格。 例如，如果您输入的固定价格为$10.00，则相应公司的店面价格为$10.00。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Percentage]**：根据折扣百分比确定自定义价格。 例如，要提供10%的折扣，请将自定义价格类型设置为`Percentage`并输入`10`。 折扣的定制价格是原始产品价格的90%。
 
-若要为以下产品类型将折扣设置为固定金额或百分比，请在网格中使用&#x200B;_[!UICONTROL Custom Price]_列：
+若要为以下产品类型将折扣设置为固定金额或百分比，请在网格中使用&#x200B;_[!UICONTROL Custom Price]_&#x200B;列：
 
 - [简单](../catalog/product-create-simple.md)（包括可配置的产品变体）
 - [捆绑](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ ht-degree: 0%
 1. 使用以下方法之一选择要应用自定义定价的产品。
 
    - 使用类别树选择特定类别中的所有产品。
-   - 将标头中的&#x200B;_[!UICONTROL Mass Actions]_控件设置为`Select All`。
+   - 将标头中的&#x200B;_[!UICONTROL Mass Actions]_&#x200B;控件设置为`Select All`。
    - 选中各个产品的复选框。
 
    网格显示当前选定类别中的产品，您可以使用标准控件查找产品并筛选列表。
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Done]**。
 
-   在网格中，_[!UICONTROL Tier Price]_列的括号中显示了层数。
+   在网格中，_[!UICONTROL Tier Price]_&#x200B;列的括号中显示了层数。
 
    ![多个层](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -163,4 +163,4 @@ ht-degree: 0%
 
 自定义定价完成后，单击&#x200B;**[!UICONTROL Generate Catalog]**，然后单击&#x200B;**[!UICONTROL Save]**。
 
-共享目录现已保存到数据库。 其名称显示在&#x200B;_[!UICONTROL Products]_网格的_[!UICONTROL Shared Catalog]_&#x200B;列中。 下一步是[将共享目录分配给公司](./catalog-shared-assign-companies.md)。
+共享目录现已保存到数据库。 其名称显示在&#x200B;_[!UICONTROL Products]_&#x200B;网格的&#x200B;_[!UICONTROL Shared Catalog]_&#x200B;列中。 下一步是[将共享目录分配给公司](./catalog-shared-assign-companies.md)。

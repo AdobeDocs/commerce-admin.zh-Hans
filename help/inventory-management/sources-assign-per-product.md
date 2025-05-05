@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 要添加源，请单击&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_页面上，选中要为产品分配的每个源旁边的复选框。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;页面上，选中要为产品分配的每个源旁边的复选框。
 
    ![产品 — 分配源](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 

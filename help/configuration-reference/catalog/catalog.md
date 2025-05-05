@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Category URL Suffix] | 商店视图 | 确定是否将后缀（如html或htm）应用于类别URL。 如果使用后缀，请不要在后缀前添加句点，因为它会自动应用。 |
 | [!UICONTROL Use Categories Path for Product URLs] | 商店视图 | 确定店面的产品URL中是否包含类别路径。 这样做会导致多个URL指向同一页面，这可能会影响搜索排名。 若要了解更多信息，请参阅[Canonical meta标记](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 商店视图 | 确定每当URL键发生更改时是否自动创建永久重定向。 实施后，默认情况下会选中产品URL密钥字段下方的创建旧URL的自定义重定向复选框。 选项： `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 全局 | 确定Adobe Commerce在保存包含许多已分配产品的类别时，是否生成数据并将其保存到重写表中。  <br/><br/>更改此选项不会影响Adobe Commerce中产品URL的解析方式，因为无论此设置如何，系统都会自动解析产品URL。 <br/><br/>选项： `Yes` / `No` <br/><br/>**_重要信息：_**将此生成的数据保存到URL重写表中可能会降低性能。 有关详细信息，请参阅[自动产品重定向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 全局 | 确定Adobe Commerce在保存包含许多已分配产品的类别时，是否生成数据并将其保存到重写表中。  <br/><br/>更改此选项不会影响Adobe Commerce中产品URL的解析方式，因为无论此设置如何，系统都会自动解析产品URL。 <br/><br/>选项： `Yes` / `No` <br/><br/>**_重要信息：_**&#x200B;将此生成的数据保存到URL重写表中可能会降低性能。 有关详细信息，请参阅[自动产品重定向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
 | [!UICONTROL Apply transliteration for product URL] | 商店视图 | 确定在创建或更新产品URL时是否应用音译。 选项： `Yes` / `No`。 默认设置为`Yes`。 <br/><br/>对于某些用例，应禁用音译。 例如，如果您以中文经营在线商店，SEO最佳实践建议产品URL与产品名称匹配。 将选项设置为`No`可允许在产品URL中使用中文字符，而不是ASCII等效字符。 |
 | [!UICONTROL Page Title Separator] | 商店视图 | 标识用于分隔浏览器标题栏中类别名称和子类别的字符。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 商店视图 | 如果有多个URL指向同一类别页面，则此选项使用规范meta标记来标识搜索引擎应索引的类别URL。 URL包含使用meta标记的类别的全名。 这减少了重复内容并改善了SEO。 选项： `Yes` / `No` |
@@ -281,7 +281,7 @@ Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL OpenSearch HTTP Password] | 全局 | 当&#x200B;_启用Elasticsearch HTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或Elasticsearch HTTP身份验证的密码。 |
 | [!UICONTROL OpenSearch Server Timeout] | 全局 | 确定对OpenSearch或Elasticsearch服务器的请求超时之前的秒数。 默认值： `15` |
 | [!UICONTROL Test Connection] |  | 验证OpenSearch或Elasticsearch连接。 |
-| [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
+| [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
 | [!UICONTROL Search Recommendations Count] | 商店视图 | 指定作为推荐提供的搜索词的数量。 默认情况下，显示的数量不超过5个。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 商店视图 | 当设置为`Yes`时，为建议的搜索推荐找到的产品数显示在括号中。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 商店视图 | 确定是否显示搜索建议以查找常见的拼写错误。 启用后，将针对未返回任何结果且显示在&#x200B;**搜索结果**&#x200B;页面的`Did you mean`部分下的任何请求提供搜索建议。 搜索建议可能会影响搜索的性能。 当设置为`Yes`时，为“启用搜索推荐”和相关字段显示其他选项。 选项： `Yes` / `No` |
@@ -304,7 +304,7 @@ Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL Default Link Title] | 商店视图 | 所有可下载标题的默认链接。 |
 | [!UICONTROL Opens Links in New Window] | 网站 | 确定下载链接是否会在新的浏览器窗口中打开。 选项： `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 商店视图 | 确定指向可下载内容的链接在浏览器窗口中如何作为电子邮件附件或内联链接投放。 选项： <br/>**`Attachment`**— 下载链接作为电子邮件附件传送。<br/>**`Inline`** — 下载链接作为网页上的内联链接提供。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 网站 | 确定购买可下载产品的来宾是否必须注册帐户并登录才能完成结帐过程。 选项： <br/>**`Yes`**— 如果购物车包含可下载的产品，则访客必须注册帐户或登录到现有帐户才能完成购买。<br/>**`No`** — 下载链接作为电子邮件正文中的内联链接投放。 <br/> _**注意：**_&#x200B;仅当“可共享”设置为`Yes`时，才能对下载的产品进行访客签出。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 网站 | 确定购买可下载产品的来宾是否必须注册帐户并登录才能完成结帐过程。 选项： <br/>**`Yes`**— 如果购物车包含可下载的产品，则访客必须注册帐户或登录到现有帐户才能完成购买。<br/>**`No`** — 下载链接作为电子邮件正文中的内联链接投放。 <br/> _&#x200B;**注意：**&#x200B;_&#x200B;仅当“可共享”设置为`Yes`时，才能对下载的产品进行访客签出。 |
 
 {style="table-layout:auto"}
 

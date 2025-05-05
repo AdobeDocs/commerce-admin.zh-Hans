@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![购物车价格规则 — 目标客户区段](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**要将区段与购物车价格规则关联，请执行以下操作：**_
+_&#x200B;**要将区段与购物车价格规则关联，请执行以下操作：**&#x200B;_
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _促销活动_ > **[!UICONTROL Cart Price Rules]**。
 

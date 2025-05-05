@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，选择&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
-1. 在&#x200B;_[!UICONTROL Orders]_列表中，找到要发运的订单，然后单击以将其打开。
+1. 在&#x200B;_[!UICONTROL Orders]_&#x200B;列表中，找到要发运的订单，然后单击以将其打开。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Ship]**&#x200B;按钮。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 要让承运人生成装运标签，请选中&#x200B;**[!UICONTROL Create Shipping Label]**&#x200B;复选框并设置选项：
 
-   - 要添加跟踪编号，请向下滚动到&#x200B;_[!UICONTROL Shipping Information]_部分，然后单击&#x200B;**[!UICONTROL Add Tracking Number]**。
+   - 要添加跟踪编号，请向下滚动到&#x200B;_[!UICONTROL Shipping Information]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Add Tracking Number]**。
 
    - 执行以下操作之一：
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在列表中查找装运，然后单击以打开记录。
 
-1. 如果要向订单添加评论，请向下滚动到&#x200B;_[!UICONTROL Comments History]_部分，然后在框中输入评论。
+1. 如果要向订单添加评论，请向下滚动到&#x200B;_[!UICONTROL Comments History]_&#x200B;部分，然后在框中输入评论。
 
    - 要通过电子邮件将评论发送给客户，请选中&#x200B;**[!UICONTROL Notify Customer by Email]**&#x200B;复选框。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 在网格中查找装运订单，然后单击&#x200B;**[!UICONTROL View]**。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Shipping & Handling Information]_部分，然后单击&#x200B;**[!UICONTROL Track Order]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Shipping & Handling Information]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Track Order]**。
 
    任何可用的跟踪信息都会显示在弹出窗口中。
 

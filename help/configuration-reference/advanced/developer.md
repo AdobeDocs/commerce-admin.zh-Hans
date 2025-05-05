@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 全局 | 指定用于渲染图像的适配器。 更改适配器设置后，刷新目录图像缓存。 选项： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**只有ImageMagik适配器支持ICO文件类型。 |
+| [!UICONTROL Image Adapter] | 全局 | 指定用于渲染图像的适配器。 更改适配器设置后，刷新目录图像缓存。 选项： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**&#x200B;只有ImageMagik适配器支持ICO文件类型。 |
 
 {style="table-layout:auto"}
 

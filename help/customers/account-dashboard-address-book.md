@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
-1. 在&#x200B;_其他地址条目_&#x200B;下的&#x200B;_[!UICONTROL Address Book]_页面上，单击&#x200B;**[!UICONTROL Add New Address]**。
+1. 在&#x200B;_其他地址条目_&#x200B;下的&#x200B;_[!UICONTROL Address Book]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Add New Address]**。
 
    ![添加新地址](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 1. 选择下列编辑方法之一：
 
-   * 单击&#x200B;_[!UICONTROL Default Addresses]_部分中的&#x200B;**[!UICONTROL Change Billing/Shipping Address]**。
+   * 单击&#x200B;_[!UICONTROL Default Addresses]_&#x200B;部分中的&#x200B;**[!UICONTROL Change Billing/Shipping Address]**。
 
-   * 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Edit]**。
+   * 在&#x200B;_[!UICONTROL Additional Address Entries]_&#x200B;网格中单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 进行必要的更改，然后单击&#x200B;**[!UICONTROL Save Address]**。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 查找要删除的地址条目。
 
-1. 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Delete]**。
+1. 在&#x200B;_[!UICONTROL Additional Address Entries]_&#x200B;网格中单击&#x200B;**[!UICONTROL Delete]**。
 
 1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 

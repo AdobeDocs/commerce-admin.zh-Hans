@@ -246,7 +246,7 @@ ht-degree: 0%
 
    根据需要清除&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框以修改这些设置。
 
-   编辑特定商店视图时，_[!UICONTROL Enabled for Admin]_选项不可用。
+   编辑特定商店视图时，_[!UICONTROL Enabled for Admin]_&#x200B;选项不可用。
 
    ![高级配置 — 翻译内联](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

@@ -13,10 +13,10 @@ ht-degree: 0%
 # 订单状态
 
 所有订单都具有与订单处理[工作流](order-processing.md)中的阶段关联的订单状态。\
-顺序状态和顺序状态之间的区别在于&#x200B;**[!UICONTROL order states]**是以编程方式使用的。 他们不是
+顺序状态和顺序状态之间的区别在于&#x200B;**[!UICONTROL order states]**&#x200B;是以编程方式使用的。 他们不是
 对客户或管理员用户可见。 它们决定订单的流程，以及可以执行的操作
 按一定状态订购。\
-**[!UICONTROL Order statuses]**用于将订单的状态传达给客户和管理用户。
+**[!UICONTROL Order statuses]**&#x200B;用于将订单的状态传达给客户和管理用户。
 您可以创建附加订单状态以满足运营需求。 订单状态显示方便
 Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对订单没有任何影响
 正在处理工作流。\
@@ -76,13 +76,13 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对�
 
    ![创建新订单状态](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. 更新&#x200B;_[!UICONTROL Order Status Information]_部分：
+1. 更新&#x200B;_[!UICONTROL Order Status Information]_&#x200B;部分：
 
    - 输入&#x200B;**[!UICONTROL Status Code]**&#x200B;供内部引用。 第一个字符必须是字母(a-z)，其余字符可以是字母和数字(0-9)的任意组合。 请使用下划线字符而不是空格。
 
    - 对于&#x200B;**[!UICONTROL Status Label]**，请输入一个标签，该标签在管理员和店面中标识状态设置。
 
-1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_部分中，输入不同商店视图所需的任何标签。
+1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_&#x200B;部分中，输入不同商店视图所需的任何标签。
 
 1. 单击&#x200B;**[!UICONTROL Save Status]**。
 
@@ -116,7 +116,7 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对�
 
 ### 编辑现有订单状态
 
-1. 在&#x200B;_[!UICONTROL Order Status]_网格中，以编辑模式打开状态记录。
+1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;网格中，以编辑模式打开状态记录。
 
 1. 根据需要更新状态设置。
 
@@ -128,15 +128,15 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对�
 >
 >如果状态正在使用中，则无法从状态中取消分配状态设置。
 
-1. 在&#x200B;_[!UICONTROL Order Status]_网格中，找到要取消分配的订单状态记录。
+1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;网格中，找到要取消分配的订单状态记录。
 
-1. 在该行最右侧的&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL Unassign]**链接。
+1. 在该行最右侧的&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Unassign]**&#x200B;链接。
 
    工作区顶部将显示一条消息，表明订单状态已取消分配。 尽管订单状态标签仍显示在列表中，但不再将其分配给状态。 无法删除订单状态设置。
 
 >[!NOTE]
 >
->如果默认订单状态是从订单状态中取消分配的，则&#x200B;_**另一个**_&#x200B;订单状态是&#x200B;_**自动设置**_&#x200B;作为此订单状态的默认值。
+>如果默认订单状态是从订单状态中取消分配的，则&#x200B;_&#x200B;**另一个**&#x200B;_&#x200B;订单状态是&#x200B;_&#x200B;**自动设置**&#x200B;_&#x200B;作为此订单状态的默认值。
 
 ## 通知
 

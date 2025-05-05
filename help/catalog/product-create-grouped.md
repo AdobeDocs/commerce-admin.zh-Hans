@@ -119,11 +119,11 @@ ht-degree: 0%
 
 1. 要将它们添加到产品组，请单击&#x200B;**[!UICONTROL Add Selected Products]**。
 
-   选定的产品将显示在&#x200B;_[!UICONTROL Grouped Products]_部分中。
+   选定的产品将显示在&#x200B;_[!UICONTROL Grouped Products]_&#x200B;部分中。
 
    对于具有[Inventory management](../inventory-management/sources-stocks.md)的Multi Source商家，网格包含&#x200B;**[!UICONTROL Quantity per Source]**&#x200B;列，每个列都有分配的来源和库存库存量。
 
-   组](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}中的![产品
+   组![&#128279;](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}中的产品
 
 1. 为任何项目输入&#x200B;**[!UICONTROL Default Quantity]**。
 

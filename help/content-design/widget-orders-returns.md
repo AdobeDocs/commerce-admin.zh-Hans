@@ -37,7 +37,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中，执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Orders and Returns`。
 
@@ -45,7 +45,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
 1. 单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -57,7 +57,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
    - （可选）为&#x200B;**[!UICONTROL Sort Order]**&#x200B;输入一个数字，以确定该项在页面的同一部分中与其他项一起出现的顺序。 （`0` =第一，`1` =第二，`3` =第三，依此类推。）
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望小组件显示的页面类型。
 

@@ -56,13 +56,13 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
 
    +++CLI命令
 
-   运行以下CLI命令，并确保其完成时没有出现错误。 如果需要重新加密某些系统配置值或付款字段，请参阅&#x200B;_PHP开发指南_&#x200B;中有关重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption/)的详细[指南。
+   运行以下CLI命令，并确保其完成时没有出现错误。 如果需要重新加密某些系统配置值或付款字段，请参阅&#x200B;_PHP开发指南_&#x200B;中有关重新加密[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption/)的详细指南。
 
    ```bash
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++管理员设置
 
@@ -85,7 +85,7 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
       >
       >将新密钥的记录保存在安全位置。 如果文件发生任何问题，则需要解密数据。
 
-+++
+   +++
 
 1. 刷新缓存。
 

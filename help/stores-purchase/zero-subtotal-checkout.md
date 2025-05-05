@@ -30,7 +30,7 @@ _零小计结帐_&#x200B;可用于应用折扣后征税的零小计订单。 例
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_下，展开&#x200B;**[!UICONTROL Zero Subtotal Checkout]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;下，展开&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![零小计签出](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
@@ -52,12 +52,12 @@ _零小计结帐_&#x200B;可用于应用折扣后征税的零小计订单。 例
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL New Order Status]_设置为`Processing`且_[!UICONTROL Automatically Invoice All Items]_&#x200B;设置为`No`，则还必须为[订单状态](order-status.md#custom-order-status)页面上的&#x200B;**[!UICONTROL Order State]** = `Pending`和&#x200B;**[!UICONTROL Default Status]** = `No`映射分配&#x200B;**[!UICONTROL Order Status]** = `Processing`。
+   >如果&#x200B;_[!UICONTROL New Order Status]_&#x200B;设置为`Processing`且&#x200B;_[!UICONTROL Automatically Invoice All Items]_&#x200B;设置为`No`，则还必须为[订单状态](order-status.md#custom-order-status)页面上的&#x200B;**[!UICONTROL Order State]** = `Pending`和&#x200B;**[!UICONTROL Default Status]** = `No`映射分配&#x200B;**[!UICONTROL Order Status]** = `Processing`。
 
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. 对于&#x200B;**[!UICONTROL Sort Order]**，输入一个数字，该数字确定此项目在结帐期间显示的付款方法列表中的位置。
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 配置税分类
 
-在&#x200B;_[!UICONTROL Sales]_配置中设置[产品和客户](#add-a-product-tax-class)的纳税类别以及默认纳税类别。
+在&#x200B;_[!UICONTROL Sales]_&#x200B;配置中设置[产品和客户](#add-a-product-tax-class)的纳税类别以及默认纳税类别。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

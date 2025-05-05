@@ -43,7 +43,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >当对装运和路线和数据使用距离优先级算法时，对于装运的选定[计算模式](distance-priority-algorithm.md)（驾驶、骑车或行走），SSA默认使用Source优先级。 建议您同时为每个库存](stocks-prioritize-sources.md)的源设置[优先级。
+     >当对装运和路线和数据使用距离优先级算法时，对于装运的选定[计算模式](distance-priority-algorithm.md)（驾驶、骑车或行走），SSA默认使用Source优先级。 建议您同时为每个库存[&#128279;](stocks-prioritize-sources.md)的源设置优先级。
 
 
    - 对于&#x200B;**[!UICONTROL Select a Source to Ship from]**，请选择要发送装运的源。
@@ -54,9 +54,9 @@ ht-degree: 0%
 
      ![选择Source并输入数量](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. 查看&#x200B;_[!UICONTROL New Shipment]_页面，并根据需要输入任何其他更改。
+1. 查看&#x200B;_[!UICONTROL New Shipment]_&#x200B;页面，并根据需要输入任何其他更改。
 
-   _[!UICONTROL Inventory]_部分显示来源、产品装运、订购总数量和要装运的数量。
+   _[!UICONTROL Inventory]_&#x200B;部分显示来源、产品装运、订购总数量和要装运的数量。
 
    ![装运的库存详细信息，例如部分装运](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 装运
 
-_[!UICONTROL Shipments]_网格列出了已准备要装运的所有发票的装运记录。 当订单为[开票](invoices.md)或更高版本时，可以生成装运记录。
+_[!UICONTROL Shipments]_&#x200B;网格列出了已准备要装运的所有发票的装运记录。 当订单为[开票](invoices.md)或更高版本时，可以生成装运记录。
 
 Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且还提供[Inventory management](../inventory-management/introduction.md)和第三方扩展中的其他选项。
 
@@ -77,7 +77,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 单击&#x200B;**[!UICONTROL Ship]**。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_块并单击&#x200B;**[!UICONTROL Add Tracking Number]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;块并单击&#x200B;**[!UICONTROL Add Tracking Number]**。
 
 1. 设置&#x200B;**[!UICONTROL Carrier]**：
 
@@ -98,7 +98,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在编辑模式下查找并打开装运。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_块。
+1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;块。
 
 1. 选择&#x200B;**[!UICONTROL Carrier]**。
 
@@ -134,7 +134,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Sales]_下，选择&#x200B;**[!UICONTROL Sales Email]**。
+1. 在&#x200B;_[!UICONTROL Sales]_&#x200B;下，选择&#x200B;**[!UICONTROL Sales Email]**。
 
 1. 展开&#x200B;**装运注释**&#x200B;部分，并根据需要修改设置：
 
@@ -166,7 +166,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Shipments]**。
 
-   如果可以取消装运，则顶部按钮栏中会显示&#x200B;_[!UICONTROL Cancel Shipment]_作为选项。
+   如果可以取消装运，则顶部按钮栏中会显示&#x200B;_[!UICONTROL Cancel Shipment]_&#x200B;作为选项。
 
 1. 单击&#x200B;**[!UICONTROL Cancel Shipment]**。
 

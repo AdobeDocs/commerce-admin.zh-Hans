@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 重置客户密码
 
-客户通常通过单击&#x200B;_[!UICONTROL Forgot Your Password?]_从店面重置密码。 但是，存储管理员可以从管理员启动密码重置或强制登录。
+客户通常通过单击&#x200B;_[!UICONTROL Forgot Your Password?]_&#x200B;从店面重置密码。 但是，存储管理员可以从管理员启动密码重置或强制登录。
 
 | 函数 | 描述 |
 | --- | --- |

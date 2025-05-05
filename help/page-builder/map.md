@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 将鼠标悬停在地图容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-1. 在&#x200B;_[!UICONTROL Edit Map]_页面的右上角，单击&#x200B;**[!UICONTROL Add Location]**。
+1. 在&#x200B;_[!UICONTROL Edit Map]_&#x200B;页面的右上角，单击&#x200B;**[!UICONTROL Add Location]**。
 
 1. 输入要与地图上的pin关联的&#x200B;**[!UICONTROL Location Name]**。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新位置将显示在&#x200B;_[!UICONTROL Edit Map]_页上的地图和地图位置网格中。
+   新位置将显示在&#x200B;_[!UICONTROL Edit Map]_&#x200B;页上的地图和地图位置网格中。
 
    ![[!DNL Page Builder] — 映射位置网格](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 根据需要修改&#x200B;_[!UICONTROL Advanced]_设置：
+1. 根据需要修改&#x200B;_[!UICONTROL Advanced]_&#x200B;设置：
 
    - 要控制添加到容器的地图内容的水平位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 

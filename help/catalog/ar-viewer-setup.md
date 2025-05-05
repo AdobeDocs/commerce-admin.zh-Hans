@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >新产品3D模型在&#x200B;_所有_&#x200B;商店视图中都是&#x200B;_始终_&#x200B;已上传和可见的，即使未使用`All Store Views`范围进行上传。 <br/><br/>要从特定商店视图中隐藏任何产品3D模型，您必须切换到该商店视图，选中3D模型的&#x200B;**[!UICONTROL Hide from Product Page]**&#x200B;复选框，然后单击&#x200B;**[!UICONTROL Save]**。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Product 3D Model]_部分。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Product 3D Model]_&#x200B;部分。
 
    ![菜单弹出窗口](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 

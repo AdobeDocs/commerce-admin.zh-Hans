@@ -126,11 +126,11 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)已改进对超过10,000个项目的库存库存库存的管理。 以前，性能问题有时会阻止商家在启动其网站之前编辑管理员中的库存。<!--- MC-42643-->
 
-![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_&#x200B;部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修复问题](../assets/fix.svg) Adobe Commerce在贷项通知单由API更新后不再创建重复的产品预订。<!--- MC-41757-->
 
-![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_选项卡切换到_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
+![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;选项卡切换到&#x200B;_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
 
 ![已修复问题](../assets/fix.svg)可销售产品数量和库存产品数量现已正确同步。 以前，不会为已取消的订单重新创建库存预留补偿。<!--- MC-42485-->
 

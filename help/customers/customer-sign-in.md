@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 注销客户帐户
 
-1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_旁边的右上角，客户单击&#x200B;**[!UICONTROL v]**菜单选择器。
+1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_&#x200B;旁边的右上角，客户单击&#x200B;**[!UICONTROL v]**&#x200B;菜单选择器。
 
 1. 选择&#x200B;**[!UICONTROL Sign Out]**。
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 对于每个产品，您可以上传多个图像和视频，重新排列其顺序，并控制每个产品的使用方式。 如果要管理大量图像，您可能希望将它们作为批次导入，而不是单独上载每个图像。 有关详细信息，请参阅[导入产品映像](../systems/data-import-product-images.md)。
 
-如果您计划上载大型图像以供在&#x200B;_[!UICONTROL Product Details]_页面上查看，则可能需要考虑设置最大像素大小（宽度和高度），并在上载时自动调整文件大小。 有一个选项，可在您上传大型图像文件时自动调整其大小。 有关详细信息，请参阅[调整产品图像大小](product-image-config.md#product-image-resizing)。
+如果您计划上载大型图像以供在&#x200B;_[!UICONTROL Product Details]_&#x200B;页面上查看，则可能需要考虑设置最大像素大小（宽度和高度），并在上载时自动调整文件大小。 有一个选项，可在您上传大型图像文件时自动调整其大小。 有关详细信息，请参阅[调整产品图像大小](product-image-config.md#product-image-resizing)。
 
 ## 更新产品图像
 
@@ -26,7 +26,7 @@ ht-degree: 0%
    >
    >新产品图像是&#x200B;**_始终_**&#x200B;已上传并在&#x200B;**_所有_**&#x200B;商店视图中可见，即使未使用`All Store Views`范围进行上传。 <br/><br/>要从特定商店视图中隐藏任何产品图像，您必须切换到该商店视图，选中图像的&#x200B;**[!UICONTROL Hide from Product Page]**&#x200B;复选框，然后单击&#x200B;**[!UICONTROL Save]**。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_部分。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分。
 
 ### 上传图像
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 要上传图像，请执行以下操作之一：
 
-- 从桌面拖动图像，并将其放到&#x200B;_[!UICONTROL Images And Videos]_框中的_&#x200B;摄像机&#x200B;_（ ![摄像头图标](../assets/icon-camera.png) ）图块上。
+- 从桌面拖动图像，并将其放到&#x200B;_[!UICONTROL Images And Videos]_&#x200B;框中的_&#x200B;摄像机&#x200B;_（ ![摄像头图标](../assets/icon-camera.png) ）图块上。
 
-- 在&#x200B;_[!UICONTROL Images And Videos]_框中，单击_&#x200B;照相机&#x200B;_（![照相机图标](../assets/icon-camera.png) ）拼贴，选择计算机上的图像文件，然后单击&#x200B;**[!UICONTROL Open]**。
+- 在&#x200B;_[!UICONTROL Images And Videos]_&#x200B;框中，单击_&#x200B;照相机&#x200B;_（![照相机图标](../assets/icon-camera.png) ）拼贴，选择计算机上的图像文件，然后单击&#x200B;**[!UICONTROL Open]**。
 
   ![上载或拖放](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 重新排列图像
 
-要更改图库中图像的顺序，请单击图像拼贴底部的&#x200B;_[!UICONTROL Sort]_（![排序图标](./assets/inventory-icon-sort.png) ）图标，并将图像拖到_[!UICONTROL Images And Videos]_&#x200B;框中的其他位置。
+要更改图库中图像的顺序，请单击图像拼贴底部的&#x200B;_[!UICONTROL Sort]_（![排序图标](./assets/inventory-icon-sort.png) ）图标，并将图像拖到&#x200B;_[!UICONTROL Images And Videos]_&#x200B;框中的其他位置。
 
 ![更改顺序](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 图像替换文本被屏幕阅读器引用，以改进Web辅助功能，并且在为网站编制索引时，被搜索引擎引用。 某些浏览器会在鼠标悬停时显示替换文字。 替换文本可以是多个字长，并包含仔细选择的关键字。
 
-在&#x200B;_[!UICONTROL Alt Text]_框中，输入映像的简要说明。
+在&#x200B;_[!UICONTROL Alt Text]_&#x200B;框中，输入映像的简要说明。
 
 #### 分配角色
 
 默认情况下，所有角色都会分配给上传到产品的第一个图像。 要将角色重新分配给另一个图像，请执行以下操作：
 
-在&#x200B;_[!UICONTROL Role]_框中，选择要分配给图像的角色。
+在&#x200B;_[!UICONTROL Role]_&#x200B;框中，选择要分配给图像的角色。
 
 当您返回&#x200B;_图像和视频_&#x200B;部分时，当前分配的角色将显示在每个图像的下方。
 
@@ -113,9 +113,9 @@ ht-degree: 0%
 
    有关设计配置的更多信息，请参阅[设计配置](../content-design/configuration.md)。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开&#x200B;**[!UICONTROL Product Image Watermarks]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开&#x200B;**[!UICONTROL Product Image Watermarks]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![产品图像水印 — Base](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

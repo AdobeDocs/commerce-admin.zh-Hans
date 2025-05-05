@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品工作区
 
-所有产品类型的产品工作区基本上相同，尽管字段选择会根据使用的属性集而发生更改。 产品属性位于表单顶部，其后是产品信息的可展开部分。 首次保存新产品时，_[!UICONTROL Store View]_选择器将显示在表单的左上角。
+所有产品类型的产品工作区基本上相同，尽管字段选择会根据使用的属性集而发生更改。 产品属性位于表单顶部，其后是产品信息的可展开部分。 首次保存新产品时，_[!UICONTROL Store View]_&#x200B;选择器将显示在表单的左上角。
 
 ![产品工作区](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save]菜单
 
-_[!UICONTROL Save]_菜单包含多个选项，可让您保存并继续、保存并创建产品、保存并复制产品，或者保存并关闭。
+_[!UICONTROL Save]_&#x200B;菜单包含多个选项，可让您保存并继续、保存并创建产品、保存并复制产品，或者保存并关闭。
 
 ![保存菜单](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ _[!UICONTROL Save]_菜单包含多个选项，可让您保存并继续、保存�
 | [!UICONTROL Save] | 保存当前产品并继续工作。 |
 | [!UICONTROL Save & New] | 保存并关闭当前产品，然后基于相同的产品类型和模板开始新产品。 |
 | [!UICONTROL Save & Duplicate] | 保存并关闭当前产品，然后打开新的重复副本。 |
-| [!UICONTROL Save & Close] | 保存当前产品并返回&#x200B;_[!UICONTROL Products]_工作区。 |
+| [!UICONTROL Save & Close] | 保存当前产品并返回&#x200B;_[!UICONTROL Products]_&#x200B;工作区。 |
 
 {style="table-layout:auto"}
 

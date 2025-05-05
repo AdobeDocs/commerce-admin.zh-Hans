@@ -30,7 +30,7 @@ ht-degree: 0%
 
    具有“另存为模板”按钮的![[!DNL Page Builder]阶段](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   此操作显示&#x200B;_[!UICONTROL Save Content as Template]_对话框。
+   此操作显示&#x200B;_[!UICONTROL Save Content as Template]_&#x200B;对话框。
 
    ![[!DNL Page Builder]另存为模板对话框](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![[!DNL Page Builder]“应用模板”按钮](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. 从&#x200B;_[!UICONTROL Apply Template]_网格中选择一个模板，然后单击行末的&#x200B;**[!UICONTROL Apply]**。
+1. 从&#x200B;_[!UICONTROL Apply Template]_&#x200B;网格中选择一个模板，然后单击行末的&#x200B;**[!UICONTROL Apply]**。
 
    要查看整个模板，可以单击模板缩略图图像。 此操作将展开图像，以便您根据需要查看整个模板。
 

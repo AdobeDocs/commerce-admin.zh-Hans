@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Purchase Orders]
 
-当为公司](purchase-order-flow.md)启用采购订单时，[客户登录到公司用户帐户的任何订单都会自动创建为采购订单(PO)。 具有所需权限的公司用户可以创建、编辑和删除他们创建的PO，以及下属用户创建的PO。
+当为公司[&#128279;](purchase-order-flow.md)启用采购订单时，客户登录到公司用户帐户的任何订单都会自动创建为采购订单(PO)。 具有所需权限的公司用户可以创建、编辑和删除他们创建的PO，以及下属用户创建的PO。
 
 ![我的采购订单](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 1. 遵循正常的签出工作流并单击&#x200B;**[!UICONTROL Place Purchase Order]**。
 
-如果在单击&#x200B;_[!UICONTROL Add Items to Shopping Cart]_时购物车中有商品，系统将显示一个对话框。 通过此对话框，他们可以选择将购物车项目与新项目合并，还是将购物车中的项目替换为PO中的项目。
+如果在单击&#x200B;_[!UICONTROL Add Items to Shopping Cart]_&#x200B;时购物车中有商品，系统将显示一个对话框。 通过此对话框，他们可以选择将购物车项目与新项目合并，还是将购物车中的项目替换为PO中的项目。
 
 如果不再需要原始采购订单，则可以将其关闭。
 
 ## 采购订单审批
 
-对于根据公司结构或分配的公司角色指定为批准者的客户，_[!UICONTROL My Purchase Orders]_仪表板页面显示&#x200B;**[!UICONTROL Requires My Approval]**选项卡。 客户单击此标签可复查等待其批准的PO。 计数器显示等待批准的订单数。
+对于根据公司结构或分配的公司角色指定为批准者的客户，_[!UICONTROL My Purchase Orders]_&#x200B;仪表板页面显示&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;选项卡。 客户单击此标签可复查等待其批准的PO。 计数器显示等待批准的订单数。
 
 在单击采购订单的&#x200B;**[!UICONTROL View]**&#x200B;并查看详细信息后，审批者可以单击&#x200B;**[!UICONTROL Approve]**&#x200B;或&#x200B;**[!UICONTROL Reject]**。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 从Adobe Commerce 2.4.1开始，审批者可以同时批准或拒绝多个采购订单。
 
-1. 在&#x200B;_[!UICONTROL My Purchase Order]_页面上，单击&#x200B;**[!UICONTROL Requires My Approval]**选项卡。
+1. 在&#x200B;_[!UICONTROL My Purchase Order]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;选项卡。
 
 1. 选中要批准或拒绝的每个采购订单的复选框。
 

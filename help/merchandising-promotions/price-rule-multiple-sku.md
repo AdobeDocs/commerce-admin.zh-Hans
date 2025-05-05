@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
-1. 在&#x200B;_[!UICONTROL Attribute Code]_列顶部的搜索筛选器中，输入`sku`并单击&#x200B;**[!UICONTROL Search]**。
+1. 在&#x200B;_[!UICONTROL Attribute Code]_&#x200B;列顶部的搜索筛选器中，输入`sku`并单击&#x200B;**[!UICONTROL Search]**。
 
 1. 单击以在编辑模式下打开`sku`属性。
 

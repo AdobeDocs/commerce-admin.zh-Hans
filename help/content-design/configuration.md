@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
    页面将显示商店视图的当前设计设置。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    >您可以为要指定的设备添加任意数量的规则。 搜索字符串按输入顺序进行匹配。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开每个部分并按照链接的主题中的说明根据需要编辑设置。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开每个部分并按照链接的主题中的说明根据需要编辑设置。
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

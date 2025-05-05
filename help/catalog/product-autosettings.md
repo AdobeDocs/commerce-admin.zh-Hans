@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-_[!UICONTROL Autosettings]_部分包含作为其他操作的依赖项的任何属性。 您可以根据需要将默认[RMA配置](../stores-purchase/rma-configure.md)设置应用于产品或覆盖它。
+_[!UICONTROL Autosettings]_&#x200B;部分包含作为其他操作的依赖项的任何属性。 您可以根据需要将默认[RMA配置](../stores-purchase/rma-configure.md)设置应用于产品或覆盖它。
 
 ![自动设置](./assets/product-autosettings.png){width="600" zoomable="yes"}

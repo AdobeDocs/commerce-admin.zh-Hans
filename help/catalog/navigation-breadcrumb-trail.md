@@ -48,11 +48,11 @@ _痕迹导航路径_&#x200B;是一组链接，用于显示客户相对于商店�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
    ![显示CMS页面的痕迹导航](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;_[!UICONTROL Default Pages]_部分。
+1. 展开&#x200B;_[!UICONTROL Default Pages]_&#x200B;部分。
 
 1. 取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框。
 

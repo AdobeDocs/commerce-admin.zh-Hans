@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Configurations]
 
-_[!UICONTROL Configurations]_部分列出了产品的所有现有变体，并可用于生成变体以用于可配置产品类型。 有关详细信息，请参阅[可配置产品](product-create-configurable.md)。
+_[!UICONTROL Configurations]_&#x200B;部分列出了产品的所有现有变体，并可用于生成变体以用于可配置产品类型。 有关详细信息，请参阅[可配置产品](product-create-configurable.md)。
 
 ![配置节](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

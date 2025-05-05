@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` — 根据动态订单金额值确定已发生转换。
    - `Constant` — 根据输入的特定值确定已发生转换。
 
-   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;_[!UICONTROL Order Amount]_输入特定的&#x200B;**[!UICONTROL Value]**以限定为转换。
+   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;_[!UICONTROL Order Amount]_&#x200B;输入特定的&#x200B;**[!UICONTROL Value]**&#x200B;以限定为转换。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

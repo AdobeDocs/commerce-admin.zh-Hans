@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Design]
 
-_[!UICONTROL Design]_设置允许将不同的主题应用于产品页面，更改列布局，确定产品选项出现的位置，并输入自定义XML代码。
+_[!UICONTROL Design]_&#x200B;设置允许将不同的主题应用于产品页面，更改列布局，确定产品选项出现的位置，并输入自定义XML代码。
 
 ![设计](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->将同一产品分配给多个类别时，每个类别的设计设置不同，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**[!UICONTROL Use Categories Path for Product URLs]** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**并在左侧面板中选择&#x200B;**[!UICONTROL Catalog]**，然后展开页面上的&#x200B;**[!UICONTROL Search Engine Optimization]**部分。
+>将同一产品分配给多个类别时，每个类别的设计设置不同，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**[!UICONTROL Use Categories Path for Product URLs]** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在左侧面板中选择&#x200B;**[!UICONTROL Catalog]**，然后展开页面上的&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;部分。
 
 | 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |---|---|----|

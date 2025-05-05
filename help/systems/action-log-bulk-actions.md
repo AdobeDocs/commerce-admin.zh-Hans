@@ -40,4 +40,4 @@ ht-degree: 0%
 
 1. 在日志中找到所需的操作。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL Details]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Details]**。

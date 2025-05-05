@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，查找&#x200B;**[!UICONTROL Privacy Policy]**。 然后，在&#x200B;_[!UICONTROL Action]_列中单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，查找&#x200B;**[!UICONTROL Privacy Policy]**。 然后，在&#x200B;_[!UICONTROL Action]_&#x200B;列中单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
 
    >[!NOTE]
    >

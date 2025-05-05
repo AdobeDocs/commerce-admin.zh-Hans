@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用&#x200B;_分配源_&#x200B;工具向产品添加一个或多个源。 在创建和将自定义来源分配给默认库存或自定义库存以及准备新位置和库存时，该工具很有帮助。
 
-添加新的自定义源后，您可以通过管理员或使用[导入功能](inventory-import-export.md)为每个产品](quantities-assign-per-product.md)或多个产品添加[库存数量。
+添加新的自定义源后，您可以通过管理员或使用[导入功能](inventory-import-export.md)为每个产品[&#128279;](quantities-assign-per-product.md)或多个产品添加库存数量。
 
 ![为所选产品添加库存源](assets/inventory-bulk-assign-sources.gif)
 

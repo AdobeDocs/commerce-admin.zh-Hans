@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Gift Options]
 
-在&#x200B;_[!UICONTROL Gift Options]_部分中，您可以在产品层级结帐时设置礼品消息和礼品包装选项。 要覆盖默认配置设置，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**复选框。
+在&#x200B;_[!UICONTROL Gift Options]_&#x200B;部分中，您可以在产品层级结帐时设置礼品消息和礼品包装选项。 要覆盖默认配置设置，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;复选框。
 
 ![礼品选项](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Gift Options]_部分，然后执行以下操作：
+1. 向下滚动并展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Gift Options]_&#x200B;部分，然后执行以下操作：
 
    - 要覆盖默认设置，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;复选框。
 

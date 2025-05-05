@@ -28,9 +28,9 @@ ht-degree: 0%
 
    ![插入图像图标](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_对话框。
+   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;对话框。
 
-1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左侧的目录树中，执行以下操作之一：
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在[编辑器](editor.md)工具栏上，单击&#x200B;_插入图像_&#x200B;图标。
 
-1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![选择搜索图标](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

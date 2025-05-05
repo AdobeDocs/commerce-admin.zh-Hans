@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （![关闭全屏图标](./assets/pb-icon-reduce.png)）图标。
 
-   单击此图标会返回块的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回块的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 返回[!DNL Commerce]管理员并转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -102,11 +102,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，查找您在第一个教程中创建的&#x200B;_[!UICONTROL Simple Page]_，并在_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，查找您在第一个教程中创建的&#x200B;_[!UICONTROL Simple Page]_，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，然后单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或内容预览区域内。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**占位符拖到舞台顶部。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**&#x200B;占位符拖到舞台顶部。
 
    ![将行添加到舞台顶部](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （![关闭全屏图标](./assets/pb-icon-reduce.png)）图标。
 
-   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -172,17 +172,17 @@ ht-degree: 0%
 
 ### 第2步：完成设置
 
-向下滚动到&#x200B;_[!UICONTROL Content]_部分（显示空的[!DNL Page Builder]内容预览），然后单击&#x200B;**[!UICONTROL Edit with Page Builder]**。 然后，完成以下任务：
+向下滚动到&#x200B;_[!UICONTROL Content]_&#x200B;部分（显示空的[!DNL Page Builder]内容预览），然后单击&#x200B;**[!UICONTROL Edit with Page Builder]**。 然后，完成以下任务：
 
 **任务1：**&#x200B;添加背景图像
 
 1. 将鼠标悬停在行容器上以显示工具箱，然后选择&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-1. 在&#x200B;_[!UICONTROL Appearance]_下，选择&#x200B;**[!UICONTROL Full Bleed]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;下，选择&#x200B;**[!UICONTROL Full Bleed]**。
 
 1. 对于&#x200B;**[!UICONTROL Minimum Height]**，输入`400px`。
 
-1. 滚动到&#x200B;_[!UICONTROL Background]_部分，并单击&#x200B;**[!UICONTROL Select from Gallery]**并选择第一个教程中上传的`wide-banner-background.png`图像来设置&#x200B;**[!UICONTROL Background Image]**。
+1. 滚动到&#x200B;_[!UICONTROL Background]_&#x200B;部分，并单击&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;并选择第一个教程中上传的`wide-banner-background.png`图像来设置&#x200B;**[!UICONTROL Background Image]**。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
@@ -190,7 +190,7 @@ ht-degree: 0%
 
 **任务2：**&#x200B;添加列
 
-在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**占位符拖到行上。
+在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**&#x200B;占位符拖到行上。
 
 ![将列类型拖入行](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （![关闭全屏图标](./assets/pb-icon-reduce.png)）图标。
 
-   单击此图标会返回动态块的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回动态块的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -298,7 +298,7 @@ ht-degree: 0%
 
    要确认从页面中删除该行，请单击&#x200B;**[!UICONTROL OK]** 。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将新的&#x200B;**[!UICONTROL Row]**占位符拖到舞台顶部。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将新的&#x200B;**[!UICONTROL Row]**&#x200B;占位符拖到舞台顶部。
 
 1. 在[!DNL Page Builder]面板中，展开&#x200B;**[!UICONTROL Add Content]**&#x200B;并将&#x200B;**[!UICONTROL Dynamic Block]**&#x200B;占位符拖到新行中。
 
@@ -308,11 +308,11 @@ ht-degree: 0%
 
    ![动态块工具箱](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Edit Dynamic Block]_页面上，单击&#x200B;**[!UICONTROL Select Dynamic Block]**。
+1. 在&#x200B;_[!UICONTROL Edit Dynamic Block]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Select Dynamic Block]**。
 
    ![选择动态块](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. 查找您创建的&#x200B;_[!DNL Tee Shirt Promo]_动态块，然后单击&#x200B;**[!UICONTROL Select]**。
+1. 查找您创建的&#x200B;_[!DNL Tee Shirt Promo]_&#x200B;动态块，然后单击&#x200B;**[!UICONTROL Select]**。
 
    下面显示了动态块信息的摘要。
 
@@ -326,7 +326,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （![关闭全屏图标](./assets/pb-icon-reduce.png)）图标。
 
-   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**。
 
-1. 在网格中查找您的&#x200B;_[!DNL Tee Shirt Promo]_动态块，并在编辑模式下将其打开。
+1. 在网格中查找您的&#x200B;_[!DNL Tee Shirt Promo]_&#x200B;动态块，并在编辑模式下将其打开。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;部分并单击&#x200B;**[!UICONTROL Edit with Page Builder]**。
 
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （![关闭全屏图标](./assets/pb-icon-reduce.png)）图标。
 
-   单击此图标会返回动态块的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回动态块的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**。
 

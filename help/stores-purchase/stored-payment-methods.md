@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Place Order]**。
 
-然后，已保存的付款方法将显示在客户仪表板的&#x200B;_[!UICONTROL Stored Payment Methods]_选项卡中。
+然后，已保存的付款方法将显示在客户仪表板的&#x200B;_[!UICONTROL Stored Payment Methods]_&#x200B;选项卡中。
 
 ## 删除存储的支付方式
 

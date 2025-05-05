@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**。
 
-1. 在编辑模式下打开股票并导航到&#x200B;_[!UICONTROL Sources]_区域。
+1. 在编辑模式下打开股票并导航到&#x200B;_[!UICONTROL Sources]_&#x200B;区域。
 
 1. 单击&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_视图中，选中所需源的复选框，然后单击&#x200B;**[!UICONTROL Done]**将源分配给库存。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;视图中，选中所需源的复选框，然后单击&#x200B;**[!UICONTROL Done]**&#x200B;将源分配给库存。
 
 >[!NOTE]
 >

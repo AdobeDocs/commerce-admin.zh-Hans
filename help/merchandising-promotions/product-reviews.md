@@ -42,7 +42,7 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 
 ### [!UICONTROL My Product Reviews]
 
-客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
+客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_&#x200B;部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
 
 ![我的产品评价](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Commerce产品审阅功能默认处于启用状态。
 
    ![管理员 — 评级](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Rating Title]_部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
+1. 在&#x200B;_[!UICONTROL Rating Title]_&#x200B;部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
 
    如果适用，还应输入每个商店视图的翻译。
 

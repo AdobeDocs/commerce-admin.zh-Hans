@@ -36,7 +36,7 @@ ht-degree: 0%
 
 如果编辑默认Source，则可以编辑所有配置，但名称和代码除外。 建议单个来源商家添加与其位置匹配的信息。
 
-_[!UICONTROL Manage Sources]_页面列出了所有可用的库存库位和履行设施。 您可以添加新的清单来源并编辑现有位置。
+_[!UICONTROL Manage Sources]_&#x200B;页面列出了所有可用的库存库位和履行设施。 您可以添加新的清单来源并编辑现有位置。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**。
 

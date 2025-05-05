@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 在网格中查找顺序，然后单击&#x200B;**[!UICONTROL View]**。
 
-1. 如果&#x200B;_[!UICONTROL Credit Memo]_按钮在按钮栏中可见，请执行以下操作之一：
+1. 如果&#x200B;_[!UICONTROL Credit Memo]_&#x200B;按钮在按钮栏中可见，请执行以下操作之一：
 
    - 要发放`offline`退款，请转到第#6步。
    - 要发放`online`退款，请继续执行步骤#4。

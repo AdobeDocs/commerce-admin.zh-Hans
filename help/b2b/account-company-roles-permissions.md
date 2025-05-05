@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 输入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在&#x200B;_[!UICONTROL Role Permissions]_下，执行下列操作之一：
+1. 在&#x200B;_[!UICONTROL Role Permissions]_&#x200B;下，执行下列操作之一：
 
    - 选中分配了角色的用户有权访问的每个资源或活动的复选框。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 修改角色
 
-1. 对于要修改的角色，公司管理员单击&#x200B;_[!UICONTROL Actions]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 对于要修改的角色，公司管理员单击&#x200B;_[!UICONTROL Actions]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 对名称和权限设置进行必要的更改。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 复制角色
 
-1. 对于要复制的角色，公司管理员单击&#x200B;_[!UICONTROL Actions]_列中的&#x200B;**[!UICONTROL Duplicate]**。
+1. 对于要复制的角色，公司管理员单击&#x200B;_[!UICONTROL Actions]_&#x200B;列中的&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 对名称和权限设置进行必要的更改。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    只能删除未分配用户的角色。
 
-1. 单击&#x200B;_[!UICONTROL Actions]_列中的&#x200B;**[!UICONTROL Delete]**。
+1. 单击&#x200B;_[!UICONTROL Actions]_&#x200B;列中的&#x200B;**[!UICONTROL Delete]**。
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 

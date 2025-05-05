@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-   您可以使用网格上方的&#x200B;_[!UICONTROL Columns]_选择器来显示&#x200B;**[!UICONTROL Status]**列。
+   您可以使用网格上方的&#x200B;_[!UICONTROL Columns]_&#x200B;选择器来显示&#x200B;**[!UICONTROL Status]**&#x200B;列。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL Edit]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 将&#x200B;**[!UICONTROL Company Status]**&#x200B;设置为`Active`。
 

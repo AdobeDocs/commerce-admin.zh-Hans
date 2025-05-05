@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-客户帐户仪表板的&#x200B;_[!UICONTROL Store Credit]_页列出了可用于将来购买的退货和退款的金额。 客户还可以从礼品卡中兑换价值。
+客户帐户仪表板的&#x200B;_[!UICONTROL Store Credit]_&#x200B;页列出了可用于将来购买的退货和退款的金额。 客户还可以从礼品卡中兑换价值。
 
 ![客户商店积分](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 
 1. 如果商店积分可用，则客户单击&#x200B;**使用商店积分**。
 
-1. 如果客户改变了对使用商店积分的想法，请单击&#x200B;_[!UICONTROL Order Summary]_部分中的&#x200B;**[!UICONTROL Remove]**。
+1. 如果客户改变了对使用商店积分的想法，请单击&#x200B;_[!UICONTROL Order Summary]_&#x200B;部分中的&#x200B;**[!UICONTROL Remove]**。

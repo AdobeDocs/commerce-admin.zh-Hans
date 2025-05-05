@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![计划为新更新](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. 向下滚动到&#x200B;_[!UICONTROL Price]_并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Price]_&#x200B;并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在计划的营销活动期间输入产品的&#x200B;**[!UICONTROL Special Price]**，然后单击&#x200B;**[!UICONTROL Done]**。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 编辑计划的更改
 
-1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_框中，单击&#x200B;**[!UICONTROL View/Edit]**。
+1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框中，单击&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 对计划更新进行任何必要的更改。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 删除计划的更改
 
-1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_框中，单击&#x200B;**[!UICONTROL View/Edit]**。
+1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框中，单击&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 单击顶部栏上的&#x200B;**[!UICONTROL Remove from Update]**。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Schedule Design Update]_部分允许您对产品页面的外观进行临时更改。 您可以安排在某一季节、促销活动中进行设计更改，也可以只进行更改以更新内容。 设计更改可以提前计划，以便按照您定义的计划生效，即_&#x200B;放置&#x200B;_。
+_[!UICONTROL Schedule Design Update]_&#x200B;部分允许您对产品页面的外观进行临时更改。 您可以安排在某一季节、促销活动中进行设计更改，也可以只进行更改以更新内容。 设计更改可以提前计划，以便按照您定义的计划生效，即_&#x200B;放置&#x200B;_。
 
 ![计划的设计更新](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

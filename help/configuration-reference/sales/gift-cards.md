@@ -38,7 +38,7 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | 全局 | 确定礼品卡的持有人是否可以将其价值兑换为现金。 选项： `Yes` / `No`。 |
-| [!UICONTROL Lifetime (days)] | 全局 | 确定卡的有效天数。 如果留空，卡不会过期。 <br/><br/>**_重要信息：_**在某些地方，在礼品卡上设置到期数据是非法的。 在为礼品卡设置生命周期之前，请查看您当地的法律。 |
+| [!UICONTROL Lifetime (days)] | 全局 | 确定卡的有效天数。 如果留空，卡不会过期。 <br/><br/>**_重要信息：_**&#x200B;在某些地方，在礼品卡上设置到期数据是非法的。 在为礼品卡设置生命周期之前，请查看您当地的法律。 |
 | [!UICONTROL Allow Gift Message] | 商店视图 | 确定购买礼品卡的客户是否可以选择包括礼品消息。 选项： `Yes` / `No`。 |
 | [!UICONTROL Gift Message Maximum Length] | 商店视图 | 确定礼品卡消息中允许的最大字符数。 默认值：255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 全局 | 确定客户下订单时是否生成礼品卡帐户，或是否对订单开票。 选项： `Ordered` / `Invoiced` |

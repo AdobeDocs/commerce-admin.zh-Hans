@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 批准规则设置
 
-具有其角色](account-company-roles-permissions.md)所需的[权限，B2B客户可以通过单击其客户帐户的左侧面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;来设置批准规则以强制执行公司策略。
+具有其角色[&#128279;](account-company-roles-permissions.md)所需的权限，B2B客户可以通过单击其客户帐户的左侧面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;来设置批准规则以强制执行公司策略。
 
 ![公司审批规则](./assets/approval-rules.png){width="700" zoomable="yes"}
 

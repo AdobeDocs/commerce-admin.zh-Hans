@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 将客户组分配给公司
 
-将客户组分配给公司基本上与分配共享目录相同。 如果配置](enable-basic-features.md)中未启用[共享目录，则会将客户组（而不是共享目录）分配给公司。
+将客户组分配给公司基本上与分配共享目录相同。 如果配置[&#128279;](enable-basic-features.md)中未启用共享目录，则会将客户组（而不是共享目录）分配给公司。
 
 - 一次只能将一个客户组或共享目录分配给公司。 无法删除与共享目录关联的客户组。
 - 更改分配给公司的客户组将更新所有公司成员的配置文件。
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
    ![编辑公司](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 

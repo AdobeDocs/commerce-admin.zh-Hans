@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_的升序排序。
+>按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_&#x200B;的升序排序。
 
 ![产品显示为网格](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若要根据&#x200B;_产品按价格排序_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**值。 对于_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
+   >若要根据&#x200B;_产品按价格排序_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 对于&#x200B;_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
 
 1. 将默认&#x200B;**[!UICONTROL List Mode]**&#x200B;设置为以下项之一：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 | 控件 | 描述 |
 |--- |--- |
 | ![显示网格](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] — 以Grid或List格式显示列表。 |
-| ![排序方式](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 更改列表的排序顺序。 _[!UICONTROL Used for Sorting in Product Listing]_storefront属性确定哪些[产品属性](../catalog/product-attributes.md)可用于对列表进行排序。 |
+| ![排序方式](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 更改列表的排序顺序。 _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront属性确定哪些[产品属性](../catalog/product-attributes.md)可用于对列表进行排序。 |
 | 每页![显示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] — 确定每页显示的产品数。 |
 | ![分页链接](./assets/control-pagination.png) | 分页链接 — 导航到其他页面的链接。 |
 

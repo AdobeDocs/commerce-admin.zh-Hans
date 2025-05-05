@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 类别 — 搜索引擎优化设置
 
-_[!UICONTROL Search Engine Optimization]_部分指定搜索引擎用于索引类别的[URL键](catalog-urls.md)和[元数据](../merchandising-promotions/meta-data.md)字段。 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前的SEO最佳实践是在元标题和元描述中并入高值关键字。
+_[!UICONTROL Search Engine Optimization]_&#x200B;部分指定搜索引擎用于索引类别的[URL键](catalog-urls.md)和[元数据](../merchandising-promotions/meta-data.md)字段。 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前的SEO最佳实践是在元标题和元描述中并入高值关键字。
 
 ![搜索引擎优化](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

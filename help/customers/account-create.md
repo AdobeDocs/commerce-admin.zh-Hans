@@ -116,7 +116,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_选项卡显示帐户的摘要。
+   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_&#x200B;选项卡显示帐户的摘要。
 
    ![客户视图](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
    否则，请单击&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;并重复上述步骤以添加其他地址。
 
-   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
+   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
 
    ![地址视图](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. 在网格中查找新的客户帐户。
 
-1. 单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在页面顶部的菜单栏中，单击&#x200B;**[!UICONTROL Reset Password]**。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_页而不保存更改。 |
+| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_&#x200B;页而不保存更改。 |
 | **[!UICONTROL Delete Customer]** | 删除当前客户。 不会删除与客户关联的已完成订单。 |
 | **[!UICONTROL Reset]** | 将客户表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Create Order]** | 为客户创建订单。 |

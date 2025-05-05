@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 产品列表
 
-目录中的所有产品都可从管理员的&#x200B;_[!UICONTROL Products]_页面访问，您可以在该页面中创建产品和编辑现有产品。 对于多站点安装，每个网站都可以从同一目录提供不同的产品选择以供销售。
+目录中的所有产品都可从管理员的&#x200B;_[!UICONTROL Products]_&#x200B;页面访问，您可以在该页面中创建产品和编辑现有产品。 对于多站点安装，每个网站都可以从同一目录提供不同的产品选择以供销售。
 
-_[!UICONTROL Products]_列表包括目录中的所有产品，指示这些产品所在的网站，以及这些产品当前是否允许销售。 在启用了[共享目录](../b2b/catalog-shared.md)的Adobe Commerce B2B安装中，网格包含一列，该列指示哪些产品在共享目录中具有替代折扣定价。
+_[!UICONTROL Products]_&#x200B;列表包括目录中的所有产品，指示这些产品所在的网站，以及这些产品当前是否允许销售。 在启用了[共享目录](../b2b/catalog-shared.md)的Adobe Commerce B2B安装中，网格包含一列，该列指示哪些产品在共享目录中具有替代折扣定价。
 
 您可以逐页浏览列表页面，或搜索特定产品。 使用标准[控件](../getting-started/admin-grid-controls.md)对列表进行排序和筛选，并将[操作](../getting-started/admin-actions-control.md)应用于所选产品。
 
@@ -34,7 +34,7 @@ _[!UICONTROL Products]_列表包括目录中的所有产品，指示这些产品
 
 >[!NOTE]
 >
->如果不希望限制产品网格，请更准确地使用筛选器来生成项目数少于&#x200B;_[!UICONTROL Records Limit]_字段中指定数量的集合。
+>如果不希望限制产品网格，请更准确地使用筛选器来生成项目数少于&#x200B;_[!UICONTROL Records Limit]_&#x200B;字段中指定数量的集合。
 
 **_要配置产品显示限制：_**
 

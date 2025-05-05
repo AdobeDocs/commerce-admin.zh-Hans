@@ -114,4 +114,4 @@ ht-degree: 0%
 
    要查看不同商店视图的计划更改，请单击“预览”页面标题中的&#x200B;**[!UICONTROL Scope]**。 选择要预览的网站、商店或商店视图。
 
-1. 如有必要，请返回日历并单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View/Edit]**以打开另一个计划更新。
+1. 如有必要，请返回日历并单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View/Edit]**&#x200B;以打开另一个计划更新。

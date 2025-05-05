@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 产品设置 — [!UICONTROL Sources]
 
-产品设置的&#x200B;_[!UICONTROL Sources]_部分列出了分发产品的来源。 它用于分配和取消分配来源，以及管理产品的数量和可用性。 仅当为您的存储定义了多个源时，才会显示此部分。 有关源的详细信息，请参阅[管理源](../inventory-management/sources-manage.md)。
+产品设置的&#x200B;_[!UICONTROL Sources]_&#x200B;部分列出了分发产品的来源。 它用于分配和取消分配来源，以及管理产品的数量和可用性。 仅当为您的存储定义了多个源时，才会显示此部分。 有关源的详细信息，请参阅[管理源](../inventory-management/sources-manage.md)。
 
 ## 为产品分配源
 

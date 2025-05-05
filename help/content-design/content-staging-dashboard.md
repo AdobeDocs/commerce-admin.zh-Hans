@@ -73,10 +73,10 @@ ht-degree: 0%
 
 1. 在显示的列表或时间轴中查找营销活动，并打开它以访问详细信息：
 
-   - 要显示列表，请单击&#x200B;**[!UICONTROL Select]**，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View/Edit]**。
+   - 要显示列表，请单击&#x200B;**[!UICONTROL Select]**，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View/Edit]**。
    - 对于时间轴显示，单击一次以显示摘要，然后单击&#x200B;**[!UICONTROL View/Edit]**。
 
-1. 根据需要更新&#x200B;_[!UICONTROL General]_部分中的任何设置。
+1. 根据需要更新&#x200B;_[!UICONTROL General]_&#x200B;部分中的任何设置。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png)包含要编辑的项的任何部分。
 

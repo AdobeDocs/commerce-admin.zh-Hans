@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 输入新公司管理员的&#x200B;**[!UICONTROL Job Title]**。
 
-   此操作清除表单，必需的&#x200B;_[!UICONTROL First Name]_和_[!UICONTROL Last Name]_&#x200B;字段突出显示。
+   此操作清除表单，必需的&#x200B;_[!UICONTROL First Name]_&#x200B;和_[!UICONTROL Last Name]_&#x200B;字段突出显示。
 
 1. 输入新公司管理员的&#x200B;**[!UICONTROL Email]**&#x200B;地址。
 

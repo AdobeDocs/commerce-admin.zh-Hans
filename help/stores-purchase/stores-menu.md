@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores]菜单
 
-通过&#x200B;_[!UICONTROL Stores]_菜单，您可以访问不太常使用，但在Adobe Commerce或Magento Open Source安装过程中引用的设置。 这些功能包括设置商店层次结构、配置、销售和订单设置、税和货币、产品属性、产品审核评级以及客户组。
+通过&#x200B;_[!UICONTROL Stores]_&#x200B;菜单，您可以访问不太常使用，但在Adobe Commerce或Magento Open Source安装过程中引用的设置。 这些功能包括设置商店层次结构、配置、销售和订单设置、税和货币、产品属性、产品审核评级以及客户组。
 
 ![管理员 — 商店菜单](./assets/stores-menu.png){width="500" zoomable="yes"}
 

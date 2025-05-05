@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**&#x200B;并进行任何必要的更改。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 在网格上方，单击&#x200B;**[!UICONTROL Add Node...]**。
 
-1. 在&#x200B;_[!UICONTROL Page Properties]_下，输入节点的&#x200B;**[!UICONTROL Title]**和合适的&#x200B;**[!UICONTROL URL Key]**。
+1. 在&#x200B;_[!UICONTROL Page Properties]_&#x200B;下，输入节点的&#x200B;**[!UICONTROL Title]**&#x200B;和合适的&#x200B;**[!UICONTROL URL Key]**。
 
    URL键为节点提供唯一的Web地址。 必须全部为小写字符，使用连字符而不是空格来分隔单词。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 单击层次结构顶部的节点。
 
-   _[!UICONTROL Page Properties]_部分现在显示有关节点的信息。
+   _[!UICONTROL Page Properties]_&#x200B;部分现在显示有关节点的信息。
 
 1. 在&#x200B;**[!UICONTROL Render Metadata in HTML Head]**&#x200B;下，执行以下操作：
 

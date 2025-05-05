@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->通过将Admin中[!UICONTROL Attribute Edit]页面上的&#x200B;_[!UICONTROL Update Product Preview Image]_选项值设置为`No`，可以将样本属性配置为在选择样本时不显示相应的简单产品图像。
+>通过将Admin中[!UICONTROL Attribute Edit]页面上的&#x200B;_[!UICONTROL Update Product Preview Image]_&#x200B;选项值设置为`No`，可以将样本属性配置为在选择样本时不显示相应的简单产品图像。
 
 ## 基于文本的样本
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 分层导航中的样本
 
-如果color属性的&#x200B;_[!UICONTROL Use in Layered Navigation]_属性设置为`Yes`，则样本也可用于分层导航。 以下示例显示了分层导航中基于文本的图像样本和彩色图像样本。
+如果color属性的&#x200B;_[!UICONTROL Use in Layered Navigation]_&#x200B;属性设置为`Yes`，则样本也可用于分层导航。 以下示例显示了分层导航中基于文本的图像样本和彩色图像样本。
 
 在分层导航中显示的![样本](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 如果希望在产品显示页面上选择样本时不显示相应的简单产品图像，请将&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;设置为`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_下，单击&#x200B;**[!UICONTROL Add Swatch]**并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;下，单击&#x200B;**[!UICONTROL Add Swatch]**&#x200B;并执行以下操作：
 
    ![管理样本值](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 1. 如果希望在产品显示页面上选择样本时不显示相应的简单产品图像，请将&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;设置为`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch]_（属性的值）下，单击&#x200B;**[!UICONTROL Add Swatch]**并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch]_（属性的值）下，单击&#x200B;**[!UICONTROL Add Swatch]**&#x200B;并执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Swatch]_列中，单击新样本以显示菜单，然后选择&#x200B;**[!UICONTROL Upload a file]**。
+   - 在&#x200B;_[!UICONTROL Swatch]_&#x200B;列中，单击新样本以显示菜单，然后选择&#x200B;**[!UICONTROL Upload a file]**。
 
    - 导航到您准备的样本文件，然后选择要上传的文件。
 

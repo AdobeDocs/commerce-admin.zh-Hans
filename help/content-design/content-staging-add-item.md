@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 在显示的列表或时间轴中查找营销活动，并打开它以访问详细信息：
 
-   - 要显示列表，请单击&#x200B;**[!UICONTROL Select]**，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL View/Edit]**。
+   - 要显示列表，请单击&#x200B;**[!UICONTROL Select]**，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View/Edit]**。
    - 对于时间轴显示，单击一次以显示摘要，然后单击&#x200B;**[!UICONTROL View/Edit]**。
 
    ![营销活动详细信息](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >系统属性标有点，无法从&#x200B;_[!UICONTROL Groups]_列表中删除。 但是，可以将它们拖到属性集中的另一个组中。
+   >系统属性标有点，无法从&#x200B;_[!UICONTROL Groups]_&#x200B;列表中删除。 但是，可以将它们拖到属性集中的另一个组中。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 创建属性组
 
-1. 在属性集的&#x200B;_[!UICONTROL Groups]_列中，单击&#x200B;**[!UICONTROL Add New]**。
+1. 在属性集的&#x200B;_[!UICONTROL Groups]_&#x200B;列中，单击&#x200B;**[!UICONTROL Add New]**。
 
 1. 为新组输入&#x200B;**[!UICONTROL Name]**，然后单击&#x200B;**[!UICONTROL OK]**。
 

@@ -144,7 +144,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_客户信息_&#x200B;下，选择&#x200B;**[!UICONTROL Reward Points]**&#x200B;部分。
 
@@ -164,7 +164,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 单击&#x200B;**[!UICONTROL Save Customer]**。
 
-与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_块中。
+与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;块中。
 
 ## 字段描述
 
