@@ -31,6 +31,6 @@ ht-degree: 0%
 
 当配置中的&#x200B;_最大宽度_&#x200B;和&#x200B;_最大高度_&#x200B;值更改时，它会更新之前插入的所有现有优化图像。
 
-媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
+媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans)。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

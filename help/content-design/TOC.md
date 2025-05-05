@@ -91,4 +91,4 @@ ht-degree: 4%
    - [暂存仪表板](content-staging-dashboard.md)
    - [添加营销活动项目](content-staging-add-item.md)
    - [预览营销活动](content-staging-preview.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)

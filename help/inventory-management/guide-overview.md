@@ -49,5 +49,5 @@ ht-degree: 0%
 
 如果您需要本指南中未涉及的信息或问题，请使用以下资源：
 
-- 安装清单后[库存状态不正确](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) — 提交票证以接收其他帮助。
+- 安装清单后[库存状态不正确](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=zh-Hans)
+- [支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket) — 提交票证以接收其他帮助。

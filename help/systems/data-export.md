@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 向下滚动，然后单击页面右下角的&#x200B;**[!UICONTROL Continue]**。
 
-   任务完成后，将通过消息队列处理文件（确保cron作业正在运行）。 导出的文件保存在`var/export/ folder`中。 有关消息队列的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
+   任务完成后，将通过消息队列处理文件（确保cron作业正在运行）。 导出的文件保存在`var/export/ folder`中。 有关消息队列的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans)。
 
    您可以将导出的CSV文件保存或打开为电子表格，然后编辑数据并将其导入回您的商店。
 
@@ -92,4 +92,4 @@ ht-degree: 0%
 
 有关排查数据导出问题的帮助，请参阅以下Commerce支持知识库文章：
 
-- [导出的产品.csv文件未显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [导出的产品.csv文件未显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=zh-Hans)

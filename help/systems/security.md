@@ -22,11 +22,11 @@ ht-degree: 0%
 >
 >已启用[!DNL Adobe Identity Management Services] (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source2FA。 使用Adobe凭据登录到其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[[!DNL Adobe Identity Management Service] (IMS)集成概述](../getting-started/adobe-ims-integration-overview.md)。
 
-访问[安全中心](https://helpx.adobe.com/security.html){：target=&quot;_blank&quot;}以获取有关潜在漏洞的最新消息、注册Adobe安全通知以及访问Adobe信任中心。
+访问[安全中心](https://helpx.adobe.com/cn/security.html){：target=&quot;_blank&quot;}以获取有关潜在漏洞的最新消息、注册Adobe安全通知以及访问Adobe信任中心。
 
 ![安全中心](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-有关安全最佳实践的信息，请参阅&#x200B;_实施行动手册_&#x200B;中的[保护Commerce站点和基础架构](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)。
+有关安全最佳实践的信息，请参阅&#x200B;_实施行动手册_&#x200B;中的[保护Commerce站点和基础架构](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)。
 
 ## 安全行动计划
 

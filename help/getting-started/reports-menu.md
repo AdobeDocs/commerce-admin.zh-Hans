@@ -36,7 +36,7 @@ Adobe Commerce提供了大量报告供您随时了解营销工作、销售产品
 
 ### [!UICONTROL System Insights]
 
-(仅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
+(仅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hans)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
 
 ### [!UICONTROL Customers]
 

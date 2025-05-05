@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![WYSIWYG选项](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![CMS页面层次结构](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![高级内容工具](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

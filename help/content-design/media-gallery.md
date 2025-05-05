@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新[!DNL Media Gallery]的完整功能要求启动`media.gallery.synchronization`和`media.content.synchronization`队列使用者进行初始同步。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
+>新[!DNL Media Gallery]的完整功能要求启动`media.gallery.synchronization`和`media.content.synchronization`队列使用者进行初始同步。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans)。
 
 ## 访问新[!DNL Media Gallery]
 

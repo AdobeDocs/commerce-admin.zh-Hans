@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 配置目录搜索
 
-目录搜索配置有两种变体。 第一种方法描述了安装[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)时可用的设置。 第二种方法描述了使用[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}的本机Adobe Commerce的配置设置。
+目录搜索配置有两种变体。 第一种方法描述了安装[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)时可用的设置。 第二种方法描述了使用[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=zh-Hans){:target="_blank"}的本机Adobe Commerce的配置设置。
 
 >[!NOTE]
 >
->有关云基础架构项目，请参阅&#x200B;[_Commerce on Cloud Infrastructure指南_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)中的其他说明。
+>有关云基础架构项目，请参阅&#x200B;[_Commerce on Cloud Infrastructure指南_](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/opensearch)中的其他说明。
 
 ## 方法1：使用[!DNL Live Search]的Adobe Commerce
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    默认值为`100`。 再次输入值`0`将缓存所有搜索词和结果。
 
-1. 要更改[店面弹出窗口](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)中返回的结果可用的最大行数，请输入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
+1. 要更改[店面弹出窗口](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=zh-Hans)中返回的结果可用的最大行数，请输入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
 
    限制行数可提高搜索性能并减小返回列表的大小。 默认值为`8`行。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 由于[!DNL Elasticsearch 7]将于2023年8月终止支持公告，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 由于[!DNL Elasticsearch 7]将于2023年8月终止支持公告，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=zh-Hans)。
 >- 在版本2.4.4和2.4.3-p2中，所有标记为Elasticsearch的字段也适用于OpenSearch。 当版本2.4.6中引入对Elasticsearch 8.x的支持时，创建了新标签以区分Elasticsearch和OpenSearch配置。 但是，两者的配置选项是相同的。
 
 ### 步骤1：配置常规搜索选项

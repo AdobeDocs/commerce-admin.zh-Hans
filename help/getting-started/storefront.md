@@ -32,7 +32,7 @@ ht-degree: 0%
 
 由Edge Delivery Services提供支持的Commerce店面提供了多项对商家和开发人员都有利的关键功能。 这些功能使企业能够创造引人入胜的购物体验，同时保持灵活性，以根据自己的需求定制和扩展店面。
 
-有关设置和优化Commerce店面的更多详细信息和指导，请参阅[Adobe Commerce店面文档](https://experienceleague.adobe.com/en/docs/commerce)。
+有关设置和优化Commerce店面的更多详细信息和指导，请参阅[Adobe Commerce店面文档](https://experienceleague.adobe.com/zh-hans/docs/commerce)。
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Headless实施使开发人员能够将前端展示层与后端商务功能分离
 
 ### [!DNL Live Search]
 
-使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
 
 ![实时搜索示例 — 键入时搜索](./assets/storefront-search-as-you-type.png){width="700"}
 

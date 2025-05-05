@@ -52,5 +52,5 @@ ht-degree: 0%
 - 有关数据流图和数据库实体映射，请参阅[个人信息参考][2]{： target=&quot;_blank&quot;}。
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

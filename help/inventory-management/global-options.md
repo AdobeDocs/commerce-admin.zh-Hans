@@ -86,7 +86,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >要配置和支持&#x200B;_异步队列管理器_，必须使用命令行发出命令。 此步骤可能需要开发人员帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html)。
+     >要配置和支持&#x200B;_异步队列管理器_，必须使用命令行发出命令。 此步骤可能需要开发人员帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=zh-Hans)。
 
    - 如果启用，请设置&#x200B;**[!UICONTROL Asynchronous batch size]**。 默认批次大小为100。 当批量进程达到此数量时，系统会触发该数量。
 

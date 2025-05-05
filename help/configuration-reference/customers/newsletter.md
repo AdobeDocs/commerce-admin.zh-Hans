@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![订阅选项](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

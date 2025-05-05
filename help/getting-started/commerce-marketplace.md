@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
+>从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hans)或[升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hans)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)和[扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)。
 
 Commerce的&#x200B;_内部部署_&#x200B;安装的购买[!DNL Marketplace]的安装过程与托管在[Adobe Cloud Architecture][4]上的安装不同。
 

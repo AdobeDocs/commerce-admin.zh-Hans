@@ -187,4 +187,4 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 有关排查奖励点问题的帮助，请参阅以下Commerce支持知识库文章：
 
-- [404错误 — 正在删除多送货结帐的奖励点](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404错误 — 正在删除多送货结帐的奖励点](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=zh-Hans)

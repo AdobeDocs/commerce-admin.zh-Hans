@@ -3,7 +3,7 @@ title: Visual Merchandiser概述
 description: 了解可视化促销工具，这些工具允许您定位产品并确定哪些产品显示在类别列表中。
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
 source-wordcount: '382'

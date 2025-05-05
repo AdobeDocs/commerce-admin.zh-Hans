@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Channels]
 
-通过[Amazon Marketplace集成](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html)将销售额扩展到其他网络商店，从而增加收入。 “渠道”子菜单仅在配置AmazonSales Channel时显示。
+通过[Amazon Marketplace集成](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=zh-Hans)将销售额扩展到其他网络商店，从而增加收入。 “渠道”子菜单仅在配置AmazonSales Channel时显示。
 
 >[!TIP]
 >
->Channel Manager通过将Adobe Commerce或Magento Open Source产品目录与沃尔玛市场集成，帮助商家提高销售额、接触新客户、简化销售操作并节省时间。 请参阅&#x200B;[_渠道管理器指南_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html)，以了解有关渠道管理器的安装、上线、配置和管理方面的更多信息。
+>Channel Manager通过将Adobe Commerce或Magento Open Source产品目录与沃尔玛市场集成，帮助商家提高销售额、接触新客户、简化销售操作并节省时间。 请参阅&#x200B;[_渠道管理器指南_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=zh-Hans)，以了解有关渠道管理器的安装、上线、配置和管理方面的更多信息。
 
 ### [!UICONTROL Communications]
 

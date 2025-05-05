@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)不同。
+>本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=zh-Hans)不同。
 
 通过分层导航，可以轻松地根据类别、价格范围或任何其他可用属性查找产品。 分层导航通常显示在搜索结果和类别页面的左列，有时显示在主页上。 标准导航包含&#x200B;_Shop By_&#x200B;类别和价格范围列表。 您可以配置分层导航的显示，包括产品数量和价格范围。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本主题中介绍的可筛选属性要求与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。 若要了解详细信息，请参阅[Facet](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)。
+>本主题中介绍的可筛选属性要求与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)不同。 若要了解详细信息，请参阅[Facet](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=zh-Hans)。
 
 分层导航可用于按类别或属性搜索产品。 例如，当购物者从顶部导航中选择“Mens/Shorts”类别时，初始结果将包括该类别中的所有产品。 可以通过选择特定的样式、气候、颜色、材质、图案或价格或值的组合进一步过滤列表。 可过滤的属性显示在展开部分中，其中列出了每个属性值。 作为一个选项，可以将具有匹配结果的产品列表配置为包含具有或不具有匹配项的产品。
 
@@ -112,7 +112,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!NOTE]
 >
->此主题中介绍的价格导航配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。
+>此主题中介绍的价格导航配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)不同。
 
 分层导航中价格导航可用于按价格范围分配产品。 您还可以按间隔拆分每个范围。 有几种方法可计算价格导向：
 
@@ -201,7 +201,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!NOTE]
 >
->此页面中描述的标准配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。
+>此页面中描述的标准配置与[实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)不同。
 
 分层导航配置确定产品计数是否显示在每个属性后面的括号中，以及价格导航中使用的步骤计算的大小。
 

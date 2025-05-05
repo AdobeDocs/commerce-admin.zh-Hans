@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![帐户共享选项](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![联机客户选项](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![创建新帐户选项（增值税字段）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![密码选项](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ![名称和地址选项 — 打开Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![名称和地址选项 — Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![存储点数选项](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![登录选项](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ![地址模板](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 ![客户区段](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 ![验证码](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 网站 | 在与Commerce网站关联的商店中启用验证码。 选项： `Yes` / `No` |
 | [!UICONTROL Font] | 网站 | 确定用于显示验证码的字体。 要添加您自己的字体，请将该字体文件放在与Commerce安装相同的目录中，并将声明添加到位于`app/code/Magento/Captcha/etc`的`config.xml`文件中。 |
-| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
+| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hans)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
 | [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;字段。 输入要允许的登录尝试次数。 `0` （零）的值类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_&#x200B;**注意：**&#x200B;_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 网站 | 指定帐户锁定前客户可以尝试登录的次数。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 网站 | 确定当前CAPTCHA的生命周期。 验证码过期后，用户必须重新加载页面。 |

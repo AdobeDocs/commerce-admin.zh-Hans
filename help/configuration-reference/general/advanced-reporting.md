@@ -20,7 +20,7 @@ _[!DNL Advanced Reporting]_&#x200B;是一个基于Cloud的服务，由[Adobe Com
 
 ![高级报告](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -30,5 +30,5 @@ _[!DNL Advanced Reporting]_&#x200B;是一个基于Cloud的服务，由[Adobe Com
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
-[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hans
+[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=zh-Hans#advanced-reporting

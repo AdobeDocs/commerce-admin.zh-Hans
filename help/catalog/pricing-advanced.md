@@ -20,7 +20,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;设置定义了适用于特定客户组�
 
 高级定价数据与产品页面同步。 例如，如果您更新了层价格数量，则系统将更新产品页面上的值。
 
-![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于[Adobe Commerce B2B](./b2b/../introduction.md))如果您使用共享目录，则高级定价数据将与产品页面和共享目录同步。 例如，如果您更新了层价格数量，则系统将更新共享目录和产品页面中的值。 共享目录中指示的任何自定义定价均优先于客户组定价。 另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。
+![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于[Adobe Commerce B2B](./b2b/../introduction.md))如果您使用共享目录，则高级定价数据将与产品页面和共享目录同步。 例如，如果您更新了层价格数量，则系统将更新共享目录和产品页面中的值。 共享目录中指示的任何自定义定价均优先于客户组定价。 另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=zh-Hans)。
 
 ![高级定价](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

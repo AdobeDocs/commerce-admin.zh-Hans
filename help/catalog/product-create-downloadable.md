@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)）。
+   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=zh-Hans)）。
 
    - 将&#x200B;**[!UICONTROL Shareable]**&#x200B;设置为以下项之一：
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->不再建议将使用平面目录作为最佳实践。 据悉，继续使用此功能会导致性能下降和其他索引问题。 [帮助中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html)提供了详细的说明和解决方案。<br/><br/>受影响的版本包括：<br/>- Adobe Commerce on cloud infrastructure、2.3.x及更高版本<br/>- Adobe Commerce （内部部署）、2.3.x及更高版本<br/>- Magento Open Source、2.3.x及更高版本<br/><br/>在任何发行版本上，某些扩展只适用于平面表，因此如果您禁用平面表，将会产生风险。 如果您知道某些扩展使用平面目录索引器，则在将这些值设置为`No`时必须注意此风险。
+>不再建议将使用平面目录作为最佳实践。 据悉，继续使用此功能会导致性能下降和其他索引问题。 [帮助中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hans)提供了详细的说明和解决方案。<br/><br/>受影响的版本包括：<br/>- Adobe Commerce on cloud infrastructure、2.3.x及更高版本<br/>- Adobe Commerce （内部部署）、2.3.x及更高版本<br/>- Magento Open Source、2.3.x及更高版本<br/><br/>在任何发行版本上，某些扩展只适用于平面表，因此如果您禁用平面表，将会产生风险。 如果您知道某些扩展使用平面目录索引器，则在将这些值设置为`No`时必须注意此风险。
 
 Commerce通常根据实体属性值(EAV)模型将目录数据存储在多个表中。 由于产品属性存储在许多表中，因此SQL查询有时很长，也很复杂。
 

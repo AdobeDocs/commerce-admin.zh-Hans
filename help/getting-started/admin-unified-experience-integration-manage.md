@@ -74,7 +74,7 @@ ht-degree: 0%
 
 - **Commerce管理员帐户**—[从Commerce实例的管理员那里管理Commerce管理员用户](../systems/permissions-users-all.md)。 必须为Commerce管理员的用户帐户分配管理员角色。
 
-  Commerce项目上的系统管理员可以使用[SSH连接到远程环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)，并使用Commerce CLI `admin:user:create`和`admin:user:unlock`命令添加或解锁管理员用户帐户。
+  Commerce项目上的系统管理员可以使用[SSH连接到远程环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans#connect-to-a-remote-environment)，并使用Commerce CLI `admin:user:create`和`admin:user:unlock`命令添加或解锁管理员用户帐户。
 
 - **Adobe用户帐户** — 与Commerce实例关联的Adobe组织的管理员必须登录到Adobe Admin Console，并将每个Commerce管理员的Adobe ID添加到该组织。 然后，他们必须分配产品权利和权限才能访问Commerce应用程序。 请参阅[在Adobe Admin Console中配置Adobe Commerce用户](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console)。
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe ID是通过Adobe创建的帐户，通过Experience Cloud访问产品和服务需要该帐户。 没有Adobe ID的Commerce管理员可以使用登录Commerce管理员所用的电子邮件地址[创建免费帐户](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html)。
+>Adobe ID是通过Adobe创建的帐户，通过Experience Cloud访问产品和服务需要该帐户。 没有Adobe ID的Commerce管理员可以使用登录Commerce管理员所用的电子邮件地址[创建免费帐户](https://helpx.adobe.com/cn/manage-account/using/create-update-adobe-id.html)。

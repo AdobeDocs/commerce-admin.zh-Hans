@@ -57,7 +57,7 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 了解如何为Braintree或支付服务配置支付方式并启用保险存储：
 
 - [Braintree](braintree.md)
-- [付款服务文档](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [付款服务文档](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)
 
 ### 步骤3：启用即时购买
 

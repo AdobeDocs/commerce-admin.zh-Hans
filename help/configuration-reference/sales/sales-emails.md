@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![常规设置](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/communications/email-communications) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![订单](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![订单评论](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![发票](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ![发票备注](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ![装运](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ![装运备注](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![贷项通知单](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![贷项通知单备注](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![订单已准备好到商店取货](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 ![报价](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 ![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -246,7 +246,7 @@ ht-degree: 0%
 
 ![RMA授权](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -282,7 +282,7 @@ ht-degree: 0%
 
 ![RMA客户评论](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

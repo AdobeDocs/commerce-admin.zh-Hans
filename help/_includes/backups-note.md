@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**已禁用功能：**&#x200B;默认情况下已禁用备份。 启用此功能可能需要开发人员帮助。 请参阅以下&#x200B;_安装指南_&#x200B;主题以启用备份： [备份和回滚文件系统、媒体和数据库](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)。
+>**已禁用功能：**&#x200B;默认情况下已禁用备份。 启用此功能可能需要开发人员帮助。 请参阅以下&#x200B;_安装指南_&#x200B;主题以启用备份： [备份和回滚文件系统、媒体和数据库](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

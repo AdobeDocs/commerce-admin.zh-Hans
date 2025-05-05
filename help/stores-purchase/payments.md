@@ -16,7 +16,7 @@ Adobe Commerce和Magento Open Source支持各种支付方法和服务，您可�
 
 >[!TIP]
 >
->适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供所需的洞察信息和控制力，以便为买家创造最佳体验，请参阅[支付服务用户指南](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
+>适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供所需的洞察信息和控制力，以便为买家创造最佳体验，请参阅[支付服务用户指南](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Adobe Commerce和Magento Open Source支持各种支付方法和服务，您可�
 
 - **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含这些供应商开发的扩展。 从2.4.4版本开始，核心版本不再捆绑这些扩展，必须从Commerce Marketplace安装和更新这些扩展。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
 
-  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
+  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
 
 - **Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：有关从这些付款集成进行安全过渡的详细信息，请参阅[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}。
 
@@ -49,7 +49,7 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商户服务的�
 
 ### 推荐的解决方案
 
-- [付款服务](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [付款服务](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)
 - [PayPal Express签出](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
@@ -82,6 +82,6 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商户服务的�
 
 ## 资源疑难解答
 
-有关解决付款问题的帮助，请参阅[支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en)。
+有关解决付款问题的帮助，请参阅[支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=zh-Hans)。
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

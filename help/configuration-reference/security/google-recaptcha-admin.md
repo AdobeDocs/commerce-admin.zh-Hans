@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅&#x200B;_安装指南_&#x200B;中的[必需的PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)。
+>在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅&#x200B;_安装指南_&#x200B;中的[必需的PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hans)。
 
 {{config}}
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | 全局 | 确定为[管理员登录](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)启用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证管理员登录。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
-| [!UICONTROL Enable for Forgot Password] | 全局 | 确定启用以请求[管理员密码重置](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password)的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCaptcha v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Login] | 全局 | 确定为[管理员登录](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans)启用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证管理员登录。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Forgot Password] | 全局 | 确定启用以请求[管理员密码重置](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans#reset-your-password)的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCaptcha v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 
 {style="table-layout:auto"}

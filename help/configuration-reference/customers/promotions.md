@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![自动电子邮件提醒规则](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ![自动生成的特定优惠券代码](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

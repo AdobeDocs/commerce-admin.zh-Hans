@@ -20,8 +20,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Display Mode] | 确定类别页面上显示的内容元素。 选项： `Products Only` / `Static Block Only` / `Static Block and Products` |
 | [!UICONTROL Anchor] | 当设置为`Yes`时，显示类别中子类别的产品（即使它们尚未明确添加到该类别中），并启用在分层导航中显示&#x200B;_[!UICONTROL filter by attribute]_&#x200B;部分。 选项： `Yes` / `No` |
-| [!UICONTROL Available Product Listing Sort By] | （必需）默认值为`Position`、`Name`和`Price`。 要自定义排序选项，请取消选中&#x200B;**[!UICONTROL Use All Available Attributes]**&#x200B;复选框，然后选择要使用的属性。 您可以根据需要定义和添加属性。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
-| [!UICONTROL Default Product Listing Sort By] | （必需）要定义默认&#x200B;_[!UICONTROL Sort By]_&#x200B;选项，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;复选框并选择属性。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
+| [!UICONTROL Available Product Listing Sort By] | （必需）默认值为`Position`、`Name`和`Price`。 要自定义排序选项，请取消选中&#x200B;**[!UICONTROL Use All Available Attributes]**&#x200B;复选框，然后选择要使用的属性。 您可以根据需要定义和添加属性。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
+| [!UICONTROL Default Product Listing Sort By] | （必需）要定义默认&#x200B;_[!UICONTROL Sort By]_&#x200B;选项，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;复选框并选择属性。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
 | [!UICONTROL Layered Navigation Price Step] | 默认情况下，Commerce将以10、100和1000为增量显示价格范围，具体取决于列表中的产品。 要更改价格步骤范围，请取消选中&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;复选框。 |
 
 {style="table-layout:auto"}

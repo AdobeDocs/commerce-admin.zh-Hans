@@ -26,4 +26,4 @@ CSV文件具有独立的`downloadable_links`和`downloadable_samples`列。
 
   ![示例数据 — 包含可下载示例的可下载产品](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html)。
+有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=zh-Hans)。

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您的Adobe Commerce或Magento Open Source实例可以部署为在&#x200B;_生产_&#x200B;或&#x200B;_开发人员模式_&#x200B;下运行。 仅当存储以&#x200B;_开发人员模式_&#x200B;运行时才能访问专门为开发人员设计的工具和配置设置。
 
-只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html)。
+只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=zh-Hans)。
 
 商家文档中的大多数主题都适用于在生产模式下运行的Commerce实例。 但是，以下配置设置和工具只能在开发人员模式下运行安装时使用。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 通过向静态文件的URL添加数字签名，浏览器可以检测文件的较新版本何时可用。 可使用数字签名跟踪的静态文件包括JavaScript、CSS、图像和字体。 签名将直接附加到基本URL后面的路径中。 如果文件的签名与浏览器缓存中存储的签名不同，则使用较新版本的文件。
 
-请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){：target=&quot;_blank&quot;}。
+请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=zh-Hans){：target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 默认情况下，Adobe Commerce和Magento Open Source不会合并、捆绑或最小化文件，项目开发人员应确定应使用的文件优化方法。
 
-有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html)。
+有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ ht-degree: 0%
 >
 >开发人员客户端限制只能在[开发人员模式](../systems/developer-tools.md#operation-modes)中设置。
 
-有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html)。
+有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hans)。
 
 **_要将IP地址添加到允许列表：_**
 

@@ -45,11 +45,11 @@ ht-degree: 0%
 
 **_要启用更新并重新编制索引：_**
 
-启用[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode)(云基础架构上的Adobe Commerce中使用的默认模式)时，请运行以下命令：
+启用[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#production-mode)(云基础架构上的Adobe Commerce中使用的默认模式)时，请运行以下命令：
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-启用[默认模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode)时，请完成以下步骤：
+启用[默认模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#default-mode)时，请完成以下步骤：
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

@@ -187,5 +187,5 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-process
 
 有关排查订单问题的帮助，请参阅以下Commerce支持知识库文章：
 
-- [订单显示错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [订单显示错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=zh-Hans)
 - [订单未显示在Admin的“订单”网格中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

@@ -18,7 +18,7 @@ ht-degree: 0%
 - 如果浏览器的隐私设置不允许Cookie，您可以将系统配置为自动将它们重定向到[启用Cookie](../content-design/pages.md#enable-cookies)页面，该页面介绍了如何在大多数浏览器中进行推荐的设置。
 - 如果浏览器的隐私设置不允许JavaScript，您可以将系统配置为在每个页面的标题上方显示以下消息。
 
-有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)。
+有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hans#supported-browsers)。
 
 ## 配置浏览器功能检测
 

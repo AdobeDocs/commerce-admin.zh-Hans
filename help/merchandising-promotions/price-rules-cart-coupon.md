@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)运行cron 。
+>在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)运行cron 。
 
 ### 方法1：创建特定优惠券
 

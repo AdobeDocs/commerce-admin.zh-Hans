@@ -96,6 +96,6 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

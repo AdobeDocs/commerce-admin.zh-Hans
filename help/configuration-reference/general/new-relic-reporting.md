@@ -17,13 +17,13 @@ ht-degree: 0%
 >[!NOTE]
 >这些配置选项不适用于云基础架构上的Adobe Commerce。
 >
->如果您在Pro计划中，New Relic已[预配置并默认启用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html)。 如果您在入门计划中，则必须完成作为设置过程一部分的[New Relic配置步骤](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)。
+>如果您在Pro计划中，New Relic已[预配置并默认启用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=zh-Hans)。 如果您在入门计划中，则必须完成作为设置过程一部分的[New Relic配置步骤](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=zh-Hans#configure-new-relic-for-starter-environment)。
 
 ## [!UICONTROL General]
 
 ![常规](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
+<!-- [General](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Cron](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- Cron](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/cron) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

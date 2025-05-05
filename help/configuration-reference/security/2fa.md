@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->启用了Adobe Identity Management Services (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source双重身份验证(2FA)。 使用其Adobe凭据登录到其Adobe Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[将Adobe Commerce与Adobe IMS集成概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
+>启用了Adobe Identity Management Services (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source双重身份验证(2FA)。 使用其Adobe凭据登录到其Adobe Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[将Adobe Commerce与Adobe IMS集成概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=zh-Hans)。
 
 {{config}}
 

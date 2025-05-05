@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参阅&#x200B;[_Adobe Commerce B2B用户指南_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+>通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参阅&#x200B;[_Adobe Commerce B2B用户指南_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![常规](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
+<!-- [General](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

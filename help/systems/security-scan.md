@@ -22,7 +22,7 @@ ht-degree: 0%
 - 访问跟踪和监控站点进度的历史安全报告。
 - 访问显示成功和失败检查以及任何建议操作的扫描报告。
 
-安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》_中的[设置安全扫描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool)_。
+安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》_中的[设置安全扫描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=zh-Hans#set-up-the-security-scan-tool)_。
 
 ![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

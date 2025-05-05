@@ -22,7 +22,7 @@ ht-degree: 0%
 | ![客户菜单](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | [!UICONTROL Customers]菜单是您可以管理客户帐户以及查看哪些客户当前在线的地方。 |
 | ![营销菜单](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | [!UICONTROL Marketing]菜单是您设置目录和购物车价格规则和优惠券的位置。 价格规则会在满足一组特定条件时触发操作。 |
 | ![内容菜单](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | [!UICONTROL Content]菜单是您管理存储的内容元素和设计的位置。 了解如何创建页面、块和前端应用程序，以及管理应用商店的展示方式。 |
-| ![“报表”菜单](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!UICONTROL Reports]菜单提供大量精选的报告，可让您深入了解商店的各个方面，包括销售额、购物车、产品、客户、标记、评论、搜索词，以及[全网站分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro)提供的全天候实时性能监控和推荐。 |
+| ![“报表”菜单](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!UICONTROL Reports]菜单提供大量精选的报告，可让您深入了解商店的各个方面，包括销售额、购物车、产品、客户、标记、评论、搜索词，以及[全网站分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/intro)提供的全天候实时性能监控和推荐。 |
 | ![存储菜单](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | [!UICONTROL Stores]菜单包括用于配置和维护商店各个方面的工具，包括多站点安装设置、税费、货币、产品属性和客户组。 |
 | ![系统菜单](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | [!UICONTROL System]菜单包括用于管理系统操作、安装扩展以及管理Web服务以便与其他应用程序集成的工具。 |
 | ![查找扩展](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!DNL Commerce Marketplace]是您能够找到商店的Adobe Commerce和Magento Open Source解决方案的位置。 |

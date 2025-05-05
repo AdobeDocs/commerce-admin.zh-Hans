@@ -118,13 +118,13 @@ ht-degree: 0%
 
 ## 登录到您的Adobe帐户
 
-若要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
+若要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
 
 1. [访问Adobe Stock搜索网格](#access-the-adobe-stock-search-grid)。
 
 1. 单击右上方的&#x200B;**[!UICONTROL Sign In]**。
 
-   新的浏览器窗口将引导您完成[Adobe登录流程](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+   新的浏览器窗口将引导您完成[Adobe登录流程](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
 
    完成登录过程后，图像的许可状态将作为标签显示在搜索结果中。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

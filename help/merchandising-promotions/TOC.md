@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google内容实验](google-content-experiments.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
 

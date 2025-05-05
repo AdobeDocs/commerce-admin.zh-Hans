@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 示例数据
 
-Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中约200种为可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)是可选的，但有助于测试和开发电子商务业务的自定义项。
+Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中约200种为可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=zh-Hans)是可选的，但有助于测试和开发电子商务业务的自定义项。

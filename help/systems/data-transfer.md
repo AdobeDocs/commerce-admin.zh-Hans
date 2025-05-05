@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，这些服务包括[产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[目录服务](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
+>Adobe Commerce还支持SaaS数据导出，以便将产品数据从Commerce服务器传输到SaaS服务。 SaaS数据导出已与Commerce SaaS服务集成，这些服务包括[产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)、[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)和[目录服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview)。
 
 ## 数据验证
 

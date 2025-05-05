@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关为买方创建报价的卖方视频演示，请参阅[销售代表在&#x200B;_Commerce视频和Tutorials_&#x200B;中启动报价](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)。
+>有关为买方创建报价的卖方视频演示，请参阅[销售代表在&#x200B;_Commerce视频和Tutorials_&#x200B;中启动报价](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=zh-Hans)。
 
 ### 从报价网格创建报价
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >有关行项目折扣如何工作的视频演示，请参阅&#x200B;_Commerce视频和Tutorials_&#x200B;中的[销售代表将折扣应用于报价行项目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)。
+   >有关行项目折扣如何工作的视频演示，请参阅&#x200B;_Commerce视频和Tutorials_&#x200B;中的[销售代表将折扣应用于报价行项目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=zh-Hans)。
 
 1. 根据需要应用报价级别折扣：
 

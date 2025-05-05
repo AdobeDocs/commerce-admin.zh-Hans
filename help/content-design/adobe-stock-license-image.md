@@ -74,6 +74,6 @@ Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/cn/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html

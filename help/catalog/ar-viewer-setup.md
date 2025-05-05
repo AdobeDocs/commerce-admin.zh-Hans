@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL AR Viewer]已作为扩展从[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}安装。
 
-有关扩展安装过程的详细信息，请参阅&#x200B;[_安装指南_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
+有关扩展安装过程的详细信息，请参阅&#x200B;[_安装指南_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)。
 
 安装并配置[!DNL AR Viewer]扩展后，管理员用户可以设置、自定义和管理产品列表以包含3D模型。
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关将3d模型添加到产品的用户的一系列演示视频，请参阅&#x200B;_Adobe Commerce视频和Tutorials_&#x200B;中的[Commerce的AR查看器](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html)页。
+> 有关将3d模型添加到产品的用户的一系列演示视频，请参阅&#x200B;_Adobe Commerce视频和Tutorials_&#x200B;中的[Commerce的AR查看器](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=zh-Hans)页。

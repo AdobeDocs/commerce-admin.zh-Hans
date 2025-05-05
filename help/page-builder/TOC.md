@@ -46,5 +46,5 @@ ht-degree: 7%
    - [产品](products.md)
    - [产品推荐](recommendations.md)
 - [模板](templates.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
 

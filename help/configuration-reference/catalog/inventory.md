@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->适用于Adobe Commerce和Magento Open Source的[!DNL Inventory Management]为您提供了用于管理产品库存的工具。 只有一家商店到多个仓库、商店、提货地点、卸货托运人等的商家可以使用这些功能来维护销售数量，并处理发运以完成订单。 有关这些功能以及如何使用这些功能管理多个位置的库存的详细信息，请参阅[_[!DNL Inventory Management]用户指南&#x200B;_](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html)。
+>适用于Adobe Commerce和Magento Open Source的[!DNL Inventory Management]为您提供了用于管理产品库存的工具。 只有一家商店到多个仓库、商店、提货地点、卸货托运人等的商家可以使用这些功能来维护销售数量，并处理发运以完成订单。 有关这些功能以及如何使用这些功能管理多个位置的库存的详细信息，请参阅[_[!DNL Inventory Management]用户指南&#x200B;_](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=zh-Hans)。
 
 ## [!UICONTROL Stock Options]
 
 ![股票期权](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![产品股票期权](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | 全局 | 确定您是否使用完全库存控制来管理目录中的物料。 选项： <br/>**是** — 激活完整库存控制以跟踪当前库存中的项目数。 <br/>**否** — 不跟踪当前库存中的项目数。 |
 | [!UICONTROL Backorders] | 全局 | 确定商店管理延期交货的方式。 延交订单不会更改订单的处理状态。 无论产品是否有库存，在下单后仍会立即授权或获取资金。 产品可用后，即会发货。 选项： <br/>**无延交订单** — 产品缺货时不接受延交订单。 <br/>**允许数量低于0** — 在数量低于零时接受延交订单。 <br/>**允许数量低于0并通知客户** — 在数量低于零时接受延交订单，但通知客户仍然可以下订单。 |
-| [!UICONTROL Use deferred Stock update] | 全局 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)如果允许延期交货，则确定是否延迟库存更新（_延期交货_&#x200B;选项设置为`No backorders`默认值以外的任何值）。 它适用于单个产品或整个网站，并使用&#x200B;_作业队列_&#x200B;机制允许库存数量指标在下订单后异步更新。 此选项也适用于[异步下单](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement)和[Inventory management](../../inventory-management/introduction.md)。 |
+| [!UICONTROL Use deferred Stock update] | 全局 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)如果允许延期交货，则确定是否延迟库存更新（_延期交货_&#x200B;选项设置为`No backorders`默认值以外的任何值）。 它适用于单个产品或整个网站，并使用&#x200B;_作业队列_&#x200B;机制允许库存数量指标在下订单后异步更新。 此选项也适用于[异步下单](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=zh-Hans#asynchronous-order-placement)和[Inventory management](../../inventory-management/introduction.md)。 |
 | 购物车中允许的最大数量 | 全局 | 确定单笔订单可购买产品的最大数量。 默认情况下，最大数量设置为10,000。 |
 | [!UICONTROL Out-of-Stock Threshold] | 全局 | 确定将产品视为缺货的库存水平。 选项： <br/>**正金额** — 禁用&#x200B;_延期交货_&#x200B;后，请输入正金额。 启用延交订单后，此金额将被忽略。 <br/>**零** — 启用&#x200B;_延交订单_&#x200B;后，输入`0`将允许无限延交订单。 <br/>**负金额** — 启用&#x200B;_延期交货_&#x200B;后，我们建议输入负金额。 该金额将添加到可销售数量。 例如，输入–50可允许订单数量达到此金额。 |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 全局 | 根据客户组确定可供采购物料的最小金额。 默认情况下，最小数量设置为1。 单击&#x200B;**[!UICONTROL Add Minimum Qty]**&#x200B;为特定客户组输入其他值。 |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![管理员批量操作](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->要配置和支持&#x200B;**异步队列管理器**，必须使用命令行。 这可能需要开发人员的帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html)。
+>要配置和支持&#x200B;**异步队列管理器**，必须使用命令行。 这可能需要开发人员的帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=zh-Hans)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 基于距离的SSA的![距离提供程序](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Google距离提供程序](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅[GitHub项目](https://github.com/magento/inventory)存储库和[wiki](https://github.com/magento/inventory/wiki)以开始操作。 若要讨论此项目，请加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)渠道（[自注册](https://opensource.magento.com/slack)）。
 
-[发行计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}，适用于受支持和兼容的发行版。
+[发行计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans){target="_blank"}，适用于受支持和兼容的发行版。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。 [!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
-![已修复问题](../assets/fix.svg) **已添加对单源模式和多源模式Elasticsearch的支持** — 您现在可以将Elasticsearch配置用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![已修复问题](../assets/fix.svg) **已添加对单源模式和多源模式Elasticsearch的支持** — 您现在可以将Elasticsearch配置用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修复问题](../assets/fix.svg)解决了默认库存的性能问题，从而通过大量操作显着提高性能。 改进提高了单一来源模式、“将库存转移到Source”、“店面类别”页面和“可销售数量”计算的性能。
 

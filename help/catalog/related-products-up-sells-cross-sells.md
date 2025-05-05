@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)**由Adobe Sensei提供支持的产品推荐**&#x200B;通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
 ><br/>
->有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
+>有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)_。
 
 ## 相关产品
 

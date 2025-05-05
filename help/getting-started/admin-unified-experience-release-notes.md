@@ -19,7 +19,7 @@ Commerce Admin Unified Experience扩展(`magento/module-unified-experience`)的�
 
 >[!NOTE]
 >
->有关Admin Unified Experience扩展相对于Adobe Commerce的发布状态的详细信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
+>有关Admin Unified Experience扩展相对于Adobe Commerce的发布状态的详细信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hans)。
 
 ## 1.0版本
 

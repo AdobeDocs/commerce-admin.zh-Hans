@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![以客户身份登录 — 常规选项](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | 选项 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |-- | -- | -- |

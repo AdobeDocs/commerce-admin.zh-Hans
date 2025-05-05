@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 添加内容 — 产品推荐
 
-使用&#x200B;_产品推荐_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
+使用&#x200B;_产品推荐_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
 
 >[!NOTE]
 >
->Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品推荐_&#x200B;内容类型，该内容类型可在[产品推荐中继包版本3.0.x或更高版本中找到](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 要添加[!DNL Page Builder]对产品推荐的支持，[请查看安装信息](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此内容类型不适用于Magento Open Source。**
+>Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品推荐_&#x200B;内容类型，该内容类型可在[产品推荐中继包版本3.0.x或更高版本中找到](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 要添加[!DNL Page Builder]对产品推荐的支持，[请查看安装信息](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)。 **此内容类型不适用于Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 添加现有的推荐单位
 
-1. 确保您已[为[!DNL Page Builder]页面类型创建了推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)。
+1. 确保您已[为[!DNL Page Builder]页面类型创建了推荐单元](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >

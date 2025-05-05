@@ -97,7 +97,7 @@ ht-degree: 0%
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _知识库_&#x200B;文章）
+      - `Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hans) _知识库_&#x200B;文章）
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于Adobe Commerce B2B)

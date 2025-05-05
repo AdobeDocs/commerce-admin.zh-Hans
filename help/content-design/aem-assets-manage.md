@@ -20,9 +20,9 @@ ht-degree: 0%
 
 有关详细信息，请参阅以下AEM Assets文档。
 
-- [正在重新处理数字资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [正在重新处理数字资产](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [批准资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [批准资产](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## 将资源添加到类别内容
 

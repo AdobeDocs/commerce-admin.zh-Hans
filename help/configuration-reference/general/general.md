@@ -117,6 +117,6 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | 全局 | 如果您是医疗保健客户，并且安装了[数据服务HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)扩展，则默认情况下会关闭此配置。 因此，将不再捕获实时搜索和产品推荐使用的店面事件数据。 这是因为店面事件数据是在客户端生成的。 要继续捕获和发送店面事件数据以供[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)服务使用，请将&#x200B;**已启用Commerce事件**&#x200B;设置为`Yes`。 |
+| [!UICONTROL Commerce Events Enabled] | 全局 | 如果您是医疗保健客户，并且安装了[数据服务HIPAA](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/hipaa-readiness)扩展，则默认情况下会关闭此配置。 因此，将不再捕获实时搜索和产品推荐使用的店面事件数据。 这是因为店面事件数据是在客户端生成的。 要继续捕获和发送店面事件数据以供[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)和[产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)服务使用，请将&#x200B;**已启用Commerce事件**&#x200B;设置为`Yes`。 |
 
 {style="table-layout:auto"}

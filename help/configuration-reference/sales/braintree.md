@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您需要有关卡上意外费用的帮助，请访问[取消订阅](https://helpx.adobe.com/manage-account/using/cancel-subscription.html)页面以获得帮助。
+>如果您需要有关卡上意外费用的帮助，请访问[取消订阅](https://helpx.adobe.com/cn/manage-account/using/cancel-subscription.html)页面以获得帮助。
 
 ## [!UICONTROL Basic Braintree Settings]
 

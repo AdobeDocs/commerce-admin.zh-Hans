@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 配置管理员安全
 
-我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 作为[最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给该帐户的最近四个密码。
+我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 作为[最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给该帐户的最近四个密码。
 
 管理员安全配置使您能够：
 

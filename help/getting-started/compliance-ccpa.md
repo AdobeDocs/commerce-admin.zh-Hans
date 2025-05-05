@@ -206,8 +206,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 在收到每项个人权利请求后的24个月内，将请求和贵公司的回应记录下来。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hans
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 如果希望类别页面包含分层导航的&#x200B;_`Filter by Attribute`_部分，请将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
 
-1. 对于&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;选项，请选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 对于&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;选项，请选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
    默认情况下，将包含所有可用值。 取消选中&#x200B;**[!UICONTROL Use All]**&#x200B;复选框以更改选择。 例如，值可能包括：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 要设置类别的默认排序顺序，请选择&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 要设置类别的默认排序顺序，请选择&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
 1. 要更改默认分层导航[价格步骤](navigation-layered.md#configure-price-navigation)设置，请执行以下操作：
 
