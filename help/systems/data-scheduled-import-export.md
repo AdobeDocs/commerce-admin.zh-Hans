@@ -27,7 +27,7 @@ ht-degree: 0%
    - [添加计划导出](#schedule-an-export)
    - [添加计划导入](#schedule-an-import)
 
-1. 保存记录后，作业将出现在&#x200B;_[!UICONTROL Scheduled Import/Export]_网格中。
+1. 保存记录后，作业将出现在&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;网格中。
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_和_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
+     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
 
    - **[!UICONTROL Start Time]** — 设置为计划开始导入的小时、分钟和秒。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新的计划导入作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_页面上的列表。 在此页面中，可以立即运行它以进行测试和编辑。 在执行每个导入作业之前，将验证导入文件。
+   新的计划导入作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;页面上的列表。 在此页面中，可以立即运行它以进行测试和编辑。 在执行每个导入作业之前，将验证导入文件。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     页面底部的&#x200B;_[!UICONTROL Entity Attributes]_部分已更新以反映所选的实体类型。
+     页面底部的&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;部分已更新以反映所选的实体类型。
 
    - 将&#x200B;**[!UICONTROL Start Time]**&#x200B;设置为计划开始导出的小时、分钟和秒。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - 对于&#x200B;**[!UICONTROL Local Server]**，输入Commerce安装中的相对路径，如`var/export`。 如果已配置远程存储模块，请使用`import_export/export`。
    - 对于&#x200B;**[!UICONTROL Remote FTP server]**，输入目标服务器上的目标文件夹的完整URL和路径。
 
-1. 如果选择&#x200B;_[!UICONTROL Remote FTP]_服务器，请输入服务器的连接凭据并选择其他设置：
+1. 如果选择&#x200B;_[!UICONTROL Remote FTP]_&#x200B;服务器，请输入服务器的连接凭据并选择其他设置：
 
    - 对于&#x200B;**[!UICONTROL FTP Host[:Port]]**，输入远程FTP主机地址。
    - 对于&#x200B;**[!UICONTROL User Name]**，输入用于访问远程服务器的用户名。
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 步骤4：选择实体属性
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_部分中，选择要包含在导出数据中的属性。
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;部分中，选择要包含在导出数据中的属性。
 
-   - 要按属性值筛选导出数据，请在&#x200B;_[!UICONTROL Filter]_列中输入属性值。
+   - 要按属性值筛选导出数据，请在&#x200B;_[!UICONTROL Filter]_&#x200B;列中输入属性值。
    - 要排除具有特定属性值的产品或客户，请输入要排除的属性的值，并在“跳过”列中选中复选框。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   新的计划导出作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_页面上的列表。 在此页面中，可以立即运行该程序以进行测试和编辑。
+   新的计划导出作业已添加到&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;页面上的列表。 在此页面中，可以立即运行该程序以进行测试和编辑。
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 确定导出文件的位置。 选项：<br>**本地服务器** — 将导出文件放在部署Commerce的同一服务器上。 如果启用了远程存储模块，`Local Server`将切换到`Remote Storage`。<br>**远程FTP** — 将导出文件放在远程服务器上。 将显示凭据和文件传输设置的其他选项。 |
-| [!UICONTROL File Directory] | 指定放置导出文件的目录。 如果&#x200B;_[!UICONTROL Server Type]_设置为`Local Server`，请指定相对于Commerce安装路径的路径。 例如，`var/export`或远程存储的`import_export/export`。 |
+| [!UICONTROL File Directory] | 指定放置导出文件的目录。 如果&#x200B;_[!UICONTROL Server Type]_&#x200B;设置为`Local Server`，请指定相对于Commerce安装路径的路径。 例如，`var/export`或远程存储的`import_export/export`。 |
 
 {style="table-layout:auto"}
 
