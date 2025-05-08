@@ -2,9 +2,9 @@
 title: 支持工具
 description: 了解所提供的可用于确定系统中问题的支持工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,60 +14,6 @@ ht-degree: 0%
 {{ee-feature}}
 
 支持工具旨在识别系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。
-
-## 数据收集器
-
-数据收集器会收集我们的支持团队解决您的Adobe Commerce安装问题所需的有关您的系统的信息。 创建的备份需要几分钟才能完成，并且包括代码和数据库转储。 数据可以导出为CSV或Excel XML文件。
-
-![系统 — 数据收集器](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### 运行数据收集器
-
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**。
-
-1. 单击右上角的&#x200B;**[!UICONTROL New Backup]**。
-
-   生成备份需要几分钟的时间。 您可以通过单击&#x200B;**[!UICONTROL Refresh Status]**&#x200B;来监视处理结果。 完成后，备份将显示在&#x200B;_[!UICONTROL Data Collector]_&#x200B;网格中。
-
-1. 要查看包含备份详细信息的日志，请执行以下操作：
-
-   - 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，选择&#x200B;**[!UICONTROL Show Log]**。
-
-   - 单击&#x200B;**[!UICONTROL Back]**&#x200B;返回网格。
-
-   ![数据收集器日志](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### 导出备份数据
-
-1. 在第一列中，选中要导出的备份的复选框。
-
-1. 使用&#x200B;**[!UICONTROL Export]**&#x200B;菜单选择导出数据的格式。
-
-   ![导出格式](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. 从Web浏览器下载位置访问文件并&#x200B;**[!UICONTROL Save]**&#x200B;它。
-
-### 下载备份数据
-
-生成备份后，您可以下载代码和数据库数据的副本。
-
-1. 在网格中查找所需的备份实体。
-
-1. 确保它具有`Complete`状态。
-
-1. 单击&#x200B;_[!UICONTROL Code Dump]_&#x200B;或_[!UICONTROL DB Dump]_&#x200B;列中的实体名称。
-
-下载过程应自动启动。
-
-## 删除备份数据
-
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**。
-
-1. 查找并选择要删除的备份数据。
-
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Delete]**。
-
-1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 
 ## 系统报表
 
@@ -116,7 +62,7 @@ ht-degree: 0%
 
 ### 查看系统报告详细信息
 
-1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 在左侧面板中，展开报表的每个部分![扩展选择器](../assets/icon-display-expand.png)以查看详细信息。
 

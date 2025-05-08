@@ -2,9 +2,9 @@
 title: 管理系统简介
 description: 了解商店管理员可用于有效管理站点、数据、集成和管理员用户的系统工具和功能。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 - **数据传输** — 使用[数据传输](data-transfer.md)工具导入和导出数据，以及管理产品、定价、客户和税率数据。
 - **集成** — 为[第三方集成](integrations.md)建立OAuth凭据和重定向URL的位置，并识别可用的API资源。
 - **操作日志** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)访问管理员用户在您的商店中进行的更改的记录（[操作日志](action-log.md)）。
-- **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)支持工具（[数据收集器](support.md#data-collector)和[系统报告](support.md#access-system-reports)）旨在识别您系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。
+- **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [系统报表](support.md#access-system-reports)旨在识别系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。
