@@ -3,9 +3,10 @@ title: PayPal支付解决方案
 description: 了解您商店提供的PayPal支付解决方案集成。
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ PayPal是在线支付领域的全球领先企业，也是客户在线支付的�
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->从2019年9月14日开始，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 对于大多数PayPal解决方案，无需采取任何操作即可遵守PSD2，因为这些要求由PayPal处理。
+>从2019年9月14日开始，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 对于大多数PayPal解决方案，无需采取任何操作即可符合PSD2，因为这些要求由PayPal处理。
 
 ## PayPal商业帐户
 
@@ -102,7 +103,7 @@ PayPal欺诈管理过滤器使得检测和响应欺诈性交易更容易，并�
 | 操作 | 结果 |
 | --- | --- |
 | [!UICONTROL Review] | 可疑的订单在发出订单时收到状态&#x200B;_付款审核_。 您可以在管理员或PayPal端查看订单并批准，或取消付款。 当您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;时，不会为订单创建新的交易记录。 <br/><br/>如果您在PayPal网站上更改交易状态，则必须单击管理员订单页面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以应用更改。 如果您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，则将应用在PayPal站点上所做的更改。 |
-| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_&#x200B;部分。 |
+| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_部分。 |
 | [!UICONTROL Flag] | 可疑订单在放置时获得状态`Processing`。 相应的交易在商户交易列表中标有标志。 |
 
 {style="table-layout:auto"}

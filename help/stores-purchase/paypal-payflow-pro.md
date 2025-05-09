@@ -3,9 +3,10 @@ title: PayPal Payflow Pro
 description: 了解如何在您的商店中将PayPal Payflow Pro设置为在线支付解决方案。
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 为了符合PSD2，PayPal Payflow Pro必须集成到第三方插件中。 若要了解详细信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
+>从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 为了符合PSD2的要求，PayPal Payflow Pro必须集成到第三方插件中。 若要了解详细信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
 
 ## 要求
 
@@ -86,7 +87,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 
    - 若要向帐户添加其他用户，请单击&#x200B;**[!UICONTROL Add User]**。 该链接位于“管理用户”标题的正上方。
 
-   - 填写&#x200B;_[!UICONTROL Add User]_&#x200B;表单以下部分中的必填字段：
+   - 填写&#x200B;_[!UICONTROL Add User]_表单以下部分中的必填字段：
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -113,7 +114,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 
 1. 如果您的Commerce安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
@@ -316,7 +317,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -448,7 +449,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
    - `Authorization` — 批准购买并暂停资金。 在商户捕获&#x200B;_金额_&#x200B;之前，不撤消该金额。
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 ### 步骤7：完成PayPal Express签出的高级设置
 
@@ -461,7 +462,7 @@ PayPal Payflow Pro网关（以前称为&#x200B;_Verisign_）面向美国、加�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 

@@ -3,9 +3,10 @@ title: PayPal Express签出
 description: 了解如何在您的商店中将PayPal Express结帐设置为在线付款解决方案。
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3110'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ PayPal Express Checkout使您的客户能够通过信用卡或个人PayPal帐户
 >**PSD2要求：** <br/>
 >从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 PayPal Express Checkout无需执行任何操作即可符合PSD2，因为所有要求都由PayPal处理。
 
-具有当前PayPal帐户的客户只需单击&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，即可一步完成购买。 Express Checkout可以作为独立解决方案使用，也可以与其中一个PayPal多功能一体解决方案一起使用。 如果您已经在网上接受信用卡，则可以提供“快速结帐”作为额外选项，以吸引喜欢使用PayPal付款的新客户。
+具有当前PayPal帐户的客户只需单击&#x200B;_[!UICONTROL Check out with PayPal]_按钮，即可一步完成购买。 Express Checkout可以作为独立解决方案使用，也可以与其中一个PayPal多功能一体解决方案一起使用。 如果您已经在网上接受信用卡，则可以提供“快速结帐”作为额外选项，以吸引喜欢使用PayPal付款的新客户。
 
 >[!NOTE]
 >
@@ -34,7 +35,7 @@ PayPal Express Checkout使您的客户能够通过信用卡或个人PayPal帐户
 
 与其他付款方法不同，PayPal Express结帐允许客户在通常结帐工作流程开始时从产品页面、迷你购物车和购物车结帐。
 
-1. **客户下订单** — 客户单击/点按&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮。
+1. **客户下订单** — 客户单击/点按&#x200B;_[!UICONTROL Check out with PayPal]_按钮。
 1. **客户被重定向到PayPal网站** — 客户被重定向到PayPal网站以完成交易。
 1. **客户登录到其PayPal帐户** — 客户必须登录到其PayPal帐户才能完成交易。 付款系统使用来自其PayPal帐户的账单和运送信息。
 1. **客户返回结帐页面** — 客户将被重定向回商店中的结帐页面以查看订单。
@@ -93,13 +94,13 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 1. 如果您的安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
    ![商家国家/地区](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;下，单击&#x200B;**[!UICONTROL PayPal Express Checkout]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_下，单击&#x200B;**[!UICONTROL PayPal Express Checkout]**的&#x200B;**[!UICONTROL Configure]**。
 
    ![配置PayPal Express签出](./assets/paypal-express-checkout.png){width="600"}
 
@@ -311,7 +312,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
    - `Order` — 未在PayPal的客户余额、银行帐户或信用卡中获取或授权订单金额。 订单付款活动表示PayPal付款系统与商家之间的协议。 它使商家能够在长达29天的时间内，从客户买方帐户中获取一个或多个最高至订购总额的金额。 在订购资金后，商家可以在接下来的29天内随时抓获这些资金。 只能通过创建一张或多张发票从Commerce管理员处获取订单金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 1. 如果付款活动设置为`Order`，请完成以下操作
 
@@ -332,7 +333,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -409,7 +410,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
 
 1. 若要在日志文件中记录与付款系统的通信，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -579,5 +580,5 @@ _智能支付按钮_&#x200B;功能允许您自定义PayPal按钮，该按钮可�
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

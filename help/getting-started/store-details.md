@@ -3,9 +3,9 @@ title: 商店详细信息
 description: 了解如何更新商店的基本信息。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和其他通信中的基本信息。
+_[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通信中的基本信息。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -169,9 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 要获得有关排查国家/地区配置问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hans)
+- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 “商家位置”设置用于配置[付款方法](../stores-purchase/payments.md)。 如果此设置没有值，则使用[默认国家/地区](#uicontrol-country-options)设置。
 
@@ -313,7 +315,7 @@ Luma示例数据包含可为您的商店自定义的&#x200B;_联系我们信息_
 
 1. 将鼠标悬停在HTML容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](../page-builder/assets/pb-icon-settings.png) ）图标。
 
-1. 根据提供商店的联系信息编辑HTML代码，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 编辑HTML代码，以提供您商店的联系信息，然后单击&#x200B;**[!UICONTROL Save]**。
 
    ![内容块 — 编辑HTML代码](./assets/content-block-contact-us-html.png){width="700"}
 

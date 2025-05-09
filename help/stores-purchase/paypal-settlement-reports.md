@@ -3,9 +3,10 @@ title: PayPal结算报告
 description: 了解PayPal结算报表，将其作为管理PayPal交易的工具。
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ PayPal结算报告为商家提供有关影响资金结算的每项交易的信�
 >
 >在生成结算报表之前，商店管理员必须请求PayPal Merchant Technical Services创建一个SFTP用户帐户，启用结算报表的生成，并在其PayPal商业帐户中启用SFTP。
 
-在PayPal商户帐户中配置和启用结算报表后，Adobe Commerce和Magento Open Source将在以下24小时内开始生成报表。 管理员可查看可用结算报表的列表。
+在PayPal商户帐户中配置并启用结算报表后，Adobe Commerce和Magento Open Source将在以下24小时内开始生成报表。 管理员可查看可用结算报表的列表。
 
 **_要查看结算报告：_**
 
