@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通信中的基本信息。
+_[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和其他通信中的基本信息。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

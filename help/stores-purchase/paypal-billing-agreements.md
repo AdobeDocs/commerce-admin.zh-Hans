@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 管理帐单协议
 
-_[!UICONTROL Billing Agreements]_页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
+_[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
 
 ### 查看计费协议
 
@@ -35,7 +35,7 @@ _[!UICONTROL Billing Agreements]_页面列出了您的商店与其客户之间�
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
-每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_和_[!UICONTROL Related Orders]_。
+每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
 
 #### 一般信息
 

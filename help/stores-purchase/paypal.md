@@ -103,7 +103,7 @@ PayPal欺诈管理过滤器使得检测和响应欺诈性交易更容易，并�
 | 操作 | 结果 |
 | --- | --- |
 | [!UICONTROL Review] | 可疑的订单在发出订单时收到状态&#x200B;_付款审核_。 您可以在管理员或PayPal端查看订单并批准，或取消付款。 当您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;时，不会为订单创建新的交易记录。 <br/><br/>如果您在PayPal网站上更改交易状态，则必须单击管理员订单页面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以应用更改。 如果您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，则将应用在PayPal站点上所做的更改。 |
-| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_部分。 |
+| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_&#x200B;部分。 |
 | [!UICONTROL Flag] | 可疑订单在放置时获得状态`Processing`。 相应的交易在商户交易列表中标有标志。 |
 
 {style="table-layout:auto"}
