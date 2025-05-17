@@ -3,9 +3,9 @@ title: 商店详细信息
 description: 了解如何更新商店的基本信息。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和其他通信中的基本信息。
+_[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通信中的基本信息。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 要获得有关排查国家/地区配置问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hans)
+- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 “商家位置”设置用于配置[付款方法](../stores-purchase/payments.md)。 如果此设置没有值，则使用[默认国家/地区](#uicontrol-country-options)设置。
 
@@ -213,7 +213,21 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 在为存储配置电子邮件地址之前，必须将每个电子邮件地址设置为域的有效电子邮件地址。 要创建所需的每个电子邮件地址，请按照服务器管理员或电子邮件托管提供商提供的说明进行操作。
 
-### 步骤2：配置存储区的电子邮件地址
+### 第2步：为生成的链接设置基本URL
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+某些面向客户的电子邮件包含指向商店的链接，例如帮助客户重置密码的链接。 要确保指向店面的链接正常工作，您必须定义指向店面的基本URL。
+
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+
+1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL Store Email Addresses]**。
+
+1. 在&#x200B;**[!UICONTROL Storefront Base URL]**&#x200B;字段&#x200B;**[!UICONTROL General]**&#x200B;部分中，输入商店的根URL，如`https://www.example.com/`。 URL必须以正斜杠结尾。
+
+   ![常规配置 — 常规](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### 步骤3：配置存储区的电子邮件地址
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -231,7 +245,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-### 步骤3：更新销售电子邮件配置
+### 步骤4：更新销售电子邮件配置
 
 如果您使用自定义电子邮件地址，请确保更新任何相关电子邮件的配置，以便以发件人身份显示正确的身份。
 
