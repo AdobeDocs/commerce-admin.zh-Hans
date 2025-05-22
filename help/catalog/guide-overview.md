@@ -1,13 +1,13 @@
 ---
 title: 目录管理指南
-description: 有关Adobe Commerce和Magento Open Source管理员以及电子商务促销商的产品目录功能的综合信息。
+description: 为 Adobe Commerce 和 Magento Open Source 管理员及电商卖家提供的产品目录功能的综合信息。
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

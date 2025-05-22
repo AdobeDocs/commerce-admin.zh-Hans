@@ -1,11 +1,11 @@
 ---
 title: 管理系统指南
-description: 了解最佳安全实践，以保护您的Commerce存储和管理权限，以及如何导入和导出数据、管理集成和扩展以及处理日常维护。
+description: 了解最佳安全实践，以保护您的 Commerce 商店并管理权限，并学习如何导入和导出数据、管理集成和扩展，并进行日常维护。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 

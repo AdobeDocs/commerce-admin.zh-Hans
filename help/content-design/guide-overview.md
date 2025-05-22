@@ -1,13 +1,13 @@
 ---
 title: 内容和设计指南
-description: 面向Adobe Commerce和Magento Open Source管理员以及电子商务营销人员的有关内容和设计功能的全面信息。
+description: 为 Adobe Commerce 和 Magento Open Source 的管理员及电商营销人员提供的关于内容和设计功能的综合信息。
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
