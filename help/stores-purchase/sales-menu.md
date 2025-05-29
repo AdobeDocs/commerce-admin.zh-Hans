@@ -1,10 +1,10 @@
 ---
-title: “[!UICONTROL Sales]菜单”
+title: '[!UICONTROL Sales]菜单'
 description: Commerce管理员包括[!UICONTROL Sales]菜单，通过菜单可访问用于根据订单在工作流中的位置处理订单的工具。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 “销售”菜单根据交易在订单工作流中的位置列出交易。 您可能会将每个选项视为订单生命周期中的不同阶段。
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 ![销售菜单](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}
+
+![销售菜单](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 显示[!UICONTROL Sales]菜单
 
@@ -26,6 +40,12 @@ ht-degree: 0%
 ![Adobe Commerce B2B](../assets/b2b.svg)(适用于Adobe Commerce B2B)
 
 授权购买者可以通过从购物车发送[请求](../b2b/quote-request.md)与卖方[协商价格](../b2b/quotes.md)。
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg)(适用于Adobe Commerce B2B)
+
+允许买方和卖方通过创建可重复使用和自定义的[报价模板](../b2b/quote-templates-overview.md)来简化报价流程。
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ ht-degree: 0%
 
 ### [!UICONTROL Billing Agreements]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 [帐单协议](paypal-billing-agreements.md)类似于采购订单，只是它不限于单次购买。 在结帐过程中，客户选择“开单协议”作为付款方式。 由于客户不必为每次购买输入付款信息，因此开单协议可简化结帐流程。
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-在“Braintree虚拟终端”页面上，管理员用户可以接受所选金额的付款。 要使终端功能可用，商家应配置基本[Braintree设置](braintree.md)。 Braintree通过欺诈检测和PayPal集成，提供完全可自定义的结账体验。
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
+在“Braintree虚拟终端”页面上，管理员用户可以接受所选金额的付款。 要使终端功能可用，商家应配置基本[Braintree设置](braintree.md)。 Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体验。
 
 ### [!UICONTROL Archive]
 

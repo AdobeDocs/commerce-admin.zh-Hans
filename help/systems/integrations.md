@@ -4,9 +4,10 @@ description: 了解如何为第三方集成配置OAuth凭据和重定向URL。
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 ## 载入工作流
 
-1. **授权集成** — 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;页面，查找相关的集成并授权。
+1. **授权集成** — 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**页面，查找相关的集成并授权。
 1. **验证并建立登录** — 出现提示时，接受请求的访问。 如果重定向到第三方，请登录到系统或创建帐户。 成功登录后，您将返回到集成页面。
 1. **接收授权集成的确认** — 系统发送通知，告知集成已成功授权。 设置集成并接收凭据后，不再需要调用访问或请求令牌。
 
@@ -35,7 +36,7 @@ ht-degree: 0%
 
    - 输入&#x200B;**[!UICONTROL Callback URL]**，在使用OAuth进行令牌交换时，可在其中发送OAuth凭据。 强烈建议使用`https://`。
 
-   - 输入&#x200B;**[!UICONTROL Identity Link URL]**&#x200B;以使用这些Adobe Commerce或Magento Open Source集成凭据将用户重定向到第三方帐户。
+   - 输入&#x200B;**[!UICONTROL Identity Link URL]**&#x200B;以通过这些Adobe Commerce或Magento Open Source集成凭据将用户重定向到第三方帐户。
 
    >[!NOTE]
    >
@@ -80,7 +81,7 @@ ht-degree: 0%
 
 1. 查找与&#x200B;**[!UICONTROL Active]**&#x200B;状态的集成。
 
-1. 在&#x200B;_[!UICONTROL Activate]_&#x200B;列中，单击&#x200B;**[!UICONTROL Reauthorize]**。
+1. 在&#x200B;_[!UICONTROL Activate]_列中，单击&#x200B;**[!UICONTROL Reauthorize]**。
 
 1. 单击&#x200B;**[!UICONTROL Reauthorize]**&#x200B;批准对API资源的访问。
 
@@ -88,7 +89,7 @@ ht-degree: 0%
 
 ## 更改API来宾访问安全设置
 
-默认情况下，系统不允许匿名访客访问CMS、目录和其他存储资源。 如果必须更改设置，请执行以下操作：
+默认情况下，系统不允许匿名访客访问CMS、目录和其他商店资源。 如果必须更改设置，请执行以下操作：
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

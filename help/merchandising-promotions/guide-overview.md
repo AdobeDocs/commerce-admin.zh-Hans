@@ -2,9 +2,9 @@
 title: Merchandising and Promotions指南
 description: 探索有关Adobe Commerce中的商品推销和促销功能的详细信息，包括有针对性的折扣和活动。
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [简介](introduction.md) | Commerce实例的促销和促销功能概述。 |
 | [营销菜单](marketing-menu.md) | 使用[!UICONTROL Marketing]菜单访问多项功能，用于管理促销、通信、SEO和用户生成的内容。 |
-| [可视化促销活动](visual-merchandiser.md) | 探索这组高级工具，以便您定位产品并应用条件来确定哪些产品会显示在类别列表中。 |
+| [可视化促销活动](visual-merchandiser.md) | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}浏览这组高级工具，这些工具允许您定位产品并应用条件来确定哪些产品出现在类别列表中。 |
 | [礼品注册表](gift-registries.md) | 让您的客户能够创建特殊场合的礼品注册表，并邀请他们的朋友和家人从礼品注册表购买他们的礼物。 |
 | [奖励和忠诚计划](rewards-loyalty.md) | 实施项目以提高客户参与度并提高客户忠诚度。 |
 | [私人销售和活动](events-private-sales.md) | 创建限时销售、将销售限定于特定成员，或创建独立的专用销售页面。 |

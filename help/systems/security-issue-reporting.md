@@ -4,9 +4,10 @@ description: 了解如何配置联系信息和安全相关链接，安全研究�
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_&#x200B;下，单击&#x200B;**[!UICONTROL Security.txt]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_下，单击&#x200B;**[!UICONTROL Security.txt]**。
 
-1. 在&#x200B;_[!UICONTROL General]_&#x200B;部分中，将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
+1. 在&#x200B;_[!UICONTROL General]_部分中，将&#x200B;**[!UICONTROL Enable]**设置为`Yes`。
 
    ![常规安全配置](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Contact Information]_&#x200B;下，输入以下内容：
+1. 在&#x200B;_[!UICONTROL Contact Information]_下，输入以下内容：
 
    - 为您的商店管理安全问题的人员的电子邮件地址和电话号码。
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
    ![联系人信息配置](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Other Information]_&#x200B;下，输入以下内容：
+1. 在&#x200B;_[!UICONTROL Other Information]_下，输入以下内容：
 
    - 您的公共&#x200B;**[!UICONTROL Encryption]**&#x200B;密钥的URL。 例如： `https://example.com/pgp-key.txt`
 

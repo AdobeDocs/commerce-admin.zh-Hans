@@ -1,19 +1,33 @@
 ---
-title: “[!UICONTROL Stores]菜单”
+title: '[!UICONTROL Stores]菜单'
 description: Commerce管理员包括[!UICONTROL Stores]菜单，通过菜单可访问用于设置商店层次结构、配置、库存、税和属性的工具。
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Stores]菜单
 
-通过&#x200B;_[!UICONTROL Stores]_&#x200B;菜单，您可以访问不太常使用，但在Adobe Commerce或Magento Open Source安装过程中引用的设置。 这些功能包括设置商店层次结构、配置、销售和订单设置、税和货币、产品属性、产品审核评级以及客户组。
+通过&#x200B;_[!UICONTROL Stores]_菜单，您可以访问不太常使用，但在Adobe Commerce或Magento Open Source安装过程中被引用的设置。 这些功能包括设置商店层次结构、配置、销售和订单设置、税和货币、产品属性、产品审核评级以及客户组。
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 ![管理员 — 商店菜单](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}
+
+![管理员 — 商店菜单](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 显示[!UICONTROL Stores]菜单
 

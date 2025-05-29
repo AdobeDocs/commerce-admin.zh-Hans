@@ -1,20 +1,21 @@
 ---
-title: AdobeIdentity Management服务(IMS)集成概述
+title: Adobe Identity Management Service (IMS)集成概述
 description: 引入了Adobe Commerce管理员登录与Adobe IMS的可选集成
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
-# AdobeIdentity Management服务(IMS)集成概述
+# Adobe Identity Management Service (IMS)集成概述
 
 {{ee-feature}}
 
-拥有Adobe帐户的Adobe Commerce管理员用户现在可以使用其Adobe ID登录到Adobe Commerce。 AdobeIdentity Management服务(IMS)是Adobe的基于OAuth 2.0的身份管理功能，支持身份验证。 将Commerce管理员身份验证集成到Adobe业务产品的IMS身份验证工作流中，可以简化与其他Adobe产品一起工作的用户的身份验证过程。 此集成是可选的，并且是按实例启用的。 启用此集成后，只有管理员用户工作流会受到影响。 
+具有Adobe Commerce帐户的Adobe管理员用户现在可以使用其Adobe ID登录到Adobe Commerce。 Adobe Identity Management服务(IMS)是Adobe基于OAuth 2.0的身份管理功能，支持身份验证。 将Commerce管理员身份验证集成到Adobe商业产品的IMS身份验证工作流中可以简化与其他Adobe产品一起使用的用户的身份验证过程。 此集成是可选的，并且是按实例启用的。 启用此集成后，只有管理员用户工作流会受到影响。 
 
 Commerce Admin IMS集成所需的模块打包到`adobe-ims-metapackage`中，该版本与Adobe Commerce核心版本捆绑在一起。
 
@@ -22,7 +23,7 @@ Commerce Admin IMS集成所需的模块打包到`adobe-ims-metapackage`中，该
 
 ## 与IMS集成后对管理员工作流和界面所做的更改
 
-启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 启用模块需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_&#x200B;按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
+启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 模块启用需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
 
 ## 管理员与IMS集成如何影响Commerce密码
 

@@ -1,10 +1,10 @@
 ---
-title: “[!UICONTROL System]菜单”
+title: '[!UICONTROL System]菜单'
 description: Commerce管理员包括[!UICONTROL System]菜单，通过菜单可访问用于导入和导出数据、系统缓存和索引管理、管理员访问权限管理、备份、系统通知以及自定义变量的工具。
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 [!UICONTROL System]菜单包括用于导入和导出数据、管理系统缓存和索引、管理权限、备份、系统通知和自定义变量的工具。
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 ![系统菜单](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}
+
+![系统菜单](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_要显示[!UICONTROL System]菜单：_**
 
@@ -25,13 +39,19 @@ ht-degree: 0%
 
 ## [!UICONTROL Extensions]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 管理存储的[第三方集成](integrations.md)和扩展。
 
 ## [!UICONTROL Tools]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 使用此工具集合来管理您的系统资源，包括[缓存](cache-management.md)和[索引](index-management.md)管理、[备份](backups.md)以及安装设置。
 
 ## [!UICONTROL Support]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
 
@@ -39,7 +59,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Permissions]
 
-Adobe Commerce和Magento Open Source使用[角色和权限](permissions.md)为管理员用户创建其他级别的访问权限。 这些工具使管理员能够根据&#x200B;_需要知道_&#x200B;向网站工作人员授予权限。
+Adobe Commerce和Magento Open Source使用[角色和权限](permissions.md)为管理员用户创建不同的访问级别。 这些工具使管理员能够根据&#x200B;_需要知道_&#x200B;向网站工作人员授予权限。
 
 ## [!UICONTROL Action Log]
 

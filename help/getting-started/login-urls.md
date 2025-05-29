@@ -4,9 +4,9 @@ description: 了解用于访问管理员和店面的Commerce URL和帐户凭据�
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ ht-degree: 0%
 
 ## 示例数据
 
-Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中约200种为可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=zh-Hans)是可选的，但有助于测试和开发电子商务业务的自定义项。
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
+Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中大约200种是可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)是可选的，但有助于测试和开发电子商务业务的自定义项。

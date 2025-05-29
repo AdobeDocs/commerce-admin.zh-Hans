@@ -4,16 +4,16 @@ description: 了解如何配置Google reCAPTCHA以进行管理员访问和注册
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA
 
-[Google reCAPTCHA](https://developers.google.com/recaptcha)确保人（而不是“机器人”）与您的网站进行交互。 与标准Adobe Commerce和Magento Open Source[CAPTCHA](security-captcha.md)不同，Google reCAPTCHA通过选择不同的显示选项和方法提供了增强的安全性。 Google reCAPTCHA帐户的信息板中提供了其他网站流量信息。
+[Google reCAPTCHA](https://developers.google.com/recaptcha)确保人（而不是“机器人”）与您的网站进行交互。 与标准Adobe Commerce和Magento Open Source [CAPTCHA](security-captcha.md)不同，Google reCAPTCHA通过一系列不同的显示选项和方法提供了增强的安全性。 Google reCAPTCHA帐户的信息板中提供了其他网站流量信息。
 
 Google reCAPTCHA是单独为管理员和店面配置的。
 
@@ -33,7 +33,7 @@ Google reCAPTCHA可通过多种方式实施：
 
 >[!IMPORTANT]
 >
->在配置Google reCAPTCHA之前，请确保您的`PHP.ini`文件包含以下设置： `allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅安装指南中的[必需的PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hans){：target=&quot;_blank&quot;}。
+>在配置Google reCAPTCHA之前，请确保您的`PHP.ini`文件包含以下设置： `allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅安装指南中的[必需的PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}。
 
 ## 步骤1：生成Google reCAPTCHA密钥
 
@@ -70,6 +70,8 @@ Google reCAPTCHA需要启用一对API密钥。 您可以通过reCAPTCHA网站免
 
 ## 步骤2：为管理员配置Google reCAPTCHA
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 1. 登录到您的管理员帐户。
 
 1. 在管理员侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
@@ -82,7 +84,7 @@ Google reCAPTCHA需要启用一对API密钥。 您可以通过reCAPTCHA网站免
    >
    >清除要配置的每个字段的&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框。
 
-1. 要使用&#x200B;_[!DNL reCAPTCHA v2 ("I am not a robot")]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;部分并执行以下操作：
+1. 要使用&#x200B;_[!DNL reCAPTCHA v2 ("I am not a robot")]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**部分并执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Google API Website Key]**，请输入在注册Google reCAPTCHA帐户时为此reCAPTCHA类型创建的网站密钥。
 
@@ -96,7 +98,7 @@ Google reCAPTCHA需要启用一对API密钥。 您可以通过reCAPTCHA网站免
 
    ![reCAPTCHA v2 — “我不是机器人”](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. 要使用&#x200B;_[!DNL reCAPTCHA v2 Invisible]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;部分并执行以下操作：
+1. 要使用&#x200B;_[!DNL reCAPTCHA v2 Invisible]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**部分并执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Google API Website Key]**，请输入在注册Google reCAPTCHA帐户时为此reCAPTCHA类型创建的网站密钥。
 
@@ -110,7 +112,7 @@ Google reCAPTCHA需要启用一对API密钥。 您可以通过reCAPTCHA网站免
 
    ![reCAPTCHA v2不可见](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. 要使用&#x200B;_[!DNL reCAPTCHA v3 Invisible]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;部分并执行以下操作：
+1. 要使用&#x200B;_[!DNL reCAPTCHA v3 Invisible]_，请展开&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**部分并执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Google API Website Key]**，请输入在注册Google reCAPTCHA帐户时为此reCAPTCHA类型创建的网站密钥。
 
@@ -140,7 +142,7 @@ Google reCAPTCHA需要启用一对API密钥。 您可以通过reCAPTCHA网站免
 
 ## 步骤3：为店面配置Google reCAPTCHA
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_&#x200B;下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 填写要在店面中使用的每个reCAPTCHA类型的部分。
 

@@ -3,16 +3,17 @@ title: 系统备份
 description: 了解如何创建和计划系统备份，包括文件系统、数据库和媒体文件。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # 系统备份
 
-Adobe Commerce和Magento Open Source让您能够备份系统的各个部分（如文件系统、数据库和介质文件），并自动回滚。 每个备份的记录都显示在&#x200B;_备份_&#x200B;页上的网格中。 从列表中删除记录也会删除存档的文件。 数据库备份文件使用GZ格式进行压缩。 对于系统备份、数据库和介质备份，使用TGZ格式。 作为最佳实践，您应限制对备份工具的访问，并在安装扩展和更新之前进行备份。
+Adobe Commerce和Magento Open Source让您能够备份系统的不同部分（如文件系统、数据库和媒体文件），并自动回滚。 每个备份的记录都显示在&#x200B;_备份_&#x200B;页上的网格中。 从列表中删除记录也会删除存档的文件。 数据库备份文件使用GZ格式进行压缩。 对于系统备份、数据库和介质备份，使用TGZ格式。 作为最佳实践，您应限制对备份工具的访问，并在安装扩展和更新之前进行备份。
 
 - **限制对备份工具的访问。**&#x200B;可以通过为备份和回滚资源配置[用户角色](permissions-user-roles.md)来限制对备份和回滚管理工具的访问。 要限制访问，请取消选中相应的复选框。 要授予回滚资源的访问权限，您还必须授予对备份资源的访问权限。
 

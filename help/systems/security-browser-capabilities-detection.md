@@ -4,9 +4,10 @@ description: 了解如何配置浏览器功能检测，以及在需要更改客�
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,13 @@ ht-degree: 0%
 - 如果浏览器的隐私设置不允许Cookie，您可以将系统配置为自动将它们重定向到[启用Cookie](../content-design/pages.md#enable-cookies)页面，该页面介绍了如何在大多数浏览器中进行推荐的设置。
 - 如果浏览器的隐私设置不允许JavaScript，您可以将系统配置为在每个页面的标题上方显示以下消息。
 
-有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hans#supported-browsers)。
+有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)。
 
 ## 配置浏览器功能检测
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧&#x200B;_[!UICONTROL General]_&#x200B;下的面板中，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧&#x200B;_[!UICONTROL General]_下的面板中，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Browser Capabilities Detection]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 

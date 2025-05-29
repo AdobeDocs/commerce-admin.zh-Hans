@@ -3,14 +3,19 @@ title: 站点地图
 description: 了解如何配置站点地图以索引Commerce站点的所有页面和图像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # 站点地图
+
+>[!TIP]
+>
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 网站地图改进了搜索引擎为存储编制索引的方式，并设计为可查找可能被网络爬虫忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
@@ -97,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hans) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
+>如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
 
 ## 列描述
 
@@ -159,7 +164,7 @@ ht-degree: 0%
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL CMS Pages Options]**&#x200B;部分并根据需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;设置。
 
-   ![目录配置 — XML Sitemap CMS页](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![目录配置 — XML Sitemap CMS页面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
    有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[CMS页面选项](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
 
@@ -223,6 +228,6 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hans
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

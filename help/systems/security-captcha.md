@@ -4,9 +4,10 @@ description: 了解如何配置验证码以进行管理员访问和注册客户�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -51,7 +52,7 @@ ht-degree: 0%
    - 将&#x200B;**[!UICONTROL Displaying Modes]**&#x200B;设置为以下项之一：
 
       - `Always` — 始终需要CAPTCHA才能登录到管理员。
-      - `After number of attempts to login` — 此选项仅适用于“管理员登录”表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;字段。 输入要允许的登录尝试次数。 值为0 （零）类似于将“显示模式”设置为`Always`。
+      - `After number of attempts to login` — 此选项仅适用于“管理员登录”表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_字段。 输入要允许的登录尝试次数。 值为0 （零）类似于将“显示模式”设置为`Always`。
 
      为了跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计数。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。
 
@@ -97,8 +98,8 @@ ht-degree: 0%
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hans) _知识库_&#x200B;文章）
-      - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)
+      - `Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _知识库_&#x200B;文章）
+      - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于Adobe Commerce B2B)
 

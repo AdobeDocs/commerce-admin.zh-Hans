@@ -3,9 +3,10 @@ title: 电子邮件提醒
 description: 了解在满足一组特定条件时会自动向客户发送的电子邮件提醒。
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;字段设置电子邮件之间的间隔天数。
+>如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_字段设置电子邮件之间的间隔天数。
 
 ![电子邮件提醒](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -44,7 +45,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - 根据&#x200B;_[!UICONTROL Frequency]_&#x200B;设置设置相应的&#x200B;**[!UICONTROL Interval]**。
+   - 根据&#x200B;_[!UICONTROL Frequency]_设置设置相应的&#x200B;**[!UICONTROL Interval]**。
 
    - 将&#x200B;**[!UICONTROL Start Time]**&#x200B;设置为基于24小时制发送电子邮件的小时、分钟和秒。
 

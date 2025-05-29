@@ -3,9 +3,10 @@ title: 索引管理
 description: 了解索引管理，包括触发重新索引和最佳实践的操作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->对于使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器的存储：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
+>对于使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器的存储：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**。
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 ## 使用命令行重新索引
 
-Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅&#x200B;_配置指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=zh-Hans#reindex){:target="blank"}。
+Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅&#x200B;_配置指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}。
 
 ## 索引触发事件
 

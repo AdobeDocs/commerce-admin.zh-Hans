@@ -4,9 +4,10 @@ description: 了解如何配置会话管理以保护管理员和店面。
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -48,8 +49,6 @@ ht-degree: 0%
 
 ### 管理员会话
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
-
 如果超过最大会话大小，将显示一条错误消息，并且系统会将会话大小约束记录到`var/log`目录。
 
 如果在设置会话大小过低后无法访问管理员，请使用CLI重置配置：
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### 店面会议
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
-
 如果超过最大会话大小，则不会显示任何错误，但系统会将会话大小约束记录到`var/log`目录。
 
 ## 会话验证
 
 Adobe Commerce和Magento Open Source允许您验证会话变量，作为防止可能的会话固定攻击或试图毒害或劫持用户会话的保护措施。 会话验证设置可确定在每次访问商店时如何验证会话变量，以及会话ID是否包含在商店的URL中。
 
-有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=zh-Hans)。
+有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)。
 
 ![常规配置 — Web会话验证](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -80,7 +77,7 @@ Adobe Commerce和Magento Open Source允许您验证会话变量，作为防止�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开&#x200B;_[!UICONTROL General]_&#x200B;并选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中，展开&#x200B;_[!UICONTROL General]_并选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Session Validation Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

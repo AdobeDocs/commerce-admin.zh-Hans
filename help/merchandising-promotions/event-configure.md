@@ -3,9 +3,10 @@ title: 配置事件
 description: 在店面侧边栏中了解如何完成基本配置以启用事件并设置事件块。
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ ht-degree: 0%
 
 ### 限制销售
 
-默认情况下，即将发生或已关闭的事件中显示的产品不可用于一般销售，并且&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按钮不会出现在产品列表或产品页面上。
+默认情况下，即将发生或已关闭的事件中显示的产品不可用于一般销售，并且&#x200B;_[!UICONTROL Add to Cart]_按钮不会出现在产品列表或产品页面上。
 
-若要还原已关闭事件的&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按钮，必须删除该事件（请参阅[更新事件](event-create.md#update-events)）。 但是，如果某个产品与另一个没有销售限制的类别关联，则产品页面上会显示该按钮。 同样，如果产品与无销售限制的其他类别关联，则股票代码块不会显示在产品页面上。
+若要还原已关闭事件的&#x200B;_[!UICONTROL Add to Cart]_按钮，必须删除该事件（请参阅[更新事件](event-create.md#update-events)）。 但是，如果某个产品与另一个没有销售限制的类别关联，则产品页面上会显示该按钮。 同样，如果产品与无销售限制的其他类别关联，则股票代码块不会显示在产品页面上。

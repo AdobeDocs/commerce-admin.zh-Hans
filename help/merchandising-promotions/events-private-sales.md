@@ -3,9 +3,10 @@ title: 私人销售和活动
 description: 了解如何利用私人销售和其他目录活动增加对现有客户群的销售，并产生新的商机和新的潜在客户。
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-私人销售和其他目录活动是利用现有客户群来产生轰动效应和新商机，或卸载剩余库存的一种好方法。 您可以创建限时销售、将销售限定于特定成员，或创建独立的专用销售页。 您还可以定义邀请和活动详细信息。 通过为最佳客户提供VIP待遇，提高品牌忠诚度并产生轰动。 提供对仅会员销售或私人销售的排他性访问权限，以提高品牌忠诚度。 你也可以用这些销售来清算多余的商品。 客户组在仅设置这些类型的成员和VIP sales时非常有用。
+私人销售和其他目录活动是利用现有客户群来产生轰动效应和新商机，或卸载剩余库存的一种好方法。 您可以创建限时销售、将销售限定于特定成员，或创建独立的专用销售页。 您还可以定义邀请和活动详细信息。 通过为最佳客户提供VIP待遇，提高品牌忠诚度并产生轰动。 提供对仅会员销售或私人销售的排他性访问权限，以提高品牌忠诚度。 你也可以用这些销售来清算多余的商品。 客户组在仅设置这些类型的成员和VIP销售人员时非常有用。
 
 ![示例店面 — 主页上的事件](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

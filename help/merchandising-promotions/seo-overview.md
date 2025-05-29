@@ -3,9 +3,9 @@ title: 搜索引擎优化
 description: 了解适用于Commerce站点的搜索引擎优化(SEO)工具以及实现最佳SEO的最佳实践。
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,25 @@ ht-degree: 0%
 
 _搜索引擎优化_ (SEO)是微调网站的内容和呈现方式以改进搜索引擎对页面进行索引的方式。 Commerce包含各种功能来支持您持续的SEO工作。
 
+>[!TIP]
+>
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+
 ## 元数据
 
-了解有关为您的网站和商店添加和增强关键字丰富的[元数据](meta-data.md)的详细信息。
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
+了解有关为您的网站和商店添加和增强富含关键字的[元数据](meta-data.md)的详细信息。
 
 ## 使用站点地图
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [站点地图](sitemap-xml.md)改进了搜索引擎对存储进行索引的方式，并设计为查找可能被网络爬虫忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
 ## URL重写
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 通过[URL重写](url-rewrite.md)工具，您可以更改与产品、类别或CMS页面关联的任何URL。
 

@@ -2,9 +2,10 @@
 title: 支持工具
 description: 了解所提供的可用于确定系统中问题的支持工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 ### 查看系统报告详细信息
 
-1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 在左侧面板中，展开报表的每个部分![扩展选择器](../assets/icon-display-expand.png)以查看详细信息。
 
