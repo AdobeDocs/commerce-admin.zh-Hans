@@ -3,7 +3,7 @@ title: Adobe中的扩展
 description: 查看由Adobe发布的Adobe Commerce和Magento Open Source扩展信息。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '1357'
@@ -100,7 +100,7 @@ Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展�
 
 [!DNL Adobe Commerce B2B]是一个集成的扩展，可将标准Commerce存储区转换为全面的企业对企业平台。 它使公司能够在统一的公司帐户下管理具有多个购买者、自定义角色和购买权限的复杂组织结构。 关键功能包括特定于公司的目录和定价、可协商的报价、采购订单管理、申购单和快速订购功能。 该解决方案在单个实例上同时支持B2B和B2C模型，使其能够灵活地满足各种业务需求。 该扩展需要单独的许可证并与Adobe Commerce的核心功能无缝集成，以提供完整的B2B电子商务解决方案。
 
-要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL B2B for Adobe Commerce] 用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL B2B for Adobe Commerce] 用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)。
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -116,7 +116,7 @@ Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展�
 
 Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方案提供了实时“随类型搜索”功能。 它可以在购物者键入内容时，通过产品缩览图提供快速的相关结果，同时还可以根据购物行为自动调整过滤器的智能分面。 该解决方案包括用于产品提升和掩藏、同义词管理和搜索分析的推销功能。 随Adobe Commerce一起提供，[!DNL Live Search]免费使用更复杂、基于SaaS的搜索体验来替换默认搜索功能。 它需要最少的配置才能开始。
 
-有关实施详细信息和技术要求，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)。
+有关实施详细信息和技术要求，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)。
 
 ### [!DNL Product Recommendations]
 
@@ -124,7 +124,7 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Product Recommendations]是Adobe Commerce独有的功能，由Adobe Sensei AI技术提供支持，可在整个客户购物历程中提供个性化的产品建议。 该解决方案可实时分析购物者行为和产品关系，以自动生成相关推荐，无需手动促销规则。 这种人工智能驱动的方法有助于提高转化率和收入潜力，同时为购物者创造更吸引人的产品发现体验。
 
-有关实施详细信息和最佳实践，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)。
+有关实施详细信息和最佳实践，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)。
 
 ### [!DNL Catalog Service]
 
@@ -132,7 +132,7 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Catalog Service]是Adobe Commerce和Magento Open Source的高性能解决方案，它通过GraphQL端点提供对目录数据的优化访问。 它维护一个单独的同步数据库，用于存放产品详细信息和相关信息，从而绕过直接的应用程序通信来加快页面加载时间。 此服务对于产品详细信息页面、类别列表和搜索结果页面尤其有用，因此非常适合传统和Headless商务实施。
 
-有关设置说明和技术详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)。
+有关设置说明和技术详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -144,4 +144,4 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Payment Services]是适用于Adobe Commerce和Magento Open Source商店的全包支付解决方案，可提供全面的支付处理功能。 该服务将安全支付网关功能与内置的欺诈保护功能集成，同时提供多种支付选项，包括信用卡/借记卡、PayPal、Venmo (US)和PayLater计划。 它通过Commerce管理界面提供统一的交易报告和订单管理，使得商家能够轻松地在一个地方跟踪支付、管理现金流和对账财务数据。
 
-有关详细配置步骤和付款选项，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview)。
+有关详细配置步骤和付款选项，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/overview)。

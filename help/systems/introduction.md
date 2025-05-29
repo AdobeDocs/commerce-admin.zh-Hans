@@ -28,8 +28,8 @@ ht-degree: 0%
 
 - **管理员用户帐户和权限** — 管理管理员[用户帐户](permissions-users-all.md)以及相关的[角色和权限](permissions-user-roles.md)，这些角色和权限控制他们对“管理员”中网站和功能区域的访问。
 - **管理员会话和网站限制** — 查看[安全性](security.md)最佳实践，了解如何管理管理员会话和凭据、实施验证码以及管理网站限制。
-- [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **系统工具** — 执行例程[索引](index-management.md)和[缓存](cache-management.md)管理操作，[备份](backups.md)系统，管理[计划操作](data-scheduled-import-export.md)，并使用分类[开发人员工具](developer-tools.md)。
+- [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **系统工具** — 执行例程[索引](index-management.md)和[缓存](cache-management.md)管理操作，[备份](backups.md)系统，管理[计划操作](data-scheduled-import-export.md)，并使用分类[开发人员工具](developer-tools.md)。
 - **数据传输** — 使用[数据传输](data-transfer.md)工具导入和导出数据，以及管理产品、定价、客户和税率数据。
 - **集成** — 为[第三方集成](integrations.md)建立OAuth凭据和重定向URL的位置，并识别可用的API资源。
 - **操作日志** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)访问管理员用户在您的商店中进行的更改的记录（[操作日志](action-log.md)）。
-- 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (仅Adobe Commerce) [系统报表](support.md#access-system-reports))旨在识别您系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。
+- 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (仅Adobe Commerce) [系统报表](support.md#access-system-reports))旨在识别您系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。

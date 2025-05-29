@@ -4,7 +4,7 @@ description: 了解如何配置会话管理以保护管理员和店面。
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '769'
@@ -65,7 +65,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce和Magento Open Source允许您验证会话变量，作为防止可能的会话固定攻击或试图毒害或劫持用户会话的保护措施。 会话验证设置可确定在每次访问商店时如何验证会话变量，以及会话ID是否包含在商店的URL中。
 
-有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)。
+有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=zh-Hans)。
 
 ![常规配置 — Web会话验证](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

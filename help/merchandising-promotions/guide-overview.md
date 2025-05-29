@@ -19,7 +19,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [简介](introduction.md) | Commerce实例的促销和促销功能概述。 |
 | [营销菜单](marketing-menu.md) | 使用[!UICONTROL Marketing]菜单访问多项功能，用于管理促销、通信、SEO和用户生成的内容。 |
-| [可视化促销活动](visual-merchandiser.md) | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}浏览这组高级工具，这些工具允许您定位产品并应用条件来确定哪些产品出现在类别列表中。 |
+| [可视化促销活动](visual-merchandiser.md) | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}浏览这组高级工具，这些工具允许您定位产品并应用条件来确定哪些产品出现在类别列表中。 |
 | [礼品注册表](gift-registries.md) | 让您的客户能够创建特殊场合的礼品注册表，并邀请他们的朋友和家人从礼品注册表购买他们的礼物。 |
 | [奖励和忠诚计划](rewards-loyalty.md) | 实施项目以提高客户参与度并提高客户忠诚度。 |
 | [私人销售和活动](events-private-sales.md) | 创建限时销售、将销售限定于特定成员，或创建独立的专用销售页面。 |

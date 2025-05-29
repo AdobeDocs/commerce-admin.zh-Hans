@@ -2,7 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce]发行说明'
 description: 请查看发行说明，了解有关Commerce最新版本的 [!DNL Admin Unified Experience] 扩展的信息。
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ Commerce Admin Unified Experience扩展(`magento/module-unified-experience`)的�
 
 >[!NOTE]
 >
->有关Admin Unified Experience扩展相对于Adobe Commerce的发布状态的详细信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
+>有关Admin Unified Experience扩展相对于Adobe Commerce的发布状态的详细信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hans)。
 
 ## 1.0版本
 
