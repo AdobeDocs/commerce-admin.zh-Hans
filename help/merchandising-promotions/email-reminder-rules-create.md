@@ -56,9 +56,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_字段设置电子邮件之间的间隔天数。<br/>
+   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;字段设置电子邮件之间的间隔天数。<br/>
    >
-   >对于&#x200B;**_新_**&#x200B;放弃的购物车和&#x200B;_**之后**_&#x200B;的愿望清单&#x200B;_[!UICONTROL Repeat Schedule]_期限结束的同一客户，同一电子邮件提醒是&#x200B;**_未重新触发_**。
+   >对于&#x200B;**_新_**&#x200B;放弃的购物车和&#x200B;_&#x200B;**之后**&#x200B;_&#x200B;的愿望清单&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;期限结束的同一客户，同一电子邮件提醒是&#x200B;**_未重新触发_**。
 
    完成条件以描述触发电子邮件提醒的情况。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
      ![电子邮件提醒 — 标题和描述](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_部分中，输入_&#x200B;默认存储视图&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**和&#x200B;**[!UICONTROL Description]**。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
+   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;部分中，输入_&#x200B;默认存储视图&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
 
      >[!NOTE]
      >

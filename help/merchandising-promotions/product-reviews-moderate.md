@@ -21,15 +21,15 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 找到要查看的产品，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 找到要查看的产品，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在产品页面上，向下滚动并展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Product Reviews]**&#x200B;部分。
 
-   在此网格中，您还可以通过单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**链接来更改特定审核。
+   在此网格中，您还可以通过单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**&#x200B;链接来更改特定审核。
 
 ## 审核的更新状态
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;或&#x200B;**[!UICONTROL All Reviews]**。
 
 1. 在列表中，单击挂起的审阅以查看详细信息并在必要时进行编辑。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    - 要批准待处理审阅，请选择`Approved`。
 
-   - 要拒绝审核，请选择`Not Approved`。 未批准的审阅从&#x200B;_[!UICONTROL Pending Reviews]_页面的列表中消失。
+   - 要拒绝审核，请选择`Not Approved`。 未批准的审阅从&#x200B;_[!UICONTROL Pending Reviews]_&#x200B;页面的列表中消失。
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 如果需要，请更改&#x200B;**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**&#x200B;和&#x200B;**[!UICONTROL Summary of Review]**&#x200B;的值。
 
-   要更改可查看的存储区视图，请在&#x200B;_[!UICONTROL Visibility]_列中选择所需的存储区视图。
+   要更改可查看的存储区视图，请在&#x200B;_[!UICONTROL Visibility]_&#x200B;列中选择所需的存储区视图。
 
    ![编辑审核页面](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 选择要更新的审阅。
 
-1. 使用左上角的&#x200B;_[!UICONTROL Action]_选择器应用操作。
+1. 使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;选择器应用操作。
 
 1. 单击&#x200B;**[!UICONTROL Submit]**
 

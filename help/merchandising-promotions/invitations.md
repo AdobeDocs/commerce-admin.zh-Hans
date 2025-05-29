@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ## 我的邀请
 
-客户帐户的&#x200B;_[!UICONTROL My Invitations]_部分列出了客户发送的所有邀请。 客户可以向朋友和家人发送邀请，让他们参加商店活动、礼品注册和愿望清单等。
+客户帐户的&#x200B;_[!UICONTROL My Invitations]_&#x200B;部分列出了客户发送的所有邀请。 客户可以向朋友和家人发送邀请，让他们参加商店活动、礼品注册和愿望清单等。
 
 ![我的邀请](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 邀请工作流程
 
 1. **客户准备邀请**：客户通过帐户仪表板准备收件人列表并完成邀请。 可包含自定义消息，具体取决于配置。
-1. **客户发送邀请**：准备就绪后，客户单击&#x200B;_[!UICONTROL Send Invitations]_按钮。
+1. **客户发送邀请**：准备就绪后，客户单击&#x200B;_[!UICONTROL Send Invitations]_&#x200B;按钮。
 1. **系统管理传输**：系统根据配置中设置的编号批量发送邀请。
 1. **客户监视响应**：客户监视来自帐户仪表板的每个邀请的状态，如`Sent`、`Accepted`或`Canceled`。
 

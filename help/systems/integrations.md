@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 载入工作流
 
-1. **授权集成** — 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**页面，查找相关的集成并授权。
+1. **授权集成** — 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;页面，查找相关的集成并授权。
 1. **验证并建立登录** — 出现提示时，接受请求的访问。 如果重定向到第三方，请登录到系统或创建帐户。 成功登录后，您将返回到集成页面。
 1. **接收授权集成的确认** — 系统发送通知，告知集成已成功授权。 设置集成并接收凭据后，不再需要调用访问或请求令牌。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 查找与&#x200B;**[!UICONTROL Active]**&#x200B;状态的集成。
 
-1. 在&#x200B;_[!UICONTROL Activate]_列中，单击&#x200B;**[!UICONTROL Reauthorize]**。
+1. 在&#x200B;_[!UICONTROL Activate]_&#x200B;列中，单击&#x200B;**[!UICONTROL Reauthorize]**。
 
 1. 单击&#x200B;**[!UICONTROL Reauthorize]**&#x200B;批准对API资源的访问。
 

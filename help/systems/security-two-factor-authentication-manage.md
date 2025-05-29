@@ -35,11 +35,11 @@ ht-degree: 0%
 
 1. 选择用户并在编辑模式下打开帐户。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Current User Identity Verification]_部分并输入密码。
+1. 向下滚动到&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;部分并输入密码。
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL 2FA]**。
 
-1. 在&#x200B;_[!UICONTROL Configuration reset]_部分中，单击&#x200B;**[!UICONTROL Reset]**和&#x200B;**[!UICONTROL OK]**以确认。
+1. 在&#x200B;_[!UICONTROL Configuration reset]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Reset]**&#x200B;和&#x200B;**[!UICONTROL OK]**&#x200B;以确认。
 
    ![用户帐户 — 启用2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 
