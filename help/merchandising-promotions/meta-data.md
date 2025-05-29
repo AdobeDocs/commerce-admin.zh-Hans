@@ -98,6 +98,6 @@ ht-degree: 0%
 
 观看以下视频，了解如何管理SEO元数据：
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410173?quality=12&learn=on&captions=chi_hans)
 
 [1]: https://schema.org/

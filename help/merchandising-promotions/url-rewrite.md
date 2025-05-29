@@ -111,4 +111,4 @@ Commerce提供以下URL重写类型：
 
 观看本视频，了解如何管理URL重写：
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410123?quality=12&learn=on&captions=chi_hans)
