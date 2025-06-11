@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->创建此关联后，在触发规则时动态块只显示&#x200B;**1}。**&#x200B;如果促销活动定位到区段A，则该块将显示到区段A。如果促销活动未处于活动状态，则不会显示块。
+>创建此关联后，在触发规则时动态块只显示&#x200B;**1&rbrace;。**&#x200B;如果促销活动定位到区段A，则该块将显示到区段A。如果促销活动未处于活动状态，则不会显示块。
 
 ## 将动态块与价格规则关联
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_并选择以下选项之一：
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;并选择以下选项之一：
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

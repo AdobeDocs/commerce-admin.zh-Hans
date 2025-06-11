@@ -65,7 +65,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Default Pages]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -88,7 +88,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
    >[!NOTE]
    >
-   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_旁边的&#x200B;**[!UICONTROL Use Default]**复选框，以及任何其他要更改的默认设置。
+   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_&#x200B;旁边的&#x200B;**[!UICONTROL Use Default]**&#x200B;复选框，以及任何其他要更改的默认设置。
 
 1. 将&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;设置为要用作主页的CMS页面。 其他创建的页面可用作主页，例如：
 

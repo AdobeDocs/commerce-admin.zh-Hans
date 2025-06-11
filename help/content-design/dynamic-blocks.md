@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_选项在2.3.1中已弃用，在2.4.0中已移除。其功能已被动态块取代。
+>[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_&#x200B;选项在2.3.1中已弃用，在2.4.0中已移除。其功能已被动态块取代。
 
 ![[!DNL Page Builder] — 具有价格规则和客户区段的动态块](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

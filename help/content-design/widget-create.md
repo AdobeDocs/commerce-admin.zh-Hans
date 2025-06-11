@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_部分中：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为要创建的构件类型。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 第2步：指定店面属性和布局
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
      ![店面属性](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为要显示的页面类型。
 

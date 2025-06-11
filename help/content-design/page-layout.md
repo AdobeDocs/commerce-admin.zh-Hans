@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Default Layouts]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -87,28 +87,28 @@ ht-degree: 0%
 
 ![图表 — 一列式布局](./assets/layout-1-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 1 Column]_布局可用于创建具有大图像或焦点的生动主页。 此外，它还是登陆页面或包含文本、图像和视频组合的任何其他页面的理想选择。
+_[!UICONTROL 1 Column]_&#x200B;布局可用于创建具有大图像或焦点的生动主页。 此外，它还是登陆页面或包含文本、图像和视频组合的任何其他页面的理想选择。
 
 ### 带左栏的两列
 
 ![图表 — 左栏的双列布局](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Left Bar]_布局通常用于左侧导航的页面，如目录或具有分层导航的搜索结果页面。 此外，对于需要在左侧添加导航或支持内容块的主页而言，它也是一个非常好的选择。
+_[!UICONTROL 2 Columns with Left Bar]_&#x200B;布局通常用于左侧导航的页面，如目录或具有分层导航的搜索结果页面。 此外，对于需要在左侧添加导航或支持内容块的主页而言，它也是一个非常好的选择。
 
 ### 带右栏的两列
 
 ![图表 — 带有右栏的双列布局](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_布局时，主内容区域足够大，足以形成引人注目的图像或横幅。 此布局还经常用于右侧包含支持内容块的产品页面。
+使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_&#x200B;布局时，主内容区域足够大，足以形成引人注目的图像或横幅。 此布局还经常用于右侧包含支持内容块的产品页面。
 
 ### 三列
 
 ![图表 — 三列式布局](./assets/layout-3-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 3 Column]_布局的中心列宽得足以容纳页面的主文本，两边都有空间用于额外的导航和支持内容块。
+_[!UICONTROL 3 Column]_&#x200B;布局的中心列宽得足以容纳页面的主文本，两边都有空间用于额外的导航和支持内容块。
 
 ### 空
 
 ![图表 — 布局为空](./assets/layout-blank-th.png){zoomable="yes"}
 
-_[!UICONTROL Empty]_布局可用于定义自定义页面布局。
+_[!UICONTROL Empty]_&#x200B;布局可用于定义自定义页面布局。

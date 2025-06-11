@@ -20,7 +20,7 @@ ht-degree: 0%
 
    ![编辑器工具栏 — 插入链接](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   此操作打开&#x200B;_[!UICONTROL Insert link]_对话框。
+   此操作打开&#x200B;_[!UICONTROL Insert link]_&#x200B;对话框。
 
    ![编辑器 — 插入链接对话框](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

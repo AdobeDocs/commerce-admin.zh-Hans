@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中，执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Catalog Events Carousel`。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    ![事件轮播的小组件设置](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 

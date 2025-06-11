@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 页面搜索
 
-_[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定页面。 若要进行更高级的搜索，您可以[按多个参数](../getting-started/admin-grid-controls.md)筛选搜索。
+_[!UICONTROL Pages]_&#x200B;网格左上角的搜索框可用于按关键字查找特定页面。 若要进行更高级的搜索，您可以[按多个参数](../getting-started/admin-grid-controls.md)筛选搜索。
 
 ### 按关键词搜索
 
@@ -140,7 +140,7 @@ _[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定
 
 ### 单个操作
 
-使用最右侧的&#x200B;_[!UICONTROL Action]_列将以下任何操作应用于单个页面：
+使用最右侧的&#x200B;_[!UICONTROL Action]_&#x200B;列将以下任何操作应用于单个页面：
 
 - [!UICONTROL Edit] — 在编辑模式下打开页面
 - [!UICONTROL Delete] — 删除页面（需要确认）
@@ -150,7 +150,7 @@ _[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定
 
 ### 成批活动
 
-使用左上角的&#x200B;_[!UICONTROL Action]_选择器，将以下任意操作同时应用于多个选定页面：
+使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;选择器，将以下任意操作同时应用于多个选定页面：
 
 - [!UICONTROL Delete] — 删除页面（需要确认）
 - [!UICONTROL Disable] — 禁用店面中的页面

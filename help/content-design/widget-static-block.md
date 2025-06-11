@@ -28,7 +28,7 @@ _CMS静态块_ [小组件](widgets.md)使您能够将现有[内容块](blocks.md
 
    ![小组件设置](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -44,7 +44,7 @@ _CMS静态块_ [小组件](widgets.md)使您能够将现有[内容块](blocks.md
 
 ## 第2步：完成构件布局更新
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望块显示的类别、产品或页面。
 

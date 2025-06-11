@@ -146,13 +146,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回页面网格。
 
-1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL View]**。
+1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 要返回到网格，请单击浏览器窗口左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步骤8：发布页面
 
-1. 在网格的&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 在网格的&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 ## 删除页面
 
-有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_网格或_[!UICONTROL Edit]_&#x200B;页面中删除。
+有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_&#x200B;网格或&#x200B;_[!UICONTROL Edit]_&#x200B;页面中删除。
 
 ### 方法1：从“页面”网格中删除页面
 
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 1. 查找要删除的页面。
 
-1. 在页面实体的&#x200B;_[!UICONTROL Actions]_列中，单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
+1. 在页面实体的&#x200B;_[!UICONTROL Actions]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按钮栏中，单击&#x200B;**[!UICONTROL Delete Page]**。
 

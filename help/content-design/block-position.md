@@ -56,6 +56,6 @@ ht-degree: 0%
 | [!UICONTROL Product View Extra Hint] | 内容显示在产品主最高价格的下方。 |
 | [!UICONTROL Right Column] | 内容显示在右列块下方。 |
 | [!UICONTROL Store Language] | 内容显示在语言选择器的右侧。 |
-| [!UICONTROL Tags List Before] | 内容显示在&#x200B;_[!UICONTROL Add Your Tags]_字段上方。 |
+| [!UICONTROL Tags List Before] | 内容显示在&#x200B;_[!UICONTROL Add Your Tags]_&#x200B;字段上方。 |
 
 {style="table-layout:auto"}
