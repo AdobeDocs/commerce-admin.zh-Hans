@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce和Magento Open Source提供了许多易于使用的设计选项，您可以使用这些选项对商店进行简单的更改。 [Commerce Marketplace](../getting-started/commerce-marketplace.md)中还提供了许多专业设计的主题。 与店铺的橱窗装饰一样，您可以更改季主题或促销主题。
 
-[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}更高级的商店设计人员喜欢灵活地使用面向对象环境，该环境从单独的组件组合页面。 了解基础知识后，您将会对在如此灵活多变的环境中工作表示赞赏。 若要了解更多信息，请参阅[前端开发人员指南][1]。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}更高级的商店设计人员喜欢灵活地使用面向对象环境，该环境从单独的组件组合页面。 了解基础知识后，您将会对在如此灵活多变的环境中工作表示赞赏。 若要了解更多信息，请参阅[前端开发人员指南][1]。
 
 ### 配置
 
@@ -31,7 +31,7 @@ Adobe Commerce和Magento Open Source提供了许多易于使用的设计选项�
 
 ### 计划
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 可以根据[计划](schedule.md)在特定时间段激活主题。 使用计划提前计划季节或促销的主题更改。
 
