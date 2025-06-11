@@ -51,7 +51,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 >[!TIP]
 >
->对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 要运行扫描，请执行以下操作：
 
