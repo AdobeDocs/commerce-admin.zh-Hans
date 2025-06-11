@@ -4,16 +4,29 @@ description: 了解如何运行增强的安全扫描并监控每个Adobe Commerc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # 安全扫描
 
-监控您的Adobe Commerce和Magento Open Source站点是否存在安全风险和恶意软件，并接收安全更新和通知。
+Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点提供免费的安全监控。 该工具作为基于Web的服务运行，您可以通过位于[account.magento.com](https://account.magento.com/customer/account/login)的Adobe Commerce在线帐户访问它。
+
+![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe免费提供此服务，但商家必须接受相关条款，根据扫描结果和站点配置限制Adobe的责任。
+
+## 扫描覆盖范围
+
+安全扫描工具可跨HTTP和HTTPS协议运行，以检测恶意软件、识别安全漏洞并帮助您保持存储的安全状态。 该工具适用于所有商家、开发人员和负责站点安全的指定人员。
+
+安全扫描工具提供全面的安全监控功能，帮助您维护安全存储环境：
 
 - 让insight了解您商店的实时安全状态。
 - 接收基于最佳实践的建议，以帮助解决问题。
@@ -22,11 +35,25 @@ ht-degree: 0%
 - 访问跟踪和监控站点进度的历史安全报告。
 - 访问显示成功和失败检查以及任何建议操作的扫描报告。
 
-安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》_中的[设置安全扫描工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)_。
+>[!NOTE]
+>
+>不能从Adobe Commerce的安全扫描工具扫描中排除特定的安全测试。 但是，如果适用，您可以在[中自助忽略失败](#manage-scan-failures)作为误报。
 
-![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## 访问
 
-## 运行安全扫描
+安全扫描工具维护严格的访问控制以保护您的站点信息。 只有您可以扫描网站，因为该工具要求通过Adobe Commerce帐户验证域所有权。 每个网站都通过唯一的令牌连接到您的帐户，以防止第三方进行未经授权的扫描。
+
+该工具专门针对Adobe Commerce域及其安全漏洞。 虽然您的网络商店可能包含来自其他平台的页面，但安全扫描工具应仅扫描Adobe Commerce生成的内容，以确保获得可靠的结果。 扫描非Adobe Commerce页面可能会产生不可靠的漏洞评估。
+
+## 运行扫描
+
+扫描过程会针对已知安全问题检查您的站点，并识别可能使存储易受攻击的缺失Adobe Commerce修补程序和更新。
+
+>[!TIP]
+>
+>对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+
+要运行扫描，请执行以下操作：
 
 1. 从Commerce主页登录到您的[Commerce/Magento帐户](../getting-started/commerce-account-create.md)。
 
@@ -37,7 +64,7 @@ ht-degree: 0%
    1. 阅读&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 单击&#x200B;**[!UICONTROL Agree]**&#x200B;继续。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
+1. 在&#x200B;_[!UICONTROL Monitored Websites]_页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多个具有不同域的站点，请为每个域配置单独的扫描。
 
@@ -104,7 +131,7 @@ ht-degree: 0%
 
          构建过程完成后，更改将部署到您的PWA商店前面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
 
 1. 成功确认后，为以下类型之一配置&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;选项：
 
@@ -159,7 +186,7 @@ ht-degree: 0%
 
 要管理已识别为误报的扫描失败，请执行以下步骤：
 
-1. 从&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
+1. 从&#x200B;_[!UICONTROL Monitored Websites]_页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在报表视图中，找到要标记为误报的失败扫描。
 
@@ -169,13 +196,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分，并从风险分数中排除。
+忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_部分，并从风险分数中排除。
 
 ### 停止忽略扫描失败
 
 如果需要将以前忽略的扫描故障恢复到活动监视状态，请执行以下步骤：
 
-1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分。
+1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_部分。
 
 1. 对于要恢复的扫描失败，单击&#x200B;**[!UICONTROL Stop Ignoring]**。
 
@@ -183,7 +210,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_&#x200B;部分，并包含在您的风险分数中。
+扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_部分，并包含在您的风险分数中。
 
 ### 查看忽略的扫描失败
 
