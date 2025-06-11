@@ -4,9 +4,10 @@ description: 了解如何使用媒体数据库存储 [!DNL Commerce] 媒体文�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->自Adobe Commerce和Magento Open Source2.4.3起，数据库媒体存储方法已弃用。
+>自Adobe Commerce和Magento Open Source 2.4.3起，数据库媒体存储方法已弃用。
 
 默认情况下，[!DNL Commerce]实例的所有图像、编译的CSS文件和编译的JavaScript文件都存储在Web服务器上的文件系统中。 您可以选择将这些文件存储在数据库服务器的数据库中。 此方法的一个优点是在Web服务器文件系统和数据库之间自动同步和反向同步。 您可以使用默认数据库存储介质或创建介质。 要将新创建的数据库用作媒体存储，必须将有关该数据库及其访问凭据的信息添加到`env.php`文件中。
 
 ## 数据库工作流
 
-1. **浏览器请求媒体** — 商店中的页面会在客户的浏览器中打开，浏览器会请求HTML中指定的媒体。
+1. **浏览器请求媒体** — 应用商店中的页面会在客户的浏览器中打开，浏览器将请求HTML中指定的媒体。
 
 1. **系统在文件系统中查找介质** — 系统在文件系统中搜索介质，如果找到，则将其传递给浏览器。
 

@@ -2,9 +2,10 @@
 title: 创建和管理构件
 description: 了解如何创建和管理用于在您的商店中自动更新内容的构件。
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中：
+1. 在&#x200B;_[!UICONTROL Settings]_部分中：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为要创建的构件类型。
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 ### 第2步：指定店面属性和布局
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
      ![店面属性](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为要显示的页面类型。
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 要了解如何创建构件，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/3411054?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## 编辑构件
 

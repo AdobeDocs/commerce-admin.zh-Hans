@@ -2,9 +2,10 @@
 title: 页面层次结构
 description: 了解页面层次结构系统如何让您能够组织内容页面并添加分页、导航和菜单。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**&#x200B;并进行任何必要的更改。
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 例如，您可以创建一个名为&#x200B;_新闻稿_&#x200B;的节点，该节点可导航到各个新闻稿。 然后，您可以在&#x200B;_关于我们_&#x200B;页面上包含指向节点的链接。 或者，您可以为新闻稿的旧版集合创建一个节点。
 
-要链接到节点，请使用[小组件](widgets.md)工具创建CMS层次结构节点链接，并将小组件放入内容块或页面中。
+要链接到节点，请使用[小组件](widgets.md)工具创建CMS层次结构节点链接，并将此小组件放入内容块或页面中。
 
 ![关于我们的页面上的导航菜单示例](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 1. 在网格上方，单击&#x200B;**[!UICONTROL Add Node...]**。
 
-1. 在&#x200B;_[!UICONTROL Page Properties]_&#x200B;下，输入节点的&#x200B;**[!UICONTROL Title]**&#x200B;和合适的&#x200B;**[!UICONTROL URL Key]**。
+1. 在&#x200B;_[!UICONTROL Page Properties]_下，输入节点的&#x200B;**[!UICONTROL Title]**和合适的&#x200B;**[!UICONTROL URL Key]**。
 
    URL键为节点提供唯一的Web地址。 必须全部为小写字符，使用连字符而不是空格来分隔单词。
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 1. 单击层次结构顶部的节点。
 
-   _[!UICONTROL Page Properties]_&#x200B;部分现在显示有关节点的信息。
+   _[!UICONTROL Page Properties]_部分现在显示有关节点的信息。
 
 1. 在&#x200B;**[!UICONTROL Render Metadata in HTML Head]**&#x200B;下，执行以下操作：
 

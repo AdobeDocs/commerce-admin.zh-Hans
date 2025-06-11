@@ -2,9 +2,10 @@
 title: 添加和删除页面
 description: 了解如何添加和删除 [!DNL Commerce] 商店中使用的内容页面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Content Heading]**&#x200B;框中，输入要显示在页面顶部的标题。
 
-   如果启用，[页面生成器](../page-builder/introduction.md)阶段和面板将显示在内容标题下方。 有关详细信息，请参阅[Workspace](../page-builder/workspace.md)。 如果未启用&#x200B;_页面生成器_，编辑器将以WYSIWYG模式打开，工具栏位于顶部。
+   如果启用，[页面生成器](../page-builder/introduction.md)阶段和面板将显示在内容标题下方。 有关详细信息，请参阅[Workspace](../page-builder/workspace.md)。 如果未启用&#x200B;_页面生成器_，编辑器将在WYSIWYG模式下打开，工具栏位于顶部。
 
 1. 填写内容，并根据需要设置文本格式。
 
@@ -131,7 +132,7 @@ ht-degree: 0%
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)要计划设计更改，请展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;并执行以下操作：
+1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)要计划设计更改，请展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;并执行以下操作：
 
    ![自定义设计更新](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
@@ -145,13 +146,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回页面网格。
 
-1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 要返回到网格，请单击浏览器窗口左上角的&#x200B;**[!UICONTROL Back]**。
 
-### 步骤8：Publish页面
+### 步骤8：发布页面
 
-1. 在网格的&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 在网格的&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
@@ -165,7 +166,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -206,7 +207,7 @@ ht-degree: 0%
 
 ## 删除页面
 
-有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_&#x200B;网格或&#x200B;_[!UICONTROL Edit]_&#x200B;页面中删除。
+有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_网格或_[!UICONTROL Edit]_&#x200B;页面中删除。
 
 ### 方法1：从“页面”网格中删除页面
 
@@ -224,7 +225,7 @@ ht-degree: 0%
 
 1. 查找要删除的页面。
 
-1. 在页面实体的&#x200B;_[!UICONTROL Actions]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
+1. 在页面实体的&#x200B;_[!UICONTROL Actions]_列中，单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按钮栏中，单击&#x200B;**[!UICONTROL Delete Page]**。
 

@@ -1,10 +1,11 @@
 ---
 title: 在编辑器中插入图像
-description: 所见即所得编辑器提供了一种从媒体存储中插入图像、链接到驻留在另一台服务器上的图像或使用Adobe Stock资源的简单方法。
+description: WYSIWYG编辑器提供了一种从媒体存储中插入图像、链接到驻留在另一台服务器上的图像或使用Adobe Stock资源的简单方法。
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开页面、块或动态块。
 
-1. 转到&#x200B;_[!UICONTROL Content]_&#x200B;部分并单击支持该编辑器的任何元素。
+1. 转到&#x200B;_[!UICONTROL Content]_部分并单击支持该编辑器的任何元素。
 
 1. 将光标定位到希望显示图像的位置。
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![插入图像图标](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;对话框。
+   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_对话框。
 
 1. 对于&#x200B;**Source**，请单击&#x200B;_搜索_&#x200B;图标并使用与您要使用的图像资源位置匹配的方法：
 

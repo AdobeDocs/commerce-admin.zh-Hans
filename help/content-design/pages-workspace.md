@@ -3,9 +3,10 @@ title: 页面工作区控件
 description: 了解用于查找和更新内容页面的工作区工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 | 列 | 描述 |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | 指定将所选设计应用于页面时的开始和结束日期。 ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)。 |
+| [!UICONTROL Custom design from/to] | 指定将所选设计应用于页面时的开始和结束日期。 ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)。 |
 | [!UICONTROL Custom Theme] | 将自定义主题应用到页面 |
 | [!UICONTROL Custom Layout] | 确定页面的自定义布局 |
 | [!UICONTROL Meta Title] | 页面的元标题 |
@@ -79,7 +80,7 @@ ht-degree: 0%
 
 ## 页面搜索
 
-_[!UICONTROL Pages]_&#x200B;网格左上角的搜索框可用于按关键字查找特定页面。 若要进行更高级的搜索，您可以[按多个参数](../getting-started/admin-grid-controls.md)筛选搜索。
+_[!UICONTROL Pages]_网格左上角的搜索框可用于按关键字查找特定页面。 若要进行更高级的搜索，您可以[按多个参数](../getting-started/admin-grid-controls.md)筛选搜索。
 
 ### 按关键词搜索
 
@@ -111,7 +112,7 @@ _[!UICONTROL Pages]_&#x200B;网格左上角的搜索框可用于按关键字查�
 | [!UICONTROL Store View] | 根据商店视图筛选搜索。 选项： `All available` / `Store Views` |
 | [!UICONTROL Layout] | 根据页面布局筛选搜索。 选项： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | 筛选对页面状态的搜索。 选项： `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | 将所选设计应用于页面时，按开始和结束日期筛选搜索。 ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)。 |
+| [!UICONTROL Custom design from / to] | 将所选设计应用于页面时，按开始和结束日期筛选搜索。 ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)。 |
 | [!UICONTROL Asset] | 按页面标题资源筛选搜索 |
 | [!UICONTROL Custom Layout] | 根据自定义布局筛选搜索。 选项： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | 根据自定义主题筛选搜索。 默认选项： `Magento Blank` / `Magento Luma` |
@@ -139,7 +140,7 @@ _[!UICONTROL Pages]_&#x200B;网格左上角的搜索框可用于按关键字查�
 
 ### 单个操作
 
-使用最右侧的&#x200B;_[!UICONTROL Action]_&#x200B;列将以下任何操作应用于单个页面：
+使用最右侧的&#x200B;_[!UICONTROL Action]_列将以下任何操作应用于单个页面：
 
 - [!UICONTROL Edit] — 在编辑模式下打开页面
 - [!UICONTROL Delete] — 删除页面（需要确认）
@@ -149,7 +150,7 @@ _[!UICONTROL Pages]_&#x200B;网格左上角的搜索框可用于按关键字查�
 
 ### 成批活动
 
-使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;选择器，将以下任意操作同时应用于多个选定页面：
+使用左上角的&#x200B;_[!UICONTROL Action]_选择器，将以下任意操作同时应用于多个选定页面：
 
 - [!UICONTROL Delete] — 删除页面（需要确认）
 - [!UICONTROL Disable] — 禁用店面中的页面

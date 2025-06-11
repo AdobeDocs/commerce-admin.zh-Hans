@@ -3,9 +3,10 @@ title: 媒体存储
 description: 了解介质存储如何帮助您整理和获取对存储在服务器上的Commerce介质文件的访问权限。
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,9 +29,9 @@ ht-degree: 0%
 
    ![插入图像图标](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;对话框。
+   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_对话框。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左侧的目录树中，执行以下操作之一：
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 1. 在[编辑器](editor.md)工具栏上，单击&#x200B;_插入图像_&#x200B;图标。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![选择搜索图标](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

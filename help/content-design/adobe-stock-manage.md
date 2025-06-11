@@ -3,9 +3,10 @@ title: 使用Adobe Stock图像
 description: 使用Adobe Stock中的图像增强您的商店页面。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -26,11 +27,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add a New Page]**。
 
-   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_&#x200B;列单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
+   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_列单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
-   - 如果您启用了[WYSIWYG编辑器](editor.md)，请单击&#x200B;**[!UICONTROL Show/Hide Editor]**，然后单击&#x200B;**[!UICONTROL Insert Image]**。
+   - 如果您已启用[WYSIWYG编辑器](editor.md)，请单击&#x200B;**[!UICONTROL Show/Hide Editor]**，然后单击&#x200B;**[!UICONTROL Insert Image]**。
 
    - 如果您启用了[页面生成器](../page-builder/setup.md)，请展开&#x200B;**[!UICONTROL Media]**&#x200B;面板并将&#x200B;**[!UICONTROL Image]**&#x200B;占位符拖到目标容器中。 然后单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
@@ -46,11 +47,11 @@ ht-degree: 0%
 
    如果要将图像添加到现有类别，请单击左侧列表中的类别名称。
 
-1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_&#x200B;下单击&#x200B;**[!UICONTROL Select from Gallery]**。
+1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_下单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
 1. 单击&#x200B;**[!UICONTROL Search Adobe Stock]**。
 
-要搜索Adobe Stock资源并从WYSIWYG编辑器添加库存图像，请执行以下操作：
+要搜索Adobe Stock资源并从WYSIWYG编辑器中添加库存图像，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL Show/Hide Editor]**。
 
@@ -118,13 +119,13 @@ ht-degree: 0%
 
 ## 登录到您的Adobe帐户
 
-若要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
+要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
 
 1. [访问Adobe Stock搜索网格](#access-the-adobe-stock-search-grid)。
 
 1. 单击右上方的&#x200B;**[!UICONTROL Sign In]**。
 
-   新的浏览器窗口将引导您完成[Adobe登录流程](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
+   新的浏览器窗口将指导您完成[Adobe登录流程](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
 
    完成登录过程后，图像的许可状态将作为标签显示在搜索结果中。
 
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 [登录到您的Adobe帐户](#log-in-to-your-adobe-account)。
 
-与您的Adobe帐户关联的所有已许可图像上都显示有标签，以明确表示您许可了哪些图像。
+与您的Adobe帐户关联的所有许可图像上都显示有标签，以清楚地表示您许可了哪些图像。
 
 ![包含许可图像的Adobe Stock搜索结果](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
@@ -178,7 +179,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

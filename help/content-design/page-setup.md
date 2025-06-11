@@ -2,36 +2,37 @@
 title: 页面设置
 description: 了解如何为商店页面的主要部分配置默认值。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # 页面设置
 
-页面的主要部分部分部分由一组标准HTML标签控制。 其中一些标记可用于确定在页面的每个部分中使用的字体、颜色、大小、背景颜色和图像的选择。 其他设置控制页面元素，如页眉中的徽标和页脚中的版权声明。 这些部分对应于HTML页面的底层结构，并且可以从管理员设置许多基本属性。
+页面的主要部分由一组标准的HTML标记进行部分控制。 其中一些标记可用于确定在页面的每个部分中使用的字体、颜色、大小、背景颜色和图像的选择。 其他设置控制页面元素，如页眉中的徽标和页脚中的版权声明。 这些部分对应于HTML页面的底层结构，并且可以从管理员设置许多基本属性。
 
-- [HTML头](#html-head)
+- [HTML Head](#html-head)
 - [页眉](#header)
 - [页脚](#footer)
 
 ![HTML页面部分](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
-## HTML头
+## HTML Head
 
-HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每个商店视图进行配置。 除了页面标题、描述和关键字的元数据之外，部分还包含指向网站图标的链接以及其他脚本。 本节中还配置了搜索引擎自动机的说明以及商店演示通知的显示。
+HTML Head部分中的设置对应于HTML页面的`<head>`标记，并且可以针对每个商店视图进行配置。 除了页面标题、描述和关键字的元数据之外，部分还包含指向网站图标的链接以及其他脚本。 本节中还配置了搜索引擎自动机的说明以及商店演示通知的显示。
 
-### 配置HTML头
+### 配置HTML Head
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL HTML Head]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-   ![HTML头配置设置](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![HTML Head配置设置](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. 根据需要更新[favicon](../getting-started/storefront-branding.md#add-a-favicon)。
 
@@ -59,11 +60,11 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Configuration]**。
 
-### HTML标题字段描述
+### HTML Head字段描述
 
 | 字段 | 范围 | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Favicon Icon] | 商店视图 | 上传浏览器地址栏和选项卡中显示的小图形图像。 允许的文件类型：ICO、PNG、APNG、GIF和JPG(JPEG)。 并非所有浏览器都支持这些格式。 |
+| [!UICONTROL Favicon Icon] | 商店视图 | 上传浏览器地址栏和选项卡中显示的小图形图像。 允许的文件类型：ICO、PNG、APNG、GIF和JPG (JPEG)。 并非所有浏览器都支持这些格式。 |
 | [!UICONTROL Default Page Title] | 商店视图 | 在浏览器中查看时，每个页面的标题栏上显示的标题。 默认标题用于所有页面，除非为单个页面指定其他标题。 |
 | [!UICONTROL Page Title Prefix] | 商店视图 | 可以在标题之前添加前缀，以创建由两部分或三部分组成的标题。 垂直条或冒号可用作前缀末尾的分隔符，以将其与主标题的文本区分开。 |
 | [!UICONTROL Page Title Suffix] | 商店视图 | 可以在标题之后添加后缀，以创建分为两部分或三部分的标题。 垂直条或冒号可用作前缀末尾的分隔符，以将其与主标题的文本区分开。 |
@@ -84,7 +85,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL Header]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -99,7 +100,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 | 字段 | 范围 | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Logo Image] | 商店视图 | 标识标题中显示的徽标的路径。 支持的文件类型：PNG、GIF、JPG(JPEG) |
+| [!UICONTROL Logo Image] | 商店视图 | 标识标题中显示的徽标的路径。 支持的文件类型：PNG、GIF、JPG (JPEG) |
 | [!UICONTROL Logo Attribute Width] | 商店视图 | 您的徽标图像的宽度（以像素为单位）。 |
 | [!UICONTROL Logo Attribute Height] | 商店视图 | 您的徽标图像的高度（以像素为单位）。 |
 | [!UICONTROL Welcome Text] | 商店视图 | 欢迎消息显示在页面的标题中，其中包括已登录的客户名称。 |
@@ -118,7 +119,7 @@ HTML标题部分中的设置对应于HTML页的`<head>`标签，可以针对每�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他设置_&#x200B;下，展开&#x200B;**[!UICONTROL Footer]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

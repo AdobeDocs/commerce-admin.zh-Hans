@@ -1,11 +1,12 @@
 ---
 title: 安装新主题
-description: 了解如何为Adobe Commerce或Magento Open Source商店安装新主题。
+description: 了解如何为Adobe Commerce或Magento Open Source应用商店安装新主题。
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hans)。
+在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
 
 要向[!DNL Commerce]存储添加主题，请按照[!DNL Commerce Marketplace]上提供的说明操作：
 

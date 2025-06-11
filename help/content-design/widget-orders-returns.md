@@ -3,9 +3,10 @@ title: 订单和退货小组件
 description: 了解如何使用订单和退货小组件，使客户能够检查其订单的状态、打印发票以及跟踪发运。
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Settings]_部分中，执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Orders and Returns`。
 
@@ -45,7 +46,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
 1. 单击&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -57,7 +58,7 @@ _订单和退货_&#x200B;构件使来宾能够检查其订单的状态、打印�
 
    - （可选）为&#x200B;**[!UICONTROL Sort Order]**&#x200B;输入一个数字，以确定该项在页面的同一部分中与其他项一起出现的顺序。 （`0` =第一，`1` =第二，`3` =第三，依此类推。）
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望小组件显示的页面类型。
 

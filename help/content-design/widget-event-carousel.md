@@ -3,9 +3,10 @@ title: 目录事件轮播小组件
 description: 了解如何使用目录事件轮播小组件在页面上显示即将举行的事件的滑块。
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Settings]_部分中，执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Catalog Events Carousel`。
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
    ![事件轮播的小组件设置](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 

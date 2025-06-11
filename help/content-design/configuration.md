@@ -3,9 +3,9 @@ title: 设计配置
 description: “设计配置”可通过在单个页面上显示设置来轻松编辑与设计相关的规则和配置设置。
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
    页面将显示商店视图的当前设计设置。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    如果未指定主题，则使用系统默认主题。 某些第三方扩展会修改系统默认主题。
 
-1. 如果主题仅用于特定设备，请设置&#x200B;**[!UICONTROL User Agent Rules]**。
+1. [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}如果主题仅用于特定设备，请设置&#x200B;**[!UICONTROL User Agent Rules]**。
 
    ![用户代理规则](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -48,13 +48,13 @@ ht-degree: 0%
    >
    >您可以为要指定的设备添加任意数量的规则。 搜索字符串按输入顺序进行匹配。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;下，展开每个部分并按照链接的主题中的说明根据需要编辑设置。
+1. 在&#x200B;_[!UICONTROL Other Settings]_下，展开每个部分并按照链接的主题中的说明根据需要编辑设置。
 
-   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
-   - [[!UICONTROL HTML Head]](page-setup.md#html-head)
-   - [[!UICONTROL Header]](page-setup.md#header)
-   - [[!UICONTROL Footer]](page-setup.md#footer)
-   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
+   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+   - [[!UICONTROL HTML Head]](page-setup.md#html-head)仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+   - [[!UICONTROL Header]](page-setup.md#header)仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+   - [[!UICONTROL Footer]](page-setup.md#footer)仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 

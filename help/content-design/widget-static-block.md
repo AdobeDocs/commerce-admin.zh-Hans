@@ -2,9 +2,10 @@
 title: 使用小组件定位块
 description: 了解如何使用静态块构件将现有内容几乎放置在存储中的任意位置。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ _CMS静态块_ [小组件](widgets.md)使您能够将现有[内容块](blocks.md
 
    ![小组件设置](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。
 
@@ -43,7 +44,7 @@ _CMS静态块_ [小组件](widgets.md)使您能够将现有[内容块](blocks.md
 
 ## 第2步：完成构件布局更新
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望块显示的类别、产品或页面。
 

@@ -2,9 +2,10 @@
 title: 动态块
 description: 使用动态块创建由价格规则和客户区段中的逻辑驱动的丰富交互式内容。
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_&#x200B;选项在2.3.1中已弃用，在2.4.0中已移除。其功能已被动态块取代。
+>[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_选项在2.3.1中已弃用，在2.4.0中已移除。其功能已被动态块取代。
 
 ![[!DNL Page Builder] — 具有价格规则和客户区段的动态块](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -107,7 +108,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Layout] | 向舞台中添加行、列或选项卡。 |
-| [!UICONTROL Elements] | 将文本、标题、按钮、分隔符和HTML代码添加到舞台上的任何布局容器中。 |
+| [!UICONTROL Elements] | 将文本、标题、按钮、分隔线和HTML代码添加到舞台上的任何布局容器中。 |
 | [!UICONTROL Media] | 将图像、视频、横幅、滑块和Google映射添加到舞台上的任何现有布局容器。 |
 | [!UICONTROL Add Content] | 将现有块、动态块和产品添加到暂存器。 |
 

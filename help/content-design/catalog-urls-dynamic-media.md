@@ -3,9 +3,10 @@ title: Dynamic media URL
 description: 了解如何使用Dynamic Media URL作为图像或其他媒体资源的相对引用。
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Dynamic Media URL是对图像或其他媒体资源的相对引用。 启用后�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开&#x200B;**[!UICONTROL WYSIWYG Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

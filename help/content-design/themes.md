@@ -3,9 +3,10 @@ title: 主题
 description: 了解 [!DNL Commerce] 主题，其中包括定义商店外观的布局文件、模板文件、翻译文件和外观。
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -50,9 +51,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 查找要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Default Theme]_&#x200B;下，将&#x200B;**[!UICONTROL Applied Theme]**&#x200B;设置为要用于当前视图的。
+1. 在&#x200B;_[!UICONTROL Default Theme]_下，将&#x200B;**[!UICONTROL Applied Theme]**设置为要用于当前视图的。
 
    ![应用的主题](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Design Rule]_&#x200B;下，单击&#x200B;**[!UICONTROL Add New User Agent Rule]**。
+1. 在&#x200B;_[!UICONTROL Design Rule]_下，单击&#x200B;**[!UICONTROL Add New User Agent Rule]**。
 
    ![设计规则](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

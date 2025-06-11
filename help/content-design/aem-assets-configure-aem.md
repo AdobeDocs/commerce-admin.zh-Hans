@@ -3,9 +3,10 @@ title: 安装适用于Commerce的AEM Assets包
 description: 添加启用Commerce的AEM Assets集成所需的资源元数据，以便在Adobe Commerce和Experience Manager Assets项目之间同步资源。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 您需要以下资源和权限才能使用此AEM项目更新环境配置：
 
-- [使用计划和部署管理员角色访问AEM Assets Cloud Manager计划和环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)。
+- [使用计划和部署管理员角色访问AEM Assets Cloud Manager计划和环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)。
 
-- [本地AEM开发环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，熟悉AEM本地开发过程。
+- [本地AEM开发环境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，熟悉AEM本地开发过程。
 
 - 了解[AEM项目结构](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)以及如何使用Cloud Manager部署自定义内容包。
 
@@ -49,11 +50,11 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 1. 从GitHub中，从[Commerce-Assets AEM项目](https://github.com/ankumalh/assets-commerce)下载样板代码。
 
-1. 从[本地AEM开发环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，将自定义代码作为Maven包安装到AEM Assets环境配置中，或者通过将代码手动复制到现有项目配置中。
+1. 从[本地AEM开发环境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，将自定义代码作为Maven包安装到AEM Assets环境配置中，或者通过将代码手动复制到现有项目配置中。
 
 1. 提交更改并将本地开发分支推送到Cloud Manager Git存储库。
 
-1. 从Cloud Manager [部署您的代码以更新AEM环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
+1. 从Cloud Manager [部署您的代码以更新AEM环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
 
 ## 配置元数据配置文件
 
@@ -110,13 +111,13 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. 可选。 要在已批准的Commerce资源上传到AEM Assets环境时自动对其进行同步，请将`Basic`选项卡上&#x200B;_[!UICONTROL Review Status]_&#x200B;字段的默认值设置为`approved`。
+1. 可选。 要在已批准的Commerce资源上传到AEM Assets环境时自动对其进行同步，请将`Basic`选项卡上&#x200B;_[!UICONTROL Review Status]_字段的默认值设置为`approved`。
 
 1. 保存更新。
 
 #### 将元数据配置文件应用到Commerce资源源文件夹
 
-1. 从[!UICONTROL &#x200B; Metadata Profiles]页面中，选择Commerce集成配置文件。
+1. 从[!UICONTROL  Metadata Profiles]页面中，选择Commerce集成配置文件。
 
 1. 从操作菜单中选择&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
 

@@ -2,9 +2,10 @@
 title: 定位内容块
 description: 将块放置在页面上的特定位置，甚至放置到特定产品或类别的位置，而无需编写任何代码
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -55,6 +56,6 @@ ht-degree: 0%
 | [!UICONTROL Product View Extra Hint] | 内容显示在产品主最高价格的下方。 |
 | [!UICONTROL Right Column] | 内容显示在右列块下方。 |
 | [!UICONTROL Store Language] | 内容显示在语言选择器的右侧。 |
-| [!UICONTROL Tags List Before] | 内容显示在&#x200B;_[!UICONTROL Add Your Tags]_&#x200B;字段上方。 |
+| [!UICONTROL Tags List Before] | 内容显示在&#x200B;_[!UICONTROL Add Your Tags]_字段上方。 |
 
 {style="table-layout:auto"}

@@ -2,9 +2,10 @@
 title: 店面布局示例
 description: 查看页面布局选项的示例。
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---

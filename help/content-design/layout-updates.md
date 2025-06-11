@@ -2,9 +2,10 @@
 title: 布局更新
 description: 了解如何使用布局更新来自定义页面布局。
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 | `page/html_wrapper` | 尽管此块包含在默认布局中，但它已被弃用，并且仅为了确保向后兼容性而包含在默认布局中。 请勿使用此类型的块。 |
 | `page/html_breadcrumbs` | 此块的名称为`breadcrumbs`，它是标头块的子级。 此块显示当前页面的痕迹导航。 每页只能有一个此类型的块。 |
 | `page/html_footer` | 块名称为`footer`，是根块的子级。 页脚块对应于页面底部的可视页脚，并包含多个标准块。 每个页面只能有一个此类型的块，并且不得将其删除。 |
-| `page/template_links` | 标准布局中有两个此类型的块。 `top.links`块是标题块的子项，对应于顶部导航菜单。 `footer_links`块是页脚块的子项，对应于底部导航菜单。 <br/><br/>**_注意：_**&#x200B;可以处理模板链接，如示例中所示。 |
+| `page/template_links` | 标准布局中有两个此类型的块。 `top.links`块是标题块的子项，对应于顶部导航菜单。 `footer_links`块是页脚块的子项，对应于底部导航菜单。 <br/><br/>**_注意：_**可以处理模板链接，如示例中所示。 |
 | `page/switch` | 在标准布局中有两个此类型的块。 `store_language`块是标头块的子级，对应于顶级语言切换器。 `store_switcher`块是页脚块的子项，对应于底部存储切换器。 |
 | 核心/消息 | 在标准布局中有两个此类型的块。 `global_messages`块显示全局消息。 `messages`块用于显示所有其他消息。 如果删除这些块，客户将看不到任何消息。 |
 | `core/text_list` | 此类型的块在整个[!DNL Commerce]中广泛用作呈现子块的占位符。 |
@@ -60,7 +61,7 @@ ht-degree: 0%
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   布局句柄是以`cms_page_view_selectable_`开头的文件名，后跟CMS页面的URL键、布局更新选项和`xml`文件后缀。 在以下示例中，`customer-service`是页面的URL键，`ChatTool`是您选择用于将布局更新应用到页面的选项。
+   布局句柄是以`cms_page_view_selectable_`开头的文件名，后跟CMS页的URL键、布局更新选项和`xml`文件后缀。 在以下示例中，`customer-service`是页面的URL键，`ChatTool`是您选择用于将布局更新应用到页面的选项。
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 

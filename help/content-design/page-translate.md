@@ -4,16 +4,17 @@ description: 了解如何创建可从特定存储视图中找到的每个页面�
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # 翻译内容页面
 
-如果您的商店具有使用不同[语言](../stores-purchase/store-localize.md)的多个视图，并且您已将每个视图的区域设置设置为不同的语言，则结果为部分翻译的站点。 下一步是创建可从特定存储视图中找到的每个页面的翻译版本。 _[!UICONTROL Manage Pages]_&#x200B;列表的[!UICONTROL Store View]列显示具有页面翻译版本的每个视图。
+如果您的商店具有使用不同[语言](../stores-purchase/store-localize.md)的多个视图，并且您已将每个视图的区域设置设置为不同的语言，则结果为部分翻译的站点。 下一步是创建可从特定存储视图中找到的每个页面的翻译版本。 _[!UICONTROL Manage Pages]_列表的[!UICONTROL Store View]列显示具有页面翻译版本的每个视图。
 
 要翻译内容页面，您必须创建另一个页面，该页面具有与原始页面相同的URL键，但已分配给特定的商店视图。 然后，使用翻译的文本更新特定视图的页面。 以下示例说明如何为西班牙商店视图创建&#x200B;_About Us_&#x200B;页面的翻译版本。
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 1. 展开&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并将&#x200B;**[!UICONTROL URL Key]**&#x200B;复制到剪贴板。
 
-1. 要返回到&#x200B;_[!UICONTROL Pages]_&#x200B;网格，请单击顶部按钮栏中的&#x200B;**[!UICONTROL Back]**。
+1. 要返回到&#x200B;_[!UICONTROL Pages]_网格，请单击顶部按钮栏中的&#x200B;**[!UICONTROL Back]**。
 
 ## 步骤2：为翻译的内容添加页面
 

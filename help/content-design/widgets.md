@@ -2,9 +2,10 @@
 title: 小组件
 description: 了解构件，构件可提供代码片段，以便能够显示各种内容并将其放置在存储中的特定块引用中。
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 | 类型 | 描述 |
 |--- |--- |
 | [!UICONTROL CMS Hierarchy Node Link] | 使用此选项可显示页面层次结构中可合并到其他内容的特定节点的链接。 |
-| [!UICONTROL CMS Page Link] | 使用此选项可指定自定义文本和链接到特定CMS页面的标题。 链接完成后，可在内容页面和块中使用。 |
+| [!UICONTROL CMS Page Link] | 使用此选项可指定自定义文本以及链接到特定CMS页面的标题。 链接完成后，可在内容页面和块中使用。 |
 | [!UICONTROL CMS Static Block] | 使用此选项可以在页面上的特定位置显示内容块。 |
 | [!UICONTROL Catalog Category Link] | 使用此选项可显示指向所选目录类别的内联或块样式链接。 链接完成后，可在内容页面和块中使用。 |
 | [!UICONTROL Catalog Events Carousel] | 使用此选项可显示即将发生的目录事件的列表。 |

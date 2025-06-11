@@ -4,22 +4,23 @@ description: 了解如何使用内容分发网络(CDN)存储媒体文件。
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # 使用内容交付网络
 
-内容交付网络(CDN)可用于存储媒体文件。 云基础架构上的Adobe Commerce包括Fastly CDN(请参阅&#x200B;_云基础架构上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans))。 _内部部署_&#x200B;安装的Commerce实例不包含与任何特定CDN的集成，您可以使用您选择的CDN。
+内容交付网络(CDN)可用于存储媒体文件。 云基础架构上的Adobe Commerce包括Fastly CDN(请参阅&#x200B;_云基础架构上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html))。 _内部部署_&#x200B;安装的Commerce实例不包含与任何特定CDN的集成，您可以使用您选择的CDN。
 
 配置CDN后，必须从管理员处完成配置。 可以在全局或网站级别进行更改。 当CDN用于媒体存储时，Commerce存储页面上的所有媒体路径都将更改为配置中指定的CDN路径。
 
 ## CDN工作流
 
-1. **浏览器请求媒体** — 商店中的页面会在客户的浏览器中打开，浏览器会请求HTML中指定的媒体。
+1. **浏览器请求媒体** — 应用商店中的页面会在客户的浏览器中打开，浏览器将请求HTML中指定的媒体。
 1. **请求发送到CDN；找到并提供图像** — 请求首先发送到CDN。 如果CDN在存储中有图像，则会将媒体文件提供给客户的浏览器。
 1. **找不到媒体，请求已发送到[!DNL Commerce] Web服务器** — 如果CDN没有媒体文件，则请求将发送到[!DNL Commerce] Web服务器。 如果在文件系统中找到媒体文件，则Web服务器会将它们发送到客户的浏览器。
 
@@ -31,7 +32,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，根据需要设置&#x200B;**[!UICONTROL Store View]**。
 

@@ -3,9 +3,10 @@ title: 媒体集资产管理
 description: 了解如何管理已上传的媒体文件以及通过Adobe Stock集成获取的资源。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---

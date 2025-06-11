@@ -3,9 +3,10 @@ title: 页面
 description: 了解有关 [!DNL Commerce] 演示存储中包含的核心内容页面以及更改默认页面配置的详细信息。
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -64,7 +65,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Default Pages]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -73,9 +74,9 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
    | 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | 商店视图 | 指示与基本URL关联的登陆页面。 默认情况下，此字段设置为`cms`表示来自[!DNL Commerce]内容管理系统的页面。 您还可以使用其他类型的登陆页面，如博客。 例如，如果在`magento/blog`处的服务器上安装了博客，则可以输入文件夹名称`blog`作为页面选择的相对路径。 |
-   | [!UICONTROL CMS Home Page] | 商店视图 | 要选择商店的主页，只需从列表中选择CMS页面即可。 默认情况下，CMS主页会列出您商店可用的全部CMS页面选择。 |
+   | [!UICONTROL CMS Home Page] | 商店视图 | 要选择商店的主页，只需从列表中选择CMS页面即可。 默认情况下，CMS主页会列出您商店可用的所有CMS页面选择。 |
    | [!UICONTROL Default No-route URL] | 商店视图 | 包含发生`404 Page not Found`错误时要显示的默认页面的URL。 默认值为`cms/noroute/index`。 |
-   | [!UICONTROL CMS No Route Page] | 商店视图 | 标识在出现“404页面未找到”错误时要显示的特定CMS页面。 默认页面为`404 Not Found`。 |
+   | [!UICONTROL CMS No Route Page] | 商店视图 | 标识您希望在出现404页面未找到错误时显示的特定CMS页面。 默认页面为`404 Not Found`。 |
    | [!UICONTROL CMS No Cookies Page] | 商店视图 | 标识未为浏览器启用Cookie时显示的特定CMS页面。 本页介绍了为何使用Cookie，以及如何为每个浏览器启用它们。 默认页面为`Enable Cookies`。 |
    | [!UICONTROL Show Breadcrumbs for CMS Pages] | 商店视图 | 确定是否在目录中的所有CMS页面上显示痕迹导航路径。 选项： `Yes` / `No` |
 
@@ -87,7 +88,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
    >[!NOTE]
    >
-   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_&#x200B;旁边的&#x200B;**[!UICONTROL Use Default]**&#x200B;复选框，以及任何其他要更改的默认设置。
+   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_旁边的&#x200B;**[!UICONTROL Use Default]**复选框，以及任何其他要更改的默认设置。
 
 1. 将&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;设置为要用作主页的CMS页面。 其他创建的页面可用作主页，例如：
 
