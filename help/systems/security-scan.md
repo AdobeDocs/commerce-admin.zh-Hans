@@ -52,7 +52,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 ## 访问扫描结果
 
-只有最初设置扫描的用户才能访问扫描结果。 要与他人共享结果，原始用户必须手动分发PDF报表。 或者，商店所有者可以使用&#x200B;[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)功能与另一个MAGEID共享提交内容。 其他个人也可以使用自己的帐户启动扫描。 在扫描设置期间，可以指定以逗号分隔的电子邮件地址列表，以接收已完成扫描和评估风险级别的通知。
+只有最初设置扫描的用户才能访问扫描结果。 要与他人共享结果，原始用户必须手动分发PDF报表。 或者，商店所有者可以使用&#x200B;[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)功能与另一个MAGEID共享提交内容。 其他个人也可以使用自己的帐户启动扫描。 在扫描设置期间，可以指定以逗号分隔的电子邮件地址列表，以接收已完成扫描和评估风险级别的通知。
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 >[!TIP]
 >
->对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 要运行扫描，请执行以下操作：
 
