@@ -4,9 +4,9 @@ description: 了解如何运行增强的安全扫描并监控每个Adobe Commerc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 >[!NOTE]
 >
->不能从Adobe Commerce的安全扫描工具扫描中排除特定的安全测试。 但是，如果适用，您可以在[中自助忽略失败](#manage-scan-failures)作为误报。
+>您不能排除运行的特定安全测试，但您可以将失败的检查移至&#x200B;**[!UICONTROL Ignored Results]**&#x200B;类别。 有关详细信息，请参阅[管理扫描失败](#manage-scan-failures)。
 
 ## 访问
 
 安全扫描工具维护严格的访问控制以保护您的站点信息。 只有您可以扫描网站，因为该工具要求通过Adobe Commerce帐户验证域所有权。 每个网站都通过唯一的令牌连接到您的帐户，以防止第三方进行未经授权的扫描。
 
 该工具专门针对Adobe Commerce域及其安全漏洞。 虽然您的网络商店可能包含来自其他平台的页面，但安全扫描工具应仅扫描Adobe Commerce生成的内容，以确保获得可靠的结果。 扫描非Adobe Commerce页面可能会产生不可靠的漏洞评估。
+
+
+## 访问扫描结果
+
+只有最初设置扫描的用户才能访问扫描结果。 要与他人共享结果，原始用户必须手动分发PDF报表。 或者，商店所有者可以使用&#x200B;[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)功能与另一个MAGEID共享提交内容。 其他个人也可以使用自己的帐户启动扫描。 在扫描设置期间，可以指定以逗号分隔的电子邮件地址列表，以接收已完成扫描和评估风险级别的通知。
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 >
 >将这些IP地址添加到网络防火墙规则中的允许列表，以允许该工具扫描您的站点。 该工具仅向端口`80`和`443`发布请求。
 
+
 ## 运行扫描
 
 扫描过程会针对已知安全问题检查您的站点，并识别可能使存储易受攻击的缺失Adobe Commerce修补程序和更新。
 
 >[!TIP]
 >
->对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>对于云基础架构项目上的Commerce，请参阅[设置安全扫描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 要运行扫描，请执行以下操作：
 
@@ -80,7 +87,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
    1. 阅读&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 单击&#x200B;**[!UICONTROL Agree]**&#x200B;继续。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
+1. 在&#x200B;_[!UICONTROL Monitored Websites]_页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多个具有不同域的站点，请为每个域配置单独的扫描。
 
@@ -147,7 +154,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
          构建过程完成后，更改将部署到您的PWA商店前面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
 
 1. 成功确认后，为以下类型之一配置&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;选项：
 
@@ -191,18 +198,20 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 - 无需联系支持人员来查找已知误报。
 - 通过自行管理您已经调查的扫描故障来节省时间。
 
-您可能希望将扫描失败标记为误报的常见情况包括：
+### 忽略扫描失败的有效方案示例
 
 - 应用了扫描工具未检测到的安全修补程序后。
-- 当检测到的问题不适用于您的特定商店配置时。
-- 当您实施了替代安全措施来解决问题时。
+- 当检测到的问题不适用于您的特定商店配置（例如，自定义用户登录和注册页面）时。
+- 当您已经实施替代安全措施来解决问题时（例如，Web应用程序防火墙）。
 - 当扫描失败基于您特意为业务需求设置的配置时。
+- 当您有意使用因代码模糊和/或编码而未能通过检查的第三方JavaScript代码时。
+
 
 ### 忽略扫描失败
 
 要管理已识别为误报的扫描失败，请执行以下步骤：
 
-1. 从&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
+1. 从&#x200B;_[!UICONTROL Monitored Websites]_页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在报表视图中，找到要标记为误报的失败扫描。
 
@@ -212,13 +221,13 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分，并从风险分数中排除。
+忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_部分，并从风险分数中排除。
 
 ### 停止忽略扫描失败
 
 如果需要将以前忽略的扫描故障恢复到活动监视状态，请执行以下步骤：
 
-1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分。
+1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_部分。
 
 1. 对于要恢复的扫描失败，单击&#x200B;**[!UICONTROL Stop Ignoring]**。
 
@@ -226,7 +235,7 @@ Adobe Commerce安全扫描工具可为Adobe Commerce和Magento Open Source站点
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_&#x200B;部分，并包含在您的风险分数中。
+扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_部分，并包含在您的风险分数中。
 
 ### 查看忽略的扫描失败
 
