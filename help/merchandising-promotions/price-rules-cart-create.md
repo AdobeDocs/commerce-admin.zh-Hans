@@ -211,7 +211,7 @@ ht-degree: 0%
    | `Name` | 受众的名称，如`Orders over $50` |
    | `Description` | 受众的描述，如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指示受众的来源，如`Experience Platform`。 |
-   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
+   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hans)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
 
    {style="table-layout:auto"}
 
