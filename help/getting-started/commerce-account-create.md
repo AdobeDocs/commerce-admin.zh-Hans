@@ -21,7 +21,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帐户登录名不同于商店管理员登录名。 您通常会对每个系统使用不同的凭据，并且每个系统的访问权限都受独立管理。
 
-但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户将能够配置其Adobe ID以登录到应用商店管理员：[配置Commerce管理员与Adobe ID的集成](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户将能够配置其Adobe ID以登录到应用商店管理员：[配置Commerce管理员与Adobe ID的集成](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
 您的Commerce登录和存储管理员登录是分开的，具有不同的凭据和独立管理的访问权限。 但是，您可以通过将Adobe ID配置为登录到商店管理员来简化访问权限。 请参阅Commerce的&#x200B;*IMS集成指南*&#x200B;中的[配置Commerce管理与Adobe ID的集成]。
 
