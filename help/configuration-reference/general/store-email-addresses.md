@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]'
 description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]页面上的配置设置。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
+source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## [!UICONTROL General]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 ![存储电子邮件地址>常规联系人](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 商店视图 | 显示为`General Contact`身份所发送电子邮件的发件人的名称。 |
-| [!UICONTROL Sender Email] | 商店视图 | 与`General Contact`身份关联的电子邮件地址。 |
+| [!UICONTROL Sender Email] | 商店视图 | 与`General Contact`身份关联的电子邮件地址。 在Adobe Commerce as a Cloud Service上，创建支持工单以更改电子邮件地址。 |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 商店视图 | 显示为`Sales Representative`身份所发送电子邮件的发件人的名称。 |
-| [!UICONTROL Sender Email] | 商店视图 | 与`Sales Representative`身份关联的电子邮件地址。 |
+| [!UICONTROL Sender Email] | 商店视图 | 与`Sales Representative`身份关联的电子邮件地址。  在Adobe Commerce as a Cloud Service上，创建支持工单以更改电子邮件地址。 |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 商店视图 | 显示为`Customer Support`身份所发送电子邮件的发件人的名称。 |
-| [!UICONTROL Sender Email] | 商店视图 | 与`Customer Support`身份关联的电子邮件地址。 |
+| [!UICONTROL Sender Email] | 商店视图 | 与`Customer Support`身份关联的电子邮件地址。  在Adobe Commerce as a Cloud Service上，创建支持工单以更改电子邮件地址。 |
 
 {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 商店视图 | 显示为`Custom 1`身份所发送电子邮件的发件人的名称。 |
-| [!UICONTROL Sender Email] | 商店视图 | 与`Custom 1`身份关联的电子邮件地址。 |
+| [!UICONTROL Sender Email] | 商店视图 | 与`Custom 1`身份关联的电子邮件地址。  在Adobe Commerce as a Cloud Service上，创建支持工单以更改电子邮件地址。 |
 
 {style="table-layout:auto"}
 
@@ -79,6 +79,6 @@ ht-degree: 2%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 商店视图 | 显示为`Custom 2`身份所发送电子邮件的发件人的名称。 |
-| [!UICONTROL Sender Email] | 商店视图 | 与`Custom 2`身份关联的电子邮件地址。 |
+| [!UICONTROL Sender Email] | 商店视图 | 与`Custom 2`身份关联的电子邮件地址。  在Adobe Commerce as a Cloud Service上，创建支持工单以更改电子邮件地址。 |
 
 {style="table-layout:auto"}
