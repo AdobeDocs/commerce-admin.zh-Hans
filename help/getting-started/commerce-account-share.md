@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在开始之前，请从&#x200B;**新共享访问被授权者**&#x200B;的[!DNL Commerce]帐户获取以下信息：
 
-   - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+   - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_&#x200B;选项卡的左上角，**注销**&#x200B;链接正上方。
    - 与帐户关联的`Email`地址。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一验证域的所有权。
+>无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-scan)之一验证域的所有权。
 
 ## 访问共享帐户
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![支持](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   您可以使用共享帐户中的[Adobe Commerce帮助中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)来搜索文章和疑难解答信息、查找已知问题的修补程序以及创建支持工单。
+   您可以使用共享帐户中的[Adobe Commerce帮助中心](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/overview)来搜索文章和疑难解答信息、查找已知问题的修补程序以及创建支持工单。
 
    >[!NOTE]
    >
-   >收到共享访问权限后，用户必须登录到其[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login)，导航到&#x200B;_共享访问权限_，然后单击&#x200B;**[!UICONTROL Support]**&#x200B;选项卡。 第一次需要执行此操作只是为了确保通过`SSO`调用正确配置了[Adobe Commerce支持知识库](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)。
+   >收到共享访问权限后，用户必须登录到其[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login)，导航到&#x200B;_共享访问权限_，然后单击&#x200B;**[!UICONTROL Support]**&#x200B;选项卡。 第一次需要执行此操作只是为了确保通过`SSO`调用正确配置了[Adobe Commerce支持知识库](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/overview)。
 
 1. 若要返回您自己的帐户，请在浏览器控件中单击&#x200B;**返回**，并将&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;设置为`My Account`。
 
@@ -109,19 +109,19 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否以`Cloud Shared Access from MAG XYZ`开头。 不能删除具有该[命名模式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)的帐户。
+   > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否以`Cloud Shared Access from MAG XYZ`开头。 不能删除具有该[命名模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)的帐户。
    > 
    > 如果是这样，请要求帐户所有者修改共享访问帐户以清除帐户权限。 在该更新之后，用户无法访问任何帐户资源。
    >
-   > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL Delete User]**。
 
 >[!NOTE]
 >
->您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。
+>您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。
 
 ## 相关阅读
 
-[共享访问疑难解答](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[共享访问疑难解答](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
