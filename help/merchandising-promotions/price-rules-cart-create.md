@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add New Rule]**&#x200B;并执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Rule Information]_下，完成&#x200B;**[!UICONTROL Rule Name]**和&#x200B;**[!UICONTROL Description]**。
+   - 在&#x200B;_[!UICONTROL Rule Information]_&#x200B;下，完成&#x200B;**[!UICONTROL Rule Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
    - 如果不希望规则立即生效，请将&#x200B;**[!UICONTROL Active]**&#x200B;设置为`No`。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 在此步骤中，将说明订单必须符合哪些条件才能获得促销资格。 条件会以下列方式影响购物车价格规则：
 
-- 当满足&#x200B;_[!UICONTROL Conditions]_选项卡中的条件集时，购物车价格规则将应用于购物车中的每个&#x200B;**_产品_**。 要限制受购物车价格规则影响的产品数，请在_[!UICONTROL Actions]_&#x200B;选项卡中添加条件以限制受购物车价格规则影响的产品数。
+- 当满足&#x200B;_[!UICONTROL Conditions]_&#x200B;选项卡中的条件集时，购物车价格规则将应用于购物车中的每个&#x200B;**_产品_**。 要限制受购物车价格规则影响的产品数，请在&#x200B;_[!UICONTROL Actions]_&#x200B;选项卡中添加条件以限制受购物车价格规则影响的产品数。
 
 - 如果至少一个条件产品属性的值为空，则购物车价格规则不适用于该产品。
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在多个并行促销的情况下，_小计_&#x200B;条件应用于&#x200B;_**折扣之前的&#x200B;_基本_购物车小计**_。
+>在多个并行促销的情况下，_小计_&#x200B;条件应用于&#x200B;_&#x200B;**折扣之前的&#x200B;_基本_购物车小计**&#x200B;_。
 
 >[!IMPORTANT]
 >
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ### 将产品属性添加到购物车价格规则
 
-1. 转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**并打开产品属性。
+1. 转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;并打开产品属性。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Storefront Properties]**。
 
@@ -231,7 +231,7 @@ ht-degree: 0%
    |------|-----------|
    | `Percent of product price discount` | 通过从原始价格中减去百分比来折扣物料。 折扣适用于购物车中的每个合格项目。 例如：在[!UICONTROL Discount Amount]中输入`10`以获取比原始价格低10%的更新价格。 |
    | `Fixed amount discount` | 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在[!UICONTROL Discount Amount]中输入`10`以获取比原始价格低10美元的更新价格。 |
-   | 整个购物车的固定金额折扣 | 通过从购物车总计中减去固定金额对整个购物车进行折扣。 例如：在[!UICONTROL Discount Amount]中输入10将从购物车总计中减去$10。 默认情况下，折扣仅适用于购物车小计。 要将折扣分别应用于小计和运费，请使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_选项。 |
+   | 整个购物车的固定金额折扣 | 通过从购物车总计中减去固定金额对整个购物车进行折扣。 例如：在[!UICONTROL Discount Amount]中输入10将从购物车总计中减去$10。 默认情况下，折扣仅适用于购物车小计。 要将折扣分别应用于小计和运费，请使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;选项。 |
    | `Buy X get Y free` | 定义客户必须购买的数量X以免费接收相同产品/变体&#x200B;**的数量Y**。 （[!UICONTROL Discount Amount]为Y。）购物车中必须存在X+Y相同项目的总数量/已添加到购物车中，才能应用折扣。 |
 
    {style="table-layout:auto"}
@@ -341,7 +341,7 @@ ht-degree: 0%
 | [!UICONTROL Active] | （必需）确定规则在存储中是否处于活动状态。 选项： `Yes` / `No` |
 | [!UICONTROL Websites] | （必需）标识可以使用规则的网站。 |
 | [!UICONTROL Customer Groups] | （必需）标识应用规则的客户组。 |
-| [!UICONTROL Coupon] | （必需）指示优惠券是否与规则关联。 选项： <br/>**[!UICONTROL No Coupon]**— 没有与规则关联的优惠券。<br/>**[!UICONTROL Specific Coupon]** — 特定优惠券与规则关联。 <br/>**[!UICONTROL Coupon Code]**— 出现提示时，输入客户必须输入才能利用促销的优惠券代码。<br/>**[!UICONTROL Use Auto Generation]** — 选中此复选框可自动生成多个可用于促销的优惠券代码。 <br/>**[!UICONTROL Auto]**— 显示&#x200B;_[!UICONTROL Manage Coupon Codes]_部分以定义要生成的优惠券代码的格式。 |
+| [!UICONTROL Coupon] | （必需）指示优惠券是否与规则关联。 选项： <br/>**[!UICONTROL No Coupon]**— 没有与规则关联的优惠券。<br/>**[!UICONTROL Specific Coupon]** — 特定优惠券与规则关联。 <br/>**[!UICONTROL Coupon Code]**— 出现提示时，输入客户必须输入才能利用促销的优惠券代码。<br/>**[!UICONTROL Use Auto Generation]** — 选中此复选框可自动生成多个可用于促销的优惠券代码。 <br/>**[!UICONTROL Auto]**— 显示&#x200B;_[!UICONTROL Manage Coupon Codes]_&#x200B;部分以定义要生成的优惠券代码的格式。 |
 | [!UICONTROL Uses per Coupon] | 确定优惠券代码的使用次数。 如果没有限制，请将该字段留空。 |
 | [!UICONTROL Uses per Customer] | 确定属于任何选定客户组的同一注册客户可以使用购物车价格规则的次数。 不适用于属于NOT LOGGED IN客户组的访客购物者，或者不适用于未登录到其帐户进行购买的客户。 对于无限制，请留空。 |
 | [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
@@ -384,7 +384,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Percent of product price discount]**— 通过从原始价格中减去百分比来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_中输入`10`以获取比原始价格低10%的更新价格。<br/>**[!UICONTROL Fixed amount discount]**— 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10美元的更新价格。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 通过从购物车小计中减去固定金额对整个购物车进行折扣。 例如：在&#x200B;_[!UICONTROL Discount Amount]_中输入`10`将从购物车小计中扣除$10。 默认情况下，折扣仅适用于购物车小计。 若要将折扣分别应用到小计和运费，请参阅_应用到运费金额&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定义客户必须购买才能免费接收数量的数量。 （_[!UICONTROL Discount Amount]_&#x200B;为Y。） |
+| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Percent of product price discount]**— 通过从原始价格中减去百分比来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10%的更新价格。<br/>**[!UICONTROL Fixed amount discount]**— 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10美元的更新价格。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 通过从购物车小计中减去固定金额对整个购物车进行折扣。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`将从购物车小计中扣除$10。 默认情况下，折扣仅适用于购物车小计。 若要将折扣分别应用到小计和运费，请参阅_应用到运费金额&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定义客户必须购买才能免费接收数量的数量。 （_[!UICONTROL Discount Amount]_&#x200B;为Y。） |
 | [!UICONTROL Discount Amount] | （必需）提供的折扣金额。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 设置在同一购买中可以应用折扣的最大产品数。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | 设置`X`在`Buy X Get Y Free`促销活动中表示的产品数。 此外，定义必须一起将多少个产品批量添加到购物车中以应用`Fixed amount discount`和`Percent of product price discount`促销。 |

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_部分包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可扩展部分。
+   _[!UICONTROL Rule Information]_&#x200B;部分包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可扩展部分。
 
    ![目录价格规则 — 信息](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -203,9 +203,9 @@ ht-degree: 0%
 
 1. 更新规则的属性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_页。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页。
 
-   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_页面。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页面。
 
 1. 测试规则以确保其正常工作。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |-----|-----------|
-| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Apply as percentage of original]**— 通过减去正常价格的百分比来折扣项目。<br/>**[!UICONTROL Apply as fixed amount]** — 通过从正常价格中减去固定金额的折扣项目。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 按正常价格的百分比调整最终价格。<br/>**[!UICONTROL Adjust final price to discount value]** — 将最终价格设置为固定的折扣金额。 <br/><br/>**_注意：_**常规价格是指不含任何高级定价（特价/层/组）或促销折扣的基本产品价格。 最终价格是指购物车中显示的折扣价格。 <br/>使用以下公式将**_最终&#x200B;_**产品价格计算为**_最低&#x200B;_**相关价格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Apply as percentage of original]**— 通过减去正常价格的百分比来折扣项目。<br/>**[!UICONTROL Apply as fixed amount]** — 通过从正常价格中减去固定金额的折扣项目。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 按正常价格的百分比调整最终价格。<br/>**[!UICONTROL Adjust final price to discount value]** — 将最终价格设置为固定的折扣金额。 <br/><br/>**_注意：_**&#x200B;常规价格是指不含任何高级定价（特价/层/组）或促销折扣的基本产品价格。 最终价格是指购物车中显示的折扣价格。 <br/>使用以下公式将&#x200B;**_最终&#x200B;_**&#x200B;产品价格计算为&#x200B;**_最低&#x200B;_**&#x200B;相关价格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必需）提供的折扣金额。 |
 | [!UICONTROL Discard Subsequent Rules] | 确定是否可以将其他规则应用于此购买。 要防止将多个折扣应用于同一购买，请选择`Yes`。 选项： `Yes` / `No` |
 
