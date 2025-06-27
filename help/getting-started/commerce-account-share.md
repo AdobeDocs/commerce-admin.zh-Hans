@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 在开始之前，请从&#x200B;**新共享访问被授权者**&#x200B;的[!DNL Commerce]帐户获取以下信息：
 
    - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
-   - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_选项卡的左上角，**注销**链接正上方。
+   - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_&#x200B;选项卡的左上角，**注销**&#x200B;链接正上方。
    - 与帐户关联的`Email`地址。
 
 1. 登录到您的[[!DNL Commerce] 帐户](commerce-account-create.md)。
@@ -45,26 +45,26 @@ ht-degree: 0%
 
    ![新用户信息](./assets/shared-new-user.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Shared Information]_下，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Shared Information]_&#x200B;下，执行以下操作：
 
    - 要识别共享帐户，请输入&#x200B;**[!UICONTROL Share Name]**。 此名称供内部参考，仅对您以及与您共享帐户的人可见。
 
      最佳做法是将您的组织名称用作[!UICONTROL Share Name]。 不要使用以`CLOUD SHARED ACCESS FROM MAG XYX`开头的名称。
    - 如果要与新用户共享您的个人联系信息，请输入&#x200B;**[!UICONTROL Your Email]**&#x200B;和&#x200B;**[!UICONTROL Your Phone]**。
 
-1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_下，选中要共享的每个[!DNL Commerce]产品和服务的复选框。
+1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_&#x200B;下，选中要共享的每个[!DNL Commerce]产品和服务的复选框。
 
    ![授予帐户权限](./assets/shared-permissions.png){width="600"}
 
 1. 单击&#x200B;**[!UICONTROL Create Shared Access]**。
 
-   新用户信息显示在“共享访问”页面的&#x200B;_[!UICONTROL Manage Permissions]_部分中，并且会向新用户发送一封电子邮件邀请，其中包含访问共享帐户的说明。
+   新用户信息显示在“共享访问”页面的&#x200B;_[!UICONTROL Manage Permissions]_&#x200B;部分中，并且会向新用户发送一封电子邮件邀请，其中包含访问共享帐户的说明。
 
    ![管理共享访问的权限](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->无需共享对&#x200B;_[!UICONTROL Security Tool]_的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一验证域的所有权。
+>无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一验证域的所有权。
 
 ## 访问共享帐户
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 
 1. 当您收到共享帐户的邀请时，请按照电子邮件中的说明登录到您自己的[!DNL Commerce]帐户。
 
-   您帐户的左侧导航面板具有新的&#x200B;_[!UICONTROL Shared with me]_选项卡。 右上角的_[!UICONTROL Switch Accounts]_&#x200B;控件具有`My Account`的选项和共享帐户的名称。
+   您帐户的左侧导航面板具有新的&#x200B;_[!UICONTROL Shared with me]_&#x200B;选项卡。 右上角的&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控件具有`My Account`的选项和共享帐户的名称。
 
    ![与我共享](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   如果您没有看到&#x200B;_[!UICONTROL Switch Accounts]_控件，请与主要帐户持有人联系，并确认他们输入了正确的[帐户信息](#set-up-a-shared-account)。
+   >   如果您没有看到&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控件，请与主要帐户持有人联系，并确认他们输入了正确的[帐户信息](#set-up-a-shared-account)。
 
 
 1. 若要获得对共享帐户的访问权限，请将&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;设置为共享帐户的名称。
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL Shared Access]**。
 
-1. 查找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_下撤消的帐户，然后单击&#x200B;**[!UICONTROL Delete]**。
+1. 查找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_&#x200B;下撤消的帐户，然后单击&#x200B;**[!UICONTROL Delete]**。
 
    >[!NOTE]
    >
