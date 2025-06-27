@@ -3,9 +3,9 @@ title: 创建目录价格规则
 description: 了解如何创建目录价格规则，该规则可在满足一组条件时将折扣应用于特定产品。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_&#x200B;部分包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可扩展部分。
+   _[!UICONTROL Rule Information]_部分包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可扩展部分。
 
    ![目录价格规则 — 信息](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -32,19 +32,14 @@ ht-degree: 0%
 
    默认情况下，状态为`Inactive`。
 
-   >[!NOTE]
-   >
-   >创建规则后，可根据需要通过将状态更改为`Active`或`Inactive`来更新其状态。
+   创建规则后，可根据需要通过将状态更改为`Active`或`Inactive`来更新其状态。
 
 1. 选择要使规则可用的&#x200B;**[!UICONTROL Websites]**。
 
 1. 选择将应用此规则的&#x200B;**[!UICONTROL Customer Groups]**。
 
-   要选择多个组，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
-
-   >[!NOTE]
-   >
-   >此列表中的选项取决于&#x200B;_客户_ > _客户组_&#x200B;中创建和管理的客户组。
+   - 可供选择的选项取决于&#x200B;_客户_ > _客户组_&#x200B;中创建和管理的客户组。
+   - 要选择多个组，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)输入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期以确定价格规则何时生效。
 
@@ -52,21 +47,15 @@ ht-degree: 0%
 
 1. 输入一个数字以建立此规则相对于其他规则的&#x200B;**[!UICONTROL Priority]**。
 
-   >[!NOTE]
-   >
-   >当同一目录产品满足为多个价格规则设置的条件时，_[!UICONTROL Priority]_&#x200B;设置很重要。 具有最高优先级设置（优先级从最高到最低依次为0、1、2、3...）的规则将对该产品激活。
+   **[!UICONTROL Priority]**&#x200B;设置确定当产品满足多个价格规则的条件时应用的规则。 具有最高优先级的规则（最低数字，例如0、1、2、3...）将生效。
 
 ## 第2步：定义条件
 
 大多数可用条件基于现有属性值。 要将规则应用于所有产品，请将条件留空。
 
->[!NOTE]
->
->如果至少一个条件产品属性的值为空，则目录价格规则不适用于该产品。
+- 如果至少一个条件产品属性的值为空，则目录价格规则不适用于该产品。
 
->[!NOTE]
->
->要将`Category`产品属性条件应用于任何[捆绑](../catalog/product-create-bundle.md)或[分组的](../catalog/product-create-grouped.md)产品，必须将所有子产品分配到同一类别才能正确应用规则。 如果不能，您可以改用[购物车价格规则](price-rules-cart-create.md)促销活动。
+- 如果将`[!UICONTROL Category]`产品属性条件添加到捆绑或分组产品，则仅当所有子项共享同一类别时，才会正确应用价格规则。 如果子项目不在同一类别中，请改用[购物车价格规则](price-rules-cart-create.md)促销活动。”
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Conditions]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -144,6 +133,10 @@ ht-degree: 0%
 
    >[!NOTE]
    >
+   >要在使用不同货币的网站中一致地应用固定金额折扣（不从全局基础货币进行转换），请将&#x200B;**[!UICONTROL Catalog Price Scope]**&#x200B;选项设置为`Website`并为每个网站定义一个基础货币。
+
+   >[!NOTE]
+   >
    >_正常价格_&#x200B;是指不含任何高级定价（特价/层/组）或促销折扣的基本产品价格。 _最终价格_&#x200B;指购物车中显示的折扣价格。 <br/>使用以下公式将&#x200B;**_最终_**&#x200B;产品价格计算为&#x200B;**_最低_**&#x200B;相关价格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
@@ -154,9 +147,7 @@ ht-degree: 0%
 
 1. 要在应用此规则后停止处理其他规则，请将&#x200B;**[!UICONTROL Discard Subsequent Rules]**&#x200B;设置为`Yes`。
 
-   >[!NOTE]
-   >
-   >将此项设置为`Yes`是一种防止系统向同一产品应用多个折扣（规则）的保护措施。
+   将此值设置为`Yes`是一种防止系统向同一产品应用多个折扣（规则）的保护措施。
 
 ## 步骤4：添加相关的动态块
 
@@ -202,7 +193,7 @@ ht-degree: 0%
 
 1. 完成后，保存规则。
 
-   - ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)单击&#x200B;**[!UICONTROL Save and Apply]**。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击&#x200B;**[!UICONTROL Save and Apply]**。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Save]**。
 
@@ -212,9 +203,9 @@ ht-degree: 0%
 
 1. 更新规则的属性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_页。
 
-   - ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_页面。
 
 1. 测试规则以确保其正常工作。
 
@@ -224,7 +215,7 @@ ht-degree: 0%
 
 观看本视频，了解如何创建目录价格规则：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410846?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## 字段描述
 
@@ -237,9 +228,9 @@ ht-degree: 0%
 | [!UICONTROL Websites] | （必需）标识可以使用规则的网站。 |
 | [!UICONTROL Customer Groups] | （必需）标识应用规则的客户组。 |
 | [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
-| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (仅限Magento Open Source)确定存储中的规则是否处于活动状态。 选项： `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)指定价格规则生效的第一天。 如果留空，价格规则将在保存后生效。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅Magento Open Source)指定价格规则生效的最后一天。 如果留空，价格规则将无限期地继续。 |
+| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)确定存储中的规则是否处于活动状态。 选项： `Yes` / `No` |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)指定价格规则生效的第一天。 如果留空，价格规则将在保存后生效。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)指定价格规则生效的最后一天。 如果留空，价格规则将无限期地继续。 |
 
 {style="table-layout:auto"}
 
@@ -251,7 +242,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |-----|-----------|
-| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Apply as percentage of original]**— 通过减去正常价格的百分比来折扣项目。<br/>**[!UICONTROL Apply as fixed amount]** — 通过从正常价格中减去固定金额的折扣项目。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 按正常价格的百分比调整最终价格。<br/>**[!UICONTROL Adjust final price to discount value]** — 将最终价格设置为固定的折扣金额。 <br/><br/>**_注意：_**&#x200B;常规价格是指不含任何高级定价（特价/层/组）或促销折扣的基本产品价格。 最终价格是指购物车中显示的折扣价格。 <br/>使用以下公式将&#x200B;**_最终&#x200B;_**&#x200B;产品价格计算为&#x200B;**_最低&#x200B;_**&#x200B;相关价格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Apply as percentage of original]**— 通过减去正常价格的百分比来折扣项目。<br/>**[!UICONTROL Apply as fixed amount]** — 通过从正常价格中减去固定金额的折扣项目。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 按正常价格的百分比调整最终价格。<br/>**[!UICONTROL Adjust final price to discount value]** — 将最终价格设置为固定的折扣金额。 <br/><br/>**_注意：_**常规价格是指不含任何高级定价（特价/层/组）或促销折扣的基本产品价格。 最终价格是指购物车中显示的折扣价格。 <br/>使用以下公式将**_最终&#x200B;_**产品价格计算为**_最低&#x200B;_**相关价格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必需）提供的折扣金额。 |
 | [!UICONTROL Discard Subsequent Rules] | 确定是否可以将其他规则应用于此购买。 要防止将多个折扣应用于同一购买，请选择`Yes`。 选项： `Yes` / `No` |
 
