@@ -64,7 +64,7 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++管理员设置
 
@@ -87,7 +87,7 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
       >
       >将新密钥的记录保存在安全位置。 如果文件发生任何问题，则需要解密数据。
 
-+++
+   +++
 
 1. 刷新缓存。
 
