@@ -3,7 +3,7 @@ title: 索引管理
 description: 了解索引管理，包括触发重新索引和最佳实践的操作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: f4b5ca01ddb02a9392095fa46ae8baa73892319b
 workflow-type: tm+mt
 source-wordcount: '1323'
@@ -20,7 +20,7 @@ ht-degree: 0%
 索引器可以设置为在保存时或按计划更新。 所有索引都可以使用任一选项，但Customer Grid除外，它仅在保存时支持。 在保存时索引时，Commerce会在保存操作时启动重新索引。 “索引管理”页完成更新并刷新缓存，在一两分钟之内出现重新索引消息。 按照计划重新索引时，重新索引将按照计划作为cron作业运行。 如果[cron作业](cron.md)不可用于更新任何变为无效的索引器，则会显示系统消息。 在重新索引过程中，您的存储仍可访问。
 
 >[!NOTE]
-> 使用实时搜索、目录服务或产品推荐的Adobe Commerce商家可以选择使用基于[SaaS的价格索引器](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing)。
+> 使用实时搜索、目录服务或产品推荐的Adobe Commerce商家可以选择使用基于[SaaS的价格索引器](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=zh-Hans)。
 
 当需要重新索引时，将在页面顶部显示通知。 根据重新索引模式和您执行的潜在操作，将清除索引和消息。 有关索引的更多详细信息，请参阅[PHP开发人员指南](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)中的&#x200B;_应用程序如何实现索引_。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->对于使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器的存储：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
+>对于使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)并将Elasticsearch设置为全文(`catalogsearch_fulltext`)索引器的存储：在批量权限发生更改或“权限”索引器处于“已计划”模式时，必须重新运行全文索引。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 使用命令行重新索引
 
-Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}中的&#x200B;_重新索引_。
+Commerce使用命令行提供了其他重新索引选项。 有关完整的详细信息和命令选项，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=zh-Hans#reindex){:target="blank"}中的&#x200B;_重新索引_。
 
 ## 索引触发事件
 
