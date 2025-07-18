@@ -3,26 +3,28 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: ee2635e45c56be82b0abb7369fd6d74a3b00ce93
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2390'
 ht-degree: 1%
 
 ---
 
 # Adobe Commerce上的HIPAA准备工作
 
+{{ee-feature}}
+
 >[!IMPORTANT]
 >
 >**法律免责声明**<br/>
->此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
+>>此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
 
 **健康保险便携性和责任法案(HIPAA)**
 
-健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于&#x200B;_覆盖的实体_（如医疗保健提供商、保险公司和清算所）和&#x200B;_商业伙伴_（如向覆盖的实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务联系人，Adobe将这些产品归类为“HIPAA就绪服务”。 受HIPAA监管的数据称为&#x200B;_受保护的健康信息_&#x200B;或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关详细信息，请参阅Adobe信任中心中的[HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-ready.html)。
+健康保险便携性和责任法案(HIPAA)是美国主要的联邦医疗保健隐私法律，由美国卫生和公众服务部(HHS)执行。 HIPAA适用于&#x200B;_覆盖的实体_（如医疗保健提供商、保险公司和清算所）和&#x200B;_商业伙伴_（如向覆盖的实体提供服务的实体）。 HIPAA要求通过三个单独的规则进行设置：隐私规则、安全规则和违规通知规则。 Adobe充当某些产品的业务联系人，Adobe将这些产品归类为“HIPAA就绪服务”。 受HIPAA监管的数据称为&#x200B;_受保护的健康信息_&#x200B;或PHI。 PHI是健康信息的子集，即(1)由医疗保健提供商、健康计划或医疗保健清算所创建或接收的健康信息，(2)关于个人的过去、现在或将来身心健康或状况，关于向个人提供医疗的付款，或关于向个人提供医疗保健的过去、现在或将来付款，以及(3)识别个人或有合理依据相信该信息可用于识别个人的健康信息。 《HIPAA隐私和安全规则》要求被覆盖实体以商业伙伴协议（简称BAA）的形式从商业伙伴获得书面保证，要求商业伙伴保护被覆盖实体的PHI的隐私和安全。 有关详细信息，请参阅Adobe信任中心中的[HIPAA和Adobe产品和服务](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html)。
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +46,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 | Adobe Commerce | 支持 | 注释 |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4支持需要[修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4支持需要[修补程序](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | 1.1.0中引入了对[数据服务](#adobe-commerce-services)的支持 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -63,7 +65,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 >[!BEGINSHADEBOX]
 
 - Adobe已配置您的Adobe Commerce帐户以访问HIPAA Ready扩展。
-- 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hans)。
+- 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 >[!ENDSHADEBOX]
 
@@ -71,13 +73,13 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 >[!NOTE]
 >
->要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》[上的](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)Adobe Commerce中的&#x200B;_使用CLI管理分支_。
 
 1. 使用Adobe Commerce Cloud CLI签出要更新的环境分支。
 
@@ -105,7 +107,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
    git push origin <branch-name>
    ```
 
-   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
+   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中检查部署状态。
 
 ### 验证安装
 
@@ -160,7 +162,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 1. 添加了两列：
    - ***Source***：显示执行操作的位置。
-值： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
+值： `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***客户端类型***：显示客户端类型。
 值：客户 | 管理员 | 集成
 
@@ -191,7 +193,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 - **搜索限制**：没有必要角色的用户无法搜索或查看客户记录。
 - **必须搜索访问**：与默认的Adobe Commerce行为不同，不执行搜索就无法查看客户信息。 这可确保用户必须了解客户的特定详细信息才能找到其信息。
 - **有限的搜索结果**：符合条件的搜索结果限制为10条记录，以确保一次只显示可管理的记录数。
-- **最小筛选器数**：用户必须至少应用三个筛选器（例如，电子邮件、姓名和状态）才能执行搜索，确保搜索是特定和有针对性的。
+- **最小筛选器数**：用户必须至少应用三个筛选器（例如，电子邮件、姓氏和状态）才能执行搜索，确保搜索是特定和有针对性的。
 - **筛选通知**：启用搜索限制时，将通知用户应用筛选条件以优化其搜索结果。
 
 #### 配置
@@ -203,19 +205,19 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 
 #### 受影响的功能区域
 
-“管理员创建订单”页面(**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**)和“客户”页面(**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**)上的客户网格受搜索结果限制功能的影响。
+搜索结果限制功能适用于管理员创建订单页面(**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**)和客户页面(**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**)上的客户网格。
 
 - 默认情况下，将打开过滤器。
 - 用户必须应用至少三个过滤器才能执行搜索。
 - 默认情况下，搜索结果限制为10条记录。
-- 如果有更多记录与搜索条件匹配，则通知将通知用户结果限制以及优化搜索的需要。
+- 如果有更多记录与搜索条件匹配，则通知会告知用户结果限制以及优化搜索的需要。
 - 网格分页不可用。
 - 导航离开页面时，不会保存应用的先前搜索结果和过滤器。
 
 搜索结果限制功能也应用于用于客户搜索(`/V1/customers/search`)的REST API。
 
 - 如果未应用过滤器或过滤器不足，API会返回一条错误消息，指示执行搜索需要一定数量的过滤器。
-- 当授权用户应用了足够的过滤器时，API会返回指定限制内的结果。
+- 应用足够过滤器的授权用户将在指定限制内收到API结果。
 - 当结果有限时，将向响应添加一条消息，指示找到的记录总数和当前应用的限制。
 
 ### 导入和导出特征
@@ -228,7 +230,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 
 #### 管理操作日志记录
 
-导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了更深入探究与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在&#x200B;**[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;网格中：
+导入和导出功能中的一项关键改进是增强了管理操作的日志记录。 此增强功能引入了更深入探究与数据导入和导出相关的活动的功能，有助于改进跟踪和可审核性。 以下操作现已记录并反映在&#x200B;**[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**网格中：
 
 | 类型 | 操作 |
 | ---- | ------- |
@@ -277,15 +279,15 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 
 | 服务 | 非生产 | 生产 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 是 | 是 |
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | 是 | 是 |
 | 适用于Adobe Developer App Builder的[API网格](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
-| [SaaS数据导出](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview) | 是 | 是 |
-| [实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview) | 否 | 否 |
-| [产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/overview) | 否 | 否 |
-| [付款服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview) | 否 | 否 |
-| [数据连接后台事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
-| [数据连接店面事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
-| [Audience Activation](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
+| [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 是 | 是 |
+| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 否 | 否 |
+| [产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 否 | 否 |
+| [付款服务](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 否 | 否 |
+| [数据连接后台事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
+| [数据连接店面事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
 
 ### 工具
 
@@ -297,7 +299,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 - 所有安装的扩展都与预定义的允许列表匹配
 - 未安装不支持的Adobe服务
 
-您可以[将工具](../../systems/security-scan.md#run-a-security-scan)配置为通过计划的扫描或[手动查看报告](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report)向您发送电子邮件通知，其中包含详细信息。
+您可以[将工具](../../systems/security-scan.md#run-a-security-scan)配置为通过计划的扫描或[手动查看报告](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview)向您发送电子邮件通知，其中包含详细信息。
 
 ## 禁用的功能
 
@@ -305,7 +307,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 
 默认情况下，HIPAA就绪模块中禁用以下功能。 商家可以自行承担启用上述任何功能的风险。
 
-- **[事务性电子邮件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=zh-Hans)** — 默认情况下已禁用SendGrid，因为服务未就绪。 Adobe Commerce提供了一个集成选项，您可以将其用于您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帐户。 有关配置详细信息，请联系您的客户技术客户经理或Adobe Commerce支持。
+- **[事务性电子邮件](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** — 默认情况下已禁用SendGrid，因为服务未就绪。 Adobe Commerce提供了一个集成选项，您可以将其用于您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帐户。 有关配置详细信息，请联系您的客户技术客户经理或Adobe Commerce支持。
 
 - **[访客签出](../../stores-purchase/checkout-guest.md)** — 此功能对HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和谱系等等。
 
