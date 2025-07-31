@@ -3,9 +3,9 @@ title: 管理购物车
 description: 了解如何直接从管理员协助客户处理其购物车。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | 清除所有产品中的当前购物车。 |
+| [!UICONTROL Clear my shopping cart] | 从购物车中删除所有项目。 |
 | [!UICONTROL Update Items and Quantities|]在&#x200B;**[!UICONTROL Qty]**&#x200B;字段中输入所需的数量并更新购物车中的项目数。 |
 | [!UICONTROL Add selections to my cart] | 将所有部分的产品添加到购物车。 |
 
@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >若要快速查找客户记录，请使用[筛选器](../getting-started/admin-grid-controls.md)控件。
 
-   在&#x200B;_[!UICONTROL Personal Information]_&#x200B;下的客户配置文件中，_[!UICONTROL Last Logged In]_&#x200B;日期和时间显示客户处于在线状态。
+   在&#x200B;_[!UICONTROL Personal Information]_下的客户配置文件中，_[!UICONTROL Last Logged In]_&#x200B;日期和时间显示客户处于在线状态。
 
    ![在线客户的客户个人资料](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 按属性将产品添加到购物车
 
-1. 展开&#x200B;**[!UICONTROL Products]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Products]**。
 
 1. 使用每列顶部的任意过滤器查找产品。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 按SKU添加产品
 
-1. 展开&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**。
 
 1. 通过&#x200B;**[!UICONTROL SKU]**&#x200B;单独添加产品，或通过上传CSV文件添加产品。
 
@@ -175,10 +175,26 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create Order]**。
 
-   _[!UICONTROL Create New Order]_&#x200B;页面显示购物车中的商品，以及配送和付款信息。
+   _[!UICONTROL Create New Order]_页面显示购物车中的商品，以及配送和付款信息。
 
 1. 填写送货和付款信息。
 
 1. 单击&#x200B;**[!UICONTROL Submit Order]**。
 
 若要了解详细信息，请参阅[创建订单](customer-account-create-order.md)。
+
+## 从购物车中删除所有项目
+
+在辅助购物模式下，如果客户想要重新开始、添加了不正确的项目或需要在下达新订单之前清除其购物车，则从客户的购物车中删除所有项目会很有用。 这有助于确保购物车仅包含客户实际希望购买的产品。
+
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
+
+1. 在列表中，以编辑模式打开客户记录。
+
+1. 单击顶部按钮栏中的&#x200B;**[!UICONTROL Manage Shopping Cart]**。
+
+1. 单击&#x200B;**[!UICONTROL Clear my shopping cart]**。
+
+   ![清除我的购物车](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. 提示确认操作时，单击&#x200B;**[!UICONTROL OK]**。
