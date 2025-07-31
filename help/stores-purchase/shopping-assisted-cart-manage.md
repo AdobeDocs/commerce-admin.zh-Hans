@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >若要快速查找客户记录，请使用[筛选器](../getting-started/admin-grid-controls.md)控件。
 
-   在&#x200B;_[!UICONTROL Personal Information]_下的客户配置文件中，_[!UICONTROL Last Logged In]_&#x200B;日期和时间显示客户处于在线状态。
+   在&#x200B;_[!UICONTROL Personal Information]_&#x200B;下的客户配置文件中，_[!UICONTROL Last Logged In]_&#x200B;日期和时间显示客户处于在线状态。
 
    ![在线客户的客户个人资料](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Create Order]**。
 
-   _[!UICONTROL Create New Order]_页面显示购物车中的商品，以及配送和付款信息。
+   _[!UICONTROL Create New Order]_&#x200B;页面显示购物车中的商品，以及配送和付款信息。
 
 1. 填写送货和付款信息。
 
