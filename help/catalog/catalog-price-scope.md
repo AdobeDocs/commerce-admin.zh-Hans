@@ -3,9 +3,9 @@ title: 价格范围
 description: 了解用于产品价格的范围，可以将其配置为在全球或网站级别应用。
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 不同的因素可能会影响同一产品在一个地点的价格，而不会影响另一个地点的价格。 例如，产品可能会产生额外的分销成本，以及影响特定商店中销售产品价格的其他注意事项。 下图显示了将基础货币设置为网站级别的多站点安装。 与每个网站关联的商店和商店视图反映在网站级别设置的产品定价。
 
-![Adobe Commerce B2B](../assets/b2b.svg)如果您使用共享目录，另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md)。
+![Adobe Commerce B2B](../assets/b2b.svg)如果您使用共享目录，另请参阅[Adobe Commerce B2B指南](../b2b/catalog-shared-pricing-structure.md)中的&#x200B;_设置共享目录定价和结构_。
 
 ![价格范围图](./assets/catalog-price-scope.svg){width="550"}
 
@@ -45,6 +45,8 @@ Commerce不允许为每个商店设置产品价格。 但您可以更改每个�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 在&#x200B;**[!UICONTROL Price]**&#x200B;选项卡中，将价格范围设置为`Website`而不是全局。
+1. 在&#x200B;**[!UICONTROL Price]**&#x200B;选项卡中，将价格范围设置为`Website`而不是`Global`。
 
 1. 通过打开产品编辑页面，选择左上角的范围，然后为每个网站输入新价格来设置价格。
+
+在极少数情况下，当价格范围设置为`Global`时，Commerce数据库在网站级别上仍可以有不同的价格。 这可能是由于Commerce外部的同步问题而发生的。 在这些情况下，商家必须在商店级别执行价格清理，并运行与Commerce Services的目录同步。
