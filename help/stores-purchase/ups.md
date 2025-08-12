@@ -3,7 +3,7 @@ title: 联合包裹服务(UPS)
 description: 了解如何将UPS设置为您商店的配送运营商。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 在左侧面板的&#x200B;**[!UICONTROL Sales]**&#x200B;下，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开&#x200B;**[!UICONTROL UPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL UPS]**。
 
 1. 将&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;设置为`Yes`。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Mode]**&#x200B;设置为`Live`以通过安全连接将数据发送到UPS配送系统。 （开发模式不会通过安全连接发送数据。）
 
-   - 验证发送请求所需的&#x200B;**[!UICONTROL Gateway URL]**。 将沙盒URL (`https://wwwcie.ups.com/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com`)。 请确保对给定主机中的每个请求都使用各自的端点。
+   - 验证发送请求所需的&#x200B;**[!UICONTROL Gateway URL]**。 将沙盒URL (`https://wwwcie.ups.com/api/rating/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com/api/rating/`)。 请确保对给定主机中的每个请求都使用各自的端点。
 
-   - 验证获取跟踪信息所需的&#x200B;**[!UICONTROL Tracking URL]**。 将沙盒URL (`https://wwwcie.ups.com/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com`)。 请确保对给定主机中的每个请求都使用各自的端点。
+   - 验证获取跟踪信息所需的&#x200B;**[!UICONTROL Tracking URL]**。 将沙盒URL (`https://wwwcie.ups.com/api/track/`)用于测试模式，将生产URL用于实时请求(`https://onlinetools.ups.com/api/track/`)。 请确保对给定主机中的每个请求都使用各自的端点。
 
    - 将&#x200B;**[!UICONTROL Origin of the Shipment]**&#x200B;设置为装运来源区域。
 
