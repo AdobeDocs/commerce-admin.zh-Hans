@@ -75,9 +75,9 @@ B2B v1.5.2版本包括质量改进和错误修复。
 
 ![已修复问题](../assets/fix.svg) B2B v1.5.2版本包含以下可转让报价的修复：
 
-- <!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
-- <!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
-- <!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
+- &#x200B;<!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
+- &#x200B;<!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
+- &#x200B;<!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
 
 ### 报价模板
 
@@ -656,7 +656,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg) <!--- MC-40426-->商家现在可以使用POST `rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
 
-![已修复问题](../assets/fix.svg) <!--- MC-41123-->当购物车还包含缺货产品时，购物车的缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_按钮。
+![已修复问题](../assets/fix.svg) <!--- MC-41123-->当购物车还包含缺货产品时，购物车的缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_&#x200B;按钮。
 
 ![已修复问题](../assets/fix.svg) <!--- MC-40877-->您现在可以使用REST API将产品添加到申请列表。
 
@@ -720,7 +720,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg)SKU使用快速订购功能订购产品不会再导致CSV文件中的产品数量重复。<!--- MC-37427-->
 
-![修复了问题](../assets/fix.svg)当“快速订购”页面的&#x200B;**[!UICONTROL Add to Cart]**&#x200B;部分包含空值时，_[!UICONTROL Enter Multiple SKUs]_按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
+![修复了问题](../assets/fix.svg)当“快速订购”页面的&#x200B;**[!UICONTROL Add to Cart]**&#x200B;部分包含空值时，_[!UICONTROL Enter Multiple SKUs]_&#x200B;按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
 
 ![已修复问题](../assets/fix.svg)当您从以下申请列表提交产品审核时，Adobe Commerce现在会在产品页面上显示此消息： `You submitted your review for moderation`。 该审阅也会显示在待处理审阅页面上（管理员&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）。 以前，尽管Adobe Commerce将审核添加到待处理审核列表，但在产品页面上抛出404错误。<!--- MC-37119-->
 
@@ -814,7 +814,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg)您现在可以成功地为包含物理和虚拟产品的订单实施多发货。<!--- MC-33818-->
 
-![已修复问题](../assets/fix.svg)在启用了&#x200B;_[!UICONTROL Company Users]_且&#x200B;**[!UICONTROL Access Restriction]**设置为&#x200B;**[!UICONTROL Restriction Mode]**的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的`Sales: Login Only`部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
+![已修复问题](../assets/fix.svg)在启用了&#x200B;_[!UICONTROL Company Users]_&#x200B;且&#x200B;**[!UICONTROL Access Restriction]**&#x200B;设置为&#x200B;**[!UICONTROL Restriction Mode]**&#x200B;的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的`Sales: Login Only`部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
 
 ![已修复问题](../assets/fix.svg)当客户保存其帐户信息时，Adobe Commerce不再将客户的客户组重置为默认值。<!--- MC-33554-->
 
