@@ -3,9 +3,9 @@ title: Google站点工具
 description: 了解可用于优化内容、分析流量并将目录连接到购物聚合和市场的Google工具集成。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 您的商店配置与以下Google工具集成，以帮助优化内容、分析流量并将目录连接到购物聚合和市场。
 
-- [Google Analytics](google-analytics.md) — 使用&#x200B;_Google Universal Analytics_&#x200B;定义用于跟踪的其他自定义维度和量度，支持离线和移动设备应用程序交互，并可访问正在进行的更新。
-
-- [Google内容实验](google-content-experiments.md) — 使用Google Analytics内容实验为产品、类别或内容页面设置A/B测试。
+- [Google Analytics](google-analytics.md) — 使用&#x200B;_Google Universal Analytics_&#x200B;定义额外的自定义维度和量度以进行跟踪，支持离线和移动设备应用程序交互，并可访问正在进行的更新。
 
 - [Google标签管理器](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)使用Google标签管理器管理许多与营销活动事件相关的标签。
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 ### 步骤1：更新Google设置
 
-1. [登录贵公司的Google Analytics帐户][1]{： target=&quot;_blank&quot;}。
+1. [登录到您公司的Google Analytics帐户][1]{: target="_blank"}。
 
 1. 在左侧边栏的底部，选择&#x200B;**[!UICONTROL Admin]**，然后导航到要编辑的帐户（如果适用）。
 
@@ -38,7 +36,7 @@ ht-degree: 0%
 
 1. 为满足隐私法规要求，请关闭数据共享。
 
-   默认Google Analytics设置与Google和其他方共享您的公司数据。要关闭数据共享，请清除以下设置的选择复选框：
+   默认的Google Analytics设置与Google和其他方共享您的公司数据。要关闭数据共享，请清除以下设置的选择复选框：
 
    - Google产品和服务
    - 基准测试
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 1. 接受&#x200B;_数据处理修正_。
 
-   Google广告数据处理术语介绍Google如何处理数据，以及它为遵守GDPR的业务确保数据安全而采取的措施。 此外，还会保留法人主体和联系人信息的记录以及修订。 要[了解详情][2]{： target=&quot;_blank&quot;}，请单击页面顶部消息中的链接。
+   Google广告数据处理术语介绍Google如何处理数据，以及它为遵守GDPR的业务确保数据安全而采取的措施。 此外，还会保留法人主体和联系人信息的记录以及修订。 要[了解详情][2]{: target="_blank"}，请单击页面顶部消息中的链接。
 
    - 向下滚动页面至&#x200B;**[!UICONTROL Data Processing Amendment]**。
    - 单击&#x200B;**[!UICONTROL Review Amendment]**&#x200B;以阅读&#x200B;_Google广告数据处理条款_。
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-要了解更多信息，请参阅Google帮助中的[Analytics.js字段引用][3]{： target=&quot;_blank&quot;}。
+要了解更多信息，请参阅Google帮助中的[Analytics.js字段引用][3]{: target="_blank"}。
 
 如果使用旧版`ga.js`库，请添加以下代码片段：
 
@@ -92,7 +90,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-要对&#x200B;**_Google Tag Manager_**&#x200B;使用的IP地址进行匿名处理，请将Web服务器上`gtag.js`库中的`anonymize_ip`参数设置为`true`。
+要对&#x200B;**_Google Tag Manager_**&#x200B;使用的IP地址进行匿名处理，请将Web服务器上`anonymize_ip`库中的`true`参数设置为`gtag.js`。
 
 gtag.js
 
@@ -119,7 +117,7 @@ analytics.js
 - 使用Google Analytics
 - 隐藏IP地址以隐藏个人信息
 - 已关闭Google数据共享
-- 不将其他Google服务与Google AnalyticsCookie结合使用
+- 不将其他Google服务与Google Analytics Cookie结合使用
 
 [1]: https://www.google.com/analytics/
 [2]: https://support.google.com/analytics/answer/3379636

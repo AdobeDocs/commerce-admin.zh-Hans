@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Google API]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Google API]页面上的配置设置。
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)根据您的Google Analytics帐户类型确定配置选项。 选项：Universal Analytics（默认）/Google标签管理器 |
 | [!UICONTROL Account Number] | 商店视图 | 创建[!DNL Google Analytics]帐户时分配的帐号或跟踪代码。 |
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从[!DNL Google Analytics]结果中显示的IP地址中删除标识信息。 |
-| [!UICONTROL Enable Content Experiments] | 商店视图 | 激活[Google内容实验](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，该实验最多可用于测试同一页面的10个不同版本。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Google Analytics- Google Tag Manager帐户类型](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+![Google Analytics - Google Tag Manager帐户类型](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
 
 当&#x200B;**[!UICONTROL Account Type]**&#x200B;设置为`Google Tag Manager`时，将显示其他字段。
 
@@ -54,7 +53,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 | ----- | ------------------------------------------ | ----------- |
@@ -65,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 商店视图 | 确定转换标签的颜色。 使用[拾色器](https://www.w3schools.com/colors/colors_picker.asp)选择十六进制值。 此十六进制值已分配给AdWords脚本中的`google_conversion_color`变量。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 商店视图 | 随[!DNL Google Site Stats]通知一起显示的文本标签。 此文本字符串已分配给AdWords脚本中的`~`变量。 例如：“感谢您购物！” |
 | [!UICONTROL Conversion Value Type] | 商店视图 | 指定用于确定何时进行转换的值类型。 选项： <br/>**`Dynamic`**— 根据动态订单金额确定已发生转换。<br/>**`Constant`** — 根据输入的值确定已发生转换。 |
-| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_&#x200B;转换值类型的值。 |
+| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_转换值类型的值。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
 {style="table-layout:auto"}
@@ -78,15 +77,14 @@ ht-degree: 0%
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | 商店视图 | 为您的商店启用Google Analytics4。 选项： `Yes` / `No` |
+| [!UICONTROL Enable] | 商店视图 | 为您的商店启用Google Analytics 4。 选项： `Yes` / `No` |
 | [!UICONTROL Account Type] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)根据您的Google Analytics帐户类型确定配置选项。 选项： `Google Analytics4` （默认） / `Google Tag Manager` |
 | [!UICONTROL Measurement ID] | 商店视图 | 创建Google Analytics帐户时分配的帐号或跟踪代码。 |
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从Google Analytics结果中显示的IP地址中删除标识信息。 |
-| [!UICONTROL Enable Content Experiments] | 商店视图 | 激活[Google内容实验](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，该实验最多可用于测试同一页面的10个不同版本。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -114,7 +112,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 | ----- | ------------------------------------------ | ----------- |
@@ -125,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 商店视图 | 确定转换标签的颜色。 使用[拾色器](https://www.w3schools.com/colors/colors_picker.asp)选择十六进制值。 此十六进制值已分配给AdWords脚本中的`google_conversion_color`变量。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 商店视图 | 随Google站点统计信息通知一起显示的文本标签。 此文本字符串已分配给AdWords脚本中的`~`变量。 例如：“感谢您购物！” |
 | [!UICONTROL Conversion Value Type] | 商店视图 | 指定用于确定何时进行转换的值类型。 选项： <br/>**`Dynamic`**— 根据动态订单金额确定已发生转换。<br/>**`Constant`** — 根据输入的值确定已发生转换。 |
-| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_&#x200B;转换值类型的值。 |
+| [!UICONTROL Conversion Value] | 商店视图 | 指定用于&#x200B;_[!UICONTROL Constant]_转换值类型的值。 |
 | [!UICONTROL Send Order Currency] | 商店视图 | 在AdWords中启用特定于交易的货币转换值（适用于使用不同基础货币的网站）。 |
 
 {style="table-layout:auto"}

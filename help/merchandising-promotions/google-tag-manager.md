@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: 了解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce网站中与营销活动活动相关的许多标记（代码片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    - 选择&#x200B;**[!UICONTROL Property Settings]**。
 
-   - 在&#x200B;_[!UICONTROL Advertising Features]_&#x200B;下，将&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;设置为`On`。
+   - 在&#x200B;_[!UICONTROL Advertising Features]_下，将&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**设置为`On`。
 
    - **[!UICONTROL Save]**&#x200B;设置。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    - 导航到&#x200B;**[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**。
 
-   - 选择&#x200B;**[!UICONTROL Google Analytics]**&#x200B;并使用您自己的&#x200B;**[!UICONTROL GA ID]**&#x200B;更新占位符(`UA-xxxxxx-x`)。
+   - 选择&#x200B;**[!UICONTROL Google Analytics]**&#x200B;并使用您自己的`UA-xxxxxx-x`更新占位符(**[!UICONTROL GA ID]**)。
 
 1. 按照Google的说明将标记、触发器和变量添加到新容器。
 
@@ -145,7 +145,6 @@ ht-degree: 0%
 | [!UICONTROL Enable] | 商店视图 | 确定Google Analytics Enhanced E-commerce是否可用于分析商店中的活动。 选项： `Yes` / `No` |
 | [!UICONTROL Account type] | 商店视图 | 确定用于监视商店活动和流量的Google跟踪代码。 选项： `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | 商店视图 | 确定是否从Google Analytics结果中显示的IP地址中删除标识信息。 |
-| [!UICONTROL Enable Content Experiments] | 商店视图 | 激活Google内容实验，该实验可用于测试同一页面的最多十个不同版本。 选项： `Yes` / `No` |
 | [!UICONTROL Container Id] | 商店视图 | 如果已为商店安装和配置了[!DNL Google Tag Manager]，则容器ID会自动显示在此字段中。 |
 | [!UICONTROL List property for the catalog page] | 商店视图 | 标识与目录页面关联的Tag Manager属性。 默认值： `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | 商店视图 | 标识与交叉销售块关联的Tag Manager属性。 默认值： `Cross-sell` |
@@ -179,7 +178,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Choose Product]**&#x200B;下，选择&#x200B;**[!UICONTROL Google AdWords]**。
 
-   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_&#x200B;下，选择&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;并单击&#x200B;**[!UICONTROL Continue]**。
+   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_下，选择&#x200B;**[!UICONTROL AdWords Conversion Tracking]**并单击&#x200B;**[!UICONTROL Continue]**。
 
 1. 输入你的AdWords帐户中的&#x200B;**[!UICONTROL Conversion ID]**&#x200B;和&#x200B;**[!UICONTROL Conversion Label]**，然后单击&#x200B;**[!UICONTROL Continue]**。
 
@@ -189,7 +188,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Fire On]**&#x200B;下，单击&#x200B;**[!UICONTROL Some Pages]**。
 
-1. 在&#x200B;_[!UICONTROL Choose Pages]_&#x200B;部分中，完成以下设置：
+1. 在&#x200B;_[!UICONTROL Choose Pages]_部分中，完成以下设置：
 
    - **[!UICONTROL Name]** — 输入页面描述的名称。
 
