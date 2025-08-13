@@ -67,8 +67,8 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了dotdigital供应商开发的用于与dotdigital Engagement Cloud集成的扩展。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
->><br><br>
->>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅[升级指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升级模块_。
+>&#x200B;><br><br>
+>&#x200B;>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅[升级指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升级模块_。
 
 - [新闻稿](newsletters.md) — 生成新闻稿、管理订阅者列表、开发内容并增加您商店的流量。
 
