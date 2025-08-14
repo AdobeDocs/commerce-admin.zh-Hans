@@ -3,9 +3,9 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ ht-degree: 0%
 >具有相同优先级的购物车价格规则不会产生合并折扣。 根据数据库中的购物车价格规则ID，每个规则（优惠券）逐个应用于匹配产品。 为了控制应用折扣的顺序，Adobe建议为每个添加的购物车价格规则设置不同的优先级。
 
 ## 配置优惠券代码
+
+>[!BEGINSHADEBOX]
+
+默认情况下，Commerce支持两种创建优惠券代码的方法：
+
+1. 创建单个特定优惠券代码
+1. 正在生成多个&#x200B;_随机_&#x200B;优惠券代码
+
+如果您已有要导入并与购物车价格规则关联的优惠券代码列表，则应考虑使用[Commerce Marketplace](https://marketplace.magento.com/)中的扩展。
+
+>[!ENDSHADEBOX]
 
 自动生成的优惠券代码的长度和格式由配置控制。 字符可以设置为所有数字、所有字母或组合。 您可以按设置的间隔插入短划线以方便阅读，还可以添加前缀和后缀以将代码与特定活动或计划关联。
 
@@ -62,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)运行cron 。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)中的从命令行&#x200B;_运行cron_。
 
 ### 方法1：创建特定优惠券
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
       - 输入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-      - 从日历（ ![日历图标](../assets/icon-calendar.png) ）中选择&#x200B;**开始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果将日期范围留空，则该规则不会过期。
+      - 从日历（ **日历图标** ）中选择&#x200B;**[!UICONTROL End Date]**&#x200B;开始日期![和](../assets/icon-calendar.png)。 如果将日期范围留空，则该规则不会过期。
 
       - 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -168,11 +179,7 @@ ht-degree: 0%
 
 通过选择文件格式并单击&#x200B;**[!UICONTROL Export]**，可以将优惠券代码导出为CSV或Excel XML文件。
 
-要删除优惠券代码，请从列表中选择一个或多个代码。 从&#x200B;**[!UICONTROL Actions]**&#x200B;选择器中选择`Delete`，然后单击&#x200B;**[!UICONTROL Submit]**。
-
->[!NOTE]
->
->虽然Commerce允许配置多个优惠券代码，但客户在购物车中只能使用一个优惠券代码。 要允许在购物车中同时使用多个优惠券代码，您可以考虑使用[Commerce Marketplace](https://marketplace.magento.com/)中的相应扩展。
+要删除优惠券代码，请从列表中选择一个或多个代码。 从`Delete`选择器中选择&#x200B;**[!UICONTROL Actions]**，然后单击&#x200B;**[!UICONTROL Submit]**。
 
 ## 优惠券报告
 
