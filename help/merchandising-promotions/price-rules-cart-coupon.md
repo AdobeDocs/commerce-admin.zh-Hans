@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)中的从命令行&#x200B;_运行cron_。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)中的从命令行&#x200B;_运行cron_。
 
 ### 方法1：创建特定优惠券
 
