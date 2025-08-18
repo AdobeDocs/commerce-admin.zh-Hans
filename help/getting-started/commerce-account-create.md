@@ -3,9 +3,9 @@ title: 创建并访问您的 [!DNL Commerce] 帐户
 description: 了解 [!DNL Commerce] 帐户，这些帐户管理您购买的产品和服务。
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # 访问您的[!DNL Commerce]帐户
 
-您可以从[!DNL Commerce]网站访问您的帐户。 从您[!DNL Commerce]帐户的信息板中，您可以找到与您购买的产品和服务相关的信息，以及您的联系人和账单信息。 某些信息仅对许可证所有者可见。
-
-您可以从[!DNL Commerce]网站访问您的帐户。 帐户信息板显示您购买的产品、服务、联系人或账单详情。 某些信息仅对许可证所有者可见。
+您可以从[!DNL Commerce]网站访问您的[!DNL Commerce]帐户。 从您[!DNL Commerce]帐户的信息板中，您可以找到与您购买的产品和服务相关的信息，以及您的联系人和账单信息。 某些信息仅对许可证所有者可见。
 
 ![您的[!DNL Commerce]帐户](./assets/home-acct.png){width="700"}
 
 您的[!DNL Commerce]帐户登录名不同于商店管理员登录名。 您通常会对每个系统使用不同的凭据，并且每个系统的访问权限都受独立管理。
 
-但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户将能够配置其Adobe ID以登录到应用商店管理员：[配置Commerce管理员与Adobe ID的集成](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-您的Commerce登录和存储管理员登录是分开的，具有不同的凭据和独立管理的访问权限。 但是，您可以通过将Adobe ID配置为登录到商店管理员来简化访问权限。 请参阅Commerce的&#x200B;*IMS集成指南*&#x200B;中的[配置Commerce管理与Adobe ID的集成]。
+但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户可以将其Adobe ID配置为登录到应用商店管理员：[Commerce的IMS Integration Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)中的&#x200B;*Configure the Commerce Admin Integration with Adobe ID*。
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ ht-degree: 0%
 
 ## 登录到您的[!DNL Commerce]帐户
 
-要访问Commerce帐户，需要Adobe ID。 如果您已经拥有Commerce帐户，但是没有Adobe ID，则可以在登录过程中创建一个。
+要访问Commerce帐户，需要Adobe ID。 如果您已有[!DNL Commerce]帐户，但自2022年8月起未登录该帐户，则需要在登录过程中创建Adobe ID。
 
 >[!WARNING]
 >
