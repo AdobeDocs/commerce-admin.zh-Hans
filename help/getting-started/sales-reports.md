@@ -3,9 +3,10 @@ title: 销售报表
 description: ' [!DNL Commerce] 销售报表可帮助您跟踪订单、税费、发票、运费、退款、优惠券和PayPal结算。'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -101,7 +102,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Show Report]**。
 
-有关使用[!UICONTROL Coupons Report]收集促销活动数据的详细信息，请参阅&#x200B;_销售和促销指南_&#x200B;中的[优惠券报告](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)。
+有关使用[!UICONTROL Coupons Report]收集促销活动数据的详细信息，请参阅[销售和促销指南](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)中的&#x200B;_优惠券报告_。
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,7 +114,7 @@ ht-degree: 0%
 
 ![PayPal结算报告](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-有关使用[!UICONTROL PayPal Settlement Reports]检索影响资金结算的每个PayPal交易信息的更多信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[PayPal结算报告](../stores-purchase/paypal-settlement-reports.md)。
+有关使用[!UICONTROL PayPal Settlement Reports]检索影响资金结算的每个PayPal交易信息的更多信息，请参阅[商店和购买体验指南](../stores-purchase/paypal-settlement-reports.md)中的&#x200B;_PayPal结算报告_。
 
 ## [!UICONTROL Braintree Settlement Report]
 

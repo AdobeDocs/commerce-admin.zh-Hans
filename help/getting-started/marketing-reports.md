@@ -3,9 +3,10 @@ title: 市场营销报告
 description: 市场营销报告提供有关购物车状态、搜索词的使用和新闻稿传输的信息。
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

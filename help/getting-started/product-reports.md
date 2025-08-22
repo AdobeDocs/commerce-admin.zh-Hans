@@ -1,18 +1,19 @@
 ---
 title: 产品报表
-description: Adobe Commerce和Magento Open Source中提供的产品报表可让您深入了解已查看和订购的产品、畅销商品、库存水平和下载情况。
+description: Adobe Commerce和Magento Open Source中提供的产品报表可为您提供有关已查看和订购的产品、畅销商品、库存水平和下载情况的insight。
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # 产品报表
 
-产品报表可让您深入了解已查看和订购的产品、畅销商品、库存水平和下载情况。
+产品报表会为您提供有关已查看并订购的产品、畅销商品、库存水平和下载情况的insight。
 
 ## [!UICONTROL Product Views Report]
 

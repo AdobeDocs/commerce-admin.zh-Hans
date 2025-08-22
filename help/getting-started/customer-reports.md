@@ -1,18 +1,19 @@
 ---
 title: 客户报表
-description: Adobe Commerce和Magento Open Source中提供的客户报表可让您深入了解指定时间段或日期范围内的客户活动。
+description: Adobe Commerce和Magento Open Source中提供的客户报表可在指定的时间段或日期范围内将insight提供给客户活动。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
 
 # 客户报表
 
-客户报表可提供对指定时间段或日期范围内的客户活动的深入分析。
+客户报表在指定的时间段或日期范围内向客户活动提供insight。
 
 ## [!UICONTROL Order Total Report]
 

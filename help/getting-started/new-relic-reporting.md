@@ -1,19 +1,20 @@
 ---
-title: “[!DNL New Relic]报告”
+title: '[!DNL New Relic]报告'
 description: 了解Adobe Commerce在云基础架构上帐户可用的 [!DNL New Relic] 报告，包括New Relic APM服务的软件。
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
 
 # [!DNL New Relic]报告
 
-[New Relic][1]是一项软件分析服务，可帮助您分析和改进应用程序交互。 云基础架构上的Adobe Commerce帐户包括[!DNL New Relic APM]服务的软件。 有关详细信息，请参阅《云基础架构上的New Relic指南》_Commerce_&#x200B;中的[Cloud Service][4]。
+[New Relic][1]是一项软件分析服务，可帮助您分析和改进应用程序交互。 云基础架构上的Adobe Commerce帐户包括[!DNL New Relic APM]服务的软件。 有关详细信息，请参阅《云基础架构上的New Relic指南》[Commerce][4]中的&#x200B;_Cloud Service_。
 
 ## 步骤1：注册[!DNL New Relic]帐户
 
@@ -21,15 +22,15 @@ ht-degree: 0%
 
    您还可以注册免费试用帐户。
 
-1. 按照网站上的说明进行操作。 出现提示时，首先选择要安装的产品。
+1. 按照网站上的说明操作。 出现提示时，请选择要首先安装的产品。
 
-1. 当您在帐户中时，找到完成 Commerce 配置所需的以下凭据：
+1. 在您进入帐户后，找到完成Commerce配置所需的以下凭据：
 
-   | 选择 | 描述 |
+   | 选项 | 描述 |
    | ------ | ----------- |
    | 帐户 ID | 在您的[!DNL New Relic]帐户仪表板中，帐户ID是URL中位于以下位置后的数字： `/accounts` |
-   | 应用程序Id | 在您的[!DNL New Relic]帐户信息板中，单击&#x200B;**[!UICONTROL New Relic APM]**。 在菜单中，选择&#x200B;**[!UICONTROL Applications]**。 然后，选择您的应用程序。 应用程序 ID 是以下之后的 URL 中的数字： `/applications/` |
-   | 新遗物 API 密钥 | 在您的[!DNL New Relic]帐户信息板中，单击&#x200B;**[!UICONTROL Account Settings]**。 在左侧的“集成”下的菜单中，选择&#x200B;**[!UICONTROL Data Sharing]**。 您可以在此页面创建、重新生成或删除您的API密钥。 |
+   | 应用程序Id | 在您的[!DNL New Relic]帐户信息板中，单击&#x200B;**[!UICONTROL New Relic APM]**。 在菜单中，选择&#x200B;**[!UICONTROL Applications]**。 然后，选择您的应用程序。 应用程序ID是URL中位于以下位置后的数字： `/applications/` |
+   | New Relic API密钥 | 在您的[!DNL New Relic]帐户信息板中，单击&#x200B;**[!UICONTROL Account Settings]**。 在左侧的“集成”下的菜单中，选择&#x200B;**[!UICONTROL Data Sharing]**。 您可以在此页面创建、重新生成或删除您的API密钥。 |
    | 分析API密钥 | 在您的[!DNL New Relic]帐户信息板中，单击&#x200B;**[!UICONTROL Insights]**。 在左侧“管理”下的菜单中，选择&#x200B;**[!UICONTROL API Keys]**。 您的分析API密钥将显示在此页面上。 如有必要，请单击“插入密钥”旁边的加号(**+**)来生成密钥。 |
 
    {style="table-layout:auto"}
@@ -53,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >这些配置选项不适用于云基础架构上的Adobe Commerce。
 >
->如果您在Pro计划中，New Relic已[预配置并默认启用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=zh-Hans)。 如果您在入门计划中，则必须完成作为设置过程一部分的[New Relic配置步骤](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=zh-Hans#configure-new-relic-for-starter-environment)。
+>如果您在Pro计划中，New Relic已[预配置并默认启用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html)。 如果您在入门计划中，则必须完成作为设置过程一部分的[New Relic配置步骤](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -87,7 +88,7 @@ ht-degree: 0%
 
 ## 步骤4：为[!DNL New Relic]报表启用Cron
 
-1. 展开&#x200B;**[!UICONTROL Cron]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Cron]**。
 
    ![New Relic Cron配置](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -97,7 +98,7 @@ ht-degree: 0%
 
 ## [!DNL New Relic]个查询
 
-[!DNL New Relic Insights]数据基于[!DNL New Relic Query Language] (NRQL)中编写的语句以及您可能包含的任何自定义参数。 数据可以从临时查询返回，也可以通过保存到仪表板的查询返回。 若要了解详细信息，请参阅[!DNL New Relic]文档中的[NRQL引用][6]。
+[!DNL New Relic Insights]数据基于[!DNL New Relic Query Language] (NRQL)中编写的语句以及您可能包含的任何自定义参数。 数据可以从临时查询返回，也可以通过保存到仪表板的查询返回。 若要了解详细信息，请参阅[文档中的][6]NRQL引用[!DNL New Relic]。
 
 ### 管理事件
 
@@ -129,16 +130,16 @@ ht-degree: 0%
 
 返回有关最近管理员操作的详细信息，包括管理员用户名、持续时间和应用程序名称。
 
-    选择“管理员名称”、“持续时间”、“来自事务的名称”其中 appName=&#39;&lt;your_app_name>“和”管理员名称“不为空
-    和”管理员名称！&lt;/your_app_name>
-    
-    = “不适用”限制 50
+    从事务中选择AdminName、duration、name
+    其中appName=&#39;&lt;your_app_name>&#39;和AdminName不为NULL
+    和AdminName！
+    =“N/A”限制50
 
-### Cron 事件
+### Cron事件
 
 #### 类别计数
 
-返回指定时间段内按类别划分的应用程序事件数。
+返回指定时间段内按类别列出的应用程序事件数。
 
     从Cron
     中选择AVERAGE(CatalogCategoryCount)
@@ -149,14 +150,13 @@ ht-degree: 0%
 
 返回指定时间段内按类别列出的目录中的平均应用程序事件数。
 
-    从 Cron 中选择平均值（CatalogCategoryCount）
-    FROM Cron
-    其中 CatalogCategoryCount 不为 NULL
-    且 CatalogCategoryCount >
-    0 且 APPName = &#39;&lt;your_app_name>&#39; 自 2 分钟前 限制 1
-&lt;/your_app_name>
+    从Cron
+    中选择AVERAGE(CatalogCategoryCount)
+    其中CatalogCategoryCount不为NULL
+    且CatalogCategoryCount > 0
+    且appName = &#39;&lt;your_app_name>&#39;自2分钟前限制1
 
-#### 活性产品
+#### 活动的产品
 
 返回指定时间段内按产品划分的应用程序事件数。
 
@@ -217,8 +217,8 @@ ht-degree: 0%
 
 返回按客户划分的应用程序事件的平均数。
 
-从Cron
-    中选择    AVERAGE(CustomerCount)
+从Cron    中选择
+    AVERAGE(CustomerCount)
     其中CustomerCount不为NULL
     且CustomerCount > 0&lt;
     且appName = &#39;&lt;your_app_name>&#39;时序2分钟
@@ -227,8 +227,8 @@ ht-degree: 0%
 
 返回指定时间段内的平均客户数。
 
-从Cron
-    中选择    AVERAGE(CustomerCount)
+从Cron    中选择
+    AVERAGE(CustomerCount)
     其中CustomerCount不为NULL
     且CustomerCount > 0
     且appName = &#39;&lt;your_app_name>&#39;自2分钟前限制1
@@ -305,29 +305,29 @@ ht-degree: 0%
 
 返回近期活动的定义数量的记录，包括客户名称和访问持续时间。
 
-    选择“客户名称”、“持续时间”、“事务中的名称”，其中 appName=&#39;&lt;your_app_name>&#39;
-    AND CustomerName 不为 null
-    和“CustomerName！”&lt;/your_app_name>
-    
-    = “不适用”限制 50
+    从事务中选择CustomerName、持续时间、名称
+    其中appName=&#39;&lt;your_app_name>&#39;
+    且CustomerName不为NULL
+    且CustomerName！
+    =“N/A”限制50
 
-### 订单
+### 订购
 
-#### 下订单数量
+#### 订购次数
 
 返回在指定时间段内下达的订单数。
 
-    选择计数（订单）
-    FROM 交易自 1 天前
+    SELECT count(Order)
+    FROM Transaction，自1天前
 
 #### 总订单值
 
 返回在指定时间段内订购的行项目总数。
 
-    选择 SUM（订单值）
-    FROM 交易自 1 天前
+    SELECT sum(orderValue)
+    FROM Transaction SINCE 1天前
 
-#### 订购的订单项总数
+#### 订购的行项目总数
 
 返回在指定时间段内订购的行项目总数。
 
@@ -337,6 +337,6 @@ ht-degree: 0%
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=zh-Hans
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference
