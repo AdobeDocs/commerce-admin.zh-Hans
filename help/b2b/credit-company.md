@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Operation] | 与交易记录关联的活动的类型。 值： <br/>**[!UICONTROL Allocated]**— 分配给公司的信用。<br/>**[!UICONTROL Updated]** — 更改应用于以下字段之一：[!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**— 已下订单。<br/>**[!UICONTROL Reimbursed]** — 已偿还未清余额。 <br/>**[!UICONTROL Refunded]**— 贷项通知单金额已退款。<br/>**[!UICONTROL Reverted]** — 订单已取消，金额已返回贷方余额。 |
 | [!UICONTROL Amount] | 与以下交易类型关联的交易金额： `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>对于购买金额，金额以商店的显示货币和贷方货币设置的格式显示，后跟当前兑换率（如果适用）。 例如：<br/>EUR 20,000.00 ($22,400.00) <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 退款金额减去使用“分期付款”方法下达的所有订单的应付总额。 数量可能显示为正值或负值。 <br/>**[!UICONTROL Positive value]**— 预付款以正值表示。<br/>**[!UICONTROL Negative value]** — 到期金额表示为负值。 |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_和_[!UICONTROL Outstanding Balance]_&#x200B;的总和。 如果公司已超出信用限额，则金额将显示为负值。 |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;和_[!UICONTROL Outstanding Balance]_&#x200B;的总和。 如果公司已超出信用限额，则金额将显示为负值。 |
 | [!UICONTROL Credit Limit] | 给予公司的贷方金额。 |
 | [!UICONTROL Updated By] | 发起操作的人员的姓名。 |
 | [!UICONTROL Custom Reference Number] | 与交易记录关联的自定义参考编号。 |
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 ## 最佳实践
 
-* 
+* &#x200B;
    * **信用政策管理** — 在管理公司信用时，建立明确的政策来根据客户付款历史记录和业务关系设置信用额度。 定期审查未清余额和支付模式以评估风险，并始终用详细的审计原因记录信贷设置的变化。
 
 及时处理付款以保持准确的余额，并确保信用货币设置与每个公司的主要业务运营保持一致。

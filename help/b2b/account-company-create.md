@@ -64,9 +64,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**来创建公司帐户。
+   >如果访客登录到注册的用户帐户，则他们可以通过导航到&#x200B;_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;来创建公司帐户。
 
-1. 在&#x200B;_[!UICONTROL Company Information]_部分中，客户执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Information]_&#x200B;部分中，客户执行以下操作：
 
    * 填写必填字段：
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![公司信息](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. 完成&#x200B;_[!UICONTROL Legal Address]_部分中的必填字段。
+1. 完成&#x200B;_[!UICONTROL Legal Address]_&#x200B;部分中的必填字段。
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    ![合法地址](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Administrator]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Administrator]_&#x200B;部分中，执行以下操作：
 
    * 为公司管理员输入&#x200B;**[!UICONTROL Email address]**。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
    * 如果适用，请选择将管理该帐户的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理员帐户。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;部分中，执行以下操作：
 
    * 根据情况填写以下字段：
 
@@ -158,9 +158,9 @@ ht-degree: 0%
 
    ![帐户信息](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 最初创建公司时，展开公司时&#x200B;_[!UICONTROL Company Hierarchy]_网格显示为空。 保存公司后，您可以将其包含在公司层次结构中。 查看[公司管理](manage-companies.md)。
+1. 最初创建公司时，展开公司时&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;网格显示为空。 保存公司后，您可以将其包含在公司层次结构中。 查看[公司管理](manage-companies.md)。
 
-1. 在&#x200B;_[!UICONTROL Legal Address]_部分中，完成以下必填字段：
+1. 在&#x200B;_[!UICONTROL Legal Address]_&#x200B;部分中，完成以下必填字段：
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -168,7 +168,7 @@ ht-degree: 0%
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. 在&#x200B;_[!UICONTROL Company Admin]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Company Admin]_&#x200B;部分中，执行以下操作：
 
    * 填写以下必填字段：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    ![公司管理员](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 在显示客户信用活动摘要的&#x200B;_[!UICONTROL Company Credit]_部分中，完成部分下半部分中的任意多个字段：
+1. 在显示客户信用活动摘要的&#x200B;_[!UICONTROL Company Credit]_&#x200B;部分中，完成部分下半部分中的任意多个字段：
 
    * **[!UICONTROL Credit Currency]**
    * **[!UICONTROL Credit Limit]**
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    ![公司信用](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Advanced Settings]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Advanced Settings]_&#x200B;部分中，执行以下操作：
 
    >[!NOTE]
    >
