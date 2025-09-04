@@ -3,7 +3,7 @@ title: 虚拟产品
 description: 了解如何创建表示无形项目的虚拟产品，如会员资格、服务、保修或订阅。
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 虚拟产品或数字商品是指无形项目，如会员资格、服务、保修或书籍、音乐、视频或其他产品的订阅和数字下载。 虚拟产品可以单独销售，也可以作为[分组产品](product-create-grouped.md)、[可配置产品](product-create-configurable.md)或[捆绑产品](product-create-bundle.md)产品类型的一部分包含在内。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
+除了缺少&#x200B;_[!UICONTROL Weight]_字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
 
 >[!NOTE]
 >
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. 输入有库存的产品的&#x200B;**[!UICONTROL Quantity]**，并执行以下操作：
 
-   - 接受`In Stock`的默认&#x200B;**[!UICONTROL Stock Status]**&#x200B;设置。
+   - 接受&#x200B;**[!UICONTROL Stock Status]**&#x200B;的默认`In Stock`设置。
 
      由于虚拟产品未发货，因此未使用&#x200B;**[!UICONTROL Weight]**&#x200B;字段。
 
-   - 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
+   - 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的默认`Catalog, Search`设置。
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->默认情况下，_[!UICONTROL Is this downloadable product?]_&#x200B;选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
+>默认情况下，_[!UICONTROL Is this downloadable product?]_选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
 
-## 步骤6：Publish产品
+## 步骤6：发布产品
 
 1. 如果您已准备好发布目录中的产品，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;设置为`Yes`。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
       - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
+      - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![ ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
 
      该存储将在新的浏览器选项卡中打开。
 
@@ -145,3 +145,5 @@ ht-degree: 0%
 - 虚拟产品与简单产品非常相似，只是没有重量。
 
 - 除非购物车中有实际产品，否则在结账期间不会显示送货选项。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

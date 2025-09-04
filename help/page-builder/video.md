@@ -3,7 +3,7 @@ title: 媒体 — 视频
 description: 了解视频内容类型，该内容类型用于将托管在YouTube或Vimeo上的视频添加到 [!DNL Page Builder] 阶段。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将视频移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Video] | 将当前内容容器标识为视频。 将鼠标悬停在图像容器上可查看工具箱。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_&#x200B;页面，您可以在其中更改视频和容器的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_页面，您可以在其中更改视频和容器的属性。 |
 | 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前视频。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的视频。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作视频的副本。 |
@@ -170,3 +170,5 @@ ht-degree: 0%
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

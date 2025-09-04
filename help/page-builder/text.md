@@ -3,7 +3,7 @@ title: 元素 — 文本
 description: 了解用于在 [!DNL Page Builder] 阶段中添加文本容器的文本内容类型。
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 元素 — 文本
 
-使用&#x200B;_Text_&#x200B;内容类型在[[!DNL Page Builder] 阶段](workspace.md#stage)中添加包含WYSIWYG （“所见即所得”）编辑器的文本容器。 此外，您还可以从编辑器工具栏向文本添加链接、图像、[变量](../systems/variables-predefined.md)和小部件。
+使用&#x200B;_文本_&#x200B;内容类型在[[!DNL Page Builder] 阶段](workspace.md#stage)中添加包含WYSIWYG (“What You See Is What You Get”)编辑器的文本容器。 此外，您还可以从编辑器工具栏向文本添加链接、图像、[变量](../systems/variables-predefined.md)和小部件。
 
 ![横幅上的格式化文本](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 根据需要更新内容。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 若要控制文本在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -170,3 +170,5 @@ ht-degree: 0%
      {style="table-layout:auto"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

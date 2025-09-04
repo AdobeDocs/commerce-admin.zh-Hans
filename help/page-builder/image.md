@@ -3,7 +3,7 @@ title: 媒体 — 图像
 description: 了解用于将JPG、GIF或PNG图像添加到 [!DNL Page Builder] 舞台的图像内容类型。
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -56,9 +56,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >最大文件大小为4 MB。 支持的文件类型为JPG、GIF和PNG。
+   >最大文件大小为4 MB。 支持的文件类型包括JPG、GIF和PNG。
 
-   - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
+   - _**上传新映像**_：使用此方法从您的系统上传新映像文件。
 
       - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
      作为替代方法，您还可以将图像文件从系统中拖放到&#x200B;_照相机_ （ ![照相机图标](./assets/pb-icon-camera.png){width="20"} ）图标上。
 
-   - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
+   - _**选择现有资源**_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
       - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
         ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**搜索并选择Adobe Stock图像**&#x200B;_：使用此方法从Adobe Stock查找图像。
+   - _**搜索并选择Adobe Stock图像**_：使用此方法从Adobe Stock查找图像。
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ ht-degree: 0%
 
 1. 要更改当前&#x200B;**[!UICONTROL Image]**，请执行下列操作之一：
 
-   - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
+   - _**上传新映像**_：使用此方法从您的系统上传新映像文件。
 
       - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
       - 找到并选择图像以将其添加到图库和目标容器中。
 
-   - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
+   - _**选择现有资源**_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
       - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
@@ -258,3 +258,5 @@ ht-degree: 0%
   | [!UICONTROL Padding] | 应用于容器所有边的内边缘的空白空间量。 |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

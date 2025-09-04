@@ -3,7 +3,7 @@ title: 添加内容 — 产品
 description: 了解用于向 [!DNL Page Builder] 阶段添加产品列表的产品内容类型。
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >选择类别或SKU选项会提供`Position`的&#x200B;**[!UICONTROL Sort By]**&#x200B;选项。 使用此排序选项，产品会以它们在目录中的显示顺序显示。</br>
+     >选择类别或SKU选项会提供&#x200B;**[!UICONTROL Sort By]**&#x200B;的`Position`选项。 使用此排序选项，产品会以它们在目录中的显示顺序显示。</br>
      >
      >对于“类别”选项，按位置排序会按照产品在目录中的显示顺序来显示产品。 对于SKU选项，按位置排序将按您在&#x200B;**[!UICONTROL Product SKUs]**&#x200B;文本框中输入的顺序显示产品。
 
@@ -252,3 +252,5 @@ ht-degree: 0%
 阶段上的![产品轮播](./assets/pb-products-admin-carousel.png){width="600"}
 
 您现在可以使用[小组件](../content-design/widgets.md)将此块放置到商店中要显示的任意位置。 或者，您可以使用[添加内容 — 块](block.md)将块添加到现有页面、选项卡或块。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

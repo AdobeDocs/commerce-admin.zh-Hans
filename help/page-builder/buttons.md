@@ -3,7 +3,7 @@ title: 元素 — 按钮
 description: 了解Buttons内容类型，用于在 [!DNL Page Builder] 阶段中添加单个按钮或一组按钮。
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -103,7 +103,7 @@ ht-degree: 0%
 
      ![为按钮链接选择类别](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** — 输入CMS页面的名称（部分或完整）或单击空白字段以显示完整列表。 然后，在搜索结果列表中选择该页面的名称。
+   - **[!UICONTROL Page]** — 输入CMS页面的名称（部分或完整），或者单击空白字段以显示完整列表。 然后，在搜索结果列表中选择该页面的名称。
 
      ![为按钮链接选择CMS页面](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    ![按钮容器工具箱](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;下，选择&#x200B;**[!UICONTROL Stacked]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_下，选择&#x200B;**[!UICONTROL Stacked]**。
 
 1. 将&#x200B;**[!UICONTROL All Buttons are same size]**&#x200B;设置为`Yes`。
 
@@ -210,7 +210,7 @@ ht-degree: 0%
      | `URL` | 使用相对或完全限定的URL来标识目标页面。 |
      | `Product` | 基于产品名称或SKU标识目标页面。 可以根据部分名称或全名搜索产品名称。 然后从搜索结果列表中选择产品。 |
      | `Category` | 将目标页面标识为类别树中的特定类别或子类别。 |
-     | `Page` | 将目标页标识为特定的CMS页。 |
+     | `Page` | 将目标页面标识为特定的CMS页面。 |
 
      {style="table-layout:auto"}
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 更改高级设置
 
-您可以修改单个按钮和按钮容器的&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+您可以修改单个按钮和按钮容器的&#x200B;_[!UICONTROL Advanced]_设置。
 
 1. 若要控制父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -300,3 +300,5 @@ ht-degree: 0%
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

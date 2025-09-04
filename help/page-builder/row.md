@@ -3,7 +3,7 @@ title: 布局 — 行
 description: 了解用于在 [!DNL Page Builder] 阶段中添加行的Row内容类型。
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 添加行
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将新的&#x200B;**[!UICONTROL Row]**&#x200B;拖到舞台上，刚好在第一行的下方。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，将新的&#x200B;**[!UICONTROL Row]**拖到舞台上，刚好在第一行的下方。
 
 1. 要格式化行，请将鼠标悬停在行容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ### 图像类型设置
 
-如果将&#x200B;_[!UICONTROL Background Type]_&#x200B;设置为`Image`，请使用以下设置来定义背景图像显示。
+如果将&#x200B;_[!UICONTROL Background Type]_设置为`Image`，请使用以下设置来定义背景图像显示。
 
 ![背景图像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
   以下示例中的行的边框半径为15。
 
-  边框半径为15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的行
+  边框半径为15![的](./assets/pb-settings-border-radius-15.png){width="500"}行
 
 - （可选）从当前样式表中指定要应用于行容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 
@@ -258,3 +258,5 @@ ht-degree: 0%
   {style="table-layout:auto"}
 
   ![边距和边距](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

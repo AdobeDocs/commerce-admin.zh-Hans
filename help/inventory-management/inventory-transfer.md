@@ -3,7 +3,7 @@ title: 将库存转移到来源
 description: 了解多来源商家如何将产品库存从一个来源地点转移到另一个来源地点。
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL Transfer Inventory]**。
 
    所有产品数量均从来源来源来源中扣除，并添加到目标来源中。 数量和可销售数量会自动更新。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

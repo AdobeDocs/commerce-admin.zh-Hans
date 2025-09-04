@@ -3,7 +3,7 @@ title: 购物车持久性
 description: 了解永久性购物车如何跟踪未购买的购物车项目并保存信息以供客户下次访问。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 0%
@@ -28,17 +28,17 @@ ht-degree: 0%
 
 当永久购物车[已启用](#configure-a-persistent-cart)时，工作流依赖于：
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;和_[!UICONTROL Clear Persistence on Log Out]_&#x200B;设置的值
-- 客户选择或清除&#x200B;_[!UICONTROL Remember Me]_&#x200B;复选框的决定
+- _[!UICONTROL Enable Remember Me]_和_[!UICONTROL Clear Persistence on Log Out]_&#x200B;设置的值
+- 客户选择或清除&#x200B;_[!UICONTROL Remember Me]_复选框的决定
 - 清除永久性Cookie时
 
 当客户会话过期时，页眉中会以下列条件显示一个`Not Jane Smith?`链接：
-- 登录客户已选择&#x200B;_[!UICONTROL Remember Me]_&#x200B;选项并应用永久性Cookie
-- 当系统配置&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_&#x200B;设置为`No`时，客户注销。
+- 登录客户已选择&#x200B;_[!UICONTROL Remember Me]_选项并应用永久性Cookie
+- 当系统配置&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_设置为`No`时，客户注销。
 
 即使登录会话过期，系统仍会在当前设备上保留购物车内容的记录。 `Not Jane Smith?`链接允许客户终止永久会话并开始以来宾身份工作，或以其他客户或同一客户身份登录。
 
-如果客户在登录时勾选了&#x200B;_[!UICONTROL Remember Me]_&#x200B;复选框，则您的存储区会创建和维护一个单独的永久性Cookie。 此Cookie有助于在客户关闭浏览器或导航到其他网站且登录会话过期后，使客户的购物车保持可访问状态。
+如果客户在登录时勾选了&#x200B;_[!UICONTROL Remember Me]_复选框，则您的存储区会创建和维护一个单独的永久性Cookie。 此Cookie有助于在客户关闭浏览器或导航到其他网站且登录会话过期后，使客户的购物车保持可访问状态。
 
 如果同一客户在登录时或在永久性会话处于活动状态时使用多个浏览器访问您的商店，则当页面刷新时，该客户在一个浏览器中对购物车内容所做的更改会反映在其他浏览器中。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### “记住我”复选框行为
 
-客户可以在登录页面上选中&#x200B;_[!UICONTROL Remember Me]_&#x200B;复选框、身份验证弹出窗口、签出登录，或在创建新帐户时选中此复选框，以便在登录会话过期时，将购物车的内容保留在当前设备上可访问。
+客户可以在登录页面上选中&#x200B;_[!UICONTROL Remember Me]_复选框、身份验证弹出窗口、签出登录，或在创建新帐户时选中此复选框，以便在登录会话过期时，将购物车的内容保留在当前设备上可访问。
 
 | 还记得我吗？ | 结果 |
 | ------------ |  ------ |
@@ -89,3 +89,5 @@ Jane正在结束假日购物，因为&#x200B;_已记住_&#x200B;已登录客户�
 有关这些配置设置如何影响客户工作流的详细信息，请参阅[持久购物车工作流](#persistent-cart-workflow)。
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->

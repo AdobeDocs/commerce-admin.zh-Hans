@@ -2,8 +2,8 @@
 title: 在编辑器中插入构件
 description: 使用WYSIWYG编辑器中的小组件工具，将各种内容元素添加到页面中。
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开页面、块或动态块。
 
-1. 转到&#x200B;_[!UICONTROL Content]_&#x200B;部分并单击支持该编辑器的任何元素。
+1. 转到&#x200B;_[!UICONTROL Content]_部分并单击支持该编辑器的任何元素。
 
 1. 将光标放在您希望小组件出现的位置，然后单击&#x200B;_插入小组件_&#x200B;图标。
 
@@ -59,3 +59,5 @@ ht-degree: 0%
    如果使用HTML代码，则链接的[标记标记](../systems/markup-tags.md)将显示在页面顶部，并用双大括号括起来。 如果需要，可使用&#x200B;_剪切并粘贴_&#x200B;将标记标记标记放置在您希望链接显示的代码中。
 
 1. 完成内容编辑后，单击&#x200B;**[!UICONTROL Save]**。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,8 +3,8 @@ title: 系统备份
 description: 了解如何创建和计划系统备份，包括文件系统、数据库和媒体文件。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Commerce和Magento Open Source让您能够备份系统的不同部分（�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Advanced]**&#x200B;并选择&#x200B;**[!UICONTROL System]**。
 
-1. 展开&#x200B;**[!UICONTROL Backup Settings]**&#x200B;的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Backup Settings]**。
 
 1. 将&#x200B;**[!UICONTROL Enabled Schedule Backup]**&#x200B;设置为`Yes`。
 
@@ -66,3 +66,5 @@ Adobe Commerce和Magento Open Source让您能够备份系统的不同部分（�
 1. 出现提示时，确认操作。
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

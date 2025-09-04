@@ -3,7 +3,7 @@ title: 添加内容 — 阻止
 description: 了解用于向 [!DNL Page Builder] 阶段添加可重用块的块内容类型。
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ ht-degree: 0%
 1. 将鼠标悬停在块容器上以显示工具箱，然后选择&#x200B;_删除_ （![删除图标](./assets/pb-icon-remove.png)）图标。
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

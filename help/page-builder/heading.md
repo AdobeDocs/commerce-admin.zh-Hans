@@ -3,7 +3,7 @@ title: 元素 — 标题
 description: 了解标题内容类型，该内容类型用于将标题级别为H1到H6的文本容器添加到 [!DNL Page Builder] 阶段。
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 元素 — 标题
 
-标题级别建立一个层次结构，用于组织内容并帮助搜索引擎为每个页面编制索引。 使用[[!DNL Page Builder] 阶段](workspace.md#stage)中的&#x200B;_标题_&#x200B;内容类型将标题级别为H1到H6的文本容器添加到阶段。 根据与当前主题关联的样式表设置标题的格式。
+标题级别建立一个层次结构，用于组织内容并帮助搜索引擎为每个页面编制索引。 使用&#x200B;_阶段_&#x200B;中的[[!DNL Page Builder] 标题](workspace.md#stage)内容类型将标题级别为H1到H6的文本容器添加到阶段。 根据与当前主题关联的样式表设置标题的格式。
 
-_[!UICONTROL Content]_&#x200B;部分中的[内容标题](workspace.md)字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
+[部分中的](workspace.md)内容标题&#x200B;_[!UICONTROL Content]_字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
 
 以下示例显示了使用Luma主题设置格式时，内容标题和标题内容类型的显示方式。
 
 ![店面的内容标题和标题级别](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-您可以将标题从[!DNL Page Builder]面板的&#x200B;_元素_&#x200B;区域拖到舞台上的行、列或选项卡集中。 可以通过舞台上的编辑器工具栏或者使用&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）控件来控制标题级别和对齐方式。
+您可以将标题从&#x200B;_面板的_&#x200B;元素[!DNL Page Builder]区域拖到舞台上的行、列或选项卡集中。 可以通过舞台上的编辑器工具栏或者使用&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）控件来控制标题级别和对齐方式。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -74,7 +74,7 @@ _[!UICONTROL Content]_&#x200B;部分中的[内容标题](workspace.md)字段可�
 
    您还可以在标题编辑器中更新此内容。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 要控制标题在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -154,3 +154,5 @@ _[!UICONTROL Content]_&#x200B;部分中的[内容标题](workspace.md)字段可�
 1. 如果要更改标题级别，请单击标题文本，然后在编辑器工具栏中选择新级别。
 
    ![选择新的标题级别](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

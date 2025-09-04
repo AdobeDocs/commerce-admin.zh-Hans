@@ -3,7 +3,7 @@ title: 简单产品
 description: 了解如何创建可单独销售或作为分组、可配置或捆绑产品一部分的简单产品。
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 1. 输入产品的&#x200B;**[!UICONTROL Weight]**。
 
-1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
+1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的默认`Catalog, Search`设置。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
 
    **选择现有类别**：
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 - [设计](settings-advanced-design.md)
 - [礼品选项](product-gift-options.md)
 
-## 步骤6：Publish产品
+## 步骤6：发布产品
 
 1. 如果您已准备好发布目录中的产品，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;开关设置为`Yes`。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
       - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png)）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
+      - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
 
      该存储将在新的浏览器选项卡中打开。
 
@@ -149,3 +149,5 @@ ht-degree: 0%
 - 简单产品配置会覆盖特定产品的可配置产品配置。
 
 - 简单的产品可以具有包含各种输入类型的自定义选项，这使得从单个SKU销售多种产品变体成为可能。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

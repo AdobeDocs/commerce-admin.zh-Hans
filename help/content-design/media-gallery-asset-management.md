@@ -3,8 +3,8 @@ title: 媒体集资产管理
 description: 了解如何管理已上传的媒体文件以及通过Adobe Stock集成获取的资源。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Assets在整个管理员中都可以广泛使用，例如[添加或编辑页面]
 
 >[!NOTE]
 >
->_用于_&#x200B;的功能要求在[配置设置](media-gallery-image-optimization.md)中启用[!UICONTROL Media Gallery Image Optimization]。
+>_用于_&#x200B;的功能要求在[!UICONTROL Media Gallery Image Optimization]配置设置[中启用](media-gallery-image-optimization.md)。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**。
 
@@ -134,3 +134,5 @@ Assets在整个管理员中都可以广泛使用，例如[添加或编辑页面]
 1. 单击&#x200B;**[!UICONTROL Filters]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL Show duplicates]**&#x200B;复选框。
 
 1. 若要查看结果，请单击&#x200B;**[!UICONTROL Apply Filters]**。
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

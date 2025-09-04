@@ -3,7 +3,7 @@ title: 批量库存来源分配和取消分配
 description: 了解如何使用分配源工具管理产品的源分配。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用&#x200B;_分配源_&#x200B;工具向产品添加一个或多个源。 在创建和将自定义来源分配给默认库存或自定义库存以及准备新位置和库存时，该工具很有帮助。
 
-添加新的自定义源后，您可以通过管理员或使用[导入功能](inventory-import-export.md)为每个产品[&#128279;](quantities-assign-per-product.md)或多个产品添加库存数量。
+添加新的自定义源后，您可以通过管理员或使用[导入功能](quantities-assign-per-product.md)为每个产品[或多个产品添加](inventory-import-export.md)库存数量。
 
 ![为所选产品添加库存源](assets/inventory-bulk-assign-sources.gif)
 
@@ -65,3 +65,5 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL Unassign Sources]**。
 
    ![从所选产品中删除源](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: 媒体 — 滑块
 description: 了解Slider内容类型，用于向 [!DNL Page Builder] 舞台添加幻灯片的图像。
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将滑块移动到滑块上的另一个位置。 |
 | （标签） | 幻灯片编号 | 标识当前幻灯片的编号。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Slide]_&#x200B;页面，您可以在其中更改当前幻灯片的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Slide]_页面，您可以在其中更改当前幻灯片的属性。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作当前幻灯片的副本。 |
 | 移除 | ![删除图标](./assets/pb-icon-remove.png){width="25"} | 从滑块中删除当前幻灯片。 |
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将滑块移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Slider] | 标识滑块容器。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Slider]_&#x200B;页面，您可以在其中更改视频和容器的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Slider]_页面，您可以在其中更改视频和容器的属性。 |
 | 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前滑块。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的滑块。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作滑块副本。 |
@@ -126,7 +126,7 @@ ht-degree: 0%
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完成后，单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Slide]_&#x200B;页面。
+1. 完成后，单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Slide]_页面。
 
 ### 在幻灯片上添加构件
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 
 ### 图像类型设置
 
-如果将&#x200B;_[!UICONTROL Background Type]_&#x200B;设置为`Image`，请使用以下设置来定义背景图像显示。
+如果将&#x200B;_[!UICONTROL Background Type]_设置为`Image`，请使用以下设置来定义背景图像显示。
 
 带有背景图像的![横幅](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ ht-degree: 0%
 
 1. 单击滑块底部的导航点以显示单个幻灯片的工具箱，然后选择&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-1. 在&#x200B;_[!UICONTROL Content]_&#x200B;部分中，输入要与幻灯片一起显示的&#x200B;**[!UICONTROL Message Text]**。
+1. 在&#x200B;_[!UICONTROL Content]_部分中，输入要与幻灯片一起显示的&#x200B;**[!UICONTROL Message Text]**。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Content]_&#x200B;部分，并使用&#x200B;**[!UICONTROL Message Text]**&#x200B;编辑器输入横幅文本并设置其格式。
+1. 向下滚动到&#x200B;_[!UICONTROL Content]_部分，并使用&#x200B;**[!UICONTROL Message Text]**编辑器输入横幅文本并设置其格式。
 
    您还可以插入元素，如文本链接、图像和小组件。
 
@@ -367,7 +367,7 @@ ht-degree: 0%
      ![选择要链接的页面](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   从2.4.1版本开始，由于店面显示时出现问题，[!DNL Page Builder]不再支持链接幻灯片以及嵌套文本中的链接。 如果您在&#x200B;_[!UICONTROL Message Text]_&#x200B;中使用链接，则无法配置&#x200B;_[!UICONTROL Link]_&#x200B;选项。 如果您希望在整个幻灯片中使用单个链接，则可以从文本中删除所有链接。
+   从2.4.1版本开始，由于店面显示时出现问题，[!DNL Page Builder]不再支持链接幻灯片以及嵌套文本中的链接。 如果您在_[!UICONTROL Message Text]_中使用链接，则无法配置_[!UICONTROL Link]_选项。 如果您希望在整个幻灯片中使用单个链接，则可以从文本中删除所有链接。
 
    ![链接配置被阻止](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
@@ -614,10 +614,12 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在&#x200B;_页面_&#x200B;网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_页面_&#x200B;网格中查找该页面，并在&#x200B;**[!UICONTROL View]**&#x200B;列中选择&#x200B;_[!UICONTROL Action]_。
 
    ![滑块预览 — 标准视图](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    预览滑块时，请调整窗口大小，以便查看它在移动设备上的显示方式。
 
    ![滑块预览 — 移动设备视图](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

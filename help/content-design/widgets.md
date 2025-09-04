@@ -2,8 +2,8 @@
 title: 小组件
 description: 了解构件，构件可提供代码片段，以便能够显示各种内容并将其放置在存储中的特定块引用中。
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ ht-degree: 0%
 | [!UICONTROL Wish List Search] | 使用此选项可让客户按愿望清单所有者的姓名或电子邮件地址搜索公开可用的愿望清单。 商店客户可以找到属于其他客户的愿望清单、查看这些愿望清单并从他们那里订购产品，或者将产品添加到他们自己的愿望清单中。 |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

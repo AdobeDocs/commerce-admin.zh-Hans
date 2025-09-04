@@ -3,7 +3,7 @@ title: 布局 — 选项卡
 description: 了解用于在 [!DNL Page Builder] 阶段中添加一组选项卡的选项卡内容类型。
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 添加单个选项卡
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Tabs]**&#x200B;占位符直接拖到舞台上，或拖到舞台上的行或列上。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，将&#x200B;**[!UICONTROL Tabs]**占位符直接拖到舞台上，或拖到舞台上的行或列上。
 
    ![将制表符拖到行](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 
   以下示例中的行的边框半径为15。
 
-  边框半径为15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的行
+  边框半径为15![的](./assets/pb-settings-border-radius-15.png){width="500"}行
 
 - （可选）从当前样式表中指定要应用于列容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 
@@ -326,3 +326,5 @@ ht-degree: 0%
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

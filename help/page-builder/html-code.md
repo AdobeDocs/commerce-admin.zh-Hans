@@ -3,7 +3,7 @@ title: 元素 — HTML代码
 description: 了解HTML代码内容类型，用于在 [!DNL Page Builder] 阶段中添加HTML、CSS和JavaScript代码片段。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 元素 — HTML代码
 
-使用&#x200B;_HTML代码_&#x200B;内容类型在[[!DNL Page Builder] 阶段](workspace.md#stage)中添加HTML、CSS和JavaScript代码片段。 例如，您可能需要添加自定义HTML，声明可应用于页面上元素的CSS类。 或者，您可能希望为从第三方提供商收到的徽标、按钮或横幅添加一段代码。
+使用&#x200B;_HTML Code_&#x200B;内容类型在[[!DNL Page Builder] 阶段](workspace.md#stage)中添加HTML、CSS和JavaScript代码片段。 例如，您可能需要添加自定义HTML，声明可应用于页面上元素的CSS类。 或者，您可能希望为从第三方提供商收到的徽标、按钮或横幅添加一段代码。
 
 ## HTML代码工具箱
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    为了便于阅读，您可以输入一些空格来缩进代码。
 
-   ![HTML的代码和样式](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![HTML代码和样式](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. 根据需要更新其余设置(有关详细信息，请参阅[更改HTML代码设置](#html-settings))。
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 ### 步骤3：预览页面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;部分中，将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_部分中，将&#x200B;**[!UICONTROL Enable Page]**设置为`Yes`。
 
    ![正在启用页面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 在网格中查找该页面，并在&#x200B;**[!UICONTROL View]**&#x200B;列中选择&#x200B;_[!UICONTROL Actions]_。
 
    ![使用新字体系预览页面标题](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
    | 按钮 | 描述 |
    | ------ | ----------- |
-   | 插入构件…… | 单击以在HTML文本框中的光标位置处插入构件。 |
-   | 插入图像…… | 单击以在HTML文本框中的光标位置处插入库中的上传图像或图像。 |
-   | 插入变量…… | 单击可在HTML文本框中光标的位置处插入变量。 |
+   | 插入构件…… | 单击以在HTML文本框中光标位置处插入构件。 |
+   | 插入图像…… | 单击以将上传的图像或图片库中的图像插入到HTML文本框中光标的位置。 |
+   | 插入变量…… | 单击以在HTML文本框中光标位置处插入变量。 |
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 要控制代码在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -164,3 +164,5 @@ ht-degree: 0%
      | [!UICONTROL Padding] | 应用于容器所有边的内边缘的空白空间量。 选项： `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
