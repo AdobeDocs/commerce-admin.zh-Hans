@@ -3,7 +3,7 @@ title: 媒体集图像优化
 description: 了解如何对 [!DNL Commerce] 媒体资源使用图像优化。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 当配置中的&#x200B;_最大宽度_&#x200B;和&#x200B;_最大高度_&#x200B;值更改时，它会更新之前插入的所有现有优化图像。
 
-媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)中的&#x200B;_管理消息队列_。
+媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅[配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans)中的&#x200B;_管理消息队列_。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
