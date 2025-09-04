@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将视频移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Video] | 将当前内容容器标识为视频。 将鼠标悬停在图像容器上可查看工具箱。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_页面，您可以在其中更改视频和容器的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_&#x200B;页面，您可以在其中更改视频和容器的属性。 |
 | 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前视频。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的视频。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作视频的副本。 |

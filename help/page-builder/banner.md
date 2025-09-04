@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![将横幅内容类型拖到舞台](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   已包含&#x200B;_[!UICONTROL Upload Image]_和_[!UICONTROL Select from Gallery]_&#x200B;按钮，因此您可以直接从舞台快速更改横幅内容。 您还可以更改&#x200B;_[!UICONTROL Edit Banner]_页面上的内容。
+   已包含&#x200B;_[!UICONTROL Upload Image]_&#x200B;和_[!UICONTROL Select from Gallery]_&#x200B;按钮，因此您可以直接从舞台快速更改横幅内容。 您还可以更改&#x200B;_[!UICONTROL Edit Banner]_&#x200B;页面上的内容。
 
 1. 单击横幅占位符以显示[文本编辑器](../content-design/editor.md)并输入横幅的内容。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完成后，单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Banner]_页面。
+1. 完成后，单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Banner]_&#x200B;页面。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 ### 视频类型设置
 
-如果将&#x200B;_[!UICONTROL Background Type]_设置为`Video`，请使用以下设置来定义背景图像显示。
+如果将&#x200B;_[!UICONTROL Background Type]_&#x200B;设置为`Video`，请使用以下设置来定义背景图像显示。
 
 - **[!UICONTROL Video URL]** — 输入有效的视频URL。 有效的视频URL可以是指向的链接：
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 1. 将鼠标悬停在横幅容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="25"} ）图标。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Content]_部分，并使用&#x200B;**[!UICONTROL Message Text]**编辑器输入横幅文本并设置其格式。
+1. 向下滚动到&#x200B;_[!UICONTROL Content]_&#x200B;部分，并使用&#x200B;**[!UICONTROL Message Text]**&#x200B;编辑器输入横幅文本并设置其格式。
 
    您还可以插入元素，如文本链接、图像和小组件。
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >从2.4.1版本开始，由于店面显示问题，[!DNL Page Builder]不再支持链接横幅和嵌套文本中的链接。 如果您在&#x200B;_[!UICONTROL Message Text]_中使用链接，则无法配置_[!UICONTROL Link]_&#x200B;选项。 如果您希望将单个链接用于整个横幅，则可以从文本中删除所有链接。<br/>
+   >从2.4.1版本开始，由于店面显示问题，[!DNL Page Builder]不再支持链接横幅和嵌套文本中的链接。 如果您在&#x200B;_[!UICONTROL Message Text]_&#x200B;中使用链接，则无法配置&#x200B;_[!UICONTROL Link]_&#x200B;选项。 如果您希望将单个链接用于整个横幅，则可以从文本中删除所有链接。<br/>
    >
    >![链接配置被阻止](./assets/pb-nested-link-blocked.png){width="200"}
 

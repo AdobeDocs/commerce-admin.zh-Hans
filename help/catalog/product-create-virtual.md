@@ -14,7 +14,7 @@ ht-degree: 0%
 
 虚拟产品或数字商品是指无形项目，如会员资格、服务、保修或书籍、音乐、视频或其他产品的订阅和数字下载。 虚拟产品可以单独销售，也可以作为[分组产品](product-create-grouped.md)、[可配置产品](product-create-configurable.md)或[捆绑产品](product-create-bundle.md)产品类型的一部分包含在内。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
+除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->默认情况下，_[!UICONTROL Is this downloadable product?]_选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
+>默认情况下，_[!UICONTROL Is this downloadable product?]_&#x200B;选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
 
 ## 步骤6：发布产品
 

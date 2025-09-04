@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. 若要在新产品的[列表](../content-design/widget-new-products-list.md)中显示该产品，请选中&#x200B;**[!UICONTROL Set Product as New]**&#x200B;复选框。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
 
    **选择现有类别**：
 
@@ -178,15 +178,15 @@ ht-degree: 0%
 
 ### 步骤5：完成可下载的信息
 
-向下滚动，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Downloadable Information]_，然后选中&#x200B;**[!UICONTROL Is this downloadable product?]**复选框。
+向下滚动，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Downloadable Information]_，然后选中&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;复选框。
 
-启用后，_[!UICONTROL Downloadable Information]_部分包含两部分。 第一部分描述了每个下载链接，第二部分描述了每个示例文件。 其中许多选项的默认值可以在[配置](#configure-the-download-options)中设置。
+启用后，_[!UICONTROL Downloadable Information]_&#x200B;部分包含两部分。 第一部分描述了每个下载链接，第二部分描述了每个示例文件。 其中许多选项的默认值可以在[配置](#configure-the-download-options)中设置。
 
 ![可下载的信息](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### 完成链接
 
-1. 在&#x200B;_[!UICONTROL Links]_部分中，输入要用作下载链接标题的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Links]_&#x200B;部分中，输入要用作下载链接标题的&#x200B;**[!UICONTROL Title]**。
 
 1. 如果适用，请选中&#x200B;**[!UICONTROL Links can be purchased separately]**&#x200B;复选框。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 #### 完成示例
 
-1. 在&#x200B;_[!UICONTROL Samples]_部分中，输入要用作示例标题的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Samples]_&#x200B;部分中，输入要用作示例标题的&#x200B;**[!UICONTROL Title]**。
 
 1. 要完成每个示例的信息，请单击&#x200B;**[!UICONTROL Add Link]**。
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 ## 店面体验
 
-在客户帐户仪表板中，_[!UICONTROL My Downloadable Products]_页面链接到每个可下载的产品订单。 订购完成后，可以从客户帐户下载内容。
+在客户帐户仪表板中，_[!UICONTROL My Downloadable Products]_&#x200B;页面链接到每个可下载的产品订单。 订购完成后，可以从客户帐户下载内容。
 
 ![我的可下载产品](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 订单处理状态。 |
 | [!UICONTROL Remaining Downloads] | 已下载产品的可用下载次数。 |
 
-_**要从帐户仪表板下载产品文件**_
+_&#x200B;**要从帐户仪表板下载产品文件**&#x200B;_
 
 1. 客户在其帐户信息板中选择&#x200B;**[!UICONTROL My Downloadable Products]**。
 

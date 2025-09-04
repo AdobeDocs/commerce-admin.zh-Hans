@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 添加行
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，将新的&#x200B;**[!UICONTROL Row]**拖到舞台上，刚好在第一行的下方。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，将新的&#x200B;**[!UICONTROL Row]**&#x200B;拖到舞台上，刚好在第一行的下方。
 
 1. 要格式化行，请将鼠标悬停在行容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ### 图像类型设置
 
-如果将&#x200B;_[!UICONTROL Background Type]_设置为`Image`，请使用以下设置来定义背景图像显示。
+如果将&#x200B;_[!UICONTROL Background Type]_&#x200B;设置为`Image`，请使用以下设置来定义背景图像显示。
 
 ![背景图像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

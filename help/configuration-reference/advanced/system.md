@@ -153,8 +153,8 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 全局 | 确定Commerce实例是否允许备份。 选项： `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 全局 | （在&#x200B;_[!UICONTROL Enable Backup]_设置为`Yes`时显示。）确定是否定期自动备份Commerce实例。 选项： `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 全局 | （当&#x200B;_[!UICONTROL Enable Scheduled Backup]_设置为`Yes`时显示。）确定备份中包含的Commerce实例的元素。 选项： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | 全局 | （在&#x200B;_[!UICONTROL Enable Backup]_&#x200B;设置为`Yes`时显示。）确定是否定期自动备份Commerce实例。 选项： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 全局 | （当&#x200B;_[!UICONTROL Enable Scheduled Backup]_&#x200B;设置为`Yes`时显示。）确定备份中包含的Commerce实例的元素。 选项： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | 全局 | （当[!UICONTROL Enable Scheduled Backup]设置为`Yes`时显示。）指定计划备份开始的时间（小时、分钟和秒）。 |
 | [!UICONTROL Frequency] | 全局 | （在[!UICONTROL Enable Scheduled Backup]设置为`Yes`时显示。）确定计划备份的频率。 选项： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | 全局 | （当[!UICONTROL Enable Scheduled Backup]设置为`Yes`时显示。）确定存储是否在定时备份期间处于维护模式。 选项： `Yes` / `No` |
@@ -188,7 +188,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全局 | 确定用于管理全页缓存的应用程序。 选项： <br/>**`Built-in Application`**— 不建议在生产环境中使用。<br/>**`Varnish Caching`** — 建议用于生产环境。 |
 | [!UICONTROL TTL for public content] | 全局 | 确定公共内容缓存的生命周期（以秒为单位）。 默认值： `120` |
-| [!UICONTROL Handles param size] | 全局 | 指定在[](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP终结点上要处理的[`{BASE-URL}/page_cache/block/esi`布局句柄](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
+| [!UICONTROL Handles param size] | 全局 | 指定在[&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP终结点上要处理的[`{BASE-URL}/page_cache/block/esi`布局句柄](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全局 | 指定可以清除清漆配置以生成配置文件的IP地址。 用逗号分隔多个条目。 默认值： `localhost` |
 | [!UICONTROL Backend host] | 全局 | 指定生成配置文件的后端主机。 默认值： `localhost` |

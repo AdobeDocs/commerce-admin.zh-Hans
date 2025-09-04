@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 步骤3：预览页面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_部分中，将&#x200B;**[!UICONTROL Enable Page]**设置为`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;部分中，将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
    ![正在启用页面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
    | 插入图像…… | 单击以将上传的图像或图片库中的图像插入到HTML文本框中光标的位置。 |
    | 插入变量…… | 单击以在HTML文本框中光标位置处插入变量。 |
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 要控制代码在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

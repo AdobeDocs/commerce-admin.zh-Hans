@@ -73,7 +73,7 @@ ht-degree: 0%
 
    ![设置线条颜色、粗细和宽度](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 若要控制分隔线在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
