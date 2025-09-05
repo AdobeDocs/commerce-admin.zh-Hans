@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>阐明了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">创建优惠券代码</a>的默认方法，并为使用扩展导入自定义优惠券代码列表提供了指导。</p>
+      <td><p>阐明了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">创建优惠券代码</a>的默认方法，并为使用扩展导入自定义优惠券代码列表提供了指导。</p>
 </td>
       <td>
         技术
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了2025年8月B2B安全修补程序<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
+      <td><p>添加了2025年8月B2B安全修补程序<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>阐明了在分层导航中可配置产品的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">价格筛选</a>的预期行为。</p>
+      <td><p>阐明了在分层导航中可配置产品的<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">价格筛选</a>的预期行为。</p>
 </td>
       <td>
         技术
@@ -75,7 +75,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">提交</a></td>
     </tr>
     <tr>
-      <td><p>阐明了如何在辅助购物模式下从客户的购物车中<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">删除所有项目</a>。</p>
+      <td><p>阐明了如何在辅助购物模式下从客户的购物车中<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">删除所有项目</a>。</p>
 </td>
       <td>
         重大更新
@@ -97,7 +97,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA扩展</a>的系统要求。</p>
+      <td><p>更新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA扩展</a>的系统要求。</p>
 </td>
       <td>
         技术
@@ -119,7 +119,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>阐明了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management">客户网格索引器</a>的默认模式，该模式在2.4.8中进行了更改。</p>
+      <td><p>阐明了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/index-management">客户网格索引器</a>的默认模式，该模式在2.4.8中进行了更改。</p>
 </td>
       <td>
         技术
