@@ -3,9 +3,9 @@ title: 增强的店面体验
 description: 了解旨在帮助您最大限度地提高客户参与度、维系率和忠诚度的许多工具。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hans)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -32,7 +32,7 @@ Adobe Commerce和Magento Open Source都具备多种功能，可轻松创建&#x20
 
 - **Sitemap** — 从商店页脚链接到[Sitemap](../merchandising-promotions/sitemap-xml.md)，以便为客户提供目录结构的概览，其中包含指向商店中所有类别和产品的链接。 与Google Sitemap轻松集成。
 
-- **Analytics** — 除了从管理员仪表板监视您的网站外，您还可以集成第三方分析工具，如[Google Analytics](../merchandising-promotions/google-analytics.md)和[New Relic报表](new-relic-reporting.md)，以获取有关流量和销售额的详细统计数据。
+- **Analytics** — 除了从管理员仪表板监视您的网站外，您还可以集成第三方分析工具，如[Google Analytics](../merchandising-promotions/google-analytics.md)，以获取有关流量和销售额的详细统计数据。
 
 ## 吸引客户
 
@@ -52,11 +52,11 @@ Adobe Commerce和Magento Open Source都具备多种功能，可轻松创建&#x20
 
 ## 区分和个性化
 
-Adobe Commerce和Magento Open Source提供丰富的工具，可根据客户活动和个人资料跨多个数字接触点创建个性化体验。
+Adobe Commerce和Magento Open Source提供一套丰富的工具，可根据客户活动和个人资料跨多个数字接触点创建个性化体验。
 
 - **自定义目录和价目表** — 为特定公司提供具有自定义[定价的策划产品选择](../b2b/catalog-shared-pricing-structure.md)，同时继续为一般客户提供具有常规定价的标准目录。
 
-- **目标市场细分** — 根据属性[&#128279;](../customers/customer-segments.md)（如客户地址、订单历史记录和购物车内容），使用动态内容、促销和横幅优化营销计划。
+- **目标市场细分** — 根据属性[（如客户地址、订单历史记录和购物车内容），使用动态内容、促销和横幅](../customers/customer-segments.md)优化营销计划。
 
 - **智能购物规则** — 使用在产品或购物车级别触发的价格规则和[促销活动](../merchandising-promotions/introduction.md#promotions)自定义购物体验。
 
@@ -64,7 +64,7 @@ Adobe Commerce和Magento Open Source提供丰富的工具，可根据客户活�
 
 ## 增加平均订单价值
 
-Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制购物体验，并鼓励您的客户将更多商品放入他们的购物车中并花费更多资金。
+Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制购物体验，并鼓励您的客户在购物车中放入更多商品并增加支出。
 
 - **目标促销活动** — 使用目录和购物车价格规则创建[促销活动](../merchandising-promotions/introduction.md#promotions)，当满足一组条件时，这些促销活动就会开始生效。 在Adobe Commerce中，可根据特定特征（如客户地址、订单历史记录、购物车内容等）动态细分客户并构建区段。 然后，使用[[!DNL Page Builder]](../page-builder/introduction.md)创建由促销触发的动态块，该动态块仅显示在目标客户区段中。
 
@@ -84,11 +84,11 @@ Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制�
 
 ## 优化业务流程和盈利能力
 
-- **[!DNL Advanced Reporting]** — 通过由[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hans)提供支持的动态产品、订单和客户报告，快速获得有价值的见解。
+- **[!DNL Advanced Reporting]** — 通过由[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en)提供支持的动态产品、订单和客户报告，快速获得有价值的见解。
 
-- **仪表板快照** — 了解您网站上的相关内容对于最大限度地提高营销预算至关重要。 使用仪表板[&#128279;](admin-dashboard.md)上的此信息来确定应向忠诚客户交叉销售和追加销售哪些产品，或销售哪些产品。
+- **仪表板快照** — 了解您网站上的相关内容对于最大限度地提高营销预算至关重要。 使用仪表板[上的此](admin-dashboard.md)信息来确定应向忠诚客户交叉销售和追加销售哪些产品，或销售哪些产品。
 
-- **税费** — 使用本机工具管理您的[税费](../stores-purchase/taxes.md)，或从[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){：target=&quot;_blank&quot;}添加第三方扩展。
+- **税费** — 使用本机工具管理您的[税费](../stores-purchase/taxes.md)，或从[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}添加第三方扩展。
 
 - **自动业务规则** — 设置[自动业务规则](../merchandising-promotions/price-rules-cart.md)，这些规则定义产品关系，并使用根据各种条件触发折扣的价格规则。
 
@@ -114,7 +114,7 @@ Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制�
 
 ## 保留客户
 
-通过Adobe Commerce和Magento Open Source，您可以轻松获得重复的业务并打造品牌忠诚度。 它让您能够完全控制和灵活地创建和修订奖励计划、自定义优惠券和自动电子邮件等实用组件，以使您的客户能够一次又一次地回来。
+通过Adobe Commerce和Magento Open Source，您可以轻松开展重复的业务并打造品牌忠诚度。 它让您能够完全控制和灵活地创建和修订奖励计划、自定义优惠券和自动电子邮件等实用组件，以使您的客户能够一次又一次地回来。
 
 **退货** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)客户可以从您的商店提交[退货授权](../stores-purchase/returns.md)申请。 您可以在承运人系统中创建发运订单，并打印具有RMA编号的发运标签。
 

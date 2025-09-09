@@ -5,10 +5,10 @@ breadcrumb-title: 配置引用
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 - [配置引用](guide-overview.md)
 - [配置范围](scope-change.md)
-- 常规{#general}
+- 常规 {#general}
    - [常规](./general/general.md)
    - [B2B功能](./general/b2b-features.md)
    - [Web](./general/web.md)
@@ -26,21 +26,20 @@ ht-degree: 1%
    - [联系人](./general/contacts.md)
    - [报告](./general/reports.md)
    - [内容管理](./general/content-management.md)
-   - [New Relic报表](./general/new-relic-reporting.md)
    - [高级报告](./general/advanced-reporting.md)
-- 目录{#catalog}
+- 目录 {#catalog}
    - [目录](./catalog/catalog.md)
    - [Visual Merchandiser](./catalog/visual-merchandiser.md)
    - [库存](./catalog/inventory.md)
    - [XML站点地图](./catalog/xml-sitemap.md)
    - [RSS源](./catalog/rss-feeds.md)
    - [通过电子邮件发送给朋友](./catalog/email-to-a-friend.md)
-- 安全性{#security}
+- 安全性 {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA管理面板](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA店面](./security/google-recaptcha-storefront.md)
    - [Security.txt](./security/security-txt.md)
-- 客户{#customers}
+- 客户 {#customers}
    - [客户登录](./customers/login-as-customer.md)
    - [新闻稿](./customers/newsletter.md)
    - [公司配置](./customers/company-configuration.md)
@@ -52,7 +51,7 @@ ht-degree: 1%
    - [促销活动](./customers/promotions.md)
    - [礼品注册表](./customers/gift-registry.md)
    - [永久购物车](./customers/persistent-shopping-cart.md)
-- 销售{#sales}
+- 销售 {#sales}
    - [销售](./sales/sales.md)
    - [销售电子邮件](./sales/sales-emails.md)
    - [引号](./sales/quotes.md)
@@ -65,7 +64,7 @@ ht-degree: 1%
    - [GOOGLE API](./sales/google-api.md)
    - [3D安全](./sales/3d-secure.md)
    - [礼品卡](./sales/gift-cards.md)
-   - 付款方式{#payment-methods}
+   - 支付方式 {#payment-methods}
       - [支付方式配置](./sales/payment-methods.md)
       - [支付服务](./sales/payment-services.md)
       - [Braintree](./sales/braintree.md)
@@ -76,13 +75,13 @@ ht-degree: 1%
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal Payflow链接](./sales/paypal-payflow-link.md)
 - [销售渠道](./sales-channels.md)
-- 服务{#services}
+- 服务 {#services}
    - [Web API](./services/magento-web-api.md)
    - [Commerce服务](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- 高级{#advanced}
+- 高级 {#advanced}
    - [管理员](./advanced/admin.md)
    - [系统](./advanced/system.md)
    - [开发人员](./advanced/developer.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
