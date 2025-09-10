@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ### 步骤1：选择属性
 
-1. 从上面继续，向下滚动到&#x200B;_[!UICONTROL Configurations]_部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
+1. 从上面继续，向下滚动到&#x200B;_[!UICONTROL Configurations]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![配置](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
