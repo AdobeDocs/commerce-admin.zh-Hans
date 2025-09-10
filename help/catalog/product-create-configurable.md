@@ -3,7 +3,7 @@ title: 可配置产品
 description: 了解如何创建可配置的产品，以便为购物者提供用于选择的变体。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 用于产品变体的任何属性的输入类型必须是以下类型之一： `Dropdown`、`Visual Swatch`或`Text Swatch`。 |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 >
 >可配置产品必须始终具有权重。 如果您从下拉列表中选择&#x200B;**[!UICONTROL This item has no weight]**，则在保存产品后它会自动更改为&#x200B;**[!UICONTROL This item has weight]**。
 
-1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
+1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的默认`Catalog, Search`设置。
 
 1. 若要在[新产品](../content-design/widget-new-products-list.md)的列表中包含该产品，请选中&#x200B;**[!UICONTROL Set Product as New]**&#x200B;复选框。
 
@@ -139,7 +138,7 @@ ht-degree: 0%
 
 ### 步骤1：选择属性
 
-1. 从上面继续，向下滚动到&#x200B;_[!UICONTROL Configurations]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
+1. 从上面继续，向下滚动到&#x200B;_[!UICONTROL Configurations]_部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![配置](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -279,7 +278,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 ### 步骤5：添加产品图像
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Images and Videos]_。
 
 1. 单击&#x200B;_摄像头_&#x200B;图块，并浏览到要用于可配置产品的主图像。
 
@@ -311,7 +310,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
       - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
+      - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![ ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
 
      该存储将在新的浏览器选项卡中打开。
 
@@ -329,7 +328,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展开&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Shopping Cart]_。
 
 1. 将&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;设置为`Product Thumbnail Itself`。
 
@@ -355,7 +354,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 #### 仅使用默认源/库存：
 
-- 如果管理员用户、文件导入或API调用将可配置产品的库存状态为&#x200B;**_手动_**&#x200B;设置为`Out of Stock`，它将在&#x200B;**_管理员_**&#x200B;和&#x200B;**_店面_**&#x200B;上保持为`Out of Stock`，直到管理员用户、文件导入或API调用将库存状态手动更改为&#x200B;**__**。 `In stock`它不能由其子产品的库存状态控制。
+- 如果管理员用户、文件导入或API调用将可配置产品的库存状态为&#x200B;**_手动_**&#x200B;设置为`Out of Stock`，它将在`Out of Stock`管理员&#x200B;**_和_**&#x200B;店面&#x200B;**_上保持为_**，直到管理员用户、文件导入或API调用将库存状态手动更改为&#x200B;**__**。 `In stock`它不能由其子产品的库存状态控制。
 
 - 如果管理员用户、文件导入或API调用将可配置产品的库存状态为&#x200B;**_手动_**&#x200B;设置为`In Stock`，则其库存状态将由&#x200B;**_管理员_**&#x200B;和&#x200B;**_店面_**&#x200B;上其子产品的库存状态自动控制&#x200B;**__**。
 
@@ -365,11 +364,11 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 #### 至少具有一个自定义源/库存：
 
-- 如果管理员用户、文件导入或API调用将可配置的产品库存状态值设置为&#x200B;**_手动_**(`Out of Stock`)，它将在&#x200B;**_管理员_**&#x200B;和&#x200B;**_店面_**&#x200B;上保持为`Out of Stock`，直到管理员用户、文件导入或API调用将其手动设置为&#x200B;**__**(`In Stock`)。 它&#x200B;**_不能由其子产品的库存状态控制_**。
+- 如果管理员用户、文件导入或API调用将可配置的产品库存状态值设置为&#x200B;**_手动_**(`Out of Stock`)，它将在`Out of Stock`管理员&#x200B;**_和_**&#x200B;店面&#x200B;**_上保持为_**，直到管理员用户、文件导入或API调用将其手动设置为&#x200B;**__**(`In Stock`)。 它&#x200B;**_不能由其子产品的库存状态控制_**。
 
 - 如果管理员用户、文件导入或API调用将可配置产品库存状态值设置为&#x200B;**_手动_**`In Stock`，则其库存状态将为&#x200B;**_自动_**，且仅由&#x200B;**_店面_**&#x200B;上其子产品的库存状态控制。
 
-- 如果管理员用户、文件导入或API调用将可配置的产品库存状态值设置为&#x200B;**_手动_**`In Stock`，它将在&#x200B;**_管理员_**&#x200B;中保留为`In Stock`，直到管理员用户、文件导入或API调用将该值设置为&#x200B;**_手动_**&#x200B;更改为`Out of Stock`。 它&#x200B;**_不能由其子产品的库存状态控制_**。
+- 如果管理员用户、文件导入或API调用将可配置的产品库存状态值设置为&#x200B;**_手动_**`In Stock`，它将在`In Stock`管理员&#x200B;**_中保留为_**，直到管理员用户、文件导入或API调用将该值设置为&#x200B;**_手动_**&#x200B;更改为`Out of Stock`。 它&#x200B;**_不能由其子产品的库存状态控制_**。
 
 ## 注意事项
 
@@ -377,7 +376,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 - 可配置产品的[库存状态](../inventory-management/sources-stocks.md)是半手动控制的设置。 它与简单产品的库存状态不同，在库存状态，产品库存是产品可用性的直接表示。 对于可配置产品，库存状态是多标准库存状态计算的一部分。
 
-- 可配置的子产品可以是简单或虚拟产品&#x200B;**而无需自定义选项**。 若要使自定义子产品成为虚拟产品，您必须为每个产品的&#x200B;**[!UICONTROL Weight]**&#x200B;设置选择`Тhis item has no weight`。
+- 可配置的子产品可以是简单或虚拟产品&#x200B;**而无需自定义选项**。 若要使自定义子产品成为虚拟产品，您必须为每个产品的`Тhis item has no weight`设置选择&#x200B;**[!UICONTROL Weight]**。
 
 - 所有子产品同时从所有网站、商店和商店视图的可配置产品&#x200B;**_全局分配_**&#x200B;和取消分配。
 
@@ -389,6 +388,6 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 - 可将购物车中的缩略图图像设置为显示来自可配置产品记录或来自产品变体的图像。
 
-- 通过将Admin属性编辑页面上的&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;选项值设置为`No`，可以将[样本属性](swatches.md#create-swatches-for-products)配置为在选择样本时不显示相应的简单产品图像。
+- 通过将Admin属性编辑页面上的[选项值设置为](swatches.md#create-swatches-for-products)，可以将&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;样本属性`No`配置为在选择样本时不显示相应的简单产品图像。
 
 - 主题控制用户在不同产品配置之间切换时图像库的行为。 _空白_&#x200B;主题的默认行为是使用选定的产品变体覆盖父可配置产品图像。 对于Luma主题，默认行为是将选定的产品变体图像附加到父可配置产品图像之前。
