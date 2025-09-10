@@ -204,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]网格&#x200B;**&#x200B;_
 
 观看本视频，了解如何创建客户区段：
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410188/?quality=12&learn=on&captions=chi_hans)
