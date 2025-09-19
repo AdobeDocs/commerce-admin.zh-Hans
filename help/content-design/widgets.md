@@ -2,10 +2,10 @@
 title: 小组件
 description: 了解构件，构件可提供代码片段，以便能够显示各种内容并将其放置在存储中的特定块引用中。
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Order by SKU] | 排序的SKU可以在店内显示以方便所有购物者，或仅供特定客户群体使用。 购物者可以在“按SKU订购”块中直接输入SKU和数量信息，也可以从其客户帐户上传CSV文件。 |
 | [!UICONTROL Orders and Returns] | 使用此选项可以让来宾检查其订单的状态并提交退货请求。 此构件仅对未登录其帐户的来宾和客户显示。 |
 | [!UICONTROL Recently Compared Products] | 显示最近比较的产品块。 您可以指定包含的产品数量，并将它们格式化为列表或产品网格。 |
-| [!UICONTROL Recently Viewed Products] | 使用此选项可显示最近查看的产品块。 您可以指定包含的产品数量，并将其格式化为列表或产品网格。 |
+| [!UICONTROL Recently Viewed Products] | 使用此选项可显示最近查看的产品块。 您可以指定包含的产品数量，并将其格式化为列表或产品网格。 该构件可能不会显示实时价格更新。 购物者必须单击产品才能查看其产品页面上的当前定价。 |
 | [!UICONTROL Wish List Search] | 使用此选项可让客户按愿望清单所有者的姓名或电子邮件地址搜索公开可用的愿望清单。 商店客户可以找到属于其他客户的愿望清单、查看这些愿望清单并从他们那里订购产品，或者将产品添加到他们自己的愿望清单中。 |
 
 {style="table-layout:auto"}
