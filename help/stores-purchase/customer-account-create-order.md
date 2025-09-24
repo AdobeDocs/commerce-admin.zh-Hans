@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 创建订单
 
-对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 _[!UICONTROL Create New Order]_表单包含正常结账流程所需的所有信息，以及客户帐户信息板中的活动摘要。
+对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 _[!UICONTROL Create New Order]_&#x200B;表单包含正常结账流程所需的所有信息，以及客户帐户信息板中的活动摘要。
 
 ![为客户创建订单](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [！UICONTROL [自定义订单属性]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [自定义订单属性]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

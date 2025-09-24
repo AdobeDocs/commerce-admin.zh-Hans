@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在网格中查找顺序。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
 1. 检查订单状态：
 
