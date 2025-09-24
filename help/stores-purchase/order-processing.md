@@ -3,9 +3,9 @@ title: 订单工作流和处理
 description: 了解订单工作流、在每个步骤应用的状态以及如何通过此流程移动订单。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在网格中查找顺序。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL View]**。
 
 1. 检查订单状态：
 
@@ -167,6 +167,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+### 自定义订单属性
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+通过自定义订单属性，您可以将特定于业务需求的附加信息与该订单相关联。
+
+![自定义订单属性](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+在&#x200B;**[!UICONTROL Custom Order Attributes]**&#x200B;部分中，显示所有自定义订单属性及其当前值。
+
+要创建新的自定义订单属性，请输入&#x200B;**[!UICONTROL Attribute Code]**&#x200B;和&#x200B;**[!UICONTROL Value]**
+
+要创建其他自定义订单属性，请单击&#x200B;**[!UICONTROL Add Attribute]**。
+
+要删除自定义订单属性，请单击&#x200B;**[!UICONTROL X]**&#x200B;图标。
+
+>[!NOTE]
+>
+>仅当订单处于`Pending`状态时，才能编辑自定义订单属性。 对于处于其它状态的订单，您可以查看属性值，但不能修改它们。
+
 ### 查看订购的项目
 
 已订购![项](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
@@ -230,4 +250,4 @@ ht-degree: 0%
 
 观看此视频，了解有关订单处理和状态的更多信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410793/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
