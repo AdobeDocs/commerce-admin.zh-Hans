@@ -3,9 +3,9 @@ title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 674d918dee9fa0a001bf7910ab2531df8dc353af
+source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 随着业务职责变化，您可能需要将您的Commerce帐户转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans)管理用户访问权限&#x200B;__。
+以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)管理用户访问权限&#x200B;__。
 
 >[!IMPORTANT]
 >
->如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
+>如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
 
 ## 识别您的传输类型
 
@@ -54,13 +54,15 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 1. 单击&#x200B;**[!UICONTROL Continue]**。
 
-   此步骤将创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接，_[!UICONTROL Email]_&#x200B;字段被阻止进行任何更改。 相关电子邮件地址的配置可通过Adobe ID帐户进行管理。
+   此步骤将创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接，_[!UICONTROL Email]_字段被阻止进行任何更改。 相关电子邮件地址的配置可通过Adobe ID帐户进行管理。
 
 1. 导航到[account.adobe.com](https://account.adobe.com/)。
 
 1. 单击&#x200B;**[!UICONTROL Change Email]**。
 
 1. 输入新所有者的电子邮件地址。
+
+   如果新的电子邮件地址已链接到系统中的另一个帐户，则无法直接用于传输。 相反，该进程需要使用[临时电子邮件地址](#change-to-a-temporary-account)来促进更改。
 
 1. 单击&#x200B;**[!UICONTROL Change]**。
 
@@ -70,7 +72,7 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 1. 单击&#x200B;**[!UICONTROL Verify]**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447669/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 电子邮件更改
 
@@ -83,6 +85,8 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 1. 在您的帐户名称和头像下，单击&#x200B;**[!UICONTROL Change Email]**。
 
 1. 在对话框中，输入新所有者的电子邮件地址。
+
+   如果新的电子邮件地址已链接到系统中的另一个帐户，则无法直接用于传输。 相反，该进程需要使用[临时电子邮件地址](#change-to-a-temporary-account)来促进更改。
 
 1. 单击&#x200B;**[!UICONTROL Change]**。
 
