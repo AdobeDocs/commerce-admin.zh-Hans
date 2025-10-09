@@ -187,7 +187,7 @@ composer require magento/audiences
 
 1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;字段中，将您在[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce时创建的数据流的ID粘贴为Real-Time CDP中的目标。
 
-   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)数据流，[将其添加到Real-Time CDP中的Commerce目标以及管理员中的](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)[[!DNL Data Connection]扩展。](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)
+   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)数据流，[将其添加到Real-Time CDP中的Commerce目标以及管理员中的](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) [[!DNL Data Connection]扩展。](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)
 
    >[!NOTE]
    >
