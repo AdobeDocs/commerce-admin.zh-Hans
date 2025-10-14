@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New User]**。
 
-   要编辑现有用户，请单击网格中的用户名。 您可以根据需要修改&#x200B;_[!UICONTROL User Info]_&#x200B;和_[!UICONTROL User Role]_&#x200B;部分。
+   要编辑现有用户，请单击网格中的用户名。 您可以根据需要修改&#x200B;_[!UICONTROL User Info]_&#x200B;和&#x200B;_[!UICONTROL User Role]_&#x200B;部分。
 
 1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;部分中，执行以下操作：
 

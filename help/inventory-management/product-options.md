@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Source Item Status] | 全局 | 确定产品的当前可用性。 选项： <br />`In Stock` — 使产品可供购买。<br />`Out of Stock` — 除非激活延交订单，否则将阻止产品可供购买，并从目录中删除列表。 |
 | [!UICONTROL Qty] | 全局 | 每个来源或地点的现有库存量。 |
 | [!UICONTROL Notify Quantity] | 全局 | 如果未选择&#x200B;_[!UICONTROL Notify Quantity Use Default]_，则此特定源的&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;金额。 |
-| [!UICONTROL Notify Quantity Use Default] | 全局 | 指示使用产品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;中_[!UICONTROL Notify for Quantity Below]_&#x200B;的默认设置或存储配置中的全局设置。 |
+| [!UICONTROL Notify Quantity Use Default] | 全局 | 指示使用产品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;中&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;的默认设置或存储配置中的全局设置。 |
 
 ## 高级产品选项
 

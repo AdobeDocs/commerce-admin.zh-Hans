@@ -156,7 +156,7 @@ _[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时�
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## 维护对管理员的安全访问
 

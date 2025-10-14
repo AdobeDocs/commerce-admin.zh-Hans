@@ -147,7 +147,7 @@ ht-degree: 0%
 
    否则，请单击&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;并重复上述步骤以添加其他地址。
 
-   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
+   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_&#x200B;和&#x200B;_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
 
    ![地址视图](assets/address-list.png){width="600" zoomable="yes"}
 

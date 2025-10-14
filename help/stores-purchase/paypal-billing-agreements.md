@@ -35,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
-每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_&#x200B;和&#x200B;_[!UICONTROL Related Orders]_。
 
 #### 一般信息
 

@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 在网格的&#x200B;_[!UICONTROL Store View]_&#x200B;列中，单击要编辑的视图的名称。
 
-   编辑默认视图时，_[!UICONTROL Store]_&#x200B;和_[!UICONTROL Status]_&#x200B;字段不可用。
+   编辑默认视图时，_[!UICONTROL Store]_&#x200B;和&#x200B;_[!UICONTROL Status]_&#x200B;字段不可用。
 
    ![存储视图 — 编辑默认视图](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

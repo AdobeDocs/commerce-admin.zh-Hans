@@ -262,7 +262,7 @@ ht-degree: 0%
 
 - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-- 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![ ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
+- 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![&#x200B; ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
 
   该存储将在新的浏览器选项卡中打开。
 

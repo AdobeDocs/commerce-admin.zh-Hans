@@ -28,7 +28,7 @@ ht-degree: 0%
 
 当永久购物车[已启用](#configure-a-persistent-cart)时，工作流依赖于：
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;和_[!UICONTROL Clear Persistence on Log Out]_&#x200B;设置的值
+- _[!UICONTROL Enable Remember Me]_&#x200B;和&#x200B;_[!UICONTROL Clear Persistence on Log Out]_&#x200B;设置的值
 - 客户选择或清除&#x200B;_[!UICONTROL Remember Me]_&#x200B;复选框的决定
 - 清除永久性Cookie时
 

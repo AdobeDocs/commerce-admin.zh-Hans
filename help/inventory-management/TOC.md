@@ -15,7 +15,7 @@ ht-degree: 5%
 # [!DNL Inventory Management]用户指南 {#inventory}
 
 - [Inventory management指南](guide-overview.md)
-- [ [!DNL Inventory Management]简介](introduction.md)
+- [&#x200B; [!DNL Inventory Management]简介](introduction.md)
 - [发行说明](release-notes.md)
 - 清单基础知识{#basics}
    - [来源和库存](sources-stocks.md)

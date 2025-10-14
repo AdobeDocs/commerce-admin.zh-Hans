@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
+     >对于&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和&#x200B;_[!UICONTROL Stock Sources]_&#x200B;实体类型，将显示以下导入行为： `Add/Update`、`Replace`和`Delete`。 对于&#x200B;_客户财务_、_客户主文件_&#x200B;和&#x200B;_客户和地址_&#x200B;实体类型，将显示以下导入行为：`Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
 
    - **[!UICONTROL Start Time]** — 设置为计划开始导入的小时、分钟和秒。
 

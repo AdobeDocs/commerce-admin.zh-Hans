@@ -580,5 +580,5 @@ _智能支付按钮_&#x200B;功能允许您自定义PayPal按钮，该按钮可�
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/
