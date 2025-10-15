@@ -20,7 +20,7 @@ Adobe Commerce B2B扩展`magento/extension-b2b`适用于所有受支持的Adobe 
 
 ## 要求
 
-- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)，所有支持的版本
+- [Adobe Commerce](https://business.adobe.com/cn/products/magento/magento-commerce.html)，所有支持的版本
 - PHP 8.1、8.2和8.3（需要B2B 1.5.0）
 - [!DNL Composer]
 

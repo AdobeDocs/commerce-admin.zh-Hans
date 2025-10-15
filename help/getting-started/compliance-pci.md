@@ -48,5 +48,5 @@ ht-degree: 0%
 
 随着业务的增长，您可能需要每年提交一次法规遵从性报告。 PCI报告要求会按照商家级别相应增加，但是对于每年处理少于20,000次信用卡交易的企业，则不需要。 要了解更多信息，请访问[PCI安全标准委员会][2]网站。
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/cn/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

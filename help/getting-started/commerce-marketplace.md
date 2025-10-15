@@ -109,7 +109,7 @@ Commerce的&#x200B;_内部部署_&#x200B;安装的购买[!DNL Marketplace]的安
 
 ### 开源问题
 
-市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题提交至[社区论坛](https://community.magento.com/)或[联系可以协助Magento Open Source的合作伙伴](https://business.adobe.com/products/magento/partners.html)。
+市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题提交至[社区论坛](https://community.magento.com/)或[联系可以协助Magento Open Source的合作伙伴](https://business.adobe.com/cn/products/magento/partners.html)。
 
 ### 退款申请
 
@@ -143,4 +143,4 @@ Marketplace支持团队无法将购买转移到其他帐户。 您必须购买�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/cn/products/magento/magento-commerce.html

@@ -40,4 +40,4 @@ ht-degree: 0%
 
 1. **报告**：如果您认为已在Commerce中发现特定漏洞，请[打开Adobe](https://hackerone.com/adobe?type=team)的问题并包含技术详细信息。
 
-1. **升级**：为了24/7全天候支持带来的额外安心，请立即计划在我们的云架构上升级到[Adobe Commerce](https://business.adobe.com/products/magento/cloud-delivery.html)。
+1. **升级**：为了24/7全天候支持带来的额外安心，请立即计划在我们的云架构上升级到[Adobe Commerce](https://business.adobe.com/cn/products/magento/cloud-delivery.html)。
