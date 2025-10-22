@@ -3,9 +3,9 @@ title: 将属性添加到产品
 description: 了解如何将属性添加到目录中的产品。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![属性属性](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Attribute Properties]_&#x200B;下，输入&#x200B;**[!UICONTROL Attribute Label]**&#x200B;以标识属性。
+1. 在&#x200B;_[!UICONTROL Attribute Properties]_下，输入&#x200B;**[!UICONTROL Attribute Label]**以标识属性。
 
 1. 将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为要用于数据输入的[输入控件](attributes-input-types.md)的类型。
 
@@ -85,11 +85,11 @@ ht-degree: 0%
 
 1. 如果要在Products网格中作为列包含特性，请将&#x200B;**[!UICONTROL Add to Column Options]**&#x200B;设置为`Yes`。
 
-1. 如果要能够按此列筛选&#x200B;_[!UICONTROL Products]_&#x200B;网格，请将&#x200B;**[!UICONTROL Use in Filter Options]**&#x200B;设置为`Yes`。
+1. 如果要能够按此列筛选&#x200B;_[!UICONTROL Products]_网格，请将&#x200B;**[!UICONTROL Use in Filter Options]**设置为`Yes`。
 
 ## 步骤4：输入字段标签
 
-1. 展开&#x200B;**[!UICONTROL Manage titles]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Manage titles]**。
 
 1. 输入要用作字段标签的&#x200B;**[!UICONTROL Title]**。
 
@@ -97,9 +97,13 @@ ht-degree: 0%
 
    ![管理标题](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用[Live Search指南](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)的Live Search分面列表&#x200B;_中的_&#x200B;编辑选项手动编辑标签。
+
 ## 步骤5：描述店面属性
 
-1. 展开&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Storefront Properties]**。
 
    ![店面属性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
@@ -115,7 +119,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >当&#x200B;_[!UICONTROL Use in Search]_&#x200B;设置设置为`No`时，不显示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;设置，并且在具有任何[!UICONTROL Use in Layered Navigation]设置值的搜索中不会使用产品属性。
+   >当&#x200B;_[!UICONTROL Use in Search]_设置设置为`No`时，不显示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;设置，并且在具有任何[!UICONTROL Use in Layered Navigation]设置值的搜索中不会使用产品属性。
 
 1. 要在搜索结果页面的分层导航中使用属性，请将&#x200B;**[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;设置为`Yes`并在&#x200B;**[!UICONTROL Position]**&#x200B;字段中输入一个数字。
 
@@ -123,11 +127,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;字段默认呈灰显状态，您必须先保存该属性，然后才能修改此设置。
+   >_[!UICONTROL Position]_字段默认呈灰显状态，您必须先保存该属性，然后才能修改此设置。
 
 1. 要在价格规则中使用属性，请将&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;设置为`Yes`。
 
-1. 若要允许使用HTML设置文本格式，请将&#x200B;**[!UICONTROL Allow HTML Tags on Storefront]**&#x200B;设置为`Yes`。
+1. 若要允许使用HTML格式化文本，请将&#x200B;**[!UICONTROL Allow HTML Tags on Storefront]**&#x200B;设置为`Yes`。
 
    此设置使WYSIWYG编辑器在编辑字段时可用。
 

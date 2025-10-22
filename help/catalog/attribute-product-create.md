@@ -3,16 +3,16 @@ title: 创建和删除产品属性
 description: 了解如何创建和删除产品属性，这些属性用于描述目录中产品的特定特征。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
+source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # 创建和删除产品属性
 
-您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_&#x200B;页面创建属性。 以下步骤显示如何从&#x200B;_[!UICONTROL Stores]_&#x200B;菜单创建属性。
+您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_页面创建属性。 以下步骤显示如何从_[!UICONTROL Stores]_&#x200B;菜单创建属性。
 
 ## 步骤1：描述基本属性属性
 
@@ -31,7 +31,7 @@ ht-degree: 0%
    | `Text Field` | 单行输入文本字段。 |
    | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
    | `Text Editor` | 属性位置处具有完整功能的文本编辑器。 |
-   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意：_**&#x200B;根据您的系统配置，_管理员&#x200B;_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
+   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_管理员_&#x200B;用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
    | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](product-create-configurable.md)的关键组件。 |
    | `Multiple Select` | 显示接受多个选择的值的下拉列表。 |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 对于[!UICONTROL Dropdown]和[!UICONTROL Multiple Select]输入类型，请执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Manage Options]_&#x200B;下，单击&#x200B;**[!UICONTROL Add Option]**。
+   - 在&#x200B;_[!UICONTROL Manage Options]_下，单击&#x200B;**[!UICONTROL Add Option]**。
 
    - 输入要显示在列表中的第一个值。
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不建议在[!UICONTROL Attribute Code]字段中使用`type`值。 这可能会导致错误，因为`type`值已保留供系统使用。
+   >不建议在`type`字段中使用[!UICONTROL Attribute Code]值。 这可能会导致错误，因为`type`值已保留供系统使用。
 
    ![产品属性 — 高级属性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
 
 1. 设置&#x200B;**[!UICONTROL Scope]**&#x200B;以指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置。
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 1. 若要将此属性添加到[产品列表](products-list.md)，请将以下选项设置为`Yes`。
 
-   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中包括属性作为列。
-   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_&#x200B;列表中的列标题添加筛选器控件。
+   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_列表中包括属性作为列。
+   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_列表中的列标题添加筛选器控件。
 
 ## 步骤3：输入字段标签
 
@@ -104,13 +104,17 @@ ht-degree: 0%
 
    ![产品属性 — 管理标题](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用[Live Search指南](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)的Live Search分面列表&#x200B;_中的_&#x200B;编辑选项手动编辑标签。
+
 ## 步骤4：描述店面属性
 
 1. 在左侧导航中，选择&#x200B;**[!UICONTROL Storefront Properties]**。
 
    ![产品属性 — 店面属性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
 
 1. 如果属性可供搜索，请将&#x200B;**[!UICONTROL Use in Search]**&#x200B;设置为`Yes`。
 
@@ -173,7 +177,7 @@ ht-degree: 0%
 
 在删除属性之前，请确保该属性当前未被目录中的任何产品使用。 确定属性是否正在使用的一个简单方法是使用[导出](../systems/data-export.md)工具检查产品实体属性的列表。 如果属性未包含在列表中，则目录中的任何产品都不会使用该属性。
 
-**_要删除属性：_**
+**_要删除属性:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
