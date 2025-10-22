@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用[Live Search指南](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)的Live Search分面列表&#x200B;_中的_&#x200B;编辑选项手动编辑标签。
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用[Live Search指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)的Live Search分面列表&#x200B;_中的_&#x200B;编辑选项手动编辑标签。
 
 ## 步骤5：描述店面属性
 
