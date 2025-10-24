@@ -2,7 +2,7 @@
 title: 数据馈送同步状态监控
 description: 监视数据导出同步，并识别 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendations]的馈送处理出现的任何问题或延迟。
 feature: Products, Customers, Data Import/Export
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
 workflow-type: tm+mt
 source-wordcount: '1458'
@@ -38,24 +38,24 @@ Adobe Commerce管理员可以使用Commerce管理员中的“数据馈送同步�
 
 >[!TIP]
 >
->要了解有关数据同步过程的更多信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)中的&#x200B;*将数据与SaaS数据导出同步*。
+>要了解有关数据同步过程的更多信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-synchronization)中的&#x200B;*将数据与SaaS数据导出同步*。
 
 ## 安装扩展
 
 所有拥有以下Commerce服务的有效许可证的Commerce商家都可使用“数据馈送状态”页面：
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* 具有有效许可证的[[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/guide-overview)
+* 具有有效许可证的[[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)。
 
 **要求**
 
 * PHP 8.1、8.2、8.3或8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension)，版本103.4.15或更高版本
+* [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/manage-extension)，版本103.4.15或更高版本
 * 访问[repo.magento.com](https://repo.magento.com)
 
-  若要生成密钥并获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+  若要生成密钥并获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
 
 * 访问Adobe Commerce应用程序服务器的命令行。
 
@@ -69,9 +69,9 @@ composer require magento/module-data-exporter-status
 
 有关详细的安装步骤，请参阅以下指南：
 
-* 在云基础架构上的Adobe Commerce上[安装扩展](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* 在云基础架构上的Adobe Commerce上[安装扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [在本地安装Adobe Commerce扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [在本地安装Adobe Commerce扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 访问“数据馈送状态”页面
 
@@ -133,7 +133,7 @@ composer require magento/module-data-exporter-status
 
 >[!TIP]
 >
->要了解有关索引处理的详细信息，请参阅[索引管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)主题。
+>要了解有关索引处理的详细信息，请参阅[索引管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/index-management)主题。
 
 #### Changelog积压
 
@@ -165,7 +165,7 @@ composer require magento/module-data-exporter-status
 
 >[!NOTE]
 >
->Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
+>Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/overview)。
 
 ### 管理失败的导出
 
@@ -266,4 +266,4 @@ composer require magento/module-data-exporter-status
 >[!MORELIKETHIS]
 >
 >* [数据管理仪表板](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+>* [SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/overview)
