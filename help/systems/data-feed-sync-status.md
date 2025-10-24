@@ -1,17 +1,17 @@
 ---
-title: 数据馈送状态监控
+title: 数据馈送同步状态监控
 description: 监视数据导出同步，并识别 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendations]的馈送处理出现的任何问题或延迟。
 feature: Products, Customers, Data Import/Export
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 433d3fd4dc10a81b685262c1e3c06a0da5778841
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 
-# 数据馈送状态监控
+# 数据馈送同步状态监控
 
 Adobe Commerce管理员可以使用Commerce管理员中的“数据馈送同步状态”页面，监控从Adobe Commerce导出到连接的Commerce服务的数据的同步状态。
 
@@ -19,7 +19,7 @@ Adobe Commerce管理员可以使用Commerce管理员中的“数据馈送同步�
 
 此页面提供数据导出馈送的运行状况和性能的实时分析，这些数据导出馈送将产品和类别数据从Commerce传输到外部服务，如[!DNL Product Recommendations]、[!DNL Live Search]和[!DNL Catalog Service]。
 
-同步状态页面仅显示导出状态。 成功状态表示数据已成功导出到SaaS数据库以供发布。 使用[数据管理仪表板](data-dashboard.md)跟踪从Commerce数据库传输到所连接服务的数据。
+同步状态页面仅显示导出状态。 成功状态表示数据导出成功，并且最终可在连接的Commerce服务中使用。 使用[数据管理仪表板](data-dashboard.md)查看实体同步的实际状态。
 
 监控信息源状态有助于确保数据一致性，并可迅速解决导出过程中出现的任何问题。 管理员可以：
 
@@ -38,30 +38,30 @@ Adobe Commerce管理员可以使用Commerce管理员中的“数据馈送同步�
 
 >[!TIP]
 >
->要了解有关数据同步过程的更多信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-synchronization)*中的&#x200B;*将数据与SaaS数据导出同步*。
+>要了解有关数据同步过程的更多信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)中的&#x200B;*将数据与SaaS数据导出同步*。
 
 ## 安装扩展
 
 所有拥有以下Commerce服务的有效许可证的Commerce商家都可使用“数据馈送状态”页面：
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/guide-overview)
-* 具有有效许可证的[[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)。
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* 具有有效许可证的[[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。
 
 **要求**
 
 * PHP 8.1、8.2、8.3或8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/manage-extension)，版本103.4.15或更高版本
+* [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension)，版本103.4.15或更高版本
 * 访问[repo.magento.com](https://repo.magento.com)
 
-  若要生成密钥并获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+  若要生成密钥并获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
 
 * 访问Adobe Commerce应用程序服务器的命令行。
 
 ### 安装步骤
 
-使用编辑器添加`adobe-commerce/module-data-exporter-status`模块：
+使用编辑器添加`magento/module-data-exporter-status`模块：
 
 ```shell
 composer require magento/module-data-exporter-status
@@ -69,13 +69,13 @@ composer require magento/module-data-exporter-status
 
 有关详细的安装步骤，请参阅以下指南：
 
-* 在云基础架构上的Adobe Commerce上[安装扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* 在云基础架构上的Adobe Commerce上[安装扩展](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [在本地安装Adobe Commerce扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [在本地安装Adobe Commerce扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 访问“数据馈送状态”页面
 
-从Commerce管理员访问Commerce管理员的数据馈送状态页面，其地址为&#x200B;**[!DNL System]** >数据传输> **[!DNL Data Feed SyncStatus]**。
+从Commerce管理员访问Commerce管理员的数据馈送状态页面，其地址为&#x200B;**[!DNL System]** >数据传输> **[!DNL Data Feed Sync Status]**。
 
 ![数据馈送同步状态页面汇总了数据馈送导出活动](assets/data-feed-sync-status.png)
 
@@ -133,7 +133,7 @@ composer require magento/module-data-exporter-status
 
 >[!TIP]
 >
->要了解有关索引处理的详细信息，请参阅[索引管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/index-management)主题。
+>要了解有关索引处理的详细信息，请参阅[索引管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)主题。
 
 #### Changelog积压
 
@@ -165,7 +165,7 @@ composer require magento/module-data-exporter-status
 
 >[!NOTE]
 >
->Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/overview)。
+>Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
 
 ### 管理失败的导出
 
@@ -265,5 +265,5 @@ composer require magento/module-data-exporter-status
 
 >[!MORELIKETHIS]
 >
->* [数据管理仪表板](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/overview)
+>* [数据管理仪表板](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
+>* [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
