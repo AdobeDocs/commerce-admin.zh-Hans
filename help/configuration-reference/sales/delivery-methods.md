@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]页面上的配置设置。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '3792'
+source-wordcount: '4148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![统一费率](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![免费送货](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![表费率](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![店内投放](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![UPS XML帐户设置](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![UPS包信息](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -147,19 +147,19 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | 网站 | 设置包可以由UPS指定的最小重量。 如果订购的产品重量小于最小包装重量，则此发运选项不可用。 要验证最小重量，请与您的运输公司核实。 |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 设置表费率发运的处理费计算方法。 选项： <br>**`Fixed`**— 手续费是固定费率。<br>**`Percent`** — 按订单金额的百分比收取手续费。 |
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
-| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**&#x200B;如果键入百分比金额，请使用25%的小数格式`0.25`。 |
+| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_Note:_**&#x200B;如果键入百分比金额，请使用25%的小数格式`0.25`。 |
 
 {style="table-layout:auto"}
 
 ![UPS允许的方法](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 网站 | 指定提供给客户的UPS配送允许的方法。 根据所选配送方式计算配送费率。 |
-| [!UICONTROL Free Method] | 网站 | 标识用于通过UPS免费配送的方法。 要禁用免费送货，请选择“无”。 <br/><br/>**_注意：_**&#x200B;此方法类似于基本的[免运费](../../stores-purchase/shipping-free.md)，但它在结帐期间显示为UPS送货选项。 |
+| [!UICONTROL Free Method] | 网站 | 标识用于通过UPS免费配送的方法。 要禁用免费送货，请选择“无”。 <br/><br/>**_Note:_**&#x200B;此方法类似于基本的[免运费](../../stores-purchase/shipping-free.md)，但在结帐期间会显示为UPS配送选项。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定当订单金额满足免运费阈值时是否应用免运费。 选项： `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 设置订单达到免费配送资格所需达到的最低总金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | 由于任何原因无法使用此配送方式时显示的错误消息。 |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS适用的国家/地区和其他设置](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -195,9 +195,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+以下字段仅在您应用了[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)时才可用(AC-1520)。 此修补程序支持USPS API，这是一个基于REST的平台，取代了Web Tools API。 有关详细信息，请参阅[USPS Web Tools API弃用](../../stores-purchase/carriers.md)。
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL USPS Type] | 网站 | 选择&#x200B;**USPS Rest API**&#x200B;或&#x200B;**USPS Web Tools API**，具体取决于您将使用哪个API。 |
+| [!UICONTROL Consumer Key] | 网站 | 您的REST API的USPS托运人帐户客户端ID。 |
+| [!UICONTROL Consumer Secret] | 网站 | 您的USPS托运人帐户REST API的客户端密钥。 |
+| [!UICONTROL Account Type] | 网站 | USPS付款帐户的类型。 选项： `"EPS"` （企业付款系统）或`"PERMIT"` （允许打印）用于REST API。 <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL Pricing Options] | 网站 | USPS定价选项： **零售**&#x200B;或&#x200B;**商业**。 影响应用的运费。 REST API的默认值为&#x200B;**商业**。 |
+| [!UICONTROL Account Number] | 网站 | 您的USPS **帐号**，用于REST API的付款。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL Customer Registration Identifier(CRID)] | 网站 | 客户注册标识号(CRID)是USPS生成的数字代码，用于唯一标识REST API位置处的企业。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL Mailer Identifier(MID)] | 网站 | 邮件程序标识符(MID)是Intelligent Mail条码中的一个字段，用于识别邮件程序。 USPS会将MID分配给邮件所有者、邮件代理或其他服务提供商，这些服务提供商会请求获取REST API。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL Manifest MID] | 网站 | 为REST API清单指定的唯一邮件程序标识符。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL AES/ITN] | 网站 | USPS AES - Automated Export System / ITN - REST API的内部事务编号。 <br/><br/>**_Note:_**&#x200B;此字段通常是可选的，但在以下情况下为启用送货标签创建而必须填写此字段： <ul><li>装运中每种类型的货物(如附表B出口代码在<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>处所定义)的估价为$2,500或更低，并且不需要出口许可证；或</li><li>这批货物，不管价值如何，都将被运往加拿大，不需要出口许可证。</li></ul> |
+
+{style="table-layout:auto"}
+
 ![USPS打包设置](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -212,26 +229,26 @@ ht-degree: 0%
 
 ![USPS处理费设置](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 设置表费率发运的处理费计算方法。 选项： <br/>**`Fixed`**— 手续费是固定费率。<br/>**`Percent`** — 按订单金额的百分比收取手续费。 |
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
-| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_注意：_**&#x200B;在键入百分比金额时，请使用小数格式`0.25`表示25%。 |
+| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_Note:_**&#x200B;键入百分比金额时，请使用小数格式`0.25`表示25%。 |
 
 {style="table-layout:auto"}
 
 ![USPS允许的方法](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 网站 | 指定提供给客户的USPS装运的允许方法。 根据所选配送方式计算配送费率。 |
-| [!UICONTROL Free Method] | 网站 | 通过USPS设置免费配送方式，或通过选择`None`禁用。 <br/><br/>**_注意：_**&#x200B;此配送方式类似于您商店的免运费方式，但它列为USPS配送方式并标识为USPS配送。 |
+| [!UICONTROL Free Method] | 网站 | 通过USPS设置免费配送方式，或通过选择`None`禁用。 <br/><br/>**_注意:_**&#x200B;此配送方式类似于您商店的免运费方式，但它列为USPS配送方式并标识为USPS配送。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 网站 | 设置符合免费配送资格所需的最低订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | USPS由于任何原因不可用时显示的错误消息。 |
 
@@ -239,7 +256,7 @@ ht-degree: 0%
 
 ![USPS适用的国家/地区](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -253,7 +270,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### 联邦快递帐户设置
 
@@ -291,7 +308,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | 网站 | 确定用于计算手续费的方法。 选项： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**&#x200B;手续费是可选的，显示为附加费用，已添加到FedEx运费中。 |
+| [!UICONTROL Calculate Handling Fee] | 网站 | 确定用于计算手续费的方法。 选项： `Fixed Fee` / `Percentage` <br/><br/>**_Note:_**&#x200B;手续费是可选的，显示为附加费用，已添加到FedEx运费中。 |
 | [!UICONTROL Handling Applied] | 网站 | 确定如何处理手续费。 选项： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 网站 | 根据用于计算金额的方法，指定作为手续费收取的金额。 如果费用基于固定费用，请以小数形式输入金额，如`4.90`。 如果手续费基于订单的百分比，则按百分比输入金额。 例如，要收取订单的6%的费用，请输入值为`.06`。 |
 
@@ -306,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | 网站 | 根据您销售的是企业对消费者(B2C)还是企业对企业(B2B)，设置为以下选项之一： <br/>**`Yes`**— 对于B2C投放<br/>**`No`** — 对于B2B投放 |
 | [!UICONTROL Allowed Methods] | 网站 | 从列表中，选择您支持的装运方法。 具体方法取决于您的联邦快递账户、发货频率和规模，以及您是否允许国际发货。 作为商人，您可能决定只提供陆运。 |
 | [!UICONTROL Hub ID] | 网站 | FedEx提供的ID与[!DNL Smart Post]方法一起使用。 |
-| [!UICONTROL Free Method] | 网站 | 从列表中，选择您喜欢用于免费送货的送货方式。 <br/><br/>**_注意：_**&#x200B;此配送方式类似于常规免运费方式，但它列在FedEx配送选项中，标识为FedEx配送。 |
+| [!UICONTROL Free Method] | 网站 | 从列表中，选择您喜欢用于免费送货的送货方式。 <br/><br/>**_Note:_**&#x200B;此配送方法与常规免运费方法类似，但它列在FedEx配送选项中，标识为FedEx配送。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定免运费是否需要最小订单金额。 选项： <br/>**`Enable`**— 为达到最小金额的订单启用免费FedEx装运。<br/>**`Disable`** — 禁用带有最低订单的免费FedEx运输。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 指定免费送货所需的最小订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | FedEx由于任何原因不可用时显示的消息。 您可以使用默认消息或输入其他消息。 |
@@ -331,7 +348,7 @@ ht-degree: 0%
 
 ![DHL帐户设置](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -347,7 +364,7 @@ ht-degree: 0%
 
 ![DHL包设置](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -363,7 +380,7 @@ ht-degree: 0%
 
 ![DHL允许的方法](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -379,13 +396,13 @@ ht-degree: 0%
 
 ![DHL适用的国家/地区](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL DHL applicable countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | 网站 | 指定允许哪些国家/地区客户使用此配送方式。 选项： <br/>**所有允许的国家/地区** — 所有允许的国家/地区都适用于使用免运费方法。 在[!UICONTROL General]配置页面中指定了允许的国家/地区。 <br/>**特定国家/地区** — 将此配送选项限制为“收货方特定国家/地区”列表中指定的国家/地区。 |
-| [!UICONTROL Ship to Specific Countries] | 网站 | 指定可以发送DHL装运的国家/地区。 如果在[!UICONTROL Ship to Applicable Countries]选项中选择了`Specific Countries`，则使用此选定国家/地区列表。 |
+| [!UICONTROL Ship to Specific Countries] | 网站 | 指定可以发送DHL装运的国家/地区。 如果在`Specific Countries`选项中选择了[!UICONTROL Ship to Applicable Countries]，则使用此选定国家/地区列表。 |
 | [!UICONTROL Show Method if Not Applicable] | 网站 | 确定在结帐期间DHL何时显示为送货方法。 选项： <br/>**`Yes`**- DHL在结账过程中始终显示为送货选项，即使不适用于该订单。<br/>**`No`** - DHL仅在适用于订单（即订单重量超过最大重量金额）时，在结帐期间显示为装运选项。 |
 | [!UICONTROL Debug] | 网站 | 创建包含错误信息的日志文件。 |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，它确定在结账期间与其他交付方法一起列出DHL时的显示顺序。 若要将其放在列表顶部，请输入`0`。 |

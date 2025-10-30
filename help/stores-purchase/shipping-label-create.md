@@ -3,9 +3,9 @@ title: 创建装运标签和包装
 description: 了解如何按订单打包项目并创建配送标签。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 美国联合包裹服务公司在国内和国际上都有船只。 但是，只能为源自美国的货物生成装运标签。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开&#x200B;**[!UICONTROL UPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL UPS]**。
 
 1. 验证您的UPS **[!UICONTROL Shipper Number]**&#x200B;是否正确。
 
@@ -59,11 +59,32 @@ ht-degree: 0%
 
 [!DNL United States Postal Service]在国内和国际上都发货。
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL USPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL USPS]**。
+
+1. 选择&#x200B;**[!UICONTROL USPS Type]**&#x200B;作为`USPS Rest APIs`或`USPS Web Tools API`。
 
 1. 验证&#x200B;**[!UICONTROL Secure Gateway URL]**&#x200B;是否正确。
 
 1. 输入USPS提供给您的&#x200B;**[!UICONTROL Password]**。
+
+1. 验证基于所选&#x200B;**[!UICONTROL USPS Type]**&#x200B;的以下配置是否完成：
+
+   如果您使用的是USPS Web Tools API：
+   - 用户ID
+   - 密码
+
+   如果您使用的是USPS REST API：
+   - 使用者密钥
+   - 使用者密码
+   - 定价选项
+   - 帐户类型
+   - 帐号
+   - 客户注册ID (CRID)
+   - 邮件程序标识符(MID)
+   - 清单MID
+   - AES/ITN
 
 1. 将&#x200B;**[!UICONTROL Size]**&#x200B;设置为`Large`并输入以下维度的值：
 
@@ -78,7 +99,7 @@ ht-degree: 0%
 
 联邦快递在国内和国际上发货。 位于美国境外的商店只能为国际货运创建联邦快递标签。
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL FedEx]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL FedEx]**。
 
 1. 验证以下FedEx凭据是否正确：
 
@@ -92,7 +113,7 @@ ht-degree: 0%
 
 DHL提供国际航运服务。
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL DHL]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL DHL]**。
 
 1. 验证&#x200B;**[!UICONTROL Gateway URL]**&#x200B;是否正确。
 
@@ -124,7 +145,7 @@ DHL提供国际航运服务。
 
 1. 在包中添加或更新产品：
 
-   - 要将订单中的产品添加到包，请单击&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_&#x200B;列显示可用于包的最大产品数。
+   - 要将订单中的产品添加到包，请单击&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_列显示可用于包的最大产品数。
 
    - 选中要添加到包中的每个产品的复选框，然后输入每个产品的&#x200B;**[!UICONTROL Quantity]**。 然后，单击&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -132,7 +153,7 @@ DHL提供国际航运服务。
 
    - 要删除包，请单击&#x200B;**[!UICONTROL Delete Package]**。
 
-   - 要取消订单，请单击&#x200B;**[!UICONTROL Cancel]**。 未创建送货标签，并且清除了&#x200B;_[!UICONTROL Create Shipping Label]_&#x200B;复选框。
+   - 要取消订单，请单击&#x200B;**[!UICONTROL Cancel]**。 未创建送货标签，并且清除了&#x200B;_[!UICONTROL Create Shipping Label]_复选框。
 
    >[!NOTE]
    >
@@ -148,7 +169,7 @@ DHL提供国际航运服务。
 
 1. 在网格中查找订单并打开装运表单。
 
-1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Create Shipping Label]**。
+1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_部分中，单击&#x200B;**[!UICONTROL Create Shipping Label]**。
 
 1. 将订购的产品分发到相应的包中，然后单击&#x200B;**[!UICONTROL OK]**。
 
@@ -156,7 +177,7 @@ DHL提供国际航运服务。
 
 ## 步骤4：打印标签
 
-装运标签以PDF格式生成，并可从管理员处打印。 每个标签包括订单编号和包装编号。
+配送标签以PDF格式生成，并可从管理员处打印。 每个标签包括订单编号和包装编号。
 
 >[!NOTE]
 >
@@ -170,11 +191,11 @@ DHL提供国际航运服务。
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** — 在网格中查找装运并打开记录。
 
-1. 要下载PDF文件，请转到表单的&#x200B;_[!UICONTROL Shipping and Tracking]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Print Shipping Label]**。
+1. 要下载PDF文件，请转到表单的&#x200B;_[!UICONTROL Shipping and Tracking]_部分，然后单击&#x200B;**[!UICONTROL Print Shipping Label]**。
 
    根据您的浏览器设置，可以直接从PDF文件查看和打印送货标签。
 
-   _[!UICONTROL Print Shipping Label]_&#x200B;按钮仅在承运人为装运生成标签后显示。 如果缺少按钮，请单击&#x200B;**[!UICONTROL Create Shipping Label]**。 在Commerce收到来自运营商的标签后，将会显示按钮。
+   _[!UICONTROL Print Shipping Label]_按钮仅在承运人为装运生成标签后显示。 如果缺少按钮，请单击&#x200B;**[!UICONTROL Create Shipping Label]**。 在Commerce收到来自运营商的标签后，将会显示按钮。
 
 ### 方法2：打印多个订单的标签
 
@@ -203,7 +224,7 @@ DHL提供国际航运服务。
 
 ## 创建包
 
-当您选择创建送货标签时，将显示&#x200B;_[!UICONTROL Create Packages]_&#x200B;窗口。 您可以立即开始配置第一个包。
+当您选择创建送货标签时，将显示&#x200B;_[!UICONTROL Create Packages]_窗口。 您可以立即开始配置第一个包。
 
 ### 配置包
 
@@ -215,7 +236,7 @@ DHL提供国际航运服务。
 
    - 指定产品和数量。
 
-     _[!UICONTROL Qty]_&#x200B;列显示可添加的最大数量。 对于第一个包，编号是产品要发运的总数量。
+     _[!UICONTROL Qty]_列显示可添加的最大数量。 对于第一个包，编号是产品要发运的总数量。
 
    - 要将产品添加到包，请单击&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -255,7 +276,7 @@ DHL提供国际航运服务。
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Type] | 指定包的类型。 选择一个预定义值。 每个装运承运人的可用包装类型不同。 当“创建货包”弹出窗口打开时，发运承运人的默认货包将显示在“类型”字段中。 如果您选择的包装不是由装运承运人设计的，则必须输入包装的尺寸。 对于为DHL、FedEx和UPS装运创建的装运标签，“货物类型”字段设置为`Merchandise`。 对于USPS，该字段反映了&#x200B;_[!UICONTROL Create Packages]_&#x200B;窗口中_ Contents _字段的值。 |
+| [!UICONTROL Type] | 指定包的类型。 选择一个预定义值。 每个装运承运人的可用包装类型不同。 当“创建货包”弹出窗口打开时，发运承运人的默认货包将显示在“类型”字段中。 如果您选择的包装不是由装运承运人设计的，则必须输入包装的尺寸。 对于为DHL、FedEx和UPS装运创建的装运标签，“货物类型”字段设置为`Merchandise`。 对于USPS，该字段反映了&#x200B;_窗口中_ Contents _[!UICONTROL Create Packages]_字段的值。 |
 | [!UICONTROL Total Weight] | 程序包的总重。 该字段已预先填充了包中产品的总重量。 度量单位可以设置为磅或千克。 |
 | [!UICONTROL Length] | 程序包长度、整数和浮点数。 如果使用自定义包类型，则会启用该字段。 测量单位可设置为英寸或厘米。 |
 | [!UICONTROL Width] | 包的宽度、整数和浮点数。 如果使用自定义包类型，则会启用该字段。 可以使用“高度”字段旁边的下拉菜单指定度量单位；在英寸和厘米之间选择。 |

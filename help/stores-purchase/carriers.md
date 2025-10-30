@@ -3,9 +3,9 @@ title: 装运承运人设置
 description: 了解您的商店对商业运送帐户的支持。
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关Commerce安装的其他送货服务，请参阅[Commerce Marketplace](../getting-started/commerce-marketplace.md)。
+>有关Commerce Marketplace安装的其他送货服务，请参阅[Commerce](../getting-started/commerce-marketplace.md)。
 
 您必须先完成以下步骤，然后才能为客户提供精选的海运公司：
 
@@ -42,3 +42,20 @@ ht-degree: 0%
 1. 与承运人一起打开装运帐户。
 
 1. 在商店的配置中，输入您的帐号或用户ID及其系统的网关URL。
+
+### 弃用USPS Web Tools API
+
+Adobe Commerce版本2.4.6、2.4.7和2.4.8使用旧版Web Tools API与USPS进行现成可用的传送集成。 USPS引入了USPS API，这是一个基于REST的平台，用于替换旧版Web工具API。
+
+2026年1月25日，USPS将停用旧版Web工具API。 在此日期之后，对Web工具API的所有请求都将失败。
+
+要避免USPS运输服务中断，请在2026年1月25日之前执行以下操作：
+
+- 应用[USPS REST API迁移质量补丁](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520)以添加支持与USPS REST API集成。
+
+- 更新Commerce USPS配置以使用REST API：
+
+   - [USPS装运承运人配置](usps.md)
+
+   - [装运标签配置](shipping-label-create.md)
+

@@ -3,9 +3,9 @@ title: 配置配送标签
 description: 了解如何配置商店以生成装运标签。
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | [!UICONTROL Carrier] | 要求 |
 |-------|--------|
-| [USPS](usps.md) | 需要USPS帐户。 自2018年2月23日起，USPS要求所有装运标签均包含邮资。 |
+| [USPS](usps.md) | 需要用于装运标签邮资的USPS帐户。 |
 | [UPS](ups.md) | 需要UPS帐户。 发运标签仅适用于源于美国的发运。美国以外的商店需要特定凭据才能运输。 |
 | [联邦快递](fedex.md) | 需要FedEx帐户。 对于美国以外的商店，仅支持对国际运输使用运输标签。 联邦快递不允许来自美国境外的国内货物运送 |
 | [DHL](dhl.md) | 需要DHL帐户。 仅对源自美国的装运支持装运标签。 |
@@ -63,7 +63,7 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Shipping Settings]**。
 
-1. 展开&#x200B;**[!UICONTROL Origin]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Origin]**，并验证以下字段是否完整：
 
    - **[!UICONTROL Street Address]** — 发货地点的街道地址。 例如，公司或仓库的位置。 装运标签需要此字段。
    - **[!UICONTROL Street Address Line 2]** — 任何其他地址信息，如楼层或入口。 建议使用此字段。
@@ -72,13 +72,13 @@ USPS和FedEx向国际发运的所有产品均要求生产国。 如果您有许�
 
 1. 在左侧面板的&#x200B;_Sales_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开&#x200B;**[!UICONTROL USPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL USPS]**，并验证以下字段是否完整：
 
    - **[!UICONTROL Secure Gateway URL]** — 系统自动进入网关URL。
    - **[!UICONTROL Password]** — 密码由USPS提供，允许您通过Web服务访问其系统。
    - **长度、宽度、高度、周长** — 包的默认尺寸。 若要显示这些字段，请将&#x200B;**[!UICONTROL Size]**&#x200B;设置为`Large`。
 
-1. 展开&#x200B;**FedEx**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并验证以下字段是否完整：
+1. 展开![FedEx](../assets/icon-display-expand.png)部分的&#x200B;**扩展选择器**，并验证以下字段是否完整：
 
    - 计量器编号
    - 键
