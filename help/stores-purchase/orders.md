@@ -111,7 +111,7 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.
 | [!UICONTROL Grand Total (Base)] | 订单的总计。 |
 | [!UICONTROL Grand Total (Purchased)] | 订单中购买的产品总数。 |
 | [!UICONTROL Status] | 当前订单状态。 |
-| [!UICONTROL Action] | _[!UICONTROL View]_在编辑模式下打开订单。 |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;在编辑模式下打开订单。 |
 | [!UICONTROL Allocated sources] | 分配给该特定订单的来源。 |
 
 {style="table-layout:auto"}

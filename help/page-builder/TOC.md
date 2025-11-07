@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder]用户指南 {#page-builder}
 
 - [[!DNL Page Builder]用户指南](guide-overview.md)
-- [ [!DNL Page Builder]简介](introduction.md)
+- [&#x200B; [!DNL Page Builder]简介](introduction.md)
 - [发行说明](release-notes.md)
 - [配置和设置](setup.md)
 - 演练 {#walkthrough}
