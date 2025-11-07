@@ -5,9 +5,9 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
+source-git-commit: 9360b43cf9b4f6d3040b40c27abf2c678a4de7c3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '156'
 ht-degree: 6%
 
 ---
@@ -68,4 +68,4 @@ ht-degree: 6%
 + 引用 {#reference}
    + [向后不兼容的更改](backward-incompatible-changes.md)
    + [包](packages.md)
-+ [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+

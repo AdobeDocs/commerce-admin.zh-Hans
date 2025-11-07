@@ -3,18 +3,18 @@ title: 订购
 description: 了解订单工作区和用于在Admin中查找订单的搜索功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
 
 # 订购
 
-_订单_&#x200B;网格列出所有当前订单并通过[工作流](order-processing.md)跟踪其进度和[订单状态](order-status.md)。 要理解基本流程，一个简单的方法是订单成为[发票](invoices.md)，而发票成为[装运](shipments.md)。 网格表示流程的第一阶段，您可以在其中更新[现有订单](order-update.md)和创建订单。
+_订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.md)跟踪其进度和[订单状态](order-processing.md)。 要理解基本流程，一个简单的方法是订单成为[发票](invoices.md)，而发票成为[装运](shipments.md)。 网格表示流程的第一阶段，您可以在其中更新[现有订单](order-update.md)和创建订单。
 
-通常，订单是在客户从店面完成结帐流程时创建的。 但是，如果客户需要帮助，您还可以访问其[购物车](shopping-assisted-cart-manage.md)或[从&#x200B;_订单_&#x200B;网格或直接从其客户帐户创建订单](customer-account-create-order.md)。
+通常，订单是在客户从店面完成结帐流程时创建的。 但是，如果客户需要帮助，您还可以访问其[购物车](shopping-assisted-cart-manage.md)或[从](customer-account-create-order.md)订单&#x200B;_网格或直接从其客户帐户创建订单_。
 
 ## 订单工作区
 
@@ -111,7 +111,7 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-process
 | [!UICONTROL Grand Total (Base)] | 订单的总计。 |
 | [!UICONTROL Grand Total (Purchased)] | 订单中购买的产品总数。 |
 | [!UICONTROL Status] | 当前订单状态。 |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;在编辑模式下打开订单。 |
+| [!UICONTROL Action] | _[!UICONTROL View]_在编辑模式下打开订单。 |
 | [!UICONTROL Allocated sources] | 分配给该特定订单的来源。 |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-process
 
 ### 筛选搜索
 
-1. 要显示选择的搜索筛选器，请单击&#x200B;_筛选器_ （![漏斗图标](../assets/icon-filter-search.png) ）选项卡。
+1. 要显示选择的搜索筛选器，请单击&#x200B;_筛选器_ (![Funnel图标](../assets/icon-filter-search.png) )选项卡。
 
    ![订购筛选器](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-process
 
 {style="table-layout:auto"}
 
-## 资源疑难解答
-
-有关排查订单问题的帮助，请参阅以下Commerce支持知识库文章：
-
-- [订单显示错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=zh-Hans)
-- [订单未显示在Admin的“订单”网格中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

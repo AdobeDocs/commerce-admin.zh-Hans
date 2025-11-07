@@ -1,14 +1,14 @@
 ---
 user-guide-title: '[!DNL Page Builder]用户指南'
-user-guide-description: 了解如何使用 [!DNL Page Builder] 功能通过自定义版面创建内容丰富的页面，以增强您的视觉叙事能力，并提高客户参与度和忠诚度。
+user-guide-description: 了解如何使用 [!DNL Page Builder] 功能通过自定义布局创建内容丰富的页面，以增强您的可视化storytelling，并提高客户参与度和忠诚度。
 breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: d36acfb2c87af08c3d4a711a161183d76fcba312
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder]用户指南 {#page-builder}
 
 - [[!DNL Page Builder]用户指南](guide-overview.md)
-- [&#x200B; [!DNL Page Builder]简介](introduction.md)
+- [ [!DNL Page Builder]简介](introduction.md)
 - [发行说明](release-notes.md)
 - [配置和设置](setup.md)
 - 演练 {#walkthrough}
@@ -47,5 +47,3 @@ ht-degree: 8%
    - [产品](products.md)
    - [产品推荐](recommendations.md)
 - [模板](templates.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
-

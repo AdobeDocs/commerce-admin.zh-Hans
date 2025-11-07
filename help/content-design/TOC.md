@@ -3,9 +3,9 @@ user-guide-title: 内容和设计指南
 user-guide-description: 面向Adobe Commerce和Magento Open Source管理员以及电子商务营销人员的有关内容和设计功能的全面信息。
 breadcrumb-title: 内容和设计
 feature: CMS, Page Content
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: 198ceac9ae9bf47211295567231b1a43beff3927
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '250'
 ht-degree: 4%
 
 ---
@@ -46,16 +46,16 @@ ht-degree: 4%
       - [价格规则中的动态块](dynamic-blocks-price-rules.md)
    - 小组件 {#widgets}
       - [概述](widgets.md)
-      - [创建和管理小组件](widget-create.md)
-      - [使用构件定位块](widget-static-block.md)
-      - [新产品列表小组件](widget-new-products-list.md)
+      - [创建和管理构件](widget-create.md)
+      - [使用小组件定位块](widget-static-block.md)
+      - [新产品列表构件](widget-new-products-list.md)
       - [订单和退货小组件](widget-orders-returns.md)
       - [目录事件轮播小组件](widget-event-carousel.md)
 - WYSIWYG编辑器 {#wysiwyg}
    - [概述](editor.md)
    - [插入链接](editor-insert-link.md)
    - [插入图像](editor-insert-image.md)
-   - [插入小组件](editor-widget.md)
+   - [插入构件](editor-widget.md)
    - [插入变量](editor-insert-variable.md)
    - 媒体存储 {#storage}
       - [概述](media-storage.md)
@@ -65,7 +65,7 @@ ht-degree: 4%
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock集成](adobe-stock.md)
       - [使用Adobe Stock图像](adobe-stock-manage.md)
-      - [保存Stock图像预览](adobe-stock-save-preview.md)
+      - [保存图库图像预览](adobe-stock-save-preview.md)
       - [许可Stock图像](adobe-stock-license-image.md)
    - 媒体集 {#gallery}
       - [概述](media-gallery.md)
@@ -91,4 +91,4 @@ ht-degree: 4%
    - [暂存仪表板](content-staging-dashboard.md)
    - [添加营销活动项目](content-staging-add-item.md)
    - [预览营销活动](content-staging-preview.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+

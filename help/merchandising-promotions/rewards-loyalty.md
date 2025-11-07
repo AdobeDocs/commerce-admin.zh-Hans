@@ -3,9 +3,9 @@ title: 奖励和忠诚计划
 description: 了解可用于提高客户参与度和客户忠诚度的奖励积分系统。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Reward Points]**。
 
-1. 展开&#x200B;**[!UICONTROL Reward Points]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Reward Points]**&#x200B;并执行以下操作：
 
    - 要激活奖励积分，请将&#x200B;**[!UICONTROL Enable Reward Points Functionality]**&#x200B;设置为`Yes`。
 
@@ -90,7 +90,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 在此步骤中，指定可为各种客户活动获得的奖励积分数。 当客户完成分配了点的活动时，将会向客户显示一条消息，指明他们已获得多少点。
 
-1. 展开&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**。
 
    ![客户配置 — 客户获取奖励积分的操作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -122,7 +122,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 ### 步骤3. 完成电子邮件通知设置
 
-1. 展开&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Email Notification Settings]**。
 
    ![客户配置 — 奖励点数电子邮件通知](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找客户，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_。
 
 1. 在&#x200B;_客户信息_&#x200B;下，选择&#x200B;**[!UICONTROL Reward Points]**&#x200B;部分。
 
@@ -164,7 +164,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 单击&#x200B;**[!UICONTROL Save Customer]**。
 
-与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;块中。
+与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_块中。
 
 ## 字段描述
 
@@ -183,8 +183,3 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 {style="table-layout:auto"}
 
-## 资源疑难解答
-
-有关排查奖励点问题的帮助，请参阅以下Commerce支持知识库文章：
-
-- [404错误 — 正在删除多送货结帐的奖励点](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=zh-Hans)
