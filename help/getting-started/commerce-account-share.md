@@ -112,7 +112,7 @@ ht-degree: 0%
    > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果该帐户具有[命名模式且无法删除](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)，则这是因为共享访问是由API创建的，而不是直接从[Commerce帐户](https://account.magento.com/)创建的。
    > 
    > 如果不能删除，只需让帐户所有者修改共享访问帐户，并在授予帐户权限下取消选中每个项目。 在该更新之后，用户将无法再访问任何帐户资源。
-   > ![图像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![图像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.zh-Hans/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
