@@ -5,10 +5,10 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: d36acfb2c87af08c3d4a711a161183d76fcba312
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '98'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder]用户指南 {#page-builder}
 
 - [[!DNL Page Builder]用户指南](guide-overview.md)
-- [&#x200B; [!DNL Page Builder]简介](introduction.md)
+- [ [!DNL Page Builder]简介](introduction.md)
 - [发行说明](release-notes.md)
 - [配置和设置](setup.md)
 - 演练 {#walkthrough}
@@ -47,3 +47,4 @@ ht-degree: 8%
    - [产品](products.md)
    - [产品推荐](recommendations.md)
 - [模板](templates.md)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

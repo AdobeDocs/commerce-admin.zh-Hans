@@ -2,9 +2,9 @@
 user-guide-title: 客户管理指南
 breadcrumb-title: 客户管理
 feature: Customers
-source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ ht-degree: 0%
    + [创建和删除客户区段](customer-segment-create.md)
    + [价格规则中的客户区段](customer-segment-price-rule.md)
    + [客户区段报表](customer-segment-reports.md)
-
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

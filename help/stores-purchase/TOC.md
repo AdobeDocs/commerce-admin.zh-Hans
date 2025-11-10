@@ -5,9 +5,9 @@ breadcrumb-title: 商店和购买体验
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,3 +131,4 @@ ht-degree: 3%
       + [送货标签概述](shipping-labels.md)
       + [配置配送标签](shipping-label-configure.md)
       + [创建配送标签](shipping-label-create.md)
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
