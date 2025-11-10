@@ -58,4 +58,4 @@ ht-degree: 7%
    - [概述](shipments.md)
    - [创建装运](shipments-create.md)
 - [CLI参考](cli.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)

@@ -131,4 +131,4 @@ ht-degree: 3%
       + [送货标签概述](shipping-labels.md)
       + [配置配送标签](shipping-label-configure.md)
       + [创建配送标签](shipping-label-create.md)
-+ [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
