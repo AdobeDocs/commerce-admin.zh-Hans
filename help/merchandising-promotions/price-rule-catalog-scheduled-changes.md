@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >无论何时更新任何规则信息参数，都应确保&#x200B;_[!UICONTROL Status]_设置正确。 如果您希望更改产生一个主动应用的规则，请将状态设置为`Active`。
+   >无论何时更新任何规则信息参数，都应确保&#x200B;_[!UICONTROL Status]_&#x200B;设置正确。 如果您希望更改产生一个主动应用的规则，请将状态设置为`Active`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -112,4 +112,4 @@ ht-degree: 0%
 
    要查看不同商店视图的计划更改，请单击“预览”页面标题中的&#x200B;**[!UICONTROL Scope]**。 选择要预览的网站、商店或商店视图。
 
-1. 如有必要，请返回日历并单击&#x200B;**[!UICONTROL View/Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_以打开另一个计划更新。
+1. 如有必要，请返回日历并单击&#x200B;**[!UICONTROL View/Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_&#x200B;以打开另一个计划更新。

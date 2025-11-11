@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_部分包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可扩展部分。
+   _[!UICONTROL Rule Information]_&#x200B;部分包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可扩展部分。
 
    ![目录价格规则 — 信息](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -207,9 +207,9 @@ ht-degree: 0%
 
 1. 更新规则的属性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_页。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页。
 
-   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_页面。
+   - ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)单击列表中的规则以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页面。
 
 1. 测试规则以确保其正常工作。
 
