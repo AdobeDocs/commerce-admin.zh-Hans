@@ -3,7 +3,7 @@ title: URL重写
 description: 了解URL重写以及使用Commerce URL重写工具更改与产品、类别或CMS页面关联的URL。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
 source-wordcount: '905'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
 
 URL重写工具允许您更改与产品、类别或CMS页面关联的任何URL。 创建URL重写时，Commerce会自动创建永久重定向(301)，以便将指向旧URL的任何链接重定向到新地址。
 
