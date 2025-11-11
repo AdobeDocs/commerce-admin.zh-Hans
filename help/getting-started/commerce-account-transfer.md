@@ -14,11 +14,11 @@ ht-degree: 0%
 
 随着业务职责变化，您可能需要将您的Commerce帐户转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)管理用户访问权限&#x200B;__。
+以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户(Cloud项目或New Relic)所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans)管理用户访问权限&#x200B;__。
 
 >[!IMPORTANT]
 >
->如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
+>如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
 
 ## 识别您的传输类型
 
@@ -120,7 +120,7 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 >
 >您必须具有电子邮件地址的访问权限，才能检索包含确认代码的电子邮件。
 >
->如果您无法访问帐户电子邮件，请要求IT团队在您的公司电子邮件系统中为帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
+>如果您无法访问帐户电子邮件，请要求IT团队在您的公司电子邮件系统中为帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
 
 1. 单击&#x200B;**[!UICONTROL Change]**。
 
@@ -172,4 +172,4 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 >[!IMPORTANT]
 >
->[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，通知支持团队您已更新帐户所有者的电子邮件地址。 团队必须执行其他步骤以完成更新，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件上的电子邮件地址。 在您的请求中包含以前帐户所有者的电子邮件地址。
+>[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，通知支持团队您已更新帐户所有者的电子邮件地址。 团队必须执行其他步骤以完成更新，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件上的电子邮件地址。 在您的请求中包含以前帐户所有者的电子邮件地址。
