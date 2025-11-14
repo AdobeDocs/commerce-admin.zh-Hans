@@ -4,9 +4,9 @@ description: 了解如何运行增强的安全扫描并监控每个Adobe Commerc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 - 访问跟踪和监控站点进度的历史安全报告。
 - 访问显示成功和失败检查以及任何建议操作的扫描报告。
 
-安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)设置安全扫描工具&#x200B;__。
+安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)设置安全扫描工具&#x200B;__。
 
 ![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 0%
    1. 阅读&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 单击&#x200B;**[!UICONTROL Agree]**&#x200B;继续。
 
-3. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
+3. 在&#x200B;_[!UICONTROL Monitored Websites]_页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多个具有不同域的站点，请为每个域配置单独的扫描。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    1. 完成后，单击&#x200B;**[!UICONTROL Save Configuration]**。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
 
 >[!TAB PWA店面]
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
       构建过程完成后，更改将部署到您的PWA店面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
 
 >[!TAB AEM店面]
 
@@ -134,6 +134,10 @@ ht-degree: 0%
    1. 在AEM storefront项目目录下，转到`head.html`。
    1. 将复制的确认代码(生成的HTML Content或META Tag)添加到`head.html`文件并保存更改。
 
+   >[!NOTE]
+   >
+   >仅当直接将确认添加到AEM storefront项目目录中的`head.html`文件时，验证站点所有权才起作用。 无法通过“文档创作”或“通用编辑器”等网页编辑工具添加它。
+
    ![复制确认码](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. 使用Git CLI工具暂存、提交这些更改并将其推送到项目存储库。
@@ -146,7 +150,7 @@ ht-degree: 0%
 
    构建过程完成后，更改将部署到您的AEM商店前面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ ht-degree: 0%
 
 要管理已识别为误报的扫描失败，请执行以下步骤：
 
-1. 从&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
+1. 从&#x200B;_[!UICONTROL Monitored Websites]_页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在报表视图中，找到要标记为误报的失败扫描。
 
@@ -215,13 +219,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分，并从风险分数中排除。
+忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_部分，并从风险分数中排除。
 
 ### 停止忽略扫描失败
 
 如果需要将以前忽略的扫描故障恢复到活动监视状态，请执行以下步骤：
 
-1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分。
+1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_部分。
 
 1. 对于要恢复的扫描失败，单击&#x200B;**[!UICONTROL Stop Ignoring]**。
 
@@ -229,7 +233,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_&#x200B;部分，并包含在您的风险分数中。
+扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_部分，并包含在您的风险分数中。
 
 ### 查看忽略的扫描失败
 
