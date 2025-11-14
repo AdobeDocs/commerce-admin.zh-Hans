@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了有关<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态扩展</a>的文档，用于监视从Adobe Commerce到Commerce SaaS数据库的数据导出馈送同步，以发布到连接的Commerce服务（实时搜索、产品推荐、目录服务）。 可从Commerce管理界面的“系统”菜单中找到“数据同步状态”页面。</p>
+      <td><p>添加了有关<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态扩展</a>的文档，用于监视从Adobe Commerce到Commerce SaaS数据库的数据导出馈送同步，以发布到连接的Commerce服务（实时搜索、产品推荐、目录服务）。 可从Commerce管理界面的“系统”菜单中找到“数据同步状态”页面。</p>
 </td>
       <td>
         新主题
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了2025年10月B2B安全修补程序<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
+      <td><p>添加了2025年10月B2B安全修补程序<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了关于如何在Adobe Commerce as a Cloud Service管理员中查看和编辑<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自定义订单属性</a>的信息。</p>
+      <td><p>添加了关于如何在Adobe Commerce as a Cloud Service管理员中查看和编辑<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自定义订单属性</a>的信息。</p>
 </td>
       <td>
         重大更新
