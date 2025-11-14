@@ -44,7 +44,7 @@ ht-degree: 0%
    1. 阅读&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 单击&#x200B;**[!UICONTROL Agree]**&#x200B;继续。
 
-3. 在&#x200B;_[!UICONTROL Monitored Websites]_页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
+3. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面上，单击&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多个具有不同域的站点，请为每个域配置单独的扫描。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    1. 完成后，单击&#x200B;**[!UICONTROL Save Configuration]**。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
 
 >[!TAB PWA店面]
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
       构建过程完成后，更改将部署到您的PWA店面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
 
 >[!TAB AEM店面]
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
    构建过程完成后，更改将部署到您的AEM商店前面。
 
-1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立域的所有权。
+1. 返回到Commerce帐户中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;页面，然后单击&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立域的所有权。
 
 >[!ENDTABS]
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
 要管理已识别为误报的扫描失败，请执行以下步骤：
 
-1. 从&#x200B;_[!UICONTROL Monitored Websites]_页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
+1. 从&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;页面，单击要管理的站点的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在报表视图中，找到要标记为误报的失败扫描。
 
@@ -219,13 +219,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_部分，并从风险分数中排除。
+忽略的扫描失败将移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分，并从风险分数中排除。
 
 ### 停止忽略扫描失败
 
 如果需要将以前忽略的扫描故障恢复到活动监视状态，请执行以下步骤：
 
-1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_部分。
+1. 在报表视图中，滚动到&#x200B;_[!UICONTROL Ignored Results]_&#x200B;部分。
 
 1. 对于要恢复的扫描失败，单击&#x200B;**[!UICONTROL Stop Ignoring]**。
 
@@ -233,7 +233,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Apply Changes]**&#x200B;保存您的选择。
 
-扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_部分，并包含在您的风险分数中。
+扫描失败将移回到&#x200B;_[!UICONTROL Failed Scans]_&#x200B;部分，并包含在您的风险分数中。
 
 ### 查看忽略的扫描失败
 
