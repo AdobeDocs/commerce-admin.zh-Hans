@@ -2,10 +2,10 @@
 title: 添加和删除页面
 description: 了解如何添加和删除 [!DNL Commerce] 商店中使用的内容页面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ ht-degree: 0%
 ### 第2步：完成内容
 
 根据您的[高级内容工具配置](../configuration-reference/general/content-management.md)，添加页面内容。
+
+>[!NOTE]
+>
+>页面生成器内容编辑器不显示CMS页面元素的预览，这些元素在默认商店视图中不可用。 例如，您无法预览仅分配给非默认存储视图的CMS块。 在这种情况下，您必须先发布CMS页面。 然后，您可以直接在店面中查看此页面。 或者，您可以通过选择[!UICONTROL Pages]列中的CMS页面[!UICONTROL View]，从管理员的[!UICONTROL Action]网格中查看该页面。
 
 #### 使用页面生成器内容工具
 
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 1. 输入您选择的高值&#x200B;**[!UICONTROL Meta Keywords]**，搜索引擎可以使用它来索引页面。
 
-   用逗号分隔多个单词。 某些搜索引擎会忽略元关键字，但其他搜索引擎会使用元关键字。
+   用逗号分隔多个单词。 Meta关键字会被某些搜索引擎忽略，但会被其他搜索引擎使用。
 
 1. 对于&#x200B;**[!UICONTROL Meta Description]**，为搜索结果列表输入页面的简要说明。
 
@@ -146,13 +150,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回页面网格。
 
-1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 在网格中查找该页面，并在&#x200B;**[!UICONTROL View]**&#x200B;列中选择&#x200B;_[!UICONTROL Action]_。
 
 1. 要返回到网格，请单击浏览器窗口左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步骤8：发布页面
 
-1. 在网格的&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 在网格的&#x200B;**[!UICONTROL Edit]**&#x200B;列中选择&#x200B;_[!UICONTROL Action]_。
 
 1. 将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
@@ -166,7 +170,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要复制的页面，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_。
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -207,7 +211,7 @@ ht-degree: 0%
 
 ## 删除页面
 
-有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_&#x200B;网格或&#x200B;_[!UICONTROL Edit]_&#x200B;页面中删除。
+有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_网格或_[!UICONTROL Edit]_&#x200B;页面中删除。
 
 ### 方法1：从“页面”网格中删除页面
 
@@ -225,7 +229,7 @@ ht-degree: 0%
 
 1. 查找要删除的页面。
 
-1. 在页面实体的&#x200B;_[!UICONTROL Actions]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
+1. 在页面实体的&#x200B;_[!UICONTROL Actions]_列中，单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按钮栏中，单击&#x200B;**[!UICONTROL Delete Page]**。
 
