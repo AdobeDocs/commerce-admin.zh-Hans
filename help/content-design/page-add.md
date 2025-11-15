@@ -211,7 +211,7 @@ ht-degree: 0%
 
 ## 删除页面
 
-有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_网格或_[!UICONTROL Edit]_&#x200B;页面中删除。
+有两种方法可删除已创建的页面。 您可以将其从&#x200B;_[!UICONTROL Pages]_&#x200B;网格或&#x200B;_[!UICONTROL Edit]_&#x200B;页面中删除。
 
 ### 方法1：从“页面”网格中删除页面
 
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 1. 查找要删除的页面。
 
-1. 在页面实体的&#x200B;_[!UICONTROL Actions]_列中，单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
+1. 在页面实体的&#x200B;_[!UICONTROL Actions]_&#x200B;列中，单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按钮栏中，单击&#x200B;**[!UICONTROL Delete Page]**。
 

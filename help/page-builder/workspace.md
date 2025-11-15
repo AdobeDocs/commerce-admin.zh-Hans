@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-启用[[!DNL Page Builder] 后](setup.md)，将修改&#x200B;_[!UICONTROL Content]_部分和内容创建过程，以便利用CMS [!DNL Page Builder]页面[、](../content-design/page-add.md)产品[和](../catalog/product-content.md)类别[页面、](../catalog/categories-content-settings.md)块[和](../content-design/block-add.md)动态块[的高级](../content-design/dynamic-blocks.md)工具。 此部分包括_&#x200B;内容标题&#x200B;_字段、内容预览和轻松访问全屏[!DNL Page Builder]工作区。
+启用[[!DNL Page Builder] 后](setup.md)，将修改&#x200B;_[!UICONTROL Content]_&#x200B;部分和内容创建过程，以便利用CMS [!DNL Page Builder]页面[、](../content-design/page-add.md)产品[和](../catalog/product-content.md)类别[页面、](../catalog/categories-content-settings.md)块[和](../content-design/block-add.md)动态块[的高级](../content-design/dynamic-blocks.md)工具。 此部分包括_&#x200B;内容标题&#x200B;_字段、内容预览和轻松访问全屏[!DNL Page Builder]工作区。
 
 预览为![的[!DNL Page Builder]内容部分](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->显示在页面顶部的&#x200B;_[!UICONTROL Content Heading]_字段是一个旧版字段，它支持使用以前的[!DNL Commerce]版本创建的内容。 但是，它不是[!DNL Page Builder]的一部分。 根据与当前主题关联的样式表，[!UICONTROL Content Heading]将格式化为H1标题。 它位于由[!DNL Page Builder]阶段定义的活动内容区域正上方。
+>显示在页面顶部的&#x200B;_[!UICONTROL Content Heading]_&#x200B;字段是一个旧版字段，它支持使用以前的[!DNL Commerce]版本创建的内容。 但是，它不是[!DNL Page Builder]的一部分。 根据与当前主题关联的样式表，[!UICONTROL Content Heading]将格式化为H1标题。 它位于由[!DNL Page Builder]阶段定义的活动内容区域正上方。
 
-为了更好地控制所有级别标题的位置和格式，建议将&#x200B;_[!UICONTROL Content Heading]_字段留空，并使用[!DNL Page Builder] [标题](heading.md)内容类型。
+为了更好地控制所有级别标题的位置和格式，建议将&#x200B;_[!UICONTROL Content Heading]_&#x200B;字段留空，并使用[!DNL Page Builder] [标题](heading.md)内容类型。
 
 ![内容标题和其他标题](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## 预览
 
-当您展开&#x200B;_[!UICONTROL Content]_部分并且存在使用[!DNL Page Builder]创建的现有内容时，它将显示内容在页面中显示的预览。 单击&#x200B;**[!UICONTROL Edit with Page Builder]**或内容预览区域以打开[!DNL Page Builder]工作区，您可以在其中进行任何需要的更新。
+当您展开&#x200B;_[!UICONTROL Content]_&#x200B;部分并且存在使用[!DNL Page Builder]创建的现有内容时，它将显示内容在页面中显示的预览。 单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或内容预览区域以打开[!DNL Page Builder]工作区，您可以在其中进行任何需要的更新。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ _视区_&#x200B;是用户看到的网页的可见区域。 在全屏设计模式
 
 ### 断点设置
 
-视区按钮还提供了根据所选视区将不同的断点样式应用于内容类型的选项。 默认情况下，[!DNL Page Builder]为行、列、选项卡、选项卡项、横幅、滑块和幻灯片的&#x200B;_[!UICONTROL Minimum Height]_字段提供断点设置。 当选择移动设备视区，然后打开其中一个内容类型的编辑器时，您可以输入特定于移动设备视区断点的字段值。 允许特定断点设置的内容类型字段在字段右侧显示一个图标，类似于以下行示例：
+视区按钮还提供了根据所选视区将不同的断点样式应用于内容类型的选项。 默认情况下，[!DNL Page Builder]为行、列、选项卡、选项卡项、横幅、滑块和幻灯片的&#x200B;_[!UICONTROL Minimum Height]_&#x200B;字段提供断点设置。 当选择移动设备视区，然后打开其中一个内容类型的编辑器时，您可以输入特定于移动设备视区断点的字段值。 允许特定断点设置的内容类型字段在字段右侧显示一个图标，类似于以下行示例：
 
 断点设置的![图标指示器](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -91,7 +91,7 @@ _视区_&#x200B;是用户看到的网页的可见区域。 在全屏设计模式
 
 ### 布局
 
-_[!UICONTROL Layout]_面板的[!DNL Page Builder]部分用于将行、列或选项卡添加到阶段。 将内容类型从面板拖到舞台上时，会显示一个容器，其中包含特定于内容类型的选项工具箱。
+_[!UICONTROL Layout]_&#x200B;面板的[!DNL Page Builder]部分用于将行、列或选项卡添加到阶段。 将内容类型从面板拖到舞台上时，会显示一个容器，其中包含特定于内容类型的选项工具箱。
 
 默认情况下，[!DNL Page Builder]阶段为空。 将布局内容类型从面板拖到舞台时，可以将它们放置在页面上的其他布局容器的上面、下面或内部。 只能将行直接添加到阶段。
 
@@ -107,7 +107,7 @@ _[!UICONTROL Layout]_面板的[!DNL Page Builder]部分用于将行、列或选�
 
 ### 元素
 
-使用&#x200B;_[!UICONTROL Elements]_面板的[!DNL Page Builder]部分将文本、标题、按钮、分隔线和HTML代码添加到[[!DNL Page Builder] 阶段](workspace.md#stage)上的任何布局容器中。 将内容类型从面板拖到行或列，或者拖到舞台上的选项卡集时，会显示一个容器。 使用内容类型工具箱访问特定于类型的设置。
+使用&#x200B;_[!UICONTROL Elements]_&#x200B;面板的[!DNL Page Builder]部分将文本、标题、按钮、分隔线和HTML代码添加到[[!DNL Page Builder] 阶段](workspace.md#stage)上的任何布局容器中。 将内容类型从面板拖到行或列，或者拖到舞台上的选项卡集时，会显示一个容器。 使用内容类型工具箱访问特定于类型的设置。
 
 具有元素内容类型的![[!DNL Page Builder]面板](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -123,7 +123,7 @@ _[!UICONTROL Layout]_面板的[!DNL Page Builder]部分用于将行、列或选�
 
 ### 媒体
 
-使用&#x200B;_[!UICONTROL Media]_面板的[!DNL Page Builder]部分将图像、视频、横幅、滑块和[!DNL Google Maps]添加到[[!DNL Page Builder] 舞台](workspace.md#stage)上的任何布局容器中。 将媒体内容类型从面板拖到舞台时，会显示一个容器，其中包含特定于内容类型的选项工具箱。
+使用&#x200B;_[!UICONTROL Media]_&#x200B;面板的[!DNL Page Builder]部分将图像、视频、横幅、滑块和[!DNL Google Maps]添加到[[!DNL Page Builder] 舞台](workspace.md#stage)上的任何布局容器中。 将媒体内容类型从面板拖到舞台时，会显示一个容器，其中包含特定于内容类型的选项工具箱。
 
 具有媒体内容类型的![[!DNL Page Builder]面板](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -139,7 +139,7 @@ _[!UICONTROL Layout]_面板的[!DNL Page Builder]部分用于将行、列或选�
 
 ### 添加内容
 
-使用&#x200B;_[!UICONTROL Add Content]_面板的[!DNL Page Builder]部分将现有内容添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 将媒体内容类型从面板拖到舞台时，会显示一个容器。 使用内容类型工具箱访问特定于此类型的_&#x200B;设置&#x200B;_。
+使用&#x200B;_[!UICONTROL Add Content]_&#x200B;面板的[!DNL Page Builder]部分将现有内容添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 将媒体内容类型从面板拖到舞台时，会显示一个容器。 使用内容类型工具箱访问特定于此类型的_&#x200B;设置&#x200B;_。
 
 具有添加内容类型的![[!DNL Page Builder]面板](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
