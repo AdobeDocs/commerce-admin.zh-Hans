@@ -1,7 +1,7 @@
 ---
-source-git-commit: 09ff5c4e13f86e3818f6bf60dd0073202e27aaa9
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,50 @@ ht-degree: 2%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2025年11月10日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>澄清了如何在<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">目录价格规则的计划更改</a>主题中未指定结束日期的特定时间结束有效的价格规则销售。<br />重新组织了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL重写</a>主题，以改进示例、概念定义并为Web服务器重写和Canonical URL分组其他URL管理配置说明。</p>
+</td>
+      <td>
+        反馈
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">提交</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2025年10月30日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">运输承运人设置</a>说明，其中包含从USPS Web Tools API迁移到USPS REST API的说明。</p>
+</td>
+      <td>
+        技术，反馈
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2025年10月23日
 
@@ -23,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了有关<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态扩展</a>的文档，用于监视从Adobe Commerce到Commerce SaaS数据库的数据导出馈送同步，以发布到连接的Commerce服务（实时搜索、产品推荐、目录服务）。 可从Commerce管理界面的“系统”菜单中找到“数据同步状态”页面。</p>
+      <td><p>添加了有关<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态扩展</a>的文档，用于监视从Adobe Commerce到Commerce SaaS数据库的数据导出馈送同步，以发布到连接的Commerce服务（实时搜索、产品推荐、目录服务）。 可从Commerce管理界面的“系统”菜单中找到“数据同步状态”页面。</p>
 </td>
       <td>
         新主题
@@ -45,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了2025年10月B2B安全修补程序<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
+      <td><p>添加了2025年10月B2B安全修补程序<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">发行说明</a>。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +111,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了关于如何在Adobe Commerce as a Cloud Service管理员中查看和编辑<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自定义订单属性</a>的信息。</p>
+      <td><p>添加了关于如何在Adobe Commerce as a Cloud Service管理员中查看和编辑<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自定义订单属性</a>的信息。</p>
 </td>
       <td>
         重大更新
