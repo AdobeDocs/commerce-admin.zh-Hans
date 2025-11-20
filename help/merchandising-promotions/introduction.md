@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和产品展示的艺术和科学。 您可以将[基于类别的导航](../catalog/navigation-top.md)视为商店的平面图，将产品的动态展示视为可应用于商店中产品列表的条件。 此外，您还可以实施可促进更多产品销售的程序：
 
-- [!BADGE 仅限于PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} [可视化促销活动](visual-merchandiser.md) — 一组高级工具，允许您定位产品并应用条件来确定哪些产品出现在类别列表中。
+- [!BADGE 仅限于PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} [可视化促销活动](visual-merchandiser.md) — 一组高级工具，允许您定位产品并应用条件来确定哪些产品出现在类别列表中。
 
 - [礼品登记簿](gift-registries.md) — 让您的客户能够创建特殊场合的礼品登记簿，并邀请朋友和家人从礼品登记簿购买礼品。
 
@@ -27,7 +27,7 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 
 >[!TIP]
 >
->要了解产品推荐，以及它们如何为您提供insight和控制您为购买者创建最佳体验所需的功能，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)。
+>要了解产品推荐，以及它们如何为您提供insight和控制您为购买者创建最佳体验所需的功能，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
 
 ## 促销活动
 
@@ -67,8 +67,8 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了dotdigital供应商开发的用于与dotdigital Engagement Cloud集成的扩展。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
->&#x200B;><br><br>
->&#x200B;>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅[升级指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)中的&#x200B;_升级模块_。
+><br><br>
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅[升级指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升级模块_。
 
 - [新闻稿](newsletters.md) — 生成新闻稿、管理订阅者列表、开发内容并增加您商店的流量。
 
