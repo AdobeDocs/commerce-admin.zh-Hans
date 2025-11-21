@@ -3,7 +3,7 @@ title: 产品数据属性参考
 description: 在处理产品数据导入和导出时，请使用此产品数据属性的引用。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 属性 | 描述 |
 |--- |--- |
-| `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_注意：_**&#x200B;超过64个字符的SKU会导致导入失败。 |
+| `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_Note:_**&#x200B;超过64个字符的SKU会导致导入失败。 |
 | `store_view_code` | 标识产品可用的特定商店视图。 如果留空，则产品在默认商店视图中可用。 例如： `storeview1`，`english`，`spanish` |
 | `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 例如： `default`<br><br>创建产品后，无法使用导入功能更改属性集。 但是，您可以从管理员更改属性集，并重新导出产品以更新CSV文件。 |
 | `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单个单位或以固定数量出售的有形项目。<br/>`grouped` — 作为集合销售的一组单独产品。<br/>`configurable` — 客户在购买之前必须选择具有多个选项的产品。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小的组合与目录中的特定SKU相关联。<br/>`virtual` — 一种不需要装运且未保留在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle` — 可自定义的产品集，其中包含一起销售的简单产品。 |
@@ -40,8 +40,8 @@ ht-degree: 0%
 | `url_key` | URL中标识产品的一部分。 默认值基于产品名称。 例如： `product-name` |
 | save_rewrites_history | 如果为值`1`提供了新的`url_key`，则会生成新的301 URL重写，以便将旧URL重定向到新URL。 |
 | `meta_title` | 元标题显示在浏览器和搜索结果列表的标题栏和选项卡中。 元标题应为产品所独有的，包含高值关键词，并且长度应小于70个字符。 |
-| `meta_keywords` | 元关键字仅对搜索引擎可见，并且被某些搜索引擎忽略。 选择用逗号分隔的高值关键字。 例如： `keyword1`，`keyword2`，`keyword3` |
-| `meta_description` | 元描述提供了用于搜索结果列表的产品简要概述。 理想情况下，元描述长度应介于150到160个字符之间，尽管字段最多可接受255个字符。 |
+| `meta_keywords` | Meta关键字仅对搜索引擎可见，并且被某些搜索引擎忽略。 选择用逗号分隔的高值关键字。 例如： `keyword1`，`keyword2`，`keyword3` |
+| `meta_description` | Meta描述提供了用于搜索结果列表的产品简要概述。 理想情况下，元描述长度应介于150到160个字符之间，尽管字段最多可接受255个字符。 |
 | `base_image` | 产品页面上主图像的相对路径。 Commerce以字母顺序的文件夹结构在内部存储文件。 您可以查看导出数据中每个图像的确切位置。 例如： `/sample_data/m/b/mb01-blue-0.jpg`<br/>要上传新映像或覆盖现有映像，请输入文件名，其前面加有正斜杠。 例如： `/image.jpg` |
 | `base_image_label` | 与基本图像关联的标签。 |
 | `small_image` | 在目录页面上使用的小图像的文件名，它前面有正斜杠。 例如： `/image.jpg` |
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 | 属性 | 描述 |
 |--- |--- |
-| `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_注意：_**&#x200B;超过64个字符的SKU会导致导入失败。 |
+| `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_Note:_**&#x200B;超过64个字符的SKU会导致导入失败。 |
 | `tier_price_website` | [网站代码](../stores-purchase/stores.md#add-websites)标识了每个可用层定价的网站。 例如： `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | 标识提供层定价的[客户组](../customers/customer-groups.md)。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 标识提供层定价的客户组。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
