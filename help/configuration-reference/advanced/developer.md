@@ -4,7 +4,7 @@ description: 查看Commerce管理员的[!UICONTROL Advanced] &amp；gt； [!UICO
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![前端开发工作流](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_Admin Systems指南_&#x200B;中的[前端开发工作流](../../systems/developer-tools.md#frontend-development-workflow)。
+有关更改这些设置的详细信息，请参阅[Admin Systems指南](../../systems/developer-tools.md#frontend-development-workflow)中的&#x200B;_前端开发工作流_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ![开发人员客户端限制](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-有关更改此设置的详细信息，请参阅&#x200B;_管理员系统指南_&#x200B;中的[客户端限制](../../systems/developer-tools.md#client-restrictions)。
+有关更改此设置的详细信息，请参阅[管理员系统指南](../../systems/developer-tools.md#client-restrictions)中的&#x200B;_客户端限制_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 ![模板设置](./assets/developer-template-settings.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[优化资源文件](../../systems/developer-tools.md#optimizing-resource-files)。
+有关更改这些设置的详细信息，请参阅[管理系统指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_优化资源文件_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | 商店视图 | 启用[符号链接](https://en.wikipedia.org/wiki/Symbolic_link)可能会使您的网站面临安全风险，不建议在生产存储中使用。 |
-| [!UICONTROL Minify Html] | 商店视图 | 确定存储模板的HTML是否已最小化。 选项： `Yes` / `No` |
+| [!UICONTROL Minify Html] | 商店视图 | 确定用于商店模板的HTML是否已最小化。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![调试](./assets/developer-debug.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[模板路径提示](../../systems/developer-tools.md#template-path-hints)。
+有关更改这些设置的详细信息，请参阅[管理系统指南](../../systems/developer-tools.md#template-path-hints)中的&#x200B;_模板路径提示_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 ![翻译内联](./assets/developer-translate-inline.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[翻译内联](../../systems/developer-tools.md#translate-inline)。
+有关更改这些设置的详细信息，请参阅[管理系统指南](../../systems/developer-tools.md#translate-inline)中的&#x200B;_翻译内联_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 ![JavaScript设置](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[优化资源文件](../../systems/developer-tools.md#optimizing-resource-files)。
+有关更改这些设置的详细信息，请参阅[管理系统指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_优化资源文件_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 ![CSS设置](./assets/developer-css-settings.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[优化资源文件](../../systems/developer-tools.md#optimizing-resource-files)。
+有关更改这些设置的详细信息，请参阅[管理系统指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_优化资源文件_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 全局 | 指定用于渲染图像的适配器。 更改适配器设置后，刷新目录图像缓存。 选项： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**&#x200B;只有ImageMagik适配器支持ICO文件类型。 |
+| [!UICONTROL Image Adapter] | 全局 | 指定用于渲染图像的适配器。 更改适配器设置后，刷新目录图像缓存。 选项： `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_**&#x200B;只有ImageMagik适配器支持ICO文件类型。 |
 
 {style="table-layout:auto"}
 
