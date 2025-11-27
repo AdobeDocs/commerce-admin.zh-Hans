@@ -51,7 +51,7 @@ Adobe Commerce版本2.4.6、2.4.7和2.4.8使用旧版Web Tools API与USPS进行�
 
 要避免USPS运输服务中断，请在2026年1月25日之前执行以下操作：
 
-- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
+- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
 
 - 更新Commerce USPS配置以使用REST API：
 
