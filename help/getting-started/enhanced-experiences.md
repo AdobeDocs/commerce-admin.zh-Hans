@@ -3,7 +3,7 @@ title: 增强的店面体验
 description: 了解旨在帮助您最大限度地提高客户参与度、维系率和忠诚度的许多工具。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hans)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce和Magento Open Source都具备多种功能，可轻松创建&#x20
 
 - **自定义URL** — 指定[自定义URL](../stores-purchase/store-urls.md)，使其简短、整洁且易于记忆。 您还可以自动生成易于搜索的URL，以简化购买路径。
 
-- **元数据** — 通过选择特定条件帮助搜索引擎更轻松地查找和索引您的产品，从而改善搜索引擎排名。 您可以为产品、类别和内容页面输入[元数据](../merchandising-promotions/meta-data.md)。
+- **Meta数据** — 通过选择特定的标准来帮助搜索引擎更轻松地查找产品并将其编入索引，从而提高搜索引擎排名。 您可以为产品、类别和内容页面输入[元数据](../merchandising-promotions/meta-data.md)。
 
 - **Sitemap** — 从商店页脚链接到[Sitemap](../merchandising-promotions/sitemap-xml.md)，以便为客户提供目录结构的概览，其中包含指向商店中所有类别和产品的链接。 与Google Sitemap轻松集成。
 
@@ -84,7 +84,7 @@ Adobe Commerce和Magento Open Source提供了一系列工具来帮助您定制�
 
 ## 优化业务流程和盈利能力
 
-- **[!DNL Advanced Reporting]** — 通过由[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hans)提供支持的动态产品、订单和客户报告，快速获得有价值的见解。
+- **[!DNL Advanced Reporting]** — 通过由[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html)提供支持的动态产品、订单和客户报告，快速获得有价值的见解。
 
 - **仪表板快照** — 了解您网站上的相关内容对于最大限度地提高营销预算至关重要。 使用仪表板[上的此](admin-dashboard.md)信息来确定应向忠诚客户交叉销售和追加销售哪些产品，或销售哪些产品。
 

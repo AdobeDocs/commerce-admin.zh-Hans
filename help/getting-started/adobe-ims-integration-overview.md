@@ -3,8 +3,8 @@ title: Adobe Identity Management Service (IMS)集成概述
 description: 引入了Adobe Commerce管理员登录与Adobe IMS的可选集成
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Commerce Admin IMS集成所需的模块打包到`adobe-ims-metapackage`中，该
 
 ## 与IMS集成后对管理员工作流和界面所做的更改
 
-启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 模块启用需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_&#x200B;按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
+启用此集成后，Commerce管理员用户将体验更改为默认的Commerce管理员登录和身份验证工作流，因为他们需要在管理员中执行需要重新身份验证的例行任务，例如创建管理员用户。 模块启用需要在Adobe组织级别实施双重身份验证(2FA)。 默认管理员登录和2FA被禁用，_[!UICONTROL Sign In with Adobe ID]_按钮取代了默认管理员登录表单。 权限仍由管理员进行管理。
 
 ## 管理员与IMS集成如何影响Commerce密码
 
@@ -40,7 +40,7 @@ Commerce应用程序的用户帐户和角色权限仍由Commerce管理员进行�
 
 在Commerce实例中启用与Adobe IMS的管理员身份验证后，Commerce管理员API会受到影响。 管理员用户无法再使用Commerce实例颁发的凭据。 这些是登录到管理员并获取访问令牌所需的凭据，服务可以使用这些凭据向管理员REST和SOAP API发出请求。
 
-启用Adobe IMS集成后，管理员用户必须为需要身份验证的Adobe Commerce API端点使用[Adobe IMS OAuth令牌](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)。 客户端解决方案可动态获取令牌以供Web API使用。 在配置此集成时，将为REST和SOAP Web API区域启用此身份验证机制。
+启用Adobe IMS集成后，管理员用户必须为需要身份验证的Adobe Commerce API端点使用[Adobe IMS OAuth令牌](https://developer.adobe.com/developer-console/docs/guides/authentication/)。 客户端解决方案可动态获取令牌以供Web API使用。 在配置此集成时，将为REST和SOAP Web API区域启用此身份验证机制。
 
 有关Web API如何使用Commerce访问令牌（包括IMS访问令牌）的概述，请参阅[基于令牌的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/)。
 
