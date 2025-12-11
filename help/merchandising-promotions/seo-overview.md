@@ -3,9 +3,9 @@ title: 搜索引擎优化
 description: 了解适用于Commerce站点的搜索引擎优化(SEO)工具以及实现最佳SEO的最佳实践。
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ _搜索引擎优化_ (SEO)是微调网站的内容和呈现方式以改进搜索
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 ## 元数据
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 了解有关为您的网站和商店添加和增强富含关键字的[元数据](meta-data.md)的详细信息。
 
 ## 使用站点地图
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [站点地图](sitemap-xml.md)改进了搜索引擎对存储进行索引的方式，并设计为查找可能被网络爬虫忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
 ## URL重写
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 通过[URL重写](url-rewrite.md)工具，您可以更改与产品、类别或CMS页面关联的任何URL。
 
@@ -90,8 +90,8 @@ Commerce配置包括用于生成和管理Web爬虫程序以及编制网站索引
      |------|------------|
      | `INDEX, FOLLOW` | 指示Web爬网程序为站点编制索引，并在以后检查是否有更改。 |
      | `NOINDEX, FOLLOW` | 指示Web爬网程序避免为站点编制索引，但稍后要检查是否有更改。 |
-     | `INDEX, NOFOLLOW` | 指示Web爬网程序对站点编制一次索引，但以后不要检查是否有更改。 |
-     | `NOINDEX, NOFOLLOW` | 指示Web爬网程序避免为站点编制索引，并且以后不要回来查看更改。 |
+     | `INDEX, NOFOLLOW` | 指示Web爬网程序对网站编制一次索引，但不跟踪页面上的任何链接。 |
+     | `NOINDEX, NOFOLLOW` | 指示Web爬网程序避免为站点编制索引，并且不要关注页面上的任何链接。 |
 
      {style="table-layout:auto"}
 
