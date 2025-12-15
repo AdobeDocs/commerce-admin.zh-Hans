@@ -3,20 +3,20 @@ title: 类别产品分配
 description: 了解如何使用[!UICONTROL Products in Category]设置来控制当前分配给该类别的产品。
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # 类别产品分配
 
-对于类别，请使用&#x200B;_[!UICONTROL Products in Category]_&#x200B;部分查看当前分配给该类别的产品。 每列顶部的搜索过滤器用于在类别中添加和删除产品。 您还可以使用[类别规则](../merchandising-promotions/category-product-rules.md)(仅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce)在满足一组条件时动态更改产品选择。 若要了解详细信息，请参阅[可视化促销器](../merchandising-promotions/visual-merchandiser.md)。
+对于类别，请使用&#x200B;_[!UICONTROL Products in Category]_部分查看当前分配给该类别的产品。 每列顶部的搜索过滤器用于在类别中添加和删除产品。 您还可以使用[类别规则](../merchandising-promotions/category-product-rules.md)(仅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce)在满足一组条件时动态更改产品选择。 若要了解详细信息，请参阅[可视化促销器](../merchandising-promotions/visual-merchandiser.md)。
 
 >[!TIP]
 >
->在类别规则设置期间，当保存此类别时，产品为&#x200B;_已排序_、_匹配_、_已分配_&#x200B;和&#x200B;_已取消分配_（仅根据此规则&#x200B;**__**）。 要确保在将新产品添加到目录时根据规则分配该产品，您&#x200B;**必须重新保存设置为按规则匹配产品的每个类别**。 此外，如果任何产品库存状态更改为`In Stock`或`Out of Stock`，并且类别中的产品按照&#x200B;**自动排序**&#x200B;规则&#x200B;_排序_，则必须单击&#x200B;**[!UICONTROL Save Category]**。
+>在类别规则设置期间，当保存此类别时，产品为&#x200B;_已排序_、_匹配_、_已分配_&#x200B;和&#x200B;_已取消分配_（仅根据此规则&#x200B;**__**）。 要确保在将新产品添加到目录时根据规则分配该产品，您&#x200B;**必须重新保存设置为按规则匹配产品的每个类别**。 此外，如果任何产品库存状态更改为`In Stock`或`Out of Stock`，并且类别中的产品按照&#x200B;_自动排序_&#x200B;规则&#x200B;**排序**，则必须单击&#x200B;**[!UICONTROL Save Category]**。
 
 ![类别产品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_Stock_&#x200B;列仅显示&#x200B;_&#x200B;**选定类别范围**&#x200B;_&#x200B;的可销售产品数量。 为产品管理多个库存时，您应在相应的范围之间切换以在&#x200B;_类别产品_&#x200B;网格中显示其他&#x200B;_库存_&#x200B;列值。
+>_Stock_&#x200B;列仅显示&#x200B;_**选定类别范围**_&#x200B;的可用产品数量。 为产品管理多个库存时，您应在相应的范围之间切换以在&#x200B;_类别产品_&#x200B;网格中显示其他&#x200B;_库存_&#x200B;列值。
 
 ## 应用类别规则
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 | 选项 | 描述 |
 |--- |--- |
-| [!UICONTROL Attribute] | 确定用作条件基础的属性。 选项： <br/>**[!UICONTROL Clone Category ID(s)]**— 根据类别ID从多个类别中动态克隆产品，而不对其排序和排序。<br/>**[!UICONTROL Color]** — 包含基于颜色的产品。 <br/>**[!UICONTROL Date Created (days ago)]**— 包含基于产品添加到目录后天数的产品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包括基于上次修改产品后天数的产品。 <br/>**[!UICONTROL Name]**— 包含基于产品名称的产品。<br/>**[!UICONTROL Price]** — 包括基于价格的产品。 <br/>**[!UICONTROL Quantity]**— 包括基于库存数量的产品。<br/>**&#x200B; SKU &#x200B;**— 包含基于SKU的产品。 |
+| [!UICONTROL Attribute] | 确定用作条件基础的属性。 选项： <br/>**[!UICONTROL Clone Category ID(s)]**— 根据类别ID从多个类别中动态克隆产品，而不对其排序和排序。<br/>**[!UICONTROL Color]** — 包含基于颜色的产品。 <br/>**[!UICONTROL Date Created (days ago)]**— 包含基于产品添加到目录后天数的产品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包括基于上次修改产品后天数的产品。 <br/>**[!UICONTROL Name]**— 包含基于产品名称的产品。<br/>**[!UICONTROL Price]** — 包括基于价格的产品。 <br/>**[!UICONTROL Quantity]**— 包括基于库存数量的产品。<br/>** SKU **— 包含基于SKU的产品。 |
 | [!UICONTROL Operator] | 指定应用于属性值以满足条件的运算符。 除非指定运算符，否则默认使用`Equal`。 选项： `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 指定属性必须符合条件的值。 |
 | [!UICONTROL Logic] | 用于定义多个条件，仅在添加另一个条件时显示。 选项： `OR` / `AND` |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->通过组合所有可销售的子产品数量来计算带有子选项的可配置产品的数量。 以可配置产品&#x200B;_耐用健身背心_&#x200B;为例，其颜色选项为紫色、红色和黄色，且每种颜色的颜色数量不同。 在此方案中，父产品数量是紫色、红色和黄色子产品的组合可销售数量。
+>可通过组合所有子产品数量来计算带有子选项的可配置产品的数量。 以可配置产品&#x200B;_耐用健身背心_&#x200B;为例，其颜色选项为紫色、红色和黄色，且每种颜色的颜色数量不同。 在此方案中，父产品数量是紫色、红色和黄色子产品的组合数量。
 
 ## 控件
 
