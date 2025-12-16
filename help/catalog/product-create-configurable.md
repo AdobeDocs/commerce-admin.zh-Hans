@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ### 步骤6：选择变体属性
 
-1. 向下滚动到&#x200B;_[!UICONTROL Configurations]_部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Configurations]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![配置](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 输入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 为所有生成的产品变型分配来源和添加数量：
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 为每个属性值输入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 为所有生成的产品变型分配来源和添加数量：
 
@@ -338,7 +338,7 @@ ht-degree: 0%
 
    - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-   - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![ ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
+   - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![&#x200B; ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
 
    该存储将在新的浏览器选项卡中打开。
 
