@@ -3,9 +3,9 @@ title: 奖励和忠诚计划
 description: 了解可用于提高客户参与度和客户忠诚度的奖励积分系统。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 >在结帐期间客户和管理员用户兑换奖励积分需要[奖励汇率](reward-exchange-rates.md)配置。
 
 在结账过程中，管理员用户和客户（如果已启用）可以兑换积分。 在“付款方法”部分，已启用的付款方法上方将显示一个使用我的奖励积分复选框。 包括可用点数和货币汇率。 如果可用余额大于订单的总计，则无需其他付款方式。 应用于订单的奖励积分数与订单总额一起显示（从总计中扣除），类似于商店信用卡或礼品卡。 如果奖励积分与商店信用卡或礼品卡一起使用，则首先扣除奖励积分。 如果订单总额大于可兑换的奖励点数，则扣减商店信用卡或礼品卡。
+
+>[!NOTE]
+>
+>奖励积分和商店积分不会降低订单的应纳税基数。 税项乃于应用该等折扣前按小计计算。 积分或信用只减少客户支付的最终金额。
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 单击&#x200B;**[!UICONTROL Save Customer]**。
 
-与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;块中。
+与奖励积分相关的所有操作都会显示在店面客户帐户中的&#x200B;_[!UICONTROL Reward Points History]_块中。
 
 ## 字段描述
 
