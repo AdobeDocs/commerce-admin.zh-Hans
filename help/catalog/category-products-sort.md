@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 如有必要，请选择应用设置的&#x200B;**[!UICONTROL Store View]**。
 
-   对于多存储安装，_[!UICONTROL Store View]_设置将排序顺序应用到存储中的所有可用视图。
+   对于多存储安装，_[!UICONTROL Store View]_&#x200B;设置将排序顺序应用到存储中的所有可用视图。
 
 1. 在左侧的类别树中，选择要编辑的类别。
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_的升序排序。
+>按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_&#x200B;的升序排序。
 
-在&#x200B;_[!UICONTROL Products in Category]_部分中，单击磁贴（![查看磁贴](../assets/icon-view-tiles.png)）图标以显示网格中的产品磁贴。 使用手动或自动方法对产品进行排序。
+在&#x200B;_[!UICONTROL Products in Category]_&#x200B;部分中，单击磁贴（![查看磁贴](../assets/icon-view-tiles.png)）图标以显示网格中的产品磁贴。 使用手动或自动方法对产品进行排序。
 
 ![产品磁贴](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
