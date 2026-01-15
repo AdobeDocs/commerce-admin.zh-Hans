@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 配置设置 {#config}
 
-要访问商店配置设置，请从&#x200B;**[!UICONTROL Stores]**&#x200B;管理员&#x200B;_[!UICONTROL Settings]_侧边栏中选择&#x200B;**[!UICONTROL Configuration]**>_ > _。
+要访问商店配置设置，请从&#x200B;**[!UICONTROL Stores]**&#x200B;管理员&#x200B;_[!UICONTROL Settings]_&#x200B;侧边栏中选择&#x200B;**[!UICONTROL Configuration]**>_ > _。
 
 ## 弃用UPS API {#ups-api}
 

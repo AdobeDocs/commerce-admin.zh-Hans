@@ -56,7 +56,7 @@ Google reCAPTCHA Enterprise包含以下功能：
 
 ## 步骤2：为店面配置Google reCAPTCHA
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_&#x200B;下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 按如下方式完成&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;部分。
 
