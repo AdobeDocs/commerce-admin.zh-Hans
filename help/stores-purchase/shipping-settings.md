@@ -3,9 +3,9 @@ title: 配送设置
 description: 了解如何配置配送设置，以定义商店的原点和配送政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Shipping Settings]**。
 
-1. 展开&#x200B;**[!UICONTROL Shipping Policy Parameters]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Shipping Policy Parameters]**。
 
 1. 将&#x200B;**[!UICONTROL Apply Custom Shipping Policy]**&#x200B;设置为`Yes`。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Multishipping Settings]**。
 
-1. 展开&#x200B;**[!UICONTROL Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Options]**。
 
    ![多地址送货选项](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
@@ -81,3 +81,36 @@ ht-degree: 0%
 >[!NOTE]
 >
 >![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B)对于具有多个配送地址的订单，在结帐期间无法使用[帐户付款](../b2b/enable-basic-features.md#configure-payment-on-account)付款方式（即使已启用）。
+
+## 电子邮件装运跟踪URL
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+
+默认情况下，购物者电子邮件中发送的发货跟踪编号是纯文本。 您可以通过启用自定义跟踪URL功能，将这些跟踪数字转换为可点击链接。 此功能允许您定义用于跟踪各种装运承运人的URL的模板。 每个模板都包含跟踪网站的完整URL和跟踪号的占位符。 Commerce将占位符替换为电子邮件中的实际跟踪号。
+
+支持以下承运人：
+
+- 美国邮政局(USPS)
+- 联合包裹服务(UPS)
+- 联邦快递
+- DHL Express (DHL)
+
+要启用或编辑自定义跟踪URL，请执行以下操作：
+
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+
+1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Shipping Settings]**。
+
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Shipment Tracking URLs]**。
+
+1. 将&#x200B;**[!UICONTROL Enable Custom Tracking URLs]**&#x200B;设置为`Yes`。
+
+1. 为每个支持的运营商提供了默认URL模板。 如果需要更改其中的任何值，请在相应的字段中输入新的URL模板。 使用`{{tracking_number}}`作为实际跟踪编号的占位符。 例如，如果UPS将其URL更改为`https://www.ups.com/newtracker?tracknumber`，则新的跟踪URL模板可能如下所示：
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. 单击&#x200B;**[!UICONTROL Save Config]**。

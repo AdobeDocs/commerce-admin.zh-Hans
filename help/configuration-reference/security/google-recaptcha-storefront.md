@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefro
 description: 查看Commerce管理员的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefront]页面上的配置设置。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅&#x200B;_安装指南_&#x200B;中的[PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hans)。
+>在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅[安装指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_PHP设置_。
 
 {{config}}
 
-有关使用Google reCAPTCHA保护存储安全的更多信息，请参阅&#x200B;_Admin Systems指南_&#x200B;中的Google [reCAPTCHA](../../systems/security-google-recaptcha.md)。
+有关使用Google reCAPTCHA保护存储安全的更多信息，请参阅[Admin Systems指南](../../systems/security-google-recaptcha.md)中的Google _reCAPTCHA_。
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -60,6 +60,27 @@ ht-degree: 0%
 | [!UICONTROL Invisible Badge Position] | 网站 | 每个页面上不可见reCAPTCHA徽章的位置。 选项： `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | 网站 | 确定Google reCAPTCHA框的样式。 选项： `Light Theme` （默认） / `Dark Theme` |
 | [!UICONTROL Language Code] | 商店视图 | [双字符代码](https://developers.google.com/recaptcha/docs/language)，它指定用于Google reCAPTCHA文本和消息传递的语言。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Enterprise]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+
+![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--|--|--|
+| [!UICONTROL Site Key] | 网站 | 注册Google reCAPTCHA Enterprise帐户时创建的站点密钥。 |
+| [!UICONTROL Google Cloud Project ID] | 网站 | 项目ID显示在项目仪表板的&#x200B;**项目信息**&#x200B;部分中。 |
+| [!UICONTROL Service Account JSON] | 网站 | 从Google Cloud控制台下载服务帐户密钥，并将其内容粘贴到此字段中。 |
+| [!UICONTROL Minimum Score Threshold] | 网站 | 将用户交互识别为潜在风险的最小分数，其中1.0表示典型的用户交互，0.0表示可能是机器人。 默认： `0.5` |
+| [!UICONTROL Badge Position] | 网站 | 每个页面上不可见reCAPTCHA徽章的位置。 选项： `Inline` / `Bottom Right` / `Bottom Left` |
+| [!UICONTROL Theme] | 网站 | 确定Google reCAPTCHA框的样式。 选项： `Light Theme` （默认） / `Dark Theme` |
+| [!UICONTROL Language Code] | 商店视图 | [双字符代码](https://developers.google.com/recaptcha/docs/language)，它指定用于Google reCAPTCHA文本和消息传递的语言。 将该字段留空以使用用户浏览器的默认语言。 |
+| [!UICONTROL Validation Failure Message] | 商店视图 | 验证失败时显示的消息。 |
 
 {style="table-layout:auto"}
 

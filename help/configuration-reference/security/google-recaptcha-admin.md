@@ -3,9 +3,10 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Admin Pa
 description: 查看Commerce管理员的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Admin Panel]页面上的配置设置。
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅&#x200B;_安装指南_&#x200B;中的[必需的PHP设置](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hans)。
+>在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅[安装指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_必需的PHP设置_。
 
 {{config}}
 
-有关更改这些设置的详细信息，请参阅&#x200B;_管理员系统指南_&#x200B;中的[Google reCAPTCHA](../../systems/security-google-recaptcha.md)。
+有关更改这些设置的详细信息，请参阅[管理员系统指南](../../systems/security-google-recaptcha.md)中的&#x200B;_Google reCAPTCHA_。
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -88,7 +89,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | 全局 | 确定为[管理员登录](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans)启用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证管理员登录。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
-| [!UICONTROL Enable for Forgot Password] | 全局 | 确定启用以请求[管理员密码重置](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans#reset-your-password)的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCaptcha v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Login] | 全局 | 确定为[管理员登录](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)启用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证管理员登录。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Forgot Password] | 全局 | 确定启用以请求[管理员密码重置](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password)的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCaptcha v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 
 {style="table-layout:auto"}

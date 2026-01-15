@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]页面上的配置设置。
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[送货设置](../../stores-purchase/shipping-settings.md)。
+有关更改这些设置的详细信息，请参阅[商店和购买体验指南](../../stores-purchase/shipping-settings.md)中的&#x200B;_送货设置_。
 
 ## [!UICONTROL Origin]
 
@@ -39,5 +39,23 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | 网站 | 确定在结帐期间是否显示送货策略。 选项： `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | 商店视图 | 包含你的配送政策文本。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Shipment Tracking URLs]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+
+![配送策略参数](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Enable Custom Tracking URLs] | 商店视图 | 确定购物者电子邮件中发送的装运跟踪编号是链接还是纯文本。 默认值`No`指示数字为纯文本。 选项： `Yes` / `No` |
+| [!UICONTROL USPS Tracking URL] | 商店视图 | 美国邮政服务装运的URL模板。 |
+| [!UICONTROL UPS Tracking URL] | 商店视图 | United Parcel Service装运的URL模板。 |
+| [!UICONTROL FedEx Tracking URL] | 商店视图 | Federal Express装运的URL模板。 |
+| [!UICONTROL DHL Tracking URL] | 商店视图 | DHL Express装运的URL模板。 |
 
 {style="table-layout:auto"}

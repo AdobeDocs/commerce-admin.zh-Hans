@@ -5,9 +5,9 @@ breadcrumb-title: 管理系统指南
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 4%
    - [配置管理员安全](security-admin.md)
    - 验证码 {#captcha}
       - [标准验证码](security-captcha.md)
-      - [Google reCAPTCHA](security-google-recaptcha.md)
-   - 双重身份验证(2FA) {#2fa}
+      - [Google reCAPTCHA V3和V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+   - 双重身份验证(2FA) {#tfa}
       - [概述](security-two-factor-authentication.md)
       - [2FA的用户帐户设置](security-two-factor-authentication-use.md)
       - [管理2FA](security-two-factor-authentication-manage.md)
    - [会话管理](security-session-management.md)
    - [浏览器功能检测](security-browser-capabilities-detection.md)
    - [安全问题报告](security-issue-reporting.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

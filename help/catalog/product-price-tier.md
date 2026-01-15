@@ -3,9 +3,9 @@ title: 分层定价
 description: 了解如何使用层定价从产品列表或产品页面提供数量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 在&#x200B;_[!UICONTROL Price]_&#x200B;字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Tier Price]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Tier Price]_部分中，单击&#x200B;**[!UICONTROL Add]**。
 
    如果要创建包含多个价格的分层，请单击每个额外层的&#x200B;**[!UICONTROL Add]**，以便您可以同时处理所有层。 组内各层网站和客户组或共享目录分配相同，但数量和价格不同。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >要获得折扣价格，定义的百分比是根据&#x200B;_[!UICONTROL Price]_&#x200B;字段中定义的值计算的，而不是根据&#x200B;_[!UICONTROL Special Price]_&#x200B;字段计算的。
+     >要获得折扣价格，定义的百分比是根据&#x200B;_[!UICONTROL Price]_字段中定义的值计算的，而不是根据_[!UICONTROL Special Price]_&#x200B;字段计算的。
 
      ![层价格百分比](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -73,3 +73,46 @@ ht-degree: 0%
 >[!NOTE]
 >
 >**_固定价格_**&#x200B;产品可自定义选项&#x200B;_不_&#x200B;受组价格、层价格、特殊价格或目录价格规则的影响。
+
+## 为目录价格规则启用层定价
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+
+在Commerce的早期版本中，层定价不能与目录价格规则结合使用。 目录规则忽略层价格配置，仅从原始基本价格计算折扣。 通过使用Adobe Commerce as a Cloud Service，您现在可以选择在计算目录价格规则时包含层定价。
+
+要启用此功能，请执行以下操作：
+
+1. 导航到&#x200B;**[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]**，并将&#x200B;**[!UICONTROL Apply Catalog Price Rule on Grouped Price]**&#x200B;字段设置为&#x200B;**[!UICONTROL Yes]**。
+
+   ![为目录价格规则启用层定价](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. 为您要通过目录价格规则定位的每个特定客户组或共享目录（例如`1`、`Wholesale`或商家定义的组）定义数量为`Retail`的层价格。 `ALL GROUPS`客户组和`Default`共享目录不能用于此目的。 对于未定义层价格且数量为`1`的任何组，不启用层定价。
+
+1. 根据需要定义数量大于`1`的其他层价格。 当客户将更多数量的产品添加到购物车时，将照常应用这些额外的层价格。 目录价格规则不适用于这些额外的层级价格。
+
+要说明在购买单个产品时分层定价如何与目录价格规则配合使用，请考虑以下示例：
+
+- 产品的标准基本价格为100美元。
+- 为数量为`Wholesale`且固定价格为90美元的`1`客户组定义了层级价格。
+- 目录价格规则为`Wholesale`客户组提供10%的折扣。
+
+为目录价格规则启用层定价后，系统将使用以下流程计算最终价格：
+
+1. 在客户登录之前，产品价格显示为100 USD（标准基本价）。
+
+1. 客户作为`Wholesale`组的成员登录后，产品价格将调整为90 USD（`Wholesale`组的层价格）。
+
+1. 应用目录价格规则，在层级价格90美元上提供10%的折扣，最终价格为81美元。
+
+下表汇总了在目录价格规则启用层定价并且目录价格规则为所有客户组提供10%折扣时的价格计算：
+
+产品：标准价格$100（单项采购）
+
+| 客户组 | 层价格（数量=1） | 新基本价格 | 最终价格 |
+|---|---|---|---|
+| 所有组 | 未配置 | 100美元 | $100 - 10% = $90 |
+| 批发 | 固定：85美元 | 85美元 | 85美元 — 10% = 76.50美元 |
+| retailer | 20%折扣 | 80美元 | 80美元 — 10% = 72.00美元 |
+| VIP | 15%折扣 | 85美元 | 85美元 — 10% = 76.50美元 |

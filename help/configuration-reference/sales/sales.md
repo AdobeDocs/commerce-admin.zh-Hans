@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]'
 description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]页面上的配置设置。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![常规](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![签出总计排序顺序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![重新排序](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -67,12 +67,12 @@ ht-degree: 1%
 
 ![发票和装箱单设计](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Logo for PDF Print-outs] | 商店视图 | 标识显示在PDF发票和包装单标题中的徽标文件。 允许的文件类型： <br/>JPG/JPEG<br/>TIF/TIFF<br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | 商店视图 | 标识出现在发票和装箱单的HTML打印视图标题中的徽标文件。 允许的文件类型： <br/>JPG/JPEG<br/>GIF<br/>PNG |
+| [!UICONTROL Logo for PDF Print-outs] | 商店视图 | 标识显示在PDF发票和包装单标题中的徽标文件。 允许的文件类型： <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | 商店视图 | 标识显示在HTML打印视图标题中的徽标文件（发票和装箱单）。 允许的文件类型： <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | 商店视图 | 您希望显示在发票和装箱单上的商店地址。 |
 
 {style="table-layout:auto"}
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 ![最小订单金额](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ![仪表板](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 ![订单Cron设置](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -121,11 +121,23 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Promotions]
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+
+[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+
+![促销活动设置](./assets/sales-promotions-settings.png)<!-- zoom -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全局 | 当层价格的数量设置为[时，为目录价格规则](../../catalog/product-price-tier.md)启用`1`层定价。  选项： `Yes` / `No` |
+
 ## [!UICONTROL Gift Options]
 
 ![礼品选项](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -143,7 +155,7 @@ ht-degree: 1%
 
 ![最低广告价格](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -173,7 +185,7 @@ ht-degree: 1%
 
 ![按SKU设置排序](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![客户组的按SKU排序设置](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -188,11 +200,11 @@ ht-degree: 1%
 
 ![即时购买](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 商店视图 | 如果付款方式(如Braintree)启用了保险库，则为商店视图启用“即时购买”。 选项： `Yes` / `No` |
+| [!UICONTROL Enabled] | 商店视图 | 为商店视图启用即时购买(如果付款方法(如Braintree)启用了保险库)。 选项： `Yes` / `No` |
 | [!UICONTROL Button Text] | 商店视图 | 指定在“即时购买”按钮上显示的文本。 默认文本为`Instant Purchase`。 |
 
 {style="table-layout:auto"}
@@ -216,7 +228,7 @@ ht-degree: 1%
 
 ![订单、发票、装运、贷项通知单存档](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[配置订单存档](../../stores-purchase/order-archive.md#configure-the-order-archive)。
+有关更改这些设置的详细信息，请参阅[商店和购买体验指南](../../stores-purchase/order-archive.md#configure-the-order-archive)中的&#x200B;_配置订单存档_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -232,7 +244,7 @@ ht-degree: 1%
 
 ![RMA设置](./assets/sales-rma-settings.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[配置退货](../../stores-purchase/rma-configure.md)。
+有关更改这些设置的详细信息，请参阅[商店和购买体验指南](../../stores-purchase/rma-configure.md)中的&#x200B;_配置退货_。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
