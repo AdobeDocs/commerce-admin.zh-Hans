@@ -3,7 +3,7 @@ title: 产品关系
 description: 了解可用于将产品促销给目标购买者的产品关系类型。
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -32,8 +32,8 @@ ht-degree: 0%
 
 ## 相关产品规则
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [相关产品规则](product-related-rules.md)允许您选择作为相关产品、追加销售和交叉销售呈现给客户的产品。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)[相关产品规则](product-related-rules.md)允许您选择作为相关产品、追加销售和交叉销售呈现给客户的产品。
 
-## 由Adobe Sensei提供支持的产品推荐
+## 由Adobe AI提供支持的产品推荐
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [由Adobe Sensei提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)[由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
