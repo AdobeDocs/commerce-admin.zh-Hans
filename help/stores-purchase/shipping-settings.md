@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 电子邮件装运跟踪URL
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 默认情况下，购物者电子邮件中发送的发货跟踪编号是纯文本。 您可以通过启用自定义跟踪URL功能，将这些跟踪数字转换为可点击链接。 此功能允许您定义用于跟踪各种装运承运人的URL的模板。 每个模板都包含跟踪网站的完整URL和跟踪号的占位符。 Commerce将占位符替换为电子邮件中的实际跟踪号。
 

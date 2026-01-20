@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 为目录价格规则启用层定价
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 在Commerce的早期版本中，层定价不能与目录价格规则结合使用。 目录规则忽略层价格配置，仅从原始基本价格计算折扣。 通过使用Adobe Commerce as a Cloud Service，您现在可以选择在计算目录价格规则时包含层定价。
 
