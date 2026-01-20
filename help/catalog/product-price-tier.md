@@ -3,9 +3,9 @@ title: 分层定价
 description: 了解如何使用层定价从产品列表或产品页面提供数量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 在&#x200B;_[!UICONTROL Price]_&#x200B;字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Tier Price]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Tier Price]_部分中，单击&#x200B;**[!UICONTROL Add]**。
 
    如果要创建包含多个价格的分层，请单击每个额外层的&#x200B;**[!UICONTROL Add]**，以便您可以同时处理所有层。 组内各层网站和客户组或共享目录分配相同，但数量和价格不同。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >要获得折扣价格，定义的百分比是根据&#x200B;_[!UICONTROL Price]_&#x200B;字段中定义的值计算的，而不是根据&#x200B;_[!UICONTROL Special Price]_&#x200B;字段计算的。
+     >要获得折扣价格，定义的百分比是根据&#x200B;_[!UICONTROL Price]_字段中定义的值计算的，而不是根据_[!UICONTROL Special Price]_&#x200B;字段计算的。
 
      ![层价格百分比](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ ht-degree: 0%
 
 ## 为目录价格规则启用层定价
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
-
-[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 在Commerce的早期版本中，层定价不能与目录价格规则结合使用。 目录规则忽略层价格配置，仅从原始基本价格计算折扣。 通过使用Adobe Commerce as a Cloud Service，您现在可以选择在计算目录价格规则时包含层定价。
 

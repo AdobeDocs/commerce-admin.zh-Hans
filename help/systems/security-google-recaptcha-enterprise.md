@@ -3,17 +3,15 @@ title: Google reCAPTCHA Enterprise
 description: 了解如何配置Google reCAPTCHA Enterprise以保护Adobe Commerce as a Cloud Service店面免受机器人和欺诈活动的侵害。
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"
-source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
-
-[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先会发布对沙盒的更新，这样您就可以在即将进行的更改部署到生产环境之前对其进行测试。"}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform)通过使用自适应风险分析和机器学习区分人类用户和机器人，为Adobe Commerce as a Cloud Service店面提供高级机器人保护。 这有助于防止网站上的欺诈活动、垃圾邮件和滥用。
 
@@ -59,7 +57,7 @@ Google reCAPTCHA Enterprise包含以下功能：
 
 ## 步骤2：为店面配置Google reCAPTCHA
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_&#x200B;下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 按如下方式完成&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;部分。
 

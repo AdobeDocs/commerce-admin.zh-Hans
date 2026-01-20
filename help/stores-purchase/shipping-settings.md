@@ -3,9 +3,9 @@ title: 配送设置
 description: 了解如何配置配送设置，以定义商店的原点和配送政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ ht-degree: 0%
 
 ## 电子邮件装运跟踪URL
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
-
-[!BADGE 沙盒]{type=Caution tooltip="列出的项目当前仅在沙盒环境中可用。 Adobe首先在沙盒环境中提供新版本，以便您有时间在生产环境中使用该版本之前测试即将进行的更改。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 默认情况下，购物者电子邮件中发送的发货跟踪编号是纯文本。 您可以通过启用自定义跟踪URL功能，将这些跟踪数字转换为可点击链接。 此功能允许您定义用于跟踪各种装运承运人的URL的模板。 每个模板都包含跟踪网站的完整URL和跟踪号的占位符。 Commerce将占位符替换为电子邮件中的实际跟踪号。
 
