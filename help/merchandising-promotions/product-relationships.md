@@ -36,4 +36,4 @@ ht-degree: 0%
 
 ## 由Adobe AI提供支持的产品推荐
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
