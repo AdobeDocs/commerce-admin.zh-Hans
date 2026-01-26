@@ -111,8 +111,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 1. 有关每个版本的适用数据流图和数据库实体映射，请参阅以下主题：
 
-   - [个人信息参考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [个人信息参考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [个人信息参考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans)
+   - [个人信息参考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hans)
 
    ![关系图](./assets/privacy-frontend-diagram.svg)
 

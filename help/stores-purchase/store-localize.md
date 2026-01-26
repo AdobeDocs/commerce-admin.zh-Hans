@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 步骤1：安装语言包
 
-按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅[扩展指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)中的&#x200B;_常规CLI安装_。
+按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅[扩展指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)中的&#x200B;_常规CLI安装_。
 
 ## 步骤2：创建该语言的存储视图
 

@@ -3,7 +3,7 @@ title: Adobe Stock集成
 description: 将Adobe Stock与您的 [!DNL Commerce] 实例集成，以访问要在商店中使用的无数媒体资源。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '399'
@@ -28,7 +28,7 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 许可Adobe Stock映像需要：
 
-- [Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe帐户](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)
 - 与该帐户关联的付费[Adobe Stock](https://stock.adobe.com)计划
 
 ## 集成[!DNL Commerce]和Adobe Stock

@@ -47,6 +47,6 @@ ht-degree: 0%
 
 - 保持透明度并完整记录文档。
 
-- 要了解Adobe如何帮助商家遵守适用的法律义务，请访问[网站](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}。
+- 要了解Adobe如何帮助商家遵守适用的法律义务，请访问[网站](https://business.adobe.com/cn/privacy/general-data-protection-regulation.html){:target="_blank"}。
 
-- 有关数据流图和数据库实体映射，请参阅[个人信息参考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}。
+- 有关数据流图和数据库实体映射，请参阅[个人信息参考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans){: target="_blank"}。

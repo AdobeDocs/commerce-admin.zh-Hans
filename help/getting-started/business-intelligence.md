@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]工具'
 description: 了解Adobe Commerce和Magento Open Source商家如何使用Commerce Intelligence工具获得用于做出合理业务决策的insight。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## [!DNL Commerce Intelligence]帐户
 
-当您通过Adobe激活[!DNL Commerce Intelligence]帐户时，您将有权访问五个包含约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅[Commerce Intelligence用户指南](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)。
+当您通过Adobe激活[!DNL Commerce Intelligence]帐户时，您将有权访问五个包含约70个报表的仪表板。 这些报表旨在提供有关数据的洞察，并回答诸如“我的订单环比增长如何？”、“谁是我的最忠实客户？”和“我的优惠券策略有效吗？”等之类的问题。 有关此工具集的详细信息，请参阅[Commerce Intelligence用户指南](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hans)。
 
 ## [!DNL Advanced Reporting]
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 * 在存储URL的[!DNL Commerce]配置中，**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;和&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;必须设置为`Yes`。
 
-* 已创建[[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)，且已安装的服务器上正在运行cron作业。
+* 已创建[[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans)，且已安装的服务器上正在运行cron作业。
 
 >[!NOTE]
 >

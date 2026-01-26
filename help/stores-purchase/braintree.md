@@ -3,7 +3,7 @@ title: Braintree
 description: 了解如何在您的商店中将Braintree设置为在线支付解决方案。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您需要有关卡上意外费用的帮助，请访问[取消订阅](https://helpx.adobe.com/manage-account/using/cancel-subscription.html)页面以获得帮助。
+>如果您需要有关卡上意外费用的帮助，请访问[取消订阅](https://helpx.adobe.com/cn/manage-account/using/cancel-subscription.html)页面以获得帮助。
 
 Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体验。 它支持[!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo和本地支付方式。 Braintree减轻了商家的PCI合规性负担，因为交易发生在Braintree系统上。 Braintree Payments集成由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)开发。
 

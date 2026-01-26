@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ![checkbox](../assets/checkbox.png) — 维护解决信息安全问题的策略。
 
-要了解更多信息，请参阅[Adobe的PCI合规性方法](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}。
+要了解更多信息，请参阅[Adobe的PCI合规性方法](https://business.adobe.com/cn/products/magento/pci-compliance.html){:target="_blank"}。
 
 >[!NOTE]
 >

@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 要获得有关排查国家/地区配置问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hans)
 
 ## [!UICONTROL Merchant Location]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 “商家位置”设置用于配置[付款方法](../stores-purchase/payments.md)。 如果此设置没有值，则使用[默认国家/地区](#uicontrol-country-options)设置。
 
@@ -215,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 ### 第2步：为生成的链接设置基本URL
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 某些面向客户的电子邮件包含指向商店的链接，例如帮助客户重置密码的链接。 要确保指向店面的链接正常工作，您必须定义指向店面的基本URL。
 
@@ -229,7 +229,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 ### 步骤3：配置存储区的电子邮件地址
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}配置实例时配置发件人电子邮件地址。 如果需要更改这些地址，请创建支持服务单。
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}配置实例时配置发件人电子邮件地址。 如果需要更改这些地址，请创建支持服务单。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
