@@ -77,11 +77,11 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_并将&#x200B;**[!UICONTROL Provider]**设置为`Google MAP`。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;并将&#x200B;**[!UICONTROL Provider]**&#x200B;设置为`Google MAP`。
 
    基于距离的SSA的![提供程序](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_部分并配置设置：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_&#x200B;部分并配置设置：
 
    - 对于&#x200B;**[!UICONTROL Google API Key]**，输入从您的Google帐户复制的密钥。
 

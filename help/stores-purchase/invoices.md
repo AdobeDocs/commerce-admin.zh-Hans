@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >将您的特定&#x200B;_[!UICONTROL Invoice]_付款方式[的](../configuration-reference/sales/payment-methods.md#payment-actions)付款操作[设置为](../configuration-reference/sales/payment-methods.md)时，不会显示`Authorize and Capture`选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
+   >将您的特定&#x200B;_[!UICONTROL Invoice]_&#x200B;付款方式[的](../configuration-reference/sales/payment-methods.md#payment-actions)付款操作[设置为](../configuration-reference/sales/payment-methods.md)时，不会显示`Authorize and Capture`选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
 
    ![发票销售订单](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_网格中，找到发票，然后单击&#x200B;**[!UICONTROL View]**操作_&#x200B;列中的&#x200B;_。
+1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击&#x200B;**[!UICONTROL View]**&#x200B;操作_&#x200B;列中的&#x200B;_。
 
 1. 在发票顶部，单击&#x200B;**[!UICONTROL Print]**&#x200B;以生成发票的PDF。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_网格中，选中要打印的每张发票所对应的复选框。
+1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，选中要打印的每张发票所对应的复选框。
 
 1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`PDF Invoices`。
 

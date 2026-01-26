@@ -202,7 +202,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 由页面生成器模块设置。 包含一个标志，阻止在管理员之前明确取消某项操作时，后续提示要求管理员确认是否将其打开。 仅在商店的管理区域使用。 不适用于购物者。
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 仅在存储的管理区域中用作选项卡功能实施的一部分。 不适用于购物者。
 

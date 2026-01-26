@@ -47,7 +47,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
      >[!NOTE]
      >
-     >请勿更改&#x200B;_[!UICONTROL Base Link URL]_字段中的占位符。 它是用于创建基本URL的相对链接的占位符。
+     >请勿更改&#x200B;_[!UICONTROL Base Link URL]_&#x200B;字段中的占位符。 它是用于创建基本URL的相对链接的占位符。
 
    - **[!UICONTROL Base URL for Static View Files]** — （可选）通过输入以下占位符开头的路径，为静态视图文件的基本URL指定备用位置：
 
@@ -112,7 +112,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL URL Options]**。
 

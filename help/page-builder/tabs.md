@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 添加单个选项卡
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，将&#x200B;**[!UICONTROL Tabs]**占位符直接拖到舞台上，或拖到舞台上的行或列上。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，将&#x200B;**[!UICONTROL Tabs]**&#x200B;占位符直接拖到舞台上，或拖到舞台上的行或列上。
 
    ![将制表符拖到行](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

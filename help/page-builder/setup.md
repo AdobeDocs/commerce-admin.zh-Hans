@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder]设置
 
-在配置中启用时，[!DNL Page Builder]是CMS页面、块和动态块的默认内容创建工具。 此外，_[!UICONTROL Enable Advanced CMS]_按钮还将[!DNL Page Builder]作为类别和产品的选项提供。 您还可以选择要用于产品、类别和CMS页面的默认[页面布局](../content-design/page-layout.md)。 [!DNL Page Builder]不可用于使用WYSIWYG [编辑器](../content-design/editor.md)的新闻稿内容。
+在配置中启用时，[!DNL Page Builder]是CMS页面、块和动态块的默认内容创建工具。 此外，_[!UICONTROL Enable Advanced CMS]_&#x200B;按钮还将[!DNL Page Builder]作为类别和产品的选项提供。 您还可以选择要用于产品、类别和CMS页面的默认[页面布局](../content-design/page-layout.md)。 [!DNL Page Builder]不可用于使用WYSIWYG [编辑器](../content-design/editor.md)的新闻稿内容。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;并验证&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;是否设置为`Yes`。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;并执行以下操作：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;并将&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;设置为`No`。
 
