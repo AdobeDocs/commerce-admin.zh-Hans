@@ -3,7 +3,7 @@ title: 商店本地化
 description: 了解如何将商店或商店视图本地化。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 通过更改视图的区域设置，可以立即将整个存储中页面上看起来为硬编码的大多数文本更改为其他语言。 更改区域设置实际上不会逐字翻译文本，而只是引用不同的翻译表，该表提供在整个存储区中使用的界面文本。 可更改的文本包括导航标题、标签、按钮和链接，如&#x200B;_我的购物车_&#x200B;和&#x200B;_我的帐户_。 您还可以使用[内联翻译](../configuration-reference/advanced/developer.md)工具修剪界面中的文本。
 
-可以在Commerce Marketplace上的[翻译和本地化][1]{:target="_blank"}下找到语言包。 Marketplace会不断添加新扩展，因此请经常回来查看。
+可以在Commerce Marketplace上的[翻译和本地化](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"}下找到语言包。 Marketplace会不断添加新扩展，因此请经常回来查看。
 
 ## 步骤1：安装语言包
 
-按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装][2]。
+按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅[扩展指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)中的&#x200B;_常规CLI安装_。
 
 ## 步骤2：创建该语言的存储视图
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉列表中，选择要配置的商店视图，然后在出现提示时单击&#x200B;**[!UICONTROL OK]**。
 
-1. 在&#x200B;*[!UICONTROL General]*&#x200B;配置页面上，展开&#x200B;**[!UICONTROL Locale Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;*[!UICONTROL General]*&#x200B;配置页面上，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Locale Options]**。
 
 1. 清除&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框，并将&#x200B;**[!UICONTROL Locale]**&#x200B;设置为要分配给视图的语言。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;部分中，为每个商店视图输入一个已翻译的标签。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_部分中，为每个商店视图输入一个已翻译的标签。
 
    ![输入翻译的标签](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 对于&#x200B;_基本信息_，请翻译&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;部分并翻译&#x200B;**[!UICONTROL Description]**。
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_部分并翻译&#x200B;**[!UICONTROL Description]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;部分并翻译以下字段：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除字段右侧的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
 
@@ -139,7 +139,3 @@ ht-degree: 0%
    ![管理选项](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans

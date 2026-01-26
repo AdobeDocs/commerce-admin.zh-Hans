@@ -1,9 +1,9 @@
 ---
 title: 增值税(VAT)
-description: '&amp；lt；在此处添加描述&amp；gt；'
+description: '&amp；lt；在此处添加说明&amp；gt；'
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add New Tax Rule]**。
 
-1. 展开&#x200B;**[!UICONTROL Additional Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Additional Settings]**。
 
    ![设置产品税类](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ Commerce使用以下[客户配置设置](../customers/account-options-new.md)计
 
 ## VAT ID验证
 
-_VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(EU)内发生的B2B交易记录的所需税额。 Commerce使用[欧盟委员会][1]服务器的Web服务执行VAT ID验证。
+_VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(EU)内发生的B2B交易记录的所需税额。 Commerce使用[欧盟委员会](https://ec.europa.eu/taxation_customs/vies/)服务器的Web服务执行VAT ID验证。
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 在客户指定了增值税编号和其他地址字段并选择保存之后，系统将保存该地址并向欧盟委员会服务器发送VAT ID验证请求。 根据验证结果，将其中一个默认组分配给客户。 如果客户或管理员更改默认地址的VAT ID或更改整个默认地址，则可以更改此组。 有时，在单页签出过程中可以临时更改组（模拟组更改）。
 
-如果启用，则通过选中&#x200B;_[!UICONTROL Customer Information]_&#x200B;页面上的复选框，可以覆盖适用于单个客户的VAT ID验证。
+如果启用，则通过选中&#x200B;_[!UICONTROL Customer Information]_页面上的复选框，可以覆盖适用于单个客户的VAT ID验证。
 
 ### 签出工作流
 
@@ -285,7 +285,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展开&#x200B;**[!UICONTROL Create New Account Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Create New Account Options]**。
 
    在以下示例中，与VAT验证无关的一般客户设置是暗的。
 
@@ -303,7 +303,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL General]**&#x200B;并在下面选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开&#x200B;**[!UICONTROL Store Information]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Store Information]**。
 
    ![存储信息](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
@@ -317,7 +317,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 #### 第5步：核实欧盟成员国名单
 
-1. 在&#x200B;_常规_&#x200B;配置页面中继续，展开&#x200B;**[!UICONTROL Countries Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_常规_&#x200B;配置页面中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Countries Options]**。
 
    ![国家/地区选项](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
@@ -326,6 +326,3 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
    要更改默认设置，请清除&#x200B;**使用系统值**&#x200B;复选框。 按住Ctrl键(PC)或Command键(Mac)，然后单击要添加或删除的每个国家/地区。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/

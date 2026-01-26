@@ -3,8 +3,8 @@ title: 存储URL
 description: 了解商店URL以及如何配置基本URL和存储代码。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 商店的基本URL最初是在Adobe Commerce安装期间设置的。 如果当时有安全证书可用，则可以指定要用于存储、管理员或两者的`HTTPS`个URL。 如果您的Adobe Commerce安装包含多个商店，或者您计划稍后添加更多商店，则可以在URL中包含商店代码。 所有Adobe资源和操作都可以通过安全协议使用。
 
-如果在安装时安全证书不可用于域，请确保在启动存储之前更新配置。 在为域建立安全证书后，您可以将基本URL配置为使用加密的安全套接字层(SSL)和[传输层安全性][1] (TLS)协议来操作，或者同时配置这两个基本的URL。
+如果在安装时安全证书不可用于域，请确保在启动存储之前更新配置。 在为域建立安全证书后，您可以将基本URL配置为使用加密的安全套接字层(SSL)和[传输层安全性](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS)协议来操作，或者同时配置这两个基本的URL。
 
 >[!IMPORTANT]
 >
 >Adobe强烈建议使用安全协议传输生产站点的所有页面，包括内容和产品页面。
 
-默认情况下，Adobe Commerce和Magento Open Source可配置为交付超过`HTTPS`的所有页面。 如果您的存储已使用标准协议运行，则可以通过启用[HTTP Strict Transport Security][2] (HSTS)并升级任何不安全的页面请求来提高安全性。 HSTS是一种选择加入协议，它阻止浏览器呈现使用指定域的不安全协议传输的标准`HTTP`页面。 由于搜索引擎可能已使用标准`HTTP` URL对您存储区的每个页面编制索引，因此您可以配置Commerce以自动将任何不安全的页面请求升级到`HTTPS`，这样您就不会丢失任何流量。 当Commerce配置为对店面和管理员使用安全URL时，会显示两个额外的字段，允许您启用`HSTS`。
+默认情况下，Adobe Commerce和Magento Open Source可配置为交付超过`HTTPS`的所有页面。 如果您的存储已使用标准协议运行，则可以通过启用[HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) (HSTS)并升级任何不安全的页面请求来提高安全性。 HSTS是一种选择加入协议，它阻止浏览器呈现使用指定域的不安全协议传输的标准`HTTP`页面。 由于搜索引擎可能已使用标准`HTTP` URL对您存储区的每个页面编制索引，因此您可以配置Commerce以自动将任何不安全的页面请求升级到`HTTPS`，这样您就不会丢失任何流量。 当Commerce配置为对店面和管理员使用安全URL时，会显示两个额外的字段，允许您启用`HSTS`。
 
 ## 配置基本URL
 
@@ -47,7 +47,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
      >[!NOTE]
      >
-     >请勿更改&#x200B;_[!UICONTROL Base Link URL]_&#x200B;字段中的占位符。 它是用于创建基本URL的相对链接的占位符。
+     >请勿更改&#x200B;_[!UICONTROL Base Link URL]_字段中的占位符。 它是用于创建基本URL的相对链接的占位符。
 
    - **[!UICONTROL Base URL for Static View Files]** — （可选）通过输入以下占位符开头的路径，为静态视图文件的基本URL指定备用位置：
 
@@ -112,7 +112,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL URL Options]**。
 
@@ -138,7 +138,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 ## 使用自定义管理员URL
 
-作为[安全最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)，Adobe建议您使用唯一的管理员URL，而不是默认的&#x200B;_管理员_&#x200B;或常用术语，如&#x200B;_后端_。 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
+作为[安全最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，Adobe建议您使用唯一的管理员URL，而不是默认的&#x200B;_管理员_&#x200B;或常用术语，如&#x200B;_后端_。 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 >[!NOTE]
 >
->作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。 对于在云基础架构上部署的Adobe CommerceAdobe Commerce项目，请按照[Cloud Infrastructure指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hans#admin-url)中的&#x200B;*说明*&#x200B;更改管理员URL。
+>作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。 对于在云基础架构上部署的Adobe CommerceAdobe Commerce项目，请按照[Cloud Infrastructure指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url)中的&#x200B;*说明*&#x200B;更改管理员URL。
 
 ### 方法1：从管理员更改
 
@@ -200,7 +200,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
    >[!TIP]
    >
-   >对于云基础架构上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`变量设置自定义管理路径。 请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hans)管理员变量主题&#x200B;__。
+   >对于云基础架构上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`变量设置自定义管理路径。 请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html)管理员变量主题&#x200B;__。
 
    - **默认管理路径**
 
@@ -265,7 +265,3 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
      ```bash
      php bin/magento cache:flush
      ```
-
-
-[1]: https://en.wikipedia.org/wiki/Transport_Layer_Security
-[2]: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security

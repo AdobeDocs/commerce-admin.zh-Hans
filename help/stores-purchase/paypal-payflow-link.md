@@ -3,8 +3,8 @@ title: PayPal Payflow链接
 description: 了解如何在您的商店中将PayPal Payflow Link设置为在线支付解决方案。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -24,7 +24,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 ## 要求
 
-- [PayPal商业帐户][1] PayPal Payflow Pro网关将PayPal上的商家帐户与商家网站链接，同时充当网关和商家帐户。
+- [PayPal商业帐户](https://www.paypal.com/webapps/mpp/how-to-sell-online) PayPal Payflow Pro网关将PayPal上的商家帐户与商家网站链接，同时充当网关和商家帐户。
 
 - 如果您管理多个Commerce网站，则必须为每个网站拥有单独的PayPal商家帐户。
 
@@ -50,9 +50,9 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 ## 配置PayPal帐户
 
-1. 登录到您的[PayPal企业帐户][2]。
+1. 登录到您的[PayPal企业帐户](https://manager.paypal.com/)。
 
-1. 使用以下设置使用PayPal管理器配置[托管签出页面][4]：
+1. 使用以下设置使用PayPal管理器配置[托管签出页面](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)：
 
    - 在&#x200B;**[!UICONTROL Security Options]**&#x200B;下，完成以下设置：
 
@@ -99,13 +99,13 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 1. 如果您的Commerce安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
    ![商家国家/地区](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如果需要）并单击&#x200B;**[!UICONTROL Payflow Link]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 展开&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如果需要）并单击&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payflow Link]**。
 
    ![Payflow链接 — 配置](./assets/payflow-link.png){width="600" zoomable="yes"}
 
@@ -129,7 +129,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 1. 要运行测试事务，请将&#x200B;**[!UICONTROL Test Mode]**&#x200B;设置为`Yes`。
 
-   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号][3]。 当您准备好进入生产环境时，请返回到配置并将测试模式设置为`No`。
+   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)。 当您准备好进入生产环境时，请返回到配置并将测试模式设置为`No`。
 
 1. 如果您的系统使用代理服务器建立与PayPal系统的连接，请将&#x200B;**[!UICONTROL Test Mode]**&#x200B;设置为`Yes`并执行以下操作：
 
@@ -156,7 +156,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 广告PayPal点数
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
 
    ![广告PayPal点数](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -164,7 +164,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 1. 输入您的&#x200B;**[!UICONTROL Publisher ID]**。
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
    ![通告PayPal点数主页设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -192,11 +192,11 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 广告PayPal PayLater
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
 
 1. 将&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;设置为`Yes`。
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
    ![通告PayPal点数主页设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -268,7 +268,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 ### 步骤4：完成基本设置
 
-1. 展开&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Link]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Link]**。
 
    ![基本设置 — PayPal Payflow链接](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
 
@@ -287,14 +287,14 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 ### 步骤5：完成高级设置
 
-1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![高级设置 — PayPal Payflow链接](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
 
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -324,7 +324,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 结算报表设置
 
-1. 展开&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Settlement Report Settings]**。
 
    ![结算报告设置 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -365,9 +365,9 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 前端体验设置
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
 
-1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
 
    ![前端体验设置 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -403,7 +403,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 ### 步骤6：完成PayPal Express结帐的基本设置
 
-1. 展开&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
 
    ![基本设置](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -420,11 +420,11 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
    - `Authorization` — 批准购买并暂停资金。 在商户捕获&#x200B;_金额_&#x200B;之前，不撤消该金额。
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 ### 步骤7：完成PayPal Express签出的高级设置
 
-1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![高级设置](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -433,7 +433,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -448,8 +448,3 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 要允许客户从PayPal网站完成交易而不返回商店进行订单审核，请将&#x200B;**[!UICONTROL Skip Order Review Step]**&#x200B;设置为`Yes`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

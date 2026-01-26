@@ -3,8 +3,8 @@ title: PayPal支付标准
 description: 了解如何在您的商店中将PayPal Payments Standard设置为在线支付解决方案。
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2081'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal支付标准
 
-[PayPal Payments Standard][4]是接受在线付款的最简单方式。 只需在商店中添加结帐按钮，即可为客户提供信用卡和PayPal付款的便利。
+[PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/)是接受在线付款的最简单方式。 只需在商店中添加结帐按钮，即可为客户提供信用卡和PayPal付款的便利。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 商家要求
 
-- [PayPal企业帐户][1]
+- [PayPal企业帐户](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 
 ## 签出工作流
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 1. 如果您的Commerce安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
    ![商家国家/地区](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;**[!UICONTROL PayPal All-in-One Payment Solutions]**&#x200B;并单击&#x200B;**[!UICONTROL Payments Standard]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 展开&#x200B;**[!UICONTROL PayPal All-in-One Payment Solutions]**&#x200B;并单击&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payments Standard]**。
 
    ![PayPal支付标准](./assets/paypal-payments-standard.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 连接帐户以进行测试或生产：
 
-   - 对于测试（开发）模式，请单击&#x200B;**[!UICONTROL Sandbox Credentials]**&#x200B;并输入您的[PayPal沙盒][3]凭据。
+   - 对于测试（开发）模式，请单击&#x200B;**[!UICONTROL Sandbox Credentials]**&#x200B;并输入您的[PayPal沙盒](https://developer.paypal.com/docs/api-basics/sandbox/)凭据。
    - 对于生产模式，请单击&#x200B;**[!UICONTROL Connect with PayPal]**&#x200B;并输入您的生产帐户凭据。
 
    验证连接后，您可以继续。
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ### 步骤3：完成支付标准设置
 
-1. 展开&#x200B;**[!UICONTROL Payments Standard]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Payments Standard]**。
 
    ![必需的设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-standard-required.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. 如果您使用的是来自沙盒帐户的凭据，请将&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;设置为`Yes`。
 
-   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号][2]。 当您准备好进入生产环境时，请返回配置并将沙盒模式设置为`No`并连接到您的生产PayPal帐户。
+   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)。 当您准备好进入生产环境时，请返回配置并将沙盒模式设置为`No`并连接到您的生产PayPal帐户。
 
 1. 如果您的系统使用代理服务器在Adobe Commerce或Magento Open Source与PayPal支付系统之间建立连接，请将&#x200B;**[!UICONTROL API Uses Proxy]**&#x200B;设置为`Yes`并完成以下操作：
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 #### 广告PayPal点数
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
 
    ![通告PayPal点数主页设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
    ![广告PayPal点数](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
 1. 若要在页面上放置横幅，请将&#x200B;**[!UICONTROL Display]**&#x200B;设置为`Yes`。
 
@@ -164,11 +164,11 @@ ht-degree: 0%
 
 #### 广告PayPal PayLater
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
 
 1. 将&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;设置为`Yes`。
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
    ![通告PayPal点数主页设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
 ### 步骤5：完成基本设置
 
-1. 展开&#x200B;**[!UICONTROL Basic Settings - PayPal Website Payments Standard]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Basic Settings - PayPal Website Payments Standard]**。
 
    ![基本设置](./assets/paypal-payments-basic.png){width="600" zoomable="yes"}
 
@@ -257,11 +257,11 @@ ht-degree: 0%
    - `Authorization` — 批准购买并暂停资金。 该金额在商户缴获前不会提取。
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 ### 步骤6：完成高级设置
 
-1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![高级设置](../configuration-reference/sales/assets/payment-methods-paypal-payment-standard-advanced.png){width="600" zoomable="yes"}
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. 若要在日志文件中记录与付款系统的通信，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -323,7 +323,7 @@ ht-degree: 0%
 
 [计费协议](paypal-billing-agreements.md)是商家与客户之间签订的销售协议，已通过PayPal授权可与多个订单一起使用。 在结账过程中，“帐单协议”付款选项仅对已与贵公司签订帐单协议的客户显示。 在PayPal授权协议后，支付系统会颁发一个唯一的参考ID以标识与协议关联的每个订单。 与采购订单类似，客户与您的公司之间可以设置的帐单协议数没有限制。
 
-1. 展开&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**。
 
    ![帐单协议设置](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
@@ -341,7 +341,7 @@ ht-degree: 0%
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
 
 1. 若要在日志文件中记录与付款系统的通信，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -357,7 +357,7 @@ ht-degree: 0%
 
 #### 结算报表设置
 
-1. 展开&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Settlement Report Settings]**。
 
    ![结算报告设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -398,9 +398,9 @@ ht-degree: 0%
 
 #### 前端体验设置
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
 
-1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
 
    ![前端体验设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -433,8 +433,3 @@ ht-degree: 0%
       - **[!UICONTROL Header Background Color]** — 签出页面标题的背景颜色。
       - **[!UICONTROL Header Border Color]** — 标题周围两像素边框的颜色。
       - **[!UICONTROL Page Background Color]** — 结账页面以及标题和付款表单周围的背景颜色。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/api-basics/sandbox/
-[4]: https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/

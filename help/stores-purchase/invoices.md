@@ -3,9 +3,9 @@ title: 发票
 description: 了解如何创建和打印发票，以支持订单处理和客户服务操作。
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 >
 >对于使用`Gift Card`、`Store Credit`、`Reward Points`或其他离线付款方式下单的订单，不会自动创建发票。
 
-必须先生成订单发票，然后才能打印该发票。 要查看或打印PDF，请先下载并安装PDF读取器，如[Adobe Acrobat Reader][1]。
+必须先生成订单发票，然后才能打印该发票。 要查看或打印PDF，请先下载并安装PDF阅读器，如[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
 
-**_为订单开票：_**
+**_为订单开票:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >将您的特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款操作](../configuration-reference/sales/payment-methods.md#payment-actions)设置为`Authorize and Capture`时，不会显示&#x200B;_[!UICONTROL Invoice]_&#x200B;选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
+   >将您的特定&#x200B;_[!UICONTROL Invoice]_付款方式[的](../configuration-reference/sales/payment-methods.md#payment-actions)付款操作[设置为](../configuration-reference/sales/payment-methods.md)时，不会显示`Authorize and Capture`选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
 
    ![发票销售订单](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -107,11 +107,11 @@ ht-degree: 0%
 
 1. 完成后，单击页面底部的&#x200B;**[!UICONTROL Submit Invoice]**。
 
-   **_在线付款方式：_**
+   **_在线付款方式:_**
 
    ![提交发票 — 联机付款方式](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
-   **_脱机付款方式：_**
+   **_离线付款方式:_**
 
    ![提交发票 — 脱机付款方式)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
@@ -125,28 +125,26 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要查看或打印PDF，您必须具有PDF读取器。 您可以免费下载[Adobe Reader][1]。
+>要查看或打印PDF，您必须具有PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
 
 ### 打印单张发票
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击_&#x200B;操作&#x200B;_列中的&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Invoices]_网格中，找到发票，然后单击&#x200B;**[!UICONTROL View]**操作_&#x200B;列中的&#x200B;_。
 
-1. 在发票顶部，单击&#x200B;**[!UICONTROL Print]**&#x200B;以生成发票PDF。
+1. 在发票顶部，单击&#x200B;**[!UICONTROL Print]**&#x200B;以生成发票的PDF。
 
-1. 将生成的PDF保存到文件或打印该文件。
+1. 将生成的PDF保存至文件或打印该文件。
 
 ### 打印多张发票
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，选中要打印的每张发票所对应的复选框。
+1. 在&#x200B;_[!UICONTROL Invoices]_网格中，选中要打印的每张发票所对应的复选框。
 
 1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`PDF Invoices`。
 
    ![打印多张发票](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
-这些发票保存在一个PDF文件中，可以发送到打印机或进行保存。
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader"
+这些发票保存在一个PDF文件中，可将其发送到打印机或进行保存。

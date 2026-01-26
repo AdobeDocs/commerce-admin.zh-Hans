@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: 了解如何使用 [!DNL Google Analytics] 为Commerce网站收集有用的量度。
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 如果您还没有为网站设置[!DNL Google Analytics] 4，请按照以下方法之一操作：
 
 - [首次设置Analytics数据收集](https://support.google.com/analytics/answer/9304153)
-- [将Google Analytics4添加到具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的网站
+- [将Google Analytics 4添加到具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的站点
 
 ### 步骤2：完成Commerce配置
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Google API]**。
 
-1. 展开&#x200B;**[!UICONTROL Google GTag]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google GTag]**。
 
-1. 展开&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;子部分的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![子部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    - 如果要对内容执行A/B测试和其他性能测试，请将&#x200B;**内容实验**&#x200B;设置为`Yes`。
 
-   ![Sales配置 — 适用于Google Analytics的Google API 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
+   ![销售配置 — 适用于Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}的Google API
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2023年7月1日，标准Universal Analytics属性将不再处理数据。 如果您仍然依赖[!DNL Universal Analytics]，则建议您[准备以后使用Google Analytics4](https://support.google.com/analytics/answer/10759417)。
+>2023年7月1日，标准Universal Analytics属性将不再处理数据。 如果您仍依赖[!DNL Universal Analytics]，则建议您[准备在未来使用Google Analytics 4](https://support.google.com/analytics/answer/10759417)。
 
 ### 步骤1：设置Google Universal Analytics
 
-访问Google网站，并注册[Google Universal Analytics][1]帐户。
+访问Google网站，并注册[Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)帐户。
 
 ### 步骤2：完成Commerce配置
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Google API]**。
 
-1. 展开&#x200B;**[!UICONTROL Google Analytics]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google Analytics]**&#x200B;并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
 
@@ -83,21 +83,21 @@ ht-degree: 0%
 
    - 如果要对内容执行A/B测试和其他性能测试，请将&#x200B;**[!UICONTROL Content Experiments]**&#x200B;设置为`Yes`。
 
-   ![销售配置 — Google API -Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
+   ![销售配置 — Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ## 增强型电子商务
 
-增强型电子商务是[!DNL Google Universal Analytics]的一个插件，可让您深入了解客户的购物和购买行为。 您可以使用增强型电子商务生成有关关键客户活动的报表，例如，当客户在购物车中添加商品、开始结帐流程或完成购买时。 您还可以识别和分析放弃购物而不进行购买的购物者的模式。
+增强型电子商务是[!DNL Google Universal Analytics]的一个插件，可让您insight了解客户的购物和购买行为。 您可以使用增强型电子商务生成有关关键客户活动的报表，例如，当客户在购物车中添加商品、开始结帐流程或完成购买时。 您还可以识别和分析放弃购物而不进行购买的购物者的模式。
 
-以下说明显示如何使用[!DNL Universal Analytics]配置[!DNL Google Tag Manager]以生成增强的电子商务数据和报表。
+以下说明显示如何使用[!DNL Google Tag Manager]配置[!DNL Universal Analytics]以生成增强的电子商务数据和报表。
 
 ### 步骤1. 注册Google帐户
 
 1. 注册[Google Tag Manager](google-tag-manager.md)帐户，并完成Commerce配置。
 
-1. 注册新的[Google Universal Analytics][1]帐户。
+1. 注册新的[Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)帐户。
 
 ### 步骤2. 配置增强型电子商务
 
@@ -213,6 +213,3 @@ ht-degree: 0%
 1. 完成后，单击&#x200B;**[!UICONTROL Preview]**&#x200B;并验证标记是否正常工作。
 
 1. 验证设置后，单击&#x200B;**[!UICONTROL Publish]**。
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

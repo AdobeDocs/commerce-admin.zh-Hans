@@ -3,7 +3,7 @@ title: 商店详细信息
 description: 了解如何更新商店的基本信息。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和其他通信中的基本信息。
+_[!UICONTROL Store Information]_部分提供了出现在销售文档和其他通信中的基本信息。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开&#x200B;**[!UICONTROL Store Information]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Store Information]**。
 
    ![常规配置 — 存储信息](./assets/general-store-information.png){width="700"}
 
@@ -67,7 +67,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开&#x200B;**[!UICONTROL Locale Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Locale Options]**。
 
    ![常规配置 — 区域设置选项](./assets/general-locale-options.png){width="700"}
 
@@ -97,7 +97,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开&#x200B;**[!UICONTROL State Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL State Options]**。
 
    ![常规配置 — 状态选项](./assets/general-state-options.png){width="700"}
 
@@ -123,7 +123,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开&#x200B;**[!UICONTROL Country Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Country Options]**。
 
    >[!NOTE]
    >
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 要获得有关排查国家/地区配置问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hans)
+- [如何添加国家/地区](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 “商家位置”设置用于配置[付款方法](../stores-purchase/payments.md)。 如果此设置没有值，则使用[默认国家/地区](#uicontrol-country-options)设置。
 
@@ -215,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 ### 第2步：为生成的链接设置基本URL
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 某些面向客户的电子邮件包含指向商店的链接，例如帮助客户重置密码的链接。 要确保指向店面的链接正常工作，您必须定义指向店面的基本URL。
 
@@ -229,13 +229,13 @@ _[!UICONTROL Store Information]_&#x200B;部分提供了出现在销售文档和�
 
 ### 步骤3：配置存储区的电子邮件地址
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}配置实例时配置发件人电子邮件地址。 如果需要更改这些地址，请创建支持服务单。
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目(Adobe管理的SaaS基础架构)。"}配置实例时配置发件人电子邮件地址。 如果需要更改这些地址，请创建支持服务单。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL Store Email Addresses]**。
 
-1. 展开&#x200B;**[!UICONTROL General Contact]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL General Contact]**&#x200B;并执行以下操作：
 
    ![常规配置 — 存储电子邮件地址](./assets/store-email-addresses-general-contact.png){width="600"}
 
@@ -291,7 +291,7 @@ Luma示例数据包括“联系我们”页面上的其他信息，用于演示�
 
 1. 在左侧导航面板中的&#x200B;**[!UICONTROL General]**&#x200B;下，选择&#x200B;**[!UICONTROL Contacts]**。
 
-1. 展开&#x200B;**[!UICONTROL Contact Us]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Enable Contact Us]**&#x200B;设置为`Yes`。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Contact Us]**&#x200B;并将&#x200B;**[!UICONTROL Enable Contact Us]**&#x200B;设置为`Yes`。
 
    ![常规配置 — 联系我们](./assets/contacts-contact-us.png){width="600"}
 
@@ -343,6 +343,4 @@ Luma示例数据包含可为您的商店自定义的&#x200B;_联系我们信息_
 >
 >从2.4.0版本开始，联系人表单不能再在CMS块或CMS页面中调用。 应使用布局xml或自定义主题模板完成联系人表单的所有自定义。
 
-默认情况下，购物者使用店面页面页脚中的&#x200B;_联系人链接_&#x200B;访问联系人表单。 有关自定义联系人页面的更多信息，请参阅[前端开发人员指南][theme-guide]。
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+默认情况下，购物者使用店面页面页脚中的&#x200B;_联系人链接_&#x200B;访问联系人表单。 有关自定义联系人页面的更多信息，请参阅[前端开发人员指南](https://developer.adobe.com/commerce/frontend-core/guide/themes/)。

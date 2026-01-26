@@ -3,9 +3,9 @@ title: CCPA合规性
 description: 了解加州消费者隐私法案(CCPA) ，该法案扩展了加州消费者决定如何收集、存储和使用其个人信息的权利。
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >此信息是帮助Adobe Commerce商家和开发人员了解《加州消费者隐私法案》含义的一系列主题中的一个。 资料以规约案文为依据。 要确认CCPA是否适用于您的业务，请咨询您的律师。
 
-[加州消费者隐私法案][5] (CCPA)扩展了加州消费者决定如何收集、存储和使用其个人信息的权利。 其重点是保护消费者免受未经授权的出售或交换其个人信息之害。 CCPA于2018年颁布并于2020年1月1日生效。
+[加州消费者隐私法案](https://oag.ca.gov/privacy/ccpa) (CCPA)扩展了加州消费者决定如何收集、存储和使用其个人信息的权利。 其重点是保护消费者免受未经授权的出售或交换其个人信息之害。 CCPA于2018年颁布并于2020年1月1日生效。
 
 CCPA授予消费者以下新权利：
 
@@ -56,15 +56,15 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 - CCPA具有额外的数据清点和映射要求。
 - 这些法规具有不同的隐私政策要求。
 
-符合GDPR的企业可能需履行CCPA规定的其他义务。 要了解更多信息，请参阅[CCPA情况说明书][3]{：target=&quot;_blank&quot;}。
+符合GDPR的企业可能需履行CCPA规定的其他义务。 若要了解更多信息，请参阅[CCPA情况说明书](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}。
 
 ### 合规性路线图
 
 需要作出协调一致的努力，以制定和执行一项处理遵约问题的计划。 使用此路线图作为指南，来调动资源并安排任务的优先顺序，以便您能够在多个方面取得进展。 对于所有[!DNL Commerce]安装，该过程基本相同，但出现以下异常：
 
-- **云基础架构上的Adobe Commerce**：在Adobe[云基础架构][4]{：target=&quot;_blank&quot;}上托管商店的商家可以咨询其Adobe Commerce技术客户经理或客户支持部门来获取响应消费者请求的帮助。
+- 云基础架构上的&#x200B;**Adobe Commerce**：商店托管在Adobe [云基础架构](https://www.adobe.com/commerce/magento.html){:target="_blank"}上的商家可以请求其Adobe Commerce技术客户经理或客户支持部门帮助响应消费者请求。
 
-- **内部部署**：具有Adobe Commerce或Magento Open Source内部部署的商家必须开发自己的流程和工具，以响应和管理与隐私法规相关的消费者请求。
+- **内部部署**：安装了Adobe Commerce或Magento Open Source内部部署的商家必须开发自己的流程和工具，以响应和管理与隐私法规相关的消费者请求。
 
 #### 第1步：组建一个跨职能团队来解决法规合规性问题
 
@@ -95,7 +95,7 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 1. 确定与您共享数据的当事方。 该名单应包括服务提供商和第三方。 第三方包括广告网络、互联网服务提供商、数据分析提供商、政府实体、操作系统和平台、社交网络以及不直接从消费者那里收集个人信息的消费者数据经销商。
 
-   - **服务提供商**：出于商业目的有权访问您的消费者数据并代表您提供服务的实体。 例如，Adobe是服务提供商，一些自定义项、扩展和服务的开发人员也是如此。
+   - **服务提供商**：出于商业目的有权访问您的消费者数据并代表您提供服务的实体。 例如，Adobe是服务提供商，一些自定义项、扩展和服务的开发人员也是服务提供商。
 
      检查Google Universal Analytics、Google Tag Manager以及您使用的任何其他数据服务的默认设置，并做出任何必要的更改以遵守法规。 要了解更多信息，请参阅[Google隐私设置](../merchandising-promotions/google-tools.md#google-privacy-settings)。
 
@@ -111,8 +111,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 1. 有关每个版本的适用数据流图和数据库实体映射，请参阅以下主题：
 
-   - [个人信息参考(2.x)][1]
-   - [个人信息参考(1.x)][2]
+   - [个人信息参考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [个人信息参考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![关系图](./assets/privacy-frontend-diagram.svg)
 
@@ -126,7 +126,7 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 - **在CCPA范围内充当企业的实体**（品牌）： [!DNL Commerce]商家从其顾客和在商店购物的客人那里收集和存储个人信息。
 
-- **数据处理者**（技术供应商）：Adobe Commerce和Magento Open Source充当个人数据的处理者，这些数据作为提供给商家的服务的一部分进行存储。 作为处理者，Adobe根据商户的许可和指令，按照许可协议处理个人数据。
+- **数据处理者**（技术供应商）：Adobe Commerce和Magento Open Source充当个人数据的处理者，这些数据作为提供给商家的服务的一部分进行存储。 作为处理者，Adobe根据商户的许可和指示并根据许可协议处理个人数据。
 
 商家有责任执行以下操作：
 
@@ -146,8 +146,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
    - **删除请求**
 
-      - 其商店托管在Adobe Commerce Cloud上的商家应联系Adobe支持部门寻求删除个人信息的帮助。 有关更多信息，请联系您的Adobe技术客户经理或客户支持。
-      - 在内部运行Adobe Commerce或Magento Open Source安装的商家必须实施自己的流程和脚本，以便根据请求删除个人信息。
+      - 其商店托管在Adobe Commerce Cloud上的商家应联系Adobe支持部门以寻求删除个人信息的帮助。 有关更多信息，请联系您的Adobe技术客户经理或客户支持。
+      - 在内部部署Adobe Commerce或Magento Open Source的商家必须实施自己的流程和脚本，以便根据请求删除个人信息。
 
 #### 步骤5：编写所需客户通知的内容
 
@@ -205,9 +205,3 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 **利益相关者：**&#x200B;客户服务、管理支持
 
 在收到每项个人权利请求后的24个月内，将请求和贵公司的回应记录下来。
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hans
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

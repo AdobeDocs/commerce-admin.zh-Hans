@@ -3,10 +3,10 @@ title: PayPal Express签出
 description: 了解如何在您的商店中将PayPal Express结帐设置为在线付款解决方案。
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3111'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ PayPal Express Checkout使您的客户能够通过信用卡或个人PayPal帐户
 >**PSD2要求：** <br/>
 >从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 PayPal Express Checkout无需执行任何操作即可符合PSD2，因为所有要求都由PayPal处理。
 
-具有当前PayPal帐户的客户只需单击&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，即可一步完成购买。 Express Checkout可以作为独立解决方案使用，也可以与其中一个PayPal多功能一体解决方案一起使用。 如果您已经在网上接受信用卡，则可以提供“快速结帐”作为额外选项，以吸引喜欢使用PayPal付款的新客户。
+具有当前PayPal帐户的客户只需单击&#x200B;_[!UICONTROL Check out with PayPal]_按钮，即可一步完成购买。 Express Checkout可以作为独立解决方案使用，也可以与其中一个PayPal多功能一体解决方案一起使用。 如果您已经在网上接受信用卡，则可以提供“快速结帐”作为额外选项，以吸引喜欢使用PayPal付款的新客户。
 
 >[!NOTE]
 >
@@ -28,14 +28,14 @@ PayPal Express Checkout使您的客户能够通过信用卡或个人PayPal帐户
 
 ## 要求
 
-- 商家： [企业PayPal帐户][1]
-- 客户：[个人PayPal帐户][2]
+- 商家： [企业PayPal帐户](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- 客户：[个人PayPal帐户](https://www.paypal.com/webapps/mpp/buying-online)
 
 ## 快速签出工作流
 
 与其他付款方法不同，PayPal Express结帐允许客户在通常结帐工作流程开始时从产品页面、迷你购物车和购物车结帐。
 
-1. **客户下订单** — 客户单击/点按&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮。
+1. **客户下订单** — 客户单击/点按&#x200B;_[!UICONTROL Check out with PayPal]_按钮。
 1. **客户被重定向到PayPal网站** — 客户被重定向到PayPal网站以完成交易。
 1. **客户登录到其PayPal帐户** — 客户必须登录到其PayPal帐户才能完成交易。 付款系统使用来自其PayPal帐户的账单和运送信息。
 1. **客户返回结帐页面** — 客户将被重定向回商店中的结帐页面以查看订单。
@@ -48,11 +48,11 @@ PayPal Express Checkout使您的客户能够通过信用卡或个人PayPal帐户
 
 ## 上下文签出
 
-PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有的简单。 在经过简单的一键或两键式无缝结账期间，客户不会忘记您的商店。 上下文结帐功能在Mac和PC上同样运行良好，在台式计算机、平板电脑和移动设备上提供一致的体验。 要了解更多信息，请参阅[在Express Checkout中进行In-Context Checkout][5]。
+PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有的简单。 在经过简单的一键或两键式无缝结账期间，客户不会忘记您的商店。 上下文结帐功能在Mac和PC上同样运行良好，在台式计算机、平板电脑和移动设备上提供一致的体验。 要了解更多信息，请参阅[在Express Checkout中进行In-Context Checkout](https://www.paypal.com/rs/webapps/mpp/express-checkout)。
 
 ![PayPal上下文签出演示](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal上下文签出演示_][6]
+[_PayPal in-context签出演示_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
 
 当您为[!DNL PayPal Express Checkout]配置存储时，可以启用此选项。
 
@@ -60,7 +60,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 在Commerce管理员中设置PayPal Express签出之前，必须在PayPal网站上配置商家帐户。
 
-1. 在[manager.paypal.com][3]登录到您的PayPal高级帐户。
+1. 在[manager.paypal.com](https://manager.paypal.com/)登录到您的PayPal高级帐户。
 
 1. 转到&#x200B;**[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up]**&#x200B;并进行以下设置：
 
@@ -72,7 +72,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 1. 设置另一个用户（由PayPal推荐）：
 
-   - 转到[manager.paypal.com][3]并登录您的帐户。
+   - 转到[manager.paypal.com](https://manager.paypal.com/)并登录您的帐户。
 
    - 要设置另一个用户，请按照说明操作。
 
@@ -94,13 +94,13 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 1. 如果您的安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
    ![商家国家/地区](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;下，单击&#x200B;**[!UICONTROL PayPal Express Checkout]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_下，单击&#x200B;**[!UICONTROL Configure]**的&#x200B;**[!UICONTROL PayPal Express Checkout]**。
 
    ![配置PayPal Express签出](./assets/paypal-express-checkout.png){width="600"}
 
@@ -112,7 +112,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 1. 连接帐户以进行测试或生产：
 
-   - 对于测试（开发）模式，请单击&#x200B;**[!UICONTROL Sandbox Credentials]**&#x200B;并输入您的[PayPal沙盒][7]凭据。
+   - 对于测试（开发）模式，请单击&#x200B;**[!UICONTROL Sandbox Credentials]**&#x200B;并输入您的[PayPal沙盒](https://developer.paypal.com/docs/api-basics/sandbox/)凭据。
    - 对于生产模式，请单击&#x200B;**[!UICONTROL Connect with PayPal]**&#x200B;并输入您的生产帐户凭据。
 
    验证连接后，您可以继续。
@@ -158,7 +158,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 1. 如果您使用的是来自沙盒帐户的凭据，请将&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;设置为`Yes`。
 
-   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号][4]。 当您准备好进入生产环境时，请返回配置并将沙盒模式设置为`No`并连接到您的生产PayPal帐户。
+   在沙盒中测试配置时，仅使用PayPal推荐的[信用卡号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)。 当您准备好进入生产环境时，请返回配置并将沙盒模式设置为`No`并连接到您的生产PayPal帐户。
 
 1. 如果您的系统使用代理服务器在Commerce和PayPal支付系统之间建立连接，请将&#x200B;**[!UICONTROL API Uses Proxy]**&#x200B;设置为`Yes`并完成以下操作：
 
@@ -178,11 +178,11 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 >[!NOTE]
 >
->**[!UICONTROL Enable PayPal PayLater Experience]**&#x200B;设置不会禁用[!DNL PayPal PayLater]功能，也不会从店面删除&#x200B;**_[!UICONTROL PayPal PayLater]_**&#x200B;按钮。 要禁用店面上的&#x200B;**_[!UICONTROL PayPal PayLater]_**&#x200B;和&#x200B;**_[!UICONTROL PayPal Credit]_**&#x200B;按钮，您必须为&#x200B;**[!UICONTROL Disable Funding Options]**&#x200B;设置（[!UICONTROL Frontend Experience Settings]下的[!UICONTROL Advanced Settings]）选择`PayPal Credit`值。
+>**[!UICONTROL Enable PayPal PayLater Experience]**&#x200B;设置不会禁用[!DNL PayPal PayLater]功能，也不会从店面删除&#x200B;**_[!UICONTROL PayPal PayLater]_**&#x200B;按钮。 要禁用店面上的&#x200B;**_[!UICONTROL PayPal PayLater]_**&#x200B;和&#x200B;**_[!UICONTROL PayPal Credit]_**&#x200B;按钮，您必须为`PayPal Credit`设置（**[!UICONTROL Disable Funding Options]**&#x200B;下的[!UICONTROL Advanced Settings]）选择[!UICONTROL Frontend Experience Settings]值。
 
 #### 广告PayPal点数
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
 
 1. 若要获取帐户信息，请单击&#x200B;**[!UICONTROL Get Publisher ID from PayPal]**&#x200B;并按照说明操作。
 
@@ -190,7 +190,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
    ![广告PayPal点数](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
 1. 若要在页面上放置横幅，请将&#x200B;**[!UICONTROL Display]**&#x200B;设置为`Yes`。
 
@@ -218,11 +218,11 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 #### 广告PayPal PayLater
 
-1. 展开&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
 
 1. 将&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;设置为`Yes`。
 
-1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
 
 1. 若要在页面上放置横幅，请将&#x200B;**[!UICONTROL Display]**&#x200B;设置为`Yes`。
 
@@ -294,7 +294,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 ### 步骤5：完成基本设置
 
-1. 展开&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
 
    ![基本设置](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -312,11 +312,11 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
    - `Order` — 未在PayPal的客户余额、银行帐户或信用卡中获取或授权订单金额。 订单付款活动表示PayPal付款系统与商家之间的协议。 它使商家能够在长达29天的时间内，从客户买方帐户中获取一个或多个最高至订购总额的金额。 在订购资金后，商家可以在接下来的29天内随时抓获这些资金。 只能通过创建一张或多张发票从Commerce管理员处获取订单金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 1. 如果付款活动设置为`Order`，请完成以下操作
 
-   - **[!UICONTROL Authorization Honor Period (days)]** — 确定主要授权保持有效的时间。 该值应等于您的PayPal商家帐户中的相应值。 您的PayPal商家帐户中的默认值为`3`。 要增加此数量，您必须联系PayPal。 授权于最后一天美国太平洋时间晚上11:49失效。
+   - **[!UICONTROL Authorization Honor Period (days)]** — 确定主要授权保持有效的时间。 该值应等于您的PayPal商家帐户中的相应值。 您的PayPal商家帐户中的默认值为`3`。 要增加此数量，您必须联系PayPal。 授权在美国太平洋时间最后一天的晚上11:49失效。
 
    - **[!UICONTROL Order Valid Period (days)]** — 确定订单保持有效的时间。 订单无效后，您将无法再为其创建发票。 指定等于PayPal商家帐户中的订单有效期间值的值。 您的PayPal商家帐户中的默认值为`29`。 要更改此号码，您必须联系PayPal。
 
@@ -324,7 +324,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 ### 步骤6：完成高级设置
 
-1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![高级设置 — PayPal Express签出](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -333,7 +333,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -392,7 +392,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 [计费协议](paypal-billing-agreements.md)是商家与客户之间签订的销售协议，已通过PayPal授权可与多个订单一起使用。 在结账过程中，“帐单协议”付款选项仅对已与贵公司签订帐单协议的客户显示。 在PayPal授权协议后，支付系统会颁发一个唯一的参考ID以标识与协议关联的每个订单。 与采购订单类似，客户与您的公司之间可以设置的帐单协议数没有限制。
 
-1. 展开&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**。
 
    ![帐单协议设置](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
@@ -410,7 +410,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个国家/地区。
 
 1. 若要在日志文件中记录与付款系统的通信，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -426,7 +426,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 #### 结算报表设置
 
-1. 展开&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Settlement Report Settings]**。
 
    ![结算报告设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -469,7 +469,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;使在线付款变得前所未有�
 
 使用前端体验设置选择要在您的网站上显示的PayPal徽标，并自定义您的PayPal商家页面的外观。
 
-1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
 
    ![前端体验设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -520,7 +520,7 @@ _智能支付按钮_&#x200B;功能允许您自定义PayPal按钮，该按钮可�
 
 ![签出页面设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png){width="600" zoomable="yes"}
 
-**_要配置每种页面类型的按钮显示：_**
+**_为每种页面类型配置按钮显示:_**
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png)部分。
 
@@ -562,7 +562,7 @@ _智能支付按钮_&#x200B;功能允许您自定义PayPal按钮，该按钮可�
 
 功能设置允许您禁用与此PayPal解决方案相关的特定功能。
 
-1. 展开&#x200B;**[!UICONTROL Features]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Features]**。
 
    ![签出页面设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
 
@@ -574,11 +574,3 @@ _智能支付按钮_&#x200B;功能允许您自定义PayPal按钮，该按钮可�
    - 文莫
    - PayPal来宾结帐信用卡图标
    - Elektronisches Lastschriftverfahren — 德国ELV
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypal.com/webapps/mpp/buying-online
-[3]: https://manager.paypal.com/
-[4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
-[7]: https://developer.paypal.com/docs/api-basics/sandbox/

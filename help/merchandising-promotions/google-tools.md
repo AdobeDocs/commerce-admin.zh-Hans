@@ -3,7 +3,7 @@ title: Google站点工具
 description: 了解可用于优化内容、分析流量并将目录连接到购物聚合和市场的Google工具集成。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 步骤1：更新Google设置
 
-1. [登录到您公司的Google Analytics帐户][1]{: target="_blank"}。
+1. [登录到您公司的Google Analytics帐户](https://www.google.com/analytics/){: target="_blank"}。
 
 1. 在左侧边栏的底部，选择&#x200B;**[!UICONTROL Admin]**，然后导航到要编辑的帐户（如果适用）。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 接受&#x200B;_数据处理修正_。
 
-   Google广告数据处理术语介绍Google如何处理数据，以及它为遵守GDPR的业务确保数据安全而采取的措施。 此外，还会保留法人主体和联系人信息的记录以及修订。 要[了解详情][2]{: target="_blank"}，请单击页面顶部消息中的链接。
+   Google广告数据处理术语介绍Google如何处理数据，以及它为遵守GDPR的业务确保数据安全而采取的措施。 此外，还会保留法人主体和联系人信息的记录以及修订。 要[了解详情](https://support.google.com/analytics/answer/3379636){: target="_blank"}，请单击页面顶部消息中的链接。
 
    - 向下滚动页面至&#x200B;**[!UICONTROL Data Processing Amendment]**。
    - 单击&#x200B;**[!UICONTROL Review Amendment]**&#x200B;以阅读&#x200B;_Google广告数据处理条款_。
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-要了解更多信息，请参阅Google帮助中的[Analytics.js字段引用][3]{: target="_blank"}。
+要了解更多信息，请参阅Google帮助中的[Analytics.js字段引用](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}。
 
 如果使用旧版`ga.js`库，请添加以下代码片段：
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-要了解更多信息，请参阅Google帮助中的Analytics中的[IP匿名化][4]。
+要了解更多信息，请参阅Google帮助中的Analytics中的[IP匿名化](https://support.google.com/analytics/answer/2763052)。
 
 #### 强制SSL
 
@@ -118,8 +118,3 @@ analytics.js
 - 隐藏IP地址以隐藏个人信息
 - 已关闭Google数据共享
 - 不将其他Google服务与Google Analytics Cookie结合使用
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

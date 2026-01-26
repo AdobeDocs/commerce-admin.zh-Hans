@@ -3,9 +3,9 @@ title: 保护您的 [!DNL Commerce] 帐户
 description: 了解如何使用双重身份验证来保护您的 [!DNL Commerce] 帐户。
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 启用双重身份验证
 
-1. 登录到您的[[!DNL Commerce] 帐户][1]{：target=&quot;_blank&quot;}。
+1. 登录到您的[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 在左侧导航窗格中，选择&#x200B;**[!UICONTROL Account Settings]**，然后选择&#x200B;**[!UICONTROL Two-factor Authentication]**。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 使用验证码登录
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 ## 使用恢复代码登录
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ## 使用恢复电子邮件登录
 
-1. 登录到您的[[!DNL Commerce] 帐户][1]{：target=&quot;_blank&quot;}。
+1. 登录到您的[[!DNL Commerce] 帐户](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 查看您的恢复代码
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ## 生成新的恢复代码
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -190,7 +190,7 @@ ht-degree: 0%
 
 ## 更改恢复电子邮件
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 ## 更改您的双重身份验证应用程序
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 >
 >如果您的组织安全策略要求对Adobe Commerce帐户进行多重身份验证，则无法禁用双重身份验证。
 
-1. 转到[!DNL Commerce] [帐户登录][1]{：target=&quot;_blank&quot;}。
+1. 转到[!DNL Commerce] [帐户登录](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 输入用户名和密码凭据，然后选择&#x200B;**[!UICONTROL Login]**。
 
@@ -287,5 +287,3 @@ ht-degree: 0%
    系统发送电子邮件确认，指示已在您的[!DNL Commerce]帐户上禁用TFA。
 
    ![禁用TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

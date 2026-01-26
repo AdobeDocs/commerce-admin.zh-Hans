@@ -3,7 +3,7 @@ title: 发出贷项通知单
 description: 了解如何生成和打印已开票订单的贷项通知单。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 在网格中查找顺序，然后单击&#x200B;**[!UICONTROL View]**。
 
-1. 如果&#x200B;_[!UICONTROL Credit Memo]_&#x200B;按钮在按钮栏中可见，请执行以下操作之一：
+1. 如果&#x200B;_[!UICONTROL Credit Memo]_按钮在按钮栏中可见，请执行以下操作之一：
 
    - 要发放`offline`退款，请转到第#6步。
    - 要发放`online`退款，请继续执行步骤#4。
@@ -272,7 +272,7 @@ ht-degree: 0%
 
 ## 打印贷项通知单
 
-要打印或查看已完成的贷项通知单，您必须安装PDF阅读器。 您可以免费下载[Adobe Reader][1]。
+要打印或查看已完成的贷项通知单，您必须安装PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**。
 
@@ -299,6 +299,3 @@ ht-degree: 0%
    - 要保存文档，请单击&#x200B;**[!UICONTROL Save]**&#x200B;并按照提示将文件保存到计算机。 下载完成后，在Adobe Reader中打开PDF并打印文档。
 
    - 要查看文档，请单击&#x200B;**[!UICONTROL Open]**。 将在Adobe Reader中打开打印就绪的PDF贷项通知单。 在此处，您可以打印贷项通知单或将其保存到您的计算机。
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader"

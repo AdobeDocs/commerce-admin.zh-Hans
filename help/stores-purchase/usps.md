@@ -3,9 +3,9 @@ title: 美国邮政局(USPS)
 description: 了解如何将USPS设置为商店的装运承运商。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 步骤1：打开USPS装运帐户
 
-打开[USPS Web工具][1]帐户。 完成注册过程后，您将收到用户ID和USPS测试服务器的URL。
+打开[USPS Web工具](https://secure.shippingapis.com/registration/)帐户。 完成注册过程后，您将收到用户ID和USPS测试服务器的URL。
 
-您还可以打开[USPS Web Tools][1]帐户。 完成注册过程后，您将收到用户ID和USPS测试服务器的URL。 要了解有关USPS Web工具的更多信息，请参阅其[技术文档][2]。
+您还可以打开[USPS Web Tools](https://secure.shippingapis.com/registration/)帐户。 完成注册过程后，您将收到用户ID和USPS测试服务器的URL。 要了解有关USPS Web工具的更多信息，请参阅其[技术文档](https://www.usps.com/business/web-tools-apis/welcome.htm)。
 
 ## 步骤2：为存储启用USPS
 
@@ -142,7 +142,5 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

@@ -3,16 +3,16 @@ title: 媒体 — 视频
 description: 了解视频内容类型，该内容类型用于将托管在YouTube或Vimeo上的视频添加到 [!DNL Page Builder] 阶段。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # 媒体 — 视频
 
-使用&#x200B;_视频_&#x200B;内容类型将托管在[YouTube][1]或[Vimeo][2]上的视频添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 将视频嵌入到页面或块或者产品和类别描述中很容易。
+使用&#x200B;_视频_&#x200B;内容类型将托管在[YouTube](https://www.youtube.com/)或[Vimeo](https://vimeo.com/)上的视频添加到[[!DNL Page Builder] 阶段](workspace.md#stage)。 将视频嵌入到页面或块或者产品和类别描述中很容易。
 
 店面主页上的![视频](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将视频移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Video] | 将当前内容容器标识为视频。 将鼠标悬停在图像容器上可查看工具箱。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_&#x200B;页面，您可以在其中更改视频和容器的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_页面，您可以在其中更改视频和容器的属性。 |
 | 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前视频。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的视频。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作视频的副本。 |
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 添加视频
 
-1. 在开始之前，请导航到要嵌入的[YouTube][1]或[Vimeo][2]视频，并复制链接。
+1. 在开始之前，请导航到要嵌入的[YouTube](https://www.youtube.com/)或[Vimeo](https://vimeo.com/)视频，并复制链接。
 
    作为替代方法，您还可以将直接链接复制到有效的视频文件。 有关有效链接，请参阅[基本视频设置](#basic-video-settings)。
 
@@ -168,7 +168,5 @@ ht-degree: 0%
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

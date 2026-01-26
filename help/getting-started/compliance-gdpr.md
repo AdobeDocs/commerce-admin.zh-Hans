@@ -3,9 +3,9 @@ title: GDPR合规性
 description: 了解《通用数据保护条例》(GDPR)，该法规旨在为欧盟和欧洲经济区的所有个人规范数据保护与隐私。
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 - CCPA具有额外的数据清点和映射要求。
 - 这些法规具有不同的隐私政策要求。
 
-符合GDPR的企业可能需履行CCPA规定的其他义务。 要了解更多信息，请参阅[CCPA情况说明书][3]{：target=&quot;_blank&quot;}。
+符合GDPR的企业可能需履行CCPA规定的其他义务。 若要了解更多信息，请参阅[CCPA情况说明书](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}。
 
 ## 最佳实践
 
@@ -47,10 +47,6 @@ ht-degree: 0%
 
 - 保持透明度并完整记录文档。
 
-- 要了解Adobe如何帮助商家遵守适用的法律义务，请访问[网站][1]{：target=&quot;_blank&quot;}。
+- 要了解Adobe如何帮助商家遵守适用的法律义务，请访问[网站](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}。
 
-- 有关数据流图和数据库实体映射，请参阅[个人信息参考][2]{： target=&quot;_blank&quot;}。
-
-[1]: https://business.adobe.com/cn/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- 有关数据流图和数据库实体映射，请参阅[个人信息参考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}。

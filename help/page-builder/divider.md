@@ -3,7 +3,7 @@ title: 元素 — 分隔条
 description: 了解分隔线内容类型，该类型用于添加规则作为 [!DNL Page Builder] 阶段中内容部分之间的可视分隔符。
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 使用以下方法之一更改分隔线&#x200B;**[!UICONTROL Line Color]**：
 
-   - 请输入有效的[HTML颜色名称][1]。 例如，`Teal`。
+   - 请输入有效的[HTML颜色名称](https://en.wikipedia.org/wiki/Web_colors)。 例如，`Teal`。
    - 输入十六进制颜色值。 例如，`#008080`。
 
    完成后，单击&#x200B;**[!UICONTROL Apply]**。
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    ![设置线条颜色、粗细和宽度](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 若要控制分隔线在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -156,6 +156,5 @@ ht-degree: 0%
 
    ![将重复分隔线移至位置](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
-[1]: https://en.wikipedia.org/wiki/Web_colors
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

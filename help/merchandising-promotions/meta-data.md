@@ -1,45 +1,45 @@
 ---
-title: 元数据
+title: Meta数据
 description: 了解如何输入关键字丰富的元数据，以改进搜索引擎对Commerce网站编制索引的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# 元数据
+# Meta数据
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[元数据准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=zh-Hans)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[元数据准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)
 
 您的商店中加载了可在其中输入富含关键词的元数据的位置，以改进搜索引擎为您的网站编制索引的方式。 在设置存储时，您可以输入初步元数据，以便稍后完成。 随着时间的推移，您可以微调元数据，以定位客户的购买模式和偏好。
 
 ![产品设置 — 搜索引擎优化](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## 元标题
+## Meta标题
 
 元标题显示在浏览器和搜索结果列表的标题栏和选项卡中。 元标题对于页面应是唯一的，且长度应小于70个字符。
 
 ![示例店面 — 元标题](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## 元关键字
+## Meta关键字
 
 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前的最佳做法是在元标题和元描述中加入高值关键字。
 
 ![Web浏览器搜索 — 元关键字](./assets/storefront-meta-description.png){width="500"}
 
-## 元描述
+## Meta描述
 
-元描述提供搜索结果列表的页面的简要概述。 理想情况下，元描述长度应介于150到160个字符之间，尽管字段最多可接受255个字符。
+Meta描述简要概述了搜索结果列表的页面。 理想情况下，元描述长度应介于150到160个字符之间，尽管字段最多可接受255个字符。
 
 ## 丰富的代码片段
 
-富代码片段为搜索结果列表和其他应用程序提供详细信息。 默认情况下，基于[schema.org][1]标准的结构化数据标记会添加到您商店的产品模板中。 因此，搜索引擎可以获得更多信息以作为&#x200B;_富代码片段_&#x200B;包含在产品列表中。
+富代码片段为搜索结果列表和其他应用程序提供详细信息。 默认情况下，基于[schema.org](https://schema.org/)标准的结构化数据标记会添加到您商店的产品模板中。 因此，搜索引擎可以获得更多信息以作为&#x200B;_富代码片段_&#x200B;包含在产品列表中。
 
 ## 规范meta标记
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开&#x200B;**搜索引擎优化**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开![搜索引擎优化](../assets/icon-display-expand.png)部分的&#x200B;**扩展选择器**。
 
    要更改任何字段值，您必须先清除每个字段后面的&#x200B;**使用系统值**&#x200B;复选框。
 
@@ -82,22 +82,20 @@ ht-degree: 0%
 
 1. 如果您希望搜索引擎仅使用完整的类别路径索引类别页面，请执行以下操作：
 
-   - 将&#x200B;**Use Canonical Link Meta Tag for Categories**&#x200B;设置为`Yes`。
+   - 将&#x200B;**对类别**&#x200B;使用规范链接Meta标记设置为`Yes`。
 
-   - 将&#x200B;**Use Canonical Link Meta Tag for Products**&#x200B;设置为`No`。
+   - 将&#x200B;**对产品**&#x200B;使用Canonical Link Meta标记`No`设置。
 
 1. 如果您希望搜索引擎仅使用域名/product-url-key格式索引产品页面，请执行以下操作：
 
-   - 将&#x200B;**Use Canonical Link Meta Tag for Products**&#x200B;设置为`Yes`。
+   - 将&#x200B;**对产品**&#x200B;使用Canonical Link Meta标记`Yes`设置。
 
-   - 将&#x200B;**Use Canonical Link Meta Tag for Categories**&#x200B;设置为`No`。
+   - 将&#x200B;**对类别**&#x200B;使用规范链接Meta标记设置为`No`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-## 元数据演示
+## Meta数据演示
 
 观看以下视频，了解如何管理SEO元数据：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410173?quality=12&learn=on&captions=chi_hans)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

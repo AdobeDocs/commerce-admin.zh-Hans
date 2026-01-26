@@ -3,9 +3,9 @@ title: 元素 — HTML代码
 description: 了解HTML代码内容类型，用于在 [!DNL Page Builder] 阶段中添加HTML、CSS和JavaScript代码片段。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 ## 添加HTML代码
 
-以下示例演示如何嵌入[Google Font][1]代码并声明覆盖当前样式表的自定义标题类。
+以下示例演示如何嵌入[Google Font](https://fonts.google.com/)代码并声明覆盖当前样式表的自定义标题类。
 
 ### 步骤1：选择Google字体
 
-1. 访问[Google Fonts][1]网站并选择要使用的字体系列。
+1. 访问[Google Fonts](https://fonts.google.com/)网站并选择要使用的字体系列。
 
 1. 复制要嵌入到页面`<head>`部分中的生成代码，并将其临时粘贴到文本编辑器中。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 步骤3：预览页面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;部分中，将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_部分中，将&#x200B;**[!UICONTROL Enable Page]**设置为`Yes`。
 
    ![正在启用页面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
    | 插入图像…… | 单击以将上传的图像或图片库中的图像插入到HTML文本框中光标的位置。 |
    | 插入变量…… | 单击以在HTML文本框中光标位置处插入变量。 |
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 要控制代码在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -163,6 +163,5 @@ ht-degree: 0%
      | [!UICONTROL Margins] | 应用于容器所有边的外边缘的空白空间量。 选项： `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | 应用于容器所有边的内边缘的空白空间量。 选项： `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

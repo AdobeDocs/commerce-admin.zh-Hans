@@ -3,7 +3,7 @@ title: 添加库存来源
 description: 了解如何为库位创建来源，例如仓库、实体店、配送中心或托运人。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    ![管理源](assets/inventory-sources.png)
 
-1. 展开&#x200B;**[!UICONTROL General]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL General]**&#x200B;并执行以下操作：
 
    - 要标识库存来源，请输入唯一的&#x200B;**[!UICONTROL Name]**。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - 对于&#x200B;**[!UICONTROL Latitude]**&#x200B;和&#x200B;**[!UICONTROL Longitude]**，请输入协作室位置的全球定位系统(GPS)坐标。
 
-     若要查找包含[Google地图][1]的GPS坐标，请在搜索框中输入地址。 右键单击地图上的标记并选择&#x200B;**[!UICONTROL What's here?]**。 GPS坐标显示在街道地址下方的详细信息框中。
+     若要查找包含[Google地图](https://www.google.com/maps)的GPS坐标，请在搜索框中输入地址。 右键单击地图上的标记并选择&#x200B;**[!UICONTROL What's here?]**。 GPS坐标显示在街道地址下方的详细信息框中。
 
      ![常规源选项](assets/inventory-source-general.png)
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      默认Source不能用作店内装货订单的装货地点。
 
-1. 展开&#x200B;**[!UICONTROL Contact Info]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Contact Info]**&#x200B;并执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Contact Name]**，输入所在位置的主要联系人的全名。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
      ![联系信息](assets/inventory-source-contact-info.png)
 
-1. 展开&#x200B;**[!UICONTROL Address Data]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Address Data]**&#x200B;并执行以下操作：
 
    - 选择&#x200B;**[!UICONTROL Country]**。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
      ![地址数据](assets/inventory-source-address.png)
 
-1. 如果在前一步骤中将源设置为接收位置，请展开&#x200B;**[!UICONTROL Pickup Location]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并提供有关该位置的描述性信息：
+1. 如果在前一步骤中将源设置为接收位置，请展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Pickup Location]**，并提供有关该位置的描述性信息：
 
    - 输入取车地点的&#x200B;**[!UICONTROL Frontend Name]**。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
      ![取车地点](assets/inventory-pickup-location.png)
 
-   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅&#x200B;_配置参考指南_&#x200B;中的[销售电子邮件](../configuration-reference/sales/sales-emails.md)。
+   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅[配置参考指南](../configuration-reference/sales/sales-emails.md)中的&#x200B;_销售电子邮件_。
 
 1. 要保存您所做的工作，请执行以下操作之一：
 
@@ -123,5 +123,3 @@ ht-degree: 0%
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | 显示在店面中的源的接收位置名称。 |
 | [!UICONTROL Frontend Description] | 店面中显示的来源提货地点的说明。 它可以包含附加的图像。 |
-
-[1]: https://www.google.com/maps

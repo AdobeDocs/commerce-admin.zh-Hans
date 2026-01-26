@@ -3,7 +3,7 @@ title: 税金
 description: 了解如何配置您的商店，以根据区域设置要求计算税额。
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了Vertex供应商开发的扩展，该扩展用于与Vertex Cloud集成，以提供税务管理和地址清理。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace或直接从供应商处安装和更新。 [联系顶点](https://marketplace.magento.com/partner/vertex_inc)以获取有关扩展和文档的信息。<br><br>
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包括由Vertex供应商开发的扩展，用于与Vertex Cloud集成，以提供税务管理和地址清理。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace或直接从供应商安装和更新。 [联系顶点](https://marketplace.magento.com/partner/vertex_inc)以获取有关扩展和文档的信息。<br><br>
 >
->如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅[升级指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升级模块_。
 
 ## 快速参考
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 - 客户的送货地址和成功付款交易的记录可用于建立客户的居住地。 （仅当送货地址与付款提供商信息匹配时才接受付款。）
 - 也可以直接从Commerce数据库表中的数据存储中捕获信息。
 
-_&#x200B;**要收集数字商品税务信息，请执行以下操作：**&#x200B;_
+_**要收集数字商品税务信息，请执行以下操作：**_
 
 1. 加载所有欧盟成员国的税率。
 
@@ -107,8 +107,5 @@ _&#x200B;**要收集数字商品税务信息，请执行以下操作：**&#x200B
 
 其他资源：
 
-- [欧盟委员会税务和关税同盟][1]
-- [EU 1015供应地点更改][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [欧盟委员会税务和关税同盟](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015供应地点更改](https://www2.deloitte.com/global/en/services/tax.html)

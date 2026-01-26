@@ -3,7 +3,7 @@ title: 元素 — 按钮
 description: 了解Buttons内容类型，用于在 [!DNL Page Builder] 阶段中添加单个按钮或一组按钮。
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -107,7 +107,7 @@ ht-degree: 0%
 
      ![为按钮链接选择CMS页面](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. 根据需要完成[高级设置][advanced-settings]。
+1. 根据需要完成[高级设置](#change-advanced-settings)。
 
 1. 完成后，单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    ![联系我们按钮设置](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. 根据需要完成[高级设置][advanced-settings]。
+1. 根据需要完成[高级设置](#change-advanced-settings)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
@@ -161,13 +161,13 @@ ht-degree: 0%
 
    ![按钮容器工具箱](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;下，选择&#x200B;**[!UICONTROL Stacked]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_下，选择&#x200B;**[!UICONTROL Stacked]**。
 
 1. 将&#x200B;**[!UICONTROL All Buttons are same size]**&#x200B;设置为`Yes`。
 
    ![大小相同的栈叠按钮](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. 使用[更改按钮容器][button-container]的设置中的说明根据需要更新其余设置。
+1. 使用[更改按钮容器](#change-settings-for-a-button-container)的设置中的说明根据需要更新其余设置。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
@@ -214,7 +214,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-1. 根据需要完成[高级设置][advanced-settings]。
+1. 根据需要完成[高级设置](#change-advanced-settings)。
 
 1. 要保存设置并返回[!DNL Page Builder]工作区，请单击右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -237,13 +237,13 @@ ht-degree: 0%
 
      当设置为`Yes`时，容器中的所有按钮根据最长按钮文本的长度而具有一致的大小。
 
-1. 根据需要完成[高级设置][advanced-settings]。
+1. 根据需要完成[高级设置](#change-advanced-settings)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用设置并返回到[!DNL Page Builder]工作区。
 
 ## 更改高级设置
 
-您可以修改单个按钮和按钮容器的&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+您可以修改单个按钮和按钮容器的&#x200B;_[!UICONTROL Advanced]_设置。
 
 1. 若要控制父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 
@@ -298,7 +298,5 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

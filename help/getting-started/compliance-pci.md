@@ -3,9 +3,9 @@ title: PCI合规性指南
 description: 查看此信息，了解通过Internet接受信用卡付款的企业的支付卡行业(PCI)要求。
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![checkbox](../assets/checkbox.png) — 不要对系统密码和其他安全参数使用供应商提供的默认值。
 
-![checkbox](../assets/checkbox.png) - Protect存储持卡人数据。
+![复选框](../assets/checkbox.png) — 保护存储的持卡人数据。
 
 ![checkbox](../assets/checkbox.png) — 加密开放公共网络中持卡人数据的传输。
 
@@ -40,13 +40,10 @@ ht-degree: 0%
 
 ![checkbox](../assets/checkbox.png) — 维护解决信息安全问题的策略。
 
-要了解更多信息，请参阅[PCI合规性的Adobe方法][1]{：target=&quot;_blank&quot;}。
+要了解更多信息，请参阅[Adobe的PCI合规性方法](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}。
 
 >[!NOTE]
 >
 >此内容仅供参考，不应理解为法律建议。 要确定您的企业是否以及如何遵守任何法律义务，请咨询您的法律顾问。
 
-随着业务的增长，您可能需要每年提交一次法规遵从性报告。 PCI报告要求会按照商家级别相应增加，但是对于每年处理少于20,000次信用卡交易的企业，则不需要。 要了解更多信息，请访问[PCI安全标准委员会][2]网站。
-
-[1]: https://business.adobe.com/cn/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+随着业务的增长，您可能需要每年提交一次法规遵从性报告。 PCI报告要求会按照商家级别相应增加，但是对于每年处理少于20,000次信用卡交易的企业，则不需要。 要了解更多信息，请访问[PCI安全标准委员会](https://www.pcisecuritystandards.org/index.php)网站。

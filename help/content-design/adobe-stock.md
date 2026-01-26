@@ -3,17 +3,17 @@ title: Adobe Stock集成
 description: 将Adobe Stock与您的 [!DNL Commerce] 实例集成，以访问要在商店中使用的无数媒体资源。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Adobe Stock集成
 
-若要访问要在商店中使用的无数媒体资源，请将[Adobe Stock][adobe-stock]与[!UICONTROL Commerce]集成。
+若要访问要在商店中使用的无数媒体资源，请将[Adobe Stock](https://stock.adobe.com)与[!UICONTROL Commerce]集成。
 
 ![Adobe Stock搜索结果](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
@@ -23,13 +23,13 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 此集成需要：
 
-- [Adobe Developer][dev-console]帐户
+- [Adobe Developer](https://developer.adobe.com/console/home)帐户
 - Adobe Commerce或Magento Open Source，2.3.4或更高版本
 
 许可Adobe Stock映像需要：
 
-- [Adobe帐户][adobe-signin]
-- 与该帐户关联的付费[Adobe Stock][adobe-stock]计划
+- [Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- 与该帐户关联的付费[Adobe Stock](https://stock.adobe.com)计划
 
 ## 集成[!DNL Commerce]和Adobe Stock
 
@@ -40,11 +40,11 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 ### 创建Adobe Developer集成
 
-1. 导航到[Adobe Developer Console][dev-console]。
+1. 导航到[Adobe Developer Console](https://developer.adobe.com/console/home)。
 
-1. 在&#x200B;_[!UICONTROL Quick Start]_&#x200B;下，单击&#x200B;**[!UICONTROL Create new project]**。
+1. 在&#x200B;_[!UICONTROL Quick Start]_下，单击&#x200B;**[!UICONTROL Create new project]**。
 
-1. 在&#x200B;_[!UICONTROL Project overview]_&#x200B;块中，单击&#x200B;**[!UICONTROL Add API]**。
+1. 在&#x200B;_[!UICONTROL Project overview]_块中，单击&#x200B;**[!UICONTROL Add API]**。
 
 1. 从集成列表中选择&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;并单击&#x200B;**[!UICONTROL Next]**。
 
@@ -74,7 +74,7 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 ### 配置Adobe Stock集成
 
-要在[!DNL Commerce]管理员中设置系统配置，请使用[上一节][create-integration]中生成的&#x200B;_API密钥_&#x200B;和&#x200B;_客户端密钥_。
+要在[!DNL Commerce]管理员中设置系统配置，请使用&#x200B;_上一节_&#x200B;中生成的&#x200B;_API密钥_&#x200B;和[客户端密钥](#create-an-adobeio-integration)。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -95,8 +95,3 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
    给验证几秒钟。 如果凭据有效，您应会看到绿色的&#x200B;_连接成功！_&#x200B;消息。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
-
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html
-[dev-console]: https://developer.adobe.com/console/home
-[create-integration]: #create-an-adobeio-integration

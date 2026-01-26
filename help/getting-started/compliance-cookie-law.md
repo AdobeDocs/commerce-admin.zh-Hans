@@ -3,7 +3,7 @@ title: Cookie法律合规性
 description: 为了跟上许多国家关于使用Cookie的法规，Adobe Commerce和Magento Open Source为商家提供了多种获取客户同意的方法。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5becfc5601b9c0c10c580b36f4594746d680a7fc
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2150'
 ht-degree: 0%
@@ -202,15 +202,15 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 由页面生成器模块设置。 包含一个标志，阻止在管理员之前明确取消某项操作时，后续提示要求管理员确认是否将其打开。 仅在商店的管理区域使用。 不适用于购物者。
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 仅在存储的管理区域中用作选项卡功能实施的一部分。 不适用于购物者。
 
 ## 产品推荐Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
-- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用于[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指示购物者是否已登录或注销。 此Cookie与`dataservices_customer_id` Cookie同时更新。
 - `dataservices_customer_id`：指示购物者是否已登录或注销。 此Cookie包含系统中客户的唯一ID。
@@ -230,11 +230,8 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
 - `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
-- `aep-segments-membership`：包含[受众信息](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/audience-activation)，例如购物者属于哪个区段。
-
-[1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
-[2]: https://support.google.com/adwords/answer/7521212
+- `aep-segments-membership`：包含[受众信息](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)，例如购物者属于哪个区段。

@@ -3,8 +3,8 @@ title: PayPal支付解决方案
 description: 了解您商店提供的PayPal支付解决方案集成。
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PayPal是在线支付领域的全球领先企业，也是客户在线支付的�
 
 ## PayPal商业帐户
 
-若要在商店中提供PayPal作为付款方式，您必须拥有PayPal [商业帐户][1]和/或[PayPal Payflow帐户][2]。 在每个PayPal解决方案的描述中指定帐户要求。 你的PayPal商家帐户还用于管理任何应用于从你的商店购买的[欺诈过滤器](#paypal-fraud-management-filters)。
+若要在商店中提供PayPal作为付款方式，您必须拥有PayPal [商业帐户](https://manager.paypal.com/)和/或[PayPal Payflow帐户](https://developer.paypal.com/docs/payflow/payflow-gateway/)。 在每个PayPal解决方案的描述中指定帐户要求。 你的PayPal商家帐户还用于管理任何应用于从你的商店购买的[欺诈过滤器](#paypal-fraud-management-filters)。
 
 使用PayPal Express Checkout或Express Checkout for Payflow Pro的客户必须具有PayPal购买者帐户。 当商家启用&#x200B;_PayPal帐户（可选）_&#x200B;时，PayPal支付标准（某些国家/地区的网站支付标准）可以直接使用或通过买方帐户使用。 默认情况下，此参数处于启用状态，以便客户可以选择输入其信用卡信息或使用PayPal创建买方帐户。 禁用后，客户必须先创建PayPal购买者帐户，然后才能进行购买。
 
@@ -30,7 +30,7 @@ Website Payments Pro、Website Payments Pro Payflow Edition、Payflow Pro Gatewa
 
 ## PayPal Credit和PayLater
 
-PayPal PayLater让您的客户能够快速获得融资，以便他们现在购买并随时间付款，您无需支付额外费用。 当客户选择PayPal信用额度选项时，您无需支付费用，您只需支付正常的PayPal交易费用。 若要了解详细信息，请参阅[PayPal网站][3]。
+PayPal PayLater让您的客户能够快速获得融资，以便他们现在购买并随时间付款，您无需支付额外费用。 当客户选择PayPal信用额度选项时，您无需支付费用，您只需支付正常的PayPal交易费用。 若要了解详细信息，请参阅[PayPal网站](https://www.paypal.com/us/business/buy-now-pay-later)。
 
 在广告宣传融资时，提高销售额。 PayPal通过PayPal PayLater提供融资，帮助浏览器成为买家。 您的客户可以随着时间的推移而付费，而您则可获得前期付款，无需支付额外费用。 使用PayPal免费的横幅广告，在客户通过PayPal结帐时将PayPal融资作为付款选项进行广告。 PayPal Advertising计划已被证明可生成额外购买并可将平均购买量增加15%或更多。
 
@@ -40,7 +40,7 @@ PayPal PayLater让您的客户能够快速获得融资，以便他们现在购�
 >
 >从2.4.3版本开始，在包括PayPal的部署中支持PayPal PayLater。 此功能允许购物者以每两周一次分期付款的方式支付订单，而不是在购买时支付全额。 弃用PayPal信用体验。
 
-对于美国商家，[PayPal Express Checkout](paypal-express-checkout.md)付款选项默认启用PayPal信用。 若要为此付款方法禁用它，请参阅[PayPal Express结帐配置](paypal-express-checkout.md#features)的&#x200B;_功能_&#x200B;部分。
+对于美国商家，[PayPal Express Checkout](paypal-express-checkout.md)付款选项默认启用PayPal信用。 若要为此付款方法禁用它，请参阅&#x200B;_PayPal Express结帐配置_&#x200B;的[功能](paypal-express-checkout.md#features)部分。
 
 对于其他PayPal支付解决方案，默认情况下将禁用PayPal点数，但可以在支付方式配置中启用它以支持解决方案：
 
@@ -103,7 +103,7 @@ PayPal欺诈管理过滤器使得检测和响应欺诈性交易更容易，并�
 | 操作 | 结果 |
 | --- | --- |
 | [!UICONTROL Review] | 可疑的订单在发出订单时收到状态&#x200B;_付款审核_。 您可以在管理员或PayPal端查看订单并批准，或取消付款。 当您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;时，不会为订单创建新的交易记录。 <br/><br/>如果您在PayPal网站上更改交易状态，则必须单击管理员订单页面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以应用更改。 如果您单击&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，则将应用在PayPal站点上所做的更改。 |
-| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_&#x200B;部分。 |
+| [!UICONTROL Deny] | 客户不能下可疑订单，因为PayPal拒绝了相应的交易。 <br/><br/>若要拒绝管理员付款，请单击页面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 订单状态更改为`Canceled`，交易记录已还原，并在客户帐户上释放资金。 相应的信息已添加到订单视图的&#x200B;_[!UICONTROL Comments History]_部分。 |
 | [!UICONTROL Flag] | 可疑订单在放置时获得状态`Processing`。 相应的交易在商户交易列表中标有标志。 |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout和PayPal Website Payments Standard在以下国家/地区
 - 乌拉圭
 - 委内瑞拉
 - 越南
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

@@ -2,8 +2,8 @@
 title: 添加内容块
 description: 创建可在任何页面或其他块中重复使用的自定义内容块。
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 添加内容块
 
-可以创建自定义的内容块，然后将其添加到任何页面、页面组，甚至添加到另一个块。 例如，您可以将图像滑块放置在块中，然后将该块放置在主页上。 块工作区使用与&#x200B;_Pages_&#x200B;工作区相同的[基本控件](pages-workspace.md)来帮助您查找可用块并执行日常维护。 块完成后，您可以使用[构件](widget-static-block.md)工具将其放在商店中的特定页面上。
+可以创建自定义的内容块，然后将其添加到任何页面、页面组，甚至添加到另一个块。 例如，您可以将图像滑块放置在块中，然后将该块放置在主页上。 块工作区使用与[Pages](pages-workspace.md)工作区相同的&#x200B;_基本控件_&#x200B;来帮助您查找可用块并执行日常维护。 块完成后，您可以使用[构件](widget-static-block.md)工具将其放在商店中的特定页面上。
 
 ![“块”页显示现有块的网格](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
@@ -87,12 +87,10 @@ ht-degree: 0%
 
 ## 添加灯箱或滑块
 
-- 通过[[!DNL Page Builder]](../page-builder/introduction.md)可以轻松将[滑块](../page-builder/slider.md)添加到您的商店。 可以将滑块设置为自动播放，或使用导航按钮手动控制。
+- 通过[可以轻松将](../page-builder/slider.md)滑块[[!DNL Page Builder]](../page-builder/introduction.md)添加到您的商店。 可以将滑块设置为自动播放，或使用导航按钮手动控制。
 
   ![页面生成器滑块](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  [[!DNL Commerce Marketplace]][1]上也有各种基于jQuery的图像灯箱，其中一些是免费的。
+  [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox)上也有各种基于jQuery的图像灯箱，有些是免费的。
 
 - 您还可以从[!DNL Commerce Marketplace]下载扩展。 有关其他帮助，请参阅扩展开发人员提供的文档。
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox
