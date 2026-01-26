@@ -22,4 +22,4 @@ _块_&#x200B;是内容的一个模块化单元，可以放置在页面上最接�
 
 通过观看此视频了解静态和[动态块](dynamic-blocks.md)：
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411066?captions=chi_hans&quality=12&learn=on)

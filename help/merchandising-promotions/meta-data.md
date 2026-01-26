@@ -98,4 +98,4 @@ Meta描述简要概述了搜索结果列表的页面。 理想情况下，元描
 
 观看以下视频，了解如何管理SEO元数据：
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410173?captions=chi_hans&quality=12&learn=on)
