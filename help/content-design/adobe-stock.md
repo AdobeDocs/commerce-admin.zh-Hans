@@ -3,10 +3,10 @@ title: Adobe Stock集成
 description: 将Adobe Stock与您的 [!DNL Commerce] 实例集成，以访问要在商店中使用的无数媒体资源。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 许可Adobe Stock映像需要：
 
-- [Adobe帐户](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)
+- [Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - 与该帐户关联的付费[Adobe Stock](https://stock.adobe.com)计划
 
 ## 集成[!DNL Commerce]和Adobe Stock
@@ -42,9 +42,9 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 1. 导航到[Adobe Developer Console](https://developer.adobe.com/console/home)。
 
-1. 在&#x200B;_[!UICONTROL Quick Start]_&#x200B;下，单击&#x200B;**[!UICONTROL Create new project]**。
+1. 在&#x200B;_[!UICONTROL Quick Start]_下，单击&#x200B;**[!UICONTROL Create new project]**。
 
-1. 在&#x200B;_[!UICONTROL Project overview]_&#x200B;块中，单击&#x200B;**[!UICONTROL Add API]**。
+1. 在&#x200B;_[!UICONTROL Project overview]_块中，单击&#x200B;**[!UICONTROL Add API]**。
 
 1. 从集成列表中选择&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;并单击&#x200B;**[!UICONTROL Next]**。
 
@@ -62,7 +62,7 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
    - 任何句点(`.`)都必须使用两个反斜杠(`\\`)进行转义。
    - 将`.*`添加到模式的结尾。
 
-   使用上一个默认重定向URI中的示例，它将为`https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`。
+   使用上一个默认重定向URI中的示例，模式为`https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. 单击&#x200B;**[!UICONTROL Next]**。
 
