@@ -42,9 +42,9 @@ Adobe Stock服务为企业提供了数百万张高质量、精选且免版税的
 
 1. 导航到[Adobe Developer Console](https://developer.adobe.com/console/home)。
 
-1. 在&#x200B;_[!UICONTROL Quick Start]_下，单击&#x200B;**[!UICONTROL Create new project]**。
+1. 在&#x200B;_[!UICONTROL Quick Start]_&#x200B;下，单击&#x200B;**[!UICONTROL Create new project]**。
 
-1. 在&#x200B;_[!UICONTROL Project overview]_块中，单击&#x200B;**[!UICONTROL Add API]**。
+1. 在&#x200B;_[!UICONTROL Project overview]_&#x200B;块中，单击&#x200B;**[!UICONTROL Add API]**。
 
 1. 从集成列表中选择&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;并单击&#x200B;**[!UICONTROL Next]**。
 
