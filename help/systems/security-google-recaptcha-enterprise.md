@@ -3,10 +3,10 @@ title: Google reCAPTCHA Enterprise
 description: 了解如何配置Google reCAPTCHA Enterprise以保护Adobe Commerce as a Cloud Service店面免受机器人和欺诈活动的侵害。
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"
+source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此功能不向管理员提供reCAPTCHA支持。
+
+[reCAPTCHA集成](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/)介绍了如何在店面中添加对reCAPTCHA Enterprise的支持。
 
 有关配置其他版本的Google reCAPTCHA的信息，请参阅[Google reCAPTCHA V3和V2](security-google-recaptcha.md)。
 
@@ -57,9 +59,11 @@ Google reCAPTCHA Enterprise包含以下功能：
 
 ## 步骤2：为店面配置Google reCAPTCHA
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Security]_&#x200B;下，选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在Adobe Commerce _管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 按如下方式完成&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;部分。
+1. 展开&#x200B;_[!UICONTROL Security]_并选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+
+1. 向下滚动到&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;部分，并按照以下方式完成配置。
 
    - 对于&#x200B;**[!UICONTROL Site Key]**，请从Google Cloud Console复制并粘贴您的reCAPTCHA Enterprise站点密钥。
 
