@@ -61,7 +61,7 @@ Google reCAPTCHA Enterprise包含以下功能：
 
 1. 在Adobe Commerce _管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 展开&#x200B;_[!UICONTROL Security]_并选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 展开&#x200B;_[!UICONTROL Security]_&#x200B;并选择&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 向下滚动到&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;部分，并按照以下方式完成配置。
 
