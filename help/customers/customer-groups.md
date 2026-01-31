@@ -3,9 +3,9 @@ title: 客户组
 description: 您可以使用客户组来确定哪些折扣可供分配给组的客户以及与组关联的税分类。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >更改公司组后，公司用户必须注销并登录店面才能在目录中查看新价格。
+>将客户分配给公司后，客户组将变为只读，管理员用户无法更新。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
@@ -110,4 +111,4 @@ ht-degree: 0%
 
 通过观看此演示了解如何创建客户组：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410168/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
