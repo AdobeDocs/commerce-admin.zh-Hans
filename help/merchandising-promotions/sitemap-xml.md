@@ -3,10 +3,10 @@ title: 站点地图
 description: 了解如何配置站点地图以索引Commerce站点的所有页面和图像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
-网站地图改进了搜索引擎为存储编制索引的方式，并设计为可查找可能被网络爬虫忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
+网站地图改进了搜索引擎为商店编制索引的方式，并设计为可查找Web爬虫可能忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
 启用后，Commerce会创建一个名为`sitemap.xml`的文件，该文件将保存到您指定的安装位置。 利用配置，可设置更新频率以及每种内容类型的优先级。 您的网站地图应按照网站内容更改频率进行更新，更改频率可以是每日、每周或每月。
 
-当您的网站处于开发状态时，您可能会在`robots.txt`文件中为Web爬网程序提供说明，以避免对网站编制索引。 然后，在启动之前，您可以更改相关说明，以允许为网站编制索引。
+当您的网站处于开发状态时，您可能会在`robots.txt`文件中包含Web爬虫的说明，以避免为网站编制索引。 然后，在启动之前，您可以更改相关说明，以允许为网站编制索引。
 
-有关技术信息，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hans)中的&#x200B;_Add sitemap and robots.txt_。
+有关技术信息，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)中的&#x200B;_Add sitemap and robots.txt_。
 
 ![站点地图网格](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 步骤3. 配置和启用robots.txt （可选）
 
-完成[搜索引擎机器人](seo-overview.md#search-engine-robots)配置，并指示搜索引擎爬取要编制索引的网站部分。
+完成[搜索引擎Robots](seo-overview.md#search-engine-robots)配置，并指示搜索引擎抓取要编制索引的网站部分。
 
 ## 步骤4. 将您的网站地图提交到搜索引擎
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hans) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
+>如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
 
 ## 列描述
 
@@ -224,33 +224,6 @@ ht-degree: 0%
 
    ![目录配置 — XML Sitemap搜索引擎提交设置](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. 如果使用`robots.txt`文件向爬网网站的搜索引擎提供说明，请将&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;设置为`Yes`。
+1. 如果使用`robots.txt`文件向抓取网站的搜索引擎提供说明，请将&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;设置为`Yes`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
-
-## 为大型目录启用批站点地图生成
-
-对于拥有大型目录的商店，请使用以下替代cron作业来启用批站点地图生成。 此方法以较小的增量处理数据，从而显着降低PHP内存耗尽的风险，并确保Sitemap生成成功完成，即使对于具有大量产品数据的站点也是如此。
-
-在`app/code/Magento/Sitemap/etc/config.xml`中，替换：
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-替换为：
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
