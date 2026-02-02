@@ -3,7 +3,7 @@ title: 申请列表
 description: 了解申请列表以及如何使用申请列表轻松将经常订购的产品添加到购物车。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 申请列表
 
-在购买经常订购的产品时，使用申购单列表可节省时间，因为产品会直接从列表中添加到购物车中。 购买者可以维护多个列表，这些列表侧重于来自不同供应商、购买者、团队、营销活动或简化其工作流程的任何其他产品。 它同时适用于已登录的用户和来宾。
+在购买经常订购的产品时，使用申购单列表可节省时间，因为产品会直接从列表中添加到购物车中。 购买者可以维护多个列表，这些列表侧重于来自不同供应商、购买者、团队、营销活动或简化其工作流程的任何其他产品。 登录用户可以使用申请列表功能。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在其帐户的侧栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在&#x200B;_[!UICONTROL Requisition Lists]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Create New Requisition List]**。
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_页面上，单击&#x200B;**[!UICONTROL Create New Requisition List]**。
 
 1. 输入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Items Quoted]选项卡中，选择要移动的产品。
 
-1. 使用产品系列项目[!UICONTROL Actions]列中的[!UICONTROL Select]下拉列表，选择&#x200B;**[!UICONTROL Move to Requisition list]**。
+1. 使用产品系列项目[!UICONTROL Select]列中的[!UICONTROL Actions]下拉列表，选择&#x200B;**[!UICONTROL Move to Requisition list]**。
 
 1. 选择所选物料的申请列表。
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 1. 在其帐户仪表板的侧边栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在申请列表列表中，单击&#x200B;_操作_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
+1. 在申请列表列表中，单击&#x200B;**[!UICONTROL View]**&#x200B;操作&#x200B;_列中的_。
 
 ### 从任何店面页面
 
