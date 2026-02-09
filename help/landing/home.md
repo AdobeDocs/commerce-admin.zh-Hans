@@ -5,14 +5,14 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 管理员用户指南
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: f215e4575c9b73baf575811ec6841995ccc41576
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
 
 欢迎来到世界领先的下一代数字商务平台。 Adobe Commerce为在线商户提供了无与伦比的灵活性，让他们可以控制在线商店的外观、内容和功能。 管理员具有强大的营销、搜索引擎优化和产品管理工具，使您能够创建针对独特业务需求定制的站点。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Commerce是一个敏捷的B2B和B2C商业平台，使商家和品牌能够通过以客户为中心的数字商业体验在线和实体空间增加收入。 它是中型企业组织的首选，因为它提供了从内部部署到具有保证SLA的受管云的最灵活的部署模型。 Adobe Commerce实现了API优先的集成和完全可自定义的扩展，以及最丰富的企业级商务体验功能（从营销到销售和履行）。 Adobe Commerce基于开源代码构建，具有其他商务平台无法比拟的灵活性和可扩展性。
 
-有关Adobe Commerce中包含的高级功能的列表，请参阅[发行信息](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=zh-Hans)中的&#x200B;_Commerce功能_。
+有关Adobe Commerce中包含的高级功能的列表，请参阅[发行信息](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)中的&#x200B;_Commerce功能_。
 
 ## Magento Open Source代码库
 
@@ -44,7 +44,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目上的Adobe Commerce (Adobe管理的PaaS基础结构)和内部部署项目。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [！BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目上的Adobe Commerce (Adobe管理的PaaS基础结构)和内部部署项目。"}
     <div><em>此功能集旨在满足销售商（商家）的需求，这些商家的客户主要是公司 — 可能具有复杂的组织结构以及拥有各种角色和购买权限级别的多个员工。</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 <tr>
     <td valign="top">
        <img alt="页面生成器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础结构)和本地项目上的Adobe Commerce。"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [！BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础结构)和本地项目上的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]使您可以轻松创建具有自定义版面的内容丰富的页面。 这些功能旨在提高质量，并减少生成自定义页面的时间和费用。</em></div>
   </td>
 </tr>
@@ -117,4 +117,4 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2026-01-02 21:23:33 -->
+<!-- Last updated from includes: 2026-02-09 13:37:34 -->
