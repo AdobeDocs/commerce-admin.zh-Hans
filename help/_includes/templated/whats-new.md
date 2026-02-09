@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">提交</a></td>
     </tr>
     <tr>
-      <td><p>[！BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce。"}更新了为Adobe Commerce配置IMS集成的先决条件，以提供关于请求Adobe Admin Console访问权限的信息。</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce。"}更新了为Adobe Commerce配置IMS集成的先决条件，以提供关于请求Adobe Admin Console访问权限的信息。</p>
 </td>
       <td>
         技术，反馈
