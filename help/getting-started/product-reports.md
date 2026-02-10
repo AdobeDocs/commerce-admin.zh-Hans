@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Product Views Report]显示在时间间隔或日期范围内查看过的产品。 此报表包括产品名称、价格和查看次数。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Downloads Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Downloads Report]列出了指定时间间隔或日期范围内的所有下载。 该报表包括产品名称、下载链接和SKU，以及购买和下载的次数。
 

@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ## 刷新统计信息
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 为了减少生成销售报告对性能的影响，[!DNL Commerce]计算并存储每个报告所需的统计信息。 除非您刷新统计信息，否则每次生成报告时不会重新计算统计信息，而是使用存储的统计信息。 要包含最新数据，必须在生成销售报告之前刷新报告统计信息。
 

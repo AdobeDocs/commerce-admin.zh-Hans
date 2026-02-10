@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [搜索词](../catalog/search-terms.md#search-terms-report)报表显示您的客户在每个商店视图中查找的内容。 报表包括在目录中找到匹配项目的数量以及使用搜索词的次数。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Newsletter Problems Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Newsletter Problems Report]包含有关任何无法成功传输的新闻稿队列的信息。 报告包含每个订阅者的名称、排队日期和主题以及有关错误的信息。
 
