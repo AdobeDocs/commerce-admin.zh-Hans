@@ -3,10 +3,9 @@ title: 产品报表
 description: Adobe Commerce和Magento Open Source中提供的产品报表可为您提供有关已查看和订购的产品、畅销商品、库存水平和下载情况的insight。
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 产品报表会为您提供有关已查看并订购的产品、畅销商品、库存水平和下载情况的insight。
 
 ## [!UICONTROL Product Views Report]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Product Views Report]显示在时间间隔或日期范围内查看过的产品。 此报表包括产品名称、价格和查看次数。
 
@@ -48,6 +49,8 @@ ht-degree: 0%
 ![订购产品报表](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Downloads Report]列出了指定时间间隔或日期范围内的所有下载。 该报表包括产品名称、下载链接和SKU，以及购买和下载的次数。
 

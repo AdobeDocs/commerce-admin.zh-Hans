@@ -3,10 +3,9 @@ title: 市场营销报告
 description: 市场营销报告提供有关购物车状态、搜索词的使用和新闻稿传输的信息。
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 [搜索词](../catalog/search-terms.md#search-terms-report)报表显示您的客户在每个商店视图中查找的内容。 报表包括在目录中找到匹配项目的数量以及使用搜索词的次数。
 
 ![搜索词报告](./assets/search-terms.png){width="600"}
@@ -34,6 +35,8 @@ ht-degree: 0%
 ![放弃的购物车报告](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Newsletter Problems Report]包含有关任何无法成功传输的新闻稿队列的信息。 报告包含每个订阅者的名称、排队日期和主题以及有关错误的信息。
 
