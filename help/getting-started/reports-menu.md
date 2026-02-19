@@ -3,10 +3,9 @@ title: '[!UICONTROL Reports]菜单'
 description: Adobe Commerce和Magento Open Source提供了大量报告供您随时了解营销工作、销售产品和客户活动。
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 4f31a18aab4c47cbe5b0f514e7cf9fea2eadca7f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,6 +28,8 @@ Adobe Commerce提供了大量报告供您随时了解营销工作、销售产品
 
 ### [!UICONTROL Reviews]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 产品[审阅报告](review-reports.md)的选择包括按客户和按产品。
 
 ### [!UICONTROL Sales]
@@ -37,7 +38,9 @@ Adobe Commerce提供了大量报告供您随时了解营销工作、销售产品
 
 ### [!UICONTROL System Insights]
 
-(仅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hans)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
+(仅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
 
 ### [!UICONTROL Customers]
 
@@ -49,12 +52,18 @@ Adobe Commerce提供了大量报告供您随时了解营销工作、销售产品
 
 ### [!UICONTROL Private Sales]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 (仅限Adobe Commerce)为[私人销售和活动](private-sales-reports.md)选择的报告包括“邀请”、“受邀客户”和“转化”。
 
 ### [!UICONTROL Statistics]
 
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+
 [统计数据](sales-reports.md#refresh-statistics)是一种通过计算和存储统计数据来减少生成报告对性能影响的工具。 每次生成报告时并不重新计算统计信息，而是使用存储的统计信息，直到刷新统计信息为止。
 
 ### [!DNL Commerce Intelligence]
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
 
 集成的[[!DNL Commerce Intelligence]](business-intelligence.md)工具提供了制定战略性业务决策所需的insight。
