@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 允许已注册电子邮件访问访客订单
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
 
 通过默认禁用的可选商店级别配置，访客购物者可以跟踪他们使用与注册客户帐户匹配的电子邮件地址下达的订单。
 
