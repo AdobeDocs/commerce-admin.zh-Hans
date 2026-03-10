@@ -3,10 +3,9 @@ title: 电子邮件提醒
 description: 了解在满足一组特定条件时会自动向客户发送的电子邮件提醒。
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 3e6ffa7d90472256b0e94de03cb2debc9c34bac7
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;字段设置电子邮件之间的间隔天数。
+>如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_字段设置电子邮件之间的间隔天数。
 
 ![电子邮件提醒](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Promotions]**。
 
-1. 展开&#x200B;**[!UICONTROL Automated Email Reminder Rules]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
+1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Automated Email Reminder Rules]**&#x200B;并执行以下操作：
 
    ![客户配置 — 自动电子邮件提醒规则](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
@@ -45,7 +44,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - 根据&#x200B;_[!UICONTROL Frequency]_&#x200B;设置设置相应的&#x200B;**[!UICONTROL Interval]**。
+   - 根据&#x200B;**[!UICONTROL Interval]**&#x200B;设置设置相应的&#x200B;_[!UICONTROL Frequency]_。
 
    - 将&#x200B;**[!UICONTROL Start Time]**&#x200B;设置为基于24小时制发送电子邮件的小时、分钟和秒。
 
@@ -55,7 +54,7 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Reminder Email Sender]**&#x200B;设置为显示为提醒电子邮件发件人的[商店联系人](../getting-started/store-details.md#store-email-addresses)。
 
-   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[自动电子邮件提醒规则](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)。
+   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)中的&#x200B;_自动电子邮件提醒规则_。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add New Template]**。
 
-1. 在`Magento_Reminder`下的&#x200B;**[!UICONTROL Template]**&#x200B;列表中，选择&#x200B;**[!UICONTROL Promotion Notification/Reminder]**&#x200B;模板。
+1. 在&#x200B;**[!UICONTROL Template]**&#x200B;下的`Magento_Reminder`列表中，选择&#x200B;**[!UICONTROL Promotion Notification/Reminder]**&#x200B;模板。
 
 1. 单击&#x200B;**[!UICONTROL Load Template]**。
 
