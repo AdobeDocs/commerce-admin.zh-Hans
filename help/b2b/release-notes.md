@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]发行说明'
 description: 请查看发行说明以了解有关 [!DNL Adobe Commerce B2B] 发行版中的更改的信息。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 7b2ac3e62e61b1247ad2ef395689487a742b7f99
+source-git-commit: 7850768a5533c4baa9e7ca3d09860a7f27072563
 workflow-type: tm+mt
-source-wordcount: '9193'
+source-wordcount: '10026'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,142 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关可用Adobe Commerce版本支持的B2B Commerce扩展版本的信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hans)。
+>有关可用Adobe Commerce版本支持的B2B Commerce扩展版本的信息，请参阅[产品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
 
-## B2B v1.5.3-alpha3
+## B2B v1.5.3-beta1
 
-*2025年10月14日*
+*2026年3月10日*
 
-与Adobe Commerce版本2.4.9-alpha3兼容
+与Adobe Commerce版本2.4.9-beta1兼容。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复。
+- ![已修复问题](../assets/fix.svg)包括[安全公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中记录的安全修复
 
-## B2B v1.5.3-alpha2
+### B2B
 
-*2025年8月12日*
+#### 下单不起作用通过PayFlow Pro Credit Card付款方式的Transactional Quote进行结账
 
-与Adobe Commerce版本2.4.9-alpha2兼容
+现在，在使用Payflow Pro信用卡付款方式从可转让报价结账时，Adobe Commerce可成功下单。 以前，当启用B2B功能并且买方从可转让报价中结账时，选择Payflow Pro并单击“下单”会导致页面无限期地加载且不会出现任何错误消息，并且永远不会创建订单。 AC-11973
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+_AC-11973_
+
+#### 引用重命名后的成功消息间歇性消失
+
+在店面重命名可转让报价或报价模板后，Adobe Commerce现在会始终显示成功消息。 以前，当购买者重命名可转让报价时，成功消息会间歇性地不出现（通常几乎立即清除），这还会导致等待此消息的自动测试失败，即使重命名操作本身成功也是如此。
+
+_AC-13447_
+
+#### 受限管理员无法将公司分配给共享目录
+
+修复了受限管理员用户在将公司分配给共享目录时遇到异常的问题。 更新可确保分配正确工作且无错误。
+
+_AC-15662_
+
+#### 启用类别权限时，将分组产品添加到申请列表时出现异常
+
+修复了将分组的产品添加到具有类别权限的申请列表时发生的类型错误，该请求列表通过确保产品选项可作为阵列安全地处理。 此修复允许毫无例外地添加所有产品类型。
+
+_AC-15862_
+
+#### 当我们尝试从类别页面添加“添加到申请列表”按钮时，该按钮将消失
+
+以前，[!UICONTROL Add to Requisition List]按钮在从类别页面添加时消失。 此问题现已修复，并且申请列表按钮在类别页面上可见。
+
+_AC-8575_
+
+#### 总计计算不包括税额
+
+现在，从启用了跨境贸易的现有采购订单下达的订单包含正确的总额。
+
+_ACP2E-3727_
+
+#### 通过REST API取消分配B2B共享目录中的类别的操作缓慢
+
+现在，在B2B中取消分配类别时，性能显着提高。 以前，取消分配B2B共享目录中的类别需要很长时间。
+
+_ACP2E-3796_
+
+### 购物车和结帐
+
+#### 登录后，继续到“签出重定向我的帐户”页面
+
+修复了在会话过期后，用户被重定向到“我的帐户”登录页面而不是签出登录页面的问题，确保用户正确带入并使用登录表单签出。
+
+_AC-15962_
+
+#### 帐单信息服务器端验证无法使用装运信息REST API工作
+
+客户地址数据验证已得到改进，以便在REST和GraphQl之间更加一致地执行结账。
+
+_ACP2E-4223_
+
+### 目录
+
+#### 由于布局中缓存的布局结构不正确，前端出现500错误
+
+修复了由于布局中缓存的布局结构不正确而导致页面返回500错误的问题。
+
+_ACP2E-4040_
+
+### 框架
+
+#### 社区主题包含Commerce版本模块的资源
+
+通过将其重新定位到各自的模块目录，从社区主题中移除了仅限Commerce的样式资源。 这样可防止未使用的CSS捆绑在社区版本中，从而减少不必要的负载并消除无效样式规则，同时确保在启用Commerce模块时设置正确的样式。
+
+_AC-15347_
+
+### GraphQL
+
+#### GraphQL对订单安排的响应不包括异常消息
+
+还原以前以不同格式返回错误的更改。 现在，以不破坏GraphQL架构的一致方式返回潜在错误。
+
+_ACP2E-3399_
+
+### 订购
+
+#### 无法为分配给新网站和来源的产品创建申请列表
+
+修复了在启用[!UICONTROL Add Store Code to URLs]时无法为分配给新网站和源的产品创建申请列表的问题。 发生该问题的原因是从API请求中剥离了存储代码，导致出现未经授权的错误。 修复后，将保留正确的商店上下文，并成功创建申请列表。
+
+_AC-16226_
+
+### 定价
+
+#### 完成可协商报价的PayPal Express结帐后，发货详细信息不匹配
+
+此版本修复了在为已批准的可转让报价完成PayPal Express签出时运费不匹配的问题。
+在修正价格之前，运费错误地翻了一番（显示为10美元，而不是5美元），导致运费总额被夸大。
+此修复方法可确保应用正确的运输成本。
+
+_AC-15280_
+
+### 产品
+
+#### 申请列表页打印选项不起作用
+
+现在，“申请列表”页面上的“打印”选项可正常工作。
+以前，单击[!UICONTROL Print]会导致错误： `An error has happened during application run. See exception log for details.`
+
+_AC-14711_
+
+#### 共享目录保存返回已弃用的功能错误
+
+管理员现在可以从共享目录中成功取消分配产品。
+以前，从共享目录取消分配具有大量长产品SKU的产品会导致错误。
+
+_ACP2E-4097_
+
+
+## B2B v1.5.2-p4
+
+@@ -55,7 +163,7 @@与Adobe Commerce版本2.4.7到2.4.7-p9、2.4.6到2.4.6-p14兼容。
+*2026年3月10日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.8-p4、2.4.7-p9和2.4.6-p14安全修补程序版本。
+与Adobe Commerce版本2.4.7到2.4.7-p9、2.4.6到2.4.6-p14兼容
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中记录的安全修复。
 
 ## B2B v1.5.2-p3
 
@@ -45,7 +164,7 @@ ht-degree: 0%
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.8-p3、2.4.7-p8和2.4.6-p13安全修补程序版本。
 与Adobe Commerce版本2.4.7到2.4.7-p7、2.4.6到2.4.6-p12兼容。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中记录的安全修复。
 
 ## B2B v1.5.2-p2
 
@@ -54,23 +173,23 @@ ht-degree: 0%
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.8-p2、2.4.7-p7和2.4.6-p12安全修补程序版本。
 与Adobe Commerce版本2.4.7到2.4.7-p6、2.4.6到2.4.6-p11兼容。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中记录的安全修复。
 
 ## B2B v1.5.2-p1
 
 *2025年6月10日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.8-p1、2.4.7-p6和2.4.6-p11安全修补程序版本。
-与Adobe Commerce版本2.4.7到2.4.7-p5、2.4.6到2.4.6-p10兼容
+与Adobe Commerce版本2.4.7到2.4.7-p5、2.4.6到2.4.6-p10兼容。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/cn/security/products/magento/apsb25-50.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中记录的安全修复。
 
 ## B2B 1.5.2
 
 *2025年4月8日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.8、2.4.7-p5和2.4.6-p10安全修补程序版本。
-与Adobe Commerce版本2.4.7到2.4.7-p4、2.4.6到2.4.6-p9兼容
+与Adobe Commerce版本2.4.7到2.4.7-p4、2.4.6到2.4.6-p9兼容。
 
 B2B v1.5.2版本包括质量改进和错误修复。
 
@@ -92,9 +211,9 @@ B2B v1.5.2版本包括质量改进和错误修复。
 
 ![已修复问题](../assets/fix.svg) B2B v1.5.2版本包含以下可转让报价的修复：
 
-- &#x200B;<!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
-- &#x200B;<!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
-- &#x200B;<!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
+- <!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
+- <!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
+- <!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
 
 ### 报价模板
 
@@ -110,7 +229,7 @@ B2B v1.5.2版本包括质量改进和错误修复。
 *2025年2月11日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.7-p4+和2.4.6-p9+安全修补程序版本。
-与Adobe Commerce版本2.4.8-beta1到2.4.8-beta2、2.4.7到2.4.7-p3、2.4.6到2.4.6-p8兼容
+与Adobe Commerce版本2.4.8-beta1到2.4.8-beta2、2.4.7到2.4.7-p3、2.4.6到2.4.6-p8兼容。
 
 B2B v1.5.1版本包括质量改进和错误修复。
 
@@ -130,7 +249,7 @@ B2B v1.5.1版本包括质量改进和错误修复。
 
 ![已修复问题](../assets/fix.svg)<!-- B2B-4222 -->引入了新的购物车管理系统，旨在为管理多个公司帐户的用户简化购物体验。 新系统将购物车与单个公司而不是客户帐户关联起来，以简化购物体验并通过支持以下功能改进工作流程。
 
-- **特定于公司的购物车：** — 购物车现在链接到各个公司，以支持特定于公司的定价和产品选项。
+- **特定于公司的购物车** — 购物车现在已链接到各个公司，以支持特定于公司的定价和产品选项。
 - **无缝切换** — 用户可以轻松地在不同公司帐户之间切换，而不会影响每个公司的购物车内容。
 - **上下文完整性** — 所有购物车详细信息都保留在各自公司的上下文中，从而提供一致可靠的购物体验。
 
@@ -141,7 +260,7 @@ B2B v1.5.1版本包括质量改进和错误修复。
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.7-p3+和2.4.6-p8+安全修补程序版本。
 与Adobe Commerce版本2.4.8-beta1、2.4.7到2.4.7-p2、2.4.6到2.4.6-p7兼容。
 
-Adobe Commerce B2B版本1.5.0也与PHP 8.3兼容，并支持[GraphQL Application Server](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+Adobe Commerce B2B版本1.5.0也与PHP 8.3兼容，并支持[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
@@ -207,7 +326,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 - 现在，系统会提示商家在Admin的Quote detail视图中单击&#x200B;*[!UICONTROL Print]*&#x200B;按钮以将报价另存为PDF。 以前，商家会被重定向到包含报价详细信息的页面。<!--ACP2E-1984-->
 
-- 以前，在发送具有`0`百分比的客户报价并更改数量时，管理员会引发异常但保存了数量。 进行此修复后，将引发包含消息的`0 percentage`相应异常。<!--ACP2E-1742-->
+- 以前，在发送具有`0`百分比的客户报价并更改数量时，管理员抛出了异常，但保存了数量。 进行此修复后，会为0%的情况抛出相应的异常并返回消息。<!--ACP2E-1742-->
 
 - 在报价洽谈期间，卖方现在可以在“洽谈报价报价”折扣字段中指定`0%`折扣，然后将报价发回给买方。 以前，如果卖方输入0%的折扣并将报价发回给买方，管理员会返回`Exception occurred during quote sending`错误消息。<!--ACP2E-1742-->
 
@@ -223,7 +342,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.7-p8+和2.4.6-p13+安全修补程序版本。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -233,7 +352,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.7-p7+和2.4.6-p12+安全修补程序版本。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -243,7 +362,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.7-p6+和2.4.6-p11+安全修补程序版本。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/cn/security/products/magento/apsb25-50.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -255,7 +374,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.7-p5+和2.4.6-p10+安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/cn/security/products/magento/apsb25-26.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -267,7 +386,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.7-p4+和2.4.6-p9+安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/cn/security/products/magento/apsb25-08.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -279,7 +398,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.7-p3+和2.4.6-p8+安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/cn/security/products/magento/apsb24-73.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中记录的安全修复。
 
 {{b2b-compatibility}}
 
@@ -315,13 +434,13 @@ B2B v1.4.2版本包括质量改进和错误修复。
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B版本1.4.2+与PHP 8.2兼容。如果将Commerce实例升级到版本2.4.7+，请确保该实例使用PHP版本8.2来保持与Adobe Commerce B2B版本的兼容性。 此外，B2B 1.4.2+当前不支持[GraphQL Application Server](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+>Adobe Commerce B2B版本1.4.2+与PHP 8.2兼容。如果将Commerce实例升级到版本2.4.7+，请确保该实例使用PHP版本8.2来保持与Adobe Commerce B2B版本的兼容性。 此外，B2B 1.4.2+当前不支持[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 ## B2B v1.4.1
 
 *2023年8月7日*
 
-[!BADGE 支持]{type=Informative tooltip="支持"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hans)。 与Adobe Commerce 2.4.7-beta1兼容。
+[!BADGE 支持]{type=Informative tooltip="支持"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 与Adobe Commerce 2.4.7-beta1兼容。
 
 B2B v1.4.1版本包括质量改进和错误修复。
 
@@ -339,7 +458,7 @@ B2B v1.4.1版本包括质量改进和错误修复。
 
 *2023年6月13日*
 
-[!BADGE 支持]{type=Informative tooltip="支持"}[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hans)。 与Adobe Commerce 2.4.7-beta1兼容
+[!BADGE 支持]{type=Informative tooltip="支持"}[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 与Adobe Commerce 2.4.7-beta1兼容。
 
 此版本包括针对B2B议价报价和多个错误修复的新功能和增强功能。
 
@@ -365,7 +484,7 @@ B2B v1.4.1版本包括质量改进和错误修复。
 
 ### 已知问题
 
-如果在[Adobe Commerce版本2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hans)上安装或升级B2B 1.4.0，则会出现以下错误：
+如果在[Adobe Commerce版本2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)上安装或升级B2B 1.4.0，则会出现以下错误：
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -377,7 +496,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手动依赖项，可以为B2B安全包添加手动依赖项来解决此问题。 有关说明，请参阅[Adobe Commerce知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=zh-Hans)。
+通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手动依赖关系，可以修复此问题。 有关说明，请参阅[Adobe Commerce知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
 
 ## B2B v1.3.5-p13
 
@@ -385,7 +504,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支持]{type=Informative tooltip="支持"}Adobe Commerce 2.4.6-p13+安全修补程序版本。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中记录的安全修复。
 
 ## B2B v1.3.5-p12
 
@@ -393,7 +512,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支持]{type=Informative tooltip="支持"}Adobe Commerce 2.4.6-p12+安全修补程序版本。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中记录的安全修复。
 
 ## B2B v1.3.5-p10
 
@@ -403,7 +522,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.6-p10安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/cn/security/products/magento/apsb25-26.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中记录的安全修复。
 
 ## B2B v1.3.5-p9
 
@@ -413,7 +532,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.6-p9安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/cn/security/products/magento/apsb25-08.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
 
 ## B2B v1.3.5-p8
 
@@ -423,7 +542,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了与Adobe Commerce 2.4.6-p8安全修补程序版本的兼容性。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/cn/security/products/magento/apsb24-73.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中记录的安全修复。
 
 ## B2B v1.3.5-p7
 
@@ -445,7 +564,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->将Commerce从2.4.6升级到[最新版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=zh-Hans#2.4.6)后，请确保更新到支持的B2B 1.3.5修补程序版本。 或者，将B2B扩展从版本1.3.5升级到版本1.4.0或更高版本，以获取最新功能。
+>将Commerce从2.4.6升级到[最新版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)后，请确保更新到支持的B2B 1.3.5修补程序版本。 或者，将B2B扩展从版本1.3.5升级到版本1.4.0或更高版本，以获取最新功能。
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.6的支持。
 
@@ -469,13 +588,21 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg) <!--- ACP2E-6829-->在用批准的报价请求完成购买时，**[!UICONTROL Place Order]**&#x200B;按钮现在可按预期工作。 可协商的报价`negotiableQuoteCheckoutSessionPlugin`插件的问题已得到解决。
 
+## B2B v1.3.4-p16
+
+*2026年3月10日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.5-p16（扩展支持）
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中记录的安全修复。
+
 ## B2B v1.3.4-p15
 
 *2025年10月14日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.0及更高版本
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中记录的安全修复。
 
 ## B2B v1.3.4-p14
 
@@ -483,7 +610,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.0及更高版本
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中记录的安全修复。
 
 ## B2B v1.3.4-p13
 
@@ -493,7 +620,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p12的支持。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/cn/security/products/magento/apsb25-50.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中记录的安全修复。
 
 ## B2B v1.3.4-p12
 
@@ -503,7 +630,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p12的支持。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/cn/security/products/magento/apsb25-26.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中记录的安全修复。
 
 ## B2B v1.3.4-p11
 
@@ -513,7 +640,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p11的支持。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/cn/security/products/magento/apsb25-08.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中记录的安全修复。
 
 ## B2B v1.3.4-p10
 
@@ -523,7 +650,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p10的支持。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/cn/security/products/magento/apsb24-73.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中记录的安全修复。
 
 ## B2B v1.3.4
 
@@ -559,13 +686,22 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg) <!--- ACP2E-375 -->在禁用&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;付款方式时，存储点数现在不可用。 以前，商店积分复选框在管理员下订单期间不起作用。 应用程序没有用商店点数下订单，并显示此错误： `The requested Payment Method is not available`。
 
+## B2B v1.3.3-p17
+
+*2026年3月10日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.4-p17（扩展支持）
+
+![已修复问题](../assets/fix.svg)包括[安全公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中记录的安全修复
+
+
 ## B2B v1.3.3-p16
 
 *2025年10月14日*
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.0及更高版本
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/cn/security/products/magento/apsb25-94.html)中记录的安全修复
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中记录的安全修复
 
 ## B2B v1.3.3-p15
 
@@ -573,7 +709,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce 2.4.0及更高版本
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/cn/security/products/magento/apsb25-71.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中记录的安全修复。
 
 ## B2B v1.3.3-p14
 
@@ -583,7 +719,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)添加了对Adobe Commerce 2.4.5-p12的支持。
 
-![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/cn/security/products/magento/apsb25-50.html)中记录的安全修复。
+![已修复问题](../assets/fix.svg)包括[安全公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中记录的安全修复。
 
 ## B2B v1.3.3
 
@@ -655,7 +791,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg) <!--- MC-41260-->单击&#x200B;**[!UICONTROL Return]**&#x200B;按钮以查看公司用户创建的订单时，会按预期将管理用户重定向到“创建退货”页面。 以前，管理员会被重定向至“订单历史记录”页面。
 
-![修复了问题](../assets/fix.svg) [!BADGE 仅PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} <!--- MC-40798-->在`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply`期间执行`bin/magento setup:upgrade`方法时，Adobe Commerce不再因内存不足错误而失败。 以前，Adobe Commerce在初始化权限时不使用批次大小进行集合，而是加载所有公司角色的集合。
+![修复了问题](../assets/fix.svg) [!BADGE 仅PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} <!--- MC-40798-->在`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply`期间执行`bin/magento setup:upgrade`方法时，Adobe Commerce不再因内存不足错误而失败。 以前，Adobe Commerce在初始化权限时不使用批次大小进行集合，而是加载所有公司角色的集合。
 
 ![已修复问题](../assets/fix.svg) <!--- MC-40551-->公司用户现在可以编辑和更新客户自定义属性值。 以前，这些属性无法与“创建和编辑”用户表单正确绑定。 公司用户可以输入其他属性值，但Adobe Commerce未正确保存这些值。
 
@@ -707,7 +843,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg) <!--- MC-40426-->商家现在可以使用POST `rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
 
-![已修复问题](../assets/fix.svg) <!--- MC-41123-->当购物车还包含缺货产品时，购物车的缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_&#x200B;按钮。
+![已修复问题](../assets/fix.svg) <!--- MC-41123-->当购物车还包含缺货产品时，购物车的缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_按钮。
 
 ![已修复问题](../assets/fix.svg) <!--- MC-40877-->您现在可以使用REST API将产品添加到申请列表。
 
@@ -771,7 +907,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg)SKU使用快速订购功能订购产品不会再导致CSV文件中的产品数量重复。<!--- MC-37427-->
 
-![修复了问题](../assets/fix.svg)当“快速订购”页面的&#x200B;**[!UICONTROL Add to Cart]**&#x200B;部分包含空值时，_[!UICONTROL Enter Multiple SKUs]_&#x200B;按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
+![修复了问题](../assets/fix.svg)当“快速订购”页面的&#x200B;**[!UICONTROL Add to Cart]**&#x200B;部分包含空值时，_[!UICONTROL Enter Multiple SKUs]_按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
 
 ![已修复问题](../assets/fix.svg)当您从以下申请列表提交产品审核时，Adobe Commerce现在会在产品页面上显示此消息： `You submitted your review for moderation`。 该审阅也会显示在待处理审阅页面上（管理员&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）。 以前，尽管Adobe Commerce将审核添加到待处理审核列表，但在产品页面上抛出404错误。<!--- MC-37119-->
 
@@ -795,9 +931,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 在禁用&#x200B;**[!UICONTROL In-Context Mode]**&#x200B;的情况下，当买家尝试使用PayPal Express结帐从采购订单下订单时，会被重定向到购物车。<!--- B2B-1604-->
 
-- 当采购员创建采购订单，然后导航到结帐页面时，Adobe Commerce有时会显示404错误。 当采购员先前使用在线付款方法创建不同的采购订单而未完成之前的采购就浏览到结帐页面时，会发生此错误。 采购员仍然可以下采购订单。 **_因应措施_**：无。<!--- B2B-1605-->
+- 当采购员创建采购订单，然后导航到结帐页面时，Adobe Commerce有时会显示404错误。 当采购员先前使用在线付款方法创建不同的采购订单而未完成之前的采购就浏览到结帐页面时，会发生此错误。 采购员仍然可以下采购订单。 **_解决方法_**：无。<!--- B2B-1605-->
 
-- 在采购订单结账期间，即使买方在最终结账期间更改了付款方式，特定付款方式的折扣也会保留。 因此，客户可以获得他们无权获得的折扣。 出现此问题的原因是，尽管付款方式发生了更改，但仍应用了原始付款方式的购物车规则。 **_因应措施_**：无。 请参阅[Adobe Commerce 2.4.2 B2B已知问题：更改付款方式后在线采购订单的折扣仍然存在](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=zh-Hans) _知识库_&#x200B;文章。<!-- B2B-1012 -->
+- 在采购订单结账期间，即使买方在最终结账期间更改了付款方式，特定付款方式的折扣也会保留。 因此，客户可以获得他们无权获得的折扣。 出现此问题的原因是，尽管付款方式发生了更改，但仍应用了原始付款方式的购物车规则。 **_解决方法_**：无。 请参阅[Adobe Commerce 2.4.2 B2B已知问题：更改付款方式后在线采购订单的折扣仍然存在](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _知识库_&#x200B;文章。<!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput`查询返回有关已删除的申请列表的详细信息，而不是其余的申请列表。<!--- MC-39894-->
 
@@ -843,7 +979,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg)对于捆绑产品的子项，围绕申请列表上的产品价格的HTML容器现在已正确呈现。<!--- MC-36331-->
 
-![已修复问题](../assets/fix.svg)商家现在可以指定在多语言部署中创建公司时发送公司用户电子邮件的语言。 以前，商家可以通过的下拉菜单选择相应的商店视图和语言，但此菜单不会显示。 <!--- MC-35777-->
+![已修复问题](../assets/fix.svg)商家现在可以指定在多语言部署中创建公司时发送公司用户电子邮件的语言。 以前，不会显示允许商家选择相应商店视图和语言的下拉菜单。 <!--- MC-35777-->
 
 ![已修复问题](../assets/fix.svg)自定义客户地址属性字段现在按预期显示在店面结账工作流中。<!--- MC-35607-->
 
@@ -865,7 +1001,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修复问题](../assets/fix.svg)您现在可以成功地为包含物理和虚拟产品的订单实施多发货。<!--- MC-33818-->
 
-![已修复问题](../assets/fix.svg)在启用了&#x200B;_[!UICONTROL Company Users]_&#x200B;且&#x200B;**[!UICONTROL Access Restriction]**&#x200B;设置为&#x200B;**[!UICONTROL Restriction Mode]**&#x200B;的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的`Sales: Login Only`部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
+![已修复问题](../assets/fix.svg)在启用了&#x200B;_[!UICONTROL Company Users]_且&#x200B;**[!UICONTROL Access Restriction]**设置为&#x200B;**[!UICONTROL Restriction Mode]**的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的`Sales: Login Only`部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
 
 ![已修复问题](../assets/fix.svg)当客户保存其帐户信息时，Adobe Commerce不再将客户的客户组重置为默认值。<!--- MC-33554-->
 
@@ -925,7 +1061,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修复了问题](../assets/fix.svg)添加了修复程序，以允许商店管理员将产品添加到不在共享目录中的订单。 以前，添加不在目录中的项目时会显示错误消息。
 
-![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}以前，运行命令`php bin/magento indexer:set-dimensions-mode catalog_product_price website`并尝试创建共享目录后，会发生错误。 此问题已修复。
+![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}以前，运行命令`php bin/magento indexer:set-dimensions-mode catalog_product_price website`并尝试创建共享目录后，会发生错误。 此问题已修复。
 
 ![修复了问题](../assets/fix.svg)在添加公司并将公司管理员分配给非默认网站时，发送了错误的网站ID，从而导致出现错误。 此问题已修复。
 
