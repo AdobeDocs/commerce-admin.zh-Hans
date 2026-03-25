@@ -22,7 +22,7 @@ ht-degree: 0%
 
 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_按钮后，该按钮会显示在多个页面中：
+为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_&#x200B;按钮后，该按钮会显示在多个页面中：
 
 * [客户编辑页面](../customers/update-account.md)
 * [订单查看页面](../stores-purchase/order-processing.md)
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 在“编辑客户”页面上![客户同意扩展属性配置](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-要通过GraphQL为现有客户帐户设置此权限，请使用`allow_remote_shopping_assistance``true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)突变将[`createCustomerV2`输入设置为](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
+要通过GraphQL为现有客户帐户设置此权限，请使用`allow_remote_shopping_assistance` `true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)突变将[`createCustomerV2`输入设置为](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
 
 >[!ENDTABS]
 
