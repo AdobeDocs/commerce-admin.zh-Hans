@@ -3,10 +3,10 @@ title: 媒体集资产管理
 description: 了解如何管理已上传的媒体文件以及通过Adobe Stock集成获取的资源。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 媒体集资产管理
 
 新的[媒体集](media-gallery.md)提供了用于管理已上传媒体文件的工具，以及通过[Adobe Stock集成](adobe-stock.md)获取的资源。 如果您已保存Adobe Stock [图像预览](adobe-stock-save-preview.md)，则还可以[许可](adobe-stock-license-image.md)新媒体集中的图像。
+
+Assets只能上载到`pub/media/wysywig`、`pub/media/catalog/category`或模块添加的其他文件夹。
 
 ## 上传资源
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 1. 选择要上传的文件。
 
-   所选资产会自动上传到所选文件夹（如果未选择文件夹，则上传到存储根目录）。
+   所选资产会自动上传到所选文件夹。
 
 ## 查看资源详细信息
 
