@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 了解 [!DNL Commerce Marketplace]，它为商家提供了精选的解决方案，并为合格的开发人员提供了工具、平台和最佳位置，以打造蓬勃发展的业务。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Adobe Commerce Marketplace](https://marketplace.magento.com/)是一个应用商店，为商家提供精选的解决方案，并为合格的开发人员提供工具、平台和最佳位置，以打造蓬勃发展的业务。 [!DNL Commerce Marketplace]提供一系列免费的扩展以及其他可供销售的扩展。 可以通过信用卡或[PayPal](https://www.paypal.com/us/home)支付购买费用。
 
-[!DNL Commerce Marketplace]上可用的所有扩展均已通过广泛审查。 [扩展质量计划](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/) (EQP)结合了[!DNL Commerce]专业知识、开发准则和验证工具，以确保Commerce Marketplace上的所有扩展都符合编码标准和最佳实践。 审核过程包括自动检查和手动QA审核。 在此过程中，会检查并测试每个扩展的结构和代码，以查找病毒/恶意软件感染的证据以及是否存在任何抄袭迹象。 审查包括由[!DNL Commerce]工程师进行的深入技术检查和健全性检查，重点是文档、编码结构、性能、可扩展性、安全性和与[!DNL Commerce]核心的兼容性。
+[!DNL Commerce Marketplace]上可用的所有扩展均已通过广泛审查。 [扩展质量计划](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program) (EQP)结合了[!DNL Commerce]专业知识、开发准则和验证工具，以确保Commerce Marketplace上的所有扩展都符合编码标准和最佳实践。 审核过程包括自动检查和手动QA审核。 在此过程中，会检查并测试每个扩展的结构和代码，以查找病毒/恶意软件感染的证据以及是否存在任何抄袭迹象。 审查包括由[!DNL Commerce]工程师进行的深入技术检查和健全性检查，重点是文档、编码结构、性能、可扩展性、安全性和与[!DNL Commerce]核心的兼容性。
 
 尽管您可以从其他来源购买扩展，但只有在[!DNL Commerce Marketplace]上可用的扩展才通过扩展质量计划中的大量技术和营销审查得到验证。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]凭据
 
-在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的标题登录您的](https://business.adobe.com/cn/products/magento/magento-commerce.html)帐户。
+在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的标题登录您的](https://business.adobe.com/products/magento/magento-commerce.html)帐户。
 
 您的访问密钥是一组公钥和私钥，用于将[!DNL Commerce]安装与[!DNL Commerce]帐户同步并验证您的凭据。 帐户同步后，每次从Commerce Marketplace安装扩展或模块或升级[!DNL Commerce]安装时，都必须输入私钥。
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. 登录到您的[!DNL Commerce]帐户。
 
-1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;页面上，选择&#x200B;**[!UICONTROL Marketplace]**&#x200B;选项卡。
+1. 在&#x200B;_[!UICONTROL My Account]_页面上，选择&#x200B;**[!UICONTROL Marketplace]**选项卡。
 
 1. 在名称旁边的右上角，单击向下箭头并选择&#x200B;**[!UICONTROL My Profile]**。
 
    ![您的[!DNL Marketplace]配置文件](./assets/marketplace-profile.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Marketplace]_&#x200B;下的&#x200B;_[!UICONTROL My Products]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
+1. 在&#x200B;_[!UICONTROL Marketplace]_下的_[!UICONTROL My Products]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
 
    - 查看您是否已经拥有一组用于您的市场购买的访问密钥。 您可以为不同目的创建多组访问键。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hans)或[升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hans)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)和[扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)。
+>从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
 
 Commerce的[!DNL Marketplace]内部部署&#x200B;_安装的购买_&#x200B;的安装过程与托管在[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)上的安装不同。
 
@@ -109,7 +109,7 @@ Commerce的[!DNL Marketplace]内部部署&#x200B;_安装的购买_&#x200B;的安
 
 ### 开源问题
 
-市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题提交至[社区论坛](https://community.magento.com/)或[联系可以协助Magento Open Source的合作伙伴](https://business.adobe.com/cn/products/magento/partners.html)。
+市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题提交至[社区论坛](https://community.magento.com/)或[联系可以协助Magento Open Source的合作伙伴](https://business.adobe.com/products/magento/partners.html)。
 
 ### 退款申请
 
@@ -133,7 +133,7 @@ Marketplace Support将在生成退款请求后请求信息。 退款选项可在
 
 ### 采购转帐
 
-Marketplace支持团队无法将购买转移到其他帐户。 您必须购买主Commerce帐户下的所有应用程序和扩展，以避免安装和部署问题。 Adobe Commerce有权使用一个唯一标识符。 由于使用Composer进行安装，因此只能使用绑定到主帐户的一组[访问密钥](#create-an-access-key)。 唯一可用的解决方案是[从Marketplace购买帐户](#refund-requests)申请退款(如果Adobe Commerce退款政策允许)。
+Marketplace支持团队无法将购买转移到其他帐户。 您必须购买主Commerce帐户下的所有应用程序和扩展，以避免安装和部署问题。 Adobe Commerce有权使用一个唯一标识符。 由于使用Composer进行安装，因此只能使用绑定到主帐户的一组[访问密钥](#create-an-access-key)。 唯一可用的解决方案是[从Marketplace购买帐户](#refund-requests)申请退款（如果Adobe Commerce退款政策允许）。
 
 您可通过主帐户[共享](commerce-account-share.md)Commerce实例。 共享访问权限授予主帐户的下属帐户的特殊权限。 共享接入点是从主帐户生成的。 主帐户可以是Commerce授权帐户、主商家帐户或在组织内共享的帐户。
 
