@@ -5,10 +5,10 @@ breadcrumb-title: 配置引用
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 2%
    - [XML站点地图](./catalog/xml-sitemap.md)
    - [RSS源](./catalog/rss-feeds.md)
    - [通过电子邮件发送给朋友](./catalog/email-to-a-friend.md)
+   - [产品文件属性](./catalog/product-file-attributes.md)
 - 安全性 {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA管理面板](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 2%
    - [管理员](./advanced/admin.md)
    - [系统](./advanced/system.md)
    - [开发人员](./advanced/developer.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
