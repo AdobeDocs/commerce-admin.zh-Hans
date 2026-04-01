@@ -26,10 +26,10 @@ ht-degree: 0%
 | [!UICONTROL Yes/No] | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
 | 下拉列表 | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](../catalog/product-create-configurable.md)的关键组件。 |
 | [!UICONTROL Multiple Select] | 显示接受多个选择的值的下拉列表。 |
-| [!UICONTROL Number]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 用于存储小数值的数字输入字段。 与&#x200B;**Price**&#x200B;输入类型不同，它不应用货币格式并且接受负值。 将此输入类型用于测量、尺寸或技术规格，如温度范围。 |
+| [!UICONTROL Number]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 用于存储小数值的数字输入字段。 与&#x200B;**Price**&#x200B;输入类型不同，它不应用货币格式并且接受负值。 将此输入类型用于测量、尺寸或技术规格，如温度范围。 |
 | [!UICONTROL Price] | 此输入类型用于创建预定义属性之外的价格字段：`Price`、`Special Price`、`Tier Price`和`Cost`。 使用的货币由系统配置决定。 |
 | [!UICONTROL Media Image] | 将额外的图像与产品相关联，例如产品徽标、护理说明或食品标签中的成分。 将媒体图像属性添加到产品的属性集时，它将与基本图像、小型图像和缩略图一起成为额外的图像类型。 媒体图像属性可以从[店面媒体浏览器](catalog-images-video.md#storefront-media-browser)中排除。 |
-| [!UICONTROL File]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 允许上载文件并将其与产品属性关联。 在[产品文件属性](../configuration-reference/catalog/product-file-attributes.md)中配置了支持的文件类型和最大文件大小。 将此输入类型用于产品手册、规格表或证书等文档。 |
+| [!UICONTROL File]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 允许上载文件并将其与产品属性关联。 在[产品文件属性](../configuration-reference/catalog/product-file-attributes.md)中配置了支持的文件类型和最大文件大小。 将此输入类型用于产品手册、规格表或证书等文档。 |
 | [!UICONTROL Fixed Product Tax] | 允许您根据区域设置要求定义[FPT费率](../stores-purchase/fixed-product-tax.md)。 |
 | [!UICONTROL Visual Swatch] | 显示描述可配置产品的颜色、纹理或图案的色板。 [可视色板](swatches.md)可以用十六进制颜色值填充，或显示代表选项的颜色、材质、纹理或图案的上传图像。 |
 | [!UICONTROL Text Swatch] | 经常用于表示大小的可配置产品选项的基于文本的表示形式。 [文本样本](swatches.md)还可以包含十六进制颜色值。 |
