@@ -3,9 +3,9 @@ title: 创建相关的产品规则
 description: 了解如何创建可触发的相关产品规则以显示相关产品、追加销售和交叉销售。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    - 如果规则应用于特定的[客户区段](../customers/customer-segments.md)，请将&#x200B;**[!UICONTROL Customer Segments]**&#x200B;设置为`Specified`并从列表中选择客户区段。
 
-   - 如果规则应用于特定的[Real-Time CDP受众](../customers/audience-activation.md)，请将&#x200B;**[!UICONTROL Real-Time CDP Audience]**&#x200B;设置为`Specified`并从列表中选择Real-Time CDP受众。 此功能处于测试阶段。 如果要加入Beta版计划，请向[dataconnection@adobe.com](mailto:dataconnection@adobe.com)发送请求。
+   - 如果规则应用于特定的[Real-Time CDP受众](../customers/audience-activation.md)，请将&#x200B;**[!UICONTROL Real-Time CDP Audience]**&#x200B;设置为`Specified`并从列表中选择Real-Time CDP受众。
 
      ![相关产品规则 — Real-Time CDP受众](./assets/rtcdp-related-products.png){width="500"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 观看本视频，了解如何创建相关的产品规则：
 
->[!VIDEO](https://video.tv.adobe.com/v/3411060?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## 字段描述
 
