@@ -3,9 +3,9 @@ title: 创建电子邮件提醒
 description: 了解如何设置使用现有购物车价格规则的电子邮件提醒规则。
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
+source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;字段设置电子邮件之间的间隔天数。<br/>
+   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_字段设置电子邮件之间的间隔天数。<br/>
    >
    >对于&#x200B;**_新_**&#x200B;放弃的购物车和&#x200B;**_之后_**&#x200B;的愿望清单&#x200B;**_期限结束的同一客户，同一电子邮件提醒是_**&#x200B;未重新触发&#x200B;_[!UICONTROL Repeat Schedule]_。
+   >
+   >Adobe Commerce as a Cloud Service的实验功能允许多次应用单个规则，有关详细信息，请参阅[规则重复性](#rule-repeatability)。
 
    完成条件以描述触发电子邮件提醒的情况。
 
@@ -83,7 +85,7 @@ ht-degree: 0%
 
      ![电子邮件提醒 — 标题和描述](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;部分中，输入&#x200B;**[!UICONTROL Rule Title]**&#x200B;默认存储视图&#x200B;**[!UICONTROL Description]**&#x200B;的_&#x200B;和&#x200B;_。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
+   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_部分中，输入&#x200B;**[!UICONTROL Rule Title]**默认存储视图&#x200B;**[!UICONTROL Description]**的_&#x200B;和&#x200B;_。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
 
      >[!NOTE]
      >
@@ -91,7 +93,38 @@ ht-degree: 0%
 
      ![标题和描述 — 商店视图](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}如果您使用的是[!DNL Adobe Commerce as a Cloud Service]，则可以通过选中[复选框来启用](#rule-repeatability)规则重复性[!UICONTROL Rule Repeatability]。
+
+   >[!IMPORTANT]
+   >
+   >规则重复选项是实验特征，默认情况下处于禁用状态。  有关启用该选项的详细信息，请参阅[规则重复性](#rule-repeatabilty)。
+
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
+
+## 规则重复性
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+
+>[!IMPORTANT]
+>
+>这是一项实验性功能，默认情况下不启用。 要启用此功能，请联系您的Adobe Commerce客户成功经理或创建支持工单。 该功能将在未来版本中提供给所有Adobe Commerce as a Cloud Service客户。
+
+规则重复性允许您为多个电子邮件提醒重复使用单个规则。 当您希望规则稍后应用于同一客户时，这将很有用。 如果没有规则的可重复性，当客户清空购物车或完成购买后，该规则将不再适用。
+
+选中&#x200B;**[!UICONTROL Rule Repeatability]**&#x200B;选项卡上的&#x200B;**[!UICONTROL General Information]**&#x200B;复选框，可在原始规则触发器不再应用后，再次将规则应用于用户。
+
+![规则重复性](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+请考虑以下示例：
+
+您有一个放弃的购物车规则，该规则在1天后触发，并在3天和5天后重新触发。 用户放弃购物车，1天后，他们收到放弃的购物车电子邮件提醒。 2天后，用户决定完成购买。 购物车不再废弃。 10天后，用户放弃了一个包含不同项目的新购物车。
+
+- 如果启用了&#x200B;**[!UICONTROL Rule Repeatability]**，用户将收到新的放弃购物车电子邮件提醒。
+- 如果&#x200B;**[!UICONTROL Rule Repeatability]**&#x200B;被禁用，则用户&#x200B;**不会**&#x200B;收到任何其他已放弃的购物车电子邮件提醒。
+
+>[!ENDSHADEBOX]
 
 ## 触发条件
 
