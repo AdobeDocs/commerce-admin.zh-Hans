@@ -93,7 +93,7 @@ ht-degree: 0%
 
      ![标题和描述 — 商店视图](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}如果您使用的是[!DNL Adobe Commerce as a Cloud Service]，则可以通过选中[复选框来启用](#rule-repeatability)规则重复性[!UICONTROL Rule Repeatability]。
+1. [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}如果您使用的是[!DNL Adobe Commerce as a Cloud Service]，则可以通过选中[复选框来启用](#rule-repeatability)规则重复性[!UICONTROL Rule Repeatability]。
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 规则重复性
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 >[!IMPORTANT]
 >
