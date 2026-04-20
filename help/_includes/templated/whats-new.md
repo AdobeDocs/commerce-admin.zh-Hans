@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了<code class="language-plaintext highlighter-rouge">numeric</code>和<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性输入类型</a>，并在配置引用中添加了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">产品文件属性</a>页面。</p>
+      <td><p>添加了<code class="language-plaintext highlighter-rouge">numeric</code>和<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性输入类型</a>，并在配置引用中添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/catalog/product-file-attributes">产品文件属性</a>页面。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已将Adobe Commerce as a Cloud Service说明添加到<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">为购物者提供帮助</a>。</p>
+      <td><p>已将Adobe Commerce as a Cloud Service说明添加到<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">为购物者提供帮助</a>。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">电子邮件提醒</a>现在可在Adobe Commerce as a Cloud Service中使用。</p>
+      <td><p><a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">电子邮件提醒</a>现在可在Adobe Commerce as a Cloud Service中使用。</p>
 </td>
       <td>
         重大更新
@@ -83,7 +83,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">提交</a></td>
     </tr>
     <tr>
-      <td><p>更新了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">发行说明</a>中的B2B v1.5.3-beta1（2026年3月）：报价、申购列表、共享目录、结帐、GraphQL和相关区域的质量改进和错误修复，以及次要的复制和一致性修复。</p>
+      <td><p>更新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes">发行说明</a>中的B2B v1.5.3-beta1（2026年3月）：报价、申购列表、共享目录、结帐、GraphQL和相关区域的质量改进和错误修复，以及次要的复制和一致性修复。</p>
 </td>
       <td>
         重大更新
