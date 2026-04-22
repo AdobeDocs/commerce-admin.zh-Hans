@@ -123,7 +123,7 @@ ht-degree: 0%
 
 观看本视频，了解如何管理用户角色：
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443517?captions=chi_hans&quality=12&learn=on)
 
 ## 角色资源
 
