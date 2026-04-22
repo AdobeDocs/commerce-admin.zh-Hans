@@ -3,7 +3,7 @@ title: ' [!DNL Page Builder]的发行说明'
 description: 查看发行说明，了解所有 [!DNL Page Builder] 发行版本的信息。
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2813'
 ht-degree: 0%
@@ -30,9 +30,10 @@ ht-degree: 0%
 
 ![新建](../assets/new.svg) **用于复制、隐藏和删除列组的新菜单选项** — 使用这些新选项，用户可以复制、隐藏和删除[!DNL Columns]组 — 就像他们对内容类型所做的那样。<!--- PB-507-->
 
-![新](../assets/new.svg) <!-- Issue 594 -->**新的多行列支持已添加到列组** — 通过此添加，用户可以操作一个[!DNL Columns]组中的多行列，以帮助使列布局更加灵活。<!--- PB-108-->
+![新](../assets/new.svg) <!-- Issue 594 -->**新增的多行列支持已添加到列组** — 通过此添加，用户可以操作一个[!DNL Columns]组中的多行列，以帮助使列布局更加灵活。
+<!--- PB-108-->
 
-有关使用新[!DNL Columns]组的信息，请参阅[布局 — 列](./column.md)。
+有关使用新[组的信息，请参阅](./column.md)布局 — 列[!DNL Columns]。
 
 ## 适用于Commerce 2.4.4的1.7.1
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)页面生成器现在在“字体大小”选项菜单上按预期显示所有选项。 以前，不会显示所有选项。<!--- AC-1056-->
 
-![修复了问题](../assets/fix.svg)已将`magento/magento2-page-builder`扩展的`phpgt/dom`编辑器依赖项升级到最新版本。<!--- magento/magento2-page-builder/pull/779-->
+![修复了问题](../assets/fix.svg)已将`phpgt/dom`扩展的`magento/magento2-page-builder`编辑器依赖项升级到最新版本。<!--- magento/magento2-page-builder/pull/779-->
 
 ![修复了问题](../assets/fix.svg)当在小列中显示滑块时，页面生成器不再调整“插入链接”和“插入图像”对话框的大小。<!--- AC-973-->
 
@@ -94,7 +95,7 @@ ht-degree: 0%
 
 ![新](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**沉浸式的全屏编辑** — 现在仅对[!DNL Page Builder]控制的所有区域全屏编辑[!DNL Page Builder]内容。 此更改包括CMS页面、产品和类别页面、块以及动态块。 全屏编辑将焦点放在您的内容上，并提供与店面用户体验更匹配的视图。
 
-![新](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder]内容预览&#x200B;**— 默认情况下，[!DNL Page Builder]现在不仅为CMS页面、块和动态块提供内容预览，还为产品和类别页面提供内容预览。 您可以使用新的[!DNL Page Builder]内容预览设置为产品和类别页面打开或关闭此功能，该设置可在位于内容管理>高级内容工具的存储配置中访问。
+![新](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder]内容预览&#x200B;**— 默认情况下，[!DNL Page Builder]现在不仅为CMS页面、块和动态块提供内容预览，还为“产品”页面和“类别”页面提供内容预览。 您可以使用新的[!DNL Page Builder]内容预览设置为产品和类别页面打开或关闭此功能，该设置可在位于内容管理>高级内容工具的存储配置中访问。
 
 ![新](../assets/new.svg) <!-- Issue 543 -->**改进了对产品简短说明的访问** — 默认情况下，产品简短说明现在显示在更长的说明之前。 此更改将导致与店面上显示的顺序匹配，并避免需要滚动较长的描述内容才能访问简短描述。
 
@@ -154,7 +155,7 @@ ht-degree: 0%
 
 ![修复了问题](../assets/fix.svg) <!-- MC-34677 -->修复了导致Safari 13.1无法正确呈现Luma主题的站点菜单（适用于小型视图端口和移动设备屏幕）的[!DNL Page Builder] CSS样式。
 
-![修复了问题](../assets/fix.svg) <!-- MC-34846 -->修复了HTML内容类型以在店面正确显示嵌入构件，如&#x200B;_按SKU排序_。
+![修复了问题](../assets/fix.svg) <!-- MC-34846 -->修复了HTML内容类型，以便在店面中正确显示嵌入构件，如&#x200B;_按SKU排序_。
 
 ![修复了问题](../assets/fix.svg)修复了有时会阻止用户保存内容类型表单的错误。 错误（“[!DNL Page Builder]”呈现了5秒钟，但未释放锁定”）导致加载程序图标在尝试保存表单后无限旋转。
 
@@ -168,7 +169,7 @@ ht-degree: 0%
 
 ## 适用于Adobe Commerce 2.3.5的1.3.0
 
-![新](../assets/new.svg) **模板** - [!DNL Page Builder]现在具有可从现有内容创建并应用于新内容区域的模板。 [!DNL Page Builder]模板可保存现有页面、块、动态块、产品属性和类别描述的内容和布局。 例如，您可以将现有的[!DNL Page Builder] CMS页面另存为模板，然后应用该模板（包括其所有内容和布局）以快速为您的站点创建CMS页面。 此处记录了该新功能：[模板](templates.md)。
+![新](../assets/new.svg) **模板** - [!DNL Page Builder]现在具有可从现有内容创建并应用于新内容区域的模板。 [!DNL Page Builder]模板可保存现有页面、块、动态块、产品属性和类别描述的内容和布局。 例如，您可以将现有的[!DNL Page Builder] CMS页面另存为模板，然后应用该模板（包括其所有内容和布局）来快速为您的网站创建CMS页面。 此处记录了该新功能：[模板](templates.md)。
 
 ![新](../assets/new.svg) **行、横幅和滑块的视频背景** - [!DNL Page Builder]行、横幅和滑块的视频背景现在可以使用视频作为其背景。 此处记录了这些新功能：[行](row.md)、[横幅](banner.md)、[滑块](slider.md)。
 
@@ -180,22 +181,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`UpgradableEntitiesPool`类型添加到您的`etc/di.xml`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅&#x200B;_Page Builder开发人员指南_&#x200B;中的[升级内容类型](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)。
+>如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`etc/di.xml`类型添加到您的`UpgradableEntitiesPool`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅[Page Builder开发人员指南](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)中的&#x200B;_升级内容类型_。
 
 ![新](../assets/new.svg) **有关添加新外观的文档** — 现在发布了有关[为现有或自定义内容类型添加外观](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)的开发人员信息。
 
 ![已修复问题](../assets/fix.svg)**各种修复**
 
-- &#x200B;<!-- PB-50 -->修复了复制幻灯片的父容器时，幻灯片内容的TinyMCE菜单出现在其他内容类型下方的问题。
-- &#x200B;<!-- PB-166 -->更新了[!DNL Page Builder]以实施销毁方法，以防止在某些情况下出现内存泄漏。
-- &#x200B;<!-- PB-170 -->改进了在管理阶段使用多个实例时的TinyMCE性能。
-- &#x200B;<!-- PB-252 -->修复了当顶行标记为隐藏时，动态块内容类型无法在Admin阶段呈现的问题。
-- &#x200B;<!-- PB-273 -->通过从各种UI控件中删除200毫秒延迟，改进了“管理”阶段的鼠标悬停事件。 此更改使在舞台上处理嵌套内容项变得更轻松。
-- &#x200B;<!-- PB-294 -->修复了货币符号在“管理”阶段的“块/动态块”内的“产品列表”小部件中转义不正确的问题。
-- &#x200B;<!-- PB-296 -->修复了[!DNL Page Builder]编辑面板上的产品总计不适用于自定义MSI Stock产品的问题。
-- &#x200B;<!-- PB-317 -->修复了以下问题：在Microsoft Edge上保存带有背景图像的[!DNL Page Builder]内容不会在店面上渲染这些图像。
-- &#x200B;<!-- PB-390 -->修复了嵌套[!DNL Page Builder]内容在页面完全呈现之前单击“保存”按钮时无法保存的问题。
-- &#x200B;<!-- PB-418 -->修复了由于[!DNL Page Builder]分析而在cron作业中引发的异常错误。
+- <!-- PB-50 -->修复了复制幻灯片的父容器时，幻灯片内容的TinyMCE菜单出现在其他内容类型下方的问题。
+- <!-- PB-166 -->更新了[!DNL Page Builder]以实施销毁方法，以防止在某些情况下出现内存泄漏。
+- <!-- PB-170 -->改进了在管理阶段使用多个实例时的TinyMCE性能。
+- <!-- PB-252 -->修复了当顶行标记为隐藏时，动态块内容类型无法在Admin阶段呈现的问题。
+- <!-- PB-273 -->通过从各种UI控件中删除200毫秒延迟，改进了“管理”阶段的鼠标悬停事件。 此更改使在舞台上处理嵌套内容项变得更轻松。
+- <!-- PB-294 -->修复了货币符号在“管理”阶段的“块/动态块”内的“产品列表”小部件中转义不正确的问题。
+- <!-- PB-296 -->修复了[!DNL Page Builder]编辑面板上的产品总计不适用于自定义MSI Stock产品的问题。
+- <!-- PB-317 -->修复了以下问题：在Microsoft Edge上保存带有背景图像的[!DNL Page Builder]内容不会在店面上渲染这些图像。
+- <!-- PB-390 -->修复了嵌套[!DNL Page Builder]内容在页面完全呈现之前单击“保存”按钮时无法保存的问题。
+- <!-- PB-418 -->修复了由于[!DNL Page Builder]分析而在cron作业中引发的异常错误。
 
 ## 适用于Adobe Commerce 2.3.4-p2的1.2.2
 
@@ -207,7 +208,7 @@ ht-degree: 0%
 
 ## 适用于Adobe Commerce 2.3.4的1.2.0
 
-![新](../assets/new.svg) **[!DNL Page Builder]与PWA Studio**&#x200B;的集成 — 已将[!DNL Page Builder]内容渲染添加到PWA Studio中的Venia应用程序。 现在可以在PWA StudioVenia应用程序中查看[!DNL Page Builder]内容。 有关此新功能的所有信息，请参阅[PWA Studio]中的[!DNL Page Builder]文档。
+![新](../assets/new.svg) **[!DNL Page Builder]与PWA Studio**&#x200B;的集成 — 已将[!DNL Page Builder]内容渲染添加到PWA Studio中的Venia应用程序。 现在可以在PWA Studio Venia应用程序中查看[!DNL Page Builder]内容。 有关此新功能的所有信息，请参阅[!DNL Page Builder]PWA Studio[中的]文档。
 
 ![新](../assets/new.svg) **已添加产品轮播** - <!-- PB-77, PB-173, PB-175 -->产品内容类型现在提供以轮播/滑块格式显示您的产品的选项，包括根据您的需求自定义轮播的多个选项。
 
@@ -219,14 +220,14 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)**各种修复**
 
-- &#x200B;<!-- PB-237 -->安全性增强。
-- &#x200B;<!-- PB-41 -->修复了UI中的搜索“选择组件”，以便每个搜索词仅生成一个AJAX请求。
-- &#x200B;<!-- PB-76, PB-84-->更新了管理员中的产品预览以匹配店面，包括产品的星级、颜色和大小选项（如果相关）。
-- &#x200B;<!-- PB-169 -->修复了在Commerce中启用JavaScript缩小和捆绑功能后无法保存[!DNL Page Builder]的问题。
-- &#x200B;<!-- PB-241 -->修复了产品、块和动态块的管理员预览，以便在为管理员和前端定义不同URL的Commerce安装上正确呈现。
-- &#x200B;<!-- PB-238 -->修复了产品、块和动态块的管理员预览，以便在安装了B2B并启用了&#x200B;_仅登录_&#x200B;选项的Commerce安装中正确呈现。 在此修复之前，[!DNL Page Builder]预览将导致页面重定向到客户帐户登录。
-- &#x200B;<!-- PB-239 -->修复了在[!DNL Page Builder]管理员中预览大型页面时可能发生的会话错误。
-- &#x200B;<!-- PB-248 -->更新了[!DNL Page Builder] LESS样式以防止店面样式重复。
+- <!-- PB-237 -->安全性增强。
+- <!-- PB-41 -->修复了UI中的搜索“选择组件”，以便每个搜索词仅有一个AJAX请求。
+- <!-- PB-76, PB-84-->更新了管理员中的产品预览以匹配店面，包括产品的星级、颜色和大小选项（如果相关）。
+- <!-- PB-169 -->修复了在Commerce中启用JavaScript缩小和捆绑功能后无法保存[!DNL Page Builder]的问题。
+- <!-- PB-241 -->修复了产品、块和动态块的管理员预览，以便在为管理员和前端定义不同URL的Commerce安装上正确呈现。
+- <!-- PB-238 -->修复了产品、块和动态块的管理员预览，以便在安装了B2B并启用了&#x200B;_仅登录_&#x200B;选项的Commerce安装中正确呈现。 在此修复之前，[!DNL Page Builder]预览将导致页面重定向到客户帐户登录。
+- <!-- PB-239 -->修复了在[!DNL Page Builder]管理员中预览大型页面时可能发生的会话错误。
+- <!-- PB-248 -->更新了[!DNL Page Builder] LESS样式以防止店面样式重复。
 
 ## 适用于Adobe Commerce 2.3.3的1.1.1-p1
 
@@ -236,7 +237,7 @@ ht-degree: 0%
 
 ![新](../assets/new.svg) <!-- MC-15250 -->已向“产品”内容类型添加显式产品排序。
 
-![新](../assets/new.svg) <!-- MC-17823 -->添加了一些按钮，用于在HTML内容类型中插入图像、小部件和变量。
+![新](../assets/new.svg) <!-- MC-17823 -->添加了一些用于在HTML内容类型中插入图像、小部件和变量的按钮。
 
 ![已修复问题](../assets/fix.svg)已改进[!DNL Page Builder]安全性。
 

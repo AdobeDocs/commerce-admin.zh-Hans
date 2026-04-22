@@ -2,8 +2,8 @@
 title: 支持工具
 description: 了解所提供的可用于确定系统中问题的支持工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 您可以找到有关已安装的模块的有用信息。
 
-**_要查看每个已安装模块的报表信息：_**
+**_查看每个已安装模块的报表信息:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**。
 1. 单击&#x200B;**[!UICONTROL New Report]**。
-1. 从&#x200B;**[!UICONTROL Groups]**&#x200B;列表中选择`Modules`。
+1. 从`Modules`列表中选择&#x200B;**[!UICONTROL Groups]**。
 1. 单击&#x200B;**[!UICONTROL Create]**。
 1. 报表生成后，单击&#x200B;**[!UICONTROL Select]**，然后单击&#x200B;**[!UICONTROL View]**&#x200B;以查看所有模块版本。
 1. 单击&#x200B;**[!UICONTROL Download]**&#x200B;下载报告。
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### 查看系统报告详细信息
 
-1. 对于您需要的报表，请在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
+1. 对于您需要的报表，请在&#x200B;**[!UICONTROL View]**&#x200B;列中选择&#x200B;_[!UICONTROL Actions]_。
 
 1. 在左侧面板中，展开报表的每个部分![扩展选择器](../assets/icon-display-expand.png)以查看详细信息。
 

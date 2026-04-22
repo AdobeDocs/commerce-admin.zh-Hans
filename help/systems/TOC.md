@@ -2,10 +2,9 @@
 user-guide-title: 管理系统指南
 user-guide-description: 本指南提供有关管理员安全、维护操作和支持Adobe Commerce存储内组织功能的系统范围资源的详细信息。
 breadcrumb-title: 管理系统指南
-hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 4%
@@ -80,4 +79,4 @@ ht-degree: 4%
    - [会话管理](security-session-management.md)
    - [浏览器功能检测](security-browser-capabilities-detection.md)
    - [安全问题报告](security-issue-reporting.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

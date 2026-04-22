@@ -3,7 +3,7 @@ title: 产品数据属性参考
 description: 在处理产品数据导入和导出时，请使用此产品数据属性的引用。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 | `store_view_code` | 标识产品可用的特定商店视图。 如果留空，则产品在默认商店视图中可用。 例如： `storeview1`，`english`，`spanish` |
 | `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 例如： `default`<br><br>创建产品后，无法使用导入功能更改属性集。 但是，您可以从管理员更改属性集，并重新导出产品以更新CSV文件。 |
 | `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单个单位或以固定数量出售的有形项目。<br/>`grouped` — 作为集合销售的一组单独产品。<br/>`configurable` — 客户在购买之前必须选择具有多个选项的产品。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小的组合与目录中的特定SKU相关联。<br/>`virtual` — 一种不需要装运且未保留在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle` — 可自定义的产品集，其中包含一起销售的简单产品。 |
-| `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道分隔每个路径\| 符号。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
+| `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道\|符号分隔每个路径。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 提供产品的每个网站的网站代码。 单个产品可以分配给多个网站，也可以仅分配给一个网站。 如果指定多个网站，请用逗号分隔每个网站，不带空格。 例如： `base`或`base,website2` |
 | `name` | 产品名称出现在所有产品列表中，是客户用于标识产品的名称。 |
 | `description` | 产品描述提供了有关产品的详细信息，并且可能包括简单的HTML标记。 |
@@ -95,7 +95,7 @@ ht-degree: 0%
 | `upsell_position` | 确定`upsell_skus`列中作为追加销售产品列出的SKU的位置（排序顺序）。 |
 | `additional_images` | 要与产品关联的任何其他图像的文件名，其前面带有正斜杠。 例如： `/image.jpg` |
 | `additional_image_labels` | 与任何其他图像关联的标签。 例如： `Label 1`，`Label 2` |
-| `custom_options` | 指定分配给每个自定义选项的属性和值。 例如： <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
+| `custom_options` | 指定分配给每个自定义选项的属性和值。 例如： <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 | 属性 | 描述 |
 |--- |--- |
 | `configurable_variation_labels` | 标识产品变体的标签。 例如： `Choose Color:`或`Choose Size:` |
-| `configurable_variations` | 描述与产品变体关联的值。 例如： `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
+| `configurable_variations` | 描述与产品变体关联的值。 例如： `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
 
 {style="table-layout:auto"}
 

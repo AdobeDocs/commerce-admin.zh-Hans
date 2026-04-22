@@ -3,9 +3,9 @@ user-guide-title: 内容和设计指南
 user-guide-description: 面向Adobe Commerce和Magento Open Source管理员以及电子商务营销人员的有关内容和设计功能的全面信息。
 breadcrumb-title: 内容和设计
 feature: CMS, Page Content
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -84,11 +84,15 @@ ht-degree: 4%
    - [将媒体文件迁移到AEM Assets](aem-assets-migrate-data.md)
    - 管理资源 {#manage}
       - [将AEM Assets与Commerce一起使用](aem-assets-manage.md)
-- 媒体 {#media}
 - 内容暂存 {#staging}
    - [概述](content-staging.md)
    - [计划更新](content-staging-scheduled-update.md)
    - [暂存仪表板](content-staging-dashboard.md)
    - [添加营销活动项目](content-staging-add-item.md)
    - [预览营销活动](content-staging-preview.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

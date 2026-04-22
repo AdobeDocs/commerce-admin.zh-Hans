@@ -12,7 +12,7 @@ role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 50e5e33f3f5b88726ee4b468d5d9533c297721cd
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # 元数据供内部使用
 
-此 `metadata.md` 文件包含可传递给用户指南的存储库级元数据 `TOC.md` 存储库中的文件。 如果要更改任何用户指南的metadata.md内容，请在任意 `TOC.md` 文件。
+`metadata.md`文件包含存储库级别的元数据，这些元数据将传递到存储库中的用户指南`TOC.md`文件。 如果要更改任何用户指南的metadata.md内容，请在任意`TOC.md`文件中进行更改。
 
 | 元数据 | 作用 |
 |--- |--- |

@@ -3,9 +3,9 @@ title: 产品属性概述
 description: 了解产品属性以及如何使用它们描述产品的特定特征。
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 删除未使用的产品属性以获得更好的结构化和更快的索引编制。
 
 
->[注释！]
+>[!NOTE]
 >
->有关优化产品属性配置以提高性能的信息，请参阅&#x200B;_实施行动手册_&#x200B;中的[目录管理最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)。
+>有关优化产品属性配置以提高性能的信息，请参阅[实施行动手册](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目录管理最佳实践_。

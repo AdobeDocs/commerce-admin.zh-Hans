@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefro
 description: 查看Commerce管理员的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefront]页面上的配置设置。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅[安装指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hans)中的&#x200B;_PHP设置_。
+>在配置Google reCAPTCHA之前，必须确保您的`PHP.ini`文件包含以下设置：`allow_url_fopen = 1`。 这可能需要开发人员的帮助。 请参阅[安装指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_PHP设置_。
 
 {{config}}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 | [!UICONTROL Enable for Forgot Password] | 网站 | 指定客户请求[密码重置](../../customers/password-reset.md)时使用的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Create New Customer Account] | 网站 | 指定客户注册[新帐户](../../customers/account-create.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Edit Customer Account] | 网站 | 指定客户更改其[帐户信息](../../customers/account-dashboard-account-information.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
-| [!UICONTROL Enable for Create New Company Account] | 网站 | ![Adobe Commerce B2B](../../assets/b2b.svg) (仅适用于Adobe Commerce B2B)指定在创建新的[公司帐户](../../b2b/account-company-create.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Create New Company Account] | 网站 | ![Adobe Commerce B2B](../../assets/b2b.svg) （仅适用于Adobe Commerce B2B）指定在创建新的[公司帐户](../../b2b/account-company-create.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证帐户请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Contact Us] | 网站 | 指定用于从商店的[联系我们](../../getting-started/store-details.md#contact-us-form)页面发送消息的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证消息请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Product Review] | 网站 | 指定客户提交[产品审核](../../merchandising-promotions/product-reviews.md)时使用的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证产品审核请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Newsletter Subscription] | 网站 | 指定客户注册[新闻稿订阅](../../merchandising-promotions/newsletter-subscribers.md)时使用的不可见reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证新闻稿订阅请求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
-| [!UICONTROL Enable for Gift Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定客户输入[礼品卡](../../catalog/product-gift-card-create.md)代码时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证礼品卡代码提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
+| [!UICONTROL Enable for Gift Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定客户输入[礼品卡](../../catalog/product-gift-card-create.md)代码时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证礼品卡代码提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Invitation Create Account] | 网站 | 指定客户发送帐户创建[邀请](../../merchandising-promotions/invitations.md)代码时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证邀请电子邮件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Send to Friend] | 网站 | 指定客户[与朋友共享产品](../../stores-purchase/email-a-friend.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证电子邮件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，而无需基于得分进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |
 | [!UICONTROL Enable for Wishlist Sharing] | 网站 | 指定客户[共享愿望清单](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证邮件和电子邮件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`** — （推荐）根据交互得分验证后台的用户行为。 |

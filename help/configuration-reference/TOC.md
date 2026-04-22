@@ -2,10 +2,9 @@
 user-guide-title: 配置参考指南
 user-guide-description: 本指南提供了所有通过**[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**的_Admin_侧边栏访问的商店配置设置的参考信息。
 breadcrumb-title: 配置引用
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [管理员](./advanced/admin.md)
    - [系统](./advanced/system.md)
    - [开发人员](./advanced/developer.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
