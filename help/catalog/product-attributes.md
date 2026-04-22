@@ -47,4 +47,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关优化产品属性配置以提高性能的信息，请参阅[实施行动手册](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目录管理最佳实践_。
+>有关优化产品属性配置以提高性能的信息，请参阅[实施行动手册](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目录管理最佳实践_。
