@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些说明包括用于选择集成的USPS API类型： Web工具API或REST API的步骤。 USPS不再支持Web工具API，因此您必须配置其REST API。 如果未显示REST API选项，则必须将[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520)应用到您的Commerce应用程序。
+>这些说明包括用于选择集成的USPS API类型： Web工具API或REST API的步骤。 USPS不再支持Web工具API，因此您必须配置其REST API。 如果未显示REST API选项，则必须将[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)&#x200B;(AC-1520)应用到您的Commerce应用程序。
