@@ -3,7 +3,7 @@ title: 站点地图
 description: 了解如何配置站点地图以索引Commerce站点的所有页面和图像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
 source-wordcount: '1343'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
 
 网站地图改进了搜索引擎为商店编制索引的方式，并设计为可查找Web爬虫可能忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 当您的网站处于开发状态时，您可能会在`robots.txt`文件中包含Web爬虫的说明，以避免为网站编制索引。 然后，在启动之前，您可以更改相关说明，以允许为网站编制索引。
 
-有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[Add sitemap and robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
+有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[Add sitemap and robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hans)。
 
 ![站点地图网格](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
+>如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hans) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
 
 ## 列描述
 
