@@ -86,7 +86,7 @@ B2B v1.5.3版本包括质量改进、错误修复以及[安全公告APSB26-05](h
 
 ![已修复问题](../assets/fix.svg)<!-- AC-15862 --> **具有类别权限的请购单列表中的分组产品** — 在启用了类别权限且没有错误的情况下，购物者可以将分组产品添加到请购单列表中。 以前，添加这些产品可能会失败。
 
-![已修复问题](../assets/fix.svg)<!-- AC-8575 --> 类别页面&#x200B;**上的**[!UICONTROL Add to Requisition List]&#x200B;按钮 — 类别页面上现在显示[!UICONTROL Add to Requisition List]按钮。 以前，当用户尝试从类别页面添加产品时，按钮消失。
+![已修复问题](../assets/fix.svg)<!-- AC-8575 --> 类别页面&#x200B;**上的**&#x200B;[!UICONTROL Add to Requisition List]&#x200B;按钮 — 类别页面上现在显示[!UICONTROL Add to Requisition List]按钮。 以前，当用户尝试从类别页面添加产品时，按钮消失。
 
 ![已修复问题](../assets/fix.svg)<!-- AC-14711 --> **申请列表页打印选项** — “申请列表”页上的“打印”选项现在可以正常工作。 以前，选择[!UICONTROL Print]会导致错误： `[!UICONTROL An error has happened during application run. See exception log for details.]`
 
@@ -112,7 +112,7 @@ B2B v1.5.3版本包括质量改进、错误修复以及[安全公告APSB26-05](h
 
 ![新建](../assets/new.svg)<!-- ACP2E-3539 --> **B2B公司客户导入和导出** — 管理员现在可以使用标准的管理员导入和导出工具导入和导出B2B公司客户数据。
 
-![已修复问题](../assets/fix.svg)<!-- AC-16364 --> 客户表单&#x200B;**中[!UICONTROL Associate to Company]的**[!UICONTROL Reset] — 管理员客户添加和编辑表单上的[!UICONTROL Reset]按钮现在会清除[!UICONTROL Associate to Company]字段以及表单的其余部分，而无需重新加载页面。 以前，[!UICONTROL Reset]未还原[!UICONTROL Associate to Company]字段，导致表单处于不一致的状态。
+![已修复问题](../assets/fix.svg)<!-- AC-16364 --> 客户表单&#x200B;**中[!UICONTROL Associate to Company]的**&#x200B;[!UICONTROL Reset] — 管理员客户添加和编辑表单上的[!UICONTROL Reset]按钮现在会清除[!UICONTROL Associate to Company]字段以及表单的其余部分，而无需重新加载页面。 以前，[!UICONTROL Reset]未还原[!UICONTROL Associate to Company]字段，导致表单处于不一致的状态。
 
 ![已修复问题](../assets/fix.svg)<!-- ACP2E-3730 --> **通过客户存储库API进行多公司分配** — 客户存储库API现在返回客户已分配到的所有公司，并允许分配给多个公司。
 
@@ -234,9 +234,9 @@ B2B v1.5.2版本包括质量改进和错误修复。
 
 ![已修复问题](../assets/fix.svg) B2B v1.5.2版本包含以下可转让报价的修复：
 
-- <!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
-- <!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
-- <!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
+- &#x200B;<!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]字段现在验证输入以防止输入负折扣值。
+- &#x200B;<!-- B2B-3224 -->修复了B2B客户的长行项目注释被截断且难以阅读的用户体验问题。
+- &#x200B;<!-- B2B-2865 -->B2B客户现在可以在创建报价时使用小数值（如1.5或2.75）指定产品数量。
 
 ### 报价模板
 
@@ -307,19 +307,19 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 #### 公司帐户
 
-- <!--B2B-2828--> **多公司分配** — 通过将用户分配给多个公司来简化公司用户的公司帐户访问权限。 例如，如果您的一个采购员从多个公司地点订购，则创建一个帐户并将与该采购员合作的所有公司分配给该帐户。 然后，买家可以一次性登录，并通过从店面中选择公司来切换公司帐户。
+- &#x200B;<!--B2B-2828--> **多公司分配** — 通过将用户分配给多个公司来简化公司用户的公司帐户访问权限。 例如，如果您的一个采购员从多个公司地点订购，则创建一个帐户并将与该采购员合作的所有公司分配给该帐户。 然后，买家可以一次性登录，并通过从店面中选择公司来切换公司帐户。
 
 >[!NOTE]
 >
 >可以将一个公司用户分配给多个公司，但他们只能是一个公司的公司管理员。
 
-- <!--B2B-2747--> **公司范围选择器** — 为分配到多个公司的公司用户提供更改店面公司的功能。 当范围被切换时，数据会更新以根据新的公司上下文显示信息。 例如，如果新公司使用不同的共享目录，则公司用户会根据新的共享目录查看产品、价格和其他信息。 与订单、报价和报价模板相关的内容也会根据所选公司的上下文进行更新。
+- &#x200B;<!--B2B-2747--> **公司范围选择器** — 为分配到多个公司的公司用户提供更改店面公司的功能。 当范围被切换时，数据会更新以根据新的公司上下文显示信息。 例如，如果新公司使用不同的共享目录，则公司用户会根据新的共享目录查看产品、价格和其他信息。 与订单、报价和报价模板相关的内容也会根据所选公司的上下文进行更新。
 
 >[!NOTE]
 >
 >购物车内容反映当前客户选择的项目。 如果客户拥有活动的购物车并选择不同的公司，系统会提示他们更新购物车，以反映基于新公司上下文的产品分类、定价和促销折扣。 将从购物车中删除与新公司关联的目录中不可用的产品。 如果产品具有不同的价格或可用性，购物车将更新以反映所选公司上下文中的可用数据。<!--B2B-4222-->
 
-- <!--ACP2E-1933--> 公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
+- &#x200B;<!--ACP2E-1933--> 公司管理员现在可以从店面添加公司用户。 以前，当管理员用户尝试添加新用户时，Commerce会记录一个错误： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
 
 #### 报价和报价模板
 
@@ -360,7 +360,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 #### 采购订单
 
-- <!--ACP2E-1825-->公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
+- &#x200B;<!--ACP2E-1825-->公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
 
 ### B2B v1.4.2-p8
 
@@ -460,7 +460,7 @@ B2B v1.5.0版本包括新增功能、质量改进和错误修复。
 
 B2B v1.4.2版本包括质量改进和错误修复。
 
-- <!--B2B-2897-->如果卖方创建买方报价，其中包含一个在与买方公司关联的共享目录中不可用的产品SKU，则系统显示错误消息`The SKU you entered is not available in the shared catalog. Please check the SKU and try again`。  在销售商删除不可用的产品之前，他们无法保存报价。 以前，报价保存时包含不可用的SKU，并且无法在店面中加载报价。
+- &#x200B;<!--B2B-2897-->如果卖方创建买方报价，其中包含一个在与买方公司关联的共享目录中不可用的产品SKU，则系统显示错误消息`The SKU you entered is not available in the shared catalog. Please check the SKU and try again`。  在销售商删除不可用的产品之前，他们无法保存报价。 以前，报价保存时包含不可用的SKU，并且无法在店面中加载报价。
 
 >[!IMPORTANT]
 >
@@ -474,15 +474,15 @@ B2B v1.4.2版本包括质量改进和错误修复。
 
 B2B v1.4.1版本包括质量改进和错误修复。
 
-- <!--ACP2E-1825-->公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
+- &#x200B;<!--ACP2E-1825-->公司被阻止后，与公司关联的用户无法再下达采购订单。 以前，与公司关联的用户可以在公司被阻止时下达采购订单。
 
-- <!--ACP2E-1943-->现在，店面上正确显示了产品延交状态。 以前，可发运的产品被错误地标识为延期交货。
+- &#x200B;<!--ACP2E-1943-->现在，店面上正确显示了产品延交状态。 以前，可发运的产品被错误地标识为延期交货。
 
-- <!--ACP2E-1862-->如果公司注册表单包含客户文件类型属性，则在公司创建后，在注册过程中上传的文件现在会包含在公司管理员的帐户信息中。 以前，缺少附件。
+- &#x200B;<!--ACP2E-1862-->如果公司注册表单包含客户文件类型属性，则在公司创建后，在注册过程中上传的文件现在会包含在公司管理员的帐户信息中。 以前，缺少附件。
 
-- <!--ACP2E-1793-->可配置产品的样本选择器现在按预期显示在申请列表项配置页面中。 以前，样本选择器显示为申请列表项配置页面中的下拉字段。
+- &#x200B;<!--ACP2E-1793-->可配置产品的样本选择器现在按预期显示在申请列表项配置页面中。 以前，样本选择器显示为申请列表项配置页面中的下拉字段。
 
-- <!--ACP2E-1968-->使用[公司GraphQL查询](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)返回公司详细信息时，结果现在已成功返回，并且没有错误。
+- &#x200B;<!--ACP2E-1968-->使用[公司GraphQL查询](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)返回公司详细信息时，结果现在已成功返回，并且没有错误。
 
 ### B2B v1.4.0
 
@@ -500,17 +500,17 @@ B2B v1.4.1版本包括质量改进和错误修复。
 
 - 现在，在启用“采购订单”选项并选择使用PayPal付款选项创建的虚拟报价单时，Adobe Commerce会在付款期间显示正确的详细信息。 以前，在这些条件下，总数显示为零。
 
-- <!--ACP2E-1504--> 当您尝试保存信用额度超过999的公司时，不再发生验证错误。 以前，对于大于999的公司信用限制，Adobe Commerce插入逗号分隔符，这会导致验证错误，进而阻止保存更新。
+- &#x200B;<!--ACP2E-1504--> 当您尝试保存信用额度超过999的公司时，不再发生验证错误。 以前，对于大于999的公司信用限制，Adobe Commerce插入逗号分隔符，这会导致验证错误，进而阻止保存更新。
 
-- <!--ACP2E-1474--> 现在，当您用可协商的报价下订单时，所选送货地址保持不变。 以前，在您下订单时，选定的送货地址已更改为默认送货地址。
+- &#x200B;<!--ACP2E-1474--> 现在，当您用可协商的报价下订单时，所选送货地址保持不变。 以前，在您下订单时，选定的送货地址已更改为默认送货地址。
 
-- <!--ACP2E-1429--> 在B2B功能的存储配置设置中，**[!UICONTROL Enable Shared Catalog direct products price assigning]**&#x200B;字段现在将自动禁用。 在店面，当&#x200B;**[!UICONTROL Enable Company]**&#x200B;设置或&#x200B;**[!UICONTROL Enable Shared Catalog]**&#x200B;设置设置为&#x200B;**[!UICONTROL No]**&#x200B;时隐藏。
+- &#x200B;<!--ACP2E-1429--> 在B2B功能的存储配置设置中，**[!UICONTROL Enable Shared Catalog direct products price assigning]**&#x200B;字段现在将自动禁用。 在店面，当&#x200B;**[!UICONTROL Enable Company]**&#x200B;设置或&#x200B;**[!UICONTROL Enable Shared Catalog]**&#x200B;设置设置为&#x200B;**[!UICONTROL No]**&#x200B;时隐藏。
 
-- <!--ACP2E-1683--> 现在，从店面创建公司帐户时，Commerce会在处理公司注册之前验证电子邮件地址。 如果电子邮件地址无效，则操作将失败，并且不会处理任何帐户更新。 以前，即使创建公司帐户的请求由于电子邮件地址无效而失败，也会创建客户帐户。
+- &#x200B;<!--ACP2E-1683--> 现在，从店面创建公司帐户时，Commerce会在处理公司注册之前验证电子邮件地址。 如果电子邮件地址无效，则操作将失败，并且不会处理任何帐户更新。 以前，即使创建公司帐户的请求由于电子邮件地址无效而失败，也会创建客户帐户。
 
-- <!--ACP2E-1664--> 在共享目录和定价结构中包含双引号的产品SKU不会再导致管理员中出现错误。
+- &#x200B;<!--ACP2E-1664--> 在共享目录和定价结构中包含双引号的产品SKU不会再导致管理员中出现错误。
 
-- <!--ACP2E-1498--> 更新了Commerce应用程序的Varnish配置，以防止访客用户看到来自其他客户组的数据。
+- &#x200B;<!--ACP2E-1498--> 更新了Commerce应用程序的Varnish配置，以防止访客用户看到来自其他客户组的数据。
 
 #### 已知问题
 
@@ -598,25 +598,25 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 添加了对Adobe Commerce 2.4.6的支持。
 
-- <!--- ACP2E-689--> 现在，在启用“采购订单”选项并选择使用PayPal付款选项创建的虚拟报价单时，Adobe Commerce会在付款期间显示正确的详细信息。 以前，在这些条件下，总数显示为零。
+- &#x200B;<!--- ACP2E-689--> 现在，在启用“采购订单”选项并选择使用PayPal付款选项创建的虚拟报价单时，Adobe Commerce会在付款期间显示正确的详细信息。 以前，在这些条件下，总数显示为零。
 
-- <!--- ACP2E-609--> **允许浏览类别**&#x200B;设置的客户组列表不再包含与共享目录相关的客户组。
+- &#x200B;<!--- ACP2E-609--> **允许浏览类别**&#x200B;设置的客户组列表不再包含与共享目录相关的客户组。
 
-- <!--- ACP2E-1244--> “税号/增值税编号”客户属性现在可按预期与公司管理员帐户在管理员和店面一起使用。 创建公司帐户不再需要自定义税/VAT属性。 以前，当商家创建具有自定义税务/增值税属性的公司帐户时，Adobe Commerce会在店面和管理员上引发验证错误。
+- &#x200B;<!--- ACP2E-1244--> “税号/增值税编号”客户属性现在可按预期与公司管理员帐户在管理员和店面一起使用。 创建公司帐户不再需要自定义税/VAT属性。 以前，当商家创建具有自定义税务/增值税属性的公司帐户时，Adobe Commerce会在店面和管理员上引发验证错误。
 
-- <!--- ACP2E-1236--> 现在，在特定范围上禁用共享目录功能可正常工作。 以前，当商家保存共享目录配置时，Adobe Commerce设置的范围无效。
+- &#x200B;<!--- ACP2E-1236--> 现在，在特定范围上禁用共享目录功能可正常工作。 以前，当商家保存共享目录配置时，Adobe Commerce设置的范围无效。
 
-- <!--- ACP2E-1203--> 管理员用户现在可以为公司用户保存客户自定义属性值。 以前，无法保存公司用户的客户自定义属性。
+- &#x200B;<!--- ACP2E-1203--> 管理员用户现在可以为公司用户保存客户自定义属性值。 以前，无法保存公司用户的客户自定义属性。
 
-- <!--- ACP2E-1221--> 当分配了许多公司权限后，通过GraphQL提供的公司权限验证功能可解决性能问题。
+- &#x200B;<!--- ACP2E-1221--> 当分配了许多公司权限后，通过GraphQL提供的公司权限验证功能可解决性能问题。
 
-- <!--- ACP2E-1242--> 使用快速订购添加的产品数量超过可用库存时，Adobe Commerce不再在购物车页面上引发错误。
+- &#x200B;<!--- ACP2E-1242--> 使用快速订购添加的产品数量超过可用库存时，Adobe Commerce不再在购物车页面上引发错误。
 
-- <!--- ACP2E-1090--> `SELECT`公司权限操作的性能已得到改进。
+- &#x200B;<!--- ACP2E-1090--> `SELECT`公司权限操作的性能已得到改进。
 
-- <!--- ACP2E-2456--> 现在，当没有对要查询的类别明确设置类别权限时，类别查询会根据商店配置设置返回产品价格。
+- &#x200B;<!--- ACP2E-2456--> 现在，当没有对要查询的类别明确设置类别权限时，类别查询会根据商店配置设置返回产品价格。
 
-- <!--- ACP2E-6829--> 现在，使用批准的报价请求完成购买时，**[!UICONTROL Place Order]**&#x200B;按钮可按预期工作。 可协商的报价`negotiableQuoteCheckoutSessionPlugin`插件的问题已得到解决。
+- &#x200B;<!--- ACP2E-6829--> 现在，使用批准的报价请求完成购买时，**[!UICONTROL Place Order]**&#x200B;按钮可按预期工作。 可协商的报价`negotiableQuoteCheckoutSessionPlugin`插件的问题已得到解决。
 
 ### B2B v1.3.4-p16
 
@@ -690,31 +690,31 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 添加了对Adobe Commerce 2.4.5的支持。
 
-- <!--- ACP2E-453-->Adobe Commerce不再在每次通过API调用更新现有公司时发送电子邮件通知。 现在，仅当创建公司时才发送电子邮件。
+- &#x200B;<!--- ACP2E-453-->Adobe Commerce不再在每次通过API调用更新现有公司时发送电子邮件通知。 现在，仅当创建公司时才发送电子邮件。
 
-- <!--- ACP2E-406-->启用&#x200B;**[!UICONTROL Enable Cross Border Trade]**&#x200B;纳税计算设置后，Adobe Commerce现在可以正确计算可转让报价的总计。
+- &#x200B;<!--- ACP2E-406-->启用&#x200B;**[!UICONTROL Enable Cross Border Trade]**&#x200B;纳税计算设置后，Adobe Commerce现在可以正确计算可转让报价的总计。
 
-- <!--- ACP2E-322-->启用&#x200B;**[!UICONTROL Move out of stock to the bottom]**&#x200B;设置后，库存更新后，可配置产品现在会移至产品列表中的最后一个位置。 实施新的自定义数据库查询以确保Elasticsearch索引排序顺序现在遵循启用管理员的排序顺序。 以前，启用此设置时，可配置产品及其子产品不会移到列表的底部。
+- &#x200B;<!--- ACP2E-322-->启用&#x200B;**[!UICONTROL Move out of stock to the bottom]**&#x200B;设置后，库存更新后，可配置产品现在会移至产品列表中的最后一个位置。 实施新的自定义数据库查询以确保Elasticsearch索引排序顺序现在遵循启用管理员的排序顺序。 以前，启用此设置时，可配置产品及其子产品不会移到列表的底部。
 
-- <!--- ACP2E-308-->采购订单电子邮件现在遵循多站点部署中每个网站的电子邮件发送设置。 **[!UICONTROL Disable Email Communications]**&#x200B;设置的检查已添加到电子邮件队列的自定义逻辑中。 以前，Adobe Commerce不遵守辅助网站的电子邮件发送设置。
+- &#x200B;<!--- ACP2E-308-->采购订单电子邮件现在遵循多站点部署中每个网站的电子邮件发送设置。 **[!UICONTROL Disable Email Communications]**&#x200B;设置的检查已添加到电子邮件队列的自定义逻辑中。 以前，Adobe Commerce不遵守辅助网站的电子邮件发送设置。
 
-- <!--- ACP2E-302-->为清楚起见，快速订购页面的SKU字段的标题进行了更改。
+- &#x200B;<!--- ACP2E-302-->为清楚起见，快速订购页面的SKU字段的标题进行了更改。
 
-- <!--- ACP2E-543-->当购物者在&#x200B;**输入SKU或产品名称**&#x200B;字段中输入无效的SKU时，Adobe Commerce现在会显示信息更丰富的错误消息。
+- &#x200B;<!--- ACP2E-543-->当购物者在&#x200B;**输入SKU或产品名称**&#x200B;字段中输入无效的SKU时，Adobe Commerce现在会显示信息更丰富的错误消息。
 
-- <!--- ACP2E-1753-->在保存公司后，公司管理员的&#x200B;**[!UICONTROL Account Created in]**&#x200B;字段现在会按预期保留其值。
+- &#x200B;<!--- ACP2E-1753-->在保存公司后，公司管理员的&#x200B;**[!UICONTROL Account Created in]**&#x200B;字段现在会按预期保留其值。
 
-- <!--- ACP2E-722 -->`customer`查询在检索按`uid`筛选的申请列表时不再返回空结果。
+- &#x200B;<!--- ACP2E-722 -->`customer`查询在检索按`uid`筛选的申请列表时不再返回空结果。
 
-- <!--- ACP2E-210 -->在`collectQuoteTotals`调用之前添加了一个插件，以确保商店积分仅应用一次。
+- &#x200B;<!--- ACP2E-210 -->在`collectQuoteTotals`调用之前添加了一个插件，以确保商店积分仅应用一次。
 
-- <!--- ACP2E-665 -->现在，当管理员从管理员中删除客户的帐户时，客户会被重定向到登录页面。 以前，Adobe Commerce会引发错误。 插件(`SessionPlugin`)代码块现在位于`try…catch`块中。 以前，此代码不会封装在通用异常处理块中。
+- &#x200B;<!--- ACP2E-665 -->现在，当管理员从管理员中删除客户的帐户时，客户会被重定向到登录页面。 以前，Adobe Commerce会引发错误。 插件(`SessionPlugin`)代码块现在位于`try…catch`块中。 以前，此代码不会封装在通用异常处理块中。
 
-- <!--- ACP2E-661 --> 在移动设备模式下的“快速订购”页面上，输入有效的产品名称或SKU后按&#x200B;**Enter**&#x200B;会按预期将购物者转到下一个字段。
+- &#x200B;<!--- ACP2E-661 --> 在移动设备模式下的“快速订购”页面上，输入有效的产品名称或SKU后按&#x200B;**Enter**&#x200B;会按预期将购物者转到下一个字段。
 
-- <!--- ACP2E-607 -->公司名称现在按预期显示在签出工作流的帐单和送货地址部分。
+- &#x200B;<!--- ACP2E-607 -->公司名称现在按预期显示在签出工作流的帐单和送货地址部分。
 
-- <!--- ACP2E-375 -->现在禁用&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;付款方式时，存储点数不可用。 以前，商店积分复选框在管理员下订单期间不起作用。 应用程序没有用商店点数下订单，并显示此错误： `The requested Payment Method is not available`。
+- &#x200B;<!--- ACP2E-375 -->现在禁用&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;付款方式时，存储点数不可用。 以前，商店积分复选框在管理员下订单期间不起作用。 应用程序没有用商店点数下订单，并显示此错误： `The requested Payment Method is not available`。
 
 ### B2B v1.3.3-p17
 
@@ -758,49 +758,49 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 添加了对Adobe Commerce 2.4.4的支持。
 
-- <!--- MC-41985--> 在具有100,000多个公司角色的部署中，从Adobe Commerce 2.3.x升级到Adobe Commerce 2.4.x所需的时间已大大减少。
+- &#x200B;<!--- MC-41985--> 在具有100,000多个公司角色的部署中，从Adobe Commerce 2.3.x升级到Adobe Commerce 2.4.x所需的时间已大大减少。
 
-- <!--- MC-42153--> 启用&#x200B;**[!UICONTROL Payment on Account]**&#x200B;付款方式后，POST `V1/order/:orderId/invoice`请求现在支持创建部分发票。 以前，Adobe Commerce引发此错误： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+- &#x200B;<!--- MC-42153--> 启用&#x200B;**[!UICONTROL Payment on Account]**&#x200B;付款方式后，POST `V1/order/:orderId/invoice`请求现在支持创建部分发票。 以前，Adobe Commerce引发此错误： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-- <!--- MC-41975--> 当客户的购物车包含其他产品时，PayPal Payflow Pro现在可按预期处理B2B可协商报价。 Adobe Commerce现在可成功处理订单，并按预期向客户发送电子邮件。 以前，Adobe Commerce会引发致命错误，并向客户发送一封包含零值的确认电子邮件。
+- &#x200B;<!--- MC-41975--> 当客户的购物车包含其他产品时，PayPal Payflow Pro现在可按预期处理B2B可协商报价。 Adobe Commerce现在可成功处理订单，并按预期向客户发送电子邮件。 以前，Adobe Commerce会引发致命错误，并向客户发送一封包含零值的确认电子邮件。
 
-- <!--- MC-41819--> 在排除共享目录中的某些产品后，现在可在目录搜索结果页面上正确显示分页。
+- &#x200B;<!--- MC-41819--> 在排除共享目录中的某些产品后，现在可在目录搜索结果页面上正确显示分页。
 
-- <!--- MC-42886--> 现在，在管理员中创建或保存公司用户时，客户自定义属性会按预期保存。
+- &#x200B;<!--- MC-42886--> 现在，在管理员中创建或保存公司用户时，客户自定义属性会按预期保存。
 
-- <!--- MC-42927--> 现在，单击一下创建新公司表单上的&#x200B;**[!UICONTROL Submit]**&#x200B;按钮即被禁用，以防止提交多个表单。 以前，您可以多次提交此表单，方法是反复单击此按钮，这会生成错误。
+- &#x200B;<!--- MC-42927--> 现在，单击一下创建新公司表单上的&#x200B;**[!UICONTROL Submit]**&#x200B;按钮即被禁用，以防止提交多个表单。 以前，您可以多次提交此表单，方法是反复单击此按钮，这会生成错误。
 
-- <!--- MC-42787--> 当购物者登录到已禁用重新排序的商店时，Adobe Commerce不再在店面上显示重新排序链接。
+- &#x200B;<!--- MC-42787--> 当购物者登录到已禁用重新排序的商店时，Adobe Commerce不再在店面上显示重新排序链接。
 
-- <!--- MC-43115--> 现在，启用共享目录后，按SKU快速排序搜索不区分大小写。
+- &#x200B;<!--- MC-43115--> 现在，启用共享目录后，按SKU快速排序搜索不区分大小写。
 
-- <!--- MC-42203--> 现在，您可以在创建公司时更新客户属性的文件。 以前，当您尝试创建具有`File`类型的附件的公司时，Adobe Commerce未创建该公司，并在异常日志中记录此错误： `Something went wrong while saving file`。
+- &#x200B;<!--- MC-42203--> 现在，您可以在创建公司时更新客户属性的文件。 以前，当您尝试创建具有`File`类型的附件的公司时，Adobe Commerce未创建该公司，并在异常日志中记录此错误： `Something went wrong while saving file`。
 
-- <!--- MC-42242--> 您现在可以创建客户帐户具有自定义属性的公司，其类型为(`File`)或(`Image`)。 以前，如果帐户具有其中一个可自定义选项，公司编辑页面加载器无法解析，从而导致无法编辑公司详细信息。
+- &#x200B;<!--- MC-42242--> 您现在可以创建客户帐户具有自定义属性的公司，其类型为(`File`)或(`Image`)。 以前，如果帐户具有其中一个可自定义选项，公司编辑页面加载器无法解析，从而导致无法编辑公司详细信息。
 
-- <!--- MC-42268--> 启用共享目录后，`products`查询现在返回准确的`total_count`字段。
+- &#x200B;<!--- MC-42268--> 启用共享目录后，`products`查询现在返回准确的`total_count`字段。
 
-- <!--- MC-42203-->  现在，您可以在创建公司时更新客户属性的文件。 以前，当您尝试创建具有`File`类型的附件的公司时，Adobe Commerce未创建该公司，并在异常日志中记录此错误： `Something went wrong while saving file`。
+- &#x200B;<!--- MC-42203-->  现在，您可以在创建公司时更新客户属性的文件。 以前，当您尝试创建具有`File`类型的附件的公司时，Adobe Commerce未创建该公司，并在异常日志中记录此错误： `Something went wrong while saving file`。
 
-- <!--- MC-43178--> 禁用联机配送方法后，_公司配置_&#x200B;和&#x200B;_创建公司_&#x200B;页面现在可以按预期工作。 添加了验证，以防止尝试处理禁用的配送模块。 以前，Adobe Commerce显示此错误： `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`。
+- &#x200B;<!--- MC-43178--> 禁用联机配送方法后，_公司配置_&#x200B;和&#x200B;_创建公司_&#x200B;页面现在可以按预期工作。 添加了验证，以防止尝试处理禁用的配送模块。 以前，Adobe Commerce显示此错误： `Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`。
 
-- <!--- MC-42214--> 在部分索引期间生成权限时，_类别_&#x200B;页面现在显示一致的产品数据。 此进程中添加了新的目录权限部分索引器。 以前，索引器运行时显示的数据不正确。
+- &#x200B;<!--- MC-42214--> 在部分索引期间生成权限时，_类别_&#x200B;页面现在显示一致的产品数据。 此进程中添加了新的目录权限部分索引器。 以前，索引器运行时显示的数据不正确。
 
-- <!--- MC-42567--> 现在，当使用目录权限并将产品分配给共享目录时，`categoryList`查询会返回正确数量的产品。
+- &#x200B;<!--- MC-42567--> 现在，当使用目录权限并将产品分配给共享目录时，`categoryList`查询会返回正确数量的产品。
 
-- <!--- MC-42528--> `categoryList`查询现在遵循类别权限并仅返回允许的类别。 以前，它会返回所有已分配和未分配的类别。
+- &#x200B;<!--- MC-42528--> `categoryList`查询现在遵循类别权限并仅返回允许的类别。 以前，它会返回所有已分配和未分配的类别。
 
-- <!--- MC-42399--> `rest/V1/company/{id}`请求现在按预期返回`is_purchase_order_enabled`属性值。
+- &#x200B;<!--- MC-42399--> `rest/V1/company/{id}`请求现在按预期返回`is_purchase_order_enabled`属性值。
 
-- <!--- ACP2E-128--> 自定义客户属性现在按预期显示在&#x200B;_公司管理员_&#x200B;选项卡中。
+- &#x200B;<!--- ACP2E-128--> 自定义客户属性现在按预期显示在&#x200B;_公司管理员_&#x200B;选项卡中。
 
-- <!--- ACP2E-130--> “我的帐户”页面上的“我的愿望清单”块现在按预期方式向公司管理员和公司用户显示。
+- &#x200B;<!--- ACP2E-130--> “我的帐户”页面上的“我的愿望清单”块现在按预期方式向公司管理员和公司用户显示。
 
-- <!--- ACP2E-133--> 快速订购错误不再显示在购物车中。 以前，在目录中找不到SKU时，Adobe Commerce在购物车中显示此错误： `The SKU was not found in the catalog`。
+- &#x200B;<!--- ACP2E-133--> 快速订购错误不再显示在购物车中。 以前，在目录中找不到SKU时，Adobe Commerce在购物车中显示此错误： `The SKU was not found in the catalog`。
 
-- <!--- ACP2E-194--> 已优化共享目录保存操作以更快地执行。 以前，与多个客户组共享目录保存可能需要几分钟的时间。
+- &#x200B;<!--- ACP2E-194--> 已优化共享目录保存操作以更快地执行。 以前，与多个客户组共享目录保存可能需要几分钟的时间。
 
-- <!--- MC-42240--> Adobe Commerce现在会在删除父类别时，从`sharedcatalog_category_permissions`表中删除所有子类别权限。 以前，只删除父类别数据。
+- &#x200B;<!--- MC-42240--> Adobe Commerce现在会在删除父类别时，从`sharedcatalog_category_permissions`表中删除所有子类别权限。 以前，只删除父类别数据。
 
 ### B2B v1.3.2
 
@@ -810,95 +810,95 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 添加了对Adobe Commerce 2.4.3的支持。
 
-- <!--- MC-39862--> Adobe Commerce现在成功发送有关过期可转让报价的更新电子邮件。 以前，当可转让报价过期时，Adobe Commerce不会发送更新电子邮件。
+- &#x200B;<!--- MC-39862--> Adobe Commerce现在成功发送有关过期可转让报价的更新电子邮件。 以前，当可转让报价过期时，Adobe Commerce不会发送更新电子邮件。
 
-- <!--- MC-40682--> 现在，当`cron`作业缺失时，Adobe Commerce成功发送有关即将过期和已过期可转让报价的更新电子邮件。
+- &#x200B;<!--- MC-40682--> 现在，当`cron`作业缺失时，Adobe Commerce成功发送有关即将过期和已过期可转让报价的更新电子邮件。
 
 #### 公司
 
-- <!--- MC-41542--> 创建新公司帐户页面国家/地区下拉字段不再列出空选项值。 以前，前两个选项值和国家/地区代码`AN`为空。
+- &#x200B;<!--- MC-41542--> 创建新公司帐户页面国家/地区下拉字段不再列出空选项值。 以前，前两个选项值和国家/地区代码`AN`为空。
 
-- <!--- MC-41260--> 对于公司用户创建的订单，单击“**[!UICONTROL Return]**”按钮后，管理用户现在会按预期重定向到“创建退货”页面。 以前，管理员会被重定向至“订单历史记录”页面。
+- &#x200B;<!--- MC-41260--> 对于公司用户创建的订单，单击“**[!UICONTROL Return]**”按钮后，管理用户现在会按预期重定向到“创建退货”页面。 以前，管理员会被重定向至“订单历史记录”页面。
 
 - 在`bin/magento setup:upgrade`期间执行`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply`方法时，[!BADGE 仅PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} <!--- MC-40798--> Adobe Commerce不再因内存不足错误而失败。 以前，Adobe Commerce在初始化权限时不使用批次大小进行集合，而是加载所有公司角色的集合。
 
-- <!--- MC-40551--> 公司用户现在可以编辑和更新客户自定义属性值。 以前，这些属性无法与“创建和编辑”用户表单正确绑定。 公司用户可以输入其他属性值，但Adobe Commerce未正确保存这些值。
+- &#x200B;<!--- MC-40551--> 公司用户现在可以编辑和更新客户自定义属性值。 以前，这些属性无法与“创建和编辑”用户表单正确绑定。 公司用户可以输入其他属性值，但Adobe Commerce未正确保存这些值。
 
-- <!--- MC-32653--> 公司角色权限的资源树现在可以按预期进行转换。 以前，即使存在有效的翻译文件，也不翻译权限树。
+- &#x200B;<!--- MC-32653--> 公司角色权限的资源树现在可以按预期进行转换。 以前，即使存在有效的翻译文件，也不翻译权限树。
 
-- <!--- MC-40358--> Adobe Commerce现在可按预期保存B2B用户的自定义客户属性值。 以前，创建包含自定义客户属性的公司帐户会触发模板错误，并且Adobe Commerce无法成功加载表单。 向`company_create_account`的布局添加参数解决了此问题。
+- &#x200B;<!--- MC-40358--> Adobe Commerce现在可按预期保存B2B用户的自定义客户属性值。 以前，创建包含自定义客户属性的公司帐户会触发模板错误，并且Adobe Commerce无法成功加载表单。 向`company_create_account`的布局添加参数解决了此问题。
 
-- <!--- MC-41721--> 公司用户过滤器（如“显示所有用户”、“显示活动用户”和“显示非活动用户”）现在可以按预期工作。 以前，在公司用户页面上过滤操作会导致JavaScript错误。
+- &#x200B;<!--- MC-41721--> 公司用户过滤器（如“显示所有用户”、“显示活动用户”和“显示非活动用户”）现在可以按预期工作。 以前，在公司用户页面上过滤操作会导致JavaScript错误。
 
 #### 公司信用
 
-- <!--- MC-41551--> 现在，如果管理员的帐户受限，且只包含网站级别的特权，则可以创建使用网站以外的其他货币的公司。
+- &#x200B;<!--- MC-41551--> 现在，如果管理员的帐户受限，且只包含网站级别的特权，则可以创建使用网站以外的其他货币的公司。
 
-- <!--- MC-41523--> Adobe Commerce现在从正确的`from`电子邮件地址和范围发送公司电子邮件。 以前，在发送公司信用分配或更新电子邮件时，Adobe Commerce不考虑网站范围。
+- &#x200B;<!--- MC-41523--> Adobe Commerce现在从正确的`from`电子邮件地址和范围发送公司电子邮件。 以前，在发送公司信用分配或更新电子邮件时，Adobe Commerce不考虑网站范围。
 
 
 #### 快速订购
 
-- <!--- MC-42104--> 现在，对于不存在的SKU，使用CSV文件中的快速订购功能可按预期创建订单。
+- &#x200B;<!--- MC-42104--> 现在，对于不存在的SKU，使用CSV文件中的快速订购功能可按预期创建订单。
 
-- <!--- MC-40268--> 现在，使用“快速订购”功能搜索多个SKU可按预期运行。 以前，结果包含重复条目。
+- &#x200B;<!--- MC-40268--> 现在，使用“快速订购”功能搜索多个SKU可按预期运行。 以前，结果包含重复条目。
 
-- <!--- MC-40261--> 现在，当您在快速订购期间使用SKU选择多个产品时，“添加的产品”列表显示会将输入的小写和大写形式的SKU视为相同。
+- &#x200B;<!--- MC-40261--> 现在，当您在快速订购期间使用SKU选择多个产品时，“添加的产品”列表显示会将输入的小写和大写形式的SKU视为相同。
 
-- <!--- MC-40225--> 现在，使用“快速订购”可按购物者指定的数量添加产品。 以前，Adobe Commerce只会在购物者指定的数量超过一个时添加一个产品。
+- &#x200B;<!--- MC-40225--> 现在，使用“快速订购”可按购物者指定的数量添加产品。 以前，Adobe Commerce只会在购物者指定的数量超过一个时添加一个产品。
 
-- <!--- MC-41283--> 快速订购自动完成功能现在适用于部分SKU。
+- &#x200B;<!--- MC-41283--> 快速订购自动完成功能现在适用于部分SKU。
 
-- <!--- MC-41299--> Adobe Commerce现在在快速订购页面的自动建议列表和搜索结果中显示已配置为&#x200B;**不单独可见**&#x200B;的产品。
+- &#x200B;<!--- MC-41299--> Adobe Commerce现在在快速订购页面的自动建议列表和搜索结果中显示已配置为&#x200B;**不单独可见**&#x200B;的产品。
 
-- <!--- MC-42402--> 购物者现在可以使用快速订购表单，按包含大写字符的SKU添加多个产品。 以前，只添加第一个产品。
+- &#x200B;<!--- MC-42402--> 购物者现在可以使用快速订购表单，按包含大写字符的SKU添加多个产品。 以前，只添加第一个产品。
 
 #### 可协商的报价
 
-- <!--- MC-41232--> 现在，在URL字段中粘贴可协商报价的链接并成功登录后，购物者将被重定向到可协商报价页面。 以前，购物者会被重定向到“我的帐户”页面。
+- &#x200B;<!--- MC-41232--> 现在，在URL字段中粘贴可协商报价的链接并成功登录后，购物者将被重定向到可协商报价页面。 以前，购物者会被重定向到“我的帐户”页面。
 
-- <!--- MC-39317--> 对于包含在结账期间创建的客户帐户中具有可自定义日期选项的产品订单，现在可以按预期重新排序。 以前，Adobe Commerce不处理重新排序并显示此错误： `The product has required options. Enter the options and try again`。
+- &#x200B;<!--- MC-39317--> 对于包含在结账期间创建的客户帐户中具有可自定义日期选项的产品订单，现在可以按预期重新排序。 以前，Adobe Commerce不处理重新排序并显示此错误： `The product has required options. Enter the options and try again`。
 
-- <!--- MC-39063--> 当采购订单模块被禁用时，可转让报价单的送货地址在结帐期间不再可编辑。 此行为是以前的修复导致的，该修复中的`isQuoteAddressLocked`已从可协商的报价签出渲染器中移除。
+- &#x200B;<!--- MC-39063--> 当采购订单模块被禁用时，可转让报价单的送货地址在结帐期间不再可编辑。 此行为是以前的修复导致的，该修复中的`isQuoteAddressLocked`已从可协商的报价签出渲染器中移除。
 
-- <!--- MC-38967--> 商家现在可以向管理员提供的可协商报价添加产品。
+- &#x200B;<!--- MC-38967--> 商家现在可以向管理员提供的可协商报价添加产品。
 
 #### 采购订单
 
-- <!--- MC-39983--> 当&#x200B;**[!UICONTROL Name Prefix]**&#x200B;属性设置为`required`时，当您使用PayPal Express结帐发出采购订单时，Adobe Commerce现在会按预期显示信息性错误消息。 以前，Adobe Commerce不会下订单或显示错误消息。
+- &#x200B;<!--- MC-39983--> 当&#x200B;**[!UICONTROL Name Prefix]**&#x200B;属性设置为`required`时，当您使用PayPal Express结帐发出采购订单时，Adobe Commerce现在会按预期显示信息性错误消息。 以前，Adobe Commerce不会下订单或显示错误消息。
 
-- <!--- MC-39620--> 启用Google Tag Manager后，采购订单模块中账单地址的UI组件现在可正确使用报价地址。 以前，支付页面上发生JavaScript错误。
+- &#x200B;<!--- MC-39620--> 启用Google Tag Manager后，采购订单模块中账单地址的UI组件现在可正确使用报价地址。 以前，支付页面上发生JavaScript错误。
 
 #### 申请列表
 
-- <!--- MC-40426--> 商家现在可以使用POST `rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
+- &#x200B;<!--- MC-40426--> 商家现在可以使用POST `rest/all/V1/requisition_lists`端点为客户创建申请列表。 以前，当您尝试创建申请列表时，Adobe Commerce抛出此400错误： `Could not save Requisition List`。
 
-- <!--- MC-41123--> 当购物车还包含缺货产品时，购物车缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_按钮。
+- &#x200B;<!--- MC-41123--> 当购物车还包含缺货产品时，购物车缺货产品现在会显示&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按钮。 以前，如果购物车包含两个产品，其中一个产品缺货，则这两个产品都不会显示&#x200B;_[!UICONTROL Add to Requisition List]_&#x200B;按钮。
 
-- <!--- MC-40877--> 您现在可以使用REST API将产品添加到申请列表。
+- &#x200B;<!--- MC-40877--> 您现在可以使用REST API将产品添加到申请列表。
 
-- <!--- MC-40155--> 申请列表&#x200B;**[!UICONTROL Latest Activity Date]**&#x200B;值现在遵循区域设置格式。
+- &#x200B;<!--- MC-40155--> 申请列表&#x200B;**[!UICONTROL Latest Activity Date]**&#x200B;值现在遵循区域设置格式。
 
-- <!--- MC-39580--> 当您从申请列表编辑捆绑产品时，Adobe Commerce不再引发致命错误。
+- &#x200B;<!--- MC-39580--> 当您从申请列表编辑捆绑产品时，Adobe Commerce不再引发致命错误。
 
-- <!--- MC-40454--> 现在，当您从申请列表将带有可自定义选项`(File)`的产品添加到愿望清单时，Adobe Commerce会显示正确的产品价格。 指向已上传文件的链接也会按预期显示。 以前，Adobe Commerce显示的产品价格不正确，并且不显示指向文件的链接。
+- &#x200B;<!--- MC-40454--> 现在，当您从申请列表将带有可自定义选项`(File)`的产品添加到愿望清单时，Adobe Commerce会显示正确的产品价格。 指向已上传文件的链接也会按预期显示。 以前，Adobe Commerce显示的产品价格不正确，并且不显示指向文件的链接。
 
-- <!--- MC-36383--> 现在可以将带有可自定义选项`(File)`的产品从申请列表添加到购物车。
+- &#x200B;<!--- MC-36383--> 现在可以将带有可自定义选项`(File)`的产品从申请列表添加到购物车。
 
 
 #### 共享目录
 
-- <!--- MC-40497--> 角色仅限于特定网站的管理员现在可以创建、查看和编辑共享目录。 以前，当角色有限的管理员尝试创建共享目录时，Adobe Commerce会引发致命错误。
+- &#x200B;<!--- MC-40497--> 角色仅限于特定网站的管理员现在可以创建、查看和编辑共享目录。 以前，当角色有限的管理员尝试创建共享目录时，Adobe Commerce会引发致命错误。
 
-- <!--- MC-41337--> 分层导航结果现在包含具有过滤属性的产品的准确计数，购物者现在可以应用多个过滤器。 以前，只能应用一个过滤器，因此Adobe Commerce在分层导航中显示不准确的产品计数。
+- &#x200B;<!--- MC-41337--> 分层导航结果现在包含具有过滤属性的产品的准确计数，购物者现在可以应用多个过滤器。 以前，只能应用一个过滤器，因此Adobe Commerce在分层导航中显示不准确的产品计数。
 
-- <!--- MC-40779--> Adobe Commerce现在可以在搜索结果中的分层导航过滤器中正确显示产品计数。 以前，“搜索结果”页面的插件不使用Elasticsearch，而是向数据库发出新查询。
+- &#x200B;<!--- MC-40779--> Adobe Commerce现在可以在搜索结果中的分层导航过滤器中正确显示产品计数。 以前，“搜索结果”页面的插件不使用Elasticsearch，而是向数据库发出新查询。
 
-- <!--- MC-39978--> 当商家从默认共享目录中删除所有产品时，Adobe Commerce不再删除层价格。
+- &#x200B;<!--- MC-39978--> 当商家从默认共享目录中删除所有产品时，Adobe Commerce不再删除层价格。
 
-- <!--- MC-39802--> 过滤器现在按当前类别进行过滤，并在启用共享目录的情况下在所有页面上正确显示。 以前，仅针对当前页面错误地计算了过滤器，并且没有按当前类别进行过滤。
+- &#x200B;<!--- MC-39802--> 过滤器现在按当前类别进行过滤，并在启用共享目录的情况下在所有页面上正确显示。 以前，仅针对当前页面错误地计算了过滤器，并且没有按当前类别进行过滤。
 
-- <!--- MC-39522--> 启用共享目录后，GraphQL `products`查询不再返回未分配给共享目录之产品的价格范围和类别。 以前，查询返回产品的聚合，即使产品本身未在`items`数组中返回。
+- &#x200B;<!--- MC-39522--> 启用共享目录后，GraphQL `products`查询不再返回未分配给共享目录之产品的价格范围和类别。 以前，查询返回产品的聚合，即使产品本身未在`items`数组中返回。
 
 ### B2B v1.3.1
 
@@ -938,7 +938,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 通过SKU使用快速订购订购来订购产品不会再导致CSV文件中的产品数量重复。<!--- MC-37427-->
 
-- 当“快速订购”页面的&#x200B;_[!UICONTROL Enter Multiple SKUs]_部分包含空值时，**[!UICONTROL Add to Cart]**按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
+- 当“快速订购”页面的&#x200B;_[!UICONTROL Enter Multiple SKUs]_&#x200B;部分包含空值时，**[!UICONTROL Add to Cart]**&#x200B;按钮不再被阻止。 Adobe Commerce现在改为显示一条消息，提示您输入有效的SKU。<!--- MC-37387-->
 
 - 现在，当您从以下申请列表提交产品审核时，Adobe Commerce会在产品页面上显示此消息： `You submitted your review for moderation`。 该审阅也会显示在待处理审阅页面上（管理员&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）。 以前，尽管Adobe Commerce将审核添加到待处理审核列表，但在产品页面上抛出404错误。<!--- MC-37119-->
 
@@ -1034,7 +1034,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 现在，您可以为包含物理和虚拟产品的订单成功实施多发货。<!--- MC-33818-->
 
-- 在启用了&#x200B;**[!UICONTROL Access Restriction]**&#x200B;且&#x200B;**[!UICONTROL Restriction Mode]**&#x200B;设置为`Sales: Login Only`的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的&#x200B;_[!UICONTROL Company Users]_部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
+- 在启用了&#x200B;**[!UICONTROL Access Restriction]**&#x200B;且&#x200B;**[!UICONTROL Restriction Mode]**&#x200B;设置为`Sales: Login Only`的情况下，商家现在可以从“我的帐户”和“公司结构”页面中的&#x200B;_[!UICONTROL Company Users]_&#x200B;部分创建公司用户。 以前，当商家尝试创建用户时，Adobe Commerce引发此错误： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
 
 - 当客户保存其帐户信息时，Adobe Commerce不再将客户的客户组重置为默认值。<!--- MC-33554-->
 
