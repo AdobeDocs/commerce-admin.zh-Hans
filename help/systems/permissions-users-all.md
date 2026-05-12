@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New User]**。
 
-   要编辑现有用户，请单击网格中的用户名。 您可以根据需要修改&#x200B;_[!UICONTROL User Info]_和_[!UICONTROL User Role]_&#x200B;部分。
+   要编辑现有用户，请单击网格中的用户名。 您可以根据需要修改&#x200B;_[!UICONTROL User Info]_&#x200B;和_[!UICONTROL User Role]_&#x200B;部分。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;部分中，执行以下操作：
 
    ![用户帐户信息](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +65,21 @@ ht-degree: 0%
 
    当用户或角色为临时角色时，定义到期日期会很有帮助。 过期日期后，用户帐户状态将更改为`Inactive`，并且可以根据需要进行更新。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入用户帐户密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入用户帐户密码。
 
 >[!IMPORTANT]
 >
->完成&#x200B;_[!UICONTROL Account Information]_部分后，您可以保存用户。 新用户显示在_[!UICONTROL Users]_&#x200B;网格中，但在分配角色之前，用户名无法登录。
+>完成&#x200B;_[!UICONTROL Account Information]_&#x200B;部分后，您可以保存用户。 新用户显示在&#x200B;_[!UICONTROL Users]_&#x200B;网格中，但在分配角色之前，用户名无法登录。
 
 ## 分配用户角色
 
 1. 在左侧面板中，单击&#x200B;**[!UICONTROL User Role]**。
 
-   网格会列出所有现有的用户角色。 对于新存储，_[!UICONTROL Administrators]_是唯一可用的角色。
+   网格会列出所有现有的用户角色。 对于新存储，_[!UICONTROL Administrators]_&#x200B;是唯一可用的角色。
 
    ![管理员 — 添加新用户角色](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Assigned]_列中，选择一个用户角色。
+1. 在&#x200B;_[!UICONTROL Assigned]_&#x200B;列中，选择一个用户角色。
 
    您可以[查看现有或定义其他用户角色](permissions-user-roles.md)。 定义角色后，必须编辑用户帐户以分配新角色。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 出现提示时，输入密码以确认身份，然后再次单击&#x200B;**[!UICONTROL Save User]**。
 
-   _[!UICONTROL Users]_网格将打开并列出所有用户。
+   _[!UICONTROL Users]_&#x200B;网格将打开并列出所有用户。
 
 ## 删除管理员用户
 
