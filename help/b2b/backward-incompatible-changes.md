@@ -2,9 +2,9 @@
 title: Adobe Commerce B2B向后不兼容的更改
 description: 了解Adobe Commerce B2B版本中的更改，这些更改可能需要您更新自定义代码。
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 35a29fdc09e45e8e4661ba413e9b274d1703d46e
+source-git-commit: 81722ba7575123554f34998745221d536b8926d1
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 有关Adobe Commerce版本的B2B中所有向后不兼容的更改的高级参考信息。 请参阅高亮部分以了解具有重大影响并需要详细说明和特殊说明的不兼容更改。
 
-{{$include /help/_includes/backward-incompatible-changes/1-5-2-to-1-5-3-beta1.md}}
+{{$include /help/_includes/backward-incompatible-changes/1-5-2-to-1-5-3.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1-5-1-to-1-5-2.md}}
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 {{$include /help/_includes/backward-incompatible-changes/1-3-3-to-1-3-4.md}}
 
-<!-- Last updated from includes: 2025-04-29 22:23:23 -->
+<!-- Last updated from includes: 2026-03-06 20:14:18 -->

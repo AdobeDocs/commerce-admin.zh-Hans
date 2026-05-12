@@ -3,9 +3,9 @@ title: 创建装运标签和包装
 description: 了解如何按订单打包项目并创建配送标签。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 美国联合包裹服务公司在国内和国际上都有船只。 但是，只能为源自美国的货物生成装运标签。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL UPS]**。
+1. 展开&#x200B;**[!UICONTROL UPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 验证您的UPS **[!UICONTROL Shipper Number]**&#x200B;是否正确。
 
@@ -61,13 +61,28 @@ ht-degree: 0%
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL USPS]**。
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL USPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 选择&#x200B;**[!UICONTROL USPS Type]**&#x200B;作为`USPS Rest APIs`或`USPS Web Tools API`。
 
 1. 验证&#x200B;**[!UICONTROL Secure Gateway URL]**&#x200B;是否正确。
 
-1. 输入USPS提供给您的&#x200B;**[!UICONTROL Password]**。
+1. 验证基于所选&#x200B;**[!UICONTROL USPS Type]**&#x200B;的以下配置是否完成：
+
+   如果您使用的是USPS Web Tools API：
+   - 用户ID
+   - 密码
+
+   如果您使用的是USPS Rest API：
+   - 使用者密钥
+   - 使用者密码
+   - 定价选项
+   - 帐户类型
+   - 帐号
+   - 客户注册ID (CRID)
+   - 邮件程序标识符(MID)
+   - 清单MID
+   - AES/ITN
 
 1. 验证基于所选&#x200B;**[!UICONTROL USPS Type]**&#x200B;的以下配置是否完成：
 
@@ -99,7 +114,7 @@ ht-degree: 0%
 
 联邦快递在国内和国际上发货。 位于美国境外的商店只能为国际货运创建联邦快递标签。
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL FedEx]**。
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL FedEx]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 验证以下FedEx凭据是否正确：
 
@@ -113,15 +128,17 @@ ht-degree: 0%
 
 DHL提供国际航运服务。
 
-1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL DHL]**。
+1. 在&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;配置中继续，展开&#x200B;**[!UICONTROL DHL]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 验证&#x200B;**[!UICONTROL Gateway URL]**&#x200B;是否正确。
+1. 选择&#x200B;**[!UICONTROL DHL Type]**&#x200B;作为`DHL REST`或`DHL XML`。
 
-1. 验证以下凭证是否已完成：
+1. 根据&#x200B;**[!UICONTROL DHL Type]**&#x200B;选择，验证以下凭据是否已完成：
 
    - 访问ID
    - 密码
    - 帐号
+   - API密钥
+   - API密码
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
@@ -145,7 +162,7 @@ DHL提供国际航运服务。
 
 1. 在包中添加或更新产品：
 
-   - 要将订单中的产品添加到包，请单击&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_&#x200B;列显示可用于包的最大产品数。
+   - 要将订单中的产品添加到包，请单击&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_列显示可用于包的最大产品数。
 
    - 选中要添加到包中的每个产品的复选框，然后输入每个产品的&#x200B;**[!UICONTROL Quantity]**。 然后，单击&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -153,7 +170,7 @@ DHL提供国际航运服务。
 
    - 要删除包，请单击&#x200B;**[!UICONTROL Delete Package]**。
 
-   - 要取消订单，请单击&#x200B;**[!UICONTROL Cancel]**。 未创建送货标签，并且清除了&#x200B;_[!UICONTROL Create Shipping Label]_&#x200B;复选框。
+   - 要取消订单，请单击&#x200B;**[!UICONTROL Cancel]**。 未创建送货标签，并且清除了&#x200B;_[!UICONTROL Create Shipping Label]_复选框。
 
    >[!NOTE]
    >
@@ -169,7 +186,7 @@ DHL提供国际航运服务。
 
 1. 在网格中查找订单并打开装运表单。
 
-1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Create Shipping Label]**。
+1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_部分中，单击&#x200B;**[!UICONTROL Create Shipping Label]**。
 
 1. 将订购的产品分发到相应的包中，然后单击&#x200B;**[!UICONTROL OK]**。
 
@@ -191,11 +208,11 @@ DHL提供国际航运服务。
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** — 在网格中查找装运并打开记录。
 
-1. 要下载PDF文件，请转到表单的&#x200B;_[!UICONTROL Shipping and Tracking]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Print Shipping Label]**。
+1. 要下载PDF文件，请转到表单的&#x200B;_[!UICONTROL Shipping and Tracking]_部分，然后单击&#x200B;**[!UICONTROL Print Shipping Label]**。
 
    根据您的浏览器设置，可以直接从PDF文件查看和打印送货标签。
 
-   _[!UICONTROL Print Shipping Label]_&#x200B;按钮仅在承运人为装运生成标签后显示。 如果缺少按钮，请单击&#x200B;**[!UICONTROL Create Shipping Label]**。 在Commerce收到来自运营商的标签后，将会显示按钮。
+   _[!UICONTROL Print Shipping Label]_按钮仅在承运人为装运生成标签后显示。 如果缺少按钮，请单击&#x200B;**[!UICONTROL Create Shipping Label]**。 在Commerce收到来自运营商的标签后，将会显示按钮。
 
 ### 方法2：打印多个订单的标签
 
@@ -218,13 +235,13 @@ DHL提供国际航运服务。
 | [!UICONTROL Type] | 包装类型因载体和方法而异。 最初会选择每个承运人的默认包装类型。 USPS不需要国内装运的包装类型。 |
 | [!UICONTROL Customs Value] | （仅限国际装运）国际装运货物内容的申报价值或销售价格。 |
 | [!UICONTROL Total Weight] | 系统会自动计算添加到包的所有产品的总重量。 该值也可以手动更改，并输入为磅或千克。 |
-| [!UICONTROL Length, Width, Height] | （可选）包维度仅用于自定义包。 可将度量单位指定为英寸或厘米。<br/><br/>**[!UICONTROL Not Required]**：装运承运人未向商店发送任何交货确认。<br/><br/>**[!UICONTROL No Signature]**：运输运营商将没有收件人签名的交货确认发送到商店。<br/><br/>**[!UICONTROL Signature Required]**：装运承运人获取收件人的签名并向商店提供打印副本。<br/><br/>**[!UICONTROL Direct]**： （仅限FedEx） FedEx从投放地址中的某人获取签名。 如果没有人签名该程序包，承运人将在另一时间尝试交付该程序包。<br/><br/>**[!UICONTROL Indirect]**： （仅限FedEx住宅投放） FedEx在投放地址获取某人（可能是邻居或建筑经理）的签名。 收件人可以留下已签名的FedEx门标签，以授权在没有任何人在场的情况下留下包裹。<br/><br/>**[!UICONTROL Contents]**： （仅限USPS）选择以下包描述之一： <br/>- Gift<br/>- Documents<br/>- Commercial Sample<br/>- Returned Goods<br/>- Commercial<br/>- Other <br/><br/>**[!UICONTROL Explanation]**： （仅限USPS）包内容的详细说明。<br/><br/>**[!UICONTROL Adult Required]**：装运承运人获得成人收件人的签名并向商店提供打印副本。 |
+| [!UICONTROL Length, Width, Height] | （可选）包维度仅用于自定义包。 您可以将度量单位指定为英寸或厘米。<br/><br/>**[!UICONTROL Not Required]**：装运承运人不会将交货确认发送到商店。<br/><br/>**[!UICONTROL No Signature]**：装运承运人会将没有收件人签名的交货确认发送到商店。<br/><br/>**[!UICONTROL Signature Required]**：装运承运人获取收件人的签名并向商店提供打印副本。<br/><br/>**[!UICONTROL Direct]**： （仅限FedEx） FedEx从交货地址处的某人获取签名。 如果没有人可签名该包，则运营商将在另一个时间尝试交付该包。<br/><br/>**[!UICONTROL Indirect]**： （仅限FedEx住宅投放） FedEx在交付地址获取某人（可能是邻居或建筑经理）的签名。 收件人可以留下已签名的FedEx门标签，授权在没有任何人在场的情况下留下要签名的包。<br/><br/>**[!UICONTROL Contents]**： （仅限USPS）选择以下包描述之一： <br/> — 礼物<br/> — 文档<br/> — 商业示例<br/> — 退回的商品<br/> — 商品<br/> — 其他&#x200B;<br/><br/>**[!UICONTROL Explanation]**： （仅限USPS）包内容的详细说明。<br/><br/>**[!UICONTROL Adult Required]**：货运公司获取成人收件人的签名并向商店提供打印副本。 |
 
 {style="table-layout:auto"}
 
 ## 创建包
 
-当您选择创建送货标签时，将显示&#x200B;_[!UICONTROL Create Packages]_&#x200B;窗口。 您可以立即开始配置第一个包。
+当您选择创建送货标签时，将显示&#x200B;_[!UICONTROL Create Packages]_窗口。 您可以立即开始配置第一个包。
 
 ### 配置包
 
@@ -236,7 +253,7 @@ DHL提供国际航运服务。
 
    - 指定产品和数量。
 
-     _[!UICONTROL Qty]_&#x200B;列显示可添加的最大数量。 对于第一个包，编号是产品要发运的总数量。
+     _[!UICONTROL Qty]_列显示可添加的最大数量。 对于第一个包，编号是产品要发运的总数量。
 
    - 要将产品添加到包，请单击&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -276,12 +293,12 @@ DHL提供国际航运服务。
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Type] | 指定包的类型。 选择一个预定义值。 每个装运承运人的可用包装类型不同。 当“创建货包”弹出窗口打开时，发运承运人的默认货包将显示在“类型”字段中。 如果您选择的包装不是由装运承运人设计的，则必须输入包装的尺寸。 对于为DHL、FedEx和UPS装运创建的装运标签，“货物类型”字段设置为`Merchandise`。 对于USPS，该字段反映了&#x200B;_窗口中_ Contents _[!UICONTROL Create Packages]_&#x200B;字段的值。 |
+| [!UICONTROL Type] | 指定包的类型。 选择一个预定义值。 每个装运承运人的可用包装类型不同。 当“创建货包”弹出窗口打开时，发运承运人的默认货包将显示在“类型”字段中。 如果您选择的包装不是由装运承运人设计的，则必须输入包装的尺寸。 对于为DHL、FedEx和UPS装运创建的装运标签，“货物类型”字段设置为`Merchandise`。 对于USPS，该字段反映了&#x200B;_[!UICONTROL Create Packages]_窗口中_ Contents _字段的值。 |
 | [!UICONTROL Total Weight] | 程序包的总重。 该字段已预先填充了包中产品的总重量。 度量单位可以设置为磅或千克。 |
 | [!UICONTROL Length] | 程序包长度、整数和浮点数。 如果使用自定义包类型，则会启用该字段。 测量单位可设置为英寸或厘米。 |
 | [!UICONTROL Width] | 包的宽度、整数和浮点数。 如果使用自定义包类型，则会启用该字段。 可以使用“高度”字段旁边的下拉菜单指定度量单位；在英寸和厘米之间选择。 |
 | [!UICONTROL Height] | 程序包的高度、整数和浮点数。 如果使用自定义包类型，则会启用该字段。 可以使用“高度”字段旁边的下拉菜单指定度量单位；在英寸和厘米之间选择。 |
-| [!UICONTROL Signature] | 定义投放确认。 选项：<br/><br/>**[!UICONTROL Not Required]**：未向您发送任何投放确认函。<br/><br/>**[!UICONTROL No Signature]**：已向您发送不带收件人签名的投放确认函。<br/><br/>**[!UICONTROL Signature Required]**：装运承运人获取收件人的签名并向您提供其打印副本。<br/><br/>**[!UICONTROL Adult Required]**：装运承运人获取成人收件人的签名并向您提供其打印副本。<br/><br/>**[!UICONTROL Direct (FedEx only)]**： FedEx从投放地址处的某人获取签名，如果没有人签名该包，则重新尝试投放。<br/><br/>**[!UICONTROL Indirect (FedEx only)]**： FedEx通过以下三种方式之一获得签名：<br/>(1)来自投放地址的人；<br/>(2)来自邻居、建筑经理或地址的其他人；或者<br/>(3)收件人可以留下已签名的FedEx门标记，授权在没有任何人出席的情况下释放包。 仅适用于住宅投放。 选项可能因不同的配送方式而略有不同。 有关最新信息，请参阅承运人的资源。 |
+| [!UICONTROL Signature] | 定义投放确认。 选项：<br/><br/>**[!UICONTROL Not Required]**：未向您发送任何交货确认函。<br/><br/>**[!UICONTROL No Signature]**：未向您发送不带收件人签名的交货确认函。<br/><br/>**[!UICONTROL Signature Required]**：装运承运人获取收件人的签名并向您提供其打印副本。<br/><br/>**[!UICONTROL Adult Required]**：装运承运人获取成人收件人的签名并向您提供其打印副本。<br/><br/>**[!UICONTROL Direct (FedEx only)]**：FedEx从交货地址的用户处获取签名，如果没有人可用于签名包，则重新尝试交货。<br/><br/>**[!UICONTROL Indirect (FedEx only)]**： FedEx通过以下三种方式之一获取签名：<br/>(1)从交货地址的用户处获取；<br/>(2)从邻居和建筑经理获取(3)收件人可留下已签署的FedEx Door标签，授权他人不在场的情况下释放包。 <br/>仅适用于住宅投放。 选项可能因不同的配送方式而略有不同。 有关最新信息，请参阅承运人的资源。 |
 | [!UICONTROL Contents] | （仅适用于USPS装运）包装内容的描述。 选项： `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | （仅限USPS装运）包内容的详细说明。 |
 

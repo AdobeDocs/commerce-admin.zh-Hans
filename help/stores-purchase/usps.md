@@ -3,9 +3,9 @@ title: 美国邮政局(USPS)
 description: 了解如何将USPS设置为商店的装运承运商。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL USPS]**。
+1. 展开&#x200B;**[!UICONTROL USPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    >[!NOTE]
    >
@@ -36,9 +36,15 @@ ht-degree: 0%
 
 1. 将&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;设置为`Yes`。
 
-1. 如果您使用USPS REST API，请将&#x200B;**[!UICONTROL USPS Type]**&#x200B;设置为`USPS Rest APIs`。
+1. 设置USPS API类型。
 
-   如果您使用的是USPS Web Tools API，请将&#x200B;**[!UICONTROL USPS Type]**&#x200B;设置为`USPS Web Tools API`。
+   - 如果您使用的是USPS REST API，请将&#x200B;**[!UICONTROL USPS Type]**&#x200B;设置为`USPS REST API`。
+
+   - 如果您使用的是USPS Web Tools API，请将&#x200B;**[!UICONTROL USPS Type]**&#x200B;设置为`USPS Web Tools API`。
+
+   >[!NOTE]
+   >
+   >USPS Rest API是与USPS集成的首选方法。 USPS Web Tools API已弃用，并且可能在未来版本中删除。
 
 1. 如果需要，输入&#x200B;**[!UICONTROL Gateway URL]**&#x200B;以访问USPS运费。
 
@@ -48,16 +54,17 @@ ht-degree: 0%
 
 1. 使用USPS提供的凭据完成以下字段：
 
-   如果您使用的是USPS Rest API，则必须提供以下凭据：
+   如果您使用的是USPS Rest API，请提供以下凭据：
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   如果您使用的是USPS Web Tools API，则必须提供以下凭据：
+   如果您使用的是USPS Web Tools API，请提供以下凭据：
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. 将&#x200B;**[!UICONTROL Mode]**&#x200B;设置为以下项之一：
 
@@ -100,7 +107,7 @@ ht-degree: 0%
 
 1. 输入要收费的&#x200B;**[!UICONTROL Handling Fee]**&#x200B;的金额。
 
-   要输入百分比，请使用小数格式。 例如，输入`0.25`表示25%。
+   要输入百分比，请使用小数格式。 例如，输入`25`表示25%。
 
    ![USPS处理费](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

@@ -3,10 +3,10 @@ title: 站点地图
 description: 了解如何配置站点地图以索引Commerce站点的所有页面和图像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 网站地图改进了搜索引擎为商店编制索引的方式，并设计为可查找Web爬虫可能忽略的页面。 可以将站点地图配置为为所有页面和图像编制索引。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 当您的网站处于开发状态时，您可能会在`robots.txt`文件中包含Web爬虫的说明，以避免为网站编制索引。 然后，在启动之前，您可以更改相关说明，以允许为网站编制索引。
 
-有关技术信息，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hans)中的&#x200B;_Add sitemap and robots.txt_。
+有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[Add sitemap and robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
 
 ![站点地图网格](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 有关更多信息，请参阅特定搜索引擎的说明。 以下是指向两个热门搜索引擎的说明的链接：
 
 - [Google](https://support.google.com/webmasters/answer/183669?hl=en)
-- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
+- [® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## 步骤5：恢复先前的自动机指令（可选）
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 在网站的根目录下创建名为`sitemaps`的文件夹，然后为每个域创建子文件夹：
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**。
 
@@ -97,12 +97,12 @@ ht-degree: 0%
    要确保将搜索引擎蜘蛛正确定向到新的sitemap，可以更新或创建robots.txt文件。 在顶部添加以下行。
 
        网站站点地图
-       站点地图： https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       站点地图： https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+     站点地图： https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     站点地图： https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hans) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
+>如果您的站点使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) Web服务器引擎，则应更新网站根目录中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)文件，以将任何其他Sitemap请求定向到适当的位置。
 
 ## 列描述
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 |------|-----------|
 | [!UICONTROL ID] | 当前站点地图的连续记录编号。 |
 | [!UICONTROL Filename] | 站点地图的文件名。 |
-| [!UICONTROL Path] | 站点地图在服务器上的位置。 例如： <br/>`/sitemap/` — 将站点地图文件放置在名为&#x200B;_Sitemap_&#x200B;的目录中，该目录比Commerce安装的根目录低一个级别。 <br/>`/` — 将站点地图文件放置在Commerce安装的基本路径或根目录下。 |
+| [!UICONTROL Path] | 站点地图在服务器上的位置。 例如： <br/>`/sitemap/` — 将站点地图文件放置在名为&#x200B;_Sitemap_&#x200B;的目录中，该目录比Commerce安装的根目录低一个级别。<br/>`/` — 将站点地图文件放置在Commerce安装的基本路径或根目录下。 |
 | [!UICONTROL Link for Google] | 将提交到Google和其他搜索引擎的站点地图的URL。 |
 | [!UICONTROL Last Generated] | 指示上次生成网站地图的日期和时间。 |
 | [!UICONTROL Store View] | 应用站点地图的商店视图。 |
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL XML Sitemap]**。
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Categories Options]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Categories Options]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    >[!NOTE]
    >
@@ -148,11 +148,11 @@ ht-degree: 0%
 
    ![XML Sitemap — 类别选项](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#categories-options)中的&#x200B;_类别选项_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[类别选项](../configuration-reference/catalog/xml-sitemap.md#categories-options)。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Products Options]**&#x200B;部分并根据需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;设置。
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#products-options)中的&#x200B;_产品选项_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[产品选项](../configuration-reference/catalog/xml-sitemap.md#products-options)。
 
 1. 要确定站点地图中包含图像的范围，请将&#x200B;**[!UICONTROL Add Images into Sitemap]**&#x200B;设置为以下任一项：
 
@@ -166,27 +166,32 @@ ht-degree: 0%
 
    ![目录配置 — XML Sitemap CMS页面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)中的&#x200B;_CMS页面选项_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[CMS页面选项](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Store Url Options]**&#x200B;部分并根据需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;设置。
 
    ![目录配置 — XML站点地图存储URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#store-url-options)中的&#x200B;_存储URL选项_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[存储URL选项](../configuration-reference/catalog/xml-sitemap.md#store-url-options)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
 ### 步骤2. 完成生成设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Generation Settings]**。
+1. 展开&#x200B;**[!UICONTROL Generation Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    如果需要，请清除&#x200B;**使用系统值**&#x200B;复选框以更改这些设置。
 
    ![目录配置 — XML站点地图生成设置](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#generation-settings)中的&#x200B;_生成设置_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[生成设置](../configuration-reference/catalog/xml-sitemap.md#generation-settings)。
 
 1. 要生成站点地图，请将&#x200B;**[!UICONTROL Enabled]**&#x200B;设置为`Yes`并执行以下操作：
+
+   - 将&#x200B;**[!UICONTROL Generation Method]**&#x200B;设置为以下项之一：
+
+      - `Standard` — 处理内存中的所有数据。
+      - `Batch` — 对大型目录使用内存优化处理。 从2.4.9版本开始，提供了此选项。
 
    - 将&#x200B;**[!UICONTROL Start Time]**&#x200B;设置为您希望站点地图更新的小时、分钟和秒。
 
@@ -204,11 +209,11 @@ ht-degree: 0%
 
 ### 步骤3. 设置站点地图文件限制
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Sitemap File Limits]**。
+1. 展开&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![目录配置 — XML站点地图文件限制](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   有关这些选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)中的&#x200B;_站点地图文件限制_。
+   有关这些选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[站点地图文件限制](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)。
 
 1. 对于&#x200B;**[!UICONTROL Maximum No of URLs per File]**，请输入站点地图中可以包含的最大URL数。
 
@@ -220,10 +225,40 @@ ht-degree: 0%
 
 ### 步骤4. 设置搜索引擎提交设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Search Engine Submission Settings]**。
+1. 展开&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![目录配置 — XML Sitemap搜索引擎提交设置](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
 1. 如果使用`robots.txt`文件向抓取网站的搜索引擎提供说明，请将&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;设置为`Yes`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
+
+## 大型目录的替代cronjob
+
+>[!NOTE]
+>
+>对于拥有大型目录的存储区，您可以使用替代cronjob来确保生成所有数据。 在`app/code/Magento/Sitemap/etc/config.xml`中，替换：
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>替换为：
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>此更改支持批量生成站点地图，建议对大型目录这样做。

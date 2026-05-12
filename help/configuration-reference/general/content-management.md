@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &amp；gt； [!UICONTROL Content Management]'
-description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Content Management]页面上的配置设置。
+title: '[!UICONTROL General] > [!UICONTROL Content Management]'
+description: 查看Commerce管理员的[!UICONTROL General] &gt； [!UICONTROL Content Management]页面上的配置设置。
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: 297dc7bac426a32617df6715ec1590a23f9bc011
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,34 @@ ht-degree: 0%
 
 ## [!UICONTROL WYSIWYG Options]
 
+### [!UICONTROL TinyMCE 6]
+
 ![WYSIWYG选项](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
-|--- |--- |--- |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | 商店视图 | 确定是否为存储启用了编辑器。 选项：默认启用/默认禁用/完全禁用 |
-| [!UICONTROL WYSIWYG Editor] | 网站 | 确定用于WYSIWYG编辑器的TinyMCE编辑器的版本。 选项： <br/>**`TinyMCE 5`**- （默认）使用TinyMCE版本5作为默认WYSIWYG编辑器。<br><br>_&#x200B;**&#x200B;注意：**&#x200B;_对Adobe Commerce和Magento Open Source 2.4.5中的TinyMCE 5.10库的更新解决了允许在更新使用某些类型URL的图像或链接时执行任意JavaScript的漏洞。 TinyMCE 3在2.4.0版本中被弃用，在2.4.3版本中被删除。 TinyMCE 4在2.4.4版本中被删除。 |
+| [!UICONTROL WYSIWYG Editor] | 网站 | 确定用于WYSIWYG编辑器的TinyMCE编辑器的版本。 选项： <br/>**`TinyMCE 6`**— （默认）使用TinyMCE版本6作为默认WYSIWYG编辑器。<br><br>_**&#x200B;注意：**_对Adobe Commerce和Magento Open Source 2.4.5中的TinyMCE 5.10库的更新解决了允许在使用某些类型的URL更新图像或链接时执行任意JavaScript的漏洞。 TinyMCE 3在2.4.0版本中被弃用，在2.4.3版本中被删除。 TinyMCE 4在2.4.4版本中被删除。 |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 全局 | 确定[静态URL](../../content-design/catalog-urls-dynamic-media.md)是否用于从WYSIWYG编辑器引用的媒体内容。 设置适用于所有可用WYSIWYG编辑器的位置，包括产品、类别、页面和块。 选项： <br/>**`Yes`**— 对使用WYSIWYG编辑器插入的媒体内容使用静态URL。 静态URL是绝对的，如果存储区的[基本URL](../../stores-purchase/store-urls.md)发生更改，则会中断。<br/>**`No`** （默认） — 根据`{{media url="..."}}`指令，对通过WYSIWYG编辑器插入的媒体内容使用动态URL。 动态URL是相对的，如果商店的基本URL发生更改，则不会中断。 |
+
+{style="table-layout:auto"}
+
+>[!NOTE]
+>
+>TinyMCE已被Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
+
+### [!UICONTROL HugeRTE]
+
+![WYSIWYG选项](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
+
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable WYSIWYG Editor] | 商店视图 | 确定是否为存储启用了编辑器。 选项：默认启用/默认禁用/完全禁用 |
+| [!UICONTROL WYSIWYG Editor] | 网站 | 确定用于WYSIWYG编辑器的Hugerte编辑器的版本。 |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 全局 | 确定[静态URL](../../content-design/catalog-urls-dynamic-media.md)是否用于从WYSIWYG编辑器引用的媒体内容。 设置适用于所有可用WYSIWYG编辑器的位置，包括产品、类别、页面和块。 选项： <br/>**`Yes`**— 对使用WYSIWYG编辑器插入的媒体内容使用静态URL。 静态URL是绝对的，如果存储区的[基本URL](../../stores-purchase/store-urls.md)发生更改，则会中断。<br/>**`No`** （默认） — 根据`{{media url="..."}}`指令，对通过WYSIWYG编辑器插入的媒体内容使用动态URL。 动态URL是相对的，如果商店的基本URL发生更改，则不会中断。 |
 
 {style="table-layout:auto"}
@@ -35,7 +55,7 @@ ht-degree: 0%
 
 ![CMS页面层次结构](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -49,11 +69,11 @@ ht-degree: 0%
 
 ![高级内容工具](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | 全局 | 确定[!DNL Page Builder]高级内容工具是否可用。 选项： <br/>**`Yes`**- [!DNL Page Builder]工作区显示在页面、块、产品和类别的“内容”部分中。<br/>**`No`** — 标准CMS编辑工具显示在页面、块、产品和类别的&#x200B;_[!UICONTROL Content]_&#x200B;部分中。 |
+| [!UICONTROL Enable Page Builder] | 全局 | 确定[!DNL Page Builder]高级内容工具是否可用。 选项： <br/>**`Yes`**- [!DNL Page Builder]工作区显示在页面、块、产品和类别的“内容”部分中。<br/>**`No`** — 标准CMS编辑工具显示在页面、块、产品和类别的&#x200B;_[!UICONTROL Content]_部分中。 |
 | [!UICONTROL Enable Page Builder Content Preview] | 全局 | 确定是否为产品和类别启用[!DNL Page Builder]内容预览。 选项： `Yes` / `No` <br/>**_Note:_**&#x200B;默认情况下，此项设置为`Yes`，但关闭预览可能会阻止在产品或类别表单中加载预览导致的任何性能问题。 |
 | [!UICONTROL Google Maps API Key] | 全局 | 来自您的Google帐户的[!DNL Google Maps] API密钥。 |
 | [!UICONTROL Test Key] |  | 验证[!DNL Google Maps] API密钥。 |

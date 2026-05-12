@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]'
-description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]页面上的配置设置。
+title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods]页面上的配置设置。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: d1e919d9025c3609e0512f26d563cebae325ca0b
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4555'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 ![统一费率](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 网站 | 启用后，统一费率在购物车的&#x200B;_估计运费和税费_&#x200B;分区以及结帐期间的&#x200B;_运费_&#x200B;分区中显示为一个选项。 选项： `Yes` / `No` |
 | [!UICONTROL Title] | 商店视图 | 结帐期间用于此配送方法的名称。 |
 | [!UICONTROL Method Name] | 商店视图 | 描述用于生成装运估计的计算方法的名称。 方法名称显示在购物车中计算的预计费率旁边。 默认值为`Fixed`。 |
-| [!UICONTROL Type] | 网站 | 描述用于确定统一费率的计算类型。 选项： <br/>**`None`**— 不使用计算。 将“统一费率”设置为零，这等同于免运费。<br/>**`Per Order`** — 对整个订单收取单一固定费用。 <br/>**`Per Item`**— 对购物车中的每个项目收取单独的统一费率。 比率乘以购物车中的项目数，即使总数量包含不同项目的组合也是如此。 |
+| [!UICONTROL Type] | 网站 | 描述用于确定统一费率的计算类型。 选项： <br/>**`None`**— 不使用计算。 将“统一费率”设置为零，这等同于免运费。<br/>**`Per Order`** — 对整个订单收取单一固定费用。<br/>**`Per Item`**— 对购物车中的每个项目收取单独的统一费率。 比率乘以购物车中的项目数，即使总数量包含不同项目的组合也是如此。 |
 | [!UICONTROL Price] | 网站 | 您向客户收取的统一费率运费价格。 |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 确定如何计算手续费（如果包括）。 选项： `Fixed` / `Percent` |
-| [!UICONTROL Handling Fee] | 网站 | 根据您选择用于计算金额的方法，输入手续费的收费金额。 例如，如果费用基于固定费用，则以小数形式输入金额，如4.90。但是，如果手续费基于订单的百分比，则按百分比输入金额。 例如，如果您对订单的6%收费，则输入值为`.06`。 |
+| [!UICONTROL Handling Fee] | 网站 | 根据您选择用于计算金额的方法，输入手续费的收费金额。 例如，如果费用基于固定费用，则以小数形式输入金额，如4.90。 但是，如果手续费基于订单的百分比，则按百分比输入金额。 例如，如果您对订单的6%收费，则输入值为`.06`。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | 如果客户选择“统一费率”，但由于某种原因此方法不可用，则会显示消息。 |
 | [!UICONTROL Ship to Applicable Countries] | 网站 | 标识提供统一费率配送的国家/地区。 选项： <br/>**`All Allowed Countries`**— 商店配置中指定的任何国家/地区的客户可以使用统一费率送货。<br/>**`Specific Countries`** — 仅来自特定国家/地区的客户可以使用统一费率运送。 |
 | [!UICONTROL Ship to Specific Countries] | 网站 | 标识客户可以使用统一费率配送的每个国家/地区。 |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![免费送货](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | 商店视图 | 结帐期间用于此配送方法的名称。 |
 | 方法名称 | 商店视图 | 描述用于生成装运估计的计算方法的名称。 方法名称显示在购物车中计算的预计费率旁边。 默认值为`Free`。 |
 | 最小订单金额 | 网站 | 将免运费应用于订单所需的最低采购额。 |
-| 含税目标金额 | 网站 | 确定最小订单金额计算中是否包含税。 选项： <br/>**是** — 在计算最小订单金额（小计+税 — 折扣）时包括税。<br/>**否** — 计算最小订单金额（小计 — 折扣）时不含税。 |
+| 含税目标金额 | 网站 | 确定最小订单金额计算中是否包含税。 选项： <br/>**是** — 计算最小订单金额时含税（小计+税 — 折扣）。<br/>**否** — 计算最小订单金额时不含税（小计 — 折扣）。 |
 | 显示的错误消息 | 商店视图 | 如果客户选择“免运费”，但由于某种原因无法使用此方法，则会显示一条消息。 |
 | 发运至适用的国家/地区 | 网站 | 标识您提供免运费的国家/地区。 选项： <br/>**所有允许的国家/地区** — 商店配置中指定的任何国家/地区的客户都可以使用免运费。 <br/>**特定国家/地区** — 仅特定国家/地区的客户可以使用免运费。 |
 | 发运至特定国家/地区 | 网站 | 标识客户可在其中使用免运费的每个国家/地区。 |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![表费率](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![店内投放](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![UPS XML帐户设置](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![UPS包信息](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![UPS允许的方法](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS适用的国家/地区和其他设置](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -182,6 +182,8 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
+![USPS帐户设置](./assets/delivery-methods-usps.png)<!-- zoom -->
+
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | 已启用签出 | 网站 | 确定客户在结帐期间是否可以将USPS作为配送方式使用。 选项： `Yes` / `No` |
@@ -189,13 +191,23 @@ ht-degree: 0%
 | [!UICONTROL Gateway URL] | 网站 | 用于连接到USPS系统以动态检索运费的URL。 |
 | [!UICONTROL Secure Gateway URL] | 网站 | 用于通过安全套接字层(SSL)连接到USPS系统的安全URL，以动态检索运费。 |
 | [!UICONTROL Title] | 商店视图 | 此配送选项的标题，显示在购物车结帐中。 |
+| [!UICONTROL USPS Type] | 网站 | 选择&#x200B;**USPS Rest API**&#x200B;或&#x200B;**USPS Web Tools API**，具体取决于您将使用哪个API。 |
 | [!UICONTROL User ID] | 网站 | 您的USPS托运人帐户用户ID。 |
 | [!UICONTROL Password] | 网站 | 您的USPS发货人帐户密码。 |
 | [!UICONTROL Mode] | 网站 | 确定用于发送到USPS系统的数据的传输模式。 选项包括： <br/>**`Development`**- USPS不验证从Commerce服务器接收的数据是否通过SSL发送。<br/>**`Live`** - USPS验证从Commerce服务器接收的数据是否通过安全套接字层(SSL)发送。 |
+| [!UICONTROL Consumer Key] | 网站 | 您的REST API的USPS托运人帐户客户端ID。 |
+| [!UICONTROL Consumer Secret] | 网站 | 您的USPS托运人帐户REST API的客户端密钥。 |
+| [!UICONTROL Account Type] | 网站 | USPS付款帐户的类型。 选项： `"EPS"` （企业付款系统）或`"PERMIT"` （允许打印）用于REST API。 <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
+| [!UICONTROL Pricing Options] | 网站 | USPS定价选项： **零售**&#x200B;或&#x200B;**商业**。 影响应用的运费。 REST API的默认值为&#x200B;**商业**。 |
+| [!UICONTROL Account Number] | 网站 | 您的USPS **帐号**，用于REST API的付款。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，它是启用送货标签创建所必需的。 |
+| [!UICONTROL Customer Registration Identifier(CRID)] | 网站 | 客户注册标识号(CRID)是USPS生成的数字代码，用于唯一标识REST API所在位置的企业。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，它是启用装运标签创建所必需的。 |
+| [!UICONTROL Mailer Identifier(MID)] | 网站 | 邮件程序标识符(MID)是Intelligent Mail条码中的一个字段，用于识别邮件程序。 USPS会将MID分配给邮件所有者、邮件代理或其他服务提供商，这些服务提供商会请求他们使用REST API。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，启用送货标签创建时需要此字段。 |
+| [!UICONTROL Manifest MID] | 网站 | 为REST API的清单指定的唯一邮件程序标识符。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，启用送货标签创建时需要此字段。 |
+| [!UICONTROL AES/ITN] | 网站 | USPS AES - Automated Export System / ITN - REST API的内部事务编号。 <br/><br/>**_Note:_**&#x200B;此字段通常是可选的，但在以下情况下为启用送货标签创建而必须填写此字段： <ul><li>装运中每种类型的货物（如附表B出口代码在<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>处所定义）的估价为$2,500或更低，并且不需要出口许可证；或</li><li>这批货物，不管价值如何，都将被运往加拿大，不需要出口许可证。</li></ul> |
 
 {style="table-layout:auto"}
 
-以下字段仅当您应用了[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)时才可用。 此修补程序支持USPS API，这是一个基于REST的平台，取代了Web Tools API。 有关详细信息，请参阅[USPS Web Tools API弃用](../../stores-purchase/carriers.md)。
+以下字段仅当您应用了[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)时才可用。 此修补程序支持USPS API，这是一个基于REST的平台，取代了Web Tools API。 有关详细信息，请参阅[USPS Web Tools API弃用](../../stores-purchase/carriers.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -204,17 +216,17 @@ ht-degree: 0%
 | [!UICONTROL Consumer Secret] | 网站 | 您的USPS托运人帐户REST API的客户端密钥。 |
 | [!UICONTROL Account Type] | 网站 | USPS付款帐户的类型。 选项： `"EPS"` （企业付款系统）或`"PERMIT"` （允许打印）用于REST API。 <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
 | [!UICONTROL Pricing Options] | 网站 | USPS定价选项： **零售**&#x200B;或&#x200B;**商业**。 影响应用的运费。 REST API的默认值为&#x200B;**商业**。 |
-| [!UICONTROL Account Number] | 网站 | 您的USPS **帐号**，用于REST API的付款。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
-| [!UICONTROL Customer Registration Identifier(CRID)] | 网站 | 客户注册标识号(CRID)是USPS生成的数字代码，用于唯一标识REST API位置处的企业。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
-| [!UICONTROL Mailer Identifier(MID)] | 网站 | 邮件程序标识符(MID)是Intelligent Mail条码中的一个字段，用于识别邮件程序。 USPS会将MID分配给邮件所有者、邮件代理或其他服务提供商，这些服务提供商会请求获取REST API。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 |
-| [!UICONTROL Manifest MID] | 网站 | 为REST API清单指定的唯一邮件程序标识符。  <br/><br/>**_Note:_**&#x200B;此字段为可选字段；但是，要启用送货标签创建必须填写此字段。 对于应用了[AC-15210](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)修补程序的Magento 2.4.7-p8，[!UICONTROL Manifest MID]是必填字段。 |
-| [!UICONTROL AES/ITN] | 网站 | USPS AES - Automated Export System / ITN - REST API的内部事务编号。 <br/><br/>**_Note:_**&#x200B;此字段通常是可选的，但在以下情况下为启用送货标签创建而必须填写此字段： <ul><li>装运中每种类型的货物(如附表B出口代码在<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>处所定义)的估价为$2,500或更低，并且不需要出口许可证；或</li><li>这批货物，不管价值如何，都将被运往加拿大，不需要出口许可证。</li></ul> |
+| [!UICONTROL Account Number] | 网站 | 您的USPS **帐号**，用于REST API的付款。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，它是启用送货标签创建所必需的。 |
+| [!UICONTROL Customer Registration Identifier(CRID)] | 网站 | 客户注册标识号(CRID)是USPS生成的数字代码，用于唯一标识REST API所在位置的企业。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，它是启用装运标签创建所必需的。 |
+| [!UICONTROL Mailer Identifier(MID)] | 网站 | 邮件程序标识符(MID)是Intelligent Mail条码中的一个字段，用于识别邮件程序。 USPS会将MID分配给邮件所有者、邮件代理或其他服务提供商，这些服务提供商会请求他们使用REST API。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，启用送货标签创建时需要此字段。 |
+| [!UICONTROL Manifest MID] | 网站 | 为REST API的清单指定的唯一邮件程序标识符。<br/><br/>**_Note:_**&#x200B;此字段是可选的；但是，启用送货标签创建时需要此字段。 对于应用了[AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)修补程序的Magento 2.4.7-p8，[!UICONTROL Manifest MID]是必填字段。 |
+| [!UICONTROL AES/ITN] | 网站 | USPS AES - Automated Export System / ITN - REST API的内部事务编号。 <br/><br/>**_Note:_**&#x200B;此字段通常是可选的，但在以下情况下为启用送货标签创建而必须填写此字段： <ul><li>装运中每种类型的货物（如附表B出口代码在<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>处所定义）的估价为$2,500或更低，并且不需要出口许可证；或</li><li>这批货物，不管价值如何，都将被运往加拿大，不需要出口许可证。</li></ul> |
 
 {style="table-layout:auto"}
 
 ![USPS打包设置](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -229,20 +241,20 @@ ht-degree: 0%
 
 ![USPS处理费设置](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 设置表费率发运的处理费计算方法。 选项： <br/>**`Fixed`**— 手续费是固定费率。<br/>**`Percent`** — 按订单金额的百分比收取手续费。 |
 | [!UICONTROL Handling Applied] | 网站 | 指定处理费是应用于每个订单还是应用于订单中的每个包。 |
-| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_Note:_**&#x200B;键入百分比金额时，请使用小数格式`0.25`表示25%。 |
+| [!UICONTROL Handling Fee] | 网站 | 设置包含在运费价格中的处理。 处理费可以设置为固定金额或百分比。 <br/><br/>**_Note:_**&#x200B;键入百分比金额时，请使用小数格式`25`表示25%。 |
 
 {style="table-layout:auto"}
 
 ![USPS允许的方法](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -256,7 +268,7 @@ ht-degree: 0%
 
 ![USPS适用的国家/地区](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -270,7 +282,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### 联邦快递帐户设置
 
@@ -294,7 +306,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Pickup Type] | 网站 | 从列表中选择取货方法： <br/>**`DropOff at Fedex Location`**- （默认值）指示您在本地FedEx站点卸货。<br/>**`Contact Fedex to Schedule`** — 指示您联系FedEx请求接送。 <br/>**`Use Scheduled Pickup`**— 指示装运已作为定期计划取货的一部分取货。<br/>**`On Call`** — 指示通过调用FedEx安排取车。 <br/>**`Package Return Program`**— 指示FedEx Ground Package Returns程序已接收装运。<br/>**`Regular Stop`** — 指示装运已按常规取货计划取货。 <br/>**`Tag`**— 指示装运取货特定于快速标记或地面呼叫标记取货请求。 这仅适用于退货运输标签。 |
+| [!UICONTROL Pickup Type] | 网站 | 从列表中选择取货方法： <br/>**`DropOff at Fedex Location`**- （默认值）指示您在本地FedEx站点卸货。<br/>**`Contact Fedex to Schedule`** — 指示您联系FedEx请求接送。<br/>**`Use Scheduled Pickup`**— 指示装运已作为定期计划取货的一部分取货。<br/>**`On Call`** — 指示已通过调用FedEx安排取车。<br/>**`Package Return Program`**— 指示装运已由FedEx Ground Package Returns计划接收。<br/>**`Regular Stop`** — 指示已按常规取货计划取货。<br/>**`Tag`**— 指示装运取货特定于快速标记或地面呼叫标记取货请求。 这仅适用于退货运输标签。 |
 | [!UICONTROL Packages Request Type] | 网站 | 确定如何计算具有多个包装的发运的重量。 选项： `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | 网站 | 从列表中选择通常用于包装从商店中订购的产品的容器类型。 |
 | [!UICONTROL Weight Unit] | 网站 | 用于包装重量的单位。 选项： `Pounds` （默认） / `Kilograms` |
@@ -324,7 +336,7 @@ ht-degree: 0%
 | [!UICONTROL Allowed Methods] | 网站 | 从列表中，选择您支持的装运方法。 具体方法取决于您的联邦快递账户、发货频率和规模，以及您是否允许国际发货。 作为商人，您可能决定只提供陆运。 |
 | [!UICONTROL Hub ID] | 网站 | FedEx提供的ID与[!DNL Smart Post]方法一起使用。 |
 | [!UICONTROL Free Method] | 网站 | 从列表中，选择您喜欢用于免费送货的送货方式。 <br/><br/>**_Note:_**&#x200B;此配送方法与常规免运费方法类似，但它列在FedEx配送选项中，标识为FedEx配送。 |
-| [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定免运费是否需要最小订单金额。 选项： <br/>**`Enable`**— 为达到最小金额的订单启用免费FedEx装运。<br/>**`Disable`** — 禁用带有最低订单的免费FedEx运输。 |
+| [!UICONTROL Free Shipping Amount Threshold] | 网站 | 确定免运费是否需要最小订单金额。 选项： <br/>**`Enable`**— 为达到最小金额的订单启用免费FedEx装运。<br/>**`Disable`** — 禁用最低订单的免费FedEx送货。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 网站 | 指定免费送货所需的最小订单金额。 |
 | [!UICONTROL Displayed Error Message] | 商店视图 | FedEx由于任何原因不可用时显示的消息。 您可以使用默认消息或输入其他消息。 |
 
@@ -348,30 +360,32 @@ ht-degree: 0%
 
 ![DHL帐户设置](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL DHL Account Settings]_ |  |  |
 | [!UICONTROL Enabled for Checkout] | 网站 | 确定客户在结帐期间是否可以将DHL作为送货方法使用。 选项： `Yes` / `No` |
 | [!UICONTROL Title] | 商店视图 | 此配送方式在结账时显示的标题。 |
-| [!UICONTROL Gateway URL] | 网站 | 通常，您可以接受默认网关URL。 但是，如果DHL为您提供了替代URL，请在此字段中输入值。 |
+| [!UICONTROL DHL Type] | 网站 | 选择REST或XML，具体取决于要使用哪一个。 |
 | [!UICONTROL Access ID] | 网站 | 您的DHL托运人帐户访问ID。 |
+| [!UICONTROL API KEY] | 网站 | 用于REST API的DHL API密钥。 |
 | [!UICONTROL Password] | 网站 | 您的DHL托运人帐户密码。 |
+| [!UICONTROL API Secret] | 网站 | 您的REST API DHL API密钥。 |
 | [!UICONTROL Account Number] | 网站 | 您的DHL托运人帐号。 |
 
 {style="table-layout:auto"}
 
 ![DHL包设置](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL DHL Package Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 网站 | 处理费是可选的，显示为在DHL运输成本中增加的额外费用。 从列表中选择要用于计算手续费的方法。 选项：固定费用/百分比。 |
 | [!UICONTROL Handling Applied] | 网站 | 从列表中，选择要如何应用手续费。 选项： `Per Order` / `Per Package` |
-| 手续费 | 网站 | 根据您选择用于计算金额的方法，输入手续费的收费金额。 例如，如果费用基于固定费用，则以小数形式输入金额，如`4.90`。 但是，如果手续费基于订单的百分比，则按百分比输入金额。 例如，如果您对订单的6%收费，则输入值为`.06`。 |
+| 手续费 | 网站 | 根据您选择用于计算金额的方法，输入手续费的收费金额。 例如，如果费用基于固定费用，则以小数形式输入金额，如`4.90`。 但是，如果手续费基于订单的百分比，则按百分比输入金额。 例如，如果您对订单的6%收费，则输入值为`6`。 |
 | [!UICONTROL Divide Order Weight] | 商店视图 | 确定超过70千克的订单是否可分解为较小的单位，以确保装运费用的准确性。 选项： `Yes` / `No` |
 | [!UICONTROL Weight Unit] | 商店视图 | 确定在装运计算中使用的重量的度量单位。 选项： `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | 商店视图 | 确定包的大小。 选项： <br/>**`Regular`**— 已发运的软件包符合DHL标准打包方法。 在[!UICONTROL Allowed Methods]列表中，选择用于从商店发运产品的每种包装方法。<br/>**`Specific`** — 如果装运的包具有自定义维度，请完成以下操作： [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
@@ -380,7 +394,7 @@ ht-degree: 0%
 
 ![DHL允许的方法](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -396,15 +410,16 @@ ht-degree: 0%
 
 ![DHL适用的国家/地区](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | _[!UICONTROL DHL applicable countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | 网站 | 指定允许哪些国家/地区客户使用此配送方式。 选项： <br/>**所有允许的国家/地区** — 所有允许的国家/地区都适用于使用免运费方法。 在[!UICONTROL General]配置页面中指定了允许的国家/地区。 <br/>**特定国家/地区** — 将此配送选项限制为“收货方特定国家/地区”列表中指定的国家/地区。 |
-| [!UICONTROL Ship to Specific Countries] | 网站 | 指定可以发送DHL装运的国家/地区。 如果在`Specific Countries`选项中选择了[!UICONTROL Ship to Applicable Countries]，则使用此选定国家/地区列表。 |
-| [!UICONTROL Show Method if Not Applicable] | 网站 | 确定在结帐期间DHL何时显示为送货方法。 选项： <br/>**`Yes`**- DHL在结账过程中始终显示为送货选项，即使不适用于该订单。<br/>**`No`** - DHL仅在适用于订单（即订单重量超过最大重量金额）时，在结帐期间显示为装运选项。 |
+| [!UICONTROL Ship to Specific Countries] | 网站 | 指定可以发送DHL装运的国家/地区。 如果在[!UICONTROL Ship to Applicable Countries]选项中选择了`Specific Countries`，则使用此选定国家/地区列表。 |
+| [!UICONTROL Show Method if Not Applicable] | 网站 | 确定在结帐期间DHL何时显示为送货方法。 选项： <br/>**`Yes`**- DHL在结账过程中始终显示为送货选项，即使不适用于该订单。<br/>**`No`** - DHL仅在适用于订单（即订单重量超过最大重量）时，在结帐期间显示为送货选项。 |
 | [!UICONTROL Debug] | 网站 | 创建包含错误信息的日志文件。 |
+| [!UICONTROL Sandbox Mode] | 网站 | 如果使用沙盒，则设置为`Yes`。 对于实时模式，设置为`No`。 |
 | [!UICONTROL Sort Order] | 网站 | 一个数字，它确定在结账期间与其他交付方法一起列出DHL时的显示顺序。 若要将其放在列表顶部，请输入`0`。 |
 
 {style="table-layout:auto"}

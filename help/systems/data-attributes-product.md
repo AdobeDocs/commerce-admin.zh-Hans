@@ -3,9 +3,9 @@ title: 产品数据属性参考
 description: 在处理产品数据导入和导出时，请使用此产品数据属性的引用。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ ht-degree: 0%
 | `sku` | （必需）库存单位是用于跟踪库存的唯一字母数字标识符。 SKU的长度最多可为64个字符。 例如： `sku123`<br/>**_Note:_**&#x200B;超过64个字符的SKU会导致导入失败。 |
 | `store_view_code` | 标识产品可用的特定商店视图。 如果留空，则产品在默认商店视图中可用。 例如： `storeview1`，`english`，`spanish` |
 | `attribute_set_code` | 根据产品类型将产品分配给特定的属性集或产品模板。 例如： `default`<br><br>创建产品后，无法使用导入功能更改属性集。 但是，您可以从管理员更改属性集，并重新导出产品以更新CSV文件。 |
-| `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单个单位或以固定数量出售的有形项目。<br/>`grouped` — 作为集合销售的一组单独产品。<br/>`configurable` — 客户在购买之前必须选择具有多个选项的产品。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小的组合与目录中的特定SKU相关联。<br/>`virtual` — 一种不需要装运且未保留在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle` — 可自定义的产品集，其中包含一起销售的简单产品。 |
+| `product_type` | 指示产品类型。 值：<br/>`simple` — 通常作为单件或固定数量出售的有形项目。<br/>`grouped`  — 一组单独的产品作为一个组销售。<br/>`configurable`  — 一种产品，具有客户在购买之前必须选择的多个选项。 可以管理每组变体的库存，因为它们代表一个具有不同SKU的单独产品。 例如，可配置产品的颜色和大小组合与目录中的特定SKU相关联。<br/>`virtual`  — 一种不需要装运且不存放在库存中的无形产品。 示例包括服务、成员资格和订阅。<br/>`bundle`  — 一组可定制的简单产品，这些产品一起销售。 |
 | `categories` | 指示分配给产品的每个类别。 使用正斜杠分隔类别和子类别。 要指示多个类别路径，请使用管道\|符号分隔每个路径。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 提供产品的每个网站的网站代码。 单个产品可以分配给多个网站，也可以仅分配给一个网站。 如果指定多个网站，请用逗号分隔每个网站，不带空格。 例如： `base`或`base,website2` |
 | `name` | 产品名称出现在所有产品列表中，是客户用于标识产品的名称。 |
 | `description` | 产品描述提供了有关产品的详细信息，并且可能包括简单的HTML标记。 |
 | `short_description` | 简短的产品描述的使用取决于主题。 它可能会出现在产品列表中，有时用于发送到购物网站的RSS馈送列表。 |
 | `weight` | 单个产品的重量。 实际产品重量由承运人在发运时确定。 |
-| product_line | 确定产品是否可在商店中销售。 值： <br/>`1` — （是）产品已启用，可供销售。<br/>`2` — （否）该产品已禁用，不可销售。 |
+| product_line | 确定产品是否可在商店中销售。 值： <br/>`1` — （是）产品已启用，可供销售。<br/>`2`  — （否）该产品已禁用，不可销售。 |
 | `tax_class_name` | 与此产品关联的税分类的名称。 |
-| `visibility` | 确定产品在目录中是否可见，以及产品是否可用于搜索。 值：<br/>`Not Visible Individually` — 产品不包含在产品列表中，尽管它可能是其他产品的变体。<br/>`Catalog` — 产品出现在所有目录列表中。<br/>`Search` — 该产品可用于搜索操作。<br/>`Catalog, Search` — 产品包含在目录列表中，也可用于搜索。 |
+| `visibility` | 确定产品在目录中是否可见，以及产品是否可用于搜索。 值：<br/>`Not Visible Individually` — 产品不包括在产品列表中，尽管它可能是其他产品的变体。<br/>`Catalog`  — 产品出现在所有目录列表中。<br/>`Search`  — 该产品可用于搜索操作。<br/>`Catalog, Search`  — 产品包含在目录列表中，也可以进行搜索。 |
 | `price` | 产品在您的商店中销售的价格。 |
 | `special_price` | 指定日期范围内产品的折扣价格。 |
 | `special_price_from_date` | 特别价格生效时的时段的开始日期。 |
@@ -55,23 +55,23 @@ ht-degree: 0%
 | `display_product_options_in` | 如果产品有多个选项，则确定它们在产品页面上的显示位置。 值：产品信息列/信息列后的块 |
 | `map_price` | 产品的最低广告价格。 （仅在启用MAP时显示。） |
 | `msrp_price` | 制造商建议的产品零售价。 （仅在启用MAP时显示。） |
-| `map_enabled` | 确定配置中是否启用了最低广告价格。 值： <br/>`1` — （是） MAP已启用。<br/>`0` （或空白） — （无）未启用MAP。 |
-| `gift_message_available` | 确定产品购买中是否可以包含礼品消息。 值：<br/>`1` — （是）向客户显示包含礼品消息的选项。<br/>`0`（或空白） — （否）未向客户显示包含礼品消息的选项。 |
+| `map_enabled` | 确定配置中是否启用了最低广告价格。 值： <br/>`1` — （是） MAP已启用。<br/>`0` （或空白） — （无）不启用MAP。 |
+| `gift_message_available` | 确定产品购买中是否可以包含礼品消息。 值：<br/>`1` — （是）向客户显示包含礼品消息的选项。<br/>`0` （或空白） — （否）不向客户显示包含礼品消息的选项。 |
 | `custom_design` | 列出可应用于产品页面的可用主题。 |
 | `custom_design_from` | 指定将所选主题应用于产品页面时的开始日期。 |
 | `custom_design_to` | 指定将所选主题应用于产品页面时的结束日期。 |
 | `custom_layout_update` | 作为产品页的布局更新应用的其他XML代码。 |
-| `page_layout` | 确定产品页面的页面布局。 值：<br/>`No layout updates` — 不更改页面布局。<br/>`1 column` — 将一列布局应用于产品页面。<br/>`2 columns with left bar` — 将带有左侧栏的双列布局应用于产品页面。<br/>`2 columns with right bar` — 将带有右侧栏的两列布局应用于产品页面。<br/>`3 columns` — 将三列布局应用于产品页面。<br/>`empty` — 将空白布局应用于产品页面。 |
+| `page_layout` | 确定产品页面的页面布局。 值： <br/>`No layout updates` — 未更改页面布局。<br/>`1 column`  — 将一列布局应用于产品页。<br/>`2 columns with left bar`  — 将带有左侧栏的两列布局应用于产品页面。<br/>`2 columns with right bar`  — 将带有右侧栏的两列布局应用于产品页面。<br/>`3 columns`  — 将三列布局应用于产品页。<br/>`empty`  — 将空白布局应用到产品页面。 |
 | `product_options_container` | 如果产品有多个选项，则确定它们在产品页面上的显示位置。 值：产品信息列/信息列后的块 |
-| `msrp_display_actual_price_type` | 确定客户可在何处看到产品的实际价格。 值： <br/>`In Cart` — 显示购物车中的实际产品价格。<br/>`Before Order Confirmation` — 在订单确认之前显示结账流程结束时实际产品价格。<br/>`On Gesture` — 当客户单击&#x200B;_单击以获取价格_&#x200B;或&#x200B;_这是什么时，在弹出窗口中显示实际产品价格？_&#x200B;链接。 |
+| `msrp_display_actual_price_type` | 确定客户可在何处看到产品的实际价格。 值： <br/>`In Cart` — 显示购物车中的实际产品价格。<br/>`Before Order Confirmation`  — 在订单确认之前显示结账流程结束时的实际产品价格。<br/>`On Gesture`  — 当客户单击&#x200B;_单击价格_&#x200B;或&#x200B;_这是什么？_&#x200B;时，在弹出窗口中显示实际产品价格 链接。 |
 | `country_of_manufacture` | 标识生产产品的国家/地区。 |
 | `additional_attributes` | 为产品创建的其他属性。 例如： <br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS` |
 | `qty` | 当前库存产品的数量。 |
 | `out_of_stock_qty` | 确定产品缺货的库存水平。 |
-| `use_config_min_qty` | 确定是否使用配置中的默认值，该值对应于“使用配置设置”复选框。 值：<br/>`1` — （是）默认配置设置用于此属性的值。<br/>`0` （或空白） — （否）可以覆盖此属性的值的默认配置。 |
-| `is_qty_decimal` | 确定qty属性是否具有小数值。 值：<br/>`1` — （是） qty属性的值是十进制值。<br/>`0` （或空白） — （否） qty属性的值是整数。 |
+| `use_config_min_qty` | 确定是否使用配置中的默认值，该值对应于“使用配置设置”复选框。 值： <br/>`1` — （是）此属性的值使用默认配置设置。<br/>`0` （或空白） — （否）可以覆盖此属性的值的默认配置。 |
+| `is_qty_decimal` | 确定qty属性是否具有小数值。 值：<br/>`1` — （是） qty属性的值是十进制值。<br/>`0` （或空白） — （否）qty属性的值是整数（整数）。 |
 | `allow_backorders` | 确定您的商店是否允许延期交货，以及如何管理延期交货。 |
-| `use_config_backorders` | 确定是否使用延交订单的默认配置设置，并且与“使用配置设置”复选框的状态相对应。 值：<br/>`1` — （是） qty属性的值是十进制值。<br/>`0` （或空白） — （否） qty属性的值是整数。 |
+| `use_config_backorders` | 确定是否使用延交订单的默认配置设置，并且与“使用配置设置”复选框的状态相对应。 值：<br/>`1` — （是） qty属性的值是十进制值。<br/>`0` （或空白） — （否）qty属性的值是整数（整数）。 |
 | `min_cart_qty` | 指定单个订单中可采购的项目的最小数量。 |
 | `use_config_min_sale_qty` | 确定是否使用最小数量的默认配置设置，它对应于“使用配置设置”复选框的状态。 值：<br/>`1` — （是）<br/>`0` （或空白） — （否） |
 | `max_cart_qty` | 指定单笔订单可购买产品的最大数量。 |
@@ -79,7 +79,7 @@ ht-degree: 0%
 | `is_in_stock` | 指示产品是否有库存。 |
 | `notify_on_stock_below` | 指定触发&#x200B;_缺货_&#x200B;通知的Stock级别。 |
 | `use_config_notify_stock_qty` | 确定默认配置设置是否用于触发库存级别通知，并与使用配置设置复选框的状态相对应。 值：<br/>`1` — （是）<br/>`0` （或空白） — （否） |
-| `manage_stock` | 确定是否使用库存控制来管理产品。 值：<br/>`1` — （是）激活完整库存控制以管理产品的库存水平。<br/>`0` （或空白） — （否）系统不跟踪当前有库存的项数。 |
+| `manage_stock` | 确定是否使用库存控制来管理产品。 值：<br/>`1` — （是）激活完整库存控制以管理产品的库存水平。<br/>`0` （或空白） — （否）系统不跟踪当前库存的物料数量。 |
 | `use_config_manage_stock` | 确定是否使用用于管理库的默认配置设置，该设置对应于“使用配置设置”复选框的状态。 值：<br/>`1` — （是）<br/>`0` （或空白） — （否） |
 | `use_config_qty_increments` | 确定是否使用数量增量的默认配置设置，该设置对应于“使用配置设置”复选框的状态。 值：<br/>`1` — （是）<br/>`0` （或空白） — （否） |
 | `qty_increments` | 确定构成数量增量的产品数量。 |
@@ -149,7 +149,7 @@ ht-degree: 0%
 | `bundle_price_type` | 确定捆绑项目的价格是固定价格还是动态价格。 |
 | `bundle_sku_type` | 确定每个项目是否分配了变量、动态SKU或是否为捆绑使用了固定SKU。 选项：固定/动态 |
 | `bundle_weight_type` | 确定捆绑项目的权重是可变的还是固定的。 |
-| `bundle_values` | 描述与捆绑选项关联的教导值。 例如： `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed` |
+| `bundle_values` | 描述与捆绑选项关联的每个值。 例如： `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/>在`name_[store-view-code]`选项中，`[store-view-code]`是存储视图的名称。<br/></br>在`price_website_[website-code]`和`price_type_website_[website-code]`选项中，指定网站`[website-code]`的产品价格。 如果[目录价格范围](../catalog/catalog-price-scope.md)设置为&#x200B;*全局*，则这些选项不可用。 |
 
 {style="table-layout:auto"}
 

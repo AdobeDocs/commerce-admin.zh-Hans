@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]'
-description: 查看Commerce管理员的[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]页面上的配置设置。
+title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
+description: 查看Commerce管理员的[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]页面上的配置设置。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![类别选项](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![产品选项](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![CMS页面选项](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -67,11 +67,12 @@ ht-degree: 2%
 
 ![生成设置](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 商店视图 | 确定XML Sitemap是否可用于存储。 选项： `Yes` / `No` |
+| [!UICONTROL Generation Method] | 商店视图 | 确定XML Sitemap的生成方式。 `Standard`使用传统的同步生成过程并处理内存中的所有数据，而`Batch`使用异步内存优化批处理模式以获得更大的灵活性和可扩展性。 从2.4.9版本开始，提供了此选项。 选项： `Standard` / `Batch` |
 | [!UICONTROL Start Time] | 商店视图 | 指定站点地图在一天中的小时、分钟和秒进行更新。 |
 | [!UICONTROL Frequency] | 商店视图 | 确定站点地图的更新频率。 选项： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | 商店视图 | 在站点地图更新过程中发生错误时接收通知的人员的电子邮件地址。 对于多个地址，请使用逗号分隔每个地址。 |
@@ -84,7 +85,7 @@ ht-degree: 2%
 
 ![站点地图文件限制](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 ![搜索引擎提交设置](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

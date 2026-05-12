@@ -2,10 +2,10 @@
 title: WYSIWYG编辑器
 description: 了解如何在_What You See Is What You Get_ (WYSIWYG)视图中使用编辑器和处理内容。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,17 @@ ht-degree: 0%
 
 默认情况下，将启用WYSIWYG编辑器，该编辑器可用于编辑CMS页面和块以及产品和类别中的内容。 从配置中，您可以激活或停用编辑器，并选择在产品和类别描述中使用静态而不是[动态](../catalog/catalog-urls.md#dynamic-url)的媒体内容URL。
 
-![WYSIWYG选项](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![WYSIWYG选项](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE已被Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
 
 有关所有WYSIWYG选项的详细说明，请参阅&#x200B;_配置引用_&#x200B;中的[内容管理](../configuration-reference/general/content-management.md)。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**。
 

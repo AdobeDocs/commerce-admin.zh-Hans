@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Advanced] &amp；gt； [!UICONTROL Admin]'
-description: 查看Commerce管理员的[!UICONTROL Advanced] &amp；gt； [!UICONTROL Admin]页面上的配置设置。
+title: '[!UICONTROL Advanced] > [!UICONTROL Admin]'
+description: 查看Commerce管理员的[!UICONTROL Advanced] &gt； [!UICONTROL Admin]页面上的配置设置。
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![启动页](./assets/admin-startup-page.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅[入门指南](../../getting-started/admin-dashboard.md#change-the-startup-page)中的&#x200B;_更改启动页_。
+有关更改这些设置的详细信息，请参阅&#x200B;_入门指南_&#x200B;中的[更改启动页](../../getting-started/admin-dashboard.md#change-the-startup-page)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -60,7 +60,7 @@ ht-degree: 0%
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hans) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -95,7 +95,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=zh-Hans#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -105,12 +105,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理员基本URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[存储和购买体验指南](../../stores-purchase/store-urls.md#configure-the-base-url)中的&#x200B;_配置基本URL_。
+有关设置这些选项的更多信息，请参阅&#x200B;_存储和购买体验指南_&#x200B;中的[配置基本URL](../../stores-purchase/store-urls.md#configure-the-base-url)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | 全局 | 确定是否使用自定义URL来访问管理员。 选项： `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | 全局 | 指定用于访问管理员的自定义URL。 默认情况下，管理员URL与基本URL相同。<br/>**重要信息：**&#x200B;管理员URL必须位于同一Commerce安装中，并且与店面具有相同的文档根目录。 |
+| [!UICONTROL Custom Admin URL] | 全局 | 指定用于访问管理员的自定义URL。 默认情况下，管理员URL与基本URL相同。<br/>**重要信息：**&#x200B;管理员URL必须位于同一Commerce安装中，并且具有与店面相同的文档根目录。 |
 | [!UICONTROL Use Custom Admin Path] | 全局 | 确定是否使用自定义路径来访问管理员。 默认路径为`admin`。 选项： `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | 全局 | 将默认管理员路径名称更改为一些难以猜测的内容。 以小写字符输入自定义路径名称。 例如： `aardvark` |
 
@@ -120,12 +120,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![安全性](./assets/admin-security.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[管理员系统指南](../../systems/security-admin.md)中的&#x200B;_配置管理员安全_。
+有关设置这些选项的更多信息，请参阅&#x200B;_管理员系统指南_&#x200B;中的[配置管理员安全](../../systems/security-admin.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Admin Account Sharing] | 商店视图 | 确定管理员用户是否可以从不同设备同时登录到同一帐户。 选项： <br/>**`Yes`**— 允许来自同一管理员帐户的多个活动会话。<br/>**`No`** — 每个管理员帐户只允许一个活动会话。 |
-| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于管理密码重置请求的方法。 选项： <br/>**`By IP and Email`**— 在收到来自通知的响应发送到与管理员帐户关联的电子邮件地址后，可以联机重置密码。<br/>**`By IP`** — 密码可以在线重置，而无需其他确认。 <br/>**`By Email`**— 只有通过电子邮件响应发送到与管理员帐户关联的电子邮件地址的通知才能重置密码。<br/>**`None`** — 密码只能由存储管理员重置。 |
+| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于管理密码重置请求的方法。 选项： <br/>**`By IP and Email`**— 在收到来自通知的响应发送到与管理员帐户关联的电子邮件地址后，可以联机重置密码。<br/>**`By IP`** — 密码可以在线重置，而无需其他确认。<br/>**`By Email`**— 只有通过电子邮件响应发送到与管理员帐户关联的电子邮件地址的通知才能重置密码。<br/>**`None`** — 密码只能由存储管理员重置。 |
 | [!UICONTROL Recovery Link Expiration Period (hours)] | 全局 | 确定密码恢复链接保持有效的小时数。 |
 | [!UICONTROL Max Number of Password Reset Requests] | 商店视图 | 确定每小时可以提交的最大密码请求数。 |
 | [!UICONTROL Min Time Between Password Reset Requests] | 商店视图 | 确定密码重置请求之间的最小分钟数。 |
@@ -134,6 +134,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | [!UICONTROL Admin Session Lifetime (seconds)] | 全局 | 确定管理员会话的长度（以秒为单位）。 |
 | [!UICONTROL Maximum Login Failures to Lockout Account] | 全局 | 确定在锁定其帐户之前，管理员用户可以尝试登录的次数。 如果字段为空，则不会设置最小值。 默认值： `6` |
 | [!UICONTROL Lockout Time (minutes)] | 全局 | 确定管理员帐户被锁定后用户再次尝试登录的分钟数。 默认值： `30` |
+| [!UICONTROL Minimum Admin Password Length] | 全局 | 确定管理员密码所需的最小字符数。 默认值为7，允许的最小值为7。 此设置会影响管理员密码更改、从管理员界面和CLI创建新的管理员用户，以及从管理员执行密码重置操作。 |
 | [!UICONTROL Password Lifetime (days)] | 全局 | 确定管理员密码过期前的天数。 如果字段为空，则不会设置生命周期。 默认值： `90` |
 | [!UICONTROL Password Change] | 全局 | 确定是否要求管理员用户更改密码。 选项： <br/>**`Forced`**— 要求管理员用户在设置帐户后更改密码。<br/>**`Recommended`** — 建议管理员用户在设置帐户后更改密码。 |
 
@@ -143,7 +144,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![仪表板](./assets/admin-dashboard.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[入门指南](../../getting-started/admin-dashboard.md)中的&#x200B;_管理员仪表板_。
+有关设置这些选项的更多信息，请参阅&#x200B;_入门指南_&#x200B;中的[管理员仪表板](../../getting-started/admin-dashboard.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -155,7 +156,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理网格](./assets/admin-admin-grids.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[目录管理指南](../../catalog/products-list.md#limit-product-display)中的&#x200B;_限制产品显示_。
+有关设置这些选项的更多信息，请参阅&#x200B;_目录管理指南_&#x200B;中的[限制产品显示](../../catalog/products-list.md#limit-product-display)。
 
 >[!NOTE]
 >
@@ -163,21 +164,21 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | 全局 | 确定网格显示的产品数是否限制为&#x200B;_[!UICONTROL Records Limit]_&#x200B;值。 选项： `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | 全局 | 确定网格显示的产品数是否限制为&#x200B;_[!UICONTROL Records Limit]_值。 选项： `Yes` / `No` |
 | [!UICONTROL Records Limit] | 全局 | 设置产品网格中产品的数量限制。 默认最小值为`20000`。 |
 
 ## [!UICONTROL CAPTCHA]
 
 ![验证码](./assets/admin-captcha.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[管理系统指南](../../systems/security-captcha.md)中的&#x200B;_验证码_。
+有关设置这些选项的更多信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[验证码](../../systems/security-captcha.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable CAPTCHA in Admin] | 全局 | 为管理员登录启用验证码。 选项： `Yes` / `No` |
 | [!UICONTROL Font] | 全局 | 确定用于显示验证码的字体。 要添加您自己的字体，请将该字体文件放入与Commerce实例相同的目录中，并将声明添加到config.xml文件`app/code/Magento/Captcha/etc`中的默认字体：` LinLibertine` |
 | [!UICONTROL Forms] | 全局 | 确定使用CAPTCHA的表单。 选项： `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | 全局 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 显示[!UICONTROL Number of Unsuccessful Attempts to Login]字段。 输入允许的登录尝试次数。 值为0（零）与将“显示模式”设置为“始终”类似。 此选项不包括“忘记密码”和“创建用户”表单。 如果启用并设置显示CAPTCHA，则它始终包含在表单中。<br />**注意**：若要跟踪失败的登录尝试次数，则每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
+| [!UICONTROL Displaying Mode] | 全局 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 显示[!UICONTROL Number of Unsuccessful Attempts to Login]字段。 输入允许的登录尝试次数。 值为0（零）与将“显示模式”设置为“始终”类似。 此选项不包括“忘记密码”和“创建用户”表单。 如果启用并设置显示CAPTCHA，则它始终包含在表单中。<br />**注意**：要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 全局 | 确定帐户锁定前用户可尝试登录的次数。 为了跟踪失败的登录尝试次数，系统从单个IP地址跟踪来自一个电子邮件地址的尝试。 允许来自相同IP地址的最大尝试次数为1,000。 此限制仅在启用CAPTCHA的情况下适用。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 全局 | 确定当前CAPTCHA的生命周期。 验证码过期后，用户必须重新加载页面。 |
 | [!UICONTROL Number of Symbols] | 全局 | 确定验证码中使用的符号数。 允许的最大值为`8`。 您还可以指定范围，例如`5-8`。 |
@@ -192,7 +193,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理员操作日志记录](./assets/admin-actions-logging.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[管理系统指南](../../systems/action-log-archive.md)中的&#x200B;_操作日志存档_。
+有关设置这些选项的更多信息，请参阅&#x200B;_管理系统指南_&#x200B;中的[操作日志存档](../../systems/action-log-archive.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -204,10 +205,10 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理员使用情况](./assets/admin-usage.png)<!-- zoom -->
 
-有关设置这些选项的更多信息，请参阅[入门指南](../../getting-started/admin.md#usage-data-collection)中的&#x200B;_使用情况数据收集_。
+有关设置这些选项的更多信息，请参阅&#x200B;_入门指南_&#x200B;中的[使用情况数据收集](../../getting-started/admin.md#usage-data-collection)。
 
 | 字段 | 范围 | 描述 |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | 全局 | 授予Adobe收集管理员使用情况数据的权限，以改善使用&#x200B;_管理员_&#x200B;以及相关产品和服务的体验。 允许数据收集还支持&#x200B;_产品内指南_，该指南旨在为&#x200B;_管理员_&#x200B;提供交互式内容，例如帮助、工具提示、演练指南、入门信息、功能公告等。 使用数据中未识别各个管理员。 选项：<br />**`Yes`**— 允许数据收集并启用&#x200B;_产品内指南_。<br />**`No`** — 不允许数据收集或启用&#x200B;_产品内指南_。 |
+| [!UICONTROL Enable Admin Usage Tracking] | 全局 | 授予Adobe收集管理员使用情况数据的权限，以改善使用&#x200B;_管理员_&#x200B;以及相关产品和服务的体验。 允许数据收集还支持&#x200B;_产品内指南_，该指南旨在为&#x200B;_管理员_&#x200B;提供交互式内容，例如帮助、工具提示、演练指南、入门信息、功能公告等。 使用数据中未识别各个管理员。 选项：<br />**`Yes`**— 允许数据收集并启用&#x200B;_产品内指南_.<br />**`No`**  — 不允许收集数据或启用&#x200B;_产品内指南_。 |
 
 {style="table-layout:auto"}

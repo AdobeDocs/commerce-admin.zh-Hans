@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: 了解申购单列表的客户体验，可在他们的帐户信息板中找到该体验。
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -135,9 +135,27 @@ Adobe Commerce生成并下载具有`sku`和`qty`值的CSV列表。
 | [!UICONTROL Rename] | 允许您重命名申请列表并更新说明。 |
 | [!UICONTROL Export] | 将申请列表导出到CSV文件中。 |
 | [!UICONTROL Print] | 打印当前申请列表。 |
-| [!UICONTROL Select] | 管理要作为操作主体的项目选择。 <br/>**[!UICONTROL Select All]**— 选择申请列表中的所有项目。<br/>**[!UICONTROL Remove Selected]** — 从申请列表中删除所有选定项目。 <br/>**[!UICONTROL Copy Selected]**— 将所有选定项目复制到另一个申请列表。 |
+| [!UICONTROL Select] | 管理要作为操作主体的项目选择。<br/>**[!UICONTROL Select All]**— 选择申请列表中的所有项目。<br/>**[!UICONTROL Remove Selected]** — 从申请列表中删除所有选定项目。<br/>**[!UICONTROL Copy Selected]**— 将所有选定项目复制到另一个申请列表。 |
 | [!UICONTROL Add to Cart] | 将选定项目添加到购物车。 |
 | [!UICONTROL Update List] | 重新计算小计以反映数量的变化。 |
 | [!UICONTROL Delete Requisition List] | 从公司用户帐户中删除申请列表。 |
 
 {style="table-layout:auto"}
+
+## 分页控件
+
+当申请列表项总数超过每页选定项数时，分页控件会显示在列表底部。
+
+![分页的申请列表](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> 需要您关注的产品（例如，缺货产品）如果属于分页的当前页面，则显示在列表顶部。 列表上方显示了需要您注意的产品数量。
+> ![需要注意的项目](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### 店面分页控件
+
+| 控件 | 描述 |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 每页![显示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] — 确定每页显示的申请列表项数。 您可以选择要在页面上显示的20、50、100、500或1000个申请列表项。 |
+| ![分页链接](./assets/control-pagination.png) | [!UICONTROL Pagination links] — 提供指向其他页面的导航链接。 |
