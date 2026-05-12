@@ -3,9 +3,9 @@ title: 装运承运人设置
 description: 了解您的商店对商业运送帐户的支持。
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 Adobe Commerce版本2.4.6、2.4.7和2.4.8使用旧版Web Tools API与USPS进行现成可用的传送集成。 USPS引入了USPS API，这是一个基于REST的平台，用于替换旧版Web工具API。
 
-2026年1月25日，USPS将停用旧版Web工具API。 在此日期之后，对Web工具API的所有请求都将失败。
+自2026年1月25日起，USPS已停用旧版Web工具API。 在此日期之后，对Web工具API的所有请求都将失败。
 
-要避免USPS运输服务中断，请在2026年1月25日之前执行以下操作：
+要避免USPS配送服务中断，请升级到最新版本的Adobe Commerce，或执行以下操作：
 
-- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
+- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
 
 - 更新Commerce USPS配置以使用REST API：
 
