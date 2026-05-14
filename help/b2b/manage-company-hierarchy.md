@@ -3,9 +3,8 @@ title: 管理公司层次结构
 description: 构建和管理公司层次结构，以支持具有复杂运营模型的B2B组织。
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -119,7 +118,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，导航到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 从[!UICONTROL Companies]网格中，通过从&#x200B;**[!UICONTROL Edit]**&#x200B;列中选择&#x200B;**[!UICONTROL Action]**&#x200B;来编辑父公司。
+1. 从[!UICONTROL Companies]网格中，通过从&#x200B;**[!UICONTROL Action]**&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**&#x200B;来编辑父公司。
 
 1. 在父公司详细信息页面上，展开&#x200B;**[!UICONTROL Company Hierarchy]**&#x200B;部分以查看组织中包含的公司。
 
