@@ -3,10 +3,10 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 04c8676c4fe1e055d5b6e89db6fe1b38c1a5d2cf
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+source-git-commit: ce54e0bdb361f51e7d6218692178bfb18f9aba3c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2619'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**法律免责声明**<br/>
+>**法律声明**<br/>
 >此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
@@ -46,7 +46,8 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 | Adobe Commerce | 支持 | 注释 |
 |----------------|-----------|-------|
-| 2.4.7 -p4及更高版本 — p | 1.2.0 | 2.4.7-p4支持需要[修补程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | 2.4.8-p5支持需要[兼容性修补程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7 -p4及更高版本 — p | 1.2.0 | 2.4.7-p4支持需要[兼容性修补程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | 1.1.0中引入了对[数据服务](#adobe-commerce-services)的支持 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -69,7 +70,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 >[!ENDSHADEBOX]
 
-在运行Adobe版本2.4.7-p5或2.4.6-p3到2.4.6-p8的实例上安装最新版本的Adobe Commerce HIPAA-Ready Services扩展(`magento/hipaa-ee`)。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
+在运行受支持的Adobe版本的实例上安装最新版本的Adobe Commerce HIPAA-Ready Services扩展(`magento/hipaa-ee`)（请参阅[系统要求](#system-requirements)）。 该扩展是作为[repo.magento.com](https://repo.magento.com)存储库中的编辑器中继包提供的。 该元包包括为Adobe Commerce实例启用HIPAA功能的模块集合。
 
 >[!NOTE]
 >
@@ -79,7 +80,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》[上的](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/cli-branches)Adobe Commerce中的&#x200B;_使用CLI管理分支_。
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/cli-branches)。
 
 1. 使用Adobe Commerce Cloud CLI签出要更新的环境分支。
 
@@ -164,7 +165,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
    - ***Source***：显示执行操作的位置。
 值： `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***客户端类型***：显示客户端类型。
-值：客户 | 管理员 | 集成
+值：客户 |管理员 |集成
 
 2. 已将&#x200B;***用户名***&#x200B;列重命名为&#x200B;***客户端标识符***
    - ***客户端标识符***：显示执行操作的用户的登录ID。
@@ -177,7 +178,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
    - ***目标***：显示操作名称。
 值：
       - 如果Source是REST API或SOAP API，则为端点
-      - 查询名或突变名(如果是GraphQL API)
+      - 查询名或突变名（如果是GraphQL API）
       - 操作名称，如果是Admin UI或客户UI。
 
 #### 配置用于日志记录的管理操作
