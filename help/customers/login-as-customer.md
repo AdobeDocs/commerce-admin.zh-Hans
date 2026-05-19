@@ -3,9 +3,9 @@ title: 为购物者提供帮助
 description: 使用“作为客户登录”功能时，您可以看到客户看到的内容，并代表他们进行更新。
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 在“编辑客户”页面上![客户同意扩展属性配置](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-要通过GraphQL为现有客户帐户设置此权限，请使用`allow_remote_shopping_assistance` `true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)突变将[`createCustomerV2`输入设置为](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
+要通过GraphQL为现有客户帐户设置此权限，请使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)突变将`allow_remote_shopping_assistance`输入设置为`true`。
 
 >[!ENDTABS]
 
@@ -159,13 +159,13 @@ ht-degree: 0%
 
 1. 导航到&#x200B;**[!UICONTROL Customers]**&#x200B;并选择客户以打开编辑页面。
 
-1. 在“编辑客户”页面上，单击&#x200B;**[!UICONTROL Get Customer Login OTC]**。
+1. 在“编辑客户”页面上，单击&#x200B;**[!UICONTROL Generate Login Code]**。
 
-   在“编辑客户”页面上![获取客户登录OTC按钮](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   在“编辑客户”页面上![获取客户登录OTC按钮](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. 输入&#x200B;**[!UICONTROL Reason]**（必需）并单击&#x200B;**[!UICONTROL Request]**。
 
-   ![包含原因字段的OTC请求模式](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![包含原因字段的OTC请求模式](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ ht-degree: 0%
 
 1. 生成的OTC将显示在模态中。 将此代码与`generateCustomerToken`或`exchangeOtpForCustomerToken`GraphQL突变一起使用，以获得客户授权。
 
-   ![生成的OTC显示在模式窗口中](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![生成的OTC显示在模式窗口中](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->默认情况下，生成的一次性代码OTC的有效期为30秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)来配置TTL。
+>默认情况下，生成的一次性代码OTC的有效期为60秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)来配置TTL。
 
 生成一次性代码后，您可以通过导航到店面并使用以下凭据登录来使用该代码：
 
@@ -194,12 +194,12 @@ ht-degree: 0%
 
 _以客户身份登录_&#x200B;允许您查看站点（与客户一样），并允许您为客户排除故障和执行其他操作。 如果您分配了具有所需权限的用户角色：
 
-1. 您可以在上一部分中列出的页面上单击&#x200B;**[!UICONTROL Login as Customer]**。
+1. 您可以在上一部分中列出的页面上单击&#x200B;**[!UICONTROL Login as Customer]**&#x200B;或&#x200B;**[!UICONTROL Generate Login Code]**。
 1. “作为客户登录”操作在“操作报表”中可用。
 
 >[!WARNING]
 >
->以客户&#x200B;[!UICONTROL _身份登录_]&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
+>以客户&#x200B;_身份登录_&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
 
 ## 以客户日志记录身份登录
 
