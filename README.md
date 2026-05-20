@@ -1,5 +1,5 @@
 ---
-source-git-commit: 78a5f453925aff65bd9b1341b6c796c3260d614d
+source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### Adobe员工做出的主要更改
 
-如果您是来自Adobe Experience Cloud解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作就是撰写或创作技术文章，那么您应当使用位于`https://git.corp.adobe.com/AdobeDocs`的专用存储库。
+如果您是来自Adobe Experience Cloud解决方案产品团队的技术文档撰稿人、项目经理或开发人员，并且您的工作就是撰写或创作技术文章，那么您应当使用位于`https://github.com/Adobe-Enterprise-Docs/commerce-admin.zh-Hans`的专用存储库。
 
 ## 工具和设置
 
