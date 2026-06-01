@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_列表中。
+   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_&#x200B;列表中。
 
 1. 根据需要更改列表中的设置：
 
    - 为要使用的每种货币输入自定义符号，或选中每种货币的&#x200B;**[!UICONTROL Use Standard]**&#x200B;复选框。
 
-   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_复选框并输入要使用的符号。
+   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;复选框并输入要使用的符号。
 
    >[!NOTE]
    >
