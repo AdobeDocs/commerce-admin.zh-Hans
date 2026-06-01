@@ -3,20 +3,20 @@ title: 货币配置
 description: 了解如何设置基本货币的范围，以及如何指定您接受的货币以及要用于价格显示的货币。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # 货币配置
 
-在设置单个货币汇率之前，必须首先设置[基础货币](../configuration-reference/general/currency-setup.md)的范围。 默认设置为全局，这将对整个[存储层次结构](../getting-started/websites-stores-views.md)应用基础货币设置。 如果您安装的是多站点Adobe Commerce或Magento Open Source，则可以通过将范围设置为网站级别来管理多个基础货币。
+在设置单个货币汇率之前，必须首先设置[基础货币](../configuration-reference/general/currency-setup.md)的范围。 默认设置为全局，这将对整个[存储层次结构](../getting-started/websites-stores-views.md)应用基础货币设置。 如果您安装了多站点Adobe Commerce或Magento Open Source，则可以通过将范围设置为网站级别来管理多个基础货币。
 
 您还可以指定您接受的货币以及要在商店中用于显示[价格](../catalog/catalog-price-scope.md)的货币。 在下图中，基础货币的范围在网站级别设置，因此每个网站可以具有不同的基础货币。
 
-![货币范围图表](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![货币范围图表](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## 步骤1：选择接受的币种
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >从2.4.6版本开始，[[!DNL Fixer.io]](https://fixer.io/)服务已弃用，并替换为[[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api)服务。 强烈建议您使用APILayer帐户，而不是已弃用的[!DNL Fixer.io]帐户。
 
-   - _连接到[fixer.io服务](https://fixer.io/)：_
+   - 连接到[fixer.io服务](https://fixer.io/):_(_T)
 
       - 展开&#x200B;**[!UICONTROL Fixer.io]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
      ![常规配置 — 货币设置 — Fixer.io选项](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - _要连接到[[!DNL Fixer Api (APILayer)] 服务](https://apilayer.com/)：_
+   - 连接到[[!DNL Fixer Api (APILayer)] 服务](https://apilayer.com/):_(_T)
 
       - 展开&#x200B;**[!UICONTROL Fixer Api (APILayer)]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      ![常规配置 — 货币设置 — 修复器API (APILayer)选项](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - _要连接到[[!DNL Currency Convertor API] 服务](https://free.currencyconverterapi.com/)：_
+   - 连接到[[!DNL Currency Convertor API] 服务](https://free.currencyconverterapi.com/):_(_T)
 
       - 展开&#x200B;**[!UICONTROL Currency Convertor API]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_&#x200B;列表中。
+   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_列表中。
 
 1. 根据需要更改列表中的设置：
 
    - 为要使用的每种货币输入自定义符号，或选中每种货币的&#x200B;**[!UICONTROL Use Standard]**&#x200B;复选框。
 
-   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;复选框并输入要使用的符号。
+   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_复选框并输入要使用的符号。
 
    >[!NOTE]
    >
