@@ -3,9 +3,9 @@ title: 导入数据
 description: 了解数据导入准则以及如何使用数据导入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
+source-git-commit: cb68f54b0dc5843151c2677a65e67af5e1844a9a
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 0%
 - 如果所需属性没有值或存在无效值，则不会替换现有值。
 - 如果实体的复杂数据无效，则无法导入该实体（对应的行或行），除非在“导入行为”下拉菜单中选择“删除实体”。
 
+>[!NOTE]
+>
+>对于大型目录，如果不更改类别分配或URL键，请忽略导入文件中的`categories`和`url_key`列。 如果其中任一列存在，Adobe Commerce将为文件中的每个产品重新生成URL重写。 这项额外工作会延长导入时间，并且可能会在Cloud上的Adobe Commerce中导致超时错误。
+
 ### 复杂数据
 
 如果导入文件中指定的属性存在，且其值派生自定义的值集，则适用以下情况：
@@ -52,8 +56,8 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 | 操作 | 描述 |
 | --------- | ----------- |
-| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意：_**&#x200B;对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要提示：_**&#x200B;使用&#x200B;_添加/更新_&#x200B;导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
-| 替换 | 现有产品数据将被新数据替换。<br><br>**_重要信息：_**&#x200B;替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
+| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意:_**对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要:_**&#x200B;使用_添加/更新_导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
+| 替换 | 现有产品数据已替换为新数据。<br><br>**_重要:_**&#x200B;在替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 | 删除 | 导入数据中存在于数据库中的任何实体都将从数据库中删除。<br><br>Delete忽略导入数据中的所有列（SKU除外）。 您可以忽略数据中的所有其他属性。<br><br>如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 
 {style="table-layout:auto"}
@@ -145,7 +149,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
    >[!NOTE]
    >
-   >从Adobe Commerce和Magento Open Source`2.3.2`版本开始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路径将连接以导入到映像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
+   >从Adobe Commerce和Magento Open Source `2.3.2`版本开始，_[!UICONTROL Images File Directory]_中指定的路径将连接以导入到图像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
 
    要了解有关导入产品映像的详细信息，请参阅[导入产品映像](data-import-product-images.md)。
 
@@ -175,7 +179,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 Commerce会保留已导入存储的数据记录，包括开始日期和时间、用户、执行时间以及导入文件的链接。 _执行时间_&#x200B;是导入过程的持续时间。
 
-**_要查看导入历史记录：_**
+**_查看导入历史记录:_**
 
 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**。
 
