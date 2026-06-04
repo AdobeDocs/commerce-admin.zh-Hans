@@ -3,7 +3,7 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ ht-degree: 0%
    CSV文件必须满足以下要求：
 
    | 要求 | 值 |
-   | ------------- | ------- |
+   |-------------|-------|
    | 每个文件的最大代码数 | 1,000 |
    | 最大文件大小 | 512 KB |
    | 最大代码长度 | 每个代码255个字符 |
