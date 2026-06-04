@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)运行cron [。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)运行cron 。
 
 ### 方法1：创建特定优惠券
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 要编辑自定义优惠券代码或查看使用情况详细信息，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 无法编辑或删除属于购物车价格规则的主优惠券代码。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
    ![导入优惠券结果](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**中显示为一个条目，并选择一个条目。
+要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;中显示为一个条目，并选择一个条目。
 
 ## 优惠券报告
 
