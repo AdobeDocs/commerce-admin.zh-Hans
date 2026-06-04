@@ -3,7 +3,7 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)运行cron 。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)运行cron [。
 
 ### 方法1：创建特定优惠券
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 ### 方法3：自定义优惠券代码
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 创建[购物车价格规则](price-rules-cart.md)后，您可以手动将自定义优惠券代码添加到该规则中。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 要编辑自定义优惠券代码或查看使用情况详细信息，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 无法编辑或删除属于购物车价格规则的主优惠券代码。
 
@@ -226,7 +226,7 @@ ht-degree: 0%
    CSV文件必须满足以下要求：
 
    | 要求 | 值 |
-   | ------------- | ------- |
+   |-------------|-------|
    | 每个文件的最大代码数 | 1,000 |
    | 最大文件大小 | 512 KB |
    | 最大代码长度 | 每个代码255个字符 |
@@ -242,7 +242,7 @@ ht-degree: 0%
 
    ![导入优惠券结果](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;中显示为一个条目，并选择一个条目。
+要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**中显示为一个条目，并选择一个条目。
 
 ## 优惠券报告
 
