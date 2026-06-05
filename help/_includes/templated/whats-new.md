@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
+      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
+      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
 </td>
       <td>
         反馈，技术
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a>和相关装运承运人页面，以反映USPS Web Tools API已于2026年1月25日停用，并且USPS REST API现在是唯一受支持的集成方法。</p>
+      <td><p>更新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a>和相关装运承运人页面，以反映USPS Web Tools API已于2026年1月25日停用，并且USPS REST API现在是唯一受支持的集成方法。</p>
 </td>
       <td>
         重大更新，反馈
@@ -75,7 +75,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">提交</a></td>
     </tr>
     <tr>
-      <td><p>发布了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3发行说明</a>，内容包括新的B2B公司客户导入和导出、可协商报价的修复、采购订单、申购列表、共享目录、公司管理、购物车和结帐、框架和GraphQL，以及申购列表导出路径更改为<code>var/export/requisition_lists/</code>。</p>
+      <td><p>发布了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3发行说明</a>，内容包括新的B2B公司客户导入和导出、可协商报价的修复、采购订单、申购列表、共享目录、公司管理、购物车和结帐、框架和GraphQL，以及申购列表导出路径更改为<code>var/export/requisition_lists/</code>。</p>
 </td>
       <td>
         重大更新
