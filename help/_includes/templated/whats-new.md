@@ -1,8 +1,8 @@
 ---
-source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
+source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 # 新增功能模板
@@ -10,6 +10,50 @@ ht-degree: 1%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年6月3日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">提交</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026年6月2日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
+</td>
+      <td>
+        反馈，技术
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年5月12日
 
