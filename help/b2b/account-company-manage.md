@@ -230,7 +230,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 通过观看以下视频，您可以了解有关管理公司帐户的信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410769?captions=chi_hans&quality=12&learn=on)
 
 ## 公司管理
 

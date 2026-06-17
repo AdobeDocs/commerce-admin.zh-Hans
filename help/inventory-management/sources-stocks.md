@@ -80,4 +80,4 @@ ht-degree: 0%
 
 观看此视频，了解Inventory management资源和库存：
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410195?captions=chi_hans&quality=12&learn=on)

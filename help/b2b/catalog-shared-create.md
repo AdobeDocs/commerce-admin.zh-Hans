@@ -128,7 +128,7 @@ ht-degree: 0%
 
 要查看共享目录管理的演示，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410751?captions=chi_hans&quality=12&learn=on)
 
 ## 共享目录页面引用
 

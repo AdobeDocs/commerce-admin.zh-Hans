@@ -112,7 +112,7 @@ ht-degree: 0%
 
 要了解如何创建构件，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411054?captions=chi_hans&quality=12&learn=on)
 
 ## 编辑构件
 

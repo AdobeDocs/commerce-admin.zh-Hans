@@ -173,7 +173,7 @@ ht-degree: 0%
 
 通过观看此演示视频了解如何管理公司信用：
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410757?captions=chi_hans&quality=12&learn=on)
 
 ## 安全性注意事项
 
