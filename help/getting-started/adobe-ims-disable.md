@@ -3,7 +3,7 @@ title: 禁用Commerce管理员与Adobe ID的集成
 description: 请按照以下可选过程禁用与Adobe IMS的Adobe Commerce管理集成。
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/KL6Cx3ymElo7ROx5SUJtlqtKivnw7-heqPWGksGP-pg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 在禁用IMS集成后，Commerce部署将还原为默认的Commerce身份验证工作流和密码策略。 如果启用或禁用此集成，则只有管理员用户工作流受影响。
 
-有关Commerce管理员登录的概述，请参阅[您的管理员帐户](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)。
+有关Commerce管理员登录的概述，请参阅[您的管理员帐户](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hans)。
 
 ## 步骤1：禁用集成
 

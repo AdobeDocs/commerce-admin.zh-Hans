@@ -3,7 +3,7 @@ title: 使用Adobe Stock图像
 description: 使用Adobe Stock中的图像增强您的商店页面。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -131,13 +131,13 @@ ht-degree: 0%
 
 ## 登录到您的Adobe帐户
 
-要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
+要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
 
 1. [访问Adobe Stock搜索网格](#access-the-adobe-stock-search-grid)。
 
 1. 单击右上方的&#x200B;**[!UICONTROL Sign In]**。
 
-   新的浏览器窗口将指导您完成[Adobe登录流程](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+   新的浏览器窗口将指导您完成[Adobe登录流程](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
 
    完成登录过程后，图像的许可状态将作为标签显示在搜索结果中。
 

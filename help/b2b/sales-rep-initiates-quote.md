@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关为买方创建报价的卖方的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表启动报价](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)。
+>有关为买方创建报价的卖方的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表启动报价](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=zh-Hans)。
 
 ### 从报价网格创建报价
 

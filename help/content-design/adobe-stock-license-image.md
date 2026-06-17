@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **先决条件**
 
-Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +58,7 @@ Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md
 
    >[!NOTE]
    >
-   >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
+   >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
 
 ## 从标准媒体存储中许可图像
 
@@ -74,7 +74,7 @@ Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](./media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

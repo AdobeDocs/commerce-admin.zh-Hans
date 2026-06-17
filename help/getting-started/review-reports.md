@@ -3,7 +3,7 @@ title: 查看报告
 description: 如果您的站点使用内置审阅功能，审阅报告将按客户和产品提供有关产品审阅的信息。
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/QM0nxXnljOirZCPAtNwB-pFF9b7yAoIHi45y4u-rCoA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

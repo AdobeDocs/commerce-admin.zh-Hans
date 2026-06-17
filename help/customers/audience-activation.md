@@ -45,7 +45,7 @@ ht-degree: 1%
 
 请参阅[即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)，了解版本计划和支持。
 
-请参阅开发人员文档，以[了解产品兼容性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)。
+请参阅开发人员文档，以[了解产品兼容性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hans)。
 
 ## 支持的服务更新
 
@@ -179,7 +179,7 @@ _2023年3月31日_
 以下任务适用于Luma和headless店面实施。 要在Adobe Commerce中激活受众，您必须：
 
 - 安装Adobe Commerce版本2.4.4或更高版本
-- 在Real-Time CDP中将[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)Adobe Commerce作为目标
+- 在Real-Time CDP中将[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hans)Adobe Commerce作为目标
 - 在管理员中[安装](#install-the-extension) [!DNL Audience Activation]扩展
 - [在管理员中配置](#configure-the-extension) [!DNL Audience Activation]扩展
 
@@ -197,23 +197,23 @@ composer require magento/audiences
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**。
 
-1. [登录到您的Adobe帐户](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid)并选择您的组织ID。
+1. [登录到您的Adobe帐户](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=zh-Hans#organizationid)并选择您的组织ID。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**。
 
 1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;字段中，将您在[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce时创建的数据流的ID粘贴为Real-Time CDP中的目标。
 
-   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)数据流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)将其添加到Real-Time CDP中的Commerce目标以及管理员中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)扩展。
+   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)数据流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hans)将其添加到Real-Time CDP中的Commerce目标以及管理员中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)扩展。
 
    >[!NOTE]
    >
-   >指定数据流ID时，您可以[将其关联到[!DNL Data Connection]扩展中的特定网站](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)。 如果您的Commerce商店有多个网站，请在Real-Time CDP中为每个网站[创建一个目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)，并为每个网站使用不同的数据流ID。
+   >指定数据流ID时，您可以[将其关联到[!DNL Data Connection]扩展中的特定网站](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)。 如果您的Commerce商店有多个网站，请在Real-Time CDP中为每个网站[创建一个目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)，并为每个网站使用不同的数据流ID。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 展开&#x200B;**[!UICONTROL Services]**&#x200B;并选择&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 
-1. [添加](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details)服务帐户和凭据详细信息。
+1. [添加](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hans#add-service-account-and-credential-details)服务帐户和凭据详细信息。
 
 ## 在Commerce中的何处使用Real-Time CDP受众
 
@@ -225,11 +225,11 @@ composer require magento/audiences
 
 >[!TIP]
 >
->有关如何将[!DNL Commerce]数据导出到Real-Time CDP、构建受众然后将该受众激活到[!DNL Commerce]的完整端到端用例，请参阅[使用 [!DNL Commerce] 事件数据在Real-Time CDP中创建受众](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience)。
+>有关如何将[!DNL Commerce]数据导出到Real-Time CDP、构建受众然后将该受众激活到[!DNL Commerce]的完整端到端用例，请参阅[使用 [!DNL Commerce] 事件数据在Real-Time CDP中创建受众](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/use-cases/create-audience)。
 
 ## Real-Time CDP受众功能板
 
-您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;仪表板在Adobe Commerce实例中查看可用于个性化的所有[活动](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html)受众。
+您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;仪表板在Adobe Commerce实例中查看可用于个性化的所有[活动](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hans)受众。
 
 要访问&#x200B;**Real-Time CDP受众**&#x200B;仪表板，请转到&#x200B;_管理员_&#x200B;侧栏，然后转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**。
 
@@ -360,7 +360,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 您可以使用Adobe Experience Platform Mobile SDK检索Real-Time CDP受众。
 
 1. [安装](#install-the-extension) Audience Activation扩展。
-1. [为您的移动设备Commerce站点安装和配置SDK](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html)。
+1. [为您的移动设备Commerce站点安装和配置SDK](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=zh-Hans)。
 
 >[!IMPORTANT]
 >
@@ -434,7 +434,7 @@ bin/magento audiences:config:status
 1. 打开您的Commerce实例。
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 1. 展开&#x200B;**[!UICONTROL Services]**&#x200B;并选择&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
-1. 确保您在&#x200B;**[!UICONTROL Authentication Type]**&#x200B;字段中指定的服务器到服务器授权方法正确。 Adobe建议使用&#x200B;**OAuth**。 [JWT已弃用](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)，当前所有证书将于2026年3月1日过期。
+1. 确保您在&#x200B;**[!UICONTROL Authentication Type]**&#x200B;字段中指定的服务器到服务器授权方法正确。 Adobe建议使用&#x200B;**OAuth**。 [JWT已弃用](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)，当前所有证书将于2026年3月1日过期。
 
 ### 生成的令牌权限不足
 

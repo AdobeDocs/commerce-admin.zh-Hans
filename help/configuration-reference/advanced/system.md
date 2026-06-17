@@ -284,7 +284,7 @@ ht-degree: 1%
 
 ![高级配置 — 映像上传配置](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

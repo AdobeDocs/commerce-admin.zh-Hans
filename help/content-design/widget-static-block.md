@@ -2,7 +2,7 @@
 title: 使用小组件定位块
 description: 了解如何使用静态块构件将现有内容几乎放置在存储中的任意位置。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

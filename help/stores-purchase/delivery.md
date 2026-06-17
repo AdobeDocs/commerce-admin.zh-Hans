@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于Temando关闭，2.4.0中移除了对[!DNL Magento Shipping]的支持。 有关Commerce中新配送实施的详细状态信息和建议，请参阅[产品信息](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}页。
+>由于Temando关闭，2.4.0中移除了对[!DNL Magento Shipping]的支持。 有关Commerce中新配送实施的详细状态信息和建议，请参阅[产品信息](https://business.adobe.com/cn/products/magento/shipping.html){:target="_blank"}页。
 
 ## 基本投放方法
 
