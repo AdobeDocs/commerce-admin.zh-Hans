@@ -3,9 +3,27 @@ title: 痕迹导航跟踪
 description: 了解不同的痕迹导航痕迹导航模式以及如何配置它们显示在内容和目录页面上。
 exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 feature: Catalog Management, Categories, Site Navigation, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/v1hA4y0MmxxTtH3WbspqosZM1JMk4PMyhK1xeLxALOE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 394
 ht-degree: 0%
 
 ---
@@ -14,7 +32,7 @@ ht-degree: 0%
 
 _痕迹导航路径_&#x200B;是一组链接，用于显示客户相对于商店中其他页面的位置。 他们可以单击痕迹导航跟踪中的任意链接以返回上一页。
 
-可以将痕迹导航跟踪配置为显示在内容页面和目录页面上。 痕迹导航轨迹的格式和位置因主题而异，但通常位于标题的正下方。 默认情况下，痕迹导航跟踪会显示在CMS页面上。
+可以将痕迹导航跟踪配置为显示在内容页面和目录页面上。 痕迹导航轨迹的格式和位置因主题而异，但通常位于标题的正下方。 默认情况下，痕迹导航轨迹会显示在CMS页面上。
 
 店面中显示了![痕迹导航路径](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 

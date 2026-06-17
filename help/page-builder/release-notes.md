@@ -3,9 +3,25 @@ title: ' [!DNL Page Builder]的发行说明'
 description: 查看发行说明，了解所有 [!DNL Page Builder] 发行版本的信息。
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/gw4-6vCpburzac-VmejAMajwHjHNCTPmVkBUi5qOsuk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: 2839
 ht-degree: 0%
 
 ---
@@ -33,7 +49,7 @@ ht-degree: 0%
 ![新](../assets/new.svg) <!-- Issue 594 -->**新增的多行列支持已添加到列组** — 通过此添加，用户可以操作一个[!DNL Columns]组中的多行列，以帮助使列布局更加灵活。
 <!--- PB-108-->
 
-有关使用新[组的信息，请参阅](./column.md)布局 — 列[!DNL Columns]。
+有关使用新[!DNL Columns]组的信息，请参阅[布局 — 列](./column.md)。
 
 ## 适用于Commerce 2.4.4的1.7.1
 
@@ -49,7 +65,7 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)页面生成器现在在“字体大小”选项菜单上按预期显示所有选项。 以前，不会显示所有选项。<!--- AC-1056-->
 
-![修复了问题](../assets/fix.svg)已将`phpgt/dom`扩展的`magento/magento2-page-builder`编辑器依赖项升级到最新版本。<!--- magento/magento2-page-builder/pull/779-->
+![修复了问题](../assets/fix.svg)已将`magento/magento2-page-builder`扩展的`phpgt/dom`编辑器依赖项升级到最新版本。<!--- magento/magento2-page-builder/pull/779-->
 
 ![修复了问题](../assets/fix.svg)当在小列中显示滑块时，页面生成器不再调整“插入链接”和“插入图像”对话框的大小。<!--- AC-973-->
 
@@ -181,7 +197,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`etc/di.xml`类型添加到您的`UpgradableEntitiesPool`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅[Page Builder开发人员指南](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)中的&#x200B;_升级内容类型_。
+>如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`UpgradableEntitiesPool`类型添加到您的`etc/di.xml`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅&#x200B;_Page Builder开发人员指南_&#x200B;中的[升级内容类型](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)。
 
 ![新](../assets/new.svg) **有关添加新外观的文档** — 现在发布了有关[为现有或自定义内容类型添加外观](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)的开发人员信息。
 
@@ -208,7 +224,7 @@ ht-degree: 0%
 
 ## 适用于Adobe Commerce 2.3.4的1.2.0
 
-![新](../assets/new.svg) **[!DNL Page Builder]与PWA Studio**&#x200B;的集成 — 已将[!DNL Page Builder]内容渲染添加到PWA Studio中的Venia应用程序。 现在可以在PWA Studio Venia应用程序中查看[!DNL Page Builder]内容。 有关此新功能的所有信息，请参阅[!DNL Page Builder]PWA Studio[中的]文档。
+![新](../assets/new.svg) **[!DNL Page Builder]与PWA Studio**&#x200B;的集成 — 已将[!DNL Page Builder]内容渲染添加到PWA Studio中的Venia应用程序。 现在可以在PWA Studio Venia应用程序中查看[!DNL Page Builder]内容。 有关此新功能的所有信息，请参阅[PWA Studio]中的[!DNL Page Builder]文档。
 
 ![新](../assets/new.svg) **已添加产品轮播** - <!-- PB-77, PB-173, PB-175 -->产品内容类型现在提供以轮播/滑块格式显示您的产品的选项，包括根据您的需求自定义轮播的多个选项。
 
@@ -243,7 +259,7 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg) <!-- MC-1805 -->已更新[!DNL Page Builder]以支持PHP版本7.3。
 
-![已修复问题](../assets/fix.svg)<!-- MC-4137 -->已将TinyMCE更新到版本4.9.5。此更新以及其他改进修复了若干TinyMCE内联编辑器问题：
+![已修复问题](../assets/fix.svg)<!-- MC-4137 -->已将TinyMCE更新到版本4.9.5。 此更新以及其他改进修复了若干TinyMCE内联编辑器问题：
 
 - 将添加变量、图像和图像链接来放置光标。
 - 表格和表格单元格可以居中对齐。

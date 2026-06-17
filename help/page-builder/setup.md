@@ -3,9 +3,22 @@ title: '[!DNL Page Builder]设置'
 description: 了解Adobe Commerce和Magento Open Source管理员中的 [!DNL Page Builder] 功能配置。
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -16,13 +29,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->安装后，[!DNL Page Builder]将覆盖[!UICONTROL Mask for Meta Description]配置字段的默认设置。 值已从`{{name}} {{description}}`更改为`{{name}}`。
-><br>
->当您转到[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration]，展开[!UICONTROL Catalog]，然后选择下面的[!UICONTROL Catalog]时，您可以访问此设置。 [!UICONTROL Mask for Meta Description]字段在[!UICONTROL Product Fields Auto-generation]部分中。
+>安装后，[!DNL Page Builder]将覆盖[!UICONTROL Mask for Meta Description]配置字段的默认设置。值已从`{{name}} {{description}}`更改为`{{name}}`。
+><br>>当您转到[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration]，展开[!UICONTROL Catalog]并在下面选择[!UICONTROL Catalog]时，可以访问此设置。[!UICONTROL Mask for Meta Description]字段在[!UICONTROL Product Fields Auto-generation]部分中。
 
 >[!NOTE]
 >
->管理员用户必须具有针对其[!UICONTROL Content]角色范围[的](../systems/permissions-user-roles.md)权限，才能看到[!UICONTROL Edit with Page Builder]按钮并能够使用页面生成器。
+>管理员用户必须具有针对其[角色范围](../systems/permissions-user-roles.md)的[!UICONTROL Content]权限，才能看到[!UICONTROL Edit with Page Builder]按钮并能够使用页面生成器。
 
 有关内容管理高级工具配置选项的详细信息，请参阅&#x200B;[_配置参考指南_](../configuration-reference/general/content-management.md)。
 
@@ -44,7 +56,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >有关在[内容中使用](map.md)的详细信息，请参阅[!DNL Google Maps]媒体 — 地图[!DNL Page Builder]。
+   >有关在[!DNL Page Builder]内容中使用[!DNL Google Maps]的详细信息，请参阅[媒体 — 地图](map.md)。
 
 1. 要在[!DNL Page Builder]列网格中配置准则数，请执行以下操作：
 
@@ -54,7 +66,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >有关在使用[内容时使用列网格的详细信息，请参阅](column.md)布局 — 列[!DNL Page Builder]。
+   >有关在使用[!DNL Page Builder]内容时使用列网格的详细信息，请参阅[布局 — 列](column.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

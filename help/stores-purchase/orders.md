@@ -3,18 +3,31 @@ title: 订购
 description: 了解订单工作区和用于在Admin中查找订单的搜索功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
+TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1150
 ht-degree: 0%
 
 ---
 
 # 订购
 
-_订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.md)跟踪其进度和[订单状态](order-processing.md)。 要理解基本流程，一个简单的方法是订单成为[发票](invoices.md)，而发票成为[装运](shipments.md)。 网格表示流程的第一阶段，您可以在其中更新[现有订单](order-update.md)和创建订单。
+_订单_&#x200B;网格列出所有当前订单并通过[工作流](order-processing.md)跟踪其进度和[订单状态](order-status.md)。 要理解基本流程，一个简单的方法是订单成为[发票](invoices.md)，而发票成为[装运](shipments.md)。 网格表示流程的第一阶段，您可以在其中更新[现有订单](order-update.md)和创建订单。
 
-通常，订单是在客户从店面完成结帐流程时创建的。 但是，如果客户需要帮助，您还可以访问其[购物车](shopping-assisted-cart-manage.md)或[从](customer-account-create-order.md)订单&#x200B;_网格或直接从其客户帐户创建订单_。
+通常，订单是在客户从店面完成结帐流程时创建的。 但是，如果客户需要帮助，您还可以访问其[购物车](shopping-assisted-cart-manage.md)或[从&#x200B;_订单_&#x200B;网格或直接从其客户帐户创建订单](customer-account-create-order.md)。
 
 ## 订单工作区
 
@@ -91,7 +104,7 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.
 
 | 控件 | 描述 |
 |--- |--- |
-| [!UICONTROL Actions] | 列出可应用于选定订单的所有操作。 要将操作应用于一个订单或一组订单，请选中每个订单第一列中的复选框。 <br/>订单操作： `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce) |
+| [!UICONTROL Actions] | 列出可应用于选定订单的所有操作。 要将操作应用于一个订单或一组订单，请选中每个订单第一列中的复选框。 <br/>订单操作： `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce） |
 | [!UICONTROL Mass Actions] | 可用于选择多个记录作为操作目标。 选中操作所针对的每个记录第一列中的复选框。 选项： `Select All` / `Unselect All` / `Select Visible` / `Unselect Visible` |
 | [!UICONTROL Submit] | 将当前操作应用于所选订单记录。 |
 | [!UICONTROL Edit] | 在编辑模式下打开订单。 |
@@ -130,8 +143,8 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.
 | [!UICONTROL Customer Name] | 下订单的客户的名字和姓氏。 |
 | [!UICONTROL Payment Method] | 订单要使用的付款方式。 |
 | [!UICONTROL Total Refunded] | 订单中要退款给客户的任何金额。 |
-| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)订单中要退款到客户商店积分的任何金额。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)下订单的[公司](../b2b/account-companies.md)的名称。 |
+| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）订单中要退款到客户商店积分的任何金额。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）下订单的[公司](../b2b/account-companies.md)的名称。 |
 
 {style="table-layout:auto"}
 
@@ -149,7 +162,7 @@ _订单_&#x200B;网格列出所有当前订单并通过[工作流](order-status.
 
 ### 筛选搜索
 
-1. 要显示选择的搜索筛选器，请单击&#x200B;_筛选器_ (![Funnel图标](../assets/icon-filter-search.png) )选项卡。
+1. 要显示选择的搜索筛选器，请单击&#x200B;_筛选器_ （![Funnel图标](../assets/icon-filter-search.png) ）选项卡。
 
    ![订购筛选器](./assets/order-search-filter.png){width="600" zoomable="yes"}
 

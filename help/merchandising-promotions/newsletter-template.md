@@ -3,16 +3,29 @@ title: 新闻稿模板
 description: 了解如何创建新闻稿模板以符合您的通信策略。
 exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 0%
 
 ---
 
 # 新闻稿模板
 
-您可以根据不同目的创建所需数量的新闻稿模板。 您可以发送每周产品更新、每月新闻稿或年度假日新闻稿。 新闻稿模板可以使用HTML标记或纯文本进行准备。 与HTML不同，纯文本新闻稿不包含图像、富文本或格式化的链接。 在网格中，“模板类型”列指示模板是HTML还是文本。
+您可以根据不同目的创建所需数量的新闻稿模板。 您可以发送每周产品更新、每月新闻稿或年度假日新闻稿。 新闻稿模板可以用HTML标记或纯文本形式准备。 与HTML不同，纯文本新闻稿不包含图像、富文本或格式化的链接。 在网格中，“模板类型”列指示模板是HTML还是文本。
 
 ![新闻稿模板 — 添加到新闻稿队列](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 

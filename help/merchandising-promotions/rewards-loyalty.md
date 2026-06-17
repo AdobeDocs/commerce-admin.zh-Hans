@@ -3,9 +3,26 @@ title: 奖励和忠诚计划
 description: 了解可用于提高客户参与度和客户忠诚度的奖励积分系统。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
+TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -56,7 +73,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Reward Points]**。
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Reward Points]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Reward Points]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 要激活奖励积分，请将&#x200B;**[!UICONTROL Enable Reward Points Functionality]**&#x200B;设置为`Yes`。
 
@@ -94,7 +111,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 在此步骤中，指定可为各种客户活动获得的奖励积分数。 当客户完成分配了点的活动时，将会向客户显示一条消息，指明他们已获得多少点。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**。
+1. 展开&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![客户配置 — 客户获取奖励积分的操作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -126,7 +143,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 ### 步骤3. 完成电子邮件通知设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Email Notification Settings]**。
+1. 展开&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![客户配置 — 奖励点数电子邮件通知](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -148,7 +165,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在网格中查找客户，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_。
+1. 在网格中查找客户，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_客户信息_&#x200B;下，选择&#x200B;**[!UICONTROL Reward Points]**&#x200B;部分。
 
@@ -180,7 +197,7 @@ Adobe Commerce中的&#x200B;_奖励积分_&#x200B;系统允许您实施独特的
 | [!UICONTROL Amount] | 加减货币金额 |
 | [!UICONTROL Rate] | [奖励汇率](reward-exchange-rates.md) |
 | [!UICONTROL Website] | 将奖励点历史记录分配到的网站 |
-| [!UICONTROL Reason] | 积分原因：<br>**[!UICONTROL Making purchases]**— 客户每次购买时都可以获得积分。<br>**[!UICONTROL Registering on the site]** — 注册时累计（一次）。<br>**[!UICONTROL Subscribing to a newsletter]**— 首次订阅应计（一次）。<br>**[!UICONTROL Sending Invitations]** — 通过邀请朋友加入网站来获得点数。<br>**[!UICONTROL Converting Invitations to Customer]**— 每次发出邀请时都能获得点数，在网站上注册的主要朋友。<br>**[!UICONTROL Converting Invitations to Order]** — 每次销售获得发送邀请的积分。<br>**[!UICONTROL Review Submission]**— 获得提交产品评论的积分。 |
+| [!UICONTROL Reason] | 积分奖励原因：<br>**[!UICONTROL Making purchases]**— 客户每次购买时都可以获得积分。<br>**[!UICONTROL Registering on the site]**  — 注册时累计（一次）。<br>**[!UICONTROL Subscribing to a newsletter]**— 首次订阅的应计（一次）。<br>**[!UICONTROL Sending Invitations]**  — 通过邀请朋友加入网站来获得点数。<br>**[!UICONTROL Converting Invitations to Customer]**— 每次发出邀请时都能获得点数，在网站上注册的主要朋友。<br>**[!UICONTROL Converting Invitations to Order]**  — 每次销售获得发送邀请的积分。<br>**[!UICONTROL Review Submission]**— 获得提交产品评价的点数。 |
 | [!UICONTROL Created] | 奖励积分更新的日期和时间 |
 | [!UICONTROL Expired] | 已过期的奖励积分数 |
 | [!UICONTROL Comment] | 添加或减去点时的注释 |

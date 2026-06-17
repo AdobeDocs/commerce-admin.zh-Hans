@@ -3,10 +3,26 @@ title: 分层定价
 description: 了解如何使用层定价从产品列表或产品页面提供数量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: 892
+ht-degree: 1%
 
 ---
 
@@ -38,7 +54,7 @@ ht-degree: 0%
 
 1. 如果您的商店有多个网站，请选择应用层定价的&#x200B;**[!UICONTROL Website]**。
 
-1. 如有必要，请选择&#x200B;**[!UICONTROL Customer Group]**&#x200B;或&#x200B;**[!UICONTROL Shared Catalog]**&#x200B;以限制定价层的可用性(![Adobe Commerce B2B](../assets/b2b.svg)仅适用于[Adobe Commerce B2B](./b2b/../introduction.md))。
+1. 如有必要，请选择&#x200B;**[!UICONTROL Customer Group]**&#x200B;或&#x200B;**[!UICONTROL Shared Catalog]**&#x200B;以限制定价层的可用性（![Adobe Commerce B2B](../assets/b2b.svg)仅适用于[Adobe Commerce B2B](./b2b/../introduction.md)）。
 
 1. 对于&#x200B;**[!UICONTROL Qty]**，输入必须订购才能获得折扣的数量。
 
@@ -76,7 +92,7 @@ ht-degree: 0%
 
 ## 为目录价格规则启用层定价
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 在Commerce的早期版本中，层定价不能与目录价格规则结合使用。 目录规则忽略层价格配置，仅从原始基本价格计算折扣。 通过使用Adobe Commerce as a Cloud Service，您现在可以选择在计算目录价格规则时包含层定价。
 
@@ -86,14 +102,14 @@ ht-degree: 0%
 
    ![为目录价格规则启用层定价](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
-1. 为您要通过目录价格规则定位的每个特定客户组或共享目录（例如`1`、`Wholesale`或商家定义的组）定义数量为`Retail`的层价格。 `ALL GROUPS`客户组和`Default`共享目录不能用于此目的。 对于未定义层价格且数量为`1`的任何组，不启用层定价。
+1. 为您要通过目录价格规则定位的每个特定客户组或共享目录（例如`Wholesale`、`Retail`或商家定义的组）定义数量为`1`的层价格。 `ALL GROUPS`客户组和`Default`共享目录不能用于此目的。 对于未定义层价格且数量为`1`的任何组，不启用层定价。
 
 1. 根据需要定义数量大于`1`的其他层价格。 当客户将更多数量的产品添加到购物车时，将照常应用这些额外的层价格。 目录价格规则不适用于这些额外的层级价格。
 
 要说明在购买单个产品时分层定价如何与目录价格规则配合使用，请考虑以下示例：
 
 - 产品的标准基本价格为100美元。
-- 为数量为`Wholesale`且固定价格为90美元的`1`客户组定义了层级价格。
+- 为数量为`1`且固定价格为90美元的`Wholesale`客户组定义了层级价格。
 - 目录价格规则为`Wholesale`客户组提供10%的折扣。
 
 为目录价格规则启用层定价后，系统将使用以下流程计算最终价格：
@@ -110,7 +126,7 @@ ht-degree: 0%
 
 | 客户组 | 层价格（数量=1） | 新基本价格 | 最终价格 |
 |---|---|---|---|
-| 所有组 | 未配置 | 100美元 | $100 - 10% = $90 |
-| 批发 | 固定：85美元 | 85美元 | 85美元 — 10% = 76.50美元 |
-| retailer | 20%折扣 | 80美元 | 80美元 — 10% = 72.00美元 |
-| VIP | 15%折扣 | 85美元 | 85美元 — 10% = 76.50美元 |
+| 所有组 | 未配置 | $100 | $100 - 10% = $90 |
+| 批发 | 固定：85美元 | $85 | $85 - 10% = $76.50 |
+| retailer | 20%折扣 | $80 | $80 - 10% = $72.00 |
+| VIP | 15%折扣 | $85 | $85 - 10% = $76.50 |

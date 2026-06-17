@@ -3,16 +3,32 @@ title: 商家来源类型
 description: 根据您企业中的位置或来源数量，了解这两种来源类型。
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
 
 # 商家来源类型
 
-[!DNL Commerce]支持所有规模企业的[!DNL Inventory Management]，包括单个商店，一个网站到一个网站、商店、仓库和托运人的国际网络。 根据您业务中的位置或来源数量，所有使用Adobe Commerce或Magento Open Source的商家都分为两种类型。
+[!DNL Commerce]支持所有规模企业的[!DNL Inventory Management]，包括单个商店，一个网站到一个网站、商店、仓库和托运人的国际网络。 根据您业务中的位置或来源数量，所有使用Adobe Commerce或Magento Open Source的商家都属于两种类型。
 
 - 单一来源商户从一个位置发运产品。 在您开始向安装添加自定义源和股票之前，您被视为单一来源商家/模式。
 

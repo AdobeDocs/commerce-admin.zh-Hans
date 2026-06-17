@@ -4,9 +4,26 @@ description: 了解如何运行增强的安全扫描并监控每个Adobe Commerc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
+TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: 1203
 ht-degree: 0%
 
 ---
@@ -22,7 +39,7 @@ ht-degree: 0%
 - 访问跟踪和监控站点进度的历史安全报告。
 - 访问显示成功和失败检查以及任何建议操作的扫描报告。
 
-安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)设置安全扫描工具&#x200B;__。
+安全扫描工具可从[Commerce/Magento帐户](../getting-started/commerce-account-create.md)的仪表板中免费使用。 有关技术信息，请参阅《云基础架构上的Commerce指南》_中的[设置安全扫描工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)_。
 
 ![安全扫描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -68,7 +85,7 @@ ht-degree: 0%
 
    1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
    1. 在列表中找到您的网站，然后单击&#x200B;**[!UICONTROL Edit]**。
-   1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL HTML Head]**。
+   1. 展开&#x200B;**[!UICONTROL HTML Head]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
    1. 向下滚动到&#x200B;**[!UICONTROL Scripts and Style Sheets]**&#x200B;并单击任何现有代码末尾的文本框。 将确认代码粘贴到文本框中。
 
       ![脚本和样式表](./assets/scan-paste-code.png){width="600" zoomable="yes"}
@@ -90,7 +107,7 @@ ht-degree: 0%
 1. 转到PWA Studio storefront项目目录并执行以下操作：
 
    1. 在PWA Studio项目目录下，转到`packages > venia-concept > template.html`。
-   1. 将复制的确认代码(生成的META标记)添加到HTML标题并保存更改。
+   1. 将复制的确认代码（生成的META标记）添加到HTML标题并保存更改。
 
       ![复制确认码](./assets/code-pwa.png){width="600" zoomable="yes"}
 
@@ -132,7 +149,7 @@ ht-degree: 0%
 1. 转到AEM storefront项目目录并执行以下操作：
 
    1. 在AEM storefront项目目录下，转到`head.html`。
-   1. 将复制的确认代码(生成的HTML Content或META Tag)添加到`head.html`文件并保存更改。
+   1. 将复制的确认代码（生成的HTML Content或META Tag）添加到`head.html`文件并保存更改。
 
    >[!NOTE]
    >

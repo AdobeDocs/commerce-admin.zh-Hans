@@ -3,9 +3,24 @@ title: 相关产品规则
 description: 了解相关的产品规则以及如何使用它们向客户动态展示相关产品、进行追加销售和交叉销售。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
+TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 879
 ht-degree: 0%
 
 ---
@@ -40,7 +55,7 @@ ht-degree: 0%
 
 在任意给定时间，可能会触发多个活动规则以显示相关产品、追加销售和交叉销售。 每个规则的优先级决定了产品在页面上的显示顺序。 该值可以设置为任意整数，其中`1`具有最高优先级。
 
-产品关系规则中可包含的产品ID的数量由`Result Limit`值决定，该值的最大值为20。 与基于规则的特定产品促销活动的`Result Limit`相结合的`Configurable Maximum`值将变为`Real Limit`，并确定列表中可以显示的匹配产品的实际数量。
+产品关系规则中可包含的产品ID的数量由`Result Limit`值决定，该值的最大值为20。 与基于规则的特定产品促销活动的`Configurable Maximum`相结合的`Result Limit`值将变为`Real Limit`，并确定列表中可以显示的匹配产品的实际数量。
 
 [结果限制] + [可配置的最大值] = [实际限制]
 
@@ -71,7 +86,7 @@ ht-degree: 0%
 
 1. 在左侧的面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展&#x200B;**[!UICONTROL Rules-Based Product Relations]**。
+1. 展开&#x200B;**[!UICONTROL Rules-Based Product Relations]**&#x200B;部分的![扩展](../assets/icon-display-expand.png)。
 
    ![目录配置 — 基于规则的产品关系](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 

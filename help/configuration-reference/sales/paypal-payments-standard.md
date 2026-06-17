@@ -1,21 +1,38 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods] &amp；gt； [!UICONTROL PayPal Payments Standard]'
-description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]页面上[!UICONTROL PayPal Payments Standard]部分中的配置设置。
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]页面上[!UICONTROL PayPal Payments Standard]部分中的配置设置。
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/ug4g3aE3n-2wOikBNn97TD4-WBEjq0RJI1Gj1C0lDIc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: 1267
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
 
 >[!IMPORTANT]
 >
 >**PSD2要求：**<br/>
->从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的支付。 [!DNL PayPal Payments Standard]无需执行任何操作即可符合PSD2，因为所有要求都由PayPal处理。
+>自2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的支付。[!DNL PayPal Payments Standard]无需执行任何操作即可符合PSD2，因为所有要求都由PayPal处理。
 
 {{config}}
 
@@ -31,7 +48,7 @@ ht-degree: 0%
 | 用户 | 网站 | 您PayPal帐户中其他用户的ID。 |
 | [!UICONTROL Password] | 网站 | 与您的PayPal商家帐户关联的密码。 |
 | [!UICONTROL Test Mode] | 网站 | 启用后，将在测试环境中运行PayPal Payments Pro。 当您准备好在生产模式下“上线”时，请关闭测试模式。 选项： `Yes` / `No` |
-| [!UICONTROL Use Proxy] | 网站 | 当服务器防火墙阻止直接访问PayPal服务器时，可以使用代理重定向流量。 如果适用，则标识用于与PayPal服务器建立连接的代理服务器。 选项： `Yes` / `No` <br/><br/>如果启用，请设置选项： <br/>**`Proxy Host`**— 代理主机的IP地址。<br/>**`Proxy Port`** — 代理端口数。 |
+| [!UICONTROL Use Proxy] | 网站 | 当服务器防火墙阻止直接访问PayPal服务器时，可以使用代理重定向流量。 如果适用，则标识用于与PayPal服务器建立连接的代理服务器。 选项： `Yes` / `No` <br/><br/>如果启用，请设置选项： <br/>**`Proxy Host`**— 代理主机的IP地址。<br/>**`Proxy Port`** — 代理端口的编号。 |
 | [!UICONTROL Enable this Solution] | 网站 | 确定PayPal Payments Pro是否作为付款方式提供给您的客户。 |
 | [!UICONTROL Enable PayPal Credit] | 网站 | 确定客户是否可以将PayPal信用作为付款选项。 |
 
@@ -75,14 +92,14 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 商店视图 | 确定PayPal Express结帐在购物车中是否显示为付款选项。 选项： `Yes` （推荐） / `No` |
 | [!UICONTROL Payment Action Applicable From] | 网站 | 确定适用的国家/地区选择的范围。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | 网站 | 标识接受付款的每个国家/地区。 只有帐单地址在选定国家/地区的客户才能使用此付款方法进行购买。 |
-| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
+| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
 | [!UICONTROL Enable SSL Verification] | 网站 | 启用主机安全证书的验证。 选项： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 显示PayPal网站上客户购物车中行项目的完整摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Transfer Shipping Options] | 网站 | 包括PayPal网站上最多十个送货选项。 选项： `Yes` / `No` |
 | [!UICONTROL Shortcut Buttons Flavor] | 商店视图 | 确定用于PayPal接受按钮的图像类型。 选项： <br/>**`Dynamic`**- （推荐）显示可从PayPal服务器动态更改的图像。<br/>**`Static`** — 显示无法动态更改的静态图像。 |
 | [!UICONTROL Enable PayPal Guest Checkout] | 网站 | 允许没有PayPal帐户的客户通过PayPal Express结帐进行购买。 选项： `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | 网站 | 确定是否要求客户帐单地址。 选项： `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | 网站 | 确定客户能否与您的商店签订[帐单协议](../../stores-purchase/paypal-billing-agreements.md)。 选项： <br/>**`Auto`**— 客户可以在Express Checkout期间注册帐单协议。<br/>**`Ask Customer`** — 询问客户是否要注册计费协议。 <br/>**`Never`**— 不向客户提供注册计费协议的选项。 |
+| [!UICONTROL Billing Agreement Signup] | 网站 | 确定客户能否与您的商店签订[帐单协议](../../stores-purchase/paypal-billing-agreements.md)。 选项： <br/>**`Auto`**— 客户可以在Express Checkout期间注册帐单协议。<br/>**`Ask Customer`** — 询问客户是否要注册计费协议。<br/>**`Never`**— 不向客户提供注册计费协议的选项。 |
 | [!UICONTROL Skip Order Review Step] | 网站 | 确定客户是否可以从PayPal网站完成交易，或者是否需要返回您的商店并在提交订单之前完成订单审核步骤。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -99,7 +116,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 网站 | 确定PayPal管理交易的方式：选项： <br/>**`Authorization`**— 批准购买，但保留资金。 该金额在商户将该金额“扣押”前不予提取。<br/>**`Sale`** — 已授权并立即从客户帐户中收回购买金额。 |
 | [!UICONTROL Payment Applicable From] | 网站 | 确定适用的国家/地区选择的范围。 选项： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | 网站 | 标识接受付款的每个国家/地区。 只有帐单地址在选定国家/地区的客户才能使用此付款方法进行购买。 |
-| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录与支付系统的通信。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
+| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录与支付系统的通信。 选项： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
 | [!UICONTROL Enable SSL Verification] | 网站 | 启用验证步骤，确保事务通过加密的SSL通道进行。 选项： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 启用后，会在PayPal支付页面上显示购物车中的行项目摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 网站 | 启用后，客户可以从其客户帐户的仪表板启动计费协议。 |
@@ -132,8 +149,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | 商店视图 | 确定您商店中显示的PayPal徽标。 两种尺寸共有四种基本样式。 选项： `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | [!UICONTROL PayPal Merchant Pages Style] |  |  |
-| [!UICONTROL Page Style] | 商店视图 | 确定PayPal商家页面的外观。 允许的值： <br/>**`paypal`**— 使用PayPal页面样式。<br/>**`primary`** — 使用您在帐户配置文件中标识为“primary”样式的页面样式。 <br/>**`your_custom_value`**— 使用在您的帐户配置文件中指定的自定义付款页面样式。 |
-| [!UICONTROL Header Image URL] | 商店视图 | 出现在签出页面左上角的图像的URL。 最大大小为750 x 90像素。 <br/><br/>**_注意：_**&#x200B;PayPal建议将映像存储在安全(https)服务器上。 否则，客户的浏览器可能会警告“页面包含安全和非安全项目。” |
+| [!UICONTROL Page Style] | 商店视图 | 确定PayPal商家页面的外观。 允许的值： <br/>**`paypal`**— 使用PayPal页面样式。<br/>**`primary`** — 使用您在帐户配置文件中标识为“主要”样式的页面样式。<br/>**`your_custom_value`**— 使用在您的帐户配置文件中指定的自定义付款页面样式。 |
+| [!UICONTROL Header Image URL] | 商店视图 | 出现在签出页面左上角的图像的URL。 最大大小为750 x 90像素。 <br/><br/>**_Note:_** PayPal建议将映像存储在安全(https)服务器上。 否则，客户的浏览器可能会警告“页面包含安全和非安全项目。” |
 | [!UICONTROL Header Image Background Color] | 商店视图 | 签出页面上页眉的背景颜色的六字符[十六进制颜色](https://en.wikipedia.org/wiki/Web_colors)代码。 您可以使用大写和小写字符输入代码。 |
 | [!UICONTROL Header Image Border Color] | 商店视图 | 标头周围两像素边框的六字符十六进制颜色代码。 |
 | [!UICONTROL Page Background Color] | 商店视图 | 用于结账页面的背景颜色的六字符十六进制颜色代码，显示在页眉和付款表单后面。 |

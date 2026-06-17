@@ -3,9 +3,27 @@ title: 客户属性属性
 description: 了解如何配置客户属性属性。
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -45,9 +63,9 @@ ht-degree: 0%
      | 类型 | 描述 |
      |----|-----------|
      | `Text Field` | 单行文本字段。 |
-     | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器通过HTML标记设置文本格式，或直接在文本中输入标记。 |
+     | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
      | `Multiple Line` | 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行的数量可以是2到20。 使用`Default Value`指定字段的初始值。 |
-     | `Date` | 以首选的日期格式和时区显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意：_**&#x200B;根据您的系统配置，_管理员&#x200B;_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](../catalog/attributes-input-types.md#date-and-time-options)。 |
+     | `Date` | 以首选的日期格式和时区显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](../catalog/attributes-input-types.md#date-and-time-options)。 |
      | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
      | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](../catalog/product-create-configurable.md)的关键组件。 |
      | `Multiple Select` | 接受多个待选值的下拉列表。 |
@@ -78,7 +96,7 @@ ht-degree: 0%
      | 值 | 描述 |
      |-----|-----------|
      | `None` | 不对输入到字段中的文本应用过滤器。 |
-     | `Strip HTML Tags` | 从文本中删除HTML标签。 此过滤器可帮助清理从包含HTML标签的其他源粘贴到字段中的数据。 |
+     | `Strip HTML Tags` | 从文本中删除HTML标记。 此过滤器可帮助清理从包含HTML标记的其他源粘贴到字段中的数据。 |
      | `Escape  HTML Entities` | 将文本中的特殊字符转换为有效的HTML转义序列，如`&;`。 转义序列在&amp;符号和分号之间括起来，通常用于印刷商的智能引号、版权和商标符号。 转义序列也用于标识诸如小于(`<`)和大于(`>`)符号的字符，以及代码中同时使用的&amp;字符。 此过滤器有助于清理有时会从字处理程序粘贴到数据库字段中的特殊字符。 |
 
 1. 完成客户网格和区段属性：
@@ -105,9 +123,9 @@ ht-degree: 0%
 
 1. 将&#x200B;**[!UICONTROL Forms to Use]**&#x200B;设置为要包含该属性的每个表单。 要选择多个选项，请按住Ctrl键并单击每个表单。
 
-   - [&#39;客户注册&#39;](customer-sign-in.md)
-   - [&#39;客户帐户编辑&#39;](account-create.md)
-   - [&#39;管理员结帐&#39;](../stores-purchase/checkout-process.md)
+   - [`Customer Registration`](customer-sign-in.md)
+   - [`Customer Account Edit`](account-create.md)
+   - [`Admin Checkout`](../stores-purchase/checkout-process.md)
 
 ## 第3步：完成标签并保存
 
@@ -127,11 +145,11 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 在管理员和店面中标识属性的默认标签。 |
 | [!UICONTROL Attribute Code] | 标识系统内属性的唯一代码。 该代码的长度最多可为60个字符，并且不能包含空格或特殊字符。 可以使用下划线符号代替空格。 |
-| [!UICONTROL Input Type] | 确定用于数据输入的输入控件。 选项： <br/>**`Text Field`**— 单行文本字段。<br/>**`Text Area`** — 多行文本区域。 <br/>**`Multiple Line`**— 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行的数量可以是2到20。<br/>**`Date`** — 显示带有弹出日历的日期字段。<br/>**`Dropdown`**— 仅接受选择一个值的下拉列表。<br/>**`Multiple Select`** — 接受多个要选择的值的下拉列表。 <br/>**`Yes/No`**— 仅提供`Yes`或`No`值选择的字段。<br/>**`File (attachment)`** — 允许上传文件并将其作为附件与客户属性关联的字段。 <br/>**`Image File`**— 允许将图像上传到库并与客户属性关联的字段。 |
+| [!UICONTROL Input Type] | 确定用于数据输入的输入控件。 选项： <br/>**`Text Field`**— 单行文本字段。<br/>**`Text Area`** — 多行文本区域。<br/>**`Multiple Line`**— 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行数可以介于2到20之间。<br/>**`Date`** — 显示带有弹出日历的日期字段。<br/>**`Dropdown`**— 一个下拉列表，只接受选择一个值。<br/>**`Multiple Select`** — 接受多个要选择的值的下拉列表。<br/>**`Yes/No`**— 仅提供`Yes`或`No`值选择的字段。<br/>**`File (attachment)`** — 允许上传文件并将其作为附件与客户属性关联的字段。<br/>**`Image File`**— 允许将图像上传到库并与客户属性关联的字段。 |
 | [!UICONTROL Values Required] | 确定是否必须在字段中输入值。 选项： `Yes` / `No` |
 | [!UICONTROL Default Value] | 指定属性的初始值。 |
-| [!UICONTROL Input Validation] | 选项的选择由输入类型决定。 选项： <br/>**`None`**— 字段在数据输入期间没有输入验证。<br/>**`Alphanumeric`** — 在数据输入期间接受数字(0-9)和字母字符(a-z、A-Z)的任意组合。 <br/>**`Alphanumeric with Space`**— 允许街道地址中的空格符合运营商的最大长度要求。 在结账过程中，客户可以在收件人和发件人的街道地址中输入数字(0-9)、字母字符(a-z、A-Z)和空格的任意组合。 保存地址时，会修剪所有多余的空格。<br/>**`Numeric Only`** — 在数据输入期间仅接受数字(0-9)。 <br/>**`Alpha Only`**— 在数据输入期间仅接受字母字符(a-z、A-Z)。<br/>**`URL`** — 在数据输入期间仅接受URL。 <br/>**`Email`**— 在数据输入期间仅接受电子邮件地址。<br/>**`Length Only`** — 根据输入字段的数据长度验证输入。 |
-| [!UICONTROL Input/Output Filter] | 在保存记录之前，将预处理筛选器应用于在文本字段、文本区域或多行输入类型中输入的值。 选项： <br/>**`None`**— 不对输入到字段中的文本应用筛选器。<br/>**`Strip HTML Tags`** — 从文本中删除HTML标签。 此过滤器可帮助清理从包含HTML标签的其他源粘贴到字段中的数据。 <br/>**`Escape HTML Entities`**— 将文本中的特殊字符转换为有效的HTML转义序列，如`amp;`。 转义序列在&amp;符号和分号之间括起来，通常用于印刷商的智能引号、版权符号和商标符号。 转义序列也用于标识诸如小于(`<`)和大于(`>`)符号的字符，以及代码中同时使用的&amp;字符。 此过滤器有助于清理有时会从字处理程序粘贴到数据库字段中的特殊字符。 |
+| [!UICONTROL Input Validation] | 选项的选择由输入类型决定。 选项： <br/>**`None`**— 字段在数据输入期间没有输入验证。<br/>**`Alphanumeric`** — 在数据输入期间接受数字(0-9)和字母字符(a-z、A-Z)的任意组合。<br/>**`Alphanumeric with Space`**— 允许街道地址中的空格符合运营商的最大长度要求。 在结账过程中，客户可以在收件人和发件人的街道地址中输入数字(0-9)、字母字符(a-z、A-Z)和空格的任意组合。 保存地址时，会修剪所有多余的空格。<br/>**`Numeric Only`** — 在数据输入期间仅接受数字(0-9)。<br/>**`Alpha Only`**— 在数据输入期间仅接受字母字符(a-z、A-Z)。<br/>**`URL`** — 在数据输入期间仅接受URL。<br/>**`Email`**— 在数据输入期间仅接受电子邮件地址。<br/>**`Length Only`** — 根据输入到字段中的数据长度验证输入。 |
+| [!UICONTROL Input/Output Filter] | 在保存记录之前，将预处理筛选器应用于在文本字段、文本区域或多行输入类型中输入的值。 选项： <br/>**`None`**— 不对输入到字段中的文本应用筛选器。<br/>**`Strip HTML Tags`** — 从文本中删除HTML标记。 此过滤器可帮助清理从包含HTML标记的其他源粘贴到字段中的数据。<br/>**`Escape HTML Entities`**— 将文本中的特殊字符转换为有效的HTML转义序列，如`amp;`。 转义序列在&amp;符号和分号之间括起来，通常用于印刷商的智能引号、版权符号和商标符号。 转义序列也用于标识诸如小于(`<`)和大于(`>`)符号的字符，以及代码中同时使用的&amp;字符。 此过滤器有助于清理有时会从字处理程序粘贴到数据库字段中的特殊字符。 |
 | [!UICONTROL Add to Column Options] | 指定该属性是否作为列包含在[客户](customers-all.md)网格中。 选项： `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | 指定属性是否可用作网格中搜索操作的过滤器。 选项： `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | 为网格中搜索操作的属性指定过滤器匹配条件。 它不影响网格的&#x200B;_按关键字搜索_&#x200B;字段。 选项： `Partial Match` / `Prefix Match` / `Full Match` |
@@ -163,7 +181,7 @@ ht-degree: 0%
 | `lastname` | 客户的姓氏。 |
 | `suffix` | 与客户名称一起使用的任何后缀。 （例如Jr.、Sr.或Esquire） |
 | `email` | 客户的电子邮件地址。 |
-| `dob` | 客户的出生日期。  <br><br>**_重要提示：_**&#x200B;要遵循当前安全和隐私最佳实践，请注意将客户的完整出生日期（月、日、年）与其他个人标识符一起存储可能会带来的任何法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
+| `dob` | 客户的出生日期。 <br><br>**_重要:_**&#x200B;为遵循最新的安全和隐私最佳实践，请注意任何与使用其他个人标识符存储客户的完整出生日期（月、日、年）相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
 | `taxvat` | 分配给客户的增值税ID。 此属性的默认标签为`VAT Number`。 从管理员处查看时，“VAT编号”字段始终存在于所有送货和帐单客户地址中，但不是必填字段。 |
 | `gender` | 客户性别。 |
 
@@ -171,4 +189,4 @@ ht-degree: 0%
 
 有关创建客户属性的演示，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410183?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3410183?captions=chi_hans&quality=12&learn=on)

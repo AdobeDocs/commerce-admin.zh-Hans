@@ -3,9 +3,23 @@ title: 结账时的地址搜索
 description: 了解如何在商店结帐时包含地址搜索。
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/fMrmhB3-kGvDKNBnI1PCUhndVN0RhQprpZGB6rjfo8o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 0%
 
 ---
@@ -30,7 +44,7 @@ ht-degree: 0%
 
 ## 锁定的询价地址搜索
 
-![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg)（仅适用于Adobe Commerce B2B）
 
 启用地址搜索还会影响对从报价创建的订单的结帐，其中客户保存的地址数达到或超过配置的限制。 当报价完成并且客户进行结帐时，只显示选定的送货地址。 此页面还会显示一条消息，说明送货地址已锁定，只能在报价中进行更改。
 

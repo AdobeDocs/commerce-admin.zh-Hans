@@ -3,10 +3,27 @@ title: 自定义URL重写
 description: 了解如何使用自定义URL重写来管理Commerce商店中的其他重定向。
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 703
 ht-degree: 0%
 
 ---
@@ -103,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Create URL Rewrite] | 指示重写的类型。 创建重写后无法更改类型。 选项： `Custom` / `For category` / `For product` / `For CMS page` |
 | [!UICONTROL Request Path] | 要重定向的页面。 请求路径必须是唯一的，并且不能被另一个重定向使用。 如果收到请求路径存在的错误消息，请删除现有的重定向，然后重试。 |
 | [!UICONTROL Target Path] | 系统用来指向目标的内部路径。 目标路径呈灰显状态，无法编辑。 |
-| [!UICONTROL Redirect] | 确定重定向的类型。 选项： <br/>**否** — 未指定重定向。 <br/>**[!UICONTROL Temporary (302)]**— 向搜索引擎指示重写时间有限。 搜索引擎通常不会保留页面排名信息以进行临时重写。<br/>**[!UICONTROL Permanent (301)]** — 向搜索引擎指示重写是永久的。 搜索引擎通常会保留页面排名信息以进行永久重写。 |
+| [!UICONTROL Redirect] | 确定重定向的类型。 选项： <br/>**否** — 未指定重定向。<br/>**[!UICONTROL Temporary (302)]**— 向搜索引擎指示重写时间有限。 搜索引擎通常不会保留页面排名信息以进行临时重写。<br/>**[!UICONTROL Permanent (301)]** — 向搜索引擎指示重写是永久的。 搜索引擎通常会保留页面排名信息以进行永久重写。 |
 | [!UICONTROL Description] | 描述重写的用途，以供内部参考。 |
 
 {style="table-layout:auto"}

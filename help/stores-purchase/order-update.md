@@ -3,9 +3,23 @@ title: 更新订单
 description: 了解如何在管理员中更新客户订单。
 exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/-p3rOdUeSmF-IcUJS9DP9eSxfjZGXs7UhlkvhPkbzOM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -61,7 +75,7 @@ ht-degree: 0%
 | **[!UICONTROL Credit Memo]** | 启动创建[贷项通知单](credit-memo-create.md)的进程。 |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 将销售订单的状态更改为`On Hold`。 要解除销售订单的暂挂，请选择&#x200B;_[!UICONTROL Unhold]_。 |
 | **[!UICONTROL Reorder]** | 根据当前订单创建新的待处理订单。 |
-| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)启动流程以[返回订单中的](returns.md)一个或多个项目。 |
+| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce）启动流程以[返回订单中的](returns.md)一个或多个项目。 |
 
 {style="table-layout:auto"}
 
@@ -73,7 +87,7 @@ ht-degree: 0%
 
 您的付款方式决定了可用的付款活动。 有关详细信息，请参阅[付款操作](../configuration-reference/sales/payment-methods.md#payment-actions)。
 
-**_要撤消订单：_**
+**_撤消订单:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
 

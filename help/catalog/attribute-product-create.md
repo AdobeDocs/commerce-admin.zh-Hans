@@ -3,9 +3,25 @@ title: 创建和删除产品属性
 description: 了解如何创建和删除产品属性，这些属性用于描述目录中产品的特定特征。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
+TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -31,7 +47,7 @@ ht-degree: 0%
    | `Text Field` | 单行输入文本字段。 |
    | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
    | `Text Editor` | 属性位置处具有完整功能的文本编辑器。 |
-   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_管理员_&#x200B;用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
+   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
    | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](product-create-configurable.md)的关键组件。 |
    | `Multiple Select` | 显示接受多个选择的值的下拉列表。 |
@@ -66,7 +82,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不建议在`type`字段中使用[!UICONTROL Attribute Code]值。 这可能会导致错误，因为`type`值已保留供系统使用。
+   >不建议在[!UICONTROL Attribute Code]字段中使用`type`值。 这可能会导致错误，因为`type`值已保留供系统使用。
 
    ![产品属性 — 高级属性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -106,7 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用[Live Search指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)的Live Search分面列表&#x200B;_中的_&#x200B;编辑选项手动编辑标签。
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用&#x200B;_Live Search指南_&#x200B;的Live Search分面列表[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的编辑选项手动编辑标签。
 
 ## 步骤4：描述店面属性
 

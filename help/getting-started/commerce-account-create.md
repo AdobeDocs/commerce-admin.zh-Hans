@@ -1,16 +1,31 @@
 ---
 title: 创建并访问您的 [!DNL Commerce] 帐户
 description: 了解 [!DNL Commerce] 帐户，这些帐户管理您购买的产品和服务。
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
+TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: 1154
 ht-degree: 0%
 
 ---
-
 
 # 访问您的[!DNL Commerce]帐户
 
@@ -22,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Billing History]**&#x200B;帐户页上的[!DNL Commerce]部分仅显示帐单系统更新之前创建的发票。
+>[!DNL Commerce]帐户页上的&#x200B;**[!UICONTROL Billing History]**&#x200B;部分仅显示帐单系统更新之前创建的发票。
 >
 >如果未列出较新的发票，则表明它们已转换为新系统，无法从此页面访问。
 
@@ -30,7 +45,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帐户登录名不同于商店管理员登录名。 您通常会对每个系统使用不同的凭据，并且每个系统的访问权限都受独立管理。
 
-但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户可以将其Adobe ID配置为登录到应用商店管理员：[Commerce的IMS Integration Guide](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/ims/adobe-ims-config)中的&#x200B;*Configure the Commerce Admin Integration with Adobe ID*。
+但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户可以将其Adobe ID配置为登录到应用商店管理员：*Commerce的IMS Integration Guide*&#x200B;中的[Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/ims/adobe-ims-config)。
 
 >[!NOTE]
 >

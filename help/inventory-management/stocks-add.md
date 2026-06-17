@@ -2,9 +2,23 @@
 title: 添加库存货签
 description: 了解如何添加库存并将来源映射到销售渠道（网站），从而提供可销售数量和产品库存的直接链接。
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: 409
 ht-degree: 0%
 
 ---
@@ -35,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果选择分配给其他股票的网站或销售渠道，则会从该股票中取消分配该网站或销售渠道。 任何未分配给自定义库存的Sales Channel都会分配给默认库存。
+   >如果选择分配给其他股票的网站或销售渠道，则会从该股票中取消分配该网站或销售渠道。 任何未分配给自定义库存的销售渠道都会分配给默认库存。
 
-   股票![Sales Channel选项](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   库存的![销售渠道选项](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
 1. 展开&#x200B;**[!UICONTROL Sources]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并对默认部分以外的任何股票执行以下操作：
 
@@ -75,4 +89,4 @@ ht-degree: 0%
 | [!UICONTROL Websites] | 通过将库存作为&#x200B;_销售渠道_&#x200B;分配给特定网站，定义库存的[范围](../getting-started/websites-stores-views.md#scope-settings)。 为每只股票选择一个或多个网站。 每个网站只能分配给一种库存。 |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | 将库存来源分配给此库存。 无法将自定义源分配给默认库存。 |
-| [!UICONTROL Assigned Sources] | 已分配源的列表。 使用![排序图标](assets/icon-sort.png)将来源拖放到订单履行和发运的优先级顺序中。<br/><br/>**[!UICONTROL Code]**— 源的唯一代码ID。<br/>**[!UICONTROL Name]** — 源的名称描述。<br/>**[!UICONTROL Unassign]**— 使用![垃圾桶图标](../assets/icon-delete-trashcan-solid.png)从库存中删除分配的源。 |
+| [!UICONTROL Assigned Sources] | 已分配源的列表。 将使用![排序图标](assets/icon-sort.png)的源拖放到订单履行和发运的优先级顺序中。<br/><br/>**[!UICONTROL Code]**— 源的唯一代码ID。<br/>**[!UICONTROL Name]**  — 源的名称描述。<br/>**[!UICONTROL Unassign]**— 使用![垃圾桶图标](../assets/icon-delete-trashcan-solid.png)从资源库中移除分配的源。 |

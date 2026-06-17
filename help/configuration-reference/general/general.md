@@ -1,11 +1,28 @@
 ---
-title: '[!UICONTROL General] &amp；gt； [!UICONTROL General]'
-description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL General]页面上的配置设置。
+title: '[!UICONTROL General] > [!UICONTROL General]'
+description: 查看Commerce管理员的[!UICONTROL General] &gt； [!UICONTROL General]页面上的配置设置。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
@@ -69,11 +86,11 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | 网站 | 确定网站是否正在受限模式下运行。<br /> <br />**`Yes`**— 以下字段中设置的方式限制了网站访问。<br />**`No`** — 已禁用限制，以下设置无效。 |
+| [!UICONTROL Access Restriction] | 网站 | 确定网站是否正在受限模式下运行。<br /> <br />**`Yes`**— 以下字段中设置的方式限制了网站访问。<br />**`No`**  — 已禁用限制，并且以下设置无效。 |
 | [!UICONTROL Restriction Mode] | 网站 | 确定适用于网站的访问限制的类型。<br /> <br />**`Website Closed`**— 对店面的所有访问都受到限制，店面URL会暂时重定向到登陆页面。 此设置在站点维护期间或启动之前很有用。<br />**`Private Sales: Login Only`** — 只有注册客户才能登录以访问店面。 所有店面URL会暂时重定向到指定的登陆页面或登录表单。 用户无法在此模式下创建帐户。<br />**`Private Sales: Login and Register`**— 用户必须登录才能访问店面。 所有店面URL会暂时重定向到登录表单，直到用户登录为止。 当网站处于此模式时，用户可以注册帐户。 |
-| [!UICONTROL Startup Page] | 商店视图 | 当网站处于“私人销售”模式时，此设置将确定在客户登录之前显示的页面。<br />  <br />**`To login form`**— 用户将被重定向到登录表单，直到他们登录。<br />**`To landing page`** — 用户被重定向到下面指定的静态页面，直到他们登录。<br /> <br />**_重要信息！_**&#x200B;确保包含指定登陆页面中的登录页面链接，以便客户可以登录访问整个网站。 |
+| [!UICONTROL Startup Page] | 商店视图 | 当网站处于“私人销售”模式时，此设置将确定在客户登录之前显示的页面。<br />  <br />**`To login form`**— 用户将被重定向到登录表单，直到他们登录。<br />**`To landing page`** — 用户被重定向到下面指定的静态页面，直到他们登录。<br /> <br />**_重要信息！_**&#x200B;确保包含指定登陆页面中的登录页面链接，以便客户能够登录以访问整个网站。 |
 | [!UICONTROL Landing Page] | 商店视图 | 确定网站处于“专用销售”模式时显示的第一个页面。 |
-| [!UICONTROL HTTP Response] | 网站 | 确定在网站关闭且机器人、爬虫程序或爬虫程序尝试连接时发送的HTTP响应。<br /> <br />**`503 Service unavailable`**— 页面不可用，但爬虫程序不应更新索引。<br />**`200 OK`** — 登陆页面正确，爬虫程序应将登陆页面视为网站上的唯一页面。 |
+| [!UICONTROL HTTP Response] | 网站 | 确定在网站关闭且机器人、爬虫或爬虫程序尝试连接时发送的HTTP响应。<br /> <br />**`503 Service unavailable`**— 页面不可用，但爬虫程序不应更新索引。<br />**`200 OK`** — 登陆页面正确，爬虫程序应将登陆页面视为网站上的唯一页面。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 网站 | 确定&#x200B;_登录_&#x200B;和&#x200B;_忘记密码_&#x200B;表单上的字段是否自动填写以前的条目。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -107,7 +124,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，将隐藏配置作用域框和相关字段标签选项： `Yes` / `No` <br/>**_注意：_**&#x200B;对于具有多个视图的存储区，将忽略单存储模式。<br/>启用单商店模式会将所有目录和产品商店特定数据从默认商店视图复制到所有商店视图范围。 如果该商店只有一个商店审核，则它仅会复制目录和产品数据。 如果存储有一个禁用了的存储和一个启用的存储，则它将不会复制目录和产品数据。<br/>启用单存储模式会忽略特定于内容的数据的存储审核特定配置设置。 而是使用在全局级别范围中定义的配置设置，以确保管理员UI与店面之间的一致性。 |
+| [!UICONTROL Enable Single-Store Mode] | 全局 | 为单存储安装启用时，对于具有多个视图的存储区，将隐藏配置作用域框和相关字段标签选项： `Yes` / `No` <br/>**_Note:_**&#x200B;忽略单存储模式。<br/> 启用单商店模式会将所有目录和产品商店特定数据从默认商店视图复制到所有商店视图范围。 如果该商店只有一个商店审核，则它仅会复制目录和产品数据。 如果存储有一个禁用的storeview和一个启用的storeview，它将不会复制目录和产品数据。<br/> 启用单存储模式会忽略特定于内容的数据的存储特定配置设置。 而是使用在全局级别范围中定义的配置设置，以确保管理员UI与店面之间的一致性。 |
 
 {style="table-layout:auto"}
 
@@ -117,6 +134,6 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | 全局 | 如果您是医疗保健客户，并且安装了[数据服务HIPAA](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/hipaa-readiness)扩展，则默认情况下会关闭此配置。 因此，将不再捕获实时搜索和产品推荐使用的店面事件数据。 这是因为店面事件数据是在客户端生成的。 要继续捕获和发送店面事件数据以供[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)和[产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)服务使用，请将&#x200B;**已启用Commerce事件**&#x200B;设置为`Yes`。 |
+| [!UICONTROL Commerce Events Enabled] | 全局 | 如果您是医疗保健客户，并且安装了[数据服务HIPAA](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/hipaa-readiness)扩展，则默认情况下会关闭此配置。 因此，将不再捕获实时搜索和产品推荐使用的店面事件数据。 这是因为店面事件数据是在客户端生成的。 要继续捕获和发送店面事件数据以供[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)和[产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)服务使用，请将&#x200B;**已启用Commerce事件**&#x200B;设置为`Yes`。 |
 
 {style="table-layout:auto"}

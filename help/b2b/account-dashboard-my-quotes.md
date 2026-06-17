@@ -3,13 +3,27 @@ title: '[!UICONTROL My Quotes]'
 description: 了解客户在报价方面的体验，可在他们的帐户信息板中找到该体验。
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
+TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quotes]
 
@@ -175,7 +189,7 @@ ht-degree: 0%
 | 关闭报价 | 采购员关闭报价单后，将无法重新打开它。 如果需要，购买者可以使用[!UICONTROL Create Copy]操作重新创建它。 如果报价状态为`Draft`，则此选项不可用。 |
 | 创建模板 | 根据当前报价创建报价模板。 报价模板通过允许买方和卖方就可应用于多个报价的合同和定价条款达成一致来简化报价洽谈。  根据协议，采购员可以从模板为后续订单生成预批准链接报价，而不是重新启动询价(RFQ)流程。 |
 | 删除报价 | 当采购员删除报价单时，报价单将从系统中删除，并且不再可用。 |
-| 打印 | 打开打印表单，将报价保存为PDF、文件，或将其打印到配置的打印机。 |
+| 打印 | 打开打印表单，将报价保存为PDF、文件或打印到配置的打印机。 |
 
 ## 列描述
 
@@ -184,6 +198,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 买方分配给报价请求的名称。 |
 | [!UICONTROL Created] | 首次提交报价请求的日期。 |
 | [!UICONTROL Created By] | 提交报价请求的买方的名字和姓氏。 |
-| [!UICONTROL Status] | 指示报价的状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。 <br/>**[!UICONTROL Submitted]**— 买方询价尚未由卖方打开。 在此状态下，买方仍可以修改报价请求。 可用操作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 卖方已打开请求，正在审阅请求并准备回应。 可用操作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 卖方已向买方发送了响应，并启用了&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮。 在此状态下，买方可以继续修改报价。 可用操作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 购买者仍在更新报价，并且&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮已禁用。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 买方已基于协商的报价提交订单。 报价已锁定，无法编辑。 可用操作：查看<br/>**[!UICONTROL Closed]** — 采购员已结束洽谈并取消报价。 报价已锁定，买方或卖方均无法编辑。 可用操作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 卖方已拒绝询价，或在洽谈过程中提出更改。 可在工作流程的任何阶段拒绝报价。 任何自定义定价都将从报价中删除。 采购员可以继续编辑报价单并重新提交，或者使用标准目录价格进行采购。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 报价的生命周期已过期。 任何提议的价格都会被重置。 买方可以按照标准目录价格完成采购，也可以启动另一轮谈判。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 指示报价的状态。 报价单的状态只能通过买方或卖方一方采取行动来更改。<br/>**[!UICONTROL Submitted]**— 买方询价尚未由卖方打开。 在此状态下，买方仍可以修改报价请求。 可用操作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 卖方已打开请求，正在审阅请求并准备回应。 可用操作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 卖方已向买方发送了响应，并启用了&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮。 在此状态下，买方可以继续修改报价。 可用操作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 购买者仍在更新报价，并且&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按钮已禁用。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 买方已基于协商的报价提交订单。 报价已锁定，无法编辑。 可用操作：查看<br/>**[!UICONTROL Closed]** — 采购员已结束洽谈并取消报价。 报价已锁定，买方或卖方均无法编辑。 可用操作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 卖方已拒绝询价，或在洽谈过程中提出更改。 可在工作流程的任何阶段拒绝报价。 任何自定义定价都将从报价中删除。 采购员可以继续编辑报价单并重新提交，或者使用标准目录价格进行采购。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 报价的生命周期已过期。 任何提议的价格都会被重置。 买方可以按照标准目录价格完成采购，也可以启动另一轮谈判。 可用操作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

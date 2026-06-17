@@ -3,9 +3,28 @@ title: 创建类别
 description: 您可以根据配置中设置的最大菜单深度，根据需要创建任意数量的其他子类别。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -176,7 +195,7 @@ ht-degree: 0%
 
 1. 选择应用类别权限的&#x200B;**[!UICONTROL Customer Group]**。
 
-   ![Adobe Commerce B2B](../assets/b2b.svg) (仅限[Adobe Commerce B2B](../b2b/introduction.md))如果需要，您可以改为选择&#x200B;**[!UICONTROL Shared Catalog]**。
+   ![Adobe Commerce B2B](../assets/b2b.svg) （仅限[Adobe Commerce B2B](../b2b/introduction.md)）如果需要，您可以改为选择&#x200B;**[!UICONTROL Shared Catalog]**。
 
 1. 根据需要设置以下权限：
 
@@ -194,7 +213,7 @@ ht-degree: 0%
 
 1. 根据需要设置设计设置：
 
-   - (仅限[Adobe Commerce B2B](../b2b/introduction.md))若要将父类别设计设置应用于此类别，请将&#x200B;**[!UICONTROL Use Parent Category Settings]**&#x200B;设置为`Yes`。
+   - （仅限[Adobe Commerce B2B](../b2b/introduction.md)）若要将父类别设计设置应用于此类别，请将&#x200B;**[!UICONTROL Use Parent Category Settings]**&#x200B;设置为`Yes`。
 
    - 要更改类别页面的设计，请选择要应用的&#x200B;**[!UICONTROL Theme]**。
 
@@ -206,7 +225,7 @@ ht-degree: 0%
 
    ![设计设置](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)要计划在特定时间段进行设计更新，请执行以下操作：
+1. ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）要计划在特定时间段进行设计更新，请执行以下操作：
 
    - 展开&#x200B;_[!UICONTROL Schedule Design Update]_&#x200B;部分。
 

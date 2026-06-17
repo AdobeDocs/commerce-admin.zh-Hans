@@ -3,9 +3,24 @@ title: 产品设置 — [!UICONTROL Customizable Options]
 description: 对于产品，[!UICONTROL Customizable Options]设置允许您提供一系列具有文本、选择和日期输入类型的选项。
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -18,7 +33,7 @@ ht-degree: 0%
 
 带有可自定义选项的![产品详细信息](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
 
-如果购买触发了购物车价格规则，则初始计算将首先应用于产品价格，然后应用于行项目价格，并对适用的可自定义选项进行任何调整。 在下面的示例中，客户以74.00美元的价格购买了一个饺子包，另外还购买了一个可定制的单字母选项。 产品基本价格加价为14.80美元，调整后的价格为88.80美元。在这种情况下，购买饺子包会触发基于产品SKU的购物车价格规则，并对购买应用折扣，外加免运费。 尽管可自定义选项未触发购物车价格规则，但它会将折扣应用于购物车内容，其中包括可自定义选项的标记。
+如果购买触发了购物车价格规则，则初始计算将首先应用于产品价格，然后应用于行项目价格，并对适用的可自定义选项进行任何调整。 在下面的示例中，客户以74.00美元的价格购买了一个饺子包，另外还购买了一个可定制的单字母选项。 产品基本价格加价为14.80美元，调整后的价格为88.80美元。 在这种情况下，购买饺子包会触发基于产品SKU的购物车价格规则，并对购买应用折扣，外加免运费。 尽管可自定义选项未触发购物车价格规则，但它会将折扣应用于购物车内容，其中包括可自定义选项的标记。
 
 带有可自定义选项和价格规则的![购物车](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
 
@@ -88,9 +103,9 @@ ht-degree: 0%
 
 | 类型 | 描述 |
 |---------------------|---------------|
-| [!UICONTROL Text] | 客户可在其中输入所需信息的输入行或文本框。 选项：<br />**[!UICONTROL Field]**— 单行输入文本字段。<br />**[!UICONTROL Area]** — 多行输入字段。 此类型不支持HTML等高级格式。 使用最大字符数限制可输入的文本长度，并确保在管理员中输入的文本有正确的表示形式。 |
+| [!UICONTROL Text] | 客户可在其中输入所需信息的输入行或文本框。 选项：<br />**[!UICONTROL Field]**— 单行输入文本字段。<br />**[!UICONTROL Area]**  — 多行输入字段。 此类型不支持HTML等高级格式。 使用最大字符数限制可输入的文本长度，并确保在管理员中输入的文本有正确的表示形式。 |
 | [!UICONTROL File] | 允许客户上传文件。 |
-| [!UICONTROL Select] | 允许客户根据使用的输入类型选择单个选项或多个选项。 选项：<br />**[!UICONTROL Drop-down]**— 仅允许一个选择的选项下拉列表。<br />**[!UICONTROL Radio Buttons]** — 一组仅允许一个选择的选项。<br />**[!UICONTROL Checkbox]**— 复选框是是/否选项的变体。 如果产品有多个复选框，则可以进行多个选择。<br />**[!UICONTROL Multiple Select]** — 接受多个选择的选项下拉列表框。 要选择多个选项，请按住Ctrl (PC)或Command (Mac)键并单击每个选项。 |
-| [!UICONTROL Date] | 允许客户输入日期或时间，或从日历中选择值。 选项： <br />**[!UICONTROL Date]**— 日期值的输入字段。 可以直接在字段中键入日期或从列表或日历中选择日期。 输入方法和格式由[日期和时间选项](attributes-input-types.md#date-and-time-options)配置决定。<br />**[!UICONTROL Date & Time]** — 日期和时间值的输入字段。<br />**[!UICONTROL Time]**— 时间值的输入字段。 |
+| [!UICONTROL Select] | 允许客户根据使用的输入类型选择单个选项或多个选项。 选项：<br />**[!UICONTROL Drop-down]**— 仅允许一个选择的选项下拉列表。<br />**[!UICONTROL Radio Buttons]**  — 一组仅允许一个选择的选项。<br />**[!UICONTROL Checkbox]**— 复选框是是/否选项的变体。 如果产品有多个复选框，则可以进行多个选择。<br />**[!UICONTROL Multiple Select]**  — 一个下拉列表框，其中包含接受多个选择的选项。 要选择多个选项，请按住Ctrl (PC)或Command (Mac)键并单击每个选项。 |
+| [!UICONTROL Date] | 允许客户输入日期或时间，或从日历中选择值。 选项： <br />**[!UICONTROL Date]**— 日期值的输入字段。 可以直接在字段中键入日期或从列表或日历中选择日期。 输入方法和格式由[日期和时间选项](attributes-input-types.md#date-and-time-options)配置决定。<br />**[!UICONTROL Date & Time]**  — 日期和时间值的输入字段。<br />**[!UICONTROL Time]**— 时间值的输入字段。 |
 
 {style="table-layout:auto"}

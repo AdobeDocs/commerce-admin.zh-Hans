@@ -3,10 +3,27 @@ title: PayPal支付高级
 description: 了解如何在您的商店中将PayPal Payments Advanced设置为在线支付解决方案。
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2175
 ht-degree: 0%
 
 ---
@@ -20,7 +37,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 为了符合PSD2的要求，PayPal Payments Advanced必须集成到第三方插件中。 若要了解详细信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
+>自2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。为了符合PSD2的要求，PayPal Payments Advanced必须集成到第三方插件中。若要了解更多信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
 
 >[!NOTE]
 >
@@ -28,7 +45,7 @@ ht-degree: 0%
 
 ## 要求
 
-- [PayPal企业帐户](https://www.paypal.com/webapps/mpp/how-to-sell-online)
+- [PayPal商业帐户](https://www.paypal.com/webapps/mpp/how-to-sell-online)
 - 如果您管理多个Adobe Commerce和Magento Open Source网站，则必须为每个网站拥有单独的PayPal商家帐户。
 
 ## 签出工作流
@@ -66,9 +83,9 @@ ht-degree: 0%
 
 1. 转到&#x200B;**[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up Menu]**&#x200B;并完成以下设置：
 
-   - **[!UICONTROL AVS]**： `No`
-   - **[!UICONTROL CSC]**： `No`
-   - **[!UICONTROL Enable Secure Token]**： `Yes`
+   - **[!UICONTROL AVS]**: `No`
+   - **[!UICONTROL CSC]**: `No`
+   - **[!UICONTROL Enable Secure Token]**: `Yes`
 
 1. **[!UICONTROL Save]**&#x200B;设置。
 
@@ -116,7 +133,7 @@ ht-degree: 0%
 
    ![商家国家/地区](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展开&#x200B;**[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;并单击&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payments Advanced]**。
+1. 展开&#x200B;**[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;并单击&#x200B;**[!UICONTROL Payments Advanced]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
 
    ![PayPal预付款项](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
 
@@ -169,7 +186,7 @@ ht-degree: 0%
 
 #### 广告PayPal点数
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
+1. 展开&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![广告PayPal点数](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -177,7 +194,7 @@ ht-degree: 0%
 
 1. 输入您的&#x200B;**[!UICONTROL Publisher ID]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
+1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 若要在页面上放置横幅，请将&#x200B;**[!UICONTROL Display]**&#x200B;设置为`Yes`。
 
@@ -205,11 +222,11 @@ ht-degree: 0%
 
 #### 广告PayPal PayLater
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
+1. 展开&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 将&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;设置为`Yes`。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Home Page]**。
+1. 展开&#x200B;**[!UICONTROL Home Page]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 若要在页面上放置横幅，请将&#x200B;**[!UICONTROL Display]**&#x200B;设置为`Yes`。
 
@@ -300,7 +317,7 @@ ht-degree: 0%
 
 ### 步骤5：完成高级设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
+1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![高级设置 — 高级PayPal支付](./assets/paypal-payments-advanced2.png){width="600" zoomable="yes"}
 
@@ -339,7 +356,7 @@ ht-degree: 0%
 
 #### 结算报表设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Settlement Report Settings]**。
+1. 展开&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![PayPal结算报告设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -382,7 +399,7 @@ ht-degree: 0%
 
 使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
+1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![PayPal前端体验设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png){width="600" zoomable="yes"}
 
@@ -418,7 +435,7 @@ ht-degree: 0%
 
 ### 步骤6：完成PayPal Express签出的基本设置
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
+1. 展开&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![PayPal Express签出基本设置](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -439,7 +456,7 @@ ht-degree: 0%
 
 ### 步骤7：完成高级设置 — PayPal Express签出
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Advanced Settings]**。
+1. 展开&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![PayPal Express签出高级设置](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,24 @@ title: 客户地址属性
 description: 了解客户地址属性以及如何配置这些属性属性。
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
 feature: Customers, Configuration
-source-git-commit: 40c4e6ea44e73b0c5e471f415dafbafe8afddc56
+TQID: https://experienceleague.adobe.com/3u6Rg6pbR1cexQ4gokhMnafNKKR9aL2PAWj9PfP-ZSg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1615
 ht-degree: 0%
 
 ---
@@ -129,11 +144,11 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 在管理员和店面中标识属性的默认标签。 |
 | [!UICONTROL Attribute Code] | 标识系统内属性的唯一代码。 该代码的长度最多可为21个字符，并且不能包含空格或特殊字符。 可以使用下划线符号代替空格。 |
-| [!UICONTROL Input Type] | 确定用于数据输入的[输入控件](../catalog/attributes-input-types.md)。 选项： <br/>**`Text Field`**— 单行文本字段。<br/>**`Text Area`** — 多行文本区域。 <br/>**`Multiple Line`**— 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行的数量可以是2到20。<br/>**`Date`** — 显示带有弹出日历的日期字段。<br/>**`Dropdown`**— 仅接受选择一个值的下拉列表。<br/>**`Multiple Select`** — 接受多个要选择的值的下拉列表。 <br/>**`Yes/No`**— 仅提供`Yes`或`No`值选择的字段。<br/>**`File (attachment)`** — 允许上传文件并将其作为附件与客户属性关联的字段。 <br/>**`Image File`**— 允许将图像上传到库并与客户属性关联的字段。 |
+| [!UICONTROL Input Type] | 确定用于数据输入的[输入控件](../catalog/attributes-input-types.md)。 选项： <br/>**`Text Field`**— 单行文本字段。<br/>**`Text Area`** — 多行文本区域。<br/>**`Multiple Line`**— 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行数可以介于2到20之间。<br/>**`Date`** — 显示带有弹出日历的日期字段。<br/>**`Dropdown`**— 一个下拉列表，只接受选择一个值。<br/>**`Multiple Select`** — 接受多个要选择的值的下拉列表。<br/>**`Yes/No`**— 仅提供`Yes`或`No`值选择的字段。<br/>**`File (attachment)`** — 允许上传文件并将其作为附件与客户属性关联的字段。<br/>**`Image File`**— 允许将图像上传到库并与客户属性关联的字段。 |
 | [!UICONTROL Values Required] | 确定是否必须在字段中输入值。 选项： `Yes` / `No` |
 | [!UICONTROL Default Value] | 指定属性的初始值。 |
-| [!UICONTROL Input Validation] | 选项的选择由输入类型决定。 选项： <br/>**`None`**— 字段在数据输入期间没有输入验证。<br/>**`Alphanumeric`** — 在数据输入期间接受数字(0-9)和字母字符(a-z、A-Z)的任意组合。 <br/>**`Alphanumeric with Space`**— 允许街道地址中的空格满足运营商最大长度要求。 在结账过程中，客户可以输入字母(a-z、A-Z)、数字(0-9)和空格。 保存地址时，会裁切多余的空格。<br/>**`Numeric Only`** — 在数据输入期间仅接受数字(0-9)。 <br/>**`Alpha Only`**— 在数据输入期间仅接受字母字符(a-z、A-Z)。<br/>**&#x200B; URL &#x200B;**— 在数据输入期间仅接受URL。<br/>**`Email`** — 在数据输入期间仅接受电子邮件地址。 <br/>**`Length Only`**— 根据输入字段的数据长度验证输入。<br/><br/>**&#x200B;注意：**&#x200B;对于系统定义的属性，如&#x200B;_Telephone_、_City_和&#x200B;_Street_，除了任何&#x200B;**[!UICONTROL Input Validation]**&#x200B;设置外，始终强制实施内置服务器端验证。 这些默认规则限制每个字段允许的字符，并且无法覆盖。**[!UICONTROL Input Validation]**&#x200B;设置仅添加其他约束。 |
-| [!UICONTROL Input/Output Filter] | 在保存记录之前，将预处理筛选器应用于在文本字段、文本区域或多行输入类型中输入的值。 选项： <br/>**`None`**— 不对输入到字段中的文本应用筛选器。<br/>**`Strip HTML Tags`** — 从文本中删除HTML标记。 此过滤器可帮助清理从包含HTML标记的其他源粘贴到字段中的数据。 <br/>**`Escape HTML Entities`**— 将文本中的特殊字符转换为有效的HTML转义序列，如`amp;`。 转义序列在&amp;符号和分号之间括起来，通常用于印刷商的智能引号、版权符号和商标符号。 转义序列也用于标识诸如小于(`<`)和大于(`>`)符号的字符，以及代码中同时使用的&amp;字符。 此过滤器有助于清理有时会从字处理程序粘贴到数据库字段中的特殊字符。 |
+| [!UICONTROL Input Validation] | 选项的选择由输入类型决定。 选项： <br/>**`None`**— 字段在数据输入期间没有输入验证。<br/>**`Alphanumeric`** — 在数据输入期间接受数字(0-9)和字母字符(a-z、A-Z)的任意组合。<br/>**`Alphanumeric with Space`**— 允许街道地址中的空格满足运营商最大长度要求。 在结账过程中，客户可以输入字母(a-z、A-Z)、数字(0-9)和空格。 保存地址时会裁切多余的空格。<br/>**`Numeric Only`**  — 在数据输入期间仅接受数字(0-9)。<br/>**`Alpha Only`**— 在数据输入期间仅接受字母字符(a-z、A-Z)。<br/>**&#x200B; URL &#x200B;**— 在数据输入期间仅接受URL。<br/>**`Email`** — 在数据输入期间仅接受电子邮件地址。<br/>**`Length Only`**— 根据输入到字段中的数据长度验证输入。<br/><br/>**&#x200B;注意：**&#x200B;对于系统定义的属性，如&#x200B;_Telephone_、_City_和&#x200B;_Street_，除了任何&#x200B;**[!UICONTROL Input Validation]**&#x200B;设置外，始终强制实施内置服务器端验证。 这些默认规则限制每个字段允许的字符，并且无法覆盖。**[!UICONTROL Input Validation]**&#x200B;设置仅添加其他约束。 |
+| [!UICONTROL Input/Output Filter] | 在保存记录之前，将预处理筛选器应用于在文本字段、文本区域或多行输入类型中输入的值。 选项： <br/>**`None`**— 不对输入到字段中的文本应用筛选器。<br/>**`Strip HTML Tags`** — 从文本中删除HTML标记。 此过滤器可帮助清理从包含HTML标记的其他源粘贴到字段中的数据。<br/>**`Escape HTML Entities`**— 将文本中的特殊字符转换为有效的HTML转义序列，如`amp;`。 转义序列在&amp;符号和分号之间括起来，通常用于印刷商的智能引号、版权符号和商标符号。 转义序列也用于标识诸如小于(`<`)和大于(`>`)符号的字符，以及代码中同时使用的&amp;字符。 此过滤器有助于清理有时会从字处理程序粘贴到数据库字段中的特殊字符。 |
 | [!UICONTROL Add to Column Options] | 指定该属性是否作为列包含在[客户](./customers-all.md)网格中。 选项： `Yes` / `No` |
 | 在筛选器选项中使用 | 指定属性是否可用作网格中搜索操作的过滤器。 选项： `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | 为网格搜索操作中的属性指定筛选匹配条件。 它不会影响网格的&#x200B;_[!UICONTROL Search by keyword]_&#x200B;字段。 选项： `Partial Match` / `Prefix Match` / `Full Match` |

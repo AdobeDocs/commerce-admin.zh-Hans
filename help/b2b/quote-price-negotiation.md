@@ -3,9 +3,26 @@ title: 协商报价
 description: 了解报价洽谈工作流以及如何与购买者合作进行购买。
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
+TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
@@ -77,7 +94,7 @@ ht-degree: 0%
 
 - 在&#x200B;**[!UICONTROL Action]**&#x200B;菜单中，选择一个操作以更新该项：
    - **折扣项目**&#x200B;以百分比、固定金额或首选定价形式应用折扣。
-（可选）您可以锁定折扣金额以防止进一步折扣。 如果未锁定折扣，
+（可选）您可以锁定折扣金额以防止进一步折扣。如果未锁定折扣，
 行项目折扣和任何报价级别折扣都应用于产品价格。
    - **给购买者留言**，以便向购买者提供有关物料的附加信息
    - **删除**&#x200B;以从报价中删除项目。
@@ -163,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Back] | 返回到&#x200B;_[!UICONTROL Quotes]_&#x200B;页而不保存更改。 |
 | [!UICONTROL Print] | 将报价发送至打印机或将其保存为PDF文件。 |
 | [!UICONTROL Create Copy] | 创建并打开当前报价的副本，并在原始名称后面附加`(copy)`。 通过编辑[!UICONTROL Name]字段重命名新报价。 将新报价另存为草稿或发送给客户来处理它。 |
-| 创建模板 | 根据当前报价创建报价模板。 报价模板通过允许买方和卖方就可应用于多个报价的合同和定价条款达成一致来简化报价洽谈。. 根据协议，采购员可以从模板为后续订单生成预批准链接报价，而不是重新启动询价(RFQ)流程。 |
+| 创建模板 | 根据当前报价创建报价模板。 报价模板通过允许买方和卖方就可应用于多个报价的合同和定价条款达成一致来简化报价洽谈。 . 根据协议，采购员可以从模板为后续订单生成预批准链接报价，而不是重新启动询价(RFQ)流程。 |
 | [!UICONTROL Save as Draft] | 保存对报价所做的任何更改，但不要将其发送回买方。 |
 | [!UICONTROL Decline] | 拒绝就价格进行谈判的要求，无论是在初步调查中还是在正在进行的谈判中。 当报价被拒绝时，卖方应添加评论来解释这一决定。 当报价被拒绝时，所有议价价格都将重置为原始值。 当卖方等待买方的回复时，此按钮被禁用。 |
 | [!UICONTROL Send] | 发送更新后的报价作为对买方查询的回复。 如果卖方正在等待买方的回复，则此按钮被禁用。 |
@@ -214,7 +231,7 @@ ht-degree: 0%
 | [!UICONTROL Subtotal] | 建议价格乘以订购的物料数量。 |
 | [!UICONTROL Estimated Tax] | 根据配置，为此行项目估计的税额。 根据计税设置，预计税额可以基于以下任何值：单价/行合计/合计 |
 | [!UICONTROL Subtotal (Incl./Excl. Tax)] | 根据配置，此列可以显示含或不含估计税的小计。 |
-| [!UICONTROL Action] | 可应用于行项目的操作的选择菜单：<ul><li>**[!UICONTROL Discount item]**</li><li>**[!UICONTROL Leave a note to Buyer]**</li><li>**[!UICONTROL Remove an item from the quote]**</li></ul>. |
+| [!UICONTROL Action] | 可应用于行项目的操作的选择菜单：<ul><li>**[!UICONTROL Discount item]**</li><li>**[!UICONTROL Leave a note to Buyer]**</li><li>**[!UICONTROL Remove an item from the quote]**</li></ul>。 |
 | [!UICONTROL Configure] | 允许您更改可配置产品的产品选项。 |
 | [!UICONTROL Update Prices] | 使用共享目录和价格规则的最新更改更新报价。 |
 | [!UICONTROL Recalculate Quote] | 重新计算所有报价价格、购物车价格规则和税费，以反映报价的更改。 |
@@ -234,7 +251,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | “洽谈”部分的“备注”标签用于向采购员输入有关报价的消息。 <br/>**[!UICONTROL Add your comment]**— 注释用于在协商过程中与采购员通信。 使用备注解释报价中提供的任何折扣，或报价请求被拒绝的原因。<br/>**[!UICONTROL Attach file]** - [附加文件](configure-quotes.md)的最大文件大小和支持的文件类型由配置决定。 默认情况下，附加文件最大为2 MB，并且可以是以下任意文件类型：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。 |
+| [!UICONTROL Comments] | “洽谈”部分的“备注”标签用于向采购员输入有关报价的消息。<br/>**[!UICONTROL Add your comment]**— 注释用于在协商过程中与采购员通信。 使用备注解释报价中提供的任何折扣，或报价请求被拒绝的原因。<br/>**[!UICONTROL Attach file]** - [附加文件](configure-quotes.md)的最大文件大小和支持的文件类型由配置决定。 默认情况下，附加文件最大为2 MB，以及以下任意文件类型：DOC、DOCX、XLS、XLSX、PDF、TXT、JPG或JPEG、PNG。 |
 | [!UICONTROL History Log] | 此标签页显示报价的完整历史记录，其中包括日期、报价状态和备注。 |
 
 {style="table-layout:auto"}
@@ -244,8 +261,8 @@ ht-degree: 0%
 | 字段 | 描述 |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | 向卖方提供的报价中所包含项目的总成本。 |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 报价单中的项目总价（不含税），根据作为报价单依据的共享目录或主目录中的价格确定。 展开部分以显示计算中使用的值，具体取决于配置中的[显示小计](../configuration-reference/sales/tax.md)设置。 选项： <br/>**[!UICONTROL Subtotal (Excl. Tax)]**— 目录总价（不含估计税）。<br/>**[!UICONTROL Subtotal (Incl. Tax)]** — 目录总价（不含估计税）。 <br/>**[!UICONTROL Estimated Tax]**— 估计将应用于目录总价的税额。 |
-| 议定价格 | 提供给买方的折扣可以基于以下任意一项： <br/>**[!UICONTROL Percentage Discount]**— 折扣百分比。<br/>**[!UICONTROL Amount Discount]** — 固定金额形式的折扣。 <br/>**[!UICONTROL Proposed Price]**— 卖方提出的价格。<p>如果报价中的所有项目都有锁定的项目折扣，则[!UICONTROL Negotiated Price]部分将禁用，因为无法应用其他折扣。</p><p>如果产品具有未锁定的行项目折扣，则行项目折扣和报价级别折扣都将应用于产品价格。</p> |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 报价单中的项目总价（不含税），根据作为报价单依据的共享目录或主目录中的价格确定。 展开部分以显示计算中使用的值，具体取决于配置中的[显示小计](../configuration-reference/sales/tax.md)设置。 选项： <br/>**[!UICONTROL Subtotal (Excl. Tax)]**— 目录总价（不含估计税）。<br/>**[!UICONTROL Subtotal (Incl. Tax)]** — 目录总价（不含估计税）。<br/>**[!UICONTROL Estimated Tax]**— 估计将应用于目录总价的税额。 |
+| 议定价格 | 提供给买方的折扣可以基于以下任意一项： <br/>**[!UICONTROL Percentage Discount]**— 折扣百分比。<br/>**[!UICONTROL Amount Discount]** — 固定金额形式的折扣。<br/>**[!UICONTROL Proposed Price]**— 卖方提出的价格。<p>如果报价中的所有项目都有锁定的项目折扣，则[!UICONTROL Negotiated Price]部分将禁用，因为无法应用其他折扣。</p><p>如果产品具有未锁定的行项目折扣，则行项目折扣和报价级别折扣都将应用于产品价格。</p> |
 | [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 报价单中每个行项目的建议总价（含税或不含税），具体取决于配置中的[计税](../configuration-reference/sales/tax.md)设置。 |
 | [!UICONTROL Shipping & Handling] | 卖方在报价单的Shipping Information部分的Proposed Shipping Price字段中输入的金额。 如果该字段为空，则金额基于所选的配送方式。 |
 | [!UICONTROL Estimated Tax] | 在配置[显示设置](../configuration-reference/sales/tax.md)中指定的估计到期的税额。 |

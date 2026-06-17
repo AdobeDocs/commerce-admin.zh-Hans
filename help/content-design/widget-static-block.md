@@ -2,10 +2,23 @@
 title: 使用小组件定位块
 description: 了解如何使用静态块构件将现有内容几乎放置在存储中的任意位置。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -66,11 +79,11 @@ _CMS静态块_ [小组件](widgets.md)使您能够将现有[内容块](blocks.md
 | [!UICONTROL Anchor Categories] | 在锚点类别页面上显示构件。<br/>**[!UICONTROL Categories]**— 显示锚点的类别。 选项： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
 | [!UICONTROL Non-Anchor Categories] | 在非锚点类别页面上显示构件。<br/>**[!UICONTROL Categories]**— 显示锚点的类别。 选项： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
 | **_[!UICONTROL Products]_** |  |
-| 所有产品类型 | 在特定类型的产品页面上或所有产品页面上显示构件。 <br/>**[!UICONTROL Products]**— 显示小组件的产品。 选项： `All` /` Specific Products`<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
+| 所有产品类型 | 在特定类型的产品页面上或所有产品页面上显示构件。<br/>**[!UICONTROL Products]**— 显示小组件的产品。 选项： `All` /` Specific Products`<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
 | **_[!UICONTROL Generic Pages]_** |  |
-| [!UICONTROL All Pages] | 在所有页面上显示构件。 <br/>**[!UICONTROL Container]**— 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]** — 确定布局的主题。 |
-| [!UICONTROL Specified Page] | 显示特定页面上的构件。 选项：<br/>**[!UICONTROL Page]**— 显示小组件的页面。<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**模板** — 确定布局的主题。 |
-| [!UICONTROL Page Layouts] | 在具有特定布局的页面上显示构件。 <br/>**[!UICONTROL Page]**— 显示小组件的页面。<br/>**[!UICONTROL Container]** — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
+| [!UICONTROL All Pages] | 在所有页面上显示构件。<br/>**[!UICONTROL Container]**— 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**  — 确定布局的主题。 |
+| [!UICONTROL Specified Page] | 显示特定页面上的构件。 选项：<br/>**[!UICONTROL Page]**— 显示小组件的页面。<br/>**[!UICONTROL Container]**  — 将容器设置为要显示小组件的页面布局部分。<br/>**模板** — 确定布局的主题。 |
+| [!UICONTROL Page Layouts] | 在具有特定布局的页面上显示构件。<br/>**[!UICONTROL Page]**— 显示小组件的页面。<br/>**[!UICONTROL Container]**  — 将容器设置为要显示小组件的页面布局部分。<br/>**[!UICONTROL Template]**— 确定布局的主题。 |
 
 {style="table-layout:auto"}
 

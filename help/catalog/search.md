@@ -3,9 +3,25 @@ title: 目录搜索概述
 description: 了解客户可用于在店面中查找产品的快速搜索和高级搜索工具。
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/PV3ZrkqHaUZw-2LFHCNKUeDcvJmkvFcuoR3ZxxURP54
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: 541
 ht-degree: 0%
 
 ---
@@ -26,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Commerce中的本机搜索功能提供完全匹配的搜索结果。 而[!DNL Live Search]&#x200B;(可在Adobe Commerce中安装和启用的可选模块)的实施方式不同，结果不限于确切的搜索字符串。 例如，您有10个编号为&#x200B;_Omega_&#x200B;的产品：搜索`Omega 1`将导致&#x200B;_Omega 1_&#x200B;与本机搜索功能有一个匹配。 但是，由Live Search提供支持的同一搜索字符串将匹配多个项目&#x200B;_Omega 1_&#x200B;和&#x200B;_Omega 10_。
+>Commerce中的本机搜索功能提供完全匹配的搜索结果。 而[!DNL Live Search]（可在Adobe Commerce中安装和启用的可选模块）的实施方式不同，结果不限于确切的搜索字符串。 例如，您有10个编号为&#x200B;_Omega_&#x200B;的产品：搜索`Omega 1`将导致&#x200B;_Omega 1_&#x200B;与本机搜索功能有一个匹配。 但是，由Live Search提供支持的同一搜索字符串将匹配多个项目&#x200B;_Omega 1_&#x200B;和&#x200B;_Omega 10_。
 
 ## 快速搜索
 

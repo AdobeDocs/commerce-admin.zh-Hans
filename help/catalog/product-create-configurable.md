@@ -3,9 +3,26 @@ title: 可配置产品
 description: 了解如何创建可配置的产品，以便为购物者提供用于选择的变体。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
+TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: 1994
 ht-degree: 0%
 
 ---
@@ -14,7 +31,7 @@ ht-degree: 0%
 
 可配置产品显示为单个产品，其中包含变体（如颜色或大小）的下拉选项。 每个变体都是一个单独的简单产品，具有自己的SKU，支持单独的库存跟踪 — 与具有自定义选项的简单产品不同。
 
-**最适合：**&#x200B;具有多个选项（颜色、大小、材质等）的产品，您需要跟踪每个变体的库存。 初始设置需要较长时间，但提供了更好的可扩展性。
+**最适合：**&#x200B;具有多个选项（颜色、大小、材质等）的产品 需要在其中跟踪每个变体的库存。 初始设置需要较长时间，但提供了更好的可扩展性。
 
 ![可配置的产品](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -112,7 +129,7 @@ ht-degree: 0%
    >
    >可配置产品必须始终具有权重。 如果您从下拉列表中选择&#x200B;**[!UICONTROL This item has no weight]**，则在您保存产品时，它会自动更改为&#x200B;**[!UICONTROL This item has weight]**。
 
-1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的默认`Catalog, Search`设置。
+1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
 1. 若要在[新产品](../content-design/widget-new-products-list.md)的列表中包含该产品，请选中&#x200B;**[!UICONTROL Set Product as New]**&#x200B;复选框。
 
@@ -302,7 +319,7 @@ ht-degree: 0%
 
 ### 步骤10：添加产品图像
 
-1. 向下滚动并展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Images and Videos]_。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;_摄像头_&#x200B;图块，并浏览到用于可配置产品的主图像。
 
@@ -338,7 +355,7 @@ ht-degree: 0%
 
    - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-   - 要查看您商店中的产品，请在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理员&#x200B;_（_&#x200B;菜单箭头![&#x200B; ）菜单上选择](../assets/icon-menu-down-arrow-black.png)。
+   - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
 
    该存储将在新的浏览器选项卡中打开。
 
@@ -382,7 +399,7 @@ ht-degree: 0%
 
 ### 手动库存状态更改
 
-如果您手动将Stock状态设置为`Out of Stock`（通过管理员用户操作、文件导入或API调用），则在手动将其更改回`Out of Stock`之前，它会在管理员和店面中保留`In Stock`。 它不受子产品库存状态的影响。
+如果您手动将Stock状态设置为`Out of Stock`（通过管理员用户操作、文件导入或API调用），则在手动将其更改回`In Stock`之前，它会在管理员和店面中保留`Out of Stock`。 它不受子产品库存状态的影响。
 
 ## 系统配置（可选）
 
@@ -394,7 +411,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Shopping Cart]_。
+1. 展开&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 将&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;设置为`Product Thumbnail Itself`。
 
@@ -408,7 +425,7 @@ ht-degree: 0%
 
 - **库存跟踪：**&#x200B;与具有自定义选项的简单产品不同，可配置产品会单独跟踪每个变体的库存。
 
-- **子产品类型：**&#x200B;子产品可以是简单或虚拟产品&#x200B;**没有自定义选项**。 若要使子产品成为虚拟产品，请为每个子产品的`Тhis item has no weight`设置选择&#x200B;**[!UICONTROL Weight]**。
+- **子产品类型：**&#x200B;子产品可以是简单或虚拟产品&#x200B;**没有自定义选项**。 若要使子产品成为虚拟产品，请为每个子产品的&#x200B;**[!UICONTROL Weight]**&#x200B;设置选择`Тhis item has no weight`。
 
 - **全局分配：**&#x200B;子产品同时在所有网站、商店和商店视图中进行全局分配和取消分配&#x200B;**全局分配**。
 

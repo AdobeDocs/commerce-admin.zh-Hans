@@ -2,10 +2,25 @@
 title: 添加和删除页面
 description: 了解如何添加和删除 [!DNL Commerce] 商店中使用的内容页面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1216
 ht-degree: 0%
 
 ---
@@ -40,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->页面生成器内容编辑器不显示CMS页面元素的预览，这些元素在默认商店视图中不可用。 例如，您无法预览仅分配给非默认存储视图的CMS块。 在这种情况下，您必须先发布CMS页面。 然后，您可以直接在店面中查看此页面。 或者，您可以通过选择[!UICONTROL Pages]列中的CMS页面[!UICONTROL View]，从管理员的[!UICONTROL Action]网格中查看该页面。
+>页面生成器内容编辑器不显示CMS页面元素的预览，这些元素在默认商店视图中不可用。 例如，您无法预览仅分配给非默认存储视图的CMS块。 在这种情况下，您必须先发布CMS页面。 然后，您可以直接在店面中查看此页面。 或者，您可以通过选择[!UICONTROL Action]列中的CMS页面[!UICONTROL View]，从管理员的[!UICONTROL Pages]网格中查看该页面。
 
 #### 使用页面生成器内容工具
 
@@ -136,7 +151,7 @@ ht-degree: 0%
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)要计划设计更改，请展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;并执行以下操作：
+1. ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）要计划设计更改，请展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;并执行以下操作：
 
    ![自定义设计更新](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
@@ -150,13 +165,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回页面网格。
 
-1. 在网格中查找该页面，并在&#x200B;**[!UICONTROL View]**&#x200B;列中选择&#x200B;_[!UICONTROL Action]_。
+1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
 
 1. 要返回到网格，请单击浏览器窗口左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步骤8：发布页面
 
-1. 在网格的&#x200B;**[!UICONTROL Edit]**&#x200B;列中选择&#x200B;_[!UICONTROL Action]_。
+1. 在网格的&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
@@ -170,7 +185,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中，找到要复制的页面，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;列中的&#x200B;_[!UICONTROL Action]_。
+1. 在网格中，找到要复制的页面，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Duplicate]**。
 

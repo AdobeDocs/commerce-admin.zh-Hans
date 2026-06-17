@@ -7,9 +7,25 @@ feature-set: Commerce
 role: Admin
 level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
-source-git-commit: d3c5f0da47bfd951431213050546e865c6ab35ec
+TQID: https://experienceleague.adobe.com/H-dTFXAVolrnH6j72tou-NCEcv38NyZdtwhnk0xxX-0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: 1196
 ht-degree: 0%
 
 ---
@@ -60,7 +76,7 @@ ht-degree: 0%
 
 ### 修改角色
 
-1. 找到要修改的角色，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;列中的&#x200B;**[!UICONTROL Actions]**。
+1. 找到要修改的角色，然后单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 对名称和权限设置进行必要的更改。
 
@@ -68,19 +84,19 @@ ht-degree: 0%
 
 ### 复制角色
 
-1. 找到要复制的角色，然后单击&#x200B;**[!UICONTROL Duplicate]**&#x200B;列中的&#x200B;**[!UICONTROL Actions]**。
+1. 找到要复制的角色，然后单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 对名称和权限设置进行必要的更改。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Role]**。
 
-### Delete a role
+### 删除角色
 
-1. In the list of roles, find the role to delete.
+1. 在角色列表中，找到要删除的角色。
 
    只能删除未分配用户的角色。
 
-1. Click **[!UICONTROL Delete]** in the **[!UICONTROL Actions]** column.
+1. 单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Delete]**。
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL OK]**。
 
@@ -100,11 +116,11 @@ B2B功能由&#x200B;**权限** （ACL资源）控制。 当公司用户打开页
 
 公司管理员可以通过选择&#x200B;**[!UICONTROL Edit]**，然后选择或清除&#x200B;**[!UICONTROL Role Permissions]**&#x200B;列表中的权限来更新角色的权限配置。
 
-![Roles and Permissions list](./assets/role-permissions-list.png){width="700" zoomable="yes"}
+![角色和权限列表](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
-Assign these resources when you **create or edit a company role** in the company account. Users with permission to manage roles can open the role form and set the permission tree.
+在公司帐户中&#x200B;**创建或编辑公司角色**&#x200B;时分配这些资源。 有权管理角色的用户可以打开角色表单并设置权限树。
 
-Role permissions are organized in a tree structure, with main options and subordinate options. Selecting a main option automatically selects all subordinate options. Clearing a main option automatically clears all subordinate options. You can also select or clear subordinate options individually.
+角色权限以树结构组织，包含主要选项和从属选项。 选择主选项会自动选择所有从属选项。 清除主选项会自动清除所有从属选项。 您还可以单独选择或清除下属选项。
 
 ### 所有权限
 
@@ -137,24 +153,24 @@ Role permissions are organized in a tree structure, with main options and subord
 | 编辑（下属的引号） | 编辑下属的引号。 |
 | 删除（下属的引号） | 删除下属的引号。 |
 
-### Quote templates
+### 报价模板
 
-Parent node: **Quote Templates** (under **Quotes** in the company tree).
+父节点： **报价模板**（在公司树中的&#x200B;**报价**&#x200B;下）。
 
 | 权限标签 | 描述 |
 | --- | --- |
-| Quote Templates | Parent for quote template capabilities on the storefront. |
+| 报价模板 | 店面报价模板功能的父级。 |
 | 视图（模板） | 查看报价模板。 |
 | 请求、编辑、删除 | 创建、更新、取消和管理报价模板。 |
 | 从模板生成报价 | 从模板生成可转让报价。 |
 | 管理下属用户的报价模板 | 从属模板操作的父级。 |
 | 查看（下属的模板） | 查看下属的报价模板。 |
 | 编辑（下属的模板） | 编辑下属的报价模板。 |
-| Delete (subordinates&#39; templates) | Delete subordinates&#39; quote templates. |
+| 删除（下属的模板） | 删除下属的报价模板。 |
 
-### Order approvals
+### 订单审批
 
-Parent node: **Order Approvals**. Purchase order and approval rule permissions are nested under this branch in the tree.
+父节点： **订单审批**。 采购订单和审批规则权限嵌套在树中的此分支下。
 
 ### 采购订单
 
@@ -197,13 +213,13 @@ Parent node: **Order Approvals**. Purchase order and approval rule permissions a
 | 查看角色和权限 | 查看公司角色及其权限。 |
 | 管理角色和权限 | 创建或编辑角色并分配权限。 |
 | 查看用户和团队 | 查看公司用户和团队。 |
-| 管理用户和团队 | Add, edit, or remove users and teams. |
+| 管理用户和团队 | 添加、编辑或删除用户和团队。 |
 
-## Company credit
+## 公司信用
 
 | 权限标签 | 描述 |
 | --- | --- |
-| Company Credit | Access the company credit area. |
+| 公司信用 | 访问公司信用区域。 |
 | 查看（信用历史记录） | 查看公司信用历史记录和相关余额信息。 |
 
 ## 将角色分配给公司用户

@@ -3,9 +3,22 @@ title: 配送标签
 description: 了解定期装运和带退货授权产品的装运标签工作流。
 exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/Cjf9-372TRGIfWXpWR20OUII5XorPdfO1qgG-b2yPYI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: 314
 ht-degree: 0%
 
 ---
@@ -43,4 +56,4 @@ Commerce与装运承运人联系，并在该承运人的系统中创建订单。
 
 ### 步骤4：商家下载并打印标签
 
-生成装运标签后，保存新装运并打印标签。 如果由于连接问题或任何其他原因无法创建装运标签，则不会创建装运。 根据您的浏览器设置，可以打开和打印PDF文件。 每个标签均显示在PDF中的单独页面上。
+生成装运标签后，保存新装运并打印标签。 如果由于连接问题或任何其他原因无法创建装运标签，则不会创建装运。 根据您的浏览器设置，可以打开和打印PDF文件。 在PDF中，每个标签都会显示在单独的页面上。

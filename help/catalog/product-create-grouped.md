@@ -3,9 +3,25 @@ title: 已分组的产品
 description: 了解如何创建由简单独立产品组成的分组产品，这些产品以组形式呈现。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/-DMUSccWFP4b7NwCSbsOva58MknalK5oMSsElF-8Gzg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: 1084
 ht-degree: 0%
 
 ---
@@ -144,7 +160,7 @@ ht-degree: 0%
 - [设计](settings-advanced-design.md)
 - [礼品选项](product-gift-options.md)
 
-## 步骤6：Publish产品
+## 步骤6：发布产品
 
 1. 如果您已准备好发布目录中的产品，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;设置为`Yes`。
 

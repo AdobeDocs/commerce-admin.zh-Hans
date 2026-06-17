@@ -1,11 +1,27 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]'
-description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]页面上的配置设置。
+title: '[!UICONTROL Sales] > [!UICONTROL Sales]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Sales]页面上的配置设置。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/n6xnRBJsLGouJgUcsf3EPhj5B1ny8RK3mV0bRbJIr30
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: 1238
 ht-degree: 1%
 
 ---
@@ -47,7 +63,7 @@ ht-degree: 1%
 
 ![重新排序](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -123,13 +139,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Promotions]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 ![促销活动设置](./assets/sales-promotions-settings.png)<!-- zoom -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全局 | 当层价格的数量设置为[时，为目录价格规则](../../catalog/product-price-tier.md)启用`1`层定价。  选项： `Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全局 | 当层价格的数量设置为`1`时，为目录价格规则[&#128279;](../../catalog/product-price-tier.md)启用层定价。  选项： `Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 
@@ -141,11 +157,11 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | 网站 | 指定是否可以为整个订单添加礼品消息。 |
 | [!UICONTROL Allow Gift Messages on Order Items] | 网站 | 指定是否可以为单个订单物料添加礼品消息。 |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定是否可以为整个订单添加礼品包装。 |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定是否可以为单个订单项添加礼品包装。 |
-| [!UICONTROL Allow Gift Receipt] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定是否可以为订单添加礼品收据。 |
-| [!UICONTROL Allow Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定是否可以为订单添加打印卡。 |
-| [!UICONTROL Default Price for Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)指定打印卡片的默认价格。 |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定是否可以为整个订单添加礼品包装。 |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定是否可以为单个订单项添加礼品包装。 |
+| [!UICONTROL Allow Gift Receipt] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定是否可以为订单添加礼品收据。 |
+| [!UICONTROL Allow Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定是否可以为订单添加打印卡。 |
+| [!UICONTROL Default Price for Printed Card] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）指定打印卡片的默认价格。 |
 
 {style="table-layout:auto"}
 
@@ -153,12 +169,12 @@ ht-degree: 1%
 
 ![最低广告价格](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable MAP] | 网站 | 为您的商店激活最低广告价格。 选项： `Yes` / `No` |
-| [!UICONTROL Display Actual Price] | 网站 | 确定客户可在何处看到产品的实际价格。 选项： <br/>**`In Cart`**— 显示购物车中的实际产品价格。<br/>**`Before Order Confirmation`** — 在订单确认之前显示结账流程结束时的实际产品价格。 <br/>**`On Gesture`**— 当客户单击“点击价格”或“这是什么？”时，在弹出窗口中显示实际产品价格 链接。 |
+| [!UICONTROL Display Actual Price] | 网站 | 确定客户可在何处看到产品的实际价格。 选项： <br/>**`In Cart`**— 显示购物车中的实际产品价格。<br/>**`Before Order Confirmation`** — 在订单确认之前显示结账流程结束时的实际产品价格。<br/>**`On Gesture`**— 当客户单击“点击价格”或“这是什么？”时，在弹出窗口中显示实际产品价格 链接。 |
 | [!UICONTROL Default Popup Text Message] | 商店视图 | 客户从类别列表或产品查看页面选择“点击价格”链接时显示的文本消息。 |
 | [!UICONTROL Default "What's This" Text Message] | 商店视图 | 客户单击“这是什么？”时显示的短信 产品查看页面中的链接。 |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | 全局 | 制造商建议的零售价(MSRP)。 |
@@ -189,7 +205,7 @@ ht-degree: 1%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | 网站 | 确定客户帐户控制面板中是否提供按SKU排序的功能。 选项： <br/>**`Yes, for Everyone`**— “按SKU排序”选项卡出现在所有客户的帐户信息板中。<br/>**`Yes, for Specified Customer Groups`** — “按SKU排序”选项卡显示在指定组或共享目录成员的帐户仪表板中。 <br/>**`No`**- Order by SKU选项卡在客户帐户中不可用。 |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | 网站 | 确定客户帐户控制面板中是否提供按SKU排序的功能。 选项： <br/>**`Yes, for Everyone`**— “按SKU排序”选项卡出现在所有客户的帐户信息板中。<br/>**`Yes, for Specified Customer Groups`** — “按SKU排序”选项卡显示在指定组或共享目录成员的帐户仪表板中。<br/>**`No`**- Order by SKU选项卡在客户帐户中不可用。 |
 | [!UICONTROL Customer Groups] | 网站 | 确定客户组。 选项： `General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
@@ -202,7 +218,7 @@ ht-degree: 1%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 商店视图 | 为商店视图启用即时购买(如果付款方法(如Braintree)启用了保险库)。 选项： `Yes` / `No` |
+| [!UICONTROL Enabled] | 商店视图 | 为商店视图启用即时购买(如果付款方法（如Braintree）启用了保险库)。 选项： `Yes` / `No` |
 | [!UICONTROL Button Text] | 商店视图 | 指定在“即时购买”按钮上显示的文本。 默认文本为`Instant Purchase`。 |
 
 {style="table-layout:auto"}
@@ -226,7 +242,7 @@ ht-degree: 1%
 
 ![订单、发票、装运、贷项通知单存档](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅[商店和购买体验指南](../../stores-purchase/order-archive.md#configure-the-order-archive)中的&#x200B;_配置订单存档_。
+有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[配置订单存档](../../stores-purchase/order-archive.md#configure-the-order-archive)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -242,7 +258,7 @@ ht-degree: 1%
 
 ![RMA设置](./assets/sales-rma-settings.png)<!-- zoom -->
 
-有关更改这些设置的详细信息，请参阅[商店和购买体验指南](../../stores-purchase/rma-configure.md)中的&#x200B;_配置退货_。
+有关更改这些设置的详细信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[配置退货](../../stores-purchase/rma-configure.md)。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

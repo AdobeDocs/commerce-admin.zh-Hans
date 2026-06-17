@@ -3,9 +3,25 @@ title: 布局 — 列
 description: 了解“列”内容类型，该内容类型用于将页面在 [!DNL Page Builder] 阶段划分为多个列。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: 1576
 ht-degree: 0%
 
 ---
@@ -44,7 +60,7 @@ ht-degree: 0%
 
 ## 列网格
 
-[网格](workspace.md)可确保内容在列中保持一致，并帮助页面在桌面和移动设备上正确呈现。 有关详细信息，请参阅[配置的](setup.md)高级内容工具[!DNL Page Builder]部分。
+[网格](workspace.md)可确保内容在列中保持一致，并帮助页面在桌面和移动设备上正确呈现。 有关详细信息，请参阅[!DNL Page Builder]配置的[高级内容工具](setup.md)部分。
 
 ![具有一列的行上的网格分区](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,7 +70,7 @@ ht-degree: 0%
 
 ## 添加列
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，将&#x200B;**[!UICONTROL Column]**&#x200B;拖到舞台上。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**&#x200B;拖到舞台上。
 
    ![将列拖到舞台上](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -64,7 +80,7 @@ ht-degree: 0%
 
 1. 在列组的左上角，单击&#x200B;_网格_&#x200B;工具（![网格控件](./assets/pb-icon-grid-control.png)）并根据需要调整网格大小。
 
-   将内容放在网格上有助于使内容保持一致，并在桌面和移动设备上正确呈现页面。 有关详细信息，请参阅[配置的](../configuration-reference/general/content-management.md)高级内容工具[!DNL Page Builder]部分。
+   将内容放在网格上有助于使内容保持一致，并在桌面和移动设备上正确呈现页面。 有关详细信息，请参阅[!DNL Page Builder]配置的[高级内容工具](../configuration-reference/general/content-management.md)部分。
 
    ![两列上的网格分区](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 

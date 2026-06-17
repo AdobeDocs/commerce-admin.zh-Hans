@@ -3,9 +3,23 @@ title: 配置希望列表
 description: 了解如何为商店客户配置愿望清单功能。
 exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 feature: Customers, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -26,9 +40,9 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Enabled]**&#x200B;切换为`Yes`，这将为存储激活愿望列表模块。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)将&#x200B;**[!UICONTROL Enable Multiple Wish Lists]**&#x200B;切换为`Yes`，这允许客户创建和维护多个愿望清单。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）将&#x200B;**[!UICONTROL Enable Multiple Wish Lists]**&#x200B;切换为`Yes`，这允许客户创建和维护多个愿望清单。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)若要限制客户可与其帐户关联的愿望清单数量，请输入&#x200B;**[!UICONTROL Number of Multiple Wish Lists]**&#x200B;的值。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）若要限制客户可与其帐户关联的愿望清单数量，请输入&#x200B;**[!UICONTROL Number of Multiple Wish Lists]**&#x200B;的值。
 
    - 将&#x200B;**[!UICONTROL Show in Sidebar]**&#x200B;切换为`Yes`，这将在侧栏中显示愿望清单。
 
@@ -55,7 +69,7 @@ ht-degree: 0%
 
 ## 添加愿望清单搜索
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 
 可以使用愿望清单搜索[小组件](../content-design/widgets.md)找到任何公开的愿望清单。 该构件允许客户按希望列表所有者的姓名或电子邮件地址进行搜索。 商店客户可以找到属于其他客户的愿望清单、查看这些愿望清单并从他们那里订购产品，或者将产品添加到他们自己的愿望清单中。 如果某个项目是由另一个客户从公共愿望清单购买的，则它不会从原始愿望清单中删除。 可以将&#x200B;_愿望清单搜索_&#x200B;构件添加到商店的任何页面，以便客户轻松查找朋友和家人的愿望清单。
 

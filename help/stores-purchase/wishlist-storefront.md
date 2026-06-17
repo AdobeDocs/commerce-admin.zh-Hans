@@ -3,9 +3,23 @@ title: 希望列表店面体验
 description: 了解您的客户在店面中可用的愿望清单管理工具。
 exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 862
 ht-degree: 0%
 
 ---
@@ -18,11 +32,11 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce支持每个客户帐户使用多个愿望清单。
 
-![Magento Open Source](../assets/open-source.svg)Magento Open Source代码库支持每个客户帐户使用单一愿望清单。
+![Magento Open Source](../assets/open-source.svg) Magento Open Source代码库支持为每个客户帐户使用单一愿望清单。
 
 ## 创建愿望清单
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 
 在店面，客户可以从其帐户仪表板、产品页面、目录页面和购物车创建愿望清单。
 
@@ -129,7 +143,7 @@ ht-degree: 0%
 
 ### 将项目移动到其他列表
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 
 1. 客户选中要移动的每个项目的复选框。
 
@@ -140,7 +154,7 @@ ht-degree: 0%
 
 ### 将项目复制到其他列表
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 
 1. 选中要移动的每个项目的复选框。
 
@@ -151,7 +165,7 @@ ht-degree: 0%
 
 ## 删除愿望清单
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 
 1. 客户打开要删除的愿望清单。
 

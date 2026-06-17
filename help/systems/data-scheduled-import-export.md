@@ -3,9 +3,25 @@ title: 计划的导入和导出
 description: 了解如何管理计划的数据导入和导出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: 2462
 ht-degree: 0%
 
 ---
@@ -159,7 +175,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | 导入的名称。 帮助您区分是否创建了许多不同的计划导入。 |
 | [!UICONTROL Description] | （可选）您可以输入说明。 |
 | [!UICONTROL Entity Type] | 定义要导入的数据。 |
-| [!UICONTROL Import Behavior] | 定义当要导入的实体存在于数据库中时如何处理复杂数据。 产品的复杂数据包括类别、网站、自定义选项、层价格、相关产品、向上销售、交叉销售和相关产品数据。 客户的复杂数据包括地址。 选项：<br>**[!UICONTROL Add/Update Complex Data]**— 将新的复杂数据添加到或更新到数据库中现有条目的现有复杂数据。 这是默认值。<br>**[!UICONTROL Add/Update]** — 新数据已添加到数据库中的现有条目。 可以为产品更新除`sku`之外的所有字段。 导入后，CSV文件中未列出的任意多个字段值（例如类别或网站）将保留在数据库中。<br>**[!UICONTROL Replace]**— 替换现有实体的现有复杂数据。<br>**[!UICONTROL Delete Entities]** — 如果导入的实体存在于数据库中，则会从数据库中删除它们。<br>**[!UICONTROL Custom Action]**— 在导入过程中自定义现有的复杂实体。 |
+| [!UICONTROL Import Behavior] | 定义当要导入的实体存在于数据库中时如何处理复杂数据。 产品的复杂数据包括类别、网站、自定义选项、层价格、相关产品、向上销售、交叉销售和相关产品数据。 客户的复杂数据包括地址。 选项：<br>**[!UICONTROL Add/Update Complex Data]**— 将新的复杂数据添加到或更新到数据库中现有条目的现有复杂数据。 这是默认值。<br>**[!UICONTROL Add/Update]**  — 新数据将添加到数据库中的现有条目。 可以为产品更新除`sku`之外的所有字段。 导入后，CSV文件中未列出的任意多个字段值（如类别或网站）将保留在数据库中。<br>**[!UICONTROL Replace]**— 已替换现有实体的现有复杂数据。<br>**[!UICONTROL Delete Entities]**  — 如果导入的实体存在于数据库中，则会从数据库中删除它们。<br>**[!UICONTROL Custom Action]**— 在导入过程中自定义现有的复杂图元。 |
 | [!UICONTROL Start Time] | 设置导入的开始时间（小时、分钟和秒）。 |
 | [!UICONTROL Frequency] | 定义导入的运行频率。 选项： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | 定义在文件验证期间发现错误时的系统行为。 选项：<br>**停止导入** — 如果在验证期间发现任何错误，则不会导入文件。 这是默认值。<br>**继续处理** — 如果在验证期间发现错误，但可以进行导入，则导入文件。 |

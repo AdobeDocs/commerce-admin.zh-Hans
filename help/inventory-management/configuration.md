@@ -1,11 +1,27 @@
 ---
-title: “配置 [!DNL Inventory Management]”
+title: 配置 [!DNL Inventory Management]
 description: 了解 [!DNL Inventory Management] 选项的配置，这些选项决定源可用性、店面产品和订单装运。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -34,12 +50,12 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Manage Stock] | 允许[!DNL Commerce]管理所有库存。 如果对此产品或[!DNL Commerce]中的所有产品使用库存控制，则进行设置。 当设置为`Yes`时显示更多选项。 |
 | [!UICONTROL Only X left Threshold] | 设置某个数量，该数量在某个特定数量可购买时通知。 此金额在库存级别进行跟踪。 |
-| [!UICONTROL Out-of-Stock Threshold] | 您的安全库存，用于触发缺货通知并减轻缺货风险的数量。 此值会影响延交订单。 选项：<br />**[!UICONTROL No Backorders]**：产品缺货时不接受延交。<br />**[!UICONTROL Allow Qty Below 0]**：在数量低于零时接受延交订单。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在数量低于零时接受延交订单，但通知客户仍然可以下订单。<br /><br />**[!UICONTROL Backorders disabled]**：建议输入大于0的正值，如5或25。 <br/>**[!UICONTROL Backorders enabled]**：为允许延期交货的最大数量输入负阈值，如–5或–25。 值为0表示无限库存。 正值将被忽略并视为0。 |
+| [!UICONTROL Out-of-Stock Threshold] | 您的安全库存，用于触发缺货通知并减轻缺货风险的数量。 此值会影响延交订单。 选项：<br />**[!UICONTROL No Backorders]**：产品缺货时不接受延交订单。<br />**[!UICONTROL Allow Qty Below 0]**：在数量低于零时接受延交订单。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在数量低于零时接受延交订单，但通知客户仍然可以下订单。<br /><br />**[!UICONTROL Backorders disabled]**：建议输入大于0的正值，如5或25。 <br/>**[!UICONTROL Backorders enabled]**：为允许延期交货的最大数量输入负阈值，如–5或–25。 值为0表示无限库存。 正值将被忽略并视为0。 |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 设置单个订单中可购买产品的最小数量。 |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 设置单个订单中可购买产品的最大数量。 |
 | [!UICONTROL Qty Uses Decimals] | 允许产品数量的小数金额而不是整数。 此设置有助于按重量、体积或长度销售产品。 在Source级别指定，根据分配的源在库存级别计算。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 确定产品部件是否可以单独发运。 当&#x200B;**[!UICONTROL Qty Uses Decimals]** = `Yes`时，此选项可见。 |
-| [!UICONTROL Backorders] | 指示是否允许延交订单。 在Source级别指定，根据分配的源在库存级别计算。 如果启用以允许延交，则建议为缺货阈值设置负值（请参阅[配置延交](backorders.md)）。 选项：<br />**[!UICONTROL No Backorders]**：产品缺货时不接受延交。<br />**[!UICONTROL Allow Qty Below 0]**：在数量低于零时接受延交订单。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在数量低于零时接受延交订单，但通知客户仍然可以下订单。 |
+| [!UICONTROL Backorders] | 指示是否允许延交订单。 在Source级别指定，根据分配的源在库存级别计算。 如果启用以允许延交，则建议为缺货阈值设置负值（请参阅[配置延交](backorders.md)）。 选项：<br />**[!UICONTROL No Backorders]**：产品缺货时不接受延交订单。<br />**[!UICONTROL Allow Qty Below 0]**：在数量低于零时接受延交订单。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在数量低于零时接受延交订单，但通知客户仍然可以下订单。 |
 | [!UICONTROL Notify for Quantity Below] | 设置触发“低于数量”通知（库存不足警告）的数量。 此金额从可销售数量中扣除，而不是从库存数量中扣除。 |
 | [!UICONTROL Enable Qty Increments] | 确定产品是否可以按数量递增销售。 如果启用，请输入增量步骤中必须购买的产品数量。 增量设置作为单个产品以及可配置、分组和捆绑产品的子产品必须购买的产品项目数。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management]不使用此值。 当您完成退货或贷项通知单时，产品数量会自动返回至受影响的来源数量。 请参阅[配置产品选项](product-options.md)。 |
@@ -58,6 +74,6 @@ ht-degree: 0%
 
 例如，您可以使用类似于以下内容的配置，在商店中按不同方式配置延交订单：
 
-- _全局：_&#x200B;启用商店的延期交货，将缺货阈值设置为`-50`
+- 全局启用&#x200B;:_为存储启用延交，将缺货阈值设置为`-50`(_O)
 
-- _产品：_&#x200B;禁用特定产品的延期交货，将缺货阈值设置为`10`
+- 产品&#x200B;:_禁用特定产品的延交订单，将缺货阈值设置为`10`(_Product)

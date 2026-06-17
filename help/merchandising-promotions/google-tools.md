@@ -3,9 +3,28 @@ title: Google站点工具
 description: 了解可用于优化内容、分析流量并将目录连接到购物聚合和市场的Google工具集成。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 662
 ht-degree: 0%
 
 ---
@@ -16,7 +35,7 @@ ht-degree: 0%
 
 - [Google Analytics](google-analytics.md) — 使用&#x200B;_Google Universal Analytics_&#x200B;定义额外的自定义维度和量度以进行跟踪，支持离线和移动设备应用程序交互，并可访问正在进行的更新。
 
-- [Google标签管理器](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)使用Google标签管理器管理许多与营销活动事件相关的标签。
+- [Google标签管理器](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）使用Google标签管理器管理许多与营销活动事件相关的标签。
 
 - [Google AdWords](google-adwords.md) — 创建Google AdWords促销活动并跟踪您应用商店的转化情况。
 
@@ -56,9 +75,9 @@ ht-degree: 0%
 
    - 单击&#x200B;**[!UICONTROL Manage DPA Details]**&#x200B;打开DPA管理页面，您可以在其中编辑联系人和贵组织的法人。
 
-   - 在&#x200B;**[!UICONTROL Legal Entities]**&#x200B;部分中，单击&#x200B;_编辑_ (![Google编辑图标](./assets/google-icon-edit.png) )图标，并为您的组织添加一个或多个注册名称。 完成后，单击&#x200B;**[!UICONTROL Save]**。
+   - 在&#x200B;**[!UICONTROL Legal Entities]**&#x200B;部分中，单击&#x200B;_编辑_ （![Google编辑图标](./assets/google-icon-edit.png) ）图标，并为您的组织添加一个或多个注册名称。 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-   - 在&#x200B;**联系人**&#x200B;部分中，单击&#x200B;_添加_ (![Google添加图标](./assets/google-icon-add.png) )图标，然后输入第一个联系人的信息。 接下来，选中每个适用角色的复选框，然后单击&#x200B;**[!UICONTROL Add]**。
+   - 在&#x200B;**联系人**&#x200B;部分中，单击&#x200B;_添加_ （![Google添加图标](./assets/google-icon-add.png) ）图标，然后输入第一个联系人的信息。 接下来，选中每个适用角色的复选框，然后单击&#x200B;**[!UICONTROL Add]**。
 
       - 主要联系人 — （通知电子邮件地址）接收通知的联系人。
       - 数据保护官员 — （如果适用）为推动隐私法规合规而指定的人员。
@@ -90,7 +109,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-要对&#x200B;**_Google Tag Manager_**&#x200B;使用的IP地址进行匿名处理，请将Web服务器上`anonymize_ip`库中的`true`参数设置为`gtag.js`。
+要对&#x200B;**_Google Tag Manager_**&#x200B;使用的IP地址进行匿名处理，请将Web服务器上`gtag.js`库中的`anonymize_ip`参数设置为`true`。
 
 gtag.js
 

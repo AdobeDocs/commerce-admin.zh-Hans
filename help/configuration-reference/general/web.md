@@ -1,11 +1,29 @@
 ---
-title: '[!UICONTROL General] &amp；gt； [!UICONTROL Web]'
-description: 查看Commerce管理员的[!UICONTROL General] &amp；gt； [!UICONTROL Web]页面上的配置设置。
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: 查看Commerce管理员的[!UICONTROL General] &gt； [!UICONTROL Web]页面上的配置设置。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1809
 ht-degree: 0%
 
 ---
@@ -50,7 +68,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Base URL] | 商店视图 | 未通过加密(SSL)渠道运行的Commerce根文件夹的完整地址。 URL必须以正斜杠结尾。 |
 | [!UICONTROL Base Link URL] | 商店视图 | 用作基本URL占位符的标记标记。 |
-| [!UICONTROL Base URL for Static View Files] | 商店视图 | 指向主题使用的静态文件(如css、字体、图像和JavaScript)位置的路径。 占位符用于表示基本URL。 如果Commerce安装具有多个具有相同文件夹结构的站点，则每个站点可以有不同的文件夹。 在输入静态视图文件的基本URL之前，将配置范围设置为正确的站点。 您还可以在Commerce安装之外指定文件夹。 |
+| [!UICONTROL Base URL for Static View Files] | 商店视图 | 指向主题使用的静态文件（如css、字体、图像和JavaScript）位置的路径。 占位符用于表示基本URL。 如果Commerce安装具有多个具有相同文件夹结构的站点，则每个站点可以有不同的文件夹。 在输入静态视图文件的基本URL之前，将配置范围设置为正确的站点。 您还可以在Commerce安装之外指定文件夹。 |
 | [!UICONTROL Base URL for User Media Files] | 商店视图 | 指向目录图像和其他媒体文件位置的路径。 占位符用于表示基本URL。 如果Commerce安装有多个具有相同文件夹结构的站点，则可以为每个站点使用不同的介质文件夹。 这使您能够分别备份和回滚每个介质文件夹。 您还可以在Commerce安装之外指定介质文件夹。 |
 
 {style="table-layout:auto"}
@@ -65,10 +83,10 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Secure Base URL] | 商店视图 | 使用加密安全(SSL/TLS)协议传送的Commerce根文件夹的完整地址。 URL必须以正斜杠结尾。 |
 | [!UICONTROL Secure Base Link URL] | 商店视图 | 标记标记，用作在安全渠道上运行的基础URL的占位符。 |
-| [!UICONTROL Secure Base URL for Static View Files] | 商店视图 | 指向主题使用的静态文件(如CSS、字体、图像和JavaScript)位置的标记标记。 文件可以在不安全的通道或安全通道上。 如果Commerce安装具有多个具有相同文件夹结构的站点，则每个站点可以有不同的文件夹。 在输入静态视图文件的基本URL之前，将配置范围设置为正确的站点。 您还可以在Commerce安装之外指定文件夹。 |
+| [!UICONTROL Secure Base URL for Static View Files] | 商店视图 | 指向主题使用的静态文件（如CSS、字体、图像和JavaScript）位置的标记标记。 文件可以在不安全的通道或安全通道上。 如果Commerce安装具有多个具有相同文件夹结构的站点，则每个站点可以有不同的文件夹。 在输入静态视图文件的基本URL之前，将配置范围设置为正确的站点。 您还可以在Commerce安装之外指定文件夹。 |
 | [!UICONTROL Secure Base URL for User Media Files] | 商店视图 | 指向目录图像和其他媒体文件位置的路径。 文件可以在不安全的通道或安全通道上。 占位符用于表示基本URL。 如果Commerce安装有多个具有相同文件夹结构的站点，则可以为每个站点使用不同的介质文件夹。 这使您能够分别备份和回滚每个介质文件夹。 您还可以在Commerce安装之外指定介质文件夹。 |
 | [!UICONTROL Use Secure URLs on Storefront] | 商店视图 | 如果您的域具有安全证书，您可以选择运行店面（无论是否使用SSL加密）。 选项：<br />**`Yes`**— 存储URL以`https`开头，表示页面是使用加密的安全协议交付的。<br />**`No`** — 存储URL以`http`开头，表示页面交付时没有安全协议。 |
-| [!UICONTROL Use Secure URLs in Admin] | 全局 | 如果您的域具有安全证书，则可以选择运行应用商店管理员，无论是否使用SSL加密。 选项： <br />**`Yes`**— 管理员URL以`https`开头，表示页面是使用加密的安全协议交付的。<br />**`No`** — 管理员URL以`http`开头，表示页面交付时没有安全协议。<br />为商店和管理员启用安全URL后，将显示两个额外的字段以启用和配置`HSTS`。 |
+| [!UICONTROL Use Secure URLs in Admin] | 全局 | 如果您的域具有安全证书，则可以选择运行应用商店管理员，无论是否使用SSL加密。 选项： <br />**`Yes`**— 管理员URL以`https`开头，表示该页面是使用加密的安全协议传送的。<br />**`No`**  — 管理员URL以`http`开头，表示页面交付时没有安全协议。<br /> 为存储区和管理员启用安全URL后，会显示两个额外的字段来启用和配置`HSTS`。 |
 | [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 商店视图 | 启用后，[`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)提供了针对“中间人”攻击的安全措施，并防止用户覆盖“无效证书”消息。 选项： `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | 商店视图 | 启用后，将从浏览器接收的不安全(`HTTP`)请求转换为安全(`HTTPS`)协议。 选项： `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 全局 | 指定服务器配置中的`offloader_header`值，以标识客户端和负载平衡器之间的协议。 大多数Commerce安装都使用默认值`X-Forwarded-Proto` (XFP)将协议标识为`HTTP`或`HTTPS`。 |
@@ -100,9 +118,9 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | 全局 | 确定默认用于产品页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于产品页面。<br/>**`Empty`** — 默认情况下，产品页面使用空白布局。 <br/>**`1 column`**— 默认情况下，产品页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于产品页面，使用左侧带有侧栏的双列布局。 <br/>**`2 columns with right bar`**— 默认情况下，对产品页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，产品页面使用左边栏和右边栏的三列布局。<br/>**`Page -- Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用产品页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用产品页面的“类别 — 全宽”布局。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用产品页面的“产品 — 全宽”布局。 |
-| [!UICONTROL Default Category Layout] | 全局 | 确定默认情况下用于类别页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于类别页面。<br/>**`Empty`** — 默认情况下，类别页面使用空白布局。 <br/>**`1 column`**— 默认情况下，对类别页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于类别页面，使用左侧带有侧栏的双列布局。 <br/>**`2 columns with right bar`**— 默认情况下，对类别页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于类别页面，使用左边栏和右边栏的三列布局。<br/>**`Page - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用类别页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用类别页面的类别 — 全宽布局。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用类别页面的“产品 — 全宽”布局。 |
-| 默认页面布局 | 全局 | 确定CMS页面默认使用的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不适用于CMS页面。<br/>**`Empty`** — 默认情况下，CMS页面使用空白布局。 <br/>**`1 column`**— 默认情况下，对CMS页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于CMS页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对于CMS页面，使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于CMS页面，使用左右两侧带有侧栏的三列布局。<br/>**`Page - Full Width`**— （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** — （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“类别 — 全宽”布局。 <br/>**`Product - Full Width`**— （需要[!DNL Page Builder]）默认情况下，使用CMS页面的“产品 — 全宽”布局。 |
+| [!UICONTROL Default Product Layout] | 全局 | 确定默认用于产品页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于产品页面。<br/>**`Empty`** — 默认情况下，产品页面使用空白布局。<br/>**`1 column`**— 默认情况下，产品页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于产品页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对产品页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对产品页面使用左右两侧带有侧栏的三列布局。<br/>**`Page -- Full Width`**— （需要[!DNL Page Builder]）默认情况下，使用产品页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用产品页面的“类别 — 全宽”布局。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用产品页面的“产品 — 全宽”布局。 |
+| [!UICONTROL Default Category Layout] | 全局 | 确定默认情况下用于类别页面的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不可用于类别页面。<br/>**`Empty`** — 默认情况下，对类别页面使用空白布局。<br/>**`1 column`**— 默认情况下，对类别页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于类别页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对类别页面使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于类别页面，使用左边栏和右边栏的三列布局。<br/>**`Page - Full Width`**— （需要[!DNL Page Builder]）默认情况下，使用类别页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）默认情况下，使用类别页面的类别 — 全宽布局。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用类别页面的“产品 — 全宽”布局。 |
+| 默认页面布局 | 全局 | 确定CMS页面默认使用的[布局](../../content-design/page-layout.md)。 选项： <br/>**`No layout updates`**— 默认情况下，布局更新不适用于CMS页面。<br/>**`Empty`** — 默认情况下，CMS页面使用空白布局。<br/>**`1 column`**— 默认情况下，对CMS页面使用单列布局。<br/>**`2 columns with left bar`** — 默认情况下，对于CMS页面，使用左侧带有侧栏的双列布局。<br/>**`2 columns with right bar`**— 默认情况下，对于CMS页面，使用右侧带有侧栏的双列布局。<br/>**`3 columns`** — 默认情况下，对于CMS页面，使用左右两侧带有侧栏的三列布局。<br/>**`Page - Full Width`**— （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“页面 — 全宽”布局。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）默认情况下，使用CMS页面的“类别 — 全宽”布局。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）默认情况下，使用CMS页面的“产品 — 全宽”布局。 |
 
 {style="table-layout:auto"}
 
@@ -126,7 +144,7 @@ ht-degree: 0%
 
 ![Web >会话验证](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -141,7 +159,7 @@ ht-degree: 0%
 
 ![Web >浏览器功能检测](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

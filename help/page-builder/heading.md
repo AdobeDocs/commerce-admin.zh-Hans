@@ -3,24 +3,38 @@ title: 元素 — 标题
 description: 了解标题内容类型，该内容类型用于将标题级别为H1到H6的文本容器添加到 [!DNL Page Builder] 阶段。
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
 
 # 元素 — 标题
 
-标题级别建立一个层次结构，用于组织内容并帮助搜索引擎为每个页面编制索引。 使用&#x200B;_阶段_&#x200B;中的[[!DNL Page Builder] 标题](workspace.md#stage)内容类型将标题级别为H1到H6的文本容器添加到阶段。 根据与当前主题关联的样式表设置标题的格式。
+标题级别建立一个层次结构，用于组织内容并帮助搜索引擎为每个页面编制索引。 使用[[!DNL Page Builder] 阶段](workspace.md#stage)中的&#x200B;_标题_&#x200B;内容类型将标题级别为H1到H6的文本容器添加到阶段。 根据与当前主题关联的样式表设置标题的格式。
 
-[部分中的](workspace.md)内容标题&#x200B;_[!UICONTROL Content]_&#x200B;字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
+_[!UICONTROL Content]_&#x200B;部分中的[内容标题](workspace.md)字段可用于将H1标题添加到页面顶部。 但是，该字段是以前[!DNL Commerce]版本的旧字段，用于支持旧内容。 此字段未利用[!DNL Page Builder]的高级功能。 建议您将“内容标题”字段留空，并使用[!DNL Page Builder]标题内容类型来向页面添加任何级别的标题。
 
 以下示例显示了使用Luma主题设置格式时，内容标题和标题内容类型的显示方式。
 
 ![店面的内容标题和标题级别](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-您可以将标题从&#x200B;_面板的_&#x200B;元素[!DNL Page Builder]区域拖到舞台上的行、列或选项卡集中。 可以通过舞台上的编辑器工具栏或者使用&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）控件来控制标题级别和对齐方式。
+您可以将标题从[!DNL Page Builder]面板的&#x200B;_元素_&#x200B;区域拖到舞台上的行、列或选项卡集中。 可以通过舞台上的编辑器工具栏或者使用&#x200B;_设置_ （![设置图标](./assets/pb-icon-settings.png){width="20"} ）控件来控制标题级别和对齐方式。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 

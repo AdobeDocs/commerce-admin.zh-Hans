@@ -3,16 +3,37 @@ title: '[!DNL Google Analytics]'
 description: 了解如何使用 [!DNL Google Analytics] 为Commerce网站收集有用的量度。
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Analytics]
 
-[!DNL Google Analytics]使您能够定义用于跟踪的其他自定义维度和量度，支持离线和移动设备应用程序交互，并可访问正在进行的更新。 [!DNL Google Analytics] 4是Google的新一代测量解决方案，正在替换[!DNL Universal Analytics]。 在2023年7月1日，标准Universal Analytics属性将停止处理新点击。
+[!DNL Google Analytics]使您能够定义用于跟踪的其他自定义维度和量度，支持离线和移动设备应用程序交互，并可访问正在进行的更新。[!DNL Google Analytics] 4是Google的新一代测量解决方案，正在替换[!DNL Universal Analytics]。 在2023年7月1日，标准Universal Analytics属性将停止处理新点击。
 
 >[!NOTE]
 >
@@ -31,7 +52,7 @@ ht-degree: 0%
 如果您还没有为网站设置[!DNL Google Analytics] 4，请按照以下方法之一操作：
 
 - [首次设置Analytics数据收集](https://support.google.com/analytics/answer/9304153)
-- [将Google Analytics 4添加到具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的站点
+- [将Google Analytics 4添加到具有 [!DNL Universal Analytics]的站点](https://support.google.com/analytics/answer/9744165)
 
 ### 步骤2：完成Commerce配置
 
@@ -41,9 +62,9 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Google API]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google GTag]**。
+1. 展开&#x200B;**[!UICONTROL Google GTag]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 展开![子部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;子部分的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
 
@@ -75,7 +96,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Google API]**。
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google Analytics]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Google Analytics]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
 
@@ -91,7 +112,7 @@ ht-degree: 0%
 
 增强型电子商务是[!DNL Google Universal Analytics]的一个插件，可让您insight了解客户的购物和购买行为。 您可以使用增强型电子商务生成有关关键客户活动的报表，例如，当客户在购物车中添加商品、开始结帐流程或完成购买时。 您还可以识别和分析放弃购物而不进行购买的购物者的模式。
 
-以下说明显示如何使用[!DNL Google Tag Manager]配置[!DNL Universal Analytics]以生成增强的电子商务数据和报表。
+以下说明显示如何使用[!DNL Universal Analytics]配置[!DNL Google Tag Manager]以生成增强的电子商务数据和报表。
 
 ### 步骤1. 注册Google帐户
 
@@ -120,7 +141,7 @@ ht-degree: 0%
    |--- |--- |--- |
    | `addToCart` | 自定义事件 |  |
    | `checkout` | 自定义事件 |  |
-   | `checkout only` | 页面查看 | 页面URL与RegEx /checkout/匹配。* |
+   | `checkout only` | 页面查看 | 页面URL与RegEx /checkout/.*匹配 |
    | `checkoutOption` | 自定义事件 |  |
    | `gtm.dom` | 自定义事件 |  |
    | `productClick` | 自定义事件 |  |

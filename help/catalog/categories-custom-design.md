@@ -3,9 +3,27 @@ title: 类别 — 设计设置
 description: 了解如何使用[!UICONTROL Design]设置来定义类别的外观、所有相关产品页面和页面布局。
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 379
 ht-degree: 0%
 
 ---
@@ -24,7 +42,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Use Parent Category Settings] | 允许当前类别从父类别继承设计设置。 如果使用，则“设计”部分中的所有其他字段将变为不可用。 选项： `Yes` / ` No` |
 | [!UICONTROL Theme] | 将自定义主题应用于类别。 |
-| [!UICONTROL Layout] | 将不同的布局应用于类别页面。 选项： <br/>**[!UICONTROL No layout updates]**— 默认情况下，布局更新不可用于类别页面。<br/>**[!UICONTROL Empty]** — 使用定义您自己的页面布局。 （需要了解XML。） <br/>**[!UICONTROL 1 column]**— 将一列布局应用于类别页面。<br/>**[!UICONTROL 2 columns with left bar]** — 将带有左侧栏的两列布局应用于类别页面。 <br/>**[!UICONTROL 2 columns with right bar]**— 将带有右侧栏的双列布局应用于类别页面。<br/>**[!UICONTROL 3 columns]** — 将三列布局应用于类别页面。<br/>**[!UICONTROL Page -- Full Width]**- （需要[页面生成器](../page-builder/introduction.md)）将CMS页面的全宽布局应用于类别页面。<br/>**[!UICONTROL Category -- Full Width]** — （需要页面生成器）将类别页面的全宽布局应用于类别页面。 <br/>**[!UICONTROL Product -- Full Width]**— （需要页面生成器）将产品页面的全宽布局应用于类别页面。 |
+| [!UICONTROL Layout] | 将不同的布局应用于类别页面。 选项： <br/>**[!UICONTROL No layout updates]**— 默认情况下，布局更新不可用于类别页面。<br/>**[!UICONTROL Empty]** — 使用定义您自己的页面布局。 （需要了解XML。） <br/>**[!UICONTROL 1 column]**— 将一列布局应用于类别页。<br/>**[!UICONTROL 2 columns with left bar]** — 将带有左侧栏的双列布局应用于类别页面。<br/>**[!UICONTROL 2 columns with right bar]**— 将带有右侧栏的双列布局应用于类别页面。<br/>**[!UICONTROL 3 columns]** — 将三列布局应用于类别页面。<br/>**[!UICONTROL Page -- Full Width]**- （需要[页面生成器](../page-builder/introduction.md)）将CMS页面的全宽布局应用于类别页面。<br/>**[!UICONTROL Category -- Full Width]** — （需要页面生成器）将类别页面的全宽布局应用于类别页面。<br/>**[!UICONTROL Product -- Full Width]**— （需要页面生成器）将产品页面的全宽布局应用于类别页面。 |
 | [!UICONTROL Custom Layout Update] | 列出服务器上可用的自定义布局更新文件。 选择要应用于类别的自定义布局更新。 |
 | [!UICONTROL Apply Design to Products] | 选中后，将自定义设置应用于类别中的所有产品。 |
 

@@ -3,9 +3,24 @@ title: 添加库存来源
 description: 了解如何为库位创建来源，例如仓库、实体店、配送中心或托运人。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -24,7 +39,7 @@ ht-degree: 0%
 
    ![管理源](assets/inventory-sources.png)
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL General]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL General]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 要标识库存来源，请输入唯一的&#x200B;**[!UICONTROL Name]**。
 
@@ -46,7 +61,7 @@ ht-degree: 0%
 
      默认Source不能用作店内装货订单的装货地点。
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Contact Info]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Contact Info]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Contact Name]**，输入所在位置的主要联系人的全名。
 
@@ -58,7 +73,7 @@ ht-degree: 0%
 
      ![联系信息](assets/inventory-source-contact-info.png)
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Address Data]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Address Data]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 选择&#x200B;**[!UICONTROL Country]**。
 
@@ -72,7 +87,7 @@ ht-degree: 0%
 
      ![地址数据](assets/inventory-source-address.png)
 
-1. 如果在前一步骤中将源设置为接收位置，请展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Pickup Location]**，并提供有关该位置的描述性信息：
+1. 如果在前一步骤中将源设置为接收位置，请展开&#x200B;**[!UICONTROL Pickup Location]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并提供有关该位置的描述性信息：
 
    - 输入取车地点的&#x200B;**[!UICONTROL Frontend Name]**。
 
@@ -80,7 +95,7 @@ ht-degree: 0%
 
      ![取车地点](assets/inventory-pickup-location.png)
 
-   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅[配置参考指南](../configuration-reference/sales/sales-emails.md)中的&#x200B;_销售电子邮件_。
+   有关在使用源作为接收位置时如何配置电子邮件通知的更多信息，请参阅&#x200B;_配置参考指南_&#x200B;中的[销售电子邮件](../configuration-reference/sales/sales-emails.md)。
 
 1. 要保存您所做的工作，请执行以下操作之一：
 
@@ -96,7 +111,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Back] | 返回到“管理源”页。 |
 | [!UICONTROL Reset] | 将表单中的所有字段恢复为上次保存时的值。 |
-| [!UICONTROL Save & Continue] | 保存所有更改并保持表单处于打开状态以供进一步编辑。 单击向下箭头可获取其他选项： <br/>**[!UICONTROL Save & Close]**— 保存对当前记录所做的更改，关闭表单，并返回到“管理源”页。<br/>**[!UICONTROL Save & New]** — 保存更改，关闭当前记录，并打开一个新的空白表单。 |
+| [!UICONTROL Save & Continue] | 保存所有更改并保持表单处于打开状态以供进一步编辑。 单击向下箭头可获取其他选项： <br/>**[!UICONTROL Save & Close]**— 保存对当前记录所做的更改，关闭该表单，然后返回到“管理源”页。<br/>**[!UICONTROL Save & New]**  — 保存更改，关闭当前记录，并打开一个新的空白表单。 |
 
 ## 字段描述
 

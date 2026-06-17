@@ -3,9 +3,28 @@ title: 发出贷项通知单
 description: 了解如何生成和打印已开票订单的贷项通知单。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hOyqjpQzYKj5n3xsNKc9PfbUZ7CvBkg8Li8WR9LRUe4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: 2140
 ht-degree: 0%
 
 ---
@@ -14,8 +33,8 @@ ht-degree: 0%
 
 必须先为[开票订单](invoices.md#create-an-invoice)生成贷项通知单，然后才能打印贷项通知单。 根据付款方式，您可以从未结贷项通知单中发放联机和脱机退款（部分或全部）。
 
-- ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)退款可用于存储积分。
-- ![Adobe Commerce B2B](../assets/b2b.svg)(可与Adobe Commerce B2B配合使用)退款可应用于公司信用。
+- ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）退款可用于存储积分。
+- ![Adobe Commerce B2B](../assets/b2b.svg)（可与Adobe Commerce B2B配合使用）退款可应用于公司信用。
 - 信用卡购物可在线或离线退款。
 - 通过支票或汇票进行的购买必须离线退款。
 
@@ -39,7 +58,7 @@ ht-degree: 0%
 
 - 如果将您配置的付款方法的付款活动设置为`Authorize`，则必须先从管理员生成发票，然后才能创建贷项通知单。
 - 如果将您配置的付款方法的“付款活动”设置为`Authorize and Capture`，则付款处理程序已生成发票，但在结算交易记录之前，资金不可用。 这种短暂的等待时间是许多支付处理商推荐的安全措施，通常可以自动处理。 您也可以通过付款处理员从您的商家帐户中人工结算事务处理。
-- ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)如果您为包含礼品选项的订单创建贷项通知单，则礼品包装和/或打印卡的退款将显示在贷项通知单的“退款合计”部分。 要从要退款的金额中排除这些成本，请将该金额输入为调整费用。 如果为同一订单发放了多个贷项通知单，则礼品选项的退款将仅显示在第一个贷项通知单中。
+- ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）如果您为包含礼品选项的订单创建贷项通知单，则礼品包装和/或打印卡的退款将显示在贷项通知单的“退款合计”部分。 要从要退款的金额中排除这些成本，请将该金额输入为调整费用。 如果为同一订单发放了多个贷项通知单，则礼品选项的退款将仅显示在第一个贷项通知单中。
 
 ## 创建贷项通知单
 
@@ -106,15 +125,15 @@ ht-degree: 0%
 
 1. 根据需要，执行以下操作：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)要退回客户商店贷记金额，请选中&#x200B;**[!UICONTROL Refund to Store Credit]**&#x200B;复选框。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）要退回客户商店贷记金额，请选中&#x200B;**[!UICONTROL Refund to Store Credit]**&#x200B;复选框。
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)要退回客户的公司积分金额，请选中&#x200B;**[!UICONTROL Refund to Company Credit]**&#x200B;复选框。
+   - ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）要退回客户的公司积分金额，请选中&#x200B;**[!UICONTROL Refund to Company Credit]**&#x200B;复选框。
 
    - 若要发出离线退款，请单击&#x200B;**[!UICONTROL Refund Offline]**。
 
    - 若要在线退款，请单击&#x200B;**[!UICONTROL Refund]**。
 
-   - ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)如果购买是以公司信用支付的，请单击&#x200B;**[!UICONTROL Refund to Company Credit]**。
+   - ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）如果购买是以公司信用支付的，请单击&#x200B;**[!UICONTROL Refund to Company Credit]**。
 
    有关离线和在线退款的更多信息，请参阅[贷项通知单](credit-memos.md)。
 
@@ -195,7 +214,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下订单的客户或购买者的名称。 客户名称链接到客户个人资料。 |
 | [!UICONTROL Email] | 客户或买方的电子邮件地址。 已链接电子邮件地址以打开新的电子邮件。 |
 | [!UICONTROL Customer Group] | 客户分配到的客户组或共享目录的名称。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)(适用于Adobe Commerce B2B)与买方关联并代表其下达订单的公司名称。 公司名称链接到公司配置文件。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)（适用于Adobe Commerce B2B）与买方关联并代表其下达订单的公司名称。 公司名称链接到公司配置文件。 |
 
 {style="table-layout:auto"}
 
@@ -253,8 +272,8 @@ ht-degree: 0%
 | [!UICONTROL Grand Total] | 要退款的总金额 |
 | [!UICONTROL Append Comments] | 确定贷项通知单中是否包括备注的复选框。 |
 | [!UICONTROL Email Copy of Credit Memo] | 确定是否已通过电子邮件发送贷项通知单副本的复选框。 |
-| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)确定是否将总计退款给[商店积分](../customers/store-credit-using.md)的复选框。 |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)要退款的所有行项目的总数。 |
+| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce）确定是否将总计退款给[商店积分](../customers/store-credit-using.md)的复选框。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）要退款的所有行项目的总数。 |
 
 {style="table-layout:auto"}
 
@@ -266,7 +285,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 如果原始购买是通过支付网关由信用卡支付的，则退款金额由支付处理器管理。 要管理退款，请参阅您的支付提供商提供的文档。 |
 | **[!UICONTROL Refund Offline]** | 如果最初购买是支票或汇票支付的，退款将直接支付给客户，如果您有实体店面，则通过签发支票、礼品卡或现金支付。 贷项通知单用作脱机事务处理的记录。 |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)如果购买费用计入公司贷项，则退款将返回到[公司帐户](../b2b/credit-company.md)。 |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）如果购买费用计入公司贷项，则退款将返回到[公司帐户](../b2b/credit-company.md)。 |
 
 {style="table-layout:auto"}
 

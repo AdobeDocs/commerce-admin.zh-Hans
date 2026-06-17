@@ -3,9 +3,25 @@ title: 申请列表
 description: 了解申请列表以及如何使用申请列表轻松将经常订购的产品添加到购物车。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
+TQID: https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 624
 ht-degree: 0%
 
 ---
@@ -106,7 +122,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Items Quoted]选项卡中，选择要移动的产品。
 
-1. 使用产品系列项目[!UICONTROL Select]列中的[!UICONTROL Actions]下拉列表，选择&#x200B;**[!UICONTROL Move to Requisition list]**。
+1. 使用产品系列项目[!UICONTROL Actions]列中的[!UICONTROL Select]下拉列表，选择&#x200B;**[!UICONTROL Move to Requisition list]**。
 
 1. 选择所选物料的申请列表。
 
@@ -133,7 +149,7 @@ ht-degree: 0%
 
 1. 在其帐户仪表板的侧边栏中，选择&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在申请列表列表中，单击&#x200B;**[!UICONTROL View]**&#x200B;操作&#x200B;_列中的_。
+1. 在申请列表列表中，单击&#x200B;_操作_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
 ### 从任何店面页面
 

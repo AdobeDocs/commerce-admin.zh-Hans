@@ -1,11 +1,28 @@
 ---
 title: 结账流程和选项
-description: 了解Adobe Commerce和Magento Open Source结帐流程如何收集完成交易所需的信息，以及“结帐”页面如何引导客户完成流程的每个步骤。
+description: 了解Adobe Commerce和Magento Open Source结帐流程如何收集完成交易所需的信息，以及“结帐”页面如何引导客户完成该流程的每个步骤。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -22,7 +39,7 @@ ht-degree: 0%
 
 结账流程的第一步是让客户填写送货地址信息，并选择送货方式。 如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
 
-![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)收件人和发件人的街道地址的格式由[客户地址属性](../customers/address-attributes.md)的属性决定。 输入验证设置确定可在送货地址中使用的有效字符。
+![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce）收件人和发件人的街道地址的格式由[客户地址属性](../customers/address-attributes.md)的属性决定。 输入验证设置确定可在送货地址中使用的有效字符。
 
 结帐流程的每个步骤均在页面顶部的进度栏后面显示，“订单摘要”会显示目前输入的信息。
 
@@ -72,7 +89,7 @@ ht-degree: 0%
 
 ### 复查和付款 — 采购订单
 
-![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg)（仅适用于Adobe Commerce B2B）
 
 当客户与已启用[采购订单](../b2b/purchase-order-flow.md)的公司关联时，所有订单都将作为采购订单处理。 可用的支付方式由公司帐户设置决定。
 
@@ -148,7 +165,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 商店视图 | 确定客户在购买之前是否需要同意销售的[条款和条件](terms-and-conditions.md)。 选项： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 商店视图 | 确定结帐时帐单地址的位置。 选项： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 商店视图 | 确定结帐期间可在“订单摘要”中显示的最大项目数。 默认值为`10`。 |
-| [!UICONTROL Enable Address Search] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)确定客户是否可以对&#x200B;_送货_&#x200B;和&#x200B;_审核与付款_&#x200B;步骤使用[地址搜索](checkout-address-search.md)功能。 启用此功能后，使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;设置签出期间激活此功能所需的已保存地址数。 选项： `Yes` / `No` |
-| [!UICONTROL Number of Customer Addresses Limit] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg) (仅限Adobe Commerce)当地址搜索为&#x200B;**[!UICONTROL Enabled]**&#x200B;时，将确定在签出期间激活此功能所需的已保存地址数。 当客户的已保存地址数达到或超过该数字时，将在&#x200B;_送货_&#x200B;和&#x200B;_审核和付款_&#x200B;步骤中仅呈现默认地址。 客户可以使用搜索功能更改所选地址。 默认值为10。 |
+| [!UICONTROL Enable Address Search] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）确定客户是否可以对&#x200B;_送货_&#x200B;和&#x200B;_审核与付款_&#x200B;步骤使用[地址搜索](checkout-address-search.md)功能。 启用此功能后，使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;设置签出期间激活此功能所需的已保存地址数。 选项： `Yes` / `No` |
+| [!UICONTROL Number of Customer Addresses Limit] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce）当地址搜索为&#x200B;**[!UICONTROL Enabled]**&#x200B;时，将确定在签出期间激活此功能所需的已保存地址数。 当客户的已保存地址数达到或超过该数字时，将在&#x200B;_送货_&#x200B;和&#x200B;_审核和付款_&#x200B;步骤中仅呈现默认地址。 客户可以使用搜索功能更改所选地址。 默认值为10。 |
 
 {style="table-layout:auto"}

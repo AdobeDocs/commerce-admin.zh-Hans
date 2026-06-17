@@ -3,9 +3,29 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 了解 [!DNL Commerce Marketplace]，它为商家提供了精选的解决方案，并为合格的开发人员提供了工具、平台和最佳位置，以打造蓬勃发展的业务。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
+TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1432
 ht-degree: 0%
 
 ---
@@ -35,15 +55,15 @@ ht-degree: 0%
 
 - [Commerce App Builder概述](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [为Adobe Developer App Builder设置API网格](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [正在部署App Builder应用程序](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- 适用于App Builder应用程序的[CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [部署App Builder应用程序](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [适用于App Builder应用程序的CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Console快速入门
    - [App Builder快速入门](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [了解项目和工作区](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace]凭据
 
-在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的标题登录您的](https://business.adobe.com/cn/products/magento/magento-commerce.html)帐户。
+在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[[!DNL Marketplace]](https://marketplace.magento.com/)或[Magento.com](https://business.adobe.com/cn/products/magento/magento-commerce.html)的标题登录您的[!DNL Commerce]帐户。
 
 您的访问密钥是一组公钥和私钥，用于将[!DNL Commerce]安装与[!DNL Commerce]帐户同步并验证您的凭据。 帐户同步后，每次从Commerce Marketplace安装扩展或模块或升级[!DNL Commerce]安装时，都必须输入私钥。
 
@@ -59,7 +79,7 @@ ht-degree: 0%
 
    ![您的[!DNL Marketplace]配置文件](./assets/marketplace-profile.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Marketplace]_&#x200B;下的&#x200B;_[!UICONTROL My Products]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
+1. 在&#x200B;_[!UICONTROL My Products]_&#x200B;下的&#x200B;_[!UICONTROL Marketplace]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
 
    - 查看您是否已经拥有一组用于您的市场购买的访问密钥。 您可以为不同目的创建多组访问键。
 
@@ -79,7 +99,7 @@ ht-degree: 0%
 >
 >从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hans)或[升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hans)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)和[扩展](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)。
 
-Commerce的[!DNL Marketplace]内部部署&#x200B;_安装的购买_&#x200B;的安装过程与托管在[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)上的安装不同。
+Commerce的&#x200B;_内部部署_&#x200B;安装的购买[!DNL Marketplace]的安装过程与托管在[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)上的安装不同。
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 

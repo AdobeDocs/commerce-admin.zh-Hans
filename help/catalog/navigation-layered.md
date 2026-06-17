@@ -3,10 +3,28 @@ title: 分层导航
 description: 了解分层导航如何让购物者轻松根据类别、价格范围或任何其他可用属性查找产品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -26,7 +44,7 @@ ht-degree: 0%
 >
 >本主题中介绍的可筛选属性要求与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)不同。 若要了解详细信息，请参阅[Facet](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)。
 
-分层导航可用于按类别或属性搜索产品。 例如，当购物者从顶部导航中选择“Mens/Shorts”类别时，初始结果将包括该类别中的所有产品。 可以通过选择特定的样式、气候、颜色、材质、图案或价格（或值的组合）进一步过滤列表。 可过滤属性显示在展开部分中，其中列出了每个属性值。 作为一个选项，可以将具有匹配结果的产品列表配置为包含具有或不具有匹配项的产品。
+分层导航可用于按类别或属性搜索产品。 例如，当购物者从顶部导航中选择Mens/Shorts类别时，初始结果包括该类别中的所有产品。 可以通过选择特定的样式、气候、颜色、材质、图案或价格（或值的组合）进一步过滤列表。 可过滤属性显示在展开部分中，其中列出了每个属性值。 作为一个选项，可以将具有匹配结果的产品列表配置为包含具有或不具有匹配项的产品。
 
 属性属性与产品输入类型相结合，可确定哪些属性可用于分层导航。 分层导航仅适用于&#x200B;[_锚点_](categories-display-settings.md)&#x200B;类别，但也可以添加到搜索结果页面。 每个属性的&#x200B;**存储所有者**&#x200B;的目录输入类型必须设置为`Yes/No`、`Dropdown`、`Multiple Select`或`Price`。 要使属性可过滤，必须将每个属性的&#x200B;**在分层导航中使用**&#x200B;属性设置为`Filterable (with results)`或`Filterable (no results)`。
 
@@ -72,7 +90,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 1. 在类别树中，选择要使用分层导航的类别。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Display Settings]**&#x200B;并将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
+1. 展开&#x200B;**[!UICONTROL Display Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
 
    ![类别显示设置](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
@@ -90,7 +108,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 显示![零筛选器](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
-这种结果可能会使客户难以选择首选产品，并且无需在前端显示&#x200B;&#x200B;0个产品的属性值。
+这种结果可能会使客户难以选择首选产品，并且无需在前端显示&#x200B;0个产品的属性值。
 
 您可以使用以下步骤从分层导航中删除0 Products的可过滤属性值：
 
@@ -132,15 +150,15 @@ _示例：显示可筛选样本值，但没有结果_
 
 | 价格步进10 | 价格步进100 |
 |----------|--------|
-| 20.00美元 — 29.99美元(1) | 0.00美元 — 99.99美元(4) |
-| 30.00美元 — 39.99美元(2) | 100美元 — 199.99美元(5) |
-| 70.00美元 — 79.99美元(1) | 400.00美元 — 499.99美元(2) |
-| 100.00美元 — 109.99美元(1) | 700.00美元及以上(1) |
-| 120.00美元 — 129.99美元(2) |   |
-| 150.00美元 — 159.99美元(1) |   |
-| 180.00美元 — 189.99美元(1) |   |
-| 420.00美元 — 429.99美元(1) |   |
-| 440.00美元 — 449.99美元(1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | 700.00美元及以上(1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | 710.00美元及以上(1) |   |
 
 {style="table-layout:auto"}
@@ -155,13 +173,13 @@ _示例：显示可筛选样本值，但没有结果_
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![分层导航](../assets/icon-display-expand.png)部分的&#x200B;_扩展选择器_。
+1. 展开&#x200B;_分层导航_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    默认情况下，**[!UICONTROL Display Product Count]**&#x200B;设置为`Yes`。 如有必要，请取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以更改此设置。
 
    ![分层导航](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   有关这些配置选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/catalog.md#layered-navigation)中的&#x200B;_分层导航_。
+   有关这些配置选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[分层导航](../configuration-reference/catalog/catalog.md#layered-navigation)。
 
 1. 为以下部分中的方法之一设置&#x200B;**[!UICONTROL Price Navigation Steps Calculation]**。
 

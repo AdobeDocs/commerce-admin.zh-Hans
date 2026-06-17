@@ -5,10 +5,26 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -27,7 +43,7 @@ ht-degree: 1%
 ![修复](../assets/fix.svg) — 修复和改进
 ![错误](../assets/bug.svg) — 已知问题
 
-请参阅[即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans)，了解版本计划和支持。
+请参阅[即将发布的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)，了解版本计划和支持。
 
 请参阅开发人员文档，以[了解产品兼容性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hans)。
 
@@ -98,7 +114,7 @@ _2024年4月4日_
 _2024年2月16日_
 
 ![新](../assets/new.svg) — 如果您正在参与测试版，请确保您的`composer.json`文件在根级别具有以下内容： ` "minimum-stability": "beta"`。
-![新](../assets/new.svg) - (**Beta**)已添加根据受众信息创建[相关产品规则](../merchandising-promotions/product-related-rule-create.md)的功能。
+![新](../assets/new.svg) - (**Beta**)已添加根据受众创建[相关产品规则](../merchandising-promotions/product-related-rule-create.md)的功能。
 
 ### 2.1.0
 
@@ -169,7 +185,7 @@ _2023年3月31日_
 
 ### 安装扩展
 
-从[!DNL Audience Activation]marketplace[安装](https://commercemarketplace.adobe.com/magento-audiences.html)扩展，或运行以下命令：
+从[marketplace](https://commercemarketplace.adobe.com/magento-audiences.html)安装[!DNL Audience Activation]扩展，或运行以下命令：
 
 ```bash
 composer require magento/audiences
@@ -185,13 +201,13 @@ composer require magento/audiences
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**。
 
-1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;字段中，将您在[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hans#parameters) Adobe Commerce时创建的数据流的ID粘贴为Real-Time CDP中的目标。
+1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;字段中，将您在[激活](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce时创建的数据流的ID粘贴为Real-Time CDP中的目标。
 
-   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#create)数据流，[将其添加到Real-Time CDP中的Commerce目标以及管理员中的](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hans) [[!DNL Data Connection]扩展。](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hans#data-collection)
+   此数据流将数据从您的Commerce网站发送到Real-Time CDP，以确定购物者是否属于受众。 如果您尚未创建数据流，请在Experience Platform中[创建](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)数据流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hans)将其添加到Real-Time CDP中的Commerce目标以及管理员中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)扩展。
 
    >[!NOTE]
    >
-   >指定数据流ID时，您可以[将其关联到](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hans#data-collection)扩展中的特定网站[!DNL Data Connection]。 如果您的Commerce商店有多个网站，请在Real-Time CDP中为每个网站[创建一个目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)，并为每个网站使用不同的数据流ID。
+   >指定数据流ID时，您可以[将其关联到[!DNL Data Connection]扩展中的特定网站](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)。 如果您的Commerce商店有多个网站，请在Real-Time CDP中为每个网站[创建一个目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hans)，并为每个网站使用不同的数据流ID。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -213,7 +229,7 @@ composer require magento/audiences
 
 ## Real-Time CDP受众功能板
 
-您可以使用[Real-Time CDP Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hans)仪表板在Adobe Commerce实例中查看可用于个性化的所有&#x200B;**活动**&#x200B;受众。
+您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;仪表板在Adobe Commerce实例中查看可用于个性化的所有[活动](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hans)受众。
 
 要访问&#x200B;**Real-Time CDP受众**&#x200B;仪表板，请转到&#x200B;_管理员_&#x200B;侧栏，然后转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**。
 
@@ -239,11 +255,11 @@ composer require magento/audiences
 
 ## Headless支持
 
-您可以在headless Adobe Commerce实例(如AEM和PWA)中激活受众，以根据受众显示购物车价格规则、相关产品规则或动态块。
+您可以在headless Adobe Commerce实例（如AEM和PWA）中激活受众，以根据受众显示购物车价格规则、相关产品规则或动态块。
 
 ### 购物车价格规则和相关产品规则
 
-对于购物车价格规则和相关产品规则，Headless店面通过[Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=zh-Hans)与Experience Platform通信。 该框架提供了一个使用GraphQL实现的服务器端API。 受众信息（例如购物者的区段）通过名为`aep-segments-membership`的GraphQL标头参数传递到Commerce。
+对于购物车价格规则和相关产品规则，Headless店面通过[Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html)与Experience Platform通信。 该框架提供了一个使用GraphQL实现的服务器端API。 受众信息（例如购物者的区段）通过名为`aep-segments-membership`的GraphQL标头参数传递到Commerce。
 
 整体架构如下：
 
@@ -251,7 +267,7 @@ composer require magento/audiences
 
 在您[安装](#install-the-extension)和[配置](#configure-the-extension)扩展后，Experience Platform Web SDK将以区段成员资格的形式包含受众信息。
 
-要从SDK捕获这些区段成员资格，请参阅此[代码片段](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=zh-Hans#example-response-for-custom-personalization-with-attributes)。
+要从SDK捕获这些区段成员资格，请参阅此[代码片段](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes)。
 
 在检索区段后，您可以在GraphQL标题中将这些区段传递到Commerce。 例如：
 
@@ -261,7 +277,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### 动态块
 
-对于动态块，GraphQL `dynamicBlocks`查询可以包含`audience_id`输入属性。 如果在`audience_id`查询中指定了一个或多个`dynamicBlocks`值，它将返回分配给这些受众的动态块列表。
+对于动态块，GraphQL `dynamicBlocks`查询可以包含`audience_id`输入属性。 如果在`dynamicBlocks`查询中指定了一个或多个`audience_id`值，它将返回分配给这些受众的动态块列表。
 
 #### 使用示例
 
@@ -337,7 +353,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 }
 ```
 
-在`dynamicBlocks`开发人员文档[中了解有关](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/) GraphQL查询的更多信息。
+在[开发人员文档](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/)中了解有关`dynamicBlocks` GraphQL查询的更多信息。
 
 ## 使用Adobe Experience Platform Mobile SDK检索受众
 
@@ -432,5 +448,5 @@ bin/magento audiences:config:status
 1. 打开凭据，然后选择&#x200B;**[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**。
 1. 添加包含&#x200B;**[!UICONTROL Manage destinations]**&#x200B;权限的角色。
 1. 单击&#x200B;**[!UICONTROL Save]**。
-1. [在控制台中重新生成](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans#generate-access-token)访问令牌。
+1. [在控制台中重新生成](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token)访问令牌。
 1. 使用[Target连接API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections)验证令牌是否提供了有效的响应。

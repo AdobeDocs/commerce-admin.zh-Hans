@@ -3,9 +3,24 @@ title: 发票
 description: 了解如何创建和打印发票，以支持订单处理和客户服务操作。
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
+TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1208
 ht-degree: 0%
 
 ---
@@ -71,7 +86,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >将您的特定&#x200B;_[!UICONTROL Invoice]_&#x200B;付款方式[的](../configuration-reference/sales/payment-methods.md#payment-actions)付款操作[设置为](../configuration-reference/sales/payment-methods.md)时，不会显示`Authorize and Capture`选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
+   >将您的特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款操作](../configuration-reference/sales/payment-methods.md#payment-actions)设置为`Authorize and Capture`时，不会显示&#x200B;_[!UICONTROL Invoice]_&#x200B;选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
 
    ![发票销售订单](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +146,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击&#x200B;**[!UICONTROL View]**&#x200B;操作_&#x200B;列中的&#x200B;_。
+1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击_&#x200B;操作&#x200B;_列中的&#x200B;**[!UICONTROL View]**。
 
 1. 在发票顶部，单击&#x200B;**[!UICONTROL Print]**&#x200B;以生成发票的PDF。
 
@@ -151,7 +166,7 @@ ht-degree: 0%
 
 ## 自定义捕获金额
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 为了向商家提供更大的灵活性以用于部分捕获和专用支付方案，发票API支持使用扩展属性的自定义捕获金额。
 

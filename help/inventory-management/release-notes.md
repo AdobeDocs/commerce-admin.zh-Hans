@@ -3,9 +3,26 @@ title: '[!DNL Inventory Management]发行说明'
 description: 查看发行说明，了解所有 [!DNL Inventory Management] 发行版本的信息。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3462'
+source-wordcount: 3533
 ht-degree: 0%
 
 ---
@@ -116,7 +133,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)购物车和结账操作的性能已得到改进，例如，在具有许多（大约10,000个）库存源的部署中将产品添加到购物车。<!--- MC-42570-->
 
-![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
+![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
 
 
 ![修复了问题](../assets/fix.svg)在共享子项时，对分组产品子产品的增量索引不再导致其他分组产品索引不正确。<!--- MC-41963-->
@@ -163,7 +180,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![已修复问题](../assets/fix.svg)针对解决店内提货、批量更新和库存阈值问题的多个修复。
 
-![新](../assets/new.svg) **功能测试。**&#x200B;引入了新的功能测试，并为现有测试提供了修复，以使测试更加稳定。
+![新](../assets/new.svg) **功能测试。** 引入了新的功能测试，并为现有测试提供了修复，使它们更加稳定。
 
 ## 1.2.1
 
@@ -171,7 +188,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)修复了与`inventory_cleanup_reservations` cron作业相关的已知问题，并解决了与捆绑产品的店内代答功能相关的问题。 此更新还包括对库存计算、捆绑产品支持和延交功能的常规改进。
 
-![新](../assets/new.svg) **功能测试。**&#x200B;引入了新功能测试，为店内取货功能提供了额外的覆盖范围。
+![新](../assets/new.svg) **功能测试。** 引入了新的功能测试，为店内取货功能提供额外的覆盖范围。
 
 ## 1.2.0
 
@@ -179,17 +196,17 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)修复了许多问题，以解决源分配问题、可扩展环境功能支持问题以及与PHP 7.4、MySQL 8和PHPUNIT 9的兼容性问题。
 
-![新](../assets/new.svg) **店内传递方法。**&#x200B;添加了一个选项，用户可选择在结账期间用作取车位置的来源。 请参阅&#x200B;_销售和购买体验指南_&#x200B;中的[店内递送](../stores-purchase/shipping-in-store-delivery.md)。
+![新](../assets/new.svg) **店内传递方法。** 添加了一个选项，让用户在结账时选择用作取车位置的来源。 请参阅&#x200B;_销售和购买体验指南_&#x200B;中的[店内递送](../stores-purchase/shipping-in-store-delivery.md)。
 
-![新](../assets/new.svg) **包产品支持多源模式。**&#x200B;库存支持具有多个来源的所有产品类型。
+![新](../assets/new.svg) **多源模式捆绑产品支持。** 清单支持具有多个来源的所有产品类型。
 
-![新](../assets/new.svg) **异步股票重新索引。**&#x200B;添加了异步为股票重新索引的功能，并提高了几个关键方案的性能。
+![新](../assets/new.svg) **异步库存重新索引。** 添加了异步重新索引股票的功能，并提高了几种关键场景的性能。
 
-![新](../assets/new.svg) **批量接口。**&#x200B;为可访问性检查引入了新的批量接口： `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`，`\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`。
+![新](../assets/new.svg) **批量接口。** 为可访问性检查引入了新的批量接口： `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`、`\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`。
 
-![新](../assets/new.svg) **已增加测试覆盖率。**&#x200B;自动测试涵盖了新功能，包括已发现问题和已修复问题的扩展覆盖范围。
+![新](../assets/new.svg) **测试覆盖率提高。** 自动测试涵盖了新功能，包括已发现问题和已修复问题的扩展覆盖范围。
 
-![已知问题](../assets/bug.svg) **已知问题。**&#x200B;保留元数据中缺少`object_id`字段导致`inventory_cleanup_reservations` cron作业无法正常工作。 此问题已在[magento/inventory#3046](https://github.com/magento/inventory/pull/3046)中引入。
+![已知问题](../assets/bug.svg) **已知问题。** 保留元数据中缺少`object_id`字段导致`inventory_cleanup_reservations` cron作业无法正常工作。 此问题已在[magento/inventory#3046](https://github.com/magento/inventory/pull/3046)中引入。
 
 **解决方法：**&#x200B;执行以下MySQL查询以手动清除保留：
 
@@ -204,15 +221,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![修复了问题](../assets/fix.svg)修复了以下问题：延期交货、贷项通知单、低库存报表网格、连接到“解决不一致”CLI工具的修复以及一般改进。
 
-![新](../assets/new.svg) **异步股票重新索引。**&#x200B;添加了异步为股票重新索引的功能，并提高了几个关键方案的性能。
+![新](../assets/new.svg) **异步库存重新索引。** 添加了异步重新索引股票的功能，并提高了几种关键场景的性能。
 
 ## 1.1.5
 
 版本2.3.5支持[!DNL Inventory Management] 1.1.5（模块版本： `inventory-composer-metapackage = 1.1.5`），并且与Adobe Commerce的版本2.3.4、2.3.3、2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
-![新建](../assets/new.svg) **在产品SKU更改后更新库存。**&#x200B;引入了一个新的配置设置以切换到新行为：“与目录同步”。
+![新建](../assets/new.svg) **产品SKU更改后更新库存。** 引入了新的配置设置以切换到新行为：“与目录同步”。
 
-![新](../assets/new.svg) **功能测试。**&#x200B;引入了新功能测试以消除测试覆盖率差距。 修复了若干问题，使测试更稳定、更可靠)。
+![新](../assets/new.svg) **功能测试。** 引入了新的功能测试以消除测试覆盖率差距。 修复了若干问题，使测试更稳定、更可靠)。
 
 ![已知问题](../assets/bug.svg)修复以防止产品过度销售、店面上“缺货”产品可见性、针对可扩展环境支持和用户界面改进的众多修复。
 
@@ -220,9 +237,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 版本2.3.4支持[!DNL Inventory Management] 1.1.4（模块版本： `inventory-composer-metapackage = 1.1.4`），并且与Adobe Commerce的版本2.3.3、2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
-![修复了问题&#x200B;](../assets/fix.svg)**提高了性能。**&#x200B;为清单保留CLI命令引入了聚集逻辑，以减少内存使用量，避免进程在没有任何响应的情况下卡住的情况。
+![修复了问题&#x200B;](../assets/fix.svg)**提高了性能。** 为清单保留CLI命令引入了聚集逻辑，以减少内存使用量，避免进程在没有任何响应的情况下卡住的情况。
 
-![新&#x200B;](../assets/new.svg)**测试覆盖率提高。**&#x200B;引入了许多新的功能测试。 几乎所有手动清单情形都包含自动测试。
+![新&#x200B;](../assets/new.svg)**测试覆盖率提高。** 引入了许多新的功能测试。 几乎所有手动清单情形都包含自动测试。
 
 ![已知问题](../assets/bug.svg)针对解决贷项通知单、分组产品以及来源和库存批量操作问题的大量修复。
 
@@ -230,15 +247,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 版本2.3.3支持[!DNL Inventory Management] 1.1.3（模块版本： `inventory-composer-metapackage = 1.1.3`），并且与Adobe Commerce版本2.3.2、2.3.1和2.3.0、云基础架构上的Adobe Commerce以及Magento Open Source代码库兼容。
 
-![已修复问题&#x200B;](../assets/fix.svg)**更好地与Adobe Commerce和B2B功能集成。对于使用非默认库存源和库存的网站，** [!DNL Inventory Management]现在可以使用以下功能正常工作：
+![已修复问题&#x200B;](../assets/fix.svg)**更好地与Adobe Commerce和B2B功能集成。** 对于使用非默认库存源和库存的网站，[!DNL Inventory Management]现在可以正确使用下列功能：
 
 - 由SKU订购(Adobe Commerce)
 - 快速订购(B2B)
 - 申购单列表(B2B)
 
-![新&#x200B;](../assets/new.svg)**性能提高。针对运行默认库存库存和来源的网站，**&#x200B;店面目录浏览性能得到了改进。
+![新&#x200B;](../assets/new.svg)**性能提高。** 对于运行默认库存库存和来源的网站，店面目录浏览性能得到了改进。
 
-![新&#x200B;](../assets/new.svg)**测试覆盖率提高。**&#x200B;自动化功能和集成测试覆盖率已显着提高。
+![新&#x200B;](../assets/new.svg)**测试覆盖率提高。** 自动化功能和集成测试的覆盖范围已显着提高。
 
 ## 1.1.2
 
@@ -275,7 +292,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.0
 
-[!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。 [!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
+[!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。[!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
 ![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 

@@ -3,9 +3,20 @@ title: 商店视图
 description: 了解如何添加和编辑商店视图。
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: 284
 ht-degree: 0%
 
 ---
@@ -46,7 +57,7 @@ ht-degree: 0%
 
 由于视图名称显示在语言选择器中，因此您最终可能希望将默认视图的名称更改为更具描述性的名称。 _Name_&#x200B;字段只是标签，可以轻松更改。
 
-如果您的Adobe Commerce或Magento Open Source安装具有多站点或多存储设置，则请勿更改存储代码字段，除非验证该值未在`index.php`文件中引用。 如果您无权访问服务器来检查文件，请向开发人员寻求帮助。
+如果您的Adobe Commerce或Magento Open Source安装具有多站点或多存储设置，则在未验证`index.php`文件中是否未引用该值之前，请勿更改存储代码字段。 如果您无权访问服务器来检查文件，请向开发人员寻求帮助。
 
 | 字段 | 原始值 | 已更新值 |
 | ----- | -------------- | ------------- |
@@ -59,7 +70,7 @@ ht-degree: 0%
 
 1. 在网格的&#x200B;_[!UICONTROL Store View]_&#x200B;列中，单击要编辑的视图的名称。
 
-   编辑默认视图时，_[!UICONTROL Store]_&#x200B;和&#x200B;_[!UICONTROL Status]_&#x200B;字段不可用。
+   编辑默认视图时，_[!UICONTROL Store]_&#x200B;和_[!UICONTROL Status]_&#x200B;字段不可用。
 
    ![存储视图 — 编辑默认视图](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

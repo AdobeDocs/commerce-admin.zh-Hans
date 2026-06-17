@@ -3,9 +3,28 @@ title: 店面是什么？
 description: 了解您的商店为支持客户的购物体验而提供的页面和功能元素。
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
+TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: 1223
 ht-degree: 0%
 
 ---
@@ -38,9 +57,9 @@ ht-degree: 0%
 
 >[!TAB 商家]
 
-由Edge Delivery Services提供支持的Commerce Storefront提供了基于文档的直观创作体验，使商家能够轻松创建和管理内容。 使用熟悉的工具(如Microsoft Word或Google Docs)，商家可以创建丰富的内容，同时保持版本控制并与团队成员协作。
+由Edge Delivery Services提供支持的Commerce Storefront提供了基于文档的直观创作体验，使商家能够轻松创建和管理内容。 使用熟悉的工具（如Microsoft Word或Google Docs），商家可以创建丰富的内容，同时保持版本控制并与团队成员协作。
 
-- **简化的内容创建**：使用熟悉的基于文档的创作工具(如Microsoft Word或Google Docs)创建和编辑内容。
+- **简化的内容创建**：使用熟悉的基于文档的创作工具（如Microsoft Word或Google Docs）创建和编辑内容。
 - **实时预览**：在发布之前通过实时预览功能立即查看更改。
 - **版本控制**：跟踪内容更改并轻松回滚到以前的版本。
 - **协作工作流**：多个团队成员可以使用内置审核流程同时处理内容。
@@ -109,8 +128,8 @@ Headless实施使开发人员能够将前端展示层与后端商务功能分离
 
 1. 配送信息
 
-   结账流程的第一步是让客户填写送货地址信息，并选择送货方式。 如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
-如果访客客户输入的电子邮件地址被识别为先前已注册，则当存储配置中的[!UICONTROL Enable Guest Checkout Login]字段设置为`Yes`时，将显示登录提示（请参阅&#x200B;_配置参考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。 但是，此设置可能会向未经身份验证的用户公开客户信息。
+   结账流程的第一步是让客户填写送货地址信息，并选择送货方式。如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
+如果访客客户输入的电子邮件地址被识别为先前已注册，则当存储配置中的[!UICONTROL Enable Guest Checkout Login]字段设置为`Yes`时，将显示登录提示（请参阅&#x200B;_配置参考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。但是，此设置可能会向未经身份验证的用户公开客户信息。
 
    ![示例storefront结帐页面](./assets/storefront-checkout-shipping-full.png){width="700"}
 
