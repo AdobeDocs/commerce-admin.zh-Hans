@@ -4,11 +4,22 @@ description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Pay
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1682
@@ -44,7 +55,7 @@ ht-degree: 0%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | 网站 | 指定您在建立PayPal商家帐户时指定的电子邮件地址。 电子邮件地址区分大小写，且必须与PayPal系统中的电子邮件地址完全匹配。 |
-| [!UICONTROL API Authentication Methods] | 网站 | 确定用于API身份验证的方法。 选项： <br/>**`API Signature`**— 在表单中显示&#x200B;_[!UICONTROL API Signature]_字段。<br/>**`API Certificate`**— 在表单中显示_[!UICONTROL API Certificate]_&#x200B;字段。 |
+| [!UICONTROL API Authentication Methods] | 网站 | 确定用于API身份验证的方法。 选项： <br/>**`API Signature`**— 在表单中显示&#x200B;_[!UICONTROL API Signature]_&#x200B;字段。<br/>**`API Certificate`**— 在表单中显示&#x200B;_[!UICONTROL API Certificate]_&#x200B;字段。 |
 | [!UICONTROL API Username] | 网站 | 与您的PayPal商家帐户关联的API用户名。 |
 | [!UICONTROL API Password] | 网站 | 与您的PayPal商家帐户关联的API密码。 |
 | [!UICONTROL API Signature] | 网站 | 与您的PayPal商家帐户关联的API签名。 |

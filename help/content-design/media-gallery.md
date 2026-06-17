@@ -5,11 +5,18 @@ exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 352
@@ -25,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->添加到&#x200B;[_[!UICONTROL Images and Videos]_产品部分](../catalog/product-image.md#upload-an-image)的产品图像不由[!DNL Media Gallery]管理。 只有在_[!UICONTROL Content]_&#x200B;产品部分字段中使用的图像才会在新[!DNL Media Gallery]中显示和过滤。
+>添加到&#x200B;[_[!UICONTROL Images and Videos]_&#x200B;产品部分](../catalog/product-image.md#upload-an-image)的产品图像不由[!DNL Media Gallery]管理。 只有在&#x200B;_[!UICONTROL Content]_&#x200B;产品部分字段中使用的图像才会在新[!DNL Media Gallery]中显示和过滤。
 
 ## 启用新[!DNL Media Gallery]
 
@@ -43,7 +50,7 @@ ht-degree: 0%
 
 1. 出现提示时，单击系统消息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;链接并刷新无效缓存。
 
-   [[!UICONTROL Content]菜单](/help/content-design/content-menu.md)现在显示新的&#x200B;_[!UICONTROL Media Gallery]_选项。
+   [[!UICONTROL Content]菜单](/help/content-design/content-menu.md)现在显示新的&#x200B;_[!UICONTROL Media Gallery]_&#x200B;选项。
 
 >[!NOTE]
 >
@@ -63,7 +70,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add a New Page]**。
 
-   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_列单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
+   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_&#x200B;列单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 

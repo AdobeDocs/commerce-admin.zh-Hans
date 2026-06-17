@@ -4,11 +4,19 @@ description: 了解退货工作流和签发退货授权。
 exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 feature: Returns
 TQID: https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 687
@@ -18,7 +26,7 @@ ht-degree: 0%
 
 # 返回
 
-可以将&#x200B;_退回的商品授权_ (RMA)授予请求退回项目以进行更换或退款的客户。 通常，客户会联系商家请求退款。 如果获得批准，将分配一个唯一的RMA编号以标识返回的产品。 在配置中，您可以为所有产品启用RMA，或者仅允许为某些产品启用RMA。 _[!UICONTROL Returns]_网格列出了当前返回的商品请求(RMA)，并用于输入新的退货请求。
+可以将&#x200B;_退回的商品授权_ (RMA)授予请求退回项目以进行更换或退款的客户。 通常，客户会联系商家请求退款。 如果获得批准，将分配一个唯一的RMA编号以标识返回的产品。 在配置中，您可以为所有产品启用RMA，或者仅允许为某些产品启用RMA。 _[!UICONTROL Returns]_&#x200B;网格列出了当前返回的商品请求(RMA)，并用于输入新的退货请求。
 
 ![返回网格](./assets/return.png){width="600" zoomable="yes"}
 
@@ -41,7 +49,7 @@ ht-degree: 0%
 
 ## RMA和退货工作流程
 
-1. **接收请求** — 如果店面[已启用](rma-configure.md#enable-rmas-for-your-store)，则注册客户和来宾都可以请求RMA。 您还可以在管理员](#create-a-return-request-in-the-admin)中[提交RMA请求。
+1. **接收请求** — 如果店面[已启用](rma-configure.md#enable-rmas-for-your-store)，则注册客户和来宾都可以请求RMA。 您还可以在管理员[&#128279;](#create-a-return-request-in-the-admin)中提交RMA请求。
 
 2. **已发出RMA** — 考虑请求后，您可以部分、完全授权或取消请求。 如果您授权退货，并同意支付退货发运费用，则可以使用支持的承运人从管理员创建发运订单。
 
@@ -78,7 +86,7 @@ ht-degree: 0%
 
 1. 要创建退货请求，请单击状态为`Complete`的订单。
 
-1. 在&#x200B;_[!UICONTROL Return Information]_部分下，选择&#x200B;**[!UICONTROL Return Items]**选项卡。
+1. 在&#x200B;_[!UICONTROL Return Information]_&#x200B;部分下，选择&#x200B;**[!UICONTROL Return Items]**&#x200B;选项卡。
 
 1. 若要添加要返回的项目，请单击&#x200B;**[!UICONTROL Add Items]**。
 

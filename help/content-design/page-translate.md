@@ -6,11 +6,18 @@ feature: Page Content
 topic: Commerce, Localization
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 368
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 # 翻译内容页面
 
-如果您的商店具有使用不同[语言](../stores-purchase/store-localize.md)的多个视图，并且您已将每个视图的区域设置设置为不同的语言，则结果为部分翻译的站点。 下一步是创建可从特定存储视图中找到的每个页面的翻译版本。 _[!UICONTROL Manage Pages]_列表的[!UICONTROL Store View]列显示具有页面翻译版本的每个视图。
+如果您的商店具有使用不同[语言](../stores-purchase/store-localize.md)的多个视图，并且您已将每个视图的区域设置设置为不同的语言，则结果为部分翻译的站点。 下一步是创建可从特定存储视图中找到的每个页面的翻译版本。 _[!UICONTROL Manage Pages]_&#x200B;列表的[!UICONTROL Store View]列显示具有页面翻译版本的每个视图。
 
 要翻译内容页面，您必须创建另一个页面，该页面具有与原始页面相同的URL键，但已分配给特定的商店视图。 然后，使用翻译的文本更新特定视图的页面。 以下示例说明如何为西班牙商店视图创建&#x200B;_About Us_&#x200B;页面的翻译版本。
 
@@ -32,7 +39,7 @@ ht-degree: 0%
 
 1. 展开&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，并将&#x200B;**[!UICONTROL URL Key]**&#x200B;复制到剪贴板。
 
-1. 要返回到&#x200B;_[!UICONTROL Pages]_网格，请单击顶部按钮栏中的&#x200B;**[!UICONTROL Back]**。
+1. 要返回到&#x200B;_[!UICONTROL Pages]_&#x200B;网格，请单击顶部按钮栏中的&#x200B;**[!UICONTROL Back]**。
 
 ## 步骤2：为翻译的内容添加页面
 

@@ -4,11 +4,23 @@ description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Pay
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2710
@@ -40,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | 商店视图 | 默认值： `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | 商店视图 | 选项： `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | 商店视图 | 确定Braintree在处理付款时执行的操作。 选项： <br/>**`Authorize`**— 客户信用卡上的资金已授权，但未从帐户转帐。 将在您的商店管理员中创建订单。 您可以稍后捕获销售并创建发票。<br/>**`Intent Sale`** （以前版本中的`Authorize and Capture`） — 客户信用卡上的资金由Braintree授权和捕获，并在您的商店管理员中创建订单和发票。 |
-| [!UICONTROL Sandbox Merchant ID] | 商店视图 | 这是您整个沙盒网关帐户的唯一标识符。 也称为&#x200B;_公共ID_&#x200B;或&#x200B;_生产ID_，您的贸易商ID对于生产和沙盒网关是不同的。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Sandbox`时，将显示此字段。 |
-| [!UICONTROL Sandbox Public Key] | 商店视图 | 这是用户特定的公共标识符，用于限制对加密数据的访问。 与您的沙盒Braintree网关关联的每个用户都有自己的沙盒公钥。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Sandbox`时，将显示此字段。 |
-| [!UICONTROL Sandbox Private Key] | 商店视图 | 这是特定于用户的私有标识符，用于限制对加密数据的访问。 与您的沙盒Braintree网关关联的每个用户都有自己的沙盒私钥。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Sandbox`时，将显示此字段。 |
-| [!UICONTROL Merchant ID] | 商店视图 | 这是您整个网关帐户的唯一标识符，包括您的网关中可能存在的多个商家帐户。 也称为&#x200B;_公共ID_&#x200B;或&#x200B;_生产ID_，您的贸易商ID对于生产和沙盒网关是不同的。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Production`时，将显示此字段。 |
-| [!UICONTROL Public Key] | 商店视图 | 这是用户特定的公共标识符，用于限制对加密数据的访问。 与您的Braintree网关关联的每个用户都有自己的公钥。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Production`时，将显示此字段。 |
-| [!UICONTROL Private Key] | 商店视图 | 这是特定于用户的私有标识符，用于限制对加密数据的访问。 与您的Braintree网关关联的每个用户都有自己的私钥。 当&#x200B;_[!UICONTROL Environment]_字段设置为`Production`时，将显示此字段。 |
+| [!UICONTROL Sandbox Merchant ID] | 商店视图 | 这是您整个沙盒网关帐户的唯一标识符。 也称为&#x200B;_公共ID_&#x200B;或&#x200B;_生产ID_，您的贸易商ID对于生产和沙盒网关是不同的。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Sandbox`时，将显示此字段。 |
+| [!UICONTROL Sandbox Public Key] | 商店视图 | 这是用户特定的公共标识符，用于限制对加密数据的访问。 与您的沙盒Braintree网关关联的每个用户都有自己的沙盒公钥。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Sandbox`时，将显示此字段。 |
+| [!UICONTROL Sandbox Private Key] | 商店视图 | 这是特定于用户的私有标识符，用于限制对加密数据的访问。 与您的沙盒Braintree网关关联的每个用户都有自己的沙盒私钥。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Sandbox`时，将显示此字段。 |
+| [!UICONTROL Merchant ID] | 商店视图 | 这是您整个网关帐户的唯一标识符，包括您的网关中可能存在的多个商家帐户。 也称为&#x200B;_公共ID_&#x200B;或&#x200B;_生产ID_，您的贸易商ID对于生产和沙盒网关是不同的。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Production`时，将显示此字段。 |
+| [!UICONTROL Public Key] | 商店视图 | 这是用户特定的公共标识符，用于限制对加密数据的访问。 与您的Braintree网关关联的每个用户都有自己的公钥。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Production`时，将显示此字段。 |
+| [!UICONTROL Private Key] | 商店视图 | 这是特定于用户的私有标识符，用于限制对加密数据的访问。 与您的Braintree网关关联的每个用户都有自己的私钥。 当&#x200B;_[!UICONTROL Environment]_&#x200B;字段设置为`Production`时，将显示此字段。 |
 | [!UICONTROL Enable Card Payments] | 网站 | 确定Braintree信用卡支付方式是否适用于您的客户。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | 网站 | 启用后，将为客户付款信息提供安全存储，这样客户就不必在每次购买时都重新输入其信用卡信息。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | 网站 | 启用后，将对Braintree帐户中的CVV规则设置进行验证。 选项： `Yes` / `No` |
@@ -163,7 +175,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | 网站 | 确定是否通过Braintree将[!DNL Venmo]作为付款方式包括在内。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | 网站 | 客户可以保存/存储其Venmo支付方式以供将来使用。 一旦付款详细信息存入电子仓库，客户就可以使用Venmo付款方法，而无需重新输入数据或重新验证其付款信息。 选项： `Yes` / `No` |
-| [!UICONTROL Payment Action] | 网站 | 确定Braintree在处理付款时执行的操作。 选项： <br/>**`Authorize`**— 客户卡上的资金已授权，但未从客户帐户转帐。 将在您的商店管理员中创建订单。 您可以稍后捕获销售并创建发票。<br/>**`Intent Sale`** — 客户卡上的资金由Braintree授权和捕获，并在您的商店管理员中创建订单和发票。 **_Note:_**2.3.x及更早版本中的_&#x200B;授权和捕获_。 |
+| [!UICONTROL Payment Action] | 网站 | 确定Braintree在处理付款时执行的操作。 选项： <br/>**`Authorize`**— 客户卡上的资金已授权，但未从客户帐户转帐。 将在您的商店管理员中创建订单。 您可以稍后捕获销售并创建发票。<br/>**`Intent Sale`** — 客户卡上的资金由Braintree授权和捕获，并在您的商店管理员中创建订单和发票。 **_Note:_**&#x200B;2.3.x及更早版本中的_&#x200B;授权和捕获_。 |
 | [!UICONTROL Sort Order] | 网站 | 确定在结帐期间将Venmo与其他付款方法一起列出的顺序。 |
 
 {style="table-layout:auto"}
@@ -211,7 +223,7 @@ ht-degree: 0%
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-此部分中的选项和设置因&#x200B;_[!UICONTROL Location]_字段中的设置而异。
+此部分中的选项和设置因&#x200B;_[!UICONTROL Location]_&#x200B;字段中的设置而异。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -219,7 +231,7 @@ ht-degree: 0%
 
 **[!UICONTROL PayPal Button]**
 
-此部分中的选项和设置因在&#x200B;_[!UICONTROL PayPal Button Type]_字段中选择的按钮类型而异。
+此部分中的选项和设置因在&#x200B;_[!UICONTROL PayPal Button Type]_&#x200B;字段中选择的按钮类型而异。
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

@@ -4,11 +4,18 @@ description: 了解如何将产品列表添加到 [!DNL Page Builder] 页面。
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/aJlgMXqFCj0Fu-BbZ2e8YcfAKYppBedwfNHaGxvlgT0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1506
@@ -22,7 +29,7 @@ ht-degree: 0%
 
 ![产品列表](./assets/pb-add-content-products-list.png){width="600" zoomable="yes"}
 
-本练习假设您已完成[第1部分：简单页面](1-simple-page.md)和第2部分：块](2-blocks.md)，包括先决条件和下载的示例文件。 [按照顺序执行本练习的三个部分。
+本练习假设您已完成[第1部分：简单页面](1-simple-page.md)和第2部分：块[&#128279;](2-blocks.md)，包括先决条件和下载的示例文件。 按照顺序执行本练习的三个部分。
 
 ## 第1部分：添加产品列表
 
@@ -32,11 +39,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 查找您在第一个练习中创建并在第二个练习中修改的&#x200B;_简单页面_，然后在&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 查找您在第一个练习中创建并在第二个练习中修改的&#x200B;_简单页面_，然后在&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，然后单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或内容预览区域内。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**拖到舞台顶部。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**&#x200B;拖到舞台顶部。
 
 1. 在[!DNL Page Builder]面板中，展开&#x200B;**[!UICONTROL Add Content]**&#x200B;并将&#x200B;**[!UICONTROL Products]**&#x200B;占位符拖到新行中。
 
@@ -54,7 +61,7 @@ ht-degree: 0%
 
    - 单击&#x200B;_添加_ （![添加图标](../assets/icon-add-green-circle.png)）图标。
 
-   - 在&#x200B;_[!UICONTROL Product Attribute]_下，选择&#x200B;**[!UICONTROL Category]**。
+   - 在&#x200B;_[!UICONTROL Product Attribute]_&#x200B;下，选择&#x200B;**[!UICONTROL Category]**。
 
      ![选择条件的类别属性](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （ ![关闭全屏图标](./assets/pb-icon-reduce.png){width="20"} ）图标。
 
-   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -104,13 +111,13 @@ ht-degree: 0%
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Content]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
-1. 在&#x200B;_[!UICONTROL Description]_旁边，单击&#x200B;**[!UICONTROL Edit with Page Builder]**。
+1. 在&#x200B;_[!UICONTROL Description]_&#x200B;旁边，单击&#x200B;**[!UICONTROL Edit with Page Builder]**。
 
    ![产品说明内容](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    如果之前输入的产品描述没有[!DNL Page Builder]，则当前描述在[HTML代码](html-code.md)容器中显示为HTML。 使用Luma主题，产品描述将显示在“详细信息”选项卡上。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**拖到舞台上，将其放置在HTML代码容器下。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**&#x200B;拖到舞台上，将其放置在HTML代码容器下。
 
    当行处于正确位置时，查找要显示的红色指南。
 
@@ -118,7 +125,7 @@ ht-degree: 0%
 
 1. 在[!DNL Page Builder]面板中，展开&#x200B;**[!UICONTROL Media]**&#x200B;并将&#x200B;**[!UICONTROL Video]**&#x200B;占位符拖到新行中。
 
-   行](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}中的![视频占位符
+   行![&#128279;](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}中的视频占位符
 
 1. 将鼠标悬停在空的视频容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 
 1. 在舞台的右上角，单击&#x200B;_关闭全屏_ （ ![关闭全屏图标](./assets/pb-icon-reduce.png){width="20"} ）图标。
 
-   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_部分，并显示预览。
+   单击此图标会返回该页面的&#x200B;_[!UICONTROL Content]_&#x200B;部分，并显示预览。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -166,17 +173,17 @@ ht-degree: 0%
 
 1. 创建具有以下属性的产品：
 
-   - 
-     [！UICONTROL属性集]: Default
+   - &#x200B;
+     [!UICONTROL 属性集]: Default
    - [!UICONTROL Product Name]：我的产品
-   - 
+   - &#x200B;
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]：有货
-   - 
+   - &#x200B;
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]：女性>上衣>T恤
 
@@ -205,20 +212,20 @@ ht-degree: 0%
    - [!UICONTROL Attribute Code]：输入小写字符形式的属性代码，使用连字符而不是空格。 对于此示例，请使用`my_page_builder_attribute`。
    - [!UICONTROL Scope]：接受默认值`Store View`。
    - [!UICONTROL Default Value]：输入属性的默认值。
-   - 
+   - &#x200B;
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. 在左侧的&#x200B;_[!UICONTROL Attribute Information]_面板中，选择&#x200B;**[!UICONTROL Storefront Properties]**并进行以下设置：
+1. 在左侧的&#x200B;_[!UICONTROL Attribute Information]_&#x200B;面板中，选择&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;并进行以下设置：
 
-   - 
+   - &#x200B;
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
@@ -227,8 +234,8 @@ ht-degree: 0%
 
    - [!UICONTROL Default Label]：我的文本编辑器属性
    - [!UICONTROL Catalog Input Type for Store Owner]：文本编辑器
-   - 
-     [！UICONTROL属性代码]: `my_text_editor_attribute`
+   - &#x200B;
+     [!UICONTROL 属性代码]: `my_text_editor_attribute`
 
 ### 步骤3：更新产品属性集
 
@@ -240,9 +247,9 @@ ht-degree: 0%
    >
    >如果不想更改您的实时商店，您可以遵循操作，而无需更新属性集。
 
-1. 在列表中找到&#x200B;_[!UICONTROL Default]_属性集，双击该属性集以在编辑模式下将其打开。
+1. 在列表中找到&#x200B;_[!UICONTROL Default]_&#x200B;属性集，双击该属性集以在编辑模式下将其打开。
 
-1. 在&#x200B;_未分配属性_&#x200B;列表中，找到您创建的新属性，并将每个属性拖到&#x200B;**[!UICONTROL Content]**&#x200B;下的&#x200B;_[!UICONTROL Groups]_列中。
+1. 在&#x200B;_未分配属性_&#x200B;列表中，找到您创建的新属性，并将每个属性拖到&#x200B;**[!UICONTROL Content]**&#x200B;下的&#x200B;_[!UICONTROL Groups]_&#x200B;列中。
 
    属性在[!UICONTROL Groups]列中的位置决定了它在页面上的显示位置。
 

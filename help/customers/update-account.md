@@ -3,11 +3,19 @@ title: 更新客户配置文件
 description: 访问有关客户活动的信息（如客户上次登录或注销其帐户的时间），并更新客户配置文件。
 exl-id: 8e805095-76b2-4237-98dc-aa32f15f2637
 TQID: https://experienceleague.adobe.com/bwSpwnxcNqGrbdS61E79mbLNavM6QgV-aDaG0PywDGk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 505
@@ -17,7 +25,7 @@ ht-degree: 0%
 
 # 更新客户配置文件
 
-_[!UICONTROL Customer Information]_页的左侧面板包含有关客户活动、地址、订单统计数据、最近订单、购物车内容、产品评论和新闻稿订阅的信息。
+_[!UICONTROL Customer Information]_&#x200B;页的左侧面板包含有关客户活动、地址、订单统计数据、最近订单、购物车内容、产品评论和新闻稿订阅的信息。
 
 ![客户个人资料](assets/cust-profile.png){width="700" zoomable="yes"}
 

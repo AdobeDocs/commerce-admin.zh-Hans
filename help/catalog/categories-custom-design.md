@@ -4,12 +4,23 @@ description: 了解如何使用[!UICONTROL Design]设置来定义类别的外观
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
 TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 379
@@ -19,13 +30,13 @@ ht-degree: 0%
 
 # 类别 — 设计设置
 
-通过&#x200B;_[!UICONTROL Design]_部分，您可以控制类别、所有相关产品页面和页面布局的外观。 您可以为促销自定义类别页面及其关联产品，或区分类别。 例如，您可以为某个品牌或某个特定系列的产品开发一种独特的设计，或者针对特定的时间段应用更新。
+通过&#x200B;_[!UICONTROL Design]_&#x200B;部分，您可以控制类别、所有相关产品页面和页面布局的外观。 您可以为促销自定义类别页面及其关联产品，或区分类别。 例如，您可以为某个品牌或某个特定系列的产品开发一种独特的设计，或者针对特定的时间段应用更新。
 
 ![类别的设计设置](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->当同一产品被分配给多个类别，每个类别的设计设置不同时，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**为产品URL使用类别路径** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**并在左侧面板中选择&#x200B;**目录**，然后展开页面上的&#x200B;**搜索引擎优化**部分。
+>当同一产品被分配给多个类别，每个类别的设计设置不同时，建议在[搜索引擎优化配置选项](../configuration-reference/catalog/catalog.md#search-engine-optimization)中设置&#x200B;**为产品URL使用类别路径** = `Yes`。 要访问此设置，请转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在左侧面板中选择&#x200B;**目录**，然后展开页面上的&#x200B;**搜索引擎优化**&#x200B;部分。
 
 | 字段 | 描述 |
 |--- |--- |
@@ -41,7 +52,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_部分确定将自定义设计应用于类别页面时的日期范围。
+_[!UICONTROL Scheduled Design Update]_&#x200B;部分确定将自定义设计应用于类别页面时的日期范围。
 
 | 字段 | 描述 |
 |--- |--- |

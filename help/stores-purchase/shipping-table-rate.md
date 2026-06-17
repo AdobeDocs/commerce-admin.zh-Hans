@@ -4,11 +4,19 @@ description: 了解如何为您的商店设置表费率配送选项。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1044
@@ -40,7 +48,7 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
 1. 展开&#x200B;**[!UICONTROL Table Rates]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -90,7 +98,7 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 1. 设置&#x200B;**[!UICONTROL Ship to Applicable Countries]**：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此交付方法。
-   - `Specific Countries` — 选择此选项时，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_列表。 选择列表中可使用此投放方法的每个国家/地区。
+   - `Specific Countries` — 选择此选项时，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;列表。 选择列表中可使用此投放方法的每个国家/地区。
 
 1. 如果要始终显示表费率，请将&#x200B;**[!UICONTROL Show Method if Not Applicable]**&#x200B;设置为`Yes`
 
@@ -121,10 +129,10 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 1. 使用适合装运计算条件的值填写该表。
 
    - 使用星号(*)作为通配符，表示任何类别中的所有可能值。
-   - _[!UICONTROL Country]_列必须包含每行的[个有效的三字符代码](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
-   - 按&#x200B;_[!UICONTROL Region/State]_对数据排序，使特定位置位于列表顶部，通配符位置位于底部。 使用此方法会先处理具有绝对值的规则，稍后再处理通配符值。
-   - 不支持邮政编码范围。 使用星号(*)可允许区域/状态中的所有代码，或者为&#x200B;_[!UICONTROL Zip/Postal Code]_列中的特定位置指定单个代码。
-   - _[!UICONTROL Weight (and above)]_列中的值最多可以有四位小数（如`2.5075`）。 在数据中使用更多小数位会导致导入失败。
+   - _[!UICONTROL Country]_&#x200B;列必须包含每行的[个有效的三字符代码](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
+   - 按&#x200B;_[!UICONTROL Region/State]_&#x200B;对数据排序，使特定位置位于列表顶部，通配符位置位于底部。 使用此方法会先处理具有绝对值的规则，稍后再处理通配符值。
+   - 不支持邮政编码范围。 使用星号(*)可允许区域/状态中的所有代码，或者为&#x200B;_[!UICONTROL Zip/Postal Code]_&#x200B;列中的特定位置指定单个代码。
+   - _[!UICONTROL Weight (and above)]_&#x200B;列中的值最多可以有四位小数（如`2.5075`）。 在数据中使用更多小数位会导致导入失败。
 
    ![重量与目标（澳大利亚）](./assets/table-rates-weight-destination-csv.png){width="500"}
 

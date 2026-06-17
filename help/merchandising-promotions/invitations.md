@@ -5,12 +5,25 @@ exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 664
@@ -26,14 +39,14 @@ ht-degree: 0%
 
 ## 我的邀请
 
-客户帐户的&#x200B;_[!UICONTROL My Invitations]_部分列出了客户发送的所有邀请。 客户可以向朋友和家人发送邀请，让他们参加商店活动、礼品注册和愿望清单等。
+客户帐户的&#x200B;_[!UICONTROL My Invitations]_&#x200B;部分列出了客户发送的所有邀请。 客户可以向朋友和家人发送邀请，让他们参加商店活动、礼品注册和愿望清单等。
 
 ![我的邀请](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 邀请工作流程
 
 1. **客户准备邀请**：客户通过帐户仪表板准备收件人列表并完成邀请。 可包含自定义消息，具体取决于配置。
-1. **客户发送邀请**：准备就绪后，客户单击&#x200B;_[!UICONTROL Send Invitations]_按钮。
+1. **客户发送邀请**：准备就绪后，客户单击&#x200B;_[!UICONTROL Send Invitations]_&#x200B;按钮。
 1. **系统管理传输**：系统根据配置中设置的编号批量发送邀请。
 1. **客户监视响应**：客户监视来自帐户仪表板的每个邀请的状态，如`Sent`、`Accepted`或`Canceled`。
 

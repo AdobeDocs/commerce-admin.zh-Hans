@@ -4,11 +4,19 @@ description: 查看Commerce管理员的[!UICONTROL Customers] &gt； [!UICONTROL
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
 TQID: https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 330
@@ -52,6 +60,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | 全局 | 定义优惠券代码格式。 选项包括：<br/>**`Alphanumeric`**— 字母和数字的任意组合。<br/>**`Alphabetical`** — 仅字母。<br/>**`Numeric`**— 仅限数字。 |
 | [!UICONTROL Code Prefix] | 全局 | 附加到所有优惠券代码开头的值。 如果您不想使用前缀，请将该字段留空。 |
 | [!UICONTROL Code Suffix] | 全局 | 附加到所有代码末尾的值。 如果不想使用后缀，请将该字段留空。 |
-| [!UICONTROL Dash Every X Characters] | 全局 | 在所有优惠券代码中插入破折号(-)的间隔。 如果不想使用破折号，请将该字段留空。 <br/>_**注意：**_&#x200B;只有短划线不同的优惠券代码被视为不同的代码。 |
+| [!UICONTROL Dash Every X Characters] | 全局 | 在所有优惠券代码中插入破折号(-)的间隔。 如果不想使用破折号，请将该字段留空。 <br/>_&#x200B;**注意：**&#x200B;_&#x200B;只有短划线不同的优惠券代码被视为不同的代码。 |
 
 {style="table-layout:auto"}

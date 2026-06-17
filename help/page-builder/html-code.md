@@ -4,11 +4,17 @@ description: 了解HTML代码内容类型，用于在 [!DNL Page Builder] 阶段
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -90,13 +96,13 @@ ht-degree: 0%
 
 ### 步骤3：预览页面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_部分中，将&#x200B;**[!UICONTROL Enable Page]**设置为`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;部分中，将&#x200B;**[!UICONTROL Enable Page]**&#x200B;设置为`Yes`。
 
    ![正在启用页面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;箭头并选择&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Actions]_列中选择&#x200B;**[!UICONTROL View]**。
+1. 在网格中查找该页面，并在&#x200B;_[!UICONTROL Actions]_&#x200B;列中选择&#x200B;**[!UICONTROL View]**。
 
    ![使用新字体系预览页面标题](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -116,7 +122,7 @@ ht-degree: 0%
    | 插入图像…… | 单击以将上传的图像或图片库中的图像插入到HTML文本框中光标的位置。 |
    | 插入变量…… | 单击以在HTML文本框中光标位置处插入变量。 |
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
 
    - 要控制代码在父容器中的位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

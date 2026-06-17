@@ -4,11 +4,20 @@ description: 了解视频内容类型，该内容类型用于将托管在YouTube
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/rgFMtNXv6jerPV7rthqTFteR8XlJ1bVc7ziBjwAlAMk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 947
@@ -32,7 +41,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移动 | ![移动图标](./assets/pb-icon-move.png){width="25"} | 将视频移动到舞台上的另一个位置。 |
 | （标签） | [!UICONTROL Video] | 将当前内容容器标识为视频。 将鼠标悬停在图像容器上可查看工具箱。 |
-| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_页面，您可以在其中更改视频和容器的属性。 |
+| 设置 | ![设置图标](./assets/pb-icon-settings.png){width="25"} | 打开&#x200B;_[!UICONTROL Edit Video]_&#x200B;页面，您可以在其中更改视频和容器的属性。 |
 | 隐藏 | ![隐藏图标](./assets/pb-icon-hide.png){width="25"} | 隐藏当前视频。 |
 | 显示 | ![显示图标](./assets/pb-icon-show.png){width="25"} | 显示隐藏的视频。 |
 | 复制 | ![图标重复](./assets/pb-icon-duplicate.png){width="25"} | 制作视频的副本。 |

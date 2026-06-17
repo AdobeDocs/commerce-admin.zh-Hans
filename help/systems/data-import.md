@@ -4,11 +4,19 @@ description: 了解数据导入准则以及如何使用数据导入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 1564
@@ -62,7 +70,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
 | 操作 | 描述 |
 | --------- | ----------- |
-| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意:_**对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要:_**&#x200B;使用_添加/更新_导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
+| 添加/更新 | 新产品数据将添加到数据库中现有条目的现有产品数据中。 可以更新除`sku`之外的所有字段。<br><br>导入数据中指定的新税种是自动创建的。<br><br>导入文件中指定的新产品类别将自动创建。<br><br>导入文件中指定的新SKU是自动创建的&#x200B;<br><br>**_注意:_**&#x200B;对于产品，您可以通过导入来更新除SKU之外的所有字段。<br><br>**_重要:_**&#x200B;使用_添加/更新_导入行为无法删除多个字段值，例如网站或类别。 导入后，如果这些字段未在CSV文件中列出，则它们会保留在数据库中。 |
 | 替换 | 现有产品数据已替换为新数据。<br><br>**_重要:_**&#x200B;在替换数据时请务必小心，因为现有产品数据已被清除，并且系统中的所有引用都将丢失。<br><br>如果导入数据中的SKU与现有实体的SKU匹配，则所有字段（包括SKU）都将被删除，并使用CSV数据创建新记录。 如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 | 删除 | 导入数据中存在于数据库中的任何实体都将从数据库中删除。<br><br>Delete忽略导入数据中的所有列（SKU除外）。 您可以忽略数据中的所有其他属性。<br><br>如果CSV文件引用的SKU在数据库中不存在，则会发生错误。 您可以检查数据以显示错误。 |
 
@@ -155,7 +163,7 @@ Adobe Commerce的导入过程可能无法正确识别使用字节顺序标记(BO
 
    >[!NOTE]
    >
-   >从Adobe Commerce和Magento Open Source `2.3.2`版本开始，_[!UICONTROL Images File Directory]_中指定的路径将连接以导入到图像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
+   >从Adobe Commerce和Magento Open Source `2.3.2`版本开始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路径将连接以导入到图像基目录： `<Magento-root-folder>/var/import/images`。 例如，将`product_images`文件放置在`<Magento-root-directory>/var/import/images/product_images`文件夹中。 可以在`\Magento\ImportExport\etc\config.xml`文件中配置导入映像基目录。 如果启用了远程存储模块，请将文件导入到`<remote-storage-root-directory>/var/import/images/product_images`文件夹。
 
    要了解有关导入产品映像的详细信息，请参阅[导入产品映像](data-import-product-images.md)。
 

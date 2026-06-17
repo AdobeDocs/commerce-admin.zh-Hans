@@ -4,11 +4,19 @@ description: 了解如何为商店设置店内投放选项。
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
 TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 570
@@ -24,20 +32,20 @@ ht-degree: 0%
 
 在店面结帐期间：
 
-1. 客户单击&#x200B;**[!UICONTROL Pick In Store]**&#x200B;或选择&#x200B;_[!UICONTROL In-Store Pickup Delivery]_配送方式。
-1. 将打开&#x200B;_[!UICONTROL Pick In Store]_签出选项卡。
+1. 客户单击&#x200B;**[!UICONTROL Pick In Store]**&#x200B;或选择&#x200B;_[!UICONTROL In-Store Pickup Delivery]_&#x200B;配送方式。
+1. 将打开&#x200B;_[!UICONTROL Pick In Store]_&#x200B;签出选项卡。
 
-当客户有地址，或者在切换到&#x200B;_[!UICONTROL Pick In Store]_选项卡之前填写了送货地址表单时：
+当客户有地址，或者在切换到&#x200B;_[!UICONTROL Pick In Store]_&#x200B;选项卡之前填写了送货地址表单时：
 
 - 在配置的半径内，与客户地址最接近的来源会自动预选为提货商店。
-- 当客户单击&#x200B;**[!UICONTROL Select Other]**&#x200B;时，_[!UICONTROL Select Store]_搜索表单将打开。 在列表中仅显示与预先选定的商店之间的配置距离（半径）内的商店。 列表中的所有商店都按到预选商店的距离排序。
+- 当客户单击&#x200B;**[!UICONTROL Select Other]**&#x200B;时，_[!UICONTROL Select Store]_&#x200B;搜索表单将打开。 在列表中仅显示与预先选定的商店之间的配置距离（半径）内的商店。 列表中的所有商店都按到预选商店的距离排序。
 - 当客户在搜索字段中输入邮政编码或城市名称时，列表中只显示距搜索位置的配置距离（半径）内的商店。 列表中的所有存储都按到搜索位置的距离排序。
 - 当客户从搜索字段清除邮政编码或城市名称时，分配给购物车中产品的所有提货商店都会显示给客户。 列表中的所有存储都按源代码的升序排序，没有任何距离（半径）限制。
 
-如果客户在切换到&#x200B;_[!UICONTROL Pick In Store]_选项卡之前没有地址或以前未填写送货地址表单：
+如果客户在切换到&#x200B;_[!UICONTROL Pick In Store]_&#x200B;选项卡之前没有地址或以前未填写送货地址表单：
 
 - 页面显示&#x200B;_我们无法根据可用信息预先选择取车地点_&#x200B;消息。
-- 当客户单击&#x200B;**[!UICONTROL Select Store]**&#x200B;时，_[!UICONTROL Select Store]_搜索表单将打开。
+- 当客户单击&#x200B;**[!UICONTROL Select Store]**&#x200B;时，_[!UICONTROL Select Store]_&#x200B;搜索表单将打开。
 - 分配给购物车中产品的所有提货商店按源代码的升序显示，没有任何距离（半径）限制。
 - 当客户在搜索字段中输入邮政编码或城市名称时，列表中只显示距搜索位置的配置距离（半径）内的商店。 列表中的所有存储都按到搜索位置的距离排序。
 

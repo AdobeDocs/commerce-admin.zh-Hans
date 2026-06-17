@@ -4,11 +4,20 @@ description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Tax
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1231
@@ -46,7 +55,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。<br/>**`Total`**— 税费计算基于订单总计。<br/><br/>_**&#x200B;注意：**_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
+| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。<br/>**`Total`**— 税费计算基于订单总计。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
 | [!UICONTROL Tax Calculation Based On] | 网站 | 确定税额计算是基于发运地址、帐单地址还是发运来源。 选项： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 网站 | 确定目录价格是否包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 网站 | 确定装运价格中包含或排除税。 选项： `Excluding Tax` / `Including Tax` |

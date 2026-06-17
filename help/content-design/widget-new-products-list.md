@@ -5,11 +5,19 @@ exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 638
@@ -29,7 +37,7 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg)对于Adobe Commerce商店，请参阅[计划更新](content-staging-scheduled-update.md)，然后继续此页面上的步骤2。
 
-只能在计划的更新中配置&#x200B;_[!UICONTROL Set Product as New]_日期范围设置。
+只能在计划的更新中配置&#x200B;_[!UICONTROL Set Product as New]_&#x200B;日期范围设置。
 
 将产品设置为新会将产品添加到&#x200B;_新产品_&#x200B;列表。 当您不再希望将设置包含在列表中时，可以随时将其更改回。
 
@@ -53,7 +61,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;部分中，执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Catalog New Products List`。
 
@@ -63,7 +71,7 @@ ht-degree: 0%
 
    ![新产品列表构件设置](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
 
    - 对于&#x200B;**[!UICONTROL Widget Title]**，输入小部件的描述性标题。 （此标题仅在&#x200B;_管理员_&#x200B;中可见。）
 
@@ -77,7 +85,7 @@ ht-degree: 0%
 
 ## 步骤3：选择位置
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为`Specified Page.`
 
@@ -103,7 +111,7 @@ ht-degree: 0%
 1. 将&#x200B;**[!UICONTROL Display Products]**&#x200B;设置为以下项之一：
 
    - `All Products` — 按顺序列出产品，从最近添加的产品开始。
-   - `New Products` — 仅列出标识为&#x200B;_new_&#x200B;的产品。 在&#x200B;_[!UICONTROL Set Product As New From/To]_中指定的日期范围内将产品视为新产品。 如果日期范围到期，但未定义任何新产品，则列表为空。
+   - `New Products` — 仅列出标识为&#x200B;_new_&#x200B;的产品。 在&#x200B;_[!UICONTROL Set Product As New From/To]_&#x200B;中指定的日期范围内将产品视为新产品。 如果日期范围到期，但未定义任何新产品，则列表为空。
 
 1. 要为具有多个页面的列表提供导航控制，请将&#x200B;**[!UICONTROL Display Page Control]**&#x200B;设置为`Yes`。
 
@@ -127,4 +135,4 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在网格中查找将显示&#x200B;_新产品_&#x200B;列表的页面，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Preview]**链接。
+1. 在网格中查找将显示&#x200B;_新产品_&#x200B;列表的页面，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Preview]**&#x200B;链接。

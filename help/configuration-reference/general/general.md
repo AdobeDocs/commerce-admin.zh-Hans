@@ -4,11 +4,22 @@ description: 查看Commerce管理员的[!UICONTROL General] &gt； [!UICONTROL G
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1028
@@ -77,7 +88,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | 网站 | 确定网站是否正在受限模式下运行。<br /> <br />**`Yes`**— 以下字段中设置的方式限制了网站访问。<br />**`No`**  — 已禁用限制，并且以下设置无效。 |
 | [!UICONTROL Restriction Mode] | 网站 | 确定适用于网站的访问限制的类型。<br /> <br />**`Website Closed`**— 对店面的所有访问都受到限制，店面URL会暂时重定向到登陆页面。 此设置在站点维护期间或启动之前很有用。<br />**`Private Sales: Login Only`** — 只有注册客户才能登录以访问店面。 所有店面URL会暂时重定向到指定的登陆页面或登录表单。 用户无法在此模式下创建帐户。<br />**`Private Sales: Login and Register`**— 用户必须登录才能访问店面。 所有店面URL会暂时重定向到登录表单，直到用户登录为止。 当网站处于此模式时，用户可以注册帐户。 |
-| [!UICONTROL Startup Page] | 商店视图 | 当网站处于“私人销售”模式时，此设置将确定在客户登录之前显示的页面。<br />  <br />**`To login form`**— 用户将被重定向到登录表单，直到他们登录。<br />**`To landing page`** — 用户被重定向到下面指定的静态页面，直到他们登录。<br /> <br />**_重要信息！_**确保包含指定登陆页面中的登录页面链接，以便客户能够登录以访问整个网站。 |
+| [!UICONTROL Startup Page] | 商店视图 | 当网站处于“私人销售”模式时，此设置将确定在客户登录之前显示的页面。<br />  <br />**`To login form`**— 用户将被重定向到登录表单，直到他们登录。<br />**`To landing page`** — 用户被重定向到下面指定的静态页面，直到他们登录。<br /> <br />**_重要信息！_**&#x200B;确保包含指定登陆页面中的登录页面链接，以便客户能够登录以访问整个网站。 |
 | [!UICONTROL Landing Page] | 商店视图 | 确定网站处于“专用销售”模式时显示的第一个页面。 |
 | [!UICONTROL HTTP Response] | 网站 | 确定在网站关闭且机器人、爬虫或爬虫程序尝试连接时发送的HTTP响应。<br /> <br />**`503 Service unavailable`**— 页面不可用，但爬虫程序不应更新索引。<br />**`200 OK`** — 登陆页面正确，爬虫程序应将登陆页面视为网站上的唯一页面。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 网站 | 确定&#x200B;_登录_&#x200B;和&#x200B;_忘记密码_&#x200B;表单上的字段是否自动填写以前的条目。 选项： `Yes` / `No` |
