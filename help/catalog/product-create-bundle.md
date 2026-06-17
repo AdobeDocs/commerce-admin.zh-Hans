@@ -3,9 +3,15 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1616
 ht-degree: 0%
 
 ---
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
 
    **选择现有类别：**
 
@@ -139,7 +145,7 @@ ht-degree: 0%
 
 ## 步骤5：添加捆绑项目
 
-_[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
+_[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
 
 为产品定义了![捆绑包项目](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -180,7 +186,7 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 
      >[!NOTE]
      >
-     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
+     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
 
      默认情况下，客户不能更改捆绑项目中包含的“默认数量”。 但是，客户可以输入要包括在捆绑中的物料数量。
 
@@ -215,7 +221,7 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 - [设计](settings-advanced-design.md)
 - [礼品选项](product-gift-options.md)
 
-## 步骤7：Publish产品
+## 步骤7：发布产品
 
 1. 如果您已准备好发布目录中的产品，请将&#x200B;**[!UICONTROL Enable Product]**&#x200B;设置为`Yes` （![切换是](../assets/toggle-yes.png) ）。
 
@@ -283,7 +289,7 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 
 ![复选框](../assets/checkbox.png) SKU和权重可以是`Fixed`或`Dynamic`。
 
-![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
+![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
 
 ![复选框](../assets/checkbox.png)捆绑包项目可以一起发运或单独发运。
 

@@ -3,10 +3,16 @@ title: 开发人员工具
 description: 了解可用于支持开发者在自定义项目上工作的高级开发人员工具。
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 使用高级开发人员工具确定前端开发期间的编译模式、创建IP地址的允许列表并显示模板路径提示。 还有一些工具，可轻松地在店面和管理员界面中对文本进行特别更改。
 
-- [操作日志](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)
+- [操作日志](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）
 - [前端开发工作流](#frontend-development-workflow)
 - [使用静态文件签名](#static-file-signatures)
 - [资源文件优化](#optimizing-resource-files)
@@ -27,13 +33,13 @@ ht-degree: 0%
 
 您的Adobe Commerce或Magento Open Source实例可以部署为在&#x200B;_生产_&#x200B;或&#x200B;_开发人员模式_&#x200B;下运行。 仅当存储以&#x200B;_开发人员模式_&#x200B;运行时才能访问专门为开发人员设计的工具和配置设置。
 
-只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=zh-Hans)。
+只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html)。
 
 商家文档中的大多数主题都适用于在生产模式下运行的Commerce实例。 但是，以下配置设置和工具只能在开发人员模式下运行安装时使用。
 
 ## 前端开发工作流
 
-前端开发工作流类型确定在开发期间在客户端还是服务器端进行较少的编译。 较少的是CSS的扩展，它有附加功能和约定，并能生成简化的代码。 建议在主题开发中使用客户端较少的编译。 服务器端编译是默认模式。 开发工作流选项不适用于处于生产模式的存储。
+前端开发工作流类型确定在开发期间在客户端还是服务器端进行较少的编译。较少的是CSS的扩展，它有附加功能和约定，并能生成简化的代码。建议在主题开发中使用客户端较少的编译。服务器端编译是默认模式。开发工作流选项不适用于处于生产模式的存储。
 请参阅Commerce开发人员文档中的[客户端LESS编译与服务器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}。
 
 >[!NOTE]
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 通过向静态文件的URL添加数字签名，浏览器可以检测文件的较新版本何时可用。 可使用数字签名跟踪的静态文件包括JavaScript、CSS、图像和字体。 签名将直接附加到基本URL后面的路径中。 如果文件的签名与浏览器缓存中存储的签名不同，则使用较新版本的文件。
 
-请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=zh-Hans){:target="_blank"}。
+请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"}。
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ ht-degree: 0%
 
 有关配置设置的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的&#x200B;[_静态文件设置_](../configuration-reference/advanced/developer.md)。
 
-**_要启用已签名的静态文件：_**
+**_启用已签名的静态文件:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -91,7 +97,7 @@ ht-degree: 0%
 
 默认情况下，Adobe Commerce和Magento Open Source不会合并、捆绑或最小化文件，项目开发人员应确定应使用的文件优化方法。
 
-有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=zh-Hans)。
+有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html)。
 
 >[!NOTE]
 >
@@ -105,7 +111,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-**_要优化资源文件：_**
+**_优化资源文件:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -118,7 +124,7 @@ ht-degree: 0%
 
    ![高级配置 — CSS设置](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[_CSS设置_](../configuration-reference/advanced/developer.md)
+   [_CSS设置_](../configuration-reference/advanced/developer.md)
 
 1. 要优化JavaScript文件，请展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL JavaScript Settings]**&#x200B;部分并执行以下操作：
 
@@ -135,15 +141,15 @@ ht-degree: 0%
 
 ## 客户端限制
 
-列入允许列表在使用诸如[模板路径提示](#template-path-hints)之类的工具之前，请确保将您的IP地址添加到开发人员客户端限制，以避免中断商店中客户的购物体验。 如果您不知道自己的IP地址，则可以在线搜索它。
+在使用诸如[模板路径提示](#template-path-hints)之类的工具之前，请确保将您的IP地址添加到开发人员客户端限制，以避免中断商店中客户的购物体验。 如果您不知道自己的IP地址，则可以在线搜索它。
 
 >[!NOTE]
 >
 >开发人员客户端限制只能在[开发人员模式](../systems/developer-tools.md#operation-modes)中设置。
 
-有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hans)。
+有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html)。
 
-**_要将IP地址添加到允许列表：_**
+**_将您的IP地址添加到允许列表:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -247,7 +253,7 @@ ht-degree: 0%
 
    根据需要清除&#x200B;**[!UICONTROL Use Website]**&#x200B;复选框以修改这些设置。
 
-   编辑特定商店视图时，_[!UICONTROL Enabled for Admin]_&#x200B;选项不可用。
+   编辑特定商店视图时，_[!UICONTROL Enabled for Admin]_选项不可用。
 
    ![高级配置 — 翻译内联](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

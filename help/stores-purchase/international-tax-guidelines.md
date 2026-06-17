@@ -3,9 +3,15 @@ title: 按国家/地区列出的税务指南
 description: 根据国家/地区审核建议的税务设置。
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
@@ -132,7 +138,7 @@ ht-degree: 0%
 | 计税 | 在项目上 |
 | 运税？ | 是 |
 | 应用折扣 | 税前折扣，含税。 |
-| 注释 | 以便B2B商家提供更简单的增值税供应链注意事项。 行上的计税同样有效；但是，请与您的税务管辖区核实。 设置假定商户位于供应链中，并且销售的商品被其他供应商用于增值税退税等。 此定义使按项目识别税变得容易，从而更快地生成返点。 <br/><br/>**_注意：_**&#x200B;某些管辖区需要Commerce当前不支持的各种舍入策略，并且并非所有管辖区都允许对项目或行级别征税。 |
+| 注释 | 对于B2B商家，提供更简单的VAT supply chain注意事项。 行上的计税同样有效；但是，请与您的税务管辖区核实。 设置假定商家在supply chain中，并且销售的商品被其他供应商用于增值税退税等。 此定义使按项目识别税变得容易，从而更快地生成返点。 <br/><br/>**_注意:_**&#x200B;某些管辖区需要Commerce当前不支持的各种舍入策略，并且并非所有管辖区都允许对项目或行层计税。 |
 
 {style="table-layout:auto"}
 

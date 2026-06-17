@@ -3,10 +3,16 @@ title: 销售文档
 description: 了解如何配置销售文档以支持客户订单和Commerce商店的履行。
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/0SZsaPiyOc4E-0e34IDvWATtKz9HMaeZAIMhKeysvTg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 474
+ht-degree: 1%
 
 ---
 
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 调整徽标大小以适合所需大小的一种方法是创建具有正确尺寸的新空白图像。 然后，粘贴您的徽标图像并调整其大小以适合其高度。 对于大多数图像编辑程序，您可以按百分比缩放以保留纵横比，也可以按住Shift键并手动调整图像大小。
 
-**_要更新徽标：_**
+**_更新徽标:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -52,14 +58,14 @@ ht-degree: 0%
 
 ### 图像格式
 
-| 格式 | 要求 |
+| 格式化 | 要求 |
 |--- |------------------------------------------|
 | **_PDF_** |  |
-| 文件格式 | JPG(JPEG)、PNG、TIF(TIFF) |
+| 文件格式 | JPG (JPEG)、PNG、TIF (TIFF) |
 | 图像大小 | 宽达1080像素x高270像素 |
 | 解决方法 | 建议使用300 DPI |
 | **_HTML_** |  |
-| 文件格式 | JPG(JPEG)、PNG、GIF |
+| 文件格式 | JPG (JPEG)、PNG、GIF |
 | 图像大小 | 由主题决定。 |
 | 解决方法 | 72或96 DPI |
 
@@ -69,9 +75,9 @@ ht-degree: 0%
 
 订单ID和客户IP地址可以包含在订单随附的销售文档标题中。 默认情况下，订单ID和客户IP地址都会显示在发票、发运装箱单和贷项通知单的题头中。
 
-![销售配置 — PDF打印](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![销售配置 — PDF打印输出](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
-**_要更改订单ID设置：_**
+**_要更改订单ID设置:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -85,7 +91,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-**_要更改客户IP地址设置：_**
+**_要更改客户IP地址设置:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

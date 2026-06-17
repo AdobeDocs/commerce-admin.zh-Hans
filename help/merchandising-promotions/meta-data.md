@@ -3,10 +3,16 @@ title: Meta数据
 description: 了解如何输入关键字丰富的元数据，以改进搜索引擎对Commerce网站编制索引的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: 747
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[元数据准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=zh-Hans)
+>对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[元数据准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)
 
 您的商店中加载了可在其中输入富含关键词的元数据的位置，以改进搜索引擎为您的网站编制索引的方式。 在设置存储时，您可以输入初步元数据，以便稍后完成。 随着时间的推移，您可以微调元数据，以定位客户的购买模式和偏好。
 
@@ -74,7 +80,7 @@ Meta描述简要概述了搜索结果列表的页面。 理想情况下，元描
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![搜索引擎优化](../assets/icon-display-expand.png)部分的&#x200B;**扩展选择器**。
+1. 展开&#x200B;**搜索引擎优化**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    要更改任何字段值，您必须先清除每个字段后面的&#x200B;**使用系统值**&#x200B;复选框。
 
@@ -98,4 +104,4 @@ Meta描述简要概述了搜索结果列表的页面。 理想情况下，元描
 
 观看以下视频，了解如何管理SEO元数据：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410173?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

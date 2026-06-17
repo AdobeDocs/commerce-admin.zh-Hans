@@ -2,9 +2,15 @@
 title: 客户列表
 description: “客户”网格会列出已向您的商店注册帐户或由管理员添加的所有客户。
 exl-id: a7d9b098-4892-492c-b937-61cc33b836d8
-source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
+TQID: https://experienceleague.adobe.com/h3KHVcnOa1LqrynEuml6XgDB5-t5fJJa0yhgRF7RATE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 589
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 找到客户记录，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;[!UICONTROL **编辑**]。
+1. 找到客户记录，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;[!UICONTROL **编辑**]。
 
 1. 在左侧面板中，选择要编辑的信息并进行必要的更改。
 
@@ -59,7 +65,7 @@ ht-degree: 0%
 | **[!UICONTROL Web Site]** | 商店层次结构中与客户帐户关联的网站。 |
 | **[!UICONTROL Confirmed Email]** | 指示是否需要确认电子邮件。 |
 | **[!UICONTROL Account Created In]** | 指示从中创建客户帐户的商店视图。 |
-| **[!UICONTROL Date of Birth]** | 客户的出生日期。 <br><br>**_重要提示：_**&#x200B;要遵循当前安全和隐私最佳实践，请注意将客户的完整出生日期（月、日、年）与其他个人标识符一起存储可能会带来的任何法律和安全风险。 建议您限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
+| **[!UICONTROL Date of Birth]** | 客户的出生日期。 <br><br>**_重要:_**&#x200B;为遵循最新的安全和隐私最佳实践，请注意任何与使用其他个人标识符存储客户的完整出生日期（月、日、年）相关的潜在法律和安全风险。 建议您限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
 | **[!UICONTROL Tax / VAT Number]** | 如果适用，为客户分配的税号或[增值税](../stores-purchase/vat.md)编号。 <br/><br/>此字段与增值税号不同。 |
 | **[!UICONTROL Gender]** | 客户的性别。 |
 | **[!UICONTROL Action]** | 编辑 — 在编辑模式下打开公司帐户。 |

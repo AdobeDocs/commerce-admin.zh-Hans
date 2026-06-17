@@ -3,10 +3,15 @@ title: 内容暂存
 description: 内容暂存使您的业务团队能够直接从管理员轻松创建、预览和计划存储的各种内容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ ht-degree: 0%
 
 所有计划的更新都连续应用，这意味着任何实体一次只能有一个计划的更新。 任何计划的更新将应用于其时间范围内的所有存储视图。 因此，一个实体不能同时对不同存储视图进行不同的计划更新。 所有存储视图中的所有实体属性值（不受当前计划更新影响）均从默认值获取，而不是从上次计划更新获取。
 
-为以下任何对象创建新的计划更新时，将创建相应的营销活动作为占位符，并在页面顶部显示&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框。 占位符营销活动具有开始日期，但没有结束日期。 您可以将内容更新安排为营销活动的一部分，然后按日期、时间或商店视图预览和共享更改。 为一个对象创建新营销活动后，可将其指定为其他对象的计划更新。
+为以下任何对象创建新的计划更新时，将创建相应的营销活动作为占位符，并在页面顶部显示&#x200B;_[!UICONTROL Scheduled Changes]_框。 占位符营销活动具有开始日期，但没有结束日期。 您可以将内容更新安排为营销活动的一部分，然后按日期、时间或商店视图预览和共享更改。 为一个对象创建新营销活动后，可将其指定为其他对象的计划更新。
 
 - [产品](../catalog/product-scheduled-changes.md)
 - [类别](../catalog/category-scheduled-changes.md)
@@ -40,7 +45,7 @@ ht-degree: 0%
 
 1. **创建基线内容**
 
-   基线是没有营销活动的资产内容，包含在页面顶部&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;部分下的所有内容。 将始终使用基线内容，除非存在在时间轴上针对该位置计划了更改的活动营销活动。
+   基线是没有营销活动的资产内容，包含在页面顶部&#x200B;_[!UICONTROL Scheduled Changes]_部分下的所有内容。 将始终使用基线内容，除非存在在时间轴上针对该位置计划了更改的活动营销活动。
 
 1. **创建第一个营销活动**
 
@@ -80,12 +85,12 @@ ht-degree: 0%
 
 要了解内容暂存，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410852?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## 资源疑难解答
 
 有关排查内容暂存问题的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [由于内容暂存问题，所有页面上出现404错误](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=zh-Hans)
-- [计划内容暂存更新未显示过时的Fastly缓存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=zh-Hans)
-- [我能否为共享目录中的价格安排内容暂存更新？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=zh-Hans)
+- [由于内容暂存问题，所有页面均显示错误404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [计划内容暂存更新未与过时的Fastly缓存一起显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [我是否可以为共享目录中的价格计划内容暂存更新？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

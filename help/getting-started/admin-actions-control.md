@@ -2,9 +2,14 @@
 title: 操作控制
 description: 了解如何使用Actions控件将操作应用于Admin中的一个或多个记录。
 exl-id: 03f313a9-bc17-4151-a2c8-8906342f025d
-source-git-commit: a3fb702d0b6e08c3aaaa0d6b5e07aa825026ef76
+TQID: https://experienceleague.adobe.com/N8RFNMBc2i4Surct0luNp7z-qF0lbP6r8T-uEMQ7y-w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 0%
 
 您可以进行所需数量的更改，然后在单一步骤中更新记录。 它比单独更改每个产品的设置要高效得多。 将编辑应用到记录批次是一项异步操作，它将在后台执行，这样您就可以继续在Admin中工作，而无需等待操作完成。 任务完成后，系统将显示一条消息。
 
-可用操作的选择因列表而异，并且可能会显示其他选项，具体取决于所选的操作。 例如，更改一组记录的状态时，Actions控件旁边会显示一个包含其他选项的&#x200B;_[!UICONTROL Status]_&#x200B;框。
+可用操作的选择因列表而异，并且可能会显示其他选项，具体取决于所选的操作。 例如，更改一组记录的状态时，Actions控件旁边会显示一个包含其他选项的&#x200B;_[!UICONTROL Status]_框。
 
 ## 第1步：选择记录
 
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为要应用的操作。
 
-   **_示例：_**&#x200B;更新属性
+   **_Example:_**&#x200B;更新属性
 
    - 在列表中，选中要更新的每个记录的复选框。
 

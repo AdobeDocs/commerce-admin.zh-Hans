@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods] &amp；gt；  [!UICONTROL PayPal Payflow Pro]'
-description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]页面上[!UICONTROL PayPal Payflow Pro]部分中的配置设置。
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] >  [!UICONTROL PayPal Payflow Pro]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]页面上[!UICONTROL PayPal Payflow Pro]部分中的配置设置。
 exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/SovV7EIi-4M4i17HIInBHNaqum-YLSpGEnpfO-0ykAs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 621
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的支付。 为了符合PSD2，[!DNL PayPal Payflow Pro]必须与[!DNL Cardinal Commerce]集成。 若要了解详细信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
+>自2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的支付。为了符合PSD2，[!DNL PayPal Payflow Pro]必须与[!DNL Cardinal Commerce]集成。若要了解更多信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
 
 {{config}}
 
@@ -31,7 +37,7 @@ ht-degree: 0%
 | 用户 | 网站 | 您PayPal帐户中其他用户的ID。 |
 | [!UICONTROL Password] | 网站 | 与您的PayPal商家帐户关联的密码。 |
 | [!UICONTROL Test Mode] | 网站 | 启用后，将在测试环境中运行PayPal Payflow Pro。 当您准备好在生产模式下“上线”时，请关闭测试模式。 选项： `Yes` / `No` |
-| [!UICONTROL Use Proxy] | 网站 | 当服务器防火墙阻止直接访问PayPal服务器时，可以使用代理重定向流量。 如果适用，则标识用于与PayPal服务器建立连接的代理服务器。 选项： `Yes` / `No` <br/><br/>如果启用，请设置代理选项： <br/>**`Proxy Host`**— 代理主机的IP地址。<br/>**`Proxy Port`** — 代理端口数。 |
+| [!UICONTROL Use Proxy] | 网站 | 当服务器防火墙阻止直接访问PayPal服务器时，可以使用代理重定向流量。 如果适用，则标识用于与PayPal服务器建立连接的代理服务器。 选项： `Yes` / `No` <br/><br/>如果启用，请设置代理选项： <br/>**`Proxy Host`**— 代理主机的IP地址。<br/>**`Proxy Port`** — 代理端口的编号。 |
 | [!UICONTROL Enable this Solution] | 网站 | 确定PayPal Payflow Pro是否作为付款方式提供给您的客户。 |
 | [!UICONTROL Enable PayPal Credit] | 网站 | 确定客户是否可以将PayPal信用作为付款选项。 |
 
@@ -75,7 +81,7 @@ ht-degree: 0%
 | 在购物车上显示 | 商店视图 | 确定PayPal Express结帐在购物车中是否显示为付款选项。 选项：是（推荐）/否 |
 | [!UICONTROL Payment Action Applicable From] | 网站 | 确定适用的国家/地区选择的范围。 选项：所有允许的国家/地区/特定国家/地区 |
 | [!UICONTROL Countries Payment Applicable From] | 网站 | 标识接受付款的每个国家/地区。 只有帐单地址在选定国家/地区的客户才能使用此付款方法进行购买。 |
-| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
+| [!UICONTROL Debug Mode] | 网站 | 在日志文件中记录您的商店和PayPal支付系统之间发送的消息。 选项： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;日志文件存储在服务器上，只有开发人员才能访问。 根据PCI数据安全标准，信用卡信息不会记录在日志文件中。 |
 | [!UICONTROL Enable SSL Verification] | 网站 | 启用主机安全证书的验证。 选项： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 网站 | 显示PayPal网站上客户购物车中行项目的完整摘要。 选项： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 网站 | 确定客户是否可以从PayPal网站完成交易，或者是否需要返回您的商店并在提交订单之前完成订单审核步骤。 选项： `Yes` / `No` |

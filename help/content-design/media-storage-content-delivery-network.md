@@ -4,17 +4,22 @@ description: 了解如何使用内容分发网络(CDN)存储媒体文件。
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/c-Aw3S5unZlMdDG1k080D4CIMcILglNa4ymZxPt6HBk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: 436
 ht-degree: 0%
 
 ---
 
 # 使用内容交付网络
 
-内容交付网络(CDN)可用于存储媒体文件。 云基础架构上的Adobe Commerce包括Fastly CDN(请参阅&#x200B;_云基础架构上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans))。 _内部部署_&#x200B;安装的Commerce实例不包含与任何特定CDN的集成，您可以使用您选择的CDN。
+内容交付网络(CDN)可用于存储媒体文件。 云基础架构上的Adobe Commerce包括Fastly CDN（请参阅&#x200B;_云基础架构上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)）。 _内部部署_&#x200B;安装的Commerce实例不包含与任何特定CDN的集成，您可以使用您选择的CDN。
 
 配置CDN后，必须从管理员处完成配置。 可以在全局或网站级别进行更改。 当CDN用于媒体存储时，Commerce存储页面上的所有媒体路径都将更改为配置中指定的CDN路径。
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，根据需要设置&#x200B;**[!UICONTROL Store View]**。
 

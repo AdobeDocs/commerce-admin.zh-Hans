@@ -3,16 +3,22 @@ title: 产品设置 — [!UICONTROL Product Reviews]
 description: 对于产品，[!UICONTROL Product Reviews]设置提供对已提交的产品审阅的访问权限，并编辑待处理审阅的状态。
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
 
 # 产品设置 — [!UICONTROL Product Reviews]
 
-_[!UICONTROL Product Reviews]_&#x200B;部分列出了客户提交的所有有关产品的评论。 仅当首次保存新产品后，此部分才会与其他产品信息一起显示。 有关详细信息，请参阅[产品评论](../merchandising-promotions/product-reviews.md)。
+_[!UICONTROL Product Reviews]_部分列出了客户提交的所有有关产品的评论。 仅当首次保存新产品后，此部分才会与其他产品信息一起显示。 有关详细信息，请参阅[产品评论](../merchandising-promotions/product-reviews.md)。
 
 ![产品评论](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -40,7 +46,7 @@ _[!UICONTROL Product Reviews]_&#x200B;部分列出了客户提交的所有有关
 
 1. 找到产品并在编辑模式下将其打开。
 
-1. 滚动到&#x200B;_[!UICONTROL Product Reviews]_&#x200B;部分。
+1. 滚动到&#x200B;_[!UICONTROL Product Reviews]_部分。
 
 1. 单击&#x200B;**[!UICONTROL Edit]**&#x200B;查看状态为`Pending`的产品审阅以查看和编辑详细信息。
 

@@ -3,9 +3,15 @@ title: 布局 — 列
 description: 了解“列”内容类型，该内容类型用于将页面在 [!DNL Page Builder] 阶段划分为多个列。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: 1576
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ## 2.4.5版本中的更新
 
-2.4.5版本中更新了页面生成器功能，以便用户现在使用&#x200B;_[!DNL Columns]_&#x200B;作为各个列的父容器。 此新容器还支持背景属性，并且无需将列换行。 它减少了不必要的标记，并对店面显示和体验提供了更精细的控制。
+2.4.5版本中更新了页面生成器功能，以便用户现在使用&#x200B;_[!DNL Columns]_作为各个列的父容器。 此新容器还支持背景属性，并且无需将列换行。 它减少了不必要的标记，并对店面显示和体验提供了更精细的控制。
 
 您可以更改[!DNL Columns]容器的布局，方法是在组中其他列的上方或下方拖动一列，然后栈叠这些列。 这打开了各种新的可能布局组合，无需开发人员自定义即可实现这些组合。
 
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 ## 列网格
 
-[网格](workspace.md)可确保内容在列中保持一致，并帮助页面在桌面和移动设备上正确呈现。 有关详细信息，请参阅[配置的](setup.md)高级内容工具[!DNL Page Builder]部分。
+[网格](workspace.md)可确保内容在列中保持一致，并帮助页面在桌面和移动设备上正确呈现。 有关详细信息，请参阅[!DNL Page Builder]配置的[高级内容工具](setup.md)部分。
 
 ![具有一列的行上的网格分区](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,7 +60,7 @@ ht-degree: 0%
 
 ## 添加列
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，将&#x200B;**[!UICONTROL Column]**&#x200B;拖到舞台上。
+1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Column]**拖到舞台上。
 
    ![将列拖到舞台上](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 1. 在列组的左上角，单击&#x200B;_网格_&#x200B;工具（![网格控件](./assets/pb-icon-grid-control.png)）并根据需要调整网格大小。
 
-   将内容放在网格上有助于使内容保持一致，并在桌面和移动设备上正确呈现页面。 有关详细信息，请参阅[配置的](../configuration-reference/general/content-management.md)高级内容工具[!DNL Page Builder]部分。
+   将内容放在网格上有助于使内容保持一致，并在桌面和移动设备上正确呈现页面。 有关详细信息，请参阅[!DNL Page Builder]配置的[高级内容工具](../configuration-reference/general/content-management.md)部分。
 
    ![两列上的网格分区](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -100,11 +106,11 @@ ht-degree: 0%
 
    - 将鼠标悬停在该列上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
-   - 向下滚动到&#x200B;_[!UICONTROL Advanced]_&#x200B;部分，并将所有四个&#x200B;**[!UICONTROL Padding]**&#x200B;值设置为`0`。
+   - 向下滚动到&#x200B;_[!UICONTROL Advanced]_部分，并将所有四个&#x200B;**[!UICONTROL Padding]**值设置为`0`。
 
      ![使用零内边距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Column]_&#x200B;页面。
+   - 单击右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以关闭&#x200B;_[!UICONTROL Edit Column]_页面。
 
 1. 单击工作区右上角的&#x200B;_关闭全屏_（![关闭全屏图标](./assets/pb-icon-reduce.png){width="20"}）图标，然后单击右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -170,7 +176,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Background Repeat]** — 如果要重复背景图像以填充空间，请更改此设置`Yes`。
 
-1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;设置。
+1. 根据需要更新&#x200B;_[!UICONTROL Advanced]_设置。
 
    - 要控制添加到列的内容容器的水平位置，请选择&#x200B;**[!UICONTROL Alignment]**：
 

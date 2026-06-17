@@ -3,20 +3,27 @@ title: 管理共享目录
 description: 了解共享目录页面提供的信息和工具。
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: 969
 ht-degree: 0%
 
 ---
 
 # 管理共享目录
 
-_[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具的访问权限。 该页面类似于标准管理员工作区，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
+_[!UICONTROL Shared Catalogs]_页面提供管理共享目录所需工具的访问权限。 该页面类似于标准管理员工作区，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
 
 ## 更新产品选择
 
-任何共享目录中的产品选择都可从共享目录网格的&#x200B;_[!UICONTROL Action]_&#x200B;列轻松更新。 您所做的更改对任何关联公司帐户的成员可见。 该过程基本上与为新[目录结构](catalog-shared-pricing-structure.md)选择产品相同，只是该配置的范围无法更改。
+任何共享目录中的产品选择都可从共享目录网格的&#x200B;_[!UICONTROL Action]_列轻松更新。 您所做的更改对任何关联公司帐户的成员可见。 该过程基本上与为新[目录结构](catalog-shared-pricing-structure.md)选择产品相同，只是该配置的范围无法更改。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
@@ -28,7 +35,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具
 
    您可以跳过第一项，因为共享目录的范围在首次保存后无法更改。
 
-如果您使用特定产品，_[!UICONTROL Products In Shared Catalog]_&#x200B;部分将列出该产品可用的每个共享目录。 若要了解详细信息，请参阅[将产品添加到共享目录](catalog-shared-product-add.md)。
+如果您使用特定产品，_[!UICONTROL Products In Shared Catalog]_部分将列出该产品可用的每个共享目录。 若要了解详细信息，请参阅[将产品添加到共享目录](catalog-shared-product-add.md)。
 
 ![共享目录中的产品](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +47,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具
 
 1. 对于网格中要更新的共享目录，转到&#x200B;**[!UICONTROL Action]**&#x200B;列并选择&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
-1. 在&#x200B;_[!UICONTROL Catalog Structure]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Configure]**&#x200B;并执行以下操作之一：
+1. 在&#x200B;_[!UICONTROL Catalog Structure]_页面上，单击&#x200B;**[!UICONTROL Configure]**并执行以下操作之一：
 
    - 在页面顶部的进度指示器中，单击&#x200B;**[!UICONTROL Pricing]**。
    - 单击右上角的&#x200B;**[!UICONTROL Next]**。
@@ -53,7 +60,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，_[!UICONTROL Display Product Prices]_&#x200B;的每个[类别权限](../catalog/category-permissions.md)和&#x200B;_[!UICONTROL Add to Cart]_&#x200B;均设置为`Allow`。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，对于在目录权限设置中分配了此类访问权限的客户组，_[!UICONTROL Display Product Prices]_的每个[类别权限](../catalog/category-permissions.md)和_[!UICONTROL Add to Cart]_&#x200B;均设置为`Allow`。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
 
 >[!IMPORTANT]
 >
@@ -109,7 +116,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具
 | [!UICONTROL Back] | 返回到“共享目录”页而不保存新的共享目录。 |
 | [!UICONTROL Delete] | 删除目录，并将任何关联公司及其成员重新分配给公共共享目录。 |
 | [!UICONTROL Reset] | 清除所有未保存的更改的形式，并恢复原始目录详细信息。 |
-| [!UICONTROL Duplicate] | 创建目录[&#128279;](catalog-shared-create.md)的副本。 对于自定义目录，为原始目录的定价模型和结构，但不包括公司关联。 如果公共共享目录重复，则重复目录的类型将更改为`custom`。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，重复的目录在原始目录中名为&#x200B;_Duplicate of_。 |
+| [!UICONTROL Duplicate] | 创建目录](catalog-shared-create.md)的[副本。 对于自定义目录，为原始目录的定价模型和结构，但不包括公司关联。 如果公共共享目录重复，则重复目录的类型将更改为`custom`。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，重复的目录在原始目录中名为&#x200B;_Duplicate of_。 |
 | [!UICONTROL Save and Continue Edit] | 保存所有更改，并保持表单在编辑模式下打开。 |
 | [!UICONTROL Save] | 保存更改，关闭表单，然后返回到“共享目录”页。 |
 
@@ -120,7 +127,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;页面提供管理共享目录所需工具
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Name] | 在整个管理员以及可用目录的客户帐户中标识共享目录。 目录名称应为描述性的，长度不超过32个字符。 不能有两个名称相同的共享目录。 最大字符数：32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** — 标识具有自定义定价的目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的登录客户使用的共享目录。 安装Adobe Commerce B2B时会创建“默认”公共共享目录，但必须由管理员配置。 一次只能存在一个公共共享目录。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** — 使用自定义定价标识目录，该目录仅对分配该目录的特定公司可用。<br/>**[!UICONTROL Public]**— 标识可供所有来宾访客以及未与公司关联的已登录客户使用的共享目录。 安装Adobe Commerce B2B时会创建“默认”公共共享目录，但必须由管理员配置。 一次只能存在一个公共共享目录。 |
 | [!UICONTROL Customer Tax Class] | 确定用于从目录采购的税分类。 这些选项包括所有可用的税分类。 |
 | [!UICONTROL Description] | 有关如何使用目录的简要说明。 |
 

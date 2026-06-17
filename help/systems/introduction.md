@@ -2,9 +2,15 @@
 title: 管理系统简介
 description: 了解商店管理员可用于有效管理站点、数据、集成和管理员用户的系统工具和功能。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
+TQID: https://experienceleague.adobe.com/E-6P-9RyoWsRXfdnU-nT4sEMLd3Pmlkynvd1q2Dqpms
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 471
 ht-degree: 0%
 
 ---
@@ -28,8 +34,8 @@ ht-degree: 0%
 
 - **管理员用户帐户和权限** — 管理管理员[用户帐户](permissions-users-all.md)以及相关的[角色和权限](permissions-user-roles.md)，这些角色和权限控制他们对“管理员”中网站和功能区域的访问。
 - **管理员会话和网站限制** — 查看[安全性](security.md)最佳实践，了解如何管理管理员会话和凭据、实施验证码以及管理网站限制。
-- [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **系统工具** — 执行例程[索引](index-management.md)和[缓存](cache-management.md)管理操作，[备份](backups.md)系统，管理[计划操作](data-scheduled-import-export.md)，并使用分类[开发人员工具](developer-tools.md)。
+- [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} **系统工具** — 执行例程[索引](index-management.md)和[缓存](cache-management.md)管理操作，[备份](backups.md)系统，管理[计划操作](data-scheduled-import-export.md)，并使用分类[开发人员工具](developer-tools.md)。
 - **数据传输** — 使用[数据传输](data-transfer.md)工具导入和导出数据，以及管理产品、定价、客户和税率数据。
 - **集成** — 为[第三方集成](integrations.md)建立OAuth凭据和重定向URL的位置，并识别可用的API资源。
-- **操作日志** - ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)访问管理员用户在您的商店中进行的更改的记录（[操作日志](action-log.md)）。
-- 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"} **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (仅Adobe Commerce) [系统报表](support.md#access-system-reports))旨在识别您系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。
+- **操作日志** - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）访问管理员用户在您的商店中进行的更改的记录（[操作日志](action-log.md)）。
+- 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} **支持工具** - ![Adobe Commerce](../assets/adobe-logo.svg) （仅Adobe Commerce） [系统报表](support.md#access-system-reports))旨在识别您系统中的已知问题。 它们可用作开发和优化过程中的资源，以及帮助我们的支持团队识别和解决问题的诊断工具。

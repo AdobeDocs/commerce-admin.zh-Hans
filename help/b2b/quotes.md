@@ -3,9 +3,16 @@ title: 可转让报价
 description: 了解报价工作流以及如何向公司客户提供此服务。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 买方和卖方使用报价单来管理订单添加项目、更新数量、请求和应用折扣等的洽谈流程，直到他们达成一致为止。 报价洽谈流程可以由授权的公司采购员启动，也可以由公司销售代表启动。
 
-在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中引用列表视图
+在Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中引用![列表视图
 
 创建报价之后，当买方或卖方提交报价以供复查时，洽谈流程将开始。 _报价_&#x200B;网格列出了收到的每个报价，并维护了买方与卖方之间的通信历史记录。 使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改列布局、保存视图和导出数据。
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 
 1. 选择要拒绝的每个打开报价请求。
 
-1. 将&#x200B;_[!UICONTROL Actions]_&#x200B;控件设置为`Declined`。
+1. 将&#x200B;_[!UICONTROL Actions]_控件设置为`Declined`。
 
 1. 出现提示时，输入报价被拒绝的原因，然后单击&#x200B;**[!UICONTROL Confirm]**。
 

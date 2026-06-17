@@ -2,9 +2,15 @@
 title: 管理库存库存
 description: 了解如何使用库存表示销售渠道来源的虚拟汇总产品库存。
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -15,13 +21,13 @@ ht-degree: 0%
 
 您首先会看到一个不能删除或禁用的“默认库存”。 您只能向库存添加其他销售渠道。 唯一分配的源是默认Source。 此库存由单一来源商家、第三方集成和进口产品使用。
 
-Sales Channel是指销售库存的实体。 默认情况下，[!DNL Commerce]将商店网站作为销售渠道提供。 可以扩展销售渠道以支持其他渠道，如B2B客户组和商店视图。 每个销售渠道只能关联到一个Stock。
+销售渠道指销售库存的实体。 默认情况下，[!DNL Commerce]将商店网站作为销售渠道提供。 可以扩展销售渠道以支持其他渠道，如B2B客户组和商店视图。 每个销售渠道只能关联到一个Stock。
 
-- **Sales Channel支持** — 销售渠道目前包括现成的网站。 您可以扩展销售渠道以包括自定义选项，如B2B客户组和商店视图。 每个销售渠道只能分配一个库存。 单个库存可以分配给多个销售渠道。
+- **Sales Channel支持** — 销售渠道目前包含现成的网站。 您可以扩展销售渠道以包括自定义选项，如B2B客户组和商店视图。 每个销售渠道只能分配一个库存。 单个库存可以分配给多个销售渠道。
 - **映射到源** — 每个库存可以分配一个或多个启用或禁用的源，从而计算每个产品的虚拟汇总库存。
 - **优先级订单履行** — 完成订单时，Source选择算法的现成优先级算法使用股票的来源列表（从上到下）。
 
-下图有助于定义库存如何与“自行车商店”商家的“来源”和“Sales Channel”相关。
+下图可帮助定义库存如何与自行车店商家的“来源”和“销售渠道”相关联。
 
 ![图，例如商店的库存](assets/diagram-stock.png){width="600" zoomable="yes"}
 
@@ -43,7 +49,7 @@ Sales Channel是指销售库存的实体。 默认情况下，[!DNL Commerce]将
 
 | 按钮 | 描述 |
 |--|--|
-| [!UICONTROL Add New Stock] | 打开&#x200B;_[!UICONTROL New Stock]_&#x200B;表单，该表单用于输入新的库存库存，以将库存映射到销售渠道。 |
+| [!UICONTROL Add New Stock] | 打开&#x200B;_[!UICONTROL New Stock]_表单，该表单用于输入新的库存库存，以将库存映射到销售渠道。 |
 
 ## 管理Stock列描述
 

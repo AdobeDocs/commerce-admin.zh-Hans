@@ -3,10 +3,15 @@ title: 价格规则中的动态块
 description: 将动态块与促销价格规则关联。
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Fzw3GXEp2PNXIuvOpN62tBiLhTeMJGsDMfQpRwV1dSg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -19,11 +24,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->创建此关联后，在触发规则时动态块只显示&#x200B;**1&rbrace;。**&#x200B;如果促销活动定位到区段A，则该块将显示到区段A。如果促销活动未处于活动状态，则不会显示块。
+>创建此关联后，在触发规则时动态块只显示&#x200B;**1}。**&#x200B;如果促销活动定位到区段A，则该块将显示到区段A。如果促销活动未处于活动状态，则不会显示块。
 
 ## 将动态块与价格规则关联
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;并选择以下选项之一：
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_并选择以下选项之一：
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

@@ -3,10 +3,17 @@ title: 分层导航
 description: 了解分层导航如何让购物者轻松根据类别、价格范围或任何其他可用属性查找产品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)不同。
+>本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)不同。
 
 通过分层导航，可以轻松地根据类别、价格范围或任何其他可用属性查找产品。 分层导航通常显示在搜索结果和类别页面的左列，有时显示在主页上。 标准导航包含&#x200B;_Shop By_&#x200B;类别和价格范围列表。 您可以配置分层导航的显示，包括产品数量和价格范围。
 
@@ -24,9 +31,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本主题中介绍的可筛选属性要求与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)不同。 若要了解详细信息，请参阅[Facet](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)。
+>本主题中介绍的可筛选属性要求与[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同。 若要了解详细信息，请参阅[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)。
 
-分层导航可用于按类别或属性搜索产品。 例如，当购物者从顶部导航中选择“Mens/Shorts”类别时，初始结果将包括该类别中的所有产品。 可以通过选择特定的样式、气候、颜色、材质、图案或价格（或值的组合）进一步过滤列表。 可过滤属性显示在展开部分中，其中列出了每个属性值。 作为一个选项，可以将具有匹配结果的产品列表配置为包含具有或不具有匹配项的产品。
+分层导航可用于按类别或属性搜索产品。 例如，当购物者从顶部导航中选择Mens/Shorts类别时，初始结果包括该类别中的所有产品。 可以通过选择特定的样式、气候、颜色、材质、图案或价格（或值的组合）进一步过滤列表。 可过滤属性显示在展开部分中，其中列出了每个属性值。 作为一个选项，可以将具有匹配结果的产品列表配置为包含具有或不具有匹配项的产品。
 
 属性属性与产品输入类型相结合，可确定哪些属性可用于分层导航。 分层导航仅适用于&#x200B;[_锚点_](categories-display-settings.md)&#x200B;类别，但也可以添加到搜索结果页面。 每个属性的&#x200B;**存储所有者**&#x200B;的目录输入类型必须设置为`Yes/No`、`Dropdown`、`Multiple Select`或`Price`。 要使属性可过滤，必须将每个属性的&#x200B;**在分层导航中使用**&#x200B;属性设置为`Filterable (with results)`或`Filterable (no results)`。
 
@@ -62,7 +69,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!NOTE]
 >
->- 如果&#x200B;_[!UICONTROL Use in Search]_&#x200B;设置设置为`No`，则不显示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;设置。在这种情况下，无论[!UICONTROL Use in Layered Navigation]设置如何，都不会在搜索中使用产品属性。
+>- 如果&#x200B;_[!UICONTROL Use in Search]_设置设置为`No`，则不显示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;设置。在这种情况下，无论[!UICONTROL Use in Layered Navigation]设置如何，都不会在搜索中使用产品属性。
 >
 >- 默认情况下，[!UICONTROL Position]字段呈灰显状态。 在修改此设置之前，必须保存属性。
 
@@ -72,7 +79,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 1. 在类别树中，选择要使用分层导航的类别。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Display Settings]**&#x200B;并将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
+1. 展开&#x200B;**[!UICONTROL Display Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
 
    ![类别显示设置](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
@@ -90,7 +97,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 显示![零筛选器](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
-这种结果可能会使客户难以选择首选产品，并且无需在前端显示&#x200B;&#x200B;0个产品的属性值。
+这种结果可能会使客户难以选择首选产品，并且无需在前端显示&#x200B;0个产品的属性值。
 
 您可以使用以下步骤从分层导航中删除0 Products的可过滤属性值：
 
@@ -98,7 +105,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 1. 浏览或使用过滤搜索查找列表中的属性，并在编辑模式下打开该属性。
 
-1. 在&#x200B;_[!UICONTROL Attribute Information]_&#x200B;下，单击&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 在&#x200B;_[!UICONTROL Attribute Information]_下，单击&#x200B;**[!UICONTROL Storefront Properties]**。
 
 1. 对于&#x200B;**[!UICONTROL Layered Navigation]**，请选择`Filterable (with results)`。
 
@@ -110,7 +117,7 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!NOTE]
 >
->本节中介绍的价格导航配置与具有[方面的Live Search筛选导航不同](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)。
+>本节中介绍的价格导航配置与具有[方面的Live Search筛选导航不同](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)。
 
 分层导航中价格导航可用于按价格范围分配产品。 您还可以按间隔拆分每个范围。 有几种方法可计算价格导向：
 
@@ -132,15 +139,15 @@ _示例：显示可筛选样本值，但没有结果_
 
 | 价格步进10 | 价格步进100 |
 |----------|--------|
-| 20.00美元 — 29.99美元(1) | 0.00美元 — 99.99美元(4) |
-| 30.00美元 — 39.99美元(2) | 100美元 — 199.99美元(5) |
-| 70.00美元 — 79.99美元(1) | 400.00美元 — 499.99美元(2) |
-| 100.00美元 — 109.99美元(1) | 700.00美元及以上(1) |
-| 120.00美元 — 129.99美元(2) |   |
-| 150.00美元 — 159.99美元(1) |   |
-| 180.00美元 — 189.99美元(1) |   |
-| 420.00美元 — 429.99美元(1) |   |
-| 440.00美元 — 449.99美元(1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | 700.00美元及以上(1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | 710.00美元及以上(1) |   |
 
 {style="table-layout:auto"}
@@ -149,19 +156,19 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!IMPORTANT]
 >
->要在分层导航中根据&#x200B;_价格筛选器_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 对于&#x200B;_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
+>要在分层导航中根据&#x200B;_价格筛选器_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**值。 对于_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![分层导航](../assets/icon-display-expand.png)部分的&#x200B;_扩展选择器_。
+1. 展开&#x200B;_分层导航_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    默认情况下，**[!UICONTROL Display Product Count]**&#x200B;设置为`Yes`。 如有必要，请取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框以更改此设置。
 
    ![分层导航](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   有关这些配置选项的详细列表，请参阅[配置引用](../configuration-reference/catalog/catalog.md#layered-navigation)中的&#x200B;_分层导航_。
+   有关这些配置选项的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[分层导航](../configuration-reference/catalog/catalog.md#layered-navigation)。
 
 1. 为以下部分中的方法之一设置&#x200B;**[!UICONTROL Price Navigation Steps Calculation]**。
 
@@ -205,15 +212,15 @@ _示例：显示可筛选样本值，但没有结果_
 
 >[!NOTE]
 >
->本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)不同。
+>本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)不同。
 
 分层导航配置确定产品计数是否显示在每个属性后面的括号中，以及价格导航中使用的步骤计算的大小。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中，展开&#x200B;_[!UICONTROL Catalog]_&#x200B;部分并在下面选择&#x200B;**[!UICONTROL Catalog]**。
+1. 在左侧面板中，展开&#x200B;_[!UICONTROL Catalog]_部分并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开&#x200B;_[!UICONTROL Layered Navigation]_&#x200B;部分。
+1. 展开&#x200B;_[!UICONTROL Layered Navigation]_部分。
 
    >[!NOTE]
    >

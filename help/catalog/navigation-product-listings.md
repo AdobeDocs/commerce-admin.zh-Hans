@@ -3,9 +3,16 @@ title: 产品列表
 description: 了解如何修改产品列表配置，该配置确定每个页面显示的产品数量，以及使用哪个属性对列表进行排序。
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_&#x200B;的升序排序。
+>按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_的升序排序。
 
 ![产品显示为网格](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +41,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若要根据&#x200B;_产品按价格排序_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 对于&#x200B;_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
+   >若要根据&#x200B;_产品按价格排序_&#x200B;正确显示产品及其价格，请确保[增值税配置](../configuration-reference/sales/tax.md)中显示的价格设置具有相同的值（`Excluding Tax` **或** `Including Tax`）。 对于&#x200B;_[!UICONTROL Calculation Settings]_，检查&#x200B;**[!UICONTROL Catalog Prices]**值。 对于_[!UICONTROL Price Display Settings]_，请检查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果它们的值不同，则分层导航中的价格过滤器可能无法正确过滤和排序产品。
 
 1. 将默认&#x200B;**[!UICONTROL List Mode]**&#x200B;设置为以下项之一：
 
@@ -95,7 +102,7 @@ ht-degree: 0%
 | 控件 | 描述 |
 |--- |--- |
 | ![显示网格](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] — 以Grid或List格式显示列表。 |
-| ![排序方式](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 更改列表的排序顺序。 _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront属性确定哪些[产品属性](../catalog/product-attributes.md)可用于对列表进行排序。 |
+| ![排序方式](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 更改列表的排序顺序。 _[!UICONTROL Used for Sorting in Product Listing]_storefront属性确定哪些[产品属性](../catalog/product-attributes.md)可用于对列表进行排序。 |
 | 每页![显示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] — 确定每页显示的产品数。 |
 | ![分页链接](./assets/control-pagination.png) | 分页链接 — 导航到其他页面的链接。 |
 

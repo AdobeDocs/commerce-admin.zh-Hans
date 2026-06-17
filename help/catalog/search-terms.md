@@ -3,9 +3,16 @@ title: 管理搜索词
 description: 了解如何管理商店的搜索词，以使用拼写错误或替换词重定向客户。
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/3AHIV0QXCL1FhLiGnTQrBKRKdogDxahMxpcm1JWCpf4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1188
 ht-degree: 0%
 
 ---
@@ -48,7 +55,7 @@ ht-degree: 0%
 
    ![搜索词常规信息](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;**[!UICONTROL Search Query]**&#x200B;框中的&#x200B;_[!UICONTROL General Information]_&#x200B;下，输入要作为新搜索词添加的词或短语。
+1. 在&#x200B;**[!UICONTROL Search Query]**&#x200B;框中的&#x200B;_[!UICONTROL General Information]_下，输入要作为新搜索词添加的词或短语。
 
 1. 如果您的商店以多种语言提供，请选择适用的&#x200B;**[!UICONTROL Store]**&#x200B;视图。
 
@@ -60,7 +67,7 @@ ht-degree: 0%
 
 ## 编辑搜索词
 
-1. 在&#x200B;_[!UICONTROL Search Terms]_&#x200B;网格中，单击任何记录的行以在编辑模式下打开搜索项。
+1. 在&#x200B;_[!UICONTROL Search Terms]_网格中，单击任何记录的行以在编辑模式下打开搜索项。
 
 1. 进行必要的更改。
 
@@ -70,7 +77,7 @@ ht-degree: 0%
 
 有两种删除搜索词的方法 — 从网格中删除和在“编辑”页面上删除。
 
-_[!UICONTROL Search Terms]_&#x200B;网格中的&#x200B;**方法1：**
+_[!UICONTROL Search Terms]_网格中的&#x200B;**方法1：**
 
 1. 在列表中，选中要删除的术语的复选框。
 
@@ -78,7 +85,7 @@ _[!UICONTROL Search Terms]_&#x200B;网格中的&#x200B;**方法1：**
 
 1. 完成后，单击&#x200B;**[!UICONTROL Submit]**。
 
-_[!UICONTROL Edit a Search Term]_&#x200B;页面上的&#x200B;**方法2：**
+_[!UICONTROL Edit a Search Term]_页面上的&#x200B;**方法2：**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**。
 
@@ -96,7 +103,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;页面上的&#x200B;**方法2：**
 
 ![示例店面 — 常用搜索词](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-**_要配置常用搜索词：_**
+**_配置常用搜索词:_**
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -124,7 +131,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;页面上的&#x200B;**方法2：**
 
 Adobe Commerce支持两种不同的同义词管理解决方案：
 
-- Live Search [同义词](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=zh-Hans)功能可用于已安装Live Search的Adobe Commerce安装。
+- Live Search [同义词](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html)功能可用于已安装Live Search的Adobe Commerce安装。
 - 所有Adobe Commerce安装均可现成使用标准搜索同义词功能（如本页所述）。
 
 >[!NOTE]
@@ -141,7 +148,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**。
 
-   出现&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格。 如果这是您第一次使用搜索同义词，则网格为空。
+   出现&#x200B;_[!UICONTROL Search Synonyms]_网格。 如果这是您第一次使用搜索同义词，则网格为空。
 
    ![搜索同义词网格](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +171,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 ### 编辑同义词组
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格中，单击任何记录的行以在编辑模式下打开同义词组。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_网格中，单击任何记录的行以在编辑模式下打开同义词组。
 
 1. 进行必要的更改。
 
@@ -176,7 +183,7 @@ Adobe Commerce支持两种不同的同义词管理解决方案：
 
 搜索同义词网格中的&#x200B;**方法1：**
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;网格中，选中要删除的组的复选框。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_网格中，选中要删除的组的复选框。
 
 1. 在列表的左上角，将&#x200B;**[!UICONTROL Actions]**&#x200B;设置为`Delete`。
 

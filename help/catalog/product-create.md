@@ -3,9 +3,15 @@ title: 创建产品
 description: 了解可为目录创建的产品类型。
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/c4lf97N0NptqaySmZ5QEr9O81Ftjc9b6-7IiVMimMWU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: 689
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 **[可下载的产品](product-create-downloadable.md)** — 可数字下载的产品包含一个或多个已下载的文件。 这些文件可以驻留在您的服务器上，也可以作为URL提供给任何其他服务器。
 
-**[礼品卡](product-gift-card-create.md)** - (仅限[Adobe Commerce](../landing/home.md#product-editions))礼品卡有三种。 _虚拟_&#x200B;礼品卡通过电子邮件发送。 _实际_&#x200B;礼品卡已发送给收件人。 _组合的_&#x200B;虚拟和物理礼品卡。 每个帐户都有一个唯一代码，在结账时可兑换此代码。 礼品卡也可以包含在分组产品中。
+**[礼品卡](product-gift-card-create.md)** - （仅限[Adobe Commerce](../landing/home.md#product-editions)）礼品卡有三种。 _虚拟_&#x200B;礼品卡通过电子邮件发送。 _实际_&#x200B;礼品卡已发送给收件人。 _组合的_&#x200B;虚拟和物理礼品卡。 每个帐户都有一个唯一代码，在结账时可兑换此代码。 礼品卡也可以包含在分组产品中。
 
 ## 产品设置
 
@@ -54,7 +60,7 @@ ht-degree: 0%
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | 根据商店层次结构确定每个可用产品的网站。 |
 | [[!UICONTROL Design]](settings-advanced-design.md) | 用于向产品页面应用不同的主题、更改列布局、确定产品选项出现的位置，以及输入自定义XML代码。 |
 | [[!UICONTROL Gift options]](product-gift-options.md) | 用于在产品级别结帐时启用或禁用礼品消息选项。 |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg)(仅适用于[Adobe Commerce B2B](../b2b/introduction.md))允许使用自定义定价维护不同公司的共享目录。 |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg)（仅适用于[Adobe Commerce B2B](../b2b/introduction.md)）允许使用自定义定价维护不同公司的共享目录。 |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | 用于定义产品下载的参数。 |
 
 {style="table-layout:auto"}

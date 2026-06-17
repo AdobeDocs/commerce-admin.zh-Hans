@@ -2,9 +2,15 @@
 title: 管理员信息板
 description: 了解管理员功能板，它通常是登录时显示的第一个页面。
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
-source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
+TQID: https://experienceleague.adobe.com/wC9e6bsTF6P9zt1biyWq1IJQUPQ01c940OcZNMw-AdQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 725
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 ## 配置仪表板
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;并完成以下任何设置。
+1. 在&#x200B;_管理员_&#x200B;侧边栏中，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**并完成以下任何设置。
 
 1. 配置完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 仪表板是管理员的默认[启动页面](../configuration-reference/advanced/admin.md)，但您可以配置其他启动页面。
 
-1. 如果尚未打开管理员配置选项，请在左侧导航面板的&#x200B;_[!UICONTROL Advanced]_&#x200B;下选择&#x200B;**[!UICONTROL Admin]**。
+1. 如果尚未打开管理员配置选项，请在左侧导航面板的&#x200B;_[!UICONTROL Advanced]_下选择&#x200B;**[!UICONTROL Admin]**。
 
 1. 单击以展开&#x200B;**启动页面**&#x200B;部分。
 

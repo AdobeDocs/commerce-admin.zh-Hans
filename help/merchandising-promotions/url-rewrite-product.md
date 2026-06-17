@@ -3,10 +3,16 @@ title: 产品URL重写
 description: 了解如何使用产品URL重写以将链接重定向到Commerce商店中其他产品的URL。
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 911
 ht-degree: 0%
 
 ---
@@ -111,7 +117,7 @@ ht-degree: 0%
 | [!UICONTROL Create URL Rewrite] | 指示重写的类型。 创建重写后无法更改类型。 选项： `Custom` / `For category` / `For product` / `For CMS page` |
 | [!UICONTROL Request Path] | 要重定向的产品。 根据您的配置，请求路径可能包含`.html`或`.htm`后缀和类别。 请求路径必须是唯一的，并且不能被另一个重定向使用。 如果您收到请求路径存在的错误，请删除现有重定向，然后重试。 |
 | [!UICONTROL Target Path] | 系统用来指向重定向目标的内部路径。 目标路径呈灰显状态，无法编辑。 |
-| [!UICONTROL Redirect] | 确定重定向的类型。 选项： <br/>**[!UICONTROL No]**— 未指定重定向。 许多操作都会创建此类型的重定向请求。 例如，每次将产品添加到类别时，都会在每次商店视图中创建`No`类型的重定向。<br/>**[!UICONTROL Temporary (302)]** — 向搜索引擎指示重写时间有限。 搜索引擎通常不会保留页面排名信息以进行临时重写。 <br/>**[!UICONTROL Permanent (301)]**— 向搜索引擎指示重写是永久的。 搜索引擎通常会保留页面排名信息以进行永久重写。 |
+| [!UICONTROL Redirect] | 确定重定向的类型。 选项： <br/>**[!UICONTROL No]**— 未指定重定向。 许多操作都会创建此类型的重定向请求。 例如，每次将产品添加到类别时，都会在每次商店视图中创建`No`类型的重定向。<br/>**[!UICONTROL Temporary (302)]** — 向搜索引擎指示重写时间有限。 搜索引擎通常不会保留页面排名信息以进行临时重写。<br/>**[!UICONTROL Permanent (301)]**— 向搜索引擎指示重写是永久的。 搜索引擎通常会保留页面排名信息以进行永久重写。 |
 | [!UICONTROL Description] | 描述重写的用途，以供内部参考。 |
 
 {style="table-layout:auto"}
@@ -124,11 +130,11 @@ ht-degree: 0%
 
 1. 选择要更新URL重写的所有产品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下，选择&#x200B;**[!UICONTROL Update attributes]**&#x200B;以更新多个重写或所有重写。
+1. 在&#x200B;_[!UICONTROL Actions]_下，选择&#x200B;**[!UICONTROL Update attributes]**以更新多个重写或所有重写。
 
-1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_&#x200B;下，单击&#x200B;**[!UICONTROL Websites]**&#x200B;选项卡。
+1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_下，单击&#x200B;**[!UICONTROL Websites]**选项卡。
 
-1. 在&#x200B;_[!UICONTROL Add Product To Websites]_&#x200B;部分中，选择要还原URL重写的所有网站。
+1. 在&#x200B;_[!UICONTROL Add Product To Websites]_部分中，选择要还原URL重写的所有网站。
 
 1. 准备更新时，单击&#x200B;**[!UICONTROL Save]**。
 

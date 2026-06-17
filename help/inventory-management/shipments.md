@@ -3,9 +3,15 @@ title: 管理库存中的订单和发运
 description: 了解在装运过程中管理库存数量的其他 [!DNL Inventory Management] 功能和选项。
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 736
 ht-degree: 0%
 
 ---
@@ -51,7 +57,7 @@ ht-degree: 0%
 
 单一来源商户也可能发送部分发运以支持延交订单或平衡库存，因为订单是针对常用项目进行的。
 
-### Recommendations和Source选择算法
+### 推荐和Source选择算法
 
 [Source选择算法](selection-reservations.md) (SSA)为部分装运和完全装运提供建议。 在为订单创建发运发票时，您可以访问Source选择算法。 通过“发运”页，随时运行Source优先级或距离优先级算法，以确定用于匹配订购数量和可用来源的最佳选项。 系统支持从一个来源发运完整订单，并将订单分解为多个来源的多个部分发运。 您可以访问这些选项以立即履行和交错发运，从而在一段时间内发送较少的数量。
 

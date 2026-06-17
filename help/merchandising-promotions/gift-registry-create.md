@@ -3,9 +3,15 @@ title: 礼品注册设置
 description: 了解如何为商店客户设置礼品注册类型。
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -121,7 +127,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Text] | 将属性显示为文本字段。 |
-| [!UICONTROL Select] | 将属性显示为下拉列表。 单击&#x200B;**[!UICONTROL Add New Option]**&#x200B;可向下拉列表添加更多条件：<br/>**[!UICONTROL Code]**— 用于内部标识属性的唯一名称。<br/>**[!UICONTROL Label]** — 在客户的帐户仪表板中标识属性的名称。<br/>**[!UICONTROL Is Default]**— 设置此开关以选择默认条件。<br/>**[!UICONTROL Delete Option]** — 单击以删除选项。 |
+| [!UICONTROL Select] | 将属性显示为下拉列表。 单击&#x200B;**[!UICONTROL Add New Option]**&#x200B;可向下拉列表添加更多条件：<br/>**[!UICONTROL Code]**— 可在内部标识该属性的唯一名称。<br/>**[!UICONTROL Label]**  — 在客户的帐户信息板中标识属性的名称。<br/>**[!UICONTROL Is Default]**— 设置此开关以选择默认条件。<br/>**[!UICONTROL Delete Option]**  — 单击以删除选项。 |
 | [!UICONTROL Date] | 将属性显示为日期字段。 选项： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Country] | 将属性显示为国家/地区的下拉列表。 将&#x200B;**[!UICONTROL Show Region]**&#x200B;设置为： `Yes` / `No`。 |
 
@@ -131,10 +137,10 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Event Date] | 确定在存储中使用日期属性的方式。 选项： <br/>**[!UICONTROL Searchable]**— 确定该属性是否可用于高级搜索。 选项： `Yes` / `No`。<br/>**[!UICONTROL Is Listed]** — 确定该事件是否包含在存储中可用的事件列表中。 选项： `Yes` / `No`。 <br/>**[!UICONTROL Date Format]**— 确定事件日期的格式。 选项： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | 将属性显示为国家/地区列表。 选项： <br/>**[!UICONTROL Searchable]**— 确定该属性是否可用于高级搜索。 选项： `Yes` / `No`。<br/>**[!UICONTROL Is Listed]** — 确定该事件是否包含在存储中可用的事件列表中。 选项： `Yes` / `No`。 <br/>**[!UICONTROL Show Region]**— 确定事件的区域。 |
+| [!UICONTROL Event Date] | 确定在存储中使用日期属性的方式。 选项： <br/>**[!UICONTROL Searchable]**— 确定该属性是否可用于高级搜索。 选项： `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**  — 确定事件是否包含在存储中可用的事件列表中。 选项： `Yes` / `No`。<br/>**[!UICONTROL Date Format]**— 确定事件日期的格式。 选项： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | 将属性显示为国家/地区列表。 选项： <br/>**[!UICONTROL Searchable]**— 确定该属性是否可用于高级搜索。 选项： `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**  — 确定事件是否包含在存储中可用的事件列表中。 选项： `Yes` / `No`。<br/>**[!UICONTROL Show Region]**— 确定事件的区域。 |
 | [!UICONTROL Event Location] | 与礼品注册相关的事件的位置。 <br/>将&#x200B;**[!UICONTROL Is Searcheable]**&#x200B;设置为： `Yes` / `No` <br/>将&#x200B;**[!UICONTROL Is Listed]**&#x200B;设置为： `Yes` / `No` |
-| [!UICONTROL Role] | 用于标识礼品收件人的角色。 例如，`Bride`、`Groom`或`Partner`。<br/>**[!UICONTROL Is Searcheable]**— 设置为`Yes`/ `No`<br/>**&#x200B;已列出&#x200B;**— 设置为`Yes` / `No`<br/>**[!UICONTROL Add New Option]** — 单击向下拉菜单添加更多条件：<br/>**代码** — 用于内部标识属性的唯一名称。<br/>**[!UICONTROL Label]**— 在客户的帐户仪表板中标识属性的名称。<br/>**[!UICONTROL Is Default]** — 设置此开关以选择默认条件。<br/>**[!UICONTROL Delete Option]**— 单击以删除选项。 |
+| [!UICONTROL Role] | 用于标识礼品收件人的角色。 例如，`Bride`、`Groom`或`Partner`.<br/>**[!UICONTROL Is Searcheable]**— 设置为`Yes`/`No`<br/>**&#x200B;已列出&#x200B;**— 设置为`Yes` / `No`<br/>**[!UICONTROL Add New Option]** — 单击向下拉菜单添加更多条件：<br/>**代码** — 在内部标识该属性的唯一名称。<br/>**[!UICONTROL Label]**— 在客户的帐户信息板中标识属性的名称。<br/>**[!UICONTROL Is Default]**  — 设置此开关以选择默认条件。<br/>**[!UICONTROL Delete Option]**— 单击以删除选项。 |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,15 @@ title: 配置电子邮件通信
 description: 了解如何配置电子邮件通信，包括返回的电子邮件或特定电子邮件地址的回复的路由。
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 310
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**安全声明**&#x200B;所有商家应立即设置其邮件发送配置，以防止最近发现的潜在远程代码执行攻击。 在解决此问题之前，强烈建议您避免使用[!DNL Sendmail]进行电子邮件通信。 在&#x200B;_[!UICONTROL Mail Sending Settings]_&#x200B;中，确保&#x200B;_[!UICONTROL Set Return Path]_&#x200B;设置为`No`。
+>**安全声明**&#x200B;所有商家应立即设置其邮件发送配置，以防止最近发现的潜在远程代码执行攻击。 在解决此问题之前，强烈建议您避免使用[!DNL Sendmail]进行电子邮件通信。 在&#x200B;_[!UICONTROL Mail Sending Settings]_中，确保_[!UICONTROL Set Return Path]_&#x200B;设置为`No`。
 
 有关配置设置的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)。
 

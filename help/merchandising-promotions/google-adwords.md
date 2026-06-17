@@ -3,9 +3,15 @@ title: Google AdWords
 description: 了解如何为Google AdWords转化跟踪配置您的Commerce商店，以衡量促成销售或其他有价值的操作的广告点击量。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 659
 ht-degree: 0%
 
 ---
@@ -72,7 +78,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Google API]**。
 
-1. 展开![部分中的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Google AdWords]**&#x200B;并执行以下操作：
+1. 展开&#x200B;**[!UICONTROL Google AdWords]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
    - 将&#x200B;**[!UICONTROL Enable]**&#x200B;设置为`Yes`。
 
@@ -90,7 +96,7 @@ ht-degree: 0%
       - `2` — 显示两行通知，其中包含指向Google跟踪详细信息的链接。
       - `3` — 不显示客户通知。
 
-   - 为要用于Google网站统计信息通知标签的[输入](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}十六进制代码&#x200B;**[!UICONTROL Conversion Color]**。
+   - 为要用于Google网站统计信息通知标签的&#x200B;**[!UICONTROL Conversion Color]**&#x200B;输入[十六进制代码](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}。
 
    - 输入显示在Google Sites Stat通知中的&#x200B;**[!UICONTROL Conversion Label]**&#x200B;的加密文本。
 
@@ -125,7 +131,7 @@ ht-degree: 0%
    - `Dynamic` — 根据动态订单金额值确定已发生转换。
    - `Constant` — 根据输入的特定值确定已发生转换。
 
-   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;**[!UICONTROL Value]**&#x200B;输入特定的&#x200B;_[!UICONTROL Order Amount]_&#x200B;以限定为转换。
+   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;_[!UICONTROL Order Amount]_输入特定的&#x200B;**[!UICONTROL Value]**以限定为转换。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

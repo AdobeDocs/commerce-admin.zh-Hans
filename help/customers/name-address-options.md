@@ -3,9 +3,15 @@ title: 客户名称和地址选项
 description: 客户名称和地址选项决定了名称和地址表单中包含哪些字段。
 exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/qMXVcVWZJCrCNywOJF3psuO5vLWkNt9LoNtgFfFBzT8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -41,7 +47,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_&#x200B;部分未出现。
+   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_部分未出现。
 
    ![配置作用域](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -75,7 +81,7 @@ ht-degree: 0%
 
 1. 在页面顶部的消息中，单击每个无效缓存的&#x200B;**[!UICONTROL Cache Management]**&#x200B;和[刷新](../systems/cache-management.md)。
 
-## 配置用于Magento Open Source的名称和地址选项
+## 为Magento Open Source配置名称和地址选项
 
 配置在店面客户创建帐户时向其显示的名称和地址选项。
 
@@ -120,7 +126,7 @@ ht-degree: 0%
    >
    >默认情况下，街道地址为三行。
 
-1. 若要在名称中包含前缀（如Mr或Ms.），请将&#x200B;**显示前缀**&#x200B;设置为`Yes`。
+1. 添加前缀（例如Mr或Ms.） 作为名称的一部分，将&#x200B;**显示前缀**&#x200B;设置为`Yes`。
 
    ![客户注册表单中的前缀](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
@@ -130,7 +136,7 @@ ht-degree: 0%
 
 1. 要为客户的中间名或初始名称包含一个可选字段，请将&#x200B;**[!UICONTROL Show Middle Name (initial)]**&#x200B;设置为`Yes`。
 
-1. 添加后缀(如Jr. 或Sr.)在客户名称后，将&#x200B;**[!UICONTROL Show Suffix]**&#x200B;设置为以下任一项：
+1. 添加后缀(如Jr. 或老人) 在客户名称之后，将&#x200B;**[!UICONTROL Show Suffix]**&#x200B;设置为以下项之一：
 
    - `Optional`
    - `Required`

@@ -3,26 +3,33 @@ title: 管理公司帐户
 description: 了解如何使用公司页面和网格中可用的工具管理Adobe Commerce商店的公司帐户。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: 2728
 ht-degree: 0%
 
 ---
 
 # 管理公司帐户
 
-_[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
+_[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
 
 ![公司网格](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 使用&#x200B;*[!UICONTROL Columns]*&#x200B;控件自定义网格中显示的列。 使用搜索和筛选功能自定义视图中显示的公司。
 
-- 使用&#x200B;_[!UICONTROL Search]_&#x200B;在&#x200B;**公司**&#x200B;网格中查找公司。 搜索对&#x200B;**公司名称**&#x200B;和&#x200B;**父项**&#x200B;列编制索引。
+- 使用&#x200B;_[!UICONTROL Search]_在&#x200B;**公司**网格中查找公司。 搜索对&#x200B;**公司名称**和&#x200B;**父项**列编制索引。
 
 - 使用[!UICONTROL Filter]自定义视图以包含符合特定条件的记录。 例如，如果B2B站点配置为同时管理单个公司帐户和[公司层次结构](manage-companies.md)，则可以按`[!UICONTROL Company Type - Company]`进行筛选以仅显示单个公司，或按`[!UICONTROL Company Type - Parent]`进行筛选以仅显示每个层次结构的父公司。
 
-使用网格上方的&#x200B;_[!UICONTROL Actions]_&#x200B;控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
+使用网格上方的&#x200B;_[!UICONTROL Actions]_控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
 
 ## 公司角色资源
 
@@ -166,7 +173,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 1. 在网格中，查找要编辑的公司记录。
 
-1. 从&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 从&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 对公司信息进行必要的更改。
 
@@ -198,7 +205,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 使用字段描述根据需要更新每个部分中的字段值，以供参考。
 
@@ -208,7 +215,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 通过观看以下视频，您可以了解有关管理公司帐户的信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410769?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 公司管理
 
@@ -245,7 +252,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 | [!UICONTROL Select] | 用于选择要作为操作主体的公司记录或使用列标题中的选择控件来选择/取消选择所有内容的复选框。 |
 | [!UICONTROL ID] | 提交创建公司的请求时分配的唯一数字标识符。 |
 | [!UICONTROL Company Name] | 公司名称在首次创建公司帐户时输入，可以是完整法律名称的缩写版本。 |
-| [!UICONTROL Company Type] | [公司](manage-companies.md)的类型。 选项： <br/>**[!UICONTROL Company]**— 默认情况下，新公司是作为单个公司创建的。<br/>**[!UICONTROL Parent]** — 该公司是其他公司的母公司。 <br/>**[!UICONTROL Child]**— 此公司与母公司相关。 |
+| [!UICONTROL Company Type] | [公司](manage-companies.md)的类型。 选项： <br/>**[!UICONTROL Company]**— 默认情况下，新公司是作为单个公司创建的。<br/>**[!UICONTROL Parent]** — 该公司是其他公司的母公司。<br/>**[!UICONTROL Child]**— 此公司与母公司相关。 |
 | [!UICONTROL Parent] | 显示此特定公司行的母公司。 |
 | [!UICONTROL Company Email] | 与公司帐户关联的电子邮件地址。 |
 | [!UICONTROL Phone Number] | 公司的主要电话号码。 |
@@ -275,7 +282,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 | [!UICONTROL VAT/TAX ID] | 某些管辖区为报税目的而分配给公司的[增值税](../stores-purchase/vat.md)编号。 要将客户VAT/TAX ID配置为显示在店面，请参阅[新建帐户选项](../configuration-reference/customers/customer-configuration.md)。 |
 | [!UICONTROL Credit Limit] | 扩展到公司帐户的信用额度。 |
 | [!UICONTROL Credit Currency] | 商店接受以公司贷记进行购买的货币。 |
-| [!UICONTROL Status] | 指示公司帐户的[状态](account-company-approve.md)。 选项： <br/>**[!UICONTROL Active]**— 公司帐户由存储管理员批准。 公司管理员和关联成员可以从店面登录帐户并进行购买。<br/>**[!UICONTROL Pending Approval]** — 已提交打开公司帐户的请求，但尚未获得商店管理员的批准。 <br/>**[!UICONTROL Rejected]**— 已提交打开公司帐户的请求，但未获得商店管理员的批准。 用于提交请求的初始登录凭据被阻止。<br/>**[!UICONTROL Blocked]** — 公司成员可以登录并访问目录，但不能进行购买。 商店管理员可能会阻止信誉不佳的公司帐户。 商店管理员可随时删除帐户上的块。 |
+| [!UICONTROL Status] | 指示公司帐户的[状态](account-company-approve.md)。 选项： <br/>**[!UICONTROL Active]**— 公司帐户由存储管理员批准。 公司管理员和关联成员可以从店面登录帐户并进行购买。<br/>**[!UICONTROL Pending Approval]** — 已提交打开公司帐户的请求，但尚未获得商店管理员的批准。<br/>**[!UICONTROL Rejected]**— 已提交打开公司帐户的请求，但未获得商店管理员的批准。 用于提交请求的初始登录凭据被阻止。<br/>**[!UICONTROL Blocked]** — 公司成员可以登录并访问目录，但不能进行购买。 商店管理员可能会阻止信誉不佳的公司帐户。 商店管理员可随时删除帐户上的块。 |
 | [!UICONTROL Gender] | 公司管理员的性别。 选项：男/女/未指定 |
 | [!UICONTROL Comment] | 公司帐户的相关注释，以供参考并仅从管理员处可见。 |
 
@@ -299,7 +306,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 | 字段 | 描述 |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | 公司名称在首次创建公司帐户时输入，可以是完整法律名称的缩写版本。 |
-| [!UICONTROL Status] | 指示公司帐户的[状态](account-company-approve.md)。 选项： <br/>**[!UICONTROL Active]**— 公司帐户由存储管理员批准。 公司管理员和关联成员可以从店面登录帐户并进行购买。<br/>**[!UICONTROL Pending Approval]** — 已提交打开公司帐户的请求，但尚未获得商店管理员的批准。 <br/>**[!UICONTROL Rejected]**— 已提交打开公司帐户的请求，但未获得商店管理员的批准。 用于提交请求的初始登录凭据被阻止。<br/>**[!UICONTROL Blocked]** — 公司成员可以登录并访问目录，但不能进行购买。 商店管理员可能会阻止信誉不佳的公司帐户。 商店管理员可随时删除帐户上的块。 |
+| [!UICONTROL Status] | 指示公司帐户的[状态](account-company-approve.md)。 选项： <br/>**[!UICONTROL Active]**— 公司帐户由存储管理员批准。 公司管理员和关联成员可以从店面登录帐户并进行购买。<br/>**[!UICONTROL Pending Approval]** — 已提交打开公司帐户的请求，但尚未获得商店管理员的批准。<br/>**[!UICONTROL Rejected]**— 已提交打开公司帐户的请求，但未获得商店管理员的批准。 用于提交请求的初始登录凭据被阻止。<br/>**[!UICONTROL Blocked]** — 公司成员可以登录并访问目录，但不能进行购买。 商店管理员可能会阻止信誉不佳的公司帐户。 商店管理员可随时删除帐户上的块。 |
 | [!UICONTROL Company Email] | 与公司帐户关联的电子邮件地址。 |
 | [!UICONTROL Sales Representative] | 公司帐户的主要联系人管理员用户。 |
 

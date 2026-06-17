@@ -4,17 +4,24 @@ description: 了解如何为商店管理员配置安全性。
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: 864
 ht-degree: 0%
 
 ---
 
 # 配置管理员安全
 
-我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 您可以根据组织的需要配置最小密码长度要求以增强安全性。 作为[最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给帐户的最近四个密码。
+我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 您可以根据组织的需要配置最小密码长度要求以增强安全性。 作为[最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给帐户的最近四个密码。
 
 管理员安全配置使您能够：
 
@@ -41,7 +48,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL Advanced]_&#x200B;下，选择&#x200B;**[!UICONTROL Admin]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL Advanced]_下，选择&#x200B;**[!UICONTROL Admin]**。
 
 1. 展开&#x200B;**[!UICONTROL Security]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

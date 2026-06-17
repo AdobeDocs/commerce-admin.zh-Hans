@@ -2,17 +2,22 @@
 title: 添加内容块
 description: 创建可在任何页面或其他块中重复使用的自定义内容块。
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/9ToI71n7HPsSKQWgldcHXJQsfEcQOPU-76BXCYMrKdY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 554
 ht-degree: 0%
 
 ---
 
 # 添加内容块
 
-可以创建自定义的内容块，然后将其添加到任何页面、页面组，甚至添加到另一个块。 例如，您可以将图像滑块放置在块中，然后将该块放置在主页上。 块工作区使用与[Pages](pages-workspace.md)工作区相同的&#x200B;_基本控件_&#x200B;来帮助您查找可用块并执行日常维护。 块完成后，您可以使用[构件](widget-static-block.md)工具将其放在商店中的特定页面上。
+可以创建自定义的内容块，然后将其添加到任何页面、页面组，甚至添加到另一个块。 例如，您可以将图像滑块放置在块中，然后将该块放置在主页上。 块工作区使用与&#x200B;_Pages_&#x200B;工作区相同的[基本控件](pages-workspace.md)来帮助您查找可用块并执行日常维护。 块完成后，您可以使用[构件](widget-static-block.md)工具将其放在商店中的特定页面上。
 
 ![“块”页显示现有块的网格](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
@@ -87,7 +92,7 @@ ht-degree: 0%
 
 ## 添加灯箱或滑块
 
-- 通过[可以轻松将](../page-builder/slider.md)滑块[[!DNL Page Builder]](../page-builder/introduction.md)添加到您的商店。 可以将滑块设置为自动播放，或使用导航按钮手动控制。
+- 通过[[!DNL Page Builder]](../page-builder/introduction.md)可以轻松将[滑块](../page-builder/slider.md)添加到您的商店。 可以将滑块设置为自动播放，或使用导航按钮手动控制。
 
   ![页面生成器滑块](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,15 @@ title: 添加礼品注册搜索
 description: 了解如何放置礼品注册搜索框，以帮助存储访客从客户注册处购买产品。
 exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
 feature: Gift, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/YlSi1XDNBNDc4EUdmEuPI-8gxAhHhWbxUY2ge-2AEV0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ ht-degree: 0%
 
    ![礼品注册表 — 搜索设置](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_部分中，执行以下操作：
 
    - 输入&#x200B;**[!UICONTROL Widget Title]**&#x200B;供内部引用。
 

@@ -3,9 +3,15 @@ title: 货币配置
 description: 了解如何设置基本货币的范围，以及如何指定您接受的货币以及要用于价格显示的货币。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 826
 ht-degree: 0%
 
 ---
@@ -144,13 +150,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_&#x200B;列表中。
+   为您的存储启用的每种货币都显示在&#x200B;_[!UICONTROL Currency]_列表中。
 
 1. 根据需要更改列表中的设置：
 
    - 为要使用的每种货币输入自定义符号，或选中每种货币的&#x200B;**[!UICONTROL Use Standard]**&#x200B;复选框。
 
-   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;复选框并输入要使用的符号。
+   - 要覆盖默认符号，请清除&#x200B;_[!UICONTROL Use Standard]_复选框并输入要使用的符号。
 
    >[!NOTE]
    >

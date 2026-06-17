@@ -3,9 +3,16 @@ title: 用户角色
 description: 了解如何创建用户角色和相关权限以管理对管理员功能的访问。
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -26,9 +33,9 @@ ht-degree: 0%
 
 ### 步骤1：添加角色名称
 
-1. 在&#x200B;_[!UICONTROL Role Information]_&#x200B;下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
+1. 在&#x200B;_[!UICONTROL Role Information]_下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入您的密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入您的密码。
 
    ![系统权限 — 角色信息](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +56,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_&#x200B;作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
+   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
 
-1. 在&#x200B;_[!UICONTROL Roles Resources]_&#x200B;下，将&#x200B;**[!UICONTROL Resource Access]**&#x200B;设置为`Custom`。
+1. 在&#x200B;_[!UICONTROL Roles Resources]_下，将&#x200B;**[!UICONTROL Resource Access]**设置为`Custom`。
 
    >[!NOTE]
    >
@@ -67,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_&#x200B;顺序[选项卡](../stores-purchase/order-processing.md)。
+   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_顺序[选项卡](../stores-purchase/order-processing.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Role]**。
 
@@ -75,13 +82,13 @@ ht-degree: 0%
 
 ## 向用户分配角色
 
-1. 从&#x200B;_[!UICONTROL Roles]_&#x200B;网格中，以编辑模式打开记录。
+1. 从&#x200B;_[!UICONTROL Roles]_网格中，以编辑模式打开记录。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入用户帐户密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入用户帐户密码。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Role Users]**。
 
-   _[!UICONTROL Role Users]_&#x200B;选项仅在保存新角色后显示。
+   _[!UICONTROL Role Users]_选项仅在保存新角色后显示。
 
    ![分配给角色的用户帐户](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -123,7 +130,7 @@ ht-degree: 0%
 
 观看本视频，了解如何管理用户角色：
 
->[!VIDEO](https://video.tv.adobe.com/v/3443517?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## 角色资源
 
@@ -151,7 +158,7 @@ ht-degree: 0%
 | [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg) |
 |  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
-|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=zh-Hans) |
+|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
 |  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |
@@ -160,7 +167,7 @@ ht-degree: 0%
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hans) |
+|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
 |  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |

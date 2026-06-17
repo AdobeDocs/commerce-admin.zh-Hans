@@ -3,16 +3,23 @@ title: ' [!DNL Adobe Commerce B2B]简介'
 description: 了解如何使用集成的 B2B 功能来满足公司客户的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 829
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Commerce B2B]简介
 
-与标准的B2B(Business to Business)模式不同，集成B2B(Business to Business)功能旨在满足拥有企业客户的销售商(Adobe Commerce商家)的需求。 它可容纳组织结构复杂的公司和具有不同角色和购买权限级别的多个用户。 典型的B2B客户可能是零售店的经理，也可能是代表公司进行购买的买家。 在这两种情况下，交易都发生在您的企业与他们的企业之间。 您也可以将产品直接销售给消费者。 [!DNL Adobe Commerce B2B]是一个支持B2B和B2C模型的集成解决方案。
+与标准的B2B(Business to Business)模式不同，集成B2B(Business to Business)功能旨在满足拥有企业客户的销售商（Adobe Commerce商家）的需求。 它可容纳组织结构复杂的公司和具有不同角色和购买权限级别的多个用户。 典型的B2B客户可能是零售店的经理，也可能是代表公司进行购买的买家。 在这两种情况下，交易都发生在您的企业与他们的企业之间。 您也可以将产品直接销售给消费者。 [!DNL Adobe Commerce B2B]是一个支持B2B和B2C模型的集成解决方案。
 
 在您的Adobe Commerce商店中安装[B2B扩展](install.md)并启用[B2B扩展](enable-basic-features.md)后，即可通过特定于客户的目录和定价以及有针对性的内容和促销活动，实现个性化的购买体验。
 
@@ -40,9 +47,9 @@ ht-degree: 2%
 
 Adobe Commerce服务是托管服务，可为Adobe Commerce和Magento Open Source提供扩展功能。 支持B2B工作流的服务包括：
 
-* [目录服务](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hans)
-* [实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=zh-Hans)
-* [产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)
+* [目录服务](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## 共享目录
 

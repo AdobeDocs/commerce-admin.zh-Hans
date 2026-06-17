@@ -3,10 +3,15 @@ title: 计划内容更新
 description: 请查看此促销活动示例，以安排产品的临时价格变更。
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -24,9 +29,9 @@ ht-degree: 0%
 
 ## 计划产品更新
 
-1. 从&#x200B;_[!UICONTROL Products]_&#x200B;网格中，以编辑模式打开产品。
+1. 从&#x200B;_[!UICONTROL Products]_网格中，以编辑模式打开产品。
 
-1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框中，单击&#x200B;**[!UICONTROL Schedule New Update]**。
+1. 在页面顶部的&#x200B;_[!UICONTROL Scheduled Changes]_框中，单击&#x200B;**[!UICONTROL Schedule New Update]**。
 
    ![计划新更新](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -38,7 +43,7 @@ ht-degree: 0%
 
    - 使用日历（![日历图标](../assets/icon-calendar.png)）工具为促销活动选择&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。
 
-     要创建开放营销活动，请勿指定结束日期（留空）。 在本例中，营销活动计划于新年的午夜(太平洋标准时间2021年1月1日凌晨12:00开始。
+     要创建开放营销活动，请勿指定结束日期（留空）。 对于此示例，营销活动计划于新年2021年1月1日凌晨12:00 PST午夜开始。
 
 
      对于创建时没有结束日期的价格规则市场活动，以后将无法添加结束日期。 在这种情况下，需要创建一个营销策划，并将开始日期设置为希望旧营销策划结束的日期和希望新营销策划开始的日期。 在该开始日期，旧营销活动结束，新营销活动开始（按定义）。
@@ -49,7 +54,7 @@ ht-degree: 0%
      >
      >营销活动开始日期和结束日期必须使用&#x200B;**_default_**&#x200B;管理时区来定义，该时区从每个网站的本地时区进行转换。 例如，如果您有多个网站位于不同时区，但希望根据美国（默认）时区启动促销活动，则必须为每个本地时区计划单独的更新。 在这种情况下，将&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;设置为从每个本地网站时区转换为默认管理时区。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Price]_&#x200B;并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Price]_并单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在计划的营销活动期间输入产品的&#x200B;**[!UICONTROL Special Price]**，然后单击&#x200B;**[!UICONTROL Done]**。
 

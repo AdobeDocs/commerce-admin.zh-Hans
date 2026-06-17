@@ -3,9 +3,15 @@ title: 导入可配置产品
 description: 查看为可配置产品导入产品数据的示例。
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 950
 ht-degree: 0%
 
 ---
@@ -68,7 +74,7 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Export File Format]**&#x200B;设置为`CSV`。
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;下，向下滚动或使用属性标签过滤器来查找&#x200B;**[!UICONTROL SKU]**&#x200B;属性并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_下，向下滚动或使用属性标签过滤器来查找&#x200B;**[!UICONTROL SKU]**属性并执行以下操作：
 
    - 输入已选择导出的可配置产品的SKU，然后单击&#x200B;**[!UICONTROL Continue]**。
 
@@ -152,13 +158,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;下，将&#x200B;**[!UICONTROL Entity Type]**&#x200B;设置为`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_下，将&#x200B;**[!UICONTROL Entity Type]**设置为`Products`。
 
-1. 在&#x200B;_[!UICONTROL Import Behavior]_&#x200B;下，将&#x200B;**[!UICONTROL Import Behavior]**&#x200B;设置为`Add/Update`。
+1. 在&#x200B;_[!UICONTROL Import Behavior]_下，将&#x200B;**[!UICONTROL Import Behavior]**设置为`Add/Update`。
 
    ![数据导入行为](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL File to Import]_&#x200B;下，单击&#x200B;**[!UICONTROL Choose File]**&#x200B;并导航到您准备导入的CSV文件并选择该文件。
+1. 在&#x200B;_[!UICONTROL File to Import]_下，单击&#x200B;**[!UICONTROL Choose File]**并导航到您准备导入的CSV文件并选择该文件。
 
    ![数据导入文件](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

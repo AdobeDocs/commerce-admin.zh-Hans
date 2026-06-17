@@ -2,9 +2,15 @@
 title: 库存和来源
 description: 了解产品、来源和库存之间的关系。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 [库存](stocks-manage.md)表示可供销售给您的销售渠道（网站）的虚拟汇总产品清单。 每个库存都用可用库存和可销售数量的来源映射销售渠道。 根据您的站点配置，库存可能会分配给一个或多个销售渠道和来源。
 
-Sales Channel表示销售您的库存的实体，包括网站、商店视图、B2B客户组等。 销售渠道只能关联到一个Stock。 每个销售渠道只能分配一个库存，单个库存可以分配给多个网站。 通过库存，您可以修改发货订单时和[Source选择算法](selection-reservations.md)使用的来源优先顺序。
+销售渠道表示销售您库存的实体，包括网站、商店视图、B2B客户组等。 销售渠道只能关联到一个Stock。 每个销售渠道只能分配一个库存，单个库存可以分配给多个网站。 通过库存，您可以修改发货订单时和[Source选择算法](selection-reservations.md)使用的来源优先顺序。
 
 您首先会为默认Source和您的网站分配一个默认库存，最好由单一来源商家使用。 只能将默认Source分配给此库存。 多来源商家根据需要为自定义来源和网站创建自定义库存。
 
@@ -39,12 +45,12 @@ Sales Channel表示销售您的库存的实体，包括网站、商店视图、B
 
 数量是活动库存中可供购买的产品数量。 当您完成发运或调整库存时，产品的数量会增加或减少。 将产品添加到购物车不会影响此金额。 可销售数量跟踪销售渠道中产品的可用性，并使用此值来确定可供购买的库存。 根据您的来源数量，您可以查看和管理以下产品之一的产品数量：
 
-- **数量** — 对于单一来源商家，_[!UICONTROL Quantity]_&#x200B;列和值将跟踪现有库存量。
-- **每个Source的数量** — 对于多来源商家，_[!UICONTROL Quantity per Source]_&#x200B;列和值将按地点跟踪现有库存。 如果添加多个来源，此值将替换“数量”，并列出每个来源和分配的数量。
+- **数量** — 对于单一来源商家，_[!UICONTROL Quantity]_列和值将跟踪现有库存量。
+- **每个Source的数量** — 对于多来源商家，_[!UICONTROL Quantity per Source]_列和值将按地点跟踪现有库存。 如果添加多个来源，此值将替换“数量”，并列出每个来源和分配的数量。
 
 预订跟踪整个购物过程的库存请求 — 将产品添加到购物车、完成结帐和管理退款。 对于可用库存和库存，预留通过结账流程保留每张订单的库存金额，从可销售数量中扣除。 开票和发运产品时，保留将转换为数量扣减。
 
-“可销售数量”使用配置的阈值、保留或销售金额以及每个来源的数量来计算产品（或可用性）的虚拟库存。 对于每个库存，[!DNL Commerce]会访问所有分配的来源并汇总关联的产品数量。 然后使用此基值减去所有保留金额和&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;阈值。
+“可销售数量”使用配置的阈值、保留或销售金额以及每个来源的数量来计算产品（或可用性）的虚拟库存。 对于每个库存，[!DNL Commerce]会访问所有分配的来源并汇总关联的产品数量。 然后使用此基值减去所有保留金额和&#x200B;_[!UICONTROL Notify for Quantity Below]_阈值。
 
 ![计算库存的可销售数量](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 
@@ -65,4 +71,4 @@ Sales Channel表示销售您的库存的实体，包括网站、商店视图、B
 
 观看此视频，了解Inventory management资源和库存：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410195?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

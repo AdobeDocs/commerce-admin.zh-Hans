@@ -3,9 +3,15 @@ title: 产品关系
 description: 了解可用于将产品促销给目标购买者的产品关系类型。
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
+TQID: https://experienceleague.adobe.com/mmA3M8qPKv36IeDNiVlolUmI-SqUbGew3UZqdOUCpUo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -32,8 +38,8 @@ ht-degree: 0%
 
 ## 相关产品规则
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [相关产品规则](product-related-rules.md)允许您选择作为相关产品、追加销售和交叉销售呈现给客户的产品。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）[相关产品规则](product-related-rules.md)允许您选择作为相关产品、追加销售和交叉销售呈现给客户的产品。
 
 ## 由Adobe AI提供支持的产品推荐
 
-![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce) [由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）[由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。

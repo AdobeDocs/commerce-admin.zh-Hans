@@ -2,9 +2,15 @@
 title: 管理库存源
 description: 了解来源以及它们如何定义管理和发运产品库存以进行订单履行或提供服务的物理位置。
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 如果编辑默认Source，则可以编辑所有配置，但名称和代码除外。 建议单个来源商家添加与其位置匹配的信息。
 
-_[!UICONTROL Manage Sources]_&#x200B;页面列出了所有可用的库存库位和履行设施。 您可以添加新的清单来源并编辑现有位置。
+_[!UICONTROL Manage Sources]_页面列出了所有可用的库存库位和履行设施。 您可以添加新的清单来源并编辑现有位置。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**。
 

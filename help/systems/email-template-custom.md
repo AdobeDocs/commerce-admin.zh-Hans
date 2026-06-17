@@ -3,9 +3,15 @@ title: 自定义电子邮件模板
 description: 了解如何为每个网站、商店或商店视图自定义电子邮件模板。
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
+TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1314
 ht-degree: 0%
 
 ---
@@ -32,7 +38,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 | [!UICONTROL Insert Variable] | 在模板中光标位置处插入变量。 |
 | [!UICONTROL Template Subject] | 模板主题将显示在“主题”列中，可用于对列表中的模板进行排序和过滤。 |
 | [!UICONTROL Template Content] | HTML中模板的内容。 |
-| [!UICONTROL Template Styles] | 模板格式所需的任何CSS样式声明都可以在&#x200B;_[!UICONTROL Template Styles]_&#x200B;框中输入。 |
+| [!UICONTROL Template Styles] | 模板格式所需的任何CSS样式声明都可以在&#x200B;_[!UICONTROL Template Styles]_框中输入。 |
 
 {style="table-layout:auto"}
 
@@ -60,7 +66,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 输入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以帮助组织模板。
 
-   在网格中，模板列表可以按&#x200B;_[!UICONTROL Subject]_&#x200B;列进行排序和过滤。
+   在网格中，模板列表可以按&#x200B;_[!UICONTROL Subject]_列进行排序和过滤。
 
    ![电子邮件模板标题信息](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -94,7 +100,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -126,7 +132,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 输入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以帮助组织模板。
 
-   在网格中，可以按&#x200B;_[!UICONTROL Subject]_&#x200B;列对模板进行排序和筛选。
+   在网格中，可以按&#x200B;_[!UICONTROL Subject]_列对模板进行排序和筛选。
 
    ![电子邮件模板页脚 — 信息](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -150,7 +156,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中，找到要配置的商店视图，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下滚动并展开&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -192,7 +198,7 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
 1. 在&#x200B;**[!UICONTROL Template Content]**&#x200B;框中，根据需要修改HTML。
 
-   内容由HTML标签、CSS指令、变量和文本的组合组成。
+   内容由HTML标记、CSS指令、变量和文本的组合组成。
 
    >[!NOTE]
    >
@@ -214,11 +220,11 @@ Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板
 
    >[!NOTE]
    >
-   >仅当&#x200B;_[!UICONTROL Template Styles]_&#x200B;中存在`{{template config_path="design/email/header_template"}}`时，自定义样式才会应用于电子邮件。 要在没有默认页眉模板的情况下使用自定义CSS，您必须在`<style>`HTML标记中在此处提供它们。
+   >仅当&#x200B;_[!UICONTROL Template Styles]_中存在`{{template config_path="design/email/header_template"}}`时，自定义样式才会应用于电子邮件。 要在没有默认页眉模板的情况下使用自定义CSS，您必须在`<style>` HTML标记中在此处提供它们。
 
 ### 步骤3. 更新配置
 
-_[!UICONTROL Currently Used For]_&#x200B;痕迹导航跟踪显示模板的使用位置。 在此示例中，模板配置位于&#x200B;_[!UICONTROL Customer Configuration]_&#x200B;页面、_[!UICONTROL Create New Account Options]_&#x200B;部分和&#x200B;_[!UICONTROL Default Welcome Email]_&#x200B;字段中。
+_[!UICONTROL Currently Used For]_痕迹导航跟踪显示模板的使用位置。 在此示例中，模板配置位于_[!UICONTROL Customer Configuration]_&#x200B;页面、_[!UICONTROL Create New Account Options]_部分和_[!UICONTROL Default Welcome Email]_&#x200B;字段中。
 
 - 页面 — [!UICONTROL Customer Configuration]
 - 分区 — [!UICONTROL Create New Account Options]

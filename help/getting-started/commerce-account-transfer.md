@@ -3,9 +3,15 @@ title: 转移Commerce帐户
 description: 了解如何将您的Commerce帐户转移给其他所有者或电子邮件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: e33c207c5c9ba9ca6e82688e28c985cb9b3b7c71
+TQID: https://experienceleague.adobe.com/CIyzus4f8WcBH-jW9R1nCL-gkl065DLTHbjNn0K6e7E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -14,11 +20,11 @@ ht-degree: 0%
 
 随着业务职责变化，您可能需要将您的Commerce帐户转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户（Cloud项目或New Relic）所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》[中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans)管理用户访问权限&#x200B;__。
+以下信息介绍了转移Commerce (MAGEID)帐户的流程。 它不包括对Cloud帐户（Cloud项目或New Relic）所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)_。
 
 >[!IMPORTANT]
 >
->如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
+>如果新帐户所有者使用共享访问购买了扩展，则一旦启动帐户转移流程，对这些扩展的访问权限就会丢失。 在请求帐户转移之前，请确保新所有者从[其Marketplace帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID，并向[Marketplace团队](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)申请这些扩展的退款。 无法将延期购买转移到其他帐户。
 
 ## 识别您的传输类型
 
@@ -54,7 +60,7 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 1. 单击&#x200B;**[!UICONTROL Continue]**。
 
-   此步骤将创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接，_[!UICONTROL Email]_&#x200B;字段被阻止进行任何更改。 相关电子邮件地址的配置可通过Adobe ID帐户进行管理。
+   此步骤将创建一个Adobe ID并将其链接到当前的Commerce帐户(MAGEID)。 通过此帐户链接，_[!UICONTROL Email]_字段被阻止进行任何更改。 相关电子邮件地址的配置可通过Adobe ID帐户进行管理。
 
 1. 导航到[account.adobe.com](https://account.adobe.com/)。
 
@@ -72,7 +78,7 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 1. 单击&#x200B;**[!UICONTROL Verify]**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447669/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 电子邮件更改
 
@@ -120,7 +126,7 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 >
 >您必须具有电子邮件地址的访问权限，才能检索包含确认代码的电子邮件。
 >
->如果您无法访问帐户电子邮件，请要求IT团队在您的公司电子邮件系统中为帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
+>如果您无法访问帐户电子邮件，请要求IT团队在您的公司电子邮件系统中为帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
 
 1. 单击&#x200B;**[!UICONTROL Change]**。
 
@@ -172,4 +178,4 @@ Commerce帐户转移的类型取决于当前所有者和新所有者可用的Com
 
 ## 最后步骤
 
-新所有者完成第一个或第三个用例中的步骤后，新所有者必须[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)以通知支持团队电子邮件地址更新。 然后，支持团队完成其他任务，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件中的电子邮件地址。 在请求中包含前一个帐户所有者的电子邮件地址。
+新所有者完成第一个或第三个用例中的步骤后，新所有者必须[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)以通知支持团队电子邮件地址更新。 然后，支持团队完成其他任务，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)配置文件中的电子邮件地址。 在请求中包含前一个帐户所有者的电子邮件地址。

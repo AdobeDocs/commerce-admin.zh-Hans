@@ -2,9 +2,15 @@
 title: 客户区段
 description: 通过客户区段，您可以向特定客户动态显示内容和促销活动。
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+TQID: https://experienceleague.adobe.com/K10qvsYlYebR6fJG8-QNI5qrqwjE-Sn-kSxzfiuoXdo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -46,5 +52,5 @@ ht-degree: 0%
 
 ## eBooks
 
-- **客户分段** — 获取[电子书](https://business.adobe.com/cn/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)以了解如何提高利润和整体客户满意度。
-- **分段策略** — 获取[电子书](https://business.adobe.com/cn/resources/3-segmentation-tactics-ignite-conversion.html)以改进消息和促销活动的定位，从而与客户进行有意义的对话。
+- **客户分段** — 获取[电子书](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)以了解如何提高利润和整体客户满意度。
+- **分段策略** — 获取[电子书](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)以改进消息和促销活动的定位，从而与客户进行有意义的对话。

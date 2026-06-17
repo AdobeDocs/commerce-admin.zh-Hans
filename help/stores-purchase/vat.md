@@ -1,11 +1,18 @@
 ---
 title: 增值税(VAT)
-description: '&amp；lt；在此处添加说明&amp；gt；'
+description: '&lt；在此处添加说明&gt；'
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: 2021
 ht-degree: 0%
 
 ---
@@ -70,7 +77,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add New Tax Rule]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Additional Settings]**。
+1. 展开&#x200B;**[!UICONTROL Additional Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![设置产品税类](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
@@ -201,7 +208,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 在客户指定了增值税编号和其他地址字段并选择保存之后，系统将保存该地址并向欧盟委员会服务器发送VAT ID验证请求。 根据验证结果，将其中一个默认组分配给客户。 如果客户或管理员更改默认地址的VAT ID或更改整个默认地址，则可以更改此组。 有时，在单页签出过程中可以临时更改组（模拟组更改）。
 
-如果启用，则通过选中&#x200B;_[!UICONTROL Customer Information]_&#x200B;页面上的复选框，可以覆盖适用于单个客户的VAT ID验证。
+如果启用，则通过选中&#x200B;_[!UICONTROL Customer Information]_页面上的复选框，可以覆盖适用于单个客户的VAT ID验证。
 
 ### 签出工作流
 
@@ -223,7 +230,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 | 税则#1 |  |
 |--- |--- |
-| 客户税分类 | 客户税分类必须包括：<br />国内客户的分类。 <br />类，适用于具有格式不正确的VAT ID的客户。<br />VAT ID验证失败的客户的类。 |
+| 客户税分类 | 客户税分类必须包括：<br />国内客户的分类。 <br />类，适用于具有错误格式的VAT ID的客户。<br />类，适用于VAT ID验证失败的客户。 |
 | 产品税分类 | 产品税分类必须包括除捆绑和虚拟以外的所有类型产品的分类。 |
 | 税率 | 税率必须包括贸易商所在国家（地区）的增值税税率。 |
 
@@ -285,7 +292,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Create New Account Options]**。
+1. 展开&#x200B;**[!UICONTROL Create New Account Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    在以下示例中，与VAT验证无关的一般客户设置是暗的。
 
@@ -303,7 +310,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL General]**&#x200B;并在下面选择&#x200B;**[!UICONTROL General]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Store Information]**。
+1. 展开&#x200B;**[!UICONTROL Store Information]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![存储信息](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
@@ -317,7 +324,7 @@ _VAT ID验证_&#x200B;根据商家和客户区域设置，自动计算在欧盟(
 
 #### 第5步：核实欧盟成员国名单
 
-1. 在&#x200B;_常规_&#x200B;配置页面中继续，展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Countries Options]**。
+1. 在&#x200B;_常规_&#x200B;配置页面中继续，展开&#x200B;**[!UICONTROL Countries Options]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![国家/地区选项](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 

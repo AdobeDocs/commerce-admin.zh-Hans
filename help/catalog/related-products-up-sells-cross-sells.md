@@ -3,16 +3,22 @@ title: 产品设置 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 对于产品，[!UICONTROL Related Products, Up-Sells, and Cross-Sells]设置在产品页面上定义简单的促销块，突出显示所选的其他产品。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/J3CJ88ZZGgyukX9EwMHPtkdygTOAhbd41So4GurqEvA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 602
 ht-degree: 0%
 
 ---
 
 # 产品设置 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-使用&#x200B;_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;部分设置简单的促销块，这些促销块提供客户可能感兴趣的附加产品选择。 有关详细信息，请参阅[产品关系](../merchandising-promotions/product-relationships.md)。
+使用&#x200B;_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_部分设置简单的促销块，这些促销块提供客户可能感兴趣的附加产品选择。 有关详细信息，请参阅[产品关系](../merchandising-promotions/product-relationships.md)。
 
 ![相关产品、追加销售和交叉销售](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,9 +39,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）**由Adobe AI提供支持的产品推荐**&#x200B;通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
-><br/>
->有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)_。
+>![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）**由Adobe AI提供支持的产品推荐**通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+><br/>>有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
 
 ## 相关产品
 
@@ -47,7 +52,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**。
+1. 向下滚动并展开&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;**[!UICONTROL Add Related Products]**。
 
@@ -69,7 +74,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**。
+1. 向下滚动并展开&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;**[!UICONTROL Add Up-Sell Products]**。
 
@@ -91,7 +96,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要按商店视图显示或隐藏交叉销售商品，请参阅购物车中名为[的](../configuration-reference/sales/checkout.md)结帐>购物车&#x200B;_[!UICONTROL Show Cross-sell Items]_&#x200B;选项。 您可能需要在特定销售期间隐藏交叉销售，或在商店视图中隐藏A/B测试。
+>要按商店视图显示或隐藏交叉销售商品，请参阅购物车中名为&#x200B;_[!UICONTROL Show Cross-sell Items]_的[结帐>购物车](../configuration-reference/sales/checkout.md)选项。 您可能需要在特定销售期间隐藏交叉销售，或在商店视图中隐藏A/B测试。
 
 ![购物车中的交叉销售](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
@@ -99,7 +104,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**。
+1. 向下滚动并展开&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;**[!UICONTROL Add Cross-Sell Products]**。
 

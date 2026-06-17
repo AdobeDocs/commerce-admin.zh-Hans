@@ -1,16 +1,23 @@
 ---
-title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]'
-description: 查看Commerce管理员的[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]页面上的配置设置。
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: 查看Commerce管理员的[!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration]页面上的配置设置。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 ![帐户共享选项](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 ![联机客户选项](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -45,19 +52,19 @@ ht-degree: 0%
 
 ![创建新帐户选项（增值税字段）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | 商店视图 | 确定是否自动将客户分配给默认客户组。 若要显示店面中的增值税编号，请设置店面中的显示增值税编号，选择`Yes`。 选项： <br/>**`Yes`**— 系统不会自动验证客户VAT ID，也不会更改客户组。<br/>**`No`** — 系统行为与往常一样，可以在“默认组”字段中设置默认客户组。 |
 | [!UICONTROL Default Group] | 商店视图 | 标识在创建帐户时分配的初始客户组。 |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全局 | （仅当当前配置范围设置为`Default Group`时可用。） 选择默认情况下是启用还是禁用根据增值税标识自动更改客户组。 可以在产品级别覆盖设置。 该设置会影响以下情况中的系统行为： <br/> — 客户默认地址或整个默认地址的VAT ID发生更改。 <br/> — 对于以前没有保存地址的注册客户或在结账期间注册的客户，在结账期间模拟客户组更改。 <br/>如果启用了自动组更改，则第一种情况下客户组会自动更改，第二种情况下将临时模拟的客户组分配给客户。 如果禁用了自动组更改，则分配的客户组永远不会更改，除非管理员手动更改它。 |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全局 | （仅当当前配置范围设置为`Default Group`时可用。） 选择默认情况下是启用还是禁用根据增值税标识自动更改客户组。 可以在产品级别覆盖设置。 该设置会影响以下情况中的系统行为： <br/> — 客户默认地址或整个默认地址的VAT ID发生更改。<br/> — 对于以前没有保存地址的注册客户或在结账期间注册的客户，在结账期间模拟客户组更改。 <br/>如果启用了自动组更改，则第一种情况下客户组会自动更改，第二种情况下将临时模拟的客户组分配给客户。 如果禁用了自动组更改，则分配的客户组永远不会更改，除非管理员手动更改它。 |
 | [!UICONTROL Show VAT Number on Storefront] | 网站 | 确定商店中的客户是否看到增值税号。 选项： `Yes` / `No` <br/>仅影响常规非B2B客户帐户。 公司帐户拥有自己的增值税编号字段。 |
 | [!UICONTROL Default Email Domain] | 商店视图 | 标识存储区的默认电子邮件域。 例如： `mystore.com` |
 | [!UICONTROL Default Welcome Email] | 商店视图 | 标识用于默认&#x200B;_欢迎_&#x200B;电子邮件的电子邮件模板。 |
 | [!UICONTROL Default Welcome Email Without Password] | 商店视图 | 一个备用的欢迎电子邮件模板，用于管理员创建的新客户帐户，这些帐户尚未分配密码。 |
 | [!UICONTROL Email Sender] | 商店视图 | 标识显示为欢迎电子邮件发件人的商店联系人。 |
-| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`。<br/><br/> _&#x200B;**注意：**&#x200B;_&#x200B;从2.4.7版开始，客户必须在电子邮件确认后重新输入其电子邮件和密码以登录其帐户，而不考虑浏览器。 |
+| [!UICONTROL Require Emails Confirmation] | 网站 | 确定创建帐户的请求是否需要客户的确认。 选项： `Yes` / `No`。<br/><br/> _**注意：**_&#x200B;从2.4.7版开始，客户必须在电子邮件确认后重新输入其电子邮件和密码以登录其帐户，而不考虑浏览器。 |
 | [!UICONTROL Confirmation Link Email] | 商店视图 | 标识用于确认电子邮件的电子邮件模板。 默认模板： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 商店视图 | 标识用于确认帐户后发送的欢迎消息的电子邮件模板。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全局 | 确定店面中是否显示用于输入和存储VAT ID号的字段。 选项： `Yes` / `No` |
@@ -68,11 +75,11 @@ ht-degree: 0%
 
 ![密码选项](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于重置客户帐户密码的方法。 选项： <br/>**`By IP and Email`**— 从发送到与管理员帐户关联的电子邮件地址的重置通知收到响应后，可以联机重置密码。<br/>**`By IP`** — 密码可以在线重置。 <br/>**`By Email`**— 可以通过响应发送到与管理员帐户关联的电子邮件地址的电子邮件通知来重置密码。<br/>**`None`** — 密码只能由存储管理员重置。 |
+| [!UICONTROL Password Reset Protection Type] | 商店视图 | 确定用于重置客户帐户密码的方法。 选项： <br/>**`By IP and Email`**— 从发送到与管理员帐户关联的电子邮件地址的重置通知收到响应后，可以联机重置密码。<br/>**`By IP`** — 密码可以在线重置。<br/>**`By Email`**— 可以通过响应发送到与管理员帐户关联的电子邮件地址的电子邮件通知来重置密码。<br/>**`None`** — 密码只能由存储管理员重置。 |
 | [!UICONTROL Max Number of Password Reset Requests] | 商店视图 | 限制每小时的密码重置请求数。 对于无限制的请求，输入零(0)。 |
 | [!UICONTROL Min Time Between Password Reset Requests] | 商店视图 | 确定密码重置请求之间的分钟数。 对于请求之间无延迟，请输入零(0)。 |
 | [!UICONTROL Forgot Email Template] | 商店视图 | 标识客户忘记密码时使用的电子邮件模板。 默认模板： `Forgot Password` |
@@ -107,7 +114,7 @@ ht-degree: 0%
 
 ![名称和地址选项 — 打开Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -117,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 网站 | 确定是否将中间首字母作为客户名称的一部分包括在内。 如果使用中间首字母，则为可选字段。 选项： `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 网站 | 确定客户名称在末尾是否包含后缀，例如Jr.、Sr.和III。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 网站 | 定义后缀选项的列表。 用分号分隔各个值。 在第一个值前放置分号，以在列表顶部显示空值。 |
-| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required` <br><br>**_重要信息：_**&#x200B;为遵循当前安全和隐私最佳实践，请注意任何与客户的完整出生日期（月、日、年）和其他个人标识符的存储相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
+| [!UICONTROL Show Date of Birth] | 网站 | 确定名称和地址表单中是否包含客户出生日期。 选项： `No` / `Optional` / `Required` <br><br>**_Important:_**&#x200B;为遵循当前安全和隐私最佳实践，请注意任何与客户的完整出生日期（月、日、年）和其他个人标识符的存储相关的潜在法律和安全风险。 建议限制存储客户的完整出生日期，并建议使用客户出生年份作为替代方法。 |
 | [!UICONTROL Show Tax/VAT Number] | 网站 | 确定名称和地址表单中是否包含税或[VAT编号](../../stores-purchase/vat.md)。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 网站 | 确定名称和地址表单中是否包含性别。 选项： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 网站 | 确定名称和地址表单中是否包含客户的电话号码。 选项： `No` / `Optional` / `Required` |
@@ -132,7 +139,7 @@ ht-degree: 0%
 
 ![名称和地址选项 — Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -150,7 +157,7 @@ ht-degree: 0%
 
 ![存储点数选项](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -166,7 +173,7 @@ ht-degree: 0%
 
 ![登录选项](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -178,7 +185,7 @@ ht-degree: 0%
 
 ![地址模板](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -195,7 +202,7 @@ ht-degree: 0%
 
 ![客户区段](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | 模板 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -208,14 +215,14 @@ ht-degree: 0%
 
 ![验证码](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 网站 | 在与Commerce网站关联的商店中启用验证码。 选项： `Yes` / `No` |
 | [!UICONTROL Font] | 网站 | 确定用于显示验证码的字体。 要添加您自己的字体，请将该字体文件放在与Commerce安装相同的目录中，并将声明添加到位于`app/code/Magento/Captcha/etc`的`config.xml`文件中。 |
-| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hans)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
-| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;字段。 输入要允许的登录尝试次数。 `0` （零）的值类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_&#x200B;**注意：**&#x200B;_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
+| [!UICONTROL Forms] | 网站 | 确定使用CAPTCHA的表单。 选项： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （请参阅[安全修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_&#x200B;选中后，始终启用“创建用户”、“忘记密码”和“Payflow Pro”表单。 |
+| [!UICONTROL Displaying Mode] | 网站 | 确定验证码的出现时间。 选项： <br/>**`Always`**— 登录始终需要CAPTCHA。<br/>**`After number of attempts to login`** — 此选项仅适用于管理员登录表单。 选中后，将显示&#x200B;_[!UICONTROL Number of Unsuccessful Attempts to Login]_字段。 输入要允许的登录尝试次数。 值`0` （零）类似于将[!UICONTROL Displaying Mode]设置为`Always`。<br/>_**注意：**_要跟踪失败的登录尝试次数，每次尝试使用一个电子邮件地址和一个IP地址登录都会被计入。 允许从同一IP地址登录的最大次数是1,000。 此限制仅在启用CAPTCHA时适用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 网站 | 指定帐户锁定前客户可以尝试登录的次数。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 网站 | 确定当前CAPTCHA的生命周期。 验证码过期后，用户必须重新加载页面。 |
 | [!UICONTROL Number of Symbols] | 网站 | 确定验证码中显示的符号数（最多8个）。 您还可以指定范围，例如5-8。 |

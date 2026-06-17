@@ -3,20 +3,26 @@ title: 添加内容 — 产品推荐
 description: 了解“产品推荐”内容类型，该内容类型用于向 [!DNL Page Builder] 阶段添加推荐列表。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 962
 ht-degree: 0%
 
 ---
 
 # 添加内容 — 产品推荐
 
-使用&#x200B;_产品推荐_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
+使用&#x200B;_产品推荐_&#x200B;内容类型将现有的活动[推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)添加到CMS页面、块或动态块的[[!DNL Page Builder] 阶段](workspace.md#stage)。
 
 >[!NOTE]
 >
->Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品推荐_&#x200B;内容类型，该内容类型可在[产品推荐中继包版本3.0.x或更高版本中找到](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 要添加[!DNL Page Builder]对产品推荐的支持，[请查看安装信息](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)。 **此内容类型不适用于Magento Open Source。**
+>Adobe Commerce 2.4.4及更高版本中支持[!DNL Page Builder] _产品推荐_&#x200B;内容类型，该内容类型可在[产品推荐中继包版本3.0.x或更高版本中找到](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 要添加[!DNL Page Builder]对产品推荐的支持，[请查看安装信息](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此内容类型不适用于Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +43,7 @@ ht-degree: 0%
 
 ## 添加现有的推荐单位
 
-1. 确保您已[为](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/admin/create)页面类型创建了推荐单元[!DNL Page Builder]。
+1. 确保您已[为[!DNL Page Builder]页面类型创建了推荐单元](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >
@@ -45,11 +51,11 @@ ht-degree: 0%
 
 1. 在编辑模式下打开页面、块或动态块。
 
-1. 展开&#x200B;_[!UICONTROL Content]_&#x200B;部分并单击&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或在内容预览区域中打开[!DNL Page Builder]工作区。
+1. 展开&#x200B;_[!UICONTROL Content]_部分并单击&#x200B;**[!UICONTROL Edit with Page Builder]**或在内容预览区域中打开[!DNL Page Builder]工作区。
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，将&#x200B;**[!UICONTROL Row]**&#x200B;占位符拖到舞台上。
+1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Row]**占位符拖到舞台上。
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Add Content]_&#x200B;面板中，将&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;占位符拖到行中。
+1. 在&#x200B;_[!UICONTROL Add Content]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Product Recommendation]**占位符拖到行中。
 
    ![正在添加产品推荐内容类型](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +66,7 @@ ht-degree: 0%
 
    ![编辑产品推荐](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Selection]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Select]**。
+1. 在&#x200B;_[!UICONTROL Selection]_部分中，单击&#x200B;**[!UICONTROL Select]**。
 
 1. 在活动产品推荐列表中，找到包含要添加的推荐单元的行，然后单击最后一列中的&#x200B;**[!UICONTROL Select]**。
 
@@ -68,7 +74,7 @@ ht-degree: 0%
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Selected]**。
 
-   所选产品推荐的名称显示在&#x200B;_[!UICONTROL Selection]_&#x200B;页面的&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;部分中。
+   所选产品推荐的名称显示在&#x200B;_[!UICONTROL Edit Product Recommendation]_页面的_[!UICONTROL Selection]_&#x200B;部分中。
 
 1. 对[高级设置](#advanced-settings)进行任何必要的更改。
 

@@ -3,9 +3,15 @@ title: 存档订单
 description: 了解如何配置订单存档以提高性能并简化组织的Commerce。
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
-source-git-commit: 47f170f1a1dd1c236b99c2e7139bb119368abf47
+TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅当存档为[已启用](../configuration-reference/sales/sales.md)时，_[!UICONTROL Archive]_&#x200B;选项才会显示在[[!UICONTROL Sales]菜单](sales-menu.md)中。
+>仅当存档为[已启用](../configuration-reference/sales/sales.md)时，_[!UICONTROL Archive]_选项才会显示在[[!UICONTROL Sales]菜单](sales-menu.md)中。
 
 ## 配置订单存档
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 ## 查看存档的文档
 
-1. 在&#x200B;_[!UICONTROL Archive]_&#x200B;下的&#x200B;_[!UICONTROL Sales]_&#x200B;菜单中，选择以下任一选项：
+1. 在&#x200B;_[!UICONTROL Archive]_下的_[!UICONTROL Sales]_&#x200B;菜单中，选择以下任一选项：
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +117,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Export]**。
 
-可以将您的商店配置为在设定的天数后存档订单、发票、发运和贷项通知单。 您可以将订单及其关联文档移到存档中，或将它们恢复到其以前的状态。 存档的订单不会被删除，并且管理员可以继续使用这些订单。 存档数据可导出为CSV文件并在电子表格中打开。 启用后，_[!UICONTROL Archive]_&#x200B;命令将显示在工作区顶部。
+可以将您的商店配置为在设定的天数后存档订单、发票、发运和贷项通知单。 您可以将订单及其关联文档移到存档中，或将它们恢复到其以前的状态。 存档的订单不会被删除，并且管理员可以继续使用这些订单。 存档数据可导出为CSV文件并在电子表格中打开。 启用后，_[!UICONTROL Archive]_命令将显示在工作区顶部。
 
 ## 手动存档订单
 
@@ -131,13 +137,13 @@ ht-degree: 0%
 
 1. 使用以下方法之一打开存档视图：
 
-   - 在&#x200B;_[!UICONTROL Orders]_&#x200B;网格上方的按钮栏中，单击&#x200B;**[!UICONTROL Go to Archive]**。
+   - 在&#x200B;_[!UICONTROL Orders]_网格上方的按钮栏中，单击&#x200B;**[!UICONTROL Go to Archive]**。
 
    - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**。
 
    >[!NOTE]
    >
-   >与“订单”页面一样，存档的订单页面的标题为&#x200B;_[!UICONTROL Orders]_。 唯一值得注意的区别是按钮栏中指向&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;的选项。 页面的URL还指示您处于顺序存档中。
+   >与“订单”页面一样，存档的订单页面的标题为&#x200B;_[!UICONTROL Orders]_。 唯一值得注意的区别是按钮栏中指向_[!UICONTROL Return to Orders Management]_&#x200B;的选项。 页面的URL还指示您处于顺序存档中。
 
 1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 

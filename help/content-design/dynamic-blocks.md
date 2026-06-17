@@ -2,10 +2,15 @@
 title: 动态块
 description: 使用动态块创建由价格规则和客户区段中的逻辑驱动的丰富交互式内容。
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_&#x200B;选项在2.3.1中已弃用，在2.4.0中已移除。其功能已被动态块取代。
+>[[!UICONTROL Content]菜单](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_选项在2.3.1中已弃用，在2.4.0中已移除。 其功能已被动态块取代。
 
 ![[!DNL Page Builder] — 具有价格规则和客户区段的动态块](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -97,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Store View] | 指定动态块将可用的存储视图。 |
 | [!UICONTROL Enable Dynamic Block] | 激活或停用动态块。 选项：是/否 |
 | [!UICONTROL Dynamic Block Name] | 在管理员中标识动态块的描述性名称。 |
-| [!UICONTROL Dynamic Block Type] | 标识在[标准页面布局](layout-updates.md)中放置动态块的位置。 选项： <br/>**[!UICONTROL Content Area]**— 将动态块置于页面的主[内容区域](layout-updates.md)中。<br/>**[!UICONTROL Footer]** — 将动态块放置在页面[页脚](page-setup.md#footer)中。 <br/>**[!UICONTROL Header]**— 将动态块放置在页面[标头](page-setup.md#header)中。<br/>**[!UICONTROL Left Column]** — 将动态块置于两列或三列布局的[左侧边栏](page-layout.md#standard-page-layouts)中。 <br/>**[!UICONTROL Right Column]**— 将动态块置于两列或三列布局的[右侧边栏](page-layout.md#standard-page-layouts)中。 |
+| [!UICONTROL Dynamic Block Type] | 标识在[标准页面布局](layout-updates.md)中放置动态块的位置。 选项： <br/>**[!UICONTROL Content Area]**— 将动态块置于页面的主[内容区域](layout-updates.md)中。<br/>**[!UICONTROL Footer]** — 将动态块放置在页面[页脚](page-setup.md#footer)中。<br/>**[!UICONTROL Header]**— 将动态块放置在页面[页眉](page-setup.md#header)中。<br/>**[!UICONTROL Left Column]** — 将动态块放置在两列或三列布局的[左侧边栏](page-layout.md#standard-page-layouts)中。<br/>**[!UICONTROL Right Column]**— 将动态块置于两列或三列布局的[右侧边栏](page-layout.md#standard-page-layouts)中。 |
 | 客户区段 | 将客户区段与动态块关联以确定哪些客户可以看到它。 |
 | Real-Time CDP受众 | 将[Real-Time CDP受众](../customers/audience-activation.md)与动态块关联以确定哪些客户可以看到它。 |
 

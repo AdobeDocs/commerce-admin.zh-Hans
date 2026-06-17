@@ -3,9 +3,15 @@ title: 组定价
 description: 了解如何使用组定价，根据商店中的客户组设置折扣产品的价格。
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 333
 ht-degree: 0%
 
 ---
@@ -34,9 +40,9 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 在&#x200B;_[!UICONTROL Price]_&#x200B;字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_字段下，单击&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Customer Group Price]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Customer Group Price]_部分中，单击&#x200B;**[!UICONTROL Add]**。
 
    如果您的存储包含[Adobe Commerce B2B](../b2b/introduction.md)并启用了[共享目录](../b2b/catalog-shared.md)，则此部分标记为&#x200B;_[!UICONTROL Catalog and Tier Price]_。
 

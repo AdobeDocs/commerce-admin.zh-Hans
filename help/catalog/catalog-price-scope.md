@@ -3,9 +3,15 @@ title: 价格范围
 description: 了解用于产品价格的范围，可以将其配置为在全球或网站级别应用。
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
+TQID: https://experienceleague.adobe.com/4tNRviXPzBubIpyAn9vgUs8BaILjJ6BEdV4yj5ngz6Y
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: 376
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 不同的因素可能会影响同一产品在一个地点的价格，而不会影响另一个地点的价格。 例如，产品可能会产生额外的分销成本，以及影响特定商店中销售产品价格的其他注意事项。 下图显示了将基础货币设置为网站级别的多站点安装。 与每个网站关联的商店和商店视图反映在网站级别设置的产品定价。
 
-![Adobe Commerce B2B](../assets/b2b.svg)如果您使用共享目录，另请参阅[Adobe Commerce B2B指南](../b2b/catalog-shared-pricing-structure.md)中的&#x200B;_设置共享目录定价和结构_。
+![Adobe Commerce B2B](../assets/b2b.svg)如果您使用共享目录，另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](../b2b/catalog-shared-pricing-structure.md)。
 
 ![价格范围图](./assets/catalog-price-scope.svg){width="550"}
 

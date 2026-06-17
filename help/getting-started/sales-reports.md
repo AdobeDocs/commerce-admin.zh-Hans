@@ -3,9 +3,16 @@ title: 销售报表
 description: ' [!DNL Commerce] 销售报表可帮助您跟踪订单、税费、发票、运费、退款、优惠券和PayPal结算。'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
+TQID: https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b382a22d-d89f-43ea-a98c-4d7d1c29dabd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 699
 ht-degree: 0%
 
 ---
@@ -101,7 +108,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Show Report]**。
 
-有关使用[!UICONTROL Coupons Report]收集促销活动数据的详细信息，请参阅[销售和促销指南](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)中的&#x200B;_优惠券报告_。
+有关使用[!UICONTROL Coupons Report]收集促销活动数据的详细信息，请参阅&#x200B;_销售和促销指南_&#x200B;中的[优惠券报告](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)。
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,7 +120,7 @@ ht-degree: 0%
 
 ![PayPal结算报告](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-有关使用[!UICONTROL PayPal Settlement Reports]检索影响资金结算的每个PayPal交易信息的更多信息，请参阅[商店和购买体验指南](../stores-purchase/paypal-settlement-reports.md)中的&#x200B;_PayPal结算报告_。
+有关使用[!UICONTROL PayPal Settlement Reports]检索影响资金结算的每个PayPal交易信息的更多信息，请参阅&#x200B;_商店和购买体验指南_&#x200B;中的[PayPal结算报告](../stores-purchase/paypal-settlement-reports.md)。
 
 ## [!UICONTROL Braintree Settlement Report]
 
@@ -131,7 +138,7 @@ ht-degree: 0%
 
 ## 刷新统计信息
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 为了减少生成销售报告对性能的影响，[!DNL Commerce]计算并存储每个报告所需的统计信息。 除非您刷新统计信息，否则每次生成报告时不会重新计算统计信息，而是使用存储的统计信息。 要包含最新数据，必须在生成销售报告之前刷新报告统计信息。
 

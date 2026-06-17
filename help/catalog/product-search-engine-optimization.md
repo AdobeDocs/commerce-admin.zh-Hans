@@ -3,9 +3,15 @@ title: 产品设置 — [!UICONTROL Search Engine Optimization]
 description: 对于产品，[!UICONTROL Search Engine Optimization]设置设置设置搜索引擎用于索引产品的URL键和元数据。
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 504
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 _搜索引擎优化_ (SEO)是微调网站的内容和呈现方式以改进搜索引擎对页面进行索引的方式。
 
-产品的&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;设置指定搜索引擎用于索引产品的[URL键](catalog-urls.md)和[元数据](../merchandising-promotions/meta-data.md)字段。 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前[SEO最佳实践](../merchandising-promotions/seo-overview.md)是在元标题和元描述中并入高值关键字。
+产品的&#x200B;_[!UICONTROL Search Engine Optimization]_设置指定搜索引擎用于索引产品的[URL键](catalog-urls.md)和[元数据](../merchandising-promotions/meta-data.md)字段。 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前[SEO最佳实践](../merchandising-promotions/seo-overview.md)是在元标题和元描述中并入高值关键字。
 
 每个元数据字段的默认值可根据配置中指定的值自动生成。 每个字段都包含一个用实际值替换的占位符。 有关详细信息，请参阅[产品字段自动生成](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)。
 
@@ -22,7 +28,7 @@ _搜索引擎优化_ (SEO)是微调网站的内容和呈现方式以改进搜索
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Search Engine Optimization]_部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 ![搜索引擎优化](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 

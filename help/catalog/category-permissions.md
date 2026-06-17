@@ -3,9 +3,16 @@ title: 类别权限
 description: 了解如何使用类别来控制产品价格的显示，确定哪些客户组可以将产品添加到购物车，以及指定登陆页面。
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 ![登录用户看到“收藏集”类别](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-启用后，“类别”页面上将显示一个新的&#x200B;_[!UICONTROL Category Permissions]_&#x200B;部分，通过该部分，您可以对每个类别应用所需的访问权限。 您可以为不同的网站和客户组向每个类别添加多个权限规则。
+启用后，“类别”页面上将显示一个新的&#x200B;_[!UICONTROL Category Permissions]_部分，通过该部分，您可以对每个类别应用所需的访问权限。 您可以为不同的网站和客户组向每个类别添加多个权限规则。
 
 ## 步骤1：配置类别权限
 
@@ -74,7 +81,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >虽然&#x200B;_[!UICONTROL Allow Browsing Category]_&#x200B;设置适用于网站中的所有类别，但您可以为每个商店视图配置不同的登陆页面。
+   >虽然&#x200B;_[!UICONTROL Allow Browsing Category]_设置适用于网站中的所有类别，但您可以为每个商店视图配置不同的登陆页面。
 
 ### [!UICONTROL Display Product Prices]
 

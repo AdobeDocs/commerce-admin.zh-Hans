@@ -3,9 +3,15 @@ title: 添加内容 — 产品
 description: 了解用于向 [!DNL Page Builder] 阶段添加产品列表的产品内容类型。
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/r676TBnosKjgHOM-ABTY2NYcRCCGU4q1DA41b6UCQIU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: 1922
 ht-degree: 0%
 
 ---
@@ -116,7 +122,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >选择类别或SKU选项会提供&#x200B;**[!UICONTROL Sort By]**&#x200B;的`Position`选项。 使用此排序选项，产品会以它们在目录中的显示顺序显示。</br>
+     >选择类别或SKU选项会提供`Position`的&#x200B;**[!UICONTROL Sort By]**&#x200B;选项。 使用此排序选项，产品会以它们在目录中的显示顺序显示。</br>
      >
      >对于“类别”选项，按位置排序会按照产品在目录中的显示顺序来显示产品。 对于SKU选项，按位置排序将按您在&#x200B;**[!UICONTROL Product SKUs]**&#x200B;文本框中输入的顺序显示产品。
 

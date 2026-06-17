@@ -3,9 +3,15 @@ title: 配置距离优先级算法
 description: 设置用于比较装运目标地址的位置与来源位置的配置，以确定最接近完成装运的来源。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 ## 使用Google地图
 
-您不需要Google帐户即可开始。 如果需要，该过程包括Google帐户和项目创建。 此选项要求将计费帐户和支付方法添加到您的Google帐户，以完成配置并使用算法。
+您不需要Google帐户即可开始。如果需要，该过程包括Google帐户和项目创建。此选项要求将计费帐户和支付方法添加到您的Google帐户，以完成配置并使用算法。
 但是，建议使用基于Google MAP距离的算法，因为该算法比离线计算更先进、更精确。
 
 ### 步骤1：创建Google API密钥
@@ -77,11 +83,11 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;并将&#x200B;**[!UICONTROL Provider]**&#x200B;设置为`Google MAP`。
+1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_部分的![扩展选择器](../assets/icon-display-expand.png)并将&#x200B;**[!UICONTROL Provider]**设置为`Google MAP`。
 
    基于距离的SSA的![提供程序](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_&#x200B;部分并配置设置：
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_部分并配置设置：
 
    - 对于&#x200B;**[!UICONTROL Google API Key]**，输入从您的Google帐户复制的密钥。
 
@@ -89,7 +95,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >在使用此算法处理发运时，如果对于发运的选定计算模式（驾驶、骑车或行走），工艺路线和数据未返回，则SSA将默认使用“Source优先级”。 建议为每Stock[的源设置](stocks-prioritize-sources.md)优先级。
+     >在使用此算法处理发运时，如果对于发运的选定计算模式（驾驶、骑车或行走），工艺路线和数据未返回，则SSA将默认使用“Source优先级”。 建议为每Stock](stocks-prioritize-sources.md)的源设置[优先级。
 
      | 选项 | 描述 |
      | ----- | ----- |
@@ -128,7 +134,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展开![部分的](../assets/icon-display-expand.png)扩展选择器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_。
+1. 展开&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框并将&#x200B;**[!UICONTROL Provider]**&#x200B;设置为`Offline Calculation`。
 

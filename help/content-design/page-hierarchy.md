@@ -2,10 +2,16 @@
 title: 页面层次结构
 description: 了解页面层次结构系统如何让您能够组织内容页面并添加分页、导航和菜单。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: 964
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**&#x200B;并进行任何必要的更改。
 
@@ -60,7 +66,7 @@ ht-degree: 0%
 
 1. 在网格上方，单击&#x200B;**[!UICONTROL Add Node...]**。
 
-1. 在&#x200B;_[!UICONTROL Page Properties]_&#x200B;下，输入节点的&#x200B;**[!UICONTROL Title]**&#x200B;和合适的&#x200B;**[!UICONTROL URL Key]**。
+1. 在&#x200B;_[!UICONTROL Page Properties]_下，输入节点的&#x200B;**[!UICONTROL Title]**和合适的&#x200B;**[!UICONTROL URL Key]**。
 
    URL键为节点提供唯一的Web地址。 必须全部为小写字符，使用连字符而不是空格来分隔单词。
 
@@ -86,7 +92,7 @@ ht-degree: 0%
 
 1. 单击层次结构顶部的节点。
 
-   _[!UICONTROL Page Properties]_&#x200B;部分现在显示有关节点的信息。
+   _[!UICONTROL Page Properties]_部分现在显示有关节点的信息。
 
 1. 在&#x200B;**[!UICONTROL Render Metadata in HTML Head]**&#x200B;下，执行以下操作：
 

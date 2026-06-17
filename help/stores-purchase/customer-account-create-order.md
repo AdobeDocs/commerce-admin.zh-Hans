@@ -3,16 +3,22 @@ title: 创建订单
 description: 了解如何在Commerce管理员中为客户创建订单。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
+TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: 376
 ht-degree: 0%
 
 ---
 
 # 创建订单
 
-对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 _[!UICONTROL Create New Order]_&#x200B;表单包含正常结账流程所需的所有信息，以及客户帐户信息板中的活动摘要。
+对于需要帮助的注册客户，您可以直接从管理员创建整个订单。 _[!UICONTROL Create New Order]_表单包含正常结账流程所需的所有信息，以及客户帐户信息板中的活动摘要。
 
 ![为客户创建订单](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -28,7 +34,7 @@ ht-degree: 0%
 
    ![Workspace标头](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   您还可以通过单击[在](orders.md#orders-workspace)订单工作区&#x200B;**[!UICONTROL Create New Order]**&#x200B;中创建订单。
+   您还可以通过单击&#x200B;**[!UICONTROL Create New Order]**&#x200B;在[订单工作区](orders.md#orders-workspace)中创建订单。
 
 ## 步骤2：添加产品
 
@@ -95,11 +101,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [[!UICONTROL [自定义订单属性]]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [！UICONTROL [自定义订单属性]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->有关安装和配置Payment Services扩展时支持此功能的付款方法的详细信息，请参阅[付款服务指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview)。
+>有关安装和配置Payment Services扩展时支持此功能的付款方法的详细信息，请参阅[付款服务指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)。
 
 ## 步骤3：提交订单
 

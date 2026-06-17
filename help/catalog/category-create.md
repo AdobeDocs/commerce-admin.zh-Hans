@@ -3,9 +3,16 @@ title: 创建类别
 description: 您可以根据配置中设置的最大菜单深度，根据需要创建任意数量的其他子类别。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -114,9 +121,9 @@ ht-degree: 0%
    - `Static Block Only`
    - `Static Block and Products`
 
-1. 如果希望类别页面包含分层导航的&#x200B;_`Filter by Attribute`_部分，请将&#x200B;**[!UICONTROL Anchor]**&#x200B;设置为`Yes`。
+1. 如果希望类别页面包含分层导航的&#x200B;_`Filter by Attribute`_部分，请将&#x200B;**[!UICONTROL Anchor]**设置为`Yes`。
 
-1. 对于&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;选项，请选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 对于&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;选项，请选择一个或多个可供客户对列表进行排序的可用值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
    默认情况下，将包含所有可用值。 取消选中&#x200B;**[!UICONTROL Use All]**&#x200B;复选框以更改选择。 例如，值可能包括：
 
@@ -124,7 +131,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 要设置类别的默认排序顺序，请选择&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 要设置类别的默认排序顺序，请选择&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此设置不适用于[!DNL Live Search] [产品列表页面小组件](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
 1. 要更改默认分层导航[价格步骤](navigation-layered.md#configure-price-navigation)设置，请执行以下操作：
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
 1. 选择应用类别权限的&#x200B;**[!UICONTROL Customer Group]**。
 
-   ![Adobe Commerce B2B](../assets/b2b.svg) (仅限[Adobe Commerce B2B](../b2b/introduction.md))如果需要，您可以改为选择&#x200B;**[!UICONTROL Shared Catalog]**。
+   ![Adobe Commerce B2B](../assets/b2b.svg) （仅限[Adobe Commerce B2B](../b2b/introduction.md)）如果需要，您可以改为选择&#x200B;**[!UICONTROL Shared Catalog]**。
 
 1. 根据需要设置以下权限：
 
@@ -194,7 +201,7 @@ ht-degree: 0%
 
 1. 根据需要设置设计设置：
 
-   - (仅限[Adobe Commerce B2B](../b2b/introduction.md))若要将父类别设计设置应用于此类别，请将&#x200B;**[!UICONTROL Use Parent Category Settings]**&#x200B;设置为`Yes`。
+   - （仅限[Adobe Commerce B2B](../b2b/introduction.md)）若要将父类别设计设置应用于此类别，请将&#x200B;**[!UICONTROL Use Parent Category Settings]**&#x200B;设置为`Yes`。
 
    - 要更改类别页面的设计，请选择要应用的&#x200B;**[!UICONTROL Theme]**。
 
@@ -206,9 +213,9 @@ ht-degree: 0%
 
    ![设计设置](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg)(仅限Magento Open Source)要计划在特定时间段进行设计更新，请执行以下操作：
+1. ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）要计划在特定时间段进行设计更新，请执行以下操作：
 
-   - 展开&#x200B;_[!UICONTROL Schedule Design Update]_&#x200B;部分。
+   - 展开&#x200B;_[!UICONTROL Schedule Design Update]_部分。
 
    - 使用日历（![日历图标](../assets/icon-calendar.png)）选择计划更新&#x200B;**[!UICONTROL from]**&#x200B;和&#x200B;**[!UICONTROL to]**&#x200B;日期。
 

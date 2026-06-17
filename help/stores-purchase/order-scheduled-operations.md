@@ -3,9 +3,15 @@ title: 计划订单工序
 description: 了解支持此功能的计划订单操作和订单cron设置。
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 284
 ht-degree: 0%
 
 ---
@@ -43,13 +49,13 @@ ht-degree: 0%
 
 通过调度这些任务，可以避免在保存数据时发生的锁定，并减少处理时间。 启用后，任何更新仅在计划的cron作业期间发生。 为获得最佳结果，应将Cron配置为每分钟运行一次。
 
-**_要启用更新并重新编制索引：_**
+**_启用更新并重新索引:_**
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"}启用[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#production-mode)&#x200B;(云基础架构上的Adobe Commerce中使用的默认模式)时，请运行以下命令：
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}启用[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode)（云基础架构上的Adobe Commerce中使用的默认模式）时，请运行以下命令：
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-启用[默认模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#default-mode)时，请完成以下步骤：
+启用[默认模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode)时，请完成以下步骤：
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

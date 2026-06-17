@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Tax]'
-description: 查看Commerce管理员的[!UICONTROL Sales] &amp；gt； [!UICONTROL Tax]页面上的配置设置。
+title: '[!UICONTROL Sales] > [!UICONTROL Tax]'
+description: 查看Commerce管理员的[!UICONTROL Sales] &gt； [!UICONTROL Tax]页面上的配置设置。
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
+TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -14,9 +20,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由Vertex供应商开发的扩展，该扩展用于与[!UICONTROL Vertex Cloud]集成。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
-><br><br>
->如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由Vertex供应商开发的扩展，该扩展用于与[!UICONTROL Vertex Cloud]集成。从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。通过Marketplace，还可以访问扩展开发人员提供的当前文档。
+><br><br>>如果已启用并配置捆绑的扩展，则必须在2.4.4升级过程中更新composer.json文件，并管理以后的扩展更新。有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块和扩展](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
 
 {{config}}
 
@@ -29,7 +34,7 @@ ht-degree: 0%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Tax Class for Shipping] | 网站 | 标识用于发运的税分类。 选项包括所有可用的产品税类： `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
-| [!UICONTROL Tax Class for Gift Options] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)标识用于赠品选项的默认税类。 |
+| [!UICONTROL Tax Class for Gift Options] | 网站 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）标识用于赠品选项的默认税类。 |
 | [!UICONTROL Default Tax Class for Product] | 全局 | 标识用于产品的默认税分类。 |
 | [!UICONTROL Default Tax Class for Customer] | 全局 | 标识用于客户的默认税分类。 |
 
@@ -41,14 +46,14 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。 <br/>**`Total`**— 税费计算基于订单总额。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
+| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。<br/>**`Total`**— 税费计算基于订单总计。<br/><br/>_**&#x200B;注意：**_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
 | [!UICONTROL Tax Calculation Based On] | 网站 | 确定税额计算是基于发运地址、帐单地址还是发运来源。 选项： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 网站 | 确定目录价格是否包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 网站 | 确定装运价格中包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Customer Tax] | 网站 | 确定税在折扣之前或之后应用。 选项： `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | 网站 | 确定折扣价是否包括或不包括税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | 网站 | 确定税额是应用于原始价格还是自定义价格（如果可用）。 选项： `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | 网站 | 启用后，会跨具有不同税率的区域应用一致的定价。 选项： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;使用跨境贸易将按税率调整利润率。 |
+| [!UICONTROL Enable Cross Border Trade] | 网站 | 启用后，会跨具有不同税率的区域应用一致的定价。 选项： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;使用跨境贸易按税率调整利润率。 |
 
 {style="table-layout:auto"}
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | 商店视图 | 确定目录中所发布的产品价格是包含还是排除税，或显示两个版本价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**&#x200B;如果将“显示产品价格”字段设置为`Including Tax`，则仅当存在与税源匹配的税则或存在与税则匹配的客户地址时，才会显示税。 可触发匹配的事件包括客户帐户创建、登录，或购物车中使用税务和运输估计工具。 |
+| [!UICONTROL Display Product Prices in Catalog] | 商店视图 | 确定目录中所发布的产品价格是包含还是排除税，或显示两个版本价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Note:_**&#x200B;如果将“显示产品价格”字段设置为`Including Tax`，则仅当存在与税源匹配的税则或存在与税则匹配的客户地址时，才会显示税。 可触发匹配的事件包括客户帐户创建、登录，或购物车中使用税务和运输估计工具。 |
 | [!UICONTROL Display Shipping Prices] | 商店视图 | 确定配送价格是否包含税或不含税，或显示两个版本的配送价格；一个包含税，另一个不含税。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
@@ -108,8 +113,8 @@ ht-degree: 0%
 | [!UICONTROL Additionally Show Order Total Without Tax] | 商店视图 | 确定在销售单据上是否显示附加行，其中包含不含税的总金额。 选项： `Yes` / `No` |
 | [!UICONTROL Display Full Tax Summary] | 商店视图 | 确定销售单据上是否显示完整的税汇总。 选项： `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | 商店视图 | 确定不计税时销售单据上出现的小计部分。 选项： `Yes` / `No` |
-| [!UICONTROL Display Gift Wrapping Prices] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)确定小计中是否包含礼品包装价格。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Printed Card Prices] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)(仅限Adobe Commerce)确定小计中是否包含打印卡价格。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Gift Wrapping Prices] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）确定小计中是否包含礼品包装价格。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Printed Card Prices] | 商店视图 | ![Adobe Commerce](../../assets/adobe-logo.svg)（仅限Adobe Commerce）确定小计中是否包含打印卡价格。 选项： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
@@ -122,10 +127,10 @@ ht-degree: 0%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | 网站 | 确定FPT是否可用。 选项： `Yes` / `No` |
-| [!UICONTROL Display Prices in Product Lists] | 网站 | 控制产品列表中FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`** — 显示价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示价格不包括固定产品税。 FPT金额不会单独显示。 |
-| [!UICONTROL Display Prices On Product View Page] | 网站 | 控制产品页面上FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`** — 显示价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示价格不包括固定产品税。 FPT金额不会单独显示。 |
-| [!UICONTROL Display Prices in Sales Modules] | 网站 | 控制购物车和结帐期间FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示价格包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT. Including FPT description and final price`** — 显示价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`**— 显示价格不包括固定产品税。 FPT金额不会单独显示。 |
-| [!UICONTROL Display Prices in Emails] | 网站 | 控制电子邮件中FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不会单独显示。<br/>**`Including FPT and FPT description`**— 显示价格包括固定产品税。 FPT金额将单独显示。<br/>**&#x200B;排除FPT。 包括FPT说明和最终价格&#x200B;**— 显示价格不包括固定产品税。 FPT金额将单独显示。<br/>**`Excluding FPT`** — 显示价格不包括固定产品税。 FPT金额不会单独显示。 |
+| [!UICONTROL Display Prices in Product Lists] | 网站 | 控制产品列表中FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
+| [!UICONTROL Display Prices On Product View Page] | 网站 | 控制产品页面上FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
+| [!UICONTROL Display Prices in Sales Modules] | 网站 | 控制购物车和结帐期间FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT. Including FPT description and final price`**  — 显示的价格不包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT`**— 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
+| [!UICONTROL Display Prices in Emails] | 网站 | 控制电子邮件中FPT的显示。 选项：<br/> **`Including FPT Only`** — 显示价格包括固定产品税。 FPT金额不单独显示。<br/>**`Including FPT and FPT description`**— 显示的价格包括固定产品税。 FPT金额将单独显示。<br/>**&#x200B;排除FPT。 包括FPT说明和最终价格&#x200B;**— 显示价格不包括固定产品税。 FPT金额单独显示。<br/>**`Excluding FPT`**  — 显示的价格不包括固定产品税。 FPT金额不会单独显示。 |
 | [!UICONTROL Apply Tax to FPT] | 网站 | 确定是否对FPT金额应用税。 选项： `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | 网站 | 确定FPT是否包含在购物车小计中。 选项： <br/>**`Yes`**— 在购物车小计中包括FPT。<br/>**`No`** - FPT不包含在小计中，而是放置在购物车中的小计之后。 |
 

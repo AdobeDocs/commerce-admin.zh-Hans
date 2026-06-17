@@ -3,26 +3,33 @@ title: 类别产品分配
 description: 了解如何使用[!UICONTROL Products in Category]设置来控制当前分配给该类别的产品。
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
+TQID: https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 791
 ht-degree: 0%
 
 ---
 
 # 类别产品分配
 
-对于类别，请使用&#x200B;_[!UICONTROL Products in Category]_&#x200B;部分查看当前分配给该类别的产品。 每列顶部的搜索过滤器用于在类别中添加和删除产品。 您还可以使用[类别规则](../merchandising-promotions/category-product-rules.md)(仅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce)在满足一组条件时动态更改产品选择。 若要了解详细信息，请参阅[可视化促销器](../merchandising-promotions/visual-merchandiser.md)。
+对于类别，请使用&#x200B;_[!UICONTROL Products in Category]_部分查看当前分配给该类别的产品。 每列顶部的搜索过滤器用于在类别中添加和删除产品。 您还可以使用[类别规则](../merchandising-promotions/category-product-rules.md)（仅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce）在满足一组条件时动态更改产品选择。 若要了解详细信息，请参阅[可视化促销器](../merchandising-promotions/visual-merchandiser.md)。
 
 >[!TIP]
 >
->在类别规则设置期间，当保存此类别时，产品为&#x200B;_已排序_、_匹配_、_已分配_&#x200B;和&#x200B;_已取消分配_（仅根据此规则&#x200B;**__**）。 要确保在将新产品添加到目录时根据规则分配该产品，您&#x200B;**必须重新保存设置为按规则匹配产品的每个类别**。 此外，如果任何产品库存状态更改为`In Stock`或`Out of Stock`，并且类别中的产品按照&#x200B;_自动排序_&#x200B;规则&#x200B;**排序**，则必须单击&#x200B;**[!UICONTROL Save Category]**。
+>在类别规则设置期间，当保存此类别时，产品为&#x200B;_已排序_、_匹配_、_已分配_&#x200B;和&#x200B;_已取消分配_（仅根据此规则&#x200B;**__**）。 要确保在将新产品添加到目录时根据规则分配该产品，您&#x200B;**必须重新保存设置为按规则匹配产品的每个类别**。 此外，如果任何产品库存状态更改为`In Stock`或`Out of Stock`，并且类别中的产品按照&#x200B;**自动排序**&#x200B;规则&#x200B;_排序_，则必须单击&#x200B;**[!UICONTROL Save Category]**。
 
 ![类别产品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->_Stock_&#x200B;列仅显示&#x200B;_&#x200B;**选定类别范围**&#x200B;_&#x200B;的可用产品数量。 为产品管理多个库存时，您应在相应的范围之间切换以在&#x200B;_类别产品_&#x200B;网格中显示其他&#x200B;_库存_&#x200B;列值。
+>_Stock_&#x200B;列仅显示&#x200B;_**选定类别范围**_&#x200B;的可用产品数量。 为产品管理多个库存时，您应在相应的范围之间切换以在&#x200B;_类别产品_&#x200B;网格中显示其他&#x200B;_库存_&#x200B;列值。
 
 ## 应用类别规则
 
@@ -76,7 +83,7 @@ ht-degree: 0%
 
 | 选项 | 描述 |
 |--- |--- |
-| [!UICONTROL Attribute] | 确定用作条件基础的属性。 选项： <br/>**[!UICONTROL Clone Category ID(s)]**— 根据类别ID从多个类别中动态克隆产品，而不对其排序和排序。<br/>**[!UICONTROL Color]** — 包含基于颜色的产品。 <br/>**[!UICONTROL Date Created (days ago)]**— 包含基于产品添加到目录后天数的产品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包括基于上次修改产品后天数的产品。 <br/>**[!UICONTROL Name]**— 包含基于产品名称的产品。<br/>**[!UICONTROL Price]** — 包括基于价格的产品。 <br/>**[!UICONTROL Quantity]**— 包括基于库存数量的产品。<br/>**&#x200B; SKU &#x200B;**— 包含基于SKU的产品。 |
+| [!UICONTROL Attribute] | 确定用作条件基础的属性。 选项： <br/>**[!UICONTROL Clone Category ID(s)]**— 根据类别ID从多个类别中动态克隆产品（无需排序和排序）。<br/>**[!UICONTROL Color]** — 包括基于颜色的产品。<br/>**[!UICONTROL Date Created (days ago)]**— 包含基于产品添加到目录后天数的产品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包括基于上次修改产品后天数的产品。<br/>**[!UICONTROL Name]**— 包含基于产品名称的产品。<br/>**[!UICONTROL Price]** — 包括基于价格的产品。<br/>**[!UICONTROL Quantity]**— 包括基于库存数量的产品。<br/>** SKU **— 包含基于SKU的产品。 |
 | [!UICONTROL Operator] | 指定应用于属性值以满足条件的运算符。 除非指定运算符，否则默认使用`Equal`。 选项： `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 指定属性必须符合条件的值。 |
 | [!UICONTROL Logic] | 用于定义多个条件，仅在添加另一个条件时显示。 选项： `OR` / `AND` |

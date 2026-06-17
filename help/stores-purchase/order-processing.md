@@ -3,9 +3,16 @@ title: 订单工作流和处理
 description: 了解订单工作流、在每个步骤应用的状态以及如何通过此流程移动订单。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
+TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: 1834
 ht-degree: 0%
 
 ---
@@ -38,7 +45,7 @@ ht-degree: 0%
 
 1. 在网格中查找顺序。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL View]**。
 
 1. 检查订单状态：
 
@@ -130,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 下订单的日期和时间。 |
 | [!UICONTROL Purchased From] | 指示下订单的网站、商店和商店视图。 |
 | [!UICONTROL Placed from IP] | 指示下达订单的计算机的IP地址。 |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg)(适用于Adobe Commerce B2B)指示从中生成订单的[quote](../b2b/quotes.md)（如果适用）。 报价名称与报价关联。 |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg)（适用于Adobe Commerce B2B）指示从中生成订单的[quote](../b2b/quotes.md)（如果适用）。 报价名称与报价关联。 |
 
 {style="table-layout:auto"}
 
@@ -141,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下订单的客户或购买者的名称。 客户名称链接到客户配置文件。 |
 | [!UICONTROL Email] | 客户或买方的电子邮件地址。 已链接电子邮件地址以打开新的电子邮件。 |
 | [!UICONTROL Customer Group] | 客户分配到的客户组或共享目录的名称。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)与买方关联并代表其下达订单的公司名称。 公司名称已链接到[公司配置文件](../b2b/account-companies.md)。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）与买方关联并代表其下达订单的公司名称。 公司名称已链接到[公司配置文件](../b2b/account-companies.md)。 |
 
 {style="table-layout:auto"}
 
@@ -169,7 +176,7 @@ ht-degree: 0%
 
 ### 自定义订单属性
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目(Adobe管理的SaaS基础架构)。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 通过自定义订单属性，您可以将特定于业务需求的附加信息与该订单相关联。
 
@@ -225,7 +232,7 @@ ht-degree: 0%
 | 字段 | 描述 |
 |--- |--- |
 | [!UICONTROL Status] | 显示销售订单的状态。 |
-| [!UICONTROL Comment] | 一个文本框，用于输入订单附带的客户注释。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果要将评论作为单独的电子邮件发送给客户，请选中复选框。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望评论从客户的帐户中可见，请选中复选框。 <br/>**[!UICONTROL Update]**— 添加评论并发送电子邮件（如果适用）。 |
+| [!UICONTROL Comment] | 一个文本框，用于输入订单附带的客户注释。<br/>**[!UICONTROL Notify Customer by Email]**— 如果要将评论作为单独的电子邮件发送给客户，请选中复选框。<br/>**[!UICONTROL Visible on Storefront]** — 如果希望评论从客户的帐户中可见，请选中复选框。<br/>**[!UICONTROL Update]**— 添加评论并发送电子邮件（如果适用）。 |
 
 {style="table-layout:auto"}
 
@@ -239,10 +246,10 @@ ht-degree: 0%
 | [!UICONTROL Total Paid] | 为订单支付的总金额（如果适用）。 |
 | [!UICONTROL Total Refunded] | 从订单中退款的总金额（如果适用）。 |
 | [!UICONTROL Total Due] | 到期的总金额。 |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg)(仅限Adobe Commerce)应用于订单的可用商店积分（如果适用）。 |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)报价单中的项目总价（不含税），根据用作报价单基础的共享目录或标准目录中的定价而定。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)买方与卖方协商的报价所产生的折扣。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg)(与Adobe Commerce B2B一起提供)目录总价减去协商折扣。 |
+| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）应用于订单的可用商店积分（如果适用）。 |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）报价单中的项目总价（不含税），根据用作报价单基础的共享目录或标准目录中的定价而定。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）买方与卖方协商的报价所产生的折扣。 如果店面显示货币与基本货币不同，则该值将以两种货币显示，店面显示在方括号中。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg)（与Adobe Commerce B2B一起提供）目录总价减去协商折扣。 |
 
 {style="table-layout:auto"}
 
@@ -250,4 +257,4 @@ ht-degree: 0%
 
 观看此视频，了解有关订单处理和状态的更多信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410793/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
