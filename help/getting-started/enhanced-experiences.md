@@ -42,7 +42,7 @@ ht-degree: 0%
 <!-- 
 This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hans)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
 -->

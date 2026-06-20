@@ -2,7 +2,7 @@
 title: 页面层次结构
 description: 了解页面层次结构系统如何让您能够组织内容页面并添加分页、导航和菜单。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

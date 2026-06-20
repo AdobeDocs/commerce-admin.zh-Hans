@@ -60,7 +60,7 @@ Adobe Commerce服务是托管服务，可为Adobe Commerce和Magento Open Source
 
 * [目录服务](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hans)
 * [实时搜索](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=zh-Hans)
-* [产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+* [产品推荐](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)
 
 ## 共享目录
 

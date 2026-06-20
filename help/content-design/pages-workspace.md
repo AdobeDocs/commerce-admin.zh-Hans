@@ -3,7 +3,7 @@ title: 页面工作区控件
 description: 了解用于查找和更新内容页面的工作区工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

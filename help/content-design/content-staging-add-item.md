@@ -3,7 +3,7 @@ title: 向营销活动添加项目
 description: 查看此促销活动示例，用于在促销活动期间将促销图像添加到类别页面。
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/Fa-FT3C-j2-1xR9Jx4DRsqwTOEn3AEc-sXXbjXuqn-A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

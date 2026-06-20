@@ -35,7 +35,7 @@ ht-degree: 1%
 
 {{config}}
 
-<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/quotes/quotes) -->
 
 ## [!UICONTROL General]
 

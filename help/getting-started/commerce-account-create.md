@@ -1,7 +1,7 @@
 ---
 title: 创建并访问您的 [!DNL Commerce] 帐户
 description: 了解 [!DNL Commerce] 帐户，这些帐户管理您购买的产品和服务。
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s

@@ -3,7 +3,7 @@ title: 在编辑器中插入变量
 description: 在WYSIWYG编辑器中向内容添加预定义或自定义变量。
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
