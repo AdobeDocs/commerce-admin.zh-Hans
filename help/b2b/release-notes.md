@@ -549,7 +549,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手动依赖关系，可以修复此问题。 有关说明，请参阅[Adobe Commerce知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
+通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手动依赖关系，可以修复此问题。 有关说明，请参阅[Adobe Commerce知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=zh-Hans)。
 
 ### B2B v1.3.5-p13
 

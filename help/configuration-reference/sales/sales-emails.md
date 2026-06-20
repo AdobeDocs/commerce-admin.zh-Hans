@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ![订单评论](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ![贷项通知单](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 ![订单已准备好到商店取货](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

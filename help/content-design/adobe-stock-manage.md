@@ -191,7 +191,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

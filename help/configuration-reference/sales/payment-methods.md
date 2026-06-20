@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供insight和控制您为购买者创建最佳体验所需的更多信息，请参阅&#x200B;[_Payment Services用户指南_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
+>适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供insight和控制您为购买者创建最佳体验所需的更多信息，请参阅&#x200B;[_Payment Services用户指南_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)。
 
 {{config}}
 

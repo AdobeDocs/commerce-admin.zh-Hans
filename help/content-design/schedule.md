@@ -2,7 +2,7 @@
 title: 计划设计更改
 description: 了解如何提前计划您的主题设计更改
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/Pf9Yp54AoZbC86HdHlN76zrE6qzjV2R0hoJWs8u-BEA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

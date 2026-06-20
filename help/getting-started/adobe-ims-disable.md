@@ -58,7 +58,7 @@ Admin Adobe IMS integration is disabled.
 
 * 记住预先存在的Commerce密码的Commerce管理员用户（即在IMS集成之前创建的Commerce密码）可以使用该密码登录到管理员。
 
-* 不具有预先存在的Commerce密码或忘记密码的Commerce管理员用户必须创建新密码。 要创建新密码，管理员用户可以使用Commerce登录页面上的[!UICONTROL Forgot your password?]功能创建新密码。 请参阅[重置客户密码](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html)。 Commerce不接受空密码字段。
+* 不具有预先存在的Commerce密码或忘记密码的Commerce管理员用户必须创建新密码。 要创建新密码，管理员用户可以使用Commerce登录页面上的[!UICONTROL Forgot your password?]功能创建新密码。 请参阅[重置客户密码](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=zh-Hans)。 Commerce不接受空密码字段。
 
 ## 禁用集成后
 

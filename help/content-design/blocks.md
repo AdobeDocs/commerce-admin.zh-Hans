@@ -2,7 +2,7 @@
 title: 内容块
 description: 块可用于显示固定信息（如文本、图像和嵌入的视频）和动态信息。
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/J3WLLi92Tawt6kK-LKOhFuM-KwuKxqk0vQevScMP-8A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
