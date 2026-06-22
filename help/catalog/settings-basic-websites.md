@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 168
 ht-degree: 0%
@@ -53,3 +53,4 @@ _[!UICONTROL Product in Websites]_&#x200B;部分根据[商店层次结构](../st
    由于基本货币的范围设置为`website`，因此可以在每个网站中以不同的价格销售产品。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
+

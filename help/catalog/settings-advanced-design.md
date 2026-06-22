@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 284
 ht-degree: 0%
@@ -44,3 +44,4 @@ _[!UICONTROL Design]_&#x200B;设置允许将不同的主题应用于产品页面
 | [!UICONTROL Custom Layout Update] | 商店视图 | 用于访问更新产品页面上的自定义布局的选项。 |
 
 {style="table-layout:auto"}
+
