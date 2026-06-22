@@ -4,10 +4,11 @@ user-guide-description: 本指南提供了所有通过**[!UICONTROL Stores]** > 
 breadcrumb-title: 配置引用
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +39,7 @@ ht-degree: 3%
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA管理面板](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA店面](./security/google-recaptcha-storefront.md)
-   - [Security.txt](./security/security-txt.md)
+   - [安全性.txt](./security/security-txt.md)
 - 客户 {#customers}
    - [客户登录](./customers/login-as-customer.md)
    - [新闻稿](./customers/newsletter.md)
@@ -83,4 +84,4 @@ ht-degree: 3%
    - [管理员](./advanced/admin.md)
    - [系统](./advanced/system.md)
    - [开发人员](./advanced/developer.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

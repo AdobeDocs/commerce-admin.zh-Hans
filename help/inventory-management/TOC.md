@@ -4,10 +4,11 @@ user-guide-description: 了解如何使用 [!DNL Inventory Management] 功能来
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 7%
 # [!DNL Inventory Management]用户指南 {#inventory}
 
 - [Inventory management指南](guide-overview.md)
-- [&#x200B; [!DNL Inventory Management]简介](introduction.md)
+- [ [!DNL Inventory Management]简介](introduction.md)
 - [发行说明](release-notes.md)
 - 清单基础知识 {#basics}
    - [来源和库存](sources-stocks.md)
@@ -58,4 +59,4 @@ ht-degree: 7%
    - [概述](shipments.md)
    - [创建装运](shipments-create.md)
 - [CLI参考](cli.md)
-- [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

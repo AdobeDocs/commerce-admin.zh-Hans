@@ -3,7 +3,8 @@ user-guide-title: 客户管理指南
 user-guide-description: 有关Adobe Commerce和Magento Open Source管理员的客户帐户、组和区段管理功能的综合信息。
 breadcrumb-title: 客户管理
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -56,4 +57,4 @@ ht-degree: 0%
    + [创建和删除客户区段](customer-segment-create.md)
    + [价格规则中的客户区段](customer-segment-price-rule.md)
    + [客户区段报表](customer-segment-reports.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
