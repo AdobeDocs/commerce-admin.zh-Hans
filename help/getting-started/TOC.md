@@ -5,9 +5,10 @@ breadcrumb-title: 快速入门
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -70,4 +71,4 @@ ht-degree: 0%
    + [生态系统](resources.md)
    + [扩展](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [返回到“管理员用户指南”](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
