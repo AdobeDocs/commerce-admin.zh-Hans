@@ -4,11 +4,20 @@ description: 了解如何为您的可配置产品列表定义色板。
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->通过将Admin中[!UICONTROL Attribute Edit]页面上的&#x200B;_[!UICONTROL Update Product Preview Image]_选项值设置为`No`，可以将样本属性配置为在选择样本时不显示相应的简单产品图像。
+>通过将Admin中[!UICONTROL Attribute Edit]页面上的&#x200B;_[!UICONTROL Update Product Preview Image]_&#x200B;选项值设置为`No`，可以将样本属性配置为在选择样本时不显示相应的简单产品图像。
 
 ## 基于文本的样本
 
@@ -36,7 +45,7 @@ ht-degree: 0%
 
 ## 分层导航中的样本
 
-如果color属性的&#x200B;_[!UICONTROL Use in Layered Navigation]_属性设置为`Yes`，则样本也可用于分层导航。 以下示例显示了分层导航中基于文本的图像样本和彩色图像样本。
+如果color属性的&#x200B;_[!UICONTROL Use in Layered Navigation]_&#x200B;属性设置为`Yes`，则样本也可用于分层导航。 以下示例显示了分层导航中基于文本的图像样本和彩色图像样本。
 
 在分层导航中显示的![样本](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -64,7 +73,7 @@ ht-degree: 0%
 
 1. 如果希望在产品显示页面上选择样本时不显示相应的简单产品图像，请将&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;设置为`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_下，单击&#x200B;**[!UICONTROL Add Swatch]**并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;下，单击&#x200B;**[!UICONTROL Add Swatch]**&#x200B;并执行以下操作：
 
    ![管理样本值](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -112,9 +121,9 @@ ht-degree: 0%
 
 1. 如果希望在产品显示页面上选择样本时不显示相应的简单产品图像，请将&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;设置为`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch]_（属性的值）下，单击&#x200B;**[!UICONTROL Add Swatch]**并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch]_（属性的值）下，单击&#x200B;**[!UICONTROL Add Swatch]**&#x200B;并执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Swatch]_列中，单击新样本以显示菜单，然后选择&#x200B;**[!UICONTROL Upload a file]**。
+   - 在&#x200B;_[!UICONTROL Swatch]_&#x200B;列中，单击新样本以显示菜单，然后选择&#x200B;**[!UICONTROL Upload a file]**。
 
    - 导航到您准备的样本文件，然后选择要上传的文件。
 

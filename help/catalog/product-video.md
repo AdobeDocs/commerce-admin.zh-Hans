@@ -4,11 +4,21 @@ description: 了解如何为商店配置产品视频（需要Google帐户中的Y
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
 TQID: https://experienceleague.adobe.com/5OKezHnnZ3xhLOAEdxNZZXKn0wUuC37E0I5iHI-4N58
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 716
@@ -50,7 +60,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_部分并粘贴您的&#x200B;**[!UICONTROL YouTube API key]**。
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_&#x200B;部分并粘贴您的&#x200B;**[!UICONTROL YouTube API key]**。
 
    ![产品视频配置](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -62,7 +72,7 @@ ht-degree: 0%
 
 1. 在编辑模式下打开产品。
 
-1. 滚动到并展开&#x200B;_[!UICONTROL Images and Videos]_部分。
+1. 滚动到并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分。
 
    ![图像和视频](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -100,7 +110,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL Autostart base video]_配置选项设置为`Yes`，但视频未开始自动播放，则可能是由于浏览器强制实施且无法由Adobe Commerce控制的自动播放策略所导致。 每个受支持的浏览器都有自己的自动播放策略，这些策略会随着时间的推移而改变，并且您的视频将来可能不会自动播放。 作为建议的最佳实践，您不应依赖自动播放来实现业务关键功能，而应使用每个受支持的浏览器在您的存储中测试视频自动播放行为。
+   >如果&#x200B;_[!UICONTROL Autostart base video]_&#x200B;配置选项设置为`Yes`，但视频未开始自动播放，则可能是由于浏览器强制实施且无法由Adobe Commerce控制的自动播放策略所导致。 每个受支持的浏览器都有自己的自动播放策略，这些策略会随着时间的推移而改变，并且您的视频将来可能不会自动播放。 作为建议的最佳实践，您不应依赖自动播放来实现业务关键功能，而应使用每个受支持的浏览器在您的存储中测试视频自动播放行为。
 
 ## 在商店视图级别管理视频角色
 
