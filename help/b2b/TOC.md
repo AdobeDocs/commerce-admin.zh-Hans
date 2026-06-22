@@ -69,4 +69,4 @@ ht-degree: 5%
 + 引用 {#reference}
    + [向后不兼容的更改](backward-incompatible-changes.md)
    + [包](packages.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
