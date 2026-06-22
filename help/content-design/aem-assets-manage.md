@@ -4,18 +4,11 @@ description: 使用AEM Assets管理您的商店媒体资源。
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
 TQID: https://experienceleague.adobe.com/c9tgs7PAobBnFZUKX0Zkpik9-kt5O5RXSTYQ61l2sBc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 182
 ht-degree: 0%
@@ -32,9 +25,9 @@ ht-degree: 0%
 
 有关详细信息，请参阅以下AEM Assets文档。
 
-- [重新处理数字资产](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [重新处理数字资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [批准资产](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [批准资产](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## 将资源添加到类别内容
 
@@ -51,3 +44,4 @@ ht-degree: 0%
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;并继续。
 
    有关创建类别的详细信息，请参阅[完成类别内容](../catalog/category-create.md#step-3-complete-the-category-content)。
+
