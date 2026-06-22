@@ -3,10 +3,11 @@ user-guide-title: Adobe Commerce管理员用户指南
 user-guide-description: 在管理部门工作的 Adobe Commerce 和 Magento Open Source 商户的文档和资源。
 title: Adobe Commerce管理员用户指南
 feature: Admin Workspace
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+nudge: true
+source-git-commit: da318a9bf0a2be406aee9f539ca46b443f811188
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 27%
+source-wordcount: '149'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +22,6 @@ ht-degree: 27%
 - [内容和设计](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=zh-Hans)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=zh-Hans)
 - [客户管理](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=zh-Hans)
-- [存储和购买体验](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=zh-Hans)
-- [管理系统](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=zh-Hans)
+- [商店和购买体验](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=zh-Hans)
+- [管理系统](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [配置参考指南](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=zh-Hans)
