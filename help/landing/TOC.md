@@ -23,5 +23,5 @@ ht-degree: 12%
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=zh-Hans)
 - [客户管理](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=zh-Hans)
 - [商店和购买体验](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=zh-Hans)
-- [管理系统](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
+- [管理系统](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=zh-Hans)
 - [配置参考指南](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=zh-Hans)
