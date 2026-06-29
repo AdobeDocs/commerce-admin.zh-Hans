@@ -29,13 +29,13 @@ ht-degree: 0%
 
 随着业务职责变化，您可能需要将您的Adobe Commerce帐户转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Adobe Commerce帐户(MAGEID)的过程。 它不包括对Adobe Commerce的云基础架构项目所有权或[!DNL New Relic]所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)_。
+以下信息介绍了转移Adobe Commerce帐户(MAGEID)的过程。 它不包括对Adobe Commerce的云基础架构项目所有权或[!DNL New Relic]所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/user-access)_。
 
 >[!IMPORTANT]
 >
 >如果新帐户所有者使用共享访问购买了扩展，则一旦帐户转移开始，对这些扩展的访问权限就会丢失。
 >
->在请求帐户转移之前，请确保新所有者从[他们的 [!DNL Commerce Marketplace] 帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID并请求[[!DNL Commerce Marketplace] 团队](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)退款。 扩展购买不能转移到其他帐户。
+>在请求帐户转移之前，请确保新所有者从[他们的 [!DNL Commerce Marketplace] 帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID并请求[[!DNL Commerce Marketplace] 团队](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)退款。 扩展购买不能转移到其他帐户。
 
 ## 识别您的传输类型
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由于Adobe Commerce继续与其他Adobe解决方案集成，因此Adobe Commerce帐户(MAGEID)现在需要与Adobe ID关联。 Adobe ID使用连接到您的[Adobe Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的相同电子邮件地址。
+>由于Adobe Commerce继续与其他Adobe解决方案集成，因此Adobe Commerce帐户(MAGEID)现在需要与Adobe ID关联。 Adobe ID使用连接到您的[Adobe Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的相同电子邮件地址。
 
 ## 验证Adobe ID电子邮件更改
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 >查看[传输类型](#identify-your-transfer-type)，并确认此路径与您的情况匹配：
 >
 >- 当前所有者仍在公司中。
->- 当前所有者没有Adobe ID，或者其Adobe ID未连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)。
+>- 当前所有者没有Adobe ID，或者其Adobe ID未连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)。
 >- 新所有者没有Adobe ID，也没有Adobe Commerce帐户。
 
 如果当前所有者的MAGEID尚未链接到Adobe ID，请使用此路径。 当前所有者首先创建并链接Adobe ID，然后将Adobe ID电子邮件地址更改为新所有者的电子邮件地址。
@@ -110,7 +110,7 @@ ht-degree: 0%
 >查看[传输类型](#identify-your-transfer-type)，并确认此路径与您的情况匹配：
 >
 >- 当前所有者仍在公司中。
->- 当前所有者有一个连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的Adobe ID。
+>- 当前所有者有一个连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的Adobe ID。
 >- 新所有者拥有的Adobe ID未连接到Adobe Commerce帐户。
 
 在开始之前，请注意，此转移类型会导致当前帐户所有者无法访问与该Adobe ID关联的其他Adobe产品。
@@ -134,7 +134,7 @@ ht-degree: 0%
 >查看[传输类型](#identify-your-transfer-type)，并确认此路径与您的情况匹配：
 >
 >- 当前所有者已离开公司，但发送到当前所有者的公司电子邮件地址的电子邮件仍可访问，或者您的IT团队可以将这些电子邮件转发给授权联系人。
->- 当前所有者有一个连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的Adobe ID。
+>- 当前所有者有一个连接到其[Adobe Commerce帐户(MAGEID)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)的Adobe ID。
 >- 新所有者有一个连接到其Adobe Commerce帐户的Adobe ID。
 
 如果当前所有者和新所有者均拥有现有的Adobe ID，并且您想要保留这两个Adobe ID，则此转移类型会使用临时电子邮件地址来切换帐户所有权。 要完成所有权转让，必须使用与Adobe ID无关联的临时电子邮件地址。
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您无法访问当前所有者的电子邮件，请让您的IT团队为您公司电子邮件系统中的帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
+>如果您无法访问当前所有者的电子邮件，请让您的IT团队为您公司电子邮件系统中的帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
 
 1. 导航到[account.adobe.com](https://account.adobe.com/)并完成Adobe登录。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 在完成[新Adobe ID和电子邮件更改](#new-adobe-id-and-email-change)、[仅电子邮件更改](#email-change)或[Adobe ID帐户切换](#adobe-id-account-switch)流程后，完成这些步骤。
 
-1. 作为新所有者，[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)。
+1. 作为新所有者，[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)。
 
    包括以下详细信息：
 
