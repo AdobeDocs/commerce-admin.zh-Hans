@@ -27,7 +27,7 @@ ht-degree: 0%
 
 只有当前系统管理员才能为Adobe Commerce以外的Adobe产品和服务分配、更改或删除Adobe Admin Console中的系统管理员角色。
 
-要为其他Adobe产品和服务（包括App Builder）分配新的系统管理员或更改现有管理员角色，现有管理员必须登录到Adobe Admin Console并更新组织的管理角色。 查看[管理员角色](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)。
+要为其他Adobe产品和服务（包括App Builder）分配新的系统管理员或更改现有管理员角色，现有管理员必须登录到Adobe Admin Console并更新组织的管理角色。 查看[管理员角色](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)。
 
 ## 分配新的系统管理员
 
