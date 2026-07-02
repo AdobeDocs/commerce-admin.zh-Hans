@@ -1,7 +1,7 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## EE专用功能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 这是一项独家功能，仅在Adobe Commerce中可用，在Magento Open Source中不可用。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans#product-editions">了解更多</a>）</td></tr>
+<tr><td><img alt="Adobe Commerce功能" src="/help/assets/adobe-logo.svg" width="20" height="20" /> 这是一项独家功能，仅在Adobe Commerce中可用，在Magento Open Source中不可用。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans#product-editions">了解更多</a>）</td></tr>
 </table>
 
 ## 仅限B2B的功能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 仅在<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans">Adobe Commerce B2B</a>中提供了独占功能</td></tr>
+<tr><td><img alt="Adobe Commerce B2B功能" src="/help/assets/b2b.svg" width="20" height="20" /> 仅在<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans">Adobe Commerce B2B</a>中提供了独占功能</td></tr>
 </table>
 
 ## 仅限CE的功能 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source功能" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source需要替代方法（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans#product-editions">了解更多</a>）</td></tr>
+<tr><td><img alt="Magento Open Source功能" src="/help/assets/open-source.svg" width="20" height="20" /> Magento Open Source需要替代方法（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans#product-editions">了解更多</a>）</td></tr>
 </table>
 
 ## IMS管理员身份验证说明 {#ims-admin-note}
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 | 文档资源 | 描述 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4管理员用户指南](../landing/home.md) | 在管理员中工作的商户的文档和资源。 |
+| [Adobe Commerce 2.4管理员用户指南](/help/landing/home.md) | 在管理员中工作的商户的文档和资源。 |
 | [Adobe Commerce服务文档](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=zh-Hans) | 支持一系列促销服务的文档，可帮助商家将其业务的关键组件与商店集成。 |
 | 云基础架构上的[Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=zh-Hans) | 在托管的自动托管云平台上部署Adobe Commerce的分步过程。 |
 | [Adobe Commerce 2.4操作指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=zh-Hans) | 有关在Cloud和内部部署项目中开发、部署和维护Adobe Commerce的概念、流程、工具和最佳实践的系统文档。 |
