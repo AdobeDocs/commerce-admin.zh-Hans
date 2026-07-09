@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 产品工作区
 
 所有产品类型的产品工作区基本上相同，尽管字段选择会根据使用的属性集而发生更改。 产品属性位于表单顶部，其后是产品信息的可展开部分。 首次保存新产品时，_[!UICONTROL Store View]_&#x200B;选择器将显示在表单的左上角。
+
+>[!NOTE]
+>
+>应用的目录扩充更新显示在表单顶部的产品名称和&#x200B;**[!UICONTROL Content]**&#x200B;部分中。 有关详细信息，请参阅[目录扩充](catalog-enrichment.md)。
 
 ![产品工作区](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 

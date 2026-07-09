@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ _搜索引擎优化_ (SEO)是微调网站的内容和呈现方式以改进搜索
 产品的&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;设置指定搜索引擎用于索引产品的[URL键](catalog-urls.md)和[元数据](../merchandising-promotions/meta-data.md)字段。 尽管一些搜索引擎会忽略元关键字，但其他搜索引擎会继续使用它们。 当前[SEO最佳实践](../merchandising-promotions/seo-overview.md)是在元标题和元描述中并入高值关键字。
 
 每个元数据字段的默认值可根据配置中指定的值自动生成。 每个字段都包含一个用实际值替换的占位符。 有关详细信息，请参阅[产品字段自动生成](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)。
+
+>[!NOTE]
+>
+>目录扩充有助于改进LLM和AI辅助发现的产品名称和描述。 它不会替换SEO元字段。 有关详细信息，请参阅[目录扩充](catalog-enrichment.md)。
 
 ## 填写SEO字段
 

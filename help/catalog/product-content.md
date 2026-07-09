@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 产品设置 — [!UICONTROL Content]
 
 _[!UICONTROL Content]_&#x200B;部分用于输入和编辑产品页面上显示的主要产品说明。 简短描述可用于大多数RSS源，也可能出现在目录列表中，具体取决于[主题](../content-design/themes.md)。
+
+>[!NOTE]
+>
+>目录扩充可以将AI建议的更新应用于此部分中的产品名称和详细说明。 有关详细信息，请参阅[目录扩充](catalog-enrichment.md)。
 
 ## 在[!DNL Page Builder]中添加产品说明
 
