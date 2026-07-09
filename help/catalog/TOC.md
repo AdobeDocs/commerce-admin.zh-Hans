@@ -99,4 +99,4 @@ ht-degree: 1%
       + [创建和删除属性](attribute-product-create.md)
       + [批量更新](bulk-product-attribute-update.md)
       + [属性集](attribute-sets.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
