@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含在“管理员”中审阅和应用AI建议的产品名称和描述更新的指导，并从<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">目录菜单</a>、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">指南概述</a>和相关产品设置主题中链接了主题。</p>
+      <td><p>添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含在“管理员”中审阅和应用AI建议的产品名称和描述更新的指导，并从<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog-menu">目录菜单</a>、<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/guide-overview">指南概述</a>和相关产品设置主题中链接了主题。</p>
 </td>
       <td>
         新主题
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系统管理员访问权限</a>，其中包含用于管理Adobe Admin Console中的系统管理员分配的指导。</p>
+      <td><p>添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系统管理员访问权限</a>，其中包含用于管理Adobe Admin Console中的系统管理员分配的指导。</p>
 </td>
       <td>
         反馈
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
+      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
 </td>
       <td>
         重大更新
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
+      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
 </td>
       <td>
         反馈，技术
