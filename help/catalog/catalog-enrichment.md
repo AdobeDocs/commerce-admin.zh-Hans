@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ ht-degree: 0%
 - 所需的Commerce服务和目录连接已启用且运行正常。 请参阅[启用目录扩充](#enable-catalog-enrichment)以了解详情。
 - 已配置[IMS](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)。
 - 您有权访问[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
+- 您的组织已签署底层AI服务的GenAI附加程序，或明确选择退出。
 
-> 如果您没有IMS组织，请联系您的Adobe客户团队进行配置。
+>[!NOTE]
+>
+>作为设置的一部分，Commerce会检查贵组织是否已签署GenAI附加程序，该附加程序涵盖目录扩充后的AI服务。 如果您尚未签名或选择退出，则系统将提示您签名或更新该附加条款，然后才能使用目录扩充。
 
 ## 启用目录扩充 {#enable-catalog-enrichment}
 
