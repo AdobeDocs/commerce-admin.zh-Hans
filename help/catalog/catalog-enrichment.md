@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Store View URL]**：对应于商店视图的URL（例如，`https://brand.example.com/fr/`）。
    - **[!UICONTROL Environment ID]**：连接访问的[!DNL Adobe Commerce]环境的唯一标识符。
    - **[!UICONTROL Website Code]**、**[!UICONTROL Store Code]**&#x200B;和&#x200B;**[!UICONTROL Store View Code]**： Commerce网站的网站、商店和商店视图代码。 这些值必须与您的Commerce管理员中的代码匹配。
-
-1. 可选：如果您的环境需要&#x200B;**[!UICONTROL Host Name]**&#x200B;和&#x200B;**[!UICONTROL API Key]**，请输入。
-
    - **[!UICONTROL Host Name]**： [!DNL Adobe Commerce]实例的主机名。
-   - **[!UICONTROL API Key]**：用于安全访问[!DNL Adobe Commerce] API的身份验证密钥。 如果需要将密钥复制到其他位置，请单击字段旁边的&#x200B;**[!UICONTROL Copy]**。
 
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
@@ -135,8 +131,7 @@ ht-degree: 0%
 | 网站代码 | 是 | Commerce网站的网站代码。 |
 | 商店代码 | 是 | Commerce网站商店代码。 |
 | 存储视图代码 | 是 | Commerce网站的商店视图。 |
-| 主机名 | 否 | [!DNL Adobe Commerce]实例的主机名。 |
-| API密钥 | 否 | 用于安全访问[!DNL Adobe Commerce] API的身份验证密钥。 像对待任何生产凭证一样对待它。 |
+| 主机名 | 是 | [!DNL Adobe Commerce]实例的主机名。 |
 
 ### 查看并应用目录扩充 {#review-and-apply}
 
