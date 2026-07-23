@@ -3,7 +3,6 @@ title: 目录扩充
 description: 使用Adobe Commerce中的本机目录扩充功能，查看并将AI建议的改进应用于产品名称和长描述，以进行LLM和AI辅助发现。
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -19,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -240,4 +239,37 @@ ht-degree: 0%
 - 在批量应用标题或描述之前，请与SEO和品牌团队协调。
 - 主要目录导入后重新同步或重新分析，以便建议反映当前目录状态。
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## 示例
+
+以下示例显示了目录扩充如何将原始技术属性转换为以购物者为中心的叙述性产品副本，LLM可以使用该副本来回答购物问题。
+
+### 示例：具有技术属性的咖啡产品
+
+一种咖啡retailer目录，仅存储中烧咖啡豆产品的技术规格：豆类、产地、加工方法、烧烤等级和高度。 这些字段描述的是产品，但不会向购物者传达它的价值，因此，在回答“什么咖啡具有顺滑、低酸的味道？”这类问题时，AI助手几乎没什么可做的。
+
+目录扩充通过技术属性和原因的交互方式推断购物者相关特征：
+
+| 技术属性 | 推断的特征 | 推理 |
+| --- | --- | --- |
+| 蜂蜜加工，Medium烤肉 | 低酸度 | 在蜂蜜加工过程中留在豆子上的果胶会抑制酸性，而中间烤肉会分解残留的酸性化合物。 |
+| 蜂蜜加工业，阿拉比卡，Medium烤肉 | 榛子味 | 来自粘液的水果糖与阿拉伯的天然坚果音相结合，在中等烘烤时放大。 |
+| 蜂蜜加工业，阿拉比卡 | 口感丰富，奶油般滑爽 | 干燥期间从粘液中吸收的油增加了粘度和身体。 |
+| 蜂蜜加工，海拔900-1200米 | 焦糖底色 | 高海拔的豆子密度更大，糖分更复杂，蜂蜜加工使糖分更加深化。 |
+
+目录扩充将这些推断的特征应用于产品副本：
+
+- **Before**：“Medium烤咖啡豆 — 阿拉比卡，巴西米纳斯吉拉斯，蜂蜜加工，900-1200米”
+- **之后**：“在巴西米纳斯吉拉斯州以900-1200米种植的阿拉比卡豆子，经过蜂蜜加工和半熟烘烤，形成一种天然甜的、奶油味的口感，具有独特的榛子特征、焦糖底色和低酸度。 始终如一、平易近人的特色咖啡，最好在倒咖啡时体验。”
+
+更新的名称和描述将直接保存到Commerce目录中，因此店面、LLM馈送和读取这些字段的其他渠道都反映了相同的扩充副本。
+
+### 示例：模块化家具配置
+
+家具retailer销售模块化组合沙发，其中产品说明仅列出配置代码和结构名称，例如`6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`。 对于回头客户来说，这种速记是可以理解的，但人工智能助手几乎没有提供产品如何发挥功能或哪些因素使其耐用或舒适的上下文。
+
+目录扩充将配置和结构属性扩展为叙述性描述，说明每个组件的功能以及它对于购物者而言重要的原因：
+
+- **Before**：“6个标准座椅+ 6个蓝宝石海军束绒天鹅绒标准侧面”
+- **After**：“此配置包括6个标准座椅插入件集和6个标准侧插入件，它们可互换地用作臂或背部，构成布局的模块化构建块。 每张座椅均采用标准泡沫材料，其中具有三个高密度层，旨在保持提升和防止下垂。 蓝宝石海军灯丝绒护套既耐用，又豪华，其纹理丰富的灯丝营造出细腻的光泽，柔软而丰满的感觉。 封面是手工缝制的，外观精准、量身定制，可机洗，可更换，因此您的部分可以随您的空间而发展。”
+
+由于扩充的描述会写回Commerce目录，因此可供抓取产品详细信息页面的AI机器人以及任何使用产品目录数据的下游渠道或馈送使用，而无需更改购物者在页面上看到的布局或设计。
