@@ -4,20 +4,13 @@ description: 了解用于在 [!DNL Page Builder] 阶段中添加行的Row内容�
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1620
 ht-degree: 0%
@@ -52,7 +45,7 @@ ht-degree: 0%
 
 ## 添加行
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将新的&#x200B;**[!UICONTROL Row]**&#x200B;拖到舞台上，刚好在第一行的下方。
+1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将新的&#x200B;**[!UICONTROL Row]**拖到舞台上，刚好在第一行的下方。
 
 1. 要格式化行，请将鼠标悬停在行容器上以显示工具箱，然后选择&#x200B;_设置_ （ ![设置图标](./assets/pb-icon-settings.png){width="20"} ）图标。
 
@@ -128,7 +121,7 @@ ht-degree: 0%
 
 ### 图像类型设置
 
-如果将&#x200B;_[!UICONTROL Background Type]_&#x200B;设置为`Image`，请使用以下设置来定义背景图像显示。
+如果将&#x200B;_[!UICONTROL Background Type]_设置为`Image`，请使用以下设置来定义背景图像显示。
 
 ![背景图像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -185,9 +178,9 @@ ht-degree: 0%
 
 - **[!UICONTROL Video URL]** — 输入有效的视频URL。 有效的视频URL可以是指向的链接：
 
-   - YouTube视频： `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo视频： `https://vimeo.com/190156113`
-   - 有效的视频文件（建议使用`.mp4`）： `https://myvideos.com/spiral.mp4`
+  - YouTube视频： `https://youtu.be/CoDhMRUUjeI`
+  - Vimeo视频： `https://vimeo.com/190156113`
+  - 有效的视频文件（建议使用`.mp4`）： `https://myvideos.com/spiral.mp4`
 
   ![背景视频URL](./assets/pb-video-url.png){width="300"}
 
@@ -254,7 +247,7 @@ ht-degree: 0%
 
   以下示例中的行的边框半径为15。
 
-  边框半径为15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的行
+  边框半径为15](./assets/pb-settings-border-radius-15.png){width="500"}的![行
 
 - （可选）从当前样式表中指定要应用于行容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 

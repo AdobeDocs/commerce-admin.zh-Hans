@@ -4,22 +4,13 @@ description: 了解如何创建表示无形项目的虚拟产品，如会员资�
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 653
 ht-degree: 0%
@@ -30,7 +21,7 @@ ht-degree: 0%
 
 虚拟产品或数字商品是指无形项目，如会员资格、服务、保修或书籍、音乐、视频或其他产品的订阅和数字下载。 虚拟产品可以单独销售，也可以作为[分组产品](product-create-grouped.md)、[可配置产品](product-create-configurable.md)或[捆绑产品](product-create-bundle.md)产品类型的一部分包含在内。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
+除了缺少&#x200B;_[!UICONTROL Weight]_字段之外，创建虚拟产品和简单产品的过程是相同的。 以下说明演示了使用[产品模板](attribute-sets.md)、必填字段和基本设置创建虚拟产品的过程。 完成基础知识后，您可以根据需要完成其他产品设置。
 
 >[!NOTE]
 >
@@ -132,7 +123,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->默认情况下，_[!UICONTROL Is this downloadable product?]_&#x200B;选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
+>默认情况下，_[!UICONTROL Is this downloadable product?]_选项处于禁用状态。 为虚拟产品启用此功能可使产品[可下载](product-create-downloadable.md#downloadable-product)。
 
 ## 步骤6：发布产品
 
@@ -142,9 +133,9 @@ ht-degree: 0%
 
    - **方法1：**&#x200B;保存并预览
 
-      - 单击右上角的&#x200B;**[!UICONTROL Save]**。
+     - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
+     - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
 
      该存储将在新的浏览器选项卡中打开。
 

@@ -3,10 +3,11 @@ title: 媒体集资产管理
 description: 了解如何管理已上传的媒体文件以及通过Adobe Stock集成获取的资源。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -106,7 +107,7 @@ Assets在整个管理员中都可以广泛使用，例如[添加或编辑页面]
 
 >[!NOTE]
 >
->_用于_&#x200B;的功能要求在[!UICONTROL Media Gallery Image Optimization]配置设置[中启用](media-gallery-image-optimization.md)。
+>_用于_&#x200B;的功能要求在[配置设置](media-gallery-image-optimization.md)中启用[!UICONTROL Media Gallery Image Optimization]。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**。
 

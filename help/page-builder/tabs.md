@@ -4,20 +4,13 @@ description: 了解用于在 [!DNL Page Builder] 阶段中添加一组选项卡�
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/p8-6Q5JB1-j0TcS9MCp6VDDM--GG3Rd-dUMYguPbngw
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -70,7 +63,7 @@ ht-degree: 0%
 
 ## 添加单个选项卡
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Tabs]**&#x200B;占位符直接拖到舞台上，或拖到舞台上的行或列上。
+1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，将&#x200B;**[!UICONTROL Tabs]**占位符直接拖到舞台上，或拖到舞台上的行或列上。
 
    ![将制表符拖到行](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -153,11 +146,11 @@ ht-degree: 0%
 
   您可以通过三种方式输入值：
 
-   - 预定义的颜色名称，如`White`
+  - 预定义的颜色名称，如`White`
 
-   - 颜色的十六进制颜色值，如`#ffffff`
+  - 颜色的十六进制颜色值，如`#ffffff`
 
-   - 颜色的rgba值，具有不透明度百分比，如`rgba(255, 255, 255, 0.75)`
+  - 颜色的rgba值，具有不透明度百分比，如`rgba(255, 255, 255, 0.75)`
 
   如果要选择颜色，请单击&#x200B;_无颜色_&#x200B;框左侧的色板。
 
@@ -250,7 +243,7 @@ ht-degree: 0%
 
   以下示例中的行的边框半径为15。
 
-  边框半径为15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的行
+  边框半径为15](./assets/pb-settings-border-radius-15.png){width="500"}的![行
 
 - （可选）从当前样式表中指定要应用于列容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;的名称。
 
