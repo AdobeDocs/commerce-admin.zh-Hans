@@ -201,7 +201,7 @@ ht-degree: 0%
 
    对于此示例，使用`My Page Builder Attribute`作为标签。
 
-1. 将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为`Page Builder`。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+1. 将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为`Page Builder`。 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
    创建自定义属性时，您可以指定最适合该应用程序的编辑器为`Page Builder`或标准WYSIWYG `Text Editor`。
 
