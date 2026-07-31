@@ -4,11 +4,21 @@ description: 了解用于将JPG、GIF或PNG图像添加到 [!DNL Page Builder] �
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -65,7 +75,7 @@ ht-degree: 0%
    >
    >最大文件大小为4 MB。 支持的文件类型包括JPG、GIF和PNG。
 
-   - _**上传新映像**_：使用此方法从您的系统上传新映像文件。
+   - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
 
      - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
@@ -73,7 +83,7 @@ ht-degree: 0%
 
      作为替代方法，您还可以将图像文件从系统中拖放到&#x200B;_照相机_ （ ![照相机图标](./assets/pb-icon-camera.png){width="20"} ）图标上。
 
-   - _**选择现有资源**_：使用此方法从媒体存储/媒体集中选择现有图像资源。
+   - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
      - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
@@ -83,7 +93,7 @@ ht-degree: 0%
 
        ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**搜索并选择Adobe Stock图像**_：使用此方法从Adobe Stock查找图像。
+   - _&#x200B;**搜索并选择Adobe Stock图像**&#x200B;_：使用此方法从Adobe Stock查找图像。
 
      >[!NOTE]
      >
@@ -114,13 +124,13 @@ ht-degree: 0%
 
 1. 要更改当前&#x200B;**[!UICONTROL Image]**，请执行下列操作之一：
 
-   - _**上传新映像**_：使用此方法从您的系统上传新映像文件。
+   - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
 
      - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
      - 找到并选择图像以将其添加到图库和目标容器中。
 
-   - _**选择现有资源**_：使用此方法从媒体存储/媒体集中选择现有图像资源。
+   - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
      - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
