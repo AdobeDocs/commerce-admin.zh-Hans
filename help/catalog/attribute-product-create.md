@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 922
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ ht-degree: 0%
 
 1. 对于&#x200B;**[!UICONTROL Default Label]**，请输入标识该属性的标签。
 
-1. 要确定用于数据输入的输入控件的类型，请将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为以下项之一：
+1. 将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为要用于数据输入的[输入控件](attributes-input-types.md)的类型。
 
-   | 属性 | 描述 |
-   |--- |--- |
-   | `Text Field` | 单行输入文本字段。 |
-   | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
-   | `Text Editor` | 属性位置处具有完整功能的文本编辑器。 |
-   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
-   | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
-   | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](product-create-configurable.md)的关键组件。 |
-   | `Multiple Select` | 显示接受多个选择的值的下拉列表。 |
-   | `Price` | 此输入类型用于创建除预定义属性之外的价格字段：价格、特殊价格、层价格和成本。 使用的货币由系统配置决定。 |
-   | `Media Image` | 将额外的图像与产品相关联，例如产品徽标、护理说明或食品标签中的成分。 将媒体图像属性添加到产品的属性集时，它将与基本图像、小型图像和缩略图一起成为额外的图像类型。 媒体图像属性可以从[店面媒体浏览器](catalog-images-video.md#storefront-media-browser)中排除。 |
-   | `Fixed Product Tax` | 允许您根据区域设置要求定义[FPT费率](../stores-purchase/fixed-product-tax.md)。 |
-   | `Visual Swatch` | 显示描述可配置产品的颜色、纹理或图案的色板。 [可视色板](swatches.md)可以用十六进制颜色值填充，或显示代表选项的颜色、材质、纹理或图案的上传图像。 |
-   | `Text Swatch` | 经常用于表示大小的可配置产品选项的基于文本的表示形式。 [文本样本](swatches.md#text-based-swatches)还可以包含十六进制颜色值。 |
-   | `Page Builder` | 属性位置处的[页面生成器](../page-builder/introduction.md)工作区功能完善，可轻松将吸引人的内容添加到产品页面。 |
-
-   {style="table-layout:auto"}
+   如果属性用于[可配置产品](product-create-configurable.md)，请选择`Dropdown`。 然后，将&#x200B;**[!UICONTROL Required]**&#x200B;设置为`Yes`。
 
 1. 如果要在客户购买产品之前需要选择选项，请将&#x200B;**[!UICONTROL Values Required]**&#x200B;设置为`Yes`。
 
@@ -88,7 +72,7 @@ ht-degree: 0%
 
    可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
 
-1. 设置&#x200B;**[!UICONTROL Scope]**&#x200B;以指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置。
+1. 若要指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置，请设置&#x200B;**[!UICONTROL Scope]**。
 
 1. 如果要防止任何重复值条目，请将&#x200B;**[!UICONTROL Unique Value]**&#x200B;设置为`Yes`。
 
@@ -134,7 +118,7 @@ ht-degree: 0%
 
 1. 如果属性可供搜索，请将&#x200B;**[!UICONTROL Use in Search]**&#x200B;设置为`Yes`。
 
-   - 将&#x200B;**[!UICONTROL Search Weight]**&#x200B;值设置为控制该项在搜索结果中出现的位置： 1（最低权重）到10（最高权重）。
+   - 若要控制项在搜索结果中的显示位置，请将&#x200B;**[!UICONTROL Search Weight]**&#x200B;值设置为： 1（最低权重）到10（最高权重）。
 
    - 根据需要设置&#x200B;**[!UICONTROL Visible in Advanced Search]**。 在[高级搜索](search.md#advanced-search)中了解详情。
 
@@ -160,7 +144,7 @@ ht-degree: 0%
 
    - 若要在产品列表中包含该属性，请将&#x200B;**[!UICONTROL Used in Product Listing]**&#x200B;设置为`Yes`。
 
-   - 要将属性用作产品清单的排序参数，请将&#x200B;**[!UICONTROL Used for Sorting in Product Listing]**&#x200B;设置为`Yes`。
+   - 若要将该属性用作产品清单的排序参数，请将&#x200B;**[!UICONTROL Used for Sorting in Product Listing]**&#x200B;设置为`Yes`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
 
@@ -191,7 +175,7 @@ ht-degree: 0%
 
 删除属性后，该属性会从任何相关的产品和属性集中删除。 系统属性是存储的核心功能的一部分，无法删除。
 
-在删除属性之前，请确保该属性当前未被目录中的任何产品使用。 确定属性是否正在使用的一个简单方法是使用[导出](../systems/data-export.md)工具检查产品实体属性的列表。 如果属性未包含在列表中，则目录中的任何产品都不会使用该属性。
+在删除属性之前，请确保目录中的产品当前未使用它。 确定属性是否正在使用的一个简单方法是使用[导出](../systems/data-export.md)工具检查产品实体属性的列表。 如果列表不包含属性，则目录中的任何产品都不会使用它。
 
 **_要删除属性:_**
 

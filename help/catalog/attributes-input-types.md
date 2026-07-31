@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # 属性输入类型
 
-从管理员中查看时，属性是您在创建产品时完成的字段。 分配给属性的输入类型决定了可以输入的数据类型以及字段或输入控件的格式。 从客户的角度看，属性提供了有关产品的信息，是购买产品必须填写的选项和数据输入字段。
+从管理员中查看时，属性是您在创建产品时完成的字段。 分配给属性的输入类型决定了可以输入的数据类型以及字段或输入控件的格式。 对于客户，属性提供了有关产品的信息，是购买产品必须填写的选项和数据输入字段。
 
 ## 输入类型
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Fixed Product Tax] | 允许您根据区域设置要求定义[FPT费率](../stores-purchase/fixed-product-tax.md)。 |
 | [!UICONTROL Visual Swatch] | 显示描述可配置产品的颜色、纹理或图案的色板。 [可视色板](swatches.md)可以用十六进制颜色值填充，或显示代表选项的颜色、材质、纹理或图案的上传图像。 |
 | [!UICONTROL Text Swatch] | 经常用于表示大小的可配置产品选项的基于文本的表示形式。 [文本样本](swatches.md)还可以包含十六进制颜色值。 |
-| [!UICONTROL Page Builder] | 位于属性位置的[[!DNL Page Builder]](../page-builder/workspace.md)工作区，可轻松将吸引人的内容添加到产品页面。 |
+| [!UICONTROL Page Builder]仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} | 位于属性位置的[[!DNL Page Builder]](../page-builder/workspace.md)工作区，可轻松将吸引人的内容添加到产品页面。 |
 
 {style="table-layout:auto"}
 
