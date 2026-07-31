@@ -4,31 +4,21 @@ description: 了解如何创建和删除产品属性，这些属性用于描述�
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 922
 ht-degree: 0%
 
 ---
 
 # 创建和删除产品属性
 
-您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_&#x200B;页面创建属性。 以下步骤显示如何从&#x200B;_[!UICONTROL Stores]_&#x200B;菜单创建属性。
+您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_页面创建属性。 以下步骤显示如何从_[!UICONTROL Stores]_&#x200B;菜单创建属性。
 
 ## 步骤1：描述基本属性属性
 
@@ -40,31 +30,15 @@ ht-degree: 0%
 
 1. 对于&#x200B;**[!UICONTROL Default Label]**，请输入标识该属性的标签。
 
-1. 要确定用于数据输入的输入控件的类型，请将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为以下项之一：
+1. 将&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;设置为要用于数据输入的[输入控件](attributes-input-types.md)的类型。
 
-   | 属性 | 描述 |
-   |--- |--- |
-   | `Text Field` | 单行输入文本字段。 |
-   | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
-   | `Text Editor` | 属性位置处具有完整功能的文本编辑器。 |
-   | 日期 | 以[首选格式](attributes-input-types.md#date-and-time-options)和[时区](../getting-started/store-details.md#locale-options)显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](attributes-input-types.md#date-and-time-options)。 |
-   | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
-   | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](product-create-configurable.md)的关键组件。 |
-   | `Multiple Select` | 显示接受多个选择的值的下拉列表。 |
-   | `Price` | 此输入类型用于创建除预定义属性之外的价格字段：价格、特殊价格、层价格和成本。 使用的货币由系统配置决定。 |
-   | `Media Image` | 将额外的图像与产品相关联，例如产品徽标、护理说明或食品标签中的成分。 将媒体图像属性添加到产品的属性集时，它将与基本图像、小型图像和缩略图一起成为额外的图像类型。 媒体图像属性可以从[店面媒体浏览器](catalog-images-video.md#storefront-media-browser)中排除。 |
-   | `Fixed Product Tax` | 允许您根据区域设置要求定义[FPT费率](../stores-purchase/fixed-product-tax.md)。 |
-   | `Visual Swatch` | 显示描述可配置产品的颜色、纹理或图案的色板。 [可视色板](swatches.md)可以用十六进制颜色值填充，或显示代表选项的颜色、材质、纹理或图案的上传图像。 |
-   | `Text Swatch` | 经常用于表示大小的可配置产品选项的基于文本的表示形式。 [文本样本](swatches.md#text-based-swatches)还可以包含十六进制颜色值。 |
-   | `Page Builder` | 属性位置处的[页面生成器](../page-builder/introduction.md)工作区功能完善，可轻松将吸引人的内容添加到产品页面。 |
-
-   {style="table-layout:auto"}
+   如果属性用于[可配置产品](product-create-configurable.md)，请选择`Dropdown`。 然后，将&#x200B;**[!UICONTROL Required]**&#x200B;设置为`Yes`。
 
 1. 如果要在客户购买产品之前需要选择选项，请将&#x200B;**[!UICONTROL Values Required]**&#x200B;设置为`Yes`。
 
 1. 对于[!UICONTROL Dropdown]和[!UICONTROL Multiple Select]输入类型，请执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Manage Options]_&#x200B;下，单击&#x200B;**[!UICONTROL Add Option]**。
+   - 在&#x200B;_[!UICONTROL Manage Options]_下，单击&#x200B;**[!UICONTROL Add Option]**。
 
    - 输入要显示在列表中的第一个值。
 
@@ -86,9 +60,9 @@ ht-degree: 0%
 
    ![产品属性 — 高级属性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
 
-1. 设置&#x200B;**[!UICONTROL Scope]**&#x200B;以指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置。
+1. 若要指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置，请设置&#x200B;**[!UICONTROL Scope]**。
 
 1. 如果要防止任何重复值条目，请将&#x200B;**[!UICONTROL Unique Value]**&#x200B;设置为`Yes`。
 
@@ -107,8 +81,8 @@ ht-degree: 0%
 
 1. 若要将此属性添加到[产品列表](products-list.md)，请将以下选项设置为`Yes`。
 
-   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中包括属性作为列。
-   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_&#x200B;列表中的列标题添加筛选器控件。
+   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_列表中包括属性作为列。
+   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_列表中的列标题添加筛选器控件。
 
 ## 步骤3：输入字段标签
 
@@ -122,7 +96,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用&#x200B;_Live Search指南_&#x200B;的Live Search分面列表[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的编辑选项手动编辑标签。
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用&#x200B;_Live Search指南_&#x200B;的Live Search分面列表](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的[编辑选项手动编辑标签。
 
 ## 步骤4：描述店面属性
 
@@ -130,11 +104,11 @@ ht-degree: 0%
 
    ![产品属性 — 店面属性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
 
 1. 如果属性可供搜索，请将&#x200B;**[!UICONTROL Use in Search]**&#x200B;设置为`Yes`。
 
-   - 将&#x200B;**[!UICONTROL Search Weight]**&#x200B;值设置为控制该项在搜索结果中出现的位置： 1（最低权重）到10（最高权重）。
+   - 若要控制项在搜索结果中的显示位置，请将&#x200B;**[!UICONTROL Search Weight]**&#x200B;值设置为： 1（最低权重）到10（最高权重）。
 
    - 根据需要设置&#x200B;**[!UICONTROL Visible in Advanced Search]**。 在[高级搜索](search.md#advanced-search)中了解详情。
 
@@ -160,7 +134,7 @@ ht-degree: 0%
 
    - 若要在产品列表中包含该属性，请将&#x200B;**[!UICONTROL Used in Product Listing]**&#x200B;设置为`Yes`。
 
-   - 要将属性用作产品清单的排序参数，请将&#x200B;**[!UICONTROL Used for Sorting in Product Listing]**&#x200B;设置为`Yes`。
+   - 若要将该属性用作产品清单的排序参数，请将&#x200B;**[!UICONTROL Used for Sorting in Product Listing]**&#x200B;设置为`Yes`。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Attribute]**。
 
@@ -191,7 +165,7 @@ ht-degree: 0%
 
 删除属性后，该属性会从任何相关的产品和属性集中删除。 系统属性是存储的核心功能的一部分，无法删除。
 
-在删除属性之前，请确保该属性当前未被目录中的任何产品使用。 确定属性是否正在使用的一个简单方法是使用[导出](../systems/data-export.md)工具检查产品实体属性的列表。 如果属性未包含在列表中，则目录中的任何产品都不会使用该属性。
+在删除属性之前，请确保目录中的产品当前未使用它。 确定属性是否正在使用的一个简单方法是使用[导出](../systems/data-export.md)工具检查产品实体属性的列表。 如果列表不包含属性，则目录中的任何产品都不会使用它。
 
 **_要删除属性:_**
 
