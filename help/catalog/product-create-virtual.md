@@ -19,7 +19,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 653
 ht-degree: 0%
@@ -142,9 +143,9 @@ ht-degree: 0%
 
    - **方法1：**&#x200B;保存并预览
 
-      - 单击右上角的&#x200B;**[!UICONTROL Save]**。
+     - 单击右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
+     - 要查看您商店中的产品，请在&#x200B;_管理员_ （![菜单箭头](../assets/icon-menu-down-arrow-black.png) ）菜单上选择&#x200B;**[!UICONTROL Customer View]**。
 
      该存储将在新的浏览器选项卡中打开。
 

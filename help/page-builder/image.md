@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ ht-degree: 0%
 
    - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
 
-      - 单击&#x200B;**[!UICONTROL Upload Image]**。
+     - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
-      - 找到并选择图像以将其添加到图库和目标容器中。
+     - 找到并选择图像以将其添加到图库和目标容器中。
 
      作为替代方法，您还可以将图像文件从系统中拖放到&#x200B;_照相机_ （ ![照相机图标](./assets/pb-icon-camera.png){width="20"} ）图标上。
 
    - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
-      - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
+     - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
-      - 使用树导航到图像。
+     - 使用树导航到图像。
 
-      - 单击缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
+     - 单击缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
 
-        ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**搜索并选择Adobe Stock图像**&#x200B;_：使用此方法从Adobe Stock查找图像。
 
@@ -98,13 +99,13 @@ ht-degree: 0%
      >
      >此方法需要为您的管理员配置[Adobe Stock集成](../content-design/adobe-stock.md)。
 
-      - 单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;并搜索图像。
+     - 单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;并搜索图像。
 
-      - 将预览或许可的图像保存到图库。
+     - 将预览或许可的图像保存到图库。
 
-        有关使用Adobe Stock资源的详细信息，请参阅[使用Adobe Stock图像](../content-design/adobe-stock-manage.md)。
+       有关使用Adobe Stock资源的详细信息，请参阅[使用Adobe Stock图像](../content-design/adobe-stock-manage.md)。
 
-      - 选择库中的资产缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
+     - 选择库中的资产缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
 
    图像会显示在目标容器中的占位符位置。 与背景图像不同，您可以将图像移动到当前容器中的不同位置或移动到其他容器。
 
@@ -125,19 +126,19 @@ ht-degree: 0%
 
    - _&#x200B;**上传新映像**&#x200B;_：使用此方法从您的系统上传新映像文件。
 
-      - 单击&#x200B;**[!UICONTROL Upload Image]**。
+     - 单击&#x200B;**[!UICONTROL Upload Image]**。
 
-      - 找到并选择图像以将其添加到图库和目标容器中。
+     - 找到并选择图像以将其添加到图库和目标容器中。
 
    - _&#x200B;**选择现有资源**&#x200B;_：使用此方法从媒体存储/媒体集中选择现有图像资源。
 
-      - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
+     - 单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
-      - 使用树导航到图像。
+     - 使用树导航到图像。
 
-      - 单击缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
+     - 单击缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
 
-        ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![添加选定的图像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **搜索并选择Adobe Stock图像**：使用此方法从Adobe Stock查找图像。
 
@@ -145,13 +146,13 @@ ht-degree: 0%
      >
      >此方法需要为您的管理员配置[Adobe Stock集成](../content-design/adobe-stock.md)。
 
-      - 单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;并搜索图像。
+     - 单击&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;并搜索图像。
 
-      - 将预览或许可的图像保存到图库。
+     - 将预览或许可的图像保存到图库。
 
-        有关使用Adobe Stock资源的详细信息，请参阅[使用Adobe Stock图像](../content-design/adobe-stock-manage.md)。
+       有关使用Adobe Stock资源的详细信息，请参阅[使用Adobe Stock图像](../content-design/adobe-stock-manage.md)。
 
-      - 选择库中的资产缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
+     - 选择库中的资产缩略图，然后单击&#x200B;**[!UICONTROL Add Selected]**。
 
 1. 要添加&#x200B;**[!UICONTROL Mobile Image]**，请使用上一步中描述的相同方法选择要在移动设备上显示的图像。
 

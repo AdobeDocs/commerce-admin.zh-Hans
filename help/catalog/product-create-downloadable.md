@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ ht-degree: 0%
 
    - 对于&#x200B;**[!UICONTROL File]**&#x200B;和&#x200B;**[!UICONTROL Sample]**&#x200B;文件，请选择以下分发方法之一进行下载：
 
-      - `Upload File` — 选择此方法以将分发文件上载到服务器。 浏览到文件并选择要上传的文件。
-      - `URL` — 选择此方法以从URL访问分发文件。 输入下载文件的完整URL。
+     - `Upload File` — 选择此方法以将分发文件上载到服务器。 浏览到文件并选择要上传的文件。
+     - `URL` — 选择此方法以从URL访问分发文件。 输入下载文件的完整URL。
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Shareable]**&#x200B;设置为以下项之一：
 
-      - `No` — 要求客户登录其帐户以访问下载链接。
+     - `No` — 要求客户登录其帐户以访问下载链接。
 
-      - `Yes` — 通过电子邮件发送链接，客户可以与其他人共享。
+     - `Yes` — 通过电子邮件发送链接，客户可以与其他人共享。
 
-      - `Use Config` — 使用在[可下载的产品选项](../configuration-reference/catalog/catalog.md)配置中指定的方法。
+     - `Use Config` — 使用在[可下载的产品选项](../configuration-reference/catalog/catalog.md)配置中指定的方法。
 
    - 执行以下操作之一：
 
-      - 要限制每个客户的下载次数，请输入&#x200B;**[!UICONTROL Max. Downloads]**&#x200B;的最大数量。
-      - 要允许无限制下载，请选中&#x200B;**[!UICONTROL Unlimited]**&#x200B;复选框。
+     - 要限制每个客户的下载次数，请输入&#x200B;**[!UICONTROL Max. Downloads]**&#x200B;的最大数量。
+     - 要允许无限制下载，请选中&#x200B;**[!UICONTROL Unlimited]**&#x200B;复选框。
 
    ![链接详细信息](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ ht-degree: 0%
 
    - 选择以下分配方法之一：
 
-      - `Upload File` — 选择此方法以将分发文件上载到服务器。 浏览到文件并选择要上传的文件。
-      - `URL` — 选择此方法以从URL访问分发文件。 输入下载文件的完整URL。
+     - `Upload File` — 选择此方法以将分发文件上载到服务器。 浏览到文件并选择要上传的文件。
+     - `URL` — 选择此方法以从URL访问分发文件。 输入下载文件的完整URL。
 
    - 要添加另一个示例，请单击&#x200B;**[!UICONTROL Add Link]**&#x200B;并重复这些步骤。
 
