@@ -41,10 +41,10 @@ ht-degree: 0%
 
 对于拥有以下服务之一的有效许可证的Commerce商家，无需支付额外费用，即可使用“数据馈送同步状态”页面：
 
-- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/overview)
 
 受支持的Commerce服务配置中会自动提供“数据馈送同步状态”页面。 在Adobe Commerce on Cloud Infrastructure和内部部署中，如果在启用符合条件的服务或连接器后缺少页面，请按照以下手动安装说明操作。 对于产品管理的SaaS体验，请勿使用“编辑器”安装过程。
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 可以从“数据同步状态”页面管理的可用导出馈送的列表取决于连接的Commerce服务。
 
-- **对于已配置Commerce服务的[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]：**，请参阅&#x200B;_SaaS数据导出指南_&#x200B;中的[支持的馈送](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)。
+- **对于已配置Commerce服务的[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]：**，请参阅&#x200B;_SaaS数据导出指南_&#x200B;中的[支持的馈送](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)。
 
-- 对于使用[!DNL Adobe Commerce Optimizer Connector]配置的Adobe Commerce云或内部部署：**，请参阅&#x200B;_Adobe Commerce Optimizer连接器指南_中的[支持的源](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)。**
+- 对于使用[!DNL Adobe Commerce Optimizer Connector]配置的Adobe Commerce云或内部部署：**，请参阅&#x200B;_Adobe Commerce Optimizer连接器指南_中的[支持的源](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)。**
 
 
 ## 数据馈送同步状态摘要 {#data-feed-sync-status-summary}
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
+> Adobe还提供了命令行界面工具和系统日志，开发人员和系统集成人员可以使用这些工具和日志来管理和跟踪同步操作。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview)。
 
 ### 管理失败的导出 {#manage-failed-exports}
 
@@ -164,12 +164,12 @@ ht-degree: 0%
 要在导出完成后验证端到端同步，请使用以下方法之一。 有关此页上的导出状态限制，请参阅上面的[注释](#export-status-scope)。
 
 - 具有Commerce服务的&#x200B;**[!DNL Adobe Commerce as a Cloud Service]：**&#x200B;请检查适用的[数据管理仪表板](data-dashboard.md)以确认下游可用性。
-- **使用Adobe Commerce Optimizer Connector的云或本地Adobe Commerce**：首先检查Commerce管理员导出状态，然后在[!DNL Commerce Optimizer Studio]中检查[数据同步页面](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)
-- **[!DNL Adobe Commerce Optimizer]（独立）：**&#x200B;数据未从Commerce后端导出。 使用[!DNL Commerce Optimizer Studio]中的[数据同步页面](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)确认数据可用性。
+- **使用Adobe Commerce Optimizer Connector的云或本地Adobe Commerce**：首先检查Commerce管理员导出状态，然后在[!DNL Commerce Optimizer Studio]中检查[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)
+- **[!DNL Adobe Commerce Optimizer]（独立）：**&#x200B;数据未从Commerce后端导出。 使用[!DNL Commerce Optimizer Studio]中的[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)确认数据可用性。
 
 >[!TIP]
 >
-> 要了解有关数据同步过程的更多信息，请参阅&#x200B;*SaaS数据导出指南*&#x200B;中的[将数据与SaaS数据导出同步](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)。
+> 要了解有关数据同步过程的更多信息，请参阅&#x200B;*SaaS数据导出指南*&#x200B;中的[将数据与SaaS数据导出同步](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)。
 
 ## 最佳实践 {#best-practices}
 
@@ -195,9 +195,9 @@ ACCS或Adobe Commerce Optimizer：请勿手动安装该模块；请使用产品�
 
 ### 先决条件
 
-- Adobe Commerce 2.4.4+。 有关详细要求，请参阅[系统要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)。
-- [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension)，版本103.4.15或更高版本
-- 具有从Adobe Commerce存储库下载所需包的权限的身份验证密钥。 若要创建身份验证密钥并获取必要的包访问权限，请参阅[获取身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+- Adobe Commerce 2.4.4+。 有关详细要求，请参阅[系统要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements)。
+- [Adobe Commerce数据导出扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/reference/manage-extension)，版本103.4.15或更高版本
+- 具有从Adobe Commerce存储库下载所需包的权限的身份验证密钥。 若要创建身份验证密钥并获取必要的包访问权限，请参阅[获取身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[Commerce on Cloud Infrastructure指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
 - 访问Adobe Commerce应用程序服务器的命令行。
 
 ### 安装步骤
@@ -210,10 +210,10 @@ composer require magento/module-data-exporter-status
 
 有关详细的安装步骤，请参阅以下指南：
 
-- [在云基础架构上安装Adobe Commerce的扩展](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-- [在Adobe Commerce内部部署上安装扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+- [在云基础架构上安装Adobe Commerce的扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [在Adobe Commerce内部部署上安装扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
 > - [数据管理仪表板](data-dashboard.md)
-> - [SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
+> - [SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview)
