@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年7月29日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>了解如何在<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/services/email-suppression">电子邮件抑制</a>中直接从管理员抑制特定类别的自动化系统电子邮件，如订单或营销通知。</p>
+</td>
+      <td>
+        重大更新，新主题
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年7月9日
 

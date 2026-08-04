@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
+source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 1%
+source-wordcount: 916
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-此集成支持那些拥有Adobe ID并想要简化登录到Commerce和Adobe商业产品的管理员用户的Adobe Commerce商家。 它是可选的，并且会按实例启用。 启用后，只有管理员用户工作流受影响。
+此集成支持那些拥有Adobe ID并想要简化登录到Commerce和Adobe商业产品的管理员用户的Adobe Commerce商家。它是可选的，并且会按实例启用。启用后，只有管理员用户工作流受影响。 
 
 >[!IMPORTANT]
 >
@@ -47,12 +47,12 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >如果您无权访问Adobe Commerce Admin Console，请向您的帐户团队提交请求以配置访问权限。
+  >如果您无权访问Adobe Admin Console，请向您的帐户团队提交请求以配置访问权限。
 
 配置此集成的管理员在启用模块期间需要以下凭据：
 
-* 组织ID（从[Adobe Admin Console](https://adminconsole.adobe.com/)获取），其长度必须至少为24个字符。 经过身份验证的用户必须属于此IMS组织。 有关查找组织ID的信息，请参阅[Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
-* 应在Adobe Admin Console中的组织级别强制执行2FA以启用该模块。 检查[身份验证设置](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html#two-step-verification)。
+* 组织ID（从[Adobe Admin Console](https://adminconsole.adobe.com/)获取），其长度必须至少为24个字符。 经过身份验证的用户必须属于此IMS组织。 有关查找组织ID的信息，请参阅[Experience Cloud中的组织](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)。
+* 应在Adobe Admin Console中的组织级别强制执行2FA以启用该模块。 检查[身份验证设置](https://helpx.adobe.com/cn/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)。
 * 客户端ID
 * 客户端密码
 * 从[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)检索API密钥后，可以使用客户端ID和客户端密钥。
@@ -70,11 +70,11 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 
 ## 配置集成
 
-具有系统访问权限的管理员或开发人员完成以下步骤后，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;按钮会在所有管理员用户的Commerce管理员登录页面中显示。
+具有系统访问权限的管理员或开发人员完成以下步骤后，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;按钮将显示在所有管理员用户的Commerce管理员登录页面中。
 
 ### 步骤1：获取Adobe组织ID
 
-要启用此功能，需要至少拥有一个IMS组织的成员资格。 如果您拥有Adobe ID，则默认情况下至少属于一个Adobe组织。 登录到[Adobe Admin Console](https://adminconsole.adobe.com/)以检索您的组织ID。
+要启用此功能，需要至少拥有一个IMS组织的成员资格。 如果您拥有Adobe ID，则默认情况下至少属于一个Adobe组织。 要检索您的组织ID，请登录到[Adobe Admin Console](https://adminconsole.adobe.com/)。
 
 ### 步骤2：生成新项目、IMS API密钥和密码
 
@@ -85,10 +85,10 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 1. 在新创建的项目页面上单击&#x200B;**[!UICONTROL Add API]**。
 1. 选择&#x200B;**[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**。
 1. 选择&#x200B;**[!UICONTROL Oauth 2.0 Web]**。
-1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
-1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
+1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<commerce_base_url>/`
+1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<commerce_base_url>/.*`
 
-   通过在带有`\\`的点之前转义主机名中的任何点。 在URL末尾添加通配符可支持Adobe Commerce管理员密钥。
+   通过在带有`\\`的点之前转义主机名中的任何点。 在重定向URI模式的末尾添加通配符可支持Adobe Commerce管理员密钥。
 
 1. 单击&#x200B;**[!UICONTROL Save configured API]**。
 1. 从创建的项目中复制[!UICONTROL Client ID]和[!UICONTROL Client Secret]密钥。
@@ -99,9 +99,9 @@ Commerce管理员用户必须创建具有Adobe ID的帐户才能登录。
 
 >[!TIP]
 >
->您可以通过从CSV文件上传用户信息来创建多个用户帐户。 请参阅[管理多个用户](https://helpx.adobe.com/cn/enterprise/using/bulk-upload-users.html)。
+>您可以通过从CSV文件上传用户信息来创建多个用户帐户。 请参阅[管理多个用户](https://helpx.adobe.com/cn/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)。
 
-1. 在[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)中，导航到&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
+1. 在[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)中，导航到&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
 
 1. 单击&#x200B;**[!UICONTROL Add User]**。
 
@@ -132,4 +132,4 @@ Adobe Commerce会显示一条消息，指示启用是成功还是失败。
 
 ## 身份和单点登录
 
-有关身份配置选项（包括Adobe ID、Enterprise ID和Federated ID）的信息，以及有关配置单点登录(SSO)以安全访问Adobe应用的说明，请参阅&#x200B;*企业Admin Console*&#x200B;文档中的[设置身份和单点登录](https://helpx.adobe.com/cn/enterprise/using/set-up-identity.html)。
+有关身份配置和SSO设置说明，请参阅&#x200B;*Enterprise Admin Console*&#x200B;文档中的[设置身份和单点登录](https://helpx.adobe.com/cn/business/enterprise/set-up-your-organization/set-up-identity.html)。
