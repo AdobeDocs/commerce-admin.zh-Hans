@@ -31,11 +31,11 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
-last-update: 2026-07-14
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+last-update: 2026-08-03
+source-git-commit: 7bac99e2b23fb3e1177f7d2ff463a9a5214fd448
 workflow-type: tm+mt
-source-wordcount: 727
-ht-degree: 0%
+source-wordcount: 754
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
    <td valign="top">
    <a href="../getting-started/guide-overview.md"><strong>快速入门</strong></a>
     <div>
-    <em>大多数商家在第一次学习时向管理员提出的“原因、地点和方式”问题，以及资源和参考信息。本指南是更高级主题的跳板。</em>
+    <em>大多数商家在第一次学习时向管理员提出的“原因、地点和方式”问题，以及资源和参考信息。 本指南是更高级主题的跳板。</em>
     <br> </div>
   </td>
   </tr>
@@ -80,7 +80,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
   <td valign="top">
     <img alt="目录管理" src="./assets/icon-shop.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../catalog/guide-overview.md"><strong>目录管理</strong></a>
-    <div><em>创建和管理商店时最重要的领域之一是产品目录和类别。管理员为商店和产品目录的初始设置提供了许多工具。</em>
+    <div><em>创建和管理商店时最重要的领域之一是产品目录和类别。 管理员为商店和产品目录的初始设置提供了许多工具。</em>
     <br></div>
   </td>
     </tr>
