@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>刷新了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态</a>主题以匹配当前的管理员体验，澄清页面仅报告导出状态，并记录功能在Commerce服务许可证间何时可用。</p>
+      <td><p>刷新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态</a>主题以匹配当前的管理员体验，澄清页面仅报告导出状态，并记录功能在Commerce服务许可证间何时可用。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>了解如何在<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">电子邮件抑制</a>中直接从管理员抑制特定类别的自动化系统电子邮件，如订单或营销通知。</p>
+      <td><p>了解如何在<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/services/email-suppression">电子邮件抑制</a>中直接从管理员抑制特定类别的自动化系统电子邮件，如订单或营销通知。</p>
 </td>
       <td>
         重大更新，新主题
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含在“管理员”中审阅和应用AI建议的产品名称和描述更新的指导，并从<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">目录菜单</a>、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">指南概述</a>和相关产品设置主题中链接了主题。</p>
+      <td><p>添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含在“管理员”中审阅和应用AI建议的产品名称和描述更新的指导，并从<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog-menu">目录菜单</a>、<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/guide-overview">指南概述</a>和相关产品设置主题中链接了主题。</p>
 </td>
       <td>
         新主题
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>添加了<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系统管理员访问权限</a>，其中包含用于管理Adobe Admin Console中的系统管理员分配的指导。</p>
+      <td><p>添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系统管理员访问权限</a>，其中包含用于管理Adobe Admin Console中的系统管理员分配的指导。</p>
 </td>
       <td>
         反馈
