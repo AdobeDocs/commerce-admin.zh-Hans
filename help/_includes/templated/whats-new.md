@@ -1,7 +1,7 @@
 ---
-source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
+source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年8月4日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>刷新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态</a>主题以匹配当前的管理员体验，澄清页面仅报告导出状态，并记录功能在Commerce服务许可证间何时可用。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年7月29日
 
@@ -73,50 +95,6 @@ ht-degree: 2%
         反馈
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">提交</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年6月3日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>描述</th>
-      <th>类型</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>添加了在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">创建自定义优惠券</a>代码的功能。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">提交</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年6月2日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>描述</th>
-      <th>类型</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>更新了Commerce <a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/import/data-import">数据导入</a>文档，提供了有关如何避免在导入操作期间生成不必要的URL重写的指导。</p>
-</td>
-      <td>
-        反馈，技术
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">提交</a></td>
     </tr>
   </tbody>
 </table>
