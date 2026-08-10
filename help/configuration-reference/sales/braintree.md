@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4迁移：**<br/>
->对于2.4.0之前的Adobe Commerce和Magento Open Source版本，建议商家从[Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)安装和配置官方的Braintree支付集成扩展以替换核心集成。从2.4.0开始，该扩展现已包含在核心版本中。
-><br/><br/>>迁移到Commerce 2.4时，商家需要卸载Marketplace （`paypal/module-braintree`或`gene/module-braintree`）上分发的扩展，并更新任何代码自定义设置，以使用`PayPal_Braintree`命名空间而不是`Magento_Braintree`。Commerce的捆绑扩展和Commerce Marketplace上分发的扩展中的配置设置会保留。使用这些扩展版本进行的付款将正常捕获、失效或退款。
-><br/><br/>>如果您要升级到Commerce 2.4.0，并且在之前的2.3.x版本中未使用推荐的Commerce Marketplace扩展，则多地址功能在2.4.0版本的Braintree中不起作用。当购物者选择&#x200B;_传送到多个地址_&#x200B;时，Braintree付款方式未出现。之前推荐用于2.3.x的Commerce Marketplace扩展存在此多地址问题。
+>对于2.4.0之前的Adobe Commerce和Magento Open Source版本，建议商家从[Braintree](https://marketplace.magento.com/catalogsearch/result/?q=braintree)安装和配置官方的Commerce Marketplace支付集成扩展以替换核心集成。 从2.4.0开始，该扩展现已包含在核心版本中。
+><br/><br/>
+>迁移到Commerce 2.4时，商家需要卸载Marketplace （`paypal/module-braintree`或`gene/module-braintree`）上分发的扩展，并更新任何代码自定义设置，以使用`PayPal_Braintree`命名空间而不是`Magento_Braintree`。 Commerce的捆绑扩展和Commerce Marketplace上分发的扩展中的配置设置会保留。 使用这些扩展版本进行的付款将正常捕获、失效或退款。
+><br/><br/>
+>如果您要升级到Commerce 2.4.0，并且在之前的2.3.x版本中不使用推荐的Commerce Marketplace扩展，则多地址功能在2.4.0版本的Braintree中不起作用。 当购物者选择&#x200B;_传送到多个地址_&#x200B;时，Braintree付款方式未出现。 之前推荐用于2.3.x的Commerce Marketplace扩展存在此多地址问题。
 
 {{config}}
 
