@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ ht-degree: 0%
 ![高级配置 — 管理员操作日志记录](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 有关配置设置的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[管理操作日志存档](../configuration-reference/advanced/system.md)。
+
+>[!NOTE]
+>
+>在[!DNL Adobe Commerce as a Cloud Service]平台上，您无法配置操作日志报告、操作日志存档和批量操作日志，但可以在“管理员”的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;菜单中查看报告输出。
 
 ## 配置用于日志记录的管理操作
 

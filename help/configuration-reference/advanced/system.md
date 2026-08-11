@@ -4,6 +4,7 @@ description: 查看Commerce管理员的[!UICONTROL Advanced] &gt； [!UICONTROL 
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -21,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: 1713
 ht-degree: 1%
 
 ---

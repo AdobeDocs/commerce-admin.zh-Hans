@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-管理员[操作](action-log.md)存档列出了服务器上存储的CSV日志文件。 在配置中，您可以指定日志条目的存储时间以及归档频率。 默认情况下，文件名包含ISO格式的当前日期： `yyyyMMddHH`
+管理员[操作](action-log.md)存档列出了服务器上存储的CSV日志文件。
+
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在配置中，您可以指定日志条目的存储时间长度和存档频率。 默认情况下，文件名包含ISO格式的当前日期： `yyyyMMddHH`
 
 >[!NOTE]
 >
 >日志存档需要设置[cron作业](cron.md)。
 
 ## 配置日志存档
+
+badgePaas： label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;仅适用于云项目上的Adobe Commerce（Adobe管理的PaaS基础架构）和内部部署项目。&quot;
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
