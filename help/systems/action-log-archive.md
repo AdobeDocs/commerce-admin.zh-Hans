@@ -31,7 +31,7 @@ ht-degree: 0%
 
 管理员[操作](action-log.md)存档列出了服务器上存储的CSV日志文件。
 
-[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在配置中，您可以指定日志条目的存储时间长度和存档频率。 默认情况下，文件名包含ISO格式的当前日期： `yyyyMMddHH`
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在配置中，您可以指定日志条目的存储时间长度和存档频率。 默认情况下，文件名包含ISO格式的当前日期： `yyyyMMddHH`
 
 >[!NOTE]
 >
