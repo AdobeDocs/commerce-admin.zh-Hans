@@ -1,26 +1,17 @@
 ---
 title: '[!DNL Commerce]升级'
-description: 了解Adobe Commerce和Magento Open Source升级如何影响目录和 [!DNL Inventory Management] 配置。
+description: 了解升级到Adobe Commerce 2.4.x如何影响目录清单、库存和 [!DNL Inventory Management] 模块的行为。
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +32,21 @@ ht-degree: 0%
   >
   >强烈建议不要使用默认Stock和默认Source，因为它们是`CatalogInventory`模块的一部分，该模块现已弃用。 建议您改为创建和使用自定义库存和来源。
 
-   - 库存提供汇总、虚拟的可销售数量，并带有保留以跟踪购物车和订单，确保并发结帐。
+  - 库存提供汇总、虚拟的可销售数量，并带有保留以跟踪购物车和订单，确保并发结帐。
 
-   - 您的目录中的所有现有产品都会分配给默认Source。 在添加新源之前，产品界面不会发生更改。 如果您只从一个位置发运产品，则不存在其它来源差异。 您可以为每个装运位置创建自定义[源](sources-add.md)和[分配数量](quantities-manage.md)。
+  - 您的目录中的所有现有产品都会分配给默认Source。 在添加新源之前，产品界面不会发生更改。 如果您只从一个位置发运产品，则不存在其它来源差异。 您可以为每个装运位置创建自定义[源](sources-add.md)和[分配数量](quantities-manage.md)。
 
-   - 您可以将来源配置为取车地点，并为该来源[分配数量](quantities-manage.md)。
+  - 您可以将来源配置为取车地点，并为该来源[分配数量](quantities-manage.md)。
 
-   - 您的网站将分配给默认库存。 您可以创建自定义[库存](stocks-add.md)以连接销售渠道（网站）和来源（位置）。
+  - 您的网站将分配给默认库存。 您可以创建自定义[库存](stocks-add.md)以连接销售渠道（网站）和来源（位置）。
 
 - 其他[配置选项](configuration.md)添加到您的产品和全局存储。 一些现有配置选项会收到更新的选项和行为：
 
-   - 通知以下数量将发送通知并从可销售数量中扣除。
+  - 通知以下数量将发送通知并从可销售数量中扣除。
 
-   - 缺货阈值支持正金额、零金额和负金额。 启用延交订单后，正金额将被忽略，视为零（或无限）。
+  - 缺货阈值支持正金额、零金额和负金额。 启用延交订单后，正金额将被忽略，视为零（或无限）。
 
-   - 延交订单支持零（无限）和负金额。 启用时，以下通知数量不会从可销售数量中扣除。
+  - 延交订单支持零（无限）和负金额。 启用时，以下通知数量不会从可销售数量中扣除。
 
 - 新保留跟踪潜在销售额，在订单发运时转换为数量扣减额。 您从不直接访问或创建预留。 [!DNL Commerce]通过订单、装运和贷项通知单在后台创建和管理预订。
 

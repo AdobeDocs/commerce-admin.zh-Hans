@@ -1,25 +1,18 @@
 ---
 title: 安装、更新和删除 [!DNL Inventory Management]
-description: 了解如何管理 [!DNL Inventory Management] 中继。
+description: 安装、启用、禁用、删除或升级 [!DNL Inventory Management] 中继。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]安装在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，默认启用所有功能。 启用这些清单功能无需执行其他步骤。 从v2.1.x或2.2.x升级可能需要额外的步骤。 请参阅[升级Inventory management](#upgrade-inventory-management)。
 
-建议根据[快速入门本地安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=zh-Hans){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
+建议根据[快速入门本地安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
 
 `composer.json`中继包中的以下行安装[!DNL Inventory Management]：
 
@@ -96,11 +89,11 @@ ht-degree: 0%
 
 ## 启用[!DNL Inventory Management]功能
 
-安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
+安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
 
-有关配置的详细信息，请参阅[配置Inventory management](configuration.md)。
+有关配置的详细信息，请参阅[配置 [!DNL Inventory Management]](configuration.md)。
 
-## 禁用Inventory management
+## 禁用[!DNL Inventory Management] {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -111,7 +104,7 @@ ht-degree: 0%
 * 加速从2.0.x、2.1.x、2.2.x或2.3.x迁移到2.4.x的商户升级过程。
 * 使用自定义或第三方库存和订单管理系统模块。
 
-有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hans)页面。
+有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)页面。
 
 完成后，系统将在`<Magento_installation_directory>/app/etc/config.php`中提供模块和值的列表，开头为：
 
@@ -126,7 +119,7 @@ ht-degree: 0%
 >
 >如果安装了OMS连接器模块，请确保不禁用`Magento_InventoryMessageBus`模块，该模块是连接器模块。 需要将连接器与OMS一起使用。
 
-## 删除Inventory management
+## 移除[!DNL Inventory Management] {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -212,7 +205,7 @@ ht-degree: 0%
 
 完成此更改后，运行composer install，此时将自动删除这些Inventory management模块。
 
-## 升级Inventory management
+## 升级[!DNL Inventory Management] {#upgrade-inventory-management}
 
 ### 早期[!DNL Commerce]版本
 
@@ -253,5 +246,5 @@ ht-degree: 0%
 
 有关Commerce升级的更多信息，请参阅以下指南：
 
-* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=zh-Hans){target="_blank"}
-* [启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hans){target="_blank"}
+* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

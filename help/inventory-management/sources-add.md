@@ -1,33 +1,24 @@
 ---
 title: 添加库存来源
-description: 了解如何为库位创建来源，例如仓库、实体店、配送中心或托运人。
+description: 在管理员中为仓库、商店、分发中心或其他履行地点添加 [!DNL Inventory Management] 源。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # 添加源
 
-使用自定义来源从多个位置管理库存和订单履行。 为每个位置（如仓库、实体店、配送中心和卸货托运人）创建来源。 按产品分配来源和更新数量
+使用自定义来源从多个位置管理库存和订单履行。 为每个位置（如仓库、实体店、配送中心和卸货托运人）创建来源。 按产品分配来源和更新数量。
 
 如果编辑默认Source，则可以编辑除名称和代码之外的所有配置。 建议单个来源商家添加与其位置匹配的信息。
 
