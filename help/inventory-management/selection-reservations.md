@@ -104,7 +104,7 @@ SSA可扩展，用于推荐经济高效的发货的第三方支持和自定义�
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}保留功能要求`inventory.reservations.updateSalabilityStatus`消息队列使用者连续运行。 要检查它是否正在运行，请使用`bin/magento queue:consumers:list`命令。 如果未列出消息队列使用者，请启动该使用者： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}保留功能要求`inventory.reservations.updateSalabilityStatus`消息队列使用者连续运行。 要检查它是否正在运行，请使用`bin/magento queue:consumers:list`命令。 如果未列出消息队列使用者，请启动该使用者： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
 
 ### 订单预订
 
@@ -209,7 +209,7 @@ SSA可扩展，用于推荐经济高效的发货的第三方支持和自定义�
 
 `inventory_cleanup_reservations` cron作业执行SQL查询以清除保留数据库表。 默认情况下，它每天在午夜运行，但您可以配置时间和频率。 cron作业运行一个脚本，该脚本查询数据库以查找数量值总和为0的完整保留序列。 当对同一天（或其他配置时间）发生的给定产品的所有预订进行补偿时，cron作业会一次删除所有预订。
 
-`inventory_reservations_cleanup` cron作业与`inventory.reservations.cleanup`消息队列使用者不同。 在删除产品后，消费者按产品SKU异步删除预订，而cron作业将清除整个预订表。 在商店配置中启用&#x200B;[**与目录**](../configuration-reference/catalog/inventory.md)&#x200B;库存同步选项时需要消费者。 请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"}。
+`inventory_reservations_cleanup` cron作业与`inventory.reservations.cleanup`消息队列使用者不同。 在删除产品后，消费者按产品SKU异步删除预订，而cron作业将清除整个预订表。 在商店配置中启用&#x200B;[**与目录**](../configuration-reference/catalog/inventory.md)&#x200B;库存同步选项时需要消费者。 请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans){target="_blank"}。
 
 通常，一天内产生的所有初始预留无法在同一天得到补偿。 当客户在cron作业开始之前下订单或使用离线付款方法（如银行转帐）进行购买时，可能会发生此情况。 补偿的预留序列保留在数据库中，直到它们全部得到补偿。 这种做法不会影响预订的计算，因为每个预订的总数为0。
 
