@@ -4,11 +4,22 @@ description: 有关每个社区工程模块版本中的新功能、修复和已�
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 3540
@@ -26,7 +37,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅[GitHub项目](https://github.com/magento/inventory)存储库和[wiki](https://github.com/magento/inventory/wiki)以开始操作。 若要讨论此项目，请加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)渠道（[自注册](https://opensource.magento.com/slack)）。
 
-支持版本和兼容版本的发行计划[](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
+支持版本和兼容版本的发行计划[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
 
 ## v1.2.7
 
@@ -133,11 +144,11 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)已改进对超过10,000个项目的库存库存库存的管理。 以前，性能问题有时会阻止商家在启动其网站之前编辑管理员中的库存。<!--- MC-42643-->
 
-![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_&#x200B;部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修复问题](../assets/fix.svg) Adobe Commerce在贷项通知单由API更新后不再创建重复的产品预订。<!--- MC-41757-->
 
-![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_选项卡切换到_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
+![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;选项卡切换到&#x200B;_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
 
 ![已修复问题](../assets/fix.svg)可销售产品数量和库存产品数量现已正确同步。 以前，不会为已取消的订单重新创建库存预留补偿。<!--- MC-42485-->
 

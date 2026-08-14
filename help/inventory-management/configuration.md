@@ -4,11 +4,21 @@ description: 店面显示、库存和发货行为在目录和产品级别的 [!D
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 777
@@ -20,9 +30,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management]模块支持产品和全局级别的库存配置设置，并且还提供影响源可用性、店面产品和订单发运的其他设置。 配置设置适用于：
 
-- 整个目录：转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然后，展开左侧面板中的&#x200B;**[!UICONTROL Catalog]**并选择&#x200B;**[!UICONTROL Inventory]**。
+- 整个目录：转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然后，展开左侧面板中的&#x200B;**[!UICONTROL Catalog]**&#x200B;并选择&#x200B;**[!UICONTROL Inventory]**。
 
-- 特定产品：转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然后，在编辑模式下打开产品，并单击&#x200B;_[!UICONTROL Sources]_部分中的&#x200B;**[!UICONTROL Advanced Inventory]**。
+- 特定产品：转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然后，在编辑模式下打开产品，并单击&#x200B;_[!UICONTROL Sources]_&#x200B;部分中的&#x200B;**[!UICONTROL Advanced Inventory]**。
 
 您的目录可以配置为在店面中显示库存数据、管理活动购物车等。 将每个项目的可用性显示为&#x200B;_缺货_&#x200B;或&#x200B;_缺货_，并在库存不足时显示可用库存。
 
@@ -52,13 +62,13 @@ ht-degree: 0%
 
 ## 配置回退和继承
 
-配置覆盖或应用于以下继承路径：产品&#x200B;_[!UICONTROL Sources]_部分覆盖产品_[!UICONTROL Advanced Options]_&#x200B;覆盖全局&#x200B;_[!UICONTROL Inventory]_存储配置。
+配置覆盖或应用于以下继承路径：产品&#x200B;_[!UICONTROL Sources]_&#x200B;部分覆盖产品&#x200B;_[!UICONTROL Advanced Options]_&#x200B;覆盖全局&#x200B;_[!UICONTROL Inventory]_&#x200B;存储配置。
 
 当[!DNL Commerce]检查要应用的自定义设置时，它遵循以下顺序：
 
-1. 在&#x200B;_[!UICONTROL Sources]_分区中的产品级别检查自定义设置。 一些设置可供使用。
+1. 在&#x200B;_[!UICONTROL Sources]_&#x200B;分区中的产品级别检查自定义设置。 一些设置可供使用。
 
-1. 检查产品&#x200B;_[!UICONTROL Advanced Inventory]_设置。
+1. 检查产品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;设置。
 
 1. 如果为产品设置选择了`Use Config Settings`，则会从全局&#x200B;_清单_&#x200B;存储配置页面检查值。
 
