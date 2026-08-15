@@ -1,6 +1,6 @@
 ---
 title: 排定库存库存来源的优先级
-description: 了解如何按优先级从上到下排列来源，这在确定发运和库存扣减额时使用。
+description: 在管理员中设置股票的来源优先级顺序，以在发运期间控制Source选择算法推荐。
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/oPgeuN3-Il-yf3zpG2r4PNAmNbf-4gmz5-GFngM3-Ng
@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: 208
 ht-degree: 0%
 
 ---

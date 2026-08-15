@@ -1,6 +1,6 @@
 ---
 title: 管理库存数量
-description: 了解如何为新产品分配来源和数量或更改现有产品。
+description: 在 [!DNL Inventory Management]中为新产品和现有产品分配来源和每个来源数量的管理过程概述。
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 管理库存数量
 
-以下信息详细说明了如何为新产品分配来源和数量或更改现有产品。
+请遵循以下准则为新产品或现有产品分配来源和数量。
 
 创建产品时，在创建产品期间分配来源和数量。 有关完整说明，请参阅[创建产品](../catalog/product-create.md)。 这些页包含每个源的源和数量的单源和多源信息。
 

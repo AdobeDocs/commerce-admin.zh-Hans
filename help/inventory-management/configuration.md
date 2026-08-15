@@ -1,6 +1,6 @@
 ---
 title: 配置 [!DNL Inventory Management]
-description: 了解 [!DNL Inventory Management] 选项的配置，这些选项决定源可用性、店面产品和订单装运。
+description: 店面显示、库存和发货行为在目录和产品级别的 [!DNL Inventory Management] 配置概述。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: 777
 ht-degree: 0%
 
 ---

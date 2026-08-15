@@ -1,6 +1,6 @@
 ---
 title: 安装、更新和删除 [!DNL Inventory Management]
-description: 了解如何管理 [!DNL Inventory Management] 中继。
+description: 安装、启用、禁用、删除或升级 [!DNL Inventory Management] 中继。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ ht-degree: 0%
 
 安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
 
-有关配置的详细信息，请参阅[配置Inventory management](configuration.md)。
+有关配置的详细信息，请参阅[配置 [!DNL Inventory Management]](configuration.md)。
 
-## 禁用Inventory management
+## 禁用[!DNL Inventory Management] {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ ht-degree: 0%
 >
 >如果安装了OMS连接器模块，请确保不禁用`Magento_InventoryMessageBus`模块，该模块是连接器模块。 需要将连接器与OMS一起使用。
 
-## 删除Inventory management
+## 移除[!DNL Inventory Management] {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 完成此更改后，运行composer install，此时将自动删除这些Inventory management模块。
 
-## 升级Inventory management
+## 升级[!DNL Inventory Management] {#upgrade-inventory-management}
 
 ### 早期[!DNL Commerce]版本
 

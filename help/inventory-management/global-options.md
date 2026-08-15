@@ -1,6 +1,6 @@
 ---
 title: 配置 [!DNL Inventory Management] 全局选项
-description: 了解如何为网站的产品和库存配置默认 [!DNL Inventory Management] 配置选项。
+description: 为所有网站的产品库存选项、阈值和店面显示配置全局 [!DNL Inventory Management] 目录设置。
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # 配置[!DNL Inventory Management]全局选项
+
+这些全局设置将应用于&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;下的整个目录。
 
 为网站的产品和库存配置默认配置选项。 可以通过[配置产品选项](product-options.md)为每个产品覆盖其中的某些设置。 要配置距离优先级设置，请参阅[配置距离优先级算法](distance-priority-algorithm.md)。
 

@@ -1,6 +1,6 @@
 ---
 title: 按产品分配库存数量
-description: 了解如何更新产品的库存数量并跟踪现有可用库存量。
+description: 在产品页面上设置每个来源的库存量和阈值，以保持 [!DNL Inventory Management] 可销售库存的准确性。
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: 208
 ht-degree: 0%
 
 ---

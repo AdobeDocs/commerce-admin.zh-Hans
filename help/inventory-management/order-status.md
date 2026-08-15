@@ -1,6 +1,6 @@
 ---
 title: 订单状态和预订
-description: 了解更新库存（或销售渠道）的可销售数量和每个来源的现有库存量的自动预留录入或更改。
+description: 了解开票、发运、取消和退款如何更新每个来源的 [!DNL Inventory Management] 预留量和现有量。
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/sBHMsUsdmqiIL3Q3GNXDPAlDkEzCNLeXG0L5-1qhdKA
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 1133
+source-wordcount: 1121
 ht-degree: 0%
 
 ---

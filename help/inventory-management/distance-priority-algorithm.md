@@ -1,6 +1,6 @@
 ---
 title: 配置距离优先级算法
-description: 设置用于比较装运目标地址的位置与来源位置的配置，以确定最接近完成装运的来源。
+description: 使用Source地图或离线地理代码配置距离优先级Google选择算法以推荐最近的源。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 876
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 使用Google地图
 
-您不需要Google帐户即可开始。如果需要，该过程包括Google帐户和项目创建。此选项要求将计费帐户和支付方法添加到您的Google帐户，以完成配置并使用算法。
+您不需要Google帐户即可开始。 如果需要，该过程包括Google帐户和项目创建。 此选项要求将计费帐户和支付方法添加到您的Google帐户，以完成配置并使用算法。
 但是，建议使用基于Google MAP距离的算法，因为该算法比离线计算更先进、更精确。
 
 ### 步骤1：创建Google API密钥

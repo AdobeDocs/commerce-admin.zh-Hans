@@ -1,6 +1,6 @@
 ---
 title: 股票消息方案
-description: 了解用于控制产品页面上库存可用性消息和目录页面上产品清单的配置设置组合。
+description: 配置显示在店面产品页面和类别产品列表上的 [!DNL Inventory Management] 库存可用性消息。
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # 股票消息方案
 
-您可以使用配置设置的组合来控制产品页面上的库存可用性消息和目录页面上的产品列表。
+使用以下部分中的设置配置库存可用性消息在产品页面和目录列表上的显示方式。
 
 ![已使用“缺货”消息将产品分组](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

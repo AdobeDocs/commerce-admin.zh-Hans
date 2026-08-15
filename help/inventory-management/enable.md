@@ -1,6 +1,6 @@
 ---
 title: 启用 [!DNL Inventory Management]
-description: 了解如何在全局商店或产品级别启用 [!DNL Inventory Management] 。
+description: 启用或禁用 [!DNL Inventory Management] 并在商店或产品级别管理库存，以控制可销售数量和履行跟踪。
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +31,12 @@ ht-degree: 0%
 
 要管理产品库存，请在全局商店或产品级别启用[!DNL Inventory Management]。 启用&#x200B;_管理库存_&#x200B;选项后，[!DNL Inventory Management]通过配置的库存和来源自动跟踪可用于站点的产品数量。 启用后，每个功能和选项都开始进行跟踪和报告，而无需额外配置。
 
-您的企业以销售速度运行和更新库存。 在客户购物时，您将收到有关每个销售渠道和来源的可用库存的确切、更新信息。 当客户将产品添加到购物车并完成采购时，以及当您管理订单、创建发运和发放退款时，可用可销售数量会按库存更新。 新库存或转移库存的到达者会向您的来源更新，可立即在线销售。 延交订单最多可完成指定的阈值，无无限订单或额外配置。 而且，您可以输入并完成一个或多个来源中带有建议的部分或全部发运，从而完全控制订单履行和现有库存。
+启用[!DNL Inventory Management]后，库存会随销售活动更新：
+
+- 当客户将产品添加到购物车、完成结帐以及发运或退款订单时，可销售数量会按库存更新。
+- 更新数量后，来源中的新库存或转移的库存将可用于在线销售。
+- 延期交货无需额外设置即可执行配置的阈值。
+- 您可以使用算法建议或人工选择来源从一个或多个来源创建部分或全部发运。
 
 >[!NOTE]
 >

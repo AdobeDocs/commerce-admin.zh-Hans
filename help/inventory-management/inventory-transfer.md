@@ -1,6 +1,6 @@
 ---
 title: 将库存转移到来源
-description: 了解多来源商家如何将产品库存从一个来源地点转移到另一个来源地点。
+description: 在更改履行地点时，在 [!DNL Inventory Management] 来源之间转移现有产品数量。
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/HV6GQjHa88xgcSAi-LXhyqe7k2QW95VzQ8eG2mGlJ8I
@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 282
+source-wordcount: 278
 ht-degree: 0%
 
 ---

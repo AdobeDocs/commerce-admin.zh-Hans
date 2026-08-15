@@ -1,6 +1,6 @@
 ---
 title: 库存和来源
-description: 了解产品、来源和库存之间的关系。
+description: 了解 [!DNL Inventory Management] 中库存和来源如何关联，因此 [!DNL Commerce] 店面的可销售数量与实际库存相匹配。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # 库存和来源
 
-管理库存，而不管仓库位置、产品或服务类型或销售渠道如何。 完成来自多个仓库、实体店、分发中心和直接发运的订单并发运产品，以完成订单，并重点关注均衡的库存、运输成本等。
+管理库存，而不管仓库位置、产品或服务类型或销售渠道如何。 完成订单并从多个地点发运产品以完成订单，并重点关注平衡的库存、发运成本等。
 
 这些描述包括一家自行车公司的产品、来源和库存，该公司在美国和欧洲拥有多个发货地点和网站。
 
 ## 源
 
-[来源](sources-manage.md)是管理和发运产品库存以进行订单履行或提供服务的实际地点。 这些地点可包括仓库、实体店、配送中心和卸货托运人。 [!DNL Commerce]使用每个库存的数量和可销售数量，并自动管理被管理产品和订单的库存金额。 如果您有一个源，则会将您视为&#x200B;_单源_&#x200B;模式。 如果您有多个源，则会将您视为&#x200B;_多源_&#x200B;模式。
+[源](sources-manage.md)是管理产品库存并将其发运用于订单履行或服务可用的实际位置。 [!DNL Commerce]使用每个库存的数量和可销售数量，并自动管理被管理产品和订单的库存金额。 如果您有一个源，则会将您视为&#x200B;_单源_&#x200B;模式。 如果您有多个源，则会将您视为&#x200B;_多源_&#x200B;模式。
 
 来源可以优先处理一个仓库中的库存，但不一定在所有仓库中，因为来源可以重复用于不同的库存。 库存和来源的数量增加了确定履行订单的最佳仓库或存储的复杂性。 例如，您的实体仓库中可用的产品数量有限，而关键地点的服务库存量又有限。
 
@@ -76,8 +76,8 @@ ht-degree: 0%
 >
 >缺货阈值支持负值和正值。 如果启用延交订单，则将此值设置为负数，表示在产品确实被视为缺货之前可以延交的最大产品数。
 
-## Inventory management演示
+## 演示
 
-观看此视频，了解Inventory management资源和库存：
+观看此视频以了解[!DNL Inventory Management]源和库存：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410195?captions=chi_hans&quality=12&learn=on)
