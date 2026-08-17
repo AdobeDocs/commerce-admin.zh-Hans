@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 新的客户帐户选项
 
-在配置的&#x200B;_[!UICONTROL Create New Account Options]_部分中，基本帐户选项与与VAT ID验证和自定义集成相关的更多高级选项组合在一起。 以下说明仅涵盖最常用的选项。 若要了解自动客户组分配，请参阅[增值税验证](../stores-purchase/vat.md)。
+在配置的&#x200B;_[!UICONTROL Create New Account Options]_&#x200B;部分中，基本帐户选项与与VAT ID验证和自定义集成相关的更多高级选项组合在一起。 以下说明仅涵盖最常用的选项。 若要了解自动客户组分配，请参阅[增值税验证](../stores-purchase/vat.md)。
 
 ![创建新帐户选项](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
