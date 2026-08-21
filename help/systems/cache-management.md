@@ -3,28 +3,16 @@ title: 缓存管理
 description: 了解如何使用缓存管理工具，这些工具提供了一种提高站点性能的简单方法。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1975
+source-wordcount: 1981
 ht-degree: 0%
 
 ---
@@ -35,17 +23,17 @@ Adobe Commerce和Magento Open Source缓存管理系统提供了一种提高网�
 
 ![保存产品属性 — 更新缓存消息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其关联的标记。 右上角的大按钮可用于刷新缓存或包含所有内容的缓存存储。 在页面底部，通过其他按钮可刷新目录产品图像缓存和JavaScript/CSS缓存。
+_[!UICONTROL Cache Management]_页显示每个主缓存的状态及其关联的标记。 右上角的大按钮可用于刷新缓存或包含所有内容的缓存存储。 在页面底部，通过其他按钮可刷新目录产品图像缓存和JavaScript/CSS缓存。
 
 >[!IMPORTANT]
 >
->当目录实体发生更改时，可能会影响其他页面，同时使多个缓存失效。 在查看缓存管理页面时，您可能会看到需要刷新的无效项目，这些项目&#x200B;_&#x200B;**未直接编辑**&#x200B;_。 例如，当您编辑目录中分配给任何类别的任何产品，或更改任何相关的产品规则时，就会发生此失效。
+>当目录实体发生更改时，可能会影响其他页面，同时使多个缓存失效。 在查看缓存管理页面时，您可能会看到需要刷新的无效项目，这些项目&#x200B;_**未直接编辑**_。 例如，当您编辑目录中分配给任何类别的任何产品，或更改任何相关的产品规则时，就会发生此失效。
 
 清除缓存后，请始终刷新浏览器，以确保您能够看到最新文件。 清除Commerce缓存不会清除Web浏览器缓存。 您可能需要清除浏览器缓存才能查看更新的内容。
 
-有关Adobe Commerce缓存的其他技术信息，请参阅&#x200B;_Commerce前端开发指南_&#x200B;中的[缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"}。
+有关Adobe Commerce缓存的其他技术信息，请参阅&#x200B;_Commerce前端开发指南_&#x200B;中的[缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"}。
 
-通过执行以下操作之一访问&#x200B;_[!UICONTROL Cache Management]_&#x200B;页面：
+通过执行以下操作之一访问&#x200B;_[!UICONTROL Cache Management]_页面：
 
 - 单击工作区上方消息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;链接。
 - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。
@@ -72,19 +60,19 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 
 - [!UICONTROL Clean Cache Actions]
 
-   - [!UICONTROL Flush Cache Storage]
-   - [!UICONTROL Flush Magento Cache]
+  - [!UICONTROL Flush Cache Storage]
+  - [!UICONTROL Flush Magento Cache]
 
 - [!UICONTROL Cache Type Management]
 
-   - [!UICONTROL Toggle Cache Type]
-   - [!UICONTROL Refresh Cache Type]
+  - [!UICONTROL Toggle Cache Type]
+  - [!UICONTROL Refresh Cache Type]
 
 - [!UICONTROL Additional Cache Management]
 
-   - [!UICONTROL Catalog Images Cache]
-   - [!UICONTROL Flush Js/Css]
-   - [!UICONTROL Flush Static Files]
+  - [!UICONTROL Catalog Images Cache]
+  - [!UICONTROL Flush Js/Css]
+  - [!UICONTROL Flush Static Files]
 
 ## 刷新特定缓存
 
@@ -105,7 +93,7 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 
 ## 刷新产品图像缓存
 
-1. 在&#x200B;_[!UICONTROL Additional Cache Management]_&#x200B;下，单击&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;以清除预生成的产品图像文件。
+1. 在&#x200B;_[!UICONTROL Additional Cache Management]_下，单击&#x200B;**[!UICONTROL Flush Catalog Images Cache]**以清除预生成的产品图像文件。
 
    `Image cache was cleaned`消息显示在工作区顶部。
 
@@ -113,7 +101,7 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 
 ## 刷新JavaScript/CSS缓存
 
-1. 在&#x200B;_[!UICONTROL Additional Cache Management]_&#x200B;下，通过单击&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**&#x200B;清除已合并到单个文件中的Javascript和CSS文件。
+1. 在&#x200B;_[!UICONTROL Additional Cache Management]_下，通过单击&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**清除已合并到单个文件中的Javascript和CSS文件。
 
    `The JavaScript/CSS cache has been cleaned`消息显示在工作区顶部。
 
@@ -121,7 +109,7 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 
 ## 使用命令行刷新
 
-有权访问Commerce应用程序服务器的系统管理员和开发人员还可以使用Commerce CLI从命令行管理缓存和缓存配置。 请参阅&#x200B;_配置指南_&#x200B;中的[管理缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
+有权访问Commerce应用程序服务器的系统管理员和开发人员还可以使用Commerce CLI从命令行管理缓存和缓存配置。 请参阅&#x200B;_配置指南_&#x200B;中的[管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
 
 ## 控件
 
@@ -155,11 +143,11 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 
 在自定义或与Adobe Commerce集成时（例如使用GraphQL API开发集成），开发人员和系统集成商可以使用这些值配置和管理缓存。
 
-[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} `cache_type_id`还用于使用Commerce CLI从应用程序服务器命令行进行缓存管理。 例如，` bin/magento cache:status config`显示配置缓存的当前状态。
+[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} `cache_type_id`还用于使用Commerce CLI从应用程序服务器命令行进行缓存管理。 例如，` bin/magento cache:status config`显示配置缓存的当前状态。
 
 >[!NOTE]
 >
->开发人员和系统集成商可以自定义和扩展Commerce缓存管理系统，以支持自定义模块和集成。 有关详细信息，请参阅&#x200B;_Adobe Commerce配置指南_&#x200B;中的[配置缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/caching-overview)。
+>开发人员和系统集成商可以自定义和扩展Commerce缓存管理系统，以支持自定义模块和集成。 有关详细信息，请参阅&#x200B;_Adobe Commerce配置指南_&#x200B;中的[配置缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)。
 
 <!-- prettier-ignore -->
 
@@ -174,13 +162,13 @@ _[!UICONTROL Cache Management]_&#x200B;页显示每个主缓存的状态及其�
 | [!UICONTROL Reflections] | 清除通常在运行时生成的API接口反射数据。 | `REFLECTION` | `reflection` |
 | `Database DDL operations` | 数据库模式。 如有必要，Commerce会自动清理此缓存，但第三方开发人员可以将任何数据放入缓存的任何区段中。 在对数据库架构进行自定义更改后，清除或刷新此缓存类型。 （换言之，这些是Commerce自己没有做的更新。） 自动更新数据库架构的一种方法是使用magento setup:db-schema:upgrade命令。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | 代码编译的结果。 | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | 缓存对webhook请求的响应。 有关详细信息，请参阅Commerce开发人员文档中的[Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2)。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | 缓存对webhook请求的响应。 有关详细信息，请参阅Commerce开发人员文档中的[Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes#enhancements-2)。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | 缓存与实体属性值(EAV)属性相关的元数据的实体类型声明。 属性包括存储标签、指向相关PHP代码的链接、属性渲染、搜索设置等。 您通常不需要清理或刷新此缓存类型。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | 显示在用户界面中的临时通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 缓存来自客户、GraphQL页面、CMS块和产品媒体集实体的CMS查询解析器的结果。 启用此缓存可提高GraphQL性能。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 集成配置文件。 在更改或添加集成后，清理或刷新此缓存。 | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | 为存储集成编译了集成API配置。 | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | 将自定义项缓存给管理员。 请参阅&#x200B;_管理员UI SDK指南_&#x200B;中的[管理员配置和测试](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/)。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | 将自定义项缓存给管理员。 请参阅&#x200B;_管理员UI SDK指南_&#x200B;中的[管理员配置和测试](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration)。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | 全页缓存。 | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | Target规则索引 | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | 正在缓存Web API结构。 | `WEBSERVICE` | `config_webservice` |
@@ -202,7 +190,7 @@ Adobe Commerce和Magento Open Source使用服务器上的全页缓存快速显�
 - `Sessioned` — 在会话式访问期间，会为与商店进行交互的购物者分配一个会话ID。 交互包括诸如比较产品或向购物车添加产品等活动。 会话期间生成的缓存页面仅供该购物者在会话期间使用。
 - `Customer` — 为使用注册帐户登录和购物的客户创建客户会话。 在该会议中，可以根据分配给客户的组向客户显示特殊优惠、促销和价格。
 
-有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置和使用Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=zh-Hans){:target="_blank"}和[为Commerce页面和默认缓存使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=zh-Hans){:target="_blank"}。
+有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置和使用Varnish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[为Commerce页面和默认缓存使用Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
 
 **_配置整页缓存:_**
 
@@ -221,7 +209,7 @@ Adobe Commerce和Magento Open Source使用服务器上的全页缓存快速显�
 
 1. 要为页面缓存设置超时，请输入&#x200B;**[!UICONTROL TTL for public content]**。 （默认值为`86400`）
 
-1. 要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数目，请输入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以提高安全性和性能。 （默认值为`100`）
+1. 要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数目，请输入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以提高安全性和性能。 （默认值为`100`）
 
 1. 如果使用Varnish，请完成&#x200B;**[!UICONTROL Varnish Configuration]**&#x200B;部分，如下所示：
 
@@ -231,7 +219,7 @@ Adobe Commerce和Magento Open Source使用服务器上的全页缓存快速显�
 
    - **[!UICONTROL Backend port]** — 识别用于生成配置文件的后端端口。 默认值为： `8080`。
 
-   - **[!UICONTROL Grace period]** — 指定用作生成配置文件的宽限期的秒数。 请参阅&#x200B;_配置指南_&#x200B;中的[高级清漆配置](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html)。
+   - **[!UICONTROL Grace period]** — 指定用作生成配置文件的宽限期的秒数。 请参阅&#x200B;_配置指南_&#x200B;中的[高级清漆配置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
 
    - 要将配置导出为`varnish.vcl`文件，请单击您使用的Varnish版本的按钮。
 

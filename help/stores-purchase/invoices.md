@@ -4,21 +4,12 @@ description: 了解如何创建和打印发票，以支持订单处理和客户�
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -86,7 +77,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >将您的特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款操作](../configuration-reference/sales/payment-methods.md#payment-actions)设置为`Authorize and Capture`时，不会显示&#x200B;_[!UICONTROL Invoice]_&#x200B;选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
+   >将您的特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款操作](../configuration-reference/sales/payment-methods.md#payment-actions)设置为`Authorize and Capture`时，不会显示&#x200B;_[!UICONTROL Invoice]_选项，该付款方式会自动生成发票。 如果下达了订单并且付款方法的付款活动设置为`Authorize`并且已对订单开票，情况也是如此。
 
    ![发票销售订单](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -100,17 +91,17 @@ ht-degree: 0%
 
    - 包括一个跟踪号：
 
-      - 单击&#x200B;**[!UICONTROL Add Tracking Number]**。
-      - 输入跟踪信息： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
+     - 单击&#x200B;**[!UICONTROL Add Tracking Number]**。
+     - 输入跟踪信息： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
 
      ![创建Fedex装运](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - （可选）生成部分发票：
 
-      - 在&#x200B;_发票项目_&#x200B;部分中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;列以仅包含发票上的特定项目。
-      - 然后，单击&#x200B;**[!UICONTROL Update Qty's]**。
+     - 在&#x200B;_发票项目_&#x200B;部分中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;列以仅包含发票上的特定项目。
+     - 然后，单击&#x200B;**[!UICONTROL Update Qty's]**。
 
-        ![发票项目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![发票项目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. 如果订单使用了在线付款方式，请将&#x200B;**[!UICONTROL Amount]**&#x200B;设置为相应的选项。
 
@@ -146,7 +137,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击_&#x200B;操作&#x200B;_列中的&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Invoices]_网格中，找到发票，然后单击_&#x200B;操作&#x200B;_列中的&#x200B;**[!UICONTROL View]**。
 
 1. 在发票顶部，单击&#x200B;**[!UICONTROL Print]**&#x200B;以生成发票的PDF。
 
@@ -156,7 +147,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，选中要打印的每张发票所对应的复选框。
+1. 在&#x200B;_[!UICONTROL Invoices]_网格中，选中要打印的每张发票所对应的复选框。
 
 1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`PDF Invoices`。
 
@@ -166,11 +157,11 @@ ht-degree: 0%
 
 ## 自定义捕获金额
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 为了向商家提供更大的灵活性以用于部分捕获和专用支付方案，发票API支持使用扩展属性的自定义捕获金额。
 
-您可以在创建发票时发起REST调用以捕获自定义金额。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST终结点并在有效负载的`extension_attributes.custom_capture_amount`字段中指定自定义数量。
+您可以在创建发票时发起REST调用以捕获自定义金额。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST终结点并在有效负载的`extension_attributes.custom_capture_amount`字段中指定自定义数量。
 
 >[!NOTE]
 >

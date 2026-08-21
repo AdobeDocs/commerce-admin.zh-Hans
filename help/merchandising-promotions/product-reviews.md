@@ -3,26 +3,16 @@ title: 产品评价
 description: 了解产品审查如何增强您的商店并为您的产品带来更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: 772
 ht-degree: 0%
 
 ---
@@ -35,8 +25,9 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了Yotpo供应商开发的扩展。从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。通过Marketplace，还可以访问扩展开发人员提供的当前文档。
-><br><br>>如果已启用并配置捆绑的扩展，则必须在2.4.4升级过程中更新composer.json文件，并管理以后的扩展更新。有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了Yotpo供应商开发的扩展。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
+><br><br>
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 店面的产品评论
 
@@ -58,7 +49,7 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 
 ### [!UICONTROL My Product Reviews]
 
-客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_&#x200B;部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
+客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
 
 ![我的产品评价](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -106,7 +97,7 @@ Commerce产品审阅功能默认处于启用状态。
 
    ![管理员 — 评级](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Rating Title]_&#x200B;部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
+1. 在&#x200B;_[!UICONTROL Rating Title]_部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
 
    如果适用，还应输入每个商店视图的翻译。
 

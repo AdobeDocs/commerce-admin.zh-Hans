@@ -4,31 +4,15 @@ description: 了解您的管理员帐户以及如何使用双重身份验证登�
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
 TQID: https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -133,7 +117,7 @@ ht-degree: 0%
 
    ![注销](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时让计算机处于无人值守状态，请注销_&#x200B;管理员&#x200B;_。
+_[!UICONTROL Sign In]_页面显示您已注销的消息。 无论何时让计算机处于无人值守状态，请注销_&#x200B;管理员&#x200B;_。
 
 ## 编辑帐户信息
 
@@ -184,7 +168,7 @@ _[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时�
 
 为确保管理员的安全，请定期对具有管理员访问权限的用户和角色进行审核。
 
-此外，考虑[更新Admin Base URL配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/advanced/admin#admin-base-url)以将默认`/admin`端点更改为自定义路径。 配置自定义路径具有以下安全优势：
+此外，考虑[更新Admin Base URL配置](/help/configuration-reference/advanced/admin.md#admin-base-url)以将默认`/admin`端点更改为自定义路径。 配置自定义路径具有以下安全优势：
 
 **增强的安全性**：默认“管理员”路径广为人知，且经常被恶意行为者以暴力攻击为目标。 通过将其更改为唯一的自定义值，您可以显着降低未经授权访问尝试的风险。
 
@@ -196,4 +180,4 @@ _[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时�
 
 >[!NOTE]
 >
->如果怀疑存在入侵，请确保删除所有未知的管理员用户，并重置所有管理员密码，然后查看[安全行动计划](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security)以了解后续步骤。
+>如果怀疑存在入侵，请确保删除所有未知的管理员用户，并重置所有管理员密码，然后查看[安全行动计划](/help/systems/security.md)以了解后续步骤。

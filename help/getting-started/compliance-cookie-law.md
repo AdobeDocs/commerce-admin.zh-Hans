@@ -4,32 +4,15 @@ description: 为了跟上许多国家关于使用Cookie的法规，Adobe Commerc
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 TQID: https://experienceleague.adobe.com/rc1dM34EmsdcQn1gZYxuk1umalquicEvruNlFyRldLI
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2313
 ht-degree: 0%
 
 ---
@@ -136,9 +119,9 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 ## 产品推荐Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
-- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用于[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指示购物者是否已登录或注销。 此Cookie与`dataservices_customer_id` Cookie同时更新。
 - `dataservices_customer_id`：指示购物者是否已登录或注销。 此Cookie包含系统中客户的唯一ID。
@@ -158,8 +141,8 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
 - `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
-- `aep-segments-membership`：包含[受众信息](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/audience-activation)，例如购物者属于哪个区段。
+- `aep-segments-membership`：包含[受众信息](/help/customers/audience-activation.md)，例如购物者属于哪个区段。

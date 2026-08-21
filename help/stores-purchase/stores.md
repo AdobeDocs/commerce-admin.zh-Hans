@@ -4,23 +4,14 @@ description: 了解网站、商店和商店视图层次结构。
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1209
 ht-degree: 0%
 
 ---
@@ -48,7 +39,7 @@ Adobe Commerce或Magento Open Source的单次安装可以有多个共享管理�
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 每个商店都有不同的路径，但共享一个域。 |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 每个存储区都具有主域的不同子域。 |
 
-必须从管理员和服务器的命令行配置Adobe Commerce的多存储安装。 Adobe Commerce [配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hans)提供了有关配置服务器环境的详细说明。
+必须从管理员和服务器的命令行配置Adobe Commerce的多存储安装。 Adobe Commerce [配置指南](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供了有关配置服务器环境的详细说明。
 
 ### 步骤1：选择存储域
 
@@ -100,7 +91,7 @@ Adobe Commerce或Magento Open Source的单次安装可以有多个共享管理�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏中，单击&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为您为新商店创建的视图。
 
@@ -120,20 +111,20 @@ Adobe Commerce或Magento Open Source的单次安装可以有多个共享管理�
 
 ### 步骤5：配置服务器
 
-若要将服务器配置为支持多个网站，请参阅&#x200B;_配置指南_&#x200B;中的[多个网站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hans)。
+若要将服务器配置为支持多个网站，请参阅&#x200B;_配置指南_&#x200B;中的[多个网站或商店](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
 
 有关配置Web服务器的帮助，请参阅以下资源：
 
-- [使用NGNX设置多个网站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=zh-Hans)
-- [使用Apache设置多个网站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=zh-Hans)
+- [使用NGNX设置多个网站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [使用Apache设置多个网站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-对于云基础架构上的Adobe Commerce，请参阅[设置多个网站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hans)。
+对于云基础架构上的Adobe Commerce，请参阅[设置多个网站或商店](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。
 
 ## 添加网站
 
 可以从安装同一域或不同域的单个Adobe Commerce或Magento Open Source设置多个网站。 默认情况下，位于同一网站下的商店具有相同的IP地址和域，使用相同的安全证书，并共享单个结账过程。 如果您希望每个存储在其自己的域下具有专用签出流程，则每个存储都必须具有不同的IP地址和单独的安全证书。
 
-Adobe Commerce或Magento Open Source的多站点安装必须从管理员以及服务器的命令行中进行配置。 Commerce [配置指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hans)提供了有关配置服务器环境的详细说明。
+Adobe Commerce或Magento Open Source的多站点安装必须从管理员以及服务器的命令行中进行配置。 Commerce [配置指南](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供了有关配置服务器环境的详细说明。
 
 ![范围 — 网站](./assets/scope-multisite.svg){width="550"}
 
@@ -167,11 +158,11 @@ Adobe Commerce或Magento Open Source的多站点安装必须从管理员以及�
 
 ### 步骤3：配置服务器
 
-若要将服务器配置为支持多个网站，请参阅&#x200B;_配置指南_&#x200B;中的[多个网站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hans)。
+若要将服务器配置为支持多个网站，请参阅&#x200B;_配置指南_&#x200B;中的[多个网站或商店](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
 
 有关配置Web服务器的帮助，请参阅以下教程：
 
-- [使用NGNX设置多个网站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=zh-Hans)
-- [使用Apache设置多个网站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=zh-Hans)
+- [使用NGNX设置多个网站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [使用Apache设置多个网站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-对于云基础架构上的Adobe Commerce，请参阅[设置多个网站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hans)。
+对于云基础架构上的Adobe Commerce，请参阅[设置多个网站或商店](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。

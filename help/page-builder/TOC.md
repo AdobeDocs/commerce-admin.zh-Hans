@@ -5,11 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
@@ -18,34 +18,34 @@ ht-degree: 6%
 # [!DNL Page Builder]用户指南 {#page-builder}
 
 - [[!DNL Page Builder]用户指南](guide-overview.md)
-- [&#x200B; [!DNL Page Builder]简介](introduction.md)
+- [ [!DNL Page Builder]简介](introduction.md)
 - [发行说明](release-notes.md)
 - [配置和设置](setup.md)
 - 演练 {#walkthrough}
-   - [第1部分：简单页面](1-simple-page.md)
-   - [第2部分：块](2-blocks.md)
-   - [第3部分：目录内容](3-catalog-content.md)
+  - [第1部分：简单页面](1-simple-page.md)
+  - [第2部分：块](2-blocks.md)
+  - [第3部分：目录内容](3-catalog-content.md)
 - [Workspace](workspace.md)
 - 布局 {#layout}
-   - [行](row.md)
-   - [列](column.md)
-   - [选项卡](tabs.md)
+  - [行](row.md)
+  - [列](column.md)
+  - [选项卡](tabs.md)
 - 元素 {#elements}
-   - [文本](text.md)
-   - [标题](heading.md)
-   - [按钮](buttons.md)
-   - [分隔条](divider.md)
-   - [HTML代码](html-code.md)
+  - [文本](text.md)
+  - [标题](heading.md)
+  - [按钮](buttons.md)
+  - [分隔条](divider.md)
+  - [HTML代码](html-code.md)
 - 媒体 {#media}
-   - [图像](image.md)
-   - [视频](video.md)
-   - [横幅](banner.md)
-   - [滑块](slider.md)
-   - [地图](map.md)
+  - [图像](image.md)
+  - [视频](video.md)
+  - [横幅](banner.md)
+  - [滑块](slider.md)
+  - [地图](map.md)
 - 添加内容 {#add-content}
-   - [块](block.md)
-   - [动态块](dynamic-block.md)
-   - [产品](products.md)
-   - [产品推荐](recommendations.md)
+  - [块](block.md)
+  - [动态块](dynamic-block.md)
+  - [产品](products.md)
+  - [产品推荐](recommendations.md)
 - [模板](templates.md)
-- [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

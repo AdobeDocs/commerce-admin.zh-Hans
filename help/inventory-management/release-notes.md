@@ -4,25 +4,14 @@ description: 有关每个社区工程模块版本中的新功能、修复和已�
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 3540
+source-wordcount: 3542
 ht-degree: 0%
 
 ---
@@ -37,11 +26,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是一个对参与者开放的Magento Open Source社区工程特殊项目。 要参与并做出贡献，请参阅[GitHub项目](https://github.com/magento/inventory)存储库和[wiki](https://github.com/magento/inventory/wiki)以开始操作。 若要讨论此项目，请加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)渠道（[自注册](https://opensource.magento.com/slack)）。
 
-支持版本和兼容版本的发行计划[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans){target="_blank"}。
+支持版本和兼容版本的发行计划[](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7发行说明包含在[core 2.4.7发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -133,7 +122,7 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)购物车和结账操作的性能已得到改进，例如，在具有许多（大约10,000个）库存源的部署中将产品添加到购物车。<!--- MC-42570-->
 
-![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
+![已修复问题](../assets/fix.svg) [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}现在，`bin/magento inventory:reservation:list-inconsistencies`命令可以正确处理包含部分装运的订单，即使从数据库中缺少保留并且缓存已清除也是如此。 以前，当使用预清除的缓存执行此命令时，Commerce显示以下错误： `Area code is not set`。<!--- MC-42142-->
 
 
 ![修复了问题](../assets/fix.svg)在共享子项时，对分组产品子产品的增量索引不再导致其他分组产品索引不正确。<!--- MC-41963-->
@@ -144,11 +133,11 @@ Inventory management 1.2.4（模块版本： `magento/inventory-metapackage = 1.
 
 ![修复了问题](../assets/fix.svg)已改进对超过10,000个项目的库存库存库存的管理。 以前，性能问题有时会阻止商家在启动其网站之前编辑管理员中的库存。<!--- MC-42643-->
 
-![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_&#x200B;部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修复问题](../assets/fix.svg)管理员中的&#x200B;**[!UICONTROL User Roles]**&#x200B;页面已更新，以便为管理员提供对投放方法配置的受限权限访问权限。 _配送方式_&#x200B;部分已重命名为&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;被移动到&#x200B;_[!UICONTROL Delivery methods]_部分下。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修复问题](../assets/fix.svg) Adobe Commerce在贷项通知单由API更新后不再创建重复的产品预订。<!--- MC-41757-->
 
-![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;选项卡切换到&#x200B;_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
+![修复了问题](../assets/fix.svg)在结账工作流中从&#x200B;_[!UICONTROL Pick up in Store]_选项卡切换到_[!UICONTROL Shipping]_&#x200B;选项卡时，如果只有店内收取投放可用，则不再触发JavaScript错误。<!--- MC-42808-->
 
 ![已修复问题](../assets/fix.svg)可销售产品数量和库存产品数量现已正确同步。 以前，不会为已取消的订单重新创建库存预留补偿。<!--- MC-42485-->
 
@@ -278,13 +267,13 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![新](../assets/new.svg) **添加了一个批量部分库存转移终结点** — 当前批量转移终结点将所有分配的数量从来源移动到目标来源。 新`/rest/V1/inventory/bulk-partial-source-transfer`终结点允许商家作为批量操作将部分库存从源转移到源。 要转移特定数量的数量，请输入具有`sku`、`qty`、`origin_source_code`和`destination_source_code`的终结点请求。 转移验证源是否分配给`sku`，是否存在足够的数量可转移，等等。 请参阅REST API文档中的[清单批量操作](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"}。<!-- https://github.com/magento/inventory/pull/2117 -->
+![新](../assets/new.svg) **添加了一个批量部分库存转移终结点** — 当前批量转移终结点将所有分配的数量从来源移动到目标来源。 新`/rest/V1/inventory/bulk-partial-source-transfer`终结点允许商家作为批量操作将部分库存从源转移到源。 要转移特定数量的数量，请输入具有`sku`、`qty`、`origin_source_code`和`destination_source_code`的终结点请求。 转移验证源是否分配给`sku`，是否存在足够的数量可转移，等等。 请参阅REST API文档中的[清单批量操作](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"}。<!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![新](../assets/new.svg) **已添加保留CLI** — 新命令为您提供了检测和解决保留不一致问题的选项。 在订单提交并更改状态时，[!DNL Inventory Management]通过报酬预留生成初始预留和更新。 这些命令会按订单ID、SKU和库存ID返回检测到的不一致列表，并创建要解决的保留。 有关详细信息，请参阅[CLI引用](cli.md)。<!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![新](../assets/new.svg) **源和SSA选项的性能改进** — 在装运期间排序和选择源导致源数量多的库存性能下降。 在复查和选择发运中的SSA选项时，此版本在列出和排序可用来源方面提供了显着的性能改进。<!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![新](../assets/new.svg) **已添加对Inventory management的GraphQL支持** — 此版本安装了一个新的`magento/module-inventory-graph-ql`模块。 GraphQL [ProductInterface属性](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"}现在包含用于[!DNL Inventory Management]支持的`only_x_left_in_stock`和`stock_status`属性。<!-- https://github.com/magento/inventory/pull/2124 -->
+![新](../assets/new.svg) **已添加对Inventory management的GraphQL支持** — 此版本安装了一个新的`magento/module-inventory-graph-ql`模块。 GraphQL [ProductInterface属性](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"}现在包含用于[!DNL Inventory Management]支持的`only_x_left_in_stock`和`stock_status`属性。<!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![新](../assets/new.svg) **简化的已分配源UI** — 产品页面中的“已分配源”表简化了内容，以便更轻松地更新，并且在显示多个源时提高了性能。 按源名称列出所有源（将鼠标悬停在`source_code`上）。
 
@@ -294,7 +283,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0（模块版本： `inventory-composer-metapackage = 1.1.0`）受支持，并且与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。[!DNL Inventory Management] 1.1.1仅作为包名称更新发布，对版本2.3.1提供支持，并与Adobe Commerce版本2.3.0、云基础架构上的Adobe Commerce和Magento Open Source代码库兼容。
 
-![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![修复了问题](../assets/fix.svg) **添加了对Elasticsearch的单源模式和多源模式的支持** — 您现在可以将Elasticsearch配置和用于自定义股票。 有关安装信息，请参阅[设置Elasticsearch服务](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修复问题](../assets/fix.svg)解决了默认库存的性能问题，从而通过大量操作显着提高性能。 改进提高了单一来源模式、“将库存转移到Source”、“店面类别”页面和“可销售数量”计算的性能。
 

@@ -4,26 +4,15 @@ description: 了解Adobe Commerce中提供的高级定价控制。
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/HyKkLwxHzBuyvh-YhjsMec9cMua9owWF--r-DShKnj8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -34,11 +23,11 @@ Adobe Commerce和Magento Open Source支持各种定价选项，可用于促销�
 
 使用高级定价管理产品的价格，为客户提供更高的价格，从而鼓励消费者增加支出、增加网站流量并清理旧库存。
 
-_[!UICONTROL Advanced Pricing]_&#x200B;设置定义了适用于特定客户组或共享目录的特殊定价所需的条件。 高级定价可应用于简单、虚拟、可下载和捆绑销售的产品。 若要将折扣定价应用于其他产品类型，请使用[目录价格规则](../merchandising-promotions/price-rules-catalog.md)。 有关详细信息，请参阅[价格范围](catalog-price-scope.md)。
+_[!UICONTROL Advanced Pricing]_设置定义了适用于特定客户组或共享目录的特殊定价所需的条件。 高级定价可应用于简单、虚拟、可下载和捆绑销售的产品。 若要将折扣定价应用于其他产品类型，请使用[目录价格规则](../merchandising-promotions/price-rules-catalog.md)。 有关详细信息，请参阅[价格范围](catalog-price-scope.md)。
 
 高级定价数据与产品页面同步。 例如，如果您更新了层价格数量，则系统将更新产品页面上的值。
 
-![Adobe Commerce B2B](../assets/b2b.svg)（仅适用于[Adobe Commerce B2B](./b2b/../introduction.md)）如果您使用共享目录，则高级定价数据将与产品页面和共享目录同步。 例如，如果您更新了层价格数量，则系统将更新共享目录和产品页面中的值。 共享目录中指示的任何自定义定价均优先于客户组定价。 另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=zh-Hans)。
+![Adobe Commerce B2B](../assets/b2b.svg)（仅适用于[Adobe Commerce B2B](./b2b/../introduction.md)）如果您使用共享目录，则高级定价数据将与产品页面和共享目录同步。 例如，如果您更新了层价格数量，则系统将更新共享目录和产品页面中的值。 共享目录中指示的任何自定义定价均优先于客户组定价。 另请参阅&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[设置共享目录定价和结构](/help/b2b/catalog-shared-pricing-structure.md)。
 
 ![高级定价](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
@@ -106,7 +95,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;设置定义了适用于特定客户组�
 
 | 项目 | 描述 |
 |----|-----------|
-| [!UICONTROL Website] | 标识应用组价格规则的网站。 仅当安装有多个网站时，才会显示此选项。 <br>**_重要:_**&#x200B;在[目录价格范围](catalog-price-scope.md)配置中选择_&#x200B;网站_，否则将显示&#x200B;**所有**&#x200B;网站的设置高级价格。 |
+| [!UICONTROL Website] | 标识应用组价格规则的网站。 仅当安装有多个网站时，才会显示此选项。 <br>**_重要:_**在[目录价格范围](catalog-price-scope.md)配置中选择_&#x200B;网站_，否则将显示&#x200B;**所有**&#x200B;网站的设置高级价格。 |
 | [!UICONTROL Group or Catalog] | （必需）标识有资格接收折扣价的客户组或共享目录。 当组或目录字段中的值发生更改时，与先前设置匹配的相应自定义价格行将从共享目录中删除。<br/>**[!UICONTROL ALL GROUPS]**— 将规则应用于所有客户组。 该值未应用于共享目录，并且高级定价数据的更改未与共享目录同步。<br/>**[!UICONTROL NOT LOGGED IN]**  — 将未登录的规则来宾和客户应用到其帐户。<br/>**[!UICONTROL Shared Catalogs]**— 将规则应用于特定共享目录。 |
 | 数量 | 指定接收层价格所需的数量。 |
 | [!UICONTROL Price] | （必需）指定特定网站中客户组成员可使用的固定或折扣产品价格。 选项： <br/>**[!UICONTROL Fixed]**— （默认）折扣价格以固定的小数值输入。 例如，输入`9.99`作为折扣价。<br/>**[!UICONTROL Discount]** — 折扣价格以基本产品价格的百分比(%)输入。 例如，输入`10`获得10%的折扣。 |
