@@ -101,7 +101,7 @@ ht-degree: 0%
 
 新所有者验证电子邮件地址后，请继续[最后步骤](#final-steps)，以便Adobe Commerce支持可以更新帐户记录，如[[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/)配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3447669/?captions=chi_hans&learn=on){transcript=true}
 
 ## 仅电子邮件更改 {#email-change}
 
