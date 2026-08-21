@@ -4,11 +4,22 @@ description: 了解如何为其他 [!DNL Commerce] 帐户持有人授予您 [!DN
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffa
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
 source-wordcount: 1064
@@ -20,7 +31,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帐户包含的信息可供受信任的员工和帮助管理您网站的服务提供商使用。 当您共享帐户访问权限时，所有敏感信息（如账单历史记录或信用卡信息）都会受到保护，其他用户将永远无法访问。
 
-主要帐户持有人有权向其他[!DNL Commerce]帐户持有人授予有限访问权限。 共享访问权限可以撤销，但不能传输。 对于``Cloud Shared Access from MAG[XYZ]``条目，无法在此处&#x200B;**删除用户记录**，但仍可以撤消访问&#x200B;****。
+主要帐户持有人有权向其他[!DNL Commerce]帐户持有人授予有限访问权限。 共享访问权限可以撤销，但不能传输。 对于``Cloud Shared Access from MAG[XYZ]``条目，无法在此处&#x200B;**删除用户记录**，但仍可以撤消访问&#x200B;**&#x200B;**。
 
 只有具有适当权限的主要帐户持有人才能正式授予共享访问权限。 如果主要帐户持有人不再拥有访问权限或已离开公司，则客户应使用[Commerce帐户转移流程](/help/getting-started/commerce-account-transfer.md)将所有权转移给新联系人。 尽管Commerce支持团队可以在有限的情况下模拟客户，但客户应配置共享访问以降低安全和责任风险。
 
@@ -38,7 +49,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 1. 在开始之前，请从&#x200B;**新共享访问被授权者**&#x200B;的[!DNL Commerce]帐户获取以下信息：
 
    - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](/help/getting-started/commerce-account-create.md#create-a-commerce-account)。
-   - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_选项卡的左上角，**注销**链接正上方。
+   - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_&#x200B;选项卡的左上角，**注销**&#x200B;链接正上方。
    - 与帐户关联的`Email`地址。
 
 1. 登录到您的[[!DNL Commerce] 帐户](commerce-account-create.md)。
@@ -56,26 +67,26 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
    ![新用户信息](./assets/shared-new-user.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Shared Information]_下，执行以下操作：
+1. 在&#x200B;_[!UICONTROL Shared Information]_&#x200B;下，执行以下操作：
 
    - 要识别共享帐户，请输入&#x200B;**[!UICONTROL Share Name]**。 此名称供内部参考，仅对您以及与您共享帐户的人可见。
 
      最佳做法是将您的组织名称用作[!UICONTROL Share Name]。 不要使用以`CLOUD SHARED ACCESS FROM MAG XYX`开头的名称。
    - 如果要与新用户共享您的个人联系信息，请输入&#x200B;**[!UICONTROL Your Email]**&#x200B;和&#x200B;**[!UICONTROL Your Phone]**。
 
-1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_下，选中要共享的每个[!DNL Commerce]产品和服务的复选框。
+1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_&#x200B;下，选中要共享的每个[!DNL Commerce]产品和服务的复选框。
 
    ![授予帐户权限](./assets/shared-permissions.png){width="600"}
 
 1. 单击&#x200B;**[!UICONTROL Create Shared Access]**。
 
-   新用户信息显示在“共享访问”页面的&#x200B;_[!UICONTROL Manage Permissions]_部分中，并且会向新用户发送一封电子邮件邀请，其中包含访问共享帐户的说明。
+   新用户信息显示在“共享访问”页面的&#x200B;_[!UICONTROL Manage Permissions]_&#x200B;部分中，并且会向新用户发送一封电子邮件邀请，其中包含访问共享帐户的说明。
 
    ![管理共享访问的权限](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->无需共享对&#x200B;_[!UICONTROL Security Tool]_的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](/help/systems/security-scan.md)之一验证域的所有权。
+>无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](/help/systems/security-scan.md)之一验证域的所有权。
 
 ## 访问共享帐户
 
@@ -83,13 +94,13 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 1. 当您收到共享帐户的邀请时，请按照电子邮件中的说明登录到您自己的[!DNL Commerce]帐户。
 
-   您帐户的左侧导航面板具有新的&#x200B;_[!UICONTROL Shared with me]_选项卡。 右上角的_[!UICONTROL Switch Accounts]_&#x200B;控件具有`My Account`的选项和共享帐户的名称。
+   您帐户的左侧导航面板具有新的&#x200B;_[!UICONTROL Shared with me]_&#x200B;选项卡。 右上角的&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控件具有`My Account`的选项和共享帐户的名称。
 
    ![与我共享](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   如果您没有看到&#x200B;_[!UICONTROL Switch Accounts]_控件，请与主要帐户持有人联系，并确认他们输入了正确的[帐户信息](#set-up-a-shared-account)。
+   >   如果您没有看到&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控件，请与主要帐户持有人联系，并确认他们输入了正确的[帐户信息](#set-up-a-shared-account)。
 
 
 1. 若要获得对共享帐户的访问权限，请将&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;设置为共享帐户的名称。
@@ -116,7 +127,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 1. 在左侧导航面板中，单击&#x200B;**[!UICONTROL Shared Access]**。
 
-1. 查找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_下撤消的帐户，然后单击&#x200B;**[!UICONTROL Delete]**。
+1. 查找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_&#x200B;下撤消的帐户，然后单击&#x200B;**[!UICONTROL Delete]**。
 
    >[!NOTE]
    >

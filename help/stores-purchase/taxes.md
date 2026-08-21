@@ -4,11 +4,19 @@ description: 了解如何配置您的商店，以根据区域设置要求计算�
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
 TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 1129
@@ -95,7 +103,7 @@ ht-degree: 0%
 - 客户的送货地址和成功付款交易的记录可用于建立客户的居住地。 （仅当送货地址与付款提供商信息匹配时才接受付款。）
 - 也可以直接从Commerce数据库表中的数据存储中捕获信息。
 
-_**要收集数字商品税务信息，请执行以下操作：**_
+_&#x200B;**要收集数字商品税务信息，请执行以下操作：**&#x200B;_
 
 1. 加载所有欧盟成员国的税率。
 

@@ -4,12 +4,27 @@ description: 了解如何创建用户角色和相关权限以管理对管理员�
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 TQID: https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 704
@@ -33,9 +48,9 @@ ht-degree: 0%
 
 ### 步骤1：添加角色名称
 
-1. 在&#x200B;_[!UICONTROL Role Information]_下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
+1. 在&#x200B;_[!UICONTROL Role Information]_&#x200B;下，输入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入您的密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入您的密码。
 
    ![系统权限 — 角色信息](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -56,9 +71,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
+   >角色范围为`Custom`的用户在分配给受限商店时，无法创建网站和类别、将产品分配给类别或编辑处于&#x200B;_[!UICONTROL All Store Views]_&#x200B;作用域的产品。 这些用户也无法执行其他_&#x200B;全局&#x200B;_操作，这些操作会影响他们无权访问的范围。
 
-1. 在&#x200B;_[!UICONTROL Roles Resources]_下，将&#x200B;**[!UICONTROL Resource Access]**设置为`Custom`。
+1. 在&#x200B;_[!UICONTROL Roles Resources]_&#x200B;下，将&#x200B;**[!UICONTROL Resource Access]**&#x200B;设置为`Custom`。
 
    >[!NOTE]
    >
@@ -74,7 +89,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_顺序[选项卡](../stores-purchase/order-processing.md)。
+   >管理员用户必须具有对其角色范围的&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;权限才能查看&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_&#x200B;顺序[选项卡](../stores-purchase/order-processing.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Role]**。
 
@@ -82,13 +97,13 @@ ht-degree: 0%
 
 ## 向用户分配角色
 
-1. 从&#x200B;_[!UICONTROL Roles]_网格中，以编辑模式打开记录。
+1. 从&#x200B;_[!UICONTROL Roles]_&#x200B;网格中，以编辑模式打开记录。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，输入用户帐户密码。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，输入用户帐户密码。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Role Users]**。
 
-   _[!UICONTROL Role Users]_选项仅在保存新角色后显示。
+   _[!UICONTROL Role Users]_&#x200B;选项仅在保存新角色后显示。
 
    ![分配给角色的用户帐户](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

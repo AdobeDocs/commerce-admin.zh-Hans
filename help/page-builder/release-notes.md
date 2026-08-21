@@ -4,11 +4,21 @@ description: 查看发行说明，了解所有 [!DNL Page Builder] 发行版本�
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
 TQID: https://experienceleague.adobe.com/gw4-6vCpburzac-VmejAMajwHjHNCTPmVkBUi5qOsuk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
@@ -193,16 +203,16 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)**各种修复**
 
-- <!-- PB-50 -->修复了复制幻灯片的父容器时，幻灯片内容的TinyMCE菜单出现在其他内容类型下方的问题。
-- <!-- PB-166 -->更新了[!DNL Page Builder]以实施销毁方法，以防止在某些情况下出现内存泄漏。
-- <!-- PB-170 -->改进了在管理阶段使用多个实例时的TinyMCE性能。
-- <!-- PB-252 -->修复了当顶行标记为隐藏时，动态块内容类型无法在Admin阶段呈现的问题。
-- <!-- PB-273 -->通过从各种UI控件中删除200毫秒延迟，改进了“管理”阶段的鼠标悬停事件。 此更改使在舞台上处理嵌套内容项变得更轻松。
-- <!-- PB-294 -->修复了货币符号在“管理”阶段的“块/动态块”内的“产品列表”小部件中转义不正确的问题。
-- <!-- PB-296 -->修复了[!DNL Page Builder]编辑面板上的产品总计不适用于自定义MSI Stock产品的问题。
-- <!-- PB-317 -->修复了以下问题：在Microsoft Edge上保存带有背景图像的[!DNL Page Builder]内容不会在店面上渲染这些图像。
-- <!-- PB-390 -->修复了嵌套[!DNL Page Builder]内容在页面完全呈现之前单击“保存”按钮时无法保存的问题。
-- <!-- PB-418 -->修复了由于[!DNL Page Builder]分析而在cron作业中引发的异常错误。
+- &#x200B;<!-- PB-50 -->修复了复制幻灯片的父容器时，幻灯片内容的TinyMCE菜单出现在其他内容类型下方的问题。
+- &#x200B;<!-- PB-166 -->更新了[!DNL Page Builder]以实施销毁方法，以防止在某些情况下出现内存泄漏。
+- &#x200B;<!-- PB-170 -->改进了在管理阶段使用多个实例时的TinyMCE性能。
+- &#x200B;<!-- PB-252 -->修复了当顶行标记为隐藏时，动态块内容类型无法在Admin阶段呈现的问题。
+- &#x200B;<!-- PB-273 -->通过从各种UI控件中删除200毫秒延迟，改进了“管理”阶段的鼠标悬停事件。 此更改使在舞台上处理嵌套内容项变得更轻松。
+- &#x200B;<!-- PB-294 -->修复了货币符号在“管理”阶段的“块/动态块”内的“产品列表”小部件中转义不正确的问题。
+- &#x200B;<!-- PB-296 -->修复了[!DNL Page Builder]编辑面板上的产品总计不适用于自定义MSI Stock产品的问题。
+- &#x200B;<!-- PB-317 -->修复了以下问题：在Microsoft Edge上保存带有背景图像的[!DNL Page Builder]内容不会在店面上渲染这些图像。
+- &#x200B;<!-- PB-390 -->修复了嵌套[!DNL Page Builder]内容在页面完全呈现之前单击“保存”按钮时无法保存的问题。
+- &#x200B;<!-- PB-418 -->修复了由于[!DNL Page Builder]分析而在cron作业中引发的异常错误。
 
 ## 适用于Adobe Commerce 2.3.4-p2的1.2.2
 
@@ -226,14 +236,14 @@ ht-degree: 0%
 
 ![已修复问题](../assets/fix.svg)**各种修复**
 
-- <!-- PB-237 -->安全性增强。
-- <!-- PB-41 -->修复了UI中的搜索“选择组件”，以便每个搜索词仅有一个AJAX请求。
-- <!-- PB-76, PB-84-->更新了管理员中的产品预览以匹配店面，包括产品的星级、颜色和大小选项（如果相关）。
-- <!-- PB-169 -->修复了在Commerce中启用JavaScript缩小和捆绑功能后无法保存[!DNL Page Builder]的问题。
-- <!-- PB-241 -->修复了产品、块和动态块的管理员预览，以便在为管理员和前端定义不同URL的Commerce安装上正确呈现。
-- <!-- PB-238 -->修复了产品、块和动态块的管理员预览，以便在安装了B2B并启用了&#x200B;_仅登录_&#x200B;选项的Commerce安装中正确呈现。 在此修复之前，[!DNL Page Builder]预览将导致页面重定向到客户帐户登录。
-- <!-- PB-239 -->修复了在[!DNL Page Builder]管理员中预览大型页面时可能发生的会话错误。
-- <!-- PB-248 -->更新了[!DNL Page Builder] LESS样式以防止店面样式重复。
+- &#x200B;<!-- PB-237 -->安全性增强。
+- &#x200B;<!-- PB-41 -->修复了UI中的搜索“选择组件”，以便每个搜索词仅有一个AJAX请求。
+- &#x200B;<!-- PB-76, PB-84-->更新了管理员中的产品预览以匹配店面，包括产品的星级、颜色和大小选项（如果相关）。
+- &#x200B;<!-- PB-169 -->修复了在Commerce中启用JavaScript缩小和捆绑功能后无法保存[!DNL Page Builder]的问题。
+- &#x200B;<!-- PB-241 -->修复了产品、块和动态块的管理员预览，以便在为管理员和前端定义不同URL的Commerce安装上正确呈现。
+- &#x200B;<!-- PB-238 -->修复了产品、块和动态块的管理员预览，以便在安装了B2B并启用了&#x200B;_仅登录_&#x200B;选项的Commerce安装中正确呈现。 在此修复之前，[!DNL Page Builder]预览将导致页面重定向到客户帐户登录。
+- &#x200B;<!-- PB-239 -->修复了在[!DNL Page Builder]管理员中预览大型页面时可能发生的会话错误。
+- &#x200B;<!-- PB-248 -->更新了[!DNL Page Builder] LESS样式以防止店面样式重复。
 
 ## 适用于Adobe Commerce 2.3.3的1.1.1-p1
 
