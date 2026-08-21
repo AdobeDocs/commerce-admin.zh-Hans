@@ -20,10 +20,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 843
-ht-degree: 0%
+source-wordcount: 841
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参阅[Adobe Commerce B2B用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)。
+>通过安装和启用Adobe Commerce B2B，您可以利用公司的特定功能个性化购买体验。 Adobe Commerce B2B是一个集成式解决方案，同时支持B2B和B2C模型。 有关B2B功能的详细信息，请参阅[Adobe Commerce B2B用户指南](/help/b2b/introduction.md)。
 
 >[!NOTE]
 >

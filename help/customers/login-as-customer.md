@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 在“编辑客户”页面上![客户同意扩展属性配置](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-要通过GraphQL为现有客户帐户设置此权限，请使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)突变将`allow_remote_shopping_assistance`输入设置为`true`。
+要通过GraphQL为现有客户帐户设置此权限，请使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2)突变将`allow_remote_shopping_assistance`输入设置为`true`。
 
 >[!ENDTABS]
 

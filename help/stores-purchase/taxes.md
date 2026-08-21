@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1129
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包括由Vertex供应商开发的扩展，用于与Vertex Cloud集成，以提供税务管理和地址清理。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace或直接从供应商安装和更新。 [联系顶点](https://marketplace.magento.com/partner/vertex_inc)以获取有关扩展和文档的信息。<br><br>
 >
->如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 快速参考
 

@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # 配置管理员安全
 
-我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 您可以根据组织的需要配置最小密码长度要求以增强安全性。 作为[最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给帐户的最近四个密码。
+我们建议您采取多层面的方法来保护您的商店的安全。 您可以首先使用不容易猜到的[自定义管理员URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)，而不是显而易见的“管理员”或“后端”。 默认情况下，用于[登录](../getting-started/admin-signin.md)到Admin的密码长度必须为7个或更多字符，且包含字母和数字。 您可以根据组织的需要配置最小密码长度要求以增强安全性。 作为[最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)，请仅使用包含字母、数字和符号组合的强管理员密码。 Adobe Commerce和Magento Open Source不允许重用分配给帐户的最近四个密码。
 
 管理员安全配置使您能够：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >已启用[!DNL Adobe Identity Management Services] (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source 2FA。 使用其Adobe凭据登录到其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[[!DNL Adobe Identity Management Service] (IMS)集成概述](../getting-started/adobe-ims-integration-overview.md)。
 
-有关技术信息，请参阅开发人员文档中的[安全概述](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"}。
+有关技术信息，请参阅开发人员文档中的[安全概述](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"}。
 
 ![管理员安全](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Password Change]**&#x200B;设置为以下项之一：
 
-      - `Forced` — 要求管理员用户在设置帐户后更改密码。
-      - `Recommended` — 建议管理员用户在设置帐户后更改密码。
+     - `Forced` — 要求管理员用户在设置帐户后更改密码。
+     - `Recommended` — 建议管理员用户在设置帐户后更改密码。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Adobe Commerce和Magento Open Source通过在提交订单之前自动验证所�
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg)安装并启用Adobe Commerce B2B后，可以为与公司帐户关联的客户配置&#x200B;_快速订单_。 当客户知道其要订购的产品的名称或SKU时，此函数会减少订单处理过程中的多次点击。 您还可以为公司帐户配置对可转让报价的支持。 有关B2B功能的详细信息，请参阅[Adobe Commerce B2B用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)。
+>![Adobe Commerce B2B](../assets/b2b.svg)安装并启用Adobe Commerce B2B后，可以为与公司帐户关联的客户配置&#x200B;_快速订单_。 当客户知道其要订购的产品的名称或SKU时，此函数会减少订单处理过程中的多次点击。 您还可以为公司帐户配置对可转让报价的支持。 有关B2B功能的详细信息，请参阅[Adobe Commerce B2B用户指南](/help/b2b/introduction.md)。
 
 ## 购物帮助
 

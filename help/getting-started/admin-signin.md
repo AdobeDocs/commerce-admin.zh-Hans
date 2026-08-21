@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ _[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时�
 
 为确保管理员的安全，请定期对具有管理员访问权限的用户和角色进行审核。
 
-此外，考虑[更新Admin Base URL配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/advanced/admin#admin-base-url)以将默认`/admin`端点更改为自定义路径。 配置自定义路径具有以下安全优势：
+此外，考虑[更新Admin Base URL配置](/help/configuration-reference/advanced/admin.md#admin-base-url)以将默认`/admin`端点更改为自定义路径。 配置自定义路径具有以下安全优势：
 
 **增强的安全性**：默认“管理员”路径广为人知，且经常被恶意行为者以暴力攻击为目标。 通过将其更改为唯一的自定义值，您可以显着降低未经授权访问尝试的风险。
 
@@ -196,4 +196,4 @@ _[!UICONTROL Sign In]_&#x200B;页面显示您已注销的消息。 无论何时�
 
 >[!NOTE]
 >
->如果怀疑存在入侵，请确保删除所有未知的管理员用户，并重置所有管理员密码，然后查看[安全行动计划](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security)以了解后续步骤。
+>如果怀疑存在入侵，请确保删除所有未知的管理员用户，并重置所有管理员密码，然后查看[安全行动计划](/help/systems/security.md)以了解后续步骤。

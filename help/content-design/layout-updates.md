@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 ### 步骤2：使用XML编写布局更新
 
-1. 以XML格式撰写布局说明，以[引用CMS块](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/)。
+1. 以XML格式撰写布局说明，以[引用CMS块](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage)。
 
-1. 在服务器上将[布局说明](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/)保存在为主题保存XML文件的布局文件夹中。
+1. 在服务器上将[布局说明](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions)保存在为主题保存XML文件的布局文件夹中。
 
    例如：
 

@@ -1,6 +1,6 @@
 ---
 title: 增值税(VAT)
-description: '&lt；在此处添加说明&gt；'
+description: 了解Adobe Commerce如何使用贸易商或客户地址规则计算增值税，以及如何按产品或服务应用不同的增值税税率。
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 2042
 ht-degree: 0%
 
 ---

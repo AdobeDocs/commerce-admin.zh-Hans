@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 0%
+source-wordcount: 215
+ht-degree: 3%
 
 ---
 
@@ -51,5 +51,5 @@ ht-degree: 0%
 
 要获得有关类别问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
-- [未保存对类别所做的更改](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=zh-Hans)
-- [启用Fastly的子页面上不显示主菜单（类别）](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=zh-Hans)
+- [未保存对类别所做的更改](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
+- [启用Fastly的子页面上不显示主菜单（类别）](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-40708)

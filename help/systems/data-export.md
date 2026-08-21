@@ -19,9 +19,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 1. 向下滚动，然后单击页面右下角的&#x200B;**[!UICONTROL Continue]**。
 
-   任务完成后，将通过消息队列处理文件（确保cron作业正在运行）。 导出的文件保存在`var/export/ folder`中。 有关消息队列的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hans)。
+   任务完成后，将通过消息队列处理文件（确保cron作业正在运行）。 导出的文件保存在`var/export/ folder`中。 有关消息队列的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
 
    您可以将导出的CSV文件保存或打开为电子表格，然后编辑数据并将其导入回您的商店。
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
 有关排查数据导出问题的帮助，请参阅以下Commerce支持知识库文章：
 
-- [导出的产品.csv文件不显示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=zh-Hans)
+- [导出的产品.csv文件不显示](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

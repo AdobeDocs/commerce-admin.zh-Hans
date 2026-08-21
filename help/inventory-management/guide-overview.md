@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: 327
 ht-degree: 1%
 
 ---
@@ -70,5 +70,5 @@ ht-degree: 1%
 
 如果您需要本指南中未涉及的信息或问题，请使用以下资源：
 
-- [安装清单后库存状态不正确](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=zh-Hans)
-- [支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket) — 提交票证以接收其他帮助。
+- [安装清单后库存状态不正确](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票证以接收其他帮助。

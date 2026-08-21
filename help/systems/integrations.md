@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # 集成
 
-在Commerce管理员中定义集成，可为第三方集成建立OAuth凭据和重定向URL的位置，并标识集成所需的可用API资源。 有关集成注册过程的更多详细信息，请参阅Commerce开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
+在Commerce管理员中定义集成，可为第三方集成建立OAuth凭据和重定向URL的位置，并标识集成所需的可用API资源。 有关集成注册过程的更多详细信息，请参阅Commerce开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。
 
 ![集成](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Resource Access]**&#x200B;设置为以下项之一：
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - 对于自定义访问，请选中所需每个资源的复选框。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 
-有关详细信息，请参阅Commerce开发人员文档中的[限制对匿名Web API的访问](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/)。
+有关详细信息，请参阅Commerce开发人员文档中的[限制对匿名Web API的访问](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security)。
 
 ## 删除集成
 

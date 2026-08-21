@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 函数 | 描述 |
 | --- | --- |
 | 重置密码 | 密码重置电子邮件将直接发送到客户的电子邮件帐户。 商店管理员无法获得对客户密码的访问权限。 |
-| 强制登录 | 撤销与客户帐户关联的OAuth访问令牌。 它只能用于已分配OAuth令牌的客户帐户，作为Web API [集成](../systems/integrations.md)的一部分。 要了解更多信息，请参阅开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。 <br/><br/>从店面或管理员创建的标准客户帐户没有OAuth令牌。 |
+| 强制登录 | 撤销与客户帐户关联的OAuth访问令牌。 它只能用于已分配OAuth令牌的客户帐户，作为Web API [集成](../systems/integrations.md)的一部分。 要了解更多信息，请参阅开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。 <br/><br/>从店面或管理员创建的标准客户帐户没有OAuth令牌。 |
 
 {style="table-layout:auto"}
 

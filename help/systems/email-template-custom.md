@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # 自定义电子邮件模板
 
-Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板。 正文内容的模板与页眉和页脚模板组合以创建完整消息。 内容使用HTML和CSS进行格式化，通过添加[变量](variables-predefined.md)可轻松编辑和自定义内容。 可以为每个网站、商店或商店视图自定义电子邮件模板。 如果使用自定义模板，请确保更新[系统配置](email-templates.md#configure-email-templates)以确保使用正确的模板。 要了解如何在自定义电子邮件模板中使用条件语句，请参阅[开发人员文档](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1)。
+Commerce包含系统发送的每封邮件正文部分的默认电子邮件模板。 正文内容的模板与页眉和页脚模板组合以创建完整消息。 内容使用HTML和CSS进行格式化，通过添加[变量](variables-predefined.md)可轻松编辑和自定义内容。 可以为每个网站、商店或商店视图自定义电子邮件模板。 如果使用自定义模板，请确保更新[系统配置](email-templates.md#configure-email-templates)以确保使用正确的模板。 要了解如何在自定义电子邮件模板中使用条件语句，请参阅[开发人员文档](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)。
 
 ![示例 — 欢迎电子邮件预览](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中大约200种是可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=zh-Hans)是可选的，但有助于测试和开发电子商务业务的自定义项。
+Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中大约200种是可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是可选的，但有助于测试和开发电子商务业务的自定义项。

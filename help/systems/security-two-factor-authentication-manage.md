@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 - 清除Adobe Commerce或Magento Open Source安装的Web缓存和Cookie也很有帮助。 身份验证者（如Google）使用生成的Cookie来保存访问权和持续时间。 清除特定浏览器和存储域的Cookie。
 - 阻止Cookie会阻止某些验证者（如[!DNL Google Authenticator]）完成验证过程。 向浏览器添加一条规则，以允许为Adobe Commerce安装提供Cookie。
 
-若要从命令行重置验证器和更高级的故障排除信息，请参阅开发人员文档中的[双重身份验证](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)。
+若要从命令行重置验证器和更高级的故障排除信息，请参阅开发人员文档中的[双重身份验证](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication)。
 
 **_重置用户帐户的验证者:_**
 

@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Commerce提供了大量报告供您随时了解营销工作、销售产品
 
 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-（仅限Adobe Commerce） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hans)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
+（仅限Adobe Commerce） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/access)通过24/7实时性能监控、报告和建议，为Adobe Commerce在云基础架构上的安装提供系统见解。
 
 ### [!UICONTROL Customers]
 

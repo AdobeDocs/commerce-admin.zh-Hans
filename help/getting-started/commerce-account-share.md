@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1064
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 主要帐户持有人有权向其他[!DNL Commerce]帐户持有人授予有限访问权限。 共享访问权限可以撤销，但不能传输。 对于``Cloud Shared Access from MAG[XYZ]``条目，无法在此处&#x200B;**删除用户记录**，但仍可以撤消访问&#x200B;**&#x200B;**。
 
-只有具有适当权限的主要帐户持有人才能正式授予共享访问权限。 如果主要帐户持有人不再拥有访问权限或已离开公司，则客户应使用[Commerce帐户转移流程](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-transfer)将所有权转移给新联系人。 尽管Commerce支持团队可以在有限的情况下模拟客户，但客户应配置共享访问以降低安全和责任风险。
+只有具有适当权限的主要帐户持有人才能正式授予共享访问权限。 如果主要帐户持有人不再拥有访问权限或已离开公司，则客户应使用[Commerce帐户转移流程](/help/getting-started/commerce-account-transfer.md)将所有权转移给新联系人。 尽管Commerce支持团队可以在有限的情况下模拟客户，但客户应配置共享访问以降低安全和责任风险。
 
 
 ![共享访问设置](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -48,7 +48,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 1. 在开始之前，请从&#x200B;**新共享访问被授权者**&#x200B;的[!DNL Commerce]帐户获取以下信息：
 
-   - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+   - 用户必须在account.adobe.com上注册帐户，并通过account.magento.com登录。 有关详细信息，请参阅[创建Commerce帐户](/help/getting-started/commerce-account-create.md#create-a-commerce-account)。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`显示在&#x200B;_[!UICONTROL Magento]_&#x200B;选项卡的左上角，**注销**&#x200B;链接正上方。
    - 与帐户关联的`Email`地址。
 
@@ -86,7 +86,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 >[!NOTE]
 >
->无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-scan)之一验证域的所有权。
+>无需共享对&#x200B;_[!UICONTROL Security Tool]_&#x200B;的访问权限 — 任何具有MAGE ID的用户都可以使用自己的帐户设置安全扫描工具。 他们只需要必要的权限即可更改网站并使用[所需方法](/help/systems/security-scan.md)之一验证域的所有权。
 
 ## 访问共享帐户
 
@@ -117,7 +117,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
    >[!NOTE]
    >
-   >收到共享访问权限后，要在Experience League上[提交支持案例](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，请确保首先在左列中选择以“([!DNL Commerce])”结尾的组织名称。
+   >收到共享访问权限后，要在Experience League上[提交支持案例](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)，请确保首先在左列中选择以“([!DNL Commerce])”结尾的组织名称。
 
 1. 若要返回您自己的帐户，请在浏览器控件中单击&#x200B;**返回**，并将&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;设置为`My Account`。
 
@@ -131,9 +131,9 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
    >[!NOTE]
    >
-   > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果该帐户具有[命名模式且无法删除](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)，则这是因为共享访问是由API创建的，而不是直接从[Commerce帐户](https://account.magento.com/)创建的。
+   > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果该帐户具有[命名模式且无法删除](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)，则这是因为共享访问是由API创建的，而不是直接从[Commerce帐户](https://account.magento.com/)创建的。
    > 
-   > 如果不能删除，只需让帐户所有者修改共享访问帐户，并在授予帐户权限下取消选中每个项目。在该更新之后，用户将无法再访问任何帐户资源。
+   > 如果不能删除，只需让帐户所有者修改共享访问帐户，并在授予帐户权限下取消选中每个项目。 在该更新之后，用户将无法再访问任何帐户资源。
    > ![图像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > 此外，确保从项目中删除用户，以便他们不再收到电子邮件通知： [前团队成员将收到Adobe Commerce云通知电子邮件](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
@@ -143,7 +143,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 >[!NOTE]
 >
->您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
+>您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 相关阅读
 

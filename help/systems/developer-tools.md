@@ -22,9 +22,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1709
+source-wordcount: 1774
 ht-degree: 0%
 
 ---
@@ -45,14 +45,14 @@ ht-degree: 0%
 
 您的Adobe Commerce或Magento Open Source实例可以部署为在&#x200B;_生产_&#x200B;或&#x200B;_开发人员模式_&#x200B;下运行。 仅当存储以&#x200B;_开发人员模式_&#x200B;运行时才能访问专门为开发人员设计的工具和配置设置。
 
-只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=zh-Hans)。
+只有具有适当权限的用户才能从服务器的命令行更改操作模式。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[设置操作模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/set-mode)。
 
 商家文档中的大多数主题都适用于在生产模式下运行的Commerce实例。 但是，以下配置设置和工具只能在开发人员模式下运行安装时使用。
 
 ## 前端开发工作流
 
-前端开发工作流类型确定在开发期间在客户端还是服务器端进行较少的编译。较少的是CSS的扩展，它有附加功能和约定，并能生成简化的代码。建议在主题开发中使用客户端较少的编译。服务器端编译是默认模式。开发工作流选项不适用于处于生产模式的存储。
-请参阅Commerce开发人员文档中的[客户端LESS编译与服务器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}。
+前端开发工作流类型确定在开发期间在客户端还是服务器端进行较少的编译。 较少的是CSS的扩展，它有附加功能和约定，并能生成简化的代码。 建议在主题开发中使用客户端较少的编译。 服务器端编译是默认模式。 开发工作流选项不适用于处于生产模式的存储。
+请参阅Commerce开发人员文档中的[客户端LESS编译与服务器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"}。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 通过向静态文件的URL添加数字签名，浏览器可以检测文件的较新版本何时可用。 可使用数字签名跟踪的静态文件包括JavaScript、CSS、图像和字体。 签名将直接附加到基本URL后面的路径中。 如果文件的签名与浏览器缓存中存储的签名不同，则使用较新版本的文件。
 
-请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=zh-Hans){:target="_blank"}。
+请参阅Commerce开发人员文档中的[静态内容签名](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}。
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 默认情况下，Adobe Commerce和Magento Open Source不会合并、捆绑或最小化文件，项目开发人员应确定应使用的文件优化方法。
 
-有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=zh-Hans)。
+有关详细信息，请参阅[性能最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/overview)。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ ht-degree: 0%
 >
 >开发人员客户端限制只能在[开发人员模式](../systems/developer-tools.md#operation-modes)中设置。
 
-有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hans)。
+有关技术信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于允许请求的自定义VCL](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)。
 
 **_将您的IP地址添加到允许列表:_**
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 >
 >只能在[开发人员模式](../systems/developer-tools.md#operation-modes)中编辑模板路径提示。
 
-请参阅Commerce开发人员文档中的[查找模板、布局和样式](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"}。
+请参阅Commerce开发人员文档中的[查找模板、布局和样式](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"}。
 
 ![店面示例 — 模板路径提示](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 

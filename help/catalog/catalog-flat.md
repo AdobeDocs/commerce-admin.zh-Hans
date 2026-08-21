@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->不再建议将使用平面目录作为最佳实践。 据悉，继续使用此功能会导致性能下降和其他索引问题。 [帮助中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hans)中提供了详细的说明和解决方案。<br/><br/>受影响的版本包括：<br/> — 云基础架构上的Adobe Commerce、2.3.x及更高版本<br/>- Adobe Commerce （内部部署）、2.3.x及更高版本<br/>- Magento Open Source、2.3.x及更高版本<br/><br/>在任何版本上，某些扩展仅适用于平面表，因此如果您禁用平面表，则会产生风险。 如果您知道某些扩展使用平面目录索引器，则在将这些值设置为`No`时必须注意此风险。
+>不再建议将使用平面目录作为最佳实践。 据悉，继续使用此功能会导致性能下降和其他索引问题。 [帮助中心](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons)中提供了详细的说明和解决方案。<br/><br/>受影响的版本包括：<br/> — 云基础架构上的Adobe Commerce、2.3.x及更高版本<br/>- Adobe Commerce （内部部署）、2.3.x及更高版本<br/>- Magento Open Source、2.3.x及更高版本<br/><br/>在任何版本上，某些扩展仅适用于平面表，因此如果您禁用平面表，则会产生风险。 如果您知道某些扩展使用平面目录索引器，则在将这些值设置为`No`时必须注意此风险。
 
 Commerce通常根据实体属性值(EAV)模型将目录数据存储在多个表中。 由于产品属性存储在许多表中，因此SQL查询有时很长，也很复杂。
 

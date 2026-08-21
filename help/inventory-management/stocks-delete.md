@@ -1,6 +1,6 @@
 ---
 title: 删除库存库存
-description: 删除管理员中的自定义库存，并将网站重新分配给其他库存，以便可销售数量和未完成订单保持准确。
+description: 了解如何在Commerce管理员中删除自定义库存，并首先将其网站重新分配给其他库存，以便可销售数量和未结订单保持准确。
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 TQID: https://experienceleague.adobe.com/H6WjUk2tfqMqNbGkgkF22XvB8lFINXuLmHotNBeZIyU
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: 141
 ht-degree: 0%
 
 ---

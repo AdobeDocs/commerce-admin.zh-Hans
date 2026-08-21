@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全局 | 确定用于管理全页缓存的应用程序。 选项： <br/>**`Built-in Application`**— 不建议在生产环境中使用。<br/>**`Varnish Caching`** — 建议用于生产环境。 |
 | [!UICONTROL TTL for public content] | 全局 | 确定公共内容缓存的生命周期（以秒为单位）。 默认值： `120` |
-| [!UICONTROL Handles param size] | 全局 | 指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
+| [!UICONTROL Handles param size] | 全局 | 指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全局 | 指定可以清除清漆配置以生成配置文件的IP地址。 用逗号分隔多个条目。 默认值： `localhost` |
 | [!UICONTROL Backend host] | 全局 | 指定生成配置文件的后端主机。 默认值： `localhost` |

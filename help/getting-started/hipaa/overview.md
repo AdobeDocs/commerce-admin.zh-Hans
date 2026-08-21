@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2658
 ht-degree: 1%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**法律免责声明**<br/>
->此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。这不构成法律建议。商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
+>**法律声明**<br/>
+>此信息旨在帮助Adobe客户回答他们有关Adobe的HIPAA就绪服务的问题。 这不构成法律建议。 商家应该咨询自己的法律顾问，了解他们在HIPAA下的义务以及Adobe产品的正确使用和配置。
 
 >[!BEGINSHADEBOX]
 
@@ -310,7 +310,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 | [付款服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview) | 否 | 否 |
 | [数据连接后台事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
 | [数据连接店面事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
-| [Audience Activation](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
+| [Audience Activation](/help/customers/audience-activation.md) | 否 | 否 |
 
 ### 工具
 

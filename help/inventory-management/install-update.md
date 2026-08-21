@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]安装在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，默认启用所有功能。 启用这些清单功能无需执行其他步骤。 从v2.1.x或2.2.x升级可能需要额外的步骤。 请参阅[升级Inventory management](#upgrade-inventory-management)。
 
-建议根据[快速入门本地安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=zh-Hans){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
+建议根据[快速入门本地安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
 
 `composer.json`中继包中的以下行安装[!DNL Inventory Management]：
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 * 加速从2.0.x、2.1.x、2.2.x或2.3.x迁移到2.4.x的商户升级过程。
 * 使用自定义或第三方库存和订单管理系统模块。
 
-有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hans)页面。
+有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/manage-modules)页面。
 
 完成后，系统将在`<Magento_installation_directory>/app/etc/config.php`中提供模块和值的列表，开头为：
 
@@ -253,5 +253,5 @@ ht-degree: 0%
 
 有关Commerce升级的更多信息，请参阅以下指南：
 
-* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=zh-Hans){target="_blank"}
-* [启用或禁用模块](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hans){target="_blank"}
+* [Commerce更新指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [启用或禁用模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}

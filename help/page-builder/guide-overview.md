@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: 456
 ht-degree: 0%
 
 ---
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 有关对[!DNL Page Builder]问题进行故障排除的帮助，请参阅以下[!DNL Commerce]支持知识库文章：
 
-- [保存DotDigital [!DNL Page Builder] 表单时页面为空](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=zh-Hans)
+- [保存DotDigital [!DNL Page Builder] 表单时页面为空](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)

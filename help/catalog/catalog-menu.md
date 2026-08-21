@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Catalog]菜单
 
-通过[!UICONTROL Catalog]菜单，可以轻松访问产品创建、类别和库存管理工具，访问[B2B存储](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)中自定义定价的共享目录，以及访问AI辅助发现的目录扩充。
+通过[!UICONTROL Catalog]菜单，可以轻松访问产品创建、类别和库存管理工具，访问[B2B存储](/help/b2b/introduction.md)中自定义定价的共享目录，以及访问AI辅助发现的目录扩充。
 
 >[!BEGINTABS]
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-对于已安装并启用了Adobe Commerce B2B的商店，[共享目录](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=zh-Hans)使你能够向其他公司提供自定义定价。
+对于已安装并启用了Adobe Commerce B2B的商店，[共享目录](/help/b2b/catalog-shared.md)使你能够向其他公司提供自定义定价。
 
 ![共享目录产品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 

@@ -21,9 +21,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -56,5 +56,5 @@ ht-degree: 0%
 
 要获得有关图像和视频问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
-- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=zh-Hans)
-- [部署后不显示存储映像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=zh-Hans)
+- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [部署后不显示存储映像](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

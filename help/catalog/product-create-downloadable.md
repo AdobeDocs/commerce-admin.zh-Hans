@@ -23,9 +23,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1638
+source-wordcount: 1639
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=zh-Hans)）。
+   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/files/config-reference-envphp)）。
 
    - 将&#x200B;**[!UICONTROL Shareable]**&#x200B;设置为以下项之一：
 

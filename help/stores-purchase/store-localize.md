@@ -1,6 +1,6 @@
 ---
 title: 商店本地化
-description: 了解如何将商店或商店视图本地化。
+description: 了解如何通过更改商店或商店视图的区域设置来本地化商店或商店视图，区域设置可交换用于导航、标签、按钮和链接的翻译表。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 步骤1：安装语言包
 
-按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hans)。
+按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 ## 步骤2：创建该语言的存储视图
 

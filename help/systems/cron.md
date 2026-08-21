@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 461
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Adobe Commerce和Magento Open Source通过定期运行脚本来按计划执行�
 
 >[!IMPORTANT]
 >
->Commerce服务必须安装在crontab中，以确保核心组件和某些第三方扩展按预期工作。 有关将服务安装到crontab的详细信息，请参阅&#x200B;_安装指南_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=zh-Hans)中的说明。
+>Commerce服务必须安装在crontab中，以确保核心组件和某些第三方扩展按预期工作。 有关将服务安装到crontab的详细信息，请参阅&#x200B;_安装指南_[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/configuration)中的说明。
 
 此外，您还可以将以下内容配置为根据cron计划运行：
 
 - 订购系统网格更新并重新编制索引
 - 待定付款期限
 
-请确保存储的[基本URL](../stores-purchase/store-urls.md)设置正确，以便cron操作期间生成的URL正确无误。 有关云基础架构上的Adobe Commerce，请参阅《云基础架构上的Commerce指南》_中的[设置cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hans)_。 有关内部部署，请参阅&#x200B;_配置指南_&#x200B;中的[配置并运行con](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans)。
+请确保存储的[基本URL](../stores-purchase/store-urls.md)设置正确，以便cron操作期间生成的URL正确无误。 有关云基础架构上的Adobe Commerce，请参阅《云基础架构上的Commerce指南》_中的[设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)_。 有关内部部署，请参阅&#x200B;_配置指南_&#x200B;中的[配置并运行con](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。
 
 ## 配置cron
 

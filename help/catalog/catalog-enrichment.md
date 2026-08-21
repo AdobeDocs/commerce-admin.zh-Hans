@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 2182
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的LLM Optimizer集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[LLM Optimizer产品文档](https://experienceleague.adobe.com/zh-hans/docs/llm-optimizer/using/home)。
+>目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的LLM Optimizer集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[LLM Optimizer产品文档](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/home)。
 
 ## 工作原理 {#how-it-works}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 - 您的店面可以由面向LLM和代理的机器人抓取，这些机器人需要抓取范围才能获得目录感知建议。
 - 所需的Commerce服务和目录连接已启用且运行正常。 请参阅[启用目录扩充](#enable-catalog-enrichment)以了解详情。
 - 已配置[IMS](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)。
-- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
+- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
 - 您的组织已签署底层AI服务的GenAI附加程序，或明确选择退出。
 
 >[!NOTE]

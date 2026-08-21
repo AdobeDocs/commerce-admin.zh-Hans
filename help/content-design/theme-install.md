@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hans)。
+在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 要向[!DNL Commerce]存储添加主题，请按照[!DNL Commerce Marketplace]上提供的说明操作：
 

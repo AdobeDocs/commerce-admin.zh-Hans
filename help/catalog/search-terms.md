@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;页面上的&#x200B;**方法2：**
 
 Adobe Commerce支持两种不同的同义词管理解决方案：
 
-- Live Search [同义词](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=zh-Hans)功能可用于已安装Live Search的Adobe Commerce安装。
+- Live Search [同义词](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/synonyms/synonyms)功能可用于已安装Live Search的Adobe Commerce安装。
 - 所有Adobe Commerce安装均可现成使用标准搜索同义词功能（如本页所述）。
 
 >[!NOTE]

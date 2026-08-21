@@ -20,7 +20,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 1320
 ht-degree: 0%
@@ -55,14 +55,14 @@ Adobe Commerce B2B扩展`magento/extension-b2b`适用于所有受支持的Adobe 
 
 - 访问[repo.magento.com](https://repo.magento.com/)以下载扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
-  通过在[COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home)目录中全局定义身份验证密钥来保存身份验证密钥以供安装。 或者，将它们保存到Adobe Commerce应用程序根目录中的[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file)文件。
+  通过在[COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home)目录中全局定义身份验证密钥来保存身份验证密钥以供安装。 或者，将它们保存到Adobe Commerce应用程序根目录中的[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository#authentication-file)文件。
 
 - [支持的B2B扩展版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/product-availability) — 确定部署的Adobe Commerce版本支持的B2B扩展的最新版本。
 
 - 查看发行说明，了解有关版本兼容性、更新或可能影响安装或升级要求的更改的最新信息。
 
-   - [B2B发行说明](release-notes.md)
-   - [Adobe Commerce发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/versions)
+  - [B2B发行说明](release-notes.md)
+  - [Adobe Commerce发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Adobe Commerce B2B扩展`magento/extension-b2b`适用于所有受支持的Adobe 
 >
 >在云基础架构上安装Adobe Commerce B2B时，Adobe建议您在开始之前将Adobe Commerce应用程序部署到集成或暂存环境。
 
-将B2B扩展添加到项目时，Adobe建议在开发分支中工作。 如果没有分支，请参阅[创建用于开发的分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/cli-branches)。 安装B2B扩展时，`Magento_B2b`扩展名会自动插入`app/etc/config.php`文件中。 无需直接编辑文件。
+将B2B扩展添加到项目时，Adobe建议在开发分支中工作。 如果没有分支，请参阅[创建用于开发的分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/cli-branches)。 安装B2B扩展时，`Magento_B2b`扩展名会自动插入`app/etc/config.php`文件中。 无需直接编辑文件。
 
 **安装B2B扩展**：
 
@@ -112,7 +112,7 @@ Adobe Commerce B2B扩展`magento/extension-b2b`适用于所有受支持的Adobe 
 
    >[!NOTE]
    >
-   >将更新推送到云环境会启动Commerce云部署过程以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/process)中检查部署状态。 如果遇到部署错误，请参阅[从组件故障中恢复](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)。
+   >将更新推送到云环境会启动Commerce云部署过程以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/process)中检查部署状态。 如果遇到部署错误，请参阅[从组件故障中恢复](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/recover-failed-deployment)。
 
 1. 构建和部署完成后，使用SSH登录到远程环境，并验证是否已安装和启用B2B扩展。
 
@@ -188,7 +188,7 @@ Adobe Commerce B2B扩展使用MySQL进行消息队列管理。 下表列出了�
 | `purchaseorder.validation` | 根据相关[审批规则](account-dashboard-approval-rules.md)验证采购订单。 在管理系统配置设置中启用[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)选项时必需。 |
 | `quoteItemCleaner` | 从目录中删除或从购物车中删除产品时，删除无效或不活动的报价。 在管理系统配置设置中启用[**[!UICONTROL Quotes]**](quotes.md)选项时必需。 |
 | `inventoryQtyCounter` | 在下达订单或移除产品后，异步更正股票指数。 在管理员配置设置中为Inventory management启用[**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options)选项时必需。 请参阅[性能最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update)。 |
-| `async.operations.all` | 为[批量操作](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)的每个单独任务创建消息，例如导入或导出物料、批量更改价格以及将产品分配给仓库。 当[!DNL Inventory Management]的&#x200B;[**管理员批量操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations)&#x200B;选项在管理员系统配置设置中设置为&#x200B;**异步运行**&#x200B;时需要。 |
+| `async.operations.all` | 为[批量操作](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations)的每个单独任务创建消息，例如导入或导出物料、批量更改价格以及将产品分配给仓库。 当[!DNL Inventory Management]的&#x200B;[**管理员批量操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations)&#x200B;选项在管理员系统配置设置中设置为&#x200B;**异步运行**&#x200B;时需要。 |
 
 {style="table-layout:auto"}
 

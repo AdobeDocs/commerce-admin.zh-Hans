@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: 1129
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 
 >[!TIP]
 >
->要了解产品推荐，以及它们如何为您提供insight和控制您为购买者创建最佳体验所需的功能，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)。
+>要了解产品推荐，以及它们如何为您提供insight和控制您为购买者创建最佳体验所需的功能，请参阅[产品推荐用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)。
 
 ## 促销活动
 
@@ -83,8 +83,9 @@ _促销_&#x200B;是零售中使用的术语，用于描述楼层计划开发和�
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了dotdigital供应商开发的用于与dotdigital Engagement Cloud集成的扩展。从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。通过Marketplace，还可以访问扩展开发人员提供的当前文档。
-><br><br>>如果已启用并配置捆绑的扩展，则必须在2.4.4升级过程中更新composer.json文件，并管理以后的扩展更新。有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了dotdigital供应商开发的用于与dotdigital Engagement Cloud集成的扩展。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
+><br><br>
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 - [新闻稿](newsletters.md) — 生成新闻稿、管理订阅者列表、开发内容并增加您商店的流量。
 

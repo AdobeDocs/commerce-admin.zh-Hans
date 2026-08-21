@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1584
-ht-degree: 0%
+source-wordcount: 1611
+ht-degree: 1%
 
 ---
 
@@ -156,7 +156,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 ## 使用自定义管理员URL
 
-作为[安全最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hans)，Adobe建议您使用唯一的管理员URL，而不是默认的&#x200B;_管理员_&#x200B;或常用术语，如&#x200B;_后端_。 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
+作为[安全最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)，Adobe建议您使用唯一的管理员URL，而不是默认的&#x200B;_管理员_&#x200B;或常用术语，如&#x200B;_后端_。 尽管它不会直接保护您的网站免受确定性错误行为者的攻击，但它可以减小试图获得未经授权访问的脚本的暴露程度。
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
 >[!NOTE]
 >
->作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。 对于在云基础架构上部署的Adobe Commerce项目，请按照&#x200B;*Cloud Infrastructure指南*&#x200B;中的[说明](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hans#admin-url)更改管理员URL。
+>作为预防措施，除非您知道如何编辑服务器上的配置文件，否则请不要尝试自己更改管理员URL。 对于在云基础架构上部署的Adobe Commerce项目，请按照&#x200B;*Cloud Infrastructure指南*&#x200B;中的[说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)更改管理员URL。
 
 ### 方法1：从管理员更改
 
@@ -218,7 +218,7 @@ Adobe Commerce或Magento Open Source安装中的每个网站都有一个分配�
 
    >[!TIP]
    >
-   >对于云基础架构上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`变量设置自定义管理路径。 请参阅《云基础架构上的Commerce指南》_中的[管理员变量主题](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hans)_。
+   >对于云基础架构上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`变量设置自定义管理路径。 请参阅《云基础架构上的Commerce指南》_中的[管理员变量主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)_。
 
    - **默认管理路径**
 

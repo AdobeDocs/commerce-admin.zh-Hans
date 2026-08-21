@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)提供了快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。 本节介绍可能与[!DNL Live Search]不同的标准搜索功能。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)提供了快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。 本节介绍可能与[!DNL Live Search]不同的标准搜索功能。
 
 研究表明，使用搜索的用户比仅依赖导航的客户更有可能购物。 事实上，根据一些研究，使用搜索功能的人购买产品的可能性几乎是两倍。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此处介绍的高级表单搜索功能不适用于[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)。
+>此处介绍的高级表单搜索功能不适用于[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)。
 
 通过高级搜索，购物者可以根据在表单中输入值搜索目录。 由于表单包含多个字段，因此单次搜索可以包含多个参数。 结果将列出目录中符合条件的所有产品。 高级搜索的链接位于商店的页脚中。
 

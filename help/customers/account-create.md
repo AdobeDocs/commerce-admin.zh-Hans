@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 | **[!UICONTROL Reset]** | 将客户表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Create Order]** | 为客户创建订单。 |
 | **[!UICONTROL Reset Password]** | 通过电子邮件向客户发送[重置密码](../customers/password-reset.md)链接。 |
-| **[!UICONTROL Force Sign-in]** | 撤销与客户帐户关联的OAuth访问令牌。 此函数只能用于已作为Web API [集成](../systems/integrations.md)的一部分分配OAuth令牌的客户帐户。 要了解更多信息，请参阅开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。 |
+| **[!UICONTROL Force Sign-in]** | 撤销与客户帐户关联的OAuth访问令牌。 此函数只能用于已作为Web API [集成](../systems/integrations.md)的一部分分配OAuth令牌的客户帐户。 要了解更多信息，请参阅开发人员文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。 |
 | **[!UICONTROL Manage Shopping Cart]** | 允许管理员管理客户的购物车。 |
 | **[!UICONTROL Save and Continue Edit]** | 保存更改并保持客户个人资料处于打开状态。 |
 | **[!UICONTROL Save Customer]** | 保存更改并关闭客户配置文件。 |

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    - 要将优惠券与价格规则关联，请将&#x200B;**[!UICONTROL Coupon]**&#x200B;设置为`Specific Coupon`并执行以下操作：
 
-      - 输入客户必须输入才能获得折扣的自由文本&#x200B;**[!UICONTROL Coupon Code]**。
+     - 输入客户必须输入才能获得折扣的自由文本&#x200B;**[!UICONTROL Coupon Code]**。
 
-      - 要设置优惠券可用次数的限制，请完成以下选项：
+     - 要设置优惠券可用次数的限制，请完成以下选项：
 
      | 选项 | 描述 |
      |------|-----------|
@@ -228,7 +228,7 @@ ht-degree: 0%
    | `Name` | 受众的名称，如`Orders over $50` |
    | `Description` | 受众的描述，如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指示受众的来源，如`Experience Platform`。 |
-   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hans)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
+   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/fundamentals/connect-data)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
 
    {style="table-layout:auto"}
 

@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1029
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据（而不是其Commerce凭据）登录。 请参阅[Adobe Identity Management Service (IMS)集成概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=zh-Hans)。
+>具有Adobe ID并希望简化登录Adobe Commerce和Adobe业务产品的Adobe Commerce商家可以将Commerce身份验证与Adobe IMS身份验证工作流集成。 为您的Commerce商店启用此集成后，每个管理员用户必须使用其Adobe凭据（而不是其Commerce凭据）登录。 请参阅[Adobe Identity Management Service (IMS)集成概述](/help/getting-started/adobe-ims-integration-overview.md)。
 
 对于临时用户或角色，您还可以设置用户帐户的到期日期。
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
    - 完成以下信息：
 
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
-      - **[!UICONTROL Email address]**
+     - **[!UICONTROL First Name]**
+     - **[!UICONTROL Last Name]**
+     - **[!UICONTROL Email address]**
 
      每个用户帐户必须具有唯一的电子邮件地址。
 

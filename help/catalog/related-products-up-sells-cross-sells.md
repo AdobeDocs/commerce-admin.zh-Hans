@@ -19,9 +19,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 649
 ht-degree: 0%
 
 ---
@@ -49,8 +49,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）**由Adobe AI提供支持的产品推荐**&#x200B;通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
-><br/>>有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hans)_。
+>![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）**由Adobe AI提供支持的产品推荐**&#x200B;通过使用人工智能和机器学习算法对聚合的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+><br/>
+>有关使用此Adobe开发的扩展作为手动配置的产品推荐和追加销售的替代方案的更多信息，请参阅&#x200B;_[产品推荐指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)_。
 
 ## 相关产品
 

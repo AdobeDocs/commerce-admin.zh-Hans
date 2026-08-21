@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 871
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Commerce和Magento Open Source支持各种支付方法和服务。 这包�
 
 >[!TIP]
 >
->适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供insight和控制您为购买者创建最佳体验所需的更多信息，请参阅[Payment Services用户指南](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)。 这是[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/overview)中的默认支付解决方案。
+>适用于Adobe Commerce和Magento Open Source的Payment Services提供了一个可立即投入使用的自助服务解决方案，包括沙盒测试和简单的设置，用于提供强大而安全的支付处理。 要了解有关此功能强大的工具集以及它如何为您提供insight和控制您为购买者创建最佳体验所需的更多信息，请参阅[Payment Services用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview)。 这是[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/overview)中的默认支付解决方案。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe Commerce和Magento Open Source支持各种支付方法和服务。 这包�
 
 - **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含这些供应商开发的扩展。 从2.4.4版本开始，核心版本不再捆绑这些扩展，必须从Commerce Marketplace安装和更新这些扩展。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
 
-  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hans)。
+  如果已启用并配置其中任一捆绑扩展，则必须在升级2.4.4过程中更新您的composer.json文件并管理以后的扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 离线支付方式
 
@@ -69,7 +69,7 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商户服务的�
 
 ### 推荐的解决方案
 
-- [支付服务](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)
+- [支付服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview)
 - 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} [PayPal Express签出](paypal-express-checkout.md)
 - 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} [Braintree](braintree.md)
 
@@ -112,4 +112,4 @@ Adobe Commerce和Magento Open Source支持在世界各地提供商户服务的�
 
 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-有关解决付款问题的帮助，请参阅[支持知识库](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=zh-Hans)。
+有关解决付款问题的帮助，请参阅[支持知识库](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/overview)。

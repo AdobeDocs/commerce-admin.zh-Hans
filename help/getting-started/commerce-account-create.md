@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1131
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Commerce]帐户是您的中心访问点，用于为部署在云基础架构或内部部署的Adobe Commerce项目管理Adobe Commerce服务。 在帐户仪表板中，您可以查看订阅、管理Commerce服务API密钥、查看历史帐单信息并与组织中的其他用户协作。
 
-如果您需要[提交您的第一个票证](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)或管理您的Adobe Commerce关系（而不是在特定店面中工作），请首先创建或访问您的[!DNL Commerce]帐户。
+如果您需要[提交您的第一个票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)或管理您的Adobe Commerce关系（而不是在特定店面中工作），请首先创建或访问您的[!DNL Commerce]帐户。
 
 您可以从[!DNL Commerce]网站访问您的[!DNL Commerce]帐户。 从帐户信息板中，您可以查看与您购买的产品和服务相关的信息，并向其他用户提供[共享访问权限](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)。 某些信息（如Commerce Services API密钥）仅对许可证所有者可见。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帐户登录名不同于商店管理员登录名。 您通常会对每个系统使用不同的凭据，并且每个系统的访问权限都受独立管理。
 
-但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户可以将其Adobe ID配置为登录到应用商店管理员：*Commerce的IMS Integration Guide*&#x200B;中的[Configure the Commerce Admin Integration with Adobe ID](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/ims/adobe-ims-config)。
+但是，想要简化Adobe Commerce和Adobe商业产品登录流程的用户可以将其Adobe ID配置为登录到应用商店管理员：*Commerce的IMS Integration Guide*&#x200B;中的[Configure the Commerce Admin Integration with Adobe ID](/help/getting-started/adobe-ims-config.md)。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 共享访问允许您授予受信任的用户（例如同事、合作伙伴或管理员）以自己的名义管理Adobe Commerce关系的权限，而无需使用个人登录。 这包括允许其他人打开和跟踪支持案例。
 
-有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)部分。
+有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](/help/getting-started/commerce-account-share.md)部分。
 
 有关提交Commerce支持案例的详细说明，请参阅[Adobe Commerce帮助中心用户指南](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 

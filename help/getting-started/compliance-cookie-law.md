@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2313
 ht-degree: 0%
 
 ---
@@ -162,4 +162,4 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 - `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
-- `aep-segments-membership`：包含[受众信息](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/audience-activation)，例如购物者属于哪个区段。
+- `aep-segments-membership`：包含[受众信息](/help/customers/audience-activation.md)，例如购物者属于哪个区段。

@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1694
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ AEM Assets Integration for Commerce扩展具有以下系统和配置要求。
 
 您需要以下角色和权限才能设置集成。
 
-- [Commerce cloud项目管理员](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/user-access) — 安装所需的扩展，并通过管理员或命令行配置Commerce应用程序服务器。
+- [Commerce cloud项目管理员](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/project/user-access) — 安装所需的扩展，并通过管理员或命令行配置Commerce应用程序服务器。
 
-   - 访问[repo.magento.com](https://repo.magento.com/admin/dashboard)以安装扩展。
+  - 访问[repo.magento.com](https://repo.magento.com/admin/dashboard)以安装扩展。
 
-     有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[云基础架构上的Commerce指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+    有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 有关云安装，请参阅[云基础架构上的Commerce指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/authentication-keys)
 
-- [Commerce管理员](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/guide-overview) — 更新商店配置并管理Commerce用户帐户。
+- [Commerce管理员](/help/getting-started/guide-overview.md) — 更新商店配置并管理Commerce用户帐户。
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ AEM Assets Integration for Commerce扩展具有以下系统和配置要求。
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/cli-branches)。
 
 1. 查看要使用Adobe Commerce Cloud CLI更新的环境分支。
 
@@ -111,7 +111,7 @@ AEM Assets Integration for Commerce扩展具有以下系统和配置要求。
    git push origin <branch-name>
    ```
 
-   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
+   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)中检查部署状态。
 
 >[!TAB 内部部署]
 
@@ -174,13 +174,13 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 在配置Adobe I/O Events之前，请验证您的Commerce项目的RabbitMQ和cron作业配置：
 
 - 确保已启用RabbitMQ并侦听事件。
-   - [本地Adobe Commerce的RabbitMQ设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [云基础架构上Adobe Commerce的RabbitMQ设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - 验证是否已启用[cron作业](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 AEM Assets集成的通信和工作流需要Cron作业。
+  - [本地Adobe Commerce的RabbitMQ设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [云基础架构上Adobe Commerce的RabbitMQ设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - 验证是否已启用[cron作业](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#check-cron-and-message-queue-configuration)。 AEM Assets集成的通信和工作流需要Cron作业。
 
 >[!NOTE]
 >
-> 对于Commerce版本2.4.5上的项目，您必须[安装Adobe I/O模块](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)。 在Commerce版本2.4.6+中，这些模块会自动加载。 对于Commerce的AEM Assets集成，您只需要安装模块。 不需要App Builder设置。
+> 对于Commerce版本2.4.5上的项目，您必须[安装Adobe I/O模块](https://developer.adobe.com/commerce/extensibility/events/installation#install-adobe-io-modules-on-commerce)。 在Commerce版本2.4.6+中，这些模块会自动加载。 对于Commerce的AEM Assets集成，您只需要安装模块。 不需要App Builder设置。
 
 
 ### 启用Commerce事件框架
@@ -235,7 +235,7 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 
 - `content`：要运行的VCL代码片段，用于检查客户端IP地址。 如果IP位于Edge ACL中，则会阻止其访问，并显示整个网站的`405 Not allowed`错误。 允许访问所有其他客户端IP地址。
 
-有关使用VCL代码段阻止传入请求的详细信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于阻止请求的自定义VCL](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)。
+有关使用VCL代码段阻止传入请求的详细信息，请参阅&#x200B;_Commerce on Cloud Infrastructure指南_&#x200B;中的[用于阻止请求的自定义VCL](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)。
 
 >[!ENDSHADEBOX]
 
@@ -285,7 +285,7 @@ AEM Assets集成使用Adobe I/O Events服务在Commerce实例和Experience Cloud
 
 >[!NOTE]
 >
->您还可以使用Adobe Commerce API生成身份验证凭据。 有关此过程的详细信息，以及有关Adobe Commerce基于OAuth的身份验证的更多信息，请参阅Adobe Developer文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
+>您还可以使用Adobe Commerce API生成身份验证凭据。 有关此过程的详细信息，以及有关Adobe Commerce基于OAuth的身份验证的更多信息，请参阅Adobe Developer文档中的[基于OAuth的身份验证](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。
 
 ## 下一步
 

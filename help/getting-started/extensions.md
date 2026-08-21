@@ -33,9 +33,9 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1430
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ Adobe提供了两种主要方法来扩展或自定义您的Adobe Commerce项目�
 
 - 进程外可扩展性：使用独立于核心软件的自定义代码和应用程序。 此现代方法有助于通过以下方式降低总拥有成本：
 
-   - 由于扩展与核心分离，因此简化了升级
-   - 使开发人员能够更好地控制实施时间和方法
-   - 实现扩展组件的独立扩展和维护
+  - 由于扩展与核心分离，因此简化了升级
+  - 使开发人员能够更好地控制实施时间和方法
+  - 实现扩展组件的独立扩展和维护
 
 Adobe Commerce提供了策略和工具来支持这两种类型的可扩展性。 要了解更多信息，请参阅[Adobe Commerce可扩展性](https://developer.adobe.com/commerce/extensibility/)。
 
@@ -111,17 +111,17 @@ Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展�
 
   要安装以下扩展，需要设置帐户和凭据。 请联系您的Adobe客户代表寻求帮助。
 
-   - [Adobe Commerce B2B](#adobe-commerce-b2b)
-   - [适用于Commerce的AEM Assets集成](#assets-integration-for-commerce)
+  - [Adobe Commerce B2B](#adobe-commerce-b2b)
+  - [适用于Commerce的AEM Assets集成](#assets-integration-for-commerce)
 
 - Adobe Commerce市场
 
   以下Adobe扩展可在[marketplace.magento.com](https://marketplace.magento.com)中公开访问。 这些扩展无需额外付费。
 
-   - [实时搜索](#live-search)
-   - [产品推荐](#product-recommendations)
-   - [目录服务](#catalog-service)
-   - [支付服务](#payment-services)
+  - [实时搜索](#live-search)
+  - [产品推荐](#product-recommendations)
+  - [目录服务](#catalog-service)
+  - [支付服务](#payment-services)
 
 ### [!DNL Adobe Commerce B2B]
 
@@ -129,7 +129,7 @@ Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展�
 
 [!DNL Adobe Commerce B2B]是一个集成的扩展，可将标准Commerce存储区转换为全面的企业对企业平台。 它使公司能够在统一的公司帐户下管理具有多个购买者、自定义角色和购买权限的复杂组织结构。 关键功能包括特定于公司的目录和定价、可协商的报价、采购订单管理、申购单和快速订购功能。 该解决方案在单个实例上同时支持B2B和B2C模型，使其能够灵活地满足各种业务需求。 该扩展需要单独的许可证并与Adobe Commerce的核心功能无缝集成，以提供完整的B2B电子商务解决方案。
 
-要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL B2B for Adobe Commerce] 用户指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hans)。
+要进行配置，请联系您的Adobe客户代表。 有关实施详细信息和配置步骤，请参阅[[!DNL B2B for Adobe Commerce] 用户指南](/help/b2b/introduction.md)。
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -145,7 +145,7 @@ Adobe提供了必须使用编辑器单独安装的其他扩展。 这些扩展�
 
 Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方案提供了实时“随类型搜索”功能。 它可以在购物者键入内容时，通过产品缩览图提供快速的相关结果，同时还可以根据购物行为自动调整过滤器的智能分面。 该解决方案包括用于产品提升和掩藏、同义词管理和搜索分析的推销功能。 随Adobe Commerce一起提供，[!DNL Live Search]免费使用更复杂、基于SaaS的搜索体验来替换默认搜索功能。 它需要最少的配置才能开始。
 
-有关实施详细信息和技术要求，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hans)。
+有关实施详细信息和技术要求，请参阅[实时搜索用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)。
 
 ### [!DNL Product Recommendations]
 
@@ -153,7 +153,7 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Product Recommendations]是Adobe Commerce独有的功能，由Adobe AI技术提供支持，可在整个客户购物历程中提供个性化的产品建议。 该解决方案可实时分析购物者行为和产品关系，以自动生成相关推荐，无需手动促销规则。 这种人工智能驱动的方法有助于提高转化率和收入潜力，同时为购物者创造更吸引人的产品发现体验。
 
-有关实施详细信息和最佳实践，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hans)。
+有关实施详细信息和最佳实践，请参阅[[!DNL Product Recommendations] 用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/overview)。
 
 ### [!DNL Catalog Service]
 
@@ -161,7 +161,7 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Catalog Service]是Adobe Commerce和Magento Open Source的高性能解决方案，它通过GraphQL端点提供对目录数据的优化访问。 它维护一个单独的同步数据库，用于存放产品详细信息和相关信息，从而绕过直接的应用程序通信来加快页面加载时间。 此服务对于产品详细信息页面、类别列表和搜索结果页面尤其有用，因此非常适合传统和Headless商务实施。
 
-有关设置说明和技术详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hans)。
+有关设置说明和技术详细信息，请参阅[[!DNL Catalog Service] 用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)。
 
 >[!NOTE]
 >
@@ -173,4 +173,4 @@ Live Search是Adobe Commerce独有的功能，它为AI支持的搜索解决方�
 
 [!DNL Payment Services]是适用于Adobe Commerce和Magento Open Source商店的全包支付解决方案，可提供全面的支付处理功能。 该服务将安全支付网关功能与内置的欺诈保护功能集成，同时提供多种支付选项，包括信用卡/借记卡、PayPal、Venmo (US)和PayLater计划。 它通过Commerce管理界面提供统一的交易报告和订单管理，使得商家能够轻松地在一个地方跟踪支付、管理现金流和对账财务数据。
 
-有关详细配置步骤和付款选项，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/overview)。
+有关详细配置步骤和付款选项，请参阅[[!DNL Payment Services] 用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/introduction)。

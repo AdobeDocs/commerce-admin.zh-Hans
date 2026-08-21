@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 1. 有关每个版本的适用数据流图和数据库实体映射，请参阅以下主题：
 
-   - [个人信息参考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hans)
-   - [个人信息参考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hans)
+   - [个人信息参考(2.x)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [个人信息参考(1.x)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![关系图](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
    - **删除请求**
 
-      - 其商店托管在Adobe Commerce Cloud上的商家应联系Adobe支持部门以寻求删除个人信息的帮助。 有关更多信息，请联系您的Adobe技术客户经理或客户支持。
-      - 在内部部署Adobe Commerce或Magento Open Source的商家必须实施自己的流程和脚本，以便根据请求删除个人信息。
+     - 其商店托管在Adobe Commerce Cloud上的商家应联系Adobe支持部门以寻求删除个人信息的帮助。 有关更多信息，请联系您的Adobe技术客户经理或客户支持。
+     - 在内部部署Adobe Commerce或Magento Open Source的商家必须实施自己的流程和脚本，以便根据请求删除个人信息。
 
 #### 步骤5：编写所需客户通知的内容
 
@@ -186,12 +186,12 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
    - **如何提交个人信息收集和使用请求**：关于个人提交请求，要求您披露所收集的有关个人的个人信息的说明，包括：
 
-      - 您收集到的有关消费者的特定个人信息
-      - 您收集到的有关消费者的个人信息类别
-      - 从中收集个人信息的来源类别
-      - 您出于商业目的而出售或披露的消费者个人信息的类别
-      - 为商业目的而向其出售或披露个人信息的第三方的类别
-      - 您的企业收集和/或销售个人信息的原因
+     - 您收集到的有关消费者的特定个人信息
+     - 您收集到的有关消费者的个人信息类别
+     - 从中收集个人信息的来源类别
+     - 您出于商业目的而出售或披露的消费者个人信息的类别
+     - 为商业目的而向其出售或披露个人信息的第三方的类别
+     - 您的企业收集和/或销售个人信息的原因
 
 1. 将内容发送给团队以及（如果可能）您的法律顾问以供审查。
 
@@ -215,9 +215,9 @@ CCPA适用于在加利福尼亚开展业务并符合以下任一条件的盈利�
 
 - **同意年龄**：如果您收集或使用未成年人的个人信息，则可能须遵守以下要求：
 
-   - **未成年人&lt; 13**：年龄在13岁以下的未成年人必须获得父母的授权才能选择出售其个人信息。
+  - **未成年人&lt; 13**：年龄在13岁以下的未成年人必须获得父母的授权才能选择出售其个人信息。
 
-   - **13至16岁的未成年人**：年龄在13岁或16岁以下的未成年人可以选择出售其个人信息，但前提是企业建立了合理的流程来记录此行为。 必须在公司的[隐私策略](privacy-policy.md)中描述该过程。 当企业收到此年龄范围内的未成年人的请求时，必须告知他们以后可以选择退出的权利，并解释如何这样做。
+  - **13至16岁的未成年人**：年龄在13岁或16岁以下的未成年人可以选择出售其个人信息，但前提是企业建立了合理的流程来记录此行为。 必须在公司的[隐私策略](privacy-policy.md)中描述该过程。 当企业收到此年龄范围内的未成年人的请求时，必须告知他们以后可以选择退出的权利，并解释如何这样做。
 
   >[!IMPORTANT]
   >

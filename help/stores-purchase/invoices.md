@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ ht-degree: 0%
 
    - 包括一个跟踪号：
 
-      - 单击&#x200B;**[!UICONTROL Add Tracking Number]**。
-      - 输入跟踪信息： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
+     - 单击&#x200B;**[!UICONTROL Add Tracking Number]**。
+     - 输入跟踪信息： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
 
      ![创建Fedex装运](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - （可选）生成部分发票：
 
-      - 在&#x200B;_发票项目_&#x200B;部分中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;列以仅包含发票上的特定项目。
-      - 然后，单击&#x200B;**[!UICONTROL Update Qty's]**。
+     - 在&#x200B;_发票项目_&#x200B;部分中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;列以仅包含发票上的特定项目。
+     - 然后，单击&#x200B;**[!UICONTROL Update Qty's]**。
 
-        ![发票项目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![发票项目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. 如果订单使用了在线付款方式，请将&#x200B;**[!UICONTROL Amount]**&#x200B;设置为相应的选项。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 为了向商家提供更大的灵活性以用于部分捕获和专用支付方案，发票API支持使用扩展属性的自定义捕获金额。
 
-您可以在创建发票时发起REST调用以捕获自定义金额。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST终结点并在有效负载的`extension_attributes.custom_capture_amount`字段中指定自定义数量。
+您可以在创建发票时发起REST调用以捕获自定义金额。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST终结点并在有效负载的`extension_attributes.custom_capture_amount`字段中指定自定义数量。
 
 >[!NOTE]
 >

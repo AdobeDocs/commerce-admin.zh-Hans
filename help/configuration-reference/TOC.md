@@ -5,9 +5,9 @@ breadcrumb-title: 配置引用
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 0ea210e1dbc100be876af254c8513506eb043729
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 2%
   - [管理员](./advanced/admin.md)
   - [系统](./advanced/system.md)
   - [开发人员](./advanced/developer.md)
-- [返回到管理员用户指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)

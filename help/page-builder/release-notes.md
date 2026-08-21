@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`UpgradableEntitiesPool`类型添加到您的`etc/di.xml`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅&#x200B;_Page Builder开发人员指南_&#x200B;中的[升级内容类型](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)。
+>如果已创建用于存储[!DNL Page Builder]内容的其他数据库实体，则&#x200B;_必须_&#x200B;将这些实体添加到`etc/di.xml`。 如果不更新，则实体中存储的[!DNL Page Builder]内容将不会更新，从而导致潜在的数据丢失和显示问题。 例如，如果您已经创建了存储[!DNL Page Builder]内容的博客实体，则必须将博客实体作为`UpgradableEntitiesPool`类型添加到您的`etc/di.xml`文件中，以便升级库可以更新您的博客中使用的[!DNL Page Builder]内容类型。 有关使用升级库的更多信息和说明，请参阅&#x200B;_Page Builder开发人员指南_&#x200B;中的[升级内容类型](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types)。
 
-![新](../assets/new.svg) **有关添加新外观的文档** — 现在发布了有关[为现有或自定义内容类型添加外观](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)的开发人员信息。
+![新](../assets/new.svg) **有关添加新外观的文档** — 现在发布了有关[为现有或自定义内容类型添加外观](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances)的开发人员信息。
 
 ![已修复问题](../assets/fix.svg)**各种修复**
 

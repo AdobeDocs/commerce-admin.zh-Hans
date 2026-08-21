@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ _2025年4月23日_
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.5及更高版本。
 
-![新问题](../assets/new.svg)<!-- Issue ACAP-955 -->现在，可以使用[自定义域URL](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)而不是AEM投放URL。 如果商家在其AEM功能板中设置了&#x200B;**自定义域名**，则需要在Commerce中添加此&#x200B;**自定义域URL**。
+![新问题](../assets/new.svg)<!-- Issue ACAP-955 -->现在，可以使用[自定义域URL](/help/content-design/aem-assets-setup-synchronization.md#configure-the-custom-domain-url)而不是AEM投放URL。 如果商家在其AEM功能板中设置了&#x200B;**自定义域名**，则需要在Commerce中添加此&#x200B;**自定义域URL**。
 
 ![修复了问题](../assets/fix.svg)<!-- Issue ACAP-987 -->改进了AEM Assets同步过程的整体日志。
 
@@ -61,7 +61,7 @@ _2025年3月12日_
 
 [!BADGE 支持]{type=Informative tooltip="支持"} Adobe Commerce版本2.4.5及更高版本。
 
-![新问题](../assets/new.svg)<!-- Issue ACAP-xx -->现在，Assets选择器需要[Assets选择器IMS客户端ID](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)，才能将AEM Assets图像映射到产品类别和页面生成器生成的内容。
+![新问题](../assets/new.svg)<!-- Issue ACAP-xx -->现在，Assets选择器需要[Assets选择器IMS客户端ID](/help/content-design/aem-assets-setup-synchronization.md)，才能将AEM Assets图像映射到产品类别和页面生成器生成的内容。
 
 ## v1.0.20
 

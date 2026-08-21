@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 - 如果浏览器的隐私设置不允许Cookie，您可以将系统配置为自动将它们重定向到[启用Cookie](../content-design/pages.md#enable-cookies)页面，该页面介绍了如何在大多数浏览器中进行推荐的设置。
 - 如果浏览器的隐私设置不允许JavaScript，您可以将系统配置为在每个页面的标题上方显示以下消息。
 
-有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hans#supported-browsers)。
+有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[支持的浏览器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements#supported-browsers)。
 
 ## 配置浏览器功能检测
 

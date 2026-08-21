@@ -1,8 +1,6 @@
 ---
 title: Adobe Commerce管理员用户指南
-description: 浏览 Adobe Commerce 产品文档
-seo-title: Services for Adobe Commerce
-seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
+description: 搜索有关Adobe Commerce Admin的自助文章和教程。 在配置、管理和排查Commerce商店故障方面获得专家支持。
 breadcrumb-title: 管理员用户指南
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
@@ -32,9 +30,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
 last-update: 2026-08-07
-source-git-commit: 6abaad747203dccb75d8344c20f5e7b657e374eb
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 Adobe Commerce是一个敏捷的B2B和B2C商业平台，使商家和品牌能够通过以客户为中心的数字商业体验在线和实体空间增加收入。 它是中型企业组织的首选，因为它提供了从内部部署到具有保证SLA的受管云的最灵活的部署模型。 Adobe Commerce实现了API优先的集成和完全可自定义的扩展，以及最丰富的企业级商务体验功能（从营销到销售和履行）。 Adobe Commerce基于开源代码构建，具有其他商务平台无法比拟的灵活性和可扩展性。
 
-有关Adobe Commerce中包含的高级功能的列表，请参阅&#x200B;_发行信息_&#x200B;中的[Commerce功能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=zh-Hans)。
+有关Adobe Commerce中包含的高级功能的列表，请参阅&#x200B;_发行信息_&#x200B;中的[Commerce功能](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/features)。
 
 ## Magento Open Source代码库
 

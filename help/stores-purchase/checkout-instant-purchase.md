@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 
   以下支付方式可用于提供对已保存信用卡信息的安全访问：
 
-   - [Braintree信用卡](braintree.md) （如果启用了3D Secure，即时购买不能与Braintree信用卡一起使用。）
-   - [启用了PayPal的Braintree](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Braintree信用卡](braintree.md) （如果启用了3D Secure，即时购买不能与Braintree信用卡一起使用。）
+  - [启用了PayPal的Braintree](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## 店面即时购买
 
@@ -71,7 +71,7 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 了解如何为Braintree或支付服务配置支付方式并启用保险存储：
 
 - [Braintree](braintree.md)
-- [Payment Service文档](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hans)
+- [Payment Service文档](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview)
 
 ### 步骤3：启用即时购买
 

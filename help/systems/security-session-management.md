@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 796
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce和Magento Open Source允许您验证会话变量，作为防止可能的会话固定攻击或试图毒害或劫持用户会话的保护措施。 会话验证设置可确定在每次访问商店时如何验证会话变量，以及会话ID是否包含在商店的URL中。
 
-有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=zh-Hans)。
+有关技术信息，请参阅&#x200B;_配置指南_&#x200B;中的[对会话存储使用Redis](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/redis-session)。
 
 ![常规配置 — Web会话验证](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

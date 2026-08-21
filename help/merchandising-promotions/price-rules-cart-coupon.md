@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans#run-cron-from-the-command-line)运行cron 。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)运行cron 。
 
 ### 方法1：创建特定优惠券
 
@@ -124,23 +124,23 @@ ht-degree: 0%
 
      **选项1：**&#x200B;计划新的更新
 
-      - 单击页面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
+     - 单击页面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
 
-        ![计划更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![计划更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - 输入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+     - 输入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-      - 从日历（ ![日历图标](../assets/icon-calendar.png) ）中选择&#x200B;**开始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果将日期范围留空，则该规则不会过期。
+     - 从日历（ ![日历图标](../assets/icon-calendar.png) ）中选择&#x200B;**开始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果将日期范围留空，则该规则不会过期。
 
-      - 完成后，单击&#x200B;**[!UICONTROL Save]**。
+     - 完成后，单击&#x200B;**[!UICONTROL Save]**。
 
-        ![购物车价格规则 — 计划的更改](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![购物车价格规则 — 计划的更改](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **选项2：**&#x200B;分配给现有更新：
 
-      - 选择&#x200B;**[!UICONTROL Assign to Another Update]**。
+     - 选择&#x200B;**[!UICONTROL Assign to Another Update]**。
 
-      - 在列表中查找更新，然后单击&#x200B;**[!UICONTROL Select]**。
+     - 在列表中查找更新，然后单击&#x200B;**[!UICONTROL Select]**。
 
 1. 根据需要完成[购物车价格规则](price-rules-cart.md)。
 
@@ -170,9 +170,9 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Code Format]**&#x200B;设置为以下项之一：
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - （可选）输入要添加到代码开头的&#x200B;**[!UICONTROL Code Prefix]**。
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 要编辑自定义优惠券代码或查看使用情况详细信息，请单击&#x200B;**[!UICONTROL Actions]**&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 无法编辑或删除属于购物车价格规则的主优惠券代码。
 
@@ -288,16 +288,16 @@ _优惠券_&#x200B;报告汇总了特定日期范围内使用的每个优惠券�
 
    - 将&#x200B;**[!UICONTROL Date Used]**&#x200B;设置为以下项之一：
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _已更新订单_&#x200B;报告是实时创建的，不需要刷新。
 
    - 要定义报告涵盖的时间段，请将&#x200B;**[!UICONTROL Period]**&#x200B;设置为以下项之一：
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - 要定义报告的日期范围，请以M/D/YY格式输入&#x200B;**自**&#x200B;至&#x200B;**至**&#x200B;日期。
 
@@ -307,8 +307,8 @@ _优惠券_&#x200B;报告汇总了特定日期范围内使用的每个优惠券�
 
    - 要定义报表中包含的优惠券活动，请执行下列操作之一：
 
-      - 要包含所有价格规则中的所有优惠券活动，请将&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;设置为`Any`。
-      - 要仅包括与特定价格规则相关的活动，请将&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;设置为`Specified`并在列表中选择购物车价格规则。
+     - 要包含所有价格规则中的所有优惠券活动，请将&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;设置为`Any`。
+     - 要仅包括与特定价格规则相关的活动，请将&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;设置为`Specified`并在列表中选择购物车价格规则。
 
 1. 准备运行报告时，单击&#x200B;**[!UICONTROL Show Report]**。
 

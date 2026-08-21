@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->有关为买方创建报价的卖方的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表启动报价](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=zh-Hans)。
+>有关为买方创建报价的卖方的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表启动报价](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)。
 
 ### 从报价网格创建报价
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >有关行项目折扣如何工作的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表将折扣应用于报价行项目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=zh-Hans)。
+   >有关行项目折扣如何工作的视频演示，请参阅&#x200B;_Commerce视频和教程_&#x200B;中的[销售代表将折扣应用于报价行项目](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)。
 
 1. 根据需要应用报价级别折扣：
 

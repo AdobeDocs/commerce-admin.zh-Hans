@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 846
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
    如果导入单个`sku`的多个图像，请将图像插入名为`additional_images`的列中（如果尚未添加，请添加该列），并以逗号分隔： `image02.jpg,image03.jpg`
 
-有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=zh-Hans)。
+有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)。
 
 >[!NOTE]
 >

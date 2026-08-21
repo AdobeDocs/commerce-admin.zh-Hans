@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 某些访问您网站的访客依靠键盘控件而不是鼠标进行导航，而其他访客则可能使用触摸或语音命令。 虽然键盘导航控件因浏览器和平台而异，但Tab键通常用于在页面上的字段、链接和按钮之间移动焦点。 若要了解详细信息，请参阅[键盘快捷键](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}。
 
-有关辅助功能的详细信息，请参阅开发人员文档中的[辅助功能准则](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"}。
+有关辅助功能的详细信息，请参阅开发人员文档中的[辅助功能准则](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"}。
 
 ## Windows
 
