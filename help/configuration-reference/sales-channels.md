@@ -29,7 +29,7 @@ ht-degree: 3%
 
 {{config}}
 
-安装[[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/en/docs/discontinued/using/commerce-channels)时，这些设置可用。
+安装[[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/zh-hans/docs/discontinued/using/commerce-channels)时，这些设置可用。
 
 ![Sales Channel设置](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

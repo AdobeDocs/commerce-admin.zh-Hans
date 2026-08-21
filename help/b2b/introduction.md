@@ -58,9 +58,9 @@ ht-degree: 2%
 
 Adobe Commerce服务是托管服务，可为Adobe Commerce和Magento Open Source提供扩展功能。 支持B2B工作流的服务包括：
 
-* [目录服务](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [目录服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)
+* [实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)
+* [产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)
 
 ## 共享目录
 

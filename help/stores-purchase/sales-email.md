@@ -50,7 +50,7 @@ ht-degree: 3%
    - `Disable` — 在事件触发时发送销售电子邮件。
    - `Enable` — 定期发送销售电子邮件。
 
-   Adobe Commerce支持部门建议启用异步发送以提高下单性能。 请参阅Adobe Commerce支持知识库中的[订单处理的配置最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
+   Adobe Commerce支持部门建议启用异步发送以提高下单性能。 请参阅Adobe Commerce支持知识库中的[订单处理的配置最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
 
 ## 步骤3. 填写每封销售电子邮件的详细信息
 

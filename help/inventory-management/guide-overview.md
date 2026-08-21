@@ -70,5 +70,5 @@ ht-degree: 1%
 
 如果您需要本指南中未涉及的信息或问题，请使用以下资源：
 
-- [安装清单后库存状态不正确](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票证以接收其他帮助。
+- [安装清单后库存状态不正确](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票证以接收其他帮助。

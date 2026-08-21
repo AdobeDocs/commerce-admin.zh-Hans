@@ -30,7 +30,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->此页面介绍与[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)可能不同的标准搜索功能。
+>此页面介绍与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)可能不同的标准搜索功能。
 
 _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”表单中输入的搜索条件匹配的所有产品。 目录中的每个产品列表基本上具有相同的控件。 唯一的区别是，一个是搜索查询的结果，另一个区别是[导航](navigation.md)的结果。
 
@@ -46,7 +46,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 >[!IMPORTANT]
 >
->由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用于扩展搜索结果的关键字映射
 

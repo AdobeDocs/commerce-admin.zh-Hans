@@ -4,7 +4,7 @@ description: 查看Commerce管理员的[!UICONTROL Advanced] &gt； [!UICONTROL 
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -206,7 +206,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全局 | 确定用于管理全页缓存的应用程序。 选项： <br/>**`Built-in Application`**— 不建议在生产环境中使用。<br/>**`Varnish Caching`** — 建议用于生产环境。 |
 | [!UICONTROL TTL for public content] | 全局 | 确定公共内容缓存的生命周期（以秒为单位）。 默认值： `120` |
-| [!UICONTROL Handles param size] | 全局 | 指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
+| [!UICONTROL Handles param size] | 全局 | 指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP终结点上要处理的[布局句柄](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大数量。 限制大小可以提高安全性和性能。 默认值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全局 | 指定可以清除清漆配置以生成配置文件的IP地址。 用逗号分隔多个条目。 默认值： `localhost` |
 | [!UICONTROL Backend host] | 全局 | 指定生成配置文件的后端主机。 默认值： `localhost` |
@@ -286,7 +286,7 @@ ht-degree: 1%
 
 ![高级配置 — 映像上传配置](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

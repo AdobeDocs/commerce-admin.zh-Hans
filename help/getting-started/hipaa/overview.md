@@ -3,7 +3,7 @@ title: Adobe Commerce上的HIPAA准备工作
 description: 了解如何添加 Adobe Commerce HIPAA-Ready 扩展并获取允许您遵守 HIPAA 义务的附加特性和功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -68,8 +68,8 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 | Adobe Commerce | 支持 | 注释 |
 |----------------|-----------|-------|
-| 2.4.8-p5 | 1.3.0 | 2.4.8-p5支持需要[兼容性修补程序](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555) |
-| 2.4.7 -p4及更高版本 — p | 1.2.0 | 2.4.7-p4支持需要[兼容性修补程序](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | 2.4.8-p5支持需要[兼容性修补程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7 -p4及更高版本 — p | 1.2.0 | 2.4.7-p4支持需要[兼容性修补程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | 1.1.0中引入了对[数据服务](#adobe-commerce-services)的支持 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -88,7 +88,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 >[!BEGINSHADEBOX]
 
 - Adobe已配置您的Adobe Commerce帐户以访问HIPAA Ready扩展。
-- 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+- 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要的权限，请参阅[获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 >[!ENDSHADEBOX]
 
@@ -96,13 +96,13 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
 
 >[!NOTE]
 >
->要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>要确保发送到Experience Platform的后台事件数据已可使用HIPAA，请参阅[数据连接扩展指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本地工作站上，转到云基础架构项目上Adobe Commerce的项目目录。
 
    >[!NOTE]
    >
-   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)。
+   >有关在本地管理Commerce项目环境的信息，请参阅《云基础架构用户指南》_上的_ Adobe Commerce中的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/cli-branches)。
 
 1. 使用Adobe Commerce Cloud CLI签出要更新的环境分支。
 
@@ -130,7 +130,7 @@ Adobe Commerce HIPAA就绪扩展`magento/hipaa-ee`可用于Adobe Commerce on Clo
    git push origin <branch-name>
    ```
 
-   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中检查部署状态。
+   推送更新将启动[Commerce云部署流程](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/process)以应用更改。 从[部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中检查部署状态。
 
 ### 验证安装
 
@@ -304,12 +304,12 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | 是 | 是 |
 | 适用于Adobe Developer App Builder的[API网格](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
-| [SaaS数据导出](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 是 | 是 |
-| [实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 否 | 否 |
-| [产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 否 | 否 |
-| [付款服务](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 否 | 否 |
-| [数据连接后台事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
-| [数据连接店面事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
+| [SaaS数据导出](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview) | 是 | 是 |
+| [实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview) | 否 | 否 |
+| [产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/overview) | 否 | 否 |
+| [付款服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview) | 否 | 否 |
+| [数据连接后台事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
+| [数据连接店面事件](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
 | [Audience Activation](/help/customers/audience-activation.md) | 否 | 否 |
 
 ### 工具
@@ -322,7 +322,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 - 所有安装的扩展都与预定义的允许列表匹配
 - 未安装不支持的Adobe服务
 
-您可以[将工具](../../systems/security-scan.md#run-a-security-scan)配置为通过计划的扫描或[手动查看报告](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview)向您发送电子邮件通知，其中包含详细信息。
+您可以[将工具](../../systems/security-scan.md#run-a-security-scan)配置为通过计划的扫描或[手动查看报告](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/launch/overview)向您发送电子邮件通知，其中包含详细信息。
 
 ## 禁用的功能
 
@@ -330,7 +330,7 @@ Adobe Commerce中的HIPAA客户搜索结果限制功能通过限制对受保护�
 
 默认情况下，HIPAA就绪模块中禁用以下功能。 商家可以自行承担启用上述任何功能的风险。
 
-- **[事务性电子邮件](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** — 默认情况下已禁用SendGrid，因为服务未就绪。 Adobe Commerce提供了一个集成选项，您可以将其用于您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帐户。 有关配置详细信息，请联系您的客户技术客户经理或Adobe Commerce支持。
+- **[事务性电子邮件](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/project/sendgrid)** — 默认情况下已禁用SendGrid，因为服务未就绪。 Adobe Commerce提供了一个集成选项，您可以将其用于您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帐户。 有关配置详细信息，请联系您的客户技术客户经理或Adobe Commerce支持。
 
 - **[访客签出](../../stores-purchase/checkout-guest.md)** — 此功能对HIPAA的各个方面带来潜在风险，包括日志记录、访问控制、PHI卫生和谱系等等。
 

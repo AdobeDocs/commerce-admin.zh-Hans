@@ -4,7 +4,7 @@ description: 了解如何更改您自己的加密密钥，应该定期更改以�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您尝试完成这些步骤但遇到问题，请参阅[加密密钥轮换疑难解答： CVE-2024-34102](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27134)知识库文章。
+>如果您尝试完成这些步骤但遇到问题，请参阅[加密密钥轮换疑难解答： CVE-2024-34102](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27134)知识库文章。
 
 Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏感数据。 行业标准[!DNL ChaCha20-Poly1305]算法与256位密钥一起使用，以加密所有需要加密的数据。 这包括信用卡数据和集成（支付和配送模块）密码。 此外，使用强安全哈希算法(SHA-256)来哈希所有不需要解密的数据。
 
 在初始安装期间，系统会提示您允许Commerce生成加密密钥，或输入自己的密钥。 加密密钥工具允许您根据需要更改密钥。 应定期更改加密密钥以提高安全性，并且随时可能危及原始密钥。
 
-有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[高级内部部署](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)和&#x200B;_PHP开发人员指南_&#x200B;中的[数据重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption)。
+有关技术信息，请参阅&#x200B;_安装指南_&#x200B;中的[高级内部部署](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/advanced)和&#x200B;_PHP开发人员指南_&#x200B;中的[数据重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption)。
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Adobe Commerce和Magento Open Source使用加密密钥保护密码和其他敏�
 
 下面的说明需要访问终端。
 
-1. 启用[维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)。
+1. 启用[维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)。
 
    ```bash
    bin/magento maintenance:enable

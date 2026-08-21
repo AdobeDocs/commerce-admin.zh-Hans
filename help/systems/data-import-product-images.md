@@ -125,7 +125,7 @@ Commerce为按字母顺序组织的产品图像创建自己的目录结构。 �
 
    如果导入单个`sku`的多个图像，请将图像插入名为`additional_images`的列中（如果尚未添加，请添加该列），并以逗号分隔： `image02.jpg,image03.jpg`
 
-有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)。
+有关启用和管理远程存储模块的详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[配置远程存储](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)。
 
 >[!NOTE]
 >

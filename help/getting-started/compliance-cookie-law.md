@@ -136,9 +136,9 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 ## 产品推荐Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）以下Cookie由面向Adobe Commerce客户的产品推荐使用。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
-- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您拥有用于管理您网站上的Cookie同意的自定义代码，则允许您[限制Adobe Commerce数据收集](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用于[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指示购物者是否已登录或注销。 此Cookie与`dataservices_customer_id` Cookie同时更新。
 - `dataservices_customer_id`：指示购物者是否已登录或注销。 此Cookie包含系统中客户的唯一ID。
@@ -158,7 +158,7 @@ Adobe Commerce和Magento Open Source中的默认Cookie被分类为劐免/不劐�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）已为Adobe Commerce客户设置以下Cookie。 这些Cookie随[数据服务模块](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/getting-started/install-configure)一起安装。
 
 - `mg`：由Snowplow JavaScript跟踪器设置。 有关详细信息，请参阅[雪铲文档](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：给定当前网页的主机名，这是最顶层的域，不是https://publicsuffix.org中所述的“公共后缀”。 本质上，这是可以接受Cookie的最顶部域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。

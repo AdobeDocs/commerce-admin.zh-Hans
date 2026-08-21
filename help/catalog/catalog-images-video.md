@@ -56,5 +56,5 @@ ht-degree: 0%
 
 要获得有关图像和视频问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
-- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [部署后不显示存储映像](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [部署后不显示存储映像](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
