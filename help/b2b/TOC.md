@@ -6,7 +6,7 @@ role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 5%
@@ -69,4 +69,4 @@ ht-degree: 5%
 + 引用 {#reference}
   + [向后不兼容的更改](backward-incompatible-changes.md)
   + [包](packages.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
