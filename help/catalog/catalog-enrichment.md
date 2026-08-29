@@ -63,7 +63,7 @@ ht-degree: 0%
 - 您的店面可以由面向LLM和代理的机器人抓取，这些机器人需要抓取范围才能获得目录感知建议。
 - 所需的Commerce服务和目录连接已启用且运行正常。 请参阅[启用目录扩充](#enable-catalog-enrichment)以了解详情。
 - 已配置[IMS](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)。
-- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
+- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
 - 您的组织已签署底层AI服务的GenAI附加程序，或明确选择退出。
 
 >[!NOTE]
