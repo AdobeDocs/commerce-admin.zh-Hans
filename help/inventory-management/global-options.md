@@ -4,30 +4,21 @@ description: 为所有网站的产品库存选项、阈值和店面显示配置�
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
 
 # 配置[!DNL Inventory Management]全局选项
 
-这些全局设置将应用于&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;下的整个目录。
+这些全局设置将应用于&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**下的整个目录。
 
 为网站的产品和库存配置默认配置选项。 可以通过[配置产品选项](product-options.md)为每个产品覆盖其中的某些设置。 要配置距离优先级设置，请参阅[配置距离优先级算法](distance-priority-algorithm.md)。
 
@@ -93,6 +84,13 @@ ht-degree: 1%
 
    - 对于[!DNL Inventory Management]，**[!UICONTROL Automatically Return Credit Memo Item to Stock]**&#x200B;设置为`No`。 在提交贷项通知单时，您可以输入并选择将库存退回给来源。
 
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Per-Source Availability (Storefront)]**&#x200B;部分并将&#x200B;**[!UICONTROL Enable sourceAvailability GraphQL Query]**&#x200B;设置为`Yes`以允许使用[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询按源库存数据查询店面。 此设置按商店视图限定范围。
+
+   >[!NOTE]
+   >
+   >`sourceAvailability`查询默认处于禁用状态，因为它会披露哪些源存储了SKU。 在源数量达到&#x200B;_[!UICONTROL Stock Options]_部分中设置的&#x200B;**[!UICONTROL Only X left Threshold]**之前，精确数量将保持遮罩状态。 每个库存来源都有一个默认关闭的&#x200B;**[!UICONTROL Visible on Storefront]**标志。 在商家启用源库存之前，源库存永远不会被退回。 若要设置该源，请转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，编辑源，然后打开&#x200B;**[!UICONTROL Visible on Storefront]**。
+
+
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Admin bulk operations]**&#x200B;部分并设置选项：
 
    ![管理员批量操作](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
@@ -103,7 +101,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >要配置和支持&#x200B;_异步队列管理器_，必须使用命令行发出命令。 此步骤可能需要开发人员帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
+     >要配置和支持&#x200B;_异步队列管理器_，必须使用命令行发出命令。 此步骤可能需要开发人员帮助。 请参阅&#x200B;_配置指南_&#x200B;中的[启动消息队列使用者](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
 
    - 如果启用，请设置&#x200B;**[!UICONTROL Asynchronous batch size]**。 默认批次大小为100。 当批量进程达到此数量时，系统会触发该数量。
 
