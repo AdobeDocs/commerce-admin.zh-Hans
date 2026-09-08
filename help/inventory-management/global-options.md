@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -92,6 +92,13 @@ ht-degree: 1%
      例如，可以购买数量为`6`、`12`、`18`等以六为增量销售的项目。
 
    - 对于[!DNL Inventory Management]，**[!UICONTROL Automatically Return Credit Memo Item to Stock]**&#x200B;设置为`No`。 在提交贷项通知单时，您可以输入并选择将库存退回给来源。
+
+1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Per-Source Availability (Storefront)]**&#x200B;部分并将&#x200B;**[!UICONTROL Enable sourceAvailability GraphQL Query]**&#x200B;设置为`Yes`以允许使用[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询按源库存数据查询店面。 此设置按商店视图限定范围。
+
+   >[!NOTE]
+   >
+   >`sourceAvailability`查询默认处于禁用状态，因为它会披露哪些源存储了SKU。 在源数量达到&#x200B;_[!UICONTROL Stock Options]_&#x200B;部分中设置的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，精确数量将保持遮罩状态。 每个库存来源都有一个默认关闭的&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;标志。 在商家启用源库存之前，源库存永远不会被退回。 若要设置该源，请转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，编辑源，然后打开&#x200B;**[!UICONTROL Visible on Storefront]**。
+
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Admin bulk operations]**&#x200B;部分并设置选项：
 

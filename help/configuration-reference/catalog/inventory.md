@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | 全局 | 确定物料是否可以按数量递增销售。 选项： `Yes` / `No` |
 | [!UICONTROL Qty Increments] | 全局 | 确定构成数量增量的产品数量。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | 全局 | 确定是否自动将贷项通知单中包含的物料退回库存。 选项： `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![每个Source的可用性（店面）](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | 商店视图 | 如果设置为`Yes`，店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}查询将返回商店销售渠道的每个源库存。 选项： `Yes` / `No`。 默认值： `No`，因为查询会披露哪些源存储了SKU。 在禁用时，查询返回错误。 在源数量达到[Stock Options](#stock-options)节中设置的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，查询返回的确切数量将保持遮罩状态。 |
 
 {style="table-layout:auto"}
 

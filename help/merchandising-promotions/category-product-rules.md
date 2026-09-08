@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
   >通过组合所有可销售的子产品数量来计算带有子选项的可配置产品的数量。 假设您有一个可配置的产品&#x200B;_基本健身背心_，它有紫色、红色和黄色选项，且每种选项的数量不同。 在这种情况下，母产品（基本健身箱）数量是紫色、红色和黄色子产品的组合可销售数量。
 
 - **[!UICONTROL Operator]** — 指定应用于属性值以满足条件的运算符。 除非指定运算符，否则默认使用`Equal`。 选项： `Equal`、`Not equal`、`Greater than`、`Greater than or equal to`、`Less than`、`Less than or equal to`和`Contains`
+
+  **[!UICONTROL Contains]**&#x200B;运算符接受多个逗号分隔的值，如果属性值至少包含其中一个，则匹配这些值，类似于逻辑OR操作。 例如，**[!UICONTROL Contains]**： `casual, party`匹配任何包含`casual`或`party`的值。
+
+  使用此运算符可将多个术语组合为一个规则行，而不是为每个术语创建单独的行。
 
 - **[!UICONTROL Value]** — 指定属性必须符合条件的值。
 

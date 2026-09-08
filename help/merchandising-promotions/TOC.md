@@ -5,9 +5,9 @@ breadcrumb-title: 促销和促销
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [购物车价格规则概述](price-rules-cart.md)
     - [创建购物车价格规则](price-rules-cart-create.md)
     - [优惠券代码](price-rules-cart-coupon.md)
+    - [免费赠品促销](price-rules-cart-free-gift.md)
     - [购物车价格规则的计划更改](price-rule-cart-scheduled-changes.md)
     - [示例：免运费促销](price-rules-cart-free-shipping.md)
     - [示例：购买此项可免费获取](price-rules-cart-buy-this-get-that.md)

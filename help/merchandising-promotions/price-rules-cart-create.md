@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # 创建购物车价格规则
 
@@ -73,6 +74,7 @@ ht-degree: 0%
      ![购物车价格规则 — 优惠券设置](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png)）为促销选择&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期范围。
+   - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce as a Cloud Service）使用&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png)）为促销选择&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期和时间范围。
 
 1. 输入一个数字，以定义与此同时处于活动状态的其他价格规则的“操作”设置相关的此价格规则的&#x200B;**[!UICONTROL Priority]**。
 
@@ -250,6 +252,7 @@ ht-degree: 0%
    | `Fixed amount discount` | 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在[!UICONTROL Discount Amount]中输入`10`以获取比原始价格低10美元的更新价格。 |
    | 整个购物车的固定金额折扣 | 通过从购物车总计中减去固定金额对整个购物车进行折扣。 例如：在[!UICONTROL Discount Amount]中输入10将从购物车总计中减去$10。 默认情况下，折扣仅适用于购物车小计。 要将折扣分别应用于小计和运费，请使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;选项。 |
    | `Buy X get Y free` | 定义客户必须购买的数量X以免费接收相同产品/变体&#x200B;**的数量Y**。 （[!UICONTROL Discount Amount]为Y。） 购物车中必须存在/添加了相同项目的X+Y总数量才能应用折扣。 |
+   | `Free Gift` | 在满足规则条件时，将免费礼品添加到购物车。 选择要添加到购物车的免费产品和数量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)这是一项仅在Adobe Commerce中提供的专有功能，在Magento Open Source中不可用。 （[了解更多](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支持此功能。 它可通过[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)访问，并可在Edge Delivery Services (EDS)店面中使用。 |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ ht-degree: 0%
 | [!UICONTROL Uses per Customer] | 确定属于任何选定客户组的同一注册客户可以使用购物车价格规则的次数。 不适用于属于NOT LOGGED IN客户组的访客购物者，或者不适用于未登录到其帐户进行购买的客户。 对于无限制，请留空。 |
 | [!UICONTROL Priority] | 指示此规则相对于其他规则的优先级的数字。 从最高到最低的优先级为`0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | 确定促销活动是否包含在商店的公共RSS信息源中。 选项： `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）可以使用优惠券的第一个日期。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）可使用优惠券的最后日期。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）可以使用优惠券的第一个日期。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （仅限[!DNL Adobe Commerce as a Cloud Service]）可以使用优惠券的日期和时间。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）可使用优惠券的最后日期。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （仅限[!DNL Adobe Commerce as a Cloud Service]）可以使用优惠券的最后日期和时间。 |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ ht-degree: 0%
 
 | 字段 | 描述 |
 |--- |--- |
-| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Percent of product price discount]**— 通过从原始价格中减去百分比来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10%的更新价格。<br/>**[!UICONTROL Fixed amount discount]**— 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10美元的更新价格。<br/>**[!UICONTROL Fixed amount discount for whole cart]**— 通过从购物车小计中减去固定金额对整个购物车进行折扣。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`将从购物车小计中扣除$10。 默认情况下，折扣仅适用于购物车小计。 若要将折扣分别应用于小计和运费，请参阅_应用于运费金额&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定义客户必须购买才能免费接收数量的数量。 （_[!UICONTROL Discount Amount]_&#x200B;为Y。） |
+| [!UICONTROL Apply] | 确定应用于购买的计算类型。 选项： <br/>**[!UICONTROL Percent of product price discount]**— 通过从原始价格中减去百分比来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10%的更新价格。<br/>**[!UICONTROL Fixed amount discount]**— 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`以获取比原始价格低10美元的更新价格。<br/>**[!UICONTROL Fixed amount discount for whole cart]**— 通过从购物车小计中减去固定金额对整个购物车进行折扣。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中输入`10`将从购物车小计中扣除$10。 默认情况下，折扣仅适用于购物车小计。 若要将折扣分别应用于小计和运费，请参阅_应用于运费金额&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定义客户必须购买才能免费接收数量的数量。 （_[!UICONTROL Discount Amount]_&#x200B;为Y。） <br/>**[!UICONTROL Free Gift]**— 在满足规则条件时，将免费赠品添加到购物车。 选择要添加到购物车的免费产品和数量。 ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）。 Luma店面不支持此功能。 它可通过[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)访问，并可在Edge Delivery Services (EDS)店面中使用。 |
 | [!UICONTROL Discount Amount] | （必需）提供的折扣金额。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 设置在同一购买中可以应用折扣的最大产品数。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | 设置`X`在`Buy X Get Y Free`促销活动中表示的产品数。 此外，定义必须一起将多少个产品批量添加到购物车中以应用`Fixed amount discount`和`Percent of product price discount`促销。 |
