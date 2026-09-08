@@ -230,7 +230,7 @@ ht-degree: 0%
    | `Name` | 受众的名称，如`Orders over $50` |
    | `Description` | 受众的描述，如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指示受众的来源，如`Experience Platform`。 |
-   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
+   | `Website` | 指示您已链接到包含受众的数据流的网站。 当您通过[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/fundamentals/connect-data)扩展将Commerce实例连接到Experience Platform时，将创建此链接。 |
 
    {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ ht-degree: 0%
    | `Fixed amount discount` | 通过从购物车中每个合格项目的原始价格减去固定金额来折扣项目。 例如：在[!UICONTROL Discount Amount]中输入`10`以获取比原始价格低10美元的更新价格。 |
    | 整个购物车的固定金额折扣 | 通过从购物车总计中减去固定金额对整个购物车进行折扣。 例如：在[!UICONTROL Discount Amount]中输入10将从购物车总计中减去$10。 默认情况下，折扣仅适用于购物车小计。 要将折扣分别应用于小计和运费，请使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;选项。 |
    | `Buy X get Y free` | 定义客户必须购买的数量X以免费接收相同产品/变体&#x200B;**的数量Y**。 （[!UICONTROL Discount Amount]为Y。） 购物车中必须存在/添加了相同项目的X+Y总数量才能应用折扣。 |
-   | `Free Gift` | 在满足规则条件时，将免费礼品添加到购物车。 选择要添加到购物车的免费产品和数量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)这是一项仅在Adobe Commerce中提供的专有功能，在Magento Open Source中不可用。 （[了解更多](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支持此功能。 它可通过[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)访问，并可在Edge Delivery Services (EDS)店面中使用。 |
+   | `Free Gift` | 在满足规则条件时，将免费礼品添加到购物车。 选择要添加到购物车的免费产品和数量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)这是一项仅在Adobe Commerce中提供的专有功能，在Magento Open Source中不可用。 （[了解更多](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支持此功能。 它可通过[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)访问，并可在Edge Delivery Services (EDS)店面中使用。 |
 
    {style="table-layout:auto"}
 
