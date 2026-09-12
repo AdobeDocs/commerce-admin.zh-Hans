@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ ht-degree: 2%
         重大更新，新主题
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">提交</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年7月9日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>描述</th>
-      <th>类型</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含在“管理员”中审阅和应用AI建议的产品名称和描述更新的指导，并从<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog-menu">目录菜单</a>、<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/guide-overview">指南概述</a>和相关产品设置主题中链接了主题。</p>
-</td>
-      <td>
-        新主题
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">提交</a></td>
     </tr>
   </tbody>
 </table>
