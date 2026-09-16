@@ -81,7 +81,7 @@ URL重写工具允许您更改与产品、类别或CMS页面关联的任何URL�
 
 观看以下视频，了解如何管理URL重写：
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410123?captions=chi_hans&quality=12&learn=on)
 
 ## 创建URL重写
 
