@@ -5,13 +5,11 @@ breadcrumb-title: 促销和促销
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: ef07733f89af030f047576770655f6599b370351
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Commerce Merchandising and Promotions指南 {#marketing}
 
@@ -74,6 +72,7 @@ ht-degree: 1%
     - [创建电子邮件提醒](email-reminder-rules-create.md)
 - 搜索引擎优化 {#seo}
   - [seo概述和最佳实践](seo-overview.md)
+  - [搜索词重定向和店面路由](search-term-redirects.md)
   - [Meta数据](meta-data.md)
   - [站点地图](sitemap-xml.md)
   - URL重写 {#url-rewrites}
@@ -88,4 +87,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

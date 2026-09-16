@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # 店面是什么？
 
 在您的Adobe Commerce或Magento Open Source实施中，店面是您的商店中面向公众的外部部分。 它提供客户用于购物和购买的内容和功能组件。
@@ -37,7 +48,7 @@ ht-degree: 0%
 
 ## Commerce店面
 
-通过推出由Edge Delivery Services **提供支持的** Commerce店面，Adobe提供了高性能、可扩展且可靠的店面，该店面利用尖端技术提供卓越的速度和用户体验。
+通过推出由Edge Delivery Services **]提供支持的[!DNL ** Commerce店面，Adobe提供了高性能、可扩展且可靠的店面，该店面利用尖端技术提供卓越的速度和用户体验。
 
 - **增强的性能**：在Edge Delivery Services上托管店面可确保更快的加载时间和改进的网站性能，从而带来更高的转化率和更好的SEO排名。
 
@@ -51,7 +62,7 @@ ht-degree: 0%
 
 由Edge Delivery Services提供支持的Commerce店面提供了多项对商家和开发人员都有利的关键功能。 这些功能使企业能够创造引人入胜的购物体验，同时保持灵活性，以根据自己的需求定制和扩展店面。
 
-有关设置和优化Commerce店面的更多详细信息和指导，请参阅[Adobe Commerce店面文档](https://experienceleague.adobe.com/zh-hans/docs/commerce)。
+有关设置和优化Commerce店面的更多详细信息和指导，请参阅[Adobe Commerce店面文档](https://experienceleague.adobe.com/en/docs/commerce)。
 
 >[!BEGINTABS]
 
@@ -100,13 +111,15 @@ Headless实施使开发人员能够将前端展示层与后端商务功能分离
 
 ### [!DNL Live Search]
 
-使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)，您的商店可提供快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。
 
 ![实时搜索示例 — 键入时搜索](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 标准目录搜索
 
 使用[标准目录搜索](../catalog/search.md)，您的商店在右上角包括一个搜索框，并在页脚中包含一个指向高级搜索的链接。 购物者提交的所有搜索词都会被保存，这样您就可以准确地看到他们要查找的内容。 您可以提供建议，并输入同义词和常见拼写错误。 然后，在输入搜索词时显示特定页面。
+
+有关[!DNL Live Search]或[!DNL Edge Delivery Services]的搜索词重定向、URL重写以及路由的指导，请参阅[搜索词重定向和店面路由](../merchandising-promotions/search-term-redirects.md)。
 
 ![标准目录搜索结果示例](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -128,8 +141,8 @@ Headless实施使开发人员能够将前端展示层与后端商务功能分离
 
 1. 配送信息
 
-   结账流程的第一步是让客户填写送货地址信息，并选择送货方式。如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
-如果访客客户输入的电子邮件地址被识别为先前已注册，则当存储配置中的[!UICONTROL Enable Guest Checkout Login]字段设置为`Yes`时，将显示登录提示（请参阅&#x200B;_配置参考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。但是，此设置可能会向未经身份验证的用户公开客户信息。
+   结账流程的第一步是让客户填写送货地址信息，并选择送货方式。 如果客户有帐户，则系统会自动输入送货地址，但如有需要，可以更改送货地址。
+   如果访客客户输入的电子邮件地址被识别为先前已注册，则当存储配置中的[!UICONTROL Enable Guest Checkout Login]字段设置为`Yes`时，将显示登录提示（请参阅&#x200B;_配置参考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。 但是，此设置可能会向未经身份验证的用户公开客户信息。
 
    ![示例storefront结帐页面](./assets/storefront-checkout-shipping-full.png){width="700"}
 
