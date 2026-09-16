@@ -7,29 +7,40 @@ badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.a
 TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '1003'
 ht-degree: 0%
-
 ---
-
 # URL重写
 
 >[!TIP]
@@ -37,6 +48,8 @@ ht-degree: 0%
 >对于Adobe Commerce as a Cloud Service，请参阅Commerce Storefront文档中的[SEO准则](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)
 
 URL重写工具允许您更改与产品、类别或CMS页面关联的任何URL。 创建URL重写时，Commerce会自动创建永久重定向(301)，以便将指向旧URL的任何链接重定向到新地址。
+
+当源是购物者输入的查询而不是现有URL时，请使用搜索词重定向。 有关更多指导，请参阅[搜索词重定向和店面路由](search-term-redirects.md)。
 
 >[!NOTE]
 >
@@ -142,7 +155,7 @@ Commerce在内部使用基于ID的URL，但您可以为客户创建SEO友好的U
 >
 >本节介绍Web服务器级别的URL重写，它与URL重写工具功能不同。 Web服务器重写处理技术URL格式（如删除`index.php`），而URL重写工具管理内容更改的重定向。
 
-启用Web服务器重写是初始Commerce设置的一部分，通常在安装期间进行配置。启用后，Web服务器（Apache或Nginx）会自动从URL中删除文件名`index.php`，从而创建更干净的、SEO更友好的地址。
+启用Web服务器重写是初始Commerce设置的一部分，通常在安装期间进行配置。 启用后，Web服务器（Apache或Nginx）会自动从URL中删除文件名`index.php`，从而创建更干净的、SEO更友好的地址。
 以下示例显示了在启用Web服务器重写和不启用Web服务器重写的情况下URL的显示方式：
 
 **没有Web服务器重写的URL**
