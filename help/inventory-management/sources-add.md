@@ -56,7 +56,7 @@ ht-degree: 0%
 
    - 如果此清单源已准备就绪，请将&#x200B;**[!UICONTROL Is Enabled]**&#x200B;设置为`Yes`。
 
-   - 若要向店面公开此源的库存，请将&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;设置为`Yes`。 仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+   - 若要向店面公开此源的库存，请将&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;设置为`Yes`。 仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
      默认情况下，此选项设置为`No`。 如果将其设置为`Yes`，则源可能需要达到查询缓存生命周期才能显示在结果中。 如果您随后将此选项设置为`No`，则会立即从查询结果中删除源。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必需）为管理员用户标识库存来源的唯一名称。 |
 | [!UICONTROL Code] | （必需）系统用于标识库存来源的唯一字母数字代码。 以大写或小写字符和/或数字（不含空格）输入代码。 如有必要，可以使用连字符或下划线代替空格。 创建源后无法编辑代码。 它是您向库存分配来源以及导出和/或导入产品数据时使用的唯一ID。 |
 | [!UICONTROL Is Enabled] | 确定库存来源是否可用。 选项：是/否 |
-| [!UICONTROL Visible on Storefront]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 确定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询是否可以返回此库存源的库存信息。 |
+| [!UICONTROL Visible on Storefront]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 确定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询是否可以返回此库存源的库存信息。 |
 | [!UICONTROL Description] | 库存来源地点的简要说明。 包含对管理员用户有用的详细信息。 |
 | [!UICONTROL Latitude] | 指定GPS库存源的纬度坐标。 输入数字形式的值，并根据需要加号或减号加号。 不允许使用度符号和字母。 例如：Latitude 32.7555 |
 | [!UICONTROL Longitude] | 指定GPS库存源的经度坐标。 输入数字形式的值，并根据需要加号或减号加号。 不允许使用度符号和字母。 例如： `-97.3308` |
