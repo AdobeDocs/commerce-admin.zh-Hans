@@ -6,28 +6,38 @@ feature: Customers, Storefront
 TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Privacy
+source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: '1281'
 ht-degree: 0%
-
 ---
-
 # 创建单个客户帐户
 
 您商店的访客可以开立帐户来管理其购买和活动。 客户通常从您的商店创建自己的帐户。 但是，您也可以直接从管理员创建客户帐户，这对于通过电话帮助客户非常有用。
@@ -134,7 +144,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_&#x200B;选项卡显示帐户的摘要。
+   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_选项卡显示帐户的摘要。
 
    ![客户视图](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -165,7 +175,7 @@ ht-degree: 0%
 
    否则，请单击&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;并重复上述步骤以添加其他地址。
 
-   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
+   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
 
    ![地址视图](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -175,7 +185,7 @@ ht-degree: 0%
 
 1. 在网格中查找新的客户帐户。
 
-1. 单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在页面顶部的菜单栏中，单击&#x200B;**[!UICONTROL Reset Password]**。
 
@@ -187,7 +197,7 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_&#x200B;页而不保存更改。 |
+| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_页而不保存更改。 |
 | **[!UICONTROL Delete Customer]** | 删除当前客户。 不会删除与客户关联的已完成订单。 |
 | **[!UICONTROL Reset]** | 将客户表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Create Order]** | 为客户创建订单。 |
