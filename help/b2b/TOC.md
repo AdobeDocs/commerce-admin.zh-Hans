@@ -1,18 +1,16 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce B2B] 指南'
-user-guide-description: 了解如何使用为Adobe Commerce提供的集成B2B功能，
+user-guide-description: 了解如何对Adobe Commerce使用集成的B2B功能，如公司帐户和共享目录管理。
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # [!DNL Adobe Commerce B2B] 指南 {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [设置目录定价和结构](catalog-shared-pricing-structure.md)
     + [将公司分配给目录](catalog-shared-assign-companies.md)
   + [管理共享目录](catalog-shared-manage.md)
+  + [管理目录视图配置](catalog-views-manage.md)
 + [快速订单](quick-order.md)
 + 采购订单 {#purchase-orders}
   + [公司的采购订单](purchase-order-flow.md)
@@ -69,4 +68,4 @@ ht-degree: 5%
 + 引用 {#reference}
   + [向后不兼容的更改](backward-incompatible-changes.md)
   + [包](packages.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

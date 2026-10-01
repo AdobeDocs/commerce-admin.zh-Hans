@@ -5,13 +5,11 @@ breadcrumb-title: 管理系统指南
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 4%
-
 ---
-
 
 # 管理系统指南 {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 4%
   - Commerce服务的数据同步 {#data-sync}
     - [数据管理功能板](data-dashboard.md)
     - [数据馈送同步状态](data-feed-sync-status.md)
+    - 目录视图同步和访问密钥 {#catalog-view-sync}
+      - [目录视图同步状态](catalog-view-sync-status.md)
+      - [访问密钥受限](restricted-access-keys.md)
 - 操作日志 {#action-logs}
   - [概述](action-log.md)
   - [操作日志报告](action-log-report.md)
@@ -80,4 +81,4 @@ ht-degree: 4%
   - [会话管理](security-session-management.md)
   - [浏览器功能检测](security-browser-capabilities-detection.md)
   - [安全问题报告](security-issue-reporting.md)
-- [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

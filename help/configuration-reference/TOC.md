@@ -5,13 +5,11 @@ breadcrumb-title: 配置引用
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # 配置参考指南 {#config}
 
@@ -78,11 +76,14 @@ ht-degree: 2%
 - [销售渠道](./sales-channels.md)
 - 服务 {#services}
   - [Web API](./services/magento-web-api.md)
-  - [Commerce服务](./services/saas.md)
+  - [Commerce服务连接器](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [电子邮件抑制](./services/email-suppression.md)
+  - [ACO目录视图](./services/aco-catalog-view.md)
+  - [ACO目录视图同步](./services/aco-catalog-view-sync.md)
+  - [ACO受限访问密钥](./services/aco-restricted-access-keys.md)
 - 高级 {#advanced}
   - [管理员](./advanced/admin.md)
   - [系统](./advanced/system.md)
   - [开发人员](./advanced/developer.md)
-- [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
+- [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
