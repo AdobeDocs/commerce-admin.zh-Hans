@@ -62,7 +62,7 @@ ht-degree: 0%
 该页面有三个选项卡：
 
 - **[!UICONTROL Catalog Views]** — 连接器创建的目录视图，每个视图具有同步运行状况。 查看[目录视图同步状态摘要](#catalog-view-sync-status-summary)。
-- **[!UICONTROL Orphaned in ACO]** — 存在于[!DNL Adobe Commerce Optimizer]中的实体，没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡](#orphaned-in-aco-tab)中的[孤立。
+- **[!UICONTROL Orphaned in ACO]** — 存在于[!DNL Adobe Commerce Optimizer]中的实体，没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡[&#128279;](#orphaned-in-aco-tab)中的孤立。
 - **[!UICONTROL Deleted]** — 目录视图投影的记录已删除，因为其共享目录已被删除。 查看[已删除选项卡](#deleted-tab)。
 
 ## 目录视图同步状态摘要 {#catalog-view-sync-status-summary}
@@ -103,7 +103,7 @@ ht-degree: 0%
 | **挂起** | 目录视图尚未协调，或正在等待其第一个投影。 |
 | **正在弃用** | 共享目录已在[!DNL Adobe Commerce]中删除，并且目录视图位于其删除宽限期内。 |
 | **已删除** | 目录视图投影在其宽限期之后被删除。 它将作为记录保留在[!UICONTROL Deleted]选项卡上90天。 |
-| **孤立** | 目录视图或键存在于[!DNL Adobe Commerce Optimizer]中，但没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡](#orphaned-in-aco-tab)中的[孤立。 |
+| **孤立** | 目录视图或键存在于[!DNL Adobe Commerce Optimizer]中，但没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡[&#128279;](#orphaned-in-aco-tab)中的孤立。 |
 
 ### 配置删除宽限期 {#configure-the-deletion-grace-period}
 

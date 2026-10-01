@@ -43,13 +43,13 @@ ht-degree: 0%
 ---
 # 管理共享目录
 
-通过&#x200B;_[!UICONTROL Shared Catalogs]_页面可访问管理共享目录所需的工具，包括产品选择、自定义定价、类别权限和目录详细信息。 该页面类似于标准管理员工作区，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
+通过&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;页面可访问管理共享目录所需的工具，包括产品选择、自定义定价、类别权限和目录详细信息。 该页面类似于标准管理员工作区，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
 
 如果安装了[!DNL Adobe Commerce Optimizer Connector for B2B]扩展，该页还允许访问在连接器将数据从每个共享目录同步到[!DNL Adobe Commerce Optimizer]时创建的[!DNL Adobe Commerce Optimizer]目录视图，以及可保护B2B店面体验的目录视图的受限制访问密钥。
 
 ## 更新产品选择
 
-任何共享目录中的产品选择都可从共享目录网格的&#x200B;_[!UICONTROL Action]_列轻松更新。 您所做的更改对任何关联公司帐户的成员可见。 该过程与为新[目录结构](catalog-shared-pricing-structure.md)选择产品相同，只是无法更改配置的范围。
+任何共享目录中的产品选择都可从共享目录网格的&#x200B;_[!UICONTROL Action]_&#x200B;列轻松更新。 您所做的更改对任何关联公司帐户的成员可见。 该过程与为新[目录结构](catalog-shared-pricing-structure.md)选择产品相同，只是无法更改配置的范围。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    您可以跳过第一项，因为共享目录的范围在首次保存后无法更改。
 
-如果您使用的是特定产品，_[!UICONTROL Products In Shared Catalog]_部分将列出该产品可用的每个共享目录。 若要了解详细信息，请参阅[将产品添加到共享目录](catalog-shared-product-add.md)。
+如果您使用的是特定产品，_[!UICONTROL Products In Shared Catalog]_&#x200B;部分将列出该产品可用的每个共享目录。 若要了解详细信息，请参阅[将产品添加到共享目录](catalog-shared-product-add.md)。
 
 ![共享目录中的产品](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 对于网格中要更新的共享目录，转到&#x200B;**[!UICONTROL Action]**&#x200B;列并选择&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
-1. 在&#x200B;_[!UICONTROL Catalog Structure]_页面上，单击&#x200B;**[!UICONTROL Configure]**并执行以下操作之一：
+1. 在&#x200B;_[!UICONTROL Catalog Structure]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Configure]**&#x200B;并执行以下操作之一：
 
    - 在页面顶部的进度指示器中，单击&#x200B;**[!UICONTROL Pricing]**。
    - 单击右上角的&#x200B;**[!UICONTROL Next]**。
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，已分配客户组的&#x200B;_[!UICONTROL Display Product Prices]_和_[!UICONTROL Add to Cart]_&#x200B;的每个[类别权限](../catalog/category-permissions.md)均设置为`Allow`。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)及更高版本** — 在创建共享目录时，已分配客户组的&#x200B;_[!UICONTROL Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_&#x200B;的每个[类别权限](../catalog/category-permissions.md)均设置为`Allow`。 以前，即使将目录权限设置为`Allow`，这些设置也会自动设置为`Deny`。
 
 >[!IMPORTANT]
 >
@@ -136,13 +136,13 @@ ht-degree: 0%
 
 ## 管理目录视图配置
 
-安装[!DNL Adobe Commerce Optimizer Connector for B2B]扩展后，共享目录的&#x200B;_[!UICONTROL Catalog Views]_部分将列出从共享目录投影的[!DNL Adobe Commerce Optimizer]目录视图，并允许您管理保护这些视图的受限制访问密钥。
+安装[!DNL Adobe Commerce Optimizer Connector for B2B]扩展后，共享目录的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;部分将列出从共享目录投影的[!DNL Adobe Commerce Optimizer]目录视图，并允许您管理保护这些视图的受限制访问密钥。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
 1. 对于要审阅的共享目录，转到&#x200B;**[!UICONTROL Action]**&#x200B;列并选择&#x200B;**[!UICONTROL General Settings]**。
 
-1. 在&#x200B;_[!UICONTROL Shared Catalog Information]_面板中选择&#x200B;**[!UICONTROL Catalog Views]**。
+1. 在&#x200B;_[!UICONTROL Shared Catalog Information]_&#x200B;面板中选择&#x200B;**[!UICONTROL Catalog Views]**。
 
 若要了解有关目录视图和编辑受限访问密钥的详细信息，请参阅[管理目录视图配置](catalog-views-manage.md)。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 | [!UICONTROL Back] | 返回到“共享目录”页而不保存新的共享目录。 |
 | [!UICONTROL Delete] | 删除目录，并将任何关联公司及其成员重新分配给公共共享目录。 |
 | [!UICONTROL Reset] | 清除所有未保存的更改的形式，并恢复原始目录详细信息。 |
-| [!UICONTROL Duplicate] | 创建目录](catalog-shared-create.md)的[副本。 对于自定义目录，为原始目录的定价模型和结构，但不包括公司关联。 如果公共共享目录重复，则重复目录的类型将更改为`custom`。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，重复的目录在原始目录中名为&#x200B;_Duplicate of_。 |
+| [!UICONTROL Duplicate] | 创建目录[&#128279;](catalog-shared-create.md)的副本。 对于自定义目录，为原始目录的定价模型和结构，但不包括公司关联。 如果公共共享目录重复，则重复目录的类型将更改为`custom`。 系统还会创建对应的客户组，其名称与重复目录相同。 默认情况下，重复的目录在原始目录中名为&#x200B;_Duplicate of_。 |
 | [!UICONTROL Save and Continue Edit] | 保存所有更改，并保持表单在编辑模式下打开。 |
 | [!UICONTROL Save] | 保存更改，关闭表单，然后返回到“共享目录”页。 |
 
