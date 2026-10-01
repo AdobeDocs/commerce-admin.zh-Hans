@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## 受众和可用性 {#audience}
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
 
 使用B2B共享目录与[!DNL Adobe Commerce Optimizer Connector for B2B]集成的Adobe Commerce on Cloud Infrastructure和本地商户可以使用[!UICONTROL Catalog View Sync Status]页面。 安装连接器扩展时，会自动安装和启用页面。
 
@@ -191,5 +191,5 @@ ht-degree: 0%
 > - [服务> ACO目录视图同步](../configuration-reference/services/aco-catalog-view-sync.md) — 配置删除和创建宽限期以及漂移协调器
 > - [受限访问密钥管理](restricted-access-keys.md) — 管理此页面显示的过期密钥
 > - *Adobe Commerce Optimizer Connector Guide*&#x200B;中的[监视B2B共享目录的目录视图同步](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [专用目录视图](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [受限访问密钥](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [专用目录视图](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/private-catalog-view)
+> - [受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys)

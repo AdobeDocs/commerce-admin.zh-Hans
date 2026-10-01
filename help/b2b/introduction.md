@@ -67,10 +67,10 @@ ht-degree: 2%
 
 Adobe Commerce服务是托管服务，可为Adobe Commerce和Magento Open Source提供扩展功能。 支持B2B工作流的服务包括：
 
-* [目录服务](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [产品推荐](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer连接器](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [目录服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)
+* [实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)
+* [产品推荐](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer连接器](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/overview)
 
 [!DNL Adobe Commerce Optimizer Connector]将目录和定价数据从Adobe Commerce同步到[!DNL Adobe Commerce Optimizer]中以支持AI驱动的产品发现、推荐和Headless店面，而Adobe Commerce仍然是记录系统。
 
@@ -78,7 +78,7 @@ Adobe Commerce服务是托管服务，可为Adobe Commerce和Magento Open Source
 >
 >对于B2B商家，[!DNL Adobe Commerce Optimizer Connector for B2B]会将您的共享目录作为受保护的目录视图自动同步到[!DNL Adobe Commerce Optimizer]中，受限制的访问密钥保护，因此特定于合同的产品分类和定价在两个系统之间保持同步。
 
-有关详细信息，请参阅[[!DNL Adobe Commerce Optimizer Connector] 集成指南](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)。
+有关详细信息，请参阅[[!DNL Adobe Commerce Optimizer Connector] 集成指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/overview)。
 
 ## 共享目录
 
