@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] 指南'
-description: 有关 [!DNL Adobe Commerce B2B] 管理员的全面信息，包括安装和配置。
+description: '[!DNL Adobe Commerce B2B]管理员的综合信息，包括安装和配置。'
 breadcrumb-title: 指南概述
 seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,32 +9,45 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: 9ce6906c107bd91a980e9e522e454452b7fca6f8
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce B2B指南
 
 本指南面向在Adobe Commerce管理员中工作的管理员。 它提供了有关安装和启用此模块的详细信息，包括其功能的配置和管理。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
@@ -54,7 +67,7 @@ ht-degree: 0%
 | [启用基本B2B功能](enable-basic-features.md) | 安装[!DNL Adobe Commerce B2B]后，必须启用要为存储激活的功能。 |
 | [公司帐户](account-companies.md) | 了解公司帐户，以及它们如何为您的商店中的B2B购买者提供支持的主要构建块。 |
 | [公司管理](manage-companies.md) | 了解B2B Commerce站点管理员如何构建公司层次结构，以简化对属于同一企业的多家公司的管理。 |
-| [共享目录](catalog-shared.md) | 了解如何使用共享目录来维护不同公司的带自定义定价的封闭目录。 |
+| [共享目录](catalog-shared.md) | 了解如何使用共享目录对不同公司使用自定义定价来维护专用目录。 对于具有[!DNL Adobe Commerce Optimizer Connector for B2B]的客户，了解如何将B2B共享目录作为专用目录视图同步到[!DNL Adobe Commerce Optimizer]，以使用高级促销功能增强店面体验。 |
 | [快速订单](quick-order.md) | 了解快速订购功能并为您的客户启用。 |
 | [个采购订单](purchase-order-flow.md) | 了解允许公司跟踪和控制其支出的采购订单工作流。 |
 | [引号](quotes.md) | 了解报价工作流以及如何向公司客户提供此服务。 |

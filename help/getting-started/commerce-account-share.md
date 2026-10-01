@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
    >[!NOTE]
    >
    > 如果未显示&#x200B;**[!UICONTROL Delete]**，请检查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果该帐户具有[命名模式且无法删除](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)，则这是因为共享访问是由API创建的，而不是直接从[Commerce帐户](https://account.magento.com/)创建的。
-   > 
+   >
    > 如果不能删除，只需让帐户所有者修改共享访问帐户，并在授予帐户权限下取消选中每个项目。 在该更新之后，用户将无法再访问任何帐户资源。
    > ![图像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -150,11 +150,10 @@ Billing History部分仅显示更改我们的计费系统之前创建的旧发�
 
 1. 提示确认时，单击&#x200B;**[!UICONTROL Delete User]**。
 
->[!NOTE]
->
->您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
+   >[!NOTE]
+   >
+   >您无法在此界面中从MAG[XYZ ]_删除共享名称为_&#x200B;云共享访问的用户。 请参阅[如何删除通过云项目被授予共享访问权限的用户？](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 相关阅读
 
 [共享访问疑难解答](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-

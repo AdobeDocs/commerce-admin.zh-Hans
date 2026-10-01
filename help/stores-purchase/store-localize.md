@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # 商店本地化
 
 通过更改视图的区域设置，可以立即将整个存储中页面上看起来为硬编码的大多数文本更改为其他语言。 更改区域设置实际上不会逐字翻译文本，而只是引用不同的翻译表，该表提供在整个存储区中使用的界面文本。 可更改的文本包括导航标题、标签、按钮和链接，如&#x200B;_我的购物车_&#x200B;和&#x200B;_我的帐户_。 您还可以使用[内联翻译](../configuration-reference/advanced/developer.md)工具修剪界面中的文本。
@@ -68,6 +73,8 @@ ht-degree: 0%
    如果存在几种可用的语言变体，请确保为特定区域或方言选择一种变体。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
+
+   如果安装了[!DNL Adobe Commerce Optimizer Connector for B2B]，则保存显示区域设置更改将使目录视图同步索引器失效。 计划索引器稍后在[!DNL Adobe Commerce Optimizer]中重新投影受影响的目录视图。 目录视图有效负载始终使用`sources[].locale`的存储视图代码，而不是`general/locale/code`中配置的显示区域设置。 请参阅[管理目录视图](../b2b/catalog-views-manage.md)。
 
    更改区域设置的语言后，必须为每个商店视图单独翻译您创建的其余内容，包括产品名称和描述、类别、[CMS](../content-design/page-translate.md)页面以及块。
 

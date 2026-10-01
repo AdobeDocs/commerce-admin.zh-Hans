@@ -6,26 +6,43 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # 商店视图
 
 商店视图通常用于使商店在不同的区域设置中可用。 购物者可以使用商店标题中的语言选择器来更改商店视图。
 
 ![范围 — 多个存储视图](./assets/scope-multiview.svg){width="550"}
+
+## [!DNL Adobe Commerce Optimizer]同步状态 {#optimizer-sync-status}
+
+如果已为网站或商店视图安装和启用[!DNL Adobe Commerce Optimizer Connector]，则[!UICONTROL All Stores]网格将显示同步状态指示器。 如果已安装[!DNL Adobe Commerce Optimizer Connector for B2B]，则还会同步可用B2B共享目录的数据。 请参阅[管理目录视图](../b2b/catalog-views-manage.md)。
+
+| 列 | 指示器 | 描述 |
+| ----- | ----- | ----- |
+| [!UICONTROL Web Site] | [!UICONTROL Price sync enabled for Commerce Optimizer] | 此网站的价格和价格手册已同步到[!DNL Adobe Commerce Optimizer]。 |
+| [!UICONTROL Store View] | [!UICONTROL Product sync enabled for Commerce Optimizer] | 此商店视图的产品和属性已同步到[!DNL Adobe Commerce Optimizer]。 |
+
+![具有Adobe Commerce Optimizer同步指示器的所有商店网格](./assets/stores-all-optimizer-sync.png){width="700" zoomable="yes"}
+
+要启用或禁用同步，请在您[创建网站](stores.md#step-1-create-a-website)或[添加商店视图](#add-a-store-view)或更新现有网站或商店视图时编辑&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**。
 
 ## 添加商店视图
 
@@ -50,6 +67,12 @@ ht-degree: 0%
 1. 要激活视图，请将&#x200B;**[!UICONTROL Status]**&#x200B;设置为`Enabled`。
 
 1. （可选）输入&#x200B;**[!UICONTROL Sort Order]**&#x200B;数字以确定此视图与其他视图一起列出的顺序。
+
+1. （可选）如果已安装[!DNL Adobe Commerce Optimizer Connector]，请在&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**&#x200B;部分中选择&#x200B;**[!UICONTROL Sync products and attributes]**&#x200B;以将此商店视图的产品和属性同步到[!DNL Adobe Commerce Optimizer]。 如果还安装了[!DNL Adobe Commerce Optimizer Connector for B2B]，则此设置还会将B2B共享目录数据同步到[!DNL Adobe Commerce Optimizer]。 请参阅[管理目录视图](../b2b/catalog-views-manage.md)。
+
+   ![创建存储视图 — Adobe Commerce Optimizer导出程序设置](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+   在初始同步后更改此设置将触发完全重新索引。 请参阅&#x200B;*Commerce连接器指南*&#x200B;中的[自定义Adobe Commerce Optimizer范围导出配置](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
 
 1. 单击&#x200B;**[!UICONTROL Save Store View]**。
 
@@ -81,5 +104,8 @@ ht-degree: 0%
    - **[!UICONTROL Code]** （仅当未在`index.php`中使用时）
    - **[!UICONTROL Status]** （仅限非默认视图）
    - **[!UICONTROL Sort Order]**
+   - **[!UICONTROL Sync products and attributes]** （仅当安装了[!DNL Adobe Commerce Optimizer Connector]时）
+
+   ![存储视图 — 使用Adobe Commerce Optimizer导出程序设置编辑默认视图](./assets/stores-optimizer-exporter-settings.png){width="600" zoomable="yes"}
 
 1. 单击&#x200B;**[!UICONTROL Save Store View]**。

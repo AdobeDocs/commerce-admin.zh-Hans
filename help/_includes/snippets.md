@@ -1,13 +1,11 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # 代码片段
 
 ## EE专用功能 {#ee-feature}
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->价格规则将自动与其他系统规则一起处理。 处理频率取决于[cron配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。 在创建价格规则时，请留出足够的时间使其进入系统。 如果确定它在系统中，则测试规则。
+>价格规则将自动与其他系统规则一起处理。 处理频率取决于[cron配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。 在创建价格规则时，请留出足够的时间使其进入系统。 如果确定它位于系统中，请测试规则。
 
 ## 配置设置 {#config}
 
@@ -69,7 +67,6 @@ ht-degree: 0%
 >从2024年6月开始，Adobe Commerce商户无法再使用当前的UPS集成进行交易。 这是因为本机Adobe Commerce集成使用的United Parcel Service (UPS) API当前不支持所需的OAuth 2.0安全模型。 要启用集成，请[在UPS开发人员平台](https://developer.ups.com/get-started)上创建应用程序以获取OAuth 2.0所需的凭据。 在Commerce UPS送货配置中将新凭据用作`username`和`password`。 若要了解有关安全模型更改的详细信息，请参阅[开发人员门户访问密钥迁移指南_](https://developer.ups.com/oauth-developer-guide)。<br/>
 >
 >商家应在其存储中[应用质量修补程序更新](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27146)，以便从SOAP API迁移到支持OAuth 2.0身份验证协议的RESTful API。
-
 
 ## 可用文档 {#docs-links}
 
