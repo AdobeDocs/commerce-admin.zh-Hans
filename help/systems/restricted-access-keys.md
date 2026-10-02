@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -41,11 +42,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于在非B2B方案（如合作伙伴门户）中用于管理专用目录的手动创建的密钥，请从[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理密钥。
+>对于在非B2B方案（如合作伙伴门户）中用于管理专用目录的手动创建的密钥，请从[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理密钥。
 
 ## 受众和可用性 {#audience}
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Restricted Access Keys]页面适用于Adobe Commerce on Cloud Infrastructure和使用B2B共享目录与[!DNL Adobe Commerce Optimizer Connector for B2B]的本地商家。 连接器会自动安装和启用页面。
 
@@ -120,4 +121,4 @@ Commerce会生成一个新的密钥对并存储私钥。 “受限访问密钥�
 > - [服务> ACO受限访问密钥](../configuration-reference/services/aco-restricted-access-keys.md) — 配置默认密钥过期期限
 > - [服务> ACO目录视图](../configuration-reference/services/aco-catalog-view.md) — 配置店面访问令牌生命周期并启用或禁用发布
 > - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中管理受限访问密钥](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — 了解这些密钥如何适应B2B共享目录同步
-> - *Adobe Commerce Optimizer指南*&#x200B;中的[受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B用例的手动基于ACO Studio的密钥流
+> - *Adobe Commerce Optimizer指南*&#x200B;中的[受限访问密钥](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B用例的手动基于ACO Studio的密钥流
