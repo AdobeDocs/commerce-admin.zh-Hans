@@ -1,14 +1,36 @@
 ---
-source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
+source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 ---
 # 新增功能模板
 
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年10月1日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>添加了有关B2B的Adobe Commerce Optimizer Connector的文档：<br /> — 添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">目录视图同步状态</a>和<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">受限访问密钥</a>管理页面，用于监视和修复与Adobe Commerce Optimizer的B2B共享目录同步。<br /> — 添加了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO受限访问密钥</a>配置引用页面。<br /> — 添加了从<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">管理共享目录</a>和<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/companies/account-company-manage">管理公司帐户</a>链接的<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">管理目录视图配置</a>。<br /> — 记录了保存存储<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/site-store/store-localize">存储本地化</a>中视图的区域设置现在会触发连接的B2B共享目录的目录视图重新索引。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年9月23日
 
