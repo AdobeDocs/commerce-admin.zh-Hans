@@ -3,35 +3,42 @@ title: 目录扩充
 description: 使用Adobe Commerce中的本机目录扩充功能，查看并将AI建议的改进应用于产品名称和长描述，以进行LLM和AI辅助发现。
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # 目录扩充
 
 目录扩充是一项原生[!DNL Adobe Commerce]功能，可帮助您改进产品名称和长描述，以便在购物者使用LLM和AI助手进行产品研究和发现时，更准确地表示您的目录。
 
 >[!NOTE]
 >
->目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的LLM Optimizer集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[LLM Optimizer产品文档](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/home)。
+>目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的LLM Optimizer集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[LLM Optimizer产品文档](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)。
 
 ## 工作原理 {#how-it-works}
 
@@ -62,8 +69,8 @@ ht-degree: 0%
 
 - 您的店面可以由面向LLM和代理的机器人抓取，这些机器人需要抓取范围才能获得目录感知建议。
 - 所需的Commerce服务和目录连接已启用且运行正常。 请参阅[启用目录扩充](#enable-catalog-enrichment)以了解详情。
-- 已配置[IMS](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/administration/organizations)。
-- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
+- 已配置[IMS](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
+- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
 - 您的组织已签署底层AI服务的GenAI附加程序，或明确选择退出。
 
 >[!NOTE]
@@ -83,7 +90,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 如果您尚未安装目录服务，请[执行此操作](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. 如果您尚未安装目录服务，请[执行此操作](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;现在可在您的Commerce实例中使用。
 
@@ -91,7 +98,7 @@ ht-degree: 0%
 
 安装目录扩充和目录服务扩充后，管理员可在&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下使用目录扩充功能。
 
-![目录扩充](./assets/catalog-enrichment-menu.png)
+![目录扩充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### 配置目录扩充
 
@@ -104,7 +111,7 @@ ht-degree: 0%
 
    提供您的[!DNL Adobe Commerce]环境详细信息以启用目录LLM Optimizer服务和审核工作流。
 
-   “目录扩充设置”选项卡上的![Commerce配置](./assets/catalog-enrichment-commerce-config.png)
+   “目录扩充设置”选项卡上的![Commerce配置](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 输入商店视图所需的连接详细信息。
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 - **[!UICONTROL Fixed Suggestions]**：已应用或解析的项。
 - **[!UICONTROL Ignored Suggestions]**：您特意从操作中排除的项目。
 
-![目录扩充](./assets/agentic-opportunities.png)
+![目录扩充](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 部署已批准的建议 {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
    产品表单显示扩充的产品名称和/或描述。
 
-   ![扩充的产品名称](./assets/enriched-product-name.png)
+   ![扩充的产品名称](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. 可选：如果要保留手动输入的名称，请选择&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
@@ -186,7 +193,7 @@ ht-degree: 0%
 
    在您应用说明更改后，即会显示扩充说明。
 
-   ![扩充产品说明](./assets/enrich-product-description.png)
+   ![扩充产品说明](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 可选：如果要保留手动输入的描述，请选择&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 
