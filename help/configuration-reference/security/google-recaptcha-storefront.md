@@ -6,30 +6,41 @@ feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/Hl5Ivzg-z8tu96TaZN45UFCMMJ4g05fU5t-Jwok1jZE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: '1612'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]
 
 >[!IMPORTANT]
@@ -141,5 +152,6 @@ ht-degree: 0%
 | [!UICONTROL Enable for Wishlist Sharing] | 网站 | 指定客户[共享愿望清单](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证邮件和电子邮件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for Coupon Codes] | 网站 | 指定客户输入[优惠券代码](../../merchandising-promotions/price-rules-cart-coupon.md)时使用的reCAPTCHA类型。 选项：<br/>**`No`**- （默认）不验证优惠券代码提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | 网站 | 指定客户使用[PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md)支付购买费用时使用的reCAPTCHA类型。 选项： <br/>**`No`**- （默认）不验证密码重置请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
+| [!UICONTROL Enable for Presigned Upload] | 网站 | [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}确定是否使用reCAPTCHA来验证对[`initiateUpload` GraphQL突变](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)的请求，该突变为店面文件上传生成预签名URL。 启用后，每个请求都必须在`X-ReCaptcha`标头中包含有效的reCAPTCHA令牌。 缺少令牌或令牌无效的请求将失败，并且不会颁发上传URL。 选项：<br/>**`No`**- （默认）不验证上载请求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求用户选中&#x200B;_我不是自动机_&#x200B;复选框。<br />**`Invisible reCAPTCHA v2`**— 在后台验证用户行为，无需根据分数进行交互。<br/>**`Invisible reCAPTCHA v3`**  — （推荐）根据交互得分在后台验证用户行为。 |
 
 {style="table-layout:auto"}
