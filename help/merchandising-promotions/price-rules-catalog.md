@@ -6,25 +6,32 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/JZE2DF0tp-XOsKjxo-WaQiwA3Y-FrM4TI5qq-Nze-qo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '518'
 ht-degree: 0%
-
 ---
-
 # 目录价格规则
 
 目录价格规则可用于根据一组已定义的条件以折扣价格向买方提供产品。 目录价格规则不使用[优惠券代码](price-rules-cart-coupon.md)，因为它们是在将产品放入购物车之前触发的。
@@ -58,8 +65,8 @@ ht-degree: 0%
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）在此字段中输入文本，以根据为规则定义的优先级筛选列表。 |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）使用此选项可根据为规则定义的网站筛选列表。 |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示规则信息并更新规则设置（与创建规则类似）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据创建规则时定义的规则的开始日期筛选列表。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据创建规则时定义的规则的结束日期筛选列表。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据创建规则时定义的规则的开始日期筛选列表。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （仅限[!DNL Adobe Commerce as a Cloud Service]）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据规则的开始日期和时间筛选列表。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据创建规则时定义的规则的结束日期筛选列表。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （仅限[!DNL Adobe Commerce as a Cloud Service]）使用动态日历字段(“收件人”(To：)和“发件人”(From：))根据规则的结束日期和时间筛选列表。 |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用此选项根据规则状态（`Active`或`Inactive`）筛选列表。 |
 
 {style="table-layout:auto"}
