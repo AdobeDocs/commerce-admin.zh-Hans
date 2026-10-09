@@ -4,27 +4,36 @@ description: 了解如何使用Dynamic Media URL作为图像或其他媒体资�
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/nml-pHTHdSPcvIVnRwlyjJPhEo2PWdTEKfkn2AFKjvA
+last-update: 2026-05-12
+TQID: 'https://experienceleague.adobe.com/nml-pHTHdSPcvIVnRwlyjJPhEo2PWdTEKfkn2AFKjvA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-05-12
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 # Dynamic media URL
 
 Dynamic Media URL是对图像或其他媒体资源的相对引用。 启用后，Dynamic Media URL可用于直接链接到服务器上的资产或存储在[内容交付网络](media-storage-content-delivery-network.md)上的文件。 使用Dynamic Media URL可能会影响目录性能，可以将[编辑器](editor.md#configure-the-editor)配置为使用静态或Dynamic Media URL。
@@ -51,7 +60,7 @@ Dynamic Media URL是对图像或其他媒体资源的相对引用。 启用后�
 
 >[!NOTE]
 >
->TinyMCE已被Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
+>TinyMCE已由Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
 
 1. 将&#x200B;**[!UICONTROL Use Static URLs for Media Content in WYSIWYG]**&#x200B;设置为以下项之一：
 
