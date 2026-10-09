@@ -3,7 +3,8 @@ title: 管理公司帐户
 description: 了解如何使用公司页面和网格中可用的工具管理Adobe Commerce商店的公司帐户。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+last-update: 2026-10-01
+TQID: 'https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -20,6 +21,8 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA
@@ -42,25 +45,24 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # 管理公司帐户
 
-_[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
+_[!UICONTROL Companies]_页面列出了所有当前公司帐户，无论状态如何。 任何待处理的审批请求都将显示在列表顶部。
 
 ![公司网格](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 使用&#x200B;*[!UICONTROL Columns]*&#x200B;控件自定义网格中显示的列。 使用搜索和筛选功能自定义视图中显示的公司。
 
-- 使用&#x200B;_[!UICONTROL Search]_&#x200B;在&#x200B;**公司**&#x200B;网格中查找公司。 搜索对&#x200B;**公司名称**&#x200B;和&#x200B;**父项**&#x200B;列编制索引。
+- 使用&#x200B;_[!UICONTROL Search]_在&#x200B;**公司**网格中查找公司。 搜索对&#x200B;**公司名称**和&#x200B;**父项**列编制索引。
 
 - 使用[!UICONTROL Filter]自定义视图以包含符合特定条件的记录。 例如，如果B2B站点配置为同时管理单个公司帐户和[公司层次结构](manage-companies.md)，则可以按`[!UICONTROL Company Type - Company]`进行筛选以仅显示单个公司，或按`[!UICONTROL Company Type - Parent]`进行筛选以仅显示每个层次结构的父公司。
 
-使用网格上方的&#x200B;_[!UICONTROL Actions]_&#x200B;控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
+使用网格上方的&#x200B;_[!UICONTROL Actions]_控件将操作应用到多个公司记录。 例如，您可以选择多个请求来在单个操作中激活帐户，而不是批准每个公司请求。 可用的操作取决于分配给管理员用户帐户的角色的[权限](../systems/permissions.md)。
 
 ## 公司角色资源
 
@@ -204,7 +206,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 1. 在网格中，查找要编辑的公司记录。
 
-1. 从&#x200B;_[!UICONTROL Action]_&#x200B;列中选择&#x200B;**[!UICONTROL Edit]**。
+1. 从&#x200B;_[!UICONTROL Action]_列中选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 对公司信息进行必要的更改。
 
@@ -236,7 +238,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 在网格中查找公司，然后单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 使用字段描述根据需要更新每个部分中的字段值，以供参考。
 
@@ -246,7 +248,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 通过观看以下视频，您可以了解有关管理公司帐户的信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410769?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 公司管理
 
@@ -258,7 +260,7 @@ _[!UICONTROL Companies]_&#x200B;页面列出了所有当前公司帐户，无论
 
 ## 管理目录视图配置
 
-安装[!DNL Adobe Commerce Optimizer Connector for B2B]扩展后，公司帐户的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;部分将列出从分配给公司的共享目录预计的[!DNL Adobe Commerce Optimizer]目录视图，并允许您管理保护这些视图的受限制访问密钥。
+安装[!DNL Adobe Commerce Optimizer Connector for B2B]扩展后，公司帐户的&#x200B;_[!UICONTROL Catalog Views]_部分将列出从分配给公司的共享目录预计的[!DNL Adobe Commerce Optimizer]目录视图，并允许您管理保护这些视图的受限制访问密钥。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 

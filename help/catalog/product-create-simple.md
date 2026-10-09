@@ -3,30 +3,40 @@ title: 简单产品
 description: 了解如何创建可单独销售或作为分组、可配置或捆绑产品一部分的简单产品。
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s
+last-update: 2023-05-22
+TQID: 'https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: '607'
 ht-degree: 0%
-
 ---
-
 # 简单产品
 
 利用产品类型强大功能的关键之一是，了解何时使用简单的独立产品。 简单产品可以单独销售，也可以作为分组、可配置或捆绑产品的一部分销售。 具有自定义选项的简单产品有时称为&#x200B;_复合产品_。
@@ -100,7 +110,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
 
    **选择现有类别**：
 

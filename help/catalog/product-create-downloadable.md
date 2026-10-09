@@ -3,33 +3,46 @@ title: 可下载的产品
 description: 了解如何创建可作为数字文件交付的可下载产品。
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 1639
+source-wordcount: '1639'
 ht-degree: 0%
-
 ---
-
 # 可下载的产品
 
 可下载的产品可以是任何可以作为文件提供的产品，例如电子书、音乐、视频、软件应用程序或更新。 您可以提供专辑进行销售，并单独销售每首歌曲。 您还可以使用可下载的产品来交付产品目录的电子版本。
@@ -59,7 +72,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展开&#x200B;_[!UICONTROL Downloadable Product Options]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Downloadable Product Options]_部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![可下载的产品选项](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
@@ -167,7 +180,7 @@ ht-degree: 0%
 
 1. 若要在新产品的[列表](../content-design/widget-new-products-list.md)中显示该产品，请选中&#x200B;**[!UICONTROL Set Product as New]**&#x200B;复选框。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
 
    **选择现有类别**：
 
@@ -198,15 +211,15 @@ ht-degree: 0%
 
 ### 步骤5：完成可下载的信息
 
-向下滚动，展开&#x200B;_[!UICONTROL Downloadable Information]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)，然后选中&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;复选框。
+向下滚动，展开&#x200B;_[!UICONTROL Downloadable Information]_部分的![扩展选择器](../assets/icon-display-expand.png)，然后选中&#x200B;**[!UICONTROL Is this downloadable product?]**复选框。
 
-启用后，_[!UICONTROL Downloadable Information]_&#x200B;部分包含两部分。 第一部分描述了每个下载链接，第二部分描述了每个示例文件。 其中许多选项的默认值可以在[配置](#configure-the-download-options)中设置。
+启用后，_[!UICONTROL Downloadable Information]_部分包含两部分。 第一部分描述了每个下载链接，第二部分描述了每个示例文件。 其中许多选项的默认值可以在[配置](#configure-the-download-options)中设置。
 
 ![可下载的信息](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### 完成链接
 
-1. 在&#x200B;_[!UICONTROL Links]_&#x200B;部分中，输入要用作下载链接标题的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Links]_部分中，输入要用作下载链接标题的&#x200B;**[!UICONTROL Title]**。
 
 1. 如果适用，请选中&#x200B;**[!UICONTROL Links can be purchased separately]**&#x200B;复选框。
 
@@ -221,7 +234,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/files/config-reference-envphp)）。
+   >不能将指向外部资源的链接用作可下载的产品。 有效链接域在`env.php`文件中以编程方式预定义（请参阅&#x200B;_配置指南_&#x200B;中的[env.php引用](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-envphp)）。
 
    - 将&#x200B;**[!UICONTROL Shareable]**&#x200B;设置为以下项之一：
 
@@ -242,7 +255,7 @@ ht-degree: 0%
 
 #### 完成示例
 
-1. 在&#x200B;_[!UICONTROL Samples]_&#x200B;部分中，输入要用作示例标题的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Samples]_部分中，输入要用作示例标题的&#x200B;**[!UICONTROL Title]**。
 
 1. 要完成每个示例的信息，请单击&#x200B;**[!UICONTROL Add Link]**。
 
@@ -294,7 +307,7 @@ ht-degree: 0%
 
 ## 店面体验
 
-在客户帐户仪表板中，_[!UICONTROL My Downloadable Products]_&#x200B;页面链接到每个可下载的产品订单。 订购完成后，可以从客户帐户下载内容。
+在客户帐户仪表板中，_[!UICONTROL My Downloadable Products]_页面链接到每个可下载的产品订单。 订购完成后，可以从客户帐户下载内容。
 
 ![我的可下载产品](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -308,7 +321,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 订单处理状态。 |
 | [!UICONTROL Remaining Downloads] | 已下载产品的可用下载次数。 |
 
-_&#x200B;**要从帐户仪表板下载产品文件**&#x200B;_
+_**要从帐户仪表板下载产品文件**_
 
 1. 客户在其帐户信息板中选择&#x200B;**[!UICONTROL My Downloadable Products]**。
 

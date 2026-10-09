@@ -1,31 +1,41 @@
 ---
 title: 媒体集图像优化
-description: 了解如何对 [!DNL Commerce] 媒体资源使用图像优化。
+description: 了解如何对[!DNL Commerce]媒体资源使用图像优化。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 # 媒体集图像优化
 
 新[媒体集](media-gallery.md)提供了&#x200B;_图像优化_&#x200B;功能，该功能可提高性能并降低店面上的媒体文件大小。 此优化默认处于启用状态，并可在存储配置设置中进行修改。
@@ -47,7 +57,7 @@ ht-degree: 0%
 
 当配置中的&#x200B;_最大宽度_&#x200B;和&#x200B;_最大高度_&#x200B;值更改时，它会更新之前插入的所有现有优化图像。
 
-媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
+媒体集图像优化要求在配置更改时运行`media.gallery.renditions.update`队列使用者以重新生成优化图像。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

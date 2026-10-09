@@ -3,31 +3,41 @@ title: 系统备份
 description: 了解如何创建和计划系统备份，包括文件系统、数据库和媒体文件。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '391'
 ht-degree: 0%
-
 ---
-
 # 系统备份
 
 Adobe Commerce和Magento Open Source让您能够备份系统的不同部分（如文件系统、数据库和媒体文件），并自动回滚。 每个备份的记录都显示在&#x200B;_备份_&#x200B;页上的网格中。 从列表中删除记录也会删除存档的文件。 数据库备份文件使用GZ格式进行压缩。 对于系统备份、数据库和介质备份，使用TGZ格式。 作为最佳实践，您应限制对备份工具的访问，并在安装扩展和更新之前进行备份。
