@@ -1,7 +1,7 @@
 ---
-source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
+source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '448'
 ht-degree: 1%
 ---
 # 新增功能模板
@@ -9,6 +9,28 @@ ht-degree: 1%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年10月8
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新了10月Adobe Commerce as a Cloud Service版本的Adobe Commerce管理文档：<br /> — 向<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/general/bulk-api">Adobe Commerce as a Cloud Service配置参考</a>添加了一个不可配置的“每次批量请求的最大实体数”字段。<br /> — 您现在可以要求Google对<a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL突变</a>进行reCAPTCHA验证以保护预签名文件上传。<br /> — 您现在可以将<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">目录价格规则</a>的每日时间设置为在Commerce管理中开始或结束。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月1日
 
@@ -72,28 +94,6 @@ ht-degree: 1%
         技术
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">提交</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年8月4日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>描述</th>
-      <th>类型</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>刷新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">数据馈送同步状态</a>主题以匹配当前的管理员体验，澄清页面仅报告导出状态，并记录功能在Commerce服务许可证间何时可用。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">提交</a></td>
     </tr>
   </tbody>
 </table>
