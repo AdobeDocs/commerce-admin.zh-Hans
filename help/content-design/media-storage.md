@@ -3,14 +3,30 @@ title: 媒体存储
 description: 了解介质存储如何帮助您整理和获取对存储在服务器上的Commerce介质文件的访问权限。
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # 媒体存储
 
 介质存储可帮助您组织和获取对存储在服务器上的介质文件的访问权限。 文件位置的路径由[基本URL](../stores-purchase/store-urls.md)配置决定。 处理页面和静态块时，可以从编辑器访问媒体存储中的文件。 通常，介质存储与[!DNL Commerce]程序文件驻留在同一服务器上的文件系统中。
@@ -29,9 +45,9 @@ ht-degree: 0%
 
    ![插入图像图标](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;对话框。
+   此操作打开&#x200B;_[!UICONTROL Insert/edit image]_对话框。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左侧的目录树中，执行以下操作之一：
 
@@ -55,7 +71,7 @@ ht-degree: 0%
 
    - 单击&#x200B;**[!UICONTROL Search Adobe Stock]**。
 
-   - 从Adobe Stock添加预览或许可图像(请参阅[使用Adobe Stock图像](adobe-stock-manage.md))。
+   - 从Adobe Stock添加预览或许可图像（请参阅[使用Adobe Stock图像](adobe-stock-manage.md)）。
 
 图像将上载到服务器上的当前媒体存储文件夹中。
 
@@ -69,7 +85,7 @@ ht-degree: 0%
 
 1. 在[编辑器](editor.md)工具栏上，单击&#x200B;_插入图像_&#x200B;图标。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之后，单击_&#x200B;搜索&#x200B;_图标（![搜索图标](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![选择搜索图标](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -83,4 +99,4 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Insert Image]**。
 
-   ![插入图像(HTML模式)](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}
+   ![插入图像（HTML模式）](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}

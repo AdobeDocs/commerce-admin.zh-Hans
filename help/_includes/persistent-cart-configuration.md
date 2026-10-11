@@ -5,15 +5,13 @@ source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
-
 ---
-
 
 # [!UICONTROL General Options]
 
 ![常规选项](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 | 字段 | [作用域](/help/getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |------------------------------------------------------------------------|--- |
@@ -22,12 +20,12 @@ ht-degree: 0%
 | [!UICONTROL Enable "Remember Me"] | 网站 | 定义&#x200B;_记住我_&#x200B;复选框是否显示在应用商店的登录和注册页面上。 选项： <br/>**`Yes`**— 显示&#x200B;_记住我_复选框。<br/>**`No`** — 不显示&#x200B;_记住我_&#x200B;复选框，永久性Cookie仅用于已拥有该永久性Cookie的客户。 |
 | [!UICONTROL "Remember Me" Default Value] | 网站 | 定义&#x200B;_记住我_&#x200B;复选框的默认状态。 |
 | [!UICONTROL Clear Persistence on Log Out] | 网站 | 定义在商店客户注销时是否删除永久性Cookie。 无论如何配置此选项，如果客户未注销，但会话Cookie过期，则仍会使用永久性Cookie。 |
-| [!UICONTROL Persist Shopping Cart] | 网站 | 定义使用永久性Cookie是否授予对相应帐户的购物车数据的访问权限。 选项： <br/>**`Yes`**&#x200B;或&#x200B;**`No`**。 |
-| [!UICONTROL Persist Wish List] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时是否保留客户愿望清单的状态。 选项： <br/>**`Yes`**— 会话结束时保存了希望列表内容。<br/>**`No`** — 会话结束时未保存希望列表。 |
-| [!UICONTROL Persist Recently Ordered Items] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时是否保存最近排序的项目的状态。 选项： <br/>**`Yes`**&#x200B;或&#x200B;**`No`**。 |
-| [!UICONTROL Persist Currently Compared Products] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时当前比较的产品的状态是否保留。 选项： <br/>**`Yes`**&#x200B;或&#x200B;**`No`**。 |
-| [!UICONTROL Persist Comparison History] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时是否保留比较历史记录的状态。 选项： <br/>**`Yes`**&#x200B;或&#x200B;**`No`**。 |
-| [!UICONTROL Persist Recently Viewed Products] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时是否保留最近查看的产品的状态。 选项： <br/>**`Yes`**&#x200B;或&#x200B;**`No`**。 |
-| [!UICONTROL Persist Customer Group Membership and Segmentation] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)(仅限Adobe Commerce)确定会话结束时是否保留客户群组成员资格的状态和分段条件。 选项： <br/>**`Yes`**— 会话结束时保存客户的组成员资格和分段数据的状态。<br/>**`No`** — 会话结束时未保存客户的组成员资格状态和分段数据。 |
+| [!UICONTROL Persist Shopping Cart] | 网站 | 定义使用永久性Cookie是否授予对相应帐户的购物车数据的访问权限。 选项： <br/>**`Yes`**或&#x200B;**`No`**。 |
+| [!UICONTROL Persist Wish List] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时是否保留客户愿望清单的状态。 选项： <br/>**`Yes`**— 会话结束时保存了希望列表内容。<br/>**`No`** — 会话结束时未保存愿望清单。 |
+| [!UICONTROL Persist Recently Ordered Items] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时是否保存最近排序的项目的状态。 选项： <br/>**`Yes`**或&#x200B;**`No`**。 |
+| [!UICONTROL Persist Currently Compared Products] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时当前比较的产品的状态是否保留。 选项： <br/>**`Yes`**或&#x200B;**`No`**。 |
+| [!UICONTROL Persist Comparison History] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时是否保留比较历史记录的状态。 选项： <br/>**`Yes`**或&#x200B;**`No`**。 |
+| [!UICONTROL Persist Recently Viewed Products] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时是否保留最近查看的产品的状态。 选项： <br/>**`Yes`**或&#x200B;**`No`**。 |
+| [!UICONTROL Persist Customer Group Membership and Segmentation] | 网站 | ![Adobe Commerce](/help/assets/adobe-logo.svg)（仅限Adobe Commerce）确定会话结束时是否保留客户群组成员资格的状态和分段条件。 选项： <br/>**`Yes`**— 会话结束时保存客户的组成员资格和分段数据的状态。<br/>**`No`** — 会话结束时未保存客户的组成员资格状态和分段数据。 |
 
 {style="table-layout:auto"}
