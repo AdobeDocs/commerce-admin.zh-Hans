@@ -3,31 +3,47 @@ title: 优惠券代码
 description: 了解如何将优惠券代码与购物车价格规则结合使用，以在满足一组条件时应用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
+TQID: 'https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2339'
 ht-degree: 0%
-
 ---
-
 # 优惠券代码
 
 优惠券代码与[购物车价格规则](price-rules-cart.md)一起使用，以便在满足一组条件时应用折扣。 例如，可以为特定客户组或购买超过一定金额的客户创建优惠券代码。 若要将优惠券应用于购买，客户可以在购物车中输入优惠券代码，也可以在&#x200B;_实体店_&#x200B;的收银机中输入该优惠券。 以下是一些可在商店中使用优惠券的方法：
@@ -91,7 +107,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)运行cron 。
+>[!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在创建优惠券之前，请使用`bin/magento cron:run`命令验证cron是否正在运行。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的从命令行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)运行cron [。
 
 ### 方法1：创建特定优惠券
 
@@ -201,7 +217,7 @@ ht-degree: 0%
 
 ### 方法3：自定义优惠券代码
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 创建[购物车价格规则](price-rules-cart.md)后，您可以手动将自定义优惠券代码添加到该规则中。
 
@@ -260,7 +276,7 @@ ht-degree: 0%
 
    ![导入优惠券结果](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;中显示为一个条目，并选择一个条目。
+要监视导入的进度和详细结果，请单击&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每个导入都在&#x200B;**[!UICONTROL Bulk Actions]**中显示为一个条目，并选择一个条目。
 
 ## 优惠券报告
 

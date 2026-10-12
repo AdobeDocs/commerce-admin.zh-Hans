@@ -3,30 +3,42 @@ title: 产品评价
 description: 了解产品审查如何增强您的商店并为您的产品带来更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # 产品评价
 
 产品审查有助于建立一种社区意识，被认为比任何广告资金都更可信。 事实上，一些搜索引擎为有产品评论的网站提供了比没有产品评论的网站更高的排名。 对于通过搜索特定产品找到您网站的人，产品评论基本上就是您商店的登陆页面。 产品审查可帮助人们找到您的商店，让他们保持参与，并且通常有助于销售。
@@ -37,7 +49,7 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含了Yotpo供应商开发的扩展。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace安装和更新。 通过Marketplace，还可以访问扩展开发人员提供的当前文档。
 ><br><br>
->如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 店面的产品评论
 
@@ -59,7 +71,7 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 
 ### [!UICONTROL My Product Reviews]
 
-客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_&#x200B;部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
+客户帐户仪表板的&#x200B;_[!UICONTROL My Product Reviews]_部分列出了客户提交并批准发布的所有审核。 每个审阅摘要都包含提交审阅的日期、指向产品页面的链接以及审阅详细信息。
 
 ![我的产品评价](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -107,7 +119,7 @@ Commerce产品审阅功能默认处于启用状态。
 
    ![管理员 — 评级](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Rating Title]_&#x200B;部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
+1. 在&#x200B;_[!UICONTROL Rating Title]_部分中，输入新评分的&#x200B;**[!UICONTROL Default Value]**。
 
    如果适用，还应输入每个商店视图的翻译。
 
