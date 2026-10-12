@@ -3,7 +3,7 @@ title: 安装适用于Commerce的AEM Assets包
 description: 添加启用Commerce的AEM Assets集成所需的资源元数据，以便在Adobe Commerce和Experience Manager Assets项目之间同步资源。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -63,9 +63,9 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 您需要以下资源和权限才能使用此AEM项目更新环境配置：
 
-- [使用计划和部署管理员角色访问AEM Assets Cloud Manager计划和环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)。
+- [使用计划和部署管理员角色访问AEM Assets Cloud Manager计划和环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)。
 
-- [本地AEM开发环境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，熟悉AEM本地开发过程。
+- [本地AEM开发环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，熟悉AEM本地开发过程。
 
 - 了解[AEM项目结构](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)以及如何使用Cloud Manager部署自定义内容包。
 
@@ -77,7 +77,7 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 1. 从GitHub中，从[Commerce-Assets AEM项目](https://github.com/ankumalh/assets-commerce)下载样板代码。
 
-1. 从[本地AEM开发环境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，将自定义代码作为Maven包安装到AEM Assets环境配置中，或者通过将代码手动复制到现有项目配置中。
+1. 从[本地AEM开发环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)，将自定义代码作为Maven包安装到AEM Assets环境配置中，或者通过将代码手动复制到现有项目配置中。
 
 1. 提交更改并将本地开发分支推送到Cloud Manager Git存储库。
 

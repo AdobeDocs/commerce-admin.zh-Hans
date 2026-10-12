@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
 description: 查看Commerce管理员的[!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector]页面上的配置设置。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

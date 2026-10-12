@@ -4,7 +4,7 @@ description: 了解如何使用媒体数据库存储[!DNL Commerce]媒体文件�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/QUhPGliOg0grz9UcLAcWWiPd5Zh4pIvB-n-QeORilfg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

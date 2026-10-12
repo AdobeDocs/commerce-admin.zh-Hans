@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ![常规选项](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[General Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 ![共享选项](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!-- [Share Options](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -76,7 +76,7 @@ ht-degree: 3%
 
 ![我的愿望清单链接](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

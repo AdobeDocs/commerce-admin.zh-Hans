@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ![常规](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [General](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ![电子邮件](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [Email](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

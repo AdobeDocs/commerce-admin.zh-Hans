@@ -4,7 +4,7 @@ description: 了解如何创建可从特定存储视图中找到的每个页面�
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

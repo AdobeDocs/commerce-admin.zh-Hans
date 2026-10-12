@@ -3,7 +3,7 @@ title: 主题
 description: 了解[!DNL Commerce]主题，其中包括定义商店外观的布局文件、模板文件、翻译文件和外观。
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

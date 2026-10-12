@@ -42,7 +42,7 @@ ht-degree: 5%
 
 ![Rss配置](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ![愿望清单](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 5%
 
 ![目录](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog-menu) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
@@ -83,7 +83,7 @@ ht-degree: 5%
 
 ![订单](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
