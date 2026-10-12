@@ -3,27 +3,35 @@ title: 配送设置
 description: 了解如何配置配送设置，以定义商店的原点和配送政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s
+TQID: 'https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '555'
 ht-degree: 0%
-
 ---
-
 # 配送设置
 
 发运配置为所有发运、您的发运策略以及将发运处理到多个地址建立起点位置。
@@ -98,7 +106,7 @@ ht-degree: 0%
 
 ## 电子邮件装运跟踪URL
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 默认情况下，购物者电子邮件中发送的发货跟踪编号是纯文本。 您可以通过启用自定义跟踪URL功能，将这些跟踪数字转换为可点击链接。 此功能允许您定义用于跟踪各种装运承运人的URL的模板。 每个模板都包含跟踪网站的完整URL和跟踪号的占位符。 Commerce将占位符替换为电子邮件中的实际跟踪号。
 

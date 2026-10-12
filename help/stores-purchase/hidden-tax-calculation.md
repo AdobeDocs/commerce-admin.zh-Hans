@@ -3,24 +3,33 @@ title: 隐藏税计算
 description: 了解如何在存在含税的折扣时配置隐藏税计算。
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 1%
-
 ---
-
 # 隐藏税计算
 
 _隐藏税额_&#x200B;是折扣金额的增值税额。 当以下所有条件都成立时，它就不是零了：
@@ -41,12 +50,12 @@ _隐藏税额_&#x200B;是折扣金额的增值税额。 当以下所有条件都
 
 ### 预期结果无效
 
-- 不含折扣的税后项目价格=100美元
-- 税前项目价格（无折扣）=100/1.2=83.33美元
-- 折扣=83.33 \ *0.1=8.33美元
-- 税金=(83.33-8.33) \ *0.2=**15美元（无效）**
-- 不含税的订单总额=83.33-8.33=**75美元（无效）**
-- 含税订单总额=75+15=**90美元（无效）**
+- 不含折扣的税后项目价格=100 USD
+- 税前项目价格（无折扣）=100/1.2=83.33 USD
+- 折扣=83.33 \ *0.1=8.33USD
+- 税费=(83.33-8.33) \ *0.2=**15 USD（无效）**
+- 不含税的订单总计=83.33-8.33=**75 USD（无效）**
+- 含税订单总计=75+15=**90 USD（无效）**
 
 ### 购物车中的有效实际结果
 
@@ -80,7 +89,7 @@ _隐藏税额_&#x200B;是折扣金额的增值税额。 当以下所有条件都
 
 1. 客户通常如何理解折扣价格（订单总额）：
 
-   _含税物料的全价&#x200B;**减**&#x200B;折扣额：$100 - $8.33 = $91.67_
+   _含税物料的全价&#x200B;**减**折扣额：$100 - $8.33 = $91.67_
 
 1. **Commerce如何计算折扣价格**（请参阅之前的公式）：
 

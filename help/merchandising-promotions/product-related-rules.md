@@ -3,28 +3,41 @@ title: 相关产品规则
 description: 了解相关的产品规则以及如何使用它们向客户动态展示相关产品、进行追加销售和交叉销售。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+TQID: 'https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # 相关产品规则（目标规则）
 
 {{ee-feature}}
@@ -43,8 +56,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 分配给每个相关产品规则的唯一数字标识符 |
 | [!UICONTROL Rule] | 相关产品规则的名称 |
-| [!UICONTROL Start] | 使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
-| [!UICONTROL End] | 使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
+| [!UICONTROL Start] | 使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
+| [!UICONTROL End] | 使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
 | [!UICONTROL Priority] | 在此字段中输入文本以根据为规则定义的优先级筛选列表。 |
 | [!UICONTROL Applies To] | 此选项筛选应用于`Related Products`、`Up-sells`和`Cross-sells`的规则列表。 |
 | [!UICONTROL Status] | 使用此选项可根据规则状态（`Active`或`Inactive`）筛选列表。 |
@@ -62,7 +75,7 @@ ht-degree: 0%
 例如，假设您有三个规则，其优先级为`1`、`2`和`3`。
 
 - 为&#x200B;_规则1_&#x200B;返回了两个匹配产品，为&#x200B;_规则2_&#x200B;返回了六个匹配产品，为&#x200B;_规则3_&#x200B;返回了20个匹配产品。
-- 在配置中，_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;设置为`6`。
+- 在配置中，_[!UICONTROL Maximum Number of Products for Related Products List]_设置为`6`。
 
   | 规则 | 优先级 | 匹配产品 |
   |---|---|-----|
@@ -110,15 +123,15 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Show Cross-Sell Products]**&#x200B;设置为以下项之一：
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - 将&#x200B;**[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]**&#x200B;设置为以下项之一：
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. 要完成追加销售产品设置，请执行以下操作：
 
@@ -126,15 +139,15 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Show Upsell Products]**&#x200B;设置为以下项之一：
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - 将&#x200B;**[!UICONTROL Rotation Mode for Products in Upsell Product List]**&#x200B;设置为以下项之一：
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

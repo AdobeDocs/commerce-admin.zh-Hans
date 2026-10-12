@@ -3,28 +3,37 @@ title: 店面订单管理
 description: 了解客户如何在Commerce店面查看和管理其订单历史记录。
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+TQID: 'https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # 店面订单管理
 
 客户可以从其帐户访问其所有订单。 订单可以查看、过滤、跟踪和重新提交为新订单。 根据订单的状态，客户可以打印其订单、发票、发运和退款记录。
@@ -33,7 +42,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-您的初始&#x200B;_[!UICONTROL My Orders]_&#x200B;结果还包含来自商业实例中所有网站的从属用户的匹配订单。 与公司帐户关联的客户可以筛选订单列表，以快速查找结果中的记录。 要显示筛选器选项，客户单击&#x200B;**[!UICONTROL Filter]**，然后单击&#x200B;**[!UICONTROL Close]**&#x200B;以隐藏筛选器。
+您的初始&#x200B;_[!UICONTROL My Orders]_结果还包含来自商业实例中所有网站的从属用户的匹配订单。 与公司帐户关联的客户可以筛选订单列表，以快速查找结果中的记录。 要显示筛选器选项，客户单击&#x200B;**[!UICONTROL Filter]**，然后单击&#x200B;**[!UICONTROL Close]**以隐藏筛选器。
 
 ![我的订单](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -57,7 +66,7 @@ ht-degree: 0%
 
 对于在下订单后登录的客户，**[!UICONTROL Recent Orders]**&#x200B;块会显示在侧边栏和&#x200B;**[!UICONTROL My Account]**&#x200B;页面上。 它显示上次购买的五个产品。
 
-客户可以通过选择产品并单击&#x200B;**[!UICONTROL Add to Cart]**&#x200B;将产品读入购物车。 他们还可以通过单击&#x200B;**[!UICONTROL View all]**&#x200B;查看最后的订单，该订单将重定向到&#x200B;_[!UICONTROL My Account]_&#x200B;页面和&#x200B;**[!UICONTROL Recent Orders]**&#x200B;块。
+客户可以通过选择产品并单击&#x200B;**[!UICONTROL Add to Cart]**&#x200B;将产品读入购物车。 他们还可以通过单击&#x200B;**[!UICONTROL View all]**&#x200B;查看最后的订单，该订单将重定向到&#x200B;_[!UICONTROL My Account]_页面和&#x200B;**[!UICONTROL Recent Orders]**块。
 
 ### 打印订单
 
@@ -118,7 +127,7 @@ ht-degree: 0%
 
 ## 重新排序
 
-_[!UICONTROL Reorder]_&#x200B;链接显示在列表中，订单位于&#x200B;_[!UICONTROL View]_&#x200B;链接附近。
+_[!UICONTROL Reorder]_链接显示在列表中，订单位于_[!UICONTROL View]_&#x200B;链接附近。
 
 ![重新排序我的订单页面上的链接](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -132,7 +141,7 @@ _[!UICONTROL Reorder]_&#x200B;链接显示在列表中，订单位于&#x200B;_[!
 >
 >可以对`Not Visible Individually`产品重新排序。
 
-_[!UICONTROL Reorder]_&#x200B;链接未出现在&#x200B;_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_&#x200B;页面上。
+_[!UICONTROL Reorder]_链接未出现在_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_页面上。
 
 ![我的订单页](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -150,7 +159,7 @@ _[!UICONTROL Reorder]_&#x200B;链接未出现在&#x200B;_[!UICONTROL My Orders]_
 - 订单查看页面
 - 我的帐户页面
 
-_[!UICONTROL Cancel Order]_&#x200B;链接显示在&#x200B;_[!UICONTROL Reorder]_&#x200B;链接附近。 如果无法取消订单，则不会显示链接。
+_[!UICONTROL Cancel Order]_链接显示在_[!UICONTROL Reorder]_&#x200B;链接附近。 如果无法取消订单，则不会显示链接。
 
 在“我的订单”页面上![取消链接](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -168,7 +177,7 @@ _[!UICONTROL Cancel Order]_&#x200B;链接显示在&#x200B;_[!UICONTROL Reorder]_
 
    在“我的订单”页面上![取消](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   取消后，将处理处于&#x200B;_[!UICONTROL Pending]_&#x200B;状态、更改为&#x200B;_[!UICONTROL Canceled]_&#x200B;状态、处于&#x200B;_[!UICONTROL Processing]_&#x200B;状态、更改为&#x200B;_[!UICONTROL Closed]_&#x200B;状态以及退款的订单。
+   取消后，将处理处于&#x200B;_[!UICONTROL Pending]_状态、更改为_[!UICONTROL Canceled]_&#x200B;状态、处于&#x200B;_[!UICONTROL Processing]_状态、更改为_[!UICONTROL Closed]_&#x200B;状态以及退款的订单。
 
    取消完成后，会向客户发送电子邮件。
 

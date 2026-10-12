@@ -1,29 +1,38 @@
 ---
-title: ' [!DNL Media Gallery]'
+title: '[!DNL Media Gallery]'
 description: 使用介质集来组织和管理服务器上的介质文件。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # [!DNL Media Gallery]
 
 借助Adobe Commerce或Magento Open Source 2.4，商家可以使用新的&#x200B;_增强型_ [!DNL Media Gallery]来组织和管理服务器上的媒体文件。 此新[!DNL Media Gallery]包含与现有媒体存储相同的功能，但包含改进的用户界面以及与[Adobe Stock](https://stock.adobe.com)的更紧密集成。
@@ -32,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->添加到&#x200B;[_[!UICONTROL Images and Videos]_&#x200B;产品部分](../catalog/product-image.md#upload-an-image)的产品图像不由[!DNL Media Gallery]管理。 只有在&#x200B;_[!UICONTROL Content]_&#x200B;产品部分字段中使用的图像才会在新[!DNL Media Gallery]中显示和过滤。
+>添加到&#x200B;[_[!UICONTROL Images and Videos]_产品部分](../catalog/product-image.md#upload-an-image)的产品图像不由[!DNL Media Gallery]管理。 只有在_[!UICONTROL Content]_&#x200B;产品部分字段中使用的图像才会在新[!DNL Media Gallery]中显示和过滤。
 
 ## 启用新[!DNL Media Gallery]
 
@@ -50,11 +59,11 @@ ht-degree: 0%
 
 1. 出现提示时，单击系统消息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;链接并刷新无效缓存。
 
-   [[!UICONTROL Content]菜单](/help/content-design/content-menu.md)现在显示新的&#x200B;_[!UICONTROL Media Gallery]_&#x200B;选项。
+   [[!UICONTROL Content]菜单](/help/content-design/content-menu.md)现在显示新的&#x200B;_[!UICONTROL Media Gallery]_选项。
 
 >[!NOTE]
 >
->新[!DNL Media Gallery]的完整功能要求启动`media.gallery.synchronization`和`media.content.synchronization`队列使用者进行初始同步。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
+>新[!DNL Media Gallery]的完整功能要求启动`media.gallery.synchronization`和`media.content.synchronization`队列使用者进行初始同步。 有关详细信息，请参阅&#x200B;_配置指南_&#x200B;中的[管理消息队列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
 
 ## 访问新[!DNL Media Gallery]
 
@@ -70,7 +79,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add a New Page]**。
 
-   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_&#x200B;列单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
+   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_列单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
@@ -84,4 +93,4 @@ ht-degree: 0%
 
 要了解有关[!DNL Media Gallery]的更多信息，请观看此视频：
 
->[!VIDEO](https://video.tv.adobe.com/v/3411042?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)

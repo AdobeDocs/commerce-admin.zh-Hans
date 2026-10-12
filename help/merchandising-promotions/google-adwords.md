@@ -3,32 +3,47 @@ title: Google AdWords
 description: 了解如何为Google AdWords转化跟踪配置您的Commerce商店，以衡量促成销售或其他有价值的操作的广告点击量。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 [Google AdWords](https://www.google.com/adwords/)是一项服务，可用于在Google搜索结果和Google显示网络的公司页面上投放广告。 AdWords仪表板包括管理营销活动、跟踪响应和衡量结果的工具。
@@ -53,8 +68,8 @@ ht-degree: 0%
 
    - 单击&#x200B;**[!UICONTROL Value]**，并在适用的情况下为转换分配值。 例如：
 
-      - 如果您每次销售赚取$5，请选择`Each time it happens`并分配值`$5`。
-      - 如果每次销售的价值各不相同，则将该值留空。
+     - 如果您每次销售赚取$5，请选择`Each time it happens`并分配值`$5`。
+     - 如果每次销售的价值各不相同，则将该值留空。
 
      要完成，请单击&#x200B;**[!UICONTROL Done]**。
 
@@ -105,9 +120,9 @@ ht-degree: 0%
 
    - 输入要在转化页面上用于Google Sites Stat通知的&#x200B;**[!UICONTROL Conversion Format]**。
 
-      - `1` — 显示一行通知，其中包含指向Google跟踪详细信息的链接。
-      - `2` — 显示两行通知，其中包含指向Google跟踪详细信息的链接。
-      - `3` — 不显示客户通知。
+     - `1` — 显示一行通知，其中包含指向Google跟踪详细信息的链接。
+     - `2` — 显示两行通知，其中包含指向Google跟踪详细信息的链接。
+     - `3` — 不显示客户通知。
 
    - 为要用于Google网站统计信息通知标签的&#x200B;**[!UICONTROL Conversion Color]**&#x200B;输入[十六进制代码](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}。
 
@@ -144,7 +159,7 @@ ht-degree: 0%
    - `Dynamic` — 根据动态订单金额值确定已发生转换。
    - `Constant` — 根据输入的特定值确定已发生转换。
 
-   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;_[!UICONTROL Order Amount]_&#x200B;输入特定的&#x200B;**[!UICONTROL Value]**&#x200B;以限定为转换。
+   对于&#x200B;_常量_&#x200B;转换值类型，请为&#x200B;_[!UICONTROL Order Amount]_输入特定的&#x200B;**[!UICONTROL Value]**以限定为转换。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

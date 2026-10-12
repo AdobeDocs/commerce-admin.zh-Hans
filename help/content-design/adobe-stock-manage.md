@@ -3,26 +3,36 @@ title: 使用Adobe Stock图像
 description: 使用Adobe Stock中的图像增强您的商店页面。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # 使用Adobe Stock图像
 
 可以使用[Adobe Stock](https://stock.adobe.com)图像代替上传您自己的图像内容。 一个常见用例是在创建页面时上传并放置图像内容。
@@ -39,7 +49,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Add a New Page]**。
 
-   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_&#x200B;列单击&#x200B;**[!UICONTROL Select]**&#x200B;并选择&#x200B;**[!UICONTROL Edit]**。
+   如果要编辑现有页面，可以使用&#x200B;_[!UICONTROL Action]_列单击&#x200B;**[!UICONTROL Select]**并选择&#x200B;**[!UICONTROL Edit]**。
 
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分中的![扩展选择器](../assets/icon-display-expand.png)并执行以下操作：
 
@@ -59,7 +69,7 @@ ht-degree: 0%
 
    如果要将图像添加到现有类别，请单击左侧列表中的类别名称。
 
-1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_&#x200B;下单击&#x200B;**[!UICONTROL Select from Gallery]**。
+1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分，在&#x200B;_[!UICONTROL Category Image]_下单击&#x200B;**[!UICONTROL Select from Gallery]**。
 
 1. 单击&#x200B;**[!UICONTROL Search Adobe Stock]**。
 
@@ -131,13 +141,13 @@ ht-degree: 0%
 
 ## 登录到您的Adobe帐户
 
-要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
+要获得对图像的完全访问权并消除Adobe Stock水印，您必须[使用Adobe帐户登录](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)并购买积分以授予使用图像的许可权。
 
 1. [访问Adobe Stock搜索网格](#access-the-adobe-stock-search-grid)。
 
 1. 单击右上方的&#x200B;**[!UICONTROL Sign In]**。
 
-   新的浏览器窗口将指导您完成[Adobe登录流程](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
+   新的浏览器窗口将指导您完成[Adobe登录流程](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
 
    完成登录过程后，图像的许可状态将作为标签显示在搜索结果中。
 
@@ -191,7 +201,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

@@ -3,27 +3,35 @@ title: 零小计签出
 description: 了解如何设置零小计作为商店的离线付款方式。
 exl-id: c14ce289-8292-41d9-a448-f493c784f35c
 feature: Checkout, Configuration
-TQID: https://experienceleague.adobe.com/WCWo0jvFkqHnwLX7QnAcJ1vDs66sdrtpba5hoxd-JKc
+TQID: 'https://experienceleague.adobe.com/WCWo0jvFkqHnwLX7QnAcJ1vDs66sdrtpba5hoxd-JKc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 347
+source-wordcount: '347'
 ht-degree: 0%
-
 ---
-
 # 零小计签出
 
 _零小计结帐_&#x200B;可用于应用折扣后征税的零小计订单。 例如，在以下情况下可以使用零小计签出：
@@ -44,7 +52,7 @@ _零小计结帐_&#x200B;可用于应用折扣后征税的零小计订单。 例
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;下，展开&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_下，展开&#x200B;**[!UICONTROL Zero Subtotal Checkout]**部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![零小计签出](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
@@ -66,12 +74,12 @@ _零小计结帐_&#x200B;可用于应用折扣后征税的零小计订单。 例
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL New Order Status]_&#x200B;设置为`Processing`且&#x200B;_[!UICONTROL Automatically Invoice All Items]_&#x200B;设置为`No`，则还必须为[订单状态](order-status.md#custom-order-status)页面上的&#x200B;**[!UICONTROL Order State]** = `Pending`和&#x200B;**[!UICONTROL Default Status]** = `No`映射分配&#x200B;**[!UICONTROL Order Status]** = `Processing`。
+   >如果&#x200B;_[!UICONTROL New Order Status]_设置为`Processing`且_[!UICONTROL Automatically Invoice All Items]_&#x200B;设置为`No`，则还必须为[订单状态](order-status.md#custom-order-status)页面上的&#x200B;**[!UICONTROL Order State]** = `Pending`和&#x200B;**[!UICONTROL Default Status]** = `No`映射分配&#x200B;**[!UICONTROL Order Status]** = `Processing`。
 
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. 对于&#x200B;**[!UICONTROL Sort Order]**，输入一个数字，该数字确定此项目在结帐期间显示的付款方法列表中的位置。
 

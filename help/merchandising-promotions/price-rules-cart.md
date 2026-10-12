@@ -3,28 +3,41 @@ title: 购物车价格规则
 description: 了解根据一组条件对购物车中的商品应用折扣的购物车价格规则。
 exl-id: f3038f2a-9d34-4696-a39e-f87fbb1294a2
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/i3G3iGuomU0cjy3aX9eynyzAtpCgQxeEFAyRUdUUu44
+TQID: 'https://experienceleague.adobe.com/i3G3iGuomU0cjy3aX9eynyzAtpCgQxeEFAyRUdUUu44'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 购物车价格规则
 
 购物车价格规则根据一组条件对购物车中的商品应用折扣。 当满足条件或客户输入有效优惠券代码时，可自动应用折扣。 应用时，折扣会显示在小计下的购物车中。 购物车价格规则可以根据需要通过更改其状态和日期范围用于季节或促销。
@@ -63,9 +76,9 @@ ht-degree: 0%
 | [!UICONTROL Priority] | 自由文本字段，用于根据为规则定义的优先级筛选列表。 |
 | [!UICONTROL Status] | 使用此选项可根据规则状态（`Active`或`Inactive`）筛选列表。 |
 | [!UICONTROL Web Site] | 使用此选项可根据为规则定义的网站筛选列表。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_&#x200B;页面并更新规则设置（与创建规则类似）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）单击&#x200B;**[!UICONTROL Edit]**&#x200B;以显示&#x200B;_[!UICONTROL Rule Information]_页面并更新规则设置（与创建规则类似）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的开始日期筛选列表。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)（仅限Magento Open Source）使用动态日历字段（_[!UICONTROL To:]_和_[!UICONTROL From:]_）根据创建规则时定义的规则的结束日期筛选列表。 |
 
 {style="table-layout:auto"}
 

@@ -3,31 +3,43 @@ title: 目录图像和视频
 description: 了解如何使用数字媒体增强目录产品页面并为客户提供可视化图表。
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-TQID: https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg
+TQID: 'https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 目录图像和视频
 
 使用比例一致的高质量图像为您的目录提供具有商业吸引力的专业外观。 如果您有一个大目录，每个产品都有多个图像，那么您可以轻松管理数百个（甚至数千个）产品图像。 在开始之前，请为图像文件建立命名惯例并组织它们，以便在需要时查找原件。
@@ -56,5 +68,5 @@ ht-degree: 0%
 
 要获得有关图像和视频问题疑难解答的帮助，请参阅以下Commerce支持知识库文章：
 
-- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [部署后不显示存储映像](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [尽管具有“产品编辑”图像角色，仍不显示产品图像](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [部署后不显示存储映像](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

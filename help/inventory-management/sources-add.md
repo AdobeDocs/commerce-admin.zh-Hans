@@ -3,7 +3,7 @@ title: 添加库存来源
 description: 在管理员中为仓库、商店、分发中心或其他履行位置添加[!DNL Inventory Management]源。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+TQID: 'https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -56,7 +60,7 @@ ht-degree: 0%
 
    - 如果此清单源已准备就绪，请将&#x200B;**[!UICONTROL Is Enabled]**&#x200B;设置为`Yes`。
 
-   - 若要向店面公开此源的库存，请将&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;设置为`Yes`。 仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+   - 若要向店面公开此源的库存，请将&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;设置为`Yes`。 仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
      默认情况下，此选项设置为`No`。 如果将其设置为`Yes`，则源可能需要达到查询缓存生命周期才能显示在结果中。 如果您随后将此选项设置为`No`，则会立即从查询结果中删除源。
 
@@ -134,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必需）为管理员用户标识库存来源的唯一名称。 |
 | [!UICONTROL Code] | （必需）系统用于标识库存来源的唯一字母数字代码。 以大写或小写字符和/或数字（不含空格）输入代码。 如有必要，可以使用连字符或下划线代替空格。 创建源后无法编辑代码。 它是您向库存分配来源以及导出和/或导入产品数据时使用的唯一ID。 |
 | [!UICONTROL Is Enabled] | 确定库存来源是否可用。 选项：是/否 |
-| [!UICONTROL Visible on Storefront]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 确定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询是否可以返回此库存源的库存信息。 |
+| [!UICONTROL Visible on Storefront]仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 确定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查询是否可以返回此库存源的库存信息。 |
 | [!UICONTROL Description] | 库存来源地点的简要说明。 包含对管理员用户有用的详细信息。 |
 | [!UICONTROL Latitude] | 指定GPS库存源的纬度坐标。 输入数字形式的值，并根据需要加号或减号加号。 不允许使用度符号和字母。 例如：Latitude 32.7555 |
 | [!UICONTROL Longitude] | 指定GPS库存源的经度坐标。 输入数字形式的值，并根据需要加号或减号加号。 不允许使用度符号和字母。 例如： `-97.3308` |

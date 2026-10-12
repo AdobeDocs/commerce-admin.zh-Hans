@@ -3,30 +3,44 @@ title: 贷项通知单
 description: 了解贷项通知单以及如何使用它们签发部分或全部退款。
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-TQID: https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4
+TQID: 'https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # 贷项通知单
 
 _贷项通知单_&#x200B;是显示客户全部或部分退款的应付金额的文档。 金额可用于购买或退款给客户。 您可以打印单个订单的贷项通知单，或将多个订单的贷项通知单打印为一个批。 必须先为订单生成贷项通知单，然后才能打印贷项通知单。 _贷项通知单_&#x200B;页列出了已发给客户的贷项通知单。
@@ -40,9 +54,9 @@ _贷项通知单_&#x200B;是显示客户全部或部分退款的应付金额的�
 您可以通过三种方式退单：
 
 - 帐户贷项 — 使用贷项帐户支付的订单可以作为帐户贷项退款：
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce） [商店积分](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （适用于Adobe Commerce B2B） [帐户付款](../b2b/enable-basic-features.md#configure-payment-on-account) （脱机方法）
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （适用于Adobe Commerce B2B） [公司积分](../b2b/credit-company.md)
+  - ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce） [商店积分](../customers/store-credit-using.md)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) （适用于Adobe Commerce B2B） [帐户付款](../b2b/enable-basic-features.md#configure-payment-on-account) （脱机方法）
+  - ![Adobe Commerce B2B](../assets/b2b.svg) （适用于Adobe Commerce B2B） [公司积分](../b2b/credit-company.md)
 - [在线退款](payments.md#online-payment-methods) — 通过付款网关（如PayPal或Braintree）通过信用卡支付的订单通过付款处理器在线退款。
 - [离线退款](payments.md#offline-payment-methods) — 由货到付款（[货到付款](cash-on-delivery.md)）或[支票或汇票](check-money-order.md)支付的订单离线退款。
 
@@ -56,7 +70,7 @@ _贷项通知单_&#x200B;是显示客户全部或部分退款的应付金额的�
 
 1. **生成发票** - [为订单创建发票](invoices.md#create-an-invoice)，以便您可以通过贷项通知单向客户发送退款。
 
-1. **创建贷项通知单** - [&#128279;](credit-memo-create.md)在管理员中为[信用购买](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或为[支票或汇票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)签发贷项通知单。
+1. **创建贷项通知单** - [在管理员中为[信用购买](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或为[支票或汇票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)签发贷项通知单](credit-memo-create.md)。
 
 ## 列描述
 

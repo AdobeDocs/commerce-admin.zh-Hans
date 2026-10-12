@@ -3,26 +3,35 @@ title: 客户通讯簿
 description: 通讯簿包含客户的默认帐单地址和送货地址，以及他们经常使用的任何其他地址。
 exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY
+TQID: 'https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 0%
-
 ---
-
 # 客户通讯簿
 
 保持地址簿为最新状态的客户可以加快结账过程。 通讯簿包含客户的默认帐单地址和送货地址，以及他们经常使用的任何其他地址。 从网格中访问和维护其他地址条目很容易。 每个客户通讯簿可以管理3,000多个通讯簿条目，而不会影响性能。
@@ -33,7 +42,7 @@ ht-degree: 0%
 
 1. 在其客户帐户的左侧导航中，客户选择&#x200B;**[!UICONTROL Address Book]**。
 
-1. 在&#x200B;_其他地址条目_&#x200B;下的&#x200B;_[!UICONTROL Address Book]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Add New Address]**。
+1. 在&#x200B;_其他地址条目_&#x200B;下的&#x200B;_[!UICONTROL Address Book]_页面上，单击&#x200B;**[!UICONTROL Add New Address]**。
 
    ![添加新地址](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -82,9 +91,9 @@ ht-degree: 0%
 
 1. 选择下列编辑方法之一：
 
-   * 单击&#x200B;_[!UICONTROL Default Addresses]_&#x200B;部分中的&#x200B;**[!UICONTROL Change Billing/Shipping Address]**。
+   * 单击&#x200B;_[!UICONTROL Default Addresses]_部分中的&#x200B;**[!UICONTROL Change Billing/Shipping Address]**。
 
-   * 在&#x200B;_[!UICONTROL Additional Address Entries]_&#x200B;网格中单击&#x200B;**[!UICONTROL Edit]**。
+   * 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Edit]**。
 
 1. 进行必要的更改，然后单击&#x200B;**[!UICONTROL Save Address]**。
 
@@ -94,7 +103,7 @@ ht-degree: 0%
 
 1. 查找要删除的地址条目。
 
-1. 在&#x200B;_[!UICONTROL Additional Address Entries]_&#x200B;网格中单击&#x200B;**[!UICONTROL Delete]**。
+1. 在&#x200B;_[!UICONTROL Additional Address Entries]_网格中单击&#x200B;**[!UICONTROL Delete]**。
 
 1. 要确认操作，请单击&#x200B;**[!UICONTROL OK]**。
 

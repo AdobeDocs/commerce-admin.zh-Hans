@@ -3,30 +3,40 @@ title: 对类别产品排序
 description: 了解如何手动或通过应用预定义的排序顺序来定义类别中产品的定位。
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
+TQID: 'https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 对类别产品排序
 
 {{ee-feature}}
@@ -41,7 +51,7 @@ ht-degree: 0%
 
 1. 如有必要，请选择应用设置的&#x200B;**[!UICONTROL Store View]**。
 
-   对于多存储安装，_[!UICONTROL Store View]_&#x200B;设置将排序顺序应用到存储中的所有可用视图。
+   对于多存储安装，_[!UICONTROL Store View]_设置将排序顺序应用到存储中的所有可用视图。
 
 1. 在左侧的类别树中，选择要编辑的类别。
 
@@ -51,9 +61,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_&#x200B;的升序排序。
+>按产品属性对类别进行排序时，具有相同属性值的产品也会按其&#x200B;_[!UICONTROL Product ID]_的升序排序。
 
-在&#x200B;_[!UICONTROL Products in Category]_&#x200B;部分中，单击磁贴（![查看磁贴](../assets/icon-view-tiles.png)）图标以显示网格中的产品磁贴。 使用手动或自动方法对产品进行排序。
+在&#x200B;_[!UICONTROL Products in Category]_部分中，单击磁贴（![查看磁贴](../assets/icon-view-tiles.png)）图标以显示网格中的产品磁贴。 使用手动或自动方法对产品进行排序。
 
 ![产品磁贴](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 

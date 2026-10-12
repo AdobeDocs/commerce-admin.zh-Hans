@@ -3,27 +3,35 @@ title: 创建和删除客户区段
 description: 客户可以在其“客户帐户控制面板”中查看与订单关联的退款信息。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '978'
 ht-degree: 0%
-
 ---
-
 # 创建和删除客户区段
 
 {{ee-feature}}
@@ -32,13 +40,13 @@ ht-degree: 0%
 
 ![客户区段列表](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]网格&#x200B;**&#x200B;_
+_**[!UICONTROL Customer Segments]网格&#x200B;**_
 
 | 列 | 描述 |
 |--- |--- |
 | **[!UICONTROL ID]** | 客户区段的唯一ID。 |
 | **[!UICONTROL Segment]** | 客户区段的名称。 |
-| **[!UICONTROL Status]** | 指示客户区段是&#x200B;_[!UICONTROL Active]_&#x200B;还是&#x200B;_[!UICONTROL Inactive]_。 |
+| **[!UICONTROL Status]** | 指示客户区段是&#x200B;_[!UICONTROL Active]_还是_[!UICONTROL Inactive]_。 |
 | **[!UICONTROL Website]** | 指示客户区段所属的网站。 |
 
 {style="table-layout:auto"}
@@ -96,7 +104,7 @@ _&#x200B;**[!UICONTROL Customer Segments]网格&#x200B;**&#x200B;_
 
 1. 单击&#x200B;**[!UICONTROL Save and Continue Edit]**。
 
-   保存区段&#x200B;_[!UICONTROL General Properties]_&#x200B;后，左侧面板中会显示其他选项。
+   保存区段&#x200B;_[!UICONTROL General Properties]_后，左侧面板中会显示其他选项。
 
    ![区段属性](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -129,7 +137,7 @@ _&#x200B;**[!UICONTROL Customer Segments]网格&#x200B;**&#x200B;_
 
 1. 在左窗格中，单击&#x200B;**[!UICONTROL Conditions]**。
 
-   页面上的默认条件以&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;开头。
+   页面上的默认条件以&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_开头。
 
    ![条件](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -175,7 +183,7 @@ _&#x200B;**[!UICONTROL Customer Segments]网格&#x200B;**&#x200B;_
 
 1. 客户区段现在可用于定位促销活动、内容和邮件。
 
-_&#x200B;**[!UICONTROL Matched Customers]网格&#x200B;**&#x200B;_
+_**[!UICONTROL Matched Customers]网格&#x200B;**_
 
 | 列 | 描述 |
 |--- |--- |
@@ -205,7 +213,7 @@ _&#x200B;**[!UICONTROL Matched Customers]网格&#x200B;**&#x200B;_
 
 | 按钮 | 描述 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customer Segments]_&#x200B;页而不保存更改。 |
+| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customer Segments]_页而不保存更改。 |
 | **[!UICONTROL Delete]** | 删除当前客户区段。 不会移除分部中与客户关联的客户或已完成的订单。 |
 | **[!UICONTROL Reset]** | 将客户区段表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Refresh Segment Data]** | 将区段数据刷新为最近保存的值。 如果任何区段数据不可用或已过期，则此项相关。 |
@@ -218,4 +226,4 @@ _&#x200B;**[!UICONTROL Matched Customers]网格&#x200B;**&#x200B;_
 
 观看本视频，了解如何创建客户区段：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410188/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

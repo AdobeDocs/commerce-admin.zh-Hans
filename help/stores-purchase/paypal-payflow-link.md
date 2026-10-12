@@ -3,30 +3,40 @@ title: PayPal Payflow链接
 description: 了解如何在您的商店中将PayPal Payflow Link设置为在线支付解决方案。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2195
+source-wordcount: '2257'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow链接
 
 PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有个人PayPal帐户，即可在PayPal托管的表单中输入其信用卡信息。 此信息绝不会存储在Adobe Commerce或Magento Open Source服务器上。 “工资流链接”不能用于从管理员创建的订单。
@@ -36,7 +46,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->自2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。为符合PSD2的要求，PayPal Payflow Link必须与Cardinal Commerce集成。若要了解更多信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
+>从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 为符合PSD2的要求，PayPal Payflow Link必须与Cardinal Commerce集成。 若要了解详细信息，请参阅[Payflow的3-D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
 
 ## 要求
 
@@ -92,10 +102,10 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
    - 完成&#x200B;_添加用户_&#x200B;表单的以下部分中的必填字段：
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - 单击&#x200B;**[!UICONTROL Update]**。
 
@@ -115,7 +125,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 1. 如果您的Commerce安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
@@ -310,7 +320,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -348,8 +358,8 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
    - 如果您已注册PayPal安全FTP服务器，请输入以下SFTP登录凭据：
 
-      - 登录
-      - 密码
+     - 登录
+     - 密码
 
    - 要在使用Express Checkout在您的网站上正式启用之前运行测试报告，请将&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;设置为`Yes`。
 
@@ -367,13 +377,13 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
    - 将&#x200B;**[!UICONTROL Schedule]**&#x200B;设置为以下项之一：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal会将每个报表保留45天。
 
@@ -381,7 +391,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 前端体验设置
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
 
 1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -401,9 +411,9 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
    - 输入要应用于PayPal商家页面的&#x200B;**[!UICONTROL Page Style]**&#x200B;的名称：
 
-      - `paypal` — 使用PayPal页面样式。
-      - `primary` — 使用您在帐户配置文件中标识为&#x200B;_primary_&#x200B;样式的页面样式。
-      - `your_custom_value` — 使用在您的帐户配置文件中指定的自定义付款页面样式。
+     - `paypal` — 使用PayPal页面样式。
+     - `primary` — 使用您在帐户配置文件中标识为&#x200B;_primary_&#x200B;样式的页面样式。
+     - `your_custom_value` — 使用在您的帐户配置文件中指定的自定义付款页面样式。
 
    - 对于&#x200B;**[!UICONTROL Header Image URL]**，输入要显示在付款页左上角的图像URL。 最大文件大小为750像素宽x 90像素高。
 
@@ -413,9 +423,9 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
    - 要设置页面的颜色，请为以下各项输入六个字符的十六进制代码（不带`#`符号）：
 
-      - **[!UICONTROL Header Background Color]** — 签出页面标题的背景颜色。
-      - **[!UICONTROL Header Border Color]** — 标题周围两像素边框的颜色。
-      - **[!UICONTROL Page Background Color]** — 结账页面以及标题和付款表单周围的背景颜色。
+     - **[!UICONTROL Header Background Color]** — 签出页面标题的背景颜色。
+     - **[!UICONTROL Header Border Color]** — 标题周围两像素边框的颜色。
+     - **[!UICONTROL Page Background Color]** — 结账页面以及标题和付款表单周围的背景颜色。
 
 ### 步骤6：完成PayPal Express结帐的基本设置
 
@@ -436,7 +446,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
    - `Authorization` — 批准购买并暂停资金。 在商户捕获&#x200B;_金额_&#x200B;之前，不撤消该金额。
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 ### 步骤7：完成PayPal Express签出的高级设置
 
@@ -449,7 +459,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 

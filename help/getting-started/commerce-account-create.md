@@ -1,39 +1,48 @@
 ---
-title: 创建并访问您的 [!DNL Commerce] 帐户
-description: 了解 [!DNL Commerce] 帐户，这些帐户管理您购买的产品和服务。
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+title: 创建并访问您的[!DNL Commerce]帐户
+description: 了解[!DNL Commerce]帐户，这些帐户管理您购买的产品和服务。
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+TQID: 'https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+    internal-label: Login credentials and URLs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1133'
 ht-degree: 0%
-
 ---
-
 # 访问您的[!DNL Commerce]帐户
 
 [!DNL Commerce]帐户是您的中心访问点，用于为部署在云基础架构或内部部署的Adobe Commerce项目管理Adobe Commerce服务。 在帐户仪表板中，您可以查看订阅、管理Commerce服务API密钥、查看历史帐单信息并与组织中的其他用户协作。
 
-如果您需要[提交您的第一个票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)或管理您的Adobe Commerce关系（而不是在特定店面中工作），请首先创建或访问您的[!DNL Commerce]帐户。
+如果您需要[提交您的第一个票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)或管理您的Adobe Commerce关系（而不是在特定店面中工作），请首先创建或访问您的[!DNL Commerce]帐户。
 
-您可以从[!DNL Commerce]网站访问您的[!DNL Commerce]帐户。 从帐户信息板中，您可以查看与您购买的产品和服务相关的信息，并向其他用户提供[共享访问权限](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)。 某些信息（如Commerce Services API密钥）仅对许可证所有者可见。
+您可以从[!DNL Commerce]网站访问您的[!DNL Commerce]帐户。 从帐户信息板中，您可以查看与您购买的产品和服务相关的信息，并向其他用户提供[共享访问权限](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)。 某些信息（如Commerce Services API密钥）仅对许可证所有者可见。
 
 >[!NOTE]
 >
@@ -57,7 +66,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->如果在提交Commerce [支持案例](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)时找不到Adobe Commerce组织，则通常意味着出现以下情况之一：帐户所有者未创建Adobe ID，或者Adobe ID存在但未链接到Commerce帐户。
+>如果在提交Commerce [支持案例](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)时找不到Adobe Commerce组织，则通常意味着出现以下情况之一：帐户所有者未创建Adobe ID，或者Adobe ID存在但未链接到Commerce帐户。
 
 1. 转到[[!DNL Commerce]](https://account.magento.com/customer/account/login/)网站。
 
@@ -125,7 +134,7 @@ ht-degree: 0%
 
 有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](/help/getting-started/commerce-account-share.md)部分。
 
-有关提交Commerce支持案例的详细说明，请参阅[Adobe Commerce帮助中心用户指南](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
+有关提交Commerce支持案例的详细说明，请参阅[Adobe Commerce帮助中心用户指南](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 
 ## 摘要
 

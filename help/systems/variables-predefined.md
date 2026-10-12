@@ -4,28 +4,44 @@ description: 了解预定义变量以及如何在电子邮件模板中添加它�
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 role: Admin, User
 feature: System, Variables, Page Content, Communications
-TQID: https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00
+TQID: 'https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # 使用预定义变量
 
 通过[预定义的](variables-predefined.md)变量，可以轻松个性化[电子邮件](email-templates.md)和[新闻稿](../merchandising-promotions/newsletters.md)模板以及其他类型的内容。 单击“插入变量”按钮时，将显示允许的[预定义](variables-predefined.md)变量列表。 如下图所示，特定电子邮件模板的可用变量列表由与该模板关联的数据决定。 有关常用电子邮件模板及其关联变量的列表，请参阅[变量引用](variables-reference.md)。
@@ -42,11 +58,11 @@ ht-degree: 0%
 
    - 要在新模板中使用变量，请单击&#x200B;**[!UICONTROL Add New Template]**&#x200B;并自定义默认模板代码。 查看[消息模板](email-template-custom.md#message-templates)。
 
-1. 在&#x200B;_[!UICONTROL Load default template]_&#x200B;下，选择要自定义的&#x200B;**[!UICONTROL Template]**。
+1. 在&#x200B;_[!UICONTROL Load default template]_下，选择要自定义的&#x200B;**[!UICONTROL Template]**。
 
 1. 要应用模板，请单击&#x200B;**[!UICONTROL Load Template]**。
 
-   _[!UICONTROL Currently used for]_&#x200B;字段显示模板的配置路径。_[!UICONTROL Template Subject]_&#x200B;和&#x200B;_[!UICONTROL Template Content]_&#x200B;是相对于所选模板自动生成的。
+   _[!UICONTROL Currently used for]_字段显示模板的配置路径。_[!UICONTROL Template Subject]_&#x200B;和&#x200B;_[!UICONTROL Template Content]_是相对于所选模板自动生成的。
 
    - **[!UICONTROL Template Subject]** — 此文本显示在电子邮件的主题行中。
 

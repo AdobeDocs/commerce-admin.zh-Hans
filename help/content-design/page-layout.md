@@ -2,14 +2,25 @@
 title: 页面布局
 description: 了解页面布局区域以及如何配置默认布局。
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目(Adobe管理的PaaS基础架构)和内部部署项目上的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # 页面布局
 
 商店中每个页面的布局由不同的部分或容器组成，这些部分或容器定义页面的页眉、页脚和内容区域。 根据布局，每个页面可能包含一列、两列、三列或更多列。 您可以将该布局视为页面的&#x200B;_平面图_，并分配特定布局作为CMS、产品和类别页面的默认布局。
@@ -22,7 +33,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Default Layouts]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -87,28 +98,28 @@ ht-degree: 0%
 
 ![图表 — 一列式布局](./assets/layout-1-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 1 Column]_&#x200B;布局可用于创建具有大图像或焦点的生动主页。 此外，它还是登陆页面或包含文本、图像和视频组合的任何其他页面的理想选择。
+_[!UICONTROL 1 Column]_布局可用于创建具有大图像或焦点的生动主页。 此外，它还是登陆页面或包含文本、图像和视频组合的任何其他页面的理想选择。
 
 ### 带左栏的两列
 
 ![图表 — 左栏的双列布局](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Left Bar]_&#x200B;布局通常用于左侧导航的页面，如目录或具有分层导航的搜索结果页面。 此外，对于需要在左侧添加导航或支持内容块的主页而言，它也是一个非常好的选择。
+_[!UICONTROL 2 Columns with Left Bar]_布局通常用于左侧导航的页面，如目录或具有分层导航的搜索结果页面。 此外，对于需要在左侧添加导航或支持内容块的主页而言，它也是一个非常好的选择。
 
 ### 带右栏的两列
 
 ![图表 — 带有右栏的双列布局](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_&#x200B;布局时，主内容区域足够大，足以形成引人注目的图像或横幅。 此布局还经常用于右侧包含支持内容块的产品页面。
+使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_布局时，主内容区域足够大，足以形成引人注目的图像或横幅。 此布局还经常用于右侧包含支持内容块的产品页面。
 
 ### 三列
 
 ![图表 — 三列式布局](./assets/layout-3-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 3 Column]_&#x200B;布局的中心列宽得足以容纳页面的主文本，两边都有空间用于额外的导航和支持内容块。
+_[!UICONTROL 3 Column]_布局的中心列宽得足以容纳页面的主文本，两边都有空间用于额外的导航和支持内容块。
 
 ### 空
 
 ![图表 — 布局为空](./assets/layout-blank-th.png){zoomable="yes"}
 
-_[!UICONTROL Empty]_&#x200B;布局可用于定义自定义页面布局。
+_[!UICONTROL Empty]_布局可用于定义自定义页面布局。

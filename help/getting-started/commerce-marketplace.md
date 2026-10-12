@@ -1,35 +1,50 @@
 ---
 title: '[!DNL Adobe Commerce Marketplace]'
-description: 了解 [!DNL Commerce Marketplace]，它为商家提供了精选的解决方案，并为合格的开发人员提供了工具、平台和最佳位置，以打造蓬勃发展的业务。
+description: 了解[!DNL Commerce Marketplace]，它为商家提供了精选的解决方案，并为合格的开发人员提供了工具、平台和最佳位置，以打造蓬勃发展的业务。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+TQID: 'https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1438'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce市场
 
 [Adobe Commerce Marketplace](https://marketplace.magento.com/)是一个应用商店，为商家提供精选的解决方案，并为合格的开发人员提供工具、平台和最佳位置，以打造蓬勃发展的业务。 [!DNL Commerce Marketplace]提供一系列免费的扩展以及其他可供销售的扩展。 可以通过信用卡或[PayPal](https://www.paypal.com/us/home)支付购买费用。
@@ -63,7 +78,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]凭据
 
-在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[[!DNL Marketplace]](https://marketplace.magento.com/)或[Magento.com](https://business.adobe.com/cn/products/magento/magento-commerce.html)的标题登录您的[!DNL Commerce]帐户。
+在您可以安装从[!DNL Commerce Marketplace]购买的扩展之前，请登录到您的[!DNL Commerce]帐户并验证您是否拥有有效的访问密钥。 您可以从[[!DNL Marketplace]](https://marketplace.magento.com/)或[Magento.com](https://business.adobe.com/products/magento/magento-commerce.html)的标题登录到您的[!DNL Commerce]帐户。
 
 您的访问密钥是一组公钥和私钥，用于将[!DNL Commerce]安装与[!DNL Commerce]帐户同步并验证您的凭据。 帐户同步后，每次从Commerce Marketplace安装扩展或模块或升级[!DNL Commerce]安装时，都必须输入私钥。
 
@@ -73,13 +88,13 @@ ht-degree: 0%
 
 1. 登录到您的[!DNL Commerce]帐户。
 
-1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;页面上，选择&#x200B;**[!UICONTROL Marketplace]**&#x200B;选项卡。
+1. 在&#x200B;_[!UICONTROL My Account]_页面上，选择&#x200B;**[!UICONTROL Marketplace]**选项卡。
 
 1. 在名称旁边的右上角，单击向下箭头并选择&#x200B;**[!UICONTROL My Profile]**。
 
    ![您的[!DNL Marketplace]配置文件](./assets/marketplace-profile.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL My Products]_&#x200B;下的&#x200B;_[!UICONTROL Marketplace]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
+1. 在&#x200B;_[!UICONTROL My Products]_下的_[!UICONTROL Marketplace]_&#x200B;选项卡上，单击&#x200B;**[!UICONTROL Access Keys]**，然后执行以下任一操作：
 
    - 查看您是否已经拥有一组用于您的市场购买的访问密钥。 您可以为不同目的创建多组访问键。
 
@@ -97,7 +112,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/advanced)或[升级](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)和[扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)。
+>从Adobe Commerce和Magento Open Source 2.4.0开始，将删除“Web安装向导”，您必须使用命令行来[安装](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)或[升级](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)您的实例。 此要求还包括[模块](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)和[扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 Commerce的&#x200B;_内部部署_&#x200B;安装的购买[!DNL Marketplace]的安装过程与托管在[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)上的安装不同。
 
@@ -129,7 +144,7 @@ Commerce的&#x200B;_内部部署_&#x200B;安装的购买[!DNL Marketplace]的安
 
 ### 开源问题
 
-市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题转给可以协助Magento Open Source的[合作伙伴](https://business.adobe.com/cn/products/magento/partners.html)。
+市场支持团队仅解决了与[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)网站相关的问题。 请将有关Magento Open Source的问题转给可以协助Magento Open Source的[合作伙伴](https://business.adobe.com/products/magento/partners.html)。
 
 ### 退款申请
 

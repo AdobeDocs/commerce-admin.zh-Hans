@@ -1,44 +1,60 @@
 ---
 title: 数据管理功能板
-description: 了解如何访问有关 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendation]的数据流的见解。
+description: 了解如何访问有关[!DNL Catalog Service]、[!DNL Live Search]和[!DNL Product Recommendation]的数据流的见解。
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
+TQID: 'https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # 数据管理功能板
 
 数据管理功能板提供了从Commerce数据库传输到Commerce SaaS服务的产品数据的同步状态的概述。 用户可以方便地监视产品同步状态，并从统一仪表板启动数据重新同步。 此功能为您的店面产品数据的可用性提供了宝贵的见解，确保可及时向购物者显示这些数据。
 
 >[!NOTE]
 >
->如果您已安装[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/overview)以将目录数据导出到Adobe Commerce Optimizer，请在Commerce Optimizer Studio中使用[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)验证是否成功的数据同步，而不是使用数据管理功能板。
+>如果您已安装[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)以将目录数据导出到Adobe Commerce Optimizer，请在Commerce Optimizer Studio中使用[数据同步页面](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)验证是否成功的数据同步，而不是使用数据管理功能板。
 
 ## 受众
 
-所有使用有效许可证的[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/guide-overview)的Commerce商家均可免费使用数据管理功能板。
+所有使用有效许可证的[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)的Commerce商家均可免费使用数据管理功能板。
 
 数据管理仪表板位于&#x200B;*系统* >数据传输> *数据管理仪表板*。
 
@@ -69,7 +85,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe还提供了命令行界面和系统日志，开发人员和系统集成商可以使用它们来管理和跟踪同步操作，以及对Commerce SaaS服务的错误进行故障排除。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/overview)。
+>Adobe还提供了命令行界面和系统日志，开发人员和系统集成商可以使用它们来管理和跟踪同步操作，以及对Commerce SaaS服务的错误进行故障排除。 有关详细信息，请参阅[SaaS数据导出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
 
 ### 已同步的产品列表
 
@@ -79,7 +95,7 @@ ht-degree: 0%
 
 ### 重新同步目录数据
 
-为确保您的Commerce SaaS服务始终保持最新的产品信息，您应[实施同步目录数据的计划](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)。
+为确保您的Commerce SaaS服务始终保持最新的产品信息，您应[实施同步目录数据的计划](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)。
 
 虽然您可以[手动启动](#manually-resync-catalog)将目录数据从Commerce数据库重新同步到SaaS服务，但不建议这样做，因为它可能会增加硬件资源的负载。 但是，在以下情况下，可能需要手动重新同步目录：
 

@@ -3,29 +3,38 @@ title: PayPal计费协议
 description: 了解如何在您的商店中支持PayPal计费协议和支付方式。
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # PayPal计费协议
 
 为简化结账过程，客户可与PayPal作为支付服务提供商签订账单协议。 结账时，客户选择帐单协议作为付款方式。 付款系统通过其唯一编号验证计费协议，并对客户帐户计费。 建立帐单协议后，客户不再需要为每次购买输入付款信息。 客户可以从其客户帐户的仪表板管理其计费协议，其中每个协议的状态显示为&#x200B;_活动_&#x200B;或&#x200B;_已取消_。 取消帐单协议后，无法重新激活该协议。
@@ -42,7 +51,7 @@ ht-degree: 0%
 
 ## 管理帐单协议
 
-_[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
+_[!UICONTROL Billing Agreements]_页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
 
 ### 查看计费协议
 
@@ -50,7 +59,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
-每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_和_[!UICONTROL Related Orders]_。
 
 #### 一般信息
 

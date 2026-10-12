@@ -3,30 +3,40 @@ title: 市场营销报告
 description: 市场营销报告提供有关购物车状态、搜索词的使用和新闻稿传输的信息。
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-TQID: https://experienceleague.adobe.com/umG-wy90Uhgn78y45cEo3r09zby6YFEiuRA82MxUmQI
+TQID: 'https://experienceleague.adobe.com/umG-wy90Uhgn78y45cEo3r09zby6YFEiuRA82MxUmQI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: ad1b6f63-fc17-4d32-b4df-5453c0510331
+    internal-label: Marketing reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: '252'
 ht-degree: 0%
-
 ---
-
 # 市场营销报告
 
 市场营销报告提供有关购物车状态、搜索词的使用和新闻稿传输的信息。
@@ -39,7 +49,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 [搜索词](../catalog/search-terms.md#search-terms-report)报表显示您的客户在每个商店视图中查找的内容。 报表包括在目录中找到匹配项目的数量以及使用搜索词的次数。
 
@@ -53,7 +63,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Newsletter Problems Report]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 [!UICONTROL Newsletter Problems Report]包含有关任何无法成功传输的新闻稿队列的信息。 报告包含每个订阅者的名称、排队日期和主题以及有关错误的信息。
 

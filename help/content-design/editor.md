@@ -2,14 +2,25 @@
 title: WYSIWYG编辑器
 description: 了解如何在_What You See Is What You Get_ (WYSIWYG)视图中使用编辑器和处理内容。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # WYSIWYG编辑器
 
 使用该编辑器，您可以在内容的&#x200B;_What You See Is What You Get_ (WYSIWYG)视图中输入内容并设置其格式。 如果您希望直接使用基础HTML代码，则可以轻松更改模式。 编辑器可用于创建[页面](pages.md)、[块](blocks.md)和[产品描述](../catalog/product-content.md)的内容。 处理产品详细信息时，单击&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以访问编辑器。
@@ -31,13 +42,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->TinyMCE已被Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
+>TinyMCE已由Hugerte取代，成为Magento 2.4.6及更高版本中的默认WYSIWYG编辑器。
 
 有关所有WYSIWYG选项的详细说明，请参阅&#x200B;_配置引用_&#x200B;中的[内容管理](../configuration-reference/general/content-management.md)。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Content Management]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**。
 

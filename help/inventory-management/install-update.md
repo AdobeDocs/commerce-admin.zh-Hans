@@ -1,29 +1,41 @@
 ---
-title: 安装、更新和删除 [!DNL Inventory Management]
-description: 安装、启用、禁用、删除或升级 [!DNL Inventory Management] 中继。
+title: 安装、更新和删除[!DNL Inventory Management]
+description: 安装、启用、禁用、删除或升级[!DNL Inventory Management]中继。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '682'
 ht-degree: 0%
-
 ---
-
 # 安装、更新和删除[!DNL Inventory Management]
 
 [!DNL Inventory Management]模块为单一来源和多来源商家提供所有库存功能和选项，以管理销售渠道的产品数量和库存。 Adobe Commerce和Magento Open Source的2.4.x版本中提供了这些功能。
@@ -32,7 +44,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]安装在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，默认启用所有功能。 启用这些清单功能无需执行其他步骤。 从v2.1.x或2.2.x升级可能需要额外的步骤。 请参阅[升级Inventory management](#upgrade-inventory-management)。
 
-建议根据[快速入门本地安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
+建议根据[快速入门本地安装](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer){target="_blank"}进行安装。 使用中继包安装以接收所有[!DNL Inventory Management]模块。
 
 `composer.json`中继包中的以下行安装[!DNL Inventory Management]：
 
@@ -96,7 +108,7 @@ ht-degree: 0%
 
 ## 启用[!DNL Inventory Management]功能
 
-安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
+安装、升级或更新后，Admin中的&#x200B;_[!UICONTROL Manage Stock]_选项默认启用。 此选项启用库存跟踪和管理，但不影响模块状态。 要禁用模块，请参阅下一部分。
 
 有关配置的详细信息，请参阅[配置 [!DNL Inventory Management]](configuration.md)。
 
@@ -111,7 +123,7 @@ ht-degree: 0%
 * 加速从2.0.x、2.1.x、2.2.x或2.3.x迁移到2.4.x的商户升级过程。
 * 使用自定义或第三方库存和订单管理系统模块。
 
-有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/manage-modules)页面。
+有关如何禁用适用模块的信息，请参阅&#x200B;_安装指南_&#x200B;中的[启用或禁用模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)页面。
 
 完成后，系统将在`<Magento_installation_directory>/app/etc/config.php`中提供模块和值的列表，开头为：
 
@@ -253,5 +265,5 @@ ht-degree: 0%
 
 有关Commerce升级的更多信息，请参阅以下指南：
 
-* [Commerce更新指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
-* [启用或禁用模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}
+* [Commerce更新指南](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [启用或禁用模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}

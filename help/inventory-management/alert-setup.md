@@ -1,30 +1,39 @@
 ---
 title: 产品警报
-description: 在 [!DNL Inventory Management] 目录配置中设置库存和价格更改产品警报、电子邮件模板并运行设置。
+description: 在[!DNL Inventory Management]目录配置中设置库存和价格更改产品警报、电子邮件模板并运行设置。
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
+TQID: 'https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: '651'
 ht-degree: 0%
-
 ---
-
 # 产品警报
 
 客户可以通过电子邮件订阅两种类型的警报：价格更改警报和库存警报。 对于每种类型的警报，您可以确定客户是否能够订阅，选择使用的电子邮件模板，并识别电子邮件的发件人。
@@ -47,7 +56,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Catalog]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Catalog]**。
 
-1. 单击以展开&#x200B;_[!UICONTROL Product Alerts]_&#x200B;部分并执行以下操作：
+1. 单击以展开&#x200B;_[!UICONTROL Product Alerts]_部分并执行以下操作：
 
    ![产品警报](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -79,7 +88,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_加载默认模板_&#x200B;下，选择要自定义的&#x200B;**[!UICONTROL Template]**。
 
-   您可以选择主题中包含的警报模板。 或者，您也可以选择&#x200B;_[!UICONTROL Magento_PriceAlert]_&#x200B;下的`Price Alert`或`Stock Alert`模板。
+   您可以选择主题中包含的警报模板。 或者，您也可以选择&#x200B;_[!UICONTROL Magento_PriceAlert]_下的`Price Alert`或`Stock Alert`模板。
 
 1. 单击&#x200B;**[!UICONTROL Load Template]**。
 

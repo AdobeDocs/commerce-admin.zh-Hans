@@ -3,32 +3,46 @@ title: 目录和产品URL
 description: 了解目录产品的URL格式类型以及如何配置它们。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 目录和产品URL
 
 在决定搜索引擎为您的网站编制索引的效果时，分配给产品和类别的URL将发挥重要作用。 在开始构建目录之前，请考虑可用的选项。 要查看当前URL格式，请转到店面并导航到目录中的任何产品。 URL的格式取决于当前配置设置以及用于查找页面的方法。
@@ -56,7 +70,7 @@ URL键是描述产品或类别的静态URL的一部分。 创建产品或类别�
 
 >[!NOTE]
 >
->默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如，`ñ`自动替换为`n`。 通过将&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;配置选项设置为`No`，可禁用此行为。 请参阅[配置目录URL](#configure-catalog-urls)。
+>默认情况下，带重音符号的特殊字符会在URL键中自动替换为其常规非重音版本。 例如，`ñ`自动替换为`n`。 通过将&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_配置选项设置为`No`，可禁用此行为。 请参阅[配置目录URL](#configure-catalog-urls)。
 
 URL键应由小写字符组成，在这些字符之间使用非尾随连字符来分隔单词。 不允许在URL键的开头或结尾使用连字符。 设计良好的“搜索引擎友好”URL键可能包含产品名称和关键字，以改进搜索引擎索引产品的方式。 可以将URL键配置为在URL键发生更改时创建自动重定向。
 
@@ -132,7 +146,7 @@ URL键应由小写字符组成，在这些字符之间使用非尾随连字符�
 | 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全局 | 如果启用了Web服务器重写，则启用此设置会将当前视图的存储代码插入到URL中。 选项： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**&#x200B;请勿将自动重定向到基本URL用于多存储设置。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全局 | （对于单商店设置）如果您的网站上存在断开的链接，这会将流量重定向到基本URL，而不是重定向到显示“404页面未找到”消息的页面。 选项： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**请勿将自动重定向到基本URL用于多存储设置。 |
 | [!UICONTROL Catalog media URL format] | 全局 | 定义分配给产品和类别的URL格式。 选项： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 将转换的文件名定义为唯一的哈希值。<br />**[!UICONTROL Image optimization based on query parameters]**  — 根据查询参数定义[图像优化](../content-design/media-gallery-image-optimization.md)进程。 |
 
 {style="table-layout:auto"}

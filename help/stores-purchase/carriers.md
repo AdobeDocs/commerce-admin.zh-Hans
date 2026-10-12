@@ -3,27 +3,35 @@ title: 装运承运人设置
 description: 了解您的商店对商业运送帐户的支持。
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # 装运承运人设置
 
 如果您的商业帐户具有支持的运营商，则可以为客户提供在结账时选择该运营商的便利。 费率会自动下载，因此您无需查找信息。
@@ -38,10 +46,10 @@ ht-degree: 0%
 
 - 为要提供的每个运营商服务配置设置。
 
-   - [**UPS**](ups.md) - United Parcel Service (UPS)通过陆运和空运向220多个国家/地区提供国内和国际运输服务。
-   - [**USPS**](usps.md) — 美国邮政服务(USPS)是美国政府的独立邮政服务。 USPS提供国内和国际的陆运和空运服务。
-   - [**联邦快递**](fedex.md) - FedEx向220多个国家/地区提供陆运和空运的国内和国际航运服务。
-   - [**DHL**](dhl.md) - DHL提供集成的国际服务和以客户为中心的定制解决方案，用于管理和传输信件、货物和信息。
+  - [**UPS**](ups.md) - United Parcel Service (UPS)通过陆运和空运向220多个国家/地区提供国内和国际运输服务。
+  - [**USPS**](usps.md) — 美国邮政服务(USPS)是美国政府的独立邮政服务。 USPS提供国内和国际的陆运和空运服务。
+  - [**联邦快递**](fedex.md) - FedEx向220多个国家/地区提供陆运和空运的国内和国际航运服务。
+  - [**DHL**](dhl.md) - DHL提供集成的国际服务和以客户为中心的定制解决方案，用于管理和传输信件、货物和信息。
 
 ## 维度权重
 
@@ -65,11 +73,11 @@ Adobe Commerce版本2.4.6、2.4.7和2.4.8使用旧版Web Tools API与USPS进行�
 
 要避免USPS配送服务中断，请升级到最新版本的Adobe Commerce，或执行以下操作：
 
-- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
+- 应用[USPS REST API迁移质量修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)添加支持与USPS REST API集成。
 
 - 更新Commerce USPS配置以使用REST API：
 
-   - [USPS装运承运人配置](usps.md)
+  - [USPS装运承运人配置](usps.md)
 
-   - [装运标签配置](shipping-label-create.md)
+  - [装运标签配置](shipping-label-create.md)
 

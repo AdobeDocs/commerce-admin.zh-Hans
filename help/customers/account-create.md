@@ -3,7 +3,7 @@ title: 创建单个客户帐户
 description: 访客可以轻松地创建单个客户帐户来管理他们的购买。
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +148,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_&#x200B;选项卡显示帐户的摘要。
+   >保存客户帐户后，整套选项将显示在左侧面板和页面顶部的菜单中。 _[!UICONTROL Customer View]_选项卡显示帐户的摘要。
 
    ![客户视图](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +179,7 @@ ht-degree: 0%
 
    否则，请单击&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;并重复上述步骤以添加其他地址。
 
-   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
+   新地址显示在完整列表上方具有选定&#x200B;_[!UICONTROL Default Billing]_和_[!UICONTROL Default Shipping]_&#x200B;地址的[!UICONTROL Addresses]页面中。
 
    ![地址视图](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -185,7 +189,7 @@ ht-degree: 0%
 
 1. 在网格中查找新的客户帐户。
 
-1. 单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL Edit]**。
+1. 单击&#x200B;_[!UICONTROL Action]_列中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在页面顶部的菜单栏中，单击&#x200B;**[!UICONTROL Reset Password]**。
 
@@ -197,7 +201,7 @@ ht-degree: 0%
 
 | 按钮 | 描述 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_&#x200B;页而不保存更改。 |
+| **[!UICONTROL Back]** | 返回到&#x200B;_[!UICONTROL Customers]_页而不保存更改。 |
 | **[!UICONTROL Delete Customer]** | 删除当前客户。 不会删除与客户关联的已完成订单。 |
 | **[!UICONTROL Reset]** | 将客户表单中未保存的任何更改重置为其以前的值。 |
 | **[!UICONTROL Create Order]** | 为客户创建订单。 |

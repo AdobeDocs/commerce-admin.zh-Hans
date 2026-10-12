@@ -18,6 +18,12 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 ## 受众和可用性 {#audience}
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云基础架构和内部部署项目上的Adobe Commerce 。"}
 
 使用B2B共享目录与[!DNL Adobe Commerce Optimizer Connector for B2B]集成的Adobe Commerce on Cloud Infrastructure和本地商户可以使用[!UICONTROL Catalog View Sync Status]页面。 安装连接器扩展时，会自动安装和启用页面。
 
@@ -62,7 +68,7 @@ ht-degree: 0%
 该页面有三个选项卡：
 
 - **[!UICONTROL Catalog Views]** — 连接器创建的目录视图，每个视图具有同步运行状况。 查看[目录视图同步状态摘要](#catalog-view-sync-status-summary)。
-- **[!UICONTROL Orphaned in ACO]** — 存在于[!DNL Adobe Commerce Optimizer]中的实体，没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡[&#128279;](#orphaned-in-aco-tab)中的孤立。
+- **[!UICONTROL Orphaned in ACO]** — 存在于[!DNL Adobe Commerce Optimizer]中的实体，没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡](#orphaned-in-aco-tab)中的[孤立。
 - **[!UICONTROL Deleted]** — 目录视图投影的记录已删除，因为其共享目录已被删除。 查看[已删除选项卡](#deleted-tab)。
 
 ## 目录视图同步状态摘要 {#catalog-view-sync-status-summary}
@@ -103,7 +109,7 @@ ht-degree: 0%
 | **挂起** | 目录视图尚未协调，或正在等待其第一个投影。 |
 | **正在弃用** | 共享目录已在[!DNL Adobe Commerce]中删除，并且目录视图位于其删除宽限期内。 |
 | **已删除** | 目录视图投影在其宽限期之后被删除。 它将作为记录保留在[!UICONTROL Deleted]选项卡上90天。 |
-| **孤立** | 目录视图或键存在于[!DNL Adobe Commerce Optimizer]中，但没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡[&#128279;](#orphaned-in-aco-tab)中的孤立。 |
+| **孤立** | 目录视图或键存在于[!DNL Adobe Commerce Optimizer]中，但没有相应的[!DNL Adobe Commerce]源。 查看ACO选项卡](#orphaned-in-aco-tab)中的[孤立。 |
 
 ### 配置删除宽限期 {#configure-the-deletion-grace-period}
 
@@ -190,6 +196,6 @@ ht-degree: 0%
 > - [数据馈送同步状态](data-feed-sync-status.md)
 > - [服务> ACO目录视图同步](../configuration-reference/services/aco-catalog-view-sync.md) — 配置删除和创建宽限期以及漂移协调器
 > - [受限访问密钥管理](restricted-access-keys.md) — 管理此页面显示的过期密钥
-> - *Adobe Commerce Optimizer Connector Guide*&#x200B;中的[监视B2B共享目录的目录视图同步](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [专用目录视图](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/private-catalog-view)
-> - [受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys)
+> - *Adobe Commerce Optimizer Connector Guide*&#x200B;中的[监视B2B共享目录的目录视图同步](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - [专用目录视图](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [受限访问密钥](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

@@ -3,35 +3,44 @@ title: 配置电子邮件通信
 description: 了解如何配置电子邮件通信，包括返回的电子邮件或特定电子邮件地址的回复的路由。
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # 配置电子邮件通信
 
 通过&#x200B;_邮件发送设置_，您可以将返回的电子邮件或回复路由到特定地址。 如果您的应用商店运行在SMTP或Windows服务器上，则可以验证主机和端口设置。
 
 >[!IMPORTANT]
 >
->**安全声明**&#x200B;所有商家应立即设置其邮件发送配置，以防止最近发现的潜在远程代码执行攻击。 在解决此问题之前，强烈建议您避免使用[!DNL Sendmail]进行电子邮件通信。 在&#x200B;_[!UICONTROL Mail Sending Settings]_&#x200B;中，确保&#x200B;_[!UICONTROL Set Return Path]_&#x200B;设置为`No`。
+>**安全声明**&#x200B;所有商家应立即设置其邮件发送配置，以防止最近发现的潜在远程代码执行攻击。 在解决此问题之前，强烈建议您避免使用[!DNL Sendmail]进行电子邮件通信。 在&#x200B;_[!UICONTROL Mail Sending Settings]_中，确保_[!UICONTROL Set Return Path]_&#x200B;设置为`No`。
 
 有关配置设置的详细列表，请参阅&#x200B;_配置引用_&#x200B;中的[_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)。
 
@@ -51,22 +60,22 @@ ht-degree: 0%
 
    - 如果在SMTP或Windows服务器上运行，请验证以下设置：
 
-      - **[!UICONTROL Host]** - `localhost`或其他
+     - **[!UICONTROL Host]** - `localhost`或其他
 
-      - **[!UICONTROL Port (25)]** - `25`或其他
+     - **[!UICONTROL Port (25)]** - `25`或其他
 
    - 对于&#x200B;**[!UICONTROL Set Return Path]**，请选择以下选项之一：
 
-      - `No` - （推荐的安全措施）路由将电子邮件返回至默认商店电子邮件地址。
-      - `Yes` — 路由将电子邮件返回到默认商店电子邮件地址。
-      - `Specified` — 路由将电子邮件返回到&#x200B;**[!UICONTROL Return Path Email]**&#x200B;中指定的电子邮件地址。
+     - `No` - （推荐的安全措施）路由将电子邮件返回至默认商店电子邮件地址。
+     - `Yes` — 路由将电子邮件返回到默认商店电子邮件地址。
+     - `Specified` — 路由将电子邮件返回到&#x200B;**[!UICONTROL Return Path Email]**&#x200B;中指定的电子邮件地址。
 
    - 如果在SMTP服务器上运行，请配置连接：
 
-      - **[!UICONTROL Username]** — 输入SMTP服务器的登录用户名。
-      - **[!UICONTROL Password]** — 输入SMTP服务器登录密码。
-      - **[!UICONTROL Auth]** — 为SMTP服务器连接选择身份验证类型： `NONE`、`PLAIN`或`LOGIN`
-      - **[!UICONTROL SSL]** — 选择服务器安全证书的验证类型： `SSL`或`TLS`
+     - **[!UICONTROL Username]** — 输入SMTP服务器的登录用户名。
+     - **[!UICONTROL Password]** — 输入SMTP服务器登录密码。
+     - **[!UICONTROL Auth]** — 为SMTP服务器连接选择身份验证类型： `NONE`、`PLAIN`或`LOGIN`
+     - **[!UICONTROL SSL]** — 选择服务器安全证书的验证类型： `SSL`或`TLS`
 
      ![高级配置 — 邮件发送设置](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

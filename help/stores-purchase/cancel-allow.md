@@ -3,28 +3,37 @@ title: 允许取消订单
 description: 了解如何为您的客户提供取消功能。
 feature: Orders, Storefront
 exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
-TQID: https://experienceleague.adobe.com/a0jMKgF4a0qXUe15oT2syai6-kGSegU1BX56PO9SSKs
+TQID: 'https://experienceleague.adobe.com/a0jMKgF4a0qXUe15oT2syai6-kGSegU1BX56PO9SSKs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '300'
 ht-degree: 0%
-
 ---
-
 # 允许取消订单
 
 启用后，您可以直接从客户帐户取消订单。 默认情况下禁用取消。
@@ -58,7 +67,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Order Order cancellation reasons]**&#x200B;中，您可以添加、删除或修改任何取消原因。
 
    使用此设置，当客户取消订单时，取消原因会显示在店面中。
-请确保您至少指定了一个原因。
+   请确保您至少指定了一个原因。
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 

@@ -3,26 +3,33 @@ title: 免运费
 description: 了解如何为您的商店设置免费送货选项。
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs
+TQID: 'https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # 免运费
 
 _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以基于最低购买量或设置为[购物车价格规则](../merchandising-promotions/price-rules-cart.md)，该规则会在满足一组条件时应用。 如果两者适用于同一顺序，则配置设置优先于购物车规则。
@@ -51,7 +58,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
    >[!TIP]
    >
-   >若要使用[表费率](shipping-table-rate.md)的免运费，请将&#x200B;_[!UICONTROL Minimum Order Amount]_&#x200B;设得过高，使其永远不满足。 使用此高值可阻止免费送货生效，除非由价格规则触发。
+   >若要使用[表费率](shipping-table-rate.md)的免运费，请将&#x200B;_[!UICONTROL Minimum Order Amount]_设得过高，使其永远不满足。 使用此高值可阻止免费送货生效，除非由价格规则触发。
 
 1. 设置&#x200B;**[!UICONTROL Include Tax to Amount]**：
 
@@ -66,7 +73,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用免费送货。
 
-   - `Specific Countries` — 选择此值后，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;列表。 选择列表中可使用免费送货的每个国家/地区。
+   - `Specific Countries` — 选择此值后，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_列表。 选择列表中可使用免费送货的每个国家/地区。
 
 1. 设置&#x200B;**[!UICONTROL Show Method if Not Applicable]**：
 
@@ -83,7 +90,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
 确保完成您计划用于免费配送的每个承运人所需的任何配置。 例如，如果您的[UPS配置](ups.md)已完成，请更新以下设置以启用和配置免费送货。
 
-1. 在&#x200B;_[!UICONTROL Delivery Methods]_&#x200B;配置中，展开&#x200B;**[!UICONTROL UPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Delivery Methods]_配置中，展开&#x200B;**[!UICONTROL UPS]**部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 将&#x200B;**[!UICONTROL Free Method]**&#x200B;设置为`UPS Ground`或您要指定免费送货的其他类型。
 

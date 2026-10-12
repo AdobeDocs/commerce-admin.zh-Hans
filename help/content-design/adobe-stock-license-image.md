@@ -3,25 +3,34 @@ title: 许可Adobe Stock图像
 description: 要确保您具有合法访问权限并消除Adobe Stock水印，请许可您的Adobe Stock图像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # 许可Adobe Stock图像
 
 您要用于生产Adobe Commerce和Magento Open Source商店的Adobe Stock资源应当获得许可。 此许可确保您具有对图像的合法访问权限，并消除所有[图像预览](./adobe-stock-save-preview.md)上存在的Adobe Stock水印。 要许可图像或保存已获得许可的图像，您必须登录到您的Adobe帐户。
@@ -32,7 +41,7 @@ ht-degree: 0%
 
 **先决条件**
 
-Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
+Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +67,7 @@ Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md
 
    >[!NOTE]
    >
-   >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
+   >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
 
 ## 从标准媒体存储中许可图像
 
@@ -74,7 +83,7 @@ Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md
 
      >[!NOTE]
      >
-     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/cn/stock/help/credit-packs.html)才能许可该图像。
+     >您的帐户中必须具有[Adobe Stock积分](https://helpx.adobe.com/stock/help/credit-packs.html)才能许可该图像。
 
    此操作会显示一个提示，提示您指定用于将图像保存到[媒体存储区](./media-storage.md)的文件名。 提供了默认的文件名，但可以根据您的首选项自定义名称。
 

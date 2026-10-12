@@ -3,26 +3,35 @@ title: 辅助功能
 description: 请查看常用键盘控件，以便客户能够访问网站导航。
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
-TQID: https://experienceleague.adobe.com/5tFp9wd5hE-F2OZak4PbaVvtNijAxmctxKRFDb0pOPw
+TQID: 'https://experienceleague.adobe.com/5tFp9wd5hE-F2OZak4PbaVvtNijAxmctxKRFDb0pOPw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: '157'
 ht-degree: 8%
-
 ---
-
 # 辅助功能
 
 某些访问您网站的访客依靠键盘控件而不是鼠标进行导航，而其他访客则可能使用触摸或语音命令。 虽然键盘导航控件因浏览器和平台而异，但Tab键通常用于在页面上的字段、链接和按钮之间移动焦点。 若要了解详细信息，请参阅[键盘快捷键](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}。

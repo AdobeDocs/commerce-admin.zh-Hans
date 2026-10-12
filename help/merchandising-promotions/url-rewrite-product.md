@@ -3,31 +3,42 @@ title: 产品URL重写
 description: 了解如何使用产品URL重写以将链接重定向到Commerce商店中其他产品的URL。
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 产品URL重写
 
 在开始之前，请确保您确切了解重定向应该实现的目标。 从&#x200B;_target_ / _原始请求_&#x200B;或&#x200B;_重定向到_ / _重定向来自_。 尽管人们可能仍会从搜索引擎或过时的链接导航到之前的页面，但重定向会导致您的商店切换到新目标。
@@ -94,8 +105,8 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Redirect Type]**&#x200B;设置为以下项之一：
 
-      - `Temporary (302)`
-      - `Permanent (301)`
+     - `Temporary (302)`
+     - `Permanent (301)`
 
    - 供您参考，请输入简短的重写&#x200B;**[!UICONTROL Description]**。
 
@@ -141,11 +152,11 @@ ht-degree: 0%
 
 1. 选择要更新URL重写的所有产品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下，选择&#x200B;**[!UICONTROL Update attributes]**&#x200B;以更新多个重写或所有重写。
+1. 在&#x200B;_[!UICONTROL Actions]_下，选择&#x200B;**[!UICONTROL Update attributes]**以更新多个重写或所有重写。
 
-1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_&#x200B;下，单击&#x200B;**[!UICONTROL Websites]**&#x200B;选项卡。
+1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_下，单击&#x200B;**[!UICONTROL Websites]**选项卡。
 
-1. 在&#x200B;_[!UICONTROL Add Product To Websites]_&#x200B;部分中，选择要还原URL重写的所有网站。
+1. 在&#x200B;_[!UICONTROL Add Product To Websites]_部分中，选择要还原URL重写的所有网站。
 
 1. 准备更新时，单击&#x200B;**[!UICONTROL Save]**。
 

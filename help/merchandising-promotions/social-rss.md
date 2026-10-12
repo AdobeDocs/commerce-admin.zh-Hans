@@ -3,29 +3,41 @@ title: 社交媒体和RSS源
 description: 了解如何添加社交媒体和其他RSS信息源集成以构建品牌和产品意识。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+TQID: 'https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # 社交媒体和RSS源
 
 许多商家使用社交媒体和其他数字工具来建立品牌和产品知名度。 您可以通过安装Marketplace扩展或向内容页面添加插件来将商店与社交网络集成。 使用RSS馈送将您的产品信息发布到购物聚合网站，甚至将它们包含在您的新闻稿中。 客户可以订阅您的RSS源，以了解有关新产品和促销的信息。
@@ -111,7 +123,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Sort Order]**&#x200B;字段中输入数字以确定块的顺序（如果块被分配在页面上与其他内容元素相同的位置出现）。 顶部的位置是零。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;并将&#x200B;**[!UICONTROL Display On]**&#x200B;设置为您希望块出现的类别、产品或页面。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_部分中，单击&#x200B;**[!UICONTROL Add Layout Update]**并将&#x200B;**[!UICONTROL Display On]**设置为您希望块出现的类别、产品或页面。
 
    例如，如果选择`All Pages`并将块放置在页眉或页脚中，则该块会出现在商店每个页面的同一位置。
 
@@ -133,7 +145,7 @@ ht-degree: 0%
 
 1. 出现提示时，按照工作区顶部的说明更新索引和页面缓存。
 
-   构件现在显示在&#x200B;_[!UICONTROL Widgets]_&#x200B;列表中。
+   构件现在显示在&#x200B;_[!UICONTROL Widgets]_列表中。
 
 ### 步骤4. 验证存储中的位置
 

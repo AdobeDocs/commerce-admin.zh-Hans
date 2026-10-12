@@ -3,30 +3,43 @@ title: 具有多个SKU的目录价格规则
 description: 了解如何将单个目录价格规则应用于多个SKU。
 exl-id: 99023460-0501-45cd-8990-5f2b9ed7b4a2
 feature: Merchandising, Price Rules, Catalog Management
-TQID: https://experienceleague.adobe.com/nChe-8VA4V0nrC46PbeKyh7DB4Ta-0lpcezMV3uHEw0
+TQID: 'https://experienceleague.adobe.com/nChe-8VA4V0nrC46PbeKyh7DB4Ta-0lpcezMV3uHEw0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 具有多个SKU的目录价格规则
 
 单个目录价格规则可应用于多个SKU，这使得根据产品、品牌或类别创建各种促销活动成为可能。 创建此规则时，您需要设置与所选SKU匹配的条件。 在构建规则时，您可以轻松地浏览并从网格中选择SKU。
@@ -37,7 +50,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
-1. 在&#x200B;_[!UICONTROL Attribute Code]_&#x200B;列顶部的搜索筛选器中，输入`sku`并单击&#x200B;**[!UICONTROL Search]**。
+1. 在&#x200B;_[!UICONTROL Attribute Code]_列顶部的搜索筛选器中，输入`sku`并单击&#x200B;**[!UICONTROL Search]**。
 
 1. 单击以在编辑模式下打开`sku`属性。
 

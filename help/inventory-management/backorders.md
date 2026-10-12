@@ -1,30 +1,41 @@
 ---
-title: 配置 [!DNL Inventory Management] 延期交货
-description: 在 [!DNL Inventory Management] 中配置全局延交订单和按产品延交订单，以便在现有量为零时销售和发运产品。
+title: 配置[!DNL Inventory Management]个延交
+description: 在[!DNL Inventory Management]中配置全局延交订单和按产品延交订单，以便在现有量为零时销售和发运产品。
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c
+TQID: 'https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '756'
 ht-degree: 0%
-
 ---
-
 # 配置[!DNL Inventory Management]个延交
 
 延交订单使您的商店能够在数量达到零或实际缺货后继续销售产品。 当客户订单为延交订单时，系统将立即授权并获取资金，订单的处理状态不会更改，并且发运将保持暂挂状态，直到库存可用为止。
@@ -62,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->当客户使用&#x200B;_[!UICONTROL backorder qty]_&#x200B;下达订单时，[!DNL Inventory Management]会自动从可销售数量中减去该数量。 如果订单未发运并且被取消，则数量将返回至汇总的虚拟可销售数量。**_取消的订单数量未分配给任何来源_**，而是返回到可供销售的产品总数（“产品”网格上的&#x200B;_[!UICONTROL Salable Quantity]_&#x200B;列）。
+>当客户使用&#x200B;_[!UICONTROL backorder qty]_下达订单时，[!DNL Inventory Management]会自动从可销售数量中减去该数量。 如果订单未发运并且被取消，则数量将返回至汇总的虚拟可销售数量。**_取消的订单数量未分配给任何来源_**，而是返回到可供销售的产品总数（“产品”网格上的_[!UICONTROL Salable Quantity]_&#x200B;列）。
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
@@ -110,9 +121,9 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在&#x200B;**[!UICONTROL Edit]**&#x200B;模式下打开产品，然后向下滚动页面至&#x200B;_[!UICONTROL Sources]_&#x200B;区域。
+1. 在&#x200B;**[!UICONTROL Edit]**&#x200B;模式下打开产品，然后向下滚动页面至&#x200B;_[!UICONTROL Sources]_区域。
 
-   对于未配置[!DNL Inventory Management]的产品，该选项卡不会显示。 `Advanced Inventory`按钮显示在&#x200B;_[!UICONTROL Quantity]_&#x200B;字段下方。
+   对于未配置[!DNL Inventory Management]的产品，该选项卡不会显示。 `Advanced Inventory`按钮显示在&#x200B;_[!UICONTROL Quantity]_字段下方。
 
 1. 单击&#x200B;**[!UICONTROL Advanced Inventory]**。
 

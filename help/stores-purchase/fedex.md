@@ -3,27 +3,35 @@ title: 联邦快递
 description: 了解如何将FedEx设置为您商店的运输运营商。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY
+TQID: 'https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 联邦快递
 
 联邦快递是世界上最大的航运服务公司之一，提供航空、货运和陆运服务，有几个优先级别。
@@ -113,13 +121,13 @@ ht-degree: 0%
 
    - 设置&#x200B;**[!UICONTROL Calculate Handling Fee]**：
 
-      - `Fixed Fee`
-      - `Percentage`
+     - `Fixed Fee`
+     - `Percentage`
 
    - 对于&#x200B;**[!UICONTROL Handling Applied]**，请选择以下方法之一来管理手续费：
 
-      - `Per Order`
-      - `Per Package`
+     - `Per Order`
+     - `Per Package`
 
    - 输入&#x200B;**[!UICONTROL Handling Fee]**&#x200B;作为`fixed`金额或`percentage`，具体取决于计算方法。
 

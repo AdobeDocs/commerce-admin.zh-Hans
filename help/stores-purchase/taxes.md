@@ -3,27 +3,35 @@ title: 税金
 description: 了解如何配置您的商店，以根据区域设置要求计算税额。
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # 税金
 
 根据区域设置要求配置商店以计算税金。 您可以为产品和客户组设置[税类](tax-class.md)，并创建将产品和客户类、税区和税率结合在一起的[税则](tax-rules.md)。 Commerce还为固定产品税、复合税提供配置设置，并跨国际边界显示价格。 如果您需要收取[增值税](vat.md)，则可以将商店设置为通过验证自动计算相应的金额。
@@ -32,7 +40,7 @@ ht-degree: 0%
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包括由Vertex供应商开发的扩展，用于与Vertex Cloud集成，以提供税务管理和地址清理。 从2.4.4版本开始，此扩展不再与核心版本捆绑在一起，必须从Commerce Marketplace或直接从供应商安装和更新。 [联系顶点](https://marketplace.magento.com/partner/vertex_inc)以获取有关扩展和文档的信息。<br><br>
 >
->如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
+>如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 快速参考
 
@@ -103,7 +111,7 @@ ht-degree: 0%
 - 客户的送货地址和成功付款交易的记录可用于建立客户的居住地。 （仅当送货地址与付款提供商信息匹配时才接受付款。）
 - 也可以直接从Commerce数据库表中的数据存储中捕获信息。
 
-_&#x200B;**要收集数字商品税务信息，请执行以下操作：**&#x200B;_
+_**要收集数字商品税务信息，请执行以下操作：**_
 
 1. 加载所有欧盟成员国的税率。
 

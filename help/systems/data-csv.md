@@ -3,27 +3,39 @@ title: CSV数据文件
 description: 了解CSV文件中用于支持数据导入和导出的结构。
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+TQID: 'https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: '718'
 ht-degree: 0%
-
 ---
-
 # CSV数据文件
 
 逗号分隔值(CSV)文件格式用作数据传输操作的基础，并且受所有电子表格和数据库应用程序支持。 导入和导出支持以下文件类型：
@@ -45,7 +57,7 @@ CSV文件具有必须与数据库匹配的特定结构。 每个列标题对应�
 
 表的第一行包含每个属性的名称，这些名称用作列标题。 其余行描述各个产品记录。 任何以SKU列中的值开头的行都是新产品记录的开始。 单个产品可能包含多行，这些行包含有关多个图像或产品选项的信息。 SKU列中带有值的下一行将开始一个新产品。
 
-类别列包含产品所分配到每个类别的路径。 路径包括根类别，每个级别之间后跟一个正斜杠(`/`)。 默认情况下，使用逗号`,`字符分隔不同的类别路径。 （可以使用&#x200B;_[!UICONTROL Multiple value separator]_&#x200B;选项指定其他分隔符。） 例如：
+类别列包含产品所分配到每个类别的路径。 路径包括根类别，每个级别之间后跟一个正斜杠(`/`)。 默认情况下，使用逗号`,`字符分隔不同的类别路径。 （可以使用&#x200B;_[!UICONTROL Multiple value separator]_选项指定其他分隔符。） 例如：
 
 `Default Category/Gear,Default Category/Gear/Bags`
 

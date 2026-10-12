@@ -3,36 +3,44 @@ title: 订单状态
 description: 了解预定义的订单状态，以及如何定义自定义订单状态以满足您的操作需求。
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # 订单状态
 
 所有订单都具有与订单处理[工作流](order-processing.md)中的阶段关联的订单状态。\
-顺序状态和顺序状态之间的区别在于&#x200B;**[!UICONTROL order states]**&#x200B;是以编程方式使用的。 他们不是
+顺序状态和顺序状态之间的区别在于&#x200B;**[!UICONTROL order states]**是以编程方式使用的。 他们不是
 对客户或管理员用户可见。 它们决定订单的流程，以及可以执行的操作
 按一定状态订购。\
-**[!UICONTROL Order statuses]**&#x200B;用于将订单的状态传达给客户和管理用户。
-您可以创建附加订单状态以满足运营需求。订单状态显示方便
-Adobe Commerce外部的进度，例如订单领料和交货进度。它们对订单没有任何影响
+**[!UICONTROL Order statuses]**用于将订单的状态传达给客户和管理用户。
+您可以创建附加订单状态以满足运营需求。 订单状态显示方便
+Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对订单没有任何影响
 正在处理工作流。\
 每个订单状态都与一个订单状态相关联。 您的商店有一组预定义的订单状态和
 订单状态设置。
@@ -90,13 +98,13 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。它们对订
 
    ![创建新订单状态](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. 更新&#x200B;_[!UICONTROL Order Status Information]_&#x200B;部分：
+1. 更新&#x200B;_[!UICONTROL Order Status Information]_部分：
 
    - 输入&#x200B;**[!UICONTROL Status Code]**&#x200B;供内部引用。 第一个字符必须是字母(a-z)，其余字符可以是字母和数字(0-9)的任意组合。 请使用下划线字符而不是空格。
 
    - 对于&#x200B;**[!UICONTROL Status Label]**，请输入一个标签，该标签在管理员和店面中标识状态设置。
 
-1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_&#x200B;部分中，输入不同商店视图所需的任何标签。
+1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_部分中，输入不同商店视图所需的任何标签。
 
 1. 单击&#x200B;**[!UICONTROL Save Status]**。
 
@@ -130,7 +138,7 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。它们对订
 
 ### 编辑现有订单状态
 
-1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;网格中，以编辑模式打开状态记录。
+1. 在&#x200B;_[!UICONTROL Order Status]_网格中，以编辑模式打开状态记录。
 
 1. 根据需要更新状态设置。
 
@@ -142,15 +150,15 @@ Adobe Commerce外部的进度，例如订单领料和交货进度。它们对订
 >
 >如果状态正在使用中，则无法从状态中取消分配状态设置。
 
-1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;网格中，找到要取消分配的订单状态记录。
+1. 在&#x200B;_[!UICONTROL Order Status]_网格中，找到要取消分配的订单状态记录。
 
-1. 在该行最右侧的&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL Unassign]**&#x200B;链接。
+1. 在该行最右侧的&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL Unassign]**链接。
 
    工作区顶部将显示一条消息，表明订单状态已取消分配。 尽管订单状态标签仍显示在列表中，但不再将其分配给状态。 无法删除订单状态设置。
 
 >[!NOTE]
 >
->如果默认订单状态是从订单状态中取消分配的，则&#x200B;_&#x200B;**另一个**&#x200B;_&#x200B;订单状态是&#x200B;_&#x200B;**自动设置**&#x200B;_&#x200B;作为此订单状态的默认值。
+>如果默认订单状态是从订单状态中取消分配的，则&#x200B;_**另一个**_&#x200B;订单状态是&#x200B;_**自动设置**_&#x200B;作为此订单状态的默认值。
 
 ## 通知
 

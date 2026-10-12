@@ -15,10 +15,23 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 67a00b294f1946da5795cd8fb7ea9fac1c80edcd
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -46,7 +59,7 @@ ht-degree: 0%
 | 要求 | 推荐的功能 |
 | --- | --- |
 | 将特定查询从标准[!DNL Adobe Commerce]搜索发送到页面 | 在受支持的[管理搜索词](../catalog/search-terms.md)中配置搜索词。 |
-| 更改搜索结果中的产品排名或可见性 | 使用[!DNL Live Search] [同义词](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/synonyms/synonyms)或[促销规则](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/rules/rules-add)。 |
+| 更改搜索结果中的产品排名或可见性 | 使用[!DNL Live Search] [同义词](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms)或[促销规则](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)。 |
 | 重定向旧产品、类别或CMS URL | 当适用于您的部署时，请使用Commerce [URL重写](url-rewrite.md)工具。 |
 | 重定向[!DNL Edge Delivery Services]路径 | 使用店面或CDN路由。 |
 | 店面迁移后保留旧版URL | 创建和测试旧版到新URL重定向映射。 |
@@ -83,13 +96,13 @@ ht-degree: 0%
 
 在需要更改搜索相关性、产品排名或产品可见性时使用[!DNL Live Search]。 当不同的词应返回相似的产品时，请使用同义词。 在必须以不同方式提升、掩埋或排名产品时，应使用促销规则。
 
-不应将[!DNL Live Search]搜索行为视为每个本机Commerce搜索词配置的放置替代行为。 当查询必须导航到内容或活动页面时，在接收请求的店面或边缘路由层中实施重定向。 有关详细信息，请参阅[[!DNL Live Search] 文档](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)。
+不应将[!DNL Live Search]搜索行为视为每个本机Commerce搜索词配置的放置替代行为。 当查询必须导航到内容或活动页面时，在接收请求的店面或边缘路由层中实施重定向。 有关详细信息，请参阅[[!DNL Live Search] 文档](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)。
 
 ## Edge Delivery Services
 
 对于由[!DNL Edge Delivery Services]提供支持的店面，在店面或边缘路由层中管理重定向。 请勿假设[!DNL Adobe Commerce]管理员URL重写了控制每个请求。
 
-使用文档创作时，在站点的重定向配置中维护重定向映射。 对于在请求到达源之前必须执行的重定向，请使用适当的CDN或边缘配置。 有关相关的SEO指南，请参阅[Commerce店面的SEO指南](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hans)。
+使用文档创作时，在站点的重定向配置中维护重定向映射。 对于在请求到达源之前必须执行的重定向，请使用适当的CDN或边缘配置。 有关相关的SEO指南，请参阅[Commerce店面的SEO指南](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)。
 
 ## 从Luma迁移
 

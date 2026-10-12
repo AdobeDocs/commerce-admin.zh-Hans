@@ -1,31 +1,40 @@
 ---
 title: 页面
-description: 了解有关 [!DNL Commerce] 演示存储中包含的核心内容页面以及更改默认页面配置的详细信息。
+description: 了解有关[!DNL Commerce]演示存储所包含的核心内容页面以及更改默认页面配置的详细信息。
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # 页面
 
 内容可以按照货架期来查看，就像商店中的任何产品一样。 您知道社交媒体内容的保质期不到24小时吗？ 您创建的内容的潜在存储期限可以帮助您确定将资源投入到何处。
@@ -80,7 +89,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL Web]**。
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL Web]**。
 
 1. 展开&#x200B;**[!UICONTROL Default Pages]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -103,7 +112,7 @@ _默认页面_&#x200B;配置确定与[基本URL](../stores-purchase/store-urls.m
 
    >[!NOTE]
    >
-   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_&#x200B;旁边的&#x200B;**[!UICONTROL Use Default]**&#x200B;复选框，以及任何其他要更改的默认设置。
+   >对于特定商店视图，请清除&#x200B;_[!UICONTROL Default Web URL]_旁边的&#x200B;**[!UICONTROL Use Default]**复选框，以及任何其他要更改的默认设置。
 
 1. 将&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;设置为要用作主页的CMS页面。 其他创建的页面可用作主页，例如：
 

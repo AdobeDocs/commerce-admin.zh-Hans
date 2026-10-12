@@ -3,30 +3,40 @@ title: 装运
 description: 了解如何为发票创建发运记录并取消发运。
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
-TQID: https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho
+TQID: 'https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 0%
-
+source-wordcount: '951'
+ht-degree: 1%
 ---
-
 # 装运
 
-_[!UICONTROL Shipments]_&#x200B;网格列出了已准备要装运的所有发票的装运记录。 当订单为[开票](invoices.md)或更高版本时，可以生成装运记录。
+_[!UICONTROL Shipments]_网格列出了已准备要装运的所有发票的装运记录。 当订单为[开票](invoices.md)或更高版本时，可以生成装运记录。
 
 Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且还提供[Inventory management](../inventory-management/introduction.md)和第三方扩展中的其他选项。
 
@@ -91,7 +101,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 单击&#x200B;**[!UICONTROL Ship]**。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;块并单击&#x200B;**[!UICONTROL Add Tracking Number]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_块并单击&#x200B;**[!UICONTROL Add Tracking Number]**。
 
 1. 设置&#x200B;**[!UICONTROL Carrier]**：
 
@@ -112,7 +122,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在编辑模式下查找并打开装运。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;块。
+1. 向下滚动到&#x200B;_[!UICONTROL Payment & Shipping Method]_块。
 
 1. 选择&#x200B;**[!UICONTROL Carrier]**。
 
@@ -148,7 +158,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Sales]_&#x200B;下，选择&#x200B;**[!UICONTROL Sales Email]**。
+1. 在&#x200B;_[!UICONTROL Sales]_下，选择&#x200B;**[!UICONTROL Sales Email]**。
 
 1. 展开&#x200B;**装运注释**&#x200B;部分，并根据需要修改设置：
 
@@ -162,7 +172,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
    - 对于&#x200B;**[!UICONTROL Shipment Comment Email Template for Guests]**，请选择用于商店中没有帐户的客户的模板。
 
-   - 对于&#x200B;**[!UICONTROL Shipment Comment Email Copy To]**，请输入发送装运注释电子邮件副本的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 对于&#x200B;**[!UICONTROL Shipment Comment Email Copy To]**，请输入发送装运注释电子邮件副本的电子邮件地址。 请使用逗号分隔多个电子邮件地址。
 
    - 对于&#x200B;**[!UICONTROL Shipment Comment Email Copy Method]**，根据您的喜好选择`bcc` （密件抄送）或`separate email copy`方法。
 
@@ -180,7 +190,7 @@ Adobe Commerce和Magento Open Source支持部分或全部订单装运，并且�
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Shipments]**。
 
-   如果可以取消装运，则顶部按钮栏中会显示&#x200B;_[!UICONTROL Cancel Shipment]_&#x200B;作为选项。
+   如果可以取消装运，则顶部按钮栏中会显示&#x200B;_[!UICONTROL Cancel Shipment]_作为选项。
 
 1. 单击&#x200B;**[!UICONTROL Cancel Shipment]**。
 

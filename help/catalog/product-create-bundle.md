@@ -3,29 +3,39 @@ title: 捆绑产品
 description: 了解如何创建捆绑产品，让购物者能够在您的商店中构建定制产品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+TQID: 'https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1616
+source-wordcount: '1616'
 ht-degree: 0%
-
 ---
-
 # 捆绑产品
 
 捆绑包是&#x200B;_构建您自己的_&#x200B;可自定义的产品。 捆绑包中的每个项目可以基于以下产品类型之一：
@@ -131,7 +141,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的默认&#x200B;**[!UICONTROL Visibility]**&#x200B;设置。
 
-1. 要将&#x200B;_[!UICONTROL Categories]_&#x200B;分配给产品，请单击&#x200B;**[!UICONTROL Select…]**&#x200B;框并执行以下任一操作：
+1. 要将&#x200B;_[!UICONTROL Categories]_分配给产品，请单击&#x200B;**[!UICONTROL Select…]**框并执行以下任一操作：
 
    **选择现有类别：**
 
@@ -155,7 +165,7 @@ ht-degree: 0%
 
 ## 步骤5：添加捆绑项目
 
-_[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
+_[!UICONTROL Bundle Items]_部分用于将项目添加到捆绑包产品类型并编辑当前选择的项目。
 
 为产品定义了![捆绑包项目](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -172,10 +182,10 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 
    - 将&#x200B;**[!UICONTROL Input Type]**&#x200B;设置为以下项之一：
 
-      - `Drop-down`
-      - `Radio buttons`
-      - `Checkbox`
-      - `Multiple Select`
+     - `Drop-down`
+     - `Radio buttons`
+     - `Checkbox`
+     - `Multiple Select`
 
    - 要使该字段成为必填项，请选中&#x200B;**[!UICONTROL Required]**&#x200B;复选框。
 
@@ -196,7 +206,7 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 
      >[!NOTE]
      >
-     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
+     >量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
 
      默认情况下，客户不能更改捆绑项目中包含的“默认数量”。 但是，客户可以输入要包括在捆绑中的物料数量。
 
@@ -299,7 +309,7 @@ _[!UICONTROL Bundle Items]_&#x200B;部分用于将项目添加到捆绑包产品
 
 ![复选框](../assets/checkbox.png) SKU和权重可以是`Fixed`或`Dynamic`。
 
-![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_&#x200B;属性分配给复选框或多选输入类型。
+![复选框](../assets/checkbox.png)数量可以是预设值或用户定义的值。 但是，不要将&#x200B;_[!UICONTROL User Defined]_属性分配给复选框或多选输入类型。
 
 ![复选框](../assets/checkbox.png)捆绑包项目可以一起发运或单独发运。
 

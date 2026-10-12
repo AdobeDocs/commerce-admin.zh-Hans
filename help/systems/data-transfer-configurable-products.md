@@ -3,28 +3,39 @@ title: 导入可配置产品
 description: 查看为可配置产品导入产品数据的示例。
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # 导入可配置产品
 
 了解可配置产品数据的结构方式的最佳方法是导出可配置产品及其变体，并在电子表格中检查数据。
@@ -40,10 +51,10 @@ ht-degree: 0%
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) — 用于产品变体的任何属性的输入类型必须是以下类型之一：
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
@@ -83,7 +94,7 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Export File Format]**&#x200B;设置为`CSV`。
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;下，向下滚动或使用属性标签过滤器来查找&#x200B;**[!UICONTROL SKU]**&#x200B;属性并执行以下操作：
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_下，向下滚动或使用属性标签过滤器来查找&#x200B;**[!UICONTROL SKU]**属性并执行以下操作：
 
    - 输入已选择导出的可配置产品的SKU，然后单击&#x200B;**[!UICONTROL Continue]**。
 
@@ -97,8 +108,8 @@ ht-degree: 0%
 
    - 滚动到工作表的最右侧，可找到以下各列。
 
-      - `configurable_variations` — 定义可配置产品记录与每个变体之间的一对多关系。
-      - `configurable_variation_labels` — 定义标识每个变体的标签。
+     - `configurable_variations` — 定义可配置产品记录与每个变体之间的一对多关系。
+     - `configurable_variation_labels` — 定义标识每个变体的标签。
 
      在此示例中，可以在CG和CH列中找到数据。 根据变体的数量，`configurable_variations`列中的数据字符串可能会很长。 数据用作关联产品变体的索引，并具有以下结构：
 
@@ -167,13 +178,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;下，将&#x200B;**[!UICONTROL Entity Type]**&#x200B;设置为`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_下，将&#x200B;**[!UICONTROL Entity Type]**设置为`Products`。
 
-1. 在&#x200B;_[!UICONTROL Import Behavior]_&#x200B;下，将&#x200B;**[!UICONTROL Import Behavior]**&#x200B;设置为`Add/Update`。
+1. 在&#x200B;_[!UICONTROL Import Behavior]_下，将&#x200B;**[!UICONTROL Import Behavior]**设置为`Add/Update`。
 
    ![数据导入行为](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL File to Import]_&#x200B;下，单击&#x200B;**[!UICONTROL Choose File]**&#x200B;并导航到您准备导入的CSV文件并选择该文件。
+1. 在&#x200B;_[!UICONTROL File to Import]_下，单击&#x200B;**[!UICONTROL Choose File]**并导航到您准备导入的CSV文件并选择该文件。
 
    ![数据导入文件](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

@@ -3,26 +3,37 @@ title: 创建电子邮件提醒
 description: 了解如何设置使用现有购物车价格规则的电子邮件提醒规则。
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+TQID: 'https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1035
+source-wordcount: '1035'
 ht-degree: 0%
-
 ---
-
 # 创建电子邮件提醒
 
 在设置电子邮件提醒规则之前，您必须先[设置购物车价格规则](price-rules-cart-create.md)以定义提供的促销活动。 触发电子邮件提醒的规则条件可以基于购物车属性、愿望清单属性或同时基于两者。
@@ -68,9 +79,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;字段设置电子邮件之间的间隔天数。<br/>
+   >如果客户有多个匹配的放弃购物车、愿望清单或两者的组合，则仅为该客户触发一次电子邮件提醒。 要再次触发相同的电子邮件提醒，请使用&#x200B;_[!UICONTROL Repeat Schedule]_字段设置电子邮件之间的间隔天数。<br/>
    >
-   >对于&#x200B;**_新_**&#x200B;放弃的购物车和&#x200B;_&#x200B;**之后**&#x200B;_&#x200B;的愿望清单&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;期限结束的同一客户，同一电子邮件提醒是&#x200B;**_未重新触发_**。
+   >对于&#x200B;**_新_**&#x200B;放弃的购物车和&#x200B;_**之后**_&#x200B;的愿望清单&#x200B;_[!UICONTROL Repeat Schedule]_期限结束的同一客户，同一电子邮件提醒是&#x200B;**_未重新触发_**。
    >
    >Adobe Commerce as a Cloud Service的实验功能允许多次应用单个规则，有关详细信息，请参阅[规则重复性](#rule-repeatability)。
 
@@ -98,7 +109,7 @@ ht-degree: 0%
 
      ![电子邮件提醒 — 标题和描述](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;部分中，输入_&#x200B;默认存储视图&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
+   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_部分中，输入_&#x200B;默认存储视图&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**和&#x200B;**[!UICONTROL Description]**。 对于多个商店视图，请为每个商店视图输入相应的标题和描述。
 
      >[!NOTE]
      >
@@ -106,7 +117,7 @@ ht-degree: 0%
 
      ![标题和描述 — 商店视图](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}如果您使用的是[!DNL Adobe Commerce as a Cloud Service]，则可以通过选中[!UICONTROL Rule Repeatability]复选框来启用[规则重复性](#rule-repeatability)。
+1. [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}如果您使用的是[!DNL Adobe Commerce as a Cloud Service]，则可以通过选中[!UICONTROL Rule Repeatability]复选框来启用[规则重复性](#rule-repeatability)。
 
    >[!IMPORTANT]
    >
@@ -116,7 +127,7 @@ ht-degree: 0%
 
 ## 规则重复性
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 >[!IMPORTANT]
 >
