@@ -66,7 +66,7 @@ ht-degree: 3%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | 网站 | 启用后，即可使用自定义定价创建特选目录，这些目录可在全球范围内使用，或仅限特定公司使用。 选项： `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | 网站 | 当&#x200B;_[!UICONTROL Enable Shared Catalog]_字段设置为`Yes`时，此选项可用。 启用后，只有分配给共享目录的产品才会存储在价格指数中。 店面中不会显示未分配给共享目录的产品。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | 网站 | 当&#x200B;_[!UICONTROL Enable Shared Catalog]_&#x200B;字段设置为`Yes`时，此选项可用。 启用后，只有分配给共享目录的产品才会存储在价格指数中。 店面中不会显示未分配给共享目录的产品。 选项： `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 网站 | 启用后，允许公司购买者从购物车提交询价。 选项： `Yes` / `No` |
 
 {style="table-layout:auto"}

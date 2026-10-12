@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ### 步骤6：选择变体属性
 
-1. 向下滚动到&#x200B;_[!UICONTROL Configurations]_部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
+1. 向下滚动到&#x200B;_[!UICONTROL Configurations]_&#x200B;部分，然后单击&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![配置](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -282,7 +282,7 @@ ht-degree: 0%
 
 输入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 为所有生成的产品变型分配来源和添加数量：
 
@@ -302,7 +302,7 @@ ht-degree: 0%
 
 为每个属性值输入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 为所有生成的产品变型分配来源和添加数量：
 
@@ -330,7 +330,7 @@ ht-degree: 0%
 
 ### 步骤10：添加产品图像
 
-1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 向下滚动并展开&#x200B;_[!UICONTROL Images and Videos]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 单击&#x200B;_摄像头_&#x200B;图块，并浏览到用于可配置产品的主图像。
 
@@ -422,7 +422,7 @@ ht-degree: 0%
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展开&#x200B;_[!UICONTROL Shopping Cart]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 将&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;设置为`Product Thumbnail Itself`。
 

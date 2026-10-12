@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[!DNL Adobe Commerce as a Cloud Service]平台上，您无法配置操作日志报告、操作日志存档和批量操作日志，但可以在“管理员”的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_菜单中查看报告输出。
+>在[!DNL Adobe Commerce as a Cloud Service]平台上，您无法配置操作日志报告、操作日志存档和批量操作日志，但可以在“管理员”的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;菜单中查看报告输出。
 
 ## 配置用于日志记录的管理操作
 

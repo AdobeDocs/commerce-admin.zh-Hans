@@ -166,7 +166,7 @@ DHL提供集成的国际服务和量身定制、以客户为中心的解决方�
 1. 若要创建包含从您的商店发出的DHL装运详细信息的日志文件，请将&#x200B;**[!UICONTROL Debug]**&#x200B;设置为`Yes`。
 
 1. DHL提供了&#x200B;**[!UICONTROL sandbox mode]**&#x200B;选项。 如果您使用的是沙盒模式，请将&#x200B;**[!UICONTROL sandbox mode]**&#x200B;设置为`Yes`。
-如果您使用的是实时模式，请将**[!UICONTROL sandbox mode]**&#x200B;设置为`No`。
+如果您使用的是实时模式，请将&#x200B;**[!UICONTROL sandbox mode]**&#x200B;设置为`No`。
 
    >[!NOTE]
    >

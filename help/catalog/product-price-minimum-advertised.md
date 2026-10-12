@@ -98,7 +98,7 @@ MAP功能添加了专用的&#x200B;_Click for Price_&#x200B;链接，而不是�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并在下面选择&#x200B;**[!UICONTROL Sales]**。
 
-1. 展开&#x200B;_[!UICONTROL Minimum Advertised Price]_部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 展开&#x200B;_[!UICONTROL Minimum Advertised Price]_&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 如有必要，请将&#x200B;**启用MAP**&#x200B;设置为`Yes`。
 

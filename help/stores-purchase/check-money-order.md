@@ -42,7 +42,7 @@ Adobe Commerce和Magento Open Source允许您接受支票或汇票付款。 默�
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_下，展开&#x200B;**[!UICONTROL Check / Money Order]**部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;下，展开&#x200B;**[!UICONTROL Check / Money Order]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![支票/汇票](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Adobe Commerce和Magento Open Source允许您接受支票或汇票付款。 默�
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. 对于&#x200B;**[!UICONTROL Make Check Payable To]**，输入支票必须支付到的参与方的名称。
 

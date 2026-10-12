@@ -36,7 +36,7 @@ ht-degree: 1%
 ---
 # 配置[!DNL Inventory Management]全局选项
 
-这些全局设置将应用于&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**下的整个目录。
+这些全局设置将应用于&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;下的整个目录。
 
 为网站的产品和库存配置默认配置选项。 可以通过[配置产品选项](product-options.md)为每个产品覆盖其中的某些设置。 要配置距离优先级设置，请参阅[配置距离优先级算法](distance-priority-algorithm.md)。
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >`sourceAvailability`查询默认处于禁用状态，因为它会披露哪些源存储了SKU。 在源数量达到&#x200B;_[!UICONTROL Stock Options]_部分中设置的&#x200B;**[!UICONTROL Only X left Threshold]**之前，精确数量将保持遮罩状态。 每个库存来源都有一个默认关闭的&#x200B;**[!UICONTROL Visible on Storefront]**标志。 在商家启用源库存之前，源库存永远不会被退回。 若要设置该源，请转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，编辑源，然后打开&#x200B;**[!UICONTROL Visible on Storefront]**。
+   >`sourceAvailability`查询默认处于禁用状态，因为它会披露哪些源存储了SKU。 在源数量达到&#x200B;_[!UICONTROL Stock Options]_&#x200B;部分中设置的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，精确数量将保持遮罩状态。 每个库存来源都有一个默认关闭的&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;标志。 在商家启用源库存之前，源库存永远不会被退回。 若要设置该源，请转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，编辑源，然后打开&#x200B;**[!UICONTROL Visible on Storefront]**。
 
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Admin bulk operations]**&#x200B;部分并设置选项：

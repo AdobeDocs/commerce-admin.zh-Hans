@@ -67,11 +67,11 @@ _Order by SKU_&#x200B;是一个[小组件](../content-design/widgets.md)，可�
 
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
 
-![Adobe Commerce B2B](../assets/b2b.svg)（仅限Adobe Commerce B2B） _**要启用“按SKU排序”功能，请禁用“快速排序”功能：**_
+![Adobe Commerce B2B](../assets/b2b.svg)（仅限Adobe Commerce B2B） _&#x200B;**要启用“按SKU排序”功能，请禁用“快速排序”功能：**&#x200B;_
 
 1. 转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左侧面板中的&#x200B;_[!UICONTROL General]_下，选择&#x200B;**[!UICONTROL B2B Features]**
+1. 在左侧面板中的&#x200B;_[!UICONTROL General]_&#x200B;下，选择&#x200B;**[!UICONTROL B2B Features]**
 
 1. 展开&#x200B;**[!UICONTROL B2B Features]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -99,7 +99,7 @@ _Order by SKU_&#x200B;是一个[小组件](../content-design/widgets.md)，可�
 
 1. 根据首选项添加单个项目：
 
-   _**按SKU添加每个项：**_
+   _&#x200B;**按SKU添加每个项：**&#x200B;_
 
    - 输入要订购的项的&#x200B;**[!UICONTROL SKU]**&#x200B;和&#x200B;**[!UICONTROL Qty]**。
 
@@ -107,7 +107,7 @@ _Order by SKU_&#x200B;是一个[小组件](../content-design/widgets.md)，可�
 
    - 单击&#x200B;**[!UICONTROL Add to Cart]**。
 
-   _**上载包含多个项目的CSV文件：**_
+   _&#x200B;**上载包含多个项目的CSV文件：**&#x200B;_
 
    - 准备一个[导入数据CSV](../systems/data-csv.md) （逗号分隔值）文件，该文件包含`SKU`和`Qty`的列。
 

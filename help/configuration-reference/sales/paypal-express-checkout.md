@@ -66,7 +66,7 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | 网站 | 指定您在建立PayPal商家帐户时指定的电子邮件地址。 电子邮件地址区分大小写，且必须与PayPal系统中的电子邮件地址完全匹配。 |
-| [!UICONTROL API Authentication Methods] | 网站 | 确定用于API身份验证的方法。 选项： <br/>**`API Signature`**— 在表单中显示&#x200B;_[!UICONTROL API Signature]_字段。<br/>**`API Certificate`**— 在表单中显示_[!UICONTROL API Certificate]_&#x200B;字段。 |
+| [!UICONTROL API Authentication Methods] | 网站 | 确定用于API身份验证的方法。 选项： <br/>**`API Signature`**— 在表单中显示&#x200B;_[!UICONTROL API Signature]_&#x200B;字段。<br/>**`API Certificate`**— 在表单中显示&#x200B;_[!UICONTROL API Certificate]_&#x200B;字段。 |
 | [!UICONTROL API Username] | 网站 | 与您的PayPal商家帐户关联的API用户名。 |
 | [!UICONTROL API Password] | 网站 | 与您的PayPal商家帐户关联的API密码。 |
 | [!UICONTROL API Signature] | 网站 | 与您的PayPal商家帐户关联的API签名。 |

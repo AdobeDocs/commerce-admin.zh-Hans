@@ -126,9 +126,9 @@ ht-degree: 0%
 
 ### 步骤5：填写礼品卡信息
 
-产品设置的&#x200B;_[!UICONTROL Gift Card Information]_部分可用于覆盖用于确定如何管理礼品卡的[礼品卡配置](../configuration-reference/sales/gift-cards.md)设置。
+产品设置的&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;部分可用于覆盖用于确定如何管理礼品卡的[礼品卡配置](../configuration-reference/sales/gift-cards.md)设置。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Gift Card Information]_部分。
+1. 向下滚动到&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;部分。
 
    此部分中的默认设置由系统配置决定。
 

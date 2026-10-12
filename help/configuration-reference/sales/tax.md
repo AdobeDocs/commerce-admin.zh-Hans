@@ -65,7 +65,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。<br/>**`Total`**— 税费计算基于订单总计。<br/><br/>_**&#x200B;注意：**_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
+| [!UICONTROL Tax Calculation Method Based On] | 网站 | 确定用于计算订单税的方法。 选项：<br/>**`Unit Price`**— 计税基于每个产品的单价。<br/>**`Row Total`** — 税费计算基于行项目总计。<br/>**`Total`**— 税费计算基于订单总计。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果从Marketplace安装了计税扩展，如&#x200B;_Vertex Cloud_，则扩展服务将列为选项。 |
 | [!UICONTROL Tax Calculation Based On] | 网站 | 确定税额计算是基于发运地址、帐单地址还是发运来源。 选项： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 网站 | 确定目录价格是否包含或排除税。 选项： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 网站 | 确定装运价格中包含或排除税。 选项： `Excluding Tax` / `Including Tax` |

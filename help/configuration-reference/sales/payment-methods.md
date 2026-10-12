@@ -232,7 +232,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 
 >[!NOTE]
 >
->请勿选择&#x200B;_[!UICONTROL Not Capture]_选项，除非您确定稍后将通过Commerce捕获付款。 在使用“捕获”按钮捕获付款之前，您无法创建贷项通知单。
+>请勿选择&#x200B;_[!UICONTROL Not Capture]_&#x200B;选项，除非您确定稍后将通过Commerce捕获付款。 在使用“捕获”按钮捕获付款之前，您无法创建贷项通知单。
 
 ## [!UICONTROL Purchase Order]
 

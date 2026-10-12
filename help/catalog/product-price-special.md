@@ -74,7 +74,7 @@ Adobe Commerce包含对[计划更新](../content-design/content-staging-schedule
 
    在店面，特价应同时出现在目录列表和产品页面上。
 
-   _[!UICONTROL Scheduled Change]_显示在页面顶部。
+   _[!UICONTROL Scheduled Change]_&#x200B;显示在页面顶部。
 
    ![计划的更改](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Magento Open Source在高级定价选项中包含简单的开始日期和结束�
 
 1. 在编辑模式下打开产品。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Price]_字段，单击&#x200B;**[!UICONTROL Advanced Pricing]**，然后输入&#x200B;**[!UICONTROL Special Price]**金额。
+1. 向下滚动到&#x200B;_[!UICONTROL Price]_&#x200B;字段，单击&#x200B;**[!UICONTROL Advanced Pricing]**，然后输入&#x200B;**[!UICONTROL Special Price]**&#x200B;金额。
 
 1. 使用&#x200B;_日历_ （![日历图标](../assets/icon-calendar.png) ）图标为特殊价格促销选择&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**。
 
@@ -108,7 +108,7 @@ Magento Open Source在高级定价选项中包含简单的开始日期和结束�
 
 以下示例显示如何在Adobe Commerce中为可配置产品的多个产品变体分配相同的特殊价格。
 
-1. 在&#x200B;_[!UICONTROL Products]_页面上，单击&#x200B;**[!UICONTROL Filters]**并输入可配置产品的&#x200B;**[!UICONTROL Name]**。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;页面上，单击&#x200B;**[!UICONTROL Filters]**&#x200B;并输入可配置产品的&#x200B;**[!UICONTROL Name]**。
 
 1. 将&#x200B;**[!UICONTROL Type]**&#x200B;设置为`Configurable Product`并单击&#x200B;**[!UICONTROL Apply Filters]**。
 
@@ -118,7 +118,7 @@ Magento Open Source在高级定价选项中包含简单的开始日期和结束�
 
 1. 将&#x200B;**[!UICONTROL Actions]**&#x200B;控件设置为`Update attributes`。
 
-1. 向下滚动到&#x200B;_[!UICONTROL Special Price]_字段，选中_[!UICONTROL Special Price]_&#x200B;字段下的&#x200B;**[!UICONTROL Change]**&#x200B;复选框，然后输入要提供的特殊价格。
+1. 向下滚动到&#x200B;_[!UICONTROL Special Price]_&#x200B;字段，选中&#x200B;_[!UICONTROL Special Price]_&#x200B;字段下的&#x200B;**[!UICONTROL Change]**&#x200B;复选框，然后输入要提供的特殊价格。
 
    ![特殊价格字段](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
