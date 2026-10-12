@@ -4,24 +4,33 @@ description: 请查看此促销活动示例，以安排产品的临时价格变�
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+TQID: 'https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '668'
 ht-degree: 0%
-
 ---
-
 # 计划内容更新
 
 {{ee-feature}}
@@ -49,7 +58,7 @@ ht-degree: 0%
 
    - 使用日历（![日历图标](../assets/icon-calendar.png)）工具为促销活动选择&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。
 
-     要创建开放营销活动，请勿指定结束日期（留空）。 对于此示例，营销活动计划于新年2021年1月1日凌晨12:00 PST午夜开始。
+     要创建开放营销活动，请勿指定结束日期（留空）。 在本例中，营销活动计划于新年的午夜(太平洋标准时间2021年1月1日凌晨12:00开始。
 
 
      对于创建时没有结束日期的价格规则市场活动，以后将无法添加结束日期。 在这种情况下，需要创建一个营销策划，并将开始日期设置为希望旧营销策划结束的日期和希望新营销策划开始的日期。 在该开始日期，旧营销活动结束，新营销活动开始（按定义）。

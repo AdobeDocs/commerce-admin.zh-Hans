@@ -3,29 +3,46 @@ title: '[!UICONTROL My Quote Templates]'
 description: 了解店面客户仪表板中提供的客户报价模板体验。
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+TQID: 'https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 973
+source-wordcount: '973'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Quote Templates]
 
 如果启用了报价，则客户帐户仪表板的&#x200B;_[!UICONTROL My Quotes Template]_&#x200B;部分将列出与客户帐户关联的所有报价模板。 根据他们的权限，只有代表公司进行购买的购买者才能请求报价模板并协商重复订单的报价定价和条款。
@@ -46,29 +63,29 @@ ht-degree: 0%
 
 - 与管理报价模板相关的操作：
 
-   - 取消模板
-   - 发送给卖方进行审核
-   - 接受报价模板
-   - 更改报价单模板到期日期
-   - 添加送货地址
-   - 管理参考文档链接
+  - 取消模板
+  - 发送给卖方进行审核
+  - 接受报价模板
+  - 更改报价单模板到期日期
+  - 添加送货地址
+  - 管理参考文档链接
 
 - 在洽谈过程中更新报价模板详细信息的活动：
 
-   - 复查项目定价和更新。
-   - 如果报价模板上配置了数量阈值，请调整最小值和最大值。
-   - 跟踪来自[!UICONTROL Comments]和[!UICONTROL History]部分的协商进程。
-   - 对于仍在审核的模板，采购员可以通过删除项目来修改报价模板。
-   - 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商。
-   - 添加、编辑或删除指向外部合同和协议的参考文档链接。
+  - 复查项目定价和更新。
+  - 如果报价模板上配置了数量阈值，请调整最小值和最大值。
+  - 跟踪来自[!UICONTROL Comments]和[!UICONTROL History]部分的协商进程。
+  - 对于仍在审核的模板，采购员可以通过删除项目来修改报价模板。
+  - 通过在明细项目和报价级别添加备注，与卖方进行沟通和协商。
+  - 添加、编辑或删除指向外部合同和协议的参考文档链接。
 
   进行更改后，买方将模板返回给卖方进行复查。
 
 - 协商过程中的常规操作：
 
-   - 将报价模板发送给卖方以供审阅
-   - 接受报价模板
-   - 取消以结束洽谈并关闭报价
+  - 将报价模板发送给卖方以供审阅
+  - 接受报价模板
+  - 取消以结束洽谈并关闭报价
 
 以下示例显示了一个报价模板，该模板已由买方更新并发送回卖方以供审阅。
 

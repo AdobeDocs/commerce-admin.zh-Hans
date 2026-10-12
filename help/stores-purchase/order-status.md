@@ -3,27 +3,35 @@ title: 订单状态
 description: 了解预定义的订单状态，以及如何定义自定义订单状态以满足您的操作需求。
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # 订单状态
 
 所有订单都具有与订单处理[工作流](order-processing.md)中的阶段关联的订单状态。\
@@ -31,8 +39,8 @@ ht-degree: 0%
 对客户或管理员用户可见。 它们决定订单的流程，以及可以执行的操作
 按一定状态订购。\
 **[!UICONTROL Order statuses]**&#x200B;用于将订单的状态传达给客户和管理用户。
-您可以创建附加订单状态以满足运营需求。订单状态显示方便
-Adobe Commerce外部的进度，例如订单领料和交货进度。它们对订单没有任何影响
+您可以创建附加订单状态以满足运营需求。 订单状态显示方便
+Adobe Commerce外部的进度，例如订单领料和交货进度。 它们对订单没有任何影响
 正在处理工作流。\
 每个订单状态都与一个订单状态相关联。 您的商店有一组预定义的订单状态和
 订单状态设置。

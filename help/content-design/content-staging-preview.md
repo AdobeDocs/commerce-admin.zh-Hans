@@ -4,26 +4,35 @@ description: 为营销活动中的任意日期或时间段创建预览，并与�
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
+TQID: 'https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # 预览营销活动
 
 {{ee-feature}}
@@ -34,13 +43,13 @@ ht-degree: 0%
 
    - 从内容暂存仪表板&#x200B;__
 
-      - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**。
-      - 单击页面上的任何项目，然后单击显示的营销活动摘要信息中的&#x200B;**[!UICONTROL Preview]**。
+     - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**。
+     - 单击页面上的任何项目，然后单击显示的营销活动摘要信息中的&#x200B;**[!UICONTROL Preview]**。
 
    - _从任何有计划更改的页面_
 
-      - 打开任何顶部有&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框的页面。
-      - 单击&#x200B;**[!UICONTROL Preview]**。
+     - 打开任何顶部有&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;框的页面。
+     - 单击&#x200B;**[!UICONTROL Preview]**。
 
    预览会在新的浏览器选项卡中打开，并显示产品在计划的营销活动期间的显示方式。
 

@@ -4,30 +4,41 @@ description: 了解如何在您的商店中将PayPal Payments Standard设置为�
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
+TQID: 'https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2089
+source-wordcount: '2130'
 ht-degree: 0%
-
 ---
-
 # PayPal支付标准
 
 [PayPal Payments Standard](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/)是接受在线付款的最简单方式。 只需在商店中添加结帐按钮，即可为客户提供信用卡和PayPal付款的便利。
@@ -41,7 +52,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2要求：** <br/>
->自2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。PayPal Payments Standard无需采取任何操作即可符合PSD2，因为所有要求都由PayPal处理。
+>从2019年9月14日起，欧洲银行可能会拒绝不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的支付。 PayPal Payments Standard无需采取任何操作即可符合PSD2，因为所有要求都由PayPal处理。
 
 ## 商家要求
 
@@ -382,8 +393,8 @@ ht-degree: 0%
 
    - 如果您已注册PayPal安全FTP服务器，请输入以下SFTP登录凭据：
 
-      - 登录
-      - 密码
+     - 登录
+     - 密码
 
    - 要在使用Express Checkout在您的网站上正式启用之前运行测试报告，请将&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;设置为`Yes`。
 
@@ -401,13 +412,13 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Schedule]**&#x200B;设置为以下项之一：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal会将每个报表保留45天。
 
@@ -435,9 +446,9 @@ ht-degree: 0%
 
    - 输入要应用于PayPal商家页面的&#x200B;**[!UICONTROL Page Style]**&#x200B;的名称：
 
-      - `paypal` — 使用PayPal页面样式。
-      - `primary` — 使用您在帐户配置文件中标识为&#x200B;_primary_&#x200B;样式的页面样式。
-      - `your_custom_value` — 使用在您的帐户配置文件中指定的自定义付款页面样式。
+     - `paypal` — 使用PayPal页面样式。
+     - `primary` — 使用您在帐户配置文件中标识为&#x200B;_primary_&#x200B;样式的页面样式。
+     - `your_custom_value` — 使用在您的帐户配置文件中指定的自定义付款页面样式。
 
    - 对于&#x200B;**[!UICONTROL Header Image URL]**，输入要显示在付款页左上角的图像URL。 最大文件大小为750像素宽x 90像素高。
 
@@ -447,6 +458,6 @@ ht-degree: 0%
 
    - 要设置页面的颜色，请为以下各项输入六个字符的十六进制代码（不带`#`符号）：
 
-      - **[!UICONTROL Header Background Color]** — 签出页面标题的背景颜色。
-      - **[!UICONTROL Header Border Color]** — 标题周围两像素边框的颜色。
-      - **[!UICONTROL Page Background Color]** — 结账页面以及标题和付款表单周围的背景颜色。
+     - **[!UICONTROL Header Background Color]** — 签出页面标题的背景颜色。
+     - **[!UICONTROL Header Border Color]** — 标题周围两像素边框的颜色。
+     - **[!UICONTROL Page Background Color]** — 结账页面以及标题和付款表单周围的背景颜色。

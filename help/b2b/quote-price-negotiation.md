@@ -3,30 +3,46 @@ title: 协商报价
 description: 了解报价洽谈工作流以及如何与购买者合作进行购买。
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # 协商报价
 
 如果在配置中启用了[B2B报价](configure-quotes.md)，则价格洽谈可以由授权买方从公司或销售代表启动。
@@ -93,11 +109,11 @@ ht-degree: 0%
   [!UICONTROL Configure]选项仅在可配置产品的行项上可用
 
 - 在&#x200B;**[!UICONTROL Action]**&#x200B;菜单中，选择一个操作以更新该项：
-   - **折扣项目**&#x200B;以百分比、固定金额或首选定价形式应用折扣。
-（可选）您可以锁定折扣金额以防止进一步折扣。如果未锁定折扣，
-行项目折扣和任何报价级别折扣都应用于产品价格。
-   - **给购买者留言**，以便向购买者提供有关物料的附加信息
-   - **删除**&#x200B;以从报价中删除项目。
+  - **折扣项目**&#x200B;以百分比、固定金额或首选定价形式应用折扣。
+    （可选）您可以锁定折扣金额以防止进一步折扣。 如果未锁定折扣，
+    行项目折扣和任何报价级别折扣都应用于产品价格。
+  - **给购买者留言**，以便向购买者提供有关物料的附加信息
+  - **删除**&#x200B;以从报价中删除项目。
 
 ### 应用更改并更新
 
@@ -139,9 +155,9 @@ ht-degree: 0%
 
    - 在&#x200B;_[!UICONTROL Negotiated Price]_&#x200B;部分的&#x200B;_[!UICONTROL Quote Totals]_&#x200B;下，选择以下折扣类型之一：
 
-      - `Percentage Discount`：百分比折扣按特定百分比降低原始价格。
-      - `Amount Discount`：金额折扣适用于固定价格折扣。
-      - `Proposed Price`：建议的价格折扣将最终价格设置为特定金额，而不考虑原始价格。
+     - `Percentage Discount`：百分比折扣按特定百分比降低原始价格。
+     - `Amount Discount`：金额折扣适用于固定价格折扣。
+     - `Proposed Price`：建议的价格折扣将最终价格设置为特定金额，而不考虑原始价格。
 
    - 以百分比或统一价格输入金额。
 
@@ -149,9 +165,9 @@ ht-degree: 0%
 
    - 您可以将折扣应用到每个行项目或整个报价：
 
-      - **行项目折扣**：行项目折扣应用于购物车中的单个项目。 折扣可以是`percentage`、特定`amount`或`proposed price`。
-      - **购物车级别的折扣**：对整个购物车应用购物车级别的折扣。 折扣可以为`percentage`或特定的`amount`，并且应用于购物车总值。
-      - **购物车和行项目折扣的组合**：在某些情况下，折扣可同时应用于购物车和行项目级别。 首先应用行项目折扣，然后应用剩余总计的购物车级别折扣。
+     - **行项目折扣**：行项目折扣应用于购物车中的单个项目。 折扣可以是`percentage`、特定`amount`或`proposed price`。
+     - **购物车级别的折扣**：对整个购物车应用购物车级别的折扣。 折扣可以为`percentage`或特定的`amount`，并且应用于购物车总值。
+     - **购物车和行项目折扣的组合**：在某些情况下，折扣可同时应用于购物车和行项目级别。 首先应用行项目折扣，然后应用剩余总计的购物车级别折扣。
 
 1. 发送或保存报价：
 

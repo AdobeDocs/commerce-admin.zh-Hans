@@ -1,34 +1,46 @@
 ---
-title: 保护您的 [!DNL Commerce] 帐户
-description: 了解如何使用双重身份验证来保护您的 [!DNL Commerce] 帐户。
+title: 保护您的[!DNL Commerce]帐户
+description: 了解如何使用双重身份验证来保护您的[!DNL Commerce]帐户。
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-TQID: https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc
+TQID: 'https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: '1753'
 ht-degree: 0%
-
 ---
-
 # 保护您的[!DNL Commerce]帐户
 
 双重身份验证（TFA或2FA）是添加的安全层，可更好地保护您的[!DNL Commerce]帐户免遭未经授权的访问。 要完成登录过程，除了标准用户名和密码凭据外，TFA还需要&#x200B;_秒因子_。 第二个因素采用临时验证代码的形式，这些代码由安装在您的移动设备上并与您的[!DNL Commerce]帐户配对的TFA应用程序持续生成。

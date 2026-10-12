@@ -4,30 +4,38 @@ description: 查看Commerce管理员的[!UICONTROL Services] &gt； [!UICONTROL 
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0
+TQID: 'https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 4%
-
 ---
-
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-若要了解如何将您的商店连接到Adobe Commerce服务，请参阅[Commerce服务](https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/integration-services/saas)。
+若要了解如何将您的商店连接到Adobe Commerce服务，请参阅[Commerce服务](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)。
 
 {{config}}
 
@@ -60,7 +68,7 @@ ht-degree: 4%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Project] | 全局 | 对所有SaaS数据空间进行分组的SaaS项目的名称。 如果不存在SaaS项目，则会显示&#x200B;_创建项目_&#x200B;按钮。 |
-| [!UICONTROL Data Space] | 全局 | 列出指定SaaS项目中的SaaS数据空间。 SaaS数据空间的数量取决于您的[Commerce许可证](https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/integration-services/saas)：<br />Adobe Commerce — 一个生产数据空间；两个测试数据空间；<br />Magento Open Source — 一个生产数据空间；无测试数据空间 |
+| [!UICONTROL Data Space] | 全局 | 列出指定SaaS项目中的SaaS数据空间。 SaaS数据空间的数量取决于您的[Commerce许可证](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)：<br />Adobe Commerce — 一个生产数据空间；两个测试数据空间；<br />Magento Open Source — 一个生产数据空间；无测试数据空间 |
 
 {style="table-layout:auto"}
 

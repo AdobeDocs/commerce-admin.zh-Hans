@@ -3,26 +3,35 @@ title: 发送订单
 description: 了解如何填写处理订单的配送信息，以及查看配送和跟踪信息。
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+TQID: 'https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 发送订单
 
 已付款但正在等待装运的订单具有`Processing`状态。 装运记录包含与订单关联的履行流程的详细历史记录。 在订单履行之前，可以发运部分货物。
@@ -43,11 +52,11 @@ ht-degree: 0%
 
    - 执行以下操作之一：
 
-      - 选择&#x200B;**[!UICONTROL Carrier]**&#x200B;并输入跟踪&#x200B;**[!UICONTROL Number]**。
+     - 选择&#x200B;**[!UICONTROL Carrier]**&#x200B;并输入跟踪&#x200B;**[!UICONTROL Number]**。
 
-      - 将&#x200B;**[!UICONTROL Carrier]**&#x200B;设置为`Custom Value`，输入自定义运营商的&#x200B;**[!UICONTROL Title]**，然后输入跟踪&#x200B;**[!UICONTROL Number]**。
+     - 将&#x200B;**[!UICONTROL Carrier]**&#x200B;设置为`Custom Value`，输入自定义运营商的&#x200B;**[!UICONTROL Title]**，然后输入跟踪&#x200B;**[!UICONTROL Number]**。
 
-      - [查看跟踪信息](#track-the-shipment)。
+     - [查看跟踪信息](#track-the-shipment)。
 
 1. 要进行部分发运，请向下滚动到“要发运的项目”部分，然后为每个项目输入&#x200B;**[!UICONTROL Qty to Ship]**。
 

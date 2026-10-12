@@ -4,31 +4,44 @@ description: 简化具有复杂运营模型的B2B组织的管理和管理。
 feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
+TQID: 'https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # 公司管理
 
 Adobe Commerce中的公司管理为管理员提供全面的工具，用于组织、配置和监督B2B业务关系。 对于与多个公司客户、子公司或复杂的组织结构合作的企业，此功能必不可少。
@@ -75,18 +88,18 @@ Adobe Commerce中的公司管理为管理员提供全面的工具，用于组织
 “公司”网格中的&#x200B;*[!UICONTROL Company Type]*&#x200B;列显示每个公司如何适合您的B2B组织：
 
 * **父项** — 具有一个或多个已分配公司的中心中心
-   * 控制多个子公司，但无法分配给其他父公司
-   * **用例** — 公司总部、主要特许经营组织或控股公司
+  * 控制多个子公司，但无法分配给其他父公司
+  * **用例** — 公司总部、主要特许经营组织或控股公司
 
 * **子项** — 分配给父组织的公司
-   * 在父代治理下运行，可以继承配置
-   * 一次只能属于一个父级
-   * **用例** — 附属办公室、特许经营地点或地区部门
+  * 在父代治理下运行，可以继承配置
+  * 一次只能属于一个父级
+  * **用例** — 附属办公室、特许经营地点或地区部门
 
 * **公司** — 独立的单一公司
-   * 独立运行，没有层次结构关系
-   * 可以转换为父项（通过分配公司）或子项（通过分配给父项）
-   * **用例** — 个人业务客户或独立客户端
+  * 独立运行，没有层次结构关系
+  * 可以转换为父项（通过分配公司）或子项（通过分配给父项）
+  * **用例** — 个人业务客户或独立客户端
 
 ### 转换公司类型
 
@@ -108,24 +121,24 @@ Adobe Commerce中的公司管理为管理员提供全面的工具，用于组织
 从公司网格管理公司时，管理员可以从&#x200B;*[!UICONTROL Company Hierarchy]*&#x200B;网格执行以下任务：
 
 * **查看和管理公司关系**
-   * **查看关联的公司** — 在一个集中式视图中查看链接到父组织的所有公司
-   * **监视公司状态** — 跟踪层次结构中的活动、待定和非活动的公司
-   * **访问公司详细信息** — 直接导航到各个公司配置页面
+  * **查看关联的公司** — 在一个集中式视图中查看链接到父组织的所有公司
+  * **监视公司状态** — 跟踪层次结构中的活动、待定和非活动的公司
+  * **访问公司详细信息** — 直接导航到各个公司配置页面
 
 * **生成和修改层次结构**
-   * **分配公司** — 从公司详细信息页面将现有公司添加到父组织
-   * **创建父子关系** — 构建公司以反映真实的业务关系
-   * **重新组织结构** — 随着业务需求变化，在不同父组织之间移动公司
+  * **分配公司** — 从公司详细信息页面将现有公司添加到父组织
+  * **创建父子关系** — 构建公司以反映真实的业务关系
+  * **重新组织结构** — 随着业务需求变化，在不同父组织之间移动公司
 
 * **批量配置管理**
-   * **跨公司应用设置** — 使用公司网格上的[!UICONTROL Actions]控件同时更新多个公司的高级设置
-   * **标准化配置** — 确保相关组织之间的策略一致
-   * **覆盖单个设置** — 将父公司配置推送到选定的子公司
+  * **跨公司应用设置** — 使用公司网格上的[!UICONTROL Actions]控件同时更新多个公司的高级设置
+  * **标准化配置** — 确保相关组织之间的策略一致
+  * **覆盖单个设置** — 将父公司配置推送到选定的子公司
 
 * **管理操作**
-   * **删除公司关系** — 使用&#x200B;*[!UICONTROL Unassign from parent]*&#x200B;操作解除组织关系
-   * **管理公司访问权限** — 控制哪些管理员可以查看和修改公司关系
-   * **监视层次结构更改** — 跟踪对组织结构的修改
+  * **删除公司关系** — 使用&#x200B;*[!UICONTROL Unassign from parent]*&#x200B;操作解除组织关系
+  * **管理公司访问权限** — 控制哪些管理员可以查看和修改公司关系
+  * **监视层次结构更改** — 跟踪对组织结构的修改
 
 ## 最佳实践
 

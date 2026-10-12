@@ -3,28 +3,39 @@ title: 快讯和订阅
 description: 了解新闻稿以及如何启用此功能作为低成本的促销工具。
 exl-id: ad4488c2-1b8b-4326-8486-743c75c5b9a6
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ
+TQID: 'https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 314
+source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 快讯和订阅
 
 定期发布新闻稿被认为是功能最强大、最经济实惠的营销工具之一。 通过Commerce，您能够向已订阅的客户发布和分发新闻稿，以及使用各种工具来制作您的新闻稿、构建和管理订阅者列表、开发内容并促进您商店的流量。 您还可以使用[页面层次结构](../content-design/page-hierarchy.md)创建过去问题的存档。
@@ -61,9 +72,9 @@ ht-degree: 0%
 
    - 确认发送给订阅者的以下每封电子邮件的电子邮件模板和发件人：
 
-      - [!UICONTROL Success email]
-      - [!UICONTROL Confirmation email]
-      - [!UICONTROL Unsubscribe email]
+     - [!UICONTROL Success email]
+     - [!UICONTROL Confirmation email]
+     - [!UICONTROL Unsubscribe email]
 
    - 要使用双重选择加入过程确认订阅，请将&#x200B;**[!UICONTROL Need to Confirm]**&#x200B;设置为`Yes`。
 

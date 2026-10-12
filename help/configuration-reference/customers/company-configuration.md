@@ -3,30 +3,40 @@ title: '[!UICONTROL Customers] > [!UICONTROL Company Configuration]'
 description: 查看Commerce管理员的[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]页面上的配置设置。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-TQID: https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI
+TQID: 'https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 1%
-
+source-wordcount: '841'
+ht-degree: 3%
 ---
-
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
 
 {{b2b-feature}}
@@ -60,7 +70,7 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Company Registration Email Recipient] | 商店视图 | 从店面提交公司注册请求时通知的店面联系人。 选项： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Registration Email Copy To] | 商店视图 | 接收注册通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。 |
+| [!UICONTROL Send Company Registration Email Copy To] | 商店视图 | 接收注册通知副本的每个人的电子邮件地址。 请使用逗号分隔多个电子邮件地址。 |
 | [!UICONTROL Send Email Copy Method] | 商店视图 | 用于发送注册电子邮件副本的电子邮件方法。 选项： `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | 商店视图 | 默认用于公司注册通知的电子邮件模板。 默认模板： `Company Registration Request` |
 
@@ -89,7 +99,7 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | 商店视图 | 每当公司状态发生变化时通知的商店联系人。 选项： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Status Change Email Copy To] | 商店视图 | 每个接收公司状态更改通知副本的人员的电子邮件地址。 用逗号分隔多个电子邮件地址。 |
+| [!UICONTROL Send Company Status Change Email Copy To] | 商店视图 | 每个接收公司状态更改通知副本的人员的电子邮件地址。 请使用逗号分隔多个电子邮件地址。 |
 | [!UICONTROL Send Email Copy Method] | 商店视图 | 用于发送状态更改通知副本的电子邮件方法。 选项： `Bcc` / `Separate Email` |
 | [!UICONTROL Default "Company Status Change to Active 1' Email] | 商店视图 | 当公司的状态从&#x200B;_未决批准_&#x200B;更改为&#x200B;_活动_&#x200B;时使用的电子邮件模板。 默认模板： `Company Status Active 1` |
 | [!UICONTROL Default 'Company Status Change to Active 2' Email] | 商店视图 | 公司状态从&#x200B;_已拒绝_&#x200B;或&#x200B;_已阻止_&#x200B;更改为&#x200B;_活动_&#x200B;时默认使用的电子邮件模板。 默认模板： `Company Status Active 2` |
@@ -106,7 +116,7 @@ ht-degree: 1%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Company Credit Change Email Sender] | 商店视图 | 公司信用发生更改时通知的商店联系人。 选项： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Credit Change Email Copy To] | 商店视图 | 每个将接收公司信用更改通知副本的人员的电子邮件地址。 用逗号分隔多个电子邮件地址。 |
+| [!UICONTROL Send Company Credit Change Email Copy To] | 商店视图 | 每个将接收公司信用更改通知副本的人员的电子邮件地址。 请使用逗号分隔多个电子邮件地址。 |
 | [!UICONTROL Send Email Copy Method] | 商店视图 | 用于发送信用更改通知副本的电子邮件方法。 选项： `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | 商店视图 | 分配公司业绩时默认使用的电子邮件模板。 此电子邮件将发送给公司管理员。 默认模板： `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | 商店视图 | 更新公司的信用额度时默认使用的电子邮件模板。 此电子邮件将发送给公司管理员。 默认模板： `Credit Limit Updated` |

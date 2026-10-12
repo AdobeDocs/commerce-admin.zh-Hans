@@ -3,29 +3,39 @@ title: 联合包裹服务(UPS)
 description: 了解如何将UPS设置为您商店的配送运营商。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ
+TQID: 'https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: '1025'
 ht-degree: 0%
-
 ---
-
 # 联合包裹服务(UPS)
 
 联合包裹服务(UPS)向220多个国家提供国内和国际陆运和空运服务。
@@ -72,12 +82,12 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Live Account]**&#x200B;设置为以下项之一：
 
-      - `Yes` — 在生产模式下运行UPS，并将UPS作为配送方式提供给您的客户。 请确保在网关URL和跟踪URL下使用正确的端点。
-      - `No` — 在测试模式下运行UPS。 请确保在网关URL和跟踪URL下使用正确的端点。
+     - `Yes` — 在生产模式下运行UPS，并将UPS作为配送方式提供给您的客户。 请确保在网关URL和跟踪URL下使用正确的端点。
+     - `No` — 在测试模式下运行UPS。 请确保在网关URL和跟踪URL下使用正确的端点。
 
    >[!NOTE]
    >
-   >标准联合包裹服务类型已计划弃用。对于新配置，使用默认`United Parcel Service REST`类型。还需要REST类型才能生成[装运标签](shipping-labels.md).<br/>
+   >标准联合包裹服务类型已计划弃用。 对于新配置，使用默认`United Parcel Service REST`类型。 还需要REST类型才能生成[装运标签](shipping-labels.md)。<br/>
    >对于2.4.7版本，**[!UICONTROL UPS Type]**&#x200B;被删除，因为`UPS`和`UPS XML`类型已计划弃用，并且默认为`UPS REST`。 本机Adobe Commerce集成使用的United Parcel Service (UPS) API暂时被弃用，因为它当前不支持OAuth 2.0安全模型。
 
    >[!IMPORTANT]

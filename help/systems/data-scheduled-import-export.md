@@ -3,29 +3,43 @@ title: 计划的导入和导出
 description: 了解如何管理计划的数据导入和导出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # 计划的导入和导出
 
 {{ee-feature}}
@@ -82,20 +96,20 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]** — 设置为以下任一项：
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — 设置为以下任一项：
 
-      - `Add/Update Complex Data` — 将新的复杂数据添加到或更新到数据库中现有条目的现有复杂数据。 这是默认值。
-      - `Replace` — 写入数据库中现有实体的现有复数。
-      - `Delete Entities` — 删除数据库中的现有条目。
-      - `Custom Action` — 自定义数据库中的现有实体。
+     - `Add/Update Complex Data` — 将新的复杂数据添加到或更新到数据库中现有条目的现有复杂数据。 这是默认值。
+     - `Replace` — 写入数据库中现有实体的现有复数。
+     - `Delete Entities` — 删除数据库中的现有条目。
+     - `Custom Action` — 自定义数据库中的现有实体。
 
      >[!NOTE]
      >
@@ -151,7 +165,7 @@ ht-degree: 0%
 
 1. 对于&#x200B;**[!UICONTROL Send Failed Email Copy To]**，输入任何要接收通知副本的人的电子邮件地址。
 
-   用逗号分隔多个电子邮件地址。
+   请使用逗号分隔多个电子邮件地址。
 
 1. 将&#x200B;**[!UICONTROL Failed Email Copy Method]**&#x200B;设置为以下项之一：
 
@@ -233,12 +247,12 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Entity Type]**&#x200B;设置为以下项之一：
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
      页面底部的&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;部分已更新以反映所选的实体类型。
 
@@ -246,9 +260,9 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Frequency]**&#x200B;设置为以下项之一：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. 要激活计划导出，请将&#x200B;**[!UICONTROL Status]**&#x200B;设置为`Enabled`。
 

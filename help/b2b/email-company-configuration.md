@@ -4,28 +4,36 @@ description: 了解用于为公司帐户发送通信的电子邮件选项和模�
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # 配置公司电子邮件选项
 
 默认情况下，将指定为公司主要联系人的[销售代表](account-company-manage.md)配置为许多自动发送给公司的电子邮件的发件人。
@@ -44,12 +52,12 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Company Registration Email Recipient]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，在收到新的公司注册请求时会通知该联系人。
 
-   - 在&#x200B;**[!UICONTROL Send Company Registration Email Copy To]**&#x200B;字段中，输入要接收注册通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Registration Email Copy To]**&#x200B;字段中，输入要接收注册通知副本的每个人的电子邮件地址。 请使用逗号分隔多个电子邮件地址。
 
    - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
-      - `Separate Email` — 将副本作为单独的电子邮件发送。
+     - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+     - `Separate Email` — 将副本作为单独的电子邮件发送。
 
    - 如果您已准备要使用的电子邮件模板而不是默认模板，请将&#x200B;**[!UICONTROL Default Company Registration Email]**&#x200B;设置为模板的名称。 默认情况下，使用`Company Registration Request`模板。
 
@@ -73,12 +81,12 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Company Status Change for Email Recipient]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当公司状态发生变化时，将通知该联系人。
 
-   - 在&#x200B;**[!UICONTROL Send Company Status Change Email Copy To]**&#x200B;字段中，输入要接收状态更改通知副本的每个人的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Status Change Email Copy To]**&#x200B;字段中，输入要接收状态更改通知副本的每个人的电子邮件地址。 请使用逗号分隔多个电子邮件地址。
 
    - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
-      - `Separate Email` — 将副本作为单独的电子邮件发送。
+     - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+     - `Separate Email` — 将副本作为单独的电子邮件发送。
 
    - 如果您的准备好的电子邮件模板将在公司状态从`Pending Approval`更改为`Active`时使用，而不是默认模板，请将&#x200B;**[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;设置为该模板。 默认情况下，使用`Company Status Active 1`模板。
 
@@ -96,20 +104,20 @@ ht-degree: 0%
 
    - 将&#x200B;**[!UICONTROL Company Credit Change Email Sender]**&#x200B;设置为[商店联系人](../getting-started/store-details.md#store-email-addresses)，当分配给公司的信用额度发生更改时，将通知该联系人。 默认情况下，该通知将发送给&#x200B;_销售代表_。
 
-   - 在&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**&#x200B;字段中，输入要接收信用更改通知副本的每个人员的电子邮件地址。 用逗号分隔多个电子邮件地址。
+   - 在&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**&#x200B;字段中，输入要接收信用更改通知副本的每个人员的电子邮件地址。 请使用逗号分隔多个电子邮件地址。
 
    - 要确定通知副本的发送方式，请将&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;设置为以下项之一：
 
-      - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
-      - `Separate Email` — 将副本作为单独的电子邮件发送。
+     - `Bcc` — 通过在发送给客户的同一电子邮件的标头中包含收件人，发送&#x200B;_免费副本_。 客户看不到密件抄送收件人。
+     - `Separate Email` — 将副本作为单独的电子邮件发送。
 
    - 如果您已准备要使用的电子邮件模板而不是默认模板，请为发送给公司管理员的以下每个通知选择模板。
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![客户配置 — 公司信用电子邮件](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

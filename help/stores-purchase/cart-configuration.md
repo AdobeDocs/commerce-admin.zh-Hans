@@ -3,28 +3,37 @@ title: 购物车配置
 description: 了解您可以配置的购物车功能，以支持您商店中的购买体验。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # 购物车配置
 
 购物车配置决定了购物车如何为商店客户运行，包括何时将客户重定向到购物车页面以及哪些图像用于产品缩略图。 您还可以要求订单在结帐流程开始之前达到最小数量，指定报价保持有效的天数，并在&#x200B;_订单合计_&#x200B;部分中指定项目的顺序。
@@ -51,7 +60,7 @@ ht-degree: 0%
 
 ## 迷你购物车
 
-_迷你购物车_显示购物车中项目的摘要。默认情况下，该设置处于启用状态，当您单击页面顶部的“购物车”链接时会显示该设置。
+_迷你购物车_显示购物车中项目的摘要。 默认情况下，该设置处于启用状态，当您单击页面顶部的“购物车”链接时会显示该设置。
 可将链接配置为显示购物车中不同产品（或SKU）的数量，或显示所有商品的总数量。
 
 ![购物者显示产品页面中的购物车边栏](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
@@ -176,13 +185,13 @@ _迷你购物车_显示购物车中项目的摘要。默认情况下，该设置
 
    - 将&#x200B;**[!UICONTROL Include Discount Amount]**&#x200B;设置为以下项之一：
 
-      - `Yes` — 要求小计满足包含任何折扣的最小金额。 以$50为最小值的示例，如果购物车中包含$60的上部并应用25%的折扣，则结果小计为$45，并且购物车不符合最小值。
-      - `No` — 要求小计在不带任何折扣的情况下达到最小金额。
+     - `Yes` — 要求小计满足包含任何折扣的最小金额。 以$50为最小值的示例，如果购物车中包含$60的上部并应用25%的折扣，则结果小计为$45，并且购物车不符合最小值。
+     - `No` — 要求小计在不带任何折扣的情况下达到最小金额。
 
    - 将&#x200B;**[!UICONTROL Include Tax to Amount]**&#x200B;设置为以下项之一：
 
-      - `Yes` — 要求小计满足含税的最小金额。
-      - `No` — 要求小计达到不含税的最小金额。
+     - `Yes` — 要求小计满足含税的最小金额。
+     - `No` — 要求小计达到不含税的最小金额。
 
 1. （可选）自定义最小订单金额消息设置：
 
@@ -198,9 +207,9 @@ _迷你购物车_显示购物车中项目的摘要。默认情况下，该设置
 
    - （可选）自定义最小订单金额消息设置：
 
-      - **[!UICONTROL Multi-address Description Message]** — 输入要用于自定义消息内容的文本，该消息会显示在购物车顶部不符合最小值的多个地址订单中。
+     - **[!UICONTROL Multi-address Description Message]** — 输入要用于自定义消息内容的文本，该消息会显示在购物车顶部不符合最小值的多个地址订单中。
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** — 对于不符合最低要求的多地址订单，输入要用于自定义购物车错误消息的文本，请在框中输入文本。
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** — 对于不符合最低要求的多地址订单，输入要用于自定义购物车错误消息的文本，请在框中输入文本。
 
      将消息描述字段留空以使用默认消息。
 

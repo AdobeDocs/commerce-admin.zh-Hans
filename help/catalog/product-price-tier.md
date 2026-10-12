@@ -3,29 +3,39 @@ title: 分层定价
 description: 了解如何使用层定价从产品列表或产品页面提供数量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # 分层定价
 
 分层定价允许您从店面的产品列表或产品页面提供数量折扣。 折扣可应用于特定商店视图或客户组或共享目录。
@@ -108,17 +118,17 @@ ht-degree: 1%
 
 要说明在购买单个产品时分层定价如何与目录价格规则配合使用，请考虑以下示例：
 
-- 产品的标准基本价格为100美元。
-- 为数量为`1`且固定价格为90美元的`Wholesale`客户组定义了层级价格。
+- 产品的标准基本价为100 USD。
+- 为`Wholesale`客户组定义了层级价格，该客户组的数量为`1`，固定价格为90 USD。
 - 目录价格规则为`Wholesale`客户组提供10%的折扣。
 
 为目录价格规则启用层定价后，系统将使用以下流程计算最终价格：
 
-1. 在客户登录之前，产品价格显示为100 USD（标准基本价）。
+1. 在客户登录之前，产品价格显示为100 USD（标准基本价格）。
 
 1. 客户作为`Wholesale`组的成员登录后，产品价格将调整为90 USD（`Wholesale`组的层价格）。
 
-1. 应用目录价格规则，在层级价格90美元上提供10%的折扣，最终价格为81美元。
+1. 目录价格规则适用，在级别价格90 USD的基础上提供10%的折扣，最终价格为81 USD。
 
 下表汇总了在目录价格规则启用层定价并且目录价格规则为所有客户组提供10%折扣时的价格计算：
 

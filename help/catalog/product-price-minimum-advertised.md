@@ -3,30 +3,41 @@ title: 最低广告价格
 description: 了解如何使用最低广告价格(MAP)功能以符合制造商的要求和特殊定价。
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto
+TQID: 'https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # 最低广告价格
 
 商家有时被禁止显示低于制造商建议零售价(MSRP)的价格。 最低广告价格(MAP)让您能够保持符合制造商的要求，同时为您的客户提供更好的价格。 由于要求因制造商而异，因此您可以配置商店以防止在不允许显示实际价格的页面上显示该价格。
@@ -106,9 +117,9 @@ MAP功能添加了专用的&#x200B;_Click for Price_&#x200B;链接，而不是�
    - 要更改默认值，请取消选中&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框。
 
    - 将&#x200B;**显示实际价格**&#x200B;设置为以下值之一：
-      - `In Cart`
-      - `Before Order Confirmation`
-      - `On Gesture (on click)`
+     - `In Cart`
+     - `Before Order Confirmation`
+     - `On Gesture (on click)`
 
 1. 输入要显示在&#x200B;**[!UICONTROL Default Popup Text Message]**&#x200B;中的文本。
 

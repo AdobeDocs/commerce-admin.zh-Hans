@@ -2,13 +2,24 @@
 title: 管理客户帐户
 description: 使用[!UICONTROL Customers]网格查找任何客户帐户并访问单个客户帐户的信息。
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # 管理客户帐户
 
 使用&#x200B;_[!UICONTROL Customers]_&#x200B;网格查找任何客户帐户。 您可以使用标准[工作区控件](../getting-started/admin-workspace.md)筛选列表、更改[列布局](../getting-started/admin-grid-controls.md)、保存视图和导出数据。 网格上方的[操作控件](../getting-started/admin-actions-control.md)可用于将操作应用于多个客户记录。
