@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -128,3 +128,5 @@ Commerce会生成一个新的密钥对并存储私钥。 “受限访问密钥�
 > - [服务> ACO目录视图](../configuration-reference/services/aco-catalog-view.md) — 配置店面访问令牌生命周期并启用或禁用发布
 > - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中管理受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — 了解这些密钥如何适应B2B共享目录同步
 > - *Adobe Commerce Optimizer指南*&#x200B;中的[受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B用例的手动基于ACO Studio的密钥流
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->

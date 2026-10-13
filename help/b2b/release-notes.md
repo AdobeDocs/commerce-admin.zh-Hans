@@ -44,7 +44,8 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+last-update: 2026-10-13
+source-git-commit: 64a830dd0fc15cbe1c87e5a98f953e253c5db2bd
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +61,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >有关可用Adobe Commerce版本支持的B2B Commerce扩展版本的信息，请参阅[产品可用性](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/product-availability)。
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1163,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 - 在多网站部署中，Adobe Commerce在升级到B2B 1.2.0期间引发异常。 当`setup:upgrade`运行时，`PurchaseOrder`模块上出现此错误： `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`。 **解决方法**：将`B2B-716 Add NonTransactionableInterface`接口安装到`InitPurchaseOrderSalesSequence`数据修补程序修补程序，该修补程序现在可从`magento.com`的&#x200B;**我的帐户** > **下载**&#x200B;部分获得。
 - 如果折扣代码在采购订单(PO)获得批准之前过期，则PO将继续显示折扣金额，但是一旦PO获得批准，订单就会按非折扣总额订购。 **解决方法**：安装此问题的`B2B-709 Purchase Order Discount patch`修补程序，该修补程序现在可从`magento.com`的&#x200B;**我的帐户** > **下载**&#x200B;部分获得。
 - 如果采购订单中的物料缺货，或者在采购订单转换为实际订单时数量不足，则会发生错误。 如果启用了延交订单，则会正常处理订单。
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->
