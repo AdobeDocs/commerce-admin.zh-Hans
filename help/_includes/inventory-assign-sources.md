@@ -3,11 +3,9 @@ title: 库存 — 分配来源和数量
 description: 有关创建目录产品时分配来源和数量的“已重用”部分。
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # 库存 — 分配来源和数量
 
 对于使用[[!DNL Inventory Management]](../inventory-management/introduction.md)的多源商家，向下滚动到&#x200B;**源**&#x200B;部分并分配源和数量：
