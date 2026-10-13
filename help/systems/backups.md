@@ -3,7 +3,7 @@ title: 系统备份
 description: 了解如何创建和计划系统备份，包括文件系统、数据库和媒体文件。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE'
 product_v2:
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -94,4 +94,4 @@ Adobe Commerce和Magento Open Source让您能够备份系统的不同部分（�
 
 
 
-<!-- Last updated from includes: 2023-02-22 09:59:54 -->
+<!-- Last updated from includes: 2026-08-20 14:27:46 -->
