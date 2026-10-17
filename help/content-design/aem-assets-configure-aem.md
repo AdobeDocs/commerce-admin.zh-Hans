@@ -81,7 +81,7 @@ Adobe提供了一个项目模板`commerce-assets`，用于将Commerce命名空�
 
 1. 提交更改并将本地开发分支推送到Cloud Manager Git存储库。
 
-1. 从Cloud Manager [部署您的代码以更新AEM环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
+1. 从Cloud Manager [部署您的代码以更新AEM环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
 
 ## 配置元数据配置文件
 

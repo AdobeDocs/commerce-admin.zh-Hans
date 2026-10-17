@@ -74,7 +74,7 @@ Payment Services提供了一个全包式自助服务解决方案，包括沙盒�
 |---|---|---|
 | [!UICONTROL Title] | 商店视图 | 在结帐期间在“付款方式”视图中添加文本，以显示此付款选项的标题。 |
 | [!UICONTROL Payment Action] | 网站 | 指定付款方式的[付款操作](payment-methods.md#payment-actions)。 选项： [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | 网站 | 启用或禁用[3DS安全身份验证](https://experienceleague.adobe.com/en/docs/commerce/payment-services/security-compliance/security#3ds)。 选项： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | 网站 | 启用或禁用[3DS安全身份验证](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/security-compliance/security#3ds)。 选项： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 网站 | 启用或禁用要在结账页面上显示的信用卡字段。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 商店视图 | 启用或禁用[信用卡保险存储](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/payments-checkout/vaulting)。 选项： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show vaulted payment methods in Admin] | 商店视图 | 启用或禁用使用保管库付款方式[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/payments-checkout/vaulting)为管理员中的客户完成订单的功能。 选项： [!UICONTROL Yes] / [!UICONTROL No] |

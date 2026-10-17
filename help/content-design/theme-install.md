@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+在开始之前，请确保您拥有一组有效的[[!DNL Commerce] 访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 要向[!DNL Commerce]存储添加主题，请按照[!DNL Commerce Marketplace]上提供的说明操作：
 

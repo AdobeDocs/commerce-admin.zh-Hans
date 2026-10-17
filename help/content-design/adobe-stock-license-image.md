@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **先决条件**
 
-Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+Adobe Stock授权功能仅在安装和配置[Adobe Stock集成](./adobe-stock.md)时可用。 许可[Adobe Stock](https://stock.adobe.com)图像需要付费Adobe Stock计划和[Adobe帐户](https://helpx.adobe.com/cn/manage-account/using/access-adobe-id-account.html)。
 
 >[!ENDSHADEBOX]
 
