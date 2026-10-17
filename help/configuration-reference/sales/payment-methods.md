@@ -154,7 +154,7 @@ Commerce内置以下支付方法，不使用第三方支付提供商处理交易
 
 ![帐户付款](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |

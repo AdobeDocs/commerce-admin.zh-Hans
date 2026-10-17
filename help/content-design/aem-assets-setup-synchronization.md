@@ -60,7 +60,7 @@ ht-degree: 3%
 
 ## 配置连接
 
-1. 获取[AEM Assets创作环境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)项目和环境ID。
+1. 获取[AEM Assets创作环境](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)项目和环境ID。
 
    1. 打开AEM Sites控制台并选择&#x200B;**[!UICONTROL Assets]**。
 

@@ -206,7 +206,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->默认情况下，生成的一次性代码OTC的有效期为60秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?support-tab=home#support)来配置TTL。
+>默认情况下，生成的一次性代码OTC的有效期为60秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)来配置TTL。
 
 生成一次性代码后，您可以通过导航到店面并使用以下凭据登录来使用该代码：
 

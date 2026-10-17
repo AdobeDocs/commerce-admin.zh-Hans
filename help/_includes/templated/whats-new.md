@@ -1,7 +1,7 @@
 ---
-source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
+source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '549'
 ht-degree: 1%
 ---
 # 新增功能模板
@@ -9,6 +9,36 @@ ht-degree: 1%
 ## 新增功能
 
 本部分包含过去60天中所做的更改。 我们将从此列表中排除所有次要更新，例如副本编辑。
+
+### 2026年10月13
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>描述</th>
+      <th>类型</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>向<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/release-notes">B2B发行说明</a>中添加了Adobe Commerce B2B 1.5.4-alpha1修复问题详细信息，这些详细信息按具有可用GitHub引用的组件分组。</p>
+</td>
+      <td>
+        发行说明
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">提交</a></td>
+    </tr>
+    <tr>
+      <td><p>更新了<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/catalog-enrichment">目录扩充</a>，其中包含有关通过Adobe IMS登录到目录扩充的指导，澄清了Commerce IMS组织与拥有Adobe Brand Visibility权利的组织之间的区别，并刷新了屏幕截图。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">提交</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月8
 

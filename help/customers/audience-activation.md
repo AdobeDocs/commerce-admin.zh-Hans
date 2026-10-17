@@ -59,7 +59,7 @@ ht-degree: 1%
 ![修复](../assets/fix.svg) — 修复和改进
 ![错误](../assets/bug.svg) — 已知问题
 
-请参阅[即将发布的版本](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)，了解版本计划和支持。
+请参阅[即将发布的版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/planning/schedule)，了解版本计划和支持。
 
 请参阅开发人员文档，以[了解产品兼容性](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/product-availability)。
 
