@@ -305,7 +305,7 @@ ht-degree: 0%
 
 ## 打印贷项通知单
 
-要打印或查看已完成的贷项通知单，您必须安装PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
+要打印或查看已完成的贷项通知单，您必须安装PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/cn/acrobat/pdf-reader.html "获取Adobe Reader")。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**。
 
