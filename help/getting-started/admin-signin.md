@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->对于Adobe Commerce as a Cloud Service，请通过Adobe Experience Cloud登录，然后从Commerce Cloud Manager中打开一个实例。 有关访问信息，请参阅[Adobe Unified Experience中的Commerce管理员](admin-unified-experience.md#open-the-commerce-admin)；有关管理Adobe Commerce as a Cloud Service用户和角色，请参阅[用户管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management)。 以下基于安装的帐户和本地登录说明未介绍Adobe Commerce as a Cloud Service登录流程。
+>对于Adobe Commerce as a Cloud Service，请通过Adobe Experience Cloud登录，然后从Commerce Cloud Manager中打开一个实例。 有关访问信息，请参阅[Adobe Unified Experience中的Commerce管理员](admin-unified-experience.md#open-the-commerce-admin)；有关管理Adobe Commerce as a Cloud Service用户和角色，请参阅[用户管理](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/user-management)。 以下基于安装的帐户和本地登录说明未介绍Adobe Commerce as a Cloud Service登录流程。
 
 主管理员帐户最初是在安装期间设置的，可能包含初始占位符信息或示例数据信息。 此帐户的指定所有者可以个性化用户名和密码，并随时更新名字、姓氏和电子邮件地址。 此帐户，默认情况下是具有所有权限的&#x200B;_超级用户_，通常会创建业务所需的管理员用户帐户。
 

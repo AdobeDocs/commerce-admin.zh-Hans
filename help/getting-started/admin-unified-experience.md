@@ -4,7 +4,7 @@ description: 了解Adobe Commerce as a Cloud Service客户如何在Adobe Unified
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -55,7 +55,7 @@ Adobe Unified Experience界面提供了在Adobe产品中使用的共享顶部导
 登录流程允许您在Commerce实例之间移动，而无需单独登录每个实例。
 您可以在Adobe产品和Commerce实例之间移动，而无需进一步的登录提示。
 
-有关访问过程，请参阅&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[访问实例](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+有关访问过程，请参阅&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[访问实例](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
 
 >[!BEGINTABS]
 
@@ -172,7 +172,7 @@ Admin内部没有接口开关。 使用Commerce Cloud Manager或保存的管理�
 
 >[!ENDTABS]
 
-有关Adobe Commerce as a Cloud Service用户和角色管理，请参阅[用户管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}。
+有关Adobe Commerce as a Cloud Service用户和角色管理，请参阅[用户管理](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/user-management){target="_blank"}。
 
 ### 切换Commerce实例
 
@@ -278,4 +278,4 @@ Commerce管理员中的页面具有与Adobe Unified Experience匹配的已刷新
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise界面和管理指南](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise界面和管理指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)
