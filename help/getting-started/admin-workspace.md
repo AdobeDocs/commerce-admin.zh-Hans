@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # 管理工具和工作区
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 管理工作区允许访问用于运行存储的所有工具、数据和内容。 可以在配置中设置默认启动页面。 许多“管理员”页面都有一个网格，其中列出了该部分的数据，并包含一组用于搜索、排序、筛选、选择和应用操作的工具。 默认情况下，[仪表板](admin-dashboard.md)是管理员的启动页面。 但是，您可以选择在登录时作为启动页面显示的任何其他页面。 您可以单击管理员侧边栏中的徽标以返回管理员启动页面。
 
@@ -63,7 +72,7 @@ ht-degree: 0%
 
 ## 更改管理员启动页面
 
-[仪表板](admin-workspace.md#the-dashboard)是管理员的默认启动页面，但您可以配置其他启动页面。
+仪表板是管理员的默认启动页面，但您可以配置其他启动页面。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

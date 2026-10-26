@@ -1,19 +1,17 @@
 ---
 user-guide-title: Adobe Commerce管理员快速入门指南
-user-guide-description: 如果您不熟悉Adobe Commerce或Magento Open Source管理员，请发现 [!DNL Commerce] 生态系统的资源，关注客户历程以探索您的商店，并了解关键管理员功能。
+user-guide-description: 如果您不熟悉Adobe Commerce或Magento Open Source管理员，请发现[!DNL Commerce]生态系统的资源，关注客户历程以探索您的商店，并了解关键管理员功能。
 breadcrumb-title: 快速入门
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Commerce管理员快速入门指南 {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [辅助功能](navigation-accessibility.md)
 + 管理员 {#admin}
   + [管理员是什么？](admin.md)
+  + [统一体验管理](admin-unified-experience.md)
   + [您的管理员用户帐户](admin-signin.md)
   + Adobe Identity Management Service (IMS)集成 {#ims}
     + [IMS集成概述](adobe-ims-integration-overview.md)
@@ -73,4 +72,4 @@ ht-degree: 0%
   + [生态系统](resources.md)
   + [扩展](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [返回到管理员用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)
++ [返回到管理员用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

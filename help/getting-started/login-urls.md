@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 登录凭据和URL
@@ -54,6 +54,10 @@ ht-degree: 0%
 
 ## 管理员URL
 
+>[!NOTE]
+>
+>对于Adobe Commerce as a Cloud Service，从Commerce Cloud Manager中获取您的管理员链接。 有关访问选项和URL格式，请参阅[选择管理员界面](admin-unified-experience.md#classic-ui)。 以下基于安装的URL示例不适用于Adobe Commerce as a Cloud Service。
+
 您的商店[Admin](admin.md)的地址是在安装期间设置的。 默认地址与您的商店相同，但结尾是`/admin`。 尽管本指南中的示例使用默认目录，但最佳实践是从存储特有的位置运行管理员。
 
 - `http://mydomain.com/admin`
@@ -69,6 +73,6 @@ ht-degree: 0%
 
 ## 示例数据
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中大约200种是可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是可选的，但有助于测试和开发电子商务业务的自定义项。
+Adobe提供了一个示例数据集，其中包括一个包含250多种产品（其中大约200种是可配置产品）、类别、促销价格规则、CMS页面、横幅等的示例商店。 示例数据使用店面上的&#x200B;_Luma_&#x200B;主题。 [安装此示例数据](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是可选的，但有助于测试和开发电子商务业务的自定义项。
