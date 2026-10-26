@@ -59,7 +59,7 @@ Adobe Unified Experience界面提供了在Adobe产品中使用的共享顶部导
 
 >[!BEGINTABS]
 
->从Commerce Cloud Manager [!TAB 打开管理员]
+>[!TAB 从Commerce Cloud Manager  打开管理员]
 
 ![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
 
@@ -262,7 +262,7 @@ Commerce管理菜单显示在Adobe Unified Experience的左侧导航区域中。
 
 >[!BEGINTABS]
 
->具有深色模式的[!TAB 帐户菜单]
+>[!TAB 具有深色模式的 帐户菜单]
 
 具有深色模式的![帐户菜单](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
 
