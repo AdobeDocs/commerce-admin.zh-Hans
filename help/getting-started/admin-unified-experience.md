@@ -73,6 +73,7 @@ Adobe Unified Experience界面提供了在Adobe产品中使用的共享顶部导
 >[!ENDTABS]
 
 -->
+
 ### 选择管理员界面 {#classic-ui}
 
 对于Unified Experience中的Commerce Admin的初始版本，Adobe Commerce as a Cloud Service支持两个Commerce管理体验，即Adobe Unified Experience和经典UI。
@@ -266,7 +267,7 @@ Commerce管理菜单显示在Adobe Unified Experience的左侧导航区域中。
 
 >[!BEGINTABS]
 
->具有深色模式的[!TAB 帐户菜单]
+>[!TAB 具有深色模式的 帐户菜单]
 
 具有深色模式的![帐户菜单](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
 
