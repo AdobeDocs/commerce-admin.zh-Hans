@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # 为购物者提供帮助
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
-为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_&#x200B;按钮后，该按钮会显示在多个页面中：
+为&#x200B;_管理员_&#x200B;用户启用&#x200B;_[!UICONTROL Login as Customer]_按钮后，该按钮会显示在多个页面中：
 
 * [客户编辑页面](../customers/update-account.md)
 * [订单查看页面](../stores-purchase/order-processing.md)
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 在Adobe Commerce as a Cloud Service中，“以客户身份登录”功能使用&#x200B;**一次性代码(OTC)**&#x200B;工作流，而不是直接登录。 管理员为客户生成一个短暂的、一次性代码。 然后，可以通过GraphQL将此代码交换为客户访问令牌，从而实现无密码登录作为销售商辅助购物方案的客户工作流。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ### 启用该功能
 
-1. 在管理员侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在管理员侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Login as Customer]**。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 ### 为管理员用户启用访问权限
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > _权限_ > **[!UICONTROL User Roles]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL System]** > **[!UICONTROL User Roles]**。
 
 1. 单击列表中的角色。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 1. 客户转到&#x200B;**[!UICONTROL Account Information]**&#x200B;页面。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 客户必须将`login_as_customer_assistance_allowed`扩展属性设置为&#x200B;**2**。 可以在管理员的&#x200B;**编辑客户**&#x200B;页面上或通过GraphQL在创建或编辑客户时配置此项。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > [!UICONTROL _所有客户_]。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->默认情况下，生成的一次性代码OTC的有效期为60秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)来配置TTL。
+>默认情况下，生成的一次性代码OTC的有效期为60秒，并且在一次使用后失效。 可以通过提交[支持票证](https://experienceleague.adobe.com/home?support-tab=home#support)来配置TTL。
 
 生成一次性代码后，您可以通过导航到店面并使用以下凭据登录来使用该代码：
 
@@ -228,7 +228,7 @@ _以客户身份登录_&#x200B;允许您查看站点（与客户一样），并�
 
 >[!WARNING]
 >
->以客户&#x200B;_身份登录_&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
+>以客户&#x200B;_]身份登录[!UICONTROL _&#x200B;时执行的任何操作（如添加/删除产品）均应用于实际客户的订单。 在店面，当您`logged in as customer_name`时会显示一个横幅以提供特殊状态提醒。
 
 ## 以客户日志记录身份登录
 

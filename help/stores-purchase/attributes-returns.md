@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 创建退货属性
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Returns]**。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New Attribute]**。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 若要使该属性对客户可见，请在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;部分中将&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;设置为`Yes`。
+1. 若要使该属性对客户可见，请在&#x200B;_[!UICONTROL Storefront Properties]_部分中将&#x200B;**[!UICONTROL Show on Storefront]**设置为`Yes`。
 
 1. （可选）为&#x200B;**[!UICONTROL Sort Order]**&#x200B;输入一个数字，以确定该属性在页面的同一部分中相对于其他属性的显示位置。 （`0` =第一，`1` =第二，`2` =第三，依此类推。）
 

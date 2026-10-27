@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 ## 查看订单
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在网格中查找顺序。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_列中，单击&#x200B;**[!UICONTROL View]**。
 
 1. 检查订单状态：
 
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 ### 自定义订单属性
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 通过自定义订单属性，您可以将特定于业务需求的附加信息与该订单相关联。
 
@@ -283,4 +283,4 @@ ht-degree: 0%
 
 观看此视频，了解有关订单处理和状态的更多信息：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410793/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

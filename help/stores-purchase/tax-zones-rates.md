@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 定义新税率
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add New Tax Rate]**。
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 ## 编辑现有税率
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**。
 
-1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_&#x200B;网格中查找税率，并在编辑模式下打开记录。
+1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_网格中查找税率，并在编辑模式下打开记录。
 
    如果列表中有许多费率，请使用[筛选器控件](../getting-started/admin-grid-controls.md)来查找所需的费率。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 删除税率
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**。
 
 1. 查找要删除的税率并在编辑模式下将其打开。
 

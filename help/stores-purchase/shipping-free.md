@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
 ## 步骤1：配置免费送货
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
@@ -58,7 +58,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
    >[!TIP]
    >
-   >若要使用[表费率](shipping-table-rate.md)的免运费，请将&#x200B;_[!UICONTROL Minimum Order Amount]_&#x200B;设得过高，使其永远不满足。 使用此高值可阻止免费送货生效，除非由价格规则触发。
+   >若要使用[表费率](shipping-table-rate.md)的免运费，请将&#x200B;_[!UICONTROL Minimum Order Amount]_设得过高，使其永远不满足。 使用此高值可阻止免费送货生效，除非由价格规则触发。
 
 1. 设置&#x200B;**[!UICONTROL Include Tax to Amount]**：
 
@@ -73,7 +73,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用免费送货。
 
-   - `Specific Countries` — 选择此值后，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;列表。 选择列表中可使用免费送货的每个国家/地区。
+   - `Specific Countries` — 选择此值后，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_列表。 选择列表中可使用免费送货的每个国家/地区。
 
 1. 设置&#x200B;**[!UICONTROL Show Method if Not Applicable]**：
 
@@ -90,7 +90,7 @@ _免运费_&#x200B;是您可以提供的最有效的促销活动之一。 可以
 
 确保完成您计划用于免费配送的每个承运人所需的任何配置。 例如，如果您的[UPS配置](ups.md)已完成，请更新以下设置以启用和配置免费送货。
 
-1. 在&#x200B;_[!UICONTROL Delivery Methods]_&#x200B;配置中，展开&#x200B;**[!UICONTROL UPS]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Delivery Methods]_配置中，展开&#x200B;**[!UICONTROL UPS]**部分的![扩展选择器](../assets/icon-display-expand.png)。
 
 1. 将&#x200B;**[!UICONTROL Free Method]**&#x200B;设置为`UPS Ground`或您要指定免费送货的其他类型。
 

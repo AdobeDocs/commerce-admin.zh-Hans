@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 3%
@@ -54,9 +54,9 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 
 第一步是完成表速率的默认设置。 您可以在不更改配置范围的情况下完成此步骤。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分中，选择&#x200B;**[!UICONTROL Delivery Methods]**。
 
 1. 展开&#x200B;**[!UICONTROL Table Rates]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -106,7 +106,7 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 1. 设置&#x200B;**[!UICONTROL Ship to Applicable Countries]**：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此交付方法。
-   - `Specific Countries` — 选择此选项时，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;列表。 选择列表中可使用此投放方法的每个国家/地区。
+   - `Specific Countries` — 选择此选项时，将显示&#x200B;_[!UICONTROL Ship to Specific Countries]_列表。 选择列表中可使用此投放方法的每个国家/地区。
 
 1. 如果要始终显示表费率，请将&#x200B;**[!UICONTROL Show Method if Not Applicable]**&#x200B;设置为`Yes`
 
@@ -137,10 +137,10 @@ _table rate_&#x200B;配送方式引用了一个数据表，以根据各种条件
 1. 使用适合装运计算条件的值填写该表。
 
    - 使用星号(*)作为通配符，表示任何类别中的所有可能值。
-   - _[!UICONTROL Country]_&#x200B;列必须包含每行的[个有效的三字符代码](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
-   - 按&#x200B;_[!UICONTROL Region/State]_&#x200B;对数据排序，使特定位置位于列表顶部，通配符位置位于底部。 使用此方法会先处理具有绝对值的规则，稍后再处理通配符值。
-   - 不支持邮政编码范围。 使用星号(*)可允许区域/状态中的所有代码，或者为&#x200B;_[!UICONTROL Zip/Postal Code]_&#x200B;列中的特定位置指定单个代码。
-   - _[!UICONTROL Weight (and above)]_&#x200B;列中的值最多可以有四位小数（如`2.5075`）。 在数据中使用更多小数位会导致导入失败。
+   - _[!UICONTROL Country]_列必须包含每行的[个有效的三字符代码](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
+   - 按&#x200B;_[!UICONTROL Region/State]_对数据排序，使特定位置位于列表顶部，通配符位置位于底部。 使用此方法会先处理具有绝对值的规则，稍后再处理通配符值。
+   - 不支持邮政编码范围。 使用星号(*)可允许区域/状态中的所有代码，或者为&#x200B;_[!UICONTROL Zip/Postal Code]_列中的特定位置指定单个代码。
+   - _[!UICONTROL Weight (and above)]_列中的值最多可以有四位小数（如`2.5075`）。 在数据中使用更多小数位会导致导入失败。
 
    ![重量与目标（澳大利亚）](./assets/table-rates-weight-destination-csv.png){width="500"}
 

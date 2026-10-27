@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 ## 步骤1：安装语言包
 
-按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/extensions)。
+按照标准说明安装语言包扩展。 有关安装扩展的详细信息，请参阅&#x200B;_扩展指南_&#x200B;中的[常规CLI安装](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 ## 步骤2：创建该语言的存储视图
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**。
 
 1. 单击&#x200B;**[!UICONTROL Create Store View]**。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 步骤3：更改存储视图的区域设置
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉列表中，选择要配置的商店视图，然后在出现提示时单击&#x200B;**[!UICONTROL OK]**。
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 ### 步骤2：翻译字段标签
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 在列表中，找到要翻译的属性，并在编辑模式下打开。
 
 1. 在左侧面板中，选择&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;部分中，为每个商店视图输入一个已翻译的标签。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_部分中，为每个商店视图输入一个已翻译的标签。
 
    ![输入翻译的标签](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 1. 对于&#x200B;_基本信息_，请翻译&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;部分并翻译&#x200B;**[!UICONTROL Description]**。
+1. 展开![扩展选择器](../assets/icon-display-expand.png) _[!UICONTROL Content]_部分并翻译&#x200B;**[!UICONTROL Description]**。
 
 1. 展开![扩展选择器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;部分并翻译以下字段：
 
@@ -132,7 +132,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_部分下，执行以下操作以翻译&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除字段右侧的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ### 步骤4：翻译产品属性和属性选项
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 选择要翻译的属性。
 

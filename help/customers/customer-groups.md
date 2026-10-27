@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # 客户组
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 将一组客户与特定折扣关联
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _促销活动_ > **[!UICONTROL Cart Price Rules]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**。
 
 1. 选择要为应用的折扣关联组的购物车价格规则，或[创建价格规则](../merchandising-promotions/price-rules-catalog.md)。
 
@@ -133,4 +133,4 @@ ht-degree: 0%
 
 通过观看此演示了解如何创建客户组：
 
->[!VIDEO](https://video.tv.adobe.com/v/3410168/?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

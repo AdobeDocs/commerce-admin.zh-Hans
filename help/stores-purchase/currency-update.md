@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 手动更新汇率
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**。
 
 1. 单击要更改的汇率，并为支持的每种货币输入新值。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 导入汇率
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**。
 
 1. 将&#x200B;**[!UICONTROL Import Service]**&#x200B;设置为货币汇率提供程序。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Import]**。
 
-   更新的费率显示在&#x200B;_[!UICONTROL Currency Rates]_&#x200B;列表中。 如果自上次更新以来费率已发生更改，则旧费率将显示在下方以供参考。
+   更新的费率显示在&#x200B;_[!UICONTROL Currency Rates]_列表中。 如果自上次更新以来费率已发生更改，则旧费率将显示在下方以供参考。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Currency Rates]**。
 
@@ -76,6 +76,6 @@ ht-degree: 0%
 
 1. 要指定您接受的货币并建立导入连接和计划，请完成[货币汇率设置](currency-configuration.md)。
 
-1. 要验证费率是否按计划导入，请检查&#x200B;_[!UICONTROL Currency Rates]_&#x200B;列表。
+1. 要验证费率是否按计划导入，请检查&#x200B;_[!UICONTROL Currency Rates]_列表。
 
 1. 等待为计划建立的频率设置的时间段，然后再次检查速率。

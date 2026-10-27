@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -63,9 +63,9 @@ ht-degree: 0%
 
 #### 添加地址
 
-1. 在&#x200B;_[!UICONTROL Shipping Address]_&#x200B;部分的底部，客户单击&#x200B;**[!UICONTROL + New Address]**。
+1. 在&#x200B;_[!UICONTROL Shipping Address]_部分的底部，客户单击&#x200B;**[!UICONTROL + New Address]**。
 
-1. 完成&#x200B;_[!UICONTROL Shipping Address]_&#x200B;表单。
+1. 完成&#x200B;_[!UICONTROL Shipping Address]_表单。
 
    默认情况下，客户的名字和姓氏最初显示在表单中。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![订单摘要中显示的项目数](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 ### 更改签出选项
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 1. 在左侧面板上，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 1. 根据需要设置以下任一选项。
 1. 单击&#x200B;**[!UICONTROL Save Config]**。
@@ -171,11 +171,11 @@ ht-degree: 0%
 | 字段 | [作用域](../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | 商店视图 | 确定[单页签出](checkout-one-page.md)是否为默认签出格式。 选项：是/否 |
-| [!UICONTROL Allow Guest Checkout] | 商店视图 | 确定访客是否可以在未向应用商店注册[&#128279;](checkout-guest.md)帐户的情况下进行签出。 选项： `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | 商店视图 | 确定访客是否可以在未向应用商店注册](checkout-guest.md)帐户的情况下进行[签出。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | 商店视图 | 确定客户在购买之前是否需要同意销售的[条款和条件](terms-and-conditions.md)。 选项： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 商店视图 | 确定结帐时帐单地址的位置。 选项： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 商店视图 | 确定结帐期间可在“订单摘要”中显示的最大项目数。 默认值为`10`。 |
-| [!UICONTROL Enable Address Search] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）确定客户是否可以对&#x200B;_送货_&#x200B;和&#x200B;_审核与付款_&#x200B;步骤使用[地址搜索](checkout-address-search.md)功能。 启用此功能后，使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;设置签出期间激活此功能所需的已保存地址数。 选项： `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）确定客户是否可以对&#x200B;_送货_&#x200B;和&#x200B;_审核与付款_&#x200B;步骤使用[地址搜索](checkout-address-search.md)功能。 启用此功能后，使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_设置签出期间激活此功能所需的已保存地址数。 选项： `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | 网站 | ![Adobe Commerce](../assets/adobe-logo.svg) （仅限Adobe Commerce）当地址搜索为&#x200B;**[!UICONTROL Enabled]**&#x200B;时，将确定在签出期间激活此功能所需的已保存地址数。 当客户的已保存地址数达到或超过该数字时，将在&#x200B;_送货_&#x200B;和&#x200B;_审核和付款_&#x200B;步骤中仅呈现默认地址。 客户可以使用搜索功能更改所选地址。 默认值为10。 |
 
 {style="table-layout:auto"}

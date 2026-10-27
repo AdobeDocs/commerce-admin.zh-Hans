@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->仅当存档为[已启用](../configuration-reference/sales/sales.md)时，_[!UICONTROL Archive]_&#x200B;选项才会显示在[[!UICONTROL Sales]菜单](sales-menu.md)中。
+>仅当存档为[已启用](../configuration-reference/sales/sales.md)时，_[!UICONTROL Archive]_选项才会显示在[[!UICONTROL Sales]菜单](sales-menu.md)中。
 
 ## 配置订单存档
 
 可以将您的商店配置为在设定的天数后存档订单、发票、发运和贷项通知单。 您可以将订单及其关联文档移到存档中，或将它们恢复到其以前的状态。 存档的订单不会被删除，并且管理员可以继续使用这些订单。 存档数据可导出为CSV文件并在电子表格中打开。 启用后，_存档_&#x200B;操作将显示在工作区顶部。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;部分并在下面选择&#x200B;**[!UICONTROL Sales]**。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 查看存档的文档
 
-1. 在&#x200B;_[!UICONTROL Archive]_&#x200B;下的&#x200B;_[!UICONTROL Sales]_&#x200B;菜单中，选择以下任一选项：
+1. 在&#x200B;_[!UICONTROL Archive]_下的_[!UICONTROL Sales]_&#x200B;菜单中，选择以下任一选项：
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -135,11 +135,11 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Export]**。
 
-可以将您的商店配置为在设定的天数后存档订单、发票、发运和贷项通知单。 您可以将订单及其关联文档移到存档中，或将它们恢复到其以前的状态。 存档的订单不会被删除，并且管理员可以继续使用这些订单。 存档数据可导出为CSV文件并在电子表格中打开。 启用后，_[!UICONTROL Archive]_&#x200B;命令将显示在工作区顶部。
+可以将您的商店配置为在设定的天数后存档订单、发票、发运和贷项通知单。 您可以将订单及其关联文档移到存档中，或将它们恢复到其以前的状态。 存档的订单不会被删除，并且管理员可以继续使用这些订单。 存档数据可导出为CSV文件并在电子表格中打开。 启用后，_[!UICONTROL Archive]_命令将显示在工作区顶部。
 
 ## 手动存档订单
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 要选择网格上的顺序，请选中第一列中的复选框。
 
@@ -155,13 +155,13 @@ ht-degree: 0%
 
 1. 使用以下方法之一打开存档视图：
 
-   - 在&#x200B;_[!UICONTROL Orders]_&#x200B;网格上方的按钮栏中，单击&#x200B;**[!UICONTROL Go to Archive]**。
+   - 在&#x200B;_[!UICONTROL Orders]_网格上方的按钮栏中，单击&#x200B;**[!UICONTROL Go to Archive]**。
 
-   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**。
+   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
    >[!NOTE]
    >
-   >与“订单”页面一样，存档的订单页面的标题为&#x200B;_[!UICONTROL Orders]_。 唯一值得注意的区别是按钮栏中指向&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;的选项。 页面的URL还指示您处于顺序存档中。
+   >与“订单”页面一样，存档的订单页面的标题为&#x200B;_[!UICONTROL Orders]_。 唯一值得注意的区别是按钮栏中指向_[!UICONTROL Return to Orders Management]_&#x200B;的选项。 页面的URL还指示您处于顺序存档中。
 
 1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL View]**。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 >
 >根据[!UICONTROL Archive Orders Purchased]设置中配置的天数，再次存档从已存档订单中还原的订单（请参阅[配置订单存档](#configure-the-order-archive)）。 根据订单的[!UICONTROL Updated At]日期计算天数，当从存档中移动订单时，该日期会更改。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在按钮栏中，单击&#x200B;**[!UICONTROL Go to Archive]**。
 
@@ -187,6 +187,6 @@ ht-degree: 0%
 
 ## 导出存档订单
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在操作菜单中，单击&#x200B;**[!UICONTROL Export]**&#x200B;并选择所需的格式。

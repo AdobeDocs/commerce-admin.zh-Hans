@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 步骤1：设置配置的范围
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_&#x200B;部分未出现。
+   >当范围设置为`Default Store View`时，_[!UICONTROL Name and Address Options]_部分未出现。
 
    ![配置作用域](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ### 步骤1：设置配置的范围
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Customers]**&#x200B;并选择&#x200B;**[!UICONTROL Customer Configuration]**。
 

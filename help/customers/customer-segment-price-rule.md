@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # 价格规则中的客户区段
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 ![购物车价格规则 — 目标客户区段](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**要将区段与购物车价格规则关联，请执行以下操作：**&#x200B;_
+_**要将区段与购物车价格规则关联，请执行以下操作：**_
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _促销活动_ > **[!UICONTROL Cart Price Rules]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**。
 
 1. 打开新规则或现有规则：
 

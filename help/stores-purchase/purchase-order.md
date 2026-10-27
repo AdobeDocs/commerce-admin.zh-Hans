@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -45,11 +45,11 @@ _采购订单_ (PO)允许商业客户通过引用PO编号来支付授权采购�
 
 **_要按采购订单配置付款，请执行以下操作:_**
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;下，展开&#x200B;**[!UICONTROL Purchase Order]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_下，展开&#x200B;**[!UICONTROL Purchase Order]**部分的![扩展选择器](../assets/icon-display-expand.png)。
 
    ![采购订单](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ _采购订单_ (PO)允许商业客户通过引用PO编号来支付授权采购�
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个选项。
 
 1. 将&#x200B;**[!UICONTROL Minimum Order Total]**&#x200B;和&#x200B;**[!UICONTROL Maximum Order Total]**&#x200B;设置为符合此付款方式所需的金额。
 

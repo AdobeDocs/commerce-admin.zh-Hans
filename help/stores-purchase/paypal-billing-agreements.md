@@ -3,7 +3,7 @@ title: PayPal计费协议
 description: 了解如何在您的商店中支持PayPal计费协议和支付方式。
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 ## 管理帐单协议
 
-_[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
+_[!UICONTROL Billing Agreements]_页面列出了您的商店与其客户之间的所有帐单协议。 商家可以按客户或开单协议信息过滤记录，包括开单协议参考ID、状态和创建日期。 每个记录包括有关开单协议的一般信息，以及将其用作付款方法的所有销售订单。 您可以查看、取消或删除客户开单协议。 取消的帐单协议只能由存储管理员删除。
 
 ### 查看计费协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
-每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每个帐单协议页面都包含两个选项卡：_[!UICONTROL General Information]_和_[!UICONTROL Related Orders]_。
 
 #### 一般信息
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 ### 取消帐单协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 ### 删除帐单协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 

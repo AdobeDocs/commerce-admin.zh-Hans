@@ -3,7 +3,7 @@ title: PayPal Payflow链接
 description: 了解如何在您的商店中将PayPal Payflow Link设置为在线支付解决方案。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -119,13 +119,13 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 此设置方法假定您拥有现有的PayPal帐户。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Payment Methods]**。
 
 1. 如果您的Commerce安装有多个网站、商店或视图，请将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为要应用此配置的商店视图。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_部分中，选择您的公司所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此设置确定配置中显示的PayPal解决方案的选择。
 
@@ -320,7 +320,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键并选择列表中客户可在您的商店购买产品的每个国家/地区。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 
@@ -391,7 +391,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 
 #### 前端体验设置
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_选择要在您的网站上显示的PayPal徽标，并自定义PayPal商家页面的外观。
 
 1. 展开&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 
@@ -446,7 +446,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
    - `Authorization` — 批准购买并暂停资金。 在商户捕获&#x200B;_金额_&#x200B;之前，不撤消该金额。
    - `Sale` — 已授权并立即从客户帐户中收回购买金额。
 
-1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;设置为`Yes`。
+1. 要在产品页面上显示&#x200B;_[!UICONTROL Check out with PayPal]_按钮，请将&#x200B;**[!UICONTROL Display on Product Details Page]**设置为`Yes`。
 
 ### 步骤7：完成PayPal Express签出的高级设置
 
@@ -459,7 +459,7 @@ PayPal Payflow Link仅适用于美国和加拿大的商家。 客户无需拥有
 1. 将&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有国家/地区的客户可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 要选择多个国家/地区，请按住Ctrl键(PC)或Command键(Mac)并单击每个项目。
 
 1. 要将与付款系统的通信写入日志文件，请将&#x200B;**[!UICONTROL Debug Mode]**&#x200B;设置为`Yes`。
 

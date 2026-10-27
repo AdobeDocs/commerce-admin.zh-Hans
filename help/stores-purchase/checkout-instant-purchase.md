@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -70,7 +70,7 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 
 ### 步骤1：打开配置页面
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 ### 步骤2：配置支付方式保管库
 
@@ -79,11 +79,11 @@ _即时购买_&#x200B;允许客户使用保存在其帐户中的信息来加速�
 了解如何为Braintree或支付服务配置支付方式并启用保险存储：
 
 - [Braintree](braintree.md)
-- [Payment Service文档](https://experienceleague.adobe.com/zh-hans/docs/commerce/payment-services/guide-overview)
+- [Payment Service文档](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### 步骤3：启用即时购买
 
-1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_&#x200B;部分下，选择&#x200B;**[!UICONTROL Sales]**。
+1. 在左侧面板的&#x200B;_[!UICONTROL Sales]_部分下，选择&#x200B;**[!UICONTROL Sales]**。
 
 1. 展开&#x200B;**[!UICONTROL Instant Purchase]**&#x200B;部分的![扩展选择器](../assets/icon-display-expand.png)。
 

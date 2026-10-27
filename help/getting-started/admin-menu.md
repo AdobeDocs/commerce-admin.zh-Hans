@@ -30,29 +30,28 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
+source-git-commit: e3abf6fe22655708479c1d1fc0316899dbd140dc
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # 管理员侧栏
 
-{{$include /help/_includes/admin-unified-experience-note.md}}
+左边的侧边栏是商店&#x200B;_管理员_&#x200B;的主菜单，专为桌面和移动设备而设计。 从此处，您可以访问用于每天管理商店的所有工具。
 
-左边的侧边栏是商店&#x200B;_管理员_&#x200B;的主菜单，专为桌面和移动设备而设计。 通过弹出菜单，可访问您用于每天管理商店的所有工具。
-
-| 菜单图标 | 链接 | 描述 |
-| --------- | ---- | ----------- |
-| ![管理员侧栏图标](./assets/icon-admin-sidebar-logo.png) | **[管理员启动页面](../configuration-reference/advanced/admin.md)** | 显示管理员启动页面，默认情况下是功能板。 |
-| ![仪表板菜单](./assets/icon-admin-sidebar-dashboard.png) | **[[!UICONTROL Dashboard]](admin-dashboard.md)** | 功能板提供您商店中销售和客户活动的快速概览，通常是登录到管理员时显示的第一个页面。 |
-| ![销售菜单](./assets/icon-admin-sidebar-sales.png) | **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | 在[!UICONTROL Sales]菜单中，您可以找到与处理订单、发票、装运、贷项通知单和事务处理的操作相关的所有内容。 |
-| ![目录菜单](./assets/icon-admin-sidebar-catalog.png) | **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | [!UICONTROL Catalog]菜单用于创建产品和定义类别。 |
-| ![客户菜单](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | [!UICONTROL Customers]菜单是您可以管理客户帐户以及查看哪些客户当前在线的地方。 |
-| ![营销菜单](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | [!UICONTROL Marketing]菜单是您设置目录和购物车价格规则和优惠券的位置。 价格规则会在满足一组特定条件时触发操作。 |
-| ![内容菜单](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | [!UICONTROL Content]菜单是您管理存储的内容元素和设计的位置。 了解如何创建页面、块和前端应用程序，以及管理应用商店的展示方式。 |
-| ![“报表”菜单](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} [!UICONTROL Reports]菜单提供多种报告选项，可让您insight了解商店的各个方面，包括销售额、购物车、产品、客户、标记、评论、搜索词，以及来自[全网站分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/intro)的全天候实时性能监控和推荐。 |
-| ![存储菜单](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | [!UICONTROL Stores]菜单包括用于配置和维护商店各个方面的工具，包括多站点安装设置、税费、货币、产品属性和客户组。 |
-| ![系统菜单](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | [!UICONTROL System]菜单包括用于管理系统操作、安装扩展以及管理Web服务以便与其他应用程序集成的工具。 |
-| ![查找扩展](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在[!DNL Commerce Marketplace]中，您可以找到商店的Adobe Commerce和Magento Open Source解决方案。 |
+| 链接 | 描述 |
+| ---- | ----------- |
+| **[管理员启动页面](../configuration-reference/advanced/admin.md)** | 显示管理员启动页面，默认情况下是功能板。 |
+| **[[!UICONTROL Dashboard]](admin-dashboard.md)** | 功能板提供您商店中销售和客户活动的快速概览，通常是登录到管理员时显示的第一个页面。 |
+| **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | 在[!UICONTROL Sales]菜单中，您可以找到与处理订单、发票、装运、贷项通知单和事务处理的操作相关的所有内容。 |
+| **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | [!UICONTROL Catalog]菜单用于创建产品和定义类别。 |
+| **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | [!UICONTROL Customers]菜单是您可以管理客户帐户以及查看哪些客户当前在线的地方。 |
+| **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | [!UICONTROL Marketing]菜单是您设置目录和购物车价格规则和优惠券的位置。 价格规则会在满足一组特定条件时触发操作。 |
+| **[[!UICONTROL Content]](../content-design/content-menu.md)** | [!UICONTROL Content]菜单是您管理存储的内容元素和设计的位置。 了解如何创建页面、块和前端应用程序，以及管理应用商店的展示方式。 |
+| **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"} [!UICONTROL Reports]菜单提供多种报告选项，可让您insight了解商店的各个方面，包括销售额、购物车、产品、客户、标记、评论、搜索词，以及来自[全网站分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro)的全天候实时性能监控和推荐。 |
+| **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | [!UICONTROL Stores]菜单包括用于配置和维护商店各个方面的工具，包括多站点安装设置、税费、货币、产品属性和客户组。 |
+| **[[!UICONTROL System]](../systems/system-menu.md)** | [!UICONTROL System]菜单包括用于管理系统操作、安装扩展以及管理Web服务以便与其他应用程序集成的工具。 |
+| **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE 仅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}在[!DNL Commerce Marketplace]中，您可以找到商店的Adobe Commerce和Magento Open Source解决方案。 |
+| **[[!UICONTROL App Management]](https://experienceleague.adobe.com/en/docs/commerce/app-management/overview)** | [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}通过[!UICONTROL App Management]菜单，您可以管理商店中安装的应用程序，包括其设置和更新。 |
 
 {style="table-layout:auto"}
