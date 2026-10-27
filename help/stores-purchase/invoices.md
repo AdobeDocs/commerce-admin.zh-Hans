@@ -86,7 +86,7 @@ ht-degree: 0%
 >
 >对于使用`Gift Card`、`Store Credit`、`Reward Points`或其他离线付款方式下单的订单，不会自动创建发票。
 
-必须先生成订单发票，然后才能打印该发票。 要查看或打印PDF，请先下载并安装PDF阅读器，如[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
+必须先生成订单发票，然后才能打印该发票。 要查看或打印PDF，请先下载并安装PDF阅读器，如[Adobe Acrobat Reader](https://www.adobe.com/cn/acrobat/pdf-reader.html "获取Adobe Reader")。
 
 **_为订单开票:_**
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要查看或打印PDF，您必须具有PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "获取Adobe Reader")。
+>要查看或打印PDF，您必须具有PDF阅读器。 您可以免费下载[Adobe Reader](https://www.adobe.com/cn/acrobat/pdf-reader.html "获取Adobe Reader")。
 
 ### 打印单张发票
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 
 ## 自定义捕获金额
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 为了向商家提供更大的灵活性以用于部分捕获和专用支付方案，发票API支持使用扩展属性的自定义捕获金额。
 
