@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 步骤1：配置电子邮件通知
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板中，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Gift Cards]**。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 要查找当前订单的礼品卡帐户编号，请执行以下操作：
 
-   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
    - 在列表中查找该顺序，然后单击&#x200B;_[!UICONTROL Action]_&#x200B;列中的&#x200B;**[!UICONTROL View]**。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    该数字位于&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;下的&#x200B;_[!UICONTROL Product]_&#x200B;列中。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 在网格中找到礼品卡帐户，并在编辑模式下将其打开。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 创建礼品卡帐户
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 单击右上角的&#x200B;**[!UICONTROL Add Gift Card Account]**。
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 ## 查看礼品卡帐户历史记录
 
-1. 转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 在编辑模式下打开礼品卡。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 ## 删除礼品卡帐户
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 选择要删除的礼品卡帐户，并在编辑模式下将其打开。
 

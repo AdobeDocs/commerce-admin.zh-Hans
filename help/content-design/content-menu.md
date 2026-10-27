@@ -2,32 +2,36 @@
 title: '[!UICONTROL Content]菜单'
 description: 使用[!UICONTROL Content]菜单访问多项功能，以管理存储中的内容。
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Content]菜单
 
 >[!NOTE]
 >
->启用新[[!DNL Media Gallery]](media-gallery.md)后，将显示&#x200B;_[!UICONTROL Media]_&#x200B;部分，其中包含一个访问[!DNL Media Gallery]的选项。 您可以通过转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;并在左侧面板中选择&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**，将&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;选项设置为`No`。
+>启用新[[!DNL Media Gallery]](media-gallery.md)后，将显示&#x200B;_[!UICONTROL Media]_&#x200B;部分，其中包含一个访问[!DNL Media Gallery]的选项。 通过转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;并在左侧面板中选择&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**，将&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;选项设置为`No`。
 
 >[!BEGINTABS]
 
@@ -56,7 +60,7 @@ ht-degree: 0%
 - 创建内容的[块](blocks.md)而不编写任何代码。 块可以包含文本、图像甚至视频，并且可以分配给页面布局的任何部分。
 - ![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）创建[动态块](dynamic-blocks.md)以包含由[价格规则](../merchandising-promotions/introduction.md#promotions)和[客户区段](../customers/customer-segments.md)中的逻辑驱动的丰富交互式内容。
 - 创建[构件](widgets.md)，该构件可在存储区中的任意位置显示动态数据并添加块、链接和交互元素。
-- 从您的页面生成器内容创建[模板](../page-builder/templates.md)，并节省添加新内容（或替换旧内容）的时间和精力。
+- 从页面生成器内容创建[模板](../page-builder/templates.md)并在添加新内容（或替换旧内容）时提高效率。
 
 >[!NOTE]
 >
@@ -76,4 +80,4 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[内容暂存](content-staging.md)使您的业务团队能够直接从商店管理员轻松地创建、预览和计划各种内容更新。
+[内容暂存](content-staging.md)使您的业务团队能够直接从商店管理员创建、预览和计划各种内容更新。

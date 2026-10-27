@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # 来宾结帐
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **_禁用来宾签出:_**
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左侧面板上，展开&#x200B;**[!UICONTROL Sales]**&#x200B;并选择&#x200B;**[!UICONTROL Checkout]**。
 
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 启用后，随已注册电子邮件一起下达的访客结帐订单将保持可访问状态，但同时也会显示在客户的订单历史记录中。
 
-要启用此功能，请导航到&#x200B;**商店** >设置> **配置** >销售> **销售** > **来宾签出**，并将&#x200B;**允许已注册电子邮件访问来宾订单**&#x200B;设置设置为`Yes`。
+要启用此功能，请导航到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]**，并将&#x200B;**[!UICONTROL Allow Guest Order Access for Registered Emails]**&#x200B;设置设置为`Yes`。

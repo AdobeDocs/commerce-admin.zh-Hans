@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ composer require magento/audiences
    >
    >指定数据流ID时，您可以[将其关联到[!DNL Data Connection]扩展中的特定网站](https://experienceleague.adobe.com/zh-hans/docs/commerce/data-connection/fundamentals/connect-data#data-collection)。 如果您的Commerce商店有多个网站，请在Real-Time CDP中为每个网站[创建一个目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/connect-destination)，并为每个网站使用不同的数据流ID。
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 展开&#x200B;**[!UICONTROL Services]**&#x200B;并选择&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 
@@ -448,7 +448,7 @@ bin/magento audiences:config:status
 ### 配置中选择的身份验证类型不正确
 
 1. 打开您的Commerce实例。
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 1. 展开&#x200B;**[!UICONTROL Services]**&#x200B;并选择&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 1. 确保您在&#x200B;**[!UICONTROL Authentication Type]**&#x200B;字段中指定的服务器到服务器授权方法正确。 Adobe建议使用&#x200B;**OAuth**。 [JWT已弃用](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)，当前所有证书将于2026年3月1日过期。
 

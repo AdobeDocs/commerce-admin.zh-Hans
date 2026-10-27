@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # 发票
 
 发票是订单付款记录的记录。 可以为单个订单[创建多张发票](#create-an-invoice)，每张发票可以包含您指定的任意数量的已购产品。 您还可以创建[打印就绪的PDF发票](#print-invoices)作为客户的销售单据。
 
-在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _操作_ > **发票**&#x200B;以打开&#x200B;_发票_&#x200B;网格并访问您创建的发票。
+在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**&#x200B;以打开&#x200B;_发票_&#x200B;网格并访问您创建的发票。
 
 ![发票网格](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 **_为订单开票:_**
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在网格中查找状态为`Processing`的销售订单。 然后，执行以下操作：
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ### 打印单张发票
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**。
 
 1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，找到发票，然后单击_&#x200B;操作&#x200B;_列中的&#x200B;**[!UICONTROL View]**。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ### 打印多张发票
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**。
 
 1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;网格中，选中要打印的每张发票所对应的复选框。
 

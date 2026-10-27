@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 ### 查看计费协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 ### 取消帐单协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;页面列出了您的商店与其客户
 
 ### 删除帐单协议
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在列表中查找计费协议，然后单击以将其打开。
 

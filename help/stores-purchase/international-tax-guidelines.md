@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### 步骤1：完成计税设置
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 对于多站点配置，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为配置目标的网站和商店。
 
@@ -370,13 +370,13 @@ ht-degree: 0%
 
 ### 步骤4：设置德国的商店视图
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**。
 
 1. 在默认网站下，为&#x200B;**[!UICONTROL Germany]**&#x200B;创建商店视图。
 
 1. 接下来，执行以下操作：
 
-   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+   - 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
    - 在左上角，将&#x200B;**[!UICONTROL Default Config]**&#x200B;设置为法文商店。
 
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 ### 步骤6：配置德国的税务设置
 
-1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在右上角，将&#x200B;**[!UICONTROL Store View]**&#x200B;设置为德语商店的视图，然后单击&#x200B;**[!UICONTROL OK]**&#x200B;进行确认。
 
