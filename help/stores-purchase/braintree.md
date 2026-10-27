@@ -69,9 +69,9 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
    - 如果您的Commerce安装有多个网站、商店或视图，请在左上角选择应用配置的&#x200B;**[!UICONTROL Store View]**。
 
-   - 在&#x200B;_[!UICONTROL Merchant Location]_部分中，验证&#x200B;**[!UICONTROL Merchant Country]**是否设置为您公司的位置。
+   - 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;部分中，验证&#x200B;**[!UICONTROL Merchant Country]**&#x200B;是否设置为您公司的位置。
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [发行说明](https://support.gene.co.uk/support/solutions/articles/35000278668)_部分中，单击&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [发行说明](https://support.gene.co.uk/support/solutions/articles/35000278668)_部分中，单击&#x200B;**[!UICONTROL Configure]**。
 
    ![配置Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 1. 将&#x200B;**[!UICONTROL Payment Action]**&#x200B;设置为以下项之一：
 
    - `Authorize Only` — 批准购买并暂停资金。 在商户捕获&#x200B;__&#x200B;销售之前，不会从客户的银行帐户提取此金额。|
-   - `Intent Sale` — 已授权并立即从客户帐户中收回购买金额。 **_Note:_**在2.3.x及更早版本中，此值为_ Authorize and Capture_。|
+   - `Intent Sale` — 已授权并立即从客户帐户中收回购买金额。 **_Note:_**&#x200B;在2.3.x及更早版本中，此值为_ Authorize and Capture_。|
 
 1. 输入您的Braintree帐户中的&#x200B;**[!UICONTROL Sandbox Merchant ID / Merchant ID]**。
 
@@ -147,7 +147,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
 1. 将&#x200B;**[!UICONTROL Enable Webhook]**&#x200B;设置为`Yes`以启用webhook功能以防止欺诈、ACH付款和本地付款方法。
 
-1. 复制&#x200B;**[!UICONTROL Fraud Protection URL]**&#x200B;字段中的URL，并将其作为&#x200B;_[!UICONTROL Webhook Destination URL]_添加到您的Braintree帐户。
+1. 复制&#x200B;**[!UICONTROL Fraud Protection URL]**&#x200B;字段中的URL，并将其作为&#x200B;_[!UICONTROL Webhook Destination URL]_&#x200B;添加到您的Braintree帐户。
 
    >[!IMPORTANT]
    >
@@ -166,7 +166,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 1. 将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
 
    ![特定于国家/地区的设置](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -285,7 +285,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
      >[!NOTE]
      >
-     >PayPal信用仅在美国和英国可用。 如果&#x200B;_[!UICONTROL Merchant Country]_字段的选定值不是`US`或`UK`，则PayPal点数已禁用。
+     >PayPal信用仅在美国和英国可用。 如果&#x200B;_[!UICONTROL Merchant Country]_&#x200B;字段的选定值不是`US`或`UK`，则PayPal点数已禁用。
 
    - 要将[!DNL PayPal PayLater]作为付款选项包含在Braintree中，请将&#x200B;**[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;设置为`Yes`。
 
@@ -311,7 +311,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 1. 对于PayPal处理的Braintree事务，将&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Payment from Specific Countries]_&#x200B;列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
 
    通过Braintree设置![PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -343,13 +343,13 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-此部分中的选项和设置因&#x200B;_[!UICONTROL Location]_字段中的设置而异。
+此部分中的选项和设置因&#x200B;_[!UICONTROL Location]_&#x200B;字段中的设置而异。
 
 1. 将&#x200B;**[!UICONTROL PayPal Button Type]**&#x200B;设置为三种按钮类型之一： `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
 **[!UICONTROL PayPal Button]**
 
-此部分中的选项和设置因在&#x200B;_[!UICONTROL PayPal Button Type]_字段中选择的按钮类型而异。
+此部分中的选项和设置因在&#x200B;_[!UICONTROL PayPal Button Type]_&#x200B;字段中选择的按钮类型而异。
 
 1. 要在所选位置的店面上显示PayPal按钮，请将&#x200B;**[!UICONTROL Show PayPal Button]**&#x200B;设置为`Yes`。
 
@@ -432,7 +432,7 @@ Braintree通过欺诈检测和PayPal集成提供完全可自定义的结账体�
 4. 将&#x200B;**[!UICONTROL Verify for Applicable Countries]**&#x200B;设置为以下项之一：
 
    - `All Allowed Countries` — 来自您商店配置中指定的所有[国家/地区](../getting-started/store-details.md#country-options)的客户都可以使用此付款方式。
-   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Verify for Specific Countries]_列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
+   - `Specific Countries` — 选择此选项后，将显示&#x200B;_[!UICONTROL Verify for Specific Countries]_&#x200B;列表。 按住Ctrl键(PC)或Command键(Mac)，然后选择客户可在您的商店中购买产品的每个国家/地区。
 
    ![3D验证设置](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

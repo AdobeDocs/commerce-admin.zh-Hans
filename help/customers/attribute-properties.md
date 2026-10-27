@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >**快捷方式：**&#x200B;要仅完成必填字段，请向下滚动到&#x200B;_[!UICONTROL Storefront Properties]_，输入_[!UICONTROL Sort Order]_&#x200B;并保存。
+   >**快捷方式：**&#x200B;要仅完成必填字段，请向下滚动到&#x200B;_[!UICONTROL Storefront Properties]_，输入&#x200B;_[!UICONTROL Sort Order]_&#x200B;并保存。
 
 1. 完成数据输入属性：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
      | `Text Field` | 单行文本字段。 |
      | `Text Area` | 用于输入文本段落（如产品说明）的多行输入字段。 您可以使用WYSIWYG编辑器使用HTML标记设置文本格式，或直接在文本中输入标记。 |
      | `Multiple Line` | 为属性创建多个文本行，类似于多行街道地址。 单独的数据输入行的数量可以是2到20。 使用`Default Value`指定字段的初始值。 |
-     | `Date` | 以首选的日期格式和时区显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](../catalog/attributes-input-types.md#date-and-time-options)。 |
+     | `Date` | 以首选的日期格式和时区显示日期值。 可以从列表或日历（ ![日历图标](../assets/icon-calendar.png) ）中选择日期值。 <br/><br/>**_注意:_**&#x200B;根据您的系统配置，_&#x200B;管理员_用户可以在字段中直接输入日期或从日历或列表中选择日期。 有关指定日期和时间值的信息，请参阅[日期和时间选项](../catalog/attributes-input-types.md#date-and-time-options)。 |
      | `Yes/No` | 显示一个预定义选项为`Yes`和`No`的下拉列表。 |
      | `Dropdown` | 显示仅接受单个选择的值的下拉列表。 下拉列表输入类型是[可配置产品](../catalog/product-create-configurable.md)的关键组件。 |
      | `Multiple Select` | 接受多个待选值的下拉列表。 |
