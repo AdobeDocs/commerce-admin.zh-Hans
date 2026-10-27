@@ -4,7 +4,7 @@ description: 了解Adobe Commerce as a Cloud Service客户如何在Adobe Unified
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe Unified Experience中的Commerce Admin
@@ -55,20 +55,24 @@ Adobe Unified Experience界面提供了在Adobe产品中使用的共享顶部导
 登录流程允许您在Commerce实例之间移动，而无需单独登录每个实例。
 您可以在Adobe产品和Commerce实例之间移动，而无需进一步的登录提示。
 
-有关访问过程，请参阅&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[访问实例](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+有关访问过程，请参阅&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[访问实例](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+<!--
 
 >[!BEGINTABS]
 
->[!TAB 从Commerce Cloud Manager  打开管理员]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 在操作中查看它]
+<!--
+>[!TAB See it in action]
 
-从Commerce Cloud Manager ![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
+-->
 ### 选择管理员界面 {#classic-ui}
 
 对于Unified Experience中的Commerce Admin的初始版本，Adobe Commerce as a Cloud Service支持两个Commerce管理体验，即Adobe Unified Experience和经典UI。
@@ -82,7 +86,7 @@ Unified Experience UI和Classic UI的链接在Commerce Cloud Manager的实例详
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 在Unified Experience中打开管理员。 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 打开上一个管理员界面。 |
 
-![显示管理员URL (Unified Shell UI)和管理员URL (Classic UI)链接的Commerce Cloud Manager实例详细信息插图](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![显示管理员URL (Unified Shell UI)和管理员URL (Classic UI)链接的Commerce Cloud Manager实例详细信息插图](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _基于实例列表屏幕截图和更新的实例详细信息设计的插图。 显示的URL使用暂存主机。_
 
@@ -172,7 +176,7 @@ Admin内部没有接口开关。 使用Commerce Cloud Manager或保存的管理�
 
 >[!ENDTABS]
 
-有关Adobe Commerce as a Cloud Service用户和角色管理，请参阅[用户管理](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/user-management){target="_blank"}。
+有关Adobe Commerce as a Cloud Service用户和角色管理，请参阅[用户管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}。
 
 ### 切换Commerce实例
 
@@ -262,7 +266,7 @@ Commerce管理菜单显示在Adobe Unified Experience的左侧导航区域中。
 
 >[!BEGINTABS]
 
->[!TAB 具有深色模式的 帐户菜单]
+>具有深色模式的[!TAB 帐户菜单]
 
 具有深色模式的![帐户菜单](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
 
@@ -278,4 +282,4 @@ Commerce管理员中的页面具有与Adobe Unified Experience匹配的已刷新
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise界面和管理指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise界面和管理指南](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
