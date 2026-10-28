@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe Unified Experience中的Commerce Admin
@@ -56,18 +56,23 @@ Adobe Unified Experience界面提供了在Adobe产品中使用的共享顶部导
 您可以在Adobe产品和Commerce实例之间移动，而无需进一步的登录提示。
 
 有关访问过程，请参阅&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[访问实例](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+<!--
 
 >[!BEGINTABS]
 
->[!TAB 从Commerce Cloud Manager  打开管理员]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 在操作中查看它]
+<!--
+>[!TAB See it in action]
 
-从Commerce Cloud Manager ![打开管理员](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
+
+-->
 
 ### 选择管理员界面 {#classic-ui}
 
@@ -82,7 +87,7 @@ Unified Experience UI和Classic UI的链接在Commerce Cloud Manager的实例详
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 在Unified Experience中打开管理员。 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 打开上一个管理员界面。 |
 
-![显示管理员URL (Unified Shell UI)和管理员URL (Classic UI)链接的Commerce Cloud Manager实例详细信息插图](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![显示管理员URL (Unified Shell UI)和管理员URL (Classic UI)链接的Commerce Cloud Manager实例详细信息插图](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _基于实例列表屏幕截图和更新的实例详细信息设计的插图。 显示的URL使用暂存主机。_
 
