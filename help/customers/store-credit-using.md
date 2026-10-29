@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 存储信用角色资源
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
 
 以下资源确定哪些管理员用户可以更改客户的商店信用余额，以及哪些用户可以将商店信用应用于订单。 有关将资源分配给用户角色的信息，请参阅[角色资源](../systems/permissions-user-roles.md#role-resources)。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![将商店贷方余额应用于订单](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当您的用户角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;资源时，**[!UICONTROL Use Store Credit]**&#x200B;复选框才会显示。 查看[存储信用角色资源](#store-credit-role-resources)。
+[!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当您的用户角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;资源时，**[!UICONTROL Use Store Credit]**&#x200B;复选框才会显示。 查看[存储信用角色资源](#store-credit-role-resources)。
 
 ## 在结账期间应用商店积分
 

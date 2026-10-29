@@ -121,7 +121,7 @@ _客户视图_&#x200B;选项卡列出了有关客户的信息，包括&#x200B;**
 
 [存储点数](../customers/store-credit.md)选项卡显示还原到客户帐户的金额，管理员可以管理此值。
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当用户角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;资源时，[!UICONTROL Store Credit]选项卡和&#x200B;**[!UICONTROL Customer View]**&#x200B;选项卡上的&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才会出现。 查看[存储信用角色资源](../customers/store-credit-using.md#store-credit-role-resources)。
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当用户角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;资源时，[!UICONTROL Store Credit]选项卡和&#x200B;**[!UICONTROL Customer View]**&#x200B;选项卡上的&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才会出现。 查看[存储信用角色资源](../customers/store-credit-using.md#store-credit-role-resources)。
 
 ### [!UICONTROL Newsletter]
 
