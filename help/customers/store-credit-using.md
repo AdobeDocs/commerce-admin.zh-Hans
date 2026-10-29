@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # 应用商店积分
@@ -42,6 +42,18 @@ ht-degree: 0%
 
 ![客户信用余额和历史记录](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## 存储信用角色资源
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}
+
+以下资源确定哪些管理员用户可以更改客户的商店信用余额，以及哪些用户可以将商店信用应用于订单。 有关将资源分配给用户角色的信息，请参阅[角色资源](../systems/permissions-user-roles.md#role-resources)。
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]**&#x200B;允许用户查看和更新商店信用余额。 如果没有它，**[!UICONTROL Store Credit]**&#x200B;选项卡和&#x200B;**[!UICONTROL Customer View]**&#x200B;选项卡上的&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;将不可见。 用户仍然可以对客户帐户进行其他编辑。
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]**&#x200B;允许用户在[创建订单](../stores-purchase/customer-account-create-order.md)时申请商店积分。 如果没有该复选框，**[!UICONTROL Use Store Credit]**&#x200B;复选框将不可见。
+
+使用REST API的管理员用户和集成需要&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;资源才能将商店积分应用到购物车，或为已应用商店积分的购物车下订单。 有关详细信息，请参阅[存储点数](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)。
+
 ## 查看贷方余额
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
@@ -50,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_操作_&#x200B;列中，单击&#x200B;**[!UICONTROL Edit]**。
 
-1. 滚动&#x200B;_[!UICONTROL Customer View]_&#x200B;页面并在底部查看&#x200B;**[!UICONTROL Store Credit Balance]**。
+1. 滚动&#x200B;_[!UICONTROL Customer View]_页面并在底部查看&#x200B;**[!UICONTROL Store Credit Balance]**。
 
 ![存储信用余额](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -82,19 +94,21 @@ ht-degree: 0%
 
 ![将商店贷方余额应用于订单](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
+[!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当您的用户角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;资源时，**[!UICONTROL Use Store Credit]**&#x200B;复选框才会显示。 查看[存储信用角色资源](#store-credit-role-resources)。
+
 ## 在结账期间应用商店积分
 
 如果地点有贷方余额，客户可以在将订单放在店面之前将商店贷方应用于订单余额。
 
 1. 客户查看可用商店贷项的金额。
 
-   在&#x200B;_审核和付款_&#x200B;步骤中，可用金额显示在&#x200B;_[!UICONTROL Store Credit]_&#x200B;下。
+   在&#x200B;_审核和付款_&#x200B;步骤中，可用金额显示在&#x200B;_[!UICONTROL Store Credit]_下。
 
 1. 要将金额应用于订单，请单击&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >重新计算订单总计，应用的商店积分金额显示在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
+   >重新计算订单总计，应用的商店积分金额显示在&#x200B;_[!UICONTROL Order Summary]_中。
 
    ![存储应用于订单的贷方余额](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
