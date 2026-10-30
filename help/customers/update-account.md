@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 更新客户配置文件
 
 _[!UICONTROL Customer Information]_&#x200B;页的左侧面板包含有关客户活动、地址、订单统计数据、最近订单、购物车内容、产品评论和新闻稿订阅的信息。
@@ -122,6 +120,8 @@ _客户视图_&#x200B;选项卡列出了有关客户的信息，包括&#x200B;**
 {{ee-feature}}
 
 [存储点数](../customers/store-credit.md)选项卡显示还原到客户帐户的金额，管理员可以管理此值。
+
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service项目（Adobe管理的SaaS基础架构）。"}仅当用户角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;资源时，[!UICONTROL Store Credit]选项卡和&#x200B;**[!UICONTROL Customer View]**&#x200B;选项卡上的&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才会出现。 查看[存储信用角色资源](../customers/store-credit-using.md#store-credit-role-resources)。
 
 ### [!UICONTROL Newsletter]
 

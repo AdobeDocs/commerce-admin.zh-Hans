@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # 目录扩充
@@ -263,6 +263,7 @@ ht-degree: 0%
 
 ## 限制和注意事项 {#limits}
 
+- 扩充当前仅支持英语产品内容。
 - 扩充仅适用于产品名称和详细说明。 它不会更改PDP布局、小组件或其他页面级店面内容。
 - 大型目录和高的URL计数可能会影响分析完成的速度以及同时显示的建议数量。
 - 有意义的建议假定与LLM相关的机器人可以访问您关注的产品URL。 机器人规则、身份验证、地理阻挡和高度个性化可能会减少覆盖范围。
