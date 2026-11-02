@@ -4,7 +4,7 @@ description: 使用Adobe Commerce中的本机目录扩充功能，查看并将AI
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c073327e16e3738b5c92f79e442489572046f739
+source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '3173'
 ht-degree: 0%
 ---
 # 目录扩充
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的Adobe Brand Visibility集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[[!DNL Adobe Brand Visibility] 产品文档](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/home)。
+>目录扩充由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]在幕后提供支持。 您可以将扩充用作Commerce目录工作流的一部分。 您无需管理单独的Adobe Brand Visibility集成即可应用批准的名称和描述更新。 有关在Commerce之外进行更广泛的LLM监控和优化，请参阅[[!DNL Adobe Brand Visibility] 产品文档](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)。
 
 ## 工作原理 {#how-it-works}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 - 您的店面可以由面向LLM和代理的机器人抓取，这些机器人需要抓取范围才能获得目录感知建议。
 - 所需的Commerce服务和目录连接已启用且运行正常。 请参阅[启用目录扩充](#enable-catalog-enrichment)以了解详情。
 - 访问目录扩充的Commerce管理员用户通过Adobe IMS登录。 查看[IMS登录和组织要求](#ims-sign-in-requirements)。
-- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/cn/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
+- 您有权访问[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)。
 - 您的组织已签署底层AI服务的GenAI附加程序，或明确选择退出。
 
 >[!NOTE]
@@ -108,22 +108,33 @@ ht-degree: 0%
 
 ### 安装目录扩充和目录服务扩展
 
-1. 通过运行以下命令，在Commerce实例中安装目录扩充扩展：
+1. 在Commerce实例中安装目录扩充扩展并应用更改：
 
    ```bash
-   composer require magento/module-catalog-enrichment --no-update
-   composer update magento/module-catalog-enrichment
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
    ```
 
-1. 如果您尚未安装目录服务，请[执行此操作](https://experienceleague.adobe.com/zh-hans/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+   `setup:upgrade`启用该扩展，创建其数据库表，并授予管理员权限。 之后刷新缓存，使权限生效。 在生产模式下，还运行`bin/magento setup:di:compile`和`bin/magento setup:static-content:deploy`。
+
+1. 如果您尚未安装目录服务，请[执行此操作](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;现在可在您的Commerce实例中使用。
 
+>[!IMPORTANT]
+>
+>目录扩充2.1.2及更高版本需要PHP 8.3或更高版本上的Adobe Commerce 2.4.7或更高版本，并且无法与[!DNL Adobe Brand Visibility]扩展(`magento/llm-optimizer`)一起安装。 如果已安装，请在升级之前将其删除。 请参阅发行说明中的[从早期版本升级](#upgrade-from-earlier-versions)。
+
 ### 访问目录扩充
 
-安装目录扩充和目录服务扩充后，管理员可在&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下使用目录扩充功能。
+安装目录扩充和目录服务扩充后，管理员可在&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下使用目录扩充功能。
 
 ![目录扩充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]**&#x200B;菜单也列出了&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**。 产品详细信息页面扩充为测试版，尚未正式发布。
 
 ### 配置目录扩充 {#configure-catalog-enrichment}
 
@@ -131,7 +142,7 @@ ht-degree: 0%
 
 此选项卡上的字段标识目录扩充所连接到的Commerce环境和存储视图。 它们与拥有您的[!DNL Adobe Brand Visibility]权利的Adobe IMS组织不同。 查看[IMS登录和组织要求](#ims-sign-in-requirements)。
 
-1. 在“管理员”中，转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**。
+1. 在“管理员”中，转到&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**。
 1. 在页面顶部的&#x200B;**[!UICONTROL Scope]**&#x200B;列表中，选择要配置的商店视图，或保留&#x200B;**[!UICONTROL All Store Views]**&#x200B;以跨商店视图管理设置。
 1. 打开&#x200B;**[!UICONTROL Settings]**&#x200B;选项卡。
 1. 在&#x200B;**[!UICONTROL Commerce Configuration]**&#x200B;中，展开标记为其URL的存储区视图面板。
@@ -308,3 +319,79 @@ ht-degree: 0%
 - **After**：“此配置包括6个标准座椅插入件集和6个标准侧插入件，它们可互换地用作臂或背部，构成布局的模块化构建块。 每张座椅均采用标准泡沫材料，其中具有三个高密度层，旨在保持提升和防止下垂。 蓝宝石海军灯丝绒护套既耐用，又豪华，其纹理丰富的灯丝营造出细腻的光泽，柔软而丰满的感觉。 封面是手工缝制的，外观精准、量身定制，可机洗，可更换，因此您的部分可以随您的空间而发展。”
 
 由于扩充的描述会写回Commerce目录，因此可供抓取产品详细信息页面的AI机器人以及任何使用产品目录数据的下游渠道或馈送使用，而无需更改购物者在页面上看到的布局或设计。
+
+## 发行说明 {#release-notes}
+
+这些发行说明捕获了目录扩充扩展(`magento/module-catalog-enrichment`)中的添加和修复：
+
+![新](../assets/new.svg)新功能
+![已修复问题](../assets/fix.svg)修复和改进
+![已知问题](../assets/bug.svg)已知问题
+
+### v2.1.2
+
+*2026年10月22日*
+
+[!BADGE 支持]{type=Informative tooltip="支持"} PHP 8.3到8.5上的Adobe Commerce 2.4.9、2.4.8、2.4.7。
+
+版本2.1.2将目录扩充作为自含扩展。 它现在包含以前由单独的[!DNL Adobe Brand Visibility]扩展(`magento/llm-optimizer`)提供的所有内容：将批准的建议应用于目录、回滚这些建议，以及保护您自己的编辑内容不被覆盖。
+
+#### 从早期版本升级 {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>版本2.1.2不能与[!DNL Adobe Brand Visibility]扩展一起安装。 如果已安装，请在升级过程中将其删除。
+
+1. 删除[!DNL Adobe Brand Visibility]扩展（如果已安装）：
+
+   ```bash
+   composer remove magento/llm-optimizer
+   ```
+
+   如果该扩展是通过将`Magento/LlmoCatalog`复制或符号链接到`app/code`中安装的，请删除该目录。 不仅要禁用模块：磁盘上仍存在的已禁用模块可能会导致`setup:upgrade`删除存储扩充产品原始值的表。
+
+1. 更新目录扩充并应用更改：
+
+   ```bash
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
+   ```
+
+   升级后刷新缓存。 升级会将现有访问授权移动到新权限资源，并且这些授权在清除缓存之前不会生效。
+
+#### 要求
+
+![新](../assets/new.svg) **PHP 8.3和Adobe Commerce 2.4.7或更高版本**—PHP 8.1的生命周期已终止，并且PHP 8.2的生命周期将于2026年12月31日终止，因此这两种版本均不受支持。 不支持Adobe Commerce 2.4.6及更早版本。
+
+#### 新增功能
+
+![新建](../assets/new.svg) **[!UICONTROL AI Product Discovery]菜单** — 目录扩充页面现在在管理员侧边栏中有自己的部分。 转到&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**。 以前，页面位于&#x200B;**[!UICONTROL Catalog]**&#x200B;下。
+
+![新](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="尚未正式提供"} **[!UICONTROL Product Details Page Enrichment (Beta)]** — 位于&#x200B;**[!UICONTROL AI Product Discovery]**&#x200B;下的新页面，用于查看产品详细信息页面的扩充建议。 产品详细信息页面扩充为测试版，尚未正式发布。
+
+![新建](../assets/new.svg) **应用并回退已批准的建议** — 已批准的名称和描述更新将由此扩展写入目录。 Commerce会在每个扩充属性首次更改时记录其原始值，因此回滚始终会恢复您在扩充之前的值，即使已向同一属性应用了多个建议也是如此。
+
+![新](../assets/new.svg) **遵守您的编辑** — 当您在“管理员产品”表单中通过&#x200B;**[!UICONTROL Update Attributes]**&#x200B;或通过导入更改扩充名称或描述时，将保留您的值并将相关建议标记为&#x200B;*已过时*。 在默认范围中所做的更改只会影响继承该值的存储视图。
+
+![新](../assets/new.svg) **建议的只读目录访问权限**—[!DNL Commerce Catalog Agent]可以读取产品、类别、属性集和产品类型数据，以选择要分析的产品。 读取仅返回标记为&#x200B;**[!UICONTROL Used in Product Listing]**&#x200B;的属性，以及可扩充的属性。 它无法更改目录数据。
+
+#### 修复和改进功能
+
+![已修复问题](../assets/fix.svg) **重试的应用报告成功** — 如果应用请求在完成之后重试，重试现在将报告应用的更改，而不是报告无更改。 没有什么是两次写的。
+
+![已修复问题](../assets/fix.svg) **只有已批准的服务才能更改目录** — 应用和回滚仅接受来自[!DNL Commerce Catalog Agent]的请求。 以前，接受任何有效的Adobe IMS令牌。 现在，同样的检查也适用于SOAP请求。
+
+![已修复问题](../assets/fix.svg) **更清晰的错误**—Adobe IMS中断现在返回`401`而不是`500`，因此不会针对目录重试请求，并且会拒绝无法识别的Adobe IMS环境，而不是将其视为暂存。
+
+![修复了问题](../assets/fix.svg) **Adobe IMS环境** — 默认情况下，目录扩充现在登录到生产Adobe IMS环境，包括在连接到非生产[!DNL Commerce Services]数据空间的实例上。 以前，这些实例会被发送到暂存环境。
+
+![修复了问题](../assets/fix.svg) **在[!DNL Adobe Brand Visibility]域更改**&#x200B;后登录 — 目录扩充页面现在从`abv.adobe.com`加载，这修复了上一个域开始重定向后的登录循环。
+
+#### 已知问题
+
+![已知问题](../assets/bug.svg) **具有完全[!UICONTROL Catalog]访问权限的角色** — 在此版本之前保存的、被授予所有&#x200B;**[!UICONTROL Catalog]**&#x200B;的用户角色将保留对&#x200B;**[!UICONTROL Catalog Enrichment Service API]**&#x200B;资源的访问权限。 在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**&#x200B;中查看此类角色，并在不需要时清除该资源。
+
+### v1.0.2
+
+目录扩充管理页面的初始版本。 需要[!DNL Adobe Brand Visibility]扩展才能将建议应用到目录。
