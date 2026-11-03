@@ -22,16 +22,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # [!UICONTROL Content]菜单
 
 >[!NOTE]
 >
->启用新[[!DNL Media Gallery]](media-gallery.md)后，将显示&#x200B;_[!UICONTROL Media]_&#x200B;部分，其中包含一个访问[!DNL Media Gallery]的选项。 通过转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;并在左侧面板中选择&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**，将&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;选项设置为`No`。
+>启用[[!DNL Media Gallery]](media-gallery.md)后，_[!UICONTROL Media]_&#x200B;部分会显示，其中包含一个用于访问[!DNL Media Gallery]的选项。 如果未看到此选项，请验证&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;选项是否设置为`No`。 有关详细信息，请参阅[验证 [!DNL Media Gallery] 配置](media-gallery.md#enable-the-new-media-gallery)。
 
 >[!BEGINTABS]
 
