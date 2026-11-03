@@ -22,28 +22,28 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # [!UICONTROL Content]菜单
 
 >[!NOTE]
 >
->启用新[[!DNL Media Gallery]](media-gallery.md)后，将显示&#x200B;_[!UICONTROL Media]_&#x200B;部分，其中包含一个访问[!DNL Media Gallery]的选项。 通过转到&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;并在左侧面板中选择&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**，将&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;选项设置为`No`。
+>启用[[!DNL Media Gallery]](media-gallery.md)后，_[!UICONTROL Media]_部分会显示，其中包含一个用于访问[!DNL Media Gallery]的选项。 如果未看到此选项，请验证&#x200B;**[!UICONTROL Enable Old Media Gallery]**选项是否设置为`No`。 有关详细信息，请参阅[验证 [!DNL Media Gallery] 配置](media-gallery.md#enable-the-new-media-gallery)。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 ![管理员中显示的[!UICONTROL Content]菜单](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
+仅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"}
 
 ![管理员中显示的[!UICONTROL Content]菜单](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此菜单中的&#x200B;_[!UICONTROL Banners]_&#x200B;选项在2.3.1中已弃用，现已删除。 其功能已被动态块取代。
+>此菜单中的&#x200B;_[!UICONTROL Banners]_选项在2.3.1中已弃用，现已删除。 其功能已被动态块取代。
 
 ## [!UICONTROL Design] {#design-features}
 
