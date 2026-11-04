@@ -38,7 +38,7 @@ ht-degree: 0%
 
 随着业务职责变化，您可能需要将您的Adobe Commerce帐户转移给新所有者或其他电子邮件地址。 此转移需要更改与该帐户关联的主要用户电子邮件。
 
-以下信息介绍了转移Adobe Commerce帐户(MAGEID)的过程。 它不包括对Adobe Commerce的云基础架构项目所有权或[!DNL New Relic]所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)_。
+以下信息介绍了转移Adobe Commerce帐户(MAGEID)的过程。 它不包括对Adobe Commerce的云基础架构项目所有权或[!DNL New Relic]所有权的更改。 有关云项目访问权限的详细信息，请参阅《云基础架构上的Commerce指南》_中的[管理用户访问权限](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/project/user-access)_。
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >在开始帐户转移之前查看Marketplace扩展。 扩展和访问密钥与图像ID关联。 传输开始时，将无法访问在“共享访问”下购买的扩展。 标准帐户转账流程不会将购买的延期转为其他帐户；您可能需要申请退款，并在预定帐户下回购延期款项。 如果您的传输属于许可证重新调整的一部分，请联系Adobe Commerce支持，确认是否应用单独的传输流程。
 >
->在请求帐户转移之前，请确保新所有者从[他们的 [!DNL Commerce Marketplace] 帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID并请求[[!DNL Commerce Marketplace] 团队](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)退款。 扩展购买不能转移到其他帐户。
+>在请求帐户转移之前，请确保新所有者从[他们的 [!DNL Commerce Marketplace] 帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID并请求[[!DNL Commerce Marketplace] 团队](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)退款。 扩展购买不能转移到其他帐户。
 >
 >此外，计划为接收的MAGE ID生成新的访问密钥，并更新您的部署使用的编辑器凭据。 在开始转帐之前，完成适用的扩展和关键步骤。
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您无法访问当前所有者的电子邮件，请让您的IT团队为您公司电子邮件系统中的帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
+>如果您无法访问当前所有者的电子邮件，请让您的IT团队为您公司电子邮件系统中的帐户电子邮件地址设置电子邮件转发。 如果无法配置电子邮件转发，请确保新帐户所有者具有Adobe ID，然后[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)以及启动帐户转移所需的所有详细信息。
 
 1. 导航到[account.adobe.com](https://account.adobe.com/)并完成Adobe登录。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 在完成[新Adobe ID和电子邮件更改](#new-adobe-id-and-email-change)、[仅电子邮件更改](#email-change)或[Adobe ID帐户切换](#adobe-id-account-switch)流程后，完成这些步骤。
 
-1. 作为新所有者，[提交支持请求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
+1. 作为新所有者，[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 
    包括以下详细信息：
 
