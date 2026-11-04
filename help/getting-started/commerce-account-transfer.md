@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # 转移Adobe Commerce帐户
@@ -44,7 +44,11 @@ ht-degree: 0%
 >
 >如果新帐户所有者使用共享访问购买了扩展，则一旦帐户转移开始，对这些扩展的访问权限就会丢失。
 >
+>在开始帐户转移之前查看Marketplace扩展。 扩展和访问密钥与图像ID关联。 传输开始时，将无法访问在“共享访问”下购买的扩展。 标准帐户转账流程不会将购买的延期转为其他帐户；您可能需要申请退款，并在预定帐户下回购延期款项。 如果您的传输属于许可证重新调整的一部分，请联系Adobe Commerce支持，确认是否应用单独的传输流程。
+>
 >在请求帐户转移之前，请确保新所有者从[他们的 [!DNL Commerce Marketplace] 帐户](https://commercemarketplace.adobe.com/sales/order/history/)中检索购买的订单ID并请求[[!DNL Commerce Marketplace] 团队](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)退款。 扩展购买不能转移到其他帐户。
+>
+>此外，计划为接收的MAGE ID生成新的访问密钥，并更新您的部署使用的编辑器凭据。 在开始转帐之前，完成适用的扩展和关键步骤。
 
 ## 识别您的传输类型
 
@@ -193,6 +197,12 @@ ht-degree: 0%
 1. 完成[电子邮件验证步骤](#verify-an-adobe-id-email-change)。
 
 新所有者验证电子邮件地址后，请继续[最后步骤](#final-steps)，以便Adobe Commerce支持可以更新帐户记录，如[[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/)配置文件。
+
+## 需要您的帐户转移帮助?**
+
+如果上述传输类型均与您的情况不匹配，或者您无法访问当前所有者的电子邮件地址，请提交Adobe Commerce支持票证。
+
+在您的请求中，说明哪种传输类型不适用，以及当前所有者的电子邮件是否可以访问。 包括当前所有者和新所有者的MAGEID、Adobe ID以及关联的电子邮件地址（如果已知）。 Adobe支持人员可以检查您的情况，并就后续步骤向您提供建议。
 
 ## 最后步骤
 
