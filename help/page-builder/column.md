@@ -53,7 +53,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用[!DNL Columns]容器优化页面布局：
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507539?captions=chi_hans&quality=12&learn=on)
 
 ## 列工具箱
 
