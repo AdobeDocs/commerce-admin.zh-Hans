@@ -63,7 +63,7 @@ Adobe Commerce支持来自多个提供商的2FA方法。 有些客户要求安�
 >
 >启用了Adobe Identity Management Services (IMS)身份验证的存储已禁用本机Adobe Commerce和Magento Open Source 2FA。 使用其Adobe凭据登录到其Commerce实例的管理员用户不需要对许多管理员任务重新进行身份验证。 当管理员用户登录到其当前会话时，身份验证由Adobe IMS处理。 请参阅[Adobe Identity Management Service (IMS)集成概述](/help/getting-started/adobe-ims-integration-overview.md)。
 
-您可以观看此[视频演示](https://video.tv.adobe.com/v/339104?quality=12&learn=on)，以了解管理员中双重身份验证的概述。
+您可以观看此[视频演示](https://video.tv.adobe.com/v/3507687?captions=chi_hans&quality=12&learn=on)，以了解管理员中双重身份验证的概述。
 
 ## 配置所需的2FA提供商
 
