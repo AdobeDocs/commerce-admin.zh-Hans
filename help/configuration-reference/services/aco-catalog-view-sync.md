@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] &gt； ACO目录视图同步'
 description: 查看Commerce管理员的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View Sync]页面上的配置设置。
 feature: Configuration, Security
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 使用这些设置可控制[!DNL Adobe Commerce Optimizer Connector for B2B]如何将B2B共享目录配置（目录视图、策略、价格手册和密钥）同步到[!DNL Adobe Commerce Optimizer]，以及如何解决两个系统之间的配置差异。 请参阅[目录视图同步状态监视](../../systems/catalog-view-sync-status.md)以监视这些设置的结果。
+
+>[!NOTE]
+>
+>本页适用于连接器。 配置有可组合目录数据模型(CCDM)的实例可本机同步数据，且不使用连接器。 查看[CCDM促销服务](/help/optimizer/overview.md)。
 
 {{config}}
 

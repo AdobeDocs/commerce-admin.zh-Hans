@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] &gt； ACO受限访问密钥'
 description: 查看Commerce管理员的[!UICONTROL Services] &gt； [!UICONTROL ACO Restricted Access Keys]页面上的配置设置。
 feature: Configuration, Security
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
+badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 使用此设置可控制[!DNL Adobe Commerce Optimizer Connector for B2B]应用于B2B共享目录视图设置的受限访问密钥的默认过期时间。 要创建、分配和删除这些密钥，请参阅[受限访问密钥管理](../../systems/restricted-access-keys.md)。
+
+>[!NOTE]
+>
+>本页适用于连接器。 配置有可组合目录数据模型(CCDM)的实例可本机同步数据，且不使用连接器。 查看[CCDM促销服务](/help/optimizer/overview.md)。
 
 {{config}}
 

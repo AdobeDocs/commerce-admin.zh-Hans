@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 搜索结果
 
 >[!NOTE]
 >
->此页面介绍与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)可能不同的标准搜索功能。
+>此页面介绍与[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)可能不同的标准搜索功能。
+>
+>对于使用可组合目录数据模型(CCDM)设置的实例，请参阅“促销服务”中的[搜索匹配和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
 _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”表单中输入的搜索条件匹配的所有产品。 目录中的每个产品列表基本上具有相同的控件。 唯一的区别是，一个是搜索查询的结果，另一个区别是[导航](navigation.md)的结果。
 
@@ -57,7 +59,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 >[!IMPORTANT]
 >
->由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用于扩展搜索结果的关键字映射
 
@@ -72,7 +74,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 ### 步骤1：创建属性
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中，以编辑模式打开`Montana Wind Jacket` (MJ03)。
+1. 在&#x200B;_[!UICONTROL Products]_列表中，以编辑模式打开`Montana Wind Jacket` (MJ03)。
 1. 单击右上角的&#x200B;**[!UICONTROL Add Attribute]**。
 1. 在&#x200B;_选择属性_&#x200B;页面上，单击&#x200B;**[!UICONTROL Create New Attribute]**。
 1. 按如下方式填写属性属性：
@@ -99,7 +101,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 ### 步骤2：映射第一个产品
 
-1. 在产品设置页面上，向下滚动并展开&#x200B;_[!UICONTROL Attributes]_&#x200B;部分。
+1. 在产品设置页面上，向下滚动并展开&#x200B;_[!UICONTROL Attributes]_部分。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;字段中，输入要映射到此产品的SKU `MH01`。
 
    您可以在Search Keywords字段中输入多个以空格分隔的SKU。 在此示例中，只输入一个。
@@ -107,15 +109,15 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
    具有搜索关键字的![Attributes部分](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save]**。
-1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;并刷新&#x200B;**[!UICONTROL Page Cache]**。
+1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**并刷新&#x200B;**[!UICONTROL Page Cache]**。
 
 ### 步骤3：映射第二个产品
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中，以编辑模式打开`Chaz Kangaroo Hoodie` (MH01)。
+1. 在&#x200B;_[!UICONTROL Products]_列表中，以编辑模式打开`Chaz Kangaroo Hoodie` (MH01)。
 1. 向下滚动并展开&#x200B;**[!UICONTROL Attributes]**&#x200B;部分。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;字段中，输入另一个产品`MJ03`的SKU。
 1. 单击&#x200B;**[!UICONTROL Save]**。
-1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;并刷新&#x200B;**[!UICONTROL Page Cache]**。
+1. 转到&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**并刷新&#x200B;**[!UICONTROL Page Cache]**。
 
 ### 步骤4：在店面中测试
 

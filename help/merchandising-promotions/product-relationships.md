@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 产品关系
 
 通过定义产品之间关系的性质，目录中的产品可以在其他页面上推广。 这些关系有助于根据买家对类似或相关产品的兴趣来定位买家。
+
+{{ccdm-merchandising-note}}
 
 ## 在产品设置中定义
 
@@ -64,4 +66,4 @@ ht-degree: 0%
 
 ## 由Adobe AI提供支持的产品推荐
 
-![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）[由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/zh-hans/docs/commerce/product-recommendations/overview)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
+![Adobe Commerce](../assets/adobe-logo.svg)（仅限Adobe Commerce）[由Adobe AI提供支持的“产品推荐”](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)通过使用人工智能和机器学习算法对汇总的访客数据进行深入分析，简化了定义产品关系的过程。 此数据与Adobe Commerce目录结合使用后，可为购物者提供引人入胜、相关且个性化的体验。
