@@ -38,7 +38,7 @@ ht-degree: 0%
 ---
 # 创建和删除产品属性
 
-您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_页面创建属性。 以下步骤显示如何从_[!UICONTROL Stores]_&#x200B;菜单创建属性。
+您可以在处理产品时或从&#x200B;_[!UICONTROL Product Attributes]_&#x200B;页面创建属性。 以下步骤显示如何从&#x200B;_[!UICONTROL Stores]_&#x200B;菜单创建属性。
 
 ## 步骤1：描述基本属性属性
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 对于[!UICONTROL Dropdown]和[!UICONTROL Multiple Select]输入类型，请执行以下操作：
 
-   - 在&#x200B;_[!UICONTROL Manage Options]_下，单击&#x200B;**[!UICONTROL Add Option]**。
+   - 在&#x200B;_[!UICONTROL Manage Options]_&#x200B;下，单击&#x200B;**[!UICONTROL Add Option]**。
 
    - 输入要显示在列表中的第一个值。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    ![产品属性 — 高级属性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
 
 1. 若要指示[存储层次结构](../getting-started/websites-stores-views.md)中可以使用属性的位置，请设置&#x200B;**[!UICONTROL Scope]**。
 
@@ -101,8 +101,8 @@ ht-degree: 0%
 
 1. 若要将此属性添加到[产品列表](products-list.md)，请将以下选项设置为`Yes`。
 
-   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_列表中包括属性作为列。
-   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_列表中的列标题添加筛选器控件。
+   - **添加到列选项** — 在&#x200B;_[!UICONTROL Products]_&#x200B;列表中包括属性作为列。
+   - **在筛选器选项中使用** — 向&#x200B;_[!UICONTROL Products]_&#x200B;列表中的列标题添加筛选器控件。
 
 ## 步骤3：输入字段标签
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用&#x200B;_Live Search指南_&#x200B;的Live Search分面列表](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的[编辑选项手动编辑标签。
+   > 如果您计划在Live Search中将此属性用作Facet，则必须指定特定于商店的标签。 如果没有该属性，属性名称可能无法在Facet配置页面上正确显示。 要更新配置，请使用&#x200B;_Live Search指南_&#x200B;的Live Search分面列表[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的编辑选项手动编辑标签。
 
 ## 步骤4：描述店面属性
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    ![产品属性 — 店面属性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_设置。
+   可用的选项取决于&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;设置。
 
 1. 如果属性可供搜索，请将&#x200B;**[!UICONTROL Use in Search]**&#x200B;设置为`Yes`。
 

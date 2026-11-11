@@ -81,7 +81,7 @@ Commerce基金会仍然是产品和价格的真实来源。 产品和价格数�
 配置B2B关系后：
 
 1. 确认[同步](data-sync.md)已完成。
-2. 在Unified Experience的[Commerce管理员中，查看生成的目录视图、[策略](policies.md)和[价格手册](pricebooks.md)。](../../getting-started/admin-unified-experience.md)
+2. 在Unified Experience的[&#128279;](../../getting-started/admin-unified-experience.md)Commerce管理员中，查看生成的目录视图、[策略](policies.md)和[价格手册](pricebooks.md)。
 3. 验证店面是否显示公司的预期产品分类和定价。
 4. 测试添加到购物车、购物车和结账功能，确认产品可用性和交易定价符合预期的B2B配置。
 
