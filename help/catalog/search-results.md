@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->此页面介绍与[实时搜索](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)可能不同的标准搜索功能。
+>此页面介绍与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)可能不同的标准搜索功能。
 >
 >对于使用可组合目录数据模型(CCDM)设置的实例，请参阅“促销服务”中的[搜索匹配和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
@@ -59,7 +59,7 @@ _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”�
 
 >[!IMPORTANT]
 >
->由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>由于Elasticsearch 7将于2023年8月宣布终止支持，建议所有Adobe Commerce客户迁移到OpenSearch 2.x搜索引擎。 有关在产品升级期间迁移搜索引擎的信息，请参阅&#x200B;_升级指南_&#x200B;中的[迁移到OpenSearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用于扩展搜索结果的关键字映射
 

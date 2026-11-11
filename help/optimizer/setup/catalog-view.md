@@ -3,7 +3,7 @@ title: 目录视图
 description: 了解目录视图是什么以及如何创建它们以按业务结构、策略和定价整理产品目录。
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -127,7 +127,7 @@ Commerce基金会仍然是产品和价格的真实来源。 产品和价格数�
 
 ## 相关内容
 
-- [Adobe Commerce as a Cloud Service快速入门](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started)
+- [Adobe Commerce as a Cloud Service快速入门](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/getting-started)
 - [Adobe Commerce B2B共享目录概述](../../b2b/catalog-shared.md)
-- [Adobe Commerce as a Cloud Service发行说明](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+- [Adobe Commerce as a Cloud Service发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce/cloud-service/release-notes)
 - [目录同步](data-sync.md)

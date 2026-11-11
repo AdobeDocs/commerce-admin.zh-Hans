@@ -2,7 +2,7 @@
 title: Merchanding Services概述
 description: 了解为Adobe Commerce as a Cloud Service实例配置了CCDM的目录配置、推销、报告和监控工具。
 recommendations: noCatalog
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Commerce Foundation仍然是产品和价格的真实来源，并继续管理购�
 
 - **机会** — 审查产品性能、购物者行为和搜索趋势，以确定促销改进领域。
 - **推荐** — 在Commerce管理中创建和管理推荐单位。 推荐使用目录数据和汇总购物者行为来建议相关产品，例如“查看了此产品的客户也查看了此产品”。
-- **促销规则** — 控制产品促销和排名方式。 规则可以应用于所有目录视图或针对特定视图进行定制。 请参阅[创建促销规则](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)。
+- **促销规则** — 控制产品促销和排名方式。 规则可以应用于所有目录视图或针对特定视图进行定制。 请参阅[创建促销规则](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)。
 - **彩块化** — 配置购物者用于按品牌、大小或价格等属性缩小产品结果的过滤器。
 - **同义词** — 关联等效的搜索词以帮助购物者查找使用相同概念的不同单词的产品。
 - **设置** — 配置搜索和促销选项，包括价格彩块化、语言和高级搜索。

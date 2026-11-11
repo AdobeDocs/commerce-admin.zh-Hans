@@ -56,8 +56,8 @@ ht-degree: 3%
 | [共享目录](../b2b/enable-basic-features.md) | 共享目录允许商家向不同的公司提供策划的产品分类和定制定价。 需要Adobe Commerce B2B许可和配置，包括公司帐户和共享目录功能。 |
 | [目录扩充](catalog-enrichment.md) | 查看并将AI建议的改进应用于产品名称和描述，以使您的目录在LLM和AI辅助的发现中准确显示。 |
 | [产品属性](product-attributes.md) | 使用产品选项的输入控件创建属性，并在产品页面上提供其他信息。 |
-| [目录视图](../optimizer/setup/catalog-view.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用带有可组合目录数据模型(CCDM)的促销服务的Commerce部署，请通过组合每个品牌、地区、业务部门或渠道的目录源、目录层、策略和价格手册，定义客户可以检索的产品和定价。 （可选）限制目录视图，使其成为私有视图。 |
-| [策略](../optimizer/setup/policies.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用CCDM的Commerce部署，请定义数据访问过滤器来控制每个目录视图提供的产品，以便将正确的内容发送到正确的目标。 |
+| [目录视图](../optimizer/setup/catalog-view.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用带有可组合目录数据模型(CCDM)的促销服务的Commerce部署，请通过组合每个品牌、地区、业务部门或渠道的目录源、目录层、策略和价格手册，定义客户可以检索的产品和定价。 （可选）限制目录视图，使其成为私有视图。 |
+| [策略](../optimizer/setup/policies.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用CCDM的Commerce部署，请定义数据访问过滤器来控制每个目录视图提供的产品，以便将正确的内容发送到正确的目标。 |
 
 {style="table-layout:auto"}
 

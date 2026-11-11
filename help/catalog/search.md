@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)提供了快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。 本节介绍可能与[!DNL Live Search]不同的标准搜索功能。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)提供了快速、超级相关且直观的搜索体验，可供Adobe Commerce免费使用。 本节介绍可能与[!DNL Live Search]不同的标准搜索功能。
 >
 >如果您的Adobe Commerce as a Cloud Service实例配置了可组合目录数据模型(CCDM)，则可以使用CCDM [&#128279;](/help/optimizer/overview.md)在促销服务中配置搜索设置、Facet、同义词和促销规则。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->安装[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)并启用[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover)构件时，搜索框会在弹出窗口中返回“键入时搜索”结果。
+>安装[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)并启用[[!DNL Storefront Popover]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-storefront/storefront-popover)构件时，搜索框会在弹出窗口中返回“键入时搜索”结果。
 
 商店标题中的搜索框可帮助访客在目录中查找产品。 搜索文本可以是完整或部分产品名称，也可以是描述产品的任何其他单词或短语。 管理员可管理用户用于查找产品的搜索词。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此处介绍的高级表单搜索功能不适用于[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)。
+>此处介绍的高级表单搜索功能不适用于[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)。
 
 通过高级搜索，购物者可以根据在表单中输入值搜索目录。 由于表单包含多个字段，因此单次搜索可以包含多个参数。 结果将列出目录中符合条件的所有产品。 高级搜索的链接位于商店的页脚中。
 

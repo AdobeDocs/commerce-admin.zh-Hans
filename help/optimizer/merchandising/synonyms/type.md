@@ -1,7 +1,7 @@
 ---
 title: 同义词类型
 description: 了解[!DNL Adobe Commerce Optimizer]中不同类型的同义词。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:38:15.772Z'
 TQID: 'https://experienceleague.adobe.com/Y6c89VNtJ-5OLrH7JQ9yiD5pkJbf3eA1NRXtXFLn0yE'
 product_v2:
