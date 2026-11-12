@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 搜索结果
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >此页面介绍与[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/overview)可能不同的标准搜索功能。
+>
+>对于使用可组合目录数据模型(CCDM)设置的实例，请参阅“促销服务”中的[搜索匹配和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
 _搜索结果_&#x200B;列表包括与“快速搜索”框或“高级搜索”表单中输入的搜索条件匹配的所有产品。 目录中的每个产品列表基本上具有相同的控件。 唯一的区别是，一个是搜索查询的结果，另一个区别是[导航](navigation.md)的结果。
 

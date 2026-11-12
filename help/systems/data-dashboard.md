@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # 数据管理功能板
@@ -51,6 +51,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您已安装[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/overview)以将目录数据导出到Adobe Commerce Optimizer，请在Commerce Optimizer Studio中使用[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)验证是否成功的数据同步，而不是使用数据管理功能板。
+>
+>对于配置了可组合目录数据模型(CCDM)的实例，请参阅Merchandising Services中的[目录同步](/help/optimizer/setup/data-sync.md)。
 
 ## 受众
 

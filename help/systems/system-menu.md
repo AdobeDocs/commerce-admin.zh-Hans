@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL System]菜单'
-description: Commerce管理员包括[!UICONTROL System]菜单，通过菜单可访问用于导入和导出数据、系统缓存和索引管理、管理员访问权限管理、备份、系统通知以及自定义变量的工具。
+description: '[!UICONTROL System]菜单提供对用于数据导入和导出、缓存和索引管理、权限、备份和通知的工具的访问。'
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL System]菜单
 
 [!UICONTROL System]菜单包括用于导入和导出数据、管理系统缓存和索引、管理权限、备份、系统通知和自定义变量的工具。
@@ -54,6 +52,8 @@ ht-degree: 0%
 ![系统菜单](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_显示[!UICONTROL System]菜单:_**
 

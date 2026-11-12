@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt； ACO目录视图'
-description: 在Adobe Commerce Optimizer管理员的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View]页面上查看和更新Commerce配置设置。
+description: 在Adobe Commerce Optimizer管理员的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View]页面上查看和更新Commerce设置。
 feature: Configuration, Security
 badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 使用这些设置控制[!DNL Adobe Commerce Optimizer Connector for B2B]颁发的访问令牌。 Storefront使用这些令牌对使用从管理员中配置的自定义共享目录同步的数据填充的Commerce Optimizer专用目录视图进行身份验证。
+
+>[!NOTE]
+>
+>本页适用于连接器。 配置有可组合目录数据模型(CCDM)的实例可本机同步数据，且不使用连接器。 查看[CCDM促销服务](/help/optimizer/overview.md)。
 
 {{config}}
 

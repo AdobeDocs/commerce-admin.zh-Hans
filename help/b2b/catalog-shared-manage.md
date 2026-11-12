@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # 管理共享目录
 
 通过&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;页面可访问管理共享目录所需的工具，包括产品选择、自定义定价、类别权限和目录详细信息。 该页面类似于标准管理员工作区，具有过滤器和操作控件。 网格会列出所有共享目录，包括默认的公共共享目录以及已设置的任何自定义目录。
 
-如果安装了[!DNL Adobe Commerce Optimizer Connector for B2B]扩展，该页还允许访问在连接器将数据从每个共享目录同步到[!DNL Adobe Commerce Optimizer]时创建的[!DNL Adobe Commerce Optimizer]目录视图，以及可保护B2B店面体验的目录视图的受限制访问密钥。
+如果安装了[!DNL Adobe Commerce Optimizer Connector for B2B]扩展，该页还允许访问在连接器将数据从每个共享目录同步到[!DNL Adobe Commerce Optimizer]时创建的[!DNL Adobe Commerce Optimizer]目录视图，以及可保护B2B店面体验的目录视图的受限制访问密钥。 对于使用可组合目录数据模型(CCDM)设置的实例，本机同步会从共享目录生成目录视图。 查看[B2B目录视图](/help/optimizer/setup/catalog-view.md#b2b-catalog-views)。
 
 ## 更新产品选择
 

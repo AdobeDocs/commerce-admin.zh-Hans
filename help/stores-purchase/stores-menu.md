@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Stores]菜单'
-description: Commerce管理员包括[!UICONTROL Stores]菜单，通过菜单可访问用于设置商店层次结构、配置、库存、税和属性的工具。
+description: '[!UICONTROL Stores]菜单提供对用于设置商店层次结构、配置、库存、税和属性的工具的访问权限。'
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # [!UICONTROL Stores]菜单
@@ -85,6 +85,8 @@ ht-degree: 0%
 
 安装[!DNL Adobe Commerce Optimizer Connector]后，您可以同步网站并将视图数据存储到[!DNL Adobe Commerce Optimizer]。 网站范围控制[价格同步](stores.md#step-1-create-a-website)（价格和价格手册）。 商店视图范围控制[产品同步](store-views.md#add-a-store-view) （产品和产品属性）。
 
-有关[!UICONTROL All Stores]网格上显示的同步状态指示器，请参阅[Adobe Commerce Optimizer同步状态](store-views.md#optimizer-sync-status)。 有关连接器设置和配置行为，请参阅&#x200B;*Commerce连接器指南*&#x200B;中的[自定义Adobe Commerce Optimizer范围导出配置](https://experienceleague.adobe.com/zh-hans/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
+有关[!UICONTROL All Stores]网格上显示的同步状态指示器，请参阅[Adobe Commerce Optimizer同步状态](store-views.md#optimizer-sync-status)。 有关连接器设置和配置行为，请参阅&#x200B;*Commerce连接器指南*&#x200B;中的[自定义Adobe Commerce Optimizer范围导出配置](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
 
 如果已安装[!DNL Adobe Commerce Optimizer Connector for B2B]，则还会同步可用B2B共享目录的数据。 请参阅[管理目录视图](../b2b/catalog-views-manage.md)。
+
+配置有可组合目录数据模型(CCDM)的实例以本机方式同步网站、商店视图和价格数据，并且不使用连接器。 查看[CCDM促销服务](/help/optimizer/overview.md)。

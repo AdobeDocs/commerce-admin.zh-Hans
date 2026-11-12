@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # 管理搜索词
+
+{{ccdm-merchandising-note}}
 
 搜索词的[登陆页面](../content-design/pages.md)可以是内容页面、类别页面、产品详细信息页面，甚至可以是其他网站上的页面。
 

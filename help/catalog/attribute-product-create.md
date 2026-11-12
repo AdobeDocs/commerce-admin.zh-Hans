@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ ht-degree: 0%
 任何用作[可配置产品](product-create-configurable.md)的选项下拉列表的属性都必须具有以下属性：
 
 | 属性 | 值 |
-|----------|------ |
+| ---------- | ------ |
 | 商店所有者的目录输入类型 | 下拉列表 |
 | 范围 | 全局 |
 

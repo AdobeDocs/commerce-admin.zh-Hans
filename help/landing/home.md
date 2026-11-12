@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目上的Adobe Commerce （Adobe管理的PaaS基础结构）和内部部署项目。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>此功能集旨在满足销售商（商家）的需求，这些商家的客户主要是公司 — 可能具有复杂的组织结构以及拥有各种角色和购买权限级别的多个员工。</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>通过[!DNL Inventory Management]功能，只有一家商店的商家可以前往多个仓库、商店、取货地点、托运人等。 使用这些功能可以维护销售数量并处理发运以完成订单。</em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="促销服务" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>具有可组合目录数据模型(CCDM)的促销服务</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础结构）。"}
+    <div><em>在Commerce管理中配置目录视图和策略、管理促销规则和推荐、审查店面性能以及监视目录同步。</em></div>
   </td>
 </tr>
 <tr>

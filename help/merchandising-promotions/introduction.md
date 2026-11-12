@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 1%
-
 ---
-
 # Commerce促销和促销简介
 
 定位促销活动，创造客户参与的机会，并将购物者转化为购买者。 通过支持购买后活动并向回头客户提供特别折扣来管理客户关系。 了解支持您的SEO计划的最佳实践和技术。
+
+{{ccdm-merchandising-note}}
 
 ## 促销
 

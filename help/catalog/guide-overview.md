@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 5%
-
+source-wordcount: '498'
+ht-degree: 3%
 ---
-
 # Adobe Commerce目录管理指南
 
 本指南面向使用Adobe Commerce和Magento Open Source Admin的产品推销员和库存管理员。 它提供有关产品目录功能的详细信息，包括为目录构建导航结构。 它假定您对核心[!DNL Commerce]配置和功能有基本的了解。
@@ -55,8 +53,11 @@ ht-degree: 5%
 | [目录搜索](search.md) | 查看客户可用于在店面中查找产品的工具，并根据您的产品目录配置搜索体验。 |
 | [类别](categories.md) | 以优化店面购物体验的方式建立目录的基本类别结构。 |
 | [产品](products-list.md) | 创建从简单到复杂的产品，其中具有多个选项、色板和可自定义的捆绑包。 为服务和其他无形项目创建可下载的产品和虚拟产品。 |
+| [共享目录](../b2b/enable-basic-features.md) | 共享目录允许商家向不同的公司提供策划的产品分类和定制定价。 需要Adobe Commerce B2B许可和配置，包括公司帐户和共享目录功能。 |
 | [目录扩充](catalog-enrichment.md) | 查看并将AI建议的改进应用于产品名称和描述，以使您的目录在LLM和AI辅助的发现中准确显示。 |
 | [产品属性](product-attributes.md) | 使用产品选项的输入控件创建属性，并在产品页面上提供其他信息。 |
+| [目录视图](../optimizer/setup/catalog-view.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用带有可组合目录数据模型(CCDM)的促销服务的Commerce部署，请通过组合每个品牌、地区、业务部门或渠道的目录源、目录层、策略和价格手册，定义客户可以检索的产品和定价。 （可选）限制目录视图，使其成为私有视图。 |
+| [策略](../optimizer/setup/policies.md) [!BADGE 仅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer项目（Adobe管理的SaaS基础架构）。"} | 对于使用CCDM的Commerce部署，请定义数据访问过滤器来控制每个目录视图提供的产品，以便将正确的内容发送到正确的目标。 |
 
 {style="table-layout:auto"}
 

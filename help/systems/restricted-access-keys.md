@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >对于在非B2B方案（如合作伙伴门户）中用于管理专用目录的手动创建的密钥，请从[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理密钥。
+>
+>对于使用可组合目录数据模型(CCDM)设置的实例，请参阅Merchandising Services中的[受限访问密钥](/help/optimizer/setup/restricted-access-keys.md)。
 
 ## 受众和可用性 {#audience}
 

@@ -1,9 +1,9 @@
 ---
 title: 代码片段
 description: 重用注释和可视化元素来注释应用于特定版本的功能或页面
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # 代码片段
@@ -85,6 +85,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B版本1.4.2+与PHP 8.2兼容。 如果将Commerce实例升级到版本2.4.7+，请确保该实例使用PHP版本8.2来保持与Adobe Commerce B2B版本的兼容性。 此外，B2B 1.4.2+版本不支持[GraphQL Application Server](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+
+## CCDM促销服务说明 {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>如果您的Adobe Commerce as a Cloud Service实例配置了可组合目录数据模型(CCDM)，则可以在促销服务中管理目录视图、策略、销售和报表。 查看[CCDM促销服务](/help/optimizer/overview.md)。
 
 ## reCAPTCHA表单列表 {#recaptcha-forms-list}
 

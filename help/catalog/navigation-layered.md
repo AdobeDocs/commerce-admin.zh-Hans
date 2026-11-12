@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 分层导航
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >本节中介绍的标准分层导航与具有[方面的Live Search筛选导航](https://experienceleague.adobe.com/zh-hans/docs/commerce/live-search/live-search-admin/facets/facets)不同。
+>
+>对于使用可组合目录数据模型(CCDM)设置的实例，请参阅Merchandising Services中的[Facet](/help/optimizer/merchandising/facets/overview.md)。
 
 通过分层导航，可以轻松地根据类别、价格范围或任何其他可用属性查找产品。 分层导航通常显示在搜索结果和类别页面的左列，有时显示在主页上。 标准导航包含&#x200B;_Shop By_&#x200B;类别和价格范围列表。 您可以配置分层导航的显示，包括产品数量和价格范围。
 

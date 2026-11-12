@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # 管理目录视图配置
+
+>[!NOTE]
+>
+>本主题介绍使用Adobe Commerce Optimizer Connector for B2B为Commerce部署实施的目录视图。 如果您将Adobe Commerce as a Cloud Service与促销服务以及可组合的目录数据模型(CCDM)一起使用，请参阅“使用CCDM的促销服务”指南&#x200B;_中的“设置[目录视图](../optimizer/setup/catalog-view.md)”_。
 
 安装[!DNL Adobe Commerce Optimizer Connector for B2B]扩展后，“目录视图”页面会列出为自定义共享目录创建的[!DNL Adobe Commerce Optimizer] [目录视图投影](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"}。  _投影_&#x200B;是连接器将共享目录数据同步到[!DNL Adobe Commerce Optimizer]时创建的目录视图。 连接器为共享目录中的每个存储视图创建单独的投影，因此共享目录可以有多个目录视图。 在店面体验中，这些目录视图仅可供分配给相关共享目录的公司访问。
 

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要跟踪目录数据馈送的同步状态，请使用[[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md)页面。
+>
+>本页适用于连接器创建的目录视图。 对于配置了可组合目录数据模型(CCDM)的实例，请参阅Merchandising Services中的[目录同步](/help/optimizer/setup/data-sync.md)。
 
 ## 受众和可用性 {#audience}
 

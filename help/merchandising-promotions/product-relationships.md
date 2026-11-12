@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 产品关系
 
 通过定义产品之间关系的性质，目录中的产品可以在其他页面上推广。 这些关系有助于根据买家对类似或相关产品的兴趣来定位买家。
+
+{{ccdm-merchandising-note}}
 
 ## 在产品设置中定义
 

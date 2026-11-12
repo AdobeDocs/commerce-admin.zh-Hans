@@ -1,6 +1,6 @@
 ---
 title: 在Commerce中监控数据馈送同步状态
-description: 跟踪导出。 诊断[!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]和[!DNL Adobe Commerce Optimizer Connector]的同步问题。
+description: 跟踪[!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]和[!DNL Adobe Commerce Optimizer Connector]的导出和同步问题。
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -179,9 +179,10 @@ ht-degree: 0%
 
 ### 确认连接的服务中的数据 {#confirm-data-in-connected-services}
 
-要在导出完成后验证端到端同步，请使用以下方法之一。 有关此页上的导出状态限制，请参阅上面的[注释](#export-status-scope)。
+要在导出完成后验证端到端同步，请使用以下方法之一。 有关此页上的导出状态限制，请参阅上面的[注释](#access-data-feed-sync-status-page)。
 
 - 具有Commerce服务的&#x200B;**[!DNL Adobe Commerce as a Cloud Service]：**&#x200B;请检查适用的[数据管理仪表板](data-dashboard.md)以确认下游可用性。
+- **[!DNL Adobe Commerce as a Cloud Service]配置了CCDM：**&#x200B;产品和价格数据以本机方式同步。 在促销服务中使用[目录同步](/help/optimizer/setup/data-sync.md)以确认数据可用性。
 - **使用Adobe Commerce Optimizer Connector的云或本地Adobe Commerce**：首先检查Commerce管理员导出状态，然后在[!DNL Commerce Optimizer Studio]中检查[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)
 - **[!DNL Adobe Commerce Optimizer]（独立）：**&#x200B;数据未从Commerce后端导出。 使用[!DNL Commerce Optimizer Studio]中的[数据同步页面](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/setup/data-sync)确认数据可用性。
 
