@@ -1,7 +1,7 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # 受限访问密钥
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB “Adobe Commerce管理员”]
+>[!TAB Adobe Commerce管理员]
 
 使用带有CCDM的Adobe Commerce as a Cloud Service或通过连接器连接到Adobe Commerce的Adobe Commerce Optimizer的客户可以从Commerce管理员生成RSA密钥对。 请参阅[管理受限访问密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)。
 
->[!TAB “Adobe Commerce Optimizer Studio（手动密钥管理）”]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 使用Adobe Commerce Optimizer Studio的客户必须生成和管理自己的RSA密钥对，然后将公钥添加到系统中。 这是具有第三方后端的Adobe Commerce Optimizer所需的工作流。 使用连接器的客户也可以使用此工作流而不是Commerce管理员。
 
@@ -132,11 +132,11 @@ openssl rsa -in private-key.pem -pubout -out public-key.pem
 
 >[!BEGINTABS]
 
->[!TAB “Adobe Commerce管理员”]
+>[!TAB Adobe Commerce管理员]
 
 请参阅[键选择和轮换](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation)。 这适用于带有CCDM的Adobe Commerce as a Cloud Service以及通过Adobe Commerce Optimizer连接器与Adobe Commerce Optimizer集成的Adobe Commerce项目。
 
->[!TAB “Adobe Commerce Optimizer Studio（手动密钥管理）”]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 对于具有第三方后端的Adobe Commerce Optimizer，此过程是必需的。 使用该连接器的客户也可以使用该连接器，而不是Commerce管理员。
 
