@@ -1,7 +1,7 @@
 ---
 title: 搜索性能
 description: “搜索性能”页面可让insight了解购物者使用的搜索词。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:16:39.256Z'
 TQID: 'https://experienceleague.adobe.com/qFCpLYVsDln6yO5zUB4LoumG0JuI1njkxt-cAYrTvxI'
 product_v2:

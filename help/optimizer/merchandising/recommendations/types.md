@@ -1,7 +1,7 @@
 ---
 title: 推荐类型
 description: 了解您可以部署到网站上各个页面的建议。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:21:36.761Z'
 TQID: 'https://experienceleague.adobe.com/i2T0qGlx6PVM-V6US9FjMGazmfz-x-zaW3ReN1ANE3E'
 product_v2:

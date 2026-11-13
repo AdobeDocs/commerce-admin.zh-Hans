@@ -2,7 +2,7 @@
 title: Facet最佳实践
 description: 了解在商店中实施Facet的最佳实践。
 role: Admin, Developer
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:18:56.877Z'
 TQID: 'https://experienceleague.adobe.com/ieVuCgWFcHX0Kly5pqKAQR5Nn2T1XhwiOuq6tmGUbJI'
 product_v2:

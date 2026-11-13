@@ -1,7 +1,7 @@
 ---
 title: 机会
 description: 通过与Adobe Sites Optimizer集成以实现智能的数据驱动型网站改进，发现增加流量、参与度和转化率的机会。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:11:55.167Z'
 TQID: 'https://experienceleague.adobe.com/suVqMbKCBqrvBTt-WDcxmjkgB9bWmXMQzpp0Ek-1TS8'
 product_v2:

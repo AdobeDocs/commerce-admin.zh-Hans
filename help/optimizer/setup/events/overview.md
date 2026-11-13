@@ -3,7 +3,7 @@ title: 事件概述
 description: 了解[!DNL Adobe Commerce Optimizer]用于改进搜索和推荐的事件。
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:38:31.330Z'
 TQID: 'https://experienceleague.adobe.com/2549A2tz6zEy7541P1TOxbAnWCehwhIjNbnblC1PRdY'
 product_v2:

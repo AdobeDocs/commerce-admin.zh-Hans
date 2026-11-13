@@ -1,7 +1,7 @@
 ---
 title: 创建和管理Facet
 description: 了解如何在[!DNL Adobe Commerce Optimizer]中添加和管理方面。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:18:42.471Z'
 TQID: 'https://experienceleague.adobe.com/AXIGruJgD-JFBGr4jDUscJ2vSBOBcu-TaskyIECQ-b8'
 product_v2:
