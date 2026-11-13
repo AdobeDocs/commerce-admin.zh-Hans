@@ -3,7 +3,7 @@ title: 搜索匹配和排名
 description: 了解[!DNL Adobe Commerce Optimizer]如何对完全匹配、接近匹配、相同字段匹配和跨字段匹配进行排名，以及排名如何使用权重和促销规则。
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 hide: true
 autotag-review: '2026-11-02T19:17:14.019Z'
 TQID: 'https://experienceleague.adobe.com/9pCrz4vA-A9qR8NpuhylRBFmBc1-wIgi3yG1w-dybTg'
@@ -32,7 +32,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

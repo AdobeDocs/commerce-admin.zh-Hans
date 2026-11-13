@@ -2,7 +2,7 @@
 title: 管理目录视图配置
 description: 了解如何查看为B2B共享目录创建的Adobe Commerce Optimizer目录视图，并分配保护它们的受限访问密钥。
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 要配置令牌生命周期或禁用令牌颁发，请参阅[服务> ACO目录视图](/help/configuration-reference/services/aco-catalog-view.md)。
 
-您可以查看这些目录视图，并从共享目录的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;选项卡或关联公司的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;部分管理其分配的密钥，这两个部分均列出相同的目录视图和当前密钥分配。 请参阅[编辑受限访问密钥](#edit-restricted-access-keys)，以了解每个位置的确切导航路径。
+您可以查看这些目录视图，并从共享目录的&#x200B;_[!UICONTROL Catalog Views]_选项卡或关联公司的_[!UICONTROL Catalog Views]_&#x200B;部分管理其分配的密钥，这两个部分均列出相同的目录视图和当前密钥分配。 请参阅[编辑受限访问密钥](#edit-restricted-access-keys)，以了解每个位置的确切导航路径。
 
 要监视到[!DNL Adobe Commerce Optimizer]的共享目录数据同步，请参阅[目录视图同步状态监视](/help/systems/catalog-view-sync-status.md)。
 
