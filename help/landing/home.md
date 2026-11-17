@@ -53,7 +53,7 @@ workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
 ---
-# <!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
 
 欢迎来到世界领先的下一代数字商务平台。 Adobe Commerce为在线商户提供了无与伦比的灵活性，让他们可以控制在线商店的外观、内容和功能。 管理员具有强大的营销、搜索引擎优化和产品管理工具，使您能够创建针对独特业务需求定制的站点。
 
@@ -110,7 +110,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
     <img alt="促销服务" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
   </td>
   <td valign="top">
-    <a href="../optimizer/overview.md"><strong>具有可组合目录数据模型(CCDM)的促销服务</strong></a> [！BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础结构）。"}
+    <a href="../optimizer/overview.md"><strong>具有可组合目录数据模型(CCDM)的促销服务</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础结构）。"}
     <div><em>在Commerce管理中配置目录视图和策略、管理促销规则和推荐、审查店面性能以及监视目录同步。</em></div>
   </td>
 </tr>
@@ -131,7 +131,7 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
 <tr>
     <td valign="top">
        <img alt="页面生成器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [！BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础结构）和本地项目上的Adobe Commerce。"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础结构）和本地项目上的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]使您可以轻松创建具有自定义版面的内容丰富的页面。 这些功能旨在提高质量，并减少生成自定义页面的时间和费用。</em></div>
   </td>
 </tr>
