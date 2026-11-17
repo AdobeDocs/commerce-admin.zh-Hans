@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 新增功能模板
@@ -12,6 +12,7 @@ ht-degree: 0%
 
 | 描述 | 类型 | 日期/来源 |
 | --- | --- | --- |
+| 添加了有关Adobe Commerce as a Cloud Service的可组合目录数据模型(CCDM)的促销服务的文档：<br/> — 添加了[促销服务概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/merchandising-with-ccdm/overview)和[按角色列出的促销服务任务](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm)参考。<br/> — 添加了[目录视图](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view)和[价格手册](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks)主题。<br/> — 添加了将CCDM用户定向到促销服务的搜索、推荐、目录同步和连接器主题的注释。 | 重大更新，新主题 | [2026年11月11日](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | 更新了[目录扩充](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/products/catalog-enrichment)以包含发行说明、新的菜单导航和安装步骤。 | 发行说明 | [2026年11月2日](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | 添加了[存储信用角色资源](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)，以控制哪些管理员用户可以管理存储信用。 | 重大更新 | [2026年10月29日](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | 更新了Unified Shell界面的管理员用户指南： <br/> — 修订了导航说明并刷新了指南中的屏幕截图，包括[Admin侧栏](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/admin/tools/admin-menu)引用及其仅限SaaS的应用程序管理条目。<br/> — 阐明了Adobe Commerce as a Cloud Service的[内容和设计功能](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/guide-overview)，包括产品图像水印和事务性电子邮件。 | 重大更新 | [2026年10月27日](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
