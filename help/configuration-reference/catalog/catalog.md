@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 商店视图 | 启用产品审查。 选项： `Yes` / `No` |
+| [!UICONTROL Enabled] | 商店视图 | 启用产品审查。 选项： `Yes` / `No`<br/>在云基础架构和Adobe Commerce内部部署的Adobe Commerce中，默认值为`Yes`，在Adobe Commerce as a Cloud Service中，默认值为`No`。 |
 | [!UICONTROL Allow Guests to Write Reviews] | 网站 | 确定客户是否必须在您的商店中开立帐户才能编写产品评论。 |
 
 {style="table-layout:auto"}
@@ -127,8 +125,8 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | 全局 | 选择发送产品警报的频率。 选项： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Start Time] | 全局 | 选择产品警报流程在一天中的哪个时间开始。 此时间应在执行任何价格或库存更新之后。 |
 | [!UICONTROL Error Email Recipient] | 全局 | 确定在产品警报过程中发生错误时应接收电子邮件通知的人员（通常是商店管理员）的电子邮件地址。 |
-| [!UICONTROL Error Email Sender] | 全局 | 选择电子邮件为`from`的角色。 |
-| [!UICONTROL Error Email Template] | 全局 | 选择用于产品警报错误通知的电子邮件模板。 |
+| [!UICONTROL Error Email Sender] | 全局 | Select电子邮件为`from`的角色。 |
+| [!UICONTROL Error Email Template] | 全局 | Select用于产品警报错误通知的电子邮件模板。 |
 
 {style="table-layout:auto"}
 

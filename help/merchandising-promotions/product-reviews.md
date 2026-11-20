@@ -3,7 +3,6 @@ title: 产品评价
 description: 了解产品审查如何增强您的商店并为您的产品带来更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="仅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # 产品评价
@@ -52,6 +51,12 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 >如果已启用并配置捆绑的扩展，则必须在升级2.4.4的过程中更新您的composer.json文件，并且以后要管理扩展更新。 有关详细信息，请参阅&#x200B;_升级指南_&#x200B;中的[升级模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 店面的产品评论
+
+仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
+
+>[!NOTE]
+>
+>本节介绍有关云基础架构和Adobe Commerce内部部署的Adobe Commerce中的Luma店面的产品审查。 Adobe Commerce as a Cloud Service不包含Luma店面，因此在“管理员”中启用产品审核功能不会向您的店面添加审核功能。 您需要使用[`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL查询来检索审核，使用[`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review)突变来创建审核。
 
 启用本机产品审阅功能后，客户可以为目录中的任何产品编写审阅。 可通过单击以下链接从产品页面中编写审阅：
 
@@ -83,11 +88,11 @@ Commerce包括可从管理员管理的本机产品审阅功能。 您还可以�
 
 ## 启用产品审核功能
 
-Commerce产品审阅功能默认处于启用状态。
+默认情况下，云基础架构上的Commerce和内部部署的Adobe Commerce中启用了Adobe Commerce产品审查功能。 Adobe Commerce as a Cloud Service中默认禁用此功能。
 
 >[!NOTE]
 >
->若要将这些字段设置为`No`并禁用Commerce产品审核，您必须清除&#x200B;**使用系统值**&#x200B;复选框。
+>若要更改这些字段的默认值，您必须先清除&#x200B;**[!UICONTROL Use system value]**&#x200B;复选框。
 
 1. 在&#x200B;_管理员_&#x200B;侧边栏上，转到&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -99,11 +104,11 @@ Commerce产品审阅功能默认处于启用状态。
 
 1. 将&#x200B;**[!UICONTROL Enabled]**&#x200B;设置为`Yes`。
 
-   这是启用产品审阅的默认设置。
+   此设置将启用产品审核。
 
 1. 将&#x200B;**[!UICONTROL Allow Guests to Write Reviews]**&#x200B;设置为`Yes`。
 
-   这是默认设置，可确定客户是否必须在您的商店中开立帐户才能编写产品评论。
+   此设置确定客户是否必须在您的商店中开立帐户才能撰写产品评论。
 
 1. 完成后，单击&#x200B;**[!UICONTROL Save Config]**。
 

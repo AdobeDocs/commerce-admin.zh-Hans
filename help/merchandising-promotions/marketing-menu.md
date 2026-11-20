@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # [!UICONTROL Marketing]菜单
@@ -84,7 +84,5 @@ ht-degree: 0%
 分析[搜索词](../catalog/search-terms.md)和[同义词](../catalog/search-terms.md#search-synonyms)以帮助客户查找商店中的产品、管理[元数据](meta-data.md)以及创建[网站地图](sitemap-xml.md)。 使用[重定向](url-rewrite.md)管理URL更改并避免链接损坏。
 
 ### [!UICONTROL User Content]
-
-仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 合并用户生成的[产品评论](product-reviews.md)，以营造一种社区意识并提高销售额。
