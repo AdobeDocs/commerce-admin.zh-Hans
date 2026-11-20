@@ -315,7 +315,7 @@ Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL OpenSearch HTTP Password] | 全局 | 当&#x200B;_启用Elasticsearch HTTP身份验证_&#x200B;设置为`Yes`时，指定OpenSearch或Elasticsearch HTTP身份验证的密码。 |
 | [!UICONTROL OpenSearch Server Timeout] | 全局 | 确定对OpenSearch或Elasticsearch服务器的请求超时之前的秒数。 默认值： `15` |
 | [!UICONTROL Test Connection] |  | 验证OpenSearch或Elasticsearch连接。 |
-| [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
+| [!UICONTROL Enable Search Recommendations] | 商店视图 | 确定当搜索未返回任何结果且显示在搜索结果页面的`Related search terms`部分下时，是否提供搜索推荐。 选项： `Yes` / `No` <br/>当设置为“是”时，将显示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;和_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他选项。 |
 | [!UICONTROL Search Recommendations Count] | 商店视图 | 指定作为推荐提供的搜索词的数量。 默认情况下，显示的数量不超过5个。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 商店视图 | 当设置为`Yes`时，为建议的搜索推荐找到的产品数显示在括号中。 选项： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 商店视图 | 确定是否显示搜索建议以查找常见的拼写错误。 启用后，将针对未返回任何结果且显示在&#x200B;**搜索结果**&#x200B;页面的`Did you mean`部分下的任何请求提供搜索建议。 搜索建议可能会影响搜索的性能。 当设置为`Yes`时，为“启用搜索推荐”和相关字段显示其他选项。 选项： `Yes` / `No` |
@@ -338,7 +338,7 @@ Adobe Commerce支持OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL Default Link Title] | 商店视图 | 所有可下载标题的默认链接。 |
 | [!UICONTROL Opens Links in New Window] | 网站 | 确定下载链接是否会在新的浏览器窗口中打开。 选项： `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 商店视图 | 确定指向可下载内容的链接在浏览器窗口中如何作为电子邮件附件或内联链接投放。 选项： <br/>**`Attachment`**— 下载链接作为电子邮件附件传送。<br/>**`Inline`** — 下载链接作为网页上的内联链接提供。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 网站 | 确定购买可下载产品的来宾是否必须注册帐户并登录才能完成结帐过程。 选项： <br/>**`Yes`**— 如果购物车包含可下载的产品，则访客必须注册帐户或登录到现有帐户才能完成购买。<br/>**`No`** — 下载链接作为电子邮件正文中的内联链接投放。 <br/> _**注意：**_&#x200B;仅当“可共享”设置为`Yes`时，才能对下载的产品进行访客签出。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 网站 | 确定购买可下载产品的来宾是否必须注册帐户并登录才能完成结帐过程。 选项： <br/>**`Yes`**— 如果购物车包含可下载的产品，则访客必须注册帐户或登录到现有帐户才能完成购买。<br/>**`No`** — 下载链接作为电子邮件正文中的内联链接投放。 <br/> _&#x200B;**注意：**&#x200B;_&#x200B;仅当“可共享”设置为`Yes`时，才能对下载的产品进行访客签出。 |
 
 {style="table-layout:auto"}
 
