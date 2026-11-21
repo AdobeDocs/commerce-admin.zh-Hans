@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 推荐性能
 
 “推荐性能”页显示已配置推荐的列表，以及帮助您评估其效果的关键量度。 您可以配置视图以显示过去一天、一周或月的量度。 这些见解显示查看或单击每个推荐单元的频率，可帮助您评估性能并识别优化机会。
@@ -102,5 +112,5 @@ ht-degree: 0%
 **示例：在所有视图选择下具有包含过滤器的推荐**
 
 - **所有视图**&#x200B;推荐包括SKU：SKU_ABC、SKU_CDE、SKU_XYZ。
-- **目录视图： Kingsbluff**&#x200B;无法销售SKU_ABC或SKU_CDE。 **显示：**&#x200B;仅SKU_XYZ，前提是它满足所有其他启用的筛选器。
-- **目录视图： Arkbridge**&#x200B;无法销售任何包含的SKU。 **显示：**&#x200B;无推荐单元，因为没有SKU同时满足包含过滤器和目录视图的可用性。
+- **目录视图： Kingsbluff**&#x200B;无法销售SKU_ABC或SKU_CDE。 **显示的：** SKU_XYZ以及对Kingsbluff有效的任何其他SKU。
+- **目录视图： Arkbridge**&#x200B;无法销售任何包含的SKU。 **显示：**&#x200B;仅Arkbridge允许的SKU。 如果没有可用的推荐单元，则该店面不会显示推荐单元。

@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/settings.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 促销设置
 
 使用&#x200B;*设置*&#x200B;工作区为店面配置搜索和产品发现。 可以使用以下选项卡：
@@ -118,7 +128,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Semantic boost]** — 要在排名中优先考虑语义相关的结果，请应用提升。 当语义匹配在结果集中权重较大时提高值；当结果感觉过于宽泛时降低值。
 - **[!UICONTROL Similarity threshold]** — 设置语义匹配的最低相似度分数（百分比）。 较低的值会返回更多结果（更高的召回率），但可能包括较弱的匹配。 值越大，返回的匹配就越少，就越匹配（精度越高）。
-- **[!UICONTROL Fuzzy search]** — 若要查找搜索查询的近匹配项并更正拼写错误和次要变体，请打开&#x200B;**&#x200B;**。
+- **[!UICONTROL Fuzzy search]** — 若要查找搜索查询的近匹配项并更正拼写错误和次要变体，请打开&#x200B;****。
 - **[!UICONTROL Fuzzy search similarity threshold]** — 设置显示模糊匹配所需的最小相似度（百分比）。 较低的阈值会返回比较接近的匹配项；如果模糊结果过于宽泛，则提高阈值。
 
 >[!NOTE]
