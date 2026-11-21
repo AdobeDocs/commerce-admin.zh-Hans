@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hans/blob/main/help/_includes/ccdm-shared/merchandising/recommendations/create.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 创建和管理推荐
 
 在创建推荐时，您创建了一个包含推荐产品&#x200B;_项_&#x200B;的&#x200B;_推荐单元_，或构件。
@@ -25,7 +35,7 @@ _推荐单元_
 
 1. 在&#x200B;**店面引用**&#x200B;部分中，输入引用键以标识店面配置中的此推荐单元。 创建推荐后，您可以从&#x200B;**推荐单元详细信息**&#x200B;中[复制其值](#get-the-storefront-reference-key)，并将其用作推荐块中的`referenceKey`。 参考键用于店面配置；店面显示标签是购物者看到的文本。
 
-1. 在&#x200B;_选择推荐类型_&#x200B;部分中，根据您的策略指定所需的[推荐类型](types.md)。
+1. 在&#x200B;_Select推荐类型_&#x200B;部分中，根据您的策略指定所需的[推荐类型](types.md)。
 
 1. 在&#x200B;_店面显示标签_&#x200B;部分中，输入购物者可见的[标签](best-practice.md#recommendation-labels)，例如“最畅销商品”。
 

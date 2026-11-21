@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hans/blob/main/help/_includes/ccdm-shared/merchandising/facets/best-practice.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Facet最佳实践
 
 过滤器和彩块化功能是Commerce体验的重要组成部分，旨在通过允许购物者缩小搜索结果范围并更有效地查找产品来增强购物者体验。 此功能通过应用特定标准来帮助购物者对数量庞大的商品目录进行排序，从而使购物过程更快、更容易、更令人满意。 通过实施有效、对购物者友好的过滤器和彩块化，您可以帮助客户快速高效地找到他们所需的内容，最终提高满意度和转化率。

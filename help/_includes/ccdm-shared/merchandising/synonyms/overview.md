@@ -1,9 +1,19 @@
 ---
-source-git-commit: f8c71cde74b1024bf32dc2b26d4aea94d60d3db9
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hans/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 同义词
 
 同义词扩展搜索查询以包含购物者可能使用的与您的目录中的词不同的词。 您不希望因为某人正在寻找“沙发”而失去销售，而您的产品却被列为“沙发”。 通过输入客户可能用于查找您的产品的所有字词来捕获广泛的搜索词。
