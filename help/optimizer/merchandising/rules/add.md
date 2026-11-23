@@ -1,7 +1,7 @@
 ---
 title: 创建和管理规则
 description: 了解如何为搜索、默认产品列表和类别页面创建和管理促销规则。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:36:19.490Z'
 TQID: 'https://experienceleague.adobe.com/n7WvI0yju-qRiFtTxaCxr5xp3xzNUn-ywytltWiTveM'
 product_v2:
