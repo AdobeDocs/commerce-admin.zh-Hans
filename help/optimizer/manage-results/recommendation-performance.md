@@ -1,7 +1,7 @@
 ---
 title: 推荐性能
 description: 推荐性能页面可向insight提供产品推荐的性能信息。
-badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
+badgeSaas: label="仅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="仅适用于使用CCDM设置的Adobe Commerce as a Cloud Service实例（Adobe管理的SaaS基础架构）。"
 autotag-review: '2026-11-02T19:12:08.536Z'
 TQID: 'https://experienceleague.adobe.com/kz7MdvZBW-55Wg9EtKduG33jvzgEl93zWfs30hFe1YY'
 product_v2:
@@ -25,8 +25,8 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-last-update: 2026-11-11
-source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
+last-update: 2026-11-20
+source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
