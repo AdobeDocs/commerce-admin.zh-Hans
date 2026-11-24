@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # [!UICONTROL Catalog]菜单
@@ -76,5 +76,3 @@ ht-degree: 0%
 仅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="仅适用于云项目（Adobe管理的PaaS基础架构）和内部部署项目上的Adobe Commerce 。"}
 
 使用[目录扩充](catalog-enrichment.md)审阅并将AI建议的改进应用于产品名称和长描述，以便在LLM和AI辅助的发现中准确表示您的目录。
-
-![目录扩充](./assets/agentic-opportunities.png)

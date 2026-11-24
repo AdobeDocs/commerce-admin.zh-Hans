@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理员文档](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Source是Adobe正式提供的代码库，用于确保与Adobe Comme
        <img alt="促销和促销" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>促销活动</strong></a>
     <div><em>创建有针对性的促销活动和客户参与机会，将购物者转化为购买者。 通过支持购买后活动并向回头客户提供特别折扣来管理客户关系。 了解支持您的SEO计划的最佳实践和技术。</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="AI产品发现" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI产品发现</strong></a>
+    <div><em>了解[!DNL Adobe Commerce]目录扩充和PDP扩充如何解决结构化产品数据和以购物者为中心的副本中的缺口，以便发现AI产品。</em></div>
   </td>
 </tr>
 <tr>

@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # 目录扩充
@@ -130,7 +130,9 @@ ht-degree: 0%
 
 安装目录扩充和目录服务扩充后，管理员可在&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下使用目录扩充功能。
 
-![目录扩充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]**&#x200B;菜单也列出了&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**。 产品详细信息页面扩充为测试版，尚未正式发布。
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Commerce Configuration]**&#x200B;中，展开标记为其URL的存储区视图面板。
 
    提供您的[!DNL Adobe Commerce]环境详细信息以启用目录Adobe Brand Visibility服务和审核工作流。
-
-   “目录扩充设置”选项卡上的![Commerce配置](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 输入商店视图所需的连接详细信息。
 
@@ -187,8 +187,6 @@ ht-degree: 0%
 - **[!UICONTROL Fixed Suggestions]**：已应用或解析的项。
 - **[!UICONTROL Ignored Suggestions]**：您特意从操作中排除的项目。
 
-![目录扩充](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 部署已批准的建议 {#review-deploy-catalog}
 
 要部署已批准的建议，请执行以下操作：
@@ -221,8 +219,6 @@ ht-degree: 0%
 
    产品表单显示扩充的产品名称和/或描述。
 
-   ![扩充的产品名称](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. 可选：如果要保留手动输入的名称，请选择&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
    手动覆盖会影响建议如何与目录保持同步。 有关详细信息，请参阅管理员中的[手动覆盖](#manual-override-in-the-admin)。
@@ -230,8 +226,6 @@ ht-degree: 0%
 1. 展开&#x200B;**[!UICONTROL Content]**&#x200B;部分并找到描述字段。
 
    在您应用说明更改后，即会显示扩充说明。
-
-   ![扩充产品说明](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 可选：如果要保留手动输入的描述，请选择&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 
