@@ -4,7 +4,7 @@ description: 使用[!DNL Adobe Commerce]产品详细信息页面扩充功能查�
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 查看建议并选择要优化的产品页后，单击&#x200B;**部署优化**&#x200B;以使用Edge中的优化发布扩充。 **部署到Edge**&#x200B;确认对话框将显示所选产品URL、优化类型和正在应用的扩充。 部署后，确认屏幕会确认哪些产品页面已成功优化。
 
-优化通过[在Edge中优化](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)专门交付给AI用户代理。 人类访客会继续像之前一样看到您现有的店面体验，而不会更改您的PDP设计、页面性能或品牌体验。
+优化通过[在Edge中优化](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)专门交付给AI用户代理。 人类访客会继续像之前一样看到您现有的店面体验，而不会更改您的PDP设计、页面性能或品牌体验。
 
 ## 限制和注意事项 {#limits}
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 - 扩充整理目录中已经存在的事实；不添加新的产品信息。
 - PDP扩充工作流不会更改店面。
 - PDP扩充作业和目录扩充作业具有不同的目的和工作流。
-- PDP优化使用[在Edge中优化](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) 。
+- PDP优化使用[在Edge中优化](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) 。
 
 ## 最佳实践 {#best-practices}
 
