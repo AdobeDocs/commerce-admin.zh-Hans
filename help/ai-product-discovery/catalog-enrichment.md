@@ -76,7 +76,7 @@ ht-degree: 0%
 
 - 使用&#x200B;**[!UICONTROL Optimizations]**&#x200B;选项卡可查看基于代理流量的发现信号和管理扩充作业。
 - 使用&#x200B;**[!UICONTROL Brand Governance]**&#x200B;选项卡[定义[!DNL Commerce Catalog Agent]生成的产品名称和说明的要求](brand-governance.md)。
-- 使用&#x200B;**[!UICONTROL Settings]**&#x200B;选项卡将Commerce实例](settings.md)连接到AI产品发现。[
+- 使用&#x200B;**[!UICONTROL Settings]**&#x200B;选项卡将Commerce实例[&#128279;](settings.md)连接到AI产品发现。
 
 该共享扩展还支持PDP扩充，后者具有向AI代理公开结构化产品事实的独立工作流。 请参阅[产品详细信息页面扩充](pdp-enrichment.md)。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 - **展开行**&#x200B;以查看AI分析和建议的扩充。
 - **在申请之前编辑**&#x200B;建议的产品名称或描述，以符合您的品牌声音和促销准则。
-- 为要扩充的产品部署优化&#x200B;****，并将其直接发布到Adobe Commerce目录。
+- 为要扩充的产品部署优化&#x200B;**&#x200B;**，并将其直接发布到Adobe Commerce目录。
 - 在审核和应用扩充后&#x200B;**标记为已固定**。
 - **忽略**&#x200B;与您的目录策略无关的建议。
 

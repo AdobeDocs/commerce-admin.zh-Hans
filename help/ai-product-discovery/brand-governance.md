@@ -69,8 +69,8 @@ ht-degree: 1%
 1. 描述&#x200B;**品牌色调**。 请参阅[设置品牌调](#set-brand-tone)以获取指导。
 1. 设置必需和排除的短语
 
-   添加&#x200B;**[!UICONTROL Must include]**短语。
-   添加**[!UICONTROL Never use]**&#x200B;短语。
+   添加&#x200B;**[!UICONTROL Must include]**&#x200B;短语。
+   添加&#x200B;**[!UICONTROL Never use]**&#x200B;短语。
 
 1. 单击&#x200B;**[!UICONTROL Save as draft]**&#x200B;稍后完成，或单击&#x200B;**[!UICONTROL Publish rule]**&#x200B;以在创建目录扩充规则时可供选择规则。 单击&#x200B;**[!UICONTROL Cancel]**&#x200B;离开而不保存。
 
