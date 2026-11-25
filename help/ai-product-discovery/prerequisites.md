@@ -28,7 +28,7 @@ TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Com
 
 >[!BEGINTABS]
 
->云基础架构或内部部署上的[!TAB Commerce]
+>[!TAB 云基础架构或内部部署上的 Commerce]
 
 对于云基础结构或内部部署上的[!DNL Adobe Commerce]，请安装共享扩充扩展，该扩展支持目录扩充和PDP扩充。
 
@@ -80,7 +80,7 @@ TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Com
 
 对于[!DNL Adobe Commerce as a Cloud Service]，在帐户设置期间为您处理[!DNL Catalog Service]的安装、目录扩充和PDP扩充。
 
-完成所有部署](#all-deployments)的[要求，这些要求适用于您计划使用的工作流。
+完成所有部署[&#128279;](#all-deployments)的要求，这些要求适用于您计划使用的工作流。
 
 <!-- TBD (SME): Confirm whether merchants on Adobe Commerce as a Cloud Service should verify catalog data on the Data Management Dashboard, and whether the IMS and Admin Console requirements apply. -->
 
