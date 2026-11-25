@@ -2,9 +2,9 @@
 title: AI产品发现先决条件
 description: 查看目录扩充和PDP扩充要求，并将共享扩充扩展安装在云基础架构或内部部署上的Adobe Commerce上。
 role: Admin, Developer
-source-git-commit: 9e234eb68fe34171d9e5cf95e8cdab5c31825492
+source-git-commit: 591fca4f18862d289fb233997e8848cb4692d1e7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 ---
 # 先决条件
@@ -18,11 +18,10 @@ ht-degree: 0%
 | 在Edge进行优化 | PDP扩充 | 必需。 Edge中的优化可将扩充的产品数据交付给AI代理。 请参阅[Edge优化指南](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)。 |
 | 日志转发 | 两个工作流 | 可选。 根据代理流量启用扩充推荐。 如果没有它，您仍然可以手动选择产品或产品页面。 请参阅[日志转发指南](https://experienceleague.adobe.com/zh-hans/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。 |
 | 可爬网店面 | 目录扩充 | 对于基于抓取的建议，此为必需字段。 面向LLM和代理的机器人必须能够访问您的产品页面。 |
-| [!DNL Adobe Admin Console]访问权限 | 目录扩充 | 必需。 在安装期间，[!DNL Adobe Commerce]检查您的组织是否已签署GenAI骑士或选择退出基础人工智能服务。 |
+| [!DNL Adobe Admin Console]访问权限 | 两个工作流 | 必需。 在安装期间，[!DNL Adobe Commerce]检查您组织的GenAI骑士状态。 除非您的组织选择退出GenAI搭乘者，否则您具有访问权限。 |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## 设置您的Commerce平台 {#set-up}
