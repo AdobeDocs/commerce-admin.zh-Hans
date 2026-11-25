@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ ht-degree: 3%
 | 字段 | [作用域](../../getting-started/websites-stores-views.md#scope-settings) | 描述 |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 网站 | 确定您商店的访客是可以选择为公司帐户还是个人帐户[注册](../../customers/customer-sign-in.md)。 选项： `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | 网站 | 确定店面注册期间`createCompany`GraphQL突变是否接受公司配置，包括公司通讯簿设置。 当&#x200B;**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;设置为`Yes`时，此选项可用。 它不会为每个公司启用通讯簿。 选项： `Yes` / `No` （默认） |
 
 {style="table-layout:auto"}
 
