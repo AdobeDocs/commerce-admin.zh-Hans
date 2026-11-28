@@ -18,7 +18,7 @@ ht-degree: 10%
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/guide-overview)
 - [使用CCDM的促销服务](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [促销和促销](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/guide-overview)
-- [AI产品发现](https://experienceleague.adobe.com/en/docs/commerce-admin/ai-product-discovery/guide-overview)
+- [AI产品发现](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/ai-product-discovery/guide-overview)
 - [内容和设计](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/page-builder/guide-overview)
 - [客户管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/customers/guide-overview)
